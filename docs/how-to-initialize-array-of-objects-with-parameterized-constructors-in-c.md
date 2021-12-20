@@ -1,4 +1,4 @@
-# 如何在 C++中用参数化构造函数初始化对象数组
+# 如何在 C++ 中用参数化构造函数初始化对象数组
 
 > 原文:[https://www . geeksforgeeks . org/如何使用参数化构造函数初始化对象数组/](https://www.geeksforgeeks.org/how-to-initialize-array-of-objects-with-parameterized-constructors-in-c/)
 
@@ -51,7 +51,7 @@ int main()
 }
 ```
 
-2.**使用**[**malloc()**](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)**:**为了避免调用非参数化的构造函数，使用 malloc()方法。C++中的“malloc”或“内存分配”方法用于动态分配指定大小的单个大内存块。它返回一个 void 类型的指针，该指针可以转换成任何形式的指针。
+2.**使用**[**malloc()**](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)**:**为了避免调用非参数化的构造函数，使用 malloc()方法。C++ 中的“malloc”或“内存分配”方法用于动态分配指定大小的单个大内存块。它返回一个 void 类型的指针，该指针可以转换成任何形式的指针。
 
 ## C++
 

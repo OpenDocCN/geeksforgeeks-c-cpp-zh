@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/forward_listoperator-c-stl/](https://www.geeksforgeeks.org/forward_listoperator-c-stl/)
 
-[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++11 引入的，对于插入、移除和移动操作(如排序)比其他容器更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素。
+[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++ 11 引入的，对于插入、移除和移动操作(如排序)比其他容器更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素。
 
 **forward_list::operator=**
 
@@ -54,7 +54,7 @@ int main()
     forward_list<int> myflist2{ 3, 2, 1, 4 };
     myflist1 = myflist2;
     cout << "myflist1 = ";
-    for (auto it = myflist1.begin(); it != myflist1.end(); ++it)
+    for (auto it = myflist1.begin(); it != myflist1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

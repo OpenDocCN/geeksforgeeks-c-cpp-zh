@@ -1,8 +1,8 @@
-# OpenCV C++程序模糊视频
+# OpenCV C++ 程序模糊视频
 
 > 原文:[https://www . geesforgeks . org/opencv-c-plus-plus-program-to-blur-a-video/](https://www.geeksforgeeks.org/opencv-c-plus-plus-program-to-blur-a-video/)
 
-以下是对 C++代码的解释，使用 OpenCV 工具在 C++中模糊视频。
+以下是对 C++ 代码的解释，使用 OpenCV 工具在 C++ 中模糊视频。
 
 **要知道的事情:**
 
@@ -85,6 +85,6 @@ return 0;
 
 关于作者:
 
-阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](http://d1gjlxt8vb0knt.cloudfront.net//wp-content/uploads/Aditya-100x100.jpg)的本科生。他主要用 C++编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
+阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](http://d1gjlxt8vb0knt.cloudfront.net//wp-content/uploads/Aditya-100x100.jpg)的本科生。他主要用 C++ 编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
 
 **如果你也想在这里展示你的博客，请查看[博客](http://geeksquiz.com/gblog/)在极客博客上的客座博文。**

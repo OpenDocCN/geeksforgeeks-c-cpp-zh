@@ -6,9 +6,9 @@
 
 **程序 1:**
 
-下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)来声明一个 10 <sup>7</sup> 大小的全局 1D [数组](https://www.geeksforgeeks.org/introduction-to-arrays/):
+下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)来声明一个 10 <sup>7</sup> 大小的全局 1D [数组](https://www.geeksforgeeks.org/introduction-to-arrays/):
 
-T8】c++T10
+T8】c++ T10
 
 ```cpp
 // C++ program to declare the array
@@ -26,7 +26,7 @@ int a[N];
 // Driver Code
 int main()
 {
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++ i) {
         a[i] = i;
     }
     cout << a[N - 1];

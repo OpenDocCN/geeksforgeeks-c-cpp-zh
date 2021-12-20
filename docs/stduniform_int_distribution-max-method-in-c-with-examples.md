@@ -1,8 +1,8 @@
-# STD::uniform _ int _ distribution max()方法在 C++中有示例
+# STD::uniform _ int _ distribution max()方法在 C++ 中有示例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ int _ distribution-max-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_int_distribution-max-method-in-c-with-examples/)
 
-C++中 **uniform_int_distribution 类**的 **max()** 方法用来得到这个 uniform_int_distribution 可以生成的最大可能值。
+C++ 中 **uniform_int_distribution 类**的 **max()** 方法用来得到这个 uniform_int_distribution 可以生成的最大可能值。
 
 **语法:**
 

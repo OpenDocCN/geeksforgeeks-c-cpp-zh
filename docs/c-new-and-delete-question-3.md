@@ -30,6 +30,6 @@ int main()
 
 **说明:**存在编译器错误:Test::Test()为私有。
 
-new 调用构造函数。在 Test 类中，构造函数是私有的(注意在 C++中默认访问是私有的)。
+new 调用构造函数。在 Test 类中，构造函数是私有的(注意在 C++ 中默认访问是私有的)。
 
 [本题小考](https://www.geeksforgeeks.org/quiz-corner-gq/)

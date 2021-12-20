@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/exp-function-cpp/](https://www.geeksforgeeks.org/exp-function-cpp/)
 
-C++中的 **exp()** 函数返回给定参数的指数([欧拉数](https://en.wikipedia.org/wiki/E_(mathematical_constant)) ) e(或 2.71828)。
+C++ 中的 **exp()** 函数返回给定参数的指数([欧拉数](https://en.wikipedia.org/wiki/E_(mathematical_constant)) ) e(或 2.71828)。
 
 > *返回指数 e 的语法:
 > 结果=exp()*

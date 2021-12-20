@@ -1,4 +1,4 @@
-# 在 C++中使用 STL 处理数组和向量
+# 在 C++ 中使用 STL 处理数组和向量
 
 > 原文:[https://www . geeksforgeeks . org/使用-stl-in-c/](https://www.geeksforgeeks.org/working-with-array-and-vectors-using-stl-in-c/) 处理数组和向量
 

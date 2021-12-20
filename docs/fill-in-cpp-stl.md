@@ -62,7 +62,7 @@ int main()
 
 ```
 
-用 C++填充[列表](https://www.geeksforgeeks.org/list-cpp-stl/)。
+用 C++ 填充[列表](https://www.geeksforgeeks.org/list-cpp-stl/)。
 
 ```cpp
 // C++ program to demonstrate working of fill()

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/nested-list-in-c-stl/](https://www.geeksforgeeks.org/nested-list-in-c-stl/)
 
-STL 中的[列表](https://www.geeksforgeeks.org/list-cpp-stl/)用于表示 C++中的链表。如何创建嵌套列表？给我们 n 个列表，我们需要创建 n 个列表的列表。
+STL 中的[列表](https://www.geeksforgeeks.org/list-cpp-stl/)用于表示 C++ 中的链表。如何创建嵌套列表？给我们 n 个列表，我们需要创建 n 个列表的列表。
 
 示例:
 
@@ -48,7 +48,7 @@ void printNestedList(list<list<int> > nested_list)
     // Print the nested_list
     for (nested_list_itr = nested_list.begin();
          nested_list_itr != nested_list.end();
-         ++nested_list_itr) {
+         ++ nested_list_itr) {
 
         cout << "  [";
 

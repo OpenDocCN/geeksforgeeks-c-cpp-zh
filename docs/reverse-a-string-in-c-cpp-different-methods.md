@@ -1,8 +1,8 @@
-# 在 C/C++中反转字符串的不同方法
+# 在 C/C++ 中反转字符串的不同方法
 
 > 原文:[https://www . geesforgeks . org/reverse-a-string-in-c-CPP-differential-methods/](https://www.geeksforgeeks.org/reverse-a-string-in-c-cpp-different-methods/)
 
-给定一个字符串，编写一个 C/C++程序来反转它。
+给定一个字符串，编写一个 C/C++ 程序来反转它。
 
 ![string-reverse](img/cae5a93160f0bfede3e4c4695e484c6f.png)
 

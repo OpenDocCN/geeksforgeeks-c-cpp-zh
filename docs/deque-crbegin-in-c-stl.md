@@ -19,7 +19,7 @@ dequename.crbegin()
 
 > 给定一个以递增顺序排列的数字，以非递增顺序打印它们。
 > **输入:**德格{1，2，3，4，5，6 }；
-> **为(auto reverse it = deque . crbegin()；逆转！= deque . crend()；++reverse it)
+> **为(auto reverse it = deque . crbegin()；逆转！= deque . crend()；++ reverse it)
 > cout<<' '<<* reverse it；**
 > **输出** : 6 5 4 3 2 1
 
@@ -38,7 +38,7 @@ int main()
     // Print the deque backwards using crbegin and crend
     cout << "Printing the numdeque backwards:";
 
-    for (auto rit = numdeque.crbegin(); rit != numdeque.crend(); ++rit)
+    for (auto rit = numdeque.crbegin(); rit != numdeque.crend(); ++ rit)
         cout << ' ' << *rit;
 
     return 0;
@@ -67,7 +67,7 @@ int main()
     // Print the deque backwards using crbegin and crend
     cout << "Printing the numdeque backwards:";
 
-    for (auto rit = numdeque.crbegin(); rit != numdeque.crend(); ++rit)
+    for (auto rit = numdeque.crbegin(); rit != numdeque.crend(); ++ rit)
          *rit = 10;
 
     return 0;

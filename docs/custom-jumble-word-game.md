@@ -26,7 +26,7 @@
 **方法:**思路是使用[文件处理](https://www.geeksforgeeks.org/tag/c-file-handling/)的概念和一个包含所有有意义单词的文本文件(比如 **words.txt** )。以下是步骤:
 
 1.  [给定字符串排序](https://www.geeksforgeeks.org/sort-string-characters/)。
-2.  打开**word . txt**文件使用文件处理 **ifstream** 到[在 C++中读取文件为:
+2.  打开**word . txt**文件使用文件处理 **ifstream** 到[在 C++ 中读取文件为:
 
     > if stream word(【word。txt ")；
     > 

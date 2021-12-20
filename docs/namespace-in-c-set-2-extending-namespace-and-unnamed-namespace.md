@@ -1,10 +1,10 @@
-# c++中的命名空间|集合 2(扩展命名空间和未命名的命名空间)
+# c++ 中的命名空间|集合 2(扩展命名空间和未命名的命名空间)
 
 > 原文:[https://www . geesforgeks . org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
 
 我们已经在下面的集合 1 中引入了名称空间。
 
-[c++中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
+[c++ 中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
 
 也可以在全局空间中创建多个名称空间。这可以通过两种方式实现。
 

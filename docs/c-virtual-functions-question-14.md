@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-virtual-functions-question-14/](https://www.geeksforgeeks.org/c-virtual-functions-question-14/)
 
-预测后续 C++程序的输出
+预测后续 C++ 程序的输出
 
 ```cpp
 #include<iostream>

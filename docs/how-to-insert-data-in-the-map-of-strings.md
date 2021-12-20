@@ -10,7 +10,7 @@
 map<data type of key, data type of value> M
 ```
 
-要在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中对地图使用上述语法，必须包含以下头文件:
+要在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中对地图使用上述语法，必须包含以下头文件:
 **头文件:**
 
 ```cpp
@@ -59,7 +59,7 @@ int main()
     // Print the elements stored
     // in the map
     for (auto itr = m.begin();
-         itr != m.end(); ++itr) {
+         itr != m.end(); ++ itr) {
         cout << itr->first << '\t'
              << itr->second << '\n';
     }
@@ -123,7 +123,7 @@ int main()
     cout << "KEY\tELEMENT\n";
 
     for (auto itr = mp.begin();
-         itr != mp.end(); ++itr) {
+         itr != mp.end(); ++ itr) {
         cout << itr->first << '\t'
              << itr->second << '\n';
     }

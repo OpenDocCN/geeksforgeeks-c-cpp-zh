@@ -1,4 +1,4 @@
-# 侵蚀和膨胀| c++中 OpenCV 的形态转换
+# 侵蚀和膨胀| c++ 中 OpenCV 的形态转换
 
 > 原文:[https://www . geeksforgeeks . org/侵蚀-扩张-形态-转化-in-opencv-in-cpp/](https://www.geeksforgeeks.org/erosion-and-dilation-morphological-transformations-in-opencv-in-cpp/)
 
@@ -62,7 +62,7 @@
 
 **返回值:**输出图像(Mat 对象)
 
-下面是实现上述概念的 C++程序:
+下面是实现上述概念的 C++ 程序:
 
 ## C++
 

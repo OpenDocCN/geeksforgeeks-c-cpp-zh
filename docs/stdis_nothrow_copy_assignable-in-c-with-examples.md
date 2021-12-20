@@ -1,4 +1,4 @@
-# STD::is _ northrow _ copy _ 可在 C++中赋值，示例
+# STD::is _ northrow _ copy _ 可在 C++ 中赋值，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ copy _ assigned-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_nothrow_copy_assignable-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_nothrow_copy_assignable< datatype >::value << '\n'
 *   **True:** If the given data type **t** is another distributable row copy.
 *   **false:** If the given data type **t** is not a copy of another line that can be allocated.
 
-下面是用 C++演示**STD::is _ northrow _ copy _ 可赋值**的程序:
+下面是用 C++ 演示**STD::is _ northrow _ copy _ 可赋值**的程序:
 
 **程序:**
 

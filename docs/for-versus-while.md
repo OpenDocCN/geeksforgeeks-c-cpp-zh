@@ -51,7 +51,7 @@ int main()
   {
     printf("loop"); /* printed infinite times */
     continue;
-    i++; /*This statement is never executed*/
+    i++ ; /*This statement is never executed*/
   } 
   getchar();
   return 0;

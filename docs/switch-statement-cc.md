@@ -1,4 +1,4 @@
-# C/c++中的开关语句
+# C/c++ 中的开关语句
 
 > 原文:[https://www.geeksforgeeks.org/switch-statement-cc/](https://www.geeksforgeeks.org/switch-statement-cc/)
 

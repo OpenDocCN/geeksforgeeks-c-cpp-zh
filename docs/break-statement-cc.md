@@ -1,8 +1,8 @@
-# C/c++中的 Break 语句
+# C/c++ 中的 Break 语句
 
 > 原文:[https://www.geeksforgeeks.org/break-statement-cc/](https://www.geeksforgeeks.org/break-statement-cc/)
 
-C 或 C++中的中断是用于终止循环的循环控制语句。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
+C 或 C++ 中的中断是用于终止循环的循环控制语句。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
 **语法:**
 
 ```cpp
@@ -266,7 +266,7 @@ Element found at position: 3
         // infinite while loop
         while (1) {
             printf("%d ", i);
-            i++;
+            i++ ;
         }
 
         return 0;
@@ -290,7 +290,7 @@ Element found at position: 3
         // infinite while loop
         while (1) {
             cout << i << " ";
-            i++;
+            i++ ;
         }
 
         return 0;
@@ -319,7 +319,7 @@ Element found at position: 3
                 break;
 
             printf("%d ", i);
-            i++;
+            i++ ;
         }
 
         return 0;
@@ -346,7 +346,7 @@ Element found at position: 3
                 break;
 
             cout << i << " ";
-            i++;
+            i++ ;
         }
 
         return 0;

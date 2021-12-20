@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/sizeof-operator-c/](https://www.geeksforgeeks.org/sizeof-operator-c/)
 
-***Sizeof*** 是 [C 或 C++](https://www.geeksforgeeks.org/c-programming-language/) 中一个常用的运算符。这是一个编译时一元运算符，可用于计算其操作数的大小。sizeof 的结果是无符号整数类型，通常用 size_t 表示。sizeof 可以应用于任何数据类型，包括整型和浮点型等基元类型、指针类型或结构、联合等复合数据类型。
+***Sizeof*** 是 [C 或 C++ ](https://www.geeksforgeeks.org/c-programming-language/) 中一个常用的运算符。这是一个编译时一元运算符，可用于计算其操作数的大小。sizeof 的结果是无符号整数类型，通常用 size_t 表示。sizeof 可以应用于任何数据类型，包括整型和浮点型等基元类型、指针类型或结构、联合等复合数据类型。
 **用法**
 *sizeof()* 运算符根据操作数类型使用方式不同。
 

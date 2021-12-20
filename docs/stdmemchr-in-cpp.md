@@ -1,8 +1,8 @@
-# 标准::C++中的 mem chr
+# 标准::C++ 中的 mem chr
 
 > 原文:[https://www.geeksforgeeks.org/stdmemchr-in-cpp/](https://www.geeksforgeeks.org/stdmemchr-in-cpp/)
 
-C++提供了各种要使用的标准模板库。其中一个是 memchr()函数，它将在指定数量的字符中搜索第一个出现的字符。
+C++ 提供了各种要使用的标准模板库。其中一个是 memchr()函数，它将在指定数量的字符中搜索第一个出现的字符。
 **模板**
 
 ```cpp

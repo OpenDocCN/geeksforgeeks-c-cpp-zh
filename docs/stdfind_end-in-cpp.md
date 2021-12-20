@@ -1,4 +1,4 @@
-# STD::c++中的 find _ end
+# STD::c++ 中的 find _ end
 
 > 原文:[https://www.geeksforgeeks.org/stdfind_end-in-cpp/](https://www.geeksforgeeks.org/stdfind_end-in-cpp/)
 

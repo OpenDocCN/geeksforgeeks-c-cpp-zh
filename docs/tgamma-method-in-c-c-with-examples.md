@@ -1,8 +1,8 @@
-# C/c++中的 tgamma()方法，示例
+# C/c++ 中的 tgamma()方法，示例
 
 > 原文:[https://www . geesforgeks . org/tgamma-method-in-c-c-with-examples/](https://www.geeksforgeeks.org/tgamma-method-in-c-c-with-examples/)
 
-**tgamma()** 函数在 C 中的 [**math.h 头文件**](https://www.geeksforgeeks.org/c-library-math-h-functions/) 和 C++中的 [**cmath 库**](https://www.geeksforgeeks.org/c-mathematical-functions/) 中定义。此函数用于计算传递给函数的参数的 gamma 函数。
+**tgamma()** 函数在 C 中的 [**math.h 头文件**](https://www.geeksforgeeks.org/c-library-math-h-functions/) 和 C++ 中的 [**cmath 库**](https://www.geeksforgeeks.org/c-mathematical-functions/) 中定义。此函数用于计算传递给函数的参数的 gamma 函数。
 **语法:**
 
 ```cpp
@@ -28,7 +28,7 @@ long double tgamma(long double x);
 2.  **域/极点误差:**
     *   如果 x 是零或负整数，且函数是渐近的，则可能导致域误差或极点误差(或无误差，具体取决于实现方式)。
 
-以下示例演示了 tgamma()函数在 C/C++中的使用:
+以下示例演示了 tgamma()函数在 C/C++ 中的使用:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

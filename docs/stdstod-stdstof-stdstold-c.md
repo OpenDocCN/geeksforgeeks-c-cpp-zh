@@ -1,4 +1,4 @@
-# std::stod，std::stof，std::stold 在 C++中
+# std::stod，std::stof，std::stold 在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/](https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/)
 

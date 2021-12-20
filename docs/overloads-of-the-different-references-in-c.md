@@ -1,4 +1,4 @@
-# c++中不同引用的重载
+# c++ 中不同引用的重载
 
 > 原文:[https://www . geesforgeks . org/overloads-of-the-different-references-in-c/](https://www.geeksforgeeks.org/overloads-of-the-different-references-in-c/)
 
@@ -11,12 +11,12 @@
 *   [移动语义–STD::Move()](https://www.geeksforgeeks.org/stdmove-in-utility-in-c-move-semantics-move-constructors-and-move-assignment-operators/)。
 
 **概述:**
-l 值指的是识别一个对象的内存位置。r-value 指的是存储在内存中某个地址的数据值。[c++中的引用](https://www.geeksforgeeks.org/references-in-c/)只不过是已经存在的变量的替代。它们是使用变量名称前的“&”声明的。右值引用是现代 C++兴起以来(即 [C++11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 之后)增加的。
+l 值指的是识别一个对象的内存位置。r-value 指的是存储在内存中某个地址的数据值。[c++ 中的引用](https://www.geeksforgeeks.org/references-in-c/)只不过是已经存在的变量的替代。它们是使用变量名称前的“&”声明的。右值引用是现代 C++ 兴起以来(即 [C++ 11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 之后)增加的。
 因此，现在有三个[参考呼叫](https://www.geeksforgeeks.org/difference-between-call-by-value-and-call-by-reference/)选项-
 
 1.  通过指针。
 2.  通过使用左值(普通)引用。
-3.  通过使用右值引用(在 C++11 中首次引入)。
+3.  通过使用右值引用(在 C++ 11 中首次引入)。
 
 这里只显示左值和右值引用的所有可能重载。
 
@@ -42,9 +42,9 @@ l 值指的是识别一个对象的内存位置。r-value 指的是存储在内�
 *   可以根据函数签名传递的变量/对象的类型(参见下面的程序)-
     1.  只有命名的可修改对象。(以下程序中的案例 1)。
 
-下面是实现上述方法的 C++程序
+下面是实现上述方法的 C++ 程序
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement

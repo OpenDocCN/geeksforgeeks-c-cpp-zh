@@ -54,7 +54,7 @@ void printDiamond(int n)
             cout << "* ";
 
         cout << endl;
-        space++;
+        space++ ;
     }
 }
 
@@ -118,7 +118,7 @@ void printDiamond(int n)
             printf("* ");
 
         printf("\n");
-        space++;
+        space++ ;
     }
 }
 
@@ -181,7 +181,7 @@ class GFG
                 System.out.print("* ");
 
             System.out.print("\n");
-            space++;
+            space++ ;
         }
     }
 
@@ -293,7 +293,7 @@ class GFG
                 Console.Write("* ");
 
             Console.Write("\n");
-            space++;
+            space++ ;
         }
     }
 
@@ -360,7 +360,7 @@ function printDiamond($n)
             printf("* ");
 
         printf("\n");
-        $space++;
+        $space++ ;
     }
 }
 
@@ -412,7 +412,7 @@ function printDiamond($n)
           for (var j = 0; j < i; j++) document.write("*" + "  ");
 
           document.write("<br>");
-          space++;
+          space++ ;
         }
       }
 

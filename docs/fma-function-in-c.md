@@ -1,4 +1,4 @@
-# c++中的 fma()函数
+# c++ 中的 fma()函数
 
 > 原文:[https://www.geeksforgeeks.org/fma-function-in-c/](https://www.geeksforgeeks.org/fma-function-in-c/)
 
@@ -26,7 +26,7 @@ float fma(float a, float b, float c)
 
 **返回:**fma()函数返回*b+c。
 
-下面的程序说明了 C++中的 fma()函数:
+下面的程序说明了 C++ 中的 fma()函数:
 
 **程序 1:**
 

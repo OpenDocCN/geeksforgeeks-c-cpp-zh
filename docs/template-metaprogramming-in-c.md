@@ -1,8 +1,8 @@
-# c++中的模板元编程
+# c++ 中的模板元编程
 
 > 原文:[https://www . geesforgeks . org/template-meta programming-in-c/](https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

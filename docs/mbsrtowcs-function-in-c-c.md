@@ -1,8 +1,8 @@
-# mbsrtowcs()函数在 C/C++中
+# mbsrtowcs()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/mbsrtowcs-function-in-c-c/](https://www.geeksforgeeks.org/mbsrtowcs-function-in-c-c/)
 
-C/C++中的 **mbsrtowcs(** )函数将窄的多字节字符序列转换为宽的字符序列。它将第一个字节由 ***src** 表示的多字节字符串转换为相应的宽字符表示，并存储在由 **dest** 指向的宽字符数组中。最大 **len** 宽字符被写入 **dest** 。
+C/C++ 中的 **mbsrtowcs(** )函数将窄的多字节字符序列转换为宽的字符序列。它将第一个字节由 ***src** 表示的多字节字符串转换为相应的宽字符表示，并存储在由 **dest** 指向的宽字符数组中。最大 **len** 宽字符被写入 **dest** 。
 
 **语法:**
 

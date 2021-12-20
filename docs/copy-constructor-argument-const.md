@@ -1,9 +1,9 @@
-# 为什么 C++中复制构造函数参数应该是 const？
+# 为什么 C++ 中复制构造函数参数应该是 const？
 
 > 原文:[https://www . geesforgeks . org/copy-constructor-argument-const/](https://www.geeksforgeeks.org/copy-constructor-argument-const/)
 
 当我们创建自己的复制构造函数时，我们通过引用传递一个对象，我们通常将其作为常量引用传递。
-传递 const 引用的一个原因是，我们应该尽可能在 C++中使用 const，这样对象就不会被意外修改。这是将引用作为常量传递的一个很好的理由，但还有更多。比如预测下面 C++程序的输出。假设[复制省略](https://www.geeksforgeeks.org/copy-elision-in-c/)不是由编译器完成的。
+传递 const 引用的一个原因是，我们应该尽可能在 C++ 中使用 const，这样对象就不会被意外修改。这是将引用作为常量传递的一个很好的理由，但还有更多。比如预测下面 C++ 程序的输出。假设[复制省略](https://www.geeksforgeeks.org/copy-elision-in-c/)不是由编译器完成的。
 
 ```cpp
 #include<iostream>

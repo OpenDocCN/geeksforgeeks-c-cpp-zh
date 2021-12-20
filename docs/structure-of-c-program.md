@@ -1,8 +1,8 @@
-# c++程序的结构
+# c++ 程序的结构
 
 > 原文:[https://www.geeksforgeeks.org/structure-of-c-program/](https://www.geeksforgeeks.org/structure-of-c-program/)
 
-[C++程序](https://www.geeksforgeeks.org/c-plus-plus/)是使用特定的[模板结构](https://www.geeksforgeeks.org/templates-cpp/)编写的。用 C++语言编写的程序结构如下:
+[C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)是使用特定的[模板结构](https://www.geeksforgeeks.org/templates-cpp/)编写的。用 C++ 语言编写的程序结构如下:
 
 [![](img/59803fe71385dae99b967eea4cbc9f2f.png)](https://media.geeksforgeeks.org/wp-content/uploads/20201028224032/BasicStructureOfCProgram.png)
 
@@ -33,7 +33,7 @@
 
 **<u>头文件</u> :**
 
-*   一般来说，程序包括各种编程元素，如[内置函数](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)、类、关键字、[常量](https://www.geeksforgeeks.org/constants-in-c-cpp/)、[运算符](https://www.geeksforgeeks.org/interesting-facts-bitwise-operators-c/)等。已经在标准的 [C++库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中定义了。
+*   一般来说，程序包括各种编程元素，如[内置函数](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)、类、关键字、[常量](https://www.geeksforgeeks.org/constants-in-c-cpp/)、[运算符](https://www.geeksforgeeks.org/interesting-facts-bitwise-operators-c/)等。已经在标准的 [C++ 库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中定义了。
 *   为了在程序中使用这样的预定义元素，程序中必须包含一个适当的头。
 *   通过[预处理器指令<u>#包括</u>](https://www.geeksforgeeks.org/cc-preprocessors/) 在程序中指定标准头。在图中，使用了 iostream 头。当编译器处理指令 <u>#include < iostream ></u> 时，它将该流的内容包含在程序中。这使得程序员能够使用仅通过< iostream >中定义的标准流提供的标准输入、输出和错误工具。这些标准流将数据作为字符流进行处理，也就是说，数据以连续的流进行读取和显示。这里列出了< iostream >中定义的标准流。
 
@@ -41,7 +41,7 @@
 
 **<u>命名空间</u> :**
 
-*   命名空间允许对各种实体进行分组，如类、[对象、](https://www.geeksforgeeks.org/c-classes-and-objects/)[函数和各种](https://www.geeksforgeeks.org/functions-in-c/) [C++标记等。用一个名字。](https://www.geeksforgeeks.org/cc-tokens/)
+*   命名空间允许对各种实体进行分组，如类、[对象、](https://www.geeksforgeeks.org/c-classes-and-objects/)[函数和各种](https://www.geeksforgeeks.org/functions-in-c/) [C++ 标记等。用一个名字。](https://www.geeksforgeeks.org/cc-tokens/)
 *   任何用户都可以创建自己独立的名称空间，并且可以在任何其他程序中使用它们。
 *   在下面的片段中， [**命名空间标准**](https://www.geeksforgeeks.org/using-namespace-std-considered-bad-practice/) 包含对 [cout](https://www.geeksforgeeks.org/difference-between-cout-and-stdcout-in-c/) 、cin、 [endl](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/) 等的声明。陈述。
 

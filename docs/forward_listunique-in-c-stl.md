@@ -41,7 +41,7 @@ int main()
     cout << "List of elements before unique operation is: ";
 
     // starts from the first element of the list to the last
-    for (auto it = list.begin(); it != list.end(); ++it)
+    for (auto it = list.begin(); it != list.end(); ++ it)
         cout << *it << " ";
 
     // unique operation on forward list
@@ -49,7 +49,7 @@ int main()
     cout << "\nList of elements after unique operation is: ";
 
     // starts from the first element of the list to the last
-    for (auto it = list.begin(); it != list.end(); ++it)
+    for (auto it = list.begin(); it != list.end(); ++ it)
         cout << *it << " ";
 
     return 0;

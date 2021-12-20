@@ -1,4 +1,4 @@
-# c++中的结构排序(按多个规则)
+# c++ 中的结构排序(按多个规则)
 
 > 原文:[https://www.geeksforgeeks.org/structure-sorting-in-c/](https://www.geeksforgeeks.org/structure-sorting-in-c/)
 

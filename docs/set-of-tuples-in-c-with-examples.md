@@ -1,4 +1,4 @@
-# c++中元组集，示例
+# c++ 中元组集，示例
 
 > 原文:[https://www . geeksforgeeks . org/带示例的 c 元组集/](https://www.geeksforgeeks.org/set-of-tuples-in-c-with-examples/)
 
@@ -19,7 +19,7 @@
 **4。**[**<u>max _ size()</u>:**](https://www.geeksforgeeks.org/set-max_size-function-in-c-stl/)返回集合可以容纳的最大元素数。
 **5。** [**<u>空()</u>**](https://www.geeksforgeeks.org/setempty-c-stl/) **:返回集合是否为空。****
 
-在实现复杂的数据结构时，一组元组可能非常有用。下面是实现上述方法的 C++程序-
+在实现复杂的数据结构时，一组元组可能非常有用。下面是实现上述方法的 C++ 程序-
 
 ## C++
 
@@ -98,7 +98,7 @@ int main()
 默认情况下，元组在集合中以非降序排列，并遵循以下逻辑:
 在集合中，如果两个元组的第一个值相等，则比较元组的第二个值，如果它也相等，则比较第三个值。但是总是有可能将比较器传递给集合。
 
-下面是实现上述方法的 C++程序
+下面是实现上述方法的 C++ 程序
 
 ## C++
 

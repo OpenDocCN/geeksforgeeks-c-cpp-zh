@@ -1,4 +1,4 @@
-# c++中非递增向量的上界和下界
+# c++ 中非递增向量的上界和下界
 
 > 原文:[https://www . geeksforgeeks . org/c 中非递增向量的上限和下限/](https://www.geeksforgeeks.org/upper_bound-and-lower_bound-for-non-increasing-vector-in-c/)
 

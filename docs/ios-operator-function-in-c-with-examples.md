@@ -1,8 +1,8 @@
-# ios 操作员！()函数在 C++中的使用示例
+# ios 操作员！()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/IOs-operator-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-operator-function-in-c-with-examples/)
 
-**符！()**方法中的 **ios 类**在 C++中被用来对此流的任何错误标志进行设置。这包括故障位或坏位。
+**符！()**方法中的 **ios 类**在 C++ 中被用来对此流的任何错误标志进行设置。这包括故障位或坏位。
 
 **语法:**
 

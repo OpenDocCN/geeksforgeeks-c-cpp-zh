@@ -1,4 +1,4 @@
-# 在 C++图形中画一个三角形
+# 在 C++ 图形中画一个三角形
 
 > 原文:[https://www . geesforgeks . org/draw-a-triangle-in-c-graphics/](https://www.geeksforgeeks.org/draw-a-triangle-in-c-graphics/)
 

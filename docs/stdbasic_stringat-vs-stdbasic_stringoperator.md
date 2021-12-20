@@ -8,7 +8,7 @@ at()和 operator[]都可以用来访问字符串中的元素。但是当 pos > =
 *   std::basic_string::at 抛出 **std::超出范围**如果 **pos > = size()** 。
 *   std::bsic_string::operator[]抛出**无异常**并产生**未定义结果**。
 
-下面是 C++实现，显示了 STD::basic _ string::at–
+下面是 C++ 实现，显示了 STD::basic _ string::at–
 的异常处理属性
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
@@ -48,7 +48,7 @@ Exception caught
 basic_string::at: __n (which is 13) >= this->size() (which is 13)
 ```
 
-下面是 C++实现，显示了 STD::basic _ string::operator[]–
+下面是 C++ 实现，显示了 STD::basic _ string::operator[]–
 中的无边界检查
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

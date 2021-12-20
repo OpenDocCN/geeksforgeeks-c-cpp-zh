@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/using-range-switch-case-cc/](https://www.geeksforgeeks.org/using-range-switch-case-cc/)
 
-大家都很熟悉 C/C++中的[开关格](https://www.geeksforgeeks.org/switch-statement-cc/)，但是你知道**在 case 语句中可以用数字范围**代替单个数字或字符。
+大家都很熟悉 C/C++ 中的[开关格](https://www.geeksforgeeks.org/switch-statement-cc/)，但是你知道**在 case 语句中可以用数字范围**代替单个数字或字符。
 
 *   这是 GNU C 编译器的用例范围扩展，而不是标准的 C 或 C++
 *   您可以在单个案例标签中指定连续值的范围，如下所示:

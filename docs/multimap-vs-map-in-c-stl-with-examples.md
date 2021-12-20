@@ -34,7 +34,7 @@ int main()
     map<int, int>::iterator itr;
     cout << "\nThe map gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr) {
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -47,7 +47,7 @@ int main()
     cout << "\nThe map gquiz2 after"
          << " assign from gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -59,7 +59,7 @@ int main()
             " elements less than key=3 : \n";
     cout << "\tKEY\tELEMENT\n";
     gquiz2.erase(gquiz2.begin(), gquiz2.find(3));
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -70,7 +70,7 @@ int main()
     cout << "\ngquiz2.erase(4) : ";
     cout << num << " removed \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -138,7 +138,7 @@ int main()
 
 <u>多重映射类似于映射，除此之外，多个元素可以有相同的键。此外，在这种情况下，不要求键值和映射值对必须是唯一的。关于 multimap 需要注意的一点是，multimap 始终保持所有键的排序顺序。multimap 的这些特性使得它在竞争性编程中非常有用。</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 #include <iostream>
@@ -163,7 +163,7 @@ int main()
     multimap<int, int>::iterator itr;
     cout << "\nThe multimap gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr) {
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -179,7 +179,7 @@ int main()
     cout << "\nThe multimap gquiz1 after"
          << " adding extra elements is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr) {
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -193,7 +193,7 @@ int main()
     cout << "\nThe multimap gquiz2 after"
          << " assign from gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -205,7 +205,7 @@ int main()
          << " elements less than key=3 : \n";
     cout << "\tKEY\tELEMENT\n";
     gquiz2.erase(gquiz2.begin(), gquiz2.find(3));
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -216,7 +216,7 @@ int main()
     cout << "\ngquiz2.erase(4) : ";
     cout << num << " removed \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }

@@ -1,4 +1,4 @@
-# c++中的天花板和地板功能
+# c++ 中的天花板和地板功能
 
 > 原文:[https://www.geeksforgeeks.org/ceil-floor-functions-cpp/](https://www.geeksforgeeks.org/ceil-floor-functions-cpp/)
 

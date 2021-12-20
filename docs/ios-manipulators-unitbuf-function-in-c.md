@@ -1,8 +1,8 @@
-# ios 操纵器 unitbuf()在 C++中的功能
+# ios 操纵器 unitbuf()在 C++ 中的功能
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-unitbuf-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-unitbuf-function-in-c/)
 
-C++中**流操纵器**的 **unitbuf()** 方法用于设置指定字符串流的 unitbuf 格式标志。该标志在每次操作后刷新相关的缓冲区。
+C++ 中**流操纵器**的 **unitbuf()** 方法用于设置指定字符串流的 unitbuf 格式标志。该标志在每次操作后刷新相关的缓冲区。
 
 **语法:**
 

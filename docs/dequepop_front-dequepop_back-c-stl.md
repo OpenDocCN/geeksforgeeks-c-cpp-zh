@@ -55,7 +55,7 @@ int main()
     mydeque.pop_front();
     //Deque becomes 2, 3
 
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -100,7 +100,7 @@ int main()
         newdeque.push_front(mydeque.front());
         mydeque.pop_front();
     }
-    for (auto it = newdeque.begin(); it != newdeque.end(); ++it)
+    for (auto it = newdeque.begin(); it != newdeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -164,7 +164,7 @@ int main()
     mydeque.pop_back();
     //Deque becomes 1, 2, 3, 4
 
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -210,7 +210,7 @@ int main()
         newdeque.push_back(mydeque.back());
         mydeque.pop_back();
     }
-    for (auto it = newdeque.begin(); it != newdeque.end(); ++it)
+    for (auto it = newdeque.begin(); it != newdeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```

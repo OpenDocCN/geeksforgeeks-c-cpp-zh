@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的二分搜索法
+# c++ 标准模板库(STL)中的二分搜索法
 
 > 原文:[https://www . geesforgeks . org/binary-search-algorithms-the-c-standard-template-library-STL/](https://www.geeksforgeeks.org/binary-search-algorithms-the-c-standard-template-library-stl/)
 
@@ -35,7 +35,7 @@ using namespace std;
 
 void show(int a[], int arraysize)
 {
-    for (int i = 0; i < arraysize; ++i)
+    for (int i = 0; i < arraysize; ++ i)
         cout << a[i] << ",";
 }
 
@@ -86,5 +86,5 @@ Now, say we want to search for 10
 Element not found in the array
 ```
 
-**相关文章:**[STD::b 在 C++中搜索](https://www.geeksforgeeks.org/stdbsearch-in-cpp/)
+**相关文章:**[STD::b 在 C++ 中搜索](https://www.geeksforgeeks.org/stdbsearch-in-cpp/)
 如果发现任何不正确的地方，或者您想分享更多关于上面讨论的主题的信息，请写评论

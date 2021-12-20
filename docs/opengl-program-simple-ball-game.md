@@ -63,7 +63,7 @@ void keyboard(unsigned char key, int x, int y)
         // '110' -> Ascii value of 'n'
         // so d is incremented when n is pressed
         if (key == 110)
-            d++;
+            d++ ;
     }
     // if rightmost index of window is hit
     // then rectangle will not move to right on furthure pressing of n
@@ -73,16 +73,16 @@ void keyboard(unsigned char key, int x, int y)
         // '98' -> Ascii value of 'b'
         // so c is incremented when b is pressed
         if (key == 98)
-            c++;
+            c++ ;
     }
     // when rectangle is in middle, then it will move into both
     // direction depending upon pressed key
     else
     {
         if (key == 98)
-            c++;    
+            c++ ;    
         if (key == 110)
-            d++;
+            d++ ;
     }
     glutPostRedisplay();
 }
@@ -114,7 +114,7 @@ void myDisplay(void)
                 j = -1;
                 m = -288;
                 flag1 = 1;
-                score++;
+                score++ ;
             }
             if (m == 288 && flag1 == 1)
             {

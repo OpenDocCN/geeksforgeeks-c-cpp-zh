@@ -1,4 +1,4 @@
-# imag()函数在 C++中
+# imag()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/imag-function-in-c/](https://www.geeksforgeeks.org/imag-function-in-c/)
 

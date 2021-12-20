@@ -1,4 +1,4 @@
-# valarray tan()函数在 C++中
+# valarray tan()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-tan-function-in-c/](https://www.geeksforgeeks.org/valarray-tan-function-in-c/)
 

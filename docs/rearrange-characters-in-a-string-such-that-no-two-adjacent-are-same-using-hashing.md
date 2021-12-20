@@ -41,7 +41,7 @@ int isPossible(string str)
     // To store the maximum frequency so far
     int max_freq = 0;
     for (int j = 0; j < (str.length()); j++) {
-        freq[str[j]]++;
+        freq[str[j]]++ ;
         if (freq[str[j]] > max_freq)
             max_freq = freq[str[j]];
     }

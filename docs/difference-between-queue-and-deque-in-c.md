@@ -1,4 +1,4 @@
-# c++中 Queue 和 Deque 的区别
+# c++ 中 Queue 和 Deque 的区别
 
 > 原文:[https://www . geesforgeks . org/queue-and-deque-in-c/](https://www.geeksforgeeks.org/difference-between-queue-and-deque-in-c/)之间的差异
 
@@ -68,7 +68,7 @@ int main()
 Elements in Queue are: 15 1
 ```
 
-[**得克:**](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/) 得克是一个[序列容器](https://www.geeksforgeeks.org/sequence-vs-associative-containers-cpp/)具有两端伸缩的能力。是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) is 中[标准模板库或 STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的模板。它类似于[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，但是对于元素的插入和删除更有效。[在 deque 中的连续存储分配](https://www.geeksforgeeks.org/difference-between-contiguous-and-noncontiguous-memory-allocation/)可能无法像在矢量中那样得到保证。
+[**得克:**](https://www.geeksforgeeks.org/deque-set-1-introduction-applications/) 得克是一个[序列容器](https://www.geeksforgeeks.org/sequence-vs-associative-containers-cpp/)具有两端伸缩的能力。是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) is 中[标准模板库或 STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的模板。它类似于[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，但是对于元素的插入和删除更有效。[在 deque 中的连续存储分配](https://www.geeksforgeeks.org/difference-between-contiguous-and-noncontiguous-memory-allocation/)可能无法像在矢量中那样得到保证。
 
 [![](img/ca668d6acbc4e8854ea5a7b6d171ffe6.png)](https://media.geeksforgeeks.org/wp-content/uploads/anod.png)
 

@@ -1,8 +1,8 @@
-# std::all_of()在 C++中
+# std::all_of()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdall_of-in-cpp/](https://www.geeksforgeeks.org/stdall_of-in-cpp/)
 
-C++函数在 STL 中的 **<算法>** 库中定义。该函数对整个数组元素范围进行操作，并且可以节省时间来运行循环来逐个检查每个元素。它检查每个元素的给定属性，当范围内的每个元素满足指定属性时返回 true，否则返回 false。
+C++ 函数在 STL 中的 **<算法>** 库中定义。该函数对整个数组元素范围进行操作，并且可以节省时间来运行循环来逐个检查每个元素。它检查每个元素的给定属性，当范围内的每个元素满足指定属性时返回 true，否则返回 false。
 **语法:**
 
 ```cpp

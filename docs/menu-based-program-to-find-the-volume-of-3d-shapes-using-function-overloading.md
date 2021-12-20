@@ -19,7 +19,7 @@
 
 **方法:**给定的问题可以通过创建不同的[函数](https://www.geeksforgeeks.org/functions-in-c/)来解决，这些函数名称相同，比如**卷**但是函数定义不同。然后通过传递不同的参数重载所有的函数，然后借助[开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)从主函数调用所有的函数。
 
-下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)使用函数重载查找不同 3D 形状的体积:
+下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)使用函数重载查找不同 3D 形状的体积:
 
 ## C++
 

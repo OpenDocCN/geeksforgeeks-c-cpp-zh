@@ -1,4 +1,4 @@
-# c++中的派生数据类型
+# c++ 中的派生数据类型
 
 > 原文:[https://www.geeksforgeeks.org/derived-data-types-in-c/](https://www.geeksforgeeks.org/derived-data-types-in-c/)
 

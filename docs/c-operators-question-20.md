@@ -12,7 +12,7 @@ int main()
     do
     {
         printf("GeeqsQuiz ");
-        i = i++;
+        i = i++ ;
     }
     while (i < 5);
     return 0;
@@ -28,7 +28,7 @@ int main()
 **解释:**以下语句导致未定义行为。
 
 ```cpp
- i = i++;
+ i = i++ ;
 
 ```
 

@@ -1,4 +1,4 @@
-# wcscmp()函数在 C++中的实现，示例
+# wcscmp()函数在 C++ 中的实现，示例
 
 > 原文:[https://www . geesforgeks . org/wcscmp-function-in-CPP-with-examples/](https://www.geeksforgeeks.org/wcscmp-function-in-cpp-with-examples/)
 

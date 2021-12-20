@@ -1,4 +1,4 @@
-# C/c++中未初始化的原语数据类型
+# C/c++ 中未初始化的原语数据类型
 
 > 原文:[https://www . geesforgeks . org/uninitialized-primitive-data-type-in-c-c/](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)
 
@@ -65,7 +65,7 @@ Codechef IDE 中的输出:
 
 ```
 
- **C/c++编译器为什么不用默认值初始化变量？**
-“保持 C++可行性的一个因素是零开销规则:你不用的东西，你不用付钱。”-斯特鲁普。
+ **C/c++ 编译器为什么不用默认值初始化变量？**
+“保持 C++ 可行性的一个因素是零开销规则:你不用的东西，你不用付钱。”-斯特鲁普。
 
 初始化堆栈变量的开销很高，因为这会妨碍执行速度，因此这些变量可能包含不确定的值。在代码中使用基元数据类型变量之前，对其进行初始化被认为是最佳实践。

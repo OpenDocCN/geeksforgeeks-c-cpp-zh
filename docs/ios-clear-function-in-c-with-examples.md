@@ -1,8 +1,8 @@
-# ios clear()函数在 C++中的使用示例
+# ios clear()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/IOs-clear-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-clear-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **clear()** 方法是通过设置来改变指定标志的当前状态。因此这个函数改变了这个流的内部状态。
+C++ 中 **ios 类**的 **clear()** 方法是通过设置来改变指定标志的当前状态。因此这个函数改变了这个流的内部状态。
 
 **语法:**
 

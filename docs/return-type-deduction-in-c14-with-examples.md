@@ -2,14 +2,14 @@
 
 > 原文:[https://www . geesforgeks . org/return-type-演绎-in-c14-with-examples/](https://www.geeksforgeeks.org/return-type-deduction-in-c14-with-examples/)
 
-在本文中，我们将讨论 C++14 中的返回类型演绎。使用 **C++14** 中的**自动**返回类型，编译器将尝试自动推导返回类型。
+在本文中，我们将讨论 C++ 14 中的返回类型演绎。使用 **C++ 14** 中的**自动**返回类型，编译器将尝试自动推导返回类型。
 
 **程序 1:**
 
-## C++14
+## C++ 14
 
 ```cpp
-// C++14 program to illustrate the
+// C++ 14 program to illustrate the
 // return type deduction
 #include <iostream>
 using namespace std;
@@ -46,7 +46,7 @@ int main()
 
 **程序 2:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ 14 program to illustrate the
@@ -59,7 +59,7 @@ using namespace std;
 auto increase(int& a)
 {
     // Increment a
-    a++;
+    a++ ;
 
     // Return the updated value
     return a;
@@ -89,10 +89,10 @@ int main()
 
 ### **<u>使用自动&</u> :**
 
-## C++14
+## C++ 14
 
 ```cpp
-// C++14 program to illustrate return
+// C++ 14 program to illustrate return
 // type deduction using auto&
 #include <iostream>
 using namespace std;
@@ -101,7 +101,7 @@ using namespace std;
 // of a and return the updated value
 auto& increase(int& a)
 {
-    a++;
+    a++ ;
     return a;
 }
 
@@ -129,10 +129,10 @@ int main()
 
 ### **<u>使用 decltype(自动)</u> :**
 
-## C++14
+## C++ 14
 
 ```cpp
-// C++14 program to illustrate return
+// C++ 14 program to illustrate return
 // type deduction using decltype()
 #include <iostream>
 using namespace std;
@@ -141,7 +141,7 @@ using namespace std;
 // of a and return the updated value
 decltype(auto) increase(int& a)
 {
-    a++;
+    a++ ;
     return a;
 }
 

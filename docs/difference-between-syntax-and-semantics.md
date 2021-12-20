@@ -4,7 +4,7 @@
 
 **<u>语法:</u>**
 
-*   它是指用像 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) 这样的编程语言编写任何语句的规则和规定。
+*   它是指用像 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 这样的编程语言编写任何语句的规则和规定。
 *   它与陈述的意思没有任何关系。
 *   如果一个语句遵循所有的规则，那么它在语法上是有效的。
 *   与语言的语法和[结构](https://www.geeksforgeeks.org/structures-c/)有关。

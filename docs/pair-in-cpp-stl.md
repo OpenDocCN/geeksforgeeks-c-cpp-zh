@@ -1,4 +1,4 @@
-# 在 C++标准模板库中配对(STL)
+# 在 C++ 标准模板库中配对(STL)
 
 > 原文:[https://www.geeksforgeeks.org/pair-in-cpp-stl/](https://www.geeksforgeeks.org/pair-in-cpp-stl/)
 

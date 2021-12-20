@@ -117,7 +117,7 @@ int main()
 [微软最常问的面试问题](https://www.geeksforgeeks.org/microsofts-asked-interview-questions/ "Permanent link to Microsoft’s most asked interview questions")
 [埃森哲最常问的面试问题](https://www.geeksforgeeks.org/accentures-most-asked-technical-interview-questions/ "Permanent link to Accenture’s most asked Interview Questions")
 [常见 OOP 面试问题](https://www.geeksforgeeks.org/commonly-asked-oop-interview-questions/ "Permanent link to Commonly Asked OOP Interview Questions | Set 1")
-[常见 C++面试问题](https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/ "Permanent link to Commonly Asked C++ Interview Questions | Set 1")
+[常见 C++ 面试问题](https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/ "Permanent link to Commonly Asked C++ Interview Questions | Set 1")
 T21】常见 DBMS 面试问题| 集合 1
 [常见的 DBMS 面试问题|集合 2](https://www.geeksforgeeks.org/commonly-asked-dbms-interview-questions-set-2/)
 [常见的操作系统面试问题|集合 1](https://www.geeksforgeeks.org/commonly-asked-operating-systems-interview-questions-set-1/)

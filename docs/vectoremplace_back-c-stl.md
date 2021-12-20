@@ -60,7 +60,7 @@ int main()
     // vector becomes 1, 2, 3, 4, 5, 6
 
     // printing the vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -99,7 +99,7 @@ int main()
     // vector becomes This, is, a computer science, portal
 
     // printing the vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -135,7 +135,7 @@ int main()
     // vector becomes a, c, x, y, z
 
     // printing the vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -185,7 +185,7 @@ int main()
     myvector.emplace_back(5);
     myvector.emplace_back(6);
     while (!myvector.empty()) {
-        count++;
+        count++ ;
         myvector.pop_back();
     }
     cout << count;

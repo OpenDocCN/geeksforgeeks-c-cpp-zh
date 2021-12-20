@@ -1,4 +1,4 @@
-# c++中集合的优先级队列，示例
+# c++ 中集合的优先级队列，示例
 
 > 原文:[https://www . geesforgeks . org/priority-queue-of-set-in-c-with-examples/](https://www.geeksforgeeks.org/priority-queue-of-sets-in-c-with-examples/)
 
@@ -32,7 +32,7 @@ This stores set as an element in the max-heap priority queue
 
 <u>下面是最大堆优先级队列的实现集:</u>
 
-## <u>c++</u>
+## <u>c++ </u>
 
 ```cpp
 // C++ program to implement
@@ -132,7 +132,7 @@ This stores set as an element in the min-heap priority queue
 
 <u>下面是最小堆优先级队列的实现集合:</u>
 
-<u>T3】c++T5
+<u>T3】c++ T5
 
 ```cpp
 // C++ program to implement

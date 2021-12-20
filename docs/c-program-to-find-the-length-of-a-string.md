@@ -36,7 +36,7 @@ int main()
     printf("Enter the String: ");
     scanf("%s", Str);
 
-    for (i = 0; Str[i] != '\0'; ++i);
+    for (i = 0; Str[i] != '\0'; ++ i);
 
     printf("Length of Str is %d", i);
 

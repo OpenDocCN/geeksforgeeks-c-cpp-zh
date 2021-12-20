@@ -1,4 +1,4 @@
-# 在 C++中使用多线程的 2D 矩阵中的最大值
+# 在 C++ 中使用多线程的 2D 矩阵中的最大值
 
 > 原文:[https://www . geeksforgeeks . org/max-in-a-2d-matrix-use-多线程 in-cpp/](https://www.geeksforgeeks.org/maximum-in-a-2d-matrix-using-multi-threading-in-cpp/)
 

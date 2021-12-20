@@ -1,4 +1,4 @@
-# 标准::C++中的 set _ union
+# 标准::C++ 中的 set _ union
 
 > 原文:[https://www.geeksforgeeks.org/std-set_union-in-cpp/](https://www.geeksforgeeks.org/std-set_union-in-cpp/)
 
@@ -80,7 +80,7 @@ int main()
 
     std::cout << "The union has " << (it - v.begin())
               << " elements:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         std::cout << ' ' << *st;
     std::cout << '\n';
 
@@ -167,7 +167,7 @@ int main()
                           second + n, v.begin());
 
     cout << "Students attending both subjects are :\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << ' ' << *st;
     cout << '\n';
 
@@ -232,7 +232,7 @@ int main()
                    v.begin());
 
     cout << "Students attending both subjects are :\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << ' ' << *st;
     cout << '\n';
 

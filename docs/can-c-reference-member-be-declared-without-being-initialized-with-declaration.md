@@ -1,4 +1,4 @@
-# c++引用成员可以不用声明初始化就可以声明吗？
+# c++ 引用成员可以不用声明初始化就可以声明吗？
 
 > 原文:[https://www . geesforgeks . org/can-c-reference-member-be-declaration-not-initialized-with-declaration/](https://www.geeksforgeeks.org/can-c-reference-member-be-declared-without-being-initialized-with-declaration/)
 

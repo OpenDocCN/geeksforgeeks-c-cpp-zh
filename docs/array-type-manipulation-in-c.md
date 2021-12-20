@@ -1,4 +1,4 @@
-# c++中的数组类型操作
+# c++ 中的数组类型操作
 
 > 原文:[https://www.geeksforgeeks.org/array-type-manipulation-in-c/](https://www.geeksforgeeks.org/array-type-manipulation-in-c/)
 

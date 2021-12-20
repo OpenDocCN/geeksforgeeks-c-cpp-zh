@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/我们如何使用逗号运算符代替大括号/](https://www.geeksforgeeks.org/how-can-we-use-comma-operator-in-place-of-curly-braces/)
 
-在 C 和 C++中，逗号(，)可以用在两个上下文中:
+在 C 和 C++ 中，逗号(，)可以用在两个上下文中:
 
 1.  [逗号作为运算符](https://www.geeksforgeeks.org/comna-in-c-and-c/)
 2.  [逗号作为分隔符](https://www.geeksforgeeks.org/comna-in-c-and-c/)

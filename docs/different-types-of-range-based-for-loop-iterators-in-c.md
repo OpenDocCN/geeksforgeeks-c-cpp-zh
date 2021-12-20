@@ -1,8 +1,8 @@
-# c++中不同类型的基于范围的循环迭代器
+# c++ 中不同类型的基于范围的循环迭代器
 
 > 原文:[https://www . geeksforgeeks . org/不同类型的基于范围的循环迭代器 in-c/](https://www.geeksforgeeks.org/different-types-of-range-based-for-loop-iterators-in-c/)
 
-[基于范围的“for”循环](https://www.geeksforgeeks.org/range-based-loop-c/)从 C++11 开始就包含在语言中了。它自动迭代(循环)可迭代(容器)。当与标准库容器一起使用时，这是非常有效的(正如本文将使用的)，因为在可迭代范围之外不会有对内存的错误访问。循环将自动在正确的地方开始和结束。
+[基于范围的“for”循环](https://www.geeksforgeeks.org/range-based-loop-c/)从 C++ 11 开始就包含在语言中了。它自动迭代(循环)可迭代(容器)。当与标准库容器一起使用时，这是非常有效的(正如本文将使用的)，因为在可迭代范围之外不会有对内存的错误访问。循环将自动在正确的地方开始和结束。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# c++中元组的优先级队列，示例
+# c++ 中元组的优先级队列，示例
 
 > 原文:[https://www . geesforgeks . org/priority-queue-of-tuples-in-c-with-examples/](https://www.geeksforgeeks.org/priority-queue-of-tuples-in-c-with-examples/)
 
@@ -22,7 +22,7 @@
 *   **get ():** get () is used to access tuple values and modify them. It takes index and tuple name as parameters to access specific tuple elements.
 *   **make T0】 make _ tuple():** make _ tuple () is used to assign a value to tuple. The passed value should be consistent with the value declared in the tuple.
 
-本文主要讨论如何在 C++中使用元组的优先级队列。元组的优先级队列在设计复杂的数据结构时非常有用。
+本文主要讨论如何在 C++ 中使用元组的优先级队列。元组的优先级队列在设计复杂的数据结构时非常有用。
 
 ```cpp
 Syntax 1: Max-heap priority queue of tuples:
@@ -42,7 +42,7 @@ vector<tuple<data_type1, data_type2, data_type3>>, comparator> priorityQueue;
 
 默认情况下，优先级队列是最大堆。因此，在优先级队列中有一对元组的情况下，比较它们的第一个元素，如果两个元组的第一个元素相等，则比较它们的第二个元素，如果第二个元素也相等，则比较第三个元素。具有较大元素的元组成为优先级队列的最顶层元素。
 
-**示例 1:** 下面是实现元组最大堆优先级队列的 C++程序。
+**示例 1:** 下面是实现元组最大堆优先级队列的 C++ 程序。
 
 ## c++
 
@@ -144,7 +144,7 @@ int main()
 [ 1 1 G]
 ```
 
-**示例 2:** 下面是演示元组最大堆优先级队列工作的 C++程序。
+**示例 2:** 下面是演示元组最大堆优先级队列工作的 C++ 程序。
 
 ## C++
 
@@ -253,7 +253,7 @@ int main()
 
 对于最小堆优先级队列中的一对元组，比较它们的第一个元素，如果两个元组的第一个元素相等，则比较它们的第二个元素，如果第二个元素也相等，则比较第三个元素。具有较小元素的元组成为优先级队列的最顶层元素。
 
-**示例 1:** 下面是实现元组最小堆优先级队列工作的 C++程序。
+**示例 1:** 下面是实现元组最小堆优先级队列工作的 C++ 程序。
 
 ## c++
 
@@ -359,7 +359,7 @@ int main()
 [ 4 4 k]
 ```
 
-**示例 2:** 下面是实现元组最小堆优先级队列工作的 C++程序。
+**示例 2:** 下面是实现元组最小堆优先级队列工作的 C++ 程序。
 
 ## c++
 
@@ -472,7 +472,7 @@ int main()
 
 继续 [**<u>如何用 STL 实现 Min Heap？</u>**](https://www.geeksforgeeks.org/implement-min-heap-using-stl/) 是必须的先决条件，我们将在这里学习如何通过将比较器作为参数传递给优先级队列来定制元组的优先级队列。
 
-**例 1:** 下面是实现元组定制优先级队列的 C++程序。
+**例 1:** 下面是实现元组定制优先级队列的 C++ 程序。
 
 ## c++
 
@@ -614,7 +614,7 @@ int main()
 
 在上述程序中，对于一对元组，首先比较元组的第二个元素，如果该值相等，则比较第一个元素，如果两个元组的第一个元素相等，则比较第三个元素。否则，具有较小元素的元组将成为最顶端的元素。
 
-**示例 2:** 下面是 C++程序，演示元组定制优先级队列的工作。
+**示例 2:** 下面是 C++ 程序，演示元组定制优先级队列的工作。
 
 ## c++
 

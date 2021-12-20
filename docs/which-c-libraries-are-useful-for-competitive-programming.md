@@ -1,8 +1,8 @@
-# 哪些 C++库对竞争性编程有用？
+# 哪些 C++ 库对竞争性编程有用？
 
 > 原文:[https://www . geesforgeks . org/哪些 c 库对竞争性编程有用/](https://www.geeksforgeeks.org/which-c-libraries-are-useful-for-competitive-programming/)
 
-[C++](https://www.geeksforgeeks.org/c-programming-language/) 是竞争编程中最推荐的语言之一(原因请参考我们[之前的文章](https://www.geeksforgeeks.org/how-to-be-a-good-programmer-in-college/)
+[C++ ](https://www.geeksforgeeks.org/c-programming-language/) 是竞争编程中最推荐的语言之一(原因请参考我们[之前的文章](https://www.geeksforgeeks.org/how-to-be-a-good-programmer-in-college/)
 
 [C++ STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 包含许多容器，这些容器对于不同的目的是有用的。在本文中，我们将从[竞技编程](https://www.geeksforgeeks.org/how-to-begin-with-competitive-programming/)和面试准备的角度来关注最重要的容器。
 
@@ -22,4 +22,4 @@
 
 [**德清**](https://www.geeksforgeeks.org/deque-cpp-stl/) **:** (#include <德清>出列支持 O(1)时间内两端插入删除。因为它是使用数组实现的，所以它也允许随机访问。我们可以使用出列来实现队列和堆栈。德格上的示例问题是，[访问所有汽油泵](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)和所有 k 尺寸子阵列的[最大值。](https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
 
-在本文的下一部分，我们将讨论更重要的 C++库。
+在本文的下一部分，我们将讨论更重要的 C++ 库。

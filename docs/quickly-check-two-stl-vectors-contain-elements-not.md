@@ -2,10 +2,10 @@
 
 > 原文:[https://www . geesforgeks . org/quick-check-two-STL-vectors-contain-elements-not/](https://www.geeksforgeeks.org/quickly-check-two-stl-vectors-contain-elements-not/)
 
-与普通的 C/C++数组不同，我们不需要进行逐个元素的比较来发现两个给定的向量是否包含相同的元素。
+与普通的 C/C++ 数组不同，我们不需要进行逐个元素的比较来发现两个给定的向量是否包含相同的元素。
 在向量的情况下，运算符“==”被重载以快速找到结果。下面是一个例子来证明这一点。
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ implementation to check whether elements

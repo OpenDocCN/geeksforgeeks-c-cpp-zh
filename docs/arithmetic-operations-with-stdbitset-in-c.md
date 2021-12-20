@@ -1,4 +1,4 @@
-# c++中带有标准::位集的算术运算
+# c++ 中带有标准::位集的算术运算
 
 > 原文:[https://www . geesforgeks . org/算术运算-with-stdbitset-in-c/](https://www.geeksforgeeks.org/arithmetic-operations-with-stdbitset-in-c/)
 

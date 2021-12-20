@@ -123,7 +123,7 @@ void main()
             // Storing Corresponding Color
             // In Left[] Array
             left[i] = x;
-            i++;
+            i++ ;
 
             // Process To Check Is There Any
             // Matching In The Left Side By
@@ -208,7 +208,7 @@ void main()
             // Storing Corresponding Color
             // In Right[] Array
             right[j] = x;
-            j++;
+            j++ ;
 
             // Process to Check Is There Any Matching
             // In The Right Side By Upside Down
@@ -280,7 +280,7 @@ void main()
             // Storing Corresponding Color In
             // Mid[] Array
             mid[k] = x;
-            k++;
+            k++ ;
 
             // Process To Check Is There Any
             // Matching In The Middle Side

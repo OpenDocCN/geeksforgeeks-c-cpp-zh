@@ -1,4 +1,4 @@
-# c++中对集合的下界和上界的实现
+# c++ 中对集合的下界和上界的实现
 
 > 原文:[https://www . geeksforgeeks . org/c 对集上下限和上限的实现/](https://www.geeksforgeeks.org/implementation-of-lower_bound-and-upper_bound-on-set-of-pairs-in-c/)
 

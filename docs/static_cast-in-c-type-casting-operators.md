@@ -1,9 +1,9 @@
-# c++中的 static _ cast | Type Casting 运算符
+# c++ 中的 static _ cast | Type Casting 运算符
 
 > 原文:[https://www . geesforgeks . org/static _ cast-in-c-type-casting-operators/](https://www.geeksforgeeks.org/static_cast-in-c-type-casting-operators/)
 
 强制转换运算符是一元运算符**，它强制将一种数据类型转换为另一种数据类型。
-C++支持四种类型的铸造:**
+C++ 支持四种类型的铸造:**
 
 > **1.静投
 > 2。动态铸造
@@ -100,7 +100,7 @@ Conversion Ctor called
 
 **让我们试着理解上面的输出:**
 
-1.  **当**对象**被创建时，那么构造函数被调用，在我们的例子中它也是一个转换构造函数(对于 C++来说，14 个规则是位改变的)。**
+1.  **当**对象**被创建时，那么构造函数被调用，在我们的例子中它也是一个转换构造函数(对于 C++ 来说，14 个规则是位改变的)。**
 2.  **当您从**对象**中创建**字符串**时，编译器不会抛出错误，因为我们已经定义了转换运算符。**
 3.  **当你做`obj=20`的时候，实际上是在调用转换构造函数。**
 4.  **当你用**静态 _cast** 制作 **str2** 时，和`string str=obj;`很相似，但是类型检查很严格。**

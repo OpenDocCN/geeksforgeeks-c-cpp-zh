@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/)
 
-C++是一种用于创建高性能应用程序的跨平台语言，具有用户友好的语法、丰富的库和快速的速度。语言分别更新为 C++11、C++14、 [C++17](https://www.geeksforgeeks.org/features-of-c17-with-examples/) 三个版本。每个版本的技术亮点如下:
+C++ 是一种用于创建高性能应用程序的跨平台语言，具有用户友好的语法、丰富的库和快速的速度。语言分别更新为 C++ 11、C++ 14、 [C++ 17](https://www.geeksforgeeks.org/features-of-c17-with-examples/) 三个版本。每个版本的技术亮点如下:
 
 **<u>c++ 11</u>:**
 

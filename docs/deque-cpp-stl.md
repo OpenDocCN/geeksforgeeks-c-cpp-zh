@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的 Deque
+# c++ 标准模板库(STL)中的 Deque
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/dequa-CPP-STL/
 
@@ -18,7 +18,7 @@ using namespace std;
 void showdq(deque <int> g)
 {
     deque <int> :: iterator it;
-    for (it = g.begin(); it != g.end(); ++it)
+    for (it = g.begin(); it != g.end(); ++ it)
         cout << '\t' << *it;
     cout << '\n';
 }

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-72/](https://www.geeksforgeeks.org/g-fact-72/)
 
-ASCII NUL 和零分别表示为 0x00 和 0x30。ASCII NUL 字符在 C/C++中充当字符串的哨兵字符。当程序员在代码中使用“0”时，它将以十六进制形式表示为 0x30。在下面的程序中，整数的二进制表示将填充什么？
+ASCII NUL 和零分别表示为 0x00 和 0x30。ASCII NUL 字符在 C/C++ 中充当字符串的哨兵字符。当程序员在代码中使用“0”时，它将以十六进制形式表示为 0x30。在下面的程序中，整数的二进制表示将填充什么？
 
 ```cpp
 char charNUL = '\0';

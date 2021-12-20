@@ -124,7 +124,7 @@ T4【Q5。考虑以下代码:
 int main()
 {
   int i = 0;
-  int ans = i++ + ++i;
+  int ans = i++ + ++ i;
   printf("%d ", ans);
   return 0;
 }
@@ -140,6 +140,6 @@ Output: Can't be determined
 ```
 
 **解释:**
-在 C 语言中，表达式“ **i++ + ++i** 没有任何意义，因为它违反了没有[序列点](https://www.geeksforgeeks.org/sequence-points-in-c-set-1/)同一个变量不能被改变多次的规则。*序列点基本上是代码中编译器保证已经完成所有评估的点。例如，语句末尾的分号是序列点*。
+在 C 语言中，表达式“ **i++ + ++ i** 没有任何意义，因为它违反了没有[序列点](https://www.geeksforgeeks.org/sequence-points-in-c-set-1/)同一个变量不能被改变多次的规则。*序列点基本上是代码中编译器保证已经完成所有评估的点。例如，语句末尾的分号是序列点*。
 在这个表达式中，变量‘I’值在没有序列点的情况下改变了两次。因此，编译器可以做它想做的任何事情，并且会导致未定义的行为。因此，答案将是“无法确定”。
 **参考文献**:[https://hackernoon.com/so-you-think-you-know-c-8d4e2cd6f6a6](https://hackernoon.com/so-you-think-you-know-c-8d4e2cd6f6a6)

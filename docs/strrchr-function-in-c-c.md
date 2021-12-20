@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/strrchr-function-in-c-c/](https://www.geeksforgeeks.org/strrchr-function-in-c-c/)
 
-C/C++中的**strchr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
+C/C++ 中的**strchr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
 **语法:**
 
 ```cpp

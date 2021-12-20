@@ -1,4 +1,4 @@
-# 如何在 Linux 中给 gcc 编译器添加“graphics . h”C/c++库
+# 如何在 Linux 中给 gcc 编译器添加“graphics . h”C/c++ 库
 
 > 原文:[https://www . geesforgeks . org/add-graphics-h-c-library-gcc-compiler-Linux/](https://www.geeksforgeeks.org/add-graphics-h-c-library-gcc-compiler-linux/)
 

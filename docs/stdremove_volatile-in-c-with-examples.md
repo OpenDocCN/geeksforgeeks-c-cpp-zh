@@ -1,4 +1,4 @@
-# std::remove_volatile 在 C++中使用示例
+# std::remove_volatile 在 C++ 中使用示例
 
 > 原文:[https://www . geeksforgeeks . org/STD remove _ volatile-in-c-with-examples/](https://www.geeksforgeeks.org/stdremove_volatile-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::remove_volatile::value
 
 *   **False:** If the type **t** is band volatilization qualified.
 
-下面是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::remove_volatile** 的程序:
+下面是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::remove_volatile** 的程序:
 
 **程序 1:**
 

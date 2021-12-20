@@ -2,8 +2,8 @@
 
 > 原文:[https://www . geesforgeks . org/getline-function-character-array/](https://www.geeksforgeeks.org/getline-function-character-array/)
 
-先决条件:[C++中的 getline(string)](https://www.geeksforgeeks.org/getline-string-c/)
-在 c++中，流类支持面向行的函数，getline()和 write()分别执行输入和输出函数。getline()函数读取以新行结束的整行文本，或者直到达到最大限制。getline()是 istream 类的成员函数，语法如下:
+先决条件:[C++ 中的 getline(string)](https://www.geeksforgeeks.org/getline-string-c/)
+在 c++ 中，流类支持面向行的函数，getline()和 write()分别执行输入和输出函数。getline()函数读取以新行结束的整行文本，或者直到达到最大限制。getline()是 istream 类的成员函数，语法如下:
 
 ```cpp
 // (buffer, stream_size, delimiter)

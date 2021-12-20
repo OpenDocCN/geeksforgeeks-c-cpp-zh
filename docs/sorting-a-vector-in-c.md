@@ -1,8 +1,8 @@
-# 在 C++中对向量进行排序
+# 在 C++ 中对向量进行排序
 
 > 原文:[https://www.geeksforgeeks.org/sorting-a-vector-in-c/](https://www.geeksforgeeks.org/sorting-a-vector-in-c/)
 
-先决条件:[标准::在 C++中排序](https://www.geeksforgeeks.org/sort-c-stl/)、[在 C++中向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)、[在 C++中初始化向量](https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/)。
+先决条件:[标准::在 C++ 中排序](https://www.geeksforgeeks.org/sort-c-stl/)、[在 C++ 中向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)、[在 C++ 中初始化向量](https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/)。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

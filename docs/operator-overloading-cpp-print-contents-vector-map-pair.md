@@ -1,4 +1,4 @@
-# c++中运算符重载打印矢量、映射、对、..
+# c++ 中运算符重载打印矢量、映射、对、..
 
 > 原文:[https://www . geesforgeks . org/operator-overloading-CPP-print-contents-vector-map-pair/](https://www.geeksforgeeks.org/operator-overloading-cpp-print-contents-vector-map-pair/)
 
@@ -19,7 +19,7 @@ template <typename T>
 ostream& operator<<(ostream& os, const vector<T>& v)
 {
     os << "[";
-    for (int i = 0; i < v.size(); ++i) {
+    for (int i = 0; i < v.size(); ++ i) {
         os << v[i];
         if (i != v.size() - 1)
             os << ", ";

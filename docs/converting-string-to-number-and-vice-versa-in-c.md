@@ -1,4 +1,4 @@
-# 在 C++中将字符串转换为数字，反之亦然
+# 在 C++ 中将字符串转换为数字，反之亦然
 
 > 原文:[https://www . geesforgeks . org/converting-string-to-number-反之亦然-in-c/](https://www.geeksforgeeks.org/converting-string-to-number-and-vice-versa-in-c/)
 

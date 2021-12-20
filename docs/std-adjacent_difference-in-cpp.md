@@ -1,4 +1,4 @@
-# std::相邻 _ c++中的差异
+# std::相邻 _ c++ 中的差异
 
 > 原文:[https://www . geesforgeks . org/STD-相邻 _ CPP 差异/](https://www.geeksforgeeks.org/std-adjacent_difference-in-cpp/)
 

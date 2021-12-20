@@ -113,7 +113,7 @@ int main() {
   // Counting number of elements in queue
   while (!mystack.empty()) {
     mystack.pop();
-    c++;
+    c++ ;
   }
   cout << c;
 }

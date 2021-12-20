@@ -36,7 +36,7 @@ std::is_trivially_copy_constructible<class T>::value
 *   **真:**如果类型是普通的可复制构造的。
 *   **False:** 如果类型不是普通的可复制构造的。
 
-下面的程序说明了 C/C++中的**STD::is _ trivaly _ copy _ construction**模板:
+下面的程序说明了 C/C++ 中的**STD::is _ trivaly _ copy _ construction**模板:
 
 **程序 1:**
 

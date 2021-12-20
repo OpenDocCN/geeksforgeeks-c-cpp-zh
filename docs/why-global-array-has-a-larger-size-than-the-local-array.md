@@ -2,13 +2,13 @@
 
 > 原文:[https://www . geesforgeks . org/why-global-array-具有比本地阵列更大的尺寸/](https://www.geeksforgeeks.org/why-global-array-has-a-larger-size-than-the-local-array/)
 
-任何[编程语言](https://www.geeksforgeeks.org/top-10-programming-languages-of-the-world-2019-to-begin-with/)中的[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)是存储在[相邻存储位置](https://www.geeksforgeeks.org/difference-between-contiguous-and-noncontiguous-memory-allocation/)的相似数据项的集合，并且可以使用数组索引随机访问元素。它可以用来存储任何特定类型的[原始数据类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)的集合，如 **int** 、 **float** 、 **double** 、 **char** 等。例如 [C](https://www.geeksforgeeks.org/c-language-set-1-introduction/) /C++中的数组可以存储[派生的数据类型](https://www.geeksforgeeks.org/derived-data-types-in-c/)，如[结构](https://www.geeksforgeeks.org/structures-c/)、[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)等。下面是一个数组的表示。
+任何[编程语言](https://www.geeksforgeeks.org/top-10-programming-languages-of-the-world-2019-to-begin-with/)中的[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)是存储在[相邻存储位置](https://www.geeksforgeeks.org/difference-between-contiguous-and-noncontiguous-memory-allocation/)的相似数据项的集合，并且可以使用数组索引随机访问元素。它可以用来存储任何特定类型的[原始数据类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)的集合，如 **int** 、 **float** 、 **double** 、 **char** 等。例如 [C](https://www.geeksforgeeks.org/c-language-set-1-introduction/) /C++ 中的数组可以存储[派生的数据类型](https://www.geeksforgeeks.org/derived-data-types-in-c/)，如[结构](https://www.geeksforgeeks.org/structures-c/)、[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)等。下面是一个数组的表示。
 
 ![Array](img/13b7429b646a58c1b6e67867ce0dab9c.png)
 
 数组可以在程序中全局地和局部地(即，在程序的特定范围内)声明和初始化。以下是更好地理解这个概念的例子。
 
-**程序 1:** 下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)，其中在本地声明了一个大小为 **10 <sup>7</sup>** 的 1D 数组。
+**程序 1:** 下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)，其中在本地声明了一个大小为 **10 <sup>7</sup>** 的 1D 数组。
 
 ## C++
 

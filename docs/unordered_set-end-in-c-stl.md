@@ -79,11 +79,11 @@ int main()
     // displaying all the buckets of the set.
     // Continue the loop until it points to the 
     // past-the-end position returned by sampleset.end(i)
-    for (unsigned i = 0; i < sampleSet.bucket_count(); ++i) 
+    for (unsigned i = 0; i < sampleSet.bucket_count(); ++ i) 
     {
         cout << "Bucket " << i << " Contains: ";
         for (auto it1 = sampleSet.begin(i); 
-                        it1 != sampleSet.end(i); ++it1)
+                        it1 != sampleSet.end(i); ++ it1)
             cout << " " << *it1;
         cout << endl;
     }

@@ -148,7 +148,7 @@ Struct chk_getU_op()
         // Ends when space char is reached
         while ((int)FunctionCall[i] != 32) {
             send.username[i - 8] = FunctionCall[i];
-            i++;
+            i++ ;
         }
         l = strlen(send.username);
         send.opt = FunctionCall[10 + l];

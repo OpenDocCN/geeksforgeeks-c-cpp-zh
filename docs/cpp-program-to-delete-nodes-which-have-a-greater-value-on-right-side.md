@@ -1,4 +1,4 @@
-# C++程序删除右侧值较大的节点
+# C++ 程序删除右侧值较大的节点
 
 > 原文:[https://www . geesforgeks . org/CPP-program-to-delete-右侧值较大的节点/](https://www.geeksforgeeks.org/cpp-program-to-delete-nodes-which-have-a-greater-value-on-right-side/)
 

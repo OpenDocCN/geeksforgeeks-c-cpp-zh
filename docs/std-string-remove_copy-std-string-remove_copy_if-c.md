@@ -1,10 +1,10 @@
-# std::string::remove_copy()，std::string::remove_copy_if()在 C++中
+# std::string::remove_copy()，std::string::remove_copy_if()在 C++ 中
 
 > 原文:[https://www . geesforgeks . org/STD-string-remove _ copy-STD-string-remove _ copy _ if-c/](https://www.geeksforgeeks.org/std-string-remove_copy-std-string-remove_copy_if-c/)
 
 **remove_copy()**
 
-它是算法库中定义的 c++中的一个 STL 函数。它将范围[第一个，最后一个]中的元素复制到从结果开始的范围，除了那些与给定元素比较相等的元素。
+它是算法库中定义的 c++ 中的一个 STL 函数。它将范围[第一个，最后一个]中的元素复制到从结果开始的范围，除了那些与给定元素比较相等的元素。
 
 *   得到的范围比[第一个，最后一个]短，因为序列中匹配的元素一样多，这些元素被“移除”。
 *   未被移除的元素的相对顺序被保留。
@@ -99,7 +99,7 @@ After removing element 3
 
 **移除 _ 复制 _ 如果**
 
-它是算法库中定义的 c++中的一个 STL 函数。它将范围[第一个，最后一个]中的元素复制到从结果开始的范围，满足给定条件(如奇数、偶数、素数、非素数等)的元素除外。
+它是算法库中定义的 c++ 中的一个 STL 函数。它将范围[第一个，最后一个]中的元素复制到从结果开始的范围，满足给定条件(如奇数、偶数、素数、非素数等)的元素除外。
 
 *   将范围[第一个，最后一个]中的元素复制到从结果开始的范围，条件函数返回 true 的元素除外。
 *   得到的范围比[第一个，最后一个]短，因为匹配的元素一样多，这些元素被“移除”。
@@ -190,4 +190,4 @@ After removing Odd Numbers from v1 copy result in vector v2
 复杂性:线性 O(n)
 
 [c++ STL 中的<算法>库列表](https://www.geeksforgeeks.org/algorithms-library-c-stl/)
-[c++的所有 STL 文章](https://www.geeksforgeeks.org/tag/stl/)
+[c++ 的所有 STL 文章](https://www.geeksforgeeks.org/tag/stl/)

@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/mbrlen-function-in-c-c/](https://www.geeksforgeeks.org/mbrlen-function-in-c-c/)
 
-给定当前转换状态 ps，C/C++中的 **mbrlen()** 函数确定字符串指向的多字节字符剩余部分的字节大小。该函数的行为取决于所选 C 语言环境的 LC_CTYPE 类别。
+给定当前转换状态 ps，C/C++ 中的 **mbrlen()** 函数确定字符串指向的多字节字符剩余部分的字节大小。该函数的行为取决于所选 C 语言环境的 LC_CTYPE 类别。
 
 **语法:**
 

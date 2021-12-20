@@ -57,18 +57,18 @@ switch (c)
 
 在开关的情况下，编译器将直接转到条件并执行它们，而不执行其他条件。
 
-*   Instead of **"I = I+1"** , I prefer **"++I"** , instead of **"I = I+3"** , use **"I+= 3"**
+*   Instead of **"I = I+1"** , I prefer **"++ I"** , instead of **"I = I+3"** , use **"I+= 3"**
 *   It is better to choose [**to pre-increase or pre-decrease**](https://www.geeksforgeeks.org/g-fact-40/) **instead of** [**to increase and then decrease**](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/) until and unless necessary. For example:
 
 ```cpp
 int i = 3;
 
 // It will increment in the same step
-++i;
+++ i;
 
 // It will increment in the next step
 // so it will take more time
-i++;
+i++ ;
 ```
 
 *   Similarly, the use of [pointer](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) should be avoided, and it can be avoided everywhere. Pointer to the address of a variable, which will be further used to access the variable. Therefore, try to access variables directly, because they can be used directly, so time can be reduced.

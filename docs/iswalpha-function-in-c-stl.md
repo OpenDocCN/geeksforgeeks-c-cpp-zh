@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswalpha-function-in-c-stl/](https://www.geeksforgeeks.org/iswalpha-function-in-c-stl/)
 
-**iswalpha()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是字母表。在 C++的**cwcytpe**头文件中定义。
+**iswalpha()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是字母表。在 C++ 的**cwcytpe**头文件中定义。
 
 以下字符是字母数字:
 

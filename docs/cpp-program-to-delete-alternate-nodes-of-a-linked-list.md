@@ -1,4 +1,4 @@
-# C++程序删除链表的替代节点
+# C++ 程序删除链表的替代节点
 
 > 原文:[https://www . geesforgeks . org/CPP-程序-删除-替换-链表节点/](https://www.geeksforgeeks.org/cpp-program-to-delete-alternate-nodes-of-a-linked-list/)
 

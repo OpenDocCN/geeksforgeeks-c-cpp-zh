@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/bitsetcount-in-c-STL/
 
-**bitset::count()** 是 C++中的一个内置 STL，它返回一个数的二进制表示中的集合位数。
+**bitset::count()** 是 C++ 中的一个内置 STL，它返回一个数的二进制表示中的集合位数。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# C/c++中的 clock()函数
+# C/c++ 中的 clock()函数
 
 > 原文:[https://www.geeksforgeeks.org/clock-function-in-c-c/](https://www.geeksforgeeks.org/clock-function-in-c-c/)
 

@@ -86,11 +86,11 @@ int solveUtil(int start, int bucket, string str, int K)
     // Start filling zeroes and ones which to be accommodated
     // in jth bucket then ans for current arrangement will be
     // ones*zeroes + recur(i+1, bucket+1)
-    for (int i = start; i < N; ++i) {
+    for (int i = start; i < N; ++ i) {
         if (str[i] == '1')
-            ones++;
+            ones++ ;
         else
-            zeroes++;
+            zeroes++ ;
 
         if (ones * zeroes > ans)
             break;
@@ -189,15 +189,15 @@ static int solveUtil(int start, int bucket,
     // accommodated in jth bucket then ans for
     // current arrangement will be
     // ones*zeroes + recur(i+1, bucket+1)
-    for(int i = start; i < N; ++i)
+    for(int i = start; i < N; ++ i)
     {
         if (str.charAt(i) == '1')
         {
-            ones++;
+            ones++ ;
         }
         else
         {
-            zeroes++;
+            zeroes++ ;
         }
         if (ones * zeroes > ans)
         {
@@ -389,15 +389,15 @@ class GFG
         // accommodated in jth bucket then ans for
         // current arrangement will be
         // ones*zeroes + recur(i+1, bucket+1)
-        for(int i = start; i < N; ++i)
+        for(int i = start; i < N; ++ i)
         {
             if (str[i] == '1')
             {
-                ones++;
+                ones++ ;
             }
             else
             {
-                zeroes++;
+                zeroes++ ;
             }
             if (ones * zeroes > ans)
             {
@@ -500,15 +500,15 @@ function solveUtil(start, bucket, str, K)
     // accommodated in jth bucket then ans for
     // current arrangement will be
     // ones*zeroes + recur(i+1, bucket+1)
-    for(let i = start; i < N; ++i)
+    for(let i = start; i < N; ++ i)
     {
         if (str[i] == '1')
         {
-            ones++;
+            ones++ ;
         }
         else
         {
-            zeroes++;
+            zeroes++ ;
         }
         if (ones * zeroes > ans)
         {
@@ -616,9 +616,9 @@ int solve(string str, int K)
 
     for (int i = 0; i < n; i++) {
         if (str[i] == '0')
-            zeroes++;
+            zeroes++ ;
         else
-            ones++;
+            ones++ ;
 
         dp[0][i] = ones * zeroes;
     }
@@ -632,9 +632,9 @@ int solve(string str, int K)
             zeroes = 0;
             for (int k = i; k >= 0; k--) {
                 if (str[k] == '0')
-                    zeroes++;
+                    zeroes++ ;
                 else
-                    ones++;
+                    ones++ ;
 
                 // If k = 0 then this arrangement is not possible
                 dp[s][i] = min(dp[s][i],
@@ -696,9 +696,9 @@ class GFG
         for (int i = 0; i < n; i++)
         {
             if (str.charAt(i) == '0')
-                zeroes++;
+                zeroes++ ;
             else
-                ones++;
+                ones++ ;
 
             dp[0][i] = ones * zeroes;
         }
@@ -715,9 +715,9 @@ class GFG
                 for (int k = i; k >= 0; k--)
                 {
                     if (str.charAt(k) == '0')
-                        zeroes++;
+                        zeroes++ ;
                     else
-                        ones++;
+                        ones++ ;
 
                     // If k = 0 then this arrangement is not possible
                     dp[s][i] = Math.min(dp[s][i],
@@ -856,9 +856,9 @@ class GFG
         for (int i = 0; i < n; i++)
         {
             if (str[i] == '0')
-                zeroes++;
+                zeroes++ ;
             else
-                ones++;
+                ones++ ;
 
             dp[0, i] = ones * zeroes;
         }
@@ -875,9 +875,9 @@ class GFG
                 for (int k = i; k >= 0; k--)
                 {
                     if (str[k] == '0')
-                        zeroes++;
+                        zeroes++ ;
                     else
-                        ones++;
+                        ones++ ;
 
                     // If k = 0 then this arrangement is not possible
                     dp[s, i] = Math.Min(dp[s, i],
@@ -951,9 +951,9 @@ class GFG
         for (let i = 0; i < n; i++)
         {
             if (str[i] == '0')
-                zeroes++;
+                zeroes++ ;
             else
-                ones++;
+                ones++ ;
 
             dp[0][i] = ones * zeroes;
         }
@@ -970,9 +970,9 @@ class GFG
                 for (let k = i; k >= 0; k--)
                 {
                     if (str[k] == '0')
-                        zeroes++;
+                        zeroes++ ;
                     else
-                        ones++;
+                        ones++ ;
 
                     // If k = 0 then this
                     // arrangement is not possible

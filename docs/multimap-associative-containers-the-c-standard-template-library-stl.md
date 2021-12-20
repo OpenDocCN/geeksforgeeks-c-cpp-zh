@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的多映射
+# c++ 标准模板库(STL)中的多映射
 
 > 原文:[https://www . geesforgeks . org/multimap-associative-containers-the-c-standard-template-library-STL/](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/)
 
@@ -12,7 +12,7 @@
 *   [**【空()**](https://www.geeksforgeeks.org/multimap-empty-function-in-c-stl/)–返回多重映射是否为空
 *   [**对< int，int > insert(keyvalue，multimap value**)](https://www.geeksforgeeks.org/multimap-insert-in-c-stl/)–向 multimap 添加新元素
 
-**C++实现说明以上功能**
+**C++ 实现说明以上功能**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -38,7 +38,7 @@ int main()
     multimap <int, int> :: iterator itr;
     cout << "\nThe multimap gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr)
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr)
     {
         cout << '\t' << itr->first
             << '\t' << itr->second << '\n';
@@ -54,7 +54,7 @@ int main()
 
     cout << "\nThe multimap gquiz1 after adding extra elements is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr)
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr)
     {
         cout << '\t' << itr->first
             << '\t' << itr->second << '\n';
@@ -68,7 +68,7 @@ int main()
     // print all elements of the multimap gquiz2
     cout << "\nThe multimap gquiz2 after assign from gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr)
     {
         cout << '\t' << itr->first
             << '\t' << itr->second << '\n';
@@ -80,7 +80,7 @@ int main()
     cout << "\ngquiz2 after removal of elements less than key=3 : \n";
     cout << "\tKEY\tELEMENT\n";
     gquiz2.erase(gquiz2.begin(), gquiz2.find(3));
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr)
     {
         cout << '\t' << itr->first
             << '\t' << itr->second << '\n';
@@ -92,7 +92,7 @@ int main()
     cout << "\ngquiz2.erase(4) : ";
     cout << num << " removed \n" ;
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr)
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr)
     {
         cout << '\t' << itr->first
             << '\t' << itr->second << '\n';

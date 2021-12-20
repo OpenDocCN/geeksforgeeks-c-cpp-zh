@@ -26,7 +26,7 @@ __attribute__ _((pure)) int my_square(int val)
 考虑下面的例子
 
 ```cpp
-for (len = 0; len < strlen(str); ++len)
+for (len = 0; len < strlen(str); ++ len)
     printf("%c", toupper(str[len]));
 ```
 
@@ -35,7 +35,7 @@ for (len = 0; len < strlen(str); ++len)
 ```cpp
 int len = strlen(str);
 
-for (i = 0; i < len; ++i)
+for (i = 0; i < len; ++ i)
     printf("%c", toupper((str[i]));
 ```
 
@@ -46,7 +46,7 @@ __attribute__ ((pure)) size_t my_strlen(const char *str)
 {
     const char *ptr = str;
     while (*ptr)
-       ++ptr;
+       ++ ptr;
 
     return (ptr – str);
 }

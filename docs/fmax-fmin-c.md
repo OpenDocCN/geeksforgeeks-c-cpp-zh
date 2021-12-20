@@ -1,4 +1,4 @@
-# c++中的 fmax()和 fmin()
+# c++ 中的 fmax()和 fmin()
 
 > 原文:[https://www.geeksforgeeks.org/fmax-fmin-c/](https://www.geeksforgeeks.org/fmax-fmin-c/)
 
@@ -15,7 +15,7 @@ fmax()和 fmin()函数在 **cmath** 头文件中定义。
 
     该函数的输入是两个 float 类型的值，double 或 long double。该函数返回两个输入值中的最大值。
 
-    下面是展示 fmax()函数工作原理的 C++示例程序:
+    下面是展示 fmax()函数工作原理的 C++ 示例程序:
 
     ```cpp
     // CPP program to show working

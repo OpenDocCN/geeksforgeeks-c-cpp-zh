@@ -3,7 +3,7 @@
 > 原文:[https://www.geeksforgeeks.org/structures-c/](https://www.geeksforgeeks.org/structures-c/)
 
 ***什么是结构？***
-结构是用户在 C/C++中定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。
+结构是用户在 C/C++ 中定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。
 
 ![](img/4d912dcb1d625b00728de82840fd1b1a.png)
 
@@ -43,7 +43,7 @@ int main()
 }
 ```
 
-注意:在 C++中，在变量声明中，struct 关键字是可选的。在 C 语言中，它是强制性的。
+注意:在 C++ 中，在变量声明中，struct 关键字是可选的。在 C 语言中，它是强制性的。
 
 ***如何初始化结构成员？***
 结构成员**不能用声明初始化**。例如，下面的 C 程序编译失败。
@@ -135,7 +135,7 @@ x = 20
 
 ```
 
-此功能在 C++中不可用，仅在 C 中有效。
+此功能在 C++ 中不可用，仅在 C 中有效。
 
 ***什么是阵列结构？***
 像其他原始数据类型一样，我们可以创建一个结构数组。
@@ -235,6 +235,6 @@ int main()
 
     *   **无数据隐藏:** C 结构不允许数据隐藏。结构成员可以由结构范围内任何地方的任何函数访问。*   **结构内部的功能:** C 结构不允许结构内部的功能*   **静态成员:** C 结构的体内不能有静态成员*   **访问修饰符:** C 编程语言不支持访问修饰符。所以它们不能用在 C 结构中。*   **Construction creation in Structure:** Structures in C cannot have constructor inside Structures.
 
-    **相关文章: [C 结构 vs C++结构](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)T3】**
+    **相关文章: [C 结构 vs C++ 结构](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)T3】**
 
     We will soon be discussing union and other struct related topics in C. Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.

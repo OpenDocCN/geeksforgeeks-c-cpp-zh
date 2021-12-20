@@ -1,8 +1,8 @@
-# c++中“this”指针的类型
+# c++ 中“this”指针的类型
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-77/](https://www.geeksforgeeks.org/g-fact-77/)
 
-在 C++中， [*这个*指针](http://publib.boulder.ibm.com/infocenter/comphelp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8a.doc%2Flanguage%2Fref%2Fcplr035.htm)作为隐藏参数传递给所有非静态成员函数调用。*这个*的类型取决于函数声明。如果一个类的成员函数 *X* 声明为 *const* ，*这个*的类型为 *const X*(见下面的代码 1)*如果成员函数声明为 *volatile* ，这个的类型为 *volatile X** (见下面的代码 2)，如果成员函数声明为 *const volatile* ，这个的类型为
+在 C++ 中， [*这个*指针](http://publib.boulder.ibm.com/infocenter/comphelp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8a.doc%2Flanguage%2Fref%2Fcplr035.htm)作为隐藏参数传递给所有非静态成员函数调用。*这个*的类型取决于函数声明。如果一个类的成员函数 *X* 声明为 *const* ，*这个*的类型为 *const X*(见下面的代码 1)*如果成员函数声明为 *volatile* ，这个的类型为 *volatile X** (见下面的代码 2)，如果成员函数声明为 *const volatile* ，这个的类型为
 
 *代码 1*
 

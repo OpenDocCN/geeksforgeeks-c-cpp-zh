@@ -1,4 +1,4 @@
-# 关系运算符(==)与 C++中的 std::string::compare()的区别
+# 关系运算符(==)与 C++ 中的 std::string::compare()的区别
 
 > 原文:[https://www . geesforgeks . org/relational-operator-and-stdstringcompare-in-c/](https://www.geeksforgeeks.org/difference-between-relational-operator-and-stdstringcompare-in-c/)之间的差异
 

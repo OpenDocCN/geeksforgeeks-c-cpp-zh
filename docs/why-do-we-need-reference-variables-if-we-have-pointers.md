@@ -28,7 +28,7 @@
 
 下面是指针和引用的说明程序:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to illustrate

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/arrayfill-arrayswap-c-stl/](https://www.geeksforgeeks.org/arrayfill-arrayswap-c-stl/)
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **array::fill()**
 
@@ -55,7 +55,7 @@ int main()
     myarray.fill(5);
 
         // printing the array
-    for(auto it=myarray.begin(); it<myarray.end(); ++it)
+    for(auto it=myarray.begin(); it<myarray.end(); ++ it)
         cout<<*it<<" ";
     return 0;
 }
@@ -125,12 +125,12 @@ int main()
 
         // printing the first array
     cout<<"myarray1 = ";
-    for(auto it=myarray1.begin(); it<myarray1.end(); ++it)
+    for(auto it=myarray1.begin(); it<myarray1.end(); ++ it)
         cout<<*it<<" ";
 
         // printing the second array
     cout<<endl<<"myarray2 = ";
-    for(auto it=myarray2.begin(); it<myarray2.end(); ++it)
+    for(auto it=myarray2.begin(); it<myarray2.end(); ++ it)
         cout<<*it<<" ";
     return 0;
 }

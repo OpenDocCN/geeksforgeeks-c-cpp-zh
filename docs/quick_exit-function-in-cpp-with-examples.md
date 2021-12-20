@@ -1,4 +1,4 @@
-# c++中的 quick_exit()函数，示例
+# c++ 中的 quick_exit()函数，示例
 
 > 原文:[https://www . geeksforgeeks . org/quick _ exit-function-in-CPP-with-examples/](https://www.geeksforgeeks.org/quick_exit-function-in-cpp-with-examples/)
 
@@ -17,7 +17,7 @@ void quick_exit(int val);
 
 **返回值:**这个函数不返回任何东西。
 
-下面的程序说明了 C++中的 quick_exit()函数:
+下面的程序说明了 C++ 中的 quick_exit()函数:
 
 **例:-**
 

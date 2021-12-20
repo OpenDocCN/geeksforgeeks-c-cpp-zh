@@ -1,4 +1,4 @@
-# VS 代码|用 C++构建、运行和调试
+# VS 代码|用 C++ 构建、运行和调试
 
 > 原文:[https://www . geesforgeks . org/vs-code-build-run-debug-in-c/](https://www.geeksforgeeks.org/vs-code-build-run-and-debug-in-c/)
 

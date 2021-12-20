@@ -1,4 +1,4 @@
-# 检查排序数组中多数元素的 C++程序
+# 检查排序数组中多数元素的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序检查排序数组中的多数元素/](https://www.geeksforgeeks.org/cpp-program-to-check-for-majority-element-in-a-sorted-array/)
 

@@ -1,4 +1,4 @@
-# 给定链表成对交换元素的 C++程序
+# 给定链表成对交换元素的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序对成对交换给定链表的元素/](https://www.geeksforgeeks.org/cpp-program-for-pairwise-swapping-elements-of-a-given-linked-list/)
 

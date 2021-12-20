@@ -1,4 +1,4 @@
-# std::string::push_back()在 C++中
+# std::string::push_back()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdstringpush_back-in-cpp/](https://www.geeksforgeeks.org/stdstringpush_back-in-cpp/)
 

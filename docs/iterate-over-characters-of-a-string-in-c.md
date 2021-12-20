@@ -1,4 +1,4 @@
-# 在 C++中迭代字符串的字符
+# 在 C++ 中迭代字符串的字符
 
 > 原文:[https://www . geesforgeks . org/iterate-over-characters-of-a-string-in-c/](https://www.geeksforgeeks.org/iterate-over-characters-of-a-string-in-c/)
 

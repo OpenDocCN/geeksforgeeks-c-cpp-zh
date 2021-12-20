@@ -31,7 +31,7 @@ int main(void){
         if(password[p]!='\r'){
             printf("*");
         }
-        p++;
+        p++ ;
     }while(password[p-1]!='\r');
     password[p-1]='\0';
     printf("\nYou have entered %s as password.",password);

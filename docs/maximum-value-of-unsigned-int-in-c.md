@@ -1,10 +1,10 @@
-# c++中无符号整数的最大值
+# c++ 中无符号整数的最大值
 
 > 原文:[https://www . geesforgeks . org/最大无符号值-int-in-c/](https://www.geeksforgeeks.org/maximum-value-of-unsigned-int-in-c/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中无符号 int 的最大值。
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中无符号 int 的最大值。
 
-*   C++中的无符号 int [数据类型](https://www.geeksforgeeks.org/c-data-types/)用于存储 32 位整数。
+*   C++ 中的无符号 int [数据类型](https://www.geeksforgeeks.org/c-data-types/)用于存储 32 位整数。
 *   关键字 **无符号** 是一个 [数据类型](https://www.geeksforgeeks.org/data-types-in-c/) 说明符，它只表示非负整数，即正数和零。
 
 无符号 int 数据类型的一些属性包括:
@@ -17,7 +17,7 @@
 *   **在数据类型的[溢出或下溢](https://www.geeksforgeeks.org/check-for-integer-overflow/)的情况下，该值被环绕。**
 *   **例如，如果将 **0** 存储在 int 数据类型中，并从中减去 **1** ，则该变量中的值将等于 **4，294，967，295** **。**同样，在[溢出](https://www.geeksforgeeks.org/check-for-integer-overflow/)的情况下，该值将舍入回 **0** 。**
 
-**下面是在 C++中获取可以用无符号 int 存储的最高值的程序:**
+**下面是在 C++ 中获取可以用无符号 int 存储的最高值的程序:**
 
 ## **C++**
 

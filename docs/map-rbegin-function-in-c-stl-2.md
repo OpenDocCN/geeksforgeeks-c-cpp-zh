@@ -44,7 +44,7 @@ int main()
          << "elements in reverse order"
          << endl;
 
-    for (auto i = mp.rbegin(); i != mp.rend(); ++i)
+    for (auto i = mp.rbegin(); i != mp.rend(); ++ i)
         cout << i->first
              << " = " << i->second
              << endl;
@@ -90,7 +90,7 @@ int main()
          << "elements in reverse order"
          << endl;
 
-    for (auto i = mp.rbegin(); i != mp.rend(); ++i)
+    for (auto i = mp.rbegin(); i != mp.rend(); ++ i)
         cout << i->first
              << " = " << i->second
              << endl;

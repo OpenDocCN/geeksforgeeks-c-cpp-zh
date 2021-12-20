@@ -1,4 +1,4 @@
-# std::basic_string::max_size 在 C++中
+# std::basic_string::max_size 在 C++ 中
 
 > 原文:[https://www . geesforgeks . org/stdbasic _ stringmax _ size-in-CPP/](https://www.geeksforgeeks.org/stdbasic_stringmax_size-in-cpp/)
 

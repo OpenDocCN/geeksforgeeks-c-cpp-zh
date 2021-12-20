@@ -38,7 +38,7 @@ int main()
     lis.emplace(it, 1);
 
     cout << "List: ";
-    for (auto it = lis.begin(); it != lis.end(); ++it)
+    for (auto it = lis.begin(); it != lis.end(); ++ it)
         cout << *it << " ";
 
     return 0;

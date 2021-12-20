@@ -1,4 +1,4 @@
-# 标准::make _ signed c++示例
+# 标准::make _ signed c++ 示例
 
 > 原文:[https://www . geesforgeks . org/stdmake _ sign-in-c-with-examples/](https://www.geeksforgeeks.org/stdmake_signed-in-c-with-examples/)
 
@@ -32,7 +32,7 @@ std::make_signed<T>::type
 
 **参数:**模板 **std::make_signed** 接受单个参数 **T(Trait 类)**并将类型 T 作为有符号类型。
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::make_signed** 的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::make_signed** 的程序:
 
 **程序:**
 

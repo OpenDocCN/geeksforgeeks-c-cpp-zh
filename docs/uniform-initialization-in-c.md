@@ -1,4 +1,4 @@
-# c++中的统一初始化
+# c++ 中的统一初始化
 
 > 原文:[https://www.geeksforgeeks.org/uniform-initialization-in-c/](https://www.geeksforgeeks.org/uniform-initialization-in-c/)
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/private-destructor/](https://www.geeksforgeeks.org/private-destructor/)
 
-**也可以读作:**[c++中构造函数可以是私有的吗？](https://www.geeksforgeeks.org/can-constructor-private-cpp/)
+**也可以读作:**[c++ 中构造函数可以是私有的吗？](https://www.geeksforgeeks.org/can-constructor-private-cpp/)
 **预测以下程序的输出。**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

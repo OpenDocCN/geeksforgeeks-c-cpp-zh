@@ -39,7 +39,7 @@ int main()
     cout << "Match size = " << match.size() << endl;
 
     cout << "matches:" << endl;
-    for (smatch::iterator it = match.cbegin(); it != match.cend(); ++it)
+    for (smatch::iterator it = match.cbegin(); it != match.cend(); ++ it)
         cout << *it << endl;
     return 0;
 }
@@ -92,7 +92,7 @@ int main()
     cout << "Match size = " << match.size() << endl;
 
     cout << "matches:" << endl;
-    for (smatch::iterator it = match.cbegin(); it != match.cend(); ++it)
+    for (smatch::iterator it = match.cbegin(); it != match.cend(); ++ it)
         cout << *it << endl;
     return 0;
 }

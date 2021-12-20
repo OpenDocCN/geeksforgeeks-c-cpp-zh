@@ -55,7 +55,7 @@ void findNthNum(long long int N)
     // stored in bit_L
     while (bit_L * (bit_L + 1) / 2 < N) {
         last_num = last_num + bit_L;
-        bit_L++;
+        bit_L++ ;
     }
 
     // set the rightmost bit
@@ -96,7 +96,7 @@ static void findNthNum(int N)
     // stored in bit_L
     while (bit_L * (bit_L + 1) / 2 < N) {
         last_num = last_num + bit_L;
-        bit_L++;
+        bit_L++ ;
     }
 
     // set the rightmost bit
@@ -175,7 +175,7 @@ static void findNthNum(int N)
     // stored in bit_L
     while (bit_L * (bit_L + 1) / 2 < N) {
         last_num = last_num + bit_L;
-        bit_L++;
+        bit_L++ ;
     }
 
     // set the rightmost bit
@@ -218,7 +218,7 @@ function findNthNum(N)
     // stored in bit_L
     while (bit_L * (bit_L + 1) / 2 < N) {
         last_num = last_num + bit_L;
-        bit_L++;
+        bit_L++ ;
     }
 
     // set the rightmost bit

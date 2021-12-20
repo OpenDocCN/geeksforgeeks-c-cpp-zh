@@ -1,10 +1,10 @@
-# 为 C++竞争性编程环境设置高级文本
+# 为 C++ 竞争性编程环境设置高级文本
 
 > 原文:[https://www . geesforgeks . org/setting-supreme-text-for-CPP-competitive-programming-environment/](https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/)
 
 崇高文本是一个用于编码的文本编辑器。它有一个流畅的用户界面和其他令人兴奋的功能。直播比赛时，最好是[在本地 IDE 中编译程序](https://www.geeksforgeeks.org/compiling-a-c-program-behind-the-scenes/)，而不是[在线 IDE 的](https://ide.geeksforgeeks.org/)。
 
-在本文中，我们将讨论如何[为 C++中的](https://www.geeksforgeeks.org/how-to-install-sublime-text-3-in-windows/)[竞争性编程](https://www.geeksforgeeks.org/setting-up-a-c-competitive-programming-environment/)设置崇高文本编辑器如何在崇高文本编辑器中创建我们自己的构建系统。
+在本文中，我们将讨论如何[为 C++ 中的](https://www.geeksforgeeks.org/how-to-install-sublime-text-3-in-windows/)[竞争性编程](https://www.geeksforgeeks.org/setting-up-a-c-competitive-programming-environment/)设置崇高文本编辑器如何在崇高文本编辑器中创建我们自己的构建系统。
 
 ### [**<u>安装威震文字编辑器</u>**](https://www.geeksforgeeks.org/how-to-install-sublime-text-3-in-windows/) **:**
 
@@ -39,11 +39,11 @@
 
 ![](img/ff8820cfdc934076657df26a053481dd.png)
 
-现在崇高文本可以从终端访问 [g++](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/) ，因为路径变量已经更新。
+现在崇高文本可以从终端访问 [g++ ](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/) ，因为路径变量已经更新。
 
 ### <u>创建构建系统</u>
 
-崇高文本提供构建系统，允许用户运行外部程序。为崇高文本创建一个新的构建系统，用于设置 C++编译。
+崇高文本提供构建系统，允许用户运行外部程序。为崇高文本创建一个新的构建系统，用于设置 C++ 编译。
 
 *   打开崇高文本编辑器，然后转到 ***【工具】>构建系统>新构建系统。**T3】*
 *   将以下代码粘贴到文件中并保存。
@@ -51,7 +51,7 @@
 
 ```cpp
 {
-    "cmd": ["g++.exe", "-std=c++17", "${file}",
+    "cmd": ["g++.exe", "-std=c++ 17", "${file}",
             "-o", "${file_base_name}.exe",
             "&&", "${file_base_name}.exe<inputf.in>outputf.out"],
     "shell":true,
@@ -92,6 +92,6 @@
 *   打开当前文件夹上的电源外壳或命令窗口。为此，请在按住 Shift 键的同时右键单击。
 *   运行下面的命令来编译头。
 
-> g++ -std = c++17 stdc++。h
+> g++ -std = c++ 17 stdc++。h
 
 ![](img/fcd9ade1436e5dcd343c106968e09100.png)

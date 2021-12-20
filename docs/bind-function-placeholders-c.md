@@ -1,8 +1,8 @@
-# 在 C++中绑定函数和占位符
+# 在 C++ 中绑定函数和占位符
 
 > 原文:[https://www.geeksforgeeks.org/bind-function-placeholders-c/](https://www.geeksforgeeks.org/bind-function-placeholders-c/)
 
-有时我们需要根据需要操纵函数的操作，例如将一些参数更改为默认值等。预先定义一个函数有[默认参数](https://www.geeksforgeeks.org/default-arguments-c/)限制了函数的通用性，迫使我们每次都使用类似值的默认参数。从 C++11 开始，bind 函数的引入使得这个任务变得更加容易。
+有时我们需要根据需要操纵函数的操作，例如将一些参数更改为默认值等。预先定义一个函数有[默认参数](https://www.geeksforgeeks.org/default-arguments-c/)限制了函数的通用性，迫使我们每次都使用类似值的默认参数。从 C++ 11 开始，bind 函数的引入使得这个任务变得更加容易。
 
 【bind()是如何工作的？
 借助占位符绑定函数，有助于操作函数要使用的值的位置和数量，并根据所需的输出修改函数。

@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 反转数组？
+# 如何在 C++ 中使用 STL 反转数组？
 
 > 原文:[https://www . geesforgeks . org/如何使用 c-in-STL 反转数组/](https://www.geeksforgeeks.org/how-to-reverse-an-array-using-stl-in-c/)
 
-给定一个数组 arr[]，在 C++中使用 STL 反转这个数组。
+给定一个数组 arr[]，在 C++ 中使用 STL 反转这个数组。
 
 **例:**
 

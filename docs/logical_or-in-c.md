@@ -1,8 +1,8 @@
-# c++中的逻辑 _ or
+# c++ 中的逻辑 _ or
 
 > 原文:[https://www.geeksforgeeks.org/logical_or-in-c/](https://www.geeksforgeeks.org/logical_or-in-c/)
 
-C++中的**logic _ or**是一个二进制函数对象类，它返回其两个参数之间的逻辑“or”运算的结果(由运算符||)返回。
+C++ 中的**logic _ or**是一个二进制函数对象类，它返回其两个参数之间的逻辑“or”运算的结果(由运算符||)返回。
 
 **语法:**
 

@@ -1,10 +1,10 @@
-# c++中的数组和字符串
+# c++ 中的数组和字符串
 
 > 原文:[https://www.geeksforgeeks.org/arrays-and-strings-in-c/](https://www.geeksforgeeks.org/arrays-and-strings-in-c/)
 
 **<u>阵列</u>**
 
-[C](https://www.geeksforgeeks.org/c/) 或 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的数组是存储在连续内存位置的项目集合，可以使用数组的索引随机访问元素。它们用于存储类似类型的元素，因为所有元素的数据类型必须相同。它们可以用来存储原始数据类型的集合，例如任何特定类型的 **int、float、double、char 等**。另外，C 或 C++中的数组可以存储派生的数据类型，如结构、指针等。
+[C](https://www.geeksforgeeks.org/c/) 或 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的数组是存储在连续内存位置的项目集合，可以使用数组的索引随机访问元素。它们用于存储类似类型的元素，因为所有元素的数据类型必须相同。它们可以用来存储原始数据类型的集合，例如任何特定类型的 **int、float、double、char 等**。另外，C 或 C++ 中的数组可以存储派生的数据类型，如结构、指针等。
 有两种类型的阵列:
 
 *   一维数组
@@ -128,7 +128,7 @@ int main()
 
 **<u>琴弦</u>**
 
-C++字符串类在内部使用字符数组来存储字符，但是所有的内存管理、分配和空终止都是由字符串类本身处理的，这就是它易于使用的原因。例如，它被声明为:
+C++ 字符串类在内部使用字符数组来存储字符，但是所有的内存管理、分配和空终止都是由字符串类本身处理的，这就是它易于使用的原因。例如，它被声明为:
 
 ```cpp
 char str[] = "GeeksforGeeks"
@@ -152,7 +152,7 @@ void traverseString(char str[])
     // Iterate till we found '\0'
     while (str[i] != '\0') {
         printf("%c ", str[i]);
-        i++;
+        i++ ;
     }
 }
 
@@ -177,7 +177,7 @@ G e e k f o r G e e k s
 
 ```
 
-C++中的字符串数据类型提供了各种字符串操作功能。它们是:
+C++ 中的字符串数据类型提供了各种字符串操作功能。它们是:
 
 1.  **strcpy()** :用于将字符从一个字符串复制到另一个字符串。
 2.  **strcat()** :用于给定的两个字符串相加。

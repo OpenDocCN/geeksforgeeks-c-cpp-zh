@@ -1,9 +1,9 @@
-# 在 C++中实现有序集的上界()和下界()
+# 在 C++ 中实现有序集的上界()和下界()
 
 > 原文:[https://www . geeksforgeeks . org/implementing-upper _ bound-and-down _ bound-for-ordered-set-in-c/](https://www.geeksforgeeks.org/implementing-upper_bound-and-lower_bound-for-ordered-set-in-c/)
 
 **先决条件:** [有序集和 GNU C++ PBDS](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)
-给定一个[有序集](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/) **集**和一个键 **K** ，任务是在 C++中找到**集**中元素 **K** 的[上界和下界](https://www.geeksforgeeks.org/lower-and-upper-bound-theory/)。如果元素不存在或无法计算任何一个边界，则打印 **-1** 。
+给定一个[有序集](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/) **集**和一个键 **K** ，任务是在 C++ 中找到**集**中元素 **K** 的[上界和下界](https://www.geeksforgeeks.org/lower-and-upper-bound-theory/)。如果元素不存在或无法计算任何一个边界，则打印 **-1** 。
 
 > **有序集**是 g++ 中基于[策略的数据结构，它将唯一的元素保持在有序的顺序中。它以对数(n)复杂度执行由](https://www.geeksforgeeks.org/policy-based-data-structures-g/)[集合数据结构](https://www.geeksforgeeks.org/set-in-cpp-stl/)在 [STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 中执行的所有操作。除此之外，它还以 log(n)复杂度执行两个额外的操作，如:
 > 1。 **order_of_key (K):** 严格小于 K 的项目数

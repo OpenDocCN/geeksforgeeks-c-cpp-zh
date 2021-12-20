@@ -1,4 +1,4 @@
-# STD::numeric _ limits<t>::denorm _ min()用 C++举例</t>
+# STD::numeric _ limits<t>::denorm _ min()用 C++ 举例</t>
 
 > 原文:[https://www . geesforgeks . org/stdnumeric _ limitstdnorm _ min-in-c-with-example/](https://www.geeksforgeeks.org/stdnumeric_limitstdenorm_min-in-c-with-example/)
 
@@ -30,7 +30,7 @@ std::numeric_limits<T>::denorm_min()
 
 **返回值:**函数**STD::numeric _ limits<T>:denorm _ min()**返回数据类型 **T** 的最小非零反规格化值。
 
-下面是用 C++演示**标准:数值极限<T>:denorm _ min()**的程序:
+下面是用 C++ 演示**标准:数值极限<T>:denorm _ min()**的程序:
 
 **程序:**
 

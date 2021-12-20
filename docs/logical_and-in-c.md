@@ -1,8 +1,8 @@
-# c++中的逻辑 _ and
+# c++ 中的逻辑 _ and
 
 > 原文:[https://www.geeksforgeeks.org/logical_and-in-c/](https://www.geeksforgeeks.org/logical_and-in-c/)
 
-C++中的 **logical_and** 是一个二元函数对象类，它返回其两个参数之间的逻辑“and”运算的结果(由运算符& &返回)。
+C++ 中的 **logical_and** 是一个二元函数对象类，它返回其两个参数之间的逻辑“and”运算的结果(由运算符& &返回)。
 
 **语法:**
 

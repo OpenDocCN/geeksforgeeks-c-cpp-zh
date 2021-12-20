@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 
 该漏洞的存在是因为如果用户输入(argv[1])大于 8 字节，缓冲区可能会溢出。为什么是 8 字节？对于 32 位(4 字节)系统，我们必须填满一个双字(32 位)存储器。字符(char)大小是 1 字节，所以如果我们请求 5 字节的缓冲区，系统将分配 2 个双字(8 字节)。这就是为什么当你输入超过 8 个字节时；mybuffer 将被溢出
 技术上不太脆弱的类似标准函数，如 strncpy()、strncat()和 memcpy()，确实存在。但是这些函数的问题在于，断言缓冲区的大小是程序员的责任，而不是编译器的责任。
-每一个 C/C++编码人员或者程序员在做编码之前都必须知道缓冲区溢出的问题。在大多数情况下，由于缓冲区溢出，会产生许多漏洞。
+每一个 C/C++ 编码人员或者程序员在做编码之前都必须知道缓冲区溢出的问题。在大多数情况下，由于缓冲区溢出，会产生许多漏洞。
 **REFERENCES**
 [维基百科](https://en.wikipedia.org/wiki/Buffer_overflow)
 [buffer overflow](http://www.cse.scu.edu/~tschwarz/coen152_05/Lectures/BufferOverflow.html)

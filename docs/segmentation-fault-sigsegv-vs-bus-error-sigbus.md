@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 
     /* Increment the pointer by one, making it
        misaligned */
-    int *iptr = (int *) ++cptr;
+    int *iptr = (int *) ++ cptr;
 
     /* Dereference it as an int pointer, causing
        an unaligned access */

@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/多少级指针-我们可以拥有-in-c-cpp/](https://www.geeksforgeeks.org/how-many-levels-of-pointers-can-we-have-in-c-cpp/)
 
-**先决条件:**[C 和 C++中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)[C 中的双指针(指向指针的指针)](https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/)
+**先决条件:**[C 和 C++ 中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)[C 中的双指针(指向指针的指针)](https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/)
 
 **指针**用于指向变量的存储位置。指针存储变量的地址，变量的值可以通过指针的解引用来访问。
 指针通常初始化为:
@@ -16,7 +16,7 @@ datatype *variable name;
 
 上面的声明是一个指针，但还可以有更多的指针。这被称为指针的**级**。根据 ANSI C，每个编译器必须至少有 **12 级**的指针。这意味着我们可以使用带有变量名的 12 *符号。
 
-**<u>C/c++</u>中指针的级别:**
+**<u>C/c++ </u>中指针的级别:**
 指针或说链的级别可以根据内存大小上升到 N 级。如果要创建**级-5** 的指针，需要在声明时在指针变量名前加 5 个星号 **(*)** 。
 
 **语法:**

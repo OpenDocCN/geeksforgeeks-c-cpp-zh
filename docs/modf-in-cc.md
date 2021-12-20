@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/modf-in-cc/](https://www.geeksforgeeks.org/modf-in-cc/)
 
-在 C++中，modf()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。这个库中所有可用的函数都以 double 作为参数，并返回 double 作为结果。
+在 C++ 中，modf()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。这个库中所有可用的函数都以 double 作为参数，并返回 double 作为结果。
 
 **modf()** 函数将给定的自变量分成两部分，一部分是整数，另一部分是小数。整数部分存储在指针指向的内存地址中，指针作为函数中的第二个参数传递，小数部分由函数返回。
 

@@ -1,4 +1,4 @@
-# STD::is _ northrow _ copy _ 可在 C++中构造，示例
+# STD::is _ northrow _ copy _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ copy _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_nothrow_copy_constructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ is_nothrow_copy_constructible<T>::value
 *   **true:** If the type **t** is a replicable type.
 *   **false:** If the type **t** is not the type of replicable structure.
 
-下面是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ northrow _ copy _ construction**的程序:
+下面是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ northrow _ copy _ construction**的程序:
 
 **程序 1:**
 

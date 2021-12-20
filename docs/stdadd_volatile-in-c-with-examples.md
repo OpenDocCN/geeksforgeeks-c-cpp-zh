@@ -1,4 +1,4 @@
-# std::add_volatile 用 C++举例
+# std::add_volatile 用 C++ 举例
 
 > 原文:[https://www . geeksforgeeks . org/stdadd _ volatile-in-c-with-examples/](https://www.geeksforgeeks.org/stdadd_volatile-in-c-with-examples/)
 
@@ -28,7 +28,7 @@ std::add_volatile<T>::value
 
 **参数:**模板 **std::add_volatile** 接受单个参数 **T(Trait 类)**，用于获取具有 volatile 资质的类型 **T** 。
 
-下面是用 C++演示 **std::add_volatile:** 的程序:
+下面是用 C++ 演示 **std::add_volatile:** 的程序:
 
 **程序:**
 

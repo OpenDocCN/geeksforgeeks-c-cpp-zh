@@ -25,7 +25,7 @@ uset.operator= ( initializer list )
 
 **返回值:**都返回这个指针的值(*this)。
 
-下面的程序举例说明了 C++中的**无序 _ 集合::运算符=** 。
+下面的程序举例说明了 C++ 中的**无序 _ 集合::运算符=** 。
 T3】节目:
 
 ```cpp
@@ -59,15 +59,15 @@ int main()
     sample1 = sample3;
 
     // Print the unordered_set list
-    for (auto it = sample1.begin(); it != sample1.end(); ++it)
+    for (auto it = sample1.begin(); it != sample1.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 
-    for (auto it = sample2.begin(); it != sample2.end(); ++it)
+    for (auto it = sample2.begin(); it != sample2.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 
-    for (auto it = sample3.begin(); it != sample3.end(); ++it)
+    for (auto it = sample3.begin(); it != sample3.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 }

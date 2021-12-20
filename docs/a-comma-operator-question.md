@@ -46,7 +46,7 @@ int main(void)
 }
 ```
 
-在 C/C++程序中，逗号用于两种上下文:(1)分隔符(2)运算符。(详见[本](https://www.geeksforgeeks.org/comna-in-c-and-c/))。
+在 C/C++ 程序中，逗号用于两种上下文:(1)分隔符(2)运算符。(详见[本](https://www.geeksforgeeks.org/comna-in-c-and-c/))。
 
 逗号在程序 1 中只是一个分隔符，我们在这个程序中得到编译错误。
 

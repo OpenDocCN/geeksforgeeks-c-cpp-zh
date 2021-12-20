@@ -1,8 +1,8 @@
-# 在 C++中传递和返回对象
+# 在 C++ 中传递和返回对象
 
 > 原文:[https://www . geesforgeks . org/passing-and-return-objects-in-c/](https://www.geeksforgeeks.org/passing-and-returning-objects-in-c/)
 
-在 C++中，我们可以将类的对象作为参数传递，也可以像传递和返回其他变量一样从函数中返回它们。这样做不需要特殊的关键字或头文件。
+在 C++ 中，我们可以将类的对象作为参数传递，也可以像传递和返回其他变量一样从函数中返回它们。这样做不需要特殊的关键字或头文件。
 
 ### 将对象作为参数传递
 

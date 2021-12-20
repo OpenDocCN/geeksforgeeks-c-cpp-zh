@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 对数组进行降序排序？
+# 如何在 C++ 中使用 STL 对数组进行降序排序？
 
 > 原文:[https://www . geesforgeks . org/如何使用-stl-in-c 对数组进行降序排序/](https://www.geeksforgeeks.org/how-to-sort-an-array-in-descending-order-using-stl-in-c/)
 
-给定一个数组 arr[]，用 C++中的 STL 对这个数组进行降序排序。
+给定一个数组 arr[]，用 C++ 中的 STL 对这个数组进行降序排序。
 
 **例:**
 

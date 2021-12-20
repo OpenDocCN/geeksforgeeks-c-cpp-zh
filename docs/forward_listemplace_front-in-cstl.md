@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/forward _ listitle _ front-in-cstl/](https://www.geeksforgeeks.org/forward_listemplace_front-in-cstl/)
 
-[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++11 引入的，它比其他容器在插入、移除和移动操作(如排序)方面更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素。
+[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++ 11 引入的，它比其他容器在插入、移除和移动操作(如排序)方面更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素。
 
 **forward_list::emplace_front()**
 
@@ -56,7 +56,7 @@ int main() {
   // forward list becomes 6, 5, 4, 3, 2, 1
 
   // printing the forward list
-  for (auto it = myflist.begin(); it != myflist.end(); ++it)
+  for (auto it = myflist.begin(); it != myflist.end(); ++ it)
     cout << ' ' << *it;
 
   return 0;
@@ -87,7 +87,7 @@ int main() {
   // forward list becomes This, is, Geeksforgeeks
 
   // printing the forward list
-  for (auto it = myflist.begin(); it != myflist.end(); ++it)
+  for (auto it = myflist.begin(); it != myflist.end(); ++ it)
     cout << ' ' << *it;
 
   return 0;
@@ -119,7 +119,7 @@ int main() {
   // forward list becomes a, b, x, y, z
 
   // printing the forward list
-  for (auto it = myflist.begin(); it != myflist.end(); ++it)
+  for (auto it = myflist.begin(); it != myflist.end(); ++ it)
     cout << ' ' << *it;
 
   return 0;
@@ -165,7 +165,7 @@ int main() {
   // Sorting function
   myforwardlist.sort();
 
-  for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++it)
+  for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++ it)
     cout << ' ' << *it;
 }
 ```

@@ -1,4 +1,4 @@
-# STD::string::find _ last _ not _ of 在 C++中
+# STD::string::find _ last _ not _ of 在 C++ 中
 
 > 原文:[https://www . geesforgeks . org/stdstringfind _ last _ not _ of-in-CPP/](https://www.geeksforgeeks.org/stdstringfind_last_not_of-in-cpp/)
 

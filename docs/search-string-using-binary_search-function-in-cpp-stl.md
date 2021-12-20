@@ -20,7 +20,7 @@ binary_search(starting_address, ending_address, value_of_string)
 
 下面是上述方法的实现:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement Binary

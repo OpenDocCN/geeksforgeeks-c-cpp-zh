@@ -1,4 +1,4 @@
-# c++中的 basic_istream::swap()，示例
+# c++ 中的 basic_istream::swap()，示例
 
 > 原文:[https://www . geesforgeks . org/basic _ is tream swap-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreamswap-in-c-with-examples/)
 

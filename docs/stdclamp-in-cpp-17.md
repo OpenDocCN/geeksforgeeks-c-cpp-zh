@@ -10,7 +10,7 @@ If num < low, num is assigned low.
 If num is already clamped, no modifications.
 ```
 
-**注意:**这个函数从 C++17 开始在表头定义。
+**注意:**这个函数从 C++ 17 开始在表头定义。
 
 示例:
 

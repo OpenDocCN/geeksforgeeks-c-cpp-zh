@@ -6,7 +6,7 @@
 
 ### deqo::empty()
 
-empty()函数用于检查 deque 容器是否为空。这是来自 [C++标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<德清>** 头文件。该功能返回**真**或**假**，具体取决于德格是否为空。
+empty()函数用于检查 deque 容器是否为空。这是来自 [C++ 标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<德清>** 头文件。该功能返回**真**或**假**，具体取决于德格是否为空。
 **语法:**
 
 ```cpp
@@ -117,7 +117,7 @@ int main()
 
 ### deque::size()
 
-size()函数用于返回 deque 容器的大小或 deque 容器中的元素数量。这是一个来自 C++标准模板库(STL)的内置函数。该功能属于 **<德清>** 头文件。该函数要么返回一个数字，演示 deque 在该实例中持有的元素总数。
+size()函数用于返回 deque 容器的大小或 deque 容器中的元素数量。这是一个来自 C++ 标准模板库(STL)的内置函数。该功能属于 **<德清>** 头文件。该函数要么返回一个数字，演示 deque 在该实例中持有的元素总数。
 **语法:**
 
 ```cpp

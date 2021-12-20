@@ -61,7 +61,7 @@ int main()
 
     // printing the deque
     for (auto it = mydeque.begin();
-         it != mydeque.end(); ++it)
+         it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -99,7 +99,7 @@ int main()
 
     // printing the deque
     for (auto it = mydeque.begin();
-                  it != mydeque.end(); ++it)
+                  it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -154,7 +154,7 @@ int main()
 
     // counting elements in deque
     while (!mydeque.empty()) {
-        count++;
+        count++ ;
         mydeque.pop_back();
     }
     cout << count;
@@ -222,7 +222,7 @@ int main()
 
     // printing the deque
     for (auto it = mydeque.begin();
-             it != mydeque.end(); ++it)
+             it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -255,7 +255,7 @@ int main()
 
     // printing the deque
     for (auto it = mydeque.begin();
-                it != mydeque.end(); ++it)
+                it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;

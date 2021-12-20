@@ -1,4 +1,4 @@
-# 是 C++14 中的 _final 模板
+# 是 C++ 14 中的 _final 模板
 
 > 原文:[https://www.geeksforgeeks.org/is_final-template-in-c14/](https://www.geeksforgeeks.org/is_final-template-in-c14/)
 
@@ -20,7 +20,7 @@ template < class T > struct is_final;
 
 下面的程序说明了 C++ STL 中的标准::is_final 模板:
 
-### 注意:请在联机 IDE 中选择 C++14 运行代码。
+### 注意:请在联机 IDE 中选择 C++ 14 运行代码。
 
 **程序 1** :
 

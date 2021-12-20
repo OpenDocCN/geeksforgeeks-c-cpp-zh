@@ -51,7 +51,7 @@ int main()
 
     // using begin() to print set
     for (auto it = myset.begin(); it !=
-                             myset.end(); ++it)
+                             myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -80,7 +80,7 @@ int main()
 
     // using begin() to print set
     for (auto it = myset.begin(); it !=
-                           myset.end(); ++it)
+                           myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -111,7 +111,7 @@ int main()
 
     // using begin() to print set
     for (auto it = myset.begin(); it !=
-                               myset.end(); ++it)
+                               myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -168,7 +168,7 @@ int main()
 
     // using end() to print set
     for (auto it = myset.begin(); it !=
-                          myset.end(); ++it)
+                          myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -196,7 +196,7 @@ int main()
     set<char> myset{'a', 'c', 'g', 'z'};
 
     // using begin() to print set
-    for (auto it=myset.begin(); it != myset.end(); ++it)
+    for (auto it=myset.begin(); it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -227,7 +227,7 @@ int main()
 
     // using begin() to print set
     for (auto it = myset.begin(); it !=
-                                myset.end(); ++it)
+                                myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

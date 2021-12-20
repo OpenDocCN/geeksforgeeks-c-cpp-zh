@@ -1,8 +1,8 @@
-# 用 C++中的 OpenCV 画线
+# 用 C++ 中的 OpenCV 画线
 
 > 原文:[https://www . geesforgeks . org/draw-a-line-use-opencv-in-c/](https://www.geeksforgeeks.org/draw-a-line-using-opencv-in-c/)
 
-在本文中，我们将讨论如何在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [OpenCV](https://www.geeksforgeeks.org/opencv-c-program-face-detection/) 绘制一条线。想法是使用 OpenCV C++库中的 **line()函数**。
+在本文中，我们将讨论如何在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [OpenCV](https://www.geeksforgeeks.org/opencv-c-program-face-detection/) 绘制一条线。想法是使用 OpenCV C++ 库中的 **line()函数**。
 
 **语法:**
 

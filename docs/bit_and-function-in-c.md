@@ -1,8 +1,8 @@
-# c++中的 bit_and 函数
+# c++ 中的 bit_and 函数
 
 > 原文:[https://www.geeksforgeeks.org/bit_and-function-in-c/](https://www.geeksforgeeks.org/bit_and-function-in-c/)
 
-**bit_and** 是 C++中的一个内置函数，用于在其参数上应用按位 and 后返回值(由运算符&返回)。
+**bit_and** 是 C++ 中的一个内置函数，用于在其参数上应用按位 and 后返回值(由运算符&返回)。
 
 ```cpp
 template  struct bit_and 

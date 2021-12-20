@@ -1,4 +1,4 @@
-# c++中 STL 数组上的关系运算符
+# c++ 中 STL 数组上的关系运算符
 
 > 原文:[https://www . geesforgeks . org/relational-operator-on-STL-array-in-c/](https://www.geeksforgeeks.org/relational-operators-on-stl-array-in-c/)
 

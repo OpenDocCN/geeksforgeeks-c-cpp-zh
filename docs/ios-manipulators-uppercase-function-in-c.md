@@ -1,8 +1,8 @@
-# ios 操纵器大写()函数在 C++中
+# ios 操纵器大写()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-大写-函数 in-c/](https://www.geeksforgeeks.org/ios-manipulators-uppercase-function-in-c/)
 
-C++中**流操纵器**的**大写()**方法用于设置指定字符串流的大写格式标志。该标志使输出操作使用大写字母而不是小写字母。
+C++ 中**流操纵器**的**大写()**方法用于设置指定字符串流的大写格式标志。该标志使输出操作使用大写字母而不是小写字母。
 
 **语法:**
 

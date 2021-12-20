@@ -1,4 +1,4 @@
-# c++中的引用
+# c++ 中的引用
 
 > 原文:[https://www.geeksforgeeks.org/references-in-c/](https://www.geeksforgeeks.org/references-in-c/)
 
@@ -187,7 +187,7 @@ int main() {
     **1)** 一旦创建了引用，以后就不能再引用另一个对象；它不能被重置。这通常是通过指针来完成的。
     **2)** 引用不能为空。指针通常为空，表示它们没有指向任何有效的东西。
     **3)** 声明引用时必须进行初始化。指针没有这样的限制。
-    由于上述限制，C++中的引用不能用于实现链表、树等数据结构。在 Java 中，引用没有上述限制，可以用来实现所有的数据结构。Java 中引用功能更强大是 Java 不需要指针的主要原因。
+    由于上述限制，C++ 中的引用不能用于实现链表、树等数据结构。在 Java 中，引用没有上述限制，可以用来实现所有的数据结构。Java 中引用功能更强大是 Java 不需要指针的主要原因。
 
 *   **引用更安全更容易使用:**
     ***1)更安全** :* 由于引用必须初始化，像[野指针](https://www.geeksforgeeks.org/what-are-wild-pointers-how-can-we-avoid/)这样的野引用不太可能存在。仍然有可能存在不引用有效位置的引用(参见下面练习中的问题 5 和 6)
@@ -318,9 +318,9 @@ int main()
 
 **相关文章:**
 
-*   [c++中的指针与引用](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
+*   [c++ 中的指针与引用](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
 *   [我们什么时候通过引用或者指针传递参数？](https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/)
-*   [引用可以引用 C++中的无效位置吗？](https://www.geeksforgeeks.org/g-fact-25/)
-*   [c++中通过指针传递与通过引用传递](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
+*   [引用可以引用 C++ 中的无效位置吗？](https://www.geeksforgeeks.org/g-fact-25/)
+*   [c++ 中通过指针传递与通过引用传递](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
 
 如果您发现任何不正确的地方，或者您想分享更多关于上面讨论的主题的信息，请写评论

@@ -26,24 +26,24 @@ int minFlipsSub(string mat[], int i, int j)
     int cnt0 = 0, cnt1 = 0;
 
     if (mat[i][j] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i][j + 1] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1][j] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1][j + 1] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     return min(cnt0, cnt1);
 }
@@ -100,24 +100,24 @@ static int minFlipsSub(String mat[], int i, int j)
     int cnt0 = 0, cnt1 = 0;
 
     if (mat[i].charAt(j) == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i].charAt(j+1) == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1].charAt(j) == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1].charAt(j+1) == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     return Math.min(cnt0, cnt1);
 }
@@ -243,24 +243,24 @@ static int minFlipsSub(String []mat,
     int cnt0 = 0, cnt1 = 0;
 
     if (mat[i][j] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i][j + 1] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1][j] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     if (mat[i + 1][j + 1] == '1')
-        cnt1++;
+        cnt1++ ;
     else
-        cnt0++;
+        cnt0++ ;
 
     return Math.Min(cnt0, cnt1);
 }
@@ -316,24 +316,24 @@ public static void Main(String[] args)
         var cnt0 = 0, cnt1 = 0;
 
         if (mat[i].charAt(j) == '1')
-            cnt1++;
+            cnt1++ ;
         else
-            cnt0++;
+            cnt0++ ;
 
         if (mat[i].charAt(j + 1) == '1')
-            cnt1++;
+            cnt1++ ;
         else
-            cnt0++;
+            cnt0++ ;
 
         if (mat[i + 1].charAt(j) == '1')
-            cnt1++;
+            cnt1++ ;
         else
-            cnt0++;
+            cnt0++ ;
 
         if (mat[i + 1].charAt(j + 1) == '1')
-            cnt1++;
+            cnt1++ ;
         else
-            cnt0++;
+            cnt0++ ;
 
         return Math.min(cnt0, cnt1);
     }

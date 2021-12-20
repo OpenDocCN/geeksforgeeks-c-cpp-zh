@@ -1,4 +1,4 @@
-# c++中的 basic_istream::peek()，示例
+# c++ 中的 basic_istream::peek()，示例
 
 > 原文:[https://www . geeksforgeeks . org/basic _ is treampeek-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreampeek-in-c-with-examples/)
 

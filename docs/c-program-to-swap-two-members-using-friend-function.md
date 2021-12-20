@@ -1,12 +1,12 @@
 # 使用友方函数
 
-交换两个成员的 C++程序
+交换两个成员的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-程序到交换-两个成员-使用朋友-函数/](https://www.geeksforgeeks.org/c-program-to-swap-two-members-using-friend-function/)
 
 **先决条件:** [朋友函数](https://www.geeksforgeeks.org/friend-class-function-cpp/)
 T5【案例 1:
-给定两个数字 a & b，使用 C++的朋友函数交换这两个数字。
+给定两个数字 a & b，使用 C++ 的朋友函数交换这两个数字。
 
 **示例:**
 

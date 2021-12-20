@@ -2,12 +2,12 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/go-vs-c-plus/
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是一种通用编程语言，如今广泛用于竞技编程。它具有命令式、面向对象和泛型编程特性。C++运行在很多平台上，比如 Windows、Linux、Unix、Mac 等。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是一种通用编程语言，如今广泛用于竞技编程。它具有命令式、面向对象和泛型编程特性。C++ 运行在很多平台上，比如 Windows、Linux、Unix、Mac 等。
 [Go](https://www.geeksforgeeks.org/go-programming-language-introduction/) 是一种程序设计语言。它于 2007 年由罗伯特·格里森、罗布·派克和肯·汤普森在谷歌开发，但于 2009 年作为开源编程语言推出。程序通过使用包来组装，以便有效地管理依赖关系。这种语言也支持环境采用与动态语言相似的模式。
 
-![Go-vs-C++](img/3d83c79d90ac241fbcb512480d66fea0.png)
+![Go-vs-C++ ](img/3d83c79d90ac241fbcb512480d66fea0.png)
 
-***下面是 Golang 和 C++语言的一些区别:***
+***下面是 Golang 和 C++ 语言的一些区别:***
 
 <figure class="table">
 

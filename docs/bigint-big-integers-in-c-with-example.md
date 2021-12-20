@@ -1,8 +1,8 @@
-# c++中的 BigInt(大整数)示例
+# c++ 中的 BigInt(大整数)示例
 
 > 原文:[https://www . geeksforgeeks . org/bigint-big-integers-in-c-with-example/](https://www.geeksforgeeks.org/bigint-big-integers-in-c-with-example/)
 
-在 [C/C++](https://www.geeksforgeeks.org/difference-between-c-and-c/) 中，一个[长整型](https://www.geeksforgeeks.org/c-data-types/)最多可以有 20 位数字。而问题是存储 22 位数字，这是不容易存储在任何一种原始类型。因此，为了处理这类问题，让我们设计一个新的数据类型，它将被称为 **BigInt** 在本文中，一些基本操作正在新的数据类型上实现。
+在 [C/C++ ](https://www.geeksforgeeks.org/difference-between-c-and-c/) 中，一个[长整型](https://www.geeksforgeeks.org/c-data-types/)最多可以有 20 位数字。而问题是存储 22 位数字，这是不容易存储在任何一种原始类型。因此，为了处理这类问题，让我们设计一个新的数据类型，它将被称为 **BigInt** 在本文中，一些基本操作正在新的数据类型上实现。
 
 1.  加两个大整数。
 2.  减去两个大整数
@@ -26,7 +26,7 @@
 **方法:**
 为了创建新的大整数数据类型，正在实施以下概念:
 
-1.  [C++字符串](https://www.geeksforgeeks.org/stdstring-class-in-c/)因为我们可以以字符的形式存储我们的数字(为了高效起见，以相反的顺序)，所以使用字符串我们也可以存储非常大的数字。
+1.  [C++ 字符串](https://www.geeksforgeeks.org/stdstring-class-in-c/)因为我们可以以字符的形式存储我们的数字(为了高效起见，以相反的顺序)，所以使用字符串我们也可以存储非常大的数字。
 2.  对于两个大整数的加法/减法运算，使用加法的基本数学，即相加相应的两位数，如果产生进位，将其加到下一位数字的和上，并重复这个过程，直到所有数字相加/相减。
 3.  同样，对于两个数字的乘法，使用基本的数学方法，即把一个数字的每个数字与另一个完整的数字相乘，最后把乘法中得到的所有数字相加。
 4.  以下操作正在 BigInt 上执行-
@@ -46,7 +46,7 @@
     14.  计算加泰罗尼亚语高达 1 000。
     15.  检查哪个大整数更大，哪个更小。
 
-下面是上述方法的 C++实现:
+下面是上述方法的 C++ 实现:
 
 ## C++
 
@@ -204,7 +204,7 @@ BigInt &BigInt::operator++(){
     if(i == n)
         digits.push_back(1);
     else
-        digits[i]++;
+        digits[i]++ ;
     return *this;
 }
 BigInt BigInt::operator++(int temp){
@@ -341,7 +341,7 @@ BigInt &operator/=(BigInt& a,const BigInt &b){
         t = t * 10 + a.digits[i];
         for (cc = 9; cc * b > t;cc--);
         t -= cc * b;
-        cat[lgcat++] = cc;
+        cat[lgcat++ ] = cc;
     }
     a.digits.resize(cat.size());
     for (i = 0; i < lgcat;i++)
@@ -379,7 +379,7 @@ BigInt &operator%=(BigInt& a,const BigInt &b){
         t = t * 10 + a.digits[i];
         for (cc = 9; cc * b > t;cc--);
         t -= cc * b;
-        cat[lgcat++] = cc;
+        cat[lgcat++ ] = cc;
     }
     a = t;
     return a;
@@ -430,7 +430,7 @@ BigInt sqrt(BigInt & a){
         prod = (mid * mid);
         if(prod <= a){
             v = mid;
-            ++mid;
+            ++ mid;
             left = mid;
         }
         else{
@@ -524,7 +524,7 @@ int main()
     cout << "fifth = " << fifth<< '\n';
 
     // Incrementing the value of first
-    first++;
+    first++ ;
     cout << "After incrementing the"
          << " value of first is : ";
     cout << first << '\n';

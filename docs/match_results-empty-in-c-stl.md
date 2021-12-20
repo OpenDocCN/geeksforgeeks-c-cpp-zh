@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/match_results-empty-in-c-stl/](https://www.geeksforgeeks.org/match_results-empty-in-c-stl/)
 
-**match_results::empty()** 是 C++中的一个内置函数，如果 smatch 对象不包含匹配项，则返回 **True** 。
+**match_results::empty()** 是 C++ 中的一个内置函数，如果 smatch 对象不包含匹配项，则返回 **True** 。
 **语法:**
 
 ```cpp

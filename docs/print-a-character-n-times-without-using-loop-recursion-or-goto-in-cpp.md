@@ -1,4 +1,4 @@
-# 在 C++中不使用循环、递归或 goto，打印一个字符 n 次
+# 在 C++ 中不使用循环、递归或 goto，打印一个字符 n 次
 
 > 原文:[https://www . geesforgeks . org/print-a-character-n-times-不使用循环-递归-or-goto-in-cpp/](https://www.geeksforgeeks.org/print-a-character-n-times-without-using-loop-recursion-or-goto-in-cpp/)
 
@@ -18,7 +18,7 @@ output : @@@@@@
 
 ```
 
-在 C++中，有一种用值初始化字符串的方法。它可以用来打印一个字符，我们想打印多少次就打印多少次。声明字符串时，可以使用 c++提供的功能对其进行初始化。需要两个参数。首先是我们想要打印特定字符的次数，另一个是字符本身。
+在 C++ 中，有一种用值初始化字符串的方法。它可以用来打印一个字符，我们想打印多少次就打印多少次。声明字符串时，可以使用 c++ 提供的功能对其进行初始化。需要两个参数。首先是我们想要打印特定字符的次数，另一个是字符本身。
 
 下面是说明这一点的实现。
 

@@ -1,4 +1,4 @@
-# std::string::assign()在 C++中
+# std::string::assign()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdstringassign-in-c/](https://www.geeksforgeeks.org/stdstringassign-in-c/)
 

@@ -1,8 +1,8 @@
-# 在 c++中重载 New 和 Delete 运算符
+# 在 c++ 中重载 New 和 Delete 运算符
 
 > 原文:[https://www . geesforgeks . org/overloading-new-delete-operator-c/](https://www.geeksforgeeks.org/overloading-new-delete-operator-c/)
 
-新的和删除操作符也可以像 C++中的其他操作符一样重载。New 和 Delete 运算符可以全局重载，也可以针对特定的类重载。
+新的和删除操作符也可以像 C++ 中的其他操作符一样重载。New 和 Delete 运算符可以全局重载，也可以针对特定的类重载。
 
 *   如果这些操作符是使用某个类的成员函数重载的，这意味着这些操作符只是为该特定类重载**。**
 *   如果重载是在类之外完成的(即它不是类的成员函数)，重载的“new”和“delete”将在您使用这些操作符的任何时候被调用(在类内或类外)。这是**全局重载**。

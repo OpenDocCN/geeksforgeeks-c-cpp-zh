@@ -30,8 +30,8 @@ void lengthOfString(char* string)
 
     // Iterate till temp points to NULL
     while (temp != '\0') {
-        count++;
-        i++;
+        count++ ;
+        i++ ;
         temp = string[i];
     }
 

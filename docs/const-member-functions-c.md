@@ -1,4 +1,4 @@
-# c++中的 Const 成员函数
+# c++ 中的 Const 成员函数
 
 > 原文:[https://www.geeksforgeeks.org/const-member-functions-c/](https://www.geeksforgeeks.org/const-member-functions-c/)
 

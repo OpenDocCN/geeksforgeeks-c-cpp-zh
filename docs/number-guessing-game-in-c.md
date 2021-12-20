@@ -70,7 +70,7 @@ void guess(int N)
         {
             printf("Lower number "
                    "please!\n");
-            numberofguess++;
+            numberofguess++ ;
         }
 
         // When user guesses higher
@@ -80,7 +80,7 @@ void guess(int N)
         {
             printf("Higher number"
                    " please!\n");
-            numberofguess++;
+            numberofguess++ ;
         }
 
         // Printing number of times

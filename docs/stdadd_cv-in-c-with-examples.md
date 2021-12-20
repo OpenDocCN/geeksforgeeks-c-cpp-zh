@@ -1,4 +1,4 @@
-# 标准::C++中的 add_cv 示例
+# 标准::C++ 中的 add_cv 示例
 
 > 原文:[https://www.geeksforgeeks.org/stdadd_cv-in-c-with-examples/](https://www.geeksforgeeks.org/stdadd_cv-in-c-with-examples/)
 
@@ -28,7 +28,7 @@ std::add_const::type
 
 **参数:**模板 **std::add_cv** 接受单个参数 **T(性状类)**检查 **T** 是否常量和挥发合格。
 
-下面是用 C++演示 **std::add_cv** 的程序:
+下面是用 C++ 演示 **std::add_cv** 的程序:
 
 **程序:**
 

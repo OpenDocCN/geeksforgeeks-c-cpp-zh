@@ -1,8 +1,8 @@
-# 编写删除链表函数的 C++程序
+# 编写删除链表函数的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-写程序-函数-删除-链表/](https://www.geeksforgeeks.org/cpp-program-for-writing-a-function-to-delete-a-linked-list/)
 
-**c++的算法:**
+**c++ 的算法:**
 遍历链表，逐个删除所有节点。这里的要点是，如果当前指针被删除，不要访问当前指针的下一个指针。
 
 **实施:**

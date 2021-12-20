@@ -1,4 +1,4 @@
-# 用 C++中的 OpenGL 绘制小屋的程序
+# 用 C++ 中的 OpenGL 绘制小屋的程序
 
 > 原文:[https://www . geesforgeks . org/program-to-draw-a-hut-in-use-OpenGL-in-CPP/](https://www.geeksforgeeks.org/program-to-draw-a-hut-in-using-opengl-in-cpp/)
 

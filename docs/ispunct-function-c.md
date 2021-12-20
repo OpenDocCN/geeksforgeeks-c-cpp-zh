@@ -33,8 +33,8 @@ int main()
     int i = 0, count = 0;
     while (str[i]) {
         if (ispunct(str[i]))
-            count++;
-        i++;
+            count++ ;
+        i++ ;
     }
     printf("Sentence contains %d punctuation"
            " characters.\n", count);
@@ -61,7 +61,7 @@ int main()
     int i;
     printf("All punctuation characters in C"
             " programming are: \n");
-    for (i = 0; i <= 255; ++i)
+    for (i = 0; i <= 255; ++ i)
         if (ispunct(i) != 0)
             printf("%c ", i);
     return 0;

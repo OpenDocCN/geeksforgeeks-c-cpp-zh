@@ -1,4 +1,4 @@
-# C/c++中的决策(如果，如果..else，Nested if，if-else-if )
+# C/c++ 中的决策(如果，如果..else，Nested if，if-else-if )
 
 > 原文:[https://www . geesforgeks . org/decision-c-c-else-nested-else/](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)
 
@@ -6,7 +6,7 @@
 
 ![](img/e4c6317ee871252e9af3082142774579.png)
 
-编程语言中的决策语句决定了程序执行流程的方向。C 或 C++中可用的决策语句有:
+编程语言中的决策语句决定了程序执行流程的方向。C 或 C++ 中可用的决策语句有:
 
 1.  [if 语句](#if)
 2.  [如果..else 语句](#if-else)
@@ -95,7 +95,7 @@ I am Not in if
 
 因为 if 语句中的条件为假。所以，if 语句下面的块没有被执行。
 
-**C/c++中的 if-else**
+**C/c++ 中的 if-else**
 
 仅 *if* 语句就告诉我们，如果条件为真，它将执行一组语句，如果条件为假，它不会执行。但是如果条件是假的，我们想做别的事情怎么办。C *else* 语句来了。如果条件为假，我们可以使用 *else* 语句和 *if* 语句来执行一段代码。
 **语法** :
@@ -168,9 +168,9 @@ i is greater than 15
 
 如果语句为假，则*否则*语句后面的代码块将作为*中的条件执行。* 
 
-**嵌套-如果在 C/C++中**
+**嵌套-如果在 C/C++ 中**
 
-C 中的嵌套 if 是一个 if 语句，它是另一个 if 语句的目标。嵌套的 if 语句意味着一个 if 语句在另一个 if 语句中。是的，C 和 C++都允许我们在 if 语句中嵌套 if 语句，也就是说，我们可以将一个 if 语句放在另一个 if 语句中。
+C 中的嵌套 if 是一个 if 语句，它是另一个 if 语句的目标。嵌套的 if 语句意味着一个 if 语句在另一个 if 语句中。是的，C 和 C++ 都允许我们在 if 语句中嵌套 if 语句，也就是说，我们可以将一个 if 语句放在另一个 if 语句中。
 **语法:**
 
 ```cpp
@@ -255,7 +255,7 @@ i is smaller than 15
 i is smaller than 12 too
 ```
 
-**C/c++中的 if-else-if 阶梯**
+**C/c++ 中的 if-else-if 阶梯**
 
 在这里，用户可以在多个选项中进行选择。C if 语句是从上到下执行的。一旦控制 if 的条件之一为真，就执行与该 if 相关联的语句，并绕过 C else-if 阶梯的其余部分。如果这些条件都不成立，那么将执行最后的 else 语句。
 **语法:**
@@ -323,9 +323,9 @@ int main()
 i is 20
 ```
 
-**C/c++中的跳转语句**
+**C/c++ 中的跳转语句**
 
-这些语句在 C orC++中用于程序中所有函数的无条件控制流。它们支持四种类型的跳转语句:
+这些语句在 C orC++ 中用于程序中所有函数的无条件控制流。它们支持四种类型的跳转语句:
 
 1.  [**C break:**](https://www.geeksforgeeks.org/break-statement-cc/) 此循环控制语句用于终止循环。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
     **语法:**
@@ -487,7 +487,7 @@ int main()
 1 2 3 4 5 7 8 9 10
 ```
 
-如果在 C/C++的 if-else 中创建一个变量，它将只位于 if/else 块的本地。您可以在 if/else 块中使用全局变量。如果您在 if/else 中创建的变量名称与任何全局变量相同，则优先考虑“局部变量”。
+如果在 C/C++ 的 if-else 中创建一个变量，它将只位于 if/else 块的本地。您可以在 if/else 块中使用全局变量。如果您在 if/else 中创建的变量名称与任何全局变量相同，则优先考虑“局部变量”。
 
 ## C++
 
@@ -530,7 +530,7 @@ int main() {
 }
 ```
 
-1.  [**C goto:**](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)C/c++中的 goto 语句也称为无条件跳转语句，可以用来在函数内从一个点跳转到另一个点。
+1.  [**C goto:**](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)C/c++ 中的 goto 语句也称为无条件跳转语句，可以用来在函数内从一个点跳转到另一个点。
     **语法** :
 
 ```cpp
@@ -563,7 +563,7 @@ void printNumbers()
     int n = 1;
 label:
     printf("%d ",n);
-    n++;
+    n++ ;
     if (n <= 10)
         goto label;
 }
@@ -589,7 +589,7 @@ void printNumbers()
     int n = 1;
 label:
     cout << n << " ";
-    n++;
+    n++ ;
     if (n <= 10)
         goto label;
 }
@@ -608,7 +608,7 @@ int main()
 1 2 3 4 5 6 7 8 9 10
 ```
 
-2.  [**C 返回:**](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)C 或 C++中的返回将执行的流程返回到调用它的函数。这个语句不一定需要任何条件语句。语句一执行，程序流就立即停止，并从调用它的地方返回控件。return 语句可以为 void 函数返回任何东西，也可以不返回任何东西，但是对于非 void 函数，必须返回一个返回值。
+2.  [**C 返回:**](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)C 或 C++ 中的返回将执行的流程返回到调用它的函数。这个语句不一定需要任何条件语句。语句一执行，程序流就立即停止，并从调用它的地方返回控件。return 语句可以为 void 函数返回任何东西，也可以不返回任何东西，但是对于非 void 函数，必须返回一个返回值。
     **语法:**
 
 ```cpp

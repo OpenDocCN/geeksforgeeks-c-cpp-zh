@@ -1,8 +1,8 @@
-# 竞技编程初学者的一些有用的 C++技巧
+# 竞技编程初学者的一些有用的 C++ 技巧
 
 > 原文:[https://www . geeksforgeeks . org/一些实用的 c-ticks-for-初学者竞技编程/](https://www.geeksforgeeks.org/some-useful-c-tricks-for-beginners-in-competitive-programming/)
 
-下面是一些基本的 C++技巧，每个竞争编程初学者都应该遵循这些技巧来提高速度。然而，竞争性编程只能通过时间和大量实践来掌握。这些技巧将帮助你在比赛中节省一点时间，这有时很重要。
+下面是一些基本的 C++ 技巧，每个竞争编程初学者都应该遵循这些技巧来提高速度。然而，竞争性编程只能通过时间和大量实践来掌握。这些技巧将帮助你在比赛中节省一点时间，这有时很重要。
 
 1.  Using the **auto** keyword to declare datatypes can save a lot of time during programming contests.
 

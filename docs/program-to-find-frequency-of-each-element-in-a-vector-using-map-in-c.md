@@ -1,4 +1,4 @@
-# 用 C++中的 map 计算向量中每个元素的频率的程序
+# 用 C++ 中的 map 计算向量中每个元素的频率的程序
 
 > 原文:[https://www . geesforgeks . org/program-to-find-frequency-in-a-vector-use-map-in-c/](https://www.geeksforgeeks.org/program-to-find-frequency-of-each-element-in-a-vector-using-map-in-c/)
 
@@ -67,7 +67,7 @@ void printFrequency(vector<int> vec)
 
         // Else update the frequency
         else {
-            M[vec[i]]++;
+            M[vec[i]]++ ;
         }
     }
 

@@ -117,7 +117,7 @@ int getCount(struct Node* head)
 
     while (current != NULL) 
     {
-        count++;
+        count++ ;
         current = current->next;
     }
     return count;

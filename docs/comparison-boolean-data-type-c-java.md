@@ -1,8 +1,8 @@
-# c++和 Java 中布尔数据类型的比较
+# c++ 和 Java 中布尔数据类型的比较
 
 > 原文:[https://www . geesforgeks . org/comparison-boolean-data-type-c-Java/](https://www.geeksforgeeks.org/comparison-boolean-data-type-c-java/)
 
-布尔数据类型是 C++和 Java 中的基本数据类型之一。虽然，它看起来可能是所有数据类型中最简单的，因为它只能有两个值—**true**或 **false** ，但这肯定是一个棘手的问题，因为它在 Java 和 C++中的使用有一定的差异，如果不小心，可能会导致错误。它在 C++和 Java 中的不同用法是-
+布尔数据类型是 C++ 和 Java 中的基本数据类型之一。虽然，它看起来可能是所有数据类型中最简单的，因为它只能有两个值—**true**或 **false** ，但这肯定是一个棘手的问题，因为它在 Java 和 C++ 中的使用有一定的差异，如果不小心，可能会导致错误。它在 C++ 和 Java 中的不同用法是-
 
 1.  **Declaration:** The declaration of boolean data type in C++ involve the use of keyword [bool](https://www.geeksforgeeks.org/bool-data-type-in-c/), whereas declaration in Java is done by keyword [boolean](https://www.geeksforgeeks.org/java-lang-boolean-class-java/).
     **C++ Code:**
@@ -38,7 +38,7 @@
 
 2.  **Default Value:** Default value is the value initially stored in the variable, when it is declared, but not initialized to any value. The default value of boolean data type in Java is false, whereas in C++, it has no default value and contains garbage value (only in case of global variables, it will have default value as false).
 
-    **C++代码:**
+    **C++ 代码:**
 
     ```cpp
     #include<iostream>
@@ -49,7 +49,7 @@
         bool a[5]; 
 
         int i;
-        for (i=0; i<5; ++i)
+        for (i=0; i<5; ++ i)
         {
             cout << a[i] << " ";
         }
@@ -71,7 +71,7 @@
             a = new boolean[5];
 
             int i;
-            for(i=0; i<5; ++i)
+            for(i=0; i<5; ++ i)
             {
                 System.out.println(a[i]);
             }
@@ -96,7 +96,7 @@
 
     这种行为的原因是布尔变量在 Java 中没有被转换成整数值(0 或 1)，所以它们不能这样使用。
 
-    **C++代码:**
+    **C++ 代码:**
 
     ```cpp
     #include<iostream>
@@ -142,9 +142,9 @@
 
 4.  **Use with Relational Operators:** In Java, boolean variables cannot be used with the relational operators like **<, >, <=, and >=** , whereas in C++, they can be used in this manner . **However, they can be used with == and != operators in both Java and C++ .**
 
-    这可以归因于这样一个事实，即关系运算符对数值进行操作，布尔变量在 Java 中不是作为数值存储的，而是在 C++中这样存储的( *false* 存储为 0， *true* 存储为 1)。
+    这可以归因于这样一个事实，即关系运算符对数值进行操作，布尔变量在 Java 中不是作为数值存储的，而是在 C++ 中这样存储的( *false* 存储为 0， *true* 存储为 1)。
 
-    **C++代码:**
+    **C++ 代码:**
 
     ```cpp
     #include<iostream>
@@ -196,7 +196,7 @@
 
 5.  **Floating point value:** In C++, floating, integer values can be easily assigned to a boolean variable, as they will be implicitly type-casted into boolean, whereas doing so in Java will result in an error.
 
-    **C++代码:**
+    **C++ 代码:**
 
     ```cpp
     #include<iostream>

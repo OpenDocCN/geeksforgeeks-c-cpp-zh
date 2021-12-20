@@ -1,8 +1,8 @@
-# ios 操纵器 boolalpha()在 C++中的功能
+# ios 操纵器 boolalpha()在 C++ 中的功能
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-boolalpha-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-boolalpha-function-in-c/)
 
-C++中**流操纵器**的 **boolalpha()** 方法用于设置指定字符串流的 boolalpha 格式标志。
+C++ 中**流操纵器**的 **boolalpha()** 方法用于设置指定字符串流的 boolalpha 格式标志。
 
 **语法:**
 

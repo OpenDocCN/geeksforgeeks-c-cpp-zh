@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/auto _ ptr-unique _ ptr-shared _ ptr-weak _ ptr-2/](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/)
 
 先决条件–[智能指针](https://www.geeksforgeeks.org/smart-pointers-cpp/)
-C++库提供以下类型的智能指针实现:
+C++ 库提供以下类型的智能指针实现:
 
 *   auto_ptr
 *   S7-1200 可编程控制器
@@ -14,11 +14,11 @@ C++库提供以下类型的智能指针实现:
 
 **auto_ptr**
 
-从 C++11 开始，不推荐使用此类模板。 **unique_ptr** 是一个新设施，功能类似，但安全性有所提高。
+从 C++ 11 开始，不推荐使用此类模板。 **unique_ptr** 是一个新设施，功能类似，但安全性有所提高。
 auto_ptr 是一个智能指针，用于管理通过新表达式获得的对象，并在 auto_ptr 本身被破坏时删除该对象。
 当使用 auto_ptr 类描述一个对象时，它存储一个指向单个已分配对象的指针，这确保了当它超出范围时，它所指向的对象必须被自动销毁。它基于**独占所有权模型**，即同类型的两个指针不能同时指向同一个资源。如下图所示，指针的复制或分配会改变所有权，即源指针必须赋予目标指针所有权。
 
-[![Auto pointer in C++](img/fae37bc6157b532a79688a45e78b9615.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190917111931/Auto-Pointer-in-C1.jpg)
+[![Auto pointer in C++ ](img/fae37bc6157b532a79688a45e78b9615.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190917111931/Auto-Pointer-in-C1.jpg)
 
 ```cpp
 // C++ program to illustrate the use of auto_ptr
@@ -72,7 +72,7 @@ auto_ptr 的复制构造函数和赋值操作符实际上并不复制存储的�
 
 unique _ ptr
 
-std::unique_ptr 是在 C++11 中开发的，作为 std::auto_ptr 的替代。
+std::unique_ptr 是在 C++ 11 中开发的，作为 std::auto_ptr 的替代。
 unique_ptr 是一个新的设施，具有类似的功能，但具有改进的安全性(没有伪造的副本分配)、增加的功能(删除器)和对数组的支持。它是原始指针的容器。它显式地防止复制其包含的指针，就像正常赋值一样，即它只允许底层指针的一个所有者。
 因此，当使用 unique_ptr 时，在任何一个资源上最多只能有一个 unique_ptr，当该 unique_ptr 被销毁时，该资源将被自动声明。此外，由于任何资源只能有一个 unique_ptr，因此任何复制 unique_ptr 的尝试都会导致编译时错误。
 

@@ -1,4 +1,4 @@
-# 结构数组与 C/C++中结构内的数组
+# 结构数组与 C/C++ 中结构内的数组
 
 > 原文:[https://www . geesforgeks . org/array-of-structures-vs-array-in-a-structure-in-c-and-CPP/](https://www.geeksforgeeks.org/array-of-structures-vs-array-within-a-structure-in-c-and-cpp/)
 

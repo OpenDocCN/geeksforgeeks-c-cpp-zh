@@ -1,8 +1,8 @@
-# ios 操作符()函数在 C++11 中的示例
+# ios 操作符()函数在 C++ 11 中的示例
 
 > 原文:[https://www . geesforgeks . org/IOs-operator-function-in-c11-with-examples/](https://www.geeksforgeeks.org/ios-operator-function-in-c11-with-examples/)
 
-C++11 中 **ios 类**的**运算符()**方法用于设置该流的任何错误标志。这包括故障位或坏位。
+C++ 11 中 **ios 类**的**运算符()**方法用于设置该流的任何错误标志。这包括故障位或坏位。
 
 **语法:**
 

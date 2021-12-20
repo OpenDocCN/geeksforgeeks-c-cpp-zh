@@ -1,4 +1,4 @@
-# 在 C++中使用 shared_ptr 进行虚拟销毁
+# 在 C++ 中使用 shared_ptr 进行虚拟销毁
 
 > 原文:[https://www . geesforgeks . org/virtual-destroy-use-shared _ ptr/](https://www.geeksforgeeks.org/virtual-destruction-using-shared_ptr/)
 
@@ -134,8 +134,8 @@ Destructing Base
 
 **相关文章:**
 
-*   C++中的纯虚拟析构函数
-*   [在 C++中调用构造函数/析构函数中的虚方法](https://www.geeksforgeeks.org/calling-virtual-methods-in-constructordestructor-in-cpp/)
+*   C++ 中的纯虚拟析构函数
+*   [在 C++ 中调用构造函数/析构函数中的虚方法](https://www.geeksforgeeks.org/calling-virtual-methods-in-constructordestructor-in-cpp/)
 
 本文由 **Arnav Srivastava** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

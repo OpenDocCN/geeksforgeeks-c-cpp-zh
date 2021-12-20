@@ -1,10 +1,10 @@
-# c++中 2D 向量排序|集合 2(按行和列降序排列)
+# c++ 中 2D 向量排序|集合 2(按行和列降序排列)
 
 > 原文:[https://www . geesforgeks . org/sorting-2d-vector-in-c-set-2-按行和列降序排列/](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-2-in-descending-order-by-row-and-column/)
 
 我们已经在下面的集合 1 中讨论了排序 2D 向量的一些情况。
 
-[c++中 2D 向量排序|集合 1(按行和列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
+[c++ 中 2D 向量排序|集合 1(按行和列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
 
 本文将讨论更多的案例
 

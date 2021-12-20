@@ -1,4 +1,4 @@
-# 如何在 C++中从函数返回局部变量
+# 如何在 C++ 中从函数返回局部变量
 
 > 原文:[https://www . geesforgeks . org/如何从 c 中的函数返回局部变量/](https://www.geeksforgeeks.org/how-to-return-local-variables-from-a-function-in-c/)
 

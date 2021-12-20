@@ -1,4 +1,4 @@
-# c++中复数的 atanh()函数
+# c++ 中复数的 atanh()函数
 
 > 原文:[https://www . geesforgeks . org/atanh-c 中复数函数/](https://www.geeksforgeeks.org/atanh-function-for-complex-number-in-c/)
 
@@ -16,7 +16,7 @@ template<class T> complex<T>
 
 **返回值:**该函数返回复数 z 的**圆弧双曲正切**
 
-下面的程序说明了 C++中的 atanh()函数:
+下面的程序说明了 C++ 中的 atanh()函数:
 
 **实施例 1:-**
 

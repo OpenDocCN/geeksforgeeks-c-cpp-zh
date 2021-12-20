@@ -1,4 +1,4 @@
-# C/c++中的核心转储(分段故障)
+# C/c++ 中的核心转储(分段故障)
 
 > 原文:[https://www . geesforgeks . org/core-dump-segmentation-fault-c-CPP/](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/)
 
@@ -169,7 +169,7 @@ Abnormal termination of program.
 *   **取消引用未初始化的指针**
     在访问有效内存之前，指针必须指向有效内存。
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to demonstrate segmentation

@@ -1,4 +1,4 @@
-# c++中函数重载的优缺点
+# c++ 中函数重载的优缺点
 
 > 原文:[https://www . geesforgeks . org/CPP 中函数重载的优缺点/](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-function-overloading-in-cpp/)
 

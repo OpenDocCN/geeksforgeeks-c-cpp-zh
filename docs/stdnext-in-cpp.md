@@ -1,10 +1,10 @@
-# STD::c++中的 next
+# STD::c++ 中的 next
 
 > 原文:[https://www.geeksforgeeks.org/stdnext-in-cpp/](https://www.geeksforgeeks.org/stdnext-in-cpp/)
 
 **std::next** 返回一个迭代器，该迭代器在前进一定数量的位置后指向元素。它在头文件**中定义。**
 
-**它**不修改它的参数**，并返回一个指定数量的参数的副本。如果它是一个[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)，函数只使用一次运算符+或运算符–来前进。否则，该函数在复制的迭代器上重复使用递增或递减运算符(运算符++或运算符–),直到 n 个元素被推进。**
+**它**不修改它的参数**，并返回一个指定数量的参数的副本。如果它是一个[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)，函数只使用一次运算符+或运算符–来前进。否则，该函数在复制的迭代器上重复使用递增或递减运算符(运算符++ 或运算符–),直到 n 个元素被推进。**
 
 ****语法:****
 
@@ -58,12 +58,12 @@ int main()
     cout << "v1 = ";
 
     int i;
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v1[i] << " ";
     }
 
     cout << "\nv2 = ";
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v2[i] << " ";
     }
 
@@ -81,7 +81,7 @@ v2 = 8 9 10 1 2 3 4
 
 **怎么会有帮助？**
 
-*   **在列表中推进迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能使用++和––运算符进行递增。所以，如果我们想让迭代器前进不止一个位置，那么使用 std::next 会非常有用。
+*   **在列表中推进迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能使用++ 和––运算符进行递增。所以，如果我们想让迭代器前进不止一个位置，那么使用 std::next 会非常有用。
 
     ```cpp
     // C++ program to demonstrate std::next
@@ -117,12 +117,12 @@ v2 = 8 9 10 1 2 3 4
         cout << "v1 = ";
 
         int i;
-        for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+        for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
             cout << *i1 << " ";
         }
 
         cout << "\nv2 = ";
-        for (i1 = v2.begin(); i1 != v2.end(); ++i1) {
+        for (i1 = v2.begin(); i1 != v2.end(); ++ i1) {
             cout << *i1 << " ";
         }
 

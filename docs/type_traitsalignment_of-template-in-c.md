@@ -1,4 +1,4 @@
-# c++中模板的类型 _ 特征::对齐 _ 方式
+# c++ 中模板的类型 _ 特征::对齐 _ 方式
 
 > 原文:[https://www . geeksforgeeks . org/type _ traitalignment _ of-template-in-c/](https://www.geeksforgeeks.org/type_traitsalignment_of-template-in-c/)
 

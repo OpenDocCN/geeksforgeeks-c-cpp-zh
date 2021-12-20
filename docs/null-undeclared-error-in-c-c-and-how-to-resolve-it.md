@@ -1,4 +1,4 @@
-# C/c++中 NULL 未声明错误及如何解决
+# C/c++ 中 NULL 未声明错误及如何解决
 
 > 原文:[https://www . geesforgeks . org/null-未声明-c-c 中的错误以及如何解决它/](https://www.geeksforgeeks.org/null-undeclared-error-in-c-c-and-how-to-resolve-it/)
 
@@ -55,7 +55,7 @@ int main()
     }
     ```
 
-3.  **包含 iostream 头文件:**在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，如果我们想执行我们的程序而没有空的未声明的错误，我们可以简单地将 iostream 包含在我们的程序中，并使其发生而没有任何错误。
+3.  **包含 iostream 头文件:**在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，如果我们想执行我们的程序而没有空的未声明的错误，我们可以简单地将 iostream 包含在我们的程序中，并使其发生而没有任何错误。
     下面的代码展示了它的实现:
 
     ```cpp
@@ -85,7 +85,7 @@ int main()
     }
     ```
 
-5.  **在较新的 C++中(C++11 及更高版本):** : **nullptr** 是一个内置常量，因此我们可以使用它来代替使用 NULL。
+5.  **在较新的 C++ 中(C++ 11 及更高版本):** : **nullptr** 是一个内置常量，因此我们可以使用它来代替使用 NULL。
 
     ```cpp
     #include <iostream>

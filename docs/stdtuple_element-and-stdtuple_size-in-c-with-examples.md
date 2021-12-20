@@ -1,4 +1,4 @@
-# c++中的 std::tuple_element()和 std::tuple_size()，示例
+# c++ 中的 std::tuple_element()和 std::tuple_size()，示例
 
 > 原文:[https://www . geesforgeks . org/stdtuple _ element-and-stdtuple _ size-in-c-with-examples/](https://www.geeksforgeeks.org/stdtuple_element-and-stdtuple_size-in-c-with-examples/)
 
@@ -9,7 +9,7 @@
 > 仅使用 **tuple_like** 接口为元素定义。
 
 **tuple _ element():**
-[c++函数](https://www.geeksforgeeks.org/functions-in-c/) **tuple_element(array)** 使用类似元组的接口提供对数组元素类型的编译型索引访问。
+[c++ 函数](https://www.geeksforgeeks.org/functions-in-c/) **tuple_element(array)** 使用类似元组的接口提供对数组元素类型的编译型索引访问。
 
 **语法-**
 
@@ -27,7 +27,7 @@ N − the size of the array.
 ```
 
 **示例-**
-下面是实现 tuple_element(数组)概念的 C++程序-
+下面是实现 tuple_element(数组)概念的 C++ 程序-
 
 ## C++
 
@@ -73,7 +73,7 @@ int main()
 ```
 
 **tuple _ size():**
-[c++](https://www.geeksforgeeks.org/c-plus-plus/)函数 **tuple_size(数组)**返回[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)中存在的元素总数。
+[c++ ](https://www.geeksforgeeks.org/c-plus-plus/)函数 **tuple_size(数组)**返回[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)中存在的元素总数。
 
 **语法-**
 
@@ -91,7 +91,7 @@ T − type for which the tuple size is obtained.
 ```
 
 **示例-**
-下面是实现 tuple_size()概念的 C++程序-
+下面是实现 tuple_size()概念的 C++ 程序-
 
 ## C++
 

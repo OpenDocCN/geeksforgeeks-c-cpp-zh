@@ -1,4 +1,4 @@
-# 编写函数获取链表中第 n 个节点的 C++程序
+# 编写函数获取链表中第 n 个节点的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-写程序-函数-获取链表中的第 n 个节点/](https://www.geeksforgeeks.org/cpp-program-for-writing-a-function-to-get-nth-node-in-a-linked-list/)
 
@@ -80,7 +80,7 @@ int GetNth(Node* head, int index)
     {
         if (count == index)
             return (current->data);
-        count++;
+        count++ ;
         current = current->next;
     }
 

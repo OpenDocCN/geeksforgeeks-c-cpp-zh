@@ -1,4 +1,4 @@
-# c++中的词典编纂 _ 比较
+# c++ 中的词典编纂 _ 比较
 
 > 原文:[https://www . geesforgeks . org/词典编纂 _compare-in-cpp/](https://www.geeksforgeeks.org/lexicographical_compare-in-cpp/)
 

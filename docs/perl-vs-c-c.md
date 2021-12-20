@@ -3,8 +3,8 @@
 > 原文:[https://www.geeksforgeeks.org/perl-vs-c-c/](https://www.geeksforgeeks.org/perl-vs-c-c/)
 
 [Perl](https://www.geeksforgeeks.org/introduction-to-perl/) 是一种通用、高级解释的动态编程语言。它是拉里·沃尔在 1987 年开发的。Perl 没有正式的首字母缩略词，但最常用的首字母缩略词是“实用提取和报告语言”。一些程序员也将 Perl 称为“病态的折衷垃圾列表者”或“几乎所有真正讨人喜欢的东西”。首字母缩略词“实用提取和报告语言”被广泛使用，因为 Perl 最初是为文本处理而开发的，比如从指定的文本文件中提取所需的信息，以及将文本文件转换成不同的形式。它支持过程式和面向对象编程。
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是一种通用编程语言，现在广泛用于竞技编程。它具有命令式、面向对象和泛型编程特性。C++运行在很多平台上，如视窗、Linux、Unix、Mac 等。
-*下面是 Perl 和 c/c++的一些主要区别:*
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是一种通用编程语言，现在广泛用于竞技编程。它具有命令式、面向对象和泛型编程特性。C++ 运行在很多平台上，如视窗、Linux、Unix、Mac 等。
+*下面是 Perl 和 c/c++ 的一些主要区别:*
 
 <figure class="table">
 
@@ -32,7 +32,7 @@ For example, the note in//Inline -C/c++.
 
 </figure>
 
-**c++和 Perl 中两个数相加的程序**T2】
+**c++ 和 Perl 中两个数相加的程序**T2】
 
 ## C++
 

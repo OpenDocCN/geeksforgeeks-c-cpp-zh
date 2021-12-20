@@ -92,10 +92,10 @@ void *myThreadFun(void *vargp)
     static int s = 0;
 
     // Change static and global variables
-    ++s; ++g;
+    ++ s; ++ g;
 
     // Print the argument, static and global variables
-    printf("Thread ID: %d, Static: %d, Global: %d\n", *myid, ++s, ++g);
+    printf("Thread ID: %d, Static: %d, Global: %d\n", *myid, ++ s, ++ g);
 }
 
 int main()

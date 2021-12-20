@@ -37,7 +37,7 @@
         // prints the elements
         cout << "The multimap before using erase() is : \n";
         cout << "KEY\tELEMENT\n";
-        for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+        for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
             cout << itr->first
                  << '\t' << itr->second << '\n';
         }
@@ -49,7 +49,7 @@
         // prints the elements
         cout << "\nThe multimap after applying erase() is : \n";
         cout << "KEY\tELEMENT\n";
-        for (auto itr = mp.crbegin(); itr != mp.crend(); ++itr) {
+        for (auto itr = mp.crbegin(); itr != mp.crend(); ++ itr) {
             cout << itr->first
                  << '\t' << itr->second << '\n';
         }

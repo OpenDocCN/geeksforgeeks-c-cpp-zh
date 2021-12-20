@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 连接两个向量？
+# 如何在 C++ 中使用 STL 连接两个向量？
 
 > 原文:[https://www . geesforgeks . org/如何使用-stl-in-c/](https://www.geeksforgeeks.org/how-to-join-two-vectors-using-stl-in-c/) 连接两个向量
 
-给定两个向量，用 C++中的 STL 连接这两个向量。
+给定两个向量，用 C++ 中的 STL 连接这两个向量。
 **例:**
 
 > **输入:**
@@ -66,7 +66,7 @@ int main()
                    v.begin());
 
     cout << "\nAfter joining:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << *st << ", ";
     cout << '\n';
 

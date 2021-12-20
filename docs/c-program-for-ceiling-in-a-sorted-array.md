@@ -1,4 +1,4 @@
-# 排序数组中天花板的 C++程序
+# 排序数组中天花板的 C++ 程序
 
 > 原文:[https://www . geeksforgeeks . org/c-program-for-top-in-a-sorted-array/](https://www.geeksforgeeks.org/c-program-for-ceiling-in-a-sorted-array/)
 

@@ -62,7 +62,7 @@ int main()
 
     // printing the multiset
     for (auto it = mymultiset.begin();
-         it != mymultiset.end(); ++it)
+         it != mymultiset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -100,7 +100,7 @@ int main()
 
     // printing the multiset
     for (auto it = mymultiset.begin();
-         it != mymultiset.end(); ++it)
+         it != mymultiset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -192,7 +192,7 @@ int main()
     ms.insert(make_pair('b', 25));    
 
     // printing the multiset
-    for (auto it = ms.begin(); it != ms.end(); ++it)
+    for (auto it = ms.begin(); it != ms.end(); ++ it)
         cout << " " << (*it).first << " " 
              << (*it).second << endl;
 

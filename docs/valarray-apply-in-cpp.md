@@ -1,4 +1,4 @@
-# valarray 在 C++中应用()
+# valarray 在 C++ 中应用()
 
 > 原文:[https://www.geeksforgeeks.org/valarray-apply-in-cpp/](https://www.geeksforgeeks.org/valarray-apply-in-cpp/)
 

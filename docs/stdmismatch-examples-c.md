@@ -1,4 +1,4 @@
-# std::mismatch()用 C++中的例子
+# std::mismatch()用 C++ 中的例子
 
 > 原文:[https://www.geeksforgeeks.org/stdmismatch-examples-c/](https://www.geeksforgeeks.org/stdmismatch-examples-c/)
 

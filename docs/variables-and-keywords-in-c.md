@@ -317,7 +317,7 @@ int main(void)
     while (x > 0)
     {
         static int y = 5;
-        y++;
+        y++ ;
         // printing value at each iteration
         printf("The value of y is %d\n",y);
         x--;

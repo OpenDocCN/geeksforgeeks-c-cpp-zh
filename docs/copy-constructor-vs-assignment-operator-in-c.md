@@ -1,4 +1,4 @@
-# c++中的复制构造函数与赋值运算符
+# c++ 中的复制构造函数与赋值运算符
 
 > 原文:[https://www . geesforgeks . org/copy-constructor-vs-assignment-operator-in-c/](https://www.geeksforgeeks.org/copy-constructor-vs-assignment-operator-in-c/)
 
@@ -18,7 +18,7 @@
 
 </figure>
 
-考虑下面的 C++程序。
+考虑下面的 C++ 程序。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -64,6 +64,6 @@ Copy constructor called
 
 **说明:**这里，**T2 = T1；**调用**赋值运算符**，同**T2 . operator =(t1)；**和**测试 t3 = t1**调用**复制构造函数**，同**测试 T3(t1)；**
 
-**必读:**[c++中什么时候调用复制构造函数？](https://www.geeksforgeeks.org/when-is-a-copy-constructor-called-in-cpp/)
+**必读:**[c++ 中什么时候调用复制构造函数？](https://www.geeksforgeeks.org/when-is-a-copy-constructor-called-in-cpp/)
 
 如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

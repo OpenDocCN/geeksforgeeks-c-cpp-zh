@@ -1,4 +1,4 @@
-# std::string::compare()在 C++中
+# std::string::compare()在 C++ 中
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdstringcompare-in-c/
 

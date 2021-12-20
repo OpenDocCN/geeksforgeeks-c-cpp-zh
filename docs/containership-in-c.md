@@ -1,4 +1,4 @@
-# c++中的集装箱船
+# c++ 中的集装箱船
 
 > 原文:[https://www.geeksforgeeks.org/containership-in-c/](https://www.geeksforgeeks.org/containership-in-c/)
 
@@ -43,7 +43,7 @@ class second {
 
 ```
 
-下面的例子用 C++更好地解释了集装箱船。
+下面的例子用 C++ 更好地解释了集装箱船。
 
 **例 1:**
 

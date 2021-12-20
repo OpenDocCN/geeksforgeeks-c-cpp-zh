@@ -1,4 +1,4 @@
-# c++应用程序中的文件映射
+# c++ 应用程序中的文件映射
 
 > 原文:[https://www . geesforgeks . org/file-mapping-in-CPP-applications/](https://www.geeksforgeeks.org/file-mapping-in-cpp-applications/)
 

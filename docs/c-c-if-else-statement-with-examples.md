@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-c-if-else-statement-with-examples/](https://www.geeksforgeeks.org/c-c-if-else-statement-with-examples/)
 
-[C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
+[C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
 
 仅 *if* 语句就告诉我们，如果条件为真，它将执行一组语句，如果条件为假，它不会执行。但是如果条件是假的，我们想做别的事情怎么办。C/C++ **else 语句**来了。当条件为假时，我们可以使用 else 语句和 if 语句来执行一段代码。
 
@@ -163,12 +163,12 @@ i is greater than 15
 
 **相关文章:**
 
-1.  [C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
+1.  [C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
 2.  [C/C++ if 语句示例](https://www.geeksforgeeks.org/c-c-if-statement-with-examples/)
 3.  [C/C++ if else if 阶梯示例](https://www.geeksforgeeks.org/c-c-if-else-if-ladder-with-examples/)
-4.  [C/c++中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
-5.  [C/c++中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
-6.  [用 C/C++](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
-7.  [C/c++中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
-8.  [C/c++中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
+4.  [C/c++ 中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
+5.  [C/c++ 中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
+6.  [用 C/C++ ](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
+7.  [C/c++ 中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
+8.  [C/c++ 中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
 9.  [使用嵌套 If Else 为学生分配分数的程序](https://www.geeksforgeeks.org/program-to-assign-grades-to-a-student-using-nested-if-else/)

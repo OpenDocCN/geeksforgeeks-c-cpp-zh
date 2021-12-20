@@ -1,4 +1,4 @@
-# C++程序打印链表的反转而不实际反转
+# C++ 程序打印链表的反转而不实际反转
 
 > 原文:[https://www . geesforgeks . org/CPP-打印程序-反向链接列表-不实际反向/](https://www.geeksforgeeks.org/cpp-program-for-printing-reverse-of-a-linked-list-without-actually-reversing/)
 

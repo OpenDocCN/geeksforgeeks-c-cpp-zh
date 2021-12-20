@@ -11,6 +11,6 @@
 
 **答案:****(E)**
 
-**说明:**参见[c++中有哪些不能重载的运算符？](https://www.geeksforgeeks.org/g-fact-14/)
+**说明:**参见[c++ 中有哪些不能重载的运算符？](https://www.geeksforgeeks.org/g-fact-14/)
 
 [本题小考](https://www.geeksforgeeks.org/quiz-corner-gq/)

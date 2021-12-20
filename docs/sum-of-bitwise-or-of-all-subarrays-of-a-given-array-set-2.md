@@ -83,7 +83,7 @@ int givesum(int A[], int n)
 
         for (int j = 1; j < vec.size(); j++) {
             if (vec[j] - vec[j - 1] == 1) {
-                cnt++;
+                cnt++ ;
             }
             else {
                 cntSubarrNotSet += cnt * (cnt + 1) / 2;
@@ -176,7 +176,7 @@ class GFG {
 
             for (int j = 1; j < vec.size(); j++) {
                 if (vec.get(j) - vec.get(j - 1) == 1) {
-                    cnt++;
+                    cnt++ ;
                 }
                 else {
                     cntSubarrNotSet += cnt * (cnt + 1) / 2;
@@ -356,7 +356,7 @@ class GFG {
 
             for (int j = 1; j < vec.Count; j++) {
                 if (vec[j] - vec[j - 1] == 1) {
-                    cnt++;
+                    cnt++ ;
                 }
                 else {
                     cntSubarrNotSet += cnt * (cnt + 1) / 2;
@@ -453,7 +453,7 @@ function givesum($A, $n)
         {
             if ($vec[$j] - $vec[$j - 1] == 1)
             {
-                $cnt++;
+                $cnt++ ;
             }
             else
             {
@@ -547,7 +547,7 @@ echo givesum($A, $n);
 
             for (let j = 1; j < vec.length; j++) {
                 if (vec[j] - vec[j - 1] == 1) {
-                    cnt++;
+                    cnt++ ;
                 }
                 else {
                     cntSubarrNotSet += cnt * (cnt + 1) / 2;

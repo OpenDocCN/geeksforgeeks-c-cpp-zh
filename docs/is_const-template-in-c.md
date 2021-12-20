@@ -1,4 +1,4 @@
-# 是 C++中的 _ const Template
+# 是 C++ 中的 _ const Template
 
 > 原文:[https://www.geeksforgeeks.org/is_const-template-in-c/](https://www.geeksforgeeks.org/is_const-template-in-c/)
 

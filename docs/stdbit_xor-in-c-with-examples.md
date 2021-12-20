@@ -1,8 +1,8 @@
-# 标准::C++中的 bit_xor，示例
+# 标准::C++ 中的 bit_xor，示例
 
 > 原文:[https://www . geesforgeks . org/stdbit _ xor-in-c-with-examples/](https://www.geeksforgeeks.org/stdbit_xor-in-c-with-examples/)
 
-**bit_xor** 是 C++中的一个内置函数，用于执行 **[bitwise_xor](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)** ，并在其参数上应用 **bitwise_xor** 运算后返回结果。
+**bit_xor** 是 C++ 中的一个内置函数，用于执行 **[bitwise_xor](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)** ，并在其参数上应用 **bitwise_xor** 运算后返回结果。
 
 **头文件:**
 
@@ -27,7 +27,7 @@ template <class T> struct bit_xor;
 
 我们必须包含库**“函数”**和**“算法”**来分别使用 bit_xor 和 transform()。
 
-下面是 C++中 **bit_xor** 的图解:
+下面是 C++ 中 **bit_xor** 的图解:
 **问题 1:**
 
 ```cpp

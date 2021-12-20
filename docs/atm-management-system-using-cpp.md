@@ -1,10 +1,10 @@
-# 使用 C++的 ATM 管理系统
+# 使用 C++ 的 ATM 管理系统
 
 > 原文:[https://www . geesforgeks . org/ATM-管理-系统-使用-cpp/](https://www.geeksforgeeks.org/atm-management-system-using-cpp/)
 
 **自动取款机**是[自动柜员机](https://www.geeksforgeeks.org/use-case-diagram-for-bank-atm-system/)，用于进行日常金融交易。自动取款机可以用来取款或存款，甚至可以知道账户的信息，如余额等。它们方便易用，它允许消费者进行快速的自助交易。
 
-在本文中，我们将讨论 C++中的自动柜员机管理系统，这是一个为用户提供实际自动柜员机(即自动柜员机)应具备的各个方面的应用程序。这是一个菜单驱动的程序，具有自动柜员机功能，包括:
+在本文中，我们将讨论 C++ 中的自动柜员机管理系统，这是一个为用户提供实际自动柜员机(即自动柜员机)应具备的各个方面的应用程序。这是一个菜单驱动的程序，具有自动柜员机功能，包括:
 
 > 1.  Enter the name, account number and account type to be displayed during the transaction.
 > 2.  Displays the information of the person who is conducting the transaction.
@@ -13,16 +13,16 @@
 > 5.  Enter the amount to withdraw from the account, and then display the available balance.
 > 6.  Cancel the transaction.
 
-**方法:**该程序使用了 C++中[类](https://www.geeksforgeeks.org/c-classes-and-objects/)、[访问修饰符、](https://www.geeksforgeeks.org/access-modifiers-in-c/)[数据类型](https://www.geeksforgeeks.org/c-data-types/)、[变量](https://www.geeksforgeeks.org/variables-in-c/)、[切换用例](https://www.geeksforgeeks.org/switch-statement-cc/)等基本概念。以下是将要实现的功能:
+**方法:**该程序使用了 C++ 中[类](https://www.geeksforgeeks.org/c-classes-and-objects/)、[访问修饰符、](https://www.geeksforgeeks.org/access-modifiers-in-c/)[数据类型](https://www.geeksforgeeks.org/c-data-types/)、[变量](https://www.geeksforgeeks.org/variables-in-c/)、[切换用例](https://www.geeksforgeeks.org/switch-statement-cc/)等基本概念。以下是将要实现的功能:
 
-*   **<u>setvalue()</u> :** 此处使用此功能，使用 C++中的基本输入输出方法设置数据，即 cout 和 cin 语句，分别从键盘(即用户)显示和获取输入。
+*   **<u>setvalue()</u> :** 此处使用此功能，使用 C++ 中的基本输入输出方法设置数据，即 cout 和 cin 语句，分别从键盘(即用户)显示和获取输入。
 *   **<u>显示值</u> ():** 该功能用于打印数据。
 *   **<u>存款():</u>** 该功能有助于将钱存入特定账户。
 *   **<u>showbal(</u> ):** 此功能显示沉积后可用的总余额。
 *   **<u>取款():</u>** 该功能有助于从账户中取款。
 *   **<u>main()</u> :** 这个功能在一个无限的 **while 循环**里面有一个简单的**开关盒**(进行选择)，这样每次用户都可以选择。
 
-下面是使用上述方法的 C++程序:
+下面是使用上述方法的 C++ 程序:
 
 ## C++
 

@@ -76,7 +76,7 @@ void* func(void* p) 
 
         printf("thread number one\n");
         sleep(1);   // sleep 1 second
-        counter++;   
+        counter++ ;   
 
         // for exiting if counter = = 5
         if (counter = = 2) {

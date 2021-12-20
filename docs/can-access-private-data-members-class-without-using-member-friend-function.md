@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/can-access-private-data-members-class-not-use-member-friend-function/](https://www.geeksforgeeks.org/can-access-private-data-members-class-without-using-member-friend-function/)
 
-[封装](http://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming))的思想是将数据和方法(处理数据的方法)捆绑在一起，并限制类外私有数据成员的访问。在 C++中，朋友函数或朋友类也可以访问私有数据成员。
+[封装](http://en.wikipedia.org/wiki/Encapsulation_(object-oriented_programming))的思想是将数据和方法(处理数据的方法)捆绑在一起，并限制类外私有数据成员的访问。在 C++ 中，朋友函数或朋友类也可以访问私有数据成员。
 
 有没有可能在没有朋友的情况下访问班级外的私人成员？
 是的，使用指针是可能的。以下面的程序为例。
@@ -57,12 +57,12 @@ int main()
     A a;
     int* p = (int*)&a;
     *p = 3;
-    p++;
+    p++ ;
     *p = 9;
     p--;
     cout << endl
          << "x = " << *p;
-    p++;
+    p++ ;
     cout << endl
          << "y = " << *p;
 }
@@ -129,6 +129,6 @@ x = 5 y = 4 z = 3
 
 /*本代码由 [**舒巴姆·夏尔马**](https://auth.geeksforgeeks.org/user/auspicious_boy/profile) 贡献。*/
 
-请注意，上述访问私有数据成员的方式根本不是一种推荐的访问成员的方式，永远不应该使用。此外，这并不意味着封装在 C++中不起作用。创建私有成员的想法是为了避免意外更改。上述数据变化并非偶然。这是故意编写的代码，用来愚弄编译器。
+请注意，上述访问私有数据成员的方式根本不是一种推荐的访问成员的方式，永远不应该使用。此外，这并不意味着封装在 C++ 中不起作用。创建私有成员的想法是为了避免意外更改。上述数据变化并非偶然。这是故意编写的代码，用来愚弄编译器。
 
 本文由 [**阿希什·库马尔**](http://www.linkedin.com/pub/ashish-kumar/5b/16/671) 供稿。如果您发现任何不正确的地方，或者您想分享更多关于上面讨论的主题的信息，请写评论

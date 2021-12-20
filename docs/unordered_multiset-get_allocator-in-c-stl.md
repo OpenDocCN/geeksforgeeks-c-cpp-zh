@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/unordered _ multist-get _ 分配器-in-c-stl/](https://www.geeksforgeeks.org/unordered_multiset-get_allocator-in-c-stl/)
 
-无序多集::get _ 分配器()函数是 C++中的一个 STL 函数，用于在程序中包含无序多集头文件。该函数获取存储的分配器对象，并返回用于构造容器的分配器对象。这是一个公共成员函数。
+无序多集::get _ 分配器()函数是 C++ 中的一个 STL 函数，用于在程序中包含无序多集头文件。该函数获取存储的分配器对象，并返回用于构造容器的分配器对象。这是一个公共成员函数。
 
 **语法:**
 

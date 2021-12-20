@@ -1,8 +1,8 @@
-# 编写第一个 C++程序:Hello World 示例
+# 编写第一个 C++ 程序:Hello World 示例
 
 > 原文:[https://www . geesforgeks . org/writing-first-c-program-hello-world-example/](https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/)
 
-学习 C++编程可以简化为:
+学习 C++ 编程可以简化为:
 
 *   在文本编辑器中编写程序，并以正确的扩展名保存它。CPP，。c、。CP)
 *   使用编译器或在线集成开发环境编译您的程序

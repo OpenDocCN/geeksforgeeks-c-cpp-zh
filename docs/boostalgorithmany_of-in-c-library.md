@@ -1,4 +1,4 @@
-# boost::算法::C++库中的任意 _of()
+# boost::算法::C++ 库中的任意 _of()
 
 > 原文:[https://www . geeksforgeeks . org/boostalgorithmulti _ of-in-c-library/](https://www.geeksforgeeks.org/boostalgorithmany_of-in-c-library/)
 

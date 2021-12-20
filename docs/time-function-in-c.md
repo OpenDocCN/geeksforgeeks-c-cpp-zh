@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/time-function-in-c/](https://www.geeksforgeeks.org/time-function-in-c/)
 
-time()函数在 time . h(c++中的 ctime)头文件中定义。此函数以秒为单位返回自 1970 年 1 月 1 日 00:00:00 UTC 以来的时间(Unix 时间戳)。如果 second 不是空指针，返回值也存储在 second 指向的对象中。
+time()函数在 time . h(c++ 中的 ctime)头文件中定义。此函数以秒为单位返回自 1970 年 1 月 1 日 00:00:00 UTC 以来的时间(Unix 时间戳)。如果 second 不是空指针，返回值也存储在 second 指向的对象中。
 
 **语法:**
 

@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 的数组的所有排列
+# 在 C++ 中使用 STL 的数组的所有排列
 
 > 原文:[https://www . geesforgeks . org/all-array-排列-使用-stl-in-c/](https://www.geeksforgeeks.org/all-permutations-of-an-array-using-stl-in-c/)
 
-给定一个数组，任务是在 C++中使用 STL 打印或显示这个数组的所有排列。
+给定一个数组，任务是在 C++ 中使用 STL 打印或显示这个数组的所有排列。
 
 **示例:**
 

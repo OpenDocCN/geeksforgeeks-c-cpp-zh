@@ -1,4 +1,4 @@
-# 是 C++中的 _ 多态模板
+# 是 C++ 中的 _ 多态模板
 
 > 原文:[https://www.geeksforgeeks.org/is_polymorphic-template-in-c/](https://www.geeksforgeeks.org/is_polymorphic-template-in-c/)
 

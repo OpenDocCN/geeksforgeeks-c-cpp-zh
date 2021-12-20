@@ -1,4 +1,4 @@
-# c++中的 basic_istream::putback()，示例
+# c++ 中的 basic_istream::putback()，示例
 
 > 原文:[https://www . geeksforgeeks . org/basic _ is treamputback-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreamputback-in-c-with-examples/)
 

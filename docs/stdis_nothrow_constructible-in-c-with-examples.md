@@ -1,4 +1,4 @@
-# STD::is _ northrow _ 可在 C++中用示例构造
+# STD::is _ northrow _ 可在 C++ 中用示例构造
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_nothrow_constructible-in-c-with-examples/)
 
@@ -37,7 +37,7 @@ std::is_nothrow_constructible<T, Args..>::value
 
 *   **False:** If the type **t** cannot be constructed from Args.
 
-下面是用 C++演示**STD::is _ northrow _ construction**的程序:
+下面是用 C++ 演示**STD::is _ northrow _ construction**的程序:
 
 **程序 1:**
 

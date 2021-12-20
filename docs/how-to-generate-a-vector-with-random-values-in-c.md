@@ -1,4 +1,4 @@
-# 如何在 C++中生成一个随机取值的向量？
+# 如何在 C++ 中生成一个随机取值的向量？
 
 > 原文:[https://www . geeksforgeeks . org/如何生成带有 c 中随机值的向量/](https://www.geeksforgeeks.org/how-to-generate-a-vector-with-random-values-in-c/)
 

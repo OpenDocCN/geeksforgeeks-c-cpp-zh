@@ -17,7 +17,7 @@
     OpenMP 属于共享内存概念。在这种情况下，不同的中央处理器可以访问相同的内存位置。由于所有的中央处理器都连接到同一个内存，内存访问应该小心处理。
 *   **分布式内存:** [![Distributed Memory Architecture](img/05f8ec72da617f789b7b8fbee8e21148.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190420121722/P1-CPU1.png) 
     在这里，每个 CPU(处理器)都会有自己的内存位置来访问和使用。为了使它们通信，所有独立的系统将使用网络连接在一起。 [MPI](https://computing.llnl.gov/tutorials/mpi/#What) 基于分布式架构。
-*   **混合:**混合是共享和分布式架构的结合。展示 OpenMP 强大功能的一个简单场景是比较普通 C/C++程序和 OpenMP 程序的执行时间。
+*   **混合:**混合是共享和分布式架构的结合。展示 OpenMP 强大功能的一个简单场景是比较普通 C/C++ 程序和 OpenMP 程序的执行时间。
 
 <u>**安装 OpenMP 的步骤**</u>
 

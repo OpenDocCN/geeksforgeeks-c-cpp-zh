@@ -1,9 +1,9 @@
-# 标准::C++中的 iota
+# 标准::C++ 中的 iota
 
 > 原文:[https://www.geeksforgeeks.org/std-iota-in-cpp/](https://www.geeksforgeeks.org/std-iota-in-cpp/)
 
 **存储递增序列**
-为 val 的[第一个，最后一个]连续值范围内的每个元素赋值，就像每个元素写入后用++val 递增一样。
+为 val 的[第一个，最后一个]连续值范围内的每个元素赋值，就像每个元素写入后用++ val 递增一样。
 
 **模板:**
 

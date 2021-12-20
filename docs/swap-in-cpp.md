@@ -1,8 +1,8 @@
-# 在 C++中交换()
+# 在 C++ 中交换()
 
 > 原文:[https://www.geeksforgeeks.org/swap-in-cpp/](https://www.geeksforgeeks.org/swap-in-cpp/)
 
-函数 **std::swap()** 是 C++标准模板库(STL)中的一个内置函数，用于交换两个变量的值。
+函数 **std::swap()** 是 C++ 标准模板库(STL)中的一个内置函数，用于交换两个变量的值。
 
 **语法:**
 

@@ -212,7 +212,7 @@ int main()
  // Program exits if the file pointer returns NULL.
  exit(1);
  }
- for(n = 1; n < 5; ++n)  //Program Code Submitted by Susobhan Akhuli
+ for(n = 1; n < 5; ++ n)  //Program Code Submitted by Susobhan Akhuli
  {
  num.n1 = n;
  num.n2 = 5*n;
@@ -246,7 +246,7 @@ int main()
  // Program exits if the file pointer returns NULL.
  exit(1);
  }
- for(n = 1; n < 5; ++n)  //Program Code Submitted by Susobhan Akhuli
+ for(n = 1; n < 5; ++ n)  //Program Code Submitted by Susobhan Akhuli
  {
  fread(&num, sizeof(struct threeNum), 1, fptr);
  printf("n1: %d\tn2: %d\tn3: %d", num.n1, num.n2, num.n3);

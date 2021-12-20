@@ -1,4 +1,4 @@
-# c++中复数的 tanh()函数
+# c++ 中复数的 tanh()函数
 
 > 原文:[https://www . geesforgeks . org/tanh-c 中复数函数/](https://www.geeksforgeeks.org/tanh-function-for-complex-number-in-c/)
 
@@ -15,7 +15,7 @@ template<class T> complex<T>
 *   **z:** 该方法取一个代表复数的强制参数 **z** 。
 
 **返回值:**此函数返回复数 z 的双曲正切值。
-下面的程序说明了 C++中的 tanh()函数:
+下面的程序说明了 C++ 中的 tanh()函数:
 **示例 1:**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

@@ -51,7 +51,7 @@ int main()
     printf("%p \n", ptr1);
 
     // Incrementing pointer ptr1;
-    ptr1++;
+    ptr1++ ;
 
     printf("Pointer ptr1 after"
            " Increment: ");
@@ -257,7 +257,7 @@ int main()
         // Print element at which
         // ptr points
         printf("%d ", ptr[0]);
-        ptr++;
+        ptr++ ;
     }
 }
 ```

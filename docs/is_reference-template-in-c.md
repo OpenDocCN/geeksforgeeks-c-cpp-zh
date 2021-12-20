@@ -1,4 +1,4 @@
-# 是 C++中的 _ reference Template
+# 是 C++ 中的 _ reference Template
 
 > 原文:[https://www.geeksforgeeks.org/is_reference-template-in-c/](https://www.geeksforgeeks.org/is_reference-template-in-c/)
 

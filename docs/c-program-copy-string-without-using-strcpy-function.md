@@ -23,7 +23,7 @@ int main()
     printf("string s1 : %s\n", s1);
 
     // Execute loop till null found
-    for (i = 0; s1[i] != '\0'; ++i) {
+    for (i = 0; s1[i] != '\0'; ++ i) {
         // copying the characters by
         // character to str2 from str1
         s2[i] = s1[i];

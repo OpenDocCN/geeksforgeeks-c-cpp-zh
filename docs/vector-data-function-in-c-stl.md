@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/vector-data-function-in-c-STL/](https://www.geeksforgeeks.org/vector-data-function-in-c-stl/)
 
-**std::vector::data()** 是 C++中的一个 STL，它返回一个指向内存数组的直接指针，该数组由 vector 内部使用，用于存储其拥有的元素。
+**std::vector::data()** 是 C++ 中的一个 STL，它返回一个指向内存数组的直接指针，该数组由 vector 内部使用，用于存储其拥有的元素。
 
 **语法:**
 
@@ -35,7 +35,7 @@ int main()
 
     // prints the vector
     cout << "The vector elements are: ";
-    for (int i = 0; i < vec.size(); ++i)
+    for (int i = 0; i < vec.size(); ++ i)
         cout << *pos++ << " ";
 
     return 0;

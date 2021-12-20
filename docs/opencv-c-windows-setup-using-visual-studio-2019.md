@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/opencv-c-windows-setup-use-visual studio-2019/](https://www.geeksforgeeks.org/opencv-c-windows-setup-using-visual-studio-2019/)
 
-**OpenCV** 是实时计算机视觉库，提供各种实时计算机视觉、视频捕获、图像处理和机器学习功能。在 Visual Studio 中使用 OpenCV，您可以通过快速的 C++计算为对象检测、图像转换、视频捕获和分析构建健壮的应用程序。按照给定的步骤和说明进行 OpenCV C++ Windows 安装:
+**OpenCV** 是实时计算机视觉库，提供各种实时计算机视觉、视频捕获、图像处理和机器学习功能。在 Visual Studio 中使用 OpenCV，您可以通过快速的 C++ 计算为对象检测、图像转换、视频捕获和分析构建健壮的应用程序。按照给定的步骤和说明进行 OpenCV C++ Windows 安装:
 
 ### **OpenCV 下载安装:**
 
@@ -40,7 +40,7 @@
 
 ****![](img/3057b4327ae4fb6b199aba1a9358277d.png)****
 
-******第 4 步:**在配置属性中选择 VC++目录。下一步是编辑包含的目录和库目录，以添加 OpenCV 包含目录和库目录。首先选择包括目录，然后点击编辑。弹出一个新窗口。点击添加新的黄色按钮，输入 OpenCV 包含目录的路径 **C:\opencv\build\include******
+******第 4 步:**在配置属性中选择 VC++ 目录。下一步是编辑包含的目录和库目录，以添加 OpenCV 包含目录和库目录。首先选择包括目录，然后点击编辑。弹出一个新窗口。点击添加新的黄色按钮，输入 OpenCV 包含目录的路径 **C:\opencv\build\include******
 
 ****![](img/b92109dd8a6d344373bfbd54fb419f96.png)****
 
@@ -52,7 +52,7 @@
 
 ****![](img/81ee61570f599f83c6d31e4e1ca25791.png)****
 
-****应用所有更改并关闭属性。您的 OpenCV 设置已经完成。现在，您已经准备好使用 C++中的 OpenCV 构建令人惊叹的应用程序了。每次使用 Visual Studio 2019 启动新的 OpenCV 项目时，都必须重复所有这些属性更改。****
+****应用所有更改并关闭属性。您的 OpenCV 设置已经完成。现在，您已经准备好使用 C++ 中的 OpenCV 构建令人惊叹的应用程序了。每次使用 Visual Studio 2019 启动新的 OpenCV 项目时，都必须重复所有这些属性更改。****
 
 ****尝试此演示代码以检查您的安装是否正常工作。****
 

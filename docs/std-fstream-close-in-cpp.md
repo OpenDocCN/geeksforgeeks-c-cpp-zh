@@ -1,8 +1,8 @@
-# std::fstream::close()在 C++中
+# std::fstream::close()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/std-fstream-close-in-cpp/](https://www.geeksforgeeks.org/std-fstream-close-in-cpp/)
 
-[文件](https://www.geeksforgeeks.org/basics-file-handling-c/)在编程中起着重要的作用。它允许永久存储数据。 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 语言提供了一种机制，将程序的输出存储在文件中，并从磁盘上的文件进行浏览。这种机制被称为[文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)。为了执行文件处理，使用的一些常规功能如下:
+[文件](https://www.geeksforgeeks.org/basics-file-handling-c/)在编程中起着重要的作用。它允许永久存储数据。 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 语言提供了一种机制，将程序的输出存储在文件中，并从磁盘上的文件进行浏览。这种机制被称为[文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)。为了执行文件处理，使用的一些常规功能如下:
 
 *   [**【打开()】**](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)【T4:】该功能帮助创建文件，并以不同模式打开文件，如输入操作、输出操作、二进制模式等。
 *   [**关闭()**](https://www.geeksforgeeks.org/file-handling-c-classes/) **:此功能有助于关闭已有文件。**
@@ -11,7 +11,7 @@
 *   [**read()**](https://www.geeksforgeeks.org/how-to-work-with-file-handling-in-c/) **:此功能有助于从文件中读取数据。**
 *   [**write()**](https://www.geeksforgeeks.org/readwrite-class-objects-fromto-file-c/) **:这个功能帮助我们将数据写入文件。**
 
-一个[流](https://www.geeksforgeeks.org/c-stream-classes-structure/)是一个[抽象](https://www.geeksforgeeks.org/abstraction-in-c/)，它代表一个工具，在这个工具上执行输入和输出操作。根据使用情况，流通常被表示为不定长度字符的来源或目的地。到目前为止，[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)提供功能**【CIN】**和 **cout** 分别用于要求控制台输入和写入控制台输出。在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中有一组文件处理方法。这些包括 [ifstream、ofstream 和 fsstream](https://www.geeksforgeeks.org/file-handling-c-classes/)。这些类是从**fsstream base**和相应的 iostream 类获得的。这些类被设计成能够管理在 fstream 中声明的磁盘文件，因此这个文件必须包含在任何使用文件的程序中。
+一个[流](https://www.geeksforgeeks.org/c-stream-classes-structure/)是一个[抽象](https://www.geeksforgeeks.org/abstraction-in-c/)，它代表一个工具，在这个工具上执行输入和输出操作。根据使用情况，流通常被表示为不定长度字符的来源或目的地。到目前为止，[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)提供功能**【CIN】**和 **cout** 分别用于要求控制台输入和写入控制台输出。在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中有一组文件处理方法。这些包括 [ifstream、ofstream 和 fsstream](https://www.geeksforgeeks.org/file-handling-c-classes/)。这些类是从**fsstream base**和相应的 iostream 类获得的。这些类被设计成能够管理在 fstream 中声明的磁盘文件，因此这个文件必须包含在任何使用文件的程序中。
 
 **fsstream Library:**fsstream 是一个由两者组成的库， **ofstream** 和 **ifstream** 这意味着它可以创建文件，向文件写入信息，以及从文件中读取信息。该头文件一般用作[数据类型](https://www.geeksforgeeks.org/c-data-types/)，表示[文件流](https://www.geeksforgeeks.org/io-redirection-c/)。用于描述打开、读取、输入和关闭文件等的语法。
 
@@ -23,7 +23,7 @@
 *   打开方法。
 *   使用后关闭文件。
 
-本文的重点是关闭文件。在一种情况下，如果一个 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)终止，那么它会自动清空所有的流，释放所有分配的内存，并关闭所有打开的文件。因此，使用 close()函数关闭与文件相关的流是一个很好的选择，它是 ifsream、ofstream 和 fstream 对象的成员。
+本文的重点是关闭文件。在一种情况下，如果一个 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)终止，那么它会自动清空所有的流，释放所有分配的内存，并关闭所有打开的文件。因此，使用 close()函数关闭与文件相关的流是一个很好的选择，它是 ifsream、ofstream 和 fstream 对象的成员。
 
 **语法:**
 
@@ -37,7 +37,7 @@ close()
 *   **异常处理:**当函数有异常且流处于有效状态时，那么内部操作抛出的任何异常都会被函数捕获，并在关闭文件后重新抛出。只有当函数失败(设置**故障位**状态标志)并且成员异常被设置为该状态时，它才会引发成员类型故障异常。
 *   它修改了**流**对象。对等价流的并发访问可能会引入数据竞争。
 
-下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)实现 close()功能:
+下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)实现 close()功能:
 
 ## C++
 

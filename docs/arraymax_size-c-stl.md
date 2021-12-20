@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/arraymax _ size-c-STL/
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 型数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 型数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **array::max_size()**
 

@@ -1,8 +1,8 @@
-# ios 操纵器 noskipws()在 C++中的功能
+# ios 操纵器 noskipws()在 C++ 中的功能
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-noskipws-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-noskipws-function-in-c/)
 
-C++中**流操纵器**的 **noskipws()** 方法用于清除指定字符串流的 showbase 格式标志。该标志读取输入流中第一个非空白字符之前的空白。
+C++ 中**流操纵器**的 **noskipws()** 方法用于清除指定字符串流的 showbase 格式标志。该标志读取输入流中第一个非空白字符之前的空白。
 
 **语法:**
 

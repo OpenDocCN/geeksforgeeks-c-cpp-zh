@@ -53,7 +53,7 @@ void floyd(n){
         printf("%d ",i);
         if(i==(j*(j+1))/2){
             printf("\n");
-            j++;
+            j++ ;
         }
     }
 }
@@ -80,7 +80,7 @@ class GFG
             for (j = 1; j <= i; j++)
             {
                 System.out.print(val + " ");
-                val++;
+                val++ ;
             }
             System.out.println();
 
@@ -134,7 +134,7 @@ class GFG
             for (j = 1; j <= i; j++)
             {
                 Console.Write(val + " ");
-                val++;
+                val++ ;
             }
             Console.WriteLine();
         }
@@ -167,7 +167,7 @@ function FloydsTriangle($n)
         for($j = 1; $j <= $i; $j++)
         {
             print($val." ");
-            $val++;
+            $val++ ;
         }
         print("\n");
     }

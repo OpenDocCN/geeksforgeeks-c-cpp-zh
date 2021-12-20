@@ -32,7 +32,7 @@ public:
     // pushing an element into the stack
     void push(T d)
     {
-        cs++;
+        cs++ ;
         // increasing the current size of the stack
         l.push_front(d);
     }

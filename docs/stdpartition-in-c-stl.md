@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/stdpartition-in-c-stl/](https://www.geeksforgeeks.org/stdpartition-in-c-stl/)
 
-C++的 STL 算法库中有一个类，它允许我们使用某些内置函数轻松划分算法。划分是指根据给定的条件划分容器元素的行为。
+C++ 的 STL 算法库中有一个类，它允许我们使用某些内置函数轻松划分算法。划分是指根据给定的条件划分容器元素的行为。
 **分区作战** **:**
 **1。分区(beg，end，condition)** :-该函数用于根据其参数中提到的条件对元素进行**分区。
 **2。is_partitioned(beg，end，condition)** :-如果容器已分区**则此函数返回布尔值 **true，否则返回 false。**

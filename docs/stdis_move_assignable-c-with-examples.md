@@ -1,4 +1,4 @@
-# 标准::is _ move _ 可赋值 C++示例
+# 标准::is _ move _ 可赋值 C++ 示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ move _ assigned-c-with-examples/](https://www.geeksforgeeks.org/stdis_move_assignable-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_move_assignable<T>::value
 *   True: if the type **t** is a mobile distributable type.
 *   False: If the type **t** is not a mobile distributable type.
 
-下面是用 C/C++说明**标准::is _ move _ 可赋值模板**的程序:
+下面是用 C/C++ 说明**标准::is _ move _ 可赋值模板**的程序:
 
 **程序:**
 

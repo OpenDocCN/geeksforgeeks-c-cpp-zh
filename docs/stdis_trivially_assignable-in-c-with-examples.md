@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ 可在 C++中赋值，示例
+# STD::is _ trivaly _ 可在 C++ 中赋值，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdis _ trivaly _ assigned-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_assignable-in-c-with-examples/)
 
@@ -35,7 +35,7 @@ std::is_trivially_assignable
 *   **true:** If type A can be assigned to type B. 。
 *   **false:** If type A cannot be assigned to type B. 。
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ trivable _ assignment**的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ trivable _ assignment**的程序:
 
 **程序 1:**
 

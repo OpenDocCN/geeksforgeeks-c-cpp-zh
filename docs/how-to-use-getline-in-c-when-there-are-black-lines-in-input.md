@@ -1,10 +1,10 @@
-# 当输入中有空行时，如何在 C++中使用 getline()？
+# 当输入中有空行时，如何在 C++ 中使用 getline()？
 
 > 原文:[https://www . geeksforgeeks . org/如何使用-c 中的 get line-in-当输入中有黑线时/](https://www.geeksforgeeks.org/how-to-use-getline-in-c-when-there-are-black-lines-in-input/)
 
-在 C++中，如果我们需要从一个流中读取几个句子，通常首选的方法是使用 getline()函数。它可以读取，直到遇到换行符或看到用户提供的分隔符。
+在 C++ 中，如果我们需要从一个流中读取几个句子，通常首选的方法是使用 getline()函数。它可以读取，直到遇到换行符或看到用户提供的分隔符。
 
-下面是一个 c++中的示例程序，它读取四个句子，并在最后
+下面是一个 c++ 中的示例程序，它读取四个句子，并在最后
 
 ```cpp
 // A simple C++ program to show working of getline

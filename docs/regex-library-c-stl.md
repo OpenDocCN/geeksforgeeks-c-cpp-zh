@@ -39,7 +39,7 @@ regex traits 类用于封装 regex 的可本地化方面。
 
 **更多有用链接**
 
-*   [最近关于 C++的文章](https://www.geeksforgeeks.org/category/cpp/)
+*   [最近关于 C++ 的文章](https://www.geeksforgeeks.org/category/cpp/)
 *   [编码实践平台](https://practice.geeksforgeeks.org/)
 *   [选择题](https://www.geeksforgeeks.org/c-programming-multiple-choice-questions/)
-*   [c++类所有文章](https://www.geeksforgeeks.org/c-plus-plus/)
+*   [c++ 类所有文章](https://www.geeksforgeeks.org/c-plus-plus/)

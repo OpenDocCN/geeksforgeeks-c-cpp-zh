@@ -1,4 +1,4 @@
-# std::strncmp()在 C++中
+# std::strncmp()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdstrncmp-in-c/](https://www.geeksforgeeks.org/stdstrncmp-in-c/)
 

@@ -1,4 +1,4 @@
-# c++中的 getline(字符串)
+# c++ 中的 getline(字符串)
 
 > 原文:[https://www.geeksforgeeks.org/getline-string-c/](https://www.geeksforgeeks.org/getline-string-c/)
 
@@ -256,7 +256,7 @@ Hello, MOHIT KUMAR welcome to GfG !*
 
 ***相关文章:***
 
-*   *[当输入中有空行时，如何在 C++中使用 getline()？](https://www.geeksforgeeks.org/how-to-use-getline-in-c-when-there-are-black-lines-in-input/)*
+*   *[当输入中有空行时，如何在 C++ 中使用 getline()？](https://www.geeksforgeeks.org/how-to-use-getline-in-c-when-there-are-black-lines-in-input/)*
 *   *[getline()函数和字符数组](https://www.geeksforgeeks.org/getline-function-character-array/)*
 
 *本文由 **Harsh Agarwal** 贡献，由**fais Al Mamun**改进。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

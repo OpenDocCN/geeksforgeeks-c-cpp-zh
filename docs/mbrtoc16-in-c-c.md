@@ -1,8 +1,8 @@
-# 带示例的 C/C++中的 mbrtoc16()
+# 带示例的 C/C++ 中的 mbrtoc16()
 
 > 原文:[https://www.geeksforgeeks.org/mbrtoc16-in-c-c/](https://www.geeksforgeeks.org/mbrtoc16-in-c-c/)
 
-**MBR TOC 16()**是 C/C++中的一个内置函数，它将一个窄的多字节字符转换为 16 位字符表示。在 C++的 **uchar.h** 头文件中定义。
+**MBR TOC 16()**是 C/C++ 中的一个内置函数，它将一个窄的多字节字符转换为 16 位字符表示。在 C++ 的 **uchar.h** 头文件中定义。
 
 **语法**:
 

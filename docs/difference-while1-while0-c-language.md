@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/difference-while 1-while 0-c-language/](https://www.geeksforgeeks.org/difference-while1-while0-c-language/)
 
-先决条件:[C/c++中的 while 循环](https://www.geeksforgeeks.org/loops-in-c-and-c/)
+先决条件:[C/c++ 中的 while 循环](https://www.geeksforgeeks.org/loops-in-c-and-c/)
 在大多数计算机编程语言中，while 循环是一种控制流语句，允许基于给定的布尔条件重复执行代码。布尔条件为真或假
 
 **而(1)**
@@ -29,7 +29,7 @@ int main()
 {
     int i = 0;
     while (1) {
-        printf("%d\n", ++i);
+        printf("%d\n", ++ i);
         if (i == 5)
             break; // Used to come
                    // out of loop
@@ -48,7 +48,7 @@ int main()
 {
     int i = 0;
     while (1) {
-        cout << ++i << "\n";
+        cout << ++ i << "\n";
         if (i == 5)
             // Used to come
             // out of loop
@@ -91,8 +91,8 @@ int main()
   while ( 0 )
   {
     // This line will never get executed
-    printf( "%d\n", ++i ); 
-    flag++;
+    printf( "%d\n", ++ i ); 
+    flag++ ;
     if (i == 5)
       break;
   }
@@ -113,8 +113,8 @@ int main() {
   while ( 0 )
   {
     // This line will never get executed
-    cout << ++i << "\n"; 
-    flag++;
+    cout << ++ i << "\n"; 
+    flag++ ;
     if (i == 5)
       break;
   }

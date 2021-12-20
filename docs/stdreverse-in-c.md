@@ -1,4 +1,4 @@
-# std::reverse()在 C++中
+# std::reverse()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdreverse-in-c/](https://www.geeksforgeeks.org/stdreverse-in-c/)
 

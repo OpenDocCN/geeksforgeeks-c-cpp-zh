@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/如何从 c-stl 列表中删除最后一个元素/](https://www.geeksforgeeks.org/how-to-delete-last-element-from-a-list-in-c-stl/)
 
-给定一个[列表](https://www.geeksforgeeks.org/list-cpp-stl/)，任务是在 C++中从这个列表中移除最后一个元素。
+给定一个[列表](https://www.geeksforgeeks.org/list-cpp-stl/)，任务是在 C++ 中从这个列表中移除最后一个元素。
 
 **示例:**
 
@@ -54,7 +54,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
         list<int>::iterator it;
 
         // printing all the elements of the list
-        for (it = mylist.begin(); it != mylist.end(); ++it)
+        for (it = mylist.begin(); it != mylist.end(); ++ it)
             cout << ' ' << *it;
         cout << '\n';
     }
@@ -136,7 +136,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
         list<int>::iterator it;
 
         // printing all the elements of the list
-        for (it = mylist.begin(); it != mylist.end(); ++it)
+        for (it = mylist.begin(); it != mylist.end(); ++ it)
             cout << ' ' << *it;
         cout << '\n';
     }

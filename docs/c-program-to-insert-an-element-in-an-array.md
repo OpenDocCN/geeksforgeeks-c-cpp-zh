@@ -47,7 +47,7 @@ int main()
     pos = 5;
 
     // increase the size by 1
-    n++;
+    n++ ;
 
     // shift elements forward
     for (i = n-1; i >= pos; i--)

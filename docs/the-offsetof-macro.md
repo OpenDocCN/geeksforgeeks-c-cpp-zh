@@ -63,4 +63,4 @@ OFFSETOF(PodType, c);
 
 2.[http://msdn.microsoft.com/en-us/library/dz4y9b9a.aspx](http://msdn.microsoft.com/en-us/library/dz4y9b9a.aspx)
 
-3. [GNU C/C++编译器文档](http://gcc.gnu.org/onlinedocs/)
+3. [GNU C/C++ 编译器文档](http://gcc.gnu.org/onlinedocs/)

@@ -1,8 +1,8 @@
-# 如何用 C++中的 STL 求数组元素的和？
+# 如何用 C++ 中的 STL 求数组元素的和？
 
 > 原文:[https://www . geeksforgeeks . org/如何使用 c-in-STL 找到数组元素之和/](https://www.geeksforgeeks.org/how-to-find-the-sum-of-elements-of-an-array-using-stl-in-c/)
 
-给定一个数组 arr[]，用 C++中的 STL 求出这个数组元素的和。
+给定一个数组 arr[]，用 C++ 中的 STL 求出这个数组元素的和。
 
 **例:**
 

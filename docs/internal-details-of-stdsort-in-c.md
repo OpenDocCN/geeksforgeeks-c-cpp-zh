@@ -1,10 +1,10 @@
-# c++中 std::sort()的内部细节
+# c++ 中 std::sort()的内部细节
 
 > 原文:[https://www . geesforgeks . org/internal-details-of-stdsort-in-c/](https://www.geeksforgeeks.org/internal-details-of-stdsort-in-c/)
 
 [**排序**](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/)**是应用于数据的最基本功能之一。这意味着以特定的方式排列数据，可以是增加的，也可以是减少的。C++ STL 中有一个名为 sort()的内置函数。**
 
-**[**std::sort()**](https://www.geeksforgeeks.org/sort-c-stl/) 是 C++标准库中的一个泛型函数，用于做比较排序。**
+**[**std::sort()**](https://www.geeksforgeeks.org/sort-c-stl/) 是 C++ 标准库中的一个泛型函数，用于做比较排序。**
 
 ### **语法:**
 
@@ -39,7 +39,7 @@ int main()
     cout << "\nArray after sorting using "
          "default sort is : \n";
 
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
 
     return 0;
@@ -126,7 +126,7 @@ int* Partition(int arr[], int low, int high)
         if (arr[j] <= pivot)
         {
             // increment index of smaller element
-            i++;
+            i++ ;
 
             swap(arr[i], arr[j]);
         }
@@ -242,7 +242,7 @@ int main()
 
 1.  ****sort()不使用像 qsort()这样的不安全的 void 指针。****
 2.  ****与 sort()相比，qsort()对比较函数进行了大量的函数调用。****
-3.  ****使用 sort()的 C++代码比使用 qsort()的代码相对更快。****
+3.  ****使用 sort()的 C++ 代码比使用 qsort()的代码相对更快。****
 
 ******详文:** [排序()与 qsort()](https://www.geeksforgeeks.org/c-qsort-vs-c-sort/)
 的比较****

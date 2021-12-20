@@ -31,7 +31,7 @@ int main()
 
     cout << "List elements before performing reverse operation: ";
 
-    for (auto it = forward.begin(); it != forward.end(); ++it)
+    for (auto it = forward.begin(); it != forward.end(); ++ it)
         cout << *it << " ";
 
     // Function that performs reverse operation
@@ -40,7 +40,7 @@ int main()
     // printing elements of list
     cout << "\nList elements after performing reverse operation: ";
 
-    for (auto it = forward.begin(); it != forward.end(); ++it)
+    for (auto it = forward.begin(); it != forward.end(); ++ it)
         cout << *it << " ";
 
     return 0;

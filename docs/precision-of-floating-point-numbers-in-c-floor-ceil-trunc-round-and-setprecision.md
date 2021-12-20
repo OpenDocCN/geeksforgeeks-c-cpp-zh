@@ -1,10 +1,10 @@
-# c++中浮点数的精度(floor()、ceil()、trunc()、round()和 setprecision())
+# c++ 中浮点数的精度(floor()、ceil()、trunc()、round()和 setprecision())
 
 > 原文:[https://www . geeksforgeeks . org/c-floor-ceil-trunc-round-and-set precision 中浮点数的精度/](https://www.geeksforgeeks.org/precision-of-floating-point-numbers-in-c-floor-ceil-trunc-round-and-setprecision/)
 
 1/3 的十进制等效值是 0。无限长的数字需要无限的内存来存储，我们通常有 4 或 8 个字节。因此，浮点数只存储一定数量的有效数字，其余的都丢失了。浮点数的**精度**定义了在不丢失信息的情况下，它可以表示多少有效数字。输出浮点数时，cout 的默认精度为 6，它会截断其后的任何内容。
 
-下面给出了一些用于为 C++中的浮点数提供精度的库和方法:
+下面给出了一些用于为 C++ 中的浮点数提供精度的库和方法:
 
 <center>**floor():**</center>
 

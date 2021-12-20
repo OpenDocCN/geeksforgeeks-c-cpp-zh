@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/basic _ string-c _ str-function-in-c-STL/](https://www.geeksforgeeks.org/basic_string-c_str-function-in-c-stl/)
 
-**basic_string::c_str()** 是 C++中的一个内置函数，它返回一个指向数组的指针，该数组包含一个以 null 结尾的字符序列，表示 basic_string 对象的当前值。该数组包括构成 basic_string 对象的值的相同字符序列，以及末尾的附加终止空字符。
+**basic_string::c_str()** 是 C++ 中的一个内置函数，它返回一个指向数组的指针，该数组包含一个以 null 结尾的字符序列，表示 basic_string 对象的当前值。该数组包括构成 basic_string 对象的值的相同字符序列，以及末尾的附加终止空字符。
 
 **语法:**
 

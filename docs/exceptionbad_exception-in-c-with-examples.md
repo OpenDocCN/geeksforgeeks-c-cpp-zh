@@ -1,8 +1,8 @@
-# 异常::C++中的 bad_exception 附带示例
+# 异常::C++ 中的 bad_exception 附带示例
 
 > 原文:[https://www . geesforgeks . org/exception bad _ exception-in-c-with-examples/](https://www.geeksforgeeks.org/exceptionbad_exception-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类，**异常::bad_exception** 就是其中之一。这是意外处理程序引发的异常。下面是相同的语法:
+标准 C++ 包含几个内置的异常类，**异常::bad_exception** 就是其中之一。这是意外处理程序引发的异常。下面是相同的语法:
 
 **头文件:**
 

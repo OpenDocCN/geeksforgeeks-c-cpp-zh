@@ -1,4 +1,4 @@
-# c++中 shuffle vs random _ shuffle
+# c++ 中 shuffle vs random _ shuffle
 
 > 原文:[https://www.geeksforgeeks.org/shuffle-vs-random_shuffle-c/](https://www.geeksforgeeks.org/shuffle-vs-random_shuffle-c/)
 
@@ -25,7 +25,7 @@ int main()
     vector<int> arr;
 
     // set some values:
-    for (int j = 1; j < 10; ++j)
+    for (int j = 1; j < 10; ++ j)
 
         // 1 2 3 4 5 6 7 8 9
         arr.push_back(j);
@@ -38,7 +38,7 @@ int main()
 
     // print out content:
     cout << "arr contains:";
-    for (auto i = arr.begin(); i != arr.end(); ++i)
+    for (auto i = arr.begin(); i != arr.end(); ++ i)
         cout << ' ' << *i;
 
     cout << endl;
@@ -93,7 +93,7 @@ shuffled elements are: 3 1 5 4 2
 
 ```
 
-**shuffle 和 random_shuffle c++有什么区别？**
+**shuffle 和 random_shuffle c++ 有什么区别？**
 
 1.  唯一不同的是 **random_shuffle** 使用 **rand()** 函数对物品进行随机化，而 **shuffle** 使用 **urng** 这是一个更好的随机生成器，不过在 random_shuffle 的特定重载下，我们可以得到相同的行为(与 shuffle 一样)。
 2.  shuffle 是对 random_shuffle 的改进，我们应该更喜欢使用前者以获得更好的结果。

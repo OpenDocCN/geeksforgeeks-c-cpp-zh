@@ -1,4 +1,4 @@
-# c++中常量与正则迭代器的比较，示例
+# c++ 中常量与正则迭代器的比较，示例
 
 > 原文:[https://www . geesforgeks . org/const-vs-regular-iterators-in-c-with-examples/](https://www.geeksforgeeks.org/const-vs-regular-iterators-in-c-with-examples/)
 
@@ -15,7 +15,7 @@
 一个**常规或非常量迭代器**指向容器内的一个元素，并可用于修改它所指向的元素。常规迭代器在连接算法和容器以及处理存储在容器中的数据方面起着至关重要的作用。正则迭代器最明显的形式是指针。
 指针可以指向[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)中的元素，并可以使用[增量运算符(++)](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/) 对其进行迭代。每个[容器](https://www.geeksforgeeks.org/containers-cpp-stl/)类型都有一个特定的常规迭代器类型，用于遍历其元素。
 
-下面是一个 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)来演示这两个迭代器的工作差异:
+下面是一个 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)来演示这两个迭代器的工作差异:
 
 ## C++
 

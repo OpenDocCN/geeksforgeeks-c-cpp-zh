@@ -1,4 +1,4 @@
-# <cfloat>C/c++中的 float.h，带示例</cfloat>
+# <cfloat>C/c++ 中的 float.h，带示例</cfloat>
 
 > 原文:[https://www . geesforgeks . org/cfloat-float-h-in-c-c-with-examples/](https://www.geeksforgeeks.org/cfloat-float-h-in-c-c-with-examples/)
 

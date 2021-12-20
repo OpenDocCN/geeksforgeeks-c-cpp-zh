@@ -43,7 +43,7 @@ int main()
     int a[N];
 
     // This is fine.
-    for (size_t n = 0; n < N; ++n) {
+    for (size_t n = 0; n < N; ++ n) {
         a[n] = n;
     }
 

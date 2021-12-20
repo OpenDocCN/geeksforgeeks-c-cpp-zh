@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswctype-function-in-c-c/](https://www.geeksforgeeks.org/iswctype-function-in-c-c/)
 
-**iswcytype()**是 C/C++中的一个内置函数，它检查给定的宽字符是否具有某种属性。在 C/C++的**cwcytpe**头文件中定义
+**iswcytype()**是 C/C++ 中的一个内置函数，它检查给定的宽字符是否具有某种属性。在 C/C++ 的**cwcytpe**头文件中定义
 
 **语法:**
 

@@ -1,8 +1,8 @@
-# boost::type _ traits::is _ array Template 在 C++中
+# boost::type _ traits::is _ array Template 在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/boottype _ traitsis _ array-template-in-c/](https://www.geeksforgeeks.org/boosttype_traitsis_array-template-in-c/)
 
-Boost C++库的 **std::boost::is_array** 模板，用于检查给定类型是否为数组类型。它返回一个显示相同内容的布尔值。
+Boost C++ 库的 **std::boost::is_array** 模板，用于检查给定类型是否为数组类型。它返回一个显示相同内容的布尔值。
 
 **头文件:**
 

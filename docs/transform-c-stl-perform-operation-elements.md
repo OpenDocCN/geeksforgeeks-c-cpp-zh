@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/transform-c-STL-perform-operation-elements/](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/)
 
 考虑将两个数组的内容添加到第三个数组中的问题。假设所有数组的大小都相同。
-下面是没有转换()的简单 C++程序。
+下面是没有转换()的简单 C++ 程序。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -65,7 +65,7 @@ int main()
 5 7 9
 ```
 
-**transform()在 C++中有两种使用形式:**
+**transform()在 C++ 中有两种使用形式:**
 
 1.  **一元运算**:对输入应用一元运算符转换为输出
 
@@ -74,7 +74,7 @@ transform(Iterator inputBegin, Iterator inputEnd,
          Iterator OutputBegin, unary_operation) 
 ```
 
-1.  下面是 C++的例子。
+1.  下面是 C++ 的例子。
 
 ## C
 
@@ -131,5 +131,5 @@ transform(Iterator inputBegin1, Iterator inputEnd1,
 ```
 
 **相关话题:**
-[c++中的函子](https://www.geeksforgeeks.org/functors-in-cpp/)
+[c++ 中的函子](https://www.geeksforgeeks.org/functors-in-cpp/)
 如果发现有不正确的地方，请写评论，或者想分享更多以上讨论话题的信息

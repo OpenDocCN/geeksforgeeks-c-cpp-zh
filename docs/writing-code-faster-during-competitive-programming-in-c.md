@@ -1,10 +1,10 @@
-# 在 C++中进行竞争性编程时更快地编写代码
+# 在 C++ 中进行竞争性编程时更快地编写代码
 
 > 原文:[https://www . geesforgeks . org/writing-code-fast-in-competition-c/](https://www.geeksforgeeks.org/writing-code-faster-during-competitive-programming-in-c/)
 
 本文重点介绍如何实现您的解决方案，并在进行竞争性编程时快速实现它们。
 
-**设置**请参考[设置 C++竞争性编程环境](https://www.geeksforgeeks.org/setting-up-a-c-competitive-programming-environment/)
+**设置**请参考[设置 C++ 竞争性编程环境](https://www.geeksforgeeks.org/setting-up-a-c-competitive-programming-environment/)
 
 **Snippet**Snippet 是一个可重复使用的小部分源代码的编程术语。许多现代文本编辑器，如崇高，提供了一种功能，只需写一个关键词，就可以自动编写预定义的片段。人们可以通过使用 Snippets 来加速它们的实现。因此，如果你需要做一个 BFS 或 DFS(或任何其他代码)，你只需要按“关键字+标签”来获得它的代码。
 

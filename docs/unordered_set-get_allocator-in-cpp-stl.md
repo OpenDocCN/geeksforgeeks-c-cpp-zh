@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/unordered _ set-get _ 分配器-in-cpp-stl/](https://www.geeksforgeeks.org/unordered_set-get_allocator-in-cpp-stl/)
 
-[无序集](https://www.geeksforgeeks.org/unorderd_set-stl-uses/)的 get _ 分配器()方法是 C++的**标准模板库(STL)** 的一部分。此方法获取存储的分配器对象并返回它。
+[无序集](https://www.geeksforgeeks.org/unorderd_set-stl-uses/)的 get _ 分配器()方法是 C++ 的**标准模板库(STL)** 的一部分。此方法获取存储的分配器对象并返回它。
 
 **语法:**
 

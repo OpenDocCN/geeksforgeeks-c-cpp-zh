@@ -1,8 +1,8 @@
-# c++程序输出|第 16 集
+# c++ 程序输出|第 16 集
 
 > 原文:[https://www.geeksforgeeks.org/output-of-c-program-set-16/](https://www.geeksforgeeks.org/output-of-c-program-set-16/)
 
-预测以下 C++程序的输出。
+预测以下 C++ 程序的输出。
 
 **问题 1**
 

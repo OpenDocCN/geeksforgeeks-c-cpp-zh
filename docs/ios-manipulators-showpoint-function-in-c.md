@@ -1,8 +1,8 @@
-# ios 操纵器在 C++中的 showpoint()函数
+# ios 操纵器在 C++ 中的 showpoint()函数
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-showpoint-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-showpoint-function-in-c/)
 
-C++中**流操纵器**的**显示点()**方法用于设置指定字符串流的显示点格式标志。此标志始终显示浮点值及其十进制值。
+C++ 中**流操纵器**的**显示点()**方法用于设置指定字符串流的显示点格式标志。此标志始终显示浮点值及其十进制值。
 
 **语法:**
 

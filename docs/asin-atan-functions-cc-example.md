@@ -1,8 +1,8 @@
-# asin()和 atan()在 C/C++中的函数，示例
+# asin()和 atan()在 C/C++ 中的函数，示例
 
 > 原文:[https://www . geesforgeks . org/asin-atan-functions-cc-example/](https://www.geeksforgeeks.org/asin-atan-functions-cc-example/)
 
-在 C++中，asin()和 atan()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。这个库中所有可用的函数都以 double 作为参数，并返回 double 作为结果。
+在 C++ 中，asin()和 atan()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。这个库中所有可用的函数都以 double 作为参数，并返回 double 作为结果。
 
 **asin()**
 

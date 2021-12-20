@@ -1,4 +1,4 @@
-# c++中 valarray 的 cshift()函数
+# c++ 中 valarray 的 cshift()函数
 
 > 原文:[https://www . geesforgeks . org/cs shift-function-for-valarray-in-c/](https://www.geeksforgeeks.org/cshift-function-for-valarray-in-c/)
 

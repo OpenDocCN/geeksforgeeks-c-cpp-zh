@@ -1,12 +1,12 @@
-# C/c++中的 isspace()及其对空白字符计数的应用
+# C/c++ 中的 isspace()及其对空白字符计数的应用
 
 > 原文:[https://www . geeksforgeeks . org/is space-in-c-and-it-application-to-count-空格-字符/](https://www.geeksforgeeks.org/isspace-in-c-and-its-application-to-count-whitespace-characters/)
 
 **ISS space()函数**
-在 C++中，ISS space 是用于字符串和字符处理的预定义函数，cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。
+在 C++ 中，ISS space 是用于字符串和字符处理的预定义函数，cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。
 
 该函数用于检查参数是否包含任何空白字符。
-c++中有很多类型的空白字符，比如-
+c++ 中有很多类型的空白字符，比如-
 
 *   “–空间
 *   \ '–水平选项卡
@@ -98,9 +98,9 @@ int cnt_space(int i, int count, char ch)
     while (ch != '\0') {
         ch = buf[i];
         if (isspace(ch))
-            count++;
+            count++ ;
 
-        i++;
+        i++ ;
     }
 
     // returning number of spaces
@@ -143,7 +143,7 @@ void space(string& str)
     for (int i = 0; i < length; i++) {
         int c = str[i];
         if (isspace(c))
-            count++;
+            count++ ;
     }
     cout << count;
 }

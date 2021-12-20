@@ -1,4 +1,4 @@
-# c++程序输出|第 36 集
+# c++ 程序输出|第 36 集
 
 > 原文:[https://www.geeksforgeeks.org/output-c-programs-set-36/](https://www.geeksforgeeks.org/output-c-programs-set-36/)
 

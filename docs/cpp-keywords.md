@@ -1,10 +1,10 @@
-# C++关键词
+# C++ 关键词
 
 > 原文:[https://www.geeksforgeeks.org/cpp-keywords/](https://www.geeksforgeeks.org/cpp-keywords/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是一门功能强大的语言。在 C++中，我们可以编写结构化程序，也可以编写[面向对象程序](https://www.geeksforgeeks.org/oops-object-oriented-design/)。C++是 [C](https://www.geeksforgeeks.org/c-programming-language/) 的超集，因此大多数 C 的构造在 C++中都是合法的，它们的意义没有改变。然而，也有一些例外和补充。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是一门功能强大的语言。在 C++ 中，我们可以编写结构化程序，也可以编写[面向对象程序](https://www.geeksforgeeks.org/oops-object-oriented-design/)。C++ 是 [C](https://www.geeksforgeeks.org/c-programming-language/) 的超集，因此大多数 C 的构造在 C++ 中都是合法的，它们的意义没有改变。然而，也有一些例外和补充。
 
-[**Token**](https://www.geeksforgeeks.org/cc-tokens/) **:** 当编译器在处理一个 C++程序的源代码时，每一组用空格分隔的字符称为一个 Token。代币是程序中最小的独立单元。C++程序是使用标记编写的。它有以下标记:
+[**Token**](https://www.geeksforgeeks.org/cc-tokens/) **:** 当编译器在处理一个 C++ 程序的源代码时，每一组用空格分隔的字符称为一个 Token。代币是程序中最小的独立单元。C++ 程序是使用标记编写的。它有以下标记:
 
 *   [关键词](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)
 *   [标识符](https://www.geeksforgeeks.org/difference-between-keyword-and-identifier/)
@@ -14,13 +14,13 @@
 
 [![](img/e17468c5059a41f6d4c4012bf90089ae.png)](https://media.geeksforgeeks.org/wp-content/uploads/20210507151607/token2.png)
 
-[**关键词**](https://www.geeksforgeeks.org/variables-and-keywords-in-c/) (也称为**保留词**)对 [C++编译器](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/)有特殊意义，并且总是以短(小写)的形式书写或键入。关键词是语言为特定目的使用的词语，如 **void** 、 **int** 、 **public** 等。它不能用于变量名或函数名。下表是 C++关键字的完整集合。
+[**关键词**](https://www.geeksforgeeks.org/variables-and-keywords-in-c/) (也称为**保留词**)对 [C++ 编译器](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/)有特殊意义，并且总是以短(小写)的形式书写或键入。关键词是语言为特定目的使用的词语，如 **void** 、 **int** 、 **public** 等。它不能用于变量名或函数名。下表是 C++ 关键字的完整集合。
 
 <figure class="table">
 
 | 
 
-**C++关键字**
+**C++ 关键字**
 
  |
 | --- |
@@ -66,7 +66,7 @@
 *   **int:** 用于定义整数对象的基本数据类型。
 *   **long:** 定义 32 位 int 或扩展 double 的数据类型修饰符。
 *   **新增**:内存分配运算符。
-*   **运算符:**用新声明重载 c++运算符。
+*   **运算符:**用新声明重载 c++ 运算符。
 *   **private** :声明类外不可见的类成员。
 *   **受保护:**声明除派生类之外的私有类成员
 *   **public:** 声明在类外可见的类成员。
@@ -99,7 +99,7 @@
 *   标识符名称不能以数字或任何特殊字符开头。
 *   关键字不能用作标识符名称。
 *   仅允许字母字符、数字和下划线。
-*   大写字母和小写字母是不同的。即 A 和 A 在 C++中是不同的。
+*   大写字母和小写字母是不同的。即 A 和 A 在 C++ 中是不同的。
 *   有效的标识符是 GFG，gfg，极客的极客。
 
 **程序 1:**

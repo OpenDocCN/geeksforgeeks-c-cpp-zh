@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ move _ 可在 C++中构造，示例
+# STD::is _ trivaly _ move _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ trivaly _ move _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_move_constructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_trivially_move_constructible<T>::value
 *   **真:**如果类型 **T** 是一个 trivaly _ move _ construction .
 *   **False:** If the type **t** is not a configurable ordinary action.
 
-下面是用 C++演示**STD::is _ trivaly _ move _ construction**的程序:
+下面是用 C++ 演示**STD::is _ trivaly _ move _ construction**的程序:
 
 **程序 1:**
 

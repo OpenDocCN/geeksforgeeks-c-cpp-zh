@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/inline-namespace-usage-using-direction-inside-namespace/](https://www.geeksforgeeks.org/inline-namespaces-usage-using-directive-inside-namespaces/)
 
-先决条件:[c++中的名称空间](https://www.geeksforgeeks.org/namespace-in-c/)
+先决条件:[c++ 中的名称空间](https://www.geeksforgeeks.org/namespace-in-c/)
 内联名称空间是在其原始名称空间定义中使用可选关键字 inline 的名称空间。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
@@ -79,11 +79,11 @@ int main()
 ```
 
 *   只有当名称空间的名称像上面的例子一样短时，这看起来才是好的。但是通过将 inline 与名称空间一起使用，就不需要像上面给出的那样键入整个名称空间，也不需要使用“using”指令。
-*   **对库的支持:**内联命名空间机制旨在通过提供一种支持某种形式版本控制的机制来支持库的演化。详见[本](http://www.stroustrup.com/C++11FAQ.html#inline-namespace)。
+*   **对库的支持:**内联命名空间机制旨在通过提供一种支持某种形式版本控制的机制来支持库的演化。详见[本](http://www.stroustrup.com/C++ 11FAQ.html#inline-namespace)。
 
 **“使用”指令**
 
-这种相同的行为(与内联命名空间相同)也可以通过在命名空间中使用“使用”声明性来实现。命名内联命名空间的 using-指令隐式插入到封闭命名空间中(类似于未命名命名命名空间的隐式 using-指令)。考虑以下 C++代码:
+这种相同的行为(与内联命名空间相同)也可以通过在命名空间中使用“使用”声明性来实现。命名内联命名空间的 using-指令隐式插入到封闭命名空间中(类似于未命名命名命名空间的隐式 using-指令)。考虑以下 C++ 代码:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

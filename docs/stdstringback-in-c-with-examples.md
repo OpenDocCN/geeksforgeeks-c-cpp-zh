@@ -1,4 +1,4 @@
-# std::string::back()用 C++举例
+# std::string::back()用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stdstringback-in-c-with-examples/](https://www.geeksforgeeks.org/stdstringback-in-c-with-examples/)
 

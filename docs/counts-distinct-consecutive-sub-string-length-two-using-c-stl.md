@@ -36,7 +36,7 @@ void printDistinctSubStrs(string str)
 
     // Count occurrences of all pairs
     for (int i=0; i<str.size()-1; i++)
-        dPairs[make_pair(str[i], str[i+1])]++;
+        dPairs[make_pair(str[i], str[i+1])]++ ;
 
     // Traverse map to print sub-strings and their
     // counts.

@@ -14,7 +14,7 @@
 
 [http://www . answers . com/Q/What _ are _ near _ far _ 和 _ 巨大 _pointers_in_C](http://www.answers.com/Q/What_are_near_far_and_huge_pointers_in_C)
 
-[https://www . quora . com/C-c++中的近-远-巨大指针的区别是什么](https://www.quora.com/What-is-the-difference-between-near-far-huge-pointers-in-C-C++)
+[https://www . quora . com/C-c++ 中的近-远-巨大指针的区别是什么](https://www.quora.com/What-is-the-difference-between-near-far-huge-pointers-in-C-C++)
 
 [http://stackoverflow . com/questions/8727122/解释 c 语言中的远近和巨大指针的区别](http://stackoverflow.com/questions/8727122/explain-the-difference-between-near-far-and-huge-pointers-in-c)
 

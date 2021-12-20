@@ -1,4 +1,4 @@
-# C/c++中的 ecvt()，示例
+# C/c++ 中的 ecvt()，示例
 
 > 原文:[https://www.geeksforgeeks.org/ecvt-in-c-c-with-examples/](https://www.geeksforgeeks.org/ecvt-in-c-c-with-examples/)
 

@@ -1,4 +1,4 @@
-# 标准::C++中的 less_equal，示例
+# 标准::C++ 中的 less_equal，示例
 
 > 原文:[https://www . geesforgeks . org/stdless _ equal-in-c-with-examples/](https://www.geeksforgeeks.org/stdless_equal-in-c-with-examples/)
 
@@ -52,7 +52,7 @@ std::bind2nd(std::less_equal(), K)
 *   **True:** If a is less than or equal to b 。
 *   **False:** If a is greater than B. 。
 
-下面是 C++中 **std::less_equal** 的图示:
+下面是 C++ 中 **std::less_equal** 的图示:
 
 **程序 1:**
 

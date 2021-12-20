@@ -1,4 +1,4 @@
-# c++中对象的生命周期，示例
+# c++ 中对象的生命周期，示例
 
 > 原文:[https://www . geesforgeks . org/c-in-objects-life-cycle-with-example/](https://www.geeksforgeeks.org/life-cycle-of-objects-in-c-with-example/)
 
@@ -8,7 +8,7 @@
 
 每个类都有两个与类对象的创建和销毁相关的特殊方法- [构造器](https://www.geeksforgeeks.org/difference-between-constructor-and-destructor-in-c/)和[析构器](https://www.geeksforgeeks.org/difference-between-constructor-and-destructor-in-c/)。
 
-### **<u>C++对象生命周期:</u>**
+### **<u>C++ 对象生命周期:</u>**
 
 [![](img/a723434285e641795005491100fc178f.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200827160616/FlowChartObjectLifeCycle1.png)
 
@@ -25,7 +25,7 @@
     *   当对象超出范围时，析构函数被隐式调用。
     *   构造函数和析构函数没有返回类型，不能使用[返回语句](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)。
 
-下面是 C++中[构造函数和析构函数如何工作的程序:](https://www.geeksforgeeks.org/difference-between-constructor-and-destructor-in-c/) 
+下面是 C++ 中[构造函数和析构函数如何工作的程序:](https://www.geeksforgeeks.org/difference-between-constructor-and-destructor-in-c/) 
 
 ## C++
 
@@ -102,7 +102,7 @@ public:
     // Constructor
     obj()
     {
-        obj_count++;
+        obj_count++ ;
         cout << "The obj - "
              << obj_count
              << " - is created"
@@ -146,7 +146,7 @@ The obj - 1 - is destructed
 
 ### **<u>继承情况下的物体建造和破坏行为:</u>**
 
-[c++](https://www.geeksforgeeks.org/inheritance-in-c/)中的继承遵循 **IS-A** 方法。当一个类 **B** 继承一个类 **A** 时，我们说**B**T10】IS-A。我们说类 **B** 为派生类，类 **A** 为基类。除了状态和行为，类 **B** 还继承了类 **A** 的构造函数和析构函数。有一些规则指导构造函数和析构函数的继承。
+[c++ ](https://www.geeksforgeeks.org/inheritance-in-c/)中的继承遵循 **IS-A** 方法。当一个类 **B** 继承一个类 **A** 时，我们说**B**T10】IS-A。我们说类 **B** 为派生类，类 **A** 为基类。除了状态和行为，类 **B** 还继承了类 **A** 的构造函数和析构函数。有一些规则指导构造函数和析构函数的继承。
 
 *   派生类**不能重写或重载基类的**构造函数和析构函数。
 *   基类的构造首先发生，然后是派生类的构造。

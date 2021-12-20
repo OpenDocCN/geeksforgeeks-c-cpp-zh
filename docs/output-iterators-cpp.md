@@ -1,10 +1,10 @@
-# c++中的输出迭代器
+# c++ 中的输出迭代器
 
 > 原文:[https://www.geeksforgeeks.org/output-iterators-cpp/](https://www.geeksforgeeks.org/output-iterators-cpp/)
 
 浏览了**[【STD::copy】](https://www.geeksforgeeks.org/different-methods-copy-c-stl-stdcopy-copy_n-copy_if-copy_backwards/)****[【STD::move】](https://www.geeksforgeeks.org/stdmove-in-c/)****[【STD::transform】](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/)**等各种 STL 算法的模板定义后，你一定找到了它们的模板定义，由**输出迭代器**类型的对象组成。那么它们是什么，为什么被使用？
 
-**输出迭代器**是 C++标准库中存在的五种主要迭代器类型之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)****[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
+**输出迭代器**是 C++ 标准库中存在的五种主要迭代器类型之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)****[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
 
 输出迭代器被认为是与输入迭代器完全相反的**，因为它们执行与输入迭代器相反的功能。它们可以是序列中的**赋值，但不能用于访问值，不像输入迭代器那样做相反的访问值，不能赋值。所以，我们可以说**输入和输出迭代器是相互补充的**。****
 
@@ -39,7 +39,7 @@
 
     ```cpp
     A++   // Using post increment operator
-    ++A   // Using pre increment operator
+    ++ A   // Using pre increment operator
 
     ```** 
 5.  ****可交换:**这些迭代器指向的值可以交换或互换。**
@@ -59,8 +59,8 @@
         while (first!=last)
         {
             *result = std::move(*first);
-            ++result;
-            ++first;
+            ++ result;
+            ++ first;
         }
         return result;
     }
@@ -79,7 +79,7 @@
         while (first!=last) 
         {
             if (*first==val) return first;
-            ++first;
+            ++ first;
         }
         return last;
     }
@@ -108,7 +108,7 @@
         // Declaring an iterator
         vector<int>::iterator i1;
 
-        for (i1=v1.begin();i1!=v1.end();++i1)
+        for (i1=v1.begin();i1!=v1.end();++ i1)
         {
             // Assigning elements using iterator
             *i1 = 1;

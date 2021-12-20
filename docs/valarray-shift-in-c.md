@@ -1,4 +1,4 @@
-# c++中的 valarray shift()
+# c++ 中的 valarray shift()
 
 > 原文:[https://www.geeksforgeeks.org/valarray-shift-in-c/](https://www.geeksforgeeks.org/valarray-shift-in-c/)
 

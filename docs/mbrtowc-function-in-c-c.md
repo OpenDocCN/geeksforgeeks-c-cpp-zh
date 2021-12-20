@@ -1,8 +1,8 @@
-# mbrtowc()函数在 C/C++中
+# mbrtowc()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/mbrtowc-function-in-c-c/](https://www.geeksforgeeks.org/mbrtowc-function-in-c-c/)
 
-C/C++中的 **mbrtowc()** 函数将多字节序列转换为宽字符。该函数返回多字节字符的字节长度。s 所指向的多字节字符被转换为 wchar_t 类型的值，并存储在 pwc 所指向的位置。如果 s 指向空字符，则该函数重置移位状态，并在 pwc 存储宽空字符后返回零。
+C/C++ 中的 **mbrtowc()** 函数将多字节序列转换为宽字符。该函数返回多字节字符的字节长度。s 所指向的多字节字符被转换为 wchar_t 类型的值，并存储在 pwc 所指向的位置。如果 s 指向空字符，则该函数重置移位状态，并在 pwc 存储宽空字符后返回零。
 
 **语法:**
 

@@ -9,14 +9,14 @@
 void foo(void)
 {
  static int staticVar;
- staticVar++;
+ staticVar++ ;
  printf("foo: %d\n",staticVar);
 }
 
 void bar(void)
 {
  static int staticVar;
- staticVar++;
+ staticVar++ ;
  printf("bar: %d\n",staticVar);
 }
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/implementing-三元运算符-不带条件语句/](https://www.geeksforgeeks.org/implementing-ternary-operator-without-conditional-statement/)
 
-不使用条件语句如何在 C++中实现[三元运算符](https://www.geeksforgeeks.org/cc-ternary-operator-some-interesting-observations/)。
+不使用条件语句如何在 C++ 中实现[三元运算符](https://www.geeksforgeeks.org/cc-ternary-operator-some-interesting-observations/)。
 在以下条件下: **a？b:c**T5【如果 a 为真，b 将被执行。
 否则执行 c。
 我们可以假设 a、b、c 为数值。

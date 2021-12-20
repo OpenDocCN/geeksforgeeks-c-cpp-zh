@@ -10,7 +10,7 @@
 
     ```cpp
     // PREFIX
-    ++m
+    ++ m
 
     // POSTFIX
     m++
@@ -29,11 +29,11 @@
         a = 5;
 
         // POSTFIX
-        b = a++;
+        b = a++ ;
         printf("%d", b);
 
         // PREFIX
-        int c = ++b;
+        int c = ++ b;
         printf("\n%d", c);
     }
 

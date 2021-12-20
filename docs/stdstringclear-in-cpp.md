@@ -1,4 +1,4 @@
-# STD::string::c++中的 clear
+# STD::string::c++ 中的 clear
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdstringclear-in-CPP/
 

@@ -52,7 +52,7 @@ int main()
 
     // Vector becomes 1, 2, 3, 4, 5, 6
 
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -110,7 +110,7 @@ int main()
 
     // Vector becomes 1, 2, 3, 4
 
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -159,7 +159,7 @@ int main()
     myvector.push_back(5);
     myvector.push_back(6);
     while (!myvector.empty()) {
-        count++;
+        count++ ;
         myvector.pop_back();
     }
     cout << count;

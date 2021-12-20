@@ -1,4 +1,4 @@
-# 在给定大小的组中反转链表的 C++程序–集合 1
+# 在给定大小的组中反转链表的 C++ 程序–集合 1
 
 > 原文:[https://www . geeksforgeeks . org/CPP-用于反转给定大小的组中链表的程序集-1/](https://www.geeksforgeeks.org/cpp-program-for-reversing-a-linked-list-in-groups-of-given-size-set-1/)
 
@@ -59,7 +59,7 @@ Node* reverse(Node* head, int k)
         current->next = prev;
         prev = current;
         current = next;
-        count++;
+        count++ ;
     }
 
     /* next is now a pointer to (k+1)th node

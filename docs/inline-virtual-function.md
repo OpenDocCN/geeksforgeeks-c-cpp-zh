@@ -1,4 +1,4 @@
-# 虚函数可以用 C++内联吗？
+# 虚函数可以用 C++ 内联吗？
 
 > 原文:[https://www.geeksforgeeks.org/inline-virtual-function/](https://www.geeksforgeeks.org/inline-virtual-function/)
 

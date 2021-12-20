@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/how-to-find-size-of-stdforward _ list-in-c-STL/](https://www.geeksforgeeks.org/how-to-find-size-of-stdforward_list-in-c-stl/)
 
-[在](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) [C++](https://www.geeksforgeeks.org/c-plus-plus/) 的[标准模板库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中转发列表。它位于#include < forward_list >头文件下。实现为[单链表](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)。首次在 [C++ 11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 中引入。转发列表是序列容器，允许从序列中的任何位置进行恒定时间的插入和擦除操作。对于转发列表，不支持快速随机访问。
+[在](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 的[标准模板库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中转发列表。它位于#include < forward_list >头文件下。实现为[单链表](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)。首次在 [C++ 11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 中引入。转发列表是序列容器，允许从序列中的任何位置进行恒定时间的插入和擦除操作。对于转发列表，不支持快速随机访问。
 
 > 与其他 STL 库不同，std::forward_list 没有任何 size()方法。因此，在本文中，我们将向您展示如何在 C++ STL 中获取 std::forward_list 的大小。
 
@@ -16,9 +16,9 @@
 
 > size = distance(forward _ list . begin()、forward _ list . end())；
 
-下面是实现上述方法的 C++代码:
+下面是实现上述方法的 C++ 代码:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement

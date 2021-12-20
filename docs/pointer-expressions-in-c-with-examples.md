@@ -353,7 +353,7 @@ int main()
         "Before increment a = %d\n", *ptr_a);
 
     // Unary increment operation
-    (*ptr_a)++;
+    (*ptr_a)++ ;
 
     // Value of a after increment
     printf(

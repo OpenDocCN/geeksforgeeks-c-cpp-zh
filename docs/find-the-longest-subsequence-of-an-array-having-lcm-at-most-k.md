@@ -32,14 +32,14 @@ void findSubsequence(int* arr, int n, int k)
     map<int, int> M;
 
     // Update the frequencies
-    for (int i = 0; i < n; ++i)
-        ++M[arr[i]];
+    for (int i = 0; i < n; ++ i)
+        ++ M[arr[i]];
 
     // Array to store the count of numbers whom
     // 1 <= X <= K is a multiple of
     int* numCount = new int[k + 1];
 
-    for (int i = 0; i <= k; ++i)
+    for (int i = 0; i <= k; ++ i)
         numCount[i] = 0;
 
     // Check every unique element
@@ -47,7 +47,7 @@ void findSubsequence(int* arr, int n, int k)
         if (p.first <= k) {
 
             // Find all its multiples <= K
-            for (int i = 1;; ++i) {
+            for (int i = 1;; ++ i) {
                 if (p.first * i > k)
                     break;
 
@@ -62,7 +62,7 @@ void findSubsequence(int* arr, int n, int k)
     int lcm = 0, length = 0;
 
     // Obtain the number having maximum count
-    for (int i = 1; i <= k; ++i) {
+    for (int i = 1; i <= k; ++ i) {
         if (numCount[i] > length) {
             length = numCount[i];
             lcm = i;
@@ -80,7 +80,7 @@ void findSubsequence(int* arr, int n, int k)
              << ", Length = " << length << endl;
 
         cout << "Indexes = ";
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i)
             if (lcm % arr[i] == 0)
                 cout << i << " ";
     }
@@ -118,7 +118,7 @@ class GFG
         HashMap<Integer, Integer> M = new HashMap<Integer,Integer>();
 
         // Update the frequencies
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i)
         {
             if(M.containsKey(arr[i]))
                 M.put(arr[i], M.get(arr[i])+1);
@@ -130,7 +130,7 @@ class GFG
         // 1 <= X <= K is a multiple of
         int [] numCount = new int[k + 1];
 
-        for (int i = 0; i <= k; ++i)
+        for (int i = 0; i <= k; ++ i)
             numCount[i] = 0;
 
         Iterator<HashMap.Entry<Integer, Integer>> itr = M.entrySet().iterator();
@@ -143,7 +143,7 @@ class GFG
             {
 
                 // Find all its multiples <= K
-                for (int i = 1;; ++i)
+                for (int i = 1;; ++ i)
                 {
                     if (entry.getKey() * i > k)
                         break;
@@ -159,7 +159,7 @@ class GFG
         int lcm = 0, length = 0;
 
         // Obtain the number having maximum count
-        for (int i = 1; i <= k; ++i)
+        for (int i = 1; i <= k; ++ i)
         {
             if (numCount[i] > length)
             {
@@ -180,7 +180,7 @@ class GFG
                 + " Length = " + length );
 
             System.out.print( "Indexes = ");
-            for (int i = 0; i < n; ++i)
+            for (int i = 0; i < n; ++ i)
                 if (lcm % arr[i] == 0)
                     System.out.print(i + " ");
         }
@@ -290,10 +290,10 @@ class GFG
         Dictionary<int, int> M = new Dictionary<int, int>();
 
         // Update the frequencies
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i)
         {
             if(M.ContainsKey(arr[i]))
-                M[arr[i]]++;
+                M[arr[i]]++ ;
             else
                 M[arr[i]] = 1;
         }
@@ -302,7 +302,7 @@ class GFG
         // 1 <= X <= K is a multiple of
         int [] numCount = new int[k + 1];
 
-        for (int i = 0; i <= k; ++i)
+        for (int i = 0; i <= k; ++ i)
             numCount[i] = 0;
 
         Dictionary<int, int>.KeyCollection keyColl = M.Keys;
@@ -314,7 +314,7 @@ class GFG
             {
 
                 // Find all its multiples <= K
-                for (int i = 1;; ++i)
+                for (int i = 1;; ++ i)
                 {
                     if (key * i > k)
                         break;
@@ -330,7 +330,7 @@ class GFG
         int lcm = 0, length = 0;
 
         // Obtain the number having maximum count
-        for (int i = 1; i <= k; ++i)
+        for (int i = 1; i <= k; ++ i)
         {
             if (numCount[i] > length)
             {
@@ -351,7 +351,7 @@ class GFG
                 + " Length = " + length );
 
             Console.Write( "Indexes = ");
-            for (int i = 0; i < n; ++i)
+            for (int i = 0; i < n; ++ i)
                 if (lcm % arr[i] == 0)
                     Console.Write(i + " ");
         }
@@ -479,7 +479,7 @@ function findSubsequence(arr, n, k) {
     let M = new Map();
 
     // Update the frequencies
-    for (let i = 0; i < n; ++i) {
+    for (let i = 0; i < n; ++ i) {
         if (M.has(arr[i])) {
             M.set(arr[i], M.get(arr[i]) + 1)
         } else {
@@ -491,7 +491,7 @@ function findSubsequence(arr, n, k) {
     // 1 <= X <= K is a multiple of
     let numCount = new Array(k + 1);
 
-    for (let i = 0; i <= k; ++i)
+    for (let i = 0; i <= k; ++ i)
         numCount[i] = 0;
 
     // Check every unique element
@@ -499,7 +499,7 @@ function findSubsequence(arr, n, k) {
         if (p[0] <= k) {
 
             // Find all its multiples <= K
-            for (let i = 1; ; ++i) {
+            for (let i = 1; ; ++ i) {
                 if (p[0] * i > k)
                     break;
 
@@ -514,7 +514,7 @@ function findSubsequence(arr, n, k) {
     let lcm = 0, length = 0;
 
     // Obtain the number having maximum count
-    for (let i = 1; i <= k; ++i) {
+    for (let i = 1; i <= k; ++ i) {
         if (numCount[i] > length) {
             length = numCount[i];
             lcm = i;
@@ -533,7 +533,7 @@ function findSubsequence(arr, n, k) {
         );
 
         document.write("Indexes = ");
-        for (let i = 0; i < n; ++i)
+        for (let i = 0; i < n; ++ i)
             if (lcm % arr[i] == 0)
                 document.write(i + " ");
     }

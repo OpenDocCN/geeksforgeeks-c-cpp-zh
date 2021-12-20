@@ -6,7 +6,7 @@
 
 例如，如果有人想要对像[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)这样的容器或列表进行[排序，并使用](https://www.geeksforgeeks.org/selection-sort/) [STL sort( )](https://www.geeksforgeeks.org/sort-c-stl/) ，但不希望以升序排序，这是默认参数，在这种情况下，将行为传递给[排序函数](https://www.geeksforgeeks.org/selection-sort/)，这实际上是函数指针，并对他的数据进行排序。
 
-**程序 1:** 下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)来实现上面的概念:
+**程序 1:** 下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)来实现上面的概念:
 
 ## c++
 

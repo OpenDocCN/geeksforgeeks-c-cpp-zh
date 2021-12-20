@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-static-keyword-question-6/](https://www.geeksforgeeks.org/c-static-keyword-question-6/)
 
-以下 C++程序的输出？
+以下 C++ 程序的输出？
 
 ```cpp
 #include <iostream>

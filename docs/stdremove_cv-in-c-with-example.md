@@ -1,4 +1,4 @@
-# 标准::移除 C++中的 _cv，示例
+# 标准::移除 C++ 中的 _cv，示例
 
 > 原文:[https://www . geesforgeks . org/stdremove _ cv-in-c-with-example/](https://www.geeksforgeeks.org/stdremove_cv-in-c-with-example/)
 
@@ -30,7 +30,7 @@ std::remove_cv<T>::type a;
 
 **返回值:**
 
-下面是用 C++演示 **std::remove_cv** 的程序:
+下面是用 C++ 演示 **std::remove_cv** 的程序:
 
 **程序:**
 

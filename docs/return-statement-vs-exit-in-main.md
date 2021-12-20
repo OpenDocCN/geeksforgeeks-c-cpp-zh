@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/return-statement-vs-exit-in-main/](https://www.geeksforgeeks.org/return-statement-vs-exit-in-main/)
 
-在 C++中，*退出(0)* 和*返回 0* 有什么区别？
+在 C++ 中，*退出(0)* 和*返回 0* 有什么区别？
 
 当 *exit(0)* 用于退出程序时，不调用局部范围的非静态对象的析构函数。但是如果使用返回 0，则调用析构函数。
 

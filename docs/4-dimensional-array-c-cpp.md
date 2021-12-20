@@ -1,8 +1,8 @@
-# C/c++中的四维数组
+# C/c++ 中的四维数组
 
 > 原文:[https://www.geeksforgeeks.org/4-dimensional-array-c-cpp/](https://www.geeksforgeeks.org/4-dimensional-array-c-cpp/)
 
-先决条件:[C/c++](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)中的数组，[更多关于数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-2-interesting-array-properties/)
+先决条件:[C/c++ ](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)中的数组，[更多关于数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-2-interesting-array-properties/)
 
 四维(4D)数组是数组的数组，或者换句话说，4D 数组是三维数组的数组。
 数组中的维度越多，意味着要容纳的数据越多，但也意味着管理和理解数组的难度越大。

@@ -1,8 +1,8 @@
-# c++中的结构与类
+# c++ 中的结构与类
 
 > 原文:[https://www.geeksforgeeks.org/structure-vs-class-in-cpp/](https://www.geeksforgeeks.org/structure-vs-class-in-cpp/)
 
-在 C++中，一个结构与一个类相同，只是有一些不同。其中最重要的是**安全。**一个结构是不安全的，不能向最终用户隐藏其实现细节，而一个类是安全的，可以隐藏其编程和设计细节。**下面是一个类和一个结构之间的一些区别。**
+在 C++ 中，一个结构与一个类相同，只是有一些不同。其中最重要的是**安全。**一个结构是不安全的，不能向最终用户隐藏其实现细节，而一个类是安全的，可以隐藏其编程和设计细节。**下面是一个类和一个结构之间的一些区别。**
 
 <figure class="table">
 
@@ -204,6 +204,6 @@ int main()
 }
 ```
 
-**必读:**[C 结构和 C++结构的区别](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)
+**必读:**[C 结构和 C++ 结构的区别](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)
 
 如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

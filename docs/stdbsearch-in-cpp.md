@@ -1,4 +1,4 @@
-# STD::b c++中的搜索
+# STD::b c++ 中的搜索
 
 > 原文:[https://www.geeksforgeeks.org/stdbsearch-in-cpp/](https://www.geeksforgeeks.org/stdbsearch-in-cpp/)
 

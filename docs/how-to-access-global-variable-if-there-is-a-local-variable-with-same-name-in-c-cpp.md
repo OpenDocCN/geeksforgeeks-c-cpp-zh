@@ -1,4 +1,4 @@
-# C/c++中有同名局部变量如何访问全局变量？
+# C/c++ 中有同名局部变量如何访问全局变量？
 
 > 原文:[https://www . geesforgeks . org/如何访问-全局变量-如果有-局部变量-同名-in-c-cpp/](https://www.geeksforgeeks.org/how-to-access-global-variable-if-there-is-a-local-variable-with-same-name-in-c-cpp/)
 
@@ -6,7 +6,7 @@
 
 **全局变量:**存在于所有函数之外的变量。它是从所有其他范围可见的变量。
 
-如果 C 和 C++中有同名的局部变量，我们可以分别通过 **Extern** 和**作用域解析运算符**来访问全局变量。
+如果 C 和 C++ 中有同名的局部变量，我们可以分别通过 **Extern** 和**作用域解析运算符**来访问全局变量。
 
 ### **In C:**
 
@@ -42,9 +42,9 @@ Value of global x is 50
 Value of local x is 10
 ```** 
 
-### ****在 C++中:****
+### ****在 C++ 中:****
 
-****2)** 如果我们在 C++中有一个同名的局部变量，我们可以使用 [**作用域解析运算符(:::)来访问一个全局变量。**](https://www.geeksforgeeks.org/scope-resolution-operator-in-c/)**
+****2)** 如果我们在 C++ 中有一个同名的局部变量，我们可以使用 [**作用域解析运算符(:::)来访问一个全局变量。**](https://www.geeksforgeeks.org/scope-resolution-operator-in-c/)**
 
 ## **c++**
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/overloading-the-逗号运算符/](https://www.geeksforgeeks.org/overloading-the-comma-operator/)
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们可以使用 [**运算符重载**](https://www.geeksforgeeks.org/operator-overloading-c/) 来重载[逗号运算符](https://www.geeksforgeeks.org/comna-in-c-and-c/)。**例如:**对于“*将查询 X 发送到服务器 Y 并将结果放入变量 Z”*，则*、*起逗号的作用。逗号运算符**(，)**用于隔离两个或多个表达式，这些表达式只包含一个表达式。当必须为操作数求解表达式集时，只考虑最右边的表达式。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们可以使用 [**运算符重载**](https://www.geeksforgeeks.org/operator-overloading-c/) 来重载[逗号运算符](https://www.geeksforgeeks.org/comna-in-c-and-c/)。**例如:**对于“*将查询 X 发送到服务器 Y 并将结果放入变量 Z”*，则*、*起逗号的作用。逗号运算符**(，)**用于隔离两个或多个表达式，这些表达式只包含一个表达式。当必须为操作数求解表达式集时，只考虑最右边的表达式。
 
 **示例:**
 

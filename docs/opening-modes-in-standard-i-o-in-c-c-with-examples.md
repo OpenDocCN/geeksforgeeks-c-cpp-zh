@@ -1,8 +1,8 @@
-# C/c++标准 I/O 中的打开模式，示例
+# C/c++ 标准 I/O 中的打开模式，示例
 
 > 原文:[https://www . geesforgeks . org/open-modes-in-standard-I-o-in-c-c-with-examples/](https://www.geeksforgeeks.org/opening-modes-in-standard-i-o-in-c-c-with-examples/)
 
-先决条件:[c++中的文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)
+先决条件:[c++ 中的文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
 到目前为止，使用 C 程序的操作是在没有存储在任何地方的提示符/终端上完成的。但是在软件行业，大多数程序都是为了存储从程序中获取的信息而编写的。一种方法是将提取的信息存储在文件中。可以对文件执行的不同操作有:
 
@@ -274,7 +274,7 @@ int main()
         exit(1);
     }
 
-    for (n = 1; n < 5; ++n) {
+    for (n = 1; n < 5; ++ n) {
         num.n1 = n;
         num.n2 = 5 * n;
         num.n3 = 5 * n + 1;
@@ -337,7 +337,7 @@ int main()
         exit(1);
     }
 
-    for (n = 1; n < 5; ++n) {
+    for (n = 1; n < 5; ++ n) {
         fread(&num, sizeof(struct threeNum),
               1, fptr);
         printf("n1: %d\tn2: %d\tn3: %d",
@@ -461,7 +461,7 @@ int main()
         exit(1);
     }
 
-    for (n = 1; n < 10; ++n) {
+    for (n = 1; n < 10; ++ n) {
         num.n1 = n;
         num.n2 = 5 * n;
         num.n3 = 5 * n + 1;
@@ -596,7 +596,7 @@ int main()
         exit(1);
     }
 
-    for (n = 1; n < 5; ++n) {
+    for (n = 1; n < 5; ++ n) {
         fread(&num, sizeof(struct threeNum),
               1, fptr);
         printf("n1: %d\tn2: %d\tn3: %d",
@@ -605,7 +605,7 @@ int main()
     }
     printf("Data successfully read from the file");
 
-    for (n = 1; n < 7; ++n) {
+    for (n = 1; n < 7; ++ n) {
         num.n1 = n;
         num.n2 = 5 * n;
         num.n3 = 5 * n + 1;

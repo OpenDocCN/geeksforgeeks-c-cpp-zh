@@ -1,4 +1,4 @@
-# c++中的线程可连接()函数
+# c++ 中的线程可连接()函数
 
 > 原文:[https://www . geesforgeks . org/thread-joined-function-in-c/](https://www.geeksforgeeks.org/thread-joinable-function-in-c/)
 
@@ -26,7 +26,7 @@ std::thread::joinable()
 
 以下程序演示了 std::thread::joinable()的使用
 
-**注意:**在联机 IDE 上，这个程序会显示错误。要编译这个，在命令**“g++–STD = c++ 14-pthread file . CPP”**的帮助下，使用 g++编译器编译上的标志“-pthread”。
+**注意:**在联机 IDE 上，这个程序会显示错误。要编译这个，在命令**“g++–STD = c++ 14-pthread file . CPP”**的帮助下，使用 g++ 编译器编译上的标志“-pthread”。
 
 ```cpp
 // C++ program to demonstrate the use of

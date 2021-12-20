@@ -1,4 +1,4 @@
-# wcstod()函数在 C/C++中
+# wcstod()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcstod-function-in-c-c/](https://www.geeksforgeeks.org/wcstod-function-in-c-c/)
 

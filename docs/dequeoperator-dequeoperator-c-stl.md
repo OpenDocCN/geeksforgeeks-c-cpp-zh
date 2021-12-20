@@ -53,7 +53,7 @@ int main()
     deque<int> mydeque2{ 3, 2, 1, 4 };
     mydeque1 = mydeque2;
     cout << "mydeque1 = ";
-    for (auto it = mydeque1.begin(); it != mydeque1.end(); ++it)
+    for (auto it = mydeque1.begin(); it != mydeque1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -159,7 +159,7 @@ int main()
     mydeque.push_back(9);
     // Deque becomes 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-    for (int i = 0; i < mydeque.size(); ++i) {
+    for (int i = 0; i < mydeque.size(); ++ i) {
         if (i % 2 == 0) {
             cout << mydeque[i];
             cout << " ";

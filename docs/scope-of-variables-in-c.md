@@ -1,4 +1,4 @@
-# c++中变量的作用域
+# c++ 中变量的作用域
 
 > 原文:[https://www.geeksforgeeks.org/scope-of-variables-in-c/](https://www.geeksforgeeks.org/scope-of-variables-in-c/)
 
@@ -7,7 +7,7 @@
 1.  局部变量
 2.  全局变量
 
-![Variable scope in C++](img/9c1f8cfa64ddb3790dc1e1fb94c423a6.png)
+![Variable scope in C++ ](img/9c1f8cfa64ddb3790dc1e1fb94c423a6.png)
 
 现在让我们更详细地了解每个范围:
 

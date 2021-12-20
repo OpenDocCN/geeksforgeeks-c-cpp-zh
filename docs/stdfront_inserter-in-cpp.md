@@ -43,12 +43,12 @@ int main()
     cout << "v1 = ";
 
     int i;
-    for (i = 0; i < 3; ++i) {
+    for (i = 0; i < 3; ++ i) {
         cout << v1[i] << " ";
     }
 
     cout << "\nv2 = ";
-    for (i = 0; i < 6; ++i) {
+    for (i = 0; i < 6; ++ i) {
         cout << v2[i] << " ";
     }
 
@@ -92,12 +92,12 @@ v2 = 3 2 1 4 5 6
         cout << "v1 = ";
 
         int i;
-        for (i = 0; i < 3; ++i) {
+        for (i = 0; i < 3; ++ i) {
             cout << v1[i] << " ";
         }
 
         cout << "\nv2 = ";
-        for (i = 0; i < 3; ++i) {
+        for (i = 0; i < 3; ++ i) {
             cout << v2[i] << " ";
         }
 
@@ -148,12 +148,12 @@ v2 = 3 2 1 4 5 6
         cout << "v1 = ";
 
         int i;
-        for (i = 0; i < 3; ++i) {
+        for (i = 0; i < 3; ++ i) {
             cout << v1[i] << " ";
         }
 
         cout << "\nv2 = ";
-        for (i = 0; i < 6; ++i) {
+        for (i = 0; i < 6; ++ i) {
             cout << v2[i] << " ";
         }
 

@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 连接两个数组？
+# 如何在 C++ 中使用 STL 连接两个数组？
 
 > 原文:[https://www . geeksforgeeks . org/如何使用-stl-in-c/](https://www.geeksforgeeks.org/how-to-join-two-arrays-using-stl-in-c/) 连接两个数组
 
-给定两个数组，在 C++中使用 STL 连接这两个数组。
+给定两个数组，在 C++ 中使用 STL 连接这两个数组。
 
 **示例:**
 
@@ -75,7 +75,7 @@ int main()
 
     // Print the merged array
     cout << "\nAfter joining:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << *st << ", ";
     cout << '\n';
 

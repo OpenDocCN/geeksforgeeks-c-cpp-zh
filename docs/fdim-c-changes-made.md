@@ -1,4 +1,4 @@
-# c++中的 fdim()
+# c++ 中的 fdim()
 
 > 原文:[https://www.geeksforgeeks.org/fdim-c-changes-made/](https://www.geeksforgeeks.org/fdim-c-changes-made/)
 

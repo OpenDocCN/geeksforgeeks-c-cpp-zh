@@ -1,4 +1,4 @@
-# 用 c++处理文件中的 tellp()示例
+# 用 c++ 处理文件中的 tellp()示例
 
 > 原文:[https://www . geesforgeks . org/tellp-file-handling-CPP-example/](https://www.geeksforgeeks.org/tellp-file-handling-cpp-example/)
 

@@ -1,4 +1,4 @@
-# c++中的枚举类及其相对于枚举数据类型的优势
+# c++ 中的枚举类及其相对于枚举数据类型的优势
 
 > 原文:[https://www . geesforgeks . org/enum-class-in-c-及其相对于 enum-datatype 的优势/](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/)
 

@@ -8,7 +8,7 @@
 
 > **pair (data_type1，data _ type 2)Pair _ name**；
 
-[**【c++中的多集】**](https://www.geeksforgeeks.org/multiset-in-cpp-stl/) **:** 多集是一种关联容器，按照特定的顺序存储元素，多个元素可以具有相同的值。
+[**【c++ 中的多集】**](https://www.geeksforgeeks.org/multiset-in-cpp-stl/) **:** 多集是一种关联容器，按照特定的顺序存储元素，多个元素可以具有相同的值。
 
 **语法:**
 
@@ -47,7 +47,7 @@ void printData(multiset<pair<int, string> > gfg)
     multiset<pair<int, string> >::iterator i;
 
     // Iterate through pair of multiset
-    for (i = gfg.begin(); i != gfg.end(); ++i) {
+    for (i = gfg.begin(); i != gfg.end(); ++ i) {
 
         // Print the pairs
         cout << i->first << " "
@@ -96,7 +96,7 @@ void printData(multimap<int, string> gfg)
     multimap<int, string>::iterator i;
 
     // Iterate through pair of multiset
-    for (i = gfg.begin(); i != gfg.end(); ++i) {
+    for (i = gfg.begin(); i != gfg.end(); ++ i) {
 
         // Print the pairs
         cout << i->first << " "

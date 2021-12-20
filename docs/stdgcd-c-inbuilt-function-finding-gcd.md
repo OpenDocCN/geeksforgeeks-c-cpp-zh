@@ -1,9 +1,9 @@
-# std::gcd | C++查找 gcd 的内置函数
+# std::gcd | C++ 查找 gcd 的内置函数
 
 > 原文:[https://www . geesforgeks . org/stdgcd-c-内置-函数-查找-gcd/](https://www.geeksforgeeks.org/stdgcd-c-inbuilt-function-finding-gcd/)
 
 在许多竞争性编程问题中，我们需要找到最大公约数，也称为 **gcd** 。欧几里德算法寻找 gcd 已经讨论过[这里](https://www.geeksforgeeks.org/basic-and-extended-euclidean-algorithms/)。
-C++内置了计算 GCD 的功能。这个函数存在于头文件中。
+C++ 内置了计算 GCD 的功能。这个函数存在于头文件中。
 **c++ 14 的语法:**
 
 ```cpp
@@ -31,13 +31,13 @@ else gcd of m and n.
 // gcd function of C++ STL
 #include <iostream>
 #include <algorithm>
-// #include<numeric> for C++17
+// #include<numeric> for C++ 17
 
 using namespace std;
 
 int main()
 {
-    cout << "gcd(6, 20) = " << __gcd(6, 20) << endl; // gcd(2.0,8) for C++17
+    cout << "gcd(6, 20) = " << __gcd(6, 20) << endl; // gcd(2.0,8) for C++ 17
 }
 ```
 
@@ -58,13 +58,13 @@ gcd(6, 20) = 2
 // gcd function of C++ STL
 #include <iostream>
 #include <algorithm>
-// #include<numeric> for C++17
+// #include<numeric> for C++ 17
 
 using namespace std;
 
 int main()
 {
-    cout << "gcd(6, 20) = " << __gcd(2.0, 8) << endl; // gcd(2.0,8) for C++17
+    cout << "gcd(6, 20) = " << __gcd(2.0, 8) << endl; // gcd(2.0,8) for C++ 17
 }
 ```
 

@@ -1,4 +1,4 @@
-# c++中列表和转发列表的集合，示例
+# c++ 中列表和转发列表的集合，示例
 
 > 原文:[https://www . geeksforgeeks . org/list-of-list-on-forward-list-in-c-with-examples/](https://www.geeksforgeeks.org/set-of-list-and-forward-list-in-c-with-examples/)
 
@@ -23,7 +23,7 @@
 
 <u>**<u>转发列表</u>**</u>
 
-<u>[<u>STL 中的正向列表</u>](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 实现单链表。前向列表是从 C++11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。</u>
+<u>[<u>STL 中的正向列表</u>](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 实现单链表。前向列表是从 C++ 11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。</u>
 
 <u>与前进列表一起使用的函数:</u>
 
@@ -40,9 +40,9 @@
 **set<forward_list<data_type>> set_of_forward_list:** This stores forward lists.
 ```
 
-<u>下面是 C++程序演示实现的一组列表:</u>
+<u>下面是 C++ 程序演示实现的一组列表:</u>
 
-## <u>c++</u>
+## <u>c++ </u>
 
 ```cpp
 // C++ program to implement
@@ -129,9 +129,9 @@ int main()
 [ 21 10 12 16 ]
 ```</u> 
 
-<u>下面是 C++程序演示一组转发列表的实现:</u>
+<u>下面是 C++ 程序演示一组转发列表的实现:</u>
 
-<u>T3】c++T5
+<u>T3】c++ T5
 
 ```cpp
 // C++ program to implement

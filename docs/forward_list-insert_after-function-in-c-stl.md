@@ -67,7 +67,7 @@ int main()
 
     // it_new points to new element inserted which is 20
     // Make it to point to next element
-    it_new++;
+    it_new++ ;
 
     /******************************/
     /** IMPLEMENTING SYNTAX 2 *****/

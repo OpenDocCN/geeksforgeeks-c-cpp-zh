@@ -58,7 +58,7 @@ struct Node *reverse (struct Node *head, 
         current->next = prev;
         prev = current;
         current = next;
-        count++;
+        count++ ;
     }
 
     /* next is now a pointer to (k+1)th node 

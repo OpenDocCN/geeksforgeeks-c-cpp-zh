@@ -33,8 +33,8 @@ int string_length(char* given_string)
     // length of the string
     int length = 0;
     while (*given_string != '\0') {
-        length++;
-        given_string++;
+        length++ ;
+        given_string++ ;
     }
 
     return length;

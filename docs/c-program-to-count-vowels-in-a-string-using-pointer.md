@@ -1,10 +1,10 @@
 # 使用指针
 
-对字符串中的元音进行计数的 C++程序
+对字符串中的元音进行计数的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-程序-使用指针计数字符串中的元音/](https://www.geeksforgeeks.org/c-program-to-count-vowels-in-a-string-using-pointer/)
 
-**先决条件:**[c++中的指针](https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/)
+**先决条件:**[c++ 中的指针](https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/)
 
 给定一串小写英文字母。任务是使用指针计算字符串中元音的数量
 
@@ -51,12 +51,12 @@ int vowelCount(char *sptr)
             || *sptr == 'o' || *sptr == 'u') {
 
             // If vowel found increment the count
-            count++;
+            count++ ;
         }
 
         // Increment the pointer to next location
         // of address
-        sptr++;
+        sptr++ ;
     }
 
     return count;

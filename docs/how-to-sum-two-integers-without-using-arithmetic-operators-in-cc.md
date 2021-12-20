@@ -1,4 +1,4 @@
-# 如何在 C/C++中不使用算术运算符的情况下对两个整数求和？
+# 如何在 C/C++ 中不使用算术运算符的情况下对两个整数求和？
 
 > 原文:[https://www . geesforgeks . org/如何在不使用算术运算符的情况下对两个整数求和-in-cc/](https://www.geeksforgeeks.org/how-to-sum-two-integers-without-using-arithmetic-operators-in-cc/)
 

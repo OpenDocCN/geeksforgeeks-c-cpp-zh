@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ 可复制 C++模板，示例
+# STD::is _ trivaly _ 可复制 C++ 模板，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdis _ trivaly _ copy able-c-in-template-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_copyable-template-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_trivially_copyable<T>::value
 *   **真:**如果类型 **T** 是一个平凡可复制的。
 *   **假:**如果类型 **T** 不是一个普通的可复制的。
 
-下面是用 C++演示**STD::is _ trivaly _ copy**模板的程序:
+下面是用 C++ 演示**STD::is _ trivaly _ copy**模板的程序:
 
 **程序:**
 

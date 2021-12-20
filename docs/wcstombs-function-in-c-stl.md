@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/wcstombs-function-in-c-stl/](https://www.geeksforgeeks.org/wcstombs-function-in-c-stl/)
 
-**wcstombs()** 是 C++ STL 中的一个内置函数，它将宽字符串转换为其等效的多字节序列。它是在 C++的**csdlib**头文件中定义的。
+**wcstombs()** 是 C++ STL 中的一个内置函数，它将宽字符串转换为其等效的多字节序列。它是在 C++ 的**csdlib**头文件中定义的。
 
 **语法**
 

@@ -1,4 +1,4 @@
-# C/C++程序关闭系统
+# C/C++ 程序关闭系统
 
 > 原文:[https://www.geeksforgeeks.org/cc-program-shutdown-system/](https://www.geeksforgeeks.org/cc-program-shutdown-system/)
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-class-and-object-question-2/](https://www.geeksforgeeks.org/c-class-and-object-question-2/)
 
-预测后续 C++程序的输出
+预测后续 C++ 程序的输出
 
 ```cpp
 #include<iostream>
@@ -24,5 +24,5 @@ int main()
 
 **答案:****(A)**
 
-**解释:**参见[为什么 C++中的空类大小不为零](https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/)
+**解释:**参见[为什么 C++ 中的空类大小不为零](https://www.geeksforgeeks.org/why-is-the-size-of-an-empty-class-not-zero-in-c/)
 T25

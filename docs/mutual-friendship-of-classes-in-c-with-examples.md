@@ -1,8 +1,8 @@
-# c++中类与类之间的相互友谊示例
+# c++ 中类与类之间的相互友谊示例
 
 > 原文:[https://www . geeksforgeeks . org/c 类相互友谊示例/](https://www.geeksforgeeks.org/mutual-friendship-of-classes-in-c-with-examples/)
 
-**先决条件:**[c++中的好友类](https://www.geeksforgeeks.org/friend-class-function-cpp/)
+**先决条件:**[c++ 中的好友类](https://www.geeksforgeeks.org/friend-class-function-cpp/)
 A [好友类](https://www.geeksforgeeks.org/friend-class-function-cpp/)可以访问其声明为好友的其他类的[私有和受保护成员](https://www.geeksforgeeks.org/difference-between-private-and-protected-in-c-with-example/)。有时允许一个特定的类访问另一个类的私有成员是有用的。
 下面是说明朋友类的程序:
 

@@ -1,8 +1,8 @@
-# ios rdstate()函数在 C++中的应用举例
+# ios rdstate()函数在 C++ 中的应用举例
 
 > 原文:[https://www . geesforgeks . org/IOs-rdstate-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-rdstate-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **rdstate()** 方法用来读取这个流的内部状态。
+C++ 中 **ios 类**的 **rdstate()** 方法用来读取这个流的内部状态。
 
 **语法:**
 

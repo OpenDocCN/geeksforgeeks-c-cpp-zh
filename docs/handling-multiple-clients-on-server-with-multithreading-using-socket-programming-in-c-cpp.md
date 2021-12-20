@@ -94,7 +94,7 @@ void* reader(void* param)
 {
     // Lock the semaphore
     sem_wait(&x);
-    readercount++;
+    readercount++ ;
 
     if (readercount == 1)
         sem_wait(&y);
@@ -190,7 +190,7 @@ int main()
 
         if (choice == 1) {
             // Creater readers thread
-            if (pthread_create(&readerthreads[i++], NULL,
+            if (pthread_create(&readerthreads[i++ ], NULL,
                                reader, &newSocket)
                 != 0)
 
@@ -199,7 +199,7 @@ int main()
         }
         else if (choice == 2) {
             // Create writers thread
-            if (pthread_create(&writerthreads[i++], NULL,
+            if (pthread_create(&writerthreads[i++ ], NULL,
                                writer, &newSocket)
                 != 0)
 
@@ -216,9 +216,9 @@ int main()
                 // the calling thread
                 // until the target
                 // thread terminates
-                pthread_join(writerthreads[i++],
+                pthread_join(writerthreads[i++ ],
                              NULL);
-                pthread_join(readerthreads[i++],
+                pthread_join(readerthreads[i++ ],
                              NULL);
             }
 

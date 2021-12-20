@@ -1,4 +1,4 @@
-# STD::numeric _ limits<t>最小值、最大值和 C++</t>
+# STD::numeric _ limits<t>最小值、最大值和 C++ </t>
 
 中的最小值之间的差异
 
@@ -167,7 +167,7 @@ float 4 bytes
 
 ```
 
-**注意:**在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，默认精度为 6，这意味着最多使用 6 个有效数字来表示数字，因此，实际数字将与打印值不同。获取实际值以尝试设置更高的精度。
+**注意:**在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，默认精度为 6，这意味着最多使用 6 个有效数字来表示数字，因此，实际数字将与打印值不同。获取实际值以尝试设置更高的精度。
 
 下面是同样的程序来说明:
 

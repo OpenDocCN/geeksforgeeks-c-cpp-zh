@@ -1,8 +1,8 @@
-# ios 操纵器 scientific()函数在 C++中
+# ios 操纵器 scientific()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-scientific-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-scientific-function-in-c/)
 
-C++中**流操纵器**的 **scientific()** 方法用于设置指定字符串流的 floatfield 格式标志。此标志将浮动字段设置为科学。这意味着，浮点值将被写入科学符号。
+C++ 中**流操纵器**的 **scientific()** 方法用于设置指定字符串流的 floatfield 格式标志。此标志将浮动字段设置为科学。这意味着，浮点值将被写入科学符号。
 
 **语法:**
 

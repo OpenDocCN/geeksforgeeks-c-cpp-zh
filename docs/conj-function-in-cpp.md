@@ -1,4 +1,4 @@
-# c++中的 conj()函数，示例
+# c++ 中的 conj()函数，示例
 
 > 原文:[https://www.geeksforgeeks.org/conj-function-in-cpp/](https://www.geeksforgeeks.org/conj-function-in-cpp/)
 
@@ -15,7 +15,7 @@ template<class T> complex<T>
 *   **z:** 该方法取一个代表复数的强制参数 **z** 。
 
 **返回值:**该函数返回复数 z 的**共轭**。
-下面的程序说明了 C++中复数的 conj()函数:
+下面的程序说明了 C++ 中复数的 conj()函数:
 **例 1:-**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

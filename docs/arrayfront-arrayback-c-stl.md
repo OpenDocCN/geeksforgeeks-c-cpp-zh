@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/arrayfront-arrayback-c-stl/](https://www.geeksforgeeks.org/arrayfront-arrayback-c-stl/)
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格的数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格的数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **array::front()**
 

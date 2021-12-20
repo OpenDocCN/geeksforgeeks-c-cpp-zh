@@ -1,10 +1,10 @@
-# 关于虚函数和抽象类的 C++面试题
+# 关于虚函数和抽象类的 C++ 面试题
 
 > 原文:[https://www . geesforgeks . org/c-面试-虚拟功能和抽象类问题/](https://www.geeksforgeeks.org/c-interview-questions-on-virtual-function-and-abstract-class/)
 
 **1。什么是[纯虚函数](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)？**
 
-**Ans。**c++中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们只声明它。纯虚函数通过在声明中赋值 0 来声明。请参见以下示例。
+**Ans。**c++ 中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们只声明它。纯虚函数通过在声明中赋值 0 来声明。请参见以下示例。
 
 ```cpp
 // An abstract class

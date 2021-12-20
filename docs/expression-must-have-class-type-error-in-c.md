@@ -1,4 +1,4 @@
-# 表达式在 C++中必须有类类型错误
+# 表达式在 C++ 中必须有类类型错误
 
 > 原文:[https://www . geesforgeks . org/expression-必有类-type-error-in-c/](https://www.geeksforgeeks.org/expression-must-have-class-type-error-in-c/)
 

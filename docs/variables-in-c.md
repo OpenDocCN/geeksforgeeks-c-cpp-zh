@@ -1,4 +1,4 @@
-# c++中的变量
+# c++ 中的变量
 
 > 原文:[https://www.geeksforgeeks.org/variables-in-c/](https://www.geeksforgeeks.org/variables-in-c/)
 
@@ -6,7 +6,7 @@
 
 *   存储在变量中的值可以在程序执行过程中更改。
 *   变量只是给一个内存位置起的名字，所有对变量的操作都会影响这个内存位置。
-*   在 C++中，所有的变量都必须在使用前声明。
+*   在 C++ 中，所有的变量都必须在使用前声明。
 
 **如何声明变量？**
 
@@ -46,7 +46,7 @@ char var;
 **变量声明和定义的区别**
 
 **变量声明**是指变量在首次使用前首先声明或引入的部分。一个**变量定义**是变量被分配一个存储位置和值的部分。大多数时候，变量声明和定义是一起完成的。
-为了更好的说明，请看下面的 C++程序:
+为了更好的说明，请看下面的 C++ 程序:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -83,7 +83,7 @@ a
 
 **变量类型**
 
-基于 C++中[变量的范围](https://www.geeksforgeeks.org/scope-of-variables-in-c/)有三种类型的变量:
+基于 C++ 中[变量的范围](https://www.geeksforgeeks.org/scope-of-variables-in-c/)有三种类型的变量:
 
 *   局部变量
 *   实例变量

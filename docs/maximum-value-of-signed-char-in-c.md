@@ -1,8 +1,8 @@
-# c++中有符号字符的最大值
+# c++ 中有符号字符的最大值
 
 > 原文:[https://www . geesforgeks . org/最大带符号字符值/c/](https://www.geeksforgeeks.org/maximum-value-of-signed-char-in-c/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的带符号 char [数据类型](https://www.geeksforgeeks.org/c-data-types/)。
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的带符号 char [数据类型](https://www.geeksforgeeks.org/c-data-types/)。
 
 有符号字符数据类型的一些属性包括:
 
@@ -14,7 +14,7 @@
 *   可以存储在带符号字符数据类型中的最小值通常为 **-128，**即【**】**左右–**2<sup>7</sup>**(但取决于编译器)。
 *   在数据类型的[溢出](https://www.geeksforgeeks.org/overflow-in-arithmetic-addition-in-binary-number-system/)或下溢的情况下，该值被环绕。例如，如果 **-128** 存储在有符号字符数据类型中，并从中减去 1，则该变量中的值将等于 **127。**同样，在溢出的情况下，该值将舍入回 **-128** 。
 
-下面是在 C++中获取可以用带符号字符存储的最高值的程序:
+下面是在 C++ 中获取可以用带符号字符存储的最高值的程序:
 
 ## C++
 
@@ -58,8 +58,8 @@ int main()
     // the negative value i.e., present
     // becomes less the previous value
     while (present > previous) {
-        previous++;
-        present++;
+        previous++ ;
+        present++ ;
     }
 
     cout << "Maximum value using the "

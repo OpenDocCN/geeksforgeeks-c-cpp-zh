@@ -1,4 +1,4 @@
-# isinf()函数在 C++中
+# isinf()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/isinf-function-in-c/](https://www.geeksforgeeks.org/isinf-function-in-c/)
 
@@ -22,7 +22,7 @@ bool isinf( long double arg );
 
 **返回:**如果给定的数字是无穷大，则该函数返回 **1** ，否则返回**0**。
 
-下面的程序说明了 C++中的 isinf()函数:
+下面的程序说明了 C++ 中的 isinf()函数:
 
 **示例 1:-** 显示返回 1
 

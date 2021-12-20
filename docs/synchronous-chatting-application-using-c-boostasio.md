@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/synchronic-chating-application-use-c-boostasio/](https://www.geeksforgeeks.org/synchronous-chatting-application-using-c-boostasio/)
 
-[**Boost 库**](https://www.geeksforgeeks.org/advanced-c-boost-library/) 由 **asio** 组成，这是一个免费的跨平台 C++库，用于网络和低级 I/O 编程，使用现代 C++方法提供一致的异步模型。本文将帮助开发一个使用 boost::asio 的**客户端-服务器同步聊天应用程序。我们明确提到“同步”，因为在同步模型中，我们的一个客户机或服务器必须等待另一个。
+[**Boost 库**](https://www.geeksforgeeks.org/advanced-c-boost-library/) 由 **asio** 组成，这是一个免费的跨平台 C++ 库，用于网络和低级 I/O 编程，使用现代 C++ 方法提供一致的异步模型。本文将帮助开发一个使用 boost::asio 的**客户端-服务器同步聊天应用程序。我们明确提到“同步”，因为在同步模型中，我们的一个客户机或服务器必须等待另一个。
 **服务器端应用程序:**以下是创建服务器端应用程序的各个步骤:** 
 
 *   导入 boost/asio.hpp(版本:1.65.1.0)

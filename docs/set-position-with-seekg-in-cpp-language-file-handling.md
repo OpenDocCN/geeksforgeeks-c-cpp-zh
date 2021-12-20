@@ -1,4 +1,4 @@
-# 在 C++语言文件处理中用 seekg()设置位置
+# 在 C++ 语言文件处理中用 seekg()设置位置
 
 > 原文:[https://www . geesforgeks . org/set-position-with-seekg-in-CPP-language-file-handling/](https://www.geeksforgeeks.org/set-position-with-seekg-in-cpp-language-file-handling/)
 

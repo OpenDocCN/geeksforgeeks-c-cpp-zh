@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswlower-function-in-c-c/](https://www.geeksforgeeks.org/iswlower-function-in-c-c/)
 
-**isw low()**是 C/C++中的一个内置函数，它检查给定的宽字符是否是小写字符。在 C++的**cwcytpe**头文件中定义。
+**isw low()**是 C/C++ 中的一个内置函数，它检查给定的宽字符是否是小写字符。在 C++ 的**cwcytpe**头文件中定义。
 
 **语法**:
 

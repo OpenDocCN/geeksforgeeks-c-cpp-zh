@@ -1,4 +1,4 @@
-# c++中的 basic_istream::seekg()，示例
+# c++ 中的 basic_istream::seekg()，示例
 
 > 原文:[https://www . geesforgeks . org/basic _ is treaseekg-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreamseekg-in-c-with-examples/)
 

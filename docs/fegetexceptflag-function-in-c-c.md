@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/fegetexceplag-function-in-c-c/](https://www.geeksforgeeks.org/fegetexceptflag-function-in-c-c/)
 
-C/C++中的**fegetexcepflag()**函数在头文件 **fenv.h** 中指定，获取浮点异常标志。该功能将引发的异常存储在**标志**指定的点。
+C/C++ 中的**fegetexcepflag()**函数在头文件 **fenv.h** 中指定，获取浮点异常标志。该功能将引发的异常存储在**标志**指定的点。
 
 **语法:**
 

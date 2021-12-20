@@ -1,8 +1,8 @@
-# 如何从 C/C++函数返回局部数组？
+# 如何从 C/C++ 函数返回局部数组？
 
 > 原文:[https://www . geesforgeks . org/return-local-array-c-function/](https://www.geeksforgeeks.org/return-local-array-c-function/)
 
-考虑下面的 C++程序。从函数中返回数组是正确的方法吗？
+考虑下面的 C++ 程序。从函数中返回数组是正确的方法吗？
 
 ## C
 

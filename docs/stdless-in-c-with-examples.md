@@ -1,4 +1,4 @@
-# 标准::C++中更少，示例
+# 标准::C++ 中更少，示例
 
 > 原文:[https://www.geeksforgeeks.org/stdless-in-c-with-examples/](https://www.geeksforgeeks.org/stdless-in-c-with-examples/)
 
@@ -51,7 +51,7 @@ std::less()
 *   **True:** If a is less than b 。
 *   **False:** If a is greater than B. 。
 
-下面是 C++中 **std::less** 的图解:
+下面是 C++ 中 **std::less** 的图解:
 
 **程序 1:**
 

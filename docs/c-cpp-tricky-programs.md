@@ -1,8 +1,8 @@
-# C/C++棘手程序
+# C/C++ 棘手程序
 
 > 原文:[https://www.geeksforgeeks.org/c-cpp-tricky-programs/](https://www.geeksforgeeks.org/c-cpp-tricky-programs/)
 
-在日常生活中，我们可能会遇到各种棘手的程序。也许在技术面试、编码测试中，或者在 C/C++教室里。
+在日常生活中，我们可能会遇到各种棘手的程序。也许在技术面试、编码测试中，或者在 C/C++ 教室里。
 
 以下是此类计划的列表
 

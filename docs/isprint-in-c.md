@@ -1,10 +1,10 @@
-# 是 C++中的 print()
+# 是 C++ 中的 print()
 
 > 原文:[https://www.geeksforgeeks.org/isprint-in-c/](https://www.geeksforgeeks.org/isprint-in-c/)
 
-在 C++中，isprint()是用于字符串和字符处理的预定义函数。cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。
+在 C++ 中，isprint()是用于字符串和字符处理的预定义函数。cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。
 
-此函数用于检查参数是否包含任何可打印字符。C++中有许多类型的可打印字符，例如:
+此函数用于检查参数是否包含任何可打印字符。C++ 中有许多类型的可打印字符，例如:
 
 *   数字(0123456789)
 *   大写字母(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
@@ -22,7 +22,7 @@ character else, zero (false).
 
 ```
 
-在 C++中给定一个字符串，我们需要计算字符串中可打印字符的数量。
+在 C++ 中给定一个字符串，我们需要计算字符串中可打印字符的数量。
 **算法**
 
 1.  逐个字符遍历给定的字符串直到其长度，检查字符是否为可打印字符。
@@ -55,7 +55,7 @@ void space(string& str)
     for (int i = 0; i < length; i++) {
         int c = str[i];
         if (isprint(c))
-            count++;
+            count++ ;
     }
     cout << count;
 }

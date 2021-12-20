@@ -90,7 +90,7 @@ struct Customers
     *   使用 **fwrite()** 将该结构变量写入输出二进制文件。**** 
 *   ****关闭输入文本文件和输出二进制文件。****
 
-****以下是上述方法的 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/):****
+****以下是上述方法的 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/):****
 
 ## ****C++****
 
@@ -162,7 +162,7 @@ int main()
 
         // Increment the count by one
         // after reading a record
-        count++;
+        count++ ;
 
         // Structure variable cs is set
         // to values to elements

@@ -1,8 +1,8 @@
-# iomanip setfill()函数在 C++中的使用示例
+# iomanip setfill()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/iomanip-set fill-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-setfill-function-in-c-with-examples/)
 
-C++中 **iomaip 库**的 **setfill()** 方法用于根据指定为该方法参数的字符设置 ios 库填充字符。
+C++ 中 **iomaip 库**的 **setfill()** 方法用于根据指定为该方法参数的字符设置 ios 库填充字符。
 
 **语法:**
 

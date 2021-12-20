@@ -1,18 +1,18 @@
 # 如何使用新运算符
 
-在 C++中动态声明 2D 数组
+在 C++ 中动态声明 2D 数组
 
 > 原文:[https://www . geesforgeks . org/如何使用新运算符动态声明 2d 数组/](https://www.geeksforgeeks.org/how-to-declare-a-2d-array-dynamically-in-c-using-new-operator/)
 
 **先决条件:** [数组基础](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)
-在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) ，[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)简单来说就是一个[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)组成的数组。多维数组中的数据以表格形式存储(按行主顺序)。以下是声明 **N 维数组**的一般形式:
+在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) ，[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)简单来说就是一个[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)组成的数组。多维数组中的数据以表格形式存储(按行主顺序)。以下是声明 **N 维数组**的一般形式:
 
 **<u>多维数组的语法</u> :**
 
 > data _ type array _ name[size 1][size 2]…。[SiZen]；
 > 
 > **数据类型:**要存储在数组中的数据类型。
-> 此处数据类型为有效的 C/C++数据类型
+> 此处数据类型为有效的 C/C++ 数据类型
 > **数组 _ 名称:**数组名称
 > **尺寸 1、尺寸 2、…、尺寸 N:** 尺寸
 
@@ -21,15 +21,15 @@
 **<u>2D 阵的语法</u> :**
 
 > data _ type array _ name[x][y]；
-> **数据类型:**要存储的数据类型。有效的 C/C++数据类型。
+> **数据类型:**要存储的数据类型。有效的 C/C++ 数据类型。
 
 下面是 2D 阵列的图示:
 
 [![](img/0d86a3a9e2b0f9a1da55c174ae2c20c6.png)](https://media.geeksforgeeks.org/wp-content/uploads/20201119120413/gfg5.JPG)
 
-关于多维和 2D 数组的更多细节，请参考 C++中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)一文。
+关于多维和 2D 数组的更多细节，请参考 C++ 中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)一文。
 
-**问题:**给定一个 2D 数组，任务是使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的[新](https://www.geeksforgeeks.org/malloc-vs-new/)为 2D 数组[动态分配内存](https://www.geeksforgeeks.org/what-is-dynamic-memory-allocation/)。
+**问题:**给定一个 2D 数组，任务是使用 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的[新](https://www.geeksforgeeks.org/malloc-vs-new/)为 2D 数组[动态分配内存](https://www.geeksforgeeks.org/what-is-dynamic-memory-allocation/)。
 
 **解决方案:**用 3 行 4 列声明以下 2D 数组，值如下:
 
@@ -68,7 +68,7 @@ int main()
 
             // Assign values to
             // the memory block
-            *(arr + i * n + j) = ++c;
+            *(arr + i * n + j) = ++ c;
         }
     }
 
@@ -136,7 +136,7 @@ int main()
 
             // Assign values to the
             // memory blocks created
-            a[i][j] = ++c;
+            a[i][j] = ++ c;
         }
     }
 

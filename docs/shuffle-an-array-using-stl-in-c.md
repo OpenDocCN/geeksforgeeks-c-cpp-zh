@@ -1,4 +1,4 @@
-# 在 C++中使用 STL 对数组进行洗牌
+# 在 C++ 中使用 STL 对数组进行洗牌
 
 > 原文:[https://www . geesforgeks . org/shuffle-a-array-use-STL-in-c/](https://www.geeksforgeeks.org/shuffle-an-array-using-stl-in-c/)
 
@@ -57,7 +57,7 @@ void shuffle_array(int arr[], int n)
             default_random_engine(seed));
 
     // Printing our array
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
     cout << endl;
 }
@@ -126,7 +126,7 @@ void shuffle_array(int arr[], int n)
     random_shuffle(arr, arr + n);
 
     // Printing our array
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
     cout << endl;
 }
@@ -155,6 +155,6 @@ int main()
 
 **哪个更好？**
 
-*   **shuffle** 在 C11++之后推出，使用的函数比 random _ shuffle 使用的 rand()要好。
+*   **shuffle** 在 C11++ 之后推出，使用的函数比 random _ shuffle 使用的 rand()要好。
 *   shuffle 是对 random_shuffle 的改进，我们应该更喜欢使用前者以获得更好的结果。
 *   如果我们不在 random_shuffle 中传递我们的随机生成函数，那么它将使用其未指定的随机值，由于这些值，所有连续的值都是相关的。

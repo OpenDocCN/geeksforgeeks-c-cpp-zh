@@ -2,11 +2,11 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-75/](https://www.geeksforgeeks.org/g-fact-75/)
 
-在 C++和 Java 中，如果函数仅在返回类型上不同，则不能重载函数。
+在 C++ 和 Java 中，如果函数仅在返回类型上不同，则不能重载函数。
 
-比如下面的程序 C++和 Java 程序编译失败。
+比如下面的程序 C++ 和 Java 程序编译失败。
 
-**C++程序**
+**C++ 程序**
 
 ```cpp
 #include<iostream>

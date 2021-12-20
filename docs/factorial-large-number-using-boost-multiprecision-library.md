@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/factorial-大数-使用-boost-multi-precision-library/](https://www.geeksforgeeks.org/factorial-large-number-using-boost-multiprecision-library/)
 
 我们已经给出了一个大数，现在我们可以使用 boost 多重预览库很容易地找出这个大数的阶乘。
-**Boost 库**在当前的 1.53.0 版本中包含了一个新的[多精度库](http://www.boost.org/doc/libs/1_66_0/libs/multiprecision/doc/html/index.html)，面向需要 64 位以上精度的 C++程序员。
+**Boost 库**在当前的 1.53.0 版本中包含了一个新的[多精度库](http://www.boost.org/doc/libs/1_66_0/libs/multiprecision/doc/html/index.html)，面向需要 64 位以上精度的 C++ 程序员。
 
 示例:
 

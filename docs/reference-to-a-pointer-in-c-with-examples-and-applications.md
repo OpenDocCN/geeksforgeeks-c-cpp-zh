@@ -1,4 +1,4 @@
-# 引用 C++中的一个指针，带有示例和应用
+# 引用 C++ 中的一个指针，带有示例和应用
 
 > 原文:[https://www . geeksforgeeks . org/c-in-a-reference-a-pointer-in-with-examples-and-applications/](https://www.geeksforgeeks.org/reference-to-a-pointer-in-c-with-examples-and-applications/)
 

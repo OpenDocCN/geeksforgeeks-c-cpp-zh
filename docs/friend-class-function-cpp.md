@@ -1,4 +1,4 @@
-# c++中的友元类和函数
+# c++ 中的友元类和函数
 
 > 原文:[https://www.geeksforgeeks.org/friend-class-function-cpp/](https://www.geeksforgeeks.org/friend-class-function-cpp/)
 
@@ -43,7 +43,7 @@ private:
 **2)** 友谊不是相互的。如果 A 班是 B 的朋友，那么 B 不会自动成为 A 的朋友。
 **3)** 友谊不是遗传的(详见[本](https://www.geeksforgeeks.org/g-fact-34/))
 **4)**朋友的概念在 Java 中是不存在的。
-**一个简单完整的 C++程序演示好友类**
+**一个简单完整的 C++ 程序演示好友类**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -86,7 +86,7 @@ int main()
 A::a=0
 ```
 
-**一个简单完整的 C++程序演示另一个类的好友功能**
+**一个简单完整的 C++ 程序演示另一个类的好友功能**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -131,7 +131,7 @@ int main()
 B::b = 0
 ```
 
-**一个简单完整的 C++程序演示全球好友**
+**一个简单完整的 C++ 程序演示全球好友**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

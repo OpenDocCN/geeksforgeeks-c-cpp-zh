@@ -1,8 +1,8 @@
-# ios 操纵器在 C++中的 showbase()函数
+# ios 操纵器在 C++ 中的 showbase()函数
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-showbase-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-showbase-function-in-c/)
 
-C++中**流操纵器**的 **showbase()** 方法用于设置指定字符串流的 showbase 格式标志。该标志显示整数及其基本前缀。
+C++ 中**流操纵器**的 **showbase()** 方法用于设置指定字符串流的 showbase 格式标志。该标志显示整数及其基本前缀。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# 在 C++中使用关系运算符比较字符串对象
+# 在 C++ 中使用关系运算符比较字符串对象
 
 > 原文:[https://www . geesforgeks . org/comparising-string-objects-use-relational-operators-c/](https://www.geeksforgeeks.org/comparing-string-objects-using-relational-operators-c/)
 

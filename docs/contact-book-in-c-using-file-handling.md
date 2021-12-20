@@ -1,10 +1,10 @@
-# 使用文件处理的 C++联系人簿
+# 使用文件处理的 C++ 联系人簿
 
 > 原文:[https://www . geesforgeks . org/contact-book-in-c-use-file-handling/](https://www.geeksforgeeks.org/contact-book-in-c-using-file-handling/)
 
-需要立即复习语言和文件处理知识。所以让我们来讨论一下[文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)和[循环中的 C++语言概念。](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)直我们知道，为了编译代码，需要一个用于编译 C++语言的 IDE，比如 Code Block，Visual Studio Code，Dev C++，等等来运行我们的程序。
+需要立即复习语言和文件处理知识。所以让我们来讨论一下[文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)和[循环中的 C++ 语言概念。](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)直我们知道，为了编译代码，需要一个用于编译 C++ 语言的 IDE，比如 Code Block，Visual Studio Code，Dev C++，等等来运行我们的程序。
 
-这个软件的目标是用 C++编写一个使用文件处理的通讯录。在 C++中，文件主要通过使用三个类来处理[fsstream](https://www.geeksforgeeks.org/file-handling-c-classes/)、 [ifstream](https://www.geeksforgeeks.org/file-handling-c-classes/) 、 [ofstream](https://www.geeksforgeeks.org/file-handling-c-classes/) 在 fsstream 头文件中可用。
+这个软件的目标是用 C++ 编写一个使用文件处理的通讯录。在 C++ 中，文件主要通过使用三个类来处理[fsstream](https://www.geeksforgeeks.org/file-handling-c-classes/)、 [ifstream](https://www.geeksforgeeks.org/file-handling-c-classes/) 、 [ofstream](https://www.geeksforgeeks.org/file-handling-c-classes/) 在 fsstream 头文件中可用。
 
 *   **ofstream:** 要写入文件的 stream 类
 *   **ifstream:** 从文件中读取的流类

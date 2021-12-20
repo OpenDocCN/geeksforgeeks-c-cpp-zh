@@ -1,8 +1,8 @@
-# C/c++中的 mbrtoc32()，示例
+# C/c++ 中的 mbrtoc32()，示例
 
 > 原文:[https://www . geesforgeks . org/MBR TOC 32-in-c-c-with-examples/](https://www.geeksforgeeks.org/mbrtoc32-in-c-c-with-examples/)
 
-**mbrtoc32()** 是 C/C++中的内置函数，它将一个窄的多字节字符转换为 32 位字符表示。在 C++的 **uchar.h** 头文件中定义。
+**mbrtoc32()** 是 C/C++ 中的内置函数，它将一个窄的多字节字符转换为 32 位字符表示。在 C++ 的 **uchar.h** 头文件中定义。
 
 **语法**:
 

@@ -17,7 +17,7 @@ map_name.max_size()
 
 **异常**:该函数不抛出任何一种异常。
 
-下面的程序举例说明了 C++中的无序 _set::max_size()函数:
+下面的程序举例说明了 C++ 中的无序 _set::max_size()函数:
 
 ```cpp
 // C++ program to illustrate the

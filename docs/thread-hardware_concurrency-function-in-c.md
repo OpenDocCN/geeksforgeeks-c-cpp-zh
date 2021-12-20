@@ -1,4 +1,4 @@
-# c++中的 Thread hardware_concurrency()函数
+# c++ 中的 Thread hardware_concurrency()函数
 
 > 原文:[https://www . geesforgeks . org/thread-hardware _ concurrency-function-in-c/](https://www.geeksforgeeks.org/thread-hardware_concurrency-function-in-c/)
 
@@ -16,7 +16,7 @@ thread::hardware_concurrency()
 
 下面的程序演示了 std::thread::joinable()的用法
 
-**注意:**在线 IDE 上这个程序会显示错误。要编译这个，在命令“**g++–STD = c++ 14-pthread file . CPP**”的帮助下，使用 g++编译器编译上的标志“-pthread”。
+**注意:**在线 IDE 上这个程序会显示错误。要编译这个，在命令“**g++–STD = c++ 14-pthread file . CPP**”的帮助下，使用 g++ 编译器编译上的标志“-pthread”。
 
 ```cpp
 // C++ program to demonstrate the use of

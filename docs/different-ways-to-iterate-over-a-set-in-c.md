@@ -1,4 +1,4 @@
-# 在 C++中迭代集合的不同方式
+# 在 C++ 中迭代集合的不同方式
 
 > 原文:[https://www . geeksforgeeks . org/不同的迭代方式-在 c 集中迭代/](https://www.geeksforgeeks.org/different-ways-to-iterate-over-a-set-in-c/)
 
@@ -11,7 +11,7 @@
 > 这里，
 > **数据类型:**集合可以根据值采用任何数据类型，例如 int、char、float 等。
 
-本文重点讨论在 [C++](http://www.geeksforgeeks.org/c-plus-plus/) 中可以用来迭代集合的所有方法。本文将讨论以下方法:
+本文重点讨论在 [C++ ](http://www.geeksforgeeks.org/c-plus-plus/) 中可以用来迭代集合的所有方法。本文将讨论以下方法:
 
 1.  **使用** [**迭代器**](https://www.geeksforgeeks.org/iterators-c-stl/) **迭代一个集合。**
 2.  **使用** [**反向迭代程序**](https://www.geeksforgeeks.org/vector-rbegin-and-rend-function-in-c-stl/) **反向迭代一个集合。**
@@ -28,7 +28,7 @@
 1.  [**begin()**](https://www.geeksforgeeks.org/setbegin-setend-c-stl/) **:返回集合中第一个元素的迭代器。**
 2.  [**【end()**](https://www.geeksforgeeks.org/setbegin-setend-c-stl/)**:**返回集合中最后一个元素之后的理论元素的迭代器。
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 
@@ -84,7 +84,7 @@ int main()
 1.  **set::rbegin():** 它是 C++ STL 中的内置函数，返回指向容器中最后一个元素的反向迭代器。
 2.  **set::rend():** 它是 C++ STL 中的一个内置函数，返回一个反向迭代器，指向 set 容器中第一个元素之前的理论元素。
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 
@@ -153,7 +153,7 @@ int main()
 > **loop_statement:**
 > 任何语句，通常是复合语句，它是循环的主体。
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 
@@ -211,7 +211,7 @@ int main()
 > 
 > **fnc/obj_fnc:** 第三个参数是一个函数或对象函数，该操作将应用于每个元素。
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 

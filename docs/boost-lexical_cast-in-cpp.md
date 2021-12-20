@@ -1,10 +1,10 @@
-# 助推。C++中的词法转换
+# 助推。C++ 中的词法转换
 
 > 原文:[https://www.geeksforgeeks.org/boost-lexical_cast-in-cpp/](https://www.geeksforgeeks.org/boost-lexical_cast-in-cpp/)
 
 助推。在库“boost/词法 _Cast.hpp”中定义的词典 cast 提供了一个转换操作符 boost::词法 _cast，它可以将数字从字符串转换为数字类型，如 int 或 double，反之亦然。
 
-boost::词法 _cast 是类似于 [std::stoi()](https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/) 、 [std::stod()](https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/) 和 [std::to_string()](https://www.geeksforgeeks.org/stdto_string-in-cpp/) 等函数的替代函数，这些函数在 C++11 中被添加到标准库中。
+boost::词法 _cast 是类似于 [std::stoi()](https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/) 、 [std::stod()](https://www.geeksforgeeks.org/stdstod-stdstof-stdstold-c/) 和 [std::to_string()](https://www.geeksforgeeks.org/stdto_string-in-cpp/) 等函数的替代函数，这些函数在 C++ 11 中被添加到标准库中。
 现在让我们看看这个函数在程序中的实现。
  **示例:**
 

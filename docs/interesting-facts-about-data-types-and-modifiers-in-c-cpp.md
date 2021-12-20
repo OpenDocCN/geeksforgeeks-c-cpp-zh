@@ -1,4 +1,4 @@
-# 关于 C/C++中数据类型和修饰符的有趣事实
+# 关于 C/C++ 中数据类型和修饰符的有趣事实
 
 > 原文:[https://www . geesforgeks . org/interior-facts-about-data-type-and-modifiers-in-c-CPP/](https://www.geeksforgeeks.org/interesting-facts-about-data-types-and-modifiers-in-c-cpp/)
 

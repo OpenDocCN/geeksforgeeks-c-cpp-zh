@@ -1,8 +1,8 @@
-# C/c++中的顺时针/螺旋法则，示例
+# C/c++ 中的顺时针/螺旋法则，示例
 
 > 原文:[https://www . geeksforgeeks . org/顺时针-螺旋-c 中规-c-带-例/](https://www.geeksforgeeks.org/clockwise-spiral-rule-in-c-c-with-examples/)
 
-螺旋/顺时针方法是 [C/C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序员在几秒钟内定义头部语法声明含义的神奇工具。这个方法是由**大卫·安德森**创造的，这里有一个关于如何应用这个方法的简短说明。
+螺旋/顺时针方法是 [C/C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序员在几秒钟内定义头部语法声明含义的神奇工具。这个方法是由**大卫·安德森**创造的，这里有一个关于如何应用这个方法的简短说明。
 
 编码时，当有人遇到新的不需要的语法声明时:
 

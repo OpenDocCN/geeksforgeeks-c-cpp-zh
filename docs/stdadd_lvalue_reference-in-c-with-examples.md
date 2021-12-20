@@ -1,4 +1,4 @@
-# 标准::C++中的 add_lvalue_reference 附带示例
+# 标准::C++ 中的 add_lvalue_reference 附带示例
 
 > 原文:[https://www . geesforgeks . org/stdadd _ lvalue _ reference-in-c-with-examples/](https://www.geeksforgeeks.org/stdadd_lvalue_reference-in-c-with-examples/)
 
@@ -29,7 +29,7 @@ std::is_lvalue_reference<T>::value
 
 **参数:**模板**STD::add _ lvalue _ reference**接受单个参数 **T(性状类)**
 
-下面是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::add _ lvalue _ reference**的程序:
+下面是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::add _ lvalue _ reference**的程序:
 
 **程序 1:**
 

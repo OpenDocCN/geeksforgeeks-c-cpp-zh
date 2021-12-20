@@ -1,8 +1,8 @@
-# 在 C++中生成 _ 规范函数模板
+# 在 C++ 中生成 _ 规范函数模板
 
 > 原文:[https://www . geesforgeks . org/STD generate _ canonical-function-template-in-c/](https://www.geeksforgeeks.org/stdgenerate_canonical-function-template-in-c/)
 
-C++中的这个模板用于将 g 生成的值转换为范围[0，1]内的浮点值，保留用 g 生成的序列的一致性属性为了生成足够的熵 *generate_canonical()* 将精确地调用 g()k 次，其中，
+C++ 中的这个模板用于将 g 生成的值转换为范围[0，1]内的浮点值，保留用 g 生成的序列的一致性属性为了生成足够的熵 *generate_canonical()* 将精确地调用 g()k 次，其中，
 
 ![ k = max(1, \lceil \frac{b}{log_2 R} \rceil)](img/4584f9178ccc5c0c1e9f46cd2df218b8.png "Rendered by QuickLaTeX.com")
 
@@ -23,7 +23,7 @@ RealType generate_canonical (URNG& g);
 
 **返回值:**该函数返回一个范围为[0，1]的浮点值。
 
-下面的程序说明了上面的 C++模板
+下面的程序说明了上面的 C++ 模板
 **程序:**
 
 ```cpp

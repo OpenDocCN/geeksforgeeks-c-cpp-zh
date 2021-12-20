@@ -1,8 +1,8 @@
-# ios 操纵器 hex()在 C++中的功能
+# ios 操纵器 hex()在 C++ 中的功能
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-hex-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-hex-function-in-c/)
 
-C++中**流操纵器**的 **hex()** 方法用于设置指定字符串流的基线格式标志。该标志设置十六进制数的基线。因此，输出以十六进制为基数显示数字。
+C++ 中**流操纵器**的 **hex()** 方法用于设置指定字符串流的基线格式标志。该标志设置十六进制数的基线。因此，输出以十六进制为基数显示数字。
 
 **语法:**
 

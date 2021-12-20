@@ -43,7 +43,7 @@ bool check(string S1, string S2)
 
     // store count of each character
     for (int i = 0; i < n1; i++) {
-        mp[S1[i]]++;
+        mp[S1[i]]++ ;
     }
 
     // traverse and check for every character

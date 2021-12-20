@@ -1,8 +1,8 @@
-# C 和 C++中是否需要“长”数据类型？
+# C 和 C++ 中是否需要“长”数据类型？
 
 > 原文:[https://www.geeksforgeeks.org/need-long-data-type-c-cpp/](https://www.geeksforgeeks.org/need-long-data-type-c-cpp/)
 
-在 [C](https://www.geeksforgeeks.org/c/) 和 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，有四种不同的数据类型可用于保存整数，即**短、int、long** 和**长**。每种数据类型都需要不同的内存。
+在 [C](https://www.geeksforgeeks.org/c/) 和 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，有四种不同的数据类型可用于保存整数，即**短、int、long** 和**长**。每种数据类型都需要不同的内存。
 但有一个蹊跷的是，**“长”**数据类型的大小并不像其他数据类型那样固定。它因架构、操作系统甚至我们使用的编译器而异。在某些系统中，它的行为类似于 **int** 数据类型或**long**数据类型，如下所示:
 
 ```cpp

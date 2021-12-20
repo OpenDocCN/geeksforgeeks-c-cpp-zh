@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/forward _ list begin-forward _ list end-c-STL/](https://www.geeksforgeeks.org/forward_listbegin-forward_listend-c-stl/)
 
-[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它不同于列表，因为转发列表只跟踪下一个元素的位置，而列表跟踪下一个和上一个元素。
+[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++ 11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它不同于列表，因为转发列表只跟踪下一个元素的位置，而列表跟踪下一个和上一个元素。
 
 **forward_list::begin()**
 
@@ -51,7 +51,7 @@ int main()
     forward_list<int> myflist{ 1, 2, 3, 4, 5 };
 
     // using begin() to print list
-    for (auto it = myflist.begin(); it != myflist.end(); ++it)
+    for (auto it = myflist.begin(); it != myflist.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -113,7 +113,7 @@ int main()
     forward_list<int> myflist{ 1, 2, 3, 4, 5 };
 
     // using end() to print forward list
-    for (auto it = myflist.begin(); it != myflist.end(); ++it)
+    for (auto it = myflist.begin(); it != myflist.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

@@ -1,4 +1,4 @@
-# c++中的 Web 编程
+# c++ 中的 Web 编程
 
 > 原文:[https://www.geeksforgeeks.org/web-programming-in-c/](https://www.geeksforgeeks.org/web-programming-in-c/)
 
@@ -17,7 +17,7 @@
 4.  如果您正在开发一个网站，并且您需要一个 CGI 应用程序来控制，那么您可以在 URL(统一资源定位符)中指定应用程序的名称，您的代码在一个 HTML 文件中。
 
 **服务器端配置**
-在使用 CGI 编程之前，程序员应该确保 Web 服务器支持 CGI，并为处理 CGI 程序进行了良好的配置。按照惯例，CGI 文件的扩展名为。cgi，尽管它们是 C++可执行文件。默认情况下，Apache 网络服务器被配置为在中运行 CGI 程序
+在使用 CGI 编程之前，程序员应该确保 Web 服务器支持 CGI，并为处理 CGI 程序进行了良好的配置。按照惯例，CGI 文件的扩展名为。cgi，尽管它们是 C++ 可执行文件。默认情况下，Apache 网络服务器被配置为在中运行 CGI 程序
 
 ```cpp
 /var/www/cgi-bin
@@ -25,7 +25,7 @@
 
 程序员需要有一个网络服务器启动并运行，以便运行任何 CGI 程序，如 Perl、shell 等。
 
-**使用 C++的 CGI 程序示例**
+**使用 C++ 的 CGI 程序示例**
 
 ```cpp
 // C++ example of CGI program

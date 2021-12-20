@@ -1,8 +1,8 @@
-# c++中的 Bool 数据类型
+# c++ 中的 Bool 数据类型
 
 > 原文:[https://www.geeksforgeeks.org/bool-data-type-in-c/](https://www.geeksforgeeks.org/bool-data-type-in-c/)
 
-ISO/ANSI C++标准在最初的 C++规范中增加了某些新的数据类型。提供它们是为了在某些情况下提供更好的控制，也是为了给 C++程序员提供便利。
+ISO/ANSI C++ 标准在最初的 C++ 规范中增加了某些新的数据类型。提供它们是为了在某些情况下提供更好的控制，也是为了给 C++ 程序员提供便利。
 新的数据类型之一是: **bool**
 **语法:**
 
@@ -10,7 +10,7 @@ ISO/ANSI C++标准在最初的 C++规范中增加了某些新的数据类型。�
 bool b1 = true;      // declaring a boolean variable with true value   
 ```
 
-在 C++中，数据类型 bool 被引入来保存布尔值，*真*或*假*。值*真*或*假*在 C++语言中被添加为关键字。
+在 C++ 中，数据类型 bool 被引入来保存布尔值，*真*或*假*。值*真*或*假*在 C++ 语言中被添加为关键字。
 **要点:**
 
 *   *真*默认数值为 1，*假*默认数值为 0。

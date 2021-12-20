@@ -1,4 +1,4 @@
-# 标准是 C++中的 _ 浮点模板
+# 标准是 C++ 中的 _ 浮点模板
 
 > 原文:[https://www . geesforgeks . org/STD-is _ floating _ point-template-in-c/](https://www.geeksforgeeks.org/std-is_floating_point-template-in-c/)
 

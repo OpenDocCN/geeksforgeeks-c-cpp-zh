@@ -1,10 +1,10 @@
-# c++中元组的多集合，示例
+# c++ 中元组的多集合，示例
 
 > 原文:[https://www . geeksforgeeks . org/多元组集-in-c-with-examples/](https://www.geeksforgeeks.org/multiset-of-tuples-in-c-with-examples/)
 
 **<u>什么是元组？</u>T3】**
 
-[C++](http://www.geeksforgeeks.org/c-plus-plus/) 中的[元组](https://www.geeksforgeeks.org/tuples-in-c/)是将一组元素绑定在一起的[对象](https://www.geeksforgeeks.org/difference-between-class-and-object/)。元素可以是相似的，也可以是不同的数据类型。元组的元素按照被访问的顺序初始化。
+[C++ ](http://www.geeksforgeeks.org/c-plus-plus/) 中的[元组](https://www.geeksforgeeks.org/tuples-in-c/)是将一组元素绑定在一起的[对象](https://www.geeksforgeeks.org/difference-between-class-and-object/)。元素可以是相似的，也可以是不同的数据类型。元组的元素按照被访问的顺序初始化。
 
 **语法:**
 
@@ -49,7 +49,7 @@
 *   [**【max _ size()**](https://www.geeksforgeeks.org/multiset-max_size-in-cpp-stl-with-examples/)**:**返回多集可以容纳的最大元素数。
 *   [**空()**](https://www.geeksforgeeks.org/multiset-empty-function-in-c-stl/) **:返回多集是否为空。**
 
-当算法需要复杂的数据结构时，多元组集非常有用。本文主要讨论如何在 C++中创建多元组集。注意，为了简单起见，考虑了三个元素的元组，但是元组也可以包含更多或更少的元素。
+当算法需要复杂的数据结构时，多元组集非常有用。本文主要讨论如何在 C++ 中创建多元组集。注意，为了简单起见，考虑了三个元素的元组，但是元组也可以包含更多或更少的元素。
 
 **<u>多组元组</u>**
 
@@ -62,7 +62,7 @@
 > 在这里，
 > 数据类型 1、数据类型 2、数据类型 3 是相似或不相似的数据类型。
 
-**示例 1:** 下面是实现多组元组的 C++程序:
+**示例 1:** 下面是实现多组元组的 C++ 程序:
 
 ## C++
 
@@ -148,7 +148,7 @@ int main()
 1.  在多集合中，如果两个元组的第一个值相等，则比较元组的第二个值，如果它也相等，则比较第三个值。
 2.  但是总是有可能将比较器传递给集合。
 
-**示例 2:** 下面是 C++程序，演示将比较器传递给多集，该多集以非升序排列多组元组元素。
+**示例 2:** 下面是 C++ 程序，演示将比较器传递给多集，该多集以非升序排列多组元组元素。
 
 ## C++
 

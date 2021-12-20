@@ -1,4 +1,4 @@
-# c++中的三法则
+# c++ 中的三法则
 
 > 原文:[https://www.geeksforgeeks.org/rule-of-three-in-cpp/](https://www.geeksforgeeks.org/rule-of-three-in-cpp/)
 

@@ -11,6 +11,6 @@ int i = 2;
 func (i++, i++);
 ```
 
-不能保证(在 C 或 C++标准语言定义中)增量将以任何特定的顺序计算。任一增量都可能首先发生。func 可能得到参数“2，3 ”,也可能得到“3，2 ”,甚至“2，2”。
+不能保证(在 C 或 C++ 标准语言定义中)增量将以任何特定的顺序计算。任一增量都可能首先发生。func 可能得到参数“2，3 ”,也可能得到“3，2 ”,甚至“2，2”。
 
 来源:[http://gcc.gnu.org/onlinedocs/gcc/Non_002dbugs.html](http://gcc.gnu.org/onlinedocs/gcc/Non_002dbugs.html)

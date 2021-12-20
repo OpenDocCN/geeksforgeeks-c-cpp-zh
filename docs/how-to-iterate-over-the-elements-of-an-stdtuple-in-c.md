@@ -1,8 +1,8 @@
-# 如何在 C++中迭代 std::tuple 的元素
+# 如何在 C++ 中迭代 std::tuple 的元素
 
 > 原文:[https://www . geeksforgeeks . org/如何迭代 c 语言中的元素/](https://www.geeksforgeeks.org/how-to-iterate-over-the-elements-of-an-stdtuple-in-c/)
 
-一个 [C++元组](https://www.geeksforgeeks.org/tuples-in-c/)是一个可以在其中存储多种类型的多个值的容器。我们可以使用 **std::get()** 来访问元组的元素，但是 **std::get()** 总是采用一个常量变量参数，所以我们不能简单地使用循环来迭代它。对于需要遍历元组所有元素的任务。比如打印所有元素。
+一个 [C++ 元组](https://www.geeksforgeeks.org/tuples-in-c/)是一个可以在其中存储多种类型的多个值的容器。我们可以使用 **std::get()** 来访问元组的元素，但是 **std::get()** 总是采用一个常量变量参数，所以我们不能简单地使用循环来迭代它。对于需要遍历元组所有元素的任务。比如打印所有元素。
 
 下面是说明元素元组迭代的程序:
 
@@ -123,7 +123,7 @@ int main()
 Geeks for Geeks
 ```
 
-使用 [constexpr()函数](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-c/)和 if constexpr 表达式，这种情况得到了极大的简化，但这些表达式只能从 C++17 开始使用。我也是简化代码，你可以在 C++17 中运行。
+使用 [constexpr()函数](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-c/)和 if constexpr 表达式，这种情况得到了极大的简化，但这些表达式只能从 C++ 17 开始使用。我也是简化代码，你可以在 C++ 17 中运行。
 
 以下是上述方法的实现:
 
@@ -139,7 +139,7 @@ Geeks for Geeks
 
 using namespace std;
 
-// WARNING: C++17 or above required
+// WARNING: C++ 17 or above required
 template <size_t I = 0, typename... Ts>
 contexpr void printTuple(tuple<Ts...> tup)
 {
@@ -184,7 +184,7 @@ int main()
 
 **std::get()** 的要求是常量指标，没有变量。我们总是可以为模板函数指定一个常数，这里的“I”是函数的常数。因此，我们将有 n+1 个实例化的 **print_num()** 函数，其中 n 是元组的大小，每个元组都有“I”作为自身的常数。所以这些函数的实例化就像 print_tuple，print_tuple，…，和 print_tuple，所有这些函数都将被依次调用。这是 [**模板元编程**](https://www.geeksforgeeks.org/template-metaprogramming-in-c/)
 
-**注意:**所以，不能在 Geeksforgeeks IDE 上运行上述代码，需要在另一个编译器上运行。如果您想使用 C++14 或 C++11，您可以使用第一种方法。元组和模板只能从 C++11 中获得，因此不能使用旧版本。
+**注意:**所以，不能在 Geeksforgeeks IDE 上运行上述代码，需要在另一个编译器上运行。如果您想使用 C++ 14 或 C++ 11，您可以使用第一种方法。元组和模板只能从 C++ 11 中获得，因此不能使用旧版本。
 
 **<u>使用变量模板和标准::应用()</u> :**
 
@@ -229,7 +229,7 @@ void printTuple(std::tuple<Ts...> tup)
 
             // Variadic expansion used.
             ((std::cout << ps
-                        << (++k == length ? "" : "; ")),
+                        << (++ k == length ? "" : "; ")),
              ...);
 
             std::cout << " ]";
@@ -256,4 +256,4 @@ int main()
 
 ![](img/829f546069adf872b082932a23fb47ad.png)
 
-**注意:** **std::apply()** 仅在 C++17 中提供。所以，你不能在 Geeksforgeeks IDE 上运行这段代码，你需要在另一个编译器上运行它。如果您想使用 C++14 或 C++11，您可以使用第一种方法。元组和模板只能从 C++11 中获得，因此不能使用旧版本。
+**注意:** **std::apply()** 仅在 C++ 17 中提供。所以，你不能在 Geeksforgeeks IDE 上运行这段代码，你需要在另一个编译器上运行它。如果您想使用 C++ 14 或 C++ 11，您可以使用第一种方法。元组和模板只能从 C++ 11 中获得，因此不能使用旧版本。

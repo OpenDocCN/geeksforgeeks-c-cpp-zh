@@ -1,4 +1,4 @@
-# C/c++中迭代器和指针的区别，示例
+# C/c++ 中迭代器和指针的区别，示例
 
 > 原文:[https://www . geeksforgeeks . org/iterators-and-pointers-in-c-with-examples/](https://www.geeksforgeeks.org/difference-between-iterators-and-pointers-in-c-c-with-examples/)
 
@@ -67,14 +67,14 @@ int main()
     cout << "Without iterators = ";
 
     // Accessing the elements without using iterators
-    for (j = 0; j < 3; ++j) {
+    for (j = 0; j < 3; ++ j) {
         cout << v[j] << " ";
     }
 
     cout << "\nWith iterators = ";
 
     // Accessing the elements using iterators
-    for (i = v.begin(); i != v.end(); ++i) {
+    for (i = v.begin(); i != v.end(); ++ i) {
         cout << *i << " ";
     }
 
@@ -84,14 +84,14 @@ int main()
     cout << "\nWithout iterators = ";
 
     // Accessing the elements without using iterators
-    for (j = 0; j < 4; ++j) {
+    for (j = 0; j < 4; ++ j) {
         cout << v[j] << " ";
     }
 
     cout << "\nWith iterators = ";
 
     // Accessing the elements using iterators
-    for (i = v.begin(); i != v.end(); ++i) {
+    for (i = v.begin(); i != v.end(); ++ i) {
         cout << *i << " ";
     }
 

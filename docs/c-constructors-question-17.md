@@ -36,6 +36,6 @@ int main()
 
 **解释:**详见如下:
 
-[为什么 C++中复制构造函数参数应该是 const？](https://www.geeksforgeeks.org/copy-constructor-argument-const/)
+[为什么 C++ 中复制构造函数参数应该是 const？](https://www.geeksforgeeks.org/copy-constructor-argument-const/)
 
 [本题竞猜](https://www.geeksforgeeks.org/quiz-corner-gq/)

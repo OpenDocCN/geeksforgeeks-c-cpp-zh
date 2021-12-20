@@ -1,10 +1,10 @@
-# C/C++预处理器指令|第 2 集
+# C/C++ 预处理器指令|第 2 集
 
 > 原文:[https://www . geesforgeks . org/CPP-预处理器-指令-set-2/](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/)
 
-[C/C++预处理器指令基础知识](https://www.geeksforgeeks.org/cc-preprocessors/)
+[C/C++ 预处理器指令基础知识](https://www.geeksforgeeks.org/cc-preprocessors/)
 
-**预处理器指令:**在我们在 C/C++中遇到的几乎每一个程序中，我们都会在程序的顶部看到几行，前面有一个 hash (#)符号。这些行由编译器在实际编译开始前进行预处理。这些行的结尾由换行符“\n”标识，没有分号“；”来终止这些线路。
+**预处理器指令:**在我们在 C/C++ 中遇到的几乎每一个程序中，我们都会在程序的顶部看到几行，前面有一个 hash (#)符号。这些行由编译器在实际编译开始前进行预处理。这些行的结尾由换行符“\n”标识，没有分号“；”来终止这些线路。
 预处理器指令主要用于定义宏、评估条件语句、源文件包含、pragma 指令、行控制、错误检测等。
 
 **在这篇文章中，我们将讨论下面给出的更多类型的预处理器指令:**

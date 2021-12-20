@@ -39,7 +39,7 @@ string removeOddFrequencyCharacters(string s)
     // frequency of each character
     unordered_map<char, int> m;
     for (int i = 0; i < s.length(); i++) {
-        m[s[i]]++;
+        m[s[i]]++ ;
     }
 
     // To store the new string
@@ -216,7 +216,7 @@ static string removeOddFrequencyCharacters(string s)
 
         if (m.ContainsKey(p))
         {
-            m[p]++;
+            m[p]++ ;
         }
         else
         {

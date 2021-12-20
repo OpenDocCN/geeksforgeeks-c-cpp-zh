@@ -38,7 +38,7 @@
         std::nth_element(v, v + 4, v + 8);
 
         // Since, n is 5 so 5th element should be sorted
-        for (i = 0; i < 8; ++i) {
+        for (i = 0; i < 8; ++ i) {
             cout << v[i] << " ";
         }
         return 0;
@@ -96,7 +96,7 @@
         // as the sixth element present if we sort this array
         // Sorted Array
         /* 2 3 10 23 33 45 47 56 */
-        for (i = 0; i < 8; ++i) {
+        for (i = 0; i < 8; ++ i) {
             cout << v[i] << " ";
         }
         return 0;
@@ -136,7 +136,7 @@
         // Since, n is 3 so now first three numbers will be the
         // three smallest numbers in the whole array
         // Displaying first three smallest number
-        for (i = 0; i < 3; ++i) 
+        for (i = 0; i < 3; ++ i) 
         {
             cout << v[i] << " ";
         }
@@ -168,7 +168,7 @@
         // Since, n is 2 so first 2 elements will be the largest
         // among all the array elements
         // Displaying First 2 elements
-        for (i = 0; i < 2; ++i) 
+        for (i = 0; i < 2; ++ i) 
         {
             cout << v[i] << " ";
         }

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-function-overload-and-default-arguments-question-1/](https://www.geeksforgeeks.org/c-function-overloading-and-default-arguments-question-1/)
 
-C++的函数重载和默认参数功能支持面向对象编程中的下列哪一项。
+C++ 的函数重载和默认参数功能支持面向对象编程中的下列哪一项。
 **(A)** 继承
 **(B)** 多态
 **(C)** 封装

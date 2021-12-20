@@ -55,13 +55,13 @@
 
 ![](img/573bc7358c326224361d52590ec60817.png)
 
-**第九步:**尝试用 C 或 C++编译 graphics.h 程序，还是会有错误。要解决这个问题，用记事本++打开 graphics.h 文件(在步骤 3 中粘贴到 include 文件夹中)。转到**第 302 行**，将该行替换为: **int left=0，int top=0，int right=INT_MAX，int bottom=INT_MAX，**
+**第九步:**尝试用 C 或 C++ 编译 graphics.h 程序，还是会有错误。要解决这个问题，用记事本++ 打开 graphics.h 文件(在步骤 3 中粘贴到 include 文件夹中)。转到**第 302 行**，将该行替换为: **int left=0，int top=0，int right=INT_MAX，int bottom=INT_MAX，**
 
 ![](img/131493a9f4e7c28686333a9618ad9eda.png)
 
 **第十步:**保存文件。搞定了。
 
-**注意:**现在，你可以编译任何包含 graphics.h 头文件的 C 或 C++程序。如果你编译 C 代码，你仍然会得到一个错误说:**“致命错误:sstream:没有这样的文件目录”。**
+**注意:**现在，你可以编译任何包含 graphics.h 头文件的 C 或 C++ 程序。如果你编译 C 代码，你仍然会得到一个错误说:**“致命错误:sstream:没有这样的文件目录”。**
 
 ![](img/499e1fa7c88168757fab74efe9224e0a.png)
 

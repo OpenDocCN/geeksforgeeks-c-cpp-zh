@@ -12,7 +12,7 @@
     ios_base::sync_with_stdio(false);
 ```
 
-如果在程序执行其第一个输入或输出操作之前调用它，它将打开或关闭所有 C++标准流与其对应的标准 C 流的同步。添加 IOs _ base::sync _ with _ stdio(false)；(默认情况下为真)在任何 I/O 操作之前，避免这种同步。它是 std::ios_base 函数的静态成员。
+如果在程序执行其第一个输入或输出操作之前调用它，它将打开或关闭所有 C++ 标准流与其对应的标准 C 流的同步。添加 IOs _ base::sync _ with _ stdio(false)；(默认情况下为真)在任何 I/O 操作之前，避免这种同步。它是 std::ios_base 函数的静态成员。
 
 ```cpp
     cin.tie(NULL);
@@ -62,7 +62,7 @@ int main()
     {
         cin >> t;
         if (t % k == 0)
-            cnt++;
+            cnt++ ;
     }
     cout << cnt << "\n";
     return 0;
@@ -91,7 +91,7 @@ int main()
     {
         cin >> t;
         if (t % k == 0)
-            cnt++;
+            cnt++ ;
     }
     cout << cnt << "\n";
     return 0;

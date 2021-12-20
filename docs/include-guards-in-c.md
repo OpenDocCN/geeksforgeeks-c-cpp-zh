@@ -1,8 +1,8 @@
-# 在 C++中包含守卫
+# 在 C++ 中包含守卫
 
 > 原文:[https://www.geeksforgeeks.org/include-guards-in-c/](https://www.geeksforgeeks.org/include-guards-in-c/)
 
-在 C++中进行[编程时](https://www.geeksforgeeks.org/c-plus-plus/)我们经常会多次使用一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)，因此需要创建一个[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)并将其包含在主程序中。现在，有时会发生某个[头文件](https://www.geeksforgeeks.org/write-header-file-c/)直接或间接多次被包含，然后头文件中声明的类被重新声明，这就产生了[错误](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/)。要了解**的需求包括警卫员**让我们先了解一个例子:
+在 C++ 中进行[编程时](https://www.geeksforgeeks.org/c-plus-plus/)我们经常会多次使用一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)，因此需要创建一个[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)并将其包含在主程序中。现在，有时会发生某个[头文件](https://www.geeksforgeeks.org/write-header-file-c/)直接或间接多次被包含，然后头文件中声明的类被重新声明，这就产生了[错误](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/)。要了解**的需求包括警卫员**让我们先了解一个例子:
 
 **程序 1:** 创建一个动物类并将其保存为“**Animal . h”**。下面是同样的程序:
 
@@ -98,7 +98,7 @@ int main()
 
 **说明:**当使用 include **Animal.h** 编译**main . CPP**程序并定义 Animal 类时，此后当包含 **Dog.h** 、 **Animal.h** 时，在主程序中有两个定义 **Animal 类**，这就是为什么会产生此错误。现在让我们使用**包括防护装置**来解决问题。
 
-> *在*[*【C】*](https://www.geeksforgeeks.org/c-programming-language/)*和 C++编程语言中，一个#include guard，有时称为宏保护、头保护或文件保护，是在处理 include 指令时用来避免双重包含问题的特殊构造。*
+> *在*[*【C】*](https://www.geeksforgeeks.org/c-programming-language/)*和 C++ 编程语言中，一个#include guard，有时称为宏保护、头保护或文件保护，是在处理 include 指令时用来避免双重包含问题的特殊构造。*
 
 **解决方案:**
 **Include guards** 保证编译器只处理这个文件一次，不管包含多少次。**包含防护**只是一系列预处理器指令，保证文件只包含一次。

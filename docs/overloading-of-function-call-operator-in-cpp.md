@@ -1,8 +1,8 @@
-# c++中函数调用运算符的重载
+# c++ 中函数调用运算符的重载
 
 > 原文:[https://www . geeksforgeeks . org/overload-of-function-call-operator-in-CPP/](https://www.geeksforgeeks.org/overloading-of-function-call-operator-in-cpp/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中函数调用运算符的[重载](https://www.geeksforgeeks.org/function-overloading-c/)。
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中函数调用运算符的[重载](https://www.geeksforgeeks.org/function-overloading-c/)。
 
 *   [函数调用运算符](https://www.geeksforgeeks.org/operator-overloading-c/)用**“()”**表示，用于调用函数和传递参数。它被称为**函数对象**的类的实例重载。
 *   当函数调用运算符重载时，将创建一个可用于传递参数的运算符函数。

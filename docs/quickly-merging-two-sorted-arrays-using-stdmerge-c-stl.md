@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/quick-merging-two-sorted-arrays-using-stdmerge-c-STL/](https://www.geeksforgeeks.org/quickly-merging-two-sorted-arrays-using-stdmerge-c-stl/)
 
-C++程序，用于按照排序顺序分别合并长度为“n”和“m”的两个排序数组。
+C++ 程序，用于按照排序顺序分别合并长度为“n”和“m”的两个排序数组。
 
 示例:
 

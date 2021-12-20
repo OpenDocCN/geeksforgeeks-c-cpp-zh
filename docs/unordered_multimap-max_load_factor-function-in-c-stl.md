@@ -72,7 +72,7 @@ Key and Elements of Sample1 are:{50, 500} {10, 100}
 
 下面的程序说明了上面的功能:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to illustrate the

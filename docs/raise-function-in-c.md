@@ -1,4 +1,4 @@
-# 在 C++中提升()函数
+# 在 C++ 中提升()函数
 
 > 原文:[https://www.geeksforgeeks.org/raise-function-in-c/](https://www.geeksforgeeks.org/raise-function-in-c/)
 

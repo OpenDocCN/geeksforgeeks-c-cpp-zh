@@ -24,7 +24,7 @@ This stores a datatype corresponding to a list
 
 <u>下面是列表地图在 c++-</u>
 
-## <u>c++</u>
+## <u>c++ </u>
 
 ```cpp
 // C++ program to implement
@@ -153,7 +153,7 @@ int main()
 
 <u>**<u>STL 中的转发列表</u>**</u>
 
-<u>STL 中的正向列表实现单链表。从 C++11 引入，forward 列表在插入、移除、和移动操作(如排序)方面比其他容器更有用，并且允许时间常数插入和移除元素。 forward_list 也可以和地图容器一起使用。</u>
+<u>STL 中的正向列表实现单链表。从 C++ 11 引入，forward 列表在插入、移除、和移动操作(如排序)方面比其他容器更有用，并且允许时间常数插入和移除元素。 forward_list 也可以和地图容器一起使用。</u>
 
 <u>**语法:**</u>
 
@@ -167,9 +167,9 @@ or
 This stores a datatype corresponding to a forward list
 ```
 
-<u>下面是 C++中 forward_list 的实现-</u>
+<u>下面是 C++ 中 forward_list 的实现-</u>
 
-<u>T3】c++T5
+<u>T3】c++ T5
 
 ```cpp
 // C++ program to implement

@@ -42,7 +42,7 @@ int main()
 
     // prints the elements
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+    for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -103,7 +103,7 @@ int main()
 
     // prints the elements
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+    for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
         cout << itr->first
             << '\t' << itr->second << '\n';
     }
@@ -134,7 +134,7 @@ iterator map_name.insert(iterator position1, iterator position2)
 
 下面是上面语法的图解:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to illustrate
@@ -159,7 +159,7 @@ int main()
     // prints the elements
     cout << "Elements in mp1 are\n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp1.begin(); itr != mp1.end(); ++itr) {
+    for (auto itr = mp1.begin(); itr != mp1.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }

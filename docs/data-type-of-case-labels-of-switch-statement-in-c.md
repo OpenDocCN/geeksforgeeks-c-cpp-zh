@@ -1,4 +1,4 @@
-# c++中 switch 语句大小写标签的数据类型？
+# c++ 中 switch 语句大小写标签的数据类型？
 
 > 原文:[https://www . geesforgeks . org/data-type-of-case-labels-of-switch-statement-in-c/](https://www.geeksforgeeks.org/data-type-of-case-labels-of-switch-statement-in-c/)
 

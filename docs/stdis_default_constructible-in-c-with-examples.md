@@ -1,4 +1,4 @@
-# STD::is _ default _ 可在 C++中构造，示例
+# STD::is _ default _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ default _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_default_constructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_default_constructible>class T> ::value
 *   **true:** If the type **t** is constructable by default.
 *   **false:** If the type **t** is not constructable by default.
 
-下面是用 C/C++说明**标准::is _ default _ construction**模板的程序:
+下面是用 C/C++ 说明**标准::is _ default _ construction**模板的程序:
 
 **程序:**
 

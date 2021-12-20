@@ -78,9 +78,9 @@ int ttl_upper(int i, int counter)
     while (ch != '\0') {
         ch = a[i];
         if (isupper(ch))
-            counter++;
+            counter++ ;
 
-        i++;
+        i++ ;
     }
 
     // returning total number of upper case present in sentence

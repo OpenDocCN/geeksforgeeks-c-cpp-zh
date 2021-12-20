@@ -1,8 +1,8 @@
-# 用 C++中的 STL 计算二进制数组中 1 和 0 的个数？
+# 用 C++ 中的 STL 计算二进制数组中 1 和 0 的个数？
 
 > 原文:[https://www . geesforgeks . org/count-二进制数组中 1 和 0 的个数-使用-stl-in-c/](https://www.geeksforgeeks.org/count-the-number-of-1s-and-0s-in-a-binary-array-using-stl-in-c/)
 
-给定一个二进制数组，任务是用 C++中的 STL 计算这个数组中 1 和 0 的个数。
+给定一个二进制数组，任务是用 C++ 中的 STL 计算这个数组中 1 和 0 的个数。
 
 **例:**
 
@@ -15,7 +15,7 @@ Output: 1's = 5, 0's = 2
 
 ```
 
-**方法:**我们可以使用 C++的 STL 中存在的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 函数进行同样的计数。
+**方法:**我们可以使用 C++ 的 STL 中存在的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 函数进行同样的计数。
 
 **语法:**
 

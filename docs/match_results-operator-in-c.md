@@ -1,4 +1,4 @@
-# match_results 运算符=在 C++中
+# match_results 运算符=在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/match_results-operator-in-c/](https://www.geeksforgeeks.org/match_results-operator-in-c/)
 

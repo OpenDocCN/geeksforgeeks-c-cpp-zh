@@ -49,7 +49,7 @@ void printWordsWithoutIfSwitch(int n)
     {
         digits[dc] = n%10;
         n = n/10;
-        dc++;
+        dc++ ;
     } while (n != 0);
 
     // Traverse individual digits and print words using
@@ -92,7 +92,7 @@ static void printWordsWithoutIfSwitch(int n)
     {
         digits[dc] = n % 10;
         n = n/10;
-        dc++;
+        dc++ ;
     } while (n != 0);
 
     // Traverse individual digits and print words using
@@ -139,7 +139,7 @@ static void printWordsWithoutIfSwitch(int n)
     {
         digits[dc] = n % 10;
         n = n/10;
-        dc++;
+        dc++ ;
     } while (n != 0);
 
     // Traverse individual digits and print words using
@@ -222,7 +222,7 @@ printWordsWithoutIfSwitch(n)
     {
         digits[dc] = n % 10;
         n = Math.floor(n/10);
-        dc++;
+        dc++ ;
     } while (n != 0);
 
     // Traverse individual digits and print words using

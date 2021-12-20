@@ -1,4 +1,4 @@
-# c++中的λ表达
+# c++ 中的λ表达
 
 > 原文:[https://www.geeksforgeeks.org/lambda-expression-in-c/](https://www.geeksforgeeks.org/lambda-expression-in-c/)
 

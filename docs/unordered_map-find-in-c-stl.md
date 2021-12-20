@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/unordered_map-find-in-c-stl/](https://www.geeksforgeeks.org/unordered_map-find-in-c-stl/)
 
-**c++中的 find** 函数用于在无序的地图中搜索特定的键。
+**c++ 中的 find** 函数用于在无序的地图中搜索特定的键。
 
 **语法**
 

@@ -1,8 +1,8 @@
-# std::string::resize()在 C++中
+# std::string::resize()在 C++ 中
 
 > 噻:[https://www . geeksforgeeks . org/stdstringresize-in-c/](https://www.geeksforgeeks.org/stdstringresize-in-c/)
 
-**resize()** 用于更改字符数。下面我们将描述 C++中 std::string::resize()支持的两种语法
+**resize()** 用于更改字符数。下面我们将描述 C++ 中 std::string::resize()支持的两种语法
 **返回值:**无
 
 **语法 1:** 将*的字符数调整为 num。

@@ -1,4 +1,4 @@
-# c++中的随机头|集合 1(生成器)
+# c++ 中的随机头|集合 1(生成器)
 
 > 原文:[https://www . geesforgeks . org/random-header-c-set-1 generator/](https://www.geeksforgeeks.org/random-header-c-set-1generators/)
 

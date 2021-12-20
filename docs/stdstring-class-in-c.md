@@ -1,8 +1,8 @@
-# STD::c++中的字符串类
+# STD::c++ 中的字符串类
 
 > 原文:[https://www.geeksforgeeks.org/stdstring-class-in-c/](https://www.geeksforgeeks.org/stdstring-class-in-c/)
 
-在其定义中，C++有一种方式将**字符序列表示为类**的对象。这个类叫做 std:: string。String 类将字符存储为字节序列，其功能是允许**访问单字节字符**。
+在其定义中，C++ 有一种方式将**字符序列表示为类**的对象。这个类叫做 std:: string。String 类将字符存储为字节序列，其功能是允许**访问单字节字符**。
 
 **标准::字符串对字符数组**
 
@@ -21,7 +21,7 @@
 **输入功能**
 **1。getline()** :-该功能用于将用户输入的字符流存储在对象存储器中。
 **2。push_back()** :-该功能用于**在字符串的**端**输入**一个字符。
-**3。pop_back()** :-从 C++11 引入(针对字符串)，此功能用于**删除字符串中最后一个字符**。
+**3。pop_back()** :-从 C++ 11 引入(针对字符串)，此功能用于**删除字符串中最后一个字符**。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -306,8 +306,8 @@ The 2nd string after swapping is : geeksforgeeks is for geeks
 ```
 
 更多功能:
-[C++字符串类及其应用](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
-[C++字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
+[C++ 字符串类及其应用](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
+[C++ 字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
 
 ？list = plqm7 alhxfysg6 gsrme 2 ini4k 8 fph5 qvb
 本文由 [**【曼吉特·辛格】**](https://auth.geeksforgeeks.org/profile.php?user=manjeet_04&list=practice) 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

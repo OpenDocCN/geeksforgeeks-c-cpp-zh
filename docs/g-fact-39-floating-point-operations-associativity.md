@@ -1,4 +1,4 @@
-# 浮点运算&C、C++和 Java 中的关联性
+# 浮点运算&C、C++ 和 Java 中的关联性
 
 > 原文:[https://www . geesforgeks . org/g-fact-39-浮点运算-关联性/](https://www.geeksforgeeks.org/g-fact-39-floating-point-operations-associativity/)
 
@@ -6,7 +6,7 @@
 
 人们可能期望浮点数在编程语言中遵循结合律，因为它们在数学上是关联的。然而，并非所有情况都是如此。
 
-下面考虑 C/C++程序。
+下面考虑 C/C++ 程序。
 
 ```cpp
 // C/C++ program to demonstrate that floating point

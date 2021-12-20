@@ -1,4 +1,4 @@
-# STD::c++中的 next _ 置换和 prev _ 置换
+# STD::c++ 中的 next _ 置换和 prev _ 置换
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/STD next _ switching-prev _ switching-c/
 

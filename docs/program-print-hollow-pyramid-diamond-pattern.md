@@ -47,7 +47,7 @@ void printPattern(int n)
                 cout << "#";
             else
                 cout << " ";
-            k++;
+            k++ ;
             ;
         }
         k = 0;
@@ -89,7 +89,7 @@ class GFG{
                     System.out.print("#");
                 else
                     System.out.print(" ");
-                k++;
+                k++ ;
                 ;
             }
             k = 0;
@@ -171,7 +171,7 @@ function printPattern($n)
                 echo "#";
             else
                 echo " ";
-            $k++;
+            $k++ ;
         }
         $k = 0;
 
@@ -219,7 +219,7 @@ printPattern($n);
                 document.write("#");
             else
                 document.write("  ");
-            k++;
+            k++ ;
           }
           k = 0;
           document.write("<br>"); // print next row

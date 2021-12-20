@@ -1,4 +1,4 @@
-# c++中 valarray 的 max()函数
+# c++ 中 valarray 的 max()函数
 
 > 原文:[https://www . geesforgeks . org/max-function-for-valarray-in-c/](https://www.geeksforgeeks.org/max-function-for-valarray-in-c/)
 

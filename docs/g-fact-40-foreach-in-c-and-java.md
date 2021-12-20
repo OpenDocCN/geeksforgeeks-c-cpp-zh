@@ -1,14 +1,14 @@
-# c++和 Java 中的 Foreach
+# c++ 和 Java 中的 Foreach
 
 > 原文:[https://www . geesforgeks . org/g-fact-40-foreach-in-c-and-Java/](https://www.geeksforgeeks.org/g-fact-40-foreach-in-c-and-java/)
 
 [Foreach 循环](https://www.geeksforgeeks.org/for-each-loop-in-java/)用于快速访问数组的元素，无需执行初始化、测试和递增/递减。foreach 循环的工作是为每个元素做一些事情，而不是做 n 次。
 
-C 语言中没有 foreach 循环，但是 C++和 Java 都支持 foreach 类型的循环。在 C++中，它是在 C++ 11 中引入的，在 JDK 1.5.0 中是在 Java 中引入的
+C 语言中没有 foreach 循环，但是 C++ 和 Java 都支持 foreach 类型的循环。在 C++ 中，它是在 C++ 11 中引入的，在 JDK 1.5.0 中是在 Java 中引入的
 
-foreach 循环使用的关键字在 C++和 Java 中都是“”的“**”。**
+foreach 循环使用的关键字在 C++ 和 Java 中都是“”的“**”。**
 
-**C++程序:**
+**C++ 程序:**
 
 ```cpp
 // C++ program to demonstrate use of foreach

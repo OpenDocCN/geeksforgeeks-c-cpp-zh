@@ -8,7 +8,7 @@ C 和 Ruby 有很多相似之处，其中一些是:
 
 像 C 一样，在 Ruby 中也…
 
-*   如果程序员愿意，他们可以按程序编程。但是，在幕后，它仍然是面向对象的。*   这两种语言都有相同的运算符，例如复合赋值和按位运算符。但是 Ruby 不像 c 语言那样有++或者——*   他们俩都带了 __FILE__ 和 _ _ LINE _ _ 了。*   没有特殊的 const 关键字，但我们仍然可以有常数。*   在 C 和 Ruby 中，字符串都用双引号即“.”来表示。*   它们都包含可变字符串。*   使用 ri 命令，大多数文档都可以在你的终端上阅读，就像手册页一样。*   Samsort of the command-line debugger is available in both of them.
+*   如果程序员愿意，他们可以按程序编程。但是，在幕后，它仍然是面向对象的。*   这两种语言都有相同的运算符，例如复合赋值和按位运算符。但是 Ruby 不像 c 语言那样有++ 或者——*   他们俩都带了 __FILE__ 和 _ _ LINE _ _ 了。*   没有特殊的 const 关键字，但我们仍然可以有常数。*   在 C 和 Ruby 中，字符串都用双引号即“.”来表示。*   它们都包含可变字符串。*   使用 ri 命令，大多数文档都可以在你的终端上阅读，就像手册页一样。*   Samsort of the command-line debugger is available in both of them.
 
     ### The difference between Ruby and C language
 

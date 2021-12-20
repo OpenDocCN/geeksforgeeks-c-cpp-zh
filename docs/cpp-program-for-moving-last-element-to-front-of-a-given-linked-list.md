@@ -1,4 +1,4 @@
-# 将最后一个元素移到给定链表前面的 C++程序
+# 将最后一个元素移到给定链表前面的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-将最后一个元素移动到给定链表前面的程序/](https://www.geeksforgeeks.org/cpp-program-for-moving-last-element-to-front-of-a-given-linked-list/)
 

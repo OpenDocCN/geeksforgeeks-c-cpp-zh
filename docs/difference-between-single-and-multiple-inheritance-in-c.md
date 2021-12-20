@@ -1,4 +1,4 @@
-# c++中单遗传和多遗传的区别
+# c++ 中单遗传和多遗传的区别
 
 > 原文:[https://www . geeksforgeeks . org/c 中单一继承和多重继承的区别/](https://www.geeksforgeeks.org/difference-between-single-and-multiple-inheritance-in-c/)
 
@@ -118,6 +118,6 @@ Total salary..88000
 | 4. | 单一继承是很多接近专业化。 | 相比之下，多重继承更接近泛化。 |
 | 5. | 单一继承实现为**类 derived Class _ name:access _ 说明符 Base _ Class { }；**。 | 而多重继承实现为**类派生类名:access _ 说明符 Base_Class1，access _ 说明符 Base_Class2，…。{};**。 |
 | 6. | 与多重继承相比，单一继承更简单。 | 而多重继承与单一继承相比是复杂的。 |
-| 7. | 单一继承可以用任何编程语言实现。 | C++支持多重继承，但多重继承在任何编程语言中都无法实现(C#，Java 不支持多重继承)。 |
+| 7. | 单一继承可以用任何编程语言实现。 | C++ 支持多重继承，但多重继承在任何编程语言中都无法实现(C#，Java 不支持多重继承)。 |
 
 </center>

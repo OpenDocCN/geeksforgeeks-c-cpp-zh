@@ -1,4 +1,4 @@
-# 理解 C++中的常量表达式说明符
+# 理解 C++ 中的常量表达式说明符
 
 > 原文:[https://www . geesforgeks . org/understanding-consexper-说明符-in-c/](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-c/)
 
@@ -34,13 +34,13 @@ int main()
 1.  在 C++ 11 中，constexpr 函数应该只包含一条返回语句。C++ 14 允许多个语句。
 2.  constexpr 函数应该只引用常量全局变量。
 3.  constexpr 函数只能调用其他 constexpr 函数，不能调用简单函数。
-4.  函数不应为 void 类型，并且在 constexpr 函数中不允许使用某些运算符，如前缀增量(++v)。
+4.  函数不应为 void 类型，并且在 constexpr 函数中不允许使用某些运算符，如前缀增量(++ v)。
 
 **const expr vs inline functions:**
 两者都是为了性能提升，inline functions 要求编译器在编译时进行扩展，节省函数调用的时间开销。在内联函数中，表达式总是在运行时计算。constexpr 不同，这里的表达式是在编译时计算的。
 
 **const expr 提高性能的例子:**
-考虑下面的 C++程序
+考虑下面的 C++ 程序
 
 ```cpp
 // A C++ program to demonstrate the use of constexpr

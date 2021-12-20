@@ -1,4 +1,4 @@
-# c++中的默认方法，示例
+# c++ 中的默认方法，示例
 
 > 原文:[https://www . geesforgeks . org/default-methods-in-c-with-examples/](https://www.geeksforgeeks.org/default-methods-in-c-with-examples/)
 

@@ -1,4 +1,4 @@
-# 环礁()，环礁()和 atof()函数在 C/C++中
+# 环礁()，环礁()和 atof()函数在 C/C++ 中
 
 > 原文:[https://www . geesforgeks . org/环礁-环礁-和-atof-functions-in-c-c/](https://www.geeksforgeeks.org/atol-atoll-and-atof-functions-in-c-c/)
 

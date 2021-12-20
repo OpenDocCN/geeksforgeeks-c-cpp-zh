@@ -1,4 +1,4 @@
-# C/c++中的加载程序
+# C/c++ 中的加载程序
 
 > 原文:[https://www.geeksforgeeks.org/loader-in-c-c/](https://www.geeksforgeeks.org/loader-in-c-c/)
 

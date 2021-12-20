@@ -1,8 +1,8 @@
-# 创建 C++可重用头文件及其实现文件
+# 创建 C++ 可重用头文件及其实现文件
 
 > 原文:[https://www . geesforgeks . org/creating-a-CPP-可重用-头文件-及其实现-文件/](https://www.geeksforgeeks.org/creating-a-cpp-reusable-header-file-and-its-implementation-files/)
 
-可重用性是[软件工程](https://www.geeksforgeeks.org/software-engineering/)最重要的概念之一。可重用性意味着开发可以在同一程序或不同程序中重用的代码。 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 通过[继承](https://www.geeksforgeeks.org/inheritance-in-c/)、[集装箱船](https://www.geeksforgeeks.org/containership-in-c/)、[多态](https://www.geeksforgeeks.org/polymorphism-in-c/)和[泛型](https://www.geeksforgeeks.org/generics-in-c/)允许重用。但是，还有另一种方法来定义独立的构件。这可以通过创建头文件和实现文件来实现。
+可重用性是[软件工程](https://www.geeksforgeeks.org/software-engineering/)最重要的概念之一。可重用性意味着开发可以在同一程序或不同程序中重用的代码。 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 通过[继承](https://www.geeksforgeeks.org/inheritance-in-c/)、[集装箱船](https://www.geeksforgeeks.org/containership-in-c/)、[多态](https://www.geeksforgeeks.org/polymorphism-in-c/)和[泛型](https://www.geeksforgeeks.org/generics-in-c/)允许重用。但是，还有另一种方法来定义独立的构件。这可以通过创建头文件和实现文件来实现。
 
 > [**头文件**](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/) 是包含[类声明](https://www.geeksforgeeks.org/c-classes-and-objects/)的文件。类的名称通常与头文件的名称相同。(例如，LinkedList 类将存储在 LinkedList.h 头文件中)
 > 

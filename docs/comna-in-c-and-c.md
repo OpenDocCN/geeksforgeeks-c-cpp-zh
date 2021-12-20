@@ -1,8 +1,8 @@
-# C 和 C++中的逗号
+# C 和 C++ 中的逗号
 
 > 原文:[https://www.geeksforgeeks.org/comna-in-c-and-c/](https://www.geeksforgeeks.org/comna-in-c-and-c/)
 
-在 C 和 C++中，逗号(，)可以在两种上下文中使用:
+在 C 和 C++ 中，逗号(，)可以在两种上下文中使用:
 1)逗号作为运算符:
 逗号运算符(由标记表示)是一个二进制运算符，它计算其第一个操作数并丢弃结果，然后计算第二个操作数并返回该值(和类型)。逗号运算符是所有 C 运算符中优先级最低的一个，充当[序列点](http://en.wikipedia.org/wiki/Sequence_point)。
 
@@ -36,7 +36,7 @@ void fun(x, y);
 void fun(f1(), f2());
 ```
 
-C 与 C++使用逗号运算符的区别见[本](https://www.ibm.com/support/knowledgecenter/SSGH3R_16.1.0/com.ibm.xlcpp161.aix.doc/language_ref/co.html)。
+C 与 C++ 使用逗号运算符的区别见[本](https://www.ibm.com/support/knowledgecenter/SSGH3R_16.1.0/com.ibm.xlcpp161.aix.doc/language_ref/co.html)。
 你可以试试下面的程序来检查你对 C.
 中逗号的理解
 
@@ -64,7 +64,7 @@ int main()
 int main()
 {
     int x = 10;
-    int y = (x++, ++x);
+    int y = (x++, ++ x);
     printf("%d", y);
     getchar();
     return 0;
@@ -85,7 +85,7 @@ int main()
     // with two printings
     y = (x++,
          printf("x = %d\n", x),
-         ++x,
+         ++ x,
          printf("x = %d\n", x),
          x++);
 
@@ -130,7 +130,7 @@ int main()
 ```
 
 3)逗号运算符代替分号。
-我们知道在 C 和 C++中，每条语句都以分号结束，但逗号运算符也用于在满足以下规则后终止语句。
+我们知道在 C 和 C++ 中，每条语句都以分号结束，但逗号运算符也用于在满足以下规则后终止语句。
 
 *   变量声明语句必须以分号结束。
 *   声明语句之后的语句可以用逗号运算符终止。

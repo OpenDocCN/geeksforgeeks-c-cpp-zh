@@ -1,4 +1,4 @@
-# 在 C/C++中重命名函数
+# 在 C/C++ 中重命名函数
 
 > 原文:[https://www.geeksforgeeks.org/rename-function-in-ccpp/](https://www.geeksforgeeks.org/rename-function-in-ccpp/)
 

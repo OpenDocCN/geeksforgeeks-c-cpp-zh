@@ -1,12 +1,12 @@
-# c++中新增 vs malloc()和 free()vs delete
+# c++ 中新增 vs malloc()和 free()vs delete
 
 > 原文:[https://www . geesforgeks . org/new-vs-malloc-and-free-vs-delete-in-c/](https://www.geeksforgeeks.org/new-vs-malloc-and-free-vs-delete-in-c/)
 
-我们在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [new 和删除](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)运算符来动态分配内存，而 [malloc()和 free()](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/) 函数在 C 和 C++中也用于相同的目的。 **new 或 malloc()** 和 **delete 或 free()** 的功能似乎相同，但它们在各方面有所不同。
+我们在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [new 和删除](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)运算符来动态分配内存，而 [malloc()和 free()](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/) 函数在 C 和 C++ 中也用于相同的目的。 **new 或 malloc()** 和 **delete 或 free()** 的功能似乎相同，但它们在各方面有所不同。
 关于构造函数和析构函数调用的行为在以下方面有所不同:
 **<u>malloc()vs new():</u>**
 
-*   **malloc():** 它是一个 C 库函数，也可以在 C++中使用，而**“new”**运算符只针对 C++而言。
+*   **malloc():** 它是一个 C 库函数，也可以在 C++ 中使用，而**“new”**运算符只针对 C++ 而言。
 
 *   **malloc()** 和 **new** 都用于在堆中动态分配内存。但是**“新的”**确实调用了类的构造函数，而**“malloc()”**没有。
 
@@ -68,7 +68,7 @@ Object of class A was created using malloc()!
 在上面的程序中我们可以清楚地看到，在使用**创建对象时，调用了新的运算符** [默认构造函数](https://www.geeksforgeeks.org/c-default-constructor-built-in-types/)，而没有调用 malloc 函数默认构造函数。
 **<u>自由()vs 删除:</u>**
 
-*   **free()** 是一个也可以在 C++中使用的 C 库函数，而 [**【删除】**](https://www.geeksforgeeks.org/g-fact-30/) 则是一个 C++关键字。
+*   **free()** 是一个也可以在 C++ 中使用的 C 库函数，而 [**【删除】**](https://www.geeksforgeeks.org/g-fact-30/) 则是一个 C++ 关键字。
 *   free()释放内存，但不调用类的[析构函数，而**“删除”**释放内存，也调用类的析构函数。](https://www.geeksforgeeks.org/destructors-c/)
 
 下面是演示 new 和 malloc()功能的程序:

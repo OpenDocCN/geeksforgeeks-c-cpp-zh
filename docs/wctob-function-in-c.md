@@ -1,8 +1,8 @@
-# wctob()函数在 C++中
+# wctob()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wctob-function-in-c/](https://www.geeksforgeeks.org/wctob-function-in-c/)
 
-C++中的 wctob()函数有助于将宽字符 *wc* 转换为单字节，如果其 if 在初始移位状态下的多字节字符等效为单字节。由于该函数使用单字节编码，因此用于 ASCII 字符集的字符。
+C++ 中的 wctob()函数有助于将宽字符 *wc* 转换为单字节，如果其 if 在初始移位状态下的多字节字符等效为单字节。由于该函数使用单字节编码，因此用于 ASCII 字符集的字符。
 
 **语法:**
 
@@ -34,9 +34,9 @@ int wctob (wint_t wc);
         const wchar_t wc[] = L"priya lal";
 
         num = 0;
-        for (i = 0; i < wcslen(wc); ++i)
+        for (i = 0; i < wcslen(wc); ++ i)
             if (wctob(wc[i]) != EOF)
-                ++num;
+                ++ num;
 
         // prints the numbers of characters
         // needed to be translated

@@ -199,7 +199,7 @@ void shstackpush(key_t key, int ele)
                 printf("No elements can be pushed\n");
             }
             else if (top < shared_stacks[j]->stack_size) {
-                top++;
+                top++ ;
                 stack[top] = h;
                 printf("\n%d is pushed in %d\n", stack[top], key);
 
@@ -229,7 +229,7 @@ void shstackpush(key_t key, int ele)
             }
 
             else if (top < shared_stacks[j]->stack_size) {
-                top++;
+                top++ ;
                 stack[top] = ele;
                 printf("\n%c is pushed in %d\n", stack[top], key);
 

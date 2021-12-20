@@ -1,10 +1,10 @@
-# c++中的比率操作|集合 1(算术)
+# c++ 中的比率操作|集合 1(算术)
 
 > 原文:[https://www . geeksforgeeks . org/ratio-manuals-in-c-set-1-算术/](https://www.geeksforgeeks.org/ratio-manipulations-in-c-set-1-arithmetic/)
 
 本文在
 [下面讨论了一种添加比率的方法。添加两个分数的程序](https://www.geeksforgeeks.org/program-to-add-two-fractions/)
-上述方法涉及一项繁琐而冗长的任务。但是 C++有一个头文件，它允许我们使用各种内置的模板别名来操作比率。这个头文件是在 C++11 以后引入的。
+上述方法涉及一项繁琐而冗长的任务。但是 C++ 有一个头文件，它允许我们使用各种内置的模板别名来操作比率。这个头文件是在 C++ 11 以后引入的。
 **1。ratio_add** :-该模板别名用于**添加两个 ratio**，以最简单的形式返回**结果。它返回两个成员常量， **num** 和 **den** 表示分子和分母。
 **2。ratio _ 减法** :-该模板别名用于**减去两个 ratio**，以最简单的形式**返回**结果。它返回两个成员常量， **num** 和 **den** 表示分子和分母。它**从比率 1** 中减去比率 2。** 
 

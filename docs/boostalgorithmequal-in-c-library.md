@@ -1,4 +1,4 @@
-# boost::算法::equal()在 C++库中
+# boost::算法::equal()在 C++ 库中
 
 > 原文:[https://www . geeksforgeeks . org/boostalgorithmequal-in-c-library/](https://www.geeksforgeeks.org/boostalgorithmequal-in-c-library/)
 
@@ -26,7 +26,7 @@ bool equal ( InputIterator1 first1, InputIterator1 second1,
 
     **返回值**:如果两个序列相同，函数返回真，否则返回假。
 
-    **注**:以上功能针对 C++14 及以上运行。
+    **注**:以上功能针对 C++ 14 及以上运行。
 
     **程序-1** :
 

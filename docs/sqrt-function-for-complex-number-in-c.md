@@ -1,4 +1,4 @@
-# c++中复数的 sqrt()函数
+# c++ 中复数的 sqrt()函数
 
 > 原文:[https://www . geesforgeks . org/sqrt-c 中复数函数/](https://www.geeksforgeeks.org/sqrt-function-for-complex-number-in-c/)
 
@@ -15,7 +15,7 @@ template <class T> complex<T>
 **参数:**该方法取一个强制参数 **z** ，表示要计算平方根的复数。
 **返回值:**该函数返回复数 z 的**平方根**
 
-下面的程序说明了 C++中复数的 sqrt()函数:
+下面的程序说明了 C++ 中复数的 sqrt()函数:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

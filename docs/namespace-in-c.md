@@ -1,8 +1,8 @@
-# c++中的命名空间|集合 1(简介)
+# c++ 中的命名空间|集合 1(简介)
 
 > 原文:[https://www.geeksforgeeks.org/namespace-in-c/](https://www.geeksforgeeks.org/namespace-in-c/)
 
-考虑遵循 C++程序。
+考虑遵循 C++ 程序。
 
 ```cpp
 // A program to demonstrate need of namespace
@@ -65,7 +65,7 @@ int main()
 
 Namespaces allow us to group named entities that otherwise would have *global scope* into narrower scopes, giving them *namespace scope*. This allows organizing the elements of programs into different logical scopes referred to by names.
 
-*   命名空间是在 C++中添加的特性，在 C 中不存在。
+*   命名空间是在 C++ 中添加的特性，在 C 中不存在。
 *   命名空间是一个声明性区域，它为其中的标识符(类型、函数、变量等的名称)提供了一个范围。
 *   允许多个名称相同的命名空间块。这些块中的所有声明都在命名范围中声明。
 
@@ -249,9 +249,9 @@ ns::display()
 ns::geek::display()
 ```
 
-[C++中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
-[c++中的命名空间|集合 3(访问、创建头、嵌套和别名)](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
-[命名空间可以在 c++中嵌套吗？](https://www.geeksforgeeks.org/g-fact-62/)
+[C++ 中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
+[c++ 中的命名空间|集合 3(访问、创建头、嵌套和别名)](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
+[命名空间可以在 c++ 中嵌套吗？](https://www.geeksforgeeks.org/g-fact-62/)
 
 **参考**:
 T3】http://www.cplusplus.com/doc/tutorial/namespaces/

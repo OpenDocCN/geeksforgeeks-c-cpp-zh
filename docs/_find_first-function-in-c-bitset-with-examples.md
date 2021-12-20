@@ -1,4 +1,4 @@
-# _Find_first()函数在 C++位集中用示例
+# _Find_first()函数在 C++ 位集中用示例
 
 > 原文:[https://www . geesforgeks . org/_ find _ first-function-in-c-bit set-with-examples/](https://www.geeksforgeeks.org/_find_first-function-in-c-bitset-with-examples/)
 

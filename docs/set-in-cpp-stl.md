@@ -1,4 +1,4 @@
-# 设置在 C++标准模板库(STL)
+# 设置在 C++ 标准模板库(STL)
 
 > 原文:[https://www.geeksforgeeks.org/set-in-cpp-stl/](https://www.geeksforgeeks.org/set-in-cpp-stl/)
 

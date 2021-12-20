@@ -10,7 +10,7 @@
 | 标准::交换 | 标准::矢量::交换 |
 | STD::swap () is a built-in function in C++ STL, which exchanges the values of any two variables passed to it as parameters. | The STD::vector::swap () function is used to exchange the entire contents of one vector with another vector of the same type. |
 | If std::swap () function is used to exchange two vectors A and B, it will call std::swap algorithm of std::vector, which in turn calls A.swap(B) and exchanges contents. | The STD::vector::swap function exchanges the contents of one vector with another vector. It exchanges addresses of two vectors (that is, containers exchange references to their data), instead of exchanging each element one by one, which is done in a constant time of 0(1). |
-| The overload of std::swap of the adapter was introduced in C++11\. Earlier versions of C++ will require linear time complexity to exchange vectors. | STD::vector:: The exchange function will always exchange the contents of the vector in a constant time. |
+| The overload of std::swap of the adapter was introduced in C++ 11\. Earlier versions of C++ will require linear time complexity to exchange vectors. | STD::vector:: The exchange function will always exchange the contents of the vector in a constant time. |
 
 </figure>
 

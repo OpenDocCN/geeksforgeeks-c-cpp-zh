@@ -1,4 +1,4 @@
-# 是 C++中的 _ 算术模板
+# 是 C++ 中的 _ 算术模板
 
 > 原文:[https://www . geesforgeks . org/is _ algorithm-template-in-CPP/](https://www.geeksforgeeks.org/is_arithmetic-template-in-cpp/)
 

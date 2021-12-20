@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/match _ results-length-in-c-STL/](https://www.geeksforgeeks.org/match_results-length-in-c-stl/)
 
-**match_results::length()** 是 C++中的一个内置函数，用于返回 match_results 对象中特定匹配的长度。
+**match_results::length()** 是 C++ 中的一个内置函数，用于返回 match_results 对象中特定匹配的长度。
 **语法:**
 
 ```cpp

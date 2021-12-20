@@ -1,4 +1,4 @@
-# c++中的默认参数和虚函数
+# c++ 中的默认参数和虚函数
 
 > 原文:[https://www . geesforgeks . org/default-arguments-and-virtual-function-in-CPP/](https://www.geeksforgeeks.org/default-arguments-and-virtual-function-in-cpp/)
 
@@ -8,7 +8,7 @@
 
 **虚函数:**虚函数是在基类中声明的成员函数，由派生类重新定义(覆盖)。当您使用指向基类的指针或引用来引用派生类对象时，您可以为该对象调用一个虚拟函数并执行该函数的派生类版本。
 
-要查看默认参数与虚函数的组合应用，首先让我们看下面的 C++程序，
+要查看默认参数与虚函数的组合应用，首先让我们看下面的 C++ 程序，
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

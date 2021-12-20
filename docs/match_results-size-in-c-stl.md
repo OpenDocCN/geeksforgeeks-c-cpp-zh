@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/match_results-size-in-c-stl/](https://www.geeksforgeeks.org/match_results-size-in-c-stl/)
 
-**match_results size()** 是 C++中的一个内置函数，它返回 match_result 对象中的匹配数和子匹配数。
+**match_results size()** 是 C++ 中的一个内置函数，它返回 match_result 对象中的匹配数和子匹配数。
 **语法:**
 
 ```cpp

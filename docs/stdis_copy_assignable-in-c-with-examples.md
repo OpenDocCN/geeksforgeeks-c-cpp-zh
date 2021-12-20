@@ -1,4 +1,4 @@
-# STD::is _ copy _ 可在 C++中赋值，示例
+# STD::is _ copy _ 可在 C++ 中赋值，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ copy _ assigned-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_copy_assignable-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_copy_assignable >class T> ::value
 *   **True:** If the type **t** is a replicable assignable type.
 *   **False:** If the type **t** is not a replica distributable type.
 
-下面是用 C/C++说明**标准::is _ copy _ 可赋值**模板的程序:
+下面是用 C/C++ 说明**标准::is _ copy _ 可赋值**模板的程序:
 
 **程序:**
 

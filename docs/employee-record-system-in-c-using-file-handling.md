@@ -23,7 +23,7 @@
 
 **进场:**
 
-*   **开始框架由应用程序的名称和开发人员组成:**它是使用一些 [printf](https://www.geeksforgeeks.org/how-to-print-using-printf/) 语句和一个名为 system()的预定义函数创建的。[系统()功能](https://www.geeksforgeeks.org/system-call-in-c/)是 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) [标准库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)的一部分。用于传递可以在[操作系统](https://www.geeksforgeeks.org/operating-systems/)的命令处理器或终端执行的命令，完成后最终返回命令。
+*   **开始框架由应用程序的名称和开发人员组成:**它是使用一些 [printf](https://www.geeksforgeeks.org/how-to-print-using-printf/) 语句和一个名为 system()的预定义函数创建的。[系统()功能](https://www.geeksforgeeks.org/system-call-in-c/)是 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) [标准库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)的一部分。用于传递可以在[操作系统](https://www.geeksforgeeks.org/operating-systems/)的命令处理器或终端执行的命令，完成后最终返回命令。
 *   **系统(“彩色 3F”)**将改变控制台的颜色，即背景(3)和控制台上的文本，即前景(F)。
 *   **系统(“暂停”**)会暂停屏幕，所以用户会得到一条信息:按任意键继续。。。
 *   **gotoxy()功能:**有助于设置显示数据的坐标。

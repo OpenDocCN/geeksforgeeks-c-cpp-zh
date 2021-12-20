@@ -1,4 +1,4 @@
-# C++位集及其应用
+# C++ 位集及其应用
 
 > 原文:[https://www.geeksforgeeks.org/c-bitset-and-its-application/](https://www.geeksforgeeks.org/c-bitset-and-its-application/)
 

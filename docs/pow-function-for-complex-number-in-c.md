@@ -1,4 +1,4 @@
-# c++中复数的幂()函数
+# c++ 中复数的幂()函数
 
 > 原文:[https://www . geesforgeks . org/power-function-for-complex-number-in-c/](https://www.geeksforgeeks.org/pow-function-for-complex-number-in-c/)
 
@@ -24,7 +24,7 @@
 
 **返回值:**此函数返回 x 基数的**复幂**升至 y 次方。
 
-下面的程序说明了 C++中的 pow()函数:
+下面的程序说明了 C++ 中的 pow()函数:
 
 **实施例 1:-**
 

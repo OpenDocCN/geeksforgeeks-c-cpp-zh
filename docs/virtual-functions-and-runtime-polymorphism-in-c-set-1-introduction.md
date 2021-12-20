@@ -1,4 +1,4 @@
-# c++中的虚函数和运行时多态|集合 1(简介)
+# c++ 中的虚函数和运行时多态|集合 1(简介)
 
 > 原文:[https://www . geesforgeks . org/virtual-functions-and-runtime-多态-in-c-set-1-introduction/](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)
 
@@ -19,7 +19,7 @@
 
 类层次
 
-> **注意**:在 C++中，这意味着如果我们调用一个成员函数，那么它可能会导致一个不同的函数被执行，这取决于调用它的对象类型。
+> **注意**:在 C++ 中，这意味着如果我们调用一个成员函数，那么它可能会导致一个不同的函数被执行，这取决于调用它的对象类型。
 
 考虑以下简单程序作为[运行时多态性](https://www.geeksforgeeks.org/polymorphism-in-c/)的例子。该程序需要注意的主要问题是，派生类的函数是使用基类指针调用的。
 的想法是[虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)是根据指向或引用的对象实例的类型调用的，而不是根据指针或引用的类型调用的。
@@ -181,8 +181,8 @@ void globalRaiseSalary(Employee* emp[], int n)
 编译器在两个地方添加额外的代码来维护和使用 *vptr* 。
 **1)** 每个建造师都有代码。这段代码设置正在创建的对象的 vptr。该代码设置 *vptr* 指向该类的 *vtable* 。
 **2)** 具有多态函数调用的代码(如上述代码中的 *bp- > show()* )。无论在哪里进行多态调用，编译器都会插入代码，首先使用基类指针或引用来查找 *vptr* (在上面的示例中，由于被指向或引用的对象是派生类型，因此会访问派生类的 vptr)。一旦取出 *vptr* ，就可以访问派生类的 *vtable* 。使用 *vtable* ，访问并调用派生类函数 *show()* 的地址。
-**这是在 C++中实现运行时多态性的标准方式吗？**
-c++标准并没有明确规定运行时多态性必须如何实现，但是编译器通常在相同的基本模型上使用微小的变化。
+**这是在 C++ 中实现运行时多态性的标准方式吗？**
+c++ 标准并没有明确规定运行时多态性必须如何实现，但是编译器通常在相同的基本模型上使用微小的变化。
 [虚拟功能测验](https://www.geeksforgeeks.org/c-plus-plus-gq/virtual-functions-gq/)。
 **参考文献:**
 [http://en.wikipedia.org/wiki/Virtual_method_table](http://en.wikipedia.org/wiki/Virtual_method_table)

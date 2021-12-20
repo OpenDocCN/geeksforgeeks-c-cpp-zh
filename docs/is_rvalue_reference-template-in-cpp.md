@@ -1,4 +1,4 @@
-# 是 C++中的 _ rvalue _ reference Template
+# 是 C++ 中的 _ rvalue _ reference Template
 
 > 原文:[https://www . geesforgeks . org/is _ rvalue _ reference-template-in-CPP/](https://www.geeksforgeeks.org/is_rvalue_reference-template-in-cpp/)
 

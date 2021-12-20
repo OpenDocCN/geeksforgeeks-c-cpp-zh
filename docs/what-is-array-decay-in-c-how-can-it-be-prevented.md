@@ -1,4 +1,4 @@
-# 什么是 C++中的数组衰减？如何预防？
+# 什么是 C++ 中的数组衰减？如何预防？
 
 > 原文:[https://www . geeksforgeeks . org/什么是阵列衰减-in-c-如何防止/](https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented/)
 

@@ -1,8 +1,8 @@
-# 在 C++中，当在非虚函数内部调用虚函数时会发生什么
+# 在 C++ 中，当在非虚函数内部调用虚函数时会发生什么
 
 > 原文:[https://www . geesforgeks . org/恰巧-虚拟-函数-调用-内部-非虚拟-函数/](https://www.geeksforgeeks.org/happens-virtual-function-called-inside-non-virtual-function/)
 
-预测以下没有任何虚函数的简单 C++程序的输出。
+预测以下没有任何虚函数的简单 C++ 程序的输出。
 
 ```cpp
 #include <iostream>
@@ -51,7 +51,7 @@ Base class invoke function
 Base class print function
 ```
 
-由于没有[虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)，运行时多态行为在上面的代码中不起作用。现在预测下面 C++程序的输出。
+由于没有[虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)，运行时多态行为在上面的代码中不起作用。现在预测下面 C++ 程序的输出。
 
 ```cpp
 #include <iostream>

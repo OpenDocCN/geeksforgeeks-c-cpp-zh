@@ -51,7 +51,7 @@ int main()
     // Deque becomes empty
 
     // Printing the deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -114,7 +114,7 @@ int main()
     mydeque.erase(it);
 
     // Printing the deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -150,7 +150,7 @@ int main()
     mydeque.erase(it1, it2);
 
     // Printing the deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -195,11 +195,11 @@ int main()
  /* Not a good idea to erase inside loop, if you delete last element,
  mydeque.end() cannot be found resulting in infinite loop */
             mydeque.erase(i);
-        i++;       
+        i++ ;       
     }
 
     // Printing the deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

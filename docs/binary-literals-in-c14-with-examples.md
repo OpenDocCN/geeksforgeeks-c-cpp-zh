@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/binary-lithos-in-C14-with-examples/](https://www.geeksforgeeks.org/binary-literals-in-c14-with-examples/)
 
-在本文中，我们将讨论 C++14 中的二进制文字。
+在本文中，我们将讨论 C++ 14 中的二进制文字。
 
 在编写涉及数学求值或各种类型数字的程序时，我们通常喜欢用特定的前缀来指定每个数字类型，即 F 或**十六进制数**使用前缀**‘0x’**，对于**八进制数**使用前缀**‘0’**。下面是同样的程序来说明:
 

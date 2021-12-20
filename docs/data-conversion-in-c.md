@@ -1,4 +1,4 @@
-# c++中的数据转换
+# c++ 中的数据转换
 
 > 原文:[https://www.geeksforgeeks.org/data-conversion-in-c/](https://www.geeksforgeeks.org/data-conversion-in-c/)
 

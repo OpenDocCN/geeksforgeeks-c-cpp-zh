@@ -51,7 +51,7 @@ void printSet(set<int> myset)
     set<int>::iterator it;
 
     // printing all the elements of the set
-    for (it = myset.begin(); it != myset.end(); ++it)
+    for (it = myset.begin(); it != myset.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 }
@@ -66,8 +66,8 @@ void deleteRange(set<int> myset)
 
     // Get the starting Iterator at 3rd element
     set<int>::iterator start_itr = myset.begin();
-    start_itr++;
-    start_itr++;
+    start_itr++ ;
+    start_itr++ ;
 
     // Get the ending Iterator at 2nd last element
     set<int>::iterator end_itr = myset.end();

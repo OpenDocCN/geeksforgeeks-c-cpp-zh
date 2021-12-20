@@ -34,7 +34,7 @@ int* getFrequencies(string str)
     static int freq[26] = { 0 };
 
     for (int i = 0; i < str.length(); i++) {
-        freq[str[i] - 'a']++;
+        freq[str[i] - 'a']++ ;
     }
 
     return freq;
@@ -101,7 +101,7 @@ int countMinParts(string str)
         // Current character can no longer be an element
         // in a string other than the mid character
         if (oddFreq[i] == 1) {
-            i++;
+            i++ ;
             continue;
         }
 
@@ -142,7 +142,7 @@ public class GFG {
     {
         int freq[] = new int[26];
         for (int i = 0; i < str.length(); i++) {
-            freq[str.charAt(i) - 'a']++;
+            freq[str.charAt(i) - 'a']++ ;
         }
         return freq;
     }
@@ -208,7 +208,7 @@ public class GFG {
             // Current character can no longer be an element
             // in a string other than the mid character
             if (oddFreq.get(i) == 1) {
-                i++;
+                i++ ;
                 continue;
             }
 
@@ -360,7 +360,7 @@ class GFG
         int []freq = new int[26];
         for (int i = 0; i < str.Length; i++)
         {
-            freq[str[i] - 'a']++;
+            freq[str[i] - 'a']++ ;
         }
         return freq;
     }
@@ -431,7 +431,7 @@ class GFG
             // in a string other than the mid character
             if (oddFreq[i] == 1)
             {
-                i++;
+                i++ ;
                 continue;
             }
 
@@ -477,7 +477,7 @@ function getFrequencies(str)
     for(let i=0;i<26;i++)
         freq[i]=0;
         for (let i = 0; i < str.length; i++) {
-            freq[str[i].charCodeAt(0) - 'a'.charCodeAt(0)]++;
+            freq[str[i].charCodeAt(0) - 'a'.charCodeAt(0)]++ ;
         }
         return freq;
 }
@@ -542,7 +542,7 @@ function countMinParts(str)
             // Current character can no longer be an element
             // in a string other than the mid character
             if (oddFreq[i] == 1) {
-                i++;
+                i++ ;
                 continue;
             }
 

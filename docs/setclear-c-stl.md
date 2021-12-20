@@ -54,7 +54,7 @@ int main()
 
     // Printing the Set
     for (auto it = myset.begin();
-         it != myset.end(); ++it)
+         it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -84,7 +84,7 @@ int main()
 
     // Printing the Set
     for (auto it = myset.begin();
-         it != myset.end(); ++it)
+         it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

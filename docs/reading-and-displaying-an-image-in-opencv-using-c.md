@@ -1,8 +1,8 @@
-# 使用 C++在 OpenCV 中读取和显示图像
+# 使用 C++ 在 OpenCV 中读取和显示图像
 
 > 原文:[https://www . geesforgeks . org/reading-and-display-in-image-open cv-using-c/](https://www.geeksforgeeks.org/reading-and-displaying-an-image-in-opencv-using-c/)
 
-在本文中，我们将讨论如何在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [OpenCV(开源计算机视觉)](https://www.geeksforgeeks.org/top-7-most-popular-computer-vision-tools-in-2020/)打开图像。与 python 不同，C++中不需要任何额外的库。OpenCV C++自带这个神奇的图像容器 Mat，可以为我们处理一切。从标准 C++程序中看到的唯一变化是包含了**命名空间** **cv** ，它包含了所有的 OpenCV 函数、[类](https://www.geeksforgeeks.org/c-classes-and-objects/)和[数据结构](https://www.geeksforgeeks.org/data-structures/)。在 OPenCV 中读取和显示图像需要以下功能:
+在本文中，我们将讨论如何在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中使用 [OpenCV(开源计算机视觉)](https://www.geeksforgeeks.org/top-7-most-popular-computer-vision-tools-in-2020/)打开图像。与 python 不同，C++ 中不需要任何额外的库。OpenCV C++ 自带这个神奇的图像容器 Mat，可以为我们处理一切。从标准 C++ 程序中看到的唯一变化是包含了**命名空间** **cv** ，它包含了所有的 OpenCV 函数、[类](https://www.geeksforgeeks.org/c-classes-and-objects/)和[数据结构](https://www.geeksforgeeks.org/data-structures/)。在 OPenCV 中读取和显示图像需要以下功能:
 
 **<u>imread()</u> :** 该函数用于读取图像，取以下 2 个参数:
 
@@ -22,7 +22,7 @@
 **<u>imshow()</u> :** 此功能用于显示图像，取以下两个参数:
 
 *   **winname** 或**窗口名称:**这是显示图像的窗口标题，类型为字符串。
-*   **图像:**这是要显示的图像。它的类型是 **Mat** ，C++图像容器。
+*   **图像:**这是要显示的图像。它的类型是 **Mat** ，C++ 图像容器。
 
 **输出:**创建显示图像的窗口。
 

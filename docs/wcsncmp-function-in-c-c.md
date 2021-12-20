@@ -1,8 +1,8 @@
-# wcsncmp()函数在 C/C++中
+# wcsncmp()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcsncmp-function-in-c-c/](https://www.geeksforgeeks.org/wcsncmp-function-in-c-c/)
 
-C/C++中的 **wcsncmp()** 函数比较两个宽字符串的字符。比较是按字典顺序进行的。该函数接受三个参数 **lhs** 、 **rhs** 和 **count** 。它将 **lhs** 和 **rhs** 的内容按字典顺序进行比较，最大计数为宽字符。
+C/C++ 中的 **wcsncmp()** 函数比较两个宽字符串的字符。比较是按字典顺序进行的。该函数接受三个参数 **lhs** 、 **rhs** 和 **count** 。它将 **lhs** 和 **rhs** 的内容按字典顺序进行比较，最大计数为宽字符。
 
 **注意:**如果 **lhs** 或 **rhs** 没有指向空终止的宽字符串，则 **wcsncmp()** 的行为未定义。
 

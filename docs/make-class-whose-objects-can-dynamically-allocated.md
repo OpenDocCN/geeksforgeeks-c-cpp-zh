@@ -1,4 +1,4 @@
-# 如何制作一个对象只能动态分配的 C++类？
+# 如何制作一个对象只能动态分配的 C++ 类？
 
 > 原文:[https://www . geesforgeks . org/make-class-其对象可以动态分配/](https://www.geeksforgeeks.org/make-class-whose-objects-can-dynamically-allocated/)
 

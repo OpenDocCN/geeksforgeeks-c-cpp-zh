@@ -1,15 +1,15 @@
-# C++字符串类及其应用|集合 2
+# C++ 字符串类及其应用|集合 2
 
 > 原文:[https://www . geesforgeks . org/c-string-class-applications-set-2/](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
 
 我们已经在下面的集合 1 中讨论了 String 类及其一些函数。
 
-[C++字符串类及其应用|集合 1](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
+[C++ 字符串类及其应用|集合 1](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
 
 本文将讨论更多的函数
 
 **字符串 vs 字符数组**
-在 C++中，除了字符数组之外，还有一种类似的实现字符串的方式，那就是使用字符串类，它是 C++标准库的一部分。要使用字符串类实现字符串，我们需要添加头文件**。字符数组和字符串的基本区别是，在字符数组的情况下，大小必须在声明时分配，即一旦分配，所有内存都是固定的，不能在运行时更改。而对于 string，在声明时不需要指定大小和分配固定内存。**
+在 C++ 中，除了字符数组之外，还有一种类似的实现字符串的方式，那就是使用字符串类，它是 C++ 标准库的一部分。要使用字符串类实现字符串，我们需要添加头文件**。字符数组和字符串的基本区别是，在字符数组的情况下，大小必须在声明时分配，即一旦分配，所有内存都是固定的，不能在运行时更改。而对于 string，在声明时不需要指定大小和分配固定内存。**
 
 ```cpp
 // C++ program to demonstrate Character Array

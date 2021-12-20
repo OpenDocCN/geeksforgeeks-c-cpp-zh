@@ -60,7 +60,7 @@ Explanation : 3 + 0*19 + 0*4 + 0*1 = 3,
 
 ```
 
-**示例 1:c++程序中的 gslice 示例:**
+**示例 1:c++ 程序中的 gslice 示例:**
 
 ```cpp
 // C++ Program to test the 
@@ -73,7 +73,7 @@ int main ()
 {
   //valarray sample of size 14
   std::valarray<int> sample (14);
-  for (int i=0; i<14; ++i) sample[i]=i;
+  for (int i=0; i<14; ++ i) sample[i]=i;
 
   std::size_t start=1;
   std::size_t lengths[]= {2,3};
@@ -120,9 +120,9 @@ gslice: 1 3 5 8 10 12
 #include <valarray> // std::gslice
 void test_print(std::valarray<int>& v, int rows, int cols, int planes)
 {
-    for(int r=0; r<rows; ++r) {
-        for(int c=0; c<cols; ++c) {
-            for(int z=0; z<planes; ++z)
+    for(int r=0; r<rows; ++ r) {
+        for(int c=0; c<cols; ++ c) {
+            for(int z=0; z<planes; ++ z)
                 std::cout << v[r*cols*planes + c*planes + z] << ' ';
             std::cout << '\n';
         }

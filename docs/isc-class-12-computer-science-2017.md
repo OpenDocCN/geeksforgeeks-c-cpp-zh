@@ -473,7 +473,7 @@ public class Queue {
         = v;
     else System.out.println("Overflow");
 }
-int delele() if (f != r) return Que[++f];
+int delele() if (f != r) return Que[++ f];
 else return -9999;
 ```
 
@@ -502,7 +502,7 @@ int CountOdd(Node startPtr)
     Node temp = new Node(startPtr);
     while (temp != null) {
         if (temp.num % 2 != 0)
-            c++;
+            c++ ;
         temp = temp.next;
         return c;
 ```

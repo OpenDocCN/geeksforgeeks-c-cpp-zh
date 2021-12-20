@@ -43,7 +43,7 @@
         // prints the elements
         cout << "\nThe multimap is : \n";
         cout << "KEY\tELEMENT\n";
-        for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+        for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
             cout << itr->first
                  << '\t' << itr->second << '\n';
         }

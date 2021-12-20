@@ -13,7 +13,7 @@
 
 **<u>转发列表</u>**
 
-[**<u>正向列表</u>**](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 在 STL 中实现单链表。前向列表是从 C++11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。与[<u>列表</u>](https://www.geeksforgeeks.org/list-cpp-stl/) 的不同之处在于前进列表仅跟踪下一个元素的位置，而列表跟踪下一个和上一个元素的，从而增加了存储每个元素所需的存储空间。 a 正向列表的缺点是不能迭代反向，不能直接访问其单个元素。
+[**<u>正向列表</u>**](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 在 STL 中实现单链表。前向列表是从 C++ 11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。与[<u>列表</u>](https://www.geeksforgeeks.org/list-cpp-stl/) 的不同之处在于前进列表仅跟踪下一个元素的位置，而列表跟踪下一个和上一个元素的，从而增加了存储每个元素所需的存储空间。 a 正向列表的缺点是不能迭代反向，不能直接访问其单个元素。
 当只需要正向遍历时列表优先于列表(与单链表优先于双链表相同)，因为我们可以节省空间。一些例子是，散列中的链接，图的邻接表表示等。
 
 **与转发列表一起使用的功能:**

@@ -1,8 +1,8 @@
-# wcsrchr()函数在 C/C++中
+# wcsrchr()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcsrchr-function-in-c-c/](https://www.geeksforgeeks.org/wcsrchr-function-in-c-c/)
 
-**wcsrchr()** 函数是 C/C++中的一个内置函数，用于搜索宽字符串中最后出现的宽字符。它在 C++中的**cwcchar**头文件中定义。
+**wcsrchr()** 函数是 C/C++ 中的一个内置函数，用于搜索宽字符串中最后出现的宽字符。它在 C++ 中的**cwcchar**头文件中定义。
 
 **语法**:
 

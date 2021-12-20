@@ -1,4 +1,4 @@
-# std::iter_swap 在 C++中
+# std::iter_swap 在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stditer_swap-in-cpp/](https://www.geeksforgeeks.org/stditer_swap-in-cpp/)
 
@@ -30,7 +30,7 @@ int main()
     vector<int> v1;
     int i;
 
-    for (i = 0; i < 10; ++i) {
+    for (i = 0; i < 10; ++ i) {
         v1.push_back(i);
     }
     // v1 contains 0 1 2 3 4 5 6 7 8 9
@@ -45,7 +45,7 @@ int main()
     std::iter_swap(i1, i2);
 
     // Displaying v1 after swapping
-    for (i = 0; i < 10; ++i) {
+    for (i = 0; i < 10; ++ i) {
         cout << v1[i] << " ";
     }
 
@@ -77,7 +77,7 @@ int main()
         while ((first != last) && (first != --last)) 
         {
             std::iter_swap(first, last);
-            ++first;
+            ++ first;
         }
     }
     ```

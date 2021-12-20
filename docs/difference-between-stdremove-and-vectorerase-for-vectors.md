@@ -49,7 +49,7 @@ int main()
 
     // Print the vector after std :: remove
     std::cout << "Range contains:";
-    for (std::vector<int>::iterator p = vec.begin(); p != pend; ++p)
+    for (std::vector<int>::iterator p = vec.begin(); p != pend; ++ p)
         std::cout << ' ' << *p; std::cout << '\n';
 
             // Print original vector

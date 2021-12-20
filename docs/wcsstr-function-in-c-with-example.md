@@ -1,4 +1,4 @@
-# wcsstr()函数在 C++中用示例
+# wcsstr()函数在 C++ 中用示例
 
 > 原文:[https://www . geesforgeks . org/wcsstr-function-in-c-with-example/](https://www.geeksforgeeks.org/wcsstr-function-in-c-with-example/)
 

@@ -1,8 +1,8 @@
-# c++下界()方法的 Java 等价物
+# c++ 下界()方法的 Java 等价物
 
 > 原文:[https://www . geesforgeks . org/Java-等价于-CPP-下界 _ 方法/](https://www.geeksforgeeks.org/java-equivalent-of-cpp-lower_bound-method/)
 
-C++的[下界()](https://www.geeksforgeeks.org/lower_bound-in-cpp/)方法返回[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)中第一个元素的索引，其值不小于 key。这意味着该函数返回仅大于或等于下一个最小数字的索引。如果有多个值等于该数，lower_bound()将返回第一个值的索引。
+C++ 的[下界()](https://www.geeksforgeeks.org/lower_bound-in-cpp/)方法返回[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)中第一个元素的索引，其值不小于 key。这意味着该函数返回仅大于或等于下一个最小数字的索引。如果有多个值等于该数，lower_bound()将返回第一个值的索引。
 
 **示例:**
 
@@ -66,7 +66,7 @@ class GFG {
 
             // If key is lesser than current value
             if (key > array[lowerBound])
-                lowerBound++;
+                lowerBound++ ;
 
             // This is either the first occurrence of key
             // or value just greater than key
@@ -168,7 +168,7 @@ public class GFG {
         // array[n-1] then lower bound
         // does not exists in the array
         if (low < array.length && array[low] < key) {
-            low++;
+            low++ ;
         }
 
         // Returning the lower_bound index

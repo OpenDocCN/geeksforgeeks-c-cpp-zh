@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/power-function-cc/](https://www.geeksforgeeks.org/power-function-cc/)
 
-给定两个基数和指数，pow()函数找到 x 的 y 次方，即 x <sup>y</sup> 。基本上在 C 中，指数值是用幂()函数计算的。pow()是获取一个数的幂的函数，但是我们必须在 c/c++中使用#include < math.h >才能使用那个 pow()函数。然后传递两个数字。示例–pow(4，2)；然后我们将得到 4^2 的结果，这是 16。
+给定两个基数和指数，pow()函数找到 x 的 y 次方，即 x <sup>y</sup> 。基本上在 C 中，指数值是用幂()函数计算的。pow()是获取一个数的幂的函数，但是我们必须在 c/c++ 中使用#include < math.h >才能使用那个 pow()函数。然后传递两个数字。示例–pow(4，2)；然后我们将得到 4^2 的结果，这是 16。
 **例:**
 
 ```cpp

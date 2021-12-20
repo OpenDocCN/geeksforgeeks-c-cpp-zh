@@ -1,8 +1,8 @@
-# c++中的三元图，带示例
+# c++ 中的三元图，带示例
 
 > 原文:[https://www.geeksforgeeks.org/trigraphs-in-c-with-examples/](https://www.geeksforgeeks.org/trigraphs-in-c-with-examples/)
 
-在 C++中，**三元组**是一个表示单个字符的**三字符序列**。意思是**三字序列**是从双问号(？？).这些字符是用一个称为三元组的 3 个字符的序列构成的，这组字符被一个单独的字符代替。
+在 C++ 中，**三元组**是一个表示单个字符的**三字符序列**。意思是**三字序列**是从双问号(？？).这些字符是用一个称为三元组的 3 个字符的序列构成的，这组字符被一个单独的字符代替。
 
 <figure class="table">|||
 

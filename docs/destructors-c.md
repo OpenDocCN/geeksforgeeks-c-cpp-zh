@@ -1,4 +1,4 @@
-# c++中的析构函数
+# c++ 中的析构函数
 
 > 原文:[https://www.geeksforgeeks.org/destructors-c/](https://www.geeksforgeeks.org/destructors-c/)
 
@@ -67,7 +67,7 @@ String::~String() { delete[] s; }
 你可能想参加一个关于析构函数的[测验。](https://www.geeksforgeeks.org/c-plus-plus-gq/destructors-gq/)
 
 **相关文章:**
-[c++中的构造函数](https://www.geeksforgeeks.org/constructors-c/)
+[c++ 中的构造函数](https://www.geeksforgeeks.org/constructors-c/)
 [虚拟析构函数](https://www.geeksforgeeks.org/virtual-destructor/)
-[c++中的纯虚拟析构函数](https://www.geeksforgeeks.org/pure-virtual-destructor-c/)
+[c++ 中的纯虚拟析构函数](https://www.geeksforgeeks.org/pure-virtual-destructor-c/)
 如发现有不正确的地方请写评论，或者想分享以上讨论话题的更多信息。

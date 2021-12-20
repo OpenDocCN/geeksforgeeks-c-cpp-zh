@@ -1,8 +1,8 @@
-# 如何在 C++中访问类外的私有/受保护方法
+# 如何在 C++ 中访问类外的私有/受保护方法
 
 > 原文:[https://www . geeksforgeeks . org/如何访问-私有-受保护-方法-c 中类外/](https://www.geeksforgeeks.org/how-to-access-private-protected-method-outside-a-class-in-c/)
 
-**先决条件:**[c++中的访问修饰符](https://www.geeksforgeeks.org/access-modifiers-in-c/)[运行时多态性](https://www.geeksforgeeks.org/polymorphism-in-c/)
+**先决条件:**[c++ 中的访问修饰符](https://www.geeksforgeeks.org/access-modifiers-in-c/)[运行时多态性](https://www.geeksforgeeks.org/polymorphism-in-c/)
 
 **Private:** 声明为 *private 的类成员*只能被类内部的函数访问。不允许类外的任何对象或函数直接访问它们。只允许成员函数或[朋友函数](https://www.geeksforgeeks.org/friend-class-function-cpp/)访问一个类的私有数据成员。
 

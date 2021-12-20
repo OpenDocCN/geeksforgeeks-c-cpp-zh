@@ -1,8 +1,8 @@
-# STD::uniform _ int _ distribution b()方法用 C++举例
+# STD::uniform _ int _ distribution b()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ int _ distribution-B- method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_int_distribution-b-method-in-c-with-examples/)
 
-用 C++中**均匀 int 分布**类的 **b()** 方法得到这个均匀 int 分布的上界。如果没有上限，则该方法返回**标准::数值 _ 限制::最大值()**。
+用 C++ 中**均匀 int 分布**类的 **b()** 方法得到这个均匀 int 分布的上界。如果没有上限，则该方法返回**标准::数值 _ 限制::最大值()**。
 
 **语法:**
 

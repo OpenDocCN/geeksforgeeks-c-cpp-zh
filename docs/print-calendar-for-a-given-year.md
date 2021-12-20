@@ -1,4 +1,4 @@
-# 用 C++打印给定年份的日历
+# 用 C++ 打印给定年份的日历
 
 > 原文:[https://www . geesforgeks . org/print-给定年份日历/](https://www.geeksforgeeks.org/print-calendar-for-a-given-year/)
 
@@ -173,7 +173,7 @@ void printCalendar(int year)
         {
             printf("%5d", j);
 
-            if (++k > 6)
+            if (++ k > 6)
             {
                 k = 0;
                 printf("\n");

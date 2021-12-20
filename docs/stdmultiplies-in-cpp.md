@@ -1,4 +1,4 @@
-# 标准::C++中的乘法
+# 标准::C++ 中的乘法
 
 > 原文:[https://www.geeksforgeeks.org/stdmultiplies-in-cpp/](https://www.geeksforgeeks.org/stdmultiplies-in-cpp/)
 

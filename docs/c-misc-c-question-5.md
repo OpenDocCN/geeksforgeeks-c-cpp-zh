@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-misc-c-question-5/](https://www.geeksforgeeks.org/c-misc-c-question-5/)
 
-我们怎样才能创建一个 C++类，使得它的对象只能用新的操作符来创建？
+我们怎样才能创建一个 C++ 类，使得它的对象只能用新的操作符来创建？
 
 如果用户试图直接创建一个对象，程序会产生编译器错误。
 **(A)** 不可能

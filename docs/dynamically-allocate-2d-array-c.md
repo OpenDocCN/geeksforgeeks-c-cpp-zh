@@ -72,7 +72,7 @@ int main()
     count = 0;
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
-            arr[i][j] = ++count; // Or *(*(arr+i)+j) = ++count
+            arr[i][j] = ++ count; // Or *(*(arr+i)+j) = ++ count
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
@@ -115,7 +115,7 @@ int main()
     count = 0;
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
-            arr[i][j] = ++count; // OR *(*(arr+i)+j) = ++count
+            arr[i][j] = ++ count; // OR *(*(arr+i)+j) = ++ count
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
@@ -165,7 +165,7 @@ int main()
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
-            arr[i][j] = ++count; // OR *(*(arr+i)+j) = ++count
+            arr[i][j] = ++ count; // OR *(*(arr+i)+j) = ++ count
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
@@ -204,7 +204,7 @@ int main()
     count = 0;
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
-            (*arr)[i][j] = ++count;
+            (*arr)[i][j] = ++ count;
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
@@ -235,7 +235,7 @@ int main()
     count = 0;
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)
-            arr[i][j] = ++count;
+            arr[i][j] = ++ count;
 
     for (i = 0; i < r; i++)
         for (j = 0; j < c; j++)

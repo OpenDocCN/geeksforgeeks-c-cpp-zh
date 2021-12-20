@@ -1,8 +1,8 @@
-# 编译器什么时候在 C++中创建和复制默认构造函数？
+# 编译器什么时候在 C++ 中创建和复制默认构造函数？
 
 > 原文:[https://www . geesforgeks . org/do-编译器-总是-创建-复制-构造器/](https://www.geeksforgeeks.org/does-compiler-always-create-a-copy-constructor/)
 
-在 C++中，如果我们不定义自己的构造函数，编译器会创建一个[默认构造函数](http://en.wikipedia.org/wiki/Default_constructor)(参见[这个](https://www.geeksforgeeks.org/g-fact-26/))。编译器创建的默认构造函数体为空，即不为数据成员赋予默认值([在 java 中，默认构造函数赋予默认值](https://www.geeksforgeeks.org/g-fact-50/))。
+在 C++ 中，如果我们不定义自己的构造函数，编译器会创建一个[默认构造函数](http://en.wikipedia.org/wiki/Default_constructor)(参见[这个](https://www.geeksforgeeks.org/g-fact-26/))。编译器创建的默认构造函数体为空，即不为数据成员赋予默认值([在 java 中，默认构造函数赋予默认值](https://www.geeksforgeeks.org/g-fact-50/))。
 
 如果我们不编写自己的复制构造函数，编译器也会创建一个复制构造函数。与默认构造函数不同，编译器创建的复制构造函数的主体不是空的，它将传递对象的所有数据成员复制到正在创建的对象。
 

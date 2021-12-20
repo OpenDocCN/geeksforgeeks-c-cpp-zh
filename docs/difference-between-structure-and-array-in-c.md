@@ -10,7 +10,7 @@
 
 ### [结构在 C](https://www.geeksforgeeks.org/structures-c/)
 
-A [结构](https://www.geeksforgeeks.org/structures-c/)是 C/C++中用户自定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。
+A [结构](https://www.geeksforgeeks.org/structures-c/)是 C/C++ 中用户自定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。
 
 ![](img/a6704d86c3eb342c495c08554c6774d4.png)
 

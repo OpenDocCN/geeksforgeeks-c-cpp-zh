@@ -3,7 +3,7 @@
 > 原文:[https://www . geeksforgeeks . org/2d-vector-in-CPP-带有用户定义的大小/](https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/)
 
 2D 矢量是矢量的[矢量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)。像 2D 数组一样，我们可以声明并赋值给 2D 向量！
-假设你熟悉 C++中的法向量，借助一个例子，我们演示 2D 向量与法向量的区别如下:
+假设你熟悉 C++ 中的法向量，借助一个例子，我们演示 2D 向量与法向量的区别如下:
 
 ## C++
 

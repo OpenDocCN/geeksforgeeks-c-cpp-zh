@@ -1,8 +1,8 @@
-# 如何用 C++中的 STL 求数组的最大元素？
+# 如何用 C++ 中的 STL 求数组的最大元素？
 
 > 原文:[https://www . geesforgeks . org/如何使用 c 语言中的 stl 找到数组的最大元素/](https://www.geeksforgeeks.org/how-to-find-the-maximum-element-of-an-array-using-stl-in-c/)
 
-给定一个数组 arr[]，用 C++中的 STL 找到这个数组的最大元素。
+给定一个数组 arr[]，用 C++ 中的 STL 找到这个数组的最大元素。
 
 **例:**
 

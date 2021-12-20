@@ -1,4 +1,4 @@
-# c++中的 sqrt、sqrtl 和 sqrtf
+# c++ 中的 sqrt、sqrtl 和 sqrtf
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/sqrt-sqrtl-sqrtf-CPP/
 

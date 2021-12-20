@@ -1,4 +1,4 @@
-# 标准::basic_istream::getline 用 C++举例
+# 标准::basic_istream::getline 用 C++ 举例
 
 > 原文:[https://www . geeksforgeeks . org/stdbasic _ is treamgetline-in-c-with-examples/](https://www.geeksforgeeks.org/stdbasic_istreamgetline-in-c-with-examples/)
 

@@ -1,9 +1,9 @@
-# c++中的输入迭代器
+# c++ 中的输入迭代器
 
 > 原文:[https://www.geeksforgeeks.org/input-iterators-in-cpp/](https://www.geeksforgeeks.org/input-iterators-in-cpp/)
 
 浏览了 [**std::find**](https://www.geeksforgeeks.org/stdfind-in-c/) 、[T5】STD::equal](https://www.geeksforgeeks.org/stdequal-in-cpp/)、 [**std::count**](https://www.geeksforgeeks.org/std-count-cpp-stl/) 等各种 STL 算法的模板定义后，您一定找到了它们的模板定义，该模板定义由类型为**的对象组成输入迭代器**。那么它们是什么，为什么被使用？
-**输入迭代器**是 C++标准库中存在的五种主要迭代器类型之一，其他的还有 [**输出迭代器**](https://www.geeksforgeeks.org/output-iterators-c/)[**正向迭代器**](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)[**双向迭代器**](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)**和 [**随机访问迭代器**](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/) 。
+**输入迭代器**是 C++ 标准库中存在的五种主要迭代器类型之一，其他的还有 [**输出迭代器**](https://www.geeksforgeeks.org/output-iterators-c/)[**正向迭代器**](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)[**双向迭代器**](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)**和 [**随机访问迭代器**](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/) 。
 输入迭代器被认为是所有可用迭代器中最弱的**和最简单的**，这是基于它们的功能和使用它们可以实现的目标。它们是可以在顺序输入操作中使用的迭代器，其中迭代器指向的每个值只读一次，然后迭代器递增。****** 
 
 ******![](img/4ee94c1e4b4b22bb10c8ac1fb40cf559.png)******
@@ -36,7 +36,7 @@ A -> m   // Accessing a member element m**
 
 ```cpp
 **A++   // Using post increment operator
-++A   // Using pre increment operator** 
+++ A   // Using pre increment operator** 
 ```
 
 ******可交换:**这些迭代器指向的值可以交换或互换。****
@@ -57,7 +57,7 @@ InputIterator find (InputIterator first, InputIterator last, 
     while (first!=last) 
     {
         if (*first==val) return first;
-        ++first;
+        ++ first;
     }
     return last;
 }**
@@ -74,7 +74,7 @@ OutputIterator copy(InputIterator first, InputIterator last,
                     OutputIterator result) 
 {
     while (first != last) 
-    *result++ = *first++;
+    *result++ = *first++ ;
     return result;
 }**
 ```
@@ -100,7 +100,7 @@ int main()
     // Declaring an iterator
     vector<int>::iterator i1;
 
-    for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+    for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
         // Accessing elements using iterator
         cout << (*i1) << " ";
     }

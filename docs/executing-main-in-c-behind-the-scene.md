@@ -1,4 +1,4 @@
-# 在 C/C++中执行 main()–场景后面
+# 在 C/C++ 中执行 main()–场景后面
 
 > 原文:[https://www . geesforgeks . org/executing-main-in-c-幕后/](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/)
 
@@ -13,7 +13,7 @@
 *   GCC 5.4.0 编译器
 *   objdump 实用程序
 
-从 C/C++编程角度来看，程序入口点是 main()函数。然而，从程序执行的角度来看，它不是。在执行流程到达 main()之前，很少调用其他函数，这些函数设置参数，为程序执行准备环境变量等。
+从 C/C++ 编程角度来看，程序入口点是 main()函数。然而，从程序执行的角度来看，它不是。在执行流程到达 main()之前，很少调用其他函数，这些函数设置参数，为程序执行准备环境变量等。
 
 C 源代码编译后创建的可执行文件是[可执行可链接格式(ELF)文件](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)。
 每个 ELF 文件都有一个 ELF 头，其中有一个 **e_entry** 字段，包含程序内存地址，可执行文件将从该地址开始执行。该内存地址指向 **_start()** 功能。
@@ -148,7 +148,7 @@ libc_start_main()函数的作用如下–
     **参考文献**
 
     *   [http://DBP-consulting . com/教程/调试/linuxProgramStartup.html](http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html)
-    *   米兰·斯蒂凡诺维奇的高级 C/C++编译
+    *   米兰·斯蒂凡诺维奇的高级 C/C++ 编译
 
     本文由 **[阿图尔·库马尔](https://www.facebook.com/atul.kr.007)** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

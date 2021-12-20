@@ -34,7 +34,7 @@ int main()
 
     // Prints the deque elements
     cout << "The contents of deque :";
-    for (auto it = dq.begin(); it != dq.end(); ++it)
+    for (auto it = dq.begin(); it != dq.end(); ++ it)
         cout << *it << " ";
 
     cout << endl;
@@ -46,7 +46,7 @@ int main()
     cout << "Size after resize " << dq.size() << "\n";
 
     cout << "The contents of deque :";
-    for (auto it = dq.begin(); it != dq.end(); ++it)
+    for (auto it = dq.begin(); it != dq.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -79,7 +79,7 @@ int main()
 
     // Prints the deque elements
     cout << "The contents of deque :";
-    for (auto it = dq.begin(); it != dq.end(); ++it)
+    for (auto it = dq.begin(); it != dq.end(); ++ it)
         cout << *it << " ";
 
     cout << endl;
@@ -90,7 +90,7 @@ int main()
     cout << "Size after resize " << dq.size() << "\n";
 
     cout << "The contents of deque :";
-    for (auto it = dq.begin(); it != dq.end(); ++it)
+    for (auto it = dq.begin(); it != dq.end(); ++ it)
         cout << *it << " ";
 
     return 0;

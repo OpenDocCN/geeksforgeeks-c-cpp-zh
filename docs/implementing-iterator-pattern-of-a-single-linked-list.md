@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/implementing-iterator-pattern-of-a-single-link-list/](https://www.geeksforgeeks.org/implementing-iterator-pattern-of-a-single-linked-list/)
 
-STL 是 C++的支柱之一。它让生活变得容易得多，尤其是当你专注于解决问题，而你不想花时间去实现已经存在的东西，这保证了一个健壮的解决方案。软件工程的一个关键方面是避免重新发明轮子。可重用性始终是**的首选。**
+STL 是 C++ 的支柱之一。它让生活变得容易得多，尤其是当你专注于解决问题，而你不想花时间去实现已经存在的东西，这保证了一个健壮的解决方案。软件工程的一个关键方面是避免重新发明轮子。可重用性始终是**的首选。**
 
 **虽然依赖库函数直接影响我们的效率，但如果没有正确理解库函数是如何工作的，有时就会失去我们一直谈论的工程效率的意义。错误选择的数据结构可能会在未来某个时候再次困扰我们。解决方法很简单。使用库方法，但知道它如何处理幕后操作。**
 
@@ -27,7 +27,7 @@ int main()
 
     // elements of list are retrieved through iterator.
     for (vector<int>::iterator it = list.begin();
-                                it != list.end(); ++it)
+                                it != list.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -149,7 +149,7 @@ public class GFG {
 1 2 3
 ```
 
-****cin** 和 **cout** 的优点之一是它们不需要格式说明符来处理数据类型。这与模板相结合，使得代码更加清晰易读。虽然我更喜欢 C++中的命名方法以大写字母开头，但是这个实现遵循 STL 规则来模仿确切的方法调用集，即 push_back、begin、end。**
+****cin** 和 **cout** 的优点之一是它们不需要格式说明符来处理数据类型。这与模板相结合，使得代码更加清晰易读。虽然我更喜欢 C++ 中的命名方法以大写字母开头，但是这个实现遵循 STL 规则来模仿确切的方法调用集，即 push_back、begin、end。**
 
 **下面是我们自己的 LinkedList 及其迭代器模式的实现:**
 

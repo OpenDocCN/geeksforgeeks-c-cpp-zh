@@ -1,4 +1,4 @@
-# C/c++中的 fseek()，示例
+# C/c++ 中的 fseek()，示例
 
 > 原文:[https://www.geeksforgeeks.org/fseek-in-c-with-example/](https://www.geeksforgeeks.org/fseek-in-c-with-example/)
 

@@ -1,8 +1,8 @@
-# 使用 STL 在 C++中数组积
+# 使用 STL 在 C++ 中数组积
 
 > 原文:[https://www.geeksforgeeks.org/array-product-c-using-stl/](https://www.geeksforgeeks.org/array-product-c-using-stl/)
 
-在 C++中，我们可以使用[累加()](https://www.geeksforgeeks.org/numeric-header-in-c-stl-set-1-accumulate-and-partial_product/)和乘法<T4()快速找到数组乘积。
+在 C++ 中，我们可以使用[累加()](https://www.geeksforgeeks.org/numeric-header-in-c-stl-set-1-accumulate-and-partial_product/)和乘法<T4()快速找到数组乘积。
 
 initialProduct 指定要考虑的初始值。
 

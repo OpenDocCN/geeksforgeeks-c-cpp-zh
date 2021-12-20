@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/islessgreater-in-cc/](https://www.geeksforgeeks.org/islessgreater-in-cc/)
 
-在 C++中，islessgreater()是用于数学计算的预定义函数。math.h 是各种数学函数所需的头文件。
+在 C++ 中，islessgreater()是用于数学计算的预定义函数。math.h 是各种数学函数所需的头文件。
 islesslater()函数用于检查给函数的第一个参数是否小于或大于给函数的第二个参数。意思是如果 **a** 是第一个参数， **b** 是第二个参数，则检查 **a > b || a < b** 是否存在。
 **语法:**
 

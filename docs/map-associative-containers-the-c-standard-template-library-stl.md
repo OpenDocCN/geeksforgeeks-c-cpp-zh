@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的映射
+# c++ 标准模板库(STL)中的映射
 
 > 原文:[https://www . geesforgeks . org/map-associative-containers-the-c-standard-template-library-STL/](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
 
@@ -41,7 +41,7 @@ int main()
     map<int, int>::iterator itr;
     cout << "\nThe map gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++itr) {
+    for (itr = gquiz1.begin(); itr != gquiz1.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -54,7 +54,7 @@ int main()
     cout << "\nThe map gquiz2 after"
          << " assign from gquiz1 is : \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -66,7 +66,7 @@ int main()
             " elements less than key=3 : \n";
     cout << "\tKEY\tELEMENT\n";
     gquiz2.erase(gquiz2.begin(), gquiz2.find(3));
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -77,7 +77,7 @@ int main()
     cout << "\ngquiz2.erase(4) : ";
     cout << num << " removed \n";
     cout << "\tKEY\tELEMENT\n";
-    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) {
+    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++ itr) {
         cout << '\t' << itr->first
              << '\t' << itr->second << '\n';
     }

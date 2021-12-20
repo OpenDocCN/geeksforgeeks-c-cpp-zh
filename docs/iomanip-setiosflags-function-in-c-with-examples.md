@@ -1,8 +1,8 @@
-# iomanip setiosflags()函数在 C++中的使用示例
+# iomanip setiosflags()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/iomanip-setios flags-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-setiosflags-function-in-c-with-examples/)
 
-C++中 **iomanip 库**的 setiosflags **()** 方法用于设置指定为该方法参数的 ios 库格式标志。
+C++ 中 **iomanip 库**的 setiosflags **()** 方法用于设置指定为该方法参数的 ios 库格式标志。
 **语法:**
 
 ```cpp

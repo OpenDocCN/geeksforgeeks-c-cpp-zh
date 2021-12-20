@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/stdmin max-stdmin max _ element-c-STL/](https://www.geeksforgeeks.org/stdminmax-stdminmax_element-c-stl/)
 
-C++定义的函数使用不同的函数来获取 2 或容器中的最小和最大元素。但是也有一些函数是使用单一函数来获得最小和最大元素的，“ **minmax()** ”函数为我们完成了这个任务。该功能在**算法**头文件中定义。本文将讨论其实现和其他相关功能。
+C++ 定义的函数使用不同的函数来获取 2 或容器中的最小和最大元素。但是也有一些函数是使用单一函数来获得最小和最大元素的，“ **minmax()** ”函数为我们完成了这个任务。该功能在**算法**头文件中定义。本文将讨论其实现和其他相关功能。
 
 1.  **Minimum maximum (a, b):** This function **returns a pair of** , where the first element of **is the minimum** of **of the two elements, and the second** element of **is **of the two elements.****
 2.  **minmax(元素数组):**该函数返回类似于第一版。唯一不同的是，在这个版本中，**接受的参数是整数/字符串列表**，其中获得了最大值和最小值。在我们需要在列表中找到最大和最小元素而不排序的情况下很有用。

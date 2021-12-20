@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-89/](https://www.geeksforgeeks.org/g-fact-89/)
 
-在 C++中，如果派生类重新定义基类成员方法，那么所有同名的基类方法都将隐藏在派生类中。
+在 C++ 中，如果派生类重新定义基类成员方法，那么所有同名的基类方法都将隐藏在派生类中。
 比如下面的程序不编译。在下面的程序中，派生类重新定义了 Base 的 fun()方法，这使得 fun(int i)隐藏起来。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

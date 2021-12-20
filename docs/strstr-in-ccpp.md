@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/strstr-in-ccpp/](https://www.geeksforgeeks.org/strstr-in-ccpp/)
 
-在 C++中，STD::strtr()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
+在 C++ 中，STD::strtr()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
 
 该函数以两个字符串 **s1** 和 **s2** 为自变量，找到子字符串 **s2** 在字符串 **s1** 中的第一次出现。匹配过程不包括终止的空字符(“\0”)，但函数就此结束。
 

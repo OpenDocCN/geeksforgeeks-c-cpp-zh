@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/map-policy-based-data-structure-in-g/](https://www.geeksforgeeks.org/map-policy-based-data-structure-in-g/)
 
-g++编译器支持一些数据结构，但它们不是 C++标准库的一部分。其中之一是:[基于策略的数据结构](https://www.geeksforgeeks.org/policy-based-data-structures-g/)，用于高性能、灵活性、语义安全性以及与 std 中相应容器的一致性。
+g++ 编译器支持一些数据结构，但它们不是 C++ 标准库的一部分。其中之一是:[基于策略的数据结构](https://www.geeksforgeeks.org/policy-based-data-structures-g/)，用于高性能、灵活性、语义安全性以及与 std 中相应容器的一致性。
 这也可以用作[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)，以排序顺序存储键和值(对)。
 所以要使用这个数据结构，必须在代码中添加以下几行:
 
@@ -54,7 +54,7 @@ int main()
     // Print the contents of the map
     cout << "Contents of map:\n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = om.begin(); itr != om.end(); ++itr) {
+    for (auto itr = om.begin(); itr != om.end(); ++ itr) {
         cout << itr->first << "\t" << itr->second << "\n";
     }
 

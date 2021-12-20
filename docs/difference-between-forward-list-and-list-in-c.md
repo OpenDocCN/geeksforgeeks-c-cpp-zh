@@ -1,8 +1,8 @@
-# c++中转发列表和列表的区别
+# c++ 中转发列表和列表的区别
 
 > 原文:[https://www . geeksforgeeks . org/转发列表和 c 中列表的区别/](https://www.geeksforgeeks.org/difference-between-forward-list-and-list-in-c/)
 
-[转发列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)是一个允许单向顺序访问其数据的序列容器。它包含相同类型的数据。在 [STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 中，已经使用[单链表](https://www.geeksforgeeks.org/data-structures/linked-list/)实现，插入和删除需要恒定的时间。转发列表的元素分散在存储器中，并且通过经由链接将列表的每个元素与列表的下一个元素相关联来维持排序。因此，它可以有效地利用内存。它是从 C++11 版本引入的。
+[转发列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)是一个允许单向顺序访问其数据的序列容器。它包含相同类型的数据。在 [STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 中，已经使用[单链表](https://www.geeksforgeeks.org/data-structures/linked-list/)实现，插入和删除需要恒定的时间。转发列表的元素分散在存储器中，并且通过经由链接将列表的每个元素与列表的下一个元素相关联来维持排序。因此，它可以有效地利用内存。它是从 C++ 11 版本引入的。
 
 **实现转发列表:**
 

@@ -91,7 +91,7 @@ void showlist(list<stack<int> > ls)
     // print row wise stack
     for (list<stack<int> >::iterator it1
          = ls.begin();
-         it1 != ls.end(); ++it1) {
+         it1 != ls.end(); ++ it1) {
 
         // Copy rows in stack
         stack<int> it2 = *it1;
@@ -113,7 +113,7 @@ int main()
     list<stack<int> > ls;
 
     // Insert rows in list
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < 10; ++ i) {
         // Insert element in
         // stack as column
         stack<int> s;

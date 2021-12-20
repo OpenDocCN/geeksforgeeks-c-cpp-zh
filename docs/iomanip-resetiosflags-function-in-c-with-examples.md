@@ -1,8 +1,8 @@
-# iomanip resetiosflags()函数在 C++中的应用示例
+# iomanip resetiosflags()函数在 C++ 中的应用示例
 
 > 原文:[https://www . geeksforgeeks . org/iomanip-resetiosflags-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-resetiosflags-function-in-c-with-examples/)
 
-C++中 **iomanip 库**的 **resetiosflags()** 方法用于将指定为该方法参数的 ios 库格式标志复位。
+C++ 中 **iomanip 库**的 **resetiosflags()** 方法用于将指定为该方法参数的 ios 库格式标志复位。
 **语法:**
 
 ```cpp

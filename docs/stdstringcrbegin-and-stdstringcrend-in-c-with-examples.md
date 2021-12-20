@@ -1,4 +1,4 @@
-# c++中的 std::string::crbegin()和 std::string::crend()，示例
+# c++ 中的 std::string::crbegin()和 std::string::crend()，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdstringrbegin-and-stdstringtrend-in-c-with-examples/](https://www.geeksforgeeks.org/stdstringcrbegin-and-stdstringcrend-in-c-with-examples/)
 

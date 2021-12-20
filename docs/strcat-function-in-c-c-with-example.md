@@ -1,8 +1,8 @@
-# C/c++中的 strcat()函数，示例
+# C/c++ 中的 strcat()函数，示例
 
 > 原文:[https://www . geesforgeks . org/strcat-function-in-c-c-with-example/](https://www.geeksforgeeks.org/strcat-function-in-c-c-with-example/)
 
-在 C/C++中，strcat()是一个预定义的函数，用于字符串处理，在字符串库( **string.h** 在 C 中， **cstring** 在 C++中)下。
+在 C/C++ 中，strcat()是一个预定义的函数，用于字符串处理，在字符串库( **string.h** 在 C 中， **cstring** 在 C++ 中)下。
 
 该函数将 src 指向的字符串追加到 dest 指向的字符串末尾。它将在目标字符串中附加一个源字符串的副本。加上一个终止的空字符。字符串的初始字符(src)会覆盖字符串末尾的空字符(dest)。
 
@@ -25,7 +25,7 @@ char *strcat(char *dest, const char *src)
 
 **返回值:**strcat()函数返回 dest，即指向目标字符串的指针。
 
-**应用:**给定 C++中的两个字符串 src 和 dest，我们需要在 dest 指向的字符串末尾追加 src 指向的字符串。
+**应用:**给定 C++ 中的两个字符串 src 和 dest，我们需要在 dest 指向的字符串末尾追加 src 指向的字符串。
 
 **示例:**
 

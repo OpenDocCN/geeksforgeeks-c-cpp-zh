@@ -28,8 +28,8 @@ a=p; /*illegal*/
 5)允许对指针变量进行算术运算。
 
 ```cpp
-p++; /*Legal*/
-a++; /*illegal*/ 
+p++ ; /*Legal*/
+a++ ; /*illegal*/ 
 ```
 
 **请参考**[**C 中指针和数组的区别？**](https://www.geeksforgeeks.org/difference-pointer-array-c/) **了解更多详情。**

@@ -1,4 +1,4 @@
-# 在 C++中以密码作为输入
+# 在 C++ 中以密码作为输入
 
 > 原文:[https://www . geesforgeks . org/taking-password-as-input-in-c/](https://www.geeksforgeeks.org/taking-password-as-input-in-c/)
 
@@ -80,7 +80,7 @@ int main()
 
 ****程序 2:****
 
-**下面是 C++程序，演示了在 conio.h 中使用 **getch()** :**
+**下面是 C++ 程序，演示了在 conio.h 中使用 **getch()** :**
 
 ## **C++**
 
@@ -130,7 +130,7 @@ int main()
 
 ****程序 3:****
 
-**下面是 C++程序来演示上述缺点的解决方案:**
+**下面是 C++ 程序来演示上述缺点的解决方案:**
 
 ## **C++**
 
@@ -198,7 +198,7 @@ int main()
 
 ### ****<u>通过特殊字符(*)</u> :** 隐藏密码**
 
-**想法是在这里使用库 **< conio.h >** 隐藏带有[星号(*)](https://www.geeksforgeeks.org/print-in-place-of-characters-for-reading-passwords-in-c/) 的密码。下面是 C++程序使用 **conio.h** 到[隐藏密码](https://www.geeksforgeeks.org/print-in-place-of-characters-for-reading-passwords-in-c/)使用*:**
+**想法是在这里使用库 **< conio.h >** 隐藏带有[星号(*)](https://www.geeksforgeeks.org/print-in-place-of-characters-for-reading-passwords-in-c/) 的密码。下面是 C++ 程序使用 **conio.h** 到[隐藏密码](https://www.geeksforgeeks.org/print-in-place-of-characters-for-reading-passwords-in-c/)使用*:**
 
 ****程序 4:****
 

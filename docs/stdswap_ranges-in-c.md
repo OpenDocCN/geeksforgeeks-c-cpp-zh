@@ -1,4 +1,4 @@
-# 标准::C++中的 swap _ ranges
+# 标准::C++ 中的 swap _ ranges
 
 > 原文:[https://www.geeksforgeeks.org/stdswap_ranges-in-c/](https://www.geeksforgeeks.org/stdswap_ranges-in-c/)
 
@@ -31,7 +31,7 @@ int main()
     int i;
 
     // v1 contains 0 1 2 3 4 5 6 7 8 9
-    for (i = 0; i < 10; ++i) 
+    for (i = 0; i < 10; ++ i) 
     {
         v1.push_back(i);
     }
@@ -44,7 +44,7 @@ int main()
     std::swap_ranges(v1.begin() + 3, v1.begin() + 7, v2.begin());
 
     // Displaying v1 after swapping
-    for (i = 0; i < 10; ++i) 
+    for (i = 0; i < 10; ++ i) 
     {
         cout << v1[i] << " ";
     }
@@ -52,7 +52,7 @@ int main()
     cout << "\n";
 
     // Displaying v2 after swapping
-    for (i = 0; i < 5; ++i) 
+    for (i = 0; i < 5; ++ i) 
     {
         cout << v2[i] << " ";
     }

@@ -1,4 +1,4 @@
-# C/c++中的协同词
+# C/c++ 中的协同词
 
 > 原文:[https://www.geeksforgeeks.org/coroutines-in-c-cpp/](https://www.geeksforgeeks.org/coroutines-in-c-cpp/)
 

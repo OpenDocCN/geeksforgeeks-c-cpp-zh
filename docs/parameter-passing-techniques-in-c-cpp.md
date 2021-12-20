@@ -1,4 +1,4 @@
-# C/c++中的参数传递技术
+# C/c++ 中的参数传递技术
 
 > 原文:[https://www . geesforgeks . org/parameter-passing-technologies-in-c-CPP/](https://www.geeksforgeeks.org/parameter-passing-techniques-in-c-cpp/)
 
@@ -144,7 +144,7 @@ int main(void)
 a is 20 and b is 10
 ```
 
-1.  C 和 C++都支持按值调用和按引用调用，而 Java 不支持按引用调用。
+1.  C 和 C++ 都支持按值调用和按引用调用，而 Java 不支持按引用调用。
     **缺点:**
     *   可能会出现许多潜在的情况
     *   程序有时很难理解

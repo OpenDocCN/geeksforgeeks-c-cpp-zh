@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/strncat-function-in-c-cpp/](https://www.geeksforgeeks.org/strncat-function-in-c-cpp/)
 
-在 C/C++中，strncat()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
+在 C/C++ 中，strncat()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
 该函数将 src 指向的字符串中不超过 **n** 个字符追加到 dest 指向的字符串末尾，并加上一个终止的空字符。字符串的初始字符(src)会覆盖字符串末尾的空字符(dest)。因此，字符串(dest)的长度变为 strlen(dest)+n。但是，如果字符串(src)的长度小于 **n** ，则仅复制直到终止空字符的内容，并且字符串(dest)的长度变为 strlen(src) + strlen(dest)。
 如果出现以下情况，则行为未定义
 
@@ -26,7 +26,7 @@ char *strncat(char *dest, const char *src, size_t n)
 **返回值:**strncat()函数将返回指向字符串(dest)的指针。
 
 **应用**
-给定 C++中的两个字符串 src 和 dest，我们需要在 src 和 dest 之间追加‘n’个字符，假设 n=5。
+给定 C++ 中的两个字符串 src 和 dest，我们需要在 src 和 dest 之间追加‘n’个字符，假设 n=5。
 
 **示例:**
 

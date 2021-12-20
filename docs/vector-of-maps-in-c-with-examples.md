@@ -1,4 +1,4 @@
-# c++中地图的向量，带示例
+# c++ 中地图的向量，带示例
 
 > 原文:[https://www . geeksforgeeks . org/vector-of-map-in-c-with-examples/](https://www.geeksforgeeks.org/vector-of-maps-in-c-with-examples/)
 
@@ -19,7 +19,7 @@
 ****例:**
 给了一根弦。任务是找到每个索引的字符频率。**
 
-## **C++14**
+## **C++ 14**
 
 ```cpp
 // C++ program to demonstrate the use
@@ -39,7 +39,7 @@ void findOccurences(string s)
 
         // Update the frequency
         for (int j = 0; j <= i; j++) {
-            mp[i][s[j]]++;
+            mp[i][s[j]]++ ;
         }
     }
 

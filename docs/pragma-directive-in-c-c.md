@@ -1,4 +1,4 @@
-# # C/c++中的 pragma 指令
+# # C/c++ 中的 pragma 指令
 
 > 原文:[https://www.geeksforgeeks.org/pragma-directive-in-c-c/](https://www.geeksforgeeks.org/pragma-directive-in-c-c/)
 

@@ -1,4 +1,4 @@
-# c++中对的优先级队列，按第一和第二元素排序
+# c++ 中对的优先级队列，按第一和第二元素排序
 
 > 原文:[https://www . geesforgeks . org/priority-按第一和第二元素排序的 c 对队列/](https://www.geeksforgeeks.org/priority-queue-of-pairs-in-c-with-ordering-by-first-and-second-element/)
 
@@ -12,7 +12,7 @@
 
 ### 按第一个元素排序的优先级队列
 
-在 C++中，如果元素是成对的形式，那么默认情况下，元素的优先级取决于第一个元素。因此，我们只需要使用成对的优先级队列。
+在 C++ 中，如果元素是成对的形式，那么默认情况下，元素的优先级取决于第一个元素。因此，我们只需要使用成对的优先级队列。
 
 ## C++
 

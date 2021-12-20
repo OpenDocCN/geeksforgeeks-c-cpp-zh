@@ -1,4 +1,4 @@
-# C 和 C++中的可变长度数组
+# C 和 C++ 中的可变长度数组
 
 > 原文:[https://www . geesforgeks . org/可变长度数组 in-c-and-c/](https://www.geeksforgeeks.org/variable-length-arrays-in-c-and-c/)
 
@@ -18,9 +18,9 @@ int main()
 }
 ```
 
-但是 C++标准(直到 [C++11](https://en.wikipedia.org/wiki/C%2B%2B11) )不支持可变大小数组。C++11 标准提到数组大小是一个常量表达式参见(参见 [N3337](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf) 第 179 页的 8.3.4)。所以上面的程序可能不是有效的 C++程序。程序可能在 GCC 编译器中工作，因为 GCC 编译器提供了一个扩展来支持它们。
+但是 C++ 标准(直到 [C++ 11](https://en.wikipedia.org/wiki/C%2B%2B11) )不支持可变大小数组。C++ 11 标准提到数组大小是一个常量表达式参见(参见 [N3337](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf) 第 179 页的 8.3.4)。所以上面的程序可能不是有效的 C++ 程序。程序可能在 GCC 编译器中工作，因为 GCC 编译器提供了一个扩展来支持它们。
 
-顺便提一下，最新的 [C++14](https://en.wikipedia.org/wiki/C%2B%2B14) (参见 [N3690](https://isocpp.org/files/papers/N3690.pdf) 第 184 页 8.3.4)提到数组大小是一个简单的表达式(不是常量表达式)。
+顺便提一下，最新的 [C++ 14](https://en.wikipedia.org/wiki/C%2B%2B14) (参见 [N3690](https://isocpp.org/files/papers/N3690.pdf) 第 184 页 8.3.4)提到数组大小是一个简单的表达式(不是常量表达式)。
 
 **实施**
 

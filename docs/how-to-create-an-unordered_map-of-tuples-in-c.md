@@ -1,4 +1,4 @@
-# 如何在 C++中创建元组的无序 _ 映射？
+# 如何在 C++ 中创建元组的无序 _ 映射？
 
 > 原文:[https://www . geeksforgeeks . org/如何创建 c 中元组的无序映射/](https://www.geeksforgeeks.org/how-to-create-an-unordered_map-of-tuples-in-c/)
 

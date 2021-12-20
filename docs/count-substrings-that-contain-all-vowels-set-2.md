@@ -71,7 +71,7 @@ int countSubstringsUtil(string s)
     int start = 0;
 
     for (int i = 0; i < n; i++) {
-        mp[s[i]]++;
+        mp[s[i]]++ ;
 
         // If substring till now have all vowels
         // atleast once increment start index until
@@ -82,7 +82,7 @@ int countSubstringsUtil(string s)
                && mp['u'] > 0) {
             count += n - i;
             mp[s[start]]--;
-            start++;
+            start++ ;
         }
     }
 
@@ -191,7 +191,7 @@ static int countSubstringsUtil(char []s)
             count += n - i;
             mp.put(s[start], mp.get(s[start]) - 1);
 
-            start++;
+            start++ ;
         }
     }
     return count;
@@ -391,7 +391,7 @@ static int countSubstringsUtil(char []s)
             if(mp.ContainsKey(s[start]))
                 mp[s[start]] = mp[s[start]] - 1;
 
-            start++;
+            start++ ;
         }
     }
     return count;
@@ -479,7 +479,7 @@ function countSubstringsUtil( s)
 
     for (let i = 0; i < n; i++) {
         if(mp[s[i]]){
-           mp[s[i]]++;
+           mp[s[i]]++ ;
         }
         else
             mp[s[i]] = 1;
@@ -494,7 +494,7 @@ function countSubstringsUtil( s)
                && mp['u'] > 0) {
             count += n - i;
             mp[s[start]]--;
-            start++;
+            start++ ;
         }
     }
 

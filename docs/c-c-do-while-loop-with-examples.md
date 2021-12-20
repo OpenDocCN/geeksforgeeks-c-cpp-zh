@@ -1,8 +1,8 @@
-# C/C++边做边循环示例
+# C/C++ 边做边循环示例
 
 > 原文:[https://www . geesforgeks . org/c-c-do-while-loop-with-examples/](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)
 
-[当我们需要重复执行一个语句块时，C/C++](https://www.geeksforgeeks.org/loops-in-c-and-cpp/) 中的循环开始使用。
+[当我们需要重复执行一个语句块时，C/C++ ](https://www.geeksforgeeks.org/loops-in-c-and-cpp/) 中的循环开始使用。
 与**同时**一样，**边做边循环**的执行也基于测试条件而终止。边做边循环和边做边循环的主要区别在于边做边循环在循环体的末端测试条件，即边做边循环是出口控制的，而其他两个循环是入口控制的循环。
 **注意**:在 do-while 循环中，不管测试条件如何，循环体将至少执行一次。
 
@@ -34,7 +34,7 @@ i <= 10
     **例:**
 
 ```cpp
-i++;
+i++ ;
 ```
 
 **do-While 循环是如何执行的？**
@@ -71,7 +71,7 @@ int main()
         printf("Hello World\n");
 
         // Update expression
-        i++;
+        i++ ;
     }
     // Test expression
     while (i < 1);
@@ -98,7 +98,7 @@ int main()
         cout << "Hello World\n";
 
         // Update expression
-        i++;
+        i++ ;
 
     }
     // Test expression
@@ -145,7 +145,7 @@ int main()
         printf("%d\n", i);
 
         // Update expression
-        i++;
+        i++ ;
 
     }
     // Test expression
@@ -173,7 +173,7 @@ int main()
         cout << i << endl;
 
         // Update expression
-        i++;
+        i++ ;
 
     }
     // Test expression
@@ -195,7 +195,7 @@ int main()
 
 **相关文章:**
 
-1.  [C 和 C++中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)
+1.  [C 和 C++ 中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)
 2.  [C/C++ while 循环示例](https://www.geeksforgeeks.org/c-c-while-loop-with-examples/)
 3.  [C/C++ For 循环示例](https://www.geeksforgeeks.org/c-c-for-loop-with-examples/)
 4.  [C、C++、Java 中 while 和 do-while 循环的区别](https://www.geeksforgeeks.org/difference-between-while-and-do-while-loop-in-c-c-java/)

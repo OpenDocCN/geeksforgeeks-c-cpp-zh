@@ -1,9 +1,9 @@
-# STD::next vs STD::c++中的 advance
+# STD::next vs STD::c++ 中的 advance
 
 > 原文:[https://www.geeksforgeeks.org/stdnext-vs-stdadvance-in-cpp/](https://www.geeksforgeeks.org/stdnext-vs-stdadvance-in-cpp/)
 
 [std::advance](https://www.geeksforgeeks.org/stdadvance-in-cpp/) 和 [std::next](https://www.geeksforgeeks.org/stdnext-in-cpp/) 用于将迭代器前进一定的位置，这样我们就可以让迭代器指向一个想要的位置。虽然两者有着相同的目的，但是它们的实现方式却各不相同。这使得我们理解两者之间的区别变得很重要。
-在 C++11 中，默认情况下，std::next()将前进**一**，而 std::advance()需要**距离**。
+在 C++ 11 中，默认情况下，std::next()将前进**一**，而 std::advance()需要**距离**。
 
 1.  **句法差异:**STD::advance 和 std::next 的句法是:
 
@@ -69,12 +69,12 @@
             cout << "v1 = ";
 
             int i;
-            for (i = 0; i < 3; ++i) {
+            for (i = 0; i < 3; ++ i) {
                 cout << v1[i] << " ";
             }
 
             cout << "\nv2 = ";
-            for (i = 0; i < 5; ++i) {
+            for (i = 0; i < 5; ++ i) {
                 cout << v2[i] << " ";
             }
 

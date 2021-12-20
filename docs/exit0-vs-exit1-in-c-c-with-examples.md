@@ -1,10 +1,10 @@
-# 退出(0)与退出(1)在 C/C++中的对比示例
+# 退出(0)与退出(1)在 C/C++ 中的对比示例
 
 > 原文:[https://www . geesforgeks . org/exit 0-vs-exit 1-in-c-c-with-examples/](https://www.geeksforgeeks.org/exit0-vs-exit1-in-c-c-with-examples/)
 
-**[exit](https://www.geeksforgeeks.org/exit-vs-_exit-c-cpp/)** 是 C/C++语言中的跳转语句，取一个整数(零或非零)表示不同的退出状态。
+**[exit](https://www.geeksforgeeks.org/exit-vs-_exit-c-cpp/)** 是 C/C++ 语言中的跳转语句，取一个整数(零或非零)表示不同的退出状态。
 
-C/C++中有两种退出状态:
+C/C++ 中有两种退出状态:
 
 1.  **Exit Success:** **Exit Success** is indicated by **exit(0)** statement which means successful termination of the program, i.e. program has been executed without any error or interrupt.
 

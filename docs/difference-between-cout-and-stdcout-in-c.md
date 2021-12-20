@@ -1,8 +1,8 @@
-# c++中 cout 和 std::cout 的区别
+# c++ 中 cout 和 std::cout 的区别
 
 > 原文:[https://www . geeksforgeeks . org/c-cout 和-stdcout-in-c/](https://www.geeksforgeeks.org/difference-between-cout-and-stdcout-in-c/) 之间的差异
 
-**cout**是 ostream 类的预定义对象，用于在标准输出设备上打印数据 。一般我们在 Linux 操作系统中为 G++编译器编写程序时，需要程序中有“std”命名空间。我们通过使用命名空间 std 编写**来使用它；**然后我们可以访问任何对象，如 cin 的 cout。
+**cout**是 ostream 类的预定义对象，用于在标准输出设备上打印数据 。一般我们在 Linux 操作系统中为 G++ 编译器编写程序时，需要程序中有“std”命名空间。我们通过使用命名空间 std 编写**来使用它；**然后我们可以访问任何对象，如 cin 的 cout。
 
 ## c++
 

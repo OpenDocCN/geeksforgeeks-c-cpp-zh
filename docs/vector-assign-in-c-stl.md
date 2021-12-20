@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/vector-assign-in-c-stl/](https://www.geeksforgeeks.org/vector-assign-in-c-stl/)
 
-**vector:: assign()** 是 C++中的一个 STL，它通过替换旧的值为向量元素分配新的值。如果需要，它还可以修改向量的大小。
+**vector:: assign()** 是 C++ 中的一个 STL，它通过替换旧的值为向量元素分配新的值。如果需要，它还可以修改向量的大小。
 
 **常量赋值语法:**
 

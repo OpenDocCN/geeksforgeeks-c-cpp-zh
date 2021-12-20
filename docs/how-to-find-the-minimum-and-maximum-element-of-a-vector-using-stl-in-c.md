@@ -1,8 +1,8 @@
-# 如何用 C++中的 STL 求一个向量的最小和最大元素？
+# 如何用 C++ 中的 STL 求一个向量的最小和最大元素？
 
 > 原文:[https://www . geesforgeks . org/如何使用 c-in-STL 找到向量的最小和最大元素/](https://www.geeksforgeeks.org/how-to-find-the-minimum-and-maximum-element-of-a-vector-using-stl-in-c/)
 
-给定一个向量，用 C++中的 STL 找到这个向量的最小和最大元素。
+给定一个向量，用 C++ 中的 STL 找到这个向量的最小和最大元素。
 
 **例:**
 

@@ -1,4 +1,4 @@
-# 计算 C++中排序数组中较小的元素
+# 计算 C++ 中排序数组中较小的元素
 
 > 原文:[https://www . geeksforgeeks . org/count-较小元素在排序数组中-in-cpp/](https://www.geeksforgeeks.org/count-smaller-elements-in-sorted-array-in-cpp/)
 
@@ -19,7 +19,7 @@ There are 3 elements smaller than 40.
 
 ```
 
-我们可以用 C++中的 upper_bound()来快速找到结果。它返回迭代器(或指针)到大于给定数字的第一个元素。如果所有元素都变小，则返回数组的大小。如果所有元素都大于，则返回 0。
+我们可以用 C++ 中的 upper_bound()来快速找到结果。它返回迭代器(或指针)到大于给定数字的第一个元素。如果所有元素都变小，则返回数组的大小。如果所有元素都大于，则返回 0。
 
 ```cpp
 // CPP program to count smaller elements

@@ -1,9 +1,9 @@
-# c++中的 MakeFile 及其应用
+# c++ 中的 MakeFile 及其应用
 
 > 原文:[https://www . geesforgeks . org/makefile-in-c-and-its-applications/](https://www.geeksforgeeks.org/makefile-in-c-and-its-applications/)
 
-给定一个 C++程序，任务是以 Makefile 的形式分解整个程序。
-基本上是用来创造的。cpp 文件和。为每个类/函数及其功能创建一个. h 文件，然后通过 C++中可用的 Makefile 命令将它们链接起来。
+给定一个 C++ 程序，任务是以 Makefile 的形式分解整个程序。
+基本上是用来创造的。cpp 文件和。为每个类/函数及其功能创建一个. h 文件，然后通过 C++ 中可用的 Makefile 命令将它们链接起来。
 
 **优势:**
 

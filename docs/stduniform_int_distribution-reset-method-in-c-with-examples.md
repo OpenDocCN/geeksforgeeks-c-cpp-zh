@@ -1,8 +1,8 @@
-# STD::uniform _ int _ distribution reset()方法用 C++举例
+# STD::uniform _ int _ distribution reset()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ int _ distribution-reset-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_int_distribution-reset-method-in-c-with-examples/)
 
-C++中 **uniform_int_distribution 类**的 **reset()** 方法用于重置这个 uniform_int_distribution。
+C++ 中 **uniform_int_distribution 类**的 **reset()** 方法用于重置这个 uniform_int_distribution。
 
 **语法:**
 

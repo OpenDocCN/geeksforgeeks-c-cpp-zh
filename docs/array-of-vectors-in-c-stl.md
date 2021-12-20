@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/array-of-vectors-in-c-stl/](https://www.geeksforgeeks.org/array-of-vectors-in-c-stl/)
 
-**先决条件:**[c++中的数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)[c++ STL 中的向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+**先决条件:**[c++ 中的数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)[c++ STL 中的向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
 
 一个[](https://www.geeksforgeeks.org/arrays-in-c-cpp/)**数组是存储在连续存储位置的项目的集合。它是将同一类型的多个项目存储在一起。这使得通过每个元素的位置来访问存储在其中的元素变得更加容易。**
 

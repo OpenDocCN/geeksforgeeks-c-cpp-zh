@@ -12,7 +12,7 @@
 3.  **为什么取名为 C？**C 语言的命名背后没有这样的逻辑。
     它的开发涵盖了 B 语言的所有不可及之处(BCPL 的简化版)。所以，它被命名为 C，因为它在英文字母中紧挨着 B。
 4.  c 语言是唯一存在这么长时间的编程语言，并且仍然被广泛使用。
-5.  C 是很多其他编程语言的基础，比如 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 、 [Java](https://www.geeksforgeeks.org/java/) 、 [JavaScript](https://www.geeksforgeeks.org/javascript-tutorial/) 、Go、 [C#](https://www.geeksforgeeks.org/csharp-programming-language/) 、 [PHP](https://www.geeksforgeeks.org/php/) 、 [Python](https://www.geeksforgeeks.org/python-programming-language/) 、Perl、C-shell 等等。
+5.  C 是很多其他编程语言的基础，比如 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 、 [Java](https://www.geeksforgeeks.org/java/) 、 [JavaScript](https://www.geeksforgeeks.org/javascript-tutorial/) 、Go、 [C#](https://www.geeksforgeeks.org/csharp-programming-language/) 、 [PHP](https://www.geeksforgeeks.org/php/) 、 [Python](https://www.geeksforgeeks.org/python-programming-language/) 、Perl、C-shell 等等。
 6.  Unix 是第一批用汇编以外的语言实现的操作系统内核之一，那就是 c 语言。
 7.  以前，C 被认为是高级语言，但今天许多程序员认为它是低级语言，因为它只支持标量操作。
 8.  C18 是 2018 年 6 月发布的最新版本的 C 编程语言。

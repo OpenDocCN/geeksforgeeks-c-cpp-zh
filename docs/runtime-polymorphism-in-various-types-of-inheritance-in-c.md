@@ -1,8 +1,8 @@
-# c++中各种类型继承的运行时多态性
+# c++ 中各种类型继承的运行时多态性
 
 > 原文:[https://www . geeksforgeeks . org/runtime-多态-各种类型的继承-in-c/](https://www.geeksforgeeks.org/runtime-polymorphism-in-various-types-of-inheritance-in-c/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 允许用户对任何[类型的继承](https://www.geeksforgeeks.org/inheritance-in-c/)使用[虚拟函数](https://www.geeksforgeeks.org/virtual-function-cpp/)来使用[运行时多态](https://www.geeksforgeeks.org/polymorphism-in-c/)的概念。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 允许用户对任何[类型的继承](https://www.geeksforgeeks.org/inheritance-in-c/)使用[虚拟函数](https://www.geeksforgeeks.org/virtual-function-cpp/)来使用[运行时多态](https://www.geeksforgeeks.org/polymorphism-in-c/)的概念。
 
 下面是如何在所有类型的继承中实现运行时多态性:
 

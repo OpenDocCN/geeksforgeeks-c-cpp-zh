@@ -1,10 +1,10 @@
-# 为什么 C++最适合竞技编程？
+# 为什么 C++ 最适合竞技编程？
 
 > 原文:[https://www . geeksforgeeks . org/why-CPP-最适合竞争编程/](https://www.geeksforgeeks.org/why-cpp-is-best-for-competitive-programming/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是[竞技编程](https://www.geeksforgeeks.org/how-to-begin-with-competitive-programming/)最首选的语言。在本文中，讨论了 C++的一些[特性，这些特性使其最适合竞争性编程。](https://www.geeksforgeeks.org/features-of-c/)
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是[竞技编程](https://www.geeksforgeeks.org/how-to-begin-with-competitive-programming/)最首选的语言。在本文中，讨论了 C++ 的一些[特性，这些特性使其最适合竞争性编程。](https://www.geeksforgeeks.org/features-of-c/)
 
-[**STL(标准模板库)**](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) **:** C++有一个庞大的名为 STL 的库，它是 [C++模板](https://www.geeksforgeeks.org/templates-cpp/)的集合，提供通用的编程[数据结构](https://www.geeksforgeeks.org/data-structures/)以及[列表](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)、[栈](https://www.geeksforgeeks.org/stack-data-structure/)、[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)等功能。这使得代码非常短，并提高了编码速度。它是一个由[容器类](https://www.geeksforgeeks.org/containers-cpp-stl/)、算法和[迭代器](https://www.geeksforgeeks.org/iterators-c-stl/)组成的库。例如， [**std::min**](https://www.geeksforgeeks.org/stdmin-in-cpp/) 用于找出传递给它的数字中的最小值。如果有多个，它将返回其中的第一个。
+[**STL(标准模板库)**](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) **:** C++ 有一个庞大的名为 STL 的库，它是 [C++ 模板](https://www.geeksforgeeks.org/templates-cpp/)的集合，提供通用的编程[数据结构](https://www.geeksforgeeks.org/data-structures/)以及[列表](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)、[栈](https://www.geeksforgeeks.org/stack-data-structure/)、[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)等功能。这使得代码非常短，并提高了编码速度。它是一个由[容器类](https://www.geeksforgeeks.org/containers-cpp-stl/)、算法和[迭代器](https://www.geeksforgeeks.org/iterators-c-stl/)组成的库。例如， [**std::min**](https://www.geeksforgeeks.org/stdmin-in-cpp/) 用于找出传递给它的数字中的最小值。如果有多个，它将返回其中的第一个。
 
 **程序 1:**
 
@@ -37,7 +37,7 @@ int main()
 12.123
 ```
 
-**更快:**就速度而言，C/C++比任何其他编程语言都要快。C++源代码需要变成机器代码。然而，python 在解释时遵循不同的策略。代码的编译总是比解释快。
+**更快:**就速度而言，C/C++ 比任何其他编程语言都要快。C++ 源代码需要变成机器代码。然而，python 在解释时遵循不同的策略。代码的编译总是比解释快。
 
 **程序 2:**
 
@@ -100,11 +100,11 @@ int main()
 Time taken by program is: 0.000001 sec
 ```
 
-**Simple constructions:**C++是一种简单的语言，即更接近于[的低级语言](https://www.geeksforgeeks.org/difference-between-high-level-and-low-level-languages/)，因此用 c++编写代码要比用 [Java](https://www.geeksforgeeks.org/java/) 容易得多。此外，这使得 C++中的代码生成过程更加简单、优化和快速(也就是说，就像在 Java 中一样，不需要先将代码转换为字节码，然后再转换为机器码)。
+**Simple constructions:**C++ 是一种简单的语言，即更接近于[的低级语言](https://www.geeksforgeeks.org/difference-between-high-level-and-low-level-languages/)，因此用 c++ 编写代码要比用 [Java](https://www.geeksforgeeks.org/java/) 容易得多。此外，这使得 C++ 中的代码生成过程更加简单、优化和快速(也就是说，就像在 Java 中一样，不需要先将代码转换为字节码，然后再转换为机器码)。
 
-**广泛使用:** C++被全球 75%的程序员认为是竞争性编程的最佳选择，因为它通常比 Java 和 [Python](https://www.geeksforgeeks.org/python-programming-language/) 更快，而且大部分资源都是 C++提供的。
+**广泛使用:** C++ 被全球 75%的程序员认为是竞争性编程的最佳选择，因为它通常比 Java 和 [Python](https://www.geeksforgeeks.org/python-programming-language/) 更快，而且大部分资源都是 C++ 提供的。
 
-[模板](https://www.geeksforgeeks.org/templates-cpp/):模板是 C++中一个简单却非常强大的工具。简单的想法是将数据类型作为参数传递，这样我们就不需要为不同的数据类型编写相同的代码。
+[模板](https://www.geeksforgeeks.org/templates-cpp/):模板是 C++ 中一个简单却非常强大的工具。简单的想法是将数据类型作为参数传递，这样我们就不需要为不同的数据类型编写相同的代码。
 
 **程序 3:**
 

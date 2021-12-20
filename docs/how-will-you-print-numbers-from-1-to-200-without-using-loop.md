@@ -328,4 +328,4 @@ public class GFG {
 请注意，递归技术很好，但是每次调用函数都会在程序堆栈中创建一个“堆栈帧”。因此，如果有限的内存有限制，我们需要打印大量的数字，“递归”可能不是一个好主意。那么，还有什么其他选择呢？
 另一种选择是“goto”语句。虽然“goto”的使用不像一般的编程实践那样受影响，因为“goto”语句改变了正常的程序执行顺序，但是在某些情况下，使用“goto”是最好的解决方案。
 所以请试着用“goto”语句打印 1 到 100 的数字。可以使用 [GfG IDE！](https://ide.geeksforgeeks.org/)
-[用 C++打印 1 到 100，没有循环和递归](https://www.geeksforgeeks.org/output-of-c-program-set-18-3/)
+[用 C++ 打印 1 到 100，没有循环和递归](https://www.geeksforgeeks.org/output-of-c-program-set-18-3/)

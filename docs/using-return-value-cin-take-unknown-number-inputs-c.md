@@ -1,4 +1,4 @@
-# 用 cin 的返回值在 C++中取未知数量的输入
+# 用 cin 的返回值在 C++ 中取未知数量的输入
 
 > 原文:[https://www . geesforgeks . org/using-return-value-CIN-take-unknown-number-inputs-c/](https://www.geeksforgeeks.org/using-return-value-cin-take-unknown-number-inputs-c/)
 
@@ -8,7 +8,7 @@
 
 其思想是使用这样一个事实，即如果给定非数值，“cin > >输入”为假。请注意，只有当输入值的数据类型为 int(整数)时，上述方法才成立。
 
-要点:cin 是性病的对象。在 C++11 及更高版本中，std::istream 有一个转换函数 explicit bool()const；，这意味着从 std::istream 到 bool 存在有效的转换，但仅在明确请求的情况下。if 或 while 算作显式请求转换为 bool。【来源 [StackOVerflow](https://stackoverflow.com/questions/40896106/address-and-return-values-of-cin)
+要点:cin 是性病的对象。在 C++ 11 及更高版本中，std::istream 有一个转换函数 explicit bool()const；，这意味着从 std::istream 到 bool 存在有效的转换，但仅在明确请求的情况下。if 或 while 算作显式请求转换为 bool。【来源 [StackOVerflow](https://stackoverflow.com/questions/40896106/address-and-return-values-of-cin)
 
 在 C++ 11 之前，std::istream 有到运算符 void *(const)的转换；
 
@@ -29,7 +29,7 @@ int main()
     // cin returns false when a character
     // is entered
     while (cin >> input)
-        count++;
+        count++ ;
 
     cout << "\nTotal number of inputs entered: "
          << count;

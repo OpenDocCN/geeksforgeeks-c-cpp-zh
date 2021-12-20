@@ -1,8 +1,8 @@
-# 在 C++中为文本和控制台背景着色
+# 在 C++ 中为文本和控制台背景着色
 
 > 原文:[https://www . geesforgeks . org/coloring-text-and-console-background-in-c/](https://www.geeksforgeeks.org/colorizing-text-and-console-background-in-c/)
 
-在 [C++编程](https://www.geeksforgeeks.org/c-plus-plus/)中，输出屏幕的默认背景为黑色，文本颜色为白色，任务是给输出屏幕的背景和文本颜色都上色。
+在 [C++ 编程](https://www.geeksforgeeks.org/c-plus-plus/)中，输出屏幕的默认背景为黑色，文本颜色为白色，任务是给输出屏幕的背景和文本颜色都上色。
 
 **<u>头文件</u> :**
 

@@ -1,4 +1,4 @@
-# c++中 2D 向量排序|集合 1(按行和列)
+# c++ 中 2D 向量排序|集合 1(按行和列)
 
 > 原文:[https://www . geesforgeks . org/sorting-2d-vector-in-c-set-逐行逐列/](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
 
@@ -190,7 +190,7 @@ The Matrix after sorting is:
 
 ```
 
-[c++中 2D 向量排序|集合 2(按行和列降序排列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-2-in-descending-order-by-row-and-column/)
+[c++ 中 2D 向量排序|集合 2(按行和列降序排列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-2-in-descending-order-by-row-and-column/)
 
 本文由**曼吉特·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

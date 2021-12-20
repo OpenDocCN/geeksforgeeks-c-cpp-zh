@@ -1,4 +1,4 @@
-# 用类在 C++中实现向量
+# 用类在 C++ 中实现向量
 
 > 原文:[https://www . geeksforgeeks . org/使用类来实现向量数量 in-c/](https://www.geeksforgeeks.org/using-class-to-implement-vector-quantities-in-c/)
 
@@ -56,7 +56,7 @@ where i, j, k are unit vectors in x, y and z directions respectively.
     v2 = 6i+3j+9k
     因此，v = v1 X v2 = 30i–15j–15k
 
-下面是上述操作在 C++中使用类的实现:
+下面是上述操作在 C++ 中使用类的实现:
 
 ```cpp
 #include <cmath>

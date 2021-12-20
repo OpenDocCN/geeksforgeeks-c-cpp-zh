@@ -1,11 +1,11 @@
-# 从给定的 C/C++程序中删除注释
+# 从给定的 C/C++ 程序中删除注释
 
 > 原文:[https://www . geesforgeks . org/remove-comments-given-cc-program/](https://www.geeksforgeeks.org/remove-comments-given-cc-program/)
 
-给定一个 C/C++程序，删除其中的注释。
+给定一个 C/C++ 程序，删除其中的注释。
 **我们强烈建议尽量减少你的浏览器，先自己试试这个。**
 这个想法是维护两个标志变量，一个表示单行注释开始，另一个表示多行注释开始。当一个标志被设置时，我们寻找注释的结尾，忽略开始和结束之间的所有字符。
-下面是上述思想的 C++实现。
+下面是上述思想的 C++ 实现。
 
 ## C
 
@@ -33,7 +33,7 @@ string removeComments(string prgm)
 
         // If multiple line comment is on, then check for end of it
         else if  (m_cmt == true && prgm[i] == '*' && prgm[i+1] == '/')
-            m_cmt = false,  i++;
+            m_cmt = false,  i++ ;
 
         // If this character is in a comment, ignore it
         else if (s_cmt || m_cmt)
@@ -41,9 +41,9 @@ string removeComments(string prgm)
 
         // Check for beginning of comments and set the approproate flags
         else if (prgm[i] == '/' && prgm[i+1] == '/')
-            s_cmt = true, i++;
+            s_cmt = true, i++ ;
         else if (prgm[i] == '/' && prgm[i+1] == '*')
-            m_cmt = true,  i++;
+            m_cmt = true,  i++ ;
 
         // If current character is a non-comment character, append it to res
         else  res += prgm[i];

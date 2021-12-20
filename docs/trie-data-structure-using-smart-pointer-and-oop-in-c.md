@@ -1,8 +1,8 @@
-# 在 C++中使用智能指针和面向对象技术构建数据结构
+# 在 C++ 中使用智能指针和面向对象技术构建数据结构
 
 > 原文:[https://www . geesforgeks . org/trie-data-structure-use-smart-pointer-and-OOP-in-c/](https://www.geeksforgeeks.org/trie-data-structure-using-smart-pointer-and-oop-in-c/)
 
-我们将在 C++和 OOP 中使用智能指针实现 trie。[在这里](https://www.geeksforgeeks.org/search-in-a-trie-recursively/)，我们已经讨论了使用递归实现 trie 数据
+我们将在 C++ 和 OOP 中使用智能指针实现 trie。[在这里](https://www.geeksforgeeks.org/search-in-a-trie-recursively/)，我们已经讨论了使用递归实现 trie 数据
 在我们的一个 trie 的实现节点看起来像:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

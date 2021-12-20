@@ -1,8 +1,8 @@
-# 扩展整数类型(在 C/C++中选择正确的整数大小)
+# 扩展整数类型(在 C/C++ 中选择正确的整数大小)
 
 > 原文:[https://www . geesforgeks . org/extended-integral-type-choice-correct-integer-size-cc/](https://www.geeksforgeeks.org/extended-integral-types-choosing-correct-integer-size-cc/)
 
-C/C++对其基本整数数据类型(char、short、int、long 和 long long)的定义非常松散。这种语言保证了它们至少可以表示一定范围的值，但是任何特定的平台(编译器、操作系统、硬件)都可能比这更大。
+C/C++ 对其基本整数数据类型(char、short、int、long 和 long long)的定义非常松散。这种语言保证了它们至少可以表示一定范围的值，但是任何特定的平台(编译器、操作系统、硬件)都可能比这更大。
 
 一个很好的例子很长。在一台机器上，它可能是 32 位(C 语言要求的最小值)。另一个是 64 位。如果你想要一个精确到 32 位的整数类型，你会怎么做？这就是 int32_t 的用武之地:它是特定系统中 32 位整数类型的别名。
 

@@ -1,8 +1,8 @@
-# c++中的高阶函数
+# c++ 中的高阶函数
 
 > 原文:[https://www.geeksforgeeks.org/higher-order-functions-in-c/](https://www.geeksforgeeks.org/higher-order-functions-in-c/)
 
-**高阶函数**是以函数为自变量的函数。它被用在功能语言中，而在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中却没有使用，尽管自从 C++11 给了我们 [lambdas](https://www.geeksforgeeks.org/lambda-expression-in-c/) 和‘STD::function’后，这种情况正在慢慢改变……而且人们经常没有意识到‘STD::function’并不是一个能够填充所有用例的工具。在本文中，我们将解释如何将函数作为参数传递给不同的调用函数。
+**高阶函数**是以函数为自变量的函数。它被用在功能语言中，而在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中却没有使用，尽管自从 C++ 11 给了我们 [lambdas](https://www.geeksforgeeks.org/lambda-expression-in-c/) 和‘STD::function’后，这种情况正在慢慢改变……而且人们经常没有意识到‘STD::function’并不是一个能够填充所有用例的工具。在本文中，我们将解释如何将函数作为参数传递给不同的调用函数。
 
 **语法:**
 
@@ -12,7 +12,7 @@
 
 下面是同样的说明:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to illustrate the higher

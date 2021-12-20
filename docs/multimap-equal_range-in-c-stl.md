@@ -44,7 +44,7 @@ int main()
     cout << "KEY\tELEMENT\n";
 
     // Prints all the elements of key 1
-    for (auto itr = it.first; itr != it.second; ++itr) {
+    for (auto itr = it.first; itr != it.second; ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }

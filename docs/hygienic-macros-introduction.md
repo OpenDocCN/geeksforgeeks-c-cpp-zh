@@ -9,7 +9,7 @@
 // C program to illustrate a situation known as 
 // accidental capture of identifiers - an
 // undesirable result caused by unhygienic macros
-#define INCI(i) do { int x = 0; ++i; } while(0)
+#define INCI(i) do { int x = 0; ++ i; } while(0)
 int main(void)
 {
     int x = 4, y = 8;
@@ -35,10 +35,10 @@ int main(void)
     int x = 4, y = 8;
 
     //macro called first time
-    do { int x = 0; ++x; } while(0);
+    do { int x = 0; ++ x; } while(0);
 
     //macro called second time
-    do { int x = 0; ++y; } while(0);
+    do { int x = 0; ++ y; } while(0);
 
     printf("x = %d, b = %d\n", x, y);
     return 0;
@@ -65,7 +65,7 @@ x = 4, y = 9
 // identifier names such that 
 // they do not cause 
 // the accidental capture of identifiers
-#define INCI(i) do { int m = 0; ++i; } while(0)
+#define INCI(i) do { int m = 0; ++ i; } while(0)
 int main(void)
 {
     int x = 4, y = 8;

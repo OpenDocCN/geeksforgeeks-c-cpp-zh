@@ -4,14 +4,14 @@
 
 > 原文:[https://www . geeksforgeeks . org/g-fact-37-next after-next 朝向-c/](https://www.geeksforgeeks.org/g-fact-37-nextafter-nexttoward-c/)
 
-**你会如何用 C/C++解决下面的问题？**
+**你会如何用 C/C++ 解决下面的问题？**
 
-*   C/C++中最小的可表示的正浮点数是多少？
-*   C/C++中最大可表示的负浮点数是多少？
+*   C/C++ 中最小的可表示的正浮点数是多少？
+*   C/C++ 中最大可表示的负浮点数是多少？
 *   给定一个正浮点数 x，求小于 x 的最大可表示浮点值？
 
 **nextafter(x，y)和 next 朝向(x.y)**
-在 C 和 C++中，nextafter(x，y)和 next 朝向(x.y)都是在 math.h 或 cmath 头文件中定义的类似函数。它们都沿 y 方向返回 x 之后的下一个可表示值。【next 朝向()具有更精确的第二个参数 y。
+在 C 和 C++ 中，nextafter(x，y)和 next 朝向(x.y)都是在 math.h 或 cmath 头文件中定义的类似函数。它们都沿 y 方向返回 x 之后的下一个可表示值。【next 朝向()具有更精确的第二个参数 y。
 
 以下程序演示了这一概念:
 

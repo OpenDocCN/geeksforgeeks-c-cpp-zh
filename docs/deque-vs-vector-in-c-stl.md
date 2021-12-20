@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/deque-vs-vector-in-c-stl/](https://www.geeksforgeeks.org/deque-vs-vector-in-c-stl/)
 
-### [c++标准模板库(STL)中的 Deque](https://www.geeksforgeeks.org/deque-cpp-stl/)
+### [c++ 标准模板库(STL)中的 Deque](https://www.geeksforgeeks.org/deque-cpp-stl/)
 
 双端队列是序列容器，具有两端伸缩的特点。
 它们类似于[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)，但是在插入和删除元素的情况下更有效。与向量不同，可能无法保证连续的存储分配。

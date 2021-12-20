@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/thread-functions-in-c-c/](https://www.geeksforgeeks.org/thread-functions-in-c-c/)
 
-在一个 **Unix/Linux 操作系统**中， **C/C++语言**为所有线程相关的功能提供了 [POSIX 线程(pthread)](https://www.geeksforgeeks.org/multithreading-c-2/) 标准 API(应用程序接口)。它允许我们为并发进程流创建多个线程。它在多处理器或多核系统上最有效，在这些系统中，线程可以在内核级实现，以达到执行速度。在单处理器系统中，通过利用输入输出或其他可能导致进程停止的系统功能的延迟，也可以获得收益。
+在一个 **Unix/Linux 操作系统**中， **C/C++ 语言**为所有线程相关的功能提供了 [POSIX 线程(pthread)](https://www.geeksforgeeks.org/multithreading-c-2/) 标准 API(应用程序接口)。它允许我们为并发进程流创建多个线程。它在多处理器或多核系统上最有效，在这些系统中，线程可以在内核级实现，以达到执行速度。在单处理器系统中，通过利用输入输出或其他可能导致进程停止的系统功能的延迟，也可以获得收益。
 
 我们必须在脚本的开头包含 pthread.h 头文件，才能使用 pthreads 库的所有功能。要执行 c 文件，我们必须在编译文件时在命令行中使用-pthread 或-lpthread。
 

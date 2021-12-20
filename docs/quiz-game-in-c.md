@@ -1,4 +1,4 @@
-# c++中的问答游戏
+# c++ 中的问答游戏
 
 > 原文:[https://www.geeksforgeeks.org/quiz-game-in-c/](https://www.geeksforgeeks.org/quiz-game-in-c/)
 

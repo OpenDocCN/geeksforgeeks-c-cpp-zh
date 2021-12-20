@@ -1,4 +1,4 @@
-# 如何在 C++中创建自定义类的无序 _ 映射？
+# 如何在 C++ 中创建自定义类的无序 _ 映射？
 
 > 原文:[https://www . geesforgeks . org/如何创建无序的用户定义类在 cpp 中的映射/](https://www.geeksforgeeks.org/how-to-create-an-unordered_map-of-user-defined-class-in-cpp/)
 

@@ -1,4 +1,4 @@
-# C/c++中的 goto 语句
+# C/c++ 中的 goto 语句
 
 > 原文:[https://www.geeksforgeeks.org/goto-statement-in-c-cpp/](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
 

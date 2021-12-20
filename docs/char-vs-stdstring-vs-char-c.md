@@ -1,8 +1,8 @@
-# char * vs STD:c++中字符串 vs char[]
+# char * vs STD:c++ 中字符串 vs char[]
 
 > 原文:[https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/](https://www.geeksforgeeks.org/char-vs-stdstring-vs-char-c/)
 
-在本文中，我们将检查 C++中初始化字符串的三种不同方式，并讨论它们之间的差异。
+在本文中，我们将检查 C++ 中初始化字符串的三种不同方式，并讨论它们之间的差异。
 
 **1。使用 char***
 
@@ -53,8 +53,8 @@ GeeksForGeeks For Everyone
 
 cons:t1]
 
-1.  这在 C 中可以很好地工作，但是在 C++中用这种形式编写是一个坏主意。这就是为什么编译器显示“不赞成从字符串常量转换为‘char *’”的警告
-    ，因为在 C 语言中，字符串文字是字符数组，而在 C++中
+1.  这在 C 中可以很好地工作，但是在 C++ 中用这种形式编写是一个坏主意。这就是为什么编译器显示“不赞成从字符串常量转换为‘char *’”的警告
+    ，因为在 C 语言中，字符串文字是字符数组，而在 C++ 中
     是字符常量数组。因此在 char*前使用 **const** 关键字。
 
     ```cpp
@@ -106,7 +106,7 @@ std::string str = "This is GeeksForGeeks";
 
 **注意:**在用 std::string 关键字声明字符串时，不要使用 **cstring** 或 **string.h** 函数，因为 **std::string** 字符串是 basic_string 类类型，cstring 字符串是 const char*类型。
 **优点:**
-在 C++中独占交易时 **std:string** 是最好的选择，因为它有更好的搜索、替换和操作功能。
+在 C++ 中独占交易时 **std:string** 是最好的选择，因为它有更好的搜索、替换和操作功能。
 下面讨论一些有用的 std:string 函数。
 
 ```cpp
@@ -262,7 +262,7 @@ cons:t1]
 
     ```
 
-下面是 C++标准库的其他一些有用的函数。
+下面是 C++ 标准库的其他一些有用的函数。
 
 ```cpp
 #include <iostream>

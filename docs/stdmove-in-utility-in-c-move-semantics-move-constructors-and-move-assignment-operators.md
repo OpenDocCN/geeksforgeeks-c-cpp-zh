@@ -1,4 +1,4 @@
-# STD::c++中的移动工具|移动语义、移动构造函数和移动赋值运算符
+# STD::c++ 中的移动工具|移动语义、移动构造函数和移动赋值运算符
 
 > 原文:[https://www . geesforgeks . org/stdmove-in-utility-in-c-move-semantics-move-constructor-and-move-assignment-operator/](https://www.geeksforgeeks.org/stdmove-in-utility-in-c-move-semantics-move-constructors-and-move-assignment-operators/)
 
@@ -10,7 +10,7 @@
 
 **参考文献:**
 
-在 C++中有两种类型的引用-
+在 C++ 中有两种类型的引用-
 
 1.  左值参考:
     *   左值是将出现在赋值的左侧或右侧的表达式。
@@ -23,7 +23,7 @@
 
 **移动构造函数和语义:**
 
-[移动构造器](https://www.geeksforgeeks.org/move-constructors-in-c-with-examples/)是在 [C++11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 中引入的。移动构造函数的需要或目的是尽可能快地从源(原始)[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)中窃取或移动尽可能多的资源，因为源不再需要有有意义的值，和/或因为它无论如何都会在一瞬间被销毁。从而可以避免不必要地创建对象的副本，并有效利用资源
+[移动构造器](https://www.geeksforgeeks.org/move-constructors-in-c-with-examples/)是在 [C++ 11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 中引入的。移动构造函数的需要或目的是尽可能快地从源(原始)[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)中窃取或移动尽可能多的资源，因为源不再需要有有意义的值，和/或因为它无论如何都会在一瞬间被销毁。从而可以避免不必要地创建对象的副本，并有效利用资源
 
 虽然可以窃取资源，但必须使源(原始)对象保持有效状态，以便能够正确销毁。
 
@@ -38,13 +38,13 @@
 **语法:**
 
 > *   模板
->     字号 STD::remove _ reference<T>:type&T5】move(T&&T)不例外；（从 C++11 开始)(直到 C++14)
+>     字号 STD::remove _ reference<T>:type&T5】move(T&&T)不例外；（从 C++ 11 开始)(直到 C++ 14)
 > *   模板
->     const expr STD::remove _ reference _ T<T>&T21】移动(T & & T)无例外（从 C++14 开始)
+>     const expr STD::remove _ reference _ T<T>&T21】移动(T & & T)无例外（从 C++ 14 开始)
 
-**示例:**下面是 C++程序，展示了在不使用移动语义的情况下，即在 C++11 之前发生的情况。
+**示例:**下面是 C++ 程序，展示了在不使用移动语义的情况下，即在 C++ 11 之前发生的情况。
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -153,9 +153,9 @@ T3】2。vectring = createdinsert()；- 调用 createAndInsert()函数。
     *   最后，字符串向量的副本将返回给调用者 main()函数。
 *   最后，在返回到调用者 main()函数后，简单地打印局部 vecString 向量的元素。
 
-**示例:**下面是使用移动语义实现上述概念的 C++程序，即从 C++11 及更高版本开始。
+**示例:**下面是使用移动语义实现上述概念的 C++ 程序，即从 C++ 11 及更高版本开始。
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -240,19 +240,19 @@ Hello
 
 **说明:**
 
-这里，为了使用移动语义。编译器必须支持 C++11 标准或以上。 **main()** 函数和**createdandsert()**函数的执行故事保持不变，直到行**vec . push _ back(str)；**
+这里，为了使用移动语义。编译器必须支持 C++ 11 标准或以上。 **main()** 函数和**createdandsert()**函数的执行故事保持不变，直到行**vec . push _ back(str)；**
 
-可能会出现一个问题，为什么临时对象没有使用 std::move()移动到 vector vec。背后的原因是向量的 push_back()方法。从 C++11 开始， [push_back()](https://en.cppreference.com/w/cpp/container/vector/push_back) 方法被提供了新的重载版本。
+可能会出现一个问题，为什么临时对象没有使用 std::move()移动到 vector vec。背后的原因是向量的 push_back()方法。从 C++ 11 开始， [push_back()](https://en.cppreference.com/w/cpp/container/vector/push_back) 方法被提供了新的重载版本。
 
 **语法:**
 
 > 1.  const expr void push _ back(const T&值);（自 c++ 20)
 > 
 > 2.  void push _ back(const T&值);（直到 c++ 20)
-> 3.  const expr void push _ back(T & amp 值);（自 C++20 起)
+> 3.  const expr void push _ back(T & amp 值);（自 C++ 20 起)
 
 *   **vec . push _ back(str+str)；-**
-    1.  将创建一个临时对象(str + str)，它有自己单独的内存，并将调用重载的 push_back()方法(第二版或第四版取决于 C++的版本)，该方法将从临时源对象(str + str)窃取(或移动)数据到向量 vec 中，因为它不再需要。
+    1.  将创建一个临时对象(str + str)，它有自己单独的内存，并将调用重载的 push_back()方法(第二版或第四版取决于 C++ 的版本)，该方法将从临时源对象(str + str)窃取(或移动)数据到向量 vec 中，因为它不再需要。
     2.  执行移动后，临时对象被销毁。因此，它不是调用复制构造函数(复制语义)，而是通过复制字符串的大小和操作指向数据内存的指针来优化。
     3.  在这里，需要注意的重要一点是，我们利用的内存很快将不再拥有它的内存。换句话说，我们以某种方式优化了它。这都是因为右值引用和移动语义。
 *   **vec . push _ back(STD::move(str))；-** 这里明确提示编译器 ***【对象不再需要】*** 命名为 str ( *左值引用*)借助 [std::move()](https://www.geeksforgeeks.org/stdmove-in-c/) 函数通过将左值引用转换为右值引用，str 的资源将被移动到向量中。那么 str 的状态就变成了“有效但未指定的状态”。这对我们来说并不重要，因为这是我们最后一次使用，而且很快就会被摧毁。
@@ -280,9 +280,9 @@ Hello
 
 ****注意:****foo()函数**有所有必要类型的参数。**
 
-**下面是实现上述所有概念的 C++程序-**
+**下面是实现上述所有概念的 C++ 程序-**
 
-## **C++14**
+## **C++ 14**
 
 ```cpp
 // C++ program to implement

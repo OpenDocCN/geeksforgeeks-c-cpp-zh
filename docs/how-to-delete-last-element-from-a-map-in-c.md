@@ -1,4 +1,4 @@
-# 如何在 C++中删除地图的最后一个元素
+# 如何在 C++ 中删除地图的最后一个元素
 
 > 原文:[https://www . geesforgeks . org/如何从 c-in-map 中删除最后一个元素/](https://www.geeksforgeeks.org/how-to-delete-last-element-from-a-map-in-c/)
 

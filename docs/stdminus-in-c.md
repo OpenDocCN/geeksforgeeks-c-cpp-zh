@@ -1,4 +1,4 @@
-# STD::c++中的减号
+# STD::c++ 中的减号
 
 > 原文:[https://www.geeksforgeeks.org/stdminus-in-c/](https://www.geeksforgeeks.org/stdminus-in-c/)
 

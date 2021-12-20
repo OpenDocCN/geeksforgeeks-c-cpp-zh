@@ -1,4 +1,4 @@
-# c++程序输出|第 29 集(字符串)
+# c++ 程序输出|第 29 集(字符串)
 
 > 原文:[https://www . geesforgeks . org/output-c-programs-set-29-strings/](https://www.geeksforgeeks.org/output-c-programs-set-29-strings/)
 

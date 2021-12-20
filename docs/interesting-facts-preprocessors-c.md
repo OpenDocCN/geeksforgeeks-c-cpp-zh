@@ -35,7 +35,7 @@ max is 100
 
 ```cpp
 **#include <stdio.h>
-#define INCREMENT(x) ++x
+#define INCREMENT(x) ++ x
 int main()
 {
     char* ptr = "GeeksQuiz";
@@ -142,7 +142,7 @@ GeeksQuiz
 #define PRINT(i, limit)                                    \
     while (i < limit) {                                    \
         printf("GeeksQuiz ");                              \
-        i++;                                               \
+        i++ ;                                               \
     }
 int main()
 {

@@ -1,4 +1,4 @@
-# c++中私有和受保护的区别，示例
+# c++ 中私有和受保护的区别，示例
 
 > 原文:[https://www . geeksforgeeks . org/private-and-protected-in-c-with-example/](https://www.geeksforgeeks.org/difference-between-private-and-protected-in-c-with-example/)
 

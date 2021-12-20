@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-inheritance-question-14/](https://www.geeksforgeeks.org/c-inheritance-question-14/)
 
-考虑下面的 C++程序。
+考虑下面的 C++ 程序。
 
 ```cpp
 #include<iostream>

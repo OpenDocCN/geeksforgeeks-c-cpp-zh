@@ -1,4 +1,4 @@
-# 标准::C++中的基础 _ 类型，示例
+# 标准::C++ 中的基础 _ 类型，示例
 
 > 原文:[https://www . geeksforgeeks . org/STD believe _ type-in-c-with-example/](https://www.geeksforgeeks.org/stdunderlying_type-in-c-with-example/)
 
@@ -30,7 +30,7 @@ std::underlying_type<class T>::value
 
 **返回值:**模板 **std::underlying_type** 返回枚举类型 t 的底层类型
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**标准::底层 _ 类型**的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**标准::底层 _ 类型**的程序:
 
 **程序:**
 

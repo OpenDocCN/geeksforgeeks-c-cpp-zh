@@ -1,4 +1,4 @@
-# std::相邻 _ 在 C++中查找
+# std::相邻 _ 在 C++ 中查找
 
 > 原文:[https://www.geeksforgeeks.org/stdadjacent_find-in-c/](https://www.geeksforgeeks.org/stdadjacent_find-in-c/)
 

@@ -1,4 +1,4 @@
-# C/c++中按位与逻辑 and 运算符有什么区别？
+# C/c++ 中按位与逻辑 and 运算符有什么区别？
 
 > 原文:[https://www . geeksforgeeks . org/cc 中按位和逻辑与运算符的区别是什么/](https://www.geeksforgeeks.org/what-are-the-differences-between-bitwise-and-logical-and-operators-in-cc/)
 

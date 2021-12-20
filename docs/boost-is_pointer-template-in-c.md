@@ -1,4 +1,4 @@
-# c++中 boost is_pointer 模板
+# c++ 中 boost is_pointer 模板
 
 > 原文:[https://www . geesforgeks . org/boost-is _ pointer-template-in-c/](https://www.geeksforgeeks.org/boost-is_pointer-template-in-c/)
 

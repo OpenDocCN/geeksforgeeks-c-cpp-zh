@@ -1,8 +1,8 @@
-# c++中的头部保护
+# c++ 中的头部保护
 
 > 原文:[https://www.geeksforgeeks.org/header-guard-in-c/](https://www.geeksforgeeks.org/header-guard-in-c/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的 Header Guards 是[条件编译指令](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/)，有助于避免[错误](https://www.geeksforgeeks.org/errors-in-cc/)，当同一[函数](https://www.geeksforgeeks.org/functions-in-c/)或变量被程序员的错误定义了不止一次时，就会出现这种错误。根据 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 的说法，当一个函数或变量被定义多次时，会产生一个错误。下面是同样的程序来说明:
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的 Header Guards 是[条件编译指令](https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/)，有助于避免[错误](https://www.geeksforgeeks.org/errors-in-cc/)，当同一[函数](https://www.geeksforgeeks.org/functions-in-c/)或变量被程序员的错误定义了不止一次时，就会出现这种错误。根据 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 的说法，当一个函数或变量被定义多次时，会产生一个错误。下面是同样的程序来说明:
 
 **程序 1:**
 
@@ -103,7 +103,7 @@ int getting_pentagon_side()
 #include "pentagon.h"
 ```
 
-*   现在，创建了一个名为**“Pentagon . CPP”**的 C++程序，如下所示:
+*   现在，创建了一个名为**“Pentagon . CPP”**的 C++ 程序，如下所示:
 
 **程序 3:**
 

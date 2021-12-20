@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/book-management-system-use-file-handling/](https://www.geeksforgeeks.org/bookshop-management-system-using-file-handling/)
 
-任务是使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的[文件处理](https://www.geeksforgeeks.org/basics-file-handling-c/)来构建书店管理系统，该系统有助于跟踪文件中的所有书籍记录。以下是要实现的功能:
+任务是使用 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的[文件处理](https://www.geeksforgeeks.org/basics-file-handling-c/)来构建书店管理系统，该系统有助于跟踪文件中的所有书籍记录。以下是要实现的功能:
 
 *   添加新书，书的详细内容有:
     *   图书编号
@@ -20,7 +20,7 @@
 *   文件处理的概念将用于在文本文件中写入数据，并读取写入的数据。
 *   所需功能将写在[开关盒](https://www.geeksforgeeks.org/switch-statement-cc/)下，根据用户的输入执行。
 *   简单的[文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)概念，如打开文件、关闭文件、写入文件和读取文件等。用于开发代码。
-*   用于编译 C++语言代码的集成开发环境。
+*   用于编译 C++ 语言代码的集成开发环境。
 
 下面是上述方法的实现:
 
@@ -165,7 +165,7 @@ void bookshope::check_book()
                      << no_copy;
                 cout << endl
                      << endl;
-                count++;
+                count++ ;
                 break;
             }
             file >> b_id >> b_name;
@@ -218,7 +218,7 @@ void bookshope::update_book()
                       << b_na << " "
                       << a_na << " " << no_co
                       << "\n\n";
-                count++;
+                count++ ;
             }
             else
                 file1 << " " << b_idd
@@ -276,7 +276,7 @@ void bookshope::del_book()
                      << "Delete a Book";
                 cout << "\n\nBook is Deleted "
                         "Successfully...\n\n";
-                count++;
+                count++ ;
             }
             else
                 file1 << " " << b_idd

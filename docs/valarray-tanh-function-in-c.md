@@ -1,4 +1,4 @@
-# valarray tanh()函数在 C++中
+# valarray tanh()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-tanh-function-in-c/](https://www.geeksforgeeks.org/valarray-tanh-function-in-c/)
 

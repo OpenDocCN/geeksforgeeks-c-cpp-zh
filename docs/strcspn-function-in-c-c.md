@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/strcspn-function-in-c-c/](https://www.geeksforgeeks.org/strcspn-function-in-c-c/)
 
-C/C++中的**strcpn()**函数将两个字符串作为输入， **string_1** 和 **string_2** 作为参数，并通过遍历字符串 _2 中的任何字符来搜索字符串 _1。如果在 string_1 中找不到 string_2 的任何字符，该函数将返回 string_1 的长度。该功能在 **cstring** 头文件中定义。
+C/C++ 中的**strcpn()**函数将两个字符串作为输入， **string_1** 和 **string_2** 作为参数，并通过遍历字符串 _2 中的任何字符来搜索字符串 _1。如果在 string_1 中找不到 string_2 的任何字符，该函数将返回 string_1 的长度。该功能在 **cstring** 头文件中定义。
 
 **语法:**
 

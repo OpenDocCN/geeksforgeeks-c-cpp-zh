@@ -47,7 +47,7 @@ int vowelPairs(string s, int n)
         // If current character and the
         // character after it are both vowels
         if (isVowel(s[i]) && isVowel(s[i + 1]))
-            cnt++;
+            cnt++ ;
     }
 
     return cnt;
@@ -96,7 +96,7 @@ class GFG {
             // If current character and the
             // character after it are both vowels
             if (isVowel(s.charAt(i)) && isVowel(s.charAt(i + 1)))
-                cnt++;
+                cnt++ ;
         }
 
         return cnt;
@@ -186,7 +186,7 @@ class GFG
             // If current character and the
             // character after it are both vowels
             if (isVowel(s[i]) && isVowel(s[i + 1]))
-                cnt++;
+                cnt++ ;
         }
 
         return cnt;
@@ -234,7 +234,7 @@ function vowelPairs($s, $n)
         // character after it are both vowels
         if (isVowel($s[$i]) &&
             isVowel($s[$i + 1]))
-            $cnt++;
+            $cnt++ ;
     }
     return $cnt;
 }
@@ -281,7 +281,7 @@ echo vowelPairs($s, $n);
             // If current character and the
             // character after it are both vowels
             if (isVowel(s[i]) && isVowel(s[i + 1]))
-                cnt++;
+                cnt++ ;
         }
 
         return cnt;

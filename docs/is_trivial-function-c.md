@@ -1,4 +1,4 @@
-# 是 C++中的 _ 平凡函数
+# 是 C++ 中的 _ 平凡函数
 
 > 原文:[https://www.geeksforgeeks.org/is_trivial-function-c/](https://www.geeksforgeeks.org/is_trivial-function-c/)
 

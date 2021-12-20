@@ -1,4 +1,4 @@
-# STD::is _ move _ 可在 C++中构造，示例
+# STD::is _ move _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ move _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_move_constructible-in-c-with-examples/)
 

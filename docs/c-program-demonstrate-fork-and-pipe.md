@@ -117,7 +117,7 @@ int main()
         int k = strlen(concat_str);
         int i;
         for (i=0; i<strlen(fixed_str); i++)
-            concat_str[k++] = fixed_str[i];
+            concat_str[k++ ] = fixed_str[i];
 
         concat_str[k] = '\0';   // string ends with '\0'
 

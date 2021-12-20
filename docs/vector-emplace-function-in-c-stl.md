@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/vector-侵位-function-in-c-stl/](https://www.geeksforgeeks.org/vector-emplace-function-in-c-stl/)
 
-**向量::侵位()**是 C++中的一个 STL，它通过在该位置插入一个新元素来扩展容器。只有当需要更多空间时，才会发生重新分配。这里的容器尺寸增加了一个。
+**向量::侵位()**是 C++ 中的一个 STL，它通过在该位置插入一个新元素来扩展容器。只有当需要更多空间时，才会发生重新分配。这里的容器尺寸增加了一个。
 **语法:**
 
 ```cpp
@@ -42,7 +42,7 @@ int main()
 
     // print the elements of the vector
 cout << "The vector elements are: ";
-    for (auto it = vec.begin(); it != vec.end(); ++it)
+    for (auto it = vec.begin(); it != vec.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -76,7 +76,7 @@ int main()
 
     // print the elements of the vector
 cout << "The vector elements are: ";
-    for (auto it = vec.begin(); it != vec.end(); ++it)
+    for (auto it = vec.begin(); it != vec.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -110,7 +110,7 @@ int main()
 
     // print the elements of the vector
 cout << "The vector elements are: ";
-    for (auto it = vec.begin(); it != vec.end(); ++it)
+    for (auto it = vec.begin(); it != vec.end(); ++ it)
         cout << *it << " ";
 
     return 0;

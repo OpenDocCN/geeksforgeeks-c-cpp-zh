@@ -1,4 +1,4 @@
-# c++中对的排序向量|集合 1(按第一个和第二个排序)
+# c++ 中对的排序向量|集合 1(按第一个和第二个排序)
 
 > 原文:[https://www . geesforgeks . org/sorting-c-set-1 中的成对向量-按第一和第二排序/](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-1-sort-by-first-and-second/)
 
@@ -194,7 +194,7 @@ The vector after applying sort operation is:
 
 ```
 
-C++中对的排序向量|集合 2 [(按第一和第二降序排序)](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-2-sort-in-descending-order-by-first-and-second/)
+C++ 中对的排序向量|集合 2 [(按第一和第二降序排序)](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-2-sort-in-descending-order-by-first-and-second/)
 
 本文由**曼吉特·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

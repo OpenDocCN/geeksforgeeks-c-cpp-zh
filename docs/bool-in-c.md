@@ -2,8 +2,8 @@
 
 > 原文:[https://www.geeksforgeeks.org/bool-in-c/](https://www.geeksforgeeks.org/bool-in-c/)
 
-**先决条件:**[c++中的 bool 数据类型](https://www.geeksforgeeks.org/bool-data-type-in-c/)
-C 语言的 [C99 标准](http://en.wikipedia.org/wiki/C99)支持 Bool 变量。与使用 bool 不需要头文件的 C++不同，在 C 中使用 bool 必须包含头文件“stdbool.h”。c，它不会编译，但是如果我们把它另存为。cpp，它会工作得很好。
+**先决条件:**[c++ 中的 bool 数据类型](https://www.geeksforgeeks.org/bool-data-type-in-c/)
+C 语言的 [C99 标准](http://en.wikipedia.org/wiki/C99)支持 Bool 变量。与使用 bool 不需要头文件的 C++ 不同，在 C 中使用 bool 必须包含头文件“stdbool.h”。c，它不会编译，但是如果我们把它另存为。cpp，它会工作得很好。
 
 ## C
 

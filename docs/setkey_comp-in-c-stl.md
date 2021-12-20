@@ -45,7 +45,7 @@ int main()
     // printing elements of all set
     do {
         cout << *it << " ";
-    } while (comp(*(++it), l));
+    } while (comp(*(++ it), l));
 
     return 0;
 }

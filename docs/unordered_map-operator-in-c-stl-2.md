@@ -25,7 +25,7 @@ ump.operator= ( initializer list )
 
 **返回值:**都返回这个指针的值(*this)。
 
-下面的程序举例说明了 C++中的无序 _map::operator=。
+下面的程序举例说明了 C++ 中的无序 _map::operator=。
 **例**
 
 ```cpp

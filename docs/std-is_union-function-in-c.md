@@ -1,4 +1,4 @@
-# std 是 C++中的 _union()模板
+# std 是 C++ 中的 _union()模板
 
 > 原文:[https://www.geeksforgeeks.org/std-is_union-function-in-c/](https://www.geeksforgeeks.org/std-is_union-function-in-c/)
 
@@ -17,7 +17,7 @@ template <class T> struct is_union;
 *   **True:** 如果类型是联合类。
 *   **False:** 如果类型是非并集类。
 
-下面的程序说明了 C++中的标准::is_union 模板:
+下面的程序说明了 C++ 中的标准::is_union 模板:
 
 **程序 1:** :
 

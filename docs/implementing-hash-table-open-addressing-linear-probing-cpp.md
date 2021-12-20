@@ -88,7 +88,7 @@ public:
         while (arr[hashIndex] != NULL
                && arr[hashIndex]->key != key
                && arr[hashIndex]->key != -1) {
-            hashIndex++;
+            hashIndex++ ;
             hashIndex %= capacity;
         }
 
@@ -96,7 +96,7 @@ public:
         // increase the current size
         if (arr[hashIndex] == NULL
             || arr[hashIndex]->key == -1)
-            size++;
+            size++ ;
         arr[hashIndex] = temp;
     }
 
@@ -120,7 +120,7 @@ public:
                 size--;
                 return temp->value;
             }
-            hashIndex++;
+            hashIndex++ ;
             hashIndex %= capacity;
         }
 
@@ -144,7 +144,7 @@ public:
             // if node found return its value
             if (arr[hashIndex]->key == key)
                 return arr[hashIndex]->value;
-            hashIndex++;
+            hashIndex++ ;
             hashIndex %= capacity;
         }
 

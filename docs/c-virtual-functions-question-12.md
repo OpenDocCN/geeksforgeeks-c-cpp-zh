@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-virtual-functions-question-12/](https://www.geeksforgeeks.org/c-virtual-functions-question-12/)
 
-预测后续 C++程序的输出。假设没有对齐，虚拟函数的典型实现由编译器完成。
+预测后续 C++ 程序的输出。假设没有对齐，虚拟函数的典型实现由编译器完成。
 
 ```cpp
 #include <iostream>

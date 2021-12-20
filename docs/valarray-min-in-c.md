@@ -1,4 +1,4 @@
-# c++中的 valarray min()
+# c++ 中的 valarray min()
 
 > 原文:[https://www.geeksforgeeks.org/valarray-min-in-c/](https://www.geeksforgeeks.org/valarray-min-in-c/)
 

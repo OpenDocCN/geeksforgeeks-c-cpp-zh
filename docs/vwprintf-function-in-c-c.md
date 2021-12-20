@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/vwprintf-function-in-c-c/](https://www.geeksforgeeks.org/vwprintf-function-in-c-c/)
 
-C++中的 **vwprintf()** 函数用于将格式化的宽字符串写入 **stdout** 。它将变量参数列表中的格式化数据打印到 stdout。在内部，该函数从由 **arg** 标识的列表中检索参数，就像在其上使用了 **va_arg** 一样，因此 **arg** 的状态可能会被调用改变。宽字符串格式可能包含以 **%** 开头的格式说明符，这些说明符被作为列表 **vlist** 传递的变量值替换。
+C++ 中的 **vwprintf()** 函数用于将格式化的宽字符串写入 **stdout** 。它将变量参数列表中的格式化数据打印到 stdout。在内部，该函数从由 **arg** 标识的列表中检索参数，就像在其上使用了 **va_arg** 一样，因此 **arg** 的状态可能会被调用改变。宽字符串格式可能包含以 **%** 开头的格式说明符，这些说明符被作为列表 **vlist** 传递的变量值替换。
 在头文件 **<中定义>**
 **语法:**
 
@@ -61,7 +61,7 @@ int main()
     wprintf(L"Some English Letters\n");
     for (wchar_t i = L'A'; i <= L'E'; i++) {
         write(L"%ls : %lc\n", buffer[k], i);
-        k++;
+        k++ ;
     }
 
     return 0;
@@ -115,7 +115,7 @@ int main()
     wprintf(L"Some Latin Letters\n");
     for (wchar_t i = L'\u0021'; i <= L'\u0025'; i++) {
         write(L"%ls : %lc\n", buffer[k], i);
-        k++;
+        k++ ;
     }
 
     return 0;

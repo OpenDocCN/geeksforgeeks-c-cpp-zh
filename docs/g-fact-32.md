@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-32/](https://www.geeksforgeeks.org/g-fact-32/)
 
-在 C++中，类变量的初始化顺序与它们在类声明中出现的顺序相同。
+在 C++ 中，类变量的初始化顺序与它们在类声明中出现的顺序相同。
 
 考虑下面的代码。
 

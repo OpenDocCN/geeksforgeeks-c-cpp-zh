@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/c-language-set-1-introduction/](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
 
 [C](https://www.geeksforgeeks.org/c-programming-language/) 是一种过程编程语言。它最初是由丹尼斯·里奇在 1972 年开发的。它主要是作为编写操作系统的系统编程语言开发的。C 语言的主要特点包括低级内存访问、一组简单的关键字和简洁的风格，这些特点使 C 语言适合像操作系统或编译器开发这样的系统编程。
-许多后来的语言都直接或间接地借用了 C 语言的语法/特征。像 Java 的语法一样，PHP、JavaScript 和许多其他语言主要基于 C 语言。C++几乎是 C 语言的超集(很少有程序可以用 C 语言编译，但不能用 C++)。
+许多后来的语言都直接或间接地借用了 C 语言的语法/特征。像 Java 的语法一样，PHP、JavaScript 和许多其他语言主要基于 C 语言。C++ 几乎是 C 语言的超集(很少有程序可以用 C 语言编译，但不能用 C++)。
 **从 C 编程开始:**
 
 1.  **一个 C 程序的结构**

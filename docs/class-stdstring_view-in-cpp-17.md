@@ -1,4 +1,4 @@
-# 类标准::C++17 中的 string _ view
+# 类标准::C++ 17 中的 string _ view
 
 > 原文:[https://www . geesforgeks . org/class-stdstring _ view-in-CPP-17/](https://www.geeksforgeeks.org/class-stdstring_view-in-cpp-17/)
 
@@ -36,7 +36,7 @@ int main()
 
 **![Output#1](img/18564dd285f07056452ba2e585f1910e.png)**
 
-****说明:**输出与预期相同。但是，为了查看**“你好！！，GeeksforGeeks"** 两次 **std::string** 对内存执行两次开销。但是这里的任务是读取字符串**(“你好！！，geeksforgeks ")**，不需要对其进行写操作。所以仅仅为了显示一个字符串，为什么要多次分配内存。为了更高效地处理字符串， [C++17](https://www.geeksforgeeks.org/c17-new-feature-else-switch-statements-initializers/) 提出了 **std::string_view()** 提供了预定义 char str[]的视图，而无需在内存中创建新对象。**
+****说明:**输出与预期相同。但是，为了查看**“你好！！，GeeksforGeeks"** 两次 **std::string** 对内存执行两次开销。但是这里的任务是读取字符串**(“你好！！，geeksforgeks ")**，不需要对其进行写操作。所以仅仅为了显示一个字符串，为什么要多次分配内存。为了更高效地处理字符串， [C++ 17](https://www.geeksforgeeks.org/c17-new-feature-else-switch-statements-initializers/) 提出了 **std::string_view()** 提供了预定义 char str[]的视图，而无需在内存中创建新对象。**
 
 ****<u>STD::string</u>:**的缺点在上面的示例中，通过分配两个不同的字符串变量，将同一字符串 **str_1** 打印两次。所以对于变量 **str_2** 和 **str_3** 来说，内存都是使用[静态内存分配](https://www.geeksforgeeks.org/difference-between-static-allocation-and-stack-allocation/)来分配的，这导致我们的内存开销增加了两倍。**
 
@@ -96,14 +96,14 @@ int main()
 ****<u>参数在 std::string_view</u> :****
 
 ****字符类型:**
-字符类型定义存储在 string_view 中的字符类型。C++标准库为上述模板的专门化提供了以下类型定义。**
+字符类型定义存储在 string_view 中的字符类型。C++ 标准库为上述模板的专门化提供了以下类型定义。**
 
 1.  ****字符串 _ 视图**类型的元素**字符****
 2.  ****wstring_view** ，为 **wchar_t****
 3.  ****u16string_view** 为 **char16_t****
 4.  ****u32string_view** 为 **char32_t****
 
-**下面是说明字符类型的 C++程序:**
+**下面是说明字符类型的 C++ 程序:**
 
 ****程序 3:****
 

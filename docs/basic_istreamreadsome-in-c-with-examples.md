@@ -1,4 +1,4 @@
-# c++中的 basic_istream::readsome()，示例
+# c++ 中的 basic_istream::readsome()，示例
 
 > 原文:[https://www . geesforgeks . org/basic _ is treamreadsome-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreamreadsome-in-c-with-examples/)
 

@@ -1,4 +1,4 @@
-# <climits>(limits.h)在 C/C++</climits> 中
+# <climits>(limits.h)在 C/C++ </climits> 中
 
 > 原文:[https://www.geeksforgeeks.org/climits-limits-h-cc/](https://www.geeksforgeeks.org/climits-limits-h-cc/)
 
@@ -113,7 +113,7 @@ Value of ULLONG_MAX is 18446744073709551615 (264-1) or greater*
 您的机器的值可能取决于它是 32 位机器还是 64 位机器。
 
 **兼容性:**
-LLONG_MIN、LLONG_MAX 和 ULLONG_MAX 是为符合 1999 年或更高版本 C 标准(自 2011 年起仅包括 C++标准:C++11)的库定义的。
+LLONG_MIN、LLONG_MAX 和 ULLONG_MAX 是为符合 1999 年或更高版本 C 标准(自 2011 年起仅包括 C++ 标准:C++ 11)的库定义的。
 这些宏的两个应用是检查整数溢出和计算非常大或非常小的元素数组中的最小值或最大值。
 
 **下面的程序将显示您机器的相应值:**

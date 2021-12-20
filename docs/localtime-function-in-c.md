@@ -1,4 +1,4 @@
-# c++中的 localtime()函数
+# c++ 中的 localtime()函数
 
 > 原文:[https://www.geeksforgeeks.org/localtime-function-in-c/](https://www.geeksforgeeks.org/localtime-function-in-c/)
 
@@ -14,7 +14,7 @@ tm* localtime(const time_t* time_ptr);
 
 **返回值:**该函数成功返回一个指向 **tm** 对象的指针，否则返回 NullPointerException。
 
-下面的程序说明了 C++中的 localtime()函数:
+下面的程序说明了 C++ 中的 localtime()函数:
 
 **例:-**
 

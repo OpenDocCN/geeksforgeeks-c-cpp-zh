@@ -1,8 +1,8 @@
-# c++中静态数据成员的内存分配
+# c++ 中静态数据成员的内存分配
 
 > 原文:[https://www . geesforgeks . org/memory-allocation-in-static-data-members-in-c/](https://www.geeksforgeeks.org/memory-allocation-in-static-data-members-in-c/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 允许使用[静态](https://www.geeksforgeeks.org/static-variables-in-c/) [关键字](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)在[类](https://www.geeksforgeeks.org/c-classes-and-objects/)中定义[静态数据成员](https://www.geeksforgeeks.org/static-data-members-c/)。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 允许使用[静态](https://www.geeksforgeeks.org/static-variables-in-c/) [关键字](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)在[类](https://www.geeksforgeeks.org/c-classes-and-objects/)中定义[静态数据成员](https://www.geeksforgeeks.org/static-data-members-c/)。
 当数据成员被声明为静态时，我们必须记住以下注意事项:
 
 *   不管创建了多少个对象，在内存中只创建静态成员的一个副本。
@@ -37,7 +37,7 @@ public:
     // value of count
     void set_count()
     {
-        count++;
+        count++ ;
     }
 
     // Member function to access the
@@ -106,7 +106,7 @@ public:
     // value of count
     void set_count()
     {
-        count++;
+        count++ ;
     }
 
     // Member function to access the

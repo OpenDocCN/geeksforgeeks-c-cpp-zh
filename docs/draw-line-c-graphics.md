@@ -1,4 +1,4 @@
-# 在 C++图形中画线
+# 在 C++ 图形中画线
 
 > 原文:[https://www.geeksforgeeks.org/draw-line-c-graphics/](https://www.geeksforgeeks.org/draw-line-c-graphics/)
 

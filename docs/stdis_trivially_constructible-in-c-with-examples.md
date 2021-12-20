@@ -1,4 +1,4 @@
-# std::在 C++中可以通过示例
+# std::在 C++ 中可以通过示例
 
 进行简单的构造
 
@@ -38,7 +38,7 @@ std::is_trivially_constructible::value
 *   True: if type **t** is a common constructable type.
 *   False: If the type **t** is not a simple constructable type.
 
-下面是用 C/C++说明**标准的程序:**
+下面是用 C/C++ 说明**标准的程序:**
 
 **程序 1:**
 

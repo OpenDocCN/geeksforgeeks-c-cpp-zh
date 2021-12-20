@@ -6,7 +6,7 @@
 
 ## 堆栈::推送()
 
-push()函数用于在堆栈顶部插入或“推”一个元素。这是来自 [C++标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<栈>** 头文件。元素被添加到堆栈容器中，堆栈的大小增加 1。
+push()函数用于在堆栈顶部插入或“推”一个元素。这是来自 [C++ 标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<栈>** 头文件。元素被添加到堆栈容器中，堆栈的大小增加 1。
 
 **语法:**
 
@@ -72,7 +72,7 @@ int main()
 
 ## 堆栈::pop()
 
-pop()函数用于从堆栈顶部移除或“弹出”元素(堆栈中最新或最顶层的元素)。这是一个来自 C++标准模板库(STL)的内置函数。该功能属于 **<栈>** 头文件。元素从堆栈容器中移除，堆栈的大小减少 1。
+pop()函数用于从堆栈顶部移除或“弹出”元素(堆栈中最新或最顶层的元素)。这是一个来自 C++ 标准模板库(STL)的内置函数。该功能属于 **<栈>** 头文件。元素从堆栈容器中移除，堆栈的大小减少 1。
 
 **语法:**
 
@@ -181,7 +181,7 @@ int main()
     // Counting number of elements in queue
     while (!mystack.empty()) {
         mystack.pop();
-        c++;
+        c++ ;
     }
     cout << c;
 }

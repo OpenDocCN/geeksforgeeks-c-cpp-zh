@@ -1,4 +1,4 @@
-# c++中的操纵器，示例
+# c++ 中的操纵器，示例
 
 > 原文:[https://www . geeksforgeeks . org/operators-in-c-with-examples/](https://www.geeksforgeeks.org/manipulators-in-c-with-examples/)
 

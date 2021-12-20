@@ -34,7 +34,7 @@ int equilibrium(int arr[], int n)
 
     /* Check for indexes one by one until 
       an equilibrium index is found */
-    for (i = 0; i < n; ++i) {       
+    for (i = 0; i < n; ++ i) {       
 
         /* get left sum */
         leftsum = 0; 
@@ -114,10 +114,10 @@ int equilibrium(int arr[], int n)
     int leftsum = 0; // initialize leftsum
 
     /* Find sum of the whole array */
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         sum += arr[i];
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++ i) {
         sum -= arr[i]; // sum is now right sum for index i
 
         if (leftsum == sum)

@@ -48,7 +48,7 @@ Output: Geeks
     Geeks
 ```
 
-### **在 C++中**
+### **在 C++ 中**
 
 ```cpp
 Note:  The main disadvantage of strtok() is that it only works for C style strings.
@@ -57,7 +57,7 @@ Note:  The main disadvantage of strtok() is that it only works for C style strin
        and works with C++ string. 
 ```
 
-#### **方法 1:** 使用 C++的 stringstream API
+#### **方法 1:** 使用 C++ 的 stringstream API
 
 **先决条件** : [stringstream](https://www.geeksforgeeks.org/stringstream-c-applications/) 原料药
 

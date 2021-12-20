@@ -219,7 +219,7 @@ int main()
         write(p[1], &c, 1);
 
         // send signal and alrm_action handler execute.
-        ++count;
+        ++ count;
         alarm(0);
     }
 }

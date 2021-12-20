@@ -189,7 +189,7 @@ int main()
 
 ****<u>向量的向量遍历</u>****
 
-**向量的向量可以用 C++中的 [**迭代器**](https://www.geeksforgeeks.org/iterators-c-stl/) 遍历。下面的代码演示了 2D 向量的遍历。**
+**向量的向量可以用 C++ 中的 [**迭代器**](https://www.geeksforgeeks.org/iterators-c-stl/) 遍历。下面的代码演示了 2D 向量的遍历。**
 
 ****语法:****
 

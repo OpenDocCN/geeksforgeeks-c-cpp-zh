@@ -1,4 +1,4 @@
-# 在 C++中从/向文件读取/写入类对象
+# 在 C++ 中从/向文件读取/写入类对象
 
 > 原文:[https://www . geesforgeks . org/read write-class-objects-from-file-c/](https://www.geeksforgeeks.org/readwrite-class-objects-fromto-file-c/)
 

@@ -1,4 +1,4 @@
-# 标准::c++中的加号
+# 标准::c++ 中的加号
 
 > 原文:[https://www.geeksforgeeks.org/stdplus-in-c/](https://www.geeksforgeeks.org/stdplus-in-c/)
 

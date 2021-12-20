@@ -1,4 +1,4 @@
-# 在 C++中将对象数组作为参数传递
+# 在 C++ 中将对象数组作为参数传递
 
 > 原文:[https://www . geesforgeks . org/passing-array-of-objects-as-in-c 参数/](https://www.geeksforgeeks.org/passing-array-of-objects-as-parameter-in-c/)
 
@@ -8,7 +8,7 @@
 
 > class name array _ name[size]；
 
-下面是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序，通过计算 3 个学生的最高分来说明对象的数组:
+下面是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序，通过计算 3 个学生的最高分来说明对象的数组:
 
 ## C++
 

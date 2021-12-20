@@ -51,14 +51,14 @@ int main()
     // Print the first set
     cout << "set1 = ";
     for (auto it = set1.begin();
-         it != set1.end(); ++it)
+         it != set1.end(); ++ it)
         cout << ' ' << *it;
 
     // Print the second set
     cout << endl
          << "set2 = ";
     for (auto it = set2.begin();
-         it != set2.end(); ++it)
+         it != set2.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;

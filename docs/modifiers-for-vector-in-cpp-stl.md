@@ -149,7 +149,7 @@ int main ()
     gquiz.erase(gquiz.begin(), gquiz.begin() + 5);
 
     cout << "gquiz contains :";
-    for (int i = 0; i < gquiz.size(); ++i)
+    for (int i = 0; i < gquiz.size(); ++ i)
         cout << gquiz[i] << '\t';
 
     return 0;
@@ -187,22 +187,22 @@ int main()
     cout << "Before Swapping, \n"
          <<"Contents of vector gquiz1 : ";
 
-    for (i = gquiz1.begin(); i != gquiz1.end(); ++i)
+    for (i = gquiz1.begin(); i != gquiz1.end(); ++ i)
         cout << *i << '\t';
 
     cout << "\nContents of vector gquiz2 : ";
-    for (i = gquiz2.begin(); i != gquiz2.end(); ++i)
+    for (i = gquiz2.begin(); i != gquiz2.end(); ++ i)
         cout << *i << '\t';
 
     swap(gquiz1, gquiz2);
 
     cout << "\n\nAfter Swapping, \n";
     cout << "Contents of vector gquiz1 : ";
-    for (i = gquiz1.begin(); i != gquiz1.end(); ++i)
+    for (i = gquiz1.begin(); i != gquiz1.end(); ++ i)
         cout << *i << '\t';
 
     cout << "\nContents of vector gquiz2 : ";
-    for (i = gquiz2.begin(); i != gquiz2.end(); ++i)
+    for (i = gquiz2.begin(); i != gquiz2.end(); ++ i)
         cout << *i << '\t';
 
     cout << "\n\nNow, we clear() and then add "

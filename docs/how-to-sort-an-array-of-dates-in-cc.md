@@ -1,4 +1,4 @@
-# 如何在 C/C++中对日期数组进行排序？
+# 如何在 C/C++ 中对日期数组进行排序？
 
 > 原文:[https://www . geesforgeks . org/如何对 cc 中的日期数组进行排序/](https://www.geeksforgeeks.org/how-to-sort-an-array-of-dates-in-cc/)
 
@@ -26,9 +26,9 @@ Output:
 ```
 
 **强烈建议你尽量减少浏览器，先自己试试这个**
-想法是用内置函数来[c++中的排序函数](http://www.cplusplus.com/reference/algorithm/sort/)。我们可以编写自己的比较函数，首先比较年，然后月，然后天。
+想法是用内置函数来[c++ 中的排序函数](http://www.cplusplus.com/reference/algorithm/sort/)。我们可以编写自己的比较函数，首先比较年，然后月，然后天。
 
-下面是一个完整的 C++程序。
+下面是一个完整的 C++ 程序。
 
 ```cpp
 // C++ program to sort an array of dates

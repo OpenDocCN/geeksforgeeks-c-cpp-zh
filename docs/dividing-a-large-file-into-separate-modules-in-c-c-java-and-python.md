@@ -16,7 +16,7 @@
 
 我们将在流行的语言中看到一些不同类型的这种划分，比如 C/C++、Python 和 Java。
 
-*   ### [Jump to C/C++](#C_CPP)
+*   ### [Jump to C/C++ ](#C_CPP)
 
 *   ### [跳转到](#Python)巨蟒
 
@@ -145,7 +145,7 @@ void n_insert(struct Node** head, int data, int pos)
 
     struct Node* temp = *head;
 
-    for (int i = 0; i < pos - 2; ++i)
+    for (int i = 0; i < pos - 2; ++ i)
         temp = temp->next;
 
     new_node->next = temp->next;
@@ -204,7 +204,7 @@ gcc linkedlist.c -o linkedlist
 
 **正确的方法:**
 
-我们在每个以“#include”开头的 C/C++程序中都可以看到这些行。
+我们在每个以“#include”开头的 C/C++ 程序中都可以看到这些行。
 这意味着包括在“库”标题**下声明的所有函数(。h 文件)**并可能在 **library.c/cpp** 文件中定义。
 
 这些行在编译期间由预处理器处理。
@@ -218,7 +218,7 @@ gcc linkedlist.c -o linkedlist
 3.  当一起编译所有的源文件时，确保同一函数、变量等没有多个定义。为了同一个项目。(非常重要)
 4.  使用**静态函数**限制到声明它们的文件。
 5.  使用 **extern** 关键字来使用引用外部文件的变量。
-6.  如果使用 C++的话，注意命名空间一定要使用**namespace _ name::function()**避免冲突。
+6.  如果使用 C++ 的话，注意命名空间一定要使用**namespace _ name::function()**避免冲突。
 
 **将程序分成更小的代码:**
 查看上面的程序，我们可以看到这个大程序是如何被分成合适的小部分，然后很容易地进行工作的。
@@ -344,7 +344,7 @@ void n_insert(struct Node** head, int data, int pos)
 
     struct Node* temp = *head;
 
-    for (int i = 0; i < pos - 2; ++i)
+    for (int i = 0; i < pos - 2; ++ i)
         temp = temp->next;
 
     new_node->next = temp->next;
@@ -452,7 +452,7 @@ int main()
 
 ![](img/265c032522882bf2b94520ebb3c410ed.png)
 
-对于 C++来说，除了通常的语言特性/实现更改之外，它基本上保持不变。
+对于 C++ 来说，除了通常的语言特性/实现更改之外，它基本上保持不变。
 
 ## 计算机编程语言
 

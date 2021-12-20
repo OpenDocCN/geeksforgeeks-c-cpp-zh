@@ -46,7 +46,7 @@ void seperateOddEven(int* arr, int N)
     // Seperating them using sort comparator
     sort(arr, arr + N, compare);
 
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++ i) {
         cout << arr[i] << ' ';
     }
 }
@@ -104,7 +104,7 @@ static void seperateOddEven(Integer []arr, int N)
 
     });
 
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++ i) {
         System.out.print(arr[i] +" ");
     }
 }
@@ -161,7 +161,7 @@ static void seperateOddEven(int []arr, int N)
     IComparer cmp = new compare();
     Array.Sort(arr, cmp);
 
-    for(int i = 0; i < N; ++i)
+    for(int i = 0; i < N; ++ i)
     {
         Console.Write(arr[i] + " ");
     }
@@ -207,7 +207,7 @@ function seperateOddEven(arr, N)
     // Seperating them using sort comparator
     arr.sort(compare);
 
-    for (let i = 0; i < N; ++i) {
+    for (let i = 0; i < N; ++ i) {
         document.write(arr[i] + " ");
     }
 }

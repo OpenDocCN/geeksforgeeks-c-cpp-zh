@@ -1,12 +1,12 @@
-# 在 C++中使用类模板实现堆栈
+# 在 C++ 中使用类模板实现堆栈
 
 > 原文:[https://www . geesforgeks . org/implementing-stack-use-class-templates-in-CPP/](https://www.geeksforgeeks.org/implementing-stack-using-class-templates-in-cpp/)
 
-任务是使用 C++中的类模板实现堆栈的一些重要功能，如 pop()、push()、display()、topElement()、isEmpty()、isFull()。[堆栈](https://www.geeksforgeeks.org/stack-data-structure/)是一种线性数据结构，遵循执行操作的特定顺序。顺序可以是后进先出或后进先出。
+任务是使用 C++ 中的类模板实现堆栈的一些重要功能，如 pop()、push()、display()、topElement()、isEmpty()、isFull()。[堆栈](https://www.geeksforgeeks.org/stack-data-structure/)是一种线性数据结构，遵循执行操作的特定顺序。顺序可以是后进先出或后进先出。
 
 简单的想法是将数据类型作为参数传递，这样我们就不需要为不同的数据类型编写相同的代码。例如，软件公司可能需要对不同的数据类型进行 sort()。我们可以编写一个 sort()并将数据类型作为参数传递，而不是编写和维护多个代码。
 
-C++为支持模板增加了两个新关键词:*【模板】*和*【类型名】*。第二个关键字总是可以用关键字“*类*代替。
+C++ 为支持模板增加了两个新关键词:*【模板】*和*【类型名】*。第二个关键字总是可以用关键字“*类*代替。
 
 **图解:**
 

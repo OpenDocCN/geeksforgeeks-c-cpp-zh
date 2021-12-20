@@ -1,4 +1,4 @@
-# std::equal()在 C++中
+# std::equal()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdequal-in-cpp/](https://www.geeksforgeeks.org/stdequal-in-cpp/)
 
@@ -119,7 +119,7 @@ The contents of both sequences differ.
 *   [标准::max_element](https://www.geeksforgeeks.org/stdmax_element-in-cpp/)
 *   [标准::最大值](https://www.geeksforgeeks.org/stdmax-in-cpp/)
 *   [标准::分钟](https://www.geeksforgeeks.org/stdmin-in-cpp/)
-*   [标准::C++中的 min _ element](https://www.geeksforgeeks.org/stdmin_element-in-cpp/)
+*   [标准::C++ 中的 min _ element](https://www.geeksforgeeks.org/stdmin_element-in-cpp/)
 
 本文由 <font color="green">**Mohit Gupta_OMG 供稿😀**</font> 。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

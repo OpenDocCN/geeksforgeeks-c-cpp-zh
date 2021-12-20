@@ -1,9 +1,9 @@
-# c++中左值引用和右值引用，示例
+# c++ 中左值引用和右值引用，示例
 
 > 原文:[https://www . geesforgeks . org/lvalues-references-and-rvalues-references-in-c-with-examples/](https://www.geeksforgeeks.org/lvalues-references-and-rvalues-references-in-c-with-examples/)
 
-**先决条件:**[c++中的左值和右值](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)、[c++中的引用](https://www.geeksforgeeks.org/references-in-c/)
-**“l 值”**是指标识对象的内存位置。**“r 值”**是指存储在内存中某个地址的数据值。**c++中的引用**不过是已经存在的变量的替代。它们在变量名称前使用 **' & '** 来声明。
+**先决条件:**[c++ 中的左值和右值](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)、[c++ 中的引用](https://www.geeksforgeeks.org/references-in-c/)
+**“l 值”**是指标识对象的内存位置。**“r 值”**是指存储在内存中某个地址的数据值。**c++ 中的引用**不过是已经存在的变量的替代。它们在变量名称前使用 **' & '** 来声明。
 
 **示例:**
 

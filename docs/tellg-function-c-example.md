@@ -1,4 +1,4 @@
-# 用 C++中的 tellg()函数举例
+# 用 C++ 中的 tellg()函数举例
 
 > 原文:[https://www.geeksforgeeks.org/tellg-function-c-example/](https://www.geeksforgeeks.org/tellg-function-c-example/)
 

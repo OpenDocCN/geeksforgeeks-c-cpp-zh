@@ -1,4 +1,4 @@
-# 标准::C++中的距离
+# 标准::C++ 中的距离
 
 > 原文:[https://www.geeksforgeeks.org/stddistance-in-c/](https://www.geeksforgeeks.org/stddistance-in-c/)
 
@@ -34,7 +34,7 @@ int main()
     vector<int> v;
     int i;
 
-    for (i = 0; i < 10; ++i)
+    for (i = 0; i < 10; ++ i)
     {
         v.push_back(i);
     }
@@ -85,7 +85,7 @@ int main()
     vector<int> v;
     int i;
 
-    for (i = 0; i < 10; ++i)
+    for (i = 0; i < 10; ++ i)
     {
         v.push_back(i);
     }

@@ -37,14 +37,14 @@ int main()
     // prints the elements
     cout << "\nThe map mp is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+    for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
 
     cout << "\nThe map copymap is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = copymp.begin(); itr != copymp.end(); ++itr) {
+    for (auto itr = copymp.begin(); itr != copymp.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }

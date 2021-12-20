@@ -1,8 +1,8 @@
-# c++中的异常头，带示例
+# c++ 中的异常头，带示例
 
 > 原文:[https://www . geesforgeks . org/exception-header-in-c-with-examples/](https://www.geeksforgeeks.org/exception-header-in-c-with-examples/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 提供了名称空间 std 中的头文件 **<【异常】>** 中定义的标准异常列表，其中“异常”是所有标准异常的基类。标准库生成的所有异常，如 **[bad_alloc](https://www.geeksforgeeks.org/bad_alloc-in-cpp/)** 、 **[bad_cast](https://www.geeksforgeeks.org/typeinfobad_cast-in-c-with-examples/?ref=rp)** 、**[runtime _ error](https://www.geeksforgeeks.org/g-fact-33/)**等都继承自 **std::exception** 。因此，所有标准异常都可以通过引用来捕获。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 提供了名称空间 std 中的头文件 **<【异常】>** 中定义的标准异常列表，其中“异常”是所有标准异常的基类。标准库生成的所有异常，如 **[bad_alloc](https://www.geeksforgeeks.org/bad_alloc-in-cpp/)** 、 **[bad_cast](https://www.geeksforgeeks.org/typeinfobad_cast-in-c-with-examples/?ref=rp)** 、**[runtime _ error](https://www.geeksforgeeks.org/g-fact-33/)**等都继承自 **std::exception** 。因此，所有标准异常都可以通过引用来捕获。
 
 **头文件:**
 
@@ -11,7 +11,7 @@
 
 ```
 
-<u>下面是 C++中抛出的错误</u>:
+<u>下面是 C++ 中抛出的错误</u>:
 
 | 例外 | 描述 |
 | --- | --- |
@@ -24,7 +24,7 @@
 | 逻辑错误 | 与程序内部逻辑相关的错误 |
 | 运行时错误 | 与程序内部逻辑相关的错误 |
 
-下面是程序来说明 C++中异常类的一些错误:
+下面是程序来说明 C++ 中异常类的一些错误:
 
 **程序 1:**
 下图为 **std::bad_alloc** 错误:

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/c-bootsdynamic _ bit set-class-with-examples/](https://www.geeksforgeeks.org/c-boostdynamic_bitset-class-with-examples/)
 
-[**boost**](https://www.geeksforgeeks.org/advanced-c-boost-library/) 中有 150 多个库，其中一些最常用的库已经包含在 C++标准库中。**动态位集**是一个用于位操作的强大库。dynamic_bitset 类用于表示 0(复位)或 1(设置)形式的一组位。dynamic_bitset 是对 bitset([**STD::bit set**](https://www.geeksforgeeks.org/c-bitset-and-its-application/)和 **boost::bitset** )的改进，后者在运行时分配任何所需长度的位，而 bit set 的位长度必须在编译时确定。
+[**boost**](https://www.geeksforgeeks.org/advanced-c-boost-library/) 中有 150 多个库，其中一些最常用的库已经包含在 C++ 标准库中。**动态位集**是一个用于位操作的强大库。dynamic_bitset 类用于表示 0(复位)或 1(设置)形式的一组位。dynamic_bitset 是对 bitset([**STD::bit set**](https://www.geeksforgeeks.org/c-bitset-and-its-application/)和 **boost::bitset** )的改进，后者在运行时分配任何所需长度的位，而 bit set 的位长度必须在编译时确定。
 升压标题**下的**动态位组**升压/动态位组. hpp** 。
 
 **语法:**

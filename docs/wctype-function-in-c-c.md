@@ -1,8 +1,8 @@
-# wctype()函数在 C/C++中
+# wctype()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wctype-function-in-c-c/](https://www.geeksforgeeks.org/wctype-function-in-c-c/)
 
-**wctype()** 是 C/C++中的内置函数，它返回 wctype_t 类型的值，用于对宽字符进行分类。在 C++的**cwcytpe**头文件中定义。以下是可能的 wctype_t 类型:
+**wctype()** 是 C/C++ 中的内置函数，它返回 wctype_t 类型的值，用于对宽字符进行分类。在 C++ 的**cwcytpe**头文件中定义。以下是可能的 wctype_t 类型:
 
 | *字符串*的值 | 等效函数 |
 | --- | --- |

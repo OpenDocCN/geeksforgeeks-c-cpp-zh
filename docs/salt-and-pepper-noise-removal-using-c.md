@@ -1,4 +1,4 @@
-# 用 C++去除椒盐噪声
+# 用 C++ 去除椒盐噪声
 
 > 原文:[https://www . geesforgeks . org/椒盐噪声去除-使用-c/](https://www.geeksforgeeks.org/salt-and-pepper-noise-removal-using-c/)
 
@@ -10,7 +10,7 @@
 2.  对于每个像素值，如果它包含 0(黑色)或 255(白色)，则计算其相邻像素值的平均值，否则该像素值存储在另一个数组中。
 3.  新数组的像素值用于输出文件。
 
-下面是椒盐噪声去除的简单 C++实现:
+下面是椒盐噪声去除的简单 C++ 实现:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -54,24 +54,24 @@ int main()
 
     // Initialize a new array of
     // same size of the image with 0
-    for (row = 0; row <= numrows; ++row)
+    for (row = 0; row <= numrows; ++ row)
         array[row][0] = 0;
 
-    for (col = 0; col <= numcols; ++col)
+    for (col = 0; col <= numcols; ++ col)
         array[0][col] = 0;
 
     printf("****\n");
 
     // Following lines : data
-    for (row = 1; row <= numrows; ++row) {
-        for (col = 1; col <= numcols; ++col) {
+    for (row = 1; row <= numrows; ++ row) {
+        for (col = 1; col <= numcols; ++ col) {
             // original data store in new array
             ss >> array[row][col];
         }
     }
 
-    for (row = 1; row <= numrows; ++row) {
-        for (col = 1; col <= numcols; ++col) {
+    for (row = 1; row <= numrows; ++ row) {
+        for (col = 1; col <= numcols; ++ col) {
 
             // check if intensity is black or white
             if (array[row][col] == 0 || array[row][col] == 255)
@@ -104,8 +104,8 @@ int main()
     outfile << numcols << " " << numrows << endl;
     outfile << "255" << endl;
 
-    for (row = 1; row <= numrows; ++row) {
-        for (col = 1; col <= numcols; ++col) {
+    for (row = 1; row <= numrows; ++ row) {
+        for (col = 1; col <= numcols; ++ col) {
 
             // store resultant pixel intensity to the output file
             outfile << arr[row][col] << " ";

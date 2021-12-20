@@ -1,4 +1,4 @@
-# 用 C++初始化一个向量(6 种不同的方式)
+# 用 C++ 初始化一个向量(6 种不同的方式)
 
 > 原文:[https://www . geesforgeks . org/initialize-a-vector-in-CPP-differential-way/](https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/)
 

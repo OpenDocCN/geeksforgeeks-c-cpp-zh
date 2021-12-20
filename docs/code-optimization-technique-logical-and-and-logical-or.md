@@ -6,7 +6,7 @@
 
 在使用&&(逻辑与)时，我们必须将获得**假**概率高的条件放在第一位，这样如果第一个条件为假，编译器就不需要检查第二个条件。
 
-## C++14
+## C++ 14
 
 ```cpp
 #include <bits/stdc++.h>
@@ -32,7 +32,7 @@ int main()
     // Implementation 1
     for (int i = 2; i <= n; i++) {
         if (isOdd(i) && isPrime(i))
-            cnt++;
+            cnt++ ;
     }
 
     cnt = 0;
@@ -41,7 +41,7 @@ int main()
     // Implementation 2
     for (int i = 2; i <= n; i++) {
         if (isPrime(i) && isOdd(i))
-            cnt++;
+            cnt++ ;
     }
 }
 ```
@@ -104,7 +104,7 @@ int main()
     // Implementation 1
     for (int i = 3; i <= n; i++) {
         if (isEven(i) || !isPrime(i))
-            cnt++;
+            cnt++ ;
     }
 }
 ```

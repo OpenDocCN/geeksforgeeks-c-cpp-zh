@@ -1,13 +1,13 @@
-# 在 C++中使用文件处理的 ATM
+# 在 C++ 中使用文件处理的 ATM
 
 > 原文:[https://www . geesforgeks . org/ATM-使用文件处理-in-cpp/](https://www.geeksforgeeks.org/atm-using-file-handling-in-cpp/)
 
-在本文中，任务是使用 C++中的**文件处理**实现一个[自动柜员机](https://www.geeksforgeeks.org/use-case-diagram-for-bank-atm-system/)，具有添加、删除、搜索和更新用户等功能。
+在本文中，任务是使用 C++ 中的**文件处理**实现一个[自动柜员机](https://www.geeksforgeeks.org/use-case-diagram-for-bank-atm-system/)，具有添加、删除、搜索和更新用户等功能。
 
 **文件处理:**
 
 *   [文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)用于将程序的输出存储在文件中。
-*   在 C++中，文件使用三个类[**fsstream**、 **ifstream** 、 **ofstream**](https://www.geeksforgeeks.org/file-handling-c-classes/) 在[**fsstream**](https://www.geeksforgeeks.org/file-handling-c-classes/)头文件中提供用于文件处理。
+*   在 C++ 中，文件使用三个类[**fsstream**、 **ifstream** 、 **ofstream**](https://www.geeksforgeeks.org/file-handling-c-classes/) 在[**fsstream**](https://www.geeksforgeeks.org/file-handling-c-classes/)头文件中提供用于文件处理。
 
 **一些重要说明:**
 

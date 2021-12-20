@@ -1,8 +1,8 @@
-# c++中虚函数可以私有吗？
+# c++ 中虚函数可以私有吗？
 
 > 原文:[https://www . geesforgeks . org/can-virtual-functions-be-private-in-c/](https://www.geeksforgeeks.org/can-virtual-functions-be-private-in-c/)
 
-在 C++中，虚函数可以是私有的，并且可以被派生类重写。例如，下面的程序编译并运行良好。
+在 C++ 中，虚函数可以是私有的，并且可以被派生类重写。例如，下面的程序编译并运行良好。
 
 ## C++
 

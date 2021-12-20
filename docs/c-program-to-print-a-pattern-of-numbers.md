@@ -43,7 +43,7 @@ int main()
         for ( i = 1 ; i <= j ; i++ )
         {
             cout << num;
-            num++;
+            num++ ;
         }
         num--;
         num--;
@@ -85,7 +85,7 @@ int main()
           for ( i = 1 ; i <= j ; i++ )
           {
               printf("%d", num);
-              num++;
+              num++ ;
           }
           num--;
           num--;
@@ -130,7 +130,7 @@ class GFG {
         for ( i = 1 ; i <= j ; i++ )
         {
             System.out.print(num);
-            num++;
+            num++ ;
         }
         num--;
         num--;
@@ -204,7 +204,7 @@ class GFG {
 
             for (i = 1; i <= j; i++) {
                 Console.Write(num);
-                num++;
+                num++ ;
             }
             num--;
             num--;
@@ -244,7 +244,7 @@ for ($j = 1; $j <= $n; $j++)
     for ($i = 1; $i <= $j; $i++)
     {
         printf($num);
-        $num++;
+        $num++ ;
     }
     $num--;
     $num--;
@@ -281,7 +281,7 @@ for ($j = 1; $j <= $n; $j++)
         gap--;
         for (i = 1; i <= j; i++) {
           document.write(num);
-          num++;
+          num++ ;
         }
         num--;
         num--;

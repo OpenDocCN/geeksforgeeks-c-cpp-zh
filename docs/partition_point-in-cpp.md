@@ -1,4 +1,4 @@
-# c++中的 partition _ point
+# c++ 中的 partition _ point
 
 > 原文:[https://www.geeksforgeeks.org/partition_point-in-cpp/](https://www.geeksforgeeks.org/partition_point-in-cpp/)
 
@@ -39,7 +39,7 @@ template
     ForwardIterator it = first;
     auto step = n/2;
     std::advance (it, step);
-    if (pred(*it)) { first=++it; n-=step+1; }
+    if (pred(*it)) { first=++ it; n-=step+1; }
     else n=step;
   }
   return first;

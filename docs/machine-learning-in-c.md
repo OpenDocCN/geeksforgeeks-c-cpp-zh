@@ -1,15 +1,15 @@
-# c++中的机器学习
+# c++ 中的机器学习
 
 > 原文:[https://www.geeksforgeeks.org/machine-learning-in-c/](https://www.geeksforgeeks.org/machine-learning-in-c/)
 
-我们大多数人都把 C++作为我们的第一语言，但是当涉及到像数据分析和机器学习这样的东西时，Python 成为了我们的首选语言，因为它简单并且有大量的预写模块库。
-但是 C++也可以用于机器学习吗？如果是，那怎么做？
+我们大多数人都把 C++ 作为我们的第一语言，但是当涉及到像数据分析和机器学习这样的东西时，Python 成为了我们的首选语言，因为它简单并且有大量的预写模块库。
+但是 C++ 也可以用于机器学习吗？如果是，那怎么做？
 
 **先决条件:**
 
-1.  **C++ Boost 库:-** 这是一个功能强大的 C++库，用于各种目的，如大型数学运算等。
+1.  **C++ Boost 库:-** 这是一个功能强大的 C++ 库，用于各种目的，如大型数学运算等。
     可以参考这里的[来安装这个库](http://www.boost.org/doc/libs/1_62_0/more/getting_started/unix-variants.html#errors-and-warnings)
-2.  **ML pack C++库:-** 这是一个小型且可扩展的 C++机器学习库。
+2.  **ML pack C++ 库:-** 这是一个小型且可扩展的 C++ 机器学习库。
     这个库的安装可以参考这里的[。
     **注意:**安装 mlpack 时设置 USE_OPENMP=OFF，不要担心，给定的链接有如何操作的指南](https://github.com/mlpack/mlpack/)
 3.  **样本 CSV 数据文件:-** 由于 MLpack 库没有任何内置的样本数据集，因此我们必须使用自己的样本数据集。
@@ -96,7 +96,7 @@ void mlModel()
     // in the above line we find the nearest neighbor
 
     // Print out each neighbor and its distance.
-    for (size_t i = 0; i < neighbors.n_elem; ++i)
+    for (size_t i = 0; i < neighbors.n_elem; ++ i)
     {
         std::cout << "Nearest neighbor of point " << i << " is point "
                   << neighbors[i] << " and the distance is " 
@@ -114,7 +114,7 @@ int main()
 使用在终端/CMD 中运行上述代码
 
 ```cpp
-g++ knn_example.cpp -o knn_example -std=c++11 -larmadillo -lmlpack -lboost_serialization
+g++ knn_example.cpp -o knn_example -std=c++ 11 -larmadillo -lmlpack -lboost_serialization
 
 ```
 

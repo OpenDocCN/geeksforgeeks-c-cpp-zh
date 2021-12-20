@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswdigit-function-in-c-c/](https://www.geeksforgeeks.org/iswdigit-function-in-c-c/)
 
-**iswdigit()** 是 C++ STL 中的内置函数，它检查给定的宽字符是否是十进制数字字符。在 C++的**cwcytpe**头文件中定义。从 0 到 9 的字符，即 0、1、2、3、4、5、6、7、8、9 被归类为十进制数字。
+**iswdigit()** 是 C++ STL 中的内置函数，它检查给定的宽字符是否是十进制数字字符。在 C++ 的**cwcytpe**头文件中定义。从 0 到 9 的字符，即 0、1、2、3、4、5、6、7、8、9 被归类为十进制数字。
 
 **语法**:
 

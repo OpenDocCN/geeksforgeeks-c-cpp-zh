@@ -1,8 +1,8 @@
-# 用 C++实现互动网购
+# 用 C++ 实现互动网购
 
 > 原文:[https://www . geesforgeks . org/impering-interactive-online-shopping-in-c/](https://www.geeksforgeeks.org/implementing-interactive-online-shopping-in-c/)
 
-网上购物就是计算顾客所选商品的总金额。在本文中，我们将讨论一个用于在线购物的[菜单驱动的](https://www.geeksforgeeks.org/tag/menu-driven-programs/) [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)。
+网上购物就是计算顾客所选商品的总金额。在本文中，我们将讨论一个用于在线购物的[菜单驱动的](https://www.geeksforgeeks.org/tag/menu-driven-programs/) [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)。
 
 ### 提供的功能
 
@@ -415,7 +415,7 @@ void selectedCourses()
                 cout << "selected C Language"
                      << " course\n";
                 total_amount += items["C"];
-                selected_items["C"]++;
+                selected_items["C"]++ ;
                 cout << "amount  =  "
                      << total_amount
                      << endl;
@@ -425,7 +425,7 @@ void selectedCourses()
             if (selectedNum == 2) {
                 cout << "selected C++ Language course\n";
                 total_amount += items["C++"];
-                selected_items["C++"]++;
+                selected_items["C++"]++ ;
                 cout << "amount  =  " << total_amount << endl;
             }
 
@@ -433,7 +433,7 @@ void selectedCourses()
             if (selectedNum == 3) {
                 cout << "selected Java Language course\n";
                 total_amount += items["Java"];
-                selected_items["Java"]++;
+                selected_items["Java"]++ ;
                 cout << "amount  =  " << total_amount << endl;
             }
 
@@ -442,7 +442,7 @@ void selectedCourses()
                 cout << "selected Python"
                      << " Language course\n";
                 total_amount += items["Python"];
-                selected_items["Python"]++;
+                selected_items["Python"]++ ;
                 cout << "amount  =  "
                      << total_amount
                      << endl;

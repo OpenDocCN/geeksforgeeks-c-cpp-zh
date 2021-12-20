@@ -1,12 +1,12 @@
-# 如何在 C++中处理文件
+# 如何在 C++ 中处理文件
 
 > 原文:[https://www . geesforgeks . org/如何使用 c 语言处理文件/](https://www.geeksforgeeks.org/how-to-work-with-file-handling-in-c/)
 
-**先决条件:** [通过 C++类进行文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)
+**先决条件:** [通过 C++ 类进行文件处理](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，文件主要使用 **fstream** [头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)中提供的三个类 **fstream、ifstream、ofstream** 进行处理。在这篇文章中，我们将讨论如何使用[文件处理](https://www.geeksforgeeks.org/basics-file-handling-c/)来存储数据。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，文件主要使用 **fstream** [头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)中提供的三个类 **fstream、ifstream、ofstream** 进行处理。在这篇文章中，我们将讨论如何使用[文件处理](https://www.geeksforgeeks.org/basics-file-handling-c/)来存储数据。
 
-这个想法是以图书数据库为例，在 C++中实现它。以下是使用的功能:
+这个想法是以图书数据库为例，在 C++ 中实现它。以下是使用的功能:
 
 *   如何插入图书记录
 *   如何查看所有图书记录
@@ -141,7 +141,7 @@ void Book::searchBook(char* t)
         while (!fin.eof()) {
             if (!strcmp(t, title)) {
                 showBookData();
-                counter++;
+                counter++ ;
             }
             fin.read((char*)this, sizeof(*this));
         }
@@ -303,6 +303,6 @@ int main()
 
 ![](img/ab7ba5446ce8e0c7d6e6347d76c807be.png)
 
-*   现在终于可以在下图中看到“java”更新为“JAVA”，图书 id 更新为 **4** ，价格更新为**“350”**。第三张图片中可以看到 java book 以前的数据。C++的记录被删除，这就是为什么它没有显示在下面的原因:
+*   现在终于可以在下图中看到“java”更新为“JAVA”，图书 id 更新为 **4** ，价格更新为**“350”**。第三张图片中可以看到 java book 以前的数据。C++ 的记录被删除，这就是为什么它没有显示在下面的原因:
 
 ![](img/384b77e38422e9a13b847ce2a6a6ab76.png)

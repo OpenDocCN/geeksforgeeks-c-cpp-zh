@@ -1,4 +1,4 @@
-# c++中的 nearbyint()函数
+# c++ 中的 nearbyint()函数
 
 > 原文:[https://www.geeksforgeeks.org/nearbyint-function-in-c/](https://www.geeksforgeeks.org/nearbyint-function-in-c/)
 
@@ -21,7 +21,7 @@ long double nearbyint(long double x);
 
 **返回值:**使用舍入方法将 x 的舍入值返回到附近的整数值。
 
-下面的程序说明了 C++中的 nearbyint()函数:
+下面的程序说明了 C++ 中的 nearbyint()函数:
 
 **程序 1:**
 

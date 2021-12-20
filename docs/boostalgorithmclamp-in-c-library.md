@@ -1,4 +1,4 @@
-# c++库中的 boost::algorithm::clamp()
+# c++ 库中的 boost::algorithm::clamp()
 
 > 原文:[https://www . geeksforgeeks . org/boostalgorithmclamp-in-c-library/](https://www.geeksforgeeks.org/boostalgorithmclamp-in-c-library/)
 

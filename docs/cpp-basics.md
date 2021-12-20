@@ -1,19 +1,19 @@
-# C++基础知识
+# C++ 基础知识
 
 > 原文:[https://www.geeksforgeeks.org/cpp-basics/](https://www.geeksforgeeks.org/cpp-basics/)
 
-C++是一种跨平台语言，可用于创建高性能应用程序。它是由比雅尼·斯特劳斯特鲁普开发的，是 C 语言的扩展。该语言在 2011 年、2014 年和 2017 年进行了 3 次重大更新，分别为 C++11、C++14 和 C++17。
+C++ 是一种跨平台语言，可用于创建高性能应用程序。它是由比雅尼·斯特劳斯特鲁普开发的，是 C 语言的扩展。该语言在 2011 年、2014 年和 2017 年进行了 3 次重大更新，分别为 C++ 11、C++ 14 和 C++ 17。
 
 ### 为什么要用 C++？
 
-*   C++是世界上最流行的编程语言之一。
-*   C++可以在今天的操作系统、图形用户界面和嵌入式系统中找到。
-*   C++是一种面向对象的编程语言，它为程序提供了清晰的结构，并允许代码被重用，从而降低了开发成本。
-*   C++是可移植的，可以用来开发适用于多个平台的应用程序。
-*   C++有趣又易学！
-*   由于 C++接近 C#和 Java，所以程序员很容易切换到 C++或者相反。
+*   C++ 是世界上最流行的编程语言之一。
+*   C++ 可以在今天的操作系统、图形用户界面和嵌入式系统中找到。
+*   C++ 是一种面向对象的编程语言，它为程序提供了清晰的结构，并允许代码被重用，从而降低了开发成本。
+*   C++ 是可移植的，可以用来开发适用于多个平台的应用程序。
+*   C++ 有趣又易学！
+*   由于 C++ 接近 C#和 Java，所以程序员很容易切换到 C++ 或者相反。
 
-### C++基础程序
+### C++ 基础程序
 
 ## C++
 
@@ -34,17 +34,17 @@ int main()
 Hello World!
 ```
 
-### C++代码的组件:
+### C++ 代码的组件:
 
 1.  [**【评论】**](https://www.geeksforgeeks.org/comments-in-c-c/) **:** 这两个斜杠(//)符号是用来在程序中添加评论的。它对程序的行为或结果没有任何影响。它用来描述你正在编写的程序。
-2.  **# include<iostream>:**# include 是用于在我们的程序中包含文件的预处理器指令。这里我们包含了 iostream 标准文件，这是在 C++中声明基本标准输入/输出库所必需的。
-3.  **使用命名空间标准:**标准 C++库的所有元素都在一个命名空间中声明。这里我们使用的是标准命名空间。
-4.  **int main():** 任何 C++程序的执行都是从 main 函数开始的，因此在你的程序中有一个 main 函数是必要的。“int”是此函数的返回值。(我们稍后将更详细地研究函数)。
+2.  **# include<iostream>:**# include 是用于在我们的程序中包含文件的预处理器指令。这里我们包含了 iostream 标准文件，这是在 C++ 中声明基本标准输入/输出库所必需的。
+3.  **使用命名空间标准:**标准 C++ 库的所有元素都在一个命名空间中声明。这里我们使用的是标准命名空间。
+4.  **int main():** 任何 C++ 程序的执行都是从 main 函数开始的，因此在你的程序中有一个 main 函数是必要的。“int”是此函数的返回值。(我们稍后将更详细地研究函数)。
 5.  **{}:** 花括号用来表示任何函数的起点和终点。每个开口支架都应该有一个相应的封闭支架。
-6.  **cout<T3【你好世界！\ n "；**这是 C++语句。cout 表示 C++中的标准输出流。它在标准命名空间内的 iostream 标准文件中声明。报价之间的文本将打印在屏幕上。\n 不会打印，它用于添加换行符。C++中的每个语句都以分号(；).
+6.  **cout<T3【你好世界！\ n "；**这是 C++ 语句。cout 表示 C++ 中的标准输出流。它在标准命名空间内的 iostream 标准文件中声明。报价之间的文本将打印在屏幕上。\n 不会打印，它用于添加换行符。C++ 中的每个语句都以分号(；).
 7.  **返回 0；**返回表示函数结束。这里的函数是 main，所以当我们按 return 0 时，它退出程序。我们返回 0 是因为我们提到了主函数的返回类型为 integer (int main)。零表示一切顺利，一表示出了问题。
 
-### C++中的输入和输出
+### C++ 中的输入和输出
 
 必须包含头文件 iostream 才能使用输入/输出(CIN/库特)运算符。
 
@@ -57,9 +57,9 @@ Hello World!
 *   cout 运算符不会在输出的末尾换行。所以如果你想打印两个句子，你必须使用新行字符(\n)。
 *   可以使用 endl 操纵器代替新行字符。
 
-下面是 C++程序来说明标准输出:
+下面是 C++ 程序来说明标准输出:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -81,9 +81,9 @@ T6T8**输出**T1
 *   Cin operator will always return the variable type you use with CIN. So if you ask for an integer, you will get an integer, and so on. This may cause errors when the user of the program does not return the type you expect. (For example, if you want an integer, you can get a string of characters. )
 *   CIN operator is also chainable. In this case, the user must give two input values separated by any valid blank separator (tab, space or new line).
 
-下面是 C++程序来说明标准输入:
+下面是 C++ 程序来说明标准输入:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -103,7 +103,7 @@ int main()
 
 T6T8**输出**T1
 
-### [c++中的数据类型](https://www.geeksforgeeks.org/c-data-types/)
+### [c++ 中的数据类型](https://www.geeksforgeeks.org/c-data-types/)
 
 数据类型是变量的声明。这决定了与变量相关联的数据的类型和大小，因为不同的数据类型占用不同大小的内存，所以知道这些变量是很重要的。
 
@@ -146,7 +146,7 @@ T6T8**输出**T1
 *   True means 1, false means 0.
 *   Example: bool flag = false
 
-### C++类型修饰符
+### C++ 类型修饰符
 
 [类型修饰符](https://www.geeksforgeeks.org/interesting-facts-about-data-types-and-modifiers-in-c-cpp/)用于修改基本数据类型。
 
@@ -164,7 +164,7 @@ T6T8**输出**T1
 
 </figure>
 
-下面是实现数据类型的 C++程序:
+下面是实现数据类型的 C++ 程序:
 
 ## c++
 
@@ -227,7 +227,7 @@ Size of wchar_t is: 4 bytes
 
 这些是从基本(或内置)数据类型派生的数据类型。例如数组、指针、函数、引用。
 
-下面是实现派生数据类型的 C++程序:
+下面是实现派生数据类型的 C++ 程序:
 
 ## c++
 
@@ -316,7 +316,7 @@ ref = 40
 
 例如，类、结构、联合、枚举等。
 
-下面是实现类自定义数据类型的 C++程序:
+下面是实现类自定义数据类型的 C++ 程序:
 
 ## c++
 
@@ -352,7 +352,7 @@ int main()
 String is: GeeksForGeeks is the best Technical Website
 ```
 
-下面是实现结构自定义数据类型的 C++程序:
+下面是实现结构自定义数据类型的 C++ 程序:
 
 ## c++
 
@@ -385,7 +385,7 @@ int main()
 30, 40
 ```
 
-下面是实现工会自定义数据类型的 C++程序:
+下面是实现工会自定义数据类型的 C++ 程序:
 
 ## c++
 
@@ -424,7 +424,7 @@ After changing b = 15:
 a = 15, b = 15
 ```
 
-下面是 C++程序实现枚举的数据类型:
+下面是 C++ 程序实现枚举的数据类型:
 
 ## c++
 
@@ -454,7 +454,7 @@ int main()
 3
 ```
 
-### [c++中的运算符](https://www.geeksforgeeks.org/operators-c-c/)
+### [c++ 中的运算符](https://www.geeksforgeeks.org/operators-c-c/)
 
 运算符只是告诉编译器执行某些特定操作的符号。操作员有以下几种类型–
 
@@ -479,7 +479,7 @@ int main()
 
 </figure>
 
-下面是实现算术运算符的 C++程序:
+下面是实现算术运算符的 C++ 程序:
 
 ## c++
 
@@ -524,9 +524,9 @@ Modulo of b and a is 0
 3.  **Pre-decrementer** : immediately decrements the value of the operand.
 4.  **Post-decrementer** : It temporarily stores the current value of the operand, and the value of the operand will be decremented only after the statement is completed.
 
-下面是实现后递增器和后递减器的 C++程序:
+下面是实现后递增器和后递减器的 C++ 程序:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -541,7 +541,7 @@ int main()
   int a = 10;
   int b;
   int c;
-  b = a++;
+  b = a++ ;
   cout << a << " " <<
           b << endl;
   c = a--;
@@ -553,9 +553,9 @@ int main()
 
 T6T8**输出**T1
 
-下面是实现预递增器和预递减器的 C++程序:
+下面是实现预递增器和预递减器的 C++ 程序:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -570,7 +570,7 @@ int main()
   int a = 10;
   int b;
   int c;
-  b = ++a;
+  b = ++ a;
   cout << a << " " <<
           b << endl;
   c = --a;
@@ -601,7 +601,7 @@ T6T8**输出**T1
 
 </figure>
 
-下面是实现关系运算符的 C++程序:
+下面是实现关系运算符的 C++ 程序:
 
 ## c++
 
@@ -679,7 +679,7 @@ a <= b is true
 
 </figure>
 
-下面是 C++程序实现的逻辑运算符:
+下面是 C++ 程序实现的逻辑运算符:
 
 ## c++
 
@@ -750,7 +750,7 @@ a || b is true
 
 如果对数字 n 应用移位运算符，则
 
-下面是实现按位运算符的 C++程序:
+下面是实现按位运算符的 C++ 程序:
 
 ## c++
 
@@ -804,7 +804,7 @@ int main()
 
 </figure>
 
-下面是实现赋值运算符的 C++程序:
+下面是实现赋值运算符的 C++ 程序:
 
 ## c++
 
@@ -874,7 +874,7 @@ int main()
 
 </figure>
 
-下面是实现杂运算符的 C++程序:
+下面是实现杂运算符的 C++ 程序:
 
 ## c++
 
@@ -946,7 +946,7 @@ Minimum value from x and y is 5
 
 **1。如果/否则**
 
-if 块用于指定要执行的代码。如果其中指定的条件为真，则否则执行 else 块。下面是实现 if-else 的 C++程序:
+if 块用于指定要执行的代码。如果其中指定的条件为真，则否则执行 else 块。下面是实现 if-else 的 C++ 程序:
 
 ## C++
 
@@ -983,7 +983,7 @@ Not eligible for voting.
 
 **2。否则如果**
 
-要指定多个 if 条件，我们首先使用 if，然后连续语句使用 else if。下面是实现 else if 的 C++程序:
+要指定多个 if 条件，我们首先使用 if，然后连续语句使用 else if。下面是实现 else if 的 C++ 程序:
 
 ## c++
 
@@ -1022,7 +1022,7 @@ Y is greater than X
 
 **3。嵌套 if**
 
-为了在条件中指定条件，我们使用嵌套的 if。下面是 C++程序实现嵌套 if:
+为了在条件中指定条件，我们使用嵌套的 if。下面是 C++ 程序实现嵌套 if:
 
 ## c++
 
@@ -1140,7 +1140,7 @@ int main()
 Enter 2 numbers: Enter operand: Operator not found!
 ```
 
-### [c++中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)
+### [c++ 中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)
 
 循环用于重复执行语句块，直到满足特定条件。循环由初始化语句、测试条件和增量语句组成。
 
@@ -1155,7 +1155,7 @@ for (initialization; condition; update)
 }
 ```
 
-下面是实现 for 循环的 C++程序:
+下面是实现 for 循环的 C++ 程序:
 
 ## c++
 
@@ -1197,9 +1197,9 @@ while (condition)
 }
 ```
 
-下面是 C++程序实现的 while 循环:
+下面是 C++ 程序实现的 while 循环:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -1214,7 +1214,7 @@ int main()
   while (i <= 5) 
   {
     cout << i << " ";
-    i++;
+    i++ ;
   }
   return 0;
 }
@@ -1237,9 +1237,9 @@ do {
 while (condition);
 ```
 
-下面是实现边做边循环的 C++程序:
+下面是实现边做边循环的 C++ 程序:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -1253,7 +1253,7 @@ int main()
   int i = 1;
   do {
     cout << i << " ";
-    i++;
+    i++ ;
   } while (i <= 5);
   return 0;
 }
@@ -1263,7 +1263,7 @@ T6T8**输出**T1
 
 **说明:**
 
-do-while 循环变量由值 1 初始化，在每次迭代中，I 的值通过执行 i++而增加 1，测试条件是 i<=5，即循环一直执行到 I 的值保持小于或等于 5。由于测试条件只在循环运行一次后检查，所以边做边循环至少运行一次。
+do-while 循环变量由值 1 初始化，在每次迭代中，I 的值通过执行 i++ 而增加 1，测试条件是 i<=5，即循环一直执行到 I 的值保持小于或等于 5。由于测试条件只在循环运行一次后检查，所以边做边循环至少运行一次。
 
 ### 循环跳跃
 
@@ -1273,9 +1273,9 @@ do-while 循环变量由值 1 初始化，在每次迭代中，I 的值通过执
 
 continue 语句用于跳到该循环的下一次迭代。这意味着它会停止循环的一次迭代。该循环中 continue 语句之后的所有语句都不会执行。
 
-下面是实现 Continue 语句的 C++程序:
+下面是实现 Continue 语句的 C++ 程序:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to implement
@@ -1308,7 +1308,7 @@ T6T8**输出**T1
 
 break 语句用于终止当前循环。一旦在循环中遇到 break 语句，循环的所有后续迭代都将停止，控制将转移到循环结束后的第一条语句。
 
-下面是实现 break 语句的 C++程序:
+下面是实现 break 语句的 C++ 程序:
 
 ## c++
 

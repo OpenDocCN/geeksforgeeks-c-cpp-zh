@@ -1,4 +1,4 @@
-# getchar _ unlock()–更快的 C/C++输入，用于竞争性编程
+# getchar _ unlock()–更快的 C/C++ 输入，用于竞争性编程
 
 > 原文:[https://www . geesforgeks . org/getchar _ unlock-fast-input-cc-competitive-programming/](https://www.geeksforgeeks.org/getchar_unlocked-faster-input-cc-competitive-programming/)
 

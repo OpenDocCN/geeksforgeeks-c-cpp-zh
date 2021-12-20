@@ -1,4 +1,4 @@
-# 检查两个链表是否相同的 C++程序
+# 检查两个链表是否相同的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序检查两个链表是否相同/](https://www.geeksforgeeks.org/cpp-program-to-check-if-two-linked-lists-are-identical/)
 

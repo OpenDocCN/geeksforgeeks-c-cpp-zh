@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-38/](https://www.geeksforgeeks.org/g-fact-38/)
 
-在 C++中，赋值运算符应该重载自赋值检查。
+在 C++ 中，赋值运算符应该重载自赋值检查。
 
 例如，考虑下面的类*数组*和重载赋值运算符函数，无需自我赋值检查。
 

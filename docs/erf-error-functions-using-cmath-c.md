@@ -1,4 +1,4 @@
-# erf |在 C++中使用 cmath 的错误函数
+# erf |在 C++ 中使用 cmath 的错误函数
 
 > 原文:[https://www . geesforgeks . org/ERF-error-functions-using-cmath-c/](https://www.geeksforgeeks.org/erf-error-functions-using-cmath-c/)
 
@@ -8,7 +8,7 @@
 
 ![{\displaystyle {\begin{aligned}\operatorname {erf} (x)&={\frac {1}{\sqrt {\pi }}}\int _{-x}^{x}e^{-t^{2}}\,dt\\[5pt]&={\frac {2}{\sqrt {\pi }}}\int _{0}^{x}e^{-t^{2}}\,dt.\end{aligned}}}](img/62a1a8b648fc0fad8ac3ab6f89a6e8c1.png "Rendered by QuickLaTeX.com")
 
-在 C++的 **cmath** 库中，已经实现了错误函数。有两种这样的功能:-
+在 C++ 的 **cmath** 库中，已经实现了错误函数。有两种这样的功能:-
 
 1.  **erf(x)** :该内置函数计算 x 输入值的误差函数，参数 x 可以是 int 或 float 或 double。它返回一个双精度值，即 erf(x)。
 2.  **erfc(x)** :此内置函数计算 x 输入值的误差函数的余数，参数 x 可以是 int 或 float 或 double。它返回一个 1–ERF(x)的双精度值。

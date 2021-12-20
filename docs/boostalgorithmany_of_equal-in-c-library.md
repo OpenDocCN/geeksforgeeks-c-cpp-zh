@@ -1,4 +1,4 @@
-# boost::算法::C++库中的 any_of_equal()
+# boost::算法::C++ 库中的 any_of_equal()
 
 > 原文:[https://www . geeksforgeeks . org/boostalgorithmany _ of _ equal-in-c-library/](https://www.geeksforgeeks.org/boostalgorithmany_of_equal-in-c-library/)
 

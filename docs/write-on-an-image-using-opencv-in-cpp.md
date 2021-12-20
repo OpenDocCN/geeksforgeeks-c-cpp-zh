@@ -1,8 +1,8 @@
-# 在 C++中使用 openCV 在图像上书写
+# 在 C++ 中使用 openCV 在图像上书写
 
 > 原文:[https://www . geesforgeks . org/write-on-a-image-using-opencv-in-CPP/](https://www.geeksforgeeks.org/write-on-an-image-using-opencv-in-cpp/)
 
-在本文中，我们将讨论如何使用 [OpenCV](https://www.geeksforgeeks.org/opencv-c-program-face-detection/) [C++](https://www.geeksforgeeks.org/c-plus-plus/) 在图像上书写。来自 OpenCV C++库的函数 **putText()** 将用于在图像上书写文本。
+在本文中，我们将讨论如何使用 [OpenCV](https://www.geeksforgeeks.org/opencv-c-program-face-detection/) [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 在图像上书写。来自 OpenCV C++ 库的函数 **putText()** 将用于在图像上书写文本。
 
 **程序 1:**
 

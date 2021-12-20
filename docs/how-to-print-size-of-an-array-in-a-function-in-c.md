@@ -1,9 +1,9 @@
-# 如何在 C++中打印数组参数的大小？
+# 如何在 C++ 中打印数组参数的大小？
 
 > 原文:[https://www . geesforgeks . org/如何打印 c 中函数数组大小/](https://www.geeksforgeeks.org/how-to-print-size-of-an-array-in-a-function-in-c/)
 
 如何计算函数中数组参数的大小？
-考虑下面的 C++程序:
+考虑下面的 C++ 程序:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -65,7 +65,7 @@ int main()
 40 40
 ```
 
-上面的程序看起来不太好，因为我们有一个数组参数的硬编码大小。我们可以用 C++中的[模板](http://geeksquiz.com/templates-cpp/)做得更好。
+上面的程序看起来不太好，因为我们有一个数组参数的硬编码大小。我们可以用 C++ 中的[模板](http://geeksquiz.com/templates-cpp/)做得更好。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

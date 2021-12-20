@@ -1,4 +1,4 @@
-# 定时器在 C++中使用系统调用
+# 定时器在 C++ 中使用系统调用
 
 > 原文:[https://www.geeksforgeeks.org/timer-c-using-system-calls/](https://www.geeksforgeeks.org/timer-c-using-system-calls/)
 
@@ -55,19 +55,19 @@ void timer()
         sleep(1);
 
         // increment seconds
-        seconds++;
+        seconds++ ;
 
         // if seconds reaches 60
         if (seconds == 60) {
 
             // increment minutes
-            minutes++;
+            minutes++ ;
 
             // if minutes reaches 60
             if (minutes == 60) {
 
                 // increment hours
-                hours++;
+                hours++ ;
                 minutes = 0;
             }
             seconds = 0;

@@ -6,7 +6,7 @@
 
 ### deqo::front()
 
-front()用于引用 deque 容器的第一个元素。这个函数可以用来获取一个 deque 的第一个元素。这是来自 [C++标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<德清>** 头文件。
+front()用于引用 deque 容器的第一个元素。这个函数可以用来获取一个 deque 的第一个元素。这是来自 [C++ 标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<德清>** 头文件。
 
 **语法:**
 
@@ -65,7 +65,7 @@ int main()
 
 ### deqo::back()
 
-back()函数用于引用 deque 容器的最后一个元素。这个函数可以用来从 deque 的后面获取第一个元素。这个函数可以用来获取一个 deque 的第一个元素。这是一个来自 C++标准模板库(STL)的内置函数。该功能属于 **<德清>** 头文件。
+back()函数用于引用 deque 容器的最后一个元素。这个函数可以用来从 deque 的后面获取第一个元素。这个函数可以用来获取一个 deque 的第一个元素。这是一个来自 C++ 标准模板库(STL)的内置函数。该功能属于 **<德清>** 头文件。
 
 **语法:**
 

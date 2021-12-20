@@ -1,4 +1,4 @@
-# c++中从父类继承的都是什么？
+# c++ 中从父类继承的都是什么？
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-4/](https://www.geeksforgeeks.org/g-fact-4/)
 

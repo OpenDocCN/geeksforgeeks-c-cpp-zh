@@ -833,7 +833,7 @@ int* processQuery(int arr[], int queries[],
         while (i < n && arr[i] <= currK)
         {
             fibonacciSum += fib(arr[i]);
-            i++;
+            i++ ;
         }
 
         // store the current value of

@@ -32,7 +32,7 @@ GTK+的好处是**稳了**、**开发了**，它的起点可以追溯到构成�
 
 这些数据类型保证了代码可以在任何平台上重新编译，而无需进行任何改进。这些数据类型在这些库中被特征化，以帮助使其**独立于平台**。
 
-图形用户界面编程固有的面向对象性是它的主要问题。在这种情况下，程序世界观并不完全适合这个方案。因此，不管 GTK 是用 C 写的，它都通过 GObject 给出了**面向对象的帮助。请注意，此项排列的帮助与 C++无关。C++有自己的 GTK 库，叫做 **gtkmm** 。GObject 鼓励一部分面向对象的原则，类似于宏辅助下的多态和继承。下图说明了层次关系。**
+图形用户界面编程固有的面向对象性是它的主要问题。在这种情况下，程序世界观并不完全适合这个方案。因此，不管 GTK 是用 C 写的，它都通过 GObject 给出了**面向对象的帮助。请注意，此项排列的帮助与 C++ 无关。C++ 有自己的 GTK 库，叫做 **gtkmm** 。GObject 鼓励一部分面向对象的原则，类似于宏辅助下的多态和继承。下图说明了层次关系。**
 
 [![](img/802f866ff00b46909be092c7426862cc.png)](https://media.geeksforgeeks.org/wp-content/uploads/20191217124409/GUI4.png)
 
@@ -103,7 +103,7 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
     {
        g_print ("Welcome to GTK\n");
        g_print ("%s clicked %d times\n",
-          (char*)data, ++counter);
+          (char*)data, ++ counter);
     }
     g_signal_connect (GTK_OBJECT(button), "clicked",
        G_CALLBACK (greet), "button");
@@ -137,7 +137,7 @@ void greet(GtkWidget* widget, gpointer data)
     // printf equivalent in GTK+
     g_print("Welcome to GTK\n");
     g_print("%s clicked %d times\n",
-            (char*)data, ++counter);
+            (char*)data, ++ counter);
 }
 
 void destroy(GtkWidget* widget, gpointer data)

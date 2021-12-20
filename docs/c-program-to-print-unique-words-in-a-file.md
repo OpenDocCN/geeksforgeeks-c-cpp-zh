@@ -1,4 +1,4 @@
-# C++程序打印文件中唯一的单词
+# C++ 程序打印文件中唯一的单词
 
 > 原文:[https://www . geesforgeks . org/c-程序转打印-文件中的唯一单词/](https://www.geeksforgeeks.org/c-program-to-print-unique-words-in-a-file/)
 
@@ -30,7 +30,7 @@ void printUniquedWords(char filename[])
         if (!mp.count(word))
             mp.insert(make_pair(word, 1));
         else
-            mp[word]++;
+            mp[word]++ ;
     }
 
     fs.close();

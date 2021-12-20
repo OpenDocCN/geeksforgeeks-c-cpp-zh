@@ -1,4 +1,4 @@
-# c++中的 ratio_equal()示例
+# c++ 中的 ratio_equal()示例
 
 > 原文:[https://www . geesforgeks . org/ratio _ equal-in-c-with-examples/](https://www.geeksforgeeks.org/ratio_equal-in-c-with-examples/)
 

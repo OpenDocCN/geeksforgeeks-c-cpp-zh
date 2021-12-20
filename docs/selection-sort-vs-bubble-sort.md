@@ -31,10 +31,10 @@ Same Complexity - 
 using namespace std;
 void Selection_Sort(int arr[], int n) 
 {
-    for(int i = 0; i < n - 1; ++i) 
+    for(int i = 0; i < n - 1; ++ i) 
     {
         int min_index = i; 
-        for(int j = i + 1; j < n; ++j) 
+        for(int j = i + 1; j < n; ++ j) 
         {
             if(arr[j] < arr[min_index]) 
                 min_index = j;
@@ -48,7 +48,7 @@ int main()
     int arr[5] = {2, 0, 1, 4, 3};
     Selection_Sort(arr, n);
     cout<<"The Sorted Array by using Selection Sort is : ";
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
         cout<<arr[i]<<" ";
     return 0;
 }
@@ -61,10 +61,10 @@ class GFG{
 
   static void Selection_Sort(int arr[], int n) 
   {
-    for(int i = 0; i < n - 1; ++i) 
+    for(int i = 0; i < n - 1; ++ i) 
     {
       int min_index = i; 
-      for(int j = i + 1; j < n; ++j) 
+      for(int j = i + 1; j < n; ++ j) 
       {
         if(arr[j] < arr[min_index]) 
           min_index = j;
@@ -82,7 +82,7 @@ class GFG{
     int arr[] = {2, 0, 1, 4, 3};
     Selection_Sort(arr, n);
     System.out.print("The Sorted Array by using Selection Sort is : ");
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
       System.out.print(arr[i] + " ");
   }
 }
@@ -126,10 +126,10 @@ public class GFG{
 
   static void Selection_Sort(int []arr, int n) 
   {
-    for(int i = 0; i < n - 1; ++i) 
+    for(int i = 0; i < n - 1; ++ i) 
     {
       int min_index = i; 
-      for(int j = i + 1; j < n; ++j) 
+      for(int j = i + 1; j < n; ++ j) 
       {
         if(arr[j] < arr[min_index]) 
           min_index = j;
@@ -147,7 +147,7 @@ public class GFG{
     int []arr = {2, 0, 1, 4, 3};
     Selection_Sort(arr, n);
     Console.Write("The Sorted Array by using Selection Sort is : ");
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
       Console.Write(arr[i] + " ");
   }
 }
@@ -164,10 +164,10 @@ public class GFG{
 
     function Selection_Sort(arr, n)
   {
-    for(let i = 0; i < n - 1; ++i)
+    for(let i = 0; i < n - 1; ++ i)
     {
       let min_index = i;
-      for(let j = i + 1; j < n; ++j)
+      for(let j = i + 1; j < n; ++ j)
       {
         if(arr[j] < arr[min_index])
           min_index = j;
@@ -184,7 +184,7 @@ public class GFG{
     let arr = [2, 0, 1, 4, 3];
     Selection_Sort(arr, n);
     document.write("The Sorted Array by using Selection Sort is : ");
-    for(let i = 0; i < n; ++i)
+    for(let i = 0; i < n; ++ i)
       document.write(arr[i] + " ");
 
 </script>
@@ -213,9 +213,9 @@ The Sorted Array by using Selection Sort is : 0 1 2 3 4
 using namespace std;
 void Bubble_Sort(int arr[], int n) 
 {
-    for(int i = 1; i < n; ++i)     
+    for(int i = 1; i < n; ++ i)     
     {   
-                for(int j = 0; j <= (n - i - 1); ++j)  
+                for(int j = 0; j <= (n - i - 1); ++ j)  
         {   
             if(arr[j] > arr[j + 1])
                 swap(arr[j], arr[j + 1]); 
@@ -229,7 +229,7 @@ int main()
     int arr[5] = {2, 0, 1, 4, 3};
     Bubble_Sort(arr, n);
     cout<<"The Sorted Array by using Bubble Sort is : ";
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
         cout<<arr[i]<<" ";
     return 0;
 }
@@ -244,9 +244,9 @@ class GFG{
 
 static void Bubble_Sort(int arr[], int n) 
 {
-    for(int i = 1; i < n; ++i)     
+    for(int i = 1; i < n; ++ i)     
     {
-        for(int j = 0; j <= (n - i - 1); ++j)  
+        for(int j = 0; j <= (n - i - 1); ++ j)  
         {   
             if (arr[j] > arr[j + 1])
             {
@@ -267,7 +267,7 @@ public static void main(String[] args)
     Bubble_Sort(arr, n);
 
     System.out.print("The Sorted Array by using Bubble Sort is : ");
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
         System.out.print(arr[i]+" ");
 }
 }
@@ -308,9 +308,9 @@ public class GFG{
 
     static void Bubble_Sort(int[] arr, int n) 
     {
-        for(int i = 1; i < n; ++i)     
+        for(int i = 1; i < n; ++ i)     
         {
-            for(int j = 0; j <= (n - i - 1); ++j)  
+            for(int j = 0; j <= (n - i - 1); ++ j)  
             {   
                 if (arr[j] > arr[j + 1])
                 {
@@ -331,7 +331,7 @@ public class GFG{
         Bubble_Sort(arr, n);
 
         Console.Write("The Sorted Array by using Bubble Sort is : ");
-        for(int i = 0; i < n; ++i){
+        for(int i = 0; i < n; ++ i){
             Console.Write(arr[i]+" ");
         }
     }
@@ -348,9 +348,9 @@ public class GFG{
 
 function Bubble_Sort( arr, n) 
 {
-    for(var i = 1; i < n; ++i)     
+    for(var i = 1; i < n; ++ i)     
     {   
-        for(var j = 0; j <= (n - i - 1); ++j)  
+        for(var j = 0; j <= (n - i - 1); ++ j)  
         {   
             if(arr[j] > arr[j + 1]){
                 var temm = arr[j];
@@ -401,12 +401,12 @@ void Bubble_Sort(int arr[], int n)
     bool flag;
 
     // Iterate from 1 to n - 1
-    for (int i = 1; i < n; ++i) {
+    for (int i = 1; i < n; ++ i) {
 
         flag = false;
 
         // Iterate from 0 to n - i - 1
-        for (int j = 0; j <= (n - i - 1); ++j) {
+        for (int j = 0; j <= (n - i - 1); ++ j) {
             if (arr[j] > arr[j + 1]) {
                 swap(arr[j], arr[j + 1]);
                 flag = true;
@@ -424,7 +424,7 @@ int main()
     int arr[5] = { 2, 0, 1, 4, 3 };
     Bubble_Sort(arr, n);
     cout << "The Sorted Array by using Bubble Sort is : ";
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
     return 0;
 }
@@ -444,12 +444,12 @@ static void Bubble_Sort(int[] arr, int n)
     boolean flag;
 
     // Iterate from 1 to n - 1
-    for(int i = 1; i < n; ++i)
+    for(int i = 1; i < n; ++ i)
     {
         flag = false;
 
         // Iterate from 0 to n - i - 1
-        for(int j = 0; j <= (n - i - 1); ++j)
+        for(int j = 0; j <= (n - i - 1); ++ j)
         {
             if (arr[j] > arr[j + 1])
             {
@@ -473,7 +473,7 @@ public static void main(String[] args)
     System.out.print("The Sorted Array by " +
                      "using Bubble Sort is : ");
 
-    for(int i = 0; i < n; ++i)
+    for(int i = 0; i < n; ++ i)
         System.out.print(arr[i] + " ");
 }
 }
@@ -526,12 +526,12 @@ public class GFG{
         bool flag;
 
         // Iterate from 1 to n - 1
-        for (int i = 1; i < n; ++i) {
+        for (int i = 1; i < n; ++ i) {
 
             flag = false;
 
             // Iterate from 0 to n - i - 1
-            for (int j = 0; j <= (n - i - 1); ++j) {
+            for (int j = 0; j <= (n - i - 1); ++ j) {
                 if (arr[j] > arr[j + 1]) {
                     int temp  = arr[j];
                     arr[j] = arr[j + 1];
@@ -551,7 +551,7 @@ public class GFG{
         int[] arr = { 2, 0, 1, 4, 3 };
         Bubble_Sort(arr, n);
         Console.Write("The Sorted Array by using Bubble Sort is : ");
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i)
             Console.Write(arr[i] + " ");
     }
 
@@ -573,12 +573,12 @@ function Bubble_Sort(arr, n)
     Boolean(flag = true);
 
     // Iterate from 1 to n - 1
-    for(var i = 1; i < n; ++i)
+    for(var i = 1; i < n; ++ i)
     {
         flag = false;
 
         // Iterate from 0 to n - i - 1
-        for(var j = 0; j <= (n - i - 1); ++j)
+        for(var j = 0; j <= (n - i - 1); ++ j)
         {
             if (arr[j] > arr[j + 1])
             {
@@ -601,7 +601,7 @@ Bubble_Sort(arr, n);
 document.write("The Sorted Array by " +
                  "using Bubble Sort is : ");
 
-for(var i = 0; i < n; ++i)
+for(var i = 0; i < n; ++ i)
     document.write(arr[i] + " ");
 
 // This code is contributed by shivanisinghss2110

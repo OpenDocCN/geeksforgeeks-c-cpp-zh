@@ -1,14 +1,14 @@
-# 使用 C++在高级文本中进行定制调试，用于竞争性编程
+# 使用 C++ 在高级文本中进行定制调试，用于竞争性编程
 
 > 原文:[https://www . geesforgeks . org/customized-debug-in-supreme-text-use-c-for-competitive-programming/](https://www.geeksforgeeks.org/customized-debugging-in-sublime-text-using-c-for-competitive-programming/)
 
 [](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)<u>竞技编程是一项脑力运动，它使我们能够在规定的约束下对给定的问题进行编码。本文的目的是指导每个人如何在竞赛中有效地调试他们的代码。</u>
 
-<u>**先决条件:** [<u>为 C++竞争性编程环境设置崇高文本</u>](https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/)</u>
+<u>**先决条件:** [<u>为 C++ 竞争性编程环境设置崇高文本</u>](https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/)</u>
 
 <u>时间是宝贵的，在编码竞赛中时间非常重要。当编写代码时，错误确实会出现，程序员往往会花很多时间调试它。程序员经常在比赛中处理复杂的数据结构，并且需要在给定的时间限制内调试它们。</u>
 
-<u>本文主要讨论如何在竞赛中高效调试 C++源代码，节省时间。首先，需要建立我们崇高文本的文件结构。以下是设置崇高文本文件结构的步骤。</u>
+<u>本文主要讨论如何在竞赛中高效调试 C++ 源代码，节省时间。首先，需要建立我们崇高文本的文件结构。以下是设置崇高文本文件结构的步骤。</u>
 
 <u>**第一步:**打开**崇高文字**，按照以下步骤操作:</u>
 
@@ -29,9 +29,9 @@
 
 **崇高文字**</u> 
 
-<u>**第二步:**在主函数外创建一个局部函数。它用于从 input.txt 文件中获取输入，并在 output.txt 文件中显示输出。下面是相同的 C++代码片段。</u>
+<u>**第二步:**在主函数外创建一个局部函数。它用于从 input.txt 文件中获取输入，并在 output.txt 文件中显示输出。下面是相同的 C++ 代码片段。</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // Declare this function outside
@@ -62,7 +62,7 @@ local();
 
 <u>通过结合上述步骤，我们的完整计划将是:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // C++ program to implement
@@ -99,9 +99,9 @@ int main()
 
 <u>**使用打印功能调试:**</u>
 
-<u>每当我们需要打印一个变量或任何数据结构，如向量、集合、映射等时，在我们的程序中创建一个打印函数。下面是实现相同方法的 C++程序:</u>
+<u>每当我们需要打印一个变量或任何数据结构，如向量、集合、映射等时，在我们的程序中创建一个打印函数。下面是实现相同方法的 C++ 程序:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // C++ program to implement
@@ -137,7 +137,7 @@ int main()
 
 <u>假设在我们的逻辑中出现了问题，由于在比赛期间没有获得期望的输出，因此在第一次操作之后要检查 [**<u>【向量】</u>**](https://www.geeksforgeeks.org/vector-in-cpp-stl/) 的状态，可以在接受向量的主函数之外创建一个打印函数。</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // print function outside the
@@ -164,9 +164,9 @@ void print(vector<int>& vect)
 print(vect);
 ```
 
-<u>下面是完整的 C++程序来说明如何实现上述概念:</u>
+<u>下面是完整的 C++ 程序来说明如何实现上述概念:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // C++ program to implement
@@ -244,9 +244,9 @@ Final Answer: 185
 
 <u>**使用模板调试:**</u>
 
-<u>在上面的方法中，向量的数据类型是硬编码的。 [**<u>模板</u>**](https://www.geeksforgeeks.org/templates-cpp/) 可以在 C++中使用。在 C++中，模板是一个简单而又非常强大的工具。简单的想法是将数据类型作为参数传递，这样就不需要为不同的数据类型编写相同的代码(print 函数)。下面是模板的 C++代码片段:</u>
+<u>在上面的方法中，向量的数据类型是硬编码的。 [**<u>模板</u>**](https://www.geeksforgeeks.org/templates-cpp/) 可以在 C++ 中使用。在 C++ 中，模板是一个简单而又非常强大的工具。简单的想法是将数据类型作为参数传递，这样就不需要为不同的数据类型编写相同的代码(print 函数)。下面是模板的 C++ 代码片段:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // One print function works for
@@ -261,9 +261,9 @@ void print(vector<T> vect)
 }
 ```
 
-<u>下面是完整的 C++程序来说明上述概念:</u>
+<u>下面是完整的 C++ 程序来说明上述概念:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // C++ program to implement

@@ -121,8 +121,8 @@ void staticStorageClass()
         int p = 10;
 
         // Incrementing the value of y and p by 1
-        y++;
-        p++;
+        y++ ;
+        p++ ;
 
         // printing value of y at each iteration
         printf("\nThe value of 'y', "

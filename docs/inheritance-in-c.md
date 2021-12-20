@@ -1,4 +1,4 @@
-# c++中的遗传
+# c++ 中的遗传
 
 > 原文:[https://www.geeksforgeeks.org/inheritance-in-c/](https://www.geeksforgeeks.org/inheritance-in-c/)
 

@@ -65,7 +65,7 @@ void convert_to_struct(istream& ip, unsigned char* data,
 
     while ((ip_convert >> u) && (i < size))
         if((0x00 <= u) && (0xff >= u))
-            data[i++] = static_cast<unsigned char>(u);
+            data[i++ ] = static_cast<unsigned char>(u);
 }
 
 // Driver code

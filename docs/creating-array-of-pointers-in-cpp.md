@@ -1,10 +1,10 @@
-# 在 C++中创建指针数组
+# 在 C++ 中创建指针数组
 
 > 原文:[https://www . geesforgeks . org/creating-指针数组 in-cpp/](https://www.geeksforgeeks.org/creating-array-of-pointers-in-cpp/)
 
 一个[指针数组](https://www.geeksforgeeks.org/pointer-array-array-pointer/)是一个[指针变量数组](https://www.geeksforgeeks.org/pointers-c-examples/)。它也被称为指针数组。我们将讨论如何动态创建[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)的 1D 和 2D [数组](https://www.geeksforgeeks.org/array-data-structure/)。**动态**一词表示[内存在运行时分配](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)，在[堆段](https://www.geeksforgeeks.org/binary-heap/)分配内存。在[堆栈](https://www.geeksforgeeks.org/stack-data-structure/)中，内存有限，但取决于使用的语言/操作系统，平均大小为 **1MB** 。
 
-**c++中的动态 1D 数组:**指针数组是一种由指针类型的变量组成的数组。这意味着这些变量可以指向其他一些数组元素。
+**c++ 中的动态 1D 数组:**指针数组是一种由指针类型的变量组成的数组。这意味着这些变量可以指向其他一些数组元素。
 
 **示例:**
 
@@ -12,7 +12,7 @@
 > 
 > //现在 P[0]，P[1]，P[2]可以指向 int 内存块。
 
-在大小为 **N** 的动态分配数组中，块在堆中创建，并返回第一个内存块的地址。通过使用这个地址，每个元素都可以被访问。 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的[动态数组](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)大家应该熟悉[新关键词](https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/)或者 [malloc()，可以使用 calloc()](https://www.geeksforgeeks.org/difference-between-malloc-and-calloc-with-examples/) 。
+在大小为 **N** 的动态分配数组中，块在堆中创建，并返回第一个内存块的地址。通过使用这个地址，每个元素都可以被访问。 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的[动态数组](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)大家应该熟悉[新关键词](https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/)或者 [malloc()，可以使用 calloc()](https://www.geeksforgeeks.org/difference-between-malloc-and-calloc-with-examples/) 。
 
 **语法:**
 
@@ -48,7 +48,7 @@
 > P = 1000，1 = sizeof(int) = 4 字节。
 > 因此，*(1004)并通过*(星号)符号取消引用，然后通过添加 1 将结果修改为 23 + 1 = 24。
 
-下面是 C++程序来说明上述概念:
+下面是 C++ 程序来说明上述概念:
 
 ## C++
 
@@ -77,7 +77,7 @@ int main()
     cout << *(p + 1) << endl;
     cout << 2 [p] << endl;
     cout << p[2] << endl;
-    *p++;
+    *p++ ;
 
     // Pointing to next location
     cout << *p;
@@ -97,7 +97,7 @@ int main()
 20
 ```
 
-**c++中指针的动态 2D 数组:**指针的[动态数组](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)基本上是一个指针数组，其中每个数组索引都指向一个内存块。这代表了我们心中的 2D 观点。但逻辑上它是一个连续的内存块。
+**c++ 中指针的动态 2D 数组:**指针的[动态数组](https://www.geeksforgeeks.org/how-do-dynamic-arrays-work/)基本上是一个指针数组，其中每个数组索引都指向一个内存块。这代表了我们心中的 2D 观点。但逻辑上它是一个连续的内存块。
 
 **语法:**
 
@@ -132,7 +132,7 @@ int main()
 *   ***(P + 1) + 2** 同上，但 **+2** 表示 **( & P[1] + 2)** 等于**&P[1][2]**=**4008**。
 *   ***(*(P + 1) + 2)** 与上述情况相同，但第一个星号 **'*(…)。)'**表示取消对该地址的引用。因此，结果等于**T10【P[1][2]**=***(4008)**=**54**中的值。
 
-下面是 C++程序来说明上述概念:
+下面是 C++ 程序来说明上述概念:
 
 ## C++
 

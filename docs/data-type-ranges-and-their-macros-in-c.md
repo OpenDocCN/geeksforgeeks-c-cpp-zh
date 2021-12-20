@@ -1,8 +1,8 @@
-# c++中的数据类型范围及其宏
+# c++ 中的数据类型范围及其宏
 
 > 原文:[https://www . geesforgeks . org/data-type-ranges-and-thes-macros-in-c/](https://www.geeksforgeeks.org/data-type-ranges-and-their-macros-in-c/)
 
-大多数情况下，在竞争性编程中，需要分配变量，即数据类型可以容纳的最大值或最小值，但是记住如此大而精确的数字是一项困难的工作。因此，C++有某些宏来表示这些数字，这样就可以直接将这些数字赋给变量，而无需实际键入整数。下面列出了其中的一些。
+大多数情况下，在竞争性编程中，需要分配变量，即数据类型可以容纳的最大值或最小值，但是记住如此大而精确的数字是一项困难的工作。因此，C++ 有某些宏来表示这些数字，这样就可以直接将这些数字赋给变量，而无需实际键入整数。下面列出了其中的一些。
 
 ```cpp
 Data Type                              Range                      Macro for min value           Macro for max value

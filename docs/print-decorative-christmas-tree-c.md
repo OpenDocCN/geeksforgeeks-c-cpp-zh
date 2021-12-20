@@ -78,7 +78,7 @@ void printTree(int h)
     while (stop < h + 1) {
         stop = start + diff;
         triangle(start, stop, h);
-        diff++;
+        diff++ ;
         start = stop - 2;
     }
 }

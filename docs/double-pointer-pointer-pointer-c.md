@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/double-pointer-pointer-c/](https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/)
 
-先决条件:[C 和 C++中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+先决条件:[C 和 C++ 中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
 
 我们已经知道，指针指向内存中的一个位置，因此用于存储变量的地址。当我们定义一个指向指针的指针时。第一个指针用于存储变量的地址。第二指针用于存储第一指针的地址。这就是为什么它们也被称为双指针。
 

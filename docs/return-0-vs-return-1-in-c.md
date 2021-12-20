@@ -1,11 +1,11 @@
-# 在 C++中返回 0 vs 返回 1
+# 在 C++ 中返回 0 vs 返回 1
 
 > 原文:[https://www.geeksforgeeks.org/return-0-vs-return-1-in-c/](https://www.geeksforgeeks.org/return-0-vs-return-1-in-c/)
 
-**C/c++中的 Return 语句:**
+**C/c++ 中的 Return 语句:**
 
-*   [C](https://www.geeksforgeeks.org/c-programming-language/)[c++](https://www.geeksforgeeks.org/c-plus-plus/)支持返回语句，也叫[跳转语句](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)。
-*   它用于从函数返回值或停止函数的执行。有关返回语句的更多信息，请参考文章[C/c++中的返回语句，并附带示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)。
+*   [C](https://www.geeksforgeeks.org/c-programming-language/)[c++ ](https://www.geeksforgeeks.org/c-plus-plus/)支持返回语句，也叫[跳转语句](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)。
+*   它用于从函数返回值或停止函数的执行。有关返回语句的更多信息，请参考文章[C/c++ 中的返回语句，并附带示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)。
 
 有两种使用返回语句的情况:
 
@@ -68,7 +68,7 @@ Division by zero is not possible.
 
 **<u>方法二。在自定义功能</u>里面:**
 
-*   C++将[布尔型](https://www.geeksforgeeks.org/bool-data-type-in-c/)视为完全独立的数据类型，只有两个不同的值，即**真**和**假**。
+*   C++ 将[布尔型](https://www.geeksforgeeks.org/bool-data-type-in-c/)视为完全独立的数据类型，只有两个不同的值，即**真**和**假**。
 *   值 1 和 0 属于 int 类型，不能隐式转换为布尔值，这意味着:
     *   **<u>返回 0:</u>** 从函数返回 false。
     *   **<u>返回 1:</u>** 从一个函数返回真。

@@ -638,7 +638,7 @@ echo sumDigits(687);
 
 下面是上述方法的实现
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ implementation of the above approach

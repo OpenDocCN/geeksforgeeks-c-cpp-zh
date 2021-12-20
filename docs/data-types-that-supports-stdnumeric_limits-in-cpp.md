@@ -1,4 +1,4 @@
-# 支持 C++中 std::numeric_limits()的数据类型
+# 支持 C++ 中 std::numeric_limits()的数据类型
 
 > 原文:[https://www . geesforgeks . org/data-type-of-support-stdnumeric _ limits-in-CPP/](https://www.geeksforgeeks.org/data-types-that-supports-stdnumeric_limits-in-cpp/)
 

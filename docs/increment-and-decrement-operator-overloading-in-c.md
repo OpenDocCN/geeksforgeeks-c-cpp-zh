@@ -1,4 +1,4 @@
-# c++中的递增(++)和递减(–)运算符重载
+# c++ 中的递增(++)和递减(–)运算符重载
 
 > 原文:[https://www . geesforgeks . org/increment-and-减量-operator-overload-in-c/](https://www.geeksforgeeks.org/increment-and-decrement-operator-overloading-in-c/)
 
@@ -45,7 +45,7 @@ public:
     Integer operator++()
     {
         Integer temp;
-        temp.i = ++i;
+        temp.i = ++ i;
         return temp;
     }
 
@@ -65,7 +65,7 @@ int main()
     i1.display();
 
     // Using the pre-increment operator
-    Integer i2 = ++i1;
+    Integer i2 = ++ i1;
 
     cout << "After pre increment: ";
     i2.display();
@@ -105,7 +105,7 @@ public:
     Integer operator++(int)
     {
         Integer temp;
-        temp.i = i++;
+        temp.i = i++ ;
         return temp;
     }
 
@@ -125,7 +125,7 @@ int main()
     i1.display();
 
     // Using the post-increment operator
-    Integer i2 = i1++;
+    Integer i2 = i1++ ;
 
     cout << "After post increment: ";
     i2.display();

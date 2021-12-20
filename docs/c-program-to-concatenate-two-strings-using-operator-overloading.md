@@ -1,11 +1,11 @@
 # 使用运算符重载
 
-连接两个字符串的 C++程序
+连接两个字符串的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-program-to-concatenate-two-string-use-operator-overloading/](https://www.geeksforgeeks.org/c-program-to-concatenate-two-strings-using-operator-overloading/)
 
-**先决条件:**[c++中的运算符重载](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/)
-给定两个字符串。任务是在 C++中使用运算符重载来连接这两个字符串。
+**先决条件:**[c++ 中的运算符重载](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/)
+给定两个字符串。任务是在 C++ 中使用运算符重载来连接这两个字符串。
 
 **示例:**
 

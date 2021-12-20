@@ -1,4 +1,4 @@
-# 在 Linux 的 vim 中创建 C++模板
+# 在 Linux 的 vim 中创建 C++ 模板
 
 > 原文:[https://www . geesforgeks . org/creating-a-c-template-in-vim-in-Linux/](https://www.geeksforgeeks.org/creating-a-c-template-in-vim-in-linux/)
 
@@ -22,7 +22,7 @@ Vim 允许用户为以特定扩展名结尾的文件创建特定的模板。
 –*。c 表示所有扩展名为` . c ` .
 –0r 表示读取一个文件，并将其内容插入到扩展名为` . c `的新文件的顶部。这后面是一个指向框架文件的路径。
 
-### 创建 c++模板的步骤:
+### 创建 c++ 模板的步骤:
 
 第一步:打开终端。
 第二步:将目录改为~/。vim/templates/。

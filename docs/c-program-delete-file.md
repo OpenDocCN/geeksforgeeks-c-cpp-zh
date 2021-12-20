@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-program-delete-file/](https://www.geeksforgeeks.org/c-program-delete-file/)
 
-C/C++中的[删除](http://www.cplusplus.com/reference/cstdio/remove/)功能可以用来删除文件。如果成功删除文件，函数返回 0，否则返回非零值。
+C/C++ 中的[删除](http://www.cplusplus.com/reference/cstdio/remove/)功能可以用来删除文件。如果成功删除文件，函数返回 0，否则返回非零值。
 
 ```cpp
 #include<stdio.h>

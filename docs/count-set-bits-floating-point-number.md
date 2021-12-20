@@ -20,7 +20,7 @@ unsigned int countSetBitsChar(char n)
     while (n)
     {
       n &= (n-1);
-      count++;
+      count++ ;
     }
     return count;
 }
@@ -38,7 +38,7 @@ unsigned int countSetBitsFloat(float x)
     for (int i = 0; i < n; i++)
     {
          count += countSetBitsChar(*ptr);
-         ptr++;
+         ptr++ ;
     }
     return count;
 }

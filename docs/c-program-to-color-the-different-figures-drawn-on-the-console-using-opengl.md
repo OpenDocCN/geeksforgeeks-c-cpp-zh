@@ -7,10 +7,10 @@
 **进场:**
 
 *   在本文中，为了用颜色填充图形，使用了不同的算法，因此填充可以在优化的图案中进行。
-*   这里，将使用在具有子窗口概念的 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)中实现的洪水填充和边界填充算法。
+*   这里，将使用在具有子窗口概念的 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)中实现的洪水填充和边界填充算法。
 *   程序中使用了[鼠标()](https://www.geeksforgeeks.org/mouse-programming-in-c-c/)功能。运行程序后，用左键画出图像，然后**右键**填充图像。
 
-下面是说明 OpenGL 使用的 C++程序:
+下面是说明 OpenGL 使用的 C++ 程序:
 
 ## C++
 
@@ -143,18 +143,18 @@ void mouseboundaryfill(int btn, int state,
             if (counter == 1) {
                 a1 = x;
                 b1 = y;
-                counter++;
+                counter++ ;
             }
             else if (counter == 2) {
 
                 a2 = x;
                 b2 = y;
-                counter++;
+                counter++ ;
             }
             else if (counter == 3) {
                 a3 = x;
                 b3 = y;
-                counter++;
+                counter++ ;
             }
             else if (counter == 4) {
                 a4 = x;

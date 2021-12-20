@@ -35,14 +35,14 @@ int main()
 
     cout << "\nThe multimap1 before applying swap() is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp1.begin(); itr != mp1.end(); ++itr) {
+    for (auto itr = mp1.begin(); itr != mp1.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
 
     cout << "\nThe multimap2 before applying swap() is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp2.begin(); itr != mp2.end(); ++itr) {
+    for (auto itr = mp2.begin(); itr != mp2.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
@@ -52,14 +52,14 @@ int main()
 
     cout << "\nThe multimap1 after applying swap() is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp1.begin(); itr != mp1.end(); ++itr) {
+    for (auto itr = mp1.begin(); itr != mp1.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
 
     cout << "\nThe multimap2 after applying swap() is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp2.begin(); itr != mp2.end(); ++itr) {
+    for (auto itr = mp2.begin(); itr != mp2.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }

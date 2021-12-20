@@ -46,7 +46,7 @@ int main()
          << " reverse order"
          << endl;
 
-    for (auto i = mp.rbegin(); i != mp.rend(); ++i) {
+    for (auto i = mp.rbegin(); i != mp.rend(); ++ i) {
 
         cout << i->first
              << " = "

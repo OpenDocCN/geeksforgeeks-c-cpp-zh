@@ -1,4 +1,4 @@
-# c++中复数的 polar()函数
+# c++ 中复数的 polar()函数
 
 > 原文:[https://www . geesforgeks . org/polar-function-for-complex-number-in-CPP/](https://www.geeksforgeeks.org/polar-function-for-complex-number-in-cpp/)
 

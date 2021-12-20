@@ -1,4 +1,4 @@
-# c++中的 ostream::seekp(pos)方法，示例
+# c++ 中的 ostream::seekp(pos)方法，示例
 
 > 原文:[https://www . geeksforgeeks . org/ostramsekepps-method-in-c-with-ex maples/](https://www.geeksforgeeks.org/ostreamseekppos-method-in-c-with-exmaples/)
 
@@ -12,7 +12,7 @@ ostream& seekp(streampos pos);
 **参数:**该方法以待设定的**新位置**为参数。
 **返回值:**该方法返回**该牡蛎实例**，位置设置为指定的新位置。
 **异常:**如果操作设置了一个内部状态标志(除了 eofbit)注册了成员异常，函数抛出一个成员类型的异常**失败**。
-以下示例演示了 seekp()方法在 C++中的使用:
+以下示例演示了 seekp()方法在 C++ 中的使用:
 **示例 1:** 演示 seekp()在二进制文件
 中的使用
 

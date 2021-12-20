@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-destructors-question-2/](https://www.geeksforgeeks.org/c-destructors-question-2/)
 
-预测后续 C++程序的输出
+预测后续 C++ 程序的输出
 
 ```cpp
 #include <iostream>

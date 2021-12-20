@@ -1,10 +1,10 @@
-# c++中的 iscntrl()及其在查找控制字符中的应用
+# c++ 中的 iscntrl()及其在查找控制字符中的应用
 
 > 原文:[https://www . geesforgeks . org/is centrl-c-application-find-control-characters/](https://www.geeksforgeeks.org/iscntrl-c-application-find-control-characters/)
 
-在 C++中，iscntrl()是用于字符串和字符处理的预定义函数。cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。控制字符是不可打印的字符，即它不占据显示器上的打印位置。
+在 C++ 中，iscntrl()是用于字符串和字符处理的预定义函数。cstring 是字符串函数所需的头文件，cctype 是字符函数所需的头文件。控制字符是不可打印的字符，即它不占据显示器上的打印位置。
 
-此函数用于检查参数是否包含任何控制字符。C++中有许多类型的控制字符，例如:
+此函数用于检查参数是否包含任何控制字符。C++ 中有许多类型的控制字符，例如:
 
 *   水平选项卡–' \ t '
 *   换行–' \ n '
@@ -55,7 +55,7 @@ int iscntrl ( int c );
         for (int i = 0; i < length; i++) {
             int c = str[i];
             if (iscntrl(c))
-                count++;
+                count++ ;
         }
         cout << count;
     }
@@ -107,7 +107,7 @@ int iscntrl ( int c );
       while (!iscntrl(str[i]))
       {
         putchar (str[i]);
-        i++;
+        i++ ;
       }
       return 0;
     }

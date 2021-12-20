@@ -1,8 +1,8 @@
-# c++中的 const _ cast |类型铸造运算符
+# c++ 中的 const _ cast |类型铸造运算符
 
 > 原文:[https://www . geesforgeks . org/const _ cast-in-c-type-casting-operators/](https://www.geeksforgeeks.org/const_cast-in-c-type-casting-operators/)
 
-C++支持以下 4 种类型的转换运算符:
+C++ 支持以下 4 种类型的转换运算符:
 
 1.const_cast
 2。static_cast

@@ -1,4 +1,4 @@
-# 如何在 C++中实现用户定义的共享指针
+# 如何在 C++ 中实现用户定义的共享指针
 
 > 原文:[https://www . geesforgeks . org/如何实现-用户定义-共享指针-in-c/](https://www.geeksforgeeks.org/how-to-implement-user-defined-shared-pointers-in-c/)
 
@@ -45,12 +45,12 @@ public:
     // Overload post/pre increment
     void operator++()
     {
-      m_counter++;
+      m_counter++ ;
     }
 
     void operator++(int)
     {
-      m_counter++;
+      m_counter++ ;
     }
 
     // Overload post/pre decrement
@@ -89,7 +89,7 @@ public:
         m_counter = new Counter();
         if (ptr)
         {
-            (*m_counter)++;
+            (*m_counter)++ ;
         }
     }
 
@@ -98,7 +98,7 @@ public:
     {
         m_ptr = sp.m_ptr;
         m_counter = sp.m_counter;
-        (*m_counter)++;
+        (*m_counter)++ ;
     }
 
     // Reference count

@@ -1,8 +1,8 @@
-# STD::uniform _ real _ distribution max()方法在 C++中的使用示例
+# STD::uniform _ real _ distribution max()方法在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ real _ distribution-max-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_real_distribution-max-method-in-c-with-examples/)
 
-C++中**均匀实分布类**的 **max()** 方法用来得到这个均匀实分布可以产生的最大可能值。
+C++ 中**均匀实分布类**的 **max()** 方法用来得到这个均匀实分布可以产生的最大可能值。
 
 **语法:**
 

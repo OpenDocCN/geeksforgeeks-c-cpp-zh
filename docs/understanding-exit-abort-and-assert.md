@@ -158,7 +158,7 @@ int main(void)
 ```
 
 **相关文章:**
-[退出()vs _ 退出()在 C 和 C++中](https://www.geeksforgeeks.org/exit-vs-_exit-c-cpp/)
+[退出()vs _ 退出()在 C 和 C++ 中](https://www.geeksforgeeks.org/exit-vs-_exit-c-cpp/)
 
 本文由**拉胡尔·古普塔**供稿。如果你在上面的文章中发现任何不正确的地方，或者你想分享更多关于上面讨论的主题的信息，请写评论。
 

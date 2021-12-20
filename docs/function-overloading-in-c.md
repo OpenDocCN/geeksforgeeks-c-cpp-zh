@@ -1,8 +1,8 @@
-# c++中不能重载的函数
+# c++ 中不能重载的函数
 
 > 原文:[https://www.geeksforgeeks.org/function-overloading-in-c/](https://www.geeksforgeeks.org/function-overloading-in-c/)
 
-在 C++中，下列函数声明**不能**重载。
+在 C++ 中，下列函数声明**不能**重载。
 
 1)仅在返回类型上不同的函数声明。例如，以下程序编译失败。
 

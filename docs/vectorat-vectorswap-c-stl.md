@@ -173,14 +173,14 @@ int main()
     // printing the first vector
     cout << "myvector1 = ";
     for (auto it = myvector1.begin();
-         it < myvector1.end(); ++it)
+         it < myvector1.end(); ++ it)
         cout << *it << " ";
 
     // printing the second vector
     cout << endl
          << "myvector2 = ";
     for (auto it = myvector2.begin();
-         it < myvector2.end(); ++it)
+         it < myvector2.end(); ++ it)
         cout << *it << " ";
     return 0;
 }

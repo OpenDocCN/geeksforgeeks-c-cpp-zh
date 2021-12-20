@@ -1,4 +1,4 @@
-# 删除 C++中的关键字
+# 删除 C++ 中的关键字
 
 > 原文:[https://www.geeksforgeeks.org/delete-in-c/](https://www.geeksforgeeks.org/delete-in-c/)
 

@@ -1,4 +1,4 @@
-# 如何在 C++中打印多维数组的维度
+# 如何在 C++ 中打印多维数组的维度
 
 > 原文:[https://www . geesforgeks . org/print-dimensions-多维-array-c/](https://www.geeksforgeeks.org/print-dimensions-multidimensional-array-c/)
 

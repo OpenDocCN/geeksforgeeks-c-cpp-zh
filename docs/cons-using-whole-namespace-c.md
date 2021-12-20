@@ -1,10 +1,10 @@
-# 在 C++中使用整个命名空间的缺点
+# 在 C++ 中使用整个命名空间的缺点
 
 > 原文:[https://www.geeksforgeeks.org/cons-using-whole-namespace-c/](https://www.geeksforgeeks.org/cons-using-whole-namespace-c/)
 
 命名空间是一个声明性区域，它为其中的标识符(类型、函数、变量等的名称)提供了一个范围。名称空间用于将代码组织成逻辑组，并防止可能发生的名称冲突，尤其是当您的代码库包含多个库时。
 
-详情请参考 C++中对命名空间的[需求。](https://www.geeksforgeeks.org/namespace-in-c/)
+详情请参考 C++ 中对命名空间的[需求。](https://www.geeksforgeeks.org/namespace-in-c/)
 
 假设我们需要一个软件项目的两个头文件:
 1:header 1 . h
@@ -13,7 +13,7 @@
 2:header 2 . h
 -命名空间二
 
-C++代码:
+C++ 代码:
 
 Header1.h:
 

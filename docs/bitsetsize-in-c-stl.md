@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/bitsetsize-in-c-stl/](https://www.geeksforgeeks.org/bitsetsize-in-c-stl/)
 
-**bitset::size()** 是 C++中的内置 STL，返回总位数。
+**bitset::size()** 是 C++ 中的内置 STL，返回总位数。
 
 **语法:**
 

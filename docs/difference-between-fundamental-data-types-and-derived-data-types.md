@@ -6,7 +6,7 @@
 
 有两种数据类型–
 
-*   [原语/基础数据类型](https://www.geeksforgeeks.org/c-data-types/):C/c++中的每个变量都有一个关联的数据类型。每种数据类型需要不同的内存量，并且有一些特定的操作可以在其上执行。
+*   [原语/基础数据类型](https://www.geeksforgeeks.org/c-data-types/):C/c++ 中的每个变量都有一个关联的数据类型。每种数据类型需要不同的内存量，并且有一些特定的操作可以在其上执行。
     **基础数据类型示例–**
 
 ## C++
@@ -188,7 +188,7 @@ Double value is = 2.000300
 Char value is = D
 ```
 
-*   **派生数据类型:**这些数据类型由用户自己定义。比如，用 C++定义一个类或者一个结构。这些包括[数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)、[结构](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)、[类](https://www.geeksforgeeks.org/c-classes-and-objects/)、[联合](https://www.geeksforgeeks.org/union-c/)、[枚举](https://www.geeksforgeeks.org/enumeration-enum-c/)、[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)等。
+*   **派生数据类型:**这些数据类型由用户自己定义。比如，用 C++ 定义一个类或者一个结构。这些包括[数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)、[结构](https://www.geeksforgeeks.org/difference-c-structures-c-structures/)、[类](https://www.geeksforgeeks.org/c-classes-and-objects/)、[联合](https://www.geeksforgeeks.org/union-c/)、[枚举](https://www.geeksforgeeks.org/enumeration-enum-c/)、[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)等。
     **派生数据类型示例:**
     *   **指针:**
 

@@ -1,4 +1,4 @@
-# c++中的 std::stoul 和 STD::stoll
+# c++ 中的 std::stoul 和 STD::stoll
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdestoul-stdstobull-c/
 

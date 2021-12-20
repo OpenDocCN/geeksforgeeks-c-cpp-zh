@@ -51,7 +51,7 @@ int main()
     deque<int> mydeque{ 1, 2, 3, 4, 5 };
 
     // using begin() to print deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -114,7 +114,7 @@ int main()
     deque<int> mydeque{ 1, 2, 3, 4, 5 };
 
     // using end() to print deque
-    for (auto it = mydeque.begin(); it != mydeque.end(); ++it)
+    for (auto it = mydeque.begin(); it != mydeque.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

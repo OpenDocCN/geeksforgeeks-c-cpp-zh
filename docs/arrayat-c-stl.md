@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/arrayat-c-STL/
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **数组::at()**
 该函数用于返回对存在于**位置**的元素的引用，该位置作为函数的参数给出。
@@ -95,7 +95,7 @@ int main()
     for (int i = 0; i < 10; i++)
         a[i] = i+1;
 
-    for (int i = 0; i < a.size(); ++i) {
+    for (int i = 0; i < a.size(); ++ i) {
         if (i % 2 != 0) {
             cout << a.at(i);
             cout << " ";

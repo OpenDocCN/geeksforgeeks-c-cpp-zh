@@ -1,4 +1,4 @@
-# c++中的静态数据成员
+# c++ 中的静态数据成员
 
 > 原文:[https://www.geeksforgeeks.org/static-data-members-c/](https://www.geeksforgeeks.org/static-data-members-c/)
 

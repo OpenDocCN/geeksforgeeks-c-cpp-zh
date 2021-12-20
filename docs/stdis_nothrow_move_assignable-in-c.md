@@ -1,4 +1,4 @@
-# STD::is _ northrow _ move _ 可在 C++中赋值
+# STD::is _ northrow _ move _ 可在 C++ 中赋值
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ move _ assigned-in-c/](https://www.geeksforgeeks.org/stdis_nothrow_move_assignable-in-c/)
 

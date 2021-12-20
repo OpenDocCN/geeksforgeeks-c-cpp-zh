@@ -1,4 +1,4 @@
-# c++中的 isunordered()函数
+# c++ 中的 isunordered()函数
 
 > 原文:[https://www.geeksforgeeks.org/isunordered-function-in-c/](https://www.geeksforgeeks.org/isunordered-function-in-c/)
 
@@ -16,7 +16,7 @@ bool isunordered(float x, float y);
 
 **返回:**如果 x 或 y 的值为 NAN，则返回 **1** ，否则返回 **0** 。
 
-下面的程序说明了 C++中的 isunordered()函数:
+下面的程序说明了 C++ 中的 isunordered()函数:
 
 **例 1:-**
 

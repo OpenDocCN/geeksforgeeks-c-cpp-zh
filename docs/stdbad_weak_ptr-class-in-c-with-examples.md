@@ -1,8 +1,8 @@
-# std::bad_weak_ptr 类在 C++中有示例
+# std::bad_weak_ptr 类在 C++ 中有示例
 
 > 原文:[https://www . geesforgeks . org/stdbad _ weak _ ptr-c-class-in-with-examples/](https://www.geeksforgeeks.org/stdbad_weak_ptr-class-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类， **std::bad_weak_ptr** 就是其中之一。 **std::bad_weak_ptr** 是 **shared_ptr** 的构造函数以 weak_ptr 为参数抛出异常的对象类型，此时 **weak_ptr** 引用的是已经删除的对象。下面是相同的语法:
+标准 C++ 包含几个内置的异常类， **std::bad_weak_ptr** 就是其中之一。 **std::bad_weak_ptr** 是 **shared_ptr** 的构造函数以 weak_ptr 为参数抛出异常的对象类型，此时 **weak_ptr** 引用的是已经删除的对象。下面是相同的语法:
 
 **头文件:**
 

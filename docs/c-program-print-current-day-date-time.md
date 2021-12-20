@@ -1,8 +1,8 @@
-# C++程序打印当前日期和时间
+# C++ 程序打印当前日期和时间
 
 > 原文:[https://www . geesforgeks . org/c-program-print-current-day-date-time/](https://www.geeksforgeeks.org/c-program-print-current-day-date-time/)
 
-为了方便查找当前的本地日、日期和时间，C++在头文件中定义了几个函数，因此有助于我们实现查找本地日、日期和时间目标的函数有:
+为了方便查找当前的本地日、日期和时间，C++ 在头文件中定义了几个函数，因此有助于我们实现查找本地日、日期和时间目标的函数有:
 
 **时间():**
 

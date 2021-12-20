@@ -1,4 +1,4 @@
-# c++中的 frexp()
+# c++ 中的 frexp()
 
 > 原文:[https://www.geeksforgeeks.org/frexp-in-c/](https://www.geeksforgeeks.org/frexp-in-c/)
 

@@ -1,8 +1,8 @@
-# c++中的转发列表|集合 2(操纵函数)
+# c++ 中的转发列表|集合 2(操纵函数)
 
 > 原文:[https://www . geesforgeks . org/forward-list-c-set-2-operating-functions/](https://www.geeksforgeeks.org/forward-list-c-set-2-manipulating-functions/)
 
-[c++中的转发列表|集 1(简介和重要功能)](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)
+[c++ 中的转发列表|集 1(简介和重要功能)](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)
 
 本文将讨论更多的函数
 

@@ -1,4 +1,4 @@
-# c++中复数的 proj()函数
+# c++ 中复数的 proj()函数
 
 > 原文:[https://www . geesforgeks . org/proj-function-for-complex-numbers-in-c/](https://www.geeksforgeeks.org/proj-function-for-complex-numbers-in-c/)
 
@@ -15,7 +15,7 @@ template <class T> complex<T>
 *   **z:** 该方法取一个代表复数的强制参数 **z** 。
 
 **返回值:**该函数返回复数 z 在黎曼球面上的**投影**。
-下面的程序说明了 C++中的 proj()函数:
+下面的程序说明了 C++ 中的 proj()函数:
 **示例 1:**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

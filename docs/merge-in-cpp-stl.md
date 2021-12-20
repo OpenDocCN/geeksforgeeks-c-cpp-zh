@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/merge-in-cpp-stl/](https://www.geeksforgeeks.org/merge-in-cpp-stl/)
 
-C++在其 STL 库中提供了一个 merge()，这对于将两个排序容器合并成一个**单个**容器非常有用。
+C++ 在其 STL 库中提供了一个 merge()，这对于将两个排序容器合并成一个**单个**容器非常有用。
 在表头**算法**中定义。它有两种实现方式。
 
 **语法 1:使用运算符“<”**

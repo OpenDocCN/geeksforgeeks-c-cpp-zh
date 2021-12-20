@@ -1,16 +1,16 @@
-# c++和 Java 中多维数组的区别
+# c++ 和 Java 中多维数组的区别
 
 > 原文:[https://www . geesforgeks . org/CPP 和 java 中多维数组的区别/](https://www.geeksforgeeks.org/difference-between-multidimensional-array-in-cpp-and-java/)
 
-**先决条件:**c++中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)，Java 中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-in-java/)
+**先决条件:**c++ 中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)，Java 中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-in-java/)
 
 ### <u>多维数组</u>:
 
-多维[数组](https://www.geeksforgeeks.org/array-data-structure/)是存储多个元素的数组的表格表示。这些维度可以是 1D [阵](https://www.geeksforgeeks.org/introduction-to-arrays/)、[2D-阵](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)等。多维数组在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 和 [Java](https://www.geeksforgeeks.org/java/) 中都有，但是它们的实现和一些属性是不同的。
+多维[数组](https://www.geeksforgeeks.org/array-data-structure/)是存储多个元素的数组的表格表示。这些维度可以是 1D [阵](https://www.geeksforgeeks.org/introduction-to-arrays/)、[2D-阵](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)等。多维数组在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 和 [Java](https://www.geeksforgeeks.org/java/) 中都有，但是它们的实现和一些属性是不同的。
 
-## **<u>在 C/C++</u> 中实现:**
+## **<u>在 C/C++ </u> 中实现:**
 
-在 C++中，多维数组在内部被创建为一个巨大的线性数组。C++语法将这个线性内存块抽象成二维或三维行为，使程序员很容易理解。
+在 C++ 中，多维数组在内部被创建为一个巨大的线性数组。C++ 语法将这个线性内存块抽象成二维或三维行为，使程序员很容易理解。
 
 **示例:**
 
@@ -26,7 +26,7 @@
 
 由于这样的实现，每行的列数必须相等，并且在声明时必须指定列大小，以便正确访问元素。
 
-下面是多维数组在 C++中的实现:
+下面是多维数组在 C++ 中的实现:
 
 ## C++
 

@@ -1,4 +1,4 @@
-# c++中的浅拷贝和深拷贝
+# c++ 中的浅拷贝和深拷贝
 
 > 原文:[https://www . geeksforgeeks . org/浅拷贝和深拷贝-in-c/](https://www.geeksforgeeks.org/shallow-copy-and-deep-copy-in-c/)
 
@@ -22,7 +22,7 @@
 
 在浅层复制中，通过简单地复制原始对象的所有变量的数据来创建对象。如果在内存的[堆部分没有定义对象的任何变量，这种方法会很有效。如果一些变量是从堆部分动态分配内存的，那么复制的对象变量也将引用相同的内存位置。
 这将产生歧义和运行时错误悬空指针。由于两个对象将引用相同的内存位置，因此一个对象所做的更改也将反映另一个对象中的这些更改。因为我们想要创建对象的副本，所以浅拷贝不会满足这个目的。
-**注意:**](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/) [C++](https://www.geeksforgeeks.org/c-plus-plus/) 编译器隐式创建[复制构造函数](https://www.geeksforgeeks.org/copy-constructor-in-cpp/)和[重载赋值运算符](https://www.geeksforgeeks.org/assignment-operator-overloading-in-c/)，以便在编译时执行浅层复制。
+**注意:**](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/) [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 编译器隐式创建[复制构造函数](https://www.geeksforgeeks.org/copy-constructor-in-cpp/)和[重载赋值运算符](https://www.geeksforgeeks.org/assignment-operator-overloading-in-c/)，以便在编译时执行浅层复制。
 
 ![](img/ca54583d2bdcd12e402030dd11eb3dac.png)
 

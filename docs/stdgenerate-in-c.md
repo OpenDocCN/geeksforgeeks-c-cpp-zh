@@ -1,4 +1,4 @@
-# std::在 C++中生成
+# std::在 C++ 中生成
 
 > 原文:[https://www.geeksforgeeks.org/stdgenerate-in-c/](https://www.geeksforgeeks.org/stdgenerate-in-c/)
 
@@ -30,7 +30,7 @@ Since, it has a void return type, so it does not return any value.
 int gen()
 {
     static int i = 0;
-    return ++i;
+    return ++ i;
 }
 
 using namespace std;
@@ -45,7 +45,7 @@ int main()
     std::generate(v1.begin(), v1.end(), gen);
 
     vector<int>::iterator i1;
-    for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+    for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
         cout << *i1 << " ";
     }
     return 0;
@@ -59,7 +59,7 @@ int main()
 
 ```
 
-**下一步:**[STD::c++中的 generate _ n](https://www.geeksforgeeks.org/stdgenerate_n-in-c/)
+**下一步:**[STD::c++ 中的 generate _ n](https://www.geeksforgeeks.org/stdgenerate_n-in-c/)
 
 本文由**姆里根德拉·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

@@ -39,7 +39,7 @@ int main()
 
     // printing the contents
     cout<<"Elements : ";
-    for (auto it = Myset.begin(); it != Myset.end(); ++it)
+    for (auto it = Myset.begin(); it != Myset.end(); ++ it)
         cout << "[" << *it << "]";
     cout << endl;
 

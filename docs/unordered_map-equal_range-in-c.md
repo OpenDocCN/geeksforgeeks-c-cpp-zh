@@ -1,4 +1,4 @@
-# c++中无序 _ 映射相等 _ 范围
+# c++ 中无序 _ 映射相等 _ 范围
 
 > 原文:[https://www . geesforgeks . org/unordered _ map-equal _ range-in-c/](https://www.geeksforgeeks.org/unordered_map-equal_range-in-c/)
 
@@ -86,7 +86,7 @@ int main()
 
     // 'f' is not exits, so no output for 'f'
     cout << "search for 'f' :";
-    for (; p1.first != p1.second; ++p1.first) {
+    for (; p1.first != p1.second; ++ p1.first) {
         cout << p1.first->first << ", " << p1.first->second << endl;
     }
 
@@ -96,7 +96,7 @@ int main()
 
     // 'a' is exits, so it searched successfully
     cout << "\nsearch for 'a' : [";
-    for (; p1.first != p1.second; ++p1.first) {
+    for (; p1.first != p1.second; ++ p1.first) {
         cout << p1.first->first << ", " << p1.first->second << "]";
     }
 

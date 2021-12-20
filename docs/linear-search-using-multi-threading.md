@@ -59,7 +59,7 @@ int current_thread = 0;
 // run for all the threads
 void* ThreadSearch(void* args)
 {
-    int num = current_thread++;
+    int num = current_thread++ ;
 
     for (int i = num * (max / 4); 
          i < ((num + 1) * (max / 4)); i++) 

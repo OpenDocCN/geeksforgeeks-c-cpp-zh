@@ -1,8 +1,8 @@
-# wcstol()函数在 C/C++中
+# wcstol()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcstol-function-in-c-c/](https://www.geeksforgeeks.org/wcstol-function-in-c-c/)
 
-C/C++中的 **wcstol()** 函数将给定的宽字符串转换为长整数。此函数设置一个指针指向宽字符串最后一个有效字符之后的第一个字符(如果有)，否则，指针设置为 null。该函数忽略所有前导空白字符，直到找到主要的非空白字符。
+C/C++ 中的 **wcstol()** 函数将给定的宽字符串转换为长整数。此函数设置一个指针指向宽字符串最后一个有效字符之后的第一个字符(如果有)，否则，指针设置为 null。该函数忽略所有前导空白字符，直到找到主要的非空白字符。
 
 **语法:**
 

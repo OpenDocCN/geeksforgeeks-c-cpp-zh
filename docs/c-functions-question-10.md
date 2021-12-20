@@ -20,6 +20,6 @@ void fun()
 
 **说明:**C 中的空列表表示参数列表没有指定，可以用任意参数调用函数。在 C 语言中，要声明一个只能在没有任何参数的情况下调用的函数，我们应该使用“void fun(void)”
 
-顺便说一下，在 C++中，空列表意味着函数只能在没有任何参数的情况下调用。在 C++中，void fun()和 void fun(void)都是相同的。
+顺便说一下，在 C++ 中，空列表意味着函数只能在没有任何参数的情况下调用。在 C++ 中，void fun()和 void fun(void)都是相同的。
 
 [本题小考](https://www.geeksforgeeks.org/functions-properties-and-types-injective-surjective-bijective/)

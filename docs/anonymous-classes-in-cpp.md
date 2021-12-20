@@ -1,8 +1,8 @@
-# c++中的匿名类
+# c++ 中的匿名类
 
 > 原文:[https://www.geeksforgeeks.org/anonymous-classes-in-cpp/](https://www.geeksforgeeks.org/anonymous-classes-in-cpp/)
 
-匿名类是一个没有名字的类。C++支持这个特性。
+匿名类是一个没有名字的类。C++ 支持这个特性。
 
 *   这些类不能有构造函数，但可以有析构函数。
 *   这些类既不能作为函数的参数传递，也不能用作函数的返回值。

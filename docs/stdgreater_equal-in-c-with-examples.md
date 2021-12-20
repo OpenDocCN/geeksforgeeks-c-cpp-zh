@@ -1,4 +1,4 @@
-# 标准::C++中的大于等于，示例
+# 标准::C++ 中的大于等于，示例
 
 > 原文:[https://www . geesforgeks . org/STD greater _ equal-in-c-with-examples/](https://www.geeksforgeeks.org/stdgreater_equal-in-c-with-examples/)
 
@@ -44,7 +44,7 @@ template <class T> struct greater_equal {
 *   **True:** If a is greater than or equal to B. 。
 *   **False:** If a is less than b 。
 
-下面是 C++中 **std::大于 _ 等于**的图示:
+下面是 C++ 中 **std::大于 _ 等于**的图示:
 
 **程序 1:**
 

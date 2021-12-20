@@ -1,8 +1,8 @@
-# 用 C++打印金字塔图案的程序
+# 用 C++ 打印金字塔图案的程序
 
 > 原文:[https://www . geesforgeks . org/programs-printing-金字塔-patterns-c/](https://www.geeksforgeeks.org/programs-printing-pyramid-patterns-c/)
 
-本文旨在给出一个模式打印的 C++实现。
+本文旨在给出一个模式打印的 C++ 实现。
 
 **简单金字塔图案**
 
@@ -76,11 +76,11 @@ void pypart(int n)
 
             // Printing stars
             cout << "* ";
-            j++;
+            j++ ;
         }
         j = 0; // we have to reset j value so as it can
                // start from beginning and print * equal to i.
-        i++;
+        i++ ;
         // Ending line after each row
         cout << endl;
     }
@@ -167,7 +167,7 @@ void pypart2(int n)
           // for number of spaces
         while (k < (n - i - 1)) {
             cout << "  ";
-            k++;
+            k++ ;
         }
 
           // resetting k because we want to run k from
@@ -175,12 +175,12 @@ void pypart2(int n)
         k = 0;
         while (j <= i) {
             cout << "* ";
-            j++;
+            j++ ;
         }
 
           // resetting k so as it can start from 0.
         j = 0;
-        i++;
+        i++ ;
         cout << endl;
     }
 }

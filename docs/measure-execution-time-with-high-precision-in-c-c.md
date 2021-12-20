@@ -1,4 +1,4 @@
-# 在 C/C++中高精度测量执行时间
+# 在 C/C++ 中高精度测量执行时间
 
 > 原文:[https://www . geesforgeks . org/measure-execution-time-with-high-precision-in-c/](https://www.geeksforgeeks.org/measure-execution-time-with-high-precision-in-c-c/)
 

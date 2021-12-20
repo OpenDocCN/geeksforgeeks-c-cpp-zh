@@ -1,4 +1,4 @@
-# STD::c++中 has_virtual_destructor 示例
+# STD::c++ 中 has_virtual_destructor 示例
 
 > 原文:[https://www . geesforgeks . org/stdhas _ virtual _ destructor-in-c-with-examples/](https://www.geeksforgeeks.org/stdhas_virtual_destructor-in-c-with-examples/)
 

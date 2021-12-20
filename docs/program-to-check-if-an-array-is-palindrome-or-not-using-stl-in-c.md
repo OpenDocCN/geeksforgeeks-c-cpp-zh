@@ -1,8 +1,8 @@
-# 检查数组是否是回文的程序，在 C++中不使用 STL
+# 检查数组是否是回文的程序，在 C++ 中不使用 STL
 
 > 原文:[https://www . geesforgeks . org/program-to-check-如果数组是回文或不使用-stl-in-c/](https://www.geeksforgeeks.org/program-to-check-if-an-array-is-palindrome-or-not-using-stl-in-c/)
 
-给定一个数组，任务是使用 C++中的 STL 来确定一个数组是否是回文。
+给定一个数组，任务是使用 C++ 中的 STL 来确定一个数组是否是回文。
 
 **示例:**
 

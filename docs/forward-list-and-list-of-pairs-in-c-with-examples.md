@@ -1,10 +1,10 @@
-# c++中的转发列表和对列表，示例
+# c++ 中的转发列表和对列表，示例
 
 > 原文:[https://www . geesforgeks . org/转发列表和带示例 c 对列表/](https://www.geeksforgeeks.org/forward-list-and-list-of-pairs-in-c-with-examples/)
 
 **<u>转发列表</u>**
 
-[**<u>正向列表</u>**](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 在 STL 中实现单链表。前向列表是从 C++11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于，转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素，因此增加了存储每个元素所需的存储空间。向前列表的缺点是不能向后迭代，并且不能直接访问它的单个元素。当只需要向前遍历时，向前列表优于列表(与单链表优于双链表相同)，因为我们可以节省空间。一些例子是，散列中的链接，图的邻接表表示等。
+[**<u>正向列表</u>**](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/) 在 STL 中实现单链表。前向列表是从 C++ 11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它与列表的不同之处在于，转发列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素，因此增加了存储每个元素所需的存储空间。向前列表的缺点是不能向后迭代，并且不能直接访问它的单个元素。当只需要向前遍历时，向前列表优于列表(与单链表优于双链表相同)，因为我们可以节省空间。一些例子是，散列中的链接，图的邻接表表示等。
 
 与转发列表一起使用的功能:
 
@@ -237,7 +237,7 @@ int main()
 
 ```cpp
 Forward List : 
-[ First: 4 and Second: C++]
+[ First: 4 and Second: C++ ]
 [ First: 3 and Second: Geeks]
 [ First: 2 and Second: for]
 [ First: 1 and Second: Geeks]
@@ -438,7 +438,7 @@ int main()
 
 ```cpp
 List : 
-[ First: 4 and Second: C++]
+[ First: 4 and Second: C++ ]
 [ First: 3 and Second: Geeks]
 [ First: 2 and Second: for]
 [ First: 1 and Second: Geeks]

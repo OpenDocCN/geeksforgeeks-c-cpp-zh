@@ -1,4 +1,4 @@
-# C 和 C++中 main()返回什么？
+# C 和 C++ 中 main()返回什么？
 
 > 原文:[https://www . geesforgeks . org/main-in-c-and-c/](https://www.geeksforgeeks.org/what-does-main-return-in-c-and-c/)返回什么
 

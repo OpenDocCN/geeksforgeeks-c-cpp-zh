@@ -1,4 +1,4 @@
-# c++中复数的 acosh()函数
+# c++ 中复数的 acosh()函数
 
 > 原文:[https://www . geesforgeks . org/acosh-function-for-complex-number-in-c/](https://www.geeksforgeeks.org/acosh-function-for-complex-number-in-c/)
 
@@ -16,7 +16,7 @@ template<class T> complex<T>
 
 **返回值:**该函数返回复数 z 的**弧双曲余弦**
 
-下面的程序说明了 C++中的 acosh()函数:
+下面的程序说明了 C++ 中的 acosh()函数:
 
 **实施例 1:-**
 

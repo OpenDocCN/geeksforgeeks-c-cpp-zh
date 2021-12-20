@@ -1,4 +1,4 @@
-# 用例子理解 C/C++中的左值、右值和 Xvalues
+# 用例子理解 C/C++ 中的左值、右值和 Xvalues
 
 > 原文:[https://www . geesforgeks . org/understanding-lvalues-pr values-and-xvalues-in-ccwith-examples/](https://www.geeksforgeeks.org/understanding-lvalues-prvalues-and-xvalues-in-ccwith-examples/)
 
@@ -25,7 +25,7 @@ lvalue         xvalue        prvalue
 
 **忘掉赋值运算符左右两边的赋值和东西。**
 
-这个语义标签树中最大的挑战，就是神秘的 *xvalue* 。我们不必理解 *xvalues* ，那是为势利者准备的。我们只能理解*左值*和*前值*。如果你已经了解 *xvalues* ，你可以给你的金色“精英 C++程序员”牌匾快速擦亮，并寻找不同的文章来好好利用那些 *xvalues* 。对我们其他人来说，我们可以把这段话改写成第二条建议:
+这个语义标签树中最大的挑战，就是神秘的 *xvalue* 。我们不必理解 *xvalues* ，那是为势利者准备的。我们只能理解*左值*和*前值*。如果你已经了解 *xvalues* ，你可以给你的金色“精英 C++ 程序员”牌匾快速擦亮，并寻找不同的文章来好好利用那些 *xvalues* 。对我们其他人来说，我们可以把这段话改写成第二条建议:
 
 **重点理解各种表达式中的左值和右值。**
 
@@ -247,7 +247,7 @@ int main()
 不过，我们需要开始讲一点故事来达到目的…
 
 **参考文献**
-故事从说明书中的 8.5.3 开始；我们需要理解，C++现在区分了两种不同的*引用*:
+故事从说明书中的 8.5.3 开始；我们需要理解，C++ 现在区分了两种不同的*引用*:
 
 ```cpp
 int&  // lvalue reference

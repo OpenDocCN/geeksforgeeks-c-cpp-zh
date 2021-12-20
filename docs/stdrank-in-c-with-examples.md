@@ -1,4 +1,4 @@
-# 标准::C++中的等级，示例
+# 标准::C++ 中的等级，示例
 
 > 原文:[https://www.geeksforgeeks.org/stdrank-in-c-with-examples/](https://www.geeksforgeeks.org/stdrank-in-c-with-examples/)
 

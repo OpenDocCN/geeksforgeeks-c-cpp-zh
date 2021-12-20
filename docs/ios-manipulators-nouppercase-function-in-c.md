@@ -1,8 +1,8 @@
-# ios 操纵器 nouppercase()函数在 C++中
+# ios 操纵器 nouppercase()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-noupercase-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-nouppercase-function-in-c/)
 
-C++中**流操纵器**的**noupperace()**方法用于清除指定字符串流的 showbase 格式标志。该标志使输出操作不使用大写字母代替小写字母。
+C++ 中**流操纵器**的**noupperace()**方法用于清除指定字符串流的 showbase 格式标志。该标志使输出操作不使用大写字母代替小写字母。
 
 **语法:**
 

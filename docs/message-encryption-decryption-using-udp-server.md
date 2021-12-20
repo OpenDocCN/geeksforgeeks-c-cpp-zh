@@ -87,17 +87,17 @@ int main()
         printf("Received from server: \n");
 
         // printing some of the character to have a feel of encryption
-        for (i = 0; i < 15; ++i)
+        for (i = 0; i < 15; ++ i)
             printf("%02X ", buffer[i]);
         printf("\n");
 
         char x[3000];
-        for (i = 0; i < nBytes - 1; ++i)
+        for (i = 0; i < nBytes - 1; ++ i)
             x[i] = (char)(buffer[i] ^ key[i]);
 
         // printing some of the character to have a feel of decryption
         printf("Decrypted message: (First 15 characters)\n");
-        for (i = 0; i < 11; ++i)
+        for (i = 0; i < 11; ++ i)
             printf("%c ", x[i]);
 
         printf("\n");
@@ -147,7 +147,7 @@ int main()
     while (1) {
         nBytes = recvfrom(udpSocket, buffer, 3000, 0, (struct sockaddr*)&serverStorage,
                                                                             &addr_size);
-        printf("Message no : %d\n", ++count);
+        printf("Message no : %d\n", ++ count);
 
         for (i = 0; i < nBytes - 1; i++) {
             if (buffer[i] != '\n')
@@ -159,7 +159,7 @@ int main()
         printf("Encrypted message stored in file : (First 15 characters)\n");
 
         // printing some of the character to have a feel of encryption
-        for (i = 0; i < 15; ++i)
+        for (i = 0; i < 15; ++ i)
             printf("%02X ", xor[i]);
         printf("\n");
 

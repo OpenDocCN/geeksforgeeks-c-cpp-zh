@@ -28,7 +28,7 @@
 
         cout << "The list in reverse order: ";
 
-        for (auto it = lis.rbegin(); it != lis.rend(); ++it)
+        for (auto it = lis.rbegin(); it != lis.rend(); ++ it)
             cout << *it << " ";
 
         return 0;
@@ -68,7 +68,7 @@
 
         cout << "The list in reverse order: ";
 
-        for (auto it = lis.rbegin(); it != lis.rend(); ++it)
+        for (auto it = lis.rbegin(); it != lis.rend(); ++ it)
             cout << *it << " ";
 
         return 0;

@@ -2,11 +2,11 @@
 
 > 原文:[https://www . geesforgeks . org/Java-system-exit 0-vs-c-return-0/](https://www.geeksforgeeks.org/java-system-exit0-vs-c-return-0/)
 
-Java 和 C++是具有不同应用和设计目标的语言。C++是过程编程语言 C 的扩展，Java 依赖于 Java 虚拟机来实现安全性和高度可移植性。这导致他们有许多不同。在本文中，我们将看到 *C++返回 0* 和 *Java System.exit(0)* 的区别。在讨论这些差异之前，让我们先了解它们各自的真正含义。
+Java 和 C++ 是具有不同应用和设计目标的语言。C++ 是过程编程语言 C 的扩展，Java 依赖于 Java 虚拟机来实现安全性和高度可移植性。这导致他们有许多不同。在本文中，我们将看到 *C++ 返回 0* 和 *Java System.exit(0)* 的区别。在讨论这些差异之前，让我们先了解它们各自的真正含义。
 
-### C++返回 0
+### C++ 返回 0
 
-*   在标准 C++中，建议创建一个带有返回类型的 *main()* 函数。
+*   在标准 C++ 中，建议创建一个带有返回类型的 *main()* 函数。
 *   所以， *main()* 函数必须返回一个整数值，这个整数值通常是要传递回操作系统的值。
 
 在 *stdlib.h* 中，宏*退出 _ 成功*和*退出 _ 失败*是这样定义的:
@@ -86,7 +86,7 @@ GeeksforGeeks
 
 <figure class="table">
 
-| -你好。不，不 | c++返回 0 | Java 系统。出口(0) |
+| -你好。不，不 | c++ 返回 0 | Java 系统。出口(0) |
 | --- | --- | --- |
 | 1。 | The main () function in c++ has a return type. Therefore, every main method in C++ should return a value. | The main () method in Java belongs to void return type. Therefore, the main method should not return a value. |
 | 2。 | In C++ programs, the return 0 statement is optional: the compiler will automatically add a return 0 implicitly in the program. | In Java, there are no special requirements for calling System.exit(0) or adding explicitly. |

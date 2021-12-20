@@ -1,8 +1,8 @@
-# c++中输入/输出运算符的级联
+# c++ 中输入/输出运算符的级联
 
 > 原文:[https://www . geeksforgeeks . org/输入输出操作符级联 in-c/](https://www.geeksforgeeks.org/cascading-of-input-output-operators-in-c/)
 
-**先决条件:**[c++中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)[运算符重载的类型](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/)
+**先决条件:**[c++ 中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)[运算符重载的类型](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/)
 
 当一个对象通过传递一个参数来调用一个运算符函数，而该运算符函数的返回值调用同一个表达式中的下一个运算符函数时，称为运算符的**级联。**以下是操作级联的示例说明:
 

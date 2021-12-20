@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/arrayoperator-c-stl/](https://www.geeksforgeeks.org/arrayoperator-c-stl/)
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格的数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 风格的数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **array::operator[]**
 
@@ -82,7 +82,7 @@ using namespace std;
 int main()
 {
     array<int,5> myarray{ 1, 2, 3, 4, 5 };
-    for(int i=0; i<myarray.size(); ++i)
+    for(int i=0; i<myarray.size(); ++ i)
     {
         if(i%2==0){
             cout<<myarray[i];

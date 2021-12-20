@@ -1,8 +1,8 @@
-# 了解 ShellExecute 函数及其应用，使用 C++代码打开文件中存在的 URL 列表
+# 了解 ShellExecute 函数及其应用，使用 C++ 代码打开文件中存在的 URL 列表
 
 > 原文:[https://www . geesforgeks . org/understanding-shellexecute-function-application-open-list-URLs-present-file-use-c-code/](https://www.geeksforgeeks.org/understanding-shellexecute-function-application-open-list-urls-present-file-using-c-code/)
 
-给定一个字符串形式的网址，使用微软视窗操作系统中的 C++代码打开它。
+给定一个字符串形式的网址，使用微软视窗操作系统中的 C++ 代码打开它。
 例:
 
 ```cpp
@@ -114,7 +114,7 @@ int main()
             if (line[i] != 't' && line[i] != '\0')
             {
                 temp[x] = line[i];
-                x++;
+                x++ ;
             }
             else
             {
@@ -123,7 +123,7 @@ int main()
 
                 // Keeping a count of number of tabs
                 // getting opened.
-                c++;
+                c++ ;
             }
         }
     }
@@ -139,7 +139,7 @@ List of all urls present in the urls.txt file opened in different tabs.
 
 ```
 
-**注意:**在像 Codeblocks 这样的一些 C++编辑器中运行上面的代码，文本文件和代码应该出现在同一个文件夹中。
+**注意:**在像 Codeblocks 这样的一些 C++ 编辑器中运行上面的代码，文本文件和代码应该出现在同一个文件夹中。
 
 **参考:**[https://msdn . Microsoft . com/en-us/library/windows/desktop/bb 762153(v = vs . 85)。aspx](https://msdn.microsoft.com/en-us/library/windows/desktop/bb762153(v=vs.85).aspx)
 

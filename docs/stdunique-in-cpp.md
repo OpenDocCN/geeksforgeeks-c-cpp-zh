@@ -1,4 +1,4 @@
-# std::在 C++中独一无二
+# std::在 C++ 中独一无二
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdunique-in-CPP/
 
@@ -47,7 +47,7 @@
         v.resize(std::distance(v.begin(), ip));
 
         // Displaying the vector after applying std::unique
-        for (ip = v.begin(); ip != v.end(); ++ip) {
+        for (ip = v.begin(); ip != v.end(); ++ ip) {
             cout << *ip << " ";
         }
 
@@ -162,7 +162,7 @@
         v.resize(std::distance(v.begin(), ip));
 
         // Displaying the vector after applying std::unique
-        for (ip = v.begin(); ip != v.end(); ++ip) {
+        for (ip = v.begin(); ip != v.end(); ++ ip) {
             cout << *ip << " ";
         }
 

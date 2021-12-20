@@ -1,8 +1,8 @@
-# 从 C/C++中的函数返回函数指针
+# 从 C/C++ 中的函数返回函数指针
 
 > 原文:[https://www . geesforgeks . org/returning-a-function-pointer-from-in-c-CPP/](https://www.geeksforgeeks.org/returning-a-function-pointer-from-a-function-in-c-cpp/)
 
-在 C/ C++中，像[普通数据指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) (int *，char *，等)一样，可以有指向函数的指针。程序中创建的每个函数都在内存中获得一个地址，因为[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)可以在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中使用，所以也可以创建一个指向函数的指针。
+在 C/ C++ 中，像[普通数据指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) (int *，char *，等)一样，可以有指向函数的指针。程序中创建的每个函数都在内存中获得一个地址，因为[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)可以在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中使用，所以也可以创建一个指向函数的指针。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# 在竞争性编程中高效编写 C/C++代码
+# 在竞争性编程中高效编写 C/C++ 代码
 
 > 原文:[https://www . geesforgeks . org/writing-cc-code-in-competitive-programming/](https://www.geeksforgeeks.org/writing-cc-code-efficiently-in-competitive-programming/)
 
@@ -11,7 +11,7 @@
 因此，我们可以使用这些强大的工具以有效的方式编写代码。
 竞技编程中可能用到的一些很酷的技巧如下:
 
-*   **使用基于范围的循环**:这是 C++11 中非常酷的特性，如果你想从头到尾迭代，这将被认为是最好的。这段代码展示了如何使用 ranged for 循环迭代数组和向量:
+*   **使用基于范围的循环**:这是 C++ 11 中非常酷的特性，如果你想从头到尾迭代，这将被认为是最好的。这段代码展示了如何使用 ranged for 循环迭代数组和向量:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -52,7 +52,7 @@ int main()
 1 2 3 4 5
 ```
 
-*   **初始化列表:**该类型用于访问 C++初始化列表中的值。这里，这种类型的对象是由编译器根据初始化列表声明自动构造的，初始化列表声明是用大括号括起来的逗号分隔的元素列表。
+*   **初始化列表:**该类型用于访问 C++ 初始化列表中的值。这里，这种类型的对象是由编译器根据初始化列表声明自动构造的，初始化列表声明是用大括号括起来的逗号分隔的元素列表。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -129,7 +129,7 @@ Max value = 11
 Min value = -9
 ```
 
-*   **C/c++中的快速输入/输出:**在竞争性编程中，必须尽可能快地读取输入/输出，以节省宝贵的时间。
+*   **C/c++ 中的快速输入/输出:**在竞争性编程中，必须尽可能快地读取输入/输出，以节省宝贵的时间。
 
 ## C
 
@@ -167,7 +167,7 @@ template<typename T> void print(T n)
     int i = 0;
     do
     {
-        snum[i++] = n % 10 + '0';
+        snum[i++ ] = n % 10 + '0';
         n /= 10;
     }
 
@@ -212,8 +212,8 @@ Output: 756
 #include <bits/stdc++.h>
 using namespace std;
 
-#define rep(i,n) for (i = 0; i < n; ++i)
-#define REP(i,k,n) for (i = k; i <= n; ++i)
+#define rep(i,n) for (i = 0; i < n; ++ i)
+#define REP(i,k,n) for (i = k; i <= n; ++ i)
 #define REPR(i,k,n) for (i = k; i >= n; --i)
 
 // Driver program to test above Macros
@@ -257,7 +257,7 @@ std::ios_base::sync_with_stdio(false);
 ```
 
 *   **auto:** 使用 auto 声明数据类型可以在编程竞赛中节省大量时间。当变量被定义为 auto 时，编译器在编译时确定其类型。
-*   **库和预定义函数:**使用内置函数，如 __gcd(A，B)，交换，_builtin_popcount(R)，_builtin_clz(R)等，只要可以应用。尝试学习 C++的[算法](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)库中可用的不同函数。它们在程序中大多数时候都是有用的
+*   **库和预定义函数:**使用内置函数，如 __gcd(A，B)，交换，_builtin_popcount(R)，_builtin_clz(R)等，只要可以应用。尝试学习 C++ 的[算法](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/)库中可用的不同函数。它们在程序中大多数时候都是有用的
 
 最终，通过使用这些聪明的技巧，你可以用最少的时间和单词轻松地编写代码。
 本文由[舒巴姆·班萨尔](https://www.facebook.com/banalshubham)供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

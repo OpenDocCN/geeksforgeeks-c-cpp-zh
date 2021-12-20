@@ -1,4 +1,4 @@
-# 异常::C++中的 what()带示例
+# 异常::C++ 中的 what()带示例
 
 > 原文:[https://www . geesforgeks . org/exception what-in-c-with-examples/](https://www.geeksforgeeks.org/exceptionwhat-in-c-with-examples/)
 

@@ -218,7 +218,7 @@ int validate()
              temp_email[i] != '\0'; i++) {
             if (temp_email[i] == '@'
                 || temp_email[i] == '.')
-                count++;
+                count++ ;
         }
         if (count >= 2
             && strlen(temp_email) >= 5) {
@@ -239,21 +239,21 @@ int validate()
                          i++) {
                         if (temp_password1[i] >= 'A'
                             && temp_password1[i] <= 'Z')
-                            caps++;
+                            caps++ ;
                         else if (temp_password1[i] >= 'a'
                                  && temp_password1[i]
                                         <= 'z')
-                            small++;
+                            small++ ;
                         else if (temp_password1[i] >= '0'
                                  && temp_password1[i]
                                         <= '9')
-                            numbers++;
+                            numbers++ ;
                         else if (temp_password1[i] == '@'
                                  || temp_password1[i] == '&'
                                  || temp_password1[i] == '#'
                                  || temp_password1[i]
                                         == '*')
-                            special++;
+                            special++ ;
                     }
                     if (caps >= 1 && small >= 1
                         && numbers >= 1 && special >= 1) {
@@ -362,7 +362,7 @@ void account_check()
                temp_password1);
         strcpy(s[j].email, temp_email);
         strcpy(s[j].mobile, temp_mobile);
-        j++;
+        j++ ;
         printf("\n\n\nAccount"
                " Successfully");
         printf("Created!!\n\n");
@@ -828,7 +828,7 @@ int validate()
              temp_email[i] != '\0'; i++) {
             if (temp_email[i] == '@'
                 || temp_email[i] == '.')
-                count++;
+                count++ ;
         }
         if (count >= 2
             && strlen(temp_email) >= 5) {
@@ -847,21 +847,21 @@ int validate()
                          i++) {
                         if (temp_password1[i] >= 'A'
                             && temp_password1[i] <= 'Z')
-                            caps++;
+                            caps++ ;
                         else if (temp_password1[i] >= 'a'
                                  && temp_password1[i]
                                         <= 'z')
-                            small++;
+                            small++ ;
                         else if (temp_password1[i] >= '0'
                                  && temp_password1[i]
                                         <= '9')
-                            numbers++;
+                            numbers++ ;
                         else if (temp_password1[i] == '@'
                                  || temp_password1[i] == '&'
                                  || temp_password1[i] == '#'
                                  || temp_password1[i]
                                         == '*')
-                            special++;
+                            special++ ;
                     }
                     if (caps >= 1 && small >= 1
                         && numbers >= 1 && special >= 1) {
@@ -962,7 +962,7 @@ void account_check()
         strcpy(s[j].password, temp_password1);
         strcpy(s[j].email, temp_email);
         strcpy(s[j].mobile, temp_mobile);
-        j++;
+        j++ ;
         printf("\n\n\nAccount Successfully");
         printf("Created!!\n\n");
     }

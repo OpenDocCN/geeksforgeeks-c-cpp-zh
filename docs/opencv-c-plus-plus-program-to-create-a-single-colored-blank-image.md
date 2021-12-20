@@ -1,8 +1,8 @@
-# OpenCV C++程序创建单色空白图像
+# OpenCV C++ 程序创建单色空白图像
 
 > 原文:[https://www . geesforgeks . org/opencv-c-plus-plus-program-to-create-single-color-blank-image/](https://www.geeksforgeeks.org/opencv-c-plus-plus-program-to-create-a-single-colored-blank-image/)
 
-以下是对 C++代码的解释，该代码使用工具 OpenCV 在 C++中创建一个单一颜色的空白图像。
+以下是对 C++ 代码的解释，该代码使用工具 OpenCV 在 C++ 中创建一个单一颜色的空白图像。
 
 **要知道的事情:**
 
@@ -85,6 +85,6 @@ int main()
 
 关于作者:
 
-阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/7f989f45758a9a92d71e2ed9f6d7af18.png)的本科生。他主要用 C++编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
+阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/7f989f45758a9a92d71e2ed9f6d7af18.png)的本科生。他主要用 C++ 编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
 
 **如果你也想在这里展示你的博客，请查看[博客](http://geeksquiz.com/gblog/)在极客博客上的客座博文。**

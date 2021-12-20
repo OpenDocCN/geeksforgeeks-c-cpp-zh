@@ -1,8 +1,8 @@
-# btowc()函数在 C/C++中的应用举例
+# btowc()函数在 C/C++ 中的应用举例
 
 > 原文:[https://www . geesforgeks . org/btowc-function-in-c-c-with-examples/](https://www.geeksforgeeks.org/btowc-function-in-c-c-with-examples/)
 
-**btowc()** 是 C/C++中的一个内置函数，它将一个字符转换为它的宽字符等价物。在 C++的**cwcchar**头文件中定义。
+**btowc()** 是 C/C++ 中的一个内置函数，它将一个字符转换为它的宽字符等价物。在 C++ 的**cwcchar**头文件中定义。
 
 **语法**:
 
@@ -37,7 +37,7 @@ int main()
 
         wc = btowc(str[i]);
         if (wc != WEOF)
-            count++;
+            count++ ;
     }
 
     cout << count << " out of " << strlen(str)
@@ -73,7 +73,7 @@ int main()
 
         wc = btowc(str[i]);
         if (wc != WEOF)
-            count++;
+            count++ ;
     }
 
     cout << count << " out of " << strlen(str)

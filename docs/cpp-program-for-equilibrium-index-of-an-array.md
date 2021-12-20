@@ -1,4 +1,4 @@
-# 数组平衡索引的 C++程序
+# 数组平衡索引的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-平衡程序-数组索引/](https://www.geeksforgeeks.org/cpp-program-for-equilibrium-index-of-an-array/)
 
@@ -34,7 +34,7 @@ int equilibrium(int arr[], int n)
 
     /* Check for indexes one by one until 
     an equilibrium index is found */
-    for (i = 0; i < n; ++i) 
+    for (i = 0; i < n; ++ i) 
     {     
 
         /* get left sum */
@@ -117,10 +117,10 @@ int equilibrium(int arr[], int n) 
     int leftsum = 0; // initialize leftsum 
 
     /* Find sum of the whole array */
-    for (int i = 0; i < n; ++i) 
+    for (int i = 0; i < n; ++ i) 
         sum += arr[i]; 
 
-    for (int i = 0; i < n; ++i) 
+    for (int i = 0; i < n; ++ i) 
     { 
         sum -= arr[i]; // sum is now right sum for index i 
 

@@ -1,4 +1,4 @@
-# C++程序查找最小缺失数
+# C++ 程序查找最小缺失数
 
 > 原文:[https://www . geesforgeks . org/CPP-program-寻找最小缺失数/](https://www.geeksforgeeks.org/cpp-program-to-find-the-smallest-missing-number/)
 

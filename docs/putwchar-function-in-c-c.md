@@ -1,8 +1,8 @@
-# C/c++中的 putwchar()函数
+# C/c++ 中的 putwchar()函数
 
 > 原文:[https://www.geeksforgeeks.org/putwchar-function-in-c-c/](https://www.geeksforgeeks.org/putwchar-function-in-c-c/)
 
-C/C++中的 **putwchar()** 函数将一个宽字符写入 stdout(标准输出)。在**<cwchar.h></cwchar.h>**CPP 库中定义。
+C/C++ 中的 **putwchar()** 函数将一个宽字符写入 stdout(标准输出)。在**<cwchar.h></cwchar.h>**CPP 库中定义。
 
 **语法:**
 
@@ -75,7 +75,7 @@ int main()
 
     // print all the alphabets from
     // first to the last
-    for (wc = first; wc <= last; ++wc) {
+    for (wc = first; wc <= last; ++ wc) {
         putwchar(wc);
         putwchar(' ');
     }

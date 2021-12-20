@@ -1,4 +1,4 @@
-# c++中的嵌套类
+# c++ 中的嵌套类
 
 > 原文:[https://www.geeksforgeeks.org/nested-classes-in-c/](https://www.geeksforgeeks.org/nested-classes-in-c/)
 

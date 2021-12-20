@@ -1,4 +1,4 @@
-# 用于反转单链表中交替 K 个节点的 C++程序
+# 用于反转单链表中交替 K 个节点的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序-换向-交替-单链表中的 k 个节点/](https://www.geeksforgeeks.org/cpp-program-for-reversing-alternate-k-nodes-in-a-singly-linked-list/)
 
@@ -58,7 +58,7 @@ Node *kAltReverse(Node *head, int k) 
     current->next = prev; 
     prev = current; 
     current = next; 
-    count++; 
+    count++ ; 
     } 
 
     /* 2) Now head points to the kth node. 
@@ -74,7 +74,7 @@ Node *kAltReverse(Node *head, int k) 
           current != NULL ) 
     { 
     current = current->next; 
-    count++; 
+    count++ ; 
     } 
 
     /* 4) Recursively call for the list 
@@ -115,7 +115,7 @@ void printList(Node *node) 
     { 
         cout<<node->data<<" "; 
         node = node->next; 
-        count++; 
+        count++ ; 
     } 
 } 
 
@@ -224,7 +224,7 @@ node * _kAltReverse(node *Node, int k, bool b) 
 
         prev = current; 
         current = next; 
-        count++; 
+        count++ ; 
     } 
 
     /* 3) If b is true, then the node is the kth node. 
@@ -276,7 +276,7 @@ void printList(node *node) 
     { 
         cout << node->data << " "; 
         node = node->next; 
-        count++; 
+        count++ ; 
     } 
 } 
 

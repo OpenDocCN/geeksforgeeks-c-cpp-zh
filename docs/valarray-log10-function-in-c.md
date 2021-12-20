@@ -1,4 +1,4 @@
-# valarray log10()函数在 C++中
+# valarray log10()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-log10-function-in-c/](https://www.geeksforgeeks.org/valarray-log10-function-in-c/)
 

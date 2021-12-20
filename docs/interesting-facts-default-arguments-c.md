@@ -1,8 +1,8 @@
-# 关于 C++中默认参数的一些有趣事实
+# 关于 C++ 中默认参数的一些有趣事实
 
 > 原文:[https://www . geesforgeks . org/interest-facts-default-arguments-c/](https://www.geeksforgeeks.org/interesting-facts-default-arguments-c/)
 
-预测以下 C++程序的输出。
+预测以下 C++ 程序的输出。
 
 **1)**T0】
 

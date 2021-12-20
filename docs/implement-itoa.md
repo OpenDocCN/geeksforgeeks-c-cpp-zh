@@ -38,7 +38,7 @@ void reverse(char str[], int length)
     while (start < end)
     {
         swap(*(str+start), *(str+end));
-        start++;
+        start++ ;
         end--;
     }
 }
@@ -52,7 +52,7 @@ char* itoa(int num, char* str, int base)
     /* Handle 0 explicitly, otherwise empty string is printed for 0 */
     if (num == 0)
     {
-        str[i++] = '0';
+        str[i++ ] = '0';
         str[i] = '\0';
         return str;
     }
@@ -69,13 +69,13 @@ char* itoa(int num, char* str, int base)
     while (num != 0)
     {
         int rem = num % base;
-        str[i++] = (rem > 9)? (rem-10) + 'a' : rem + '0';
+        str[i++ ] = (rem > 9)? (rem-10) + 'a' : rem + '0';
         num = num/base;
     }
 
     // If number is negative, append '-'
     if (isNegative)
-        str[i++] = '-';
+        str[i++ ] = '-';
 
     str[i] = '\0'; // Append string terminator
 

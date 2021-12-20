@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/unordered _ map-bucket-in-c-STL/](https://www.geeksforgeeks.org/unordered_map-bucket-in-c-stl/)
 
-**无序 _map::bucket()** 是 C++中内置的 STL 函数，返回关键字为 k 的元素在映射中所处的 bucket 编号。
+**无序 _map::bucket()** 是 C++ 中内置的 STL 函数，返回关键字为 k 的元素在映射中所处的 bucket 编号。
 **语法:**
 
 ```cpp

@@ -1,4 +1,4 @@
-# c++中的负二项分布，示例
+# c++ 中的负二项分布，示例
 
 > 原文:[https://www . geesforgeks . org/negative _ binomial _ distribution-in-c-with-examples/](https://www.geeksforgeeks.org/negative_binomial_distribution-in-c-with-examples/)
 
@@ -76,17 +76,17 @@ int main()
     // initializing an array with size 10
     int p[10] = {};
 
-    for (int i = 0; i < exps; ++i) {
+    for (int i = 0; i < exps; ++ i) {
         int counting = distribution(generator);
         if (counting < 10)
-            ++p[counting];
+            ++ p[counting];
     }
 
     cout << "Negative binomial distribution with "
          << "( k = 4, p = 0.5 ) :" << endl;
 
     // Printing the sequence stored in an array p
-    for (int i = 0; i < 10; ++i)
+    for (int i = 0; i < 10; ++ i)
         cout << i << ": " << string(p[i] * numberstars / exps, '*') << endl;
 
     return 0;
@@ -142,17 +142,17 @@ int main()
     // initializing an array with size 10
     int p[10] = {};
 
-    for (int i = 0; i < exps; ++i) {
+    for (int i = 0; i < exps; ++ i) {
         int counting = distribution(generator);
         if (counting < 10)
-            ++p[counting];
+            ++ p[counting];
     }
 
     cout << "Negative binomial distribution with "
          << "( k = 1, p = 0.2 ) :" << endl;
 
     // Printing the sequence stored in an array p
-    for (int i = 0; i < 10; ++i)
+    for (int i = 0; i < 10; ++ i)
         cout << i << ": " << string(p[i] * numberstars / exps, '*') << endl;
 
     return 0;

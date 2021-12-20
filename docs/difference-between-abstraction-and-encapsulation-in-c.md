@@ -1,4 +1,4 @@
-# c++中抽象和封装的区别
+# c++ 中抽象和封装的区别
 
 > 原文:[https://www . geesforgeks . org/c 中抽象和封装的区别/](https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-c/)
 

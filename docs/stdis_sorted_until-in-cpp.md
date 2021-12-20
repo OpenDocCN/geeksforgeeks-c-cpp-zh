@@ -1,4 +1,4 @@
-# STD::is _ sorted _ 直到在 C++中
+# STD::is _ sorted _ 直到在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdis_sorted_until-in-cpp/](https://www.geeksforgeeks.org/stdis_sorted_until-in-cpp/)
 

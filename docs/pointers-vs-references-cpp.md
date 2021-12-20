@@ -1,10 +1,10 @@
-# c++中的指针与引用
+# c++ 中的指针与引用
 
 > 原文:[https://www.geeksforgeeks.org/pointers-vs-references-cpp/](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
 
 先决条件:[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)、[参考](https://www.geeksforgeeks.org/references-in-c/)
 
-C 和 C++支持不同于大多数其他编程语言的指针。其他语言包括 C++、Java、Python、Ruby、Perl 和 PHP 都支持引用。
+C 和 C++ 支持不同于大多数其他编程语言的指针。其他语言包括 C++、Java、Python、Ruby、Perl 和 PHP 都支持引用。
 
 从表面上看，引用和指针非常相似，都用来让一个变量提供对另一个变量的访问。由于两者都提供了许多相同的功能，所以通常不清楚这些不同的机制之间有什么不同。在本文中，我将尝试说明指针和引用之间的区别。
 

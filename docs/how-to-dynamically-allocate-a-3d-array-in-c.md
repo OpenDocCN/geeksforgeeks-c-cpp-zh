@@ -1,16 +1,16 @@
-# 如何在 C++中动态分配 3D 数组
+# 如何在 C++ 中动态分配 3D 数组
 
 > 原文:[https://www . geeksforgeeks . org/如何动态分配 c 中 3d 阵列/](https://www.geeksforgeeks.org/how-to-dynamically-allocate-a-3d-array-in-c/)
 
 **先决条件:** [数组基础](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)
-在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) ，[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)简单来说就是一个[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)组成的数组。多维数组中的数据以表格形式存储(按行主顺序)。以下是声明 **N 维数组**的一般形式:
+在 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) ，[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)简单来说就是一个[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)组成的数组。多维数组中的数据以表格形式存储(按行主顺序)。以下是声明 **N 维数组**的一般形式:
 
 **<u>多维数组的语法</u> :**
 
 > data _ type array _ name[size 1][size 2]…。[SiZen]；
 > 
 > **数据类型:**要存储在数组中的数据类型。
-> 此处数据类型为有效的 C/C++数据类型
+> 此处数据类型为有效的 C/C++ 数据类型
 > **数组 _ 名称:**数组名称
 > **尺寸 1、尺寸 2、…、尺寸 N:** 尺寸
 
@@ -19,11 +19,11 @@
 **3D 数组的语法:**
 
 > data _ type array _ name[x][y][z]；
-> 数据类型:要存储的数据类型。有效的 C/C++数据类型。
+> 数据类型:要存储的数据类型。有效的 C/C++ 数据类型。
 
-关于多维和三维数组的更多细节，请参考 C++中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)一文。
+关于多维和三维数组的更多细节，请参考 C++ 中的[多维数组](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)一文。
 
-**<u>问题</u> :** 给定一个 3D 数组，任务是使用 C++中的[新](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)为 3D 数组动态分配内存。
+**<u>问题</u> :** 给定一个 3D 数组，任务是使用 C++ 中的[新](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)为 3D 数组动态分配内存。
 
 **解决方案:**在以下方法中，使用的方法是制作两个二维数组，每个二维数组有 3 行 4 列，具有以下值。
 
@@ -70,7 +70,7 @@ int main()
 
                 // Assign values to the
                 // memory blocks created
-                *(a + i * y * z + j * z + k) = ++count;
+                *(a + i * y * z + j * z + k) = ++ count;
             }
         }
     }
@@ -155,7 +155,7 @@ int main()
 
                 // Assign values to the
                 // memory blocks created
-                a[i][j][k] = ++count;
+                a[i][j][k] = ++ count;
             }
         }
     }

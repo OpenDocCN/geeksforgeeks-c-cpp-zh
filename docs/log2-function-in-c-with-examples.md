@@ -1,8 +1,8 @@
-# log2()函数在 C++中的应用举例
+# log2()函数在 C++ 中的应用举例
 
 > 原文:[https://www . geeksforgeeks . org/log 2-c 中的函数-示例/](https://www.geeksforgeeks.org/log2-function-in-c-with-examples/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 中 [cmath 头文件](https://www.geeksforgeeks.org/c-mathematical-functions/)的函数 **log2()** 用于查找传递参数的以**为基 2** 的对数值。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中 [cmath 头文件](https://www.geeksforgeeks.org/c-mathematical-functions/)的函数 **log2()** 用于查找传递参数的以**为基 2** 的对数值。
 
 **语法:**
 

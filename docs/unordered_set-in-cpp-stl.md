@@ -1,4 +1,4 @@
-# c++标准模板库中的无序集
+# c++ 标准模板库中的无序集
 
 > 原文:[https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)
 
@@ -80,7 +80,7 @@ Input  : arr[] = {1, 5, 2, 1, 4, 3, 1, 7, 2, 8, 9, 5}
 Output : Duplicate item are : 5 2 1 
 ```
 
-下面是使用无序集的 C++解决方案。
+下面是使用无序集的 C++ 解决方案。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

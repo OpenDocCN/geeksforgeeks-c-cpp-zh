@@ -1,4 +1,4 @@
-# 使用 C++中的类处理异常
+# 使用 C++ 中的类处理异常
 
 > 原文:[https://www . geesforgeks . org/异常处理-使用类-in-cpp/](https://www.geeksforgeeks.org/exception-handling-using-classes-in-cpp/)
 
@@ -10,7 +10,7 @@
 *   有两种类型的例外:
     *   同步异常
     *   异步异常(例如:程序无法控制的异常、磁盘故障等)。
-*   C++为此提供了以下专用关键字:
+*   C++ 为此提供了以下专用关键字:
     *   [**试试**](https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java/) **:** 代表可以抛出异常的一段代码。
     *   [**catch**](https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java/) **:** 表示当抛出特定异常时执行的代码块。
     *   [**抛出**](https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java/) **:用来抛出一个异常。也用于列出函数抛出但不处理自身的异常。**

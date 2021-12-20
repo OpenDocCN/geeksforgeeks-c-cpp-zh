@@ -1,4 +1,4 @@
-# c++中的 log1p()
+# c++ 中的 log1p()
 
 > 原文:[https://www.geeksforgeeks.org/log1p-in-cpp/](https://www.geeksforgeeks.org/log1p-in-cpp/)
 

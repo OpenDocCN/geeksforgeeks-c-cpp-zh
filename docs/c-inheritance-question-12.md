@@ -48,7 +48,7 @@ int main(void)
 
 **解释:**这是[钻石多重继承问题的典型例子](https://www.geeksforgeeks.org/multiple-inheritance-in-c/)。这里基类成员“a”是通过*衍生 1* 和*衍生 2* 继承的。所以在*中有两个“a”的副本衍生*，这使得陈述“cout<<a；”模棱两可。
 
-C++中的解决方案是使用虚拟基类。例如，下面的程序运行良好，可以打印
+C++ 中的解决方案是使用虚拟基类。例如，下面的程序运行良好，可以打印
 
 #包含 <iostream>使用命名空间 std</iostream>
 

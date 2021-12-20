@@ -1,4 +1,4 @@
-# c++中的 scalbn()函数
+# c++ 中的 scalbn()函数
 
 > 原文:[https://www.geeksforgeeks.org/scalbn-function-in-c/](https://www.geeksforgeeks.org/scalbn-function-in-c/)
 

@@ -1,4 +1,4 @@
-# 是 C++中的 _ 排列()及其在字谜搜索中的应用
+# 是 C++ 中的 _ 排列()及其在字谜搜索中的应用
 
 > 原文:[https://www . geesforgeks . org/is _ arrange-c-application-anagram-search/](https://www.geeksforgeeks.org/is_permutation-c-application-anagram-search/)
 
@@ -88,7 +88,7 @@ int countAnagrams(string text, string pat)
         if (is_permutation(text.begin()+i,
                            text.begin()+i+p_len,
                            pat.begin()))
-            count++;
+            count++ ;
 
     return count;
 }

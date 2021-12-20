@@ -1,4 +1,4 @@
-# 如何在 C++中将单个字符转换为字符串？
+# 如何在 C++ 中将单个字符转换为字符串？
 
 > 原文:[https://www . geesforgeks . org/如何将单字符转换为 cpp 中的字符串/](https://www.geeksforgeeks.org/how-to-convert-a-single-character-to-string-in-cpp/)
 

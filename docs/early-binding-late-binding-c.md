@@ -1,4 +1,4 @@
-# c++中的早结合和晚结合
+# c++ 中的早结合和晚结合
 
 > 原文:[https://www.geeksforgeeks.org/early-binding-late-binding-c/](https://www.geeksforgeeks.org/early-binding-late-binding-c/)
 
@@ -8,7 +8,7 @@
 
 **早期绑定(编译时多态性)**顾名思义，编译器(或链接器)直接将地址与函数调用相关联。它用机器语言指令代替调用，告诉主机跳到函数的地址。
 
-默认情况下，早期绑定发生在 C++中。后期绑定(下面讨论)是借助[虚拟关键字](https://www.geeksforgeeks.org/virtual-function-cpp/)实现的)
+默认情况下，早期绑定发生在 C++ 中。后期绑定(下面讨论)是借助[虚拟关键字](https://www.geeksforgeeks.org/virtual-function-cpp/)实现的)
 
 ```cpp
 // CPP Program to illustrate early binding.

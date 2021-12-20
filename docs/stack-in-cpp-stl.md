@@ -14,7 +14,7 @@
 
 </figure>
 
-**类型**–是包含在标准::堆栈中的元素类型。它可以是任何有效的 C++类型，甚至是用户定义的类型。
+**类型**–是包含在标准::堆栈中的元素类型。它可以是任何有效的 C++ 类型，甚至是用户定义的类型。
 
 **容器**–是底层容器对象的类型。
 
@@ -87,6 +87,6 @@ int main() {
 *   [c++ STL 中的栈::push()和栈::pop()](https://www.geeksforgeeks.org/stackpush-stackpop-c-stl/)
 *   [c++ STL 中的堆栈::交换()](https://www.geeksforgeeks.org/stackswap-c-stl/)
 *   [c++ STL 中的栈::侵位()](https://www.geeksforgeeks.org/stackemplace-c-stl/)
-*   [最近关于 C++堆栈的文章](https://www.geeksforgeeks.org/tag/cpp-stack/)
+*   [最近关于 C++ 堆栈的文章](https://www.geeksforgeeks.org/tag/cpp-stack/)
 
 如果您发现任何不正确的地方，或者您想分享更多关于上面讨论的主题的信息，请写评论

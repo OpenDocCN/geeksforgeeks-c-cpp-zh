@@ -1,8 +1,8 @@
-# ios 操纵器在 C++中固定()函数
+# ios 操纵器在 C++ 中固定()函数
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-固定功能 in-c/](https://www.geeksforgeeks.org/ios-manipulators-fixed-function-in-c/)
 
-C++中**流操纵器**的 **fixed()** 方法用于设置指定字符串流的 floatfield 格式标志。此标志将 floatfield 设置为 fixed。这意味着浮点值将以定点表示法写入。
+C++ 中**流操纵器**的 **fixed()** 方法用于设置指定字符串流的 floatfield 格式标志。此标志将 floatfield 设置为 fixed。这意味着浮点值将以定点表示法写入。
 
 **语法:**
 

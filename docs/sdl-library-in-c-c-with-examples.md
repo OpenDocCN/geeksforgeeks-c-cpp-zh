@@ -1,11 +1,11 @@
-# C/c++中的 SDL 库，带示例
+# C/c++ 中的 SDL 库，带示例
 
 > 原文:[https://www . geesforgeks . org/SDL-library-in-c-c-with-examples/](https://www.geeksforgeeks.org/sdl-library-in-c-c-with-examples/)
 
 **SDL** 是**简单直接媒体层**。这是一个跨平台开发库，旨在通过 OpenGL 和 Direct3D 提供对音频、键盘、鼠标、操纵杆和图形硬件的低级访问。它可以用来制作动画和电子游戏。
 
 *   它基本上提供了一套与图形硬件、音频、键盘、鼠标等各种设备交互的 API。
-*   它是用 C 编程语言编写的，可与 C++和各种其他语言(如 c#和 python)一起工作。
+*   它是用 C 编程语言编写的，可与 C++ 和各种其他语言(如 c#和 python)一起工作。
 
 **在 Linux 上安装(对于使用 apt 包管理器的操作系统，例如:Ubuntu ):**
 

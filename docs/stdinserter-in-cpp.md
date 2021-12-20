@@ -1,4 +1,4 @@
-# 标准::C++中的插入器
+# 标准::C++ 中的插入器
 
 > 原文:[https://www.geeksforgeeks.org/stdinserter-in-cpp/](https://www.geeksforgeeks.org/stdinserter-in-cpp/)
 
@@ -45,12 +45,12 @@ int main()
     cout << "v1 = ";
 
     int i;
-    for (i = 0; i < 3; ++i) {
+    for (i = 0; i < 3; ++ i) {
         cout << v1[i] << " ";
     }
 
     cout << "\nv2 = ";
-    for (i = 0; i < 6; ++i) {
+    for (i = 0; i < 6; ++ i) {
         cout << v2[i] << " ";
     }
 
@@ -96,12 +96,12 @@ v2 = 4 1 2 3 5 6
         cout << "v1 = ";
 
         int i;
-        for (i = 0; i < 6; ++i) {
+        for (i = 0; i < 6; ++ i) {
             cout << v1[i] << " ";
         }
 
         cout << "\nv2 = ";
-        for (i = 0; i < 9; ++i) {
+        for (i = 0; i < 9; ++ i) {
             cout << v2[i] << " ";
         }
 
@@ -156,12 +156,12 @@ v2 = 4 1 2 3 5 6
         cout << "v1 = ";
 
         int i;
-        for (i = 0; i < 3; ++i) {
+        for (i = 0; i < 3; ++ i) {
             cout << v1[i] << " ";
         }
 
         cout << "\nv2 = ";
-        for (i = 0; i < 6; ++i) {
+        for (i = 0; i < 6; ++ i) {
             cout << v2[i] << " ";
         }
 

@@ -1,8 +1,8 @@
-# 在 C++20 中以()开头，以()结尾，示例
+# 在 C++ 20 中以()开头，以()结尾，示例
 
 > 原文:[https://www . geesforgeks . org/starts _ with-and-ends _ with-in-C20-with-examples/](https://www.geeksforgeeks.org/starts_with-and-ends_with-in-c20-with-examples/)
 
-在这篇文章中，我们将讨论**以()**开头，**以()**结尾，并用 C++中的例子 <u>20。</u>
+在这篇文章中，我们将讨论**以()**开头，**以()**结尾，并用 C++ 中的例子 <u>20。</u>
 
 ### <u>以()</u>开头
 
@@ -35,7 +35,7 @@
 
 **程序 1:**
 
-下面的程序演示了在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中**以()**开头的概念:
+下面的程序演示了在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中**以()**开头的概念:
 
 ## C++
 
@@ -120,7 +120,7 @@ int main()
 
 **程序 2:**
 
-下面的程序演示了 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中**以()**结尾的概念:
+下面的程序演示了 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中**以()**结尾的概念:
 
 ## C++
 

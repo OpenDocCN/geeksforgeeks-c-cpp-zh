@@ -1,4 +1,4 @@
-# 如何在 C++中不用迭代器迭代一个向量
+# 如何在 C++ 中不用迭代器迭代一个向量
 
 > 原文:[https://www . geeksforgeeks . org/如何在不使用 c-iterators 的情况下迭代向量/](https://www.geeksforgeeks.org/how-to-iterate-through-a-vector-without-using-iterators-in-c/)
 

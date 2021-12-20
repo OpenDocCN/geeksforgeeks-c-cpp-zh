@@ -1,4 +1,4 @@
-# C/c++中实参和参数的区别举例
+# C/c++ 中实参和参数的区别举例
 
 > 原文:[https://www . geeksforgeeks . org/c-c-in-parameter-with-examples/](https://www.geeksforgeeks.org/difference-between-argument-and-parameter-in-c-c-with-examples/)
 

@@ -1,12 +1,12 @@
-# 用 C++实例化一个对象的不同方法，示例
+# 用 C++ 实例化一个对象的不同方法，示例
 
 > 原文:[https://www . geeksforgeeks . org/用示例实例化 c 中对象的不同方法/](https://www.geeksforgeeks.org/different-ways-to-instantiate-an-object-in-c-with-examples/)
 
-**<u>先决条件:</u>** [C++类和对象](https://www.geeksforgeeks.org/c-classes-and-objects/)
+**<u>先决条件:</u>** [C++ 类和对象](https://www.geeksforgeeks.org/c-classes-and-objects/)
 
 **<u>实例化对象的不同方式</u>**
 
-在 C++中，有不同的方法来实例化一个对象，其中一种方法是使用[构造函数。](https://www.geeksforgeeks.org/constructors-c/)这些是特殊的类成员，每次实例化该类的对象时，编译器都会调用它们。通过构造函数实例化对象有三种不同的方式:
+在 C++ 中，有不同的方法来实例化一个对象，其中一种方法是使用[构造函数。](https://www.geeksforgeeks.org/constructors-c/)这些是特殊的类成员，每次实例化该类的对象时，编译器都会调用它们。通过构造函数实例化对象有三种不同的方式:
 
 1.  通过默认构造函数。
 2.  通过参数化构造函数。
@@ -24,9 +24,9 @@
 > **删除动态对象**
 > 删除对象名称；
 
-下面是通过默认构造函数演示对象实例化的 C++程序
+下面是通过默认构造函数演示对象实例化的 C++ 程序
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -92,7 +92,7 @@ int main()
 > **删除动态对象**
 > 删除对象名称；
 
-下面是演示参数化构造函数的 C++程序
+下面是演示参数化构造函数的 C++ 程序
 
 ## C++
 
@@ -168,7 +168,7 @@ int main()
 > 1。class name * obj 1 = new class name()；
 > classname *obj2 =新 class name(* obj 1)；
 
-下面是演示复制构造函数的 C++程序
+下面是演示复制构造函数的 C++ 程序
 
 ## C++
 

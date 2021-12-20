@@ -1,4 +1,4 @@
-# std::string::rfind 在 C++中带有示例
+# std::string::rfind 在 C++ 中带有示例
 
 > 原文:[https://www . geesforgeks . org/stdstringfind-in-c-with-examples/](https://www.geeksforgeeks.org/stdstringrfind-in-c-with-examples/)
 

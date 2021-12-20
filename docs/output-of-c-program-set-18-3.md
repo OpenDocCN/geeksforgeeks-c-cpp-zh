@@ -1,8 +1,8 @@
-# 用 C++打印 1 到 100，没有循环和递归
+# 用 C++ 打印 1 到 100，没有循环和递归
 
 > 原文:[https://www.geeksforgeeks.org/output-of-c-program-set-18-3/](https://www.geeksforgeeks.org/output-of-c-program-set-18-3/)
 
-下面是一个 C++程序，在没有循环和递归的情况下打印 1 到 100。
+下面是一个 C++ 程序，在没有循环和递归的情况下打印 1 到 100。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -52,7 +52,7 @@ int main()
 ```
 
 该程序打印从 1 到 n 的所有数字，而不使用循环和递归。这个程序使用的概念是[模板元编程](https://www.geeksforgeeks.org/template-metaprogramming-in-c/)。
-让我们看看这是如何运作的。[c++中的模板](http://en.wikipedia.org/wiki/Template_(C%2B%2B))允许非数据类型也作为参数。非数据类型意味着值，而不是数据类型。例如，在上面的程序中，N 作为非数据类型的值传递。为每个参数创建一个泛型类的新实例，这些类是在编译时创建的。在上面的程序中，当编译器看到 N = 100 的语句“printoneon<>::print()”时，它会创建一个实例 printoneon<100>。在函数 printonet on<100>:print()中，调用了另一个函数 printonet on<99>:print()，因此创建了一个实例 PrintOneToN < 99 >。同样，从 PrintOneToN < 100 >到 PrintOneToN < 2 >的所有实例都将被创建。print one ton<1>:print()已经在那里，打印 1。函数 PrintOneToN < 2 >打印 2 等等。因此，我们将从 1 到 N 的所有数字都打印在屏幕上。
+让我们看看这是如何运作的。[c++ 中的模板](http://en.wikipedia.org/wiki/Template_(C%2B%2B))允许非数据类型也作为参数。非数据类型意味着值，而不是数据类型。例如，在上面的程序中，N 作为非数据类型的值传递。为每个参数创建一个泛型类的新实例，这些类是在编译时创建的。在上面的程序中，当编译器看到 N = 100 的语句“printoneon<>::print()”时，它会创建一个实例 printoneon<100>。在函数 printonet on<100>:print()中，调用了另一个函数 printonet on<99>:print()，因此创建了一个实例 PrintOneToN < 99 >。同样，从 PrintOneToN < 100 >到 PrintOneToN < 2 >的所有实例都将被创建。print one ton<1>:print()已经在那里，打印 1。函数 PrintOneToN < 2 >打印 2 等等。因此，我们将从 1 到 N 的所有数字都打印在屏幕上。
 接下来是**另一种方法**打印 1 到 100，没有循环和递归。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
@@ -66,7 +66,7 @@ class A
 public:
     static int a;
     A()
-    {  cout<<a++<<endl;  }
+    {  cout<<a++ <<endl;  }
 };
 
 int A::a = 1;
@@ -92,7 +92,7 @@ int main()
 {
     short sum = 0;
 
-    update: sum++;
+    update: sum++ ;
     std::cout<<sum<<std::endl;
 
       if(sum == 100) return 0;

@@ -71,7 +71,7 @@ int main()
 
     // Printing the set
     for (auto it = myset.begin();
-        it != myset.end(); ++it)
+        it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -115,7 +115,7 @@ int main()
 
     // Printing the set
     for (auto it = myset.begin();
-        it != myset.end(); ++it)
+        it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -155,7 +155,7 @@ int main()
 
     // Printing the set
     for (auto it = myset.begin();
-        it != myset.end(); ++it)
+        it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -193,7 +193,7 @@ int main()
 
     // Printing the set
     for (auto it = myset.begin();
-        it != myset.end(); ++it)
+        it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -243,12 +243,12 @@ int main()
         if (*i % 2 == 0)
             i=myset.erase(i);
         else
-            i++;
+            i++ ;
 
     }
 
     // Printing the set
-    for (auto it = myset.begin(); it != myset.end(); ++it)
+    for (auto it = myset.begin(); it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

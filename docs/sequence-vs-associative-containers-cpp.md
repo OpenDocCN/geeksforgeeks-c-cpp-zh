@@ -1,4 +1,4 @@
-# c++中的序列与关联容器
+# c++ 中的序列与关联容器
 
 > 原文:[https://www . geesforgeks . org/sequence-vs-associative-containers-CPP/](https://www.geeksforgeeks.org/sequence-vs-associative-containers-cpp/)
 

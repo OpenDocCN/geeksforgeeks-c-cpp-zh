@@ -83,7 +83,7 @@ int main()
     auto it = sample.begin();
     cout << "The first element: " << *it;
 
-    it++;
+    it++ ;
     cout << "\nThe second element: " << *it;
 
     cout << "\nElements: ";

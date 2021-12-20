@@ -1,4 +1,4 @@
-# 在 C++中引用指针使用 Const 的不同方式
+# 在 C++ 中引用指针使用 Const 的不同方式
 
 > 原文:[https://www . geeksforgeeks . org/different-to-use-const-with-reference-a-pointer-in-c/](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
 

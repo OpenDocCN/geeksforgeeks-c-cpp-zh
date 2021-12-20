@@ -193,7 +193,7 @@ int main()
     // Counting number of elements in queue
     while (!pqueue.empty()) {
         pqueue.pop();
-        c++;
+        c++ ;
     }
     cout << c;
 }

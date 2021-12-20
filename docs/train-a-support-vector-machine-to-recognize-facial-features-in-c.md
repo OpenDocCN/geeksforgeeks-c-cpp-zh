@@ -1,4 +1,4 @@
-# 在 C++中训练支持向量机识别面部特征
+# 在 C++ 中训练支持向量机识别面部特征
 
 > 原文:[https://www . geesforgeks . org/train-a-support-vector-machine-to-recognition-face-features-in-c/](https://www.geeksforgeeks.org/train-a-support-vector-machine-to-recognize-facial-features-in-c/)
 
@@ -31,7 +31,7 @@ FFR_dataset/
 
 ### 履行
 
-通过使用官方 opencv repo 中提供的样本对 SVM 进行 HOG 训练，我们实现了 c++代码来训练、保存和预测多张人脸图像上的面部特征。
+通过使用官方 opencv repo 中提供的样本对 SVM 进行 HOG 训练，我们实现了 c++ 代码来训练、保存和预测多张人脸图像上的面部特征。
 
 有三种特征类型- *年龄*、*情感*和*性别*。四个年龄段，六种情绪，两种性别类型。因此 *n 类*分类器被实现来识别面部数据上的每个特征。
 
@@ -45,7 +45,7 @@ for (auto ft : m_FeatureList) {
     std::vector<float> predictionAccuracyList;
     predictionAccuracyList.reserve(run_times);
 
-    for (int run = 0; run < run_times; ++run) {
+    for (int run = 0; run < run_times; ++ run) {
         DEBUGLW("\t\tRun=[%d]\n", run);
         vector<Mat> trainData, predData;
         vector<int> trainLabels, predLabels;
@@ -121,7 +121,7 @@ int label = std::distance(ft_iter->second.begin(),  fv_iter);
 DEBUGLD("\t\t\tlabel=[%d]\n", label);
 
 int i = 0;
-for (; i < trainPart; ++i) {
+for (; i < trainPart; ++ i) {
     trainData.push_back(imgList.at(i));
     trainLabels.push_back(label);
 }
@@ -130,7 +130,7 @@ DEBUGLD("\t\t\ti=[%d], trainData.size()=[%ld], 
         = [% ld]\n ", i, trainData.size(), 
                        trainLabels.size());
 
-for (; i < imgList.size(); ++i) {
+for (; i < imgList.size(); ++ i) {
     predData.push_back(imgList.at(i));
     predLabels.push_back(label);
 }
@@ -159,7 +159,7 @@ imgHogList.swap(hogMats);
 
 ```cpp
 //  CTrainTestHOG::convert_to_ml()
-for (size_t i = 0; i < train_samples.size(); ++i) {
+for (size_t i = 0; i < train_samples.size(); ++ i) {
     CV_Assert(train_samples[i].cols == 1 || train_samples[i].rows == 1);
     if (train_samples[i].cols == 1) {
         cv::transpose(train_samples[i], tmp);
@@ -225,7 +225,7 @@ predLabels.resize(ml_pred_data.rows);
 DEBUGLW("\t\tTesting SVM - begin\n");
 Mat responses_mat;
 m_pSVM->predict(ml_pred_data, responses_mat);
-for (size_t i = 0; i < ml_pred_data.rows; ++i) {
+for (size_t i = 0; i < ml_pred_data.rows; ++ i) {
     resultLabels.push_back(responses_mat.at<int>(i));
 }
 DEBUGLW("\t\tTesting SVM - end\n");

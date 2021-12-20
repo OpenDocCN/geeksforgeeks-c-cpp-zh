@@ -1,8 +1,8 @@
-# c++中的 feupdateenv()函数
+# c++ 中的 feupdateenv()函数
 
 > 原文:[https://www.geeksforgeeks.org/feupdateenv-function-in-c/](https://www.geeksforgeeks.org/feupdateenv-function-in-c/)
 
-C++中的**feupdatenv()**函数首先保存当前引发的浮点异常。它从给定的 **fenv_t 对象**恢复浮点环境，然后引发之前保存的异常。
+C++ 中的**feupdatenv()**函数首先保存当前引发的浮点异常。它从给定的 **fenv_t 对象**恢复浮点环境，然后引发之前保存的异常。
 
 **语法:**
 

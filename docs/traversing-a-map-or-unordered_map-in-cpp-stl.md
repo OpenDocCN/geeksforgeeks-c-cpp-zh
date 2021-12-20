@@ -21,7 +21,7 @@ int main()
 
     map<int, int> m;
     for (int i = 0; i < n; i++)
-        m[arr[i]]++;
+        m[arr[i]]++ ;
 
     cout << "Element  Frequency" << endl;
     for (auto i : m)
@@ -47,7 +47,7 @@ int main()
 
     unordered_map<int, int> m;
     for (int i = 0; i < n; i++)
-        m[arr[i]]++;
+        m[arr[i]]++ ;
 
     cout << "Element Frequency" << endl;
     for (auto i : m)

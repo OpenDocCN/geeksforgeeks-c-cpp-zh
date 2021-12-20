@@ -1,8 +1,8 @@
-# 为 C++17 中的 _ 每 _ n
+# 为 C++ 17 中的 _ 每 _ n
 
 > 原文:[https://www.geeksforgeeks.org/for_each_n-in-c17/](https://www.geeksforgeeks.org/for_each_n-in-c17/)
 
-C++17 技术规范中增加了 **for_each_n** ()函数。它的想法借鉴了*巨蟒*或*哈斯克尔*中*地图*的用法。无论是否有*执行策略*，都可以调用该函数。执行策略允许您决定是利用优化后的新并行功能在多个内核上运行，还是像以前的标准一样按顺序运行。甚至忽略执行策略，因为所有函数都重载了顺序运行的对应函数。
+C++ 17 技术规范中增加了 **for_each_n** ()函数。它的想法借鉴了*巨蟒*或*哈斯克尔*中*地图*的用法。无论是否有*执行策略*，都可以调用该函数。执行策略允许您决定是利用优化后的新并行功能在多个内核上运行，还是像以前的标准一样按顺序运行。甚至忽略执行策略，因为所有函数都重载了顺序运行的对应函数。
 
 简单地说，for_each_n()有助于对数组(或任何其他线性数据类型)的所有元素应用一个公共函数。它本质上是从给定的迭代器开始，针对该迭代器中固定数量的元素，批量更新一系列元素。
 
@@ -21,10 +21,10 @@ f: the function object that is applied to the elements.
 
 ```
 
-*(注意:给定的代码需要 C++17 或更高版本，可能无法在所有 C++17 环境中运行。)*
+*(注意:给定的代码需要 C++ 17 或更高版本，可能无法在所有 C++ 17 环境中运行。)*
 
 ```cpp
-// Requires C++17 or 17+
+// Requires C++ 17 or 17+
 // C++ program to demonstrate the use for_each_n
 // using function pointers as lambda expressions.
 #include <bits/stdc++.h>
@@ -76,10 +76,10 @@ int main()
 
 只有使用[函子](https://www.geeksforgeeks.org/functors-in-cpp/)作为其第三个参数，才能充分利用**的真正威力和灵活性。**
 
-*(注意:给定的代码需要 c++17 或更高版本，可能无法在所有 c++17 环境中运行。)*
+*(注意:给定的代码需要 c++ 17 或更高版本，可能无法在所有 c++ 17 环境中运行。)*
 
 ```cpp
-// Requires C++17 or 17+
+// Requires C++ 17 or 17+
 // A C++ program to demonstrate the use for_each_n
 // using funcctors.
 #include <bits/stdc++.h>

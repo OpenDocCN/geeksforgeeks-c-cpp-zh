@@ -1,4 +1,4 @@
-# c++中复数的 cosh()函数
+# c++ 中复数的 cosh()函数
 
 > 原文:[https://www . geeksforgeeks . org/cosh-复杂数字函数-in-cpp/](https://www.geeksforgeeks.org/cosh-function-for-complex-number-in-cpp/)
 
@@ -17,7 +17,7 @@ cosh(z);
 
 **返回值:**此函数返回复数 z 的 cosh()
 
-下面的程序说明了 C++中的 cosh()函数:
+下面的程序说明了 C++ 中的 cosh()函数:
 
 **程序 1:-**
 

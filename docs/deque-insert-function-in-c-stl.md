@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/deque-insert-function-in-c-STL/](https://www.geeksforgeeks.org/deque-insert-function-in-c-stl/)
 
-**deque::insert()** 函数是 C++中的内置函数，用于在 deque 中插入元素。
+**deque::insert()** 函数是 C++ 中的内置函数，用于在 deque 中插入元素。
 insert()函数有三种使用方式:
 
 *   通过在*位置*插入新元素*值*来扩展深度。
@@ -44,12 +44,12 @@ int main()
     deque<int> dq = { 1, 2, 3, 4, 5 };
 
     deque<int>::iterator it = dq.begin();
-    ++it;
+    ++ it;
 
     it = dq.insert(it, 10); // 1 10 2 3 4 5
 
     std::cout << "Deque contains:";
-    for (it = dq.begin(); it != dq.end(); ++it)
+    for (it = dq.begin(); it != dq.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 
@@ -84,7 +84,7 @@ int main()
 
     std::cout << "Deque contains:";
 
-    for (it = dq.begin(); it != dq.end(); ++it)
+    for (it = dq.begin(); it != dq.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 
@@ -113,7 +113,7 @@ int main()
     deque<int> dq = { 1, 2, 3, 4, 5 };
 
     deque<int>::iterator it = dq.begin();
-    ++it;
+    ++ it;
 
     vector<int> v(2, 10);
 
@@ -121,7 +121,7 @@ int main()
     dq.insert(it, v.begin(), v.end());
 
     std::cout << "Deque contains:";
-    for (it = dq.begin(); it != dq.end(); ++it)
+    for (it = dq.begin(); it != dq.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 

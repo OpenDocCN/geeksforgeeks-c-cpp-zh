@@ -1,8 +1,8 @@
-# g++中基于策略的数据结构
+# g++ 中基于策略的数据结构
 
 > 原文:[https://www . geesforgeks . org/policy-based-data-structures-g/](https://www.geeksforgeeks.org/policy-based-data-structures-g/)
 
-g++编译器还支持一些不属于 C++标准库的数据结构。这种结构称为基于策略的数据结构。这些数据结构是为高性能、灵活性、语义安全性和符合 std 中的相应容器而设计的。
+g++ 编译器还支持一些不属于 C++ 标准库的数据结构。这种结构称为基于策略的数据结构。这些数据结构是为高性能、灵活性、语义安全性和符合 std 中的相应容器而设计的。
 要使用这些结构，必须在代码中添加以下几行:
 
 ## C++

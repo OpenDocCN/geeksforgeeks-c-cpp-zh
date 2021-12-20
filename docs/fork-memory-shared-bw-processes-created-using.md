@@ -38,8 +38,8 @@ int main(void)
             printf("\n Child Process Initial Value :: localVar"
                    " = %d, globalVar = %d", localVar,
                    globalVar);
-            localVar++;
-            globalVar++;
+            localVar++ ;
+            globalVar++ ;
 
             int c = 500;
             printf("\n Child Process :: localVar = %d, "

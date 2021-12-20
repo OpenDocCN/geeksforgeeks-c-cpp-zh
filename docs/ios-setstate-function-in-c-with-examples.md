@@ -1,8 +1,8 @@
-# ios setstate()函数在 C++中的使用示例
+# ios setstate()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/IOs-setstate-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-setstate-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **setstate()** 方法用于通过设置作为参数传递的标志来更改该流的当前状态。因此这个函数改变了这个流的内部状态。
+C++ 中 **ios 类**的 **setstate()** 方法用于通过设置作为参数传递的标志来更改该流的当前状态。因此这个函数改变了这个流的内部状态。
 
 **语法:**
 

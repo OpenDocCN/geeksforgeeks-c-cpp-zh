@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/有用-数组-算法-in-c-stl/](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/)
 
-从 C++11 开始，在 C++的 STL 中加入了一些新的有趣的算法。这些算法在数组上运行，有助于节省编码时间，因此在竞争性编程中也很有用。
+从 C++ 11 开始，在 C++ 的 STL 中加入了一些新的有趣的算法。这些算法在数组上运行，有助于节省编码时间，因此在竞争性编程中也很有用。
 
 **all_of()**
 

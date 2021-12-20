@@ -1,8 +1,8 @@
-# 在 C++中失败
+# 在 C++ 中失败
 
 > 原文:[https://www.geeksforgeeks.org/fallthrough-in-c/](https://www.geeksforgeeks.org/fallthrough-in-c/)
 
-**Fall through** 是出现在各种编程语言中的一种错误，如[C](https://www.geeksforgeeks.org/c-programming-language/)[c++](https://www.geeksforgeeks.org/c-plus-plus/)[Java](https://www.geeksforgeeks.org/java/)[Dart](https://www.geeksforgeeks.org/dart-standard-input-output/)等。它出现在 [switch-case 语句](https://www.geeksforgeeks.org/switch-statement-cc/) 中，当我们忘记添加 a [break 语句](https://www.geeksforgeeks.org/break-statement-cc/) 时，在这种情况下 [的控制流会跳转到下一行](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/) 。因此，当任何情况与指定值匹配时，控制会转移到后续情况，直到找到 break 语句。在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，[错误](https://www.geeksforgeeks.org/program-error-signals/)不是在**通过**出现，而是在像 [Dart](https://www.geeksforgeeks.org/exception-handling-in-dart/) 这样的语言中，每当**通过**出现时，就会出现错误。
+**Fall through** 是出现在各种编程语言中的一种错误，如[C](https://www.geeksforgeeks.org/c-programming-language/)[c++ ](https://www.geeksforgeeks.org/c-plus-plus/)[Java](https://www.geeksforgeeks.org/java/)[Dart](https://www.geeksforgeeks.org/dart-standard-input-output/)等。它出现在 [switch-case 语句](https://www.geeksforgeeks.org/switch-statement-cc/) 中，当我们忘记添加 a [break 语句](https://www.geeksforgeeks.org/break-statement-cc/) 时，在这种情况下 [的控制流会跳转到下一行](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/) 。因此，当任何情况与指定值匹配时，控制会转移到后续情况，直到找到 break 语句。在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，[错误](https://www.geeksforgeeks.org/program-error-signals/)不是在**通过**出现，而是在像 [Dart](https://www.geeksforgeeks.org/exception-handling-in-dart/) 这样的语言中，每当**通过**出现时，就会出现错误。
 
 不一定要避免**从**滑落，但也可以作为优势。
 

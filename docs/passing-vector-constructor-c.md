@@ -1,4 +1,4 @@
-# 在 C++中将向量传递给构造函数
+# 在 C++ 中将向量传递给构造函数
 
 > 原文:[https://www.geeksforgeeks.org/passing-vector-constructor-c/](https://www.geeksforgeeks.org/passing-vector-constructor-c/)
 
@@ -89,7 +89,7 @@ int main()
 ```
 
 **当类成员是向量时，引用**。
-在 C++中，[引用必须使用初始化列表](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)进行初始化。
+在 C++ 中，[引用必须使用初始化列表](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)进行初始化。
 
 ```cpp
 // CPP program to initialize a vector reference.

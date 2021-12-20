@@ -1,4 +1,4 @@
-# 在 C 和 C++中将浮点数舍入到两位小数
+# 在 C 和 C++ 中将浮点数舍入到两位小数
 
 > 原文:[https://www . geesforgeks . org/四舍五入-浮点数-小数点后两位-c-c/](https://www.geeksforgeeks.org/rounding-floating-point-number-two-decimal-places-c-c/)
 

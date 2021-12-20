@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ move _ 可在 C++中赋值，示例
+# STD::is _ trivaly _ move _ 可在 C++ 中赋值，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdis _ trivaly _ move _ assigned-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_move_assignable-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_trivially_move_assignable<T>::value
 *   **真:**如果类型 **T** 是平凡地移动.
 *   **False:** If the type **t** is not an assignable ordinary movement.
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ trivaly _ move _ assigned**的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**STD::is _ trivaly _ move _ assigned**的程序:
 
 **程序:**
 

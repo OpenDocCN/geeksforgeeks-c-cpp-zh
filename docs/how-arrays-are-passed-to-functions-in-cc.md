@@ -1,4 +1,4 @@
-# 数组如何传递给 C/C++中的函数
+# 数组如何传递给 C/C++ 中的函数
 
 > 原文:[https://www . geesforgeks . org/数组如何传递给 cc 中的函数/](https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/)
 

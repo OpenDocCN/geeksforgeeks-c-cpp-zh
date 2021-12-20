@@ -120,14 +120,14 @@ int main()
     int a = 10, b = 5;
     if (b > 0) {
         while (b > 0) {
-            a++;
+            a++ ;
             b--;
         }
     }
     if (b < 0) { // when 'b' is negative
         while (b < 0) {
             a--;
-            b++;
+            b++ ;
         }
     }
     cout << "Sum = " << a;
@@ -148,14 +148,14 @@ int main()
     int a = 10, b = 5;
     if (b > 0) {
         while (b > 0) {
-            a++;
+            a++ ;
             b--;
         }
     }
     if (b < 0) { // when 'b' is negative
         while (b < 0) {
             a--;
-            b++;
+            b++ ;
         }
     }
     printf("Sum = %d", a);
@@ -176,14 +176,14 @@ class GfG {
         int a = 10, b = 5;
         if (b > 0) {
             while (b > 0) {
-                a++;
+                a++ ;
                 b--;
             }
         }
         if (b < 0) { // when 'b' is negative
             while (b < 0) {
                 a--;
-                b++;
+                b++ ;
             }
         }
         System.out.println("Sum is: " + a);
@@ -230,14 +230,14 @@ class GFG {
         int a = 10, b = 5;
         if (b > 0) {
             while (b > 0) {
-                a++;
+                a++ ;
                 b--;
             }
         }
         if (b < 0) { // when 'b' is negative
             while (b < 0) {
                 a--;
-                b++;
+                b++ ;
             }
         }
         Console.Write("Sum is: " + a);
@@ -259,7 +259,7 @@ $b = 5;
 if ($b > 0) {
 while($b > 0)
 {
-    $a++;
+    $a++ ;
     $b--;
 }
 }
@@ -268,7 +268,7 @@ if ($b < 0) {
 while($b < 0)
 {
     $a--;
-    $b++;
+    $b++ ;
 }
 }
 
@@ -291,14 +291,14 @@ echo "Sum is: ", $a;
     let a = 10, b = 5;
     if (b > 0) {
         while (b > 0) {
-            a++;
+            a++ ;
             b--;
         }
     }
     if (b < 0) { // when 'b' is negative
         while (b < 0) {
             a--;
-            b++;
+            b++ ;
         }
     }
     document.write("Sum = " + a);

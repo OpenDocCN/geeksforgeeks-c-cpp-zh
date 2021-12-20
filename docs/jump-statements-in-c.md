@@ -1,8 +1,8 @@
-# c++中的跳转语句
+# c++ 中的跳转语句
 
 > 原文:[https://www.geeksforgeeks.org/jump-statements-in-c/](https://www.geeksforgeeks.org/jump-statements-in-c/)
 
-如果满足某些条件，跳转语句用于操纵程序的[流程。它用于终止或](https://www.geeksforgeeks.org/an-introduction-to-flowcharts/)[继续程序内的循环](https://www.geeksforgeeks.org/continue-statement-cpp/)或停止函数的执行。在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中有四个跳转语句:**继续**、 [**断开**](https://www.geeksforgeeks.org/break-statement-cc/) 、 [**返回**](https://www.geeksforgeeks.org/return-local-array-c-function/) ，以及 [**转到**](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/) 。
+如果满足某些条件，跳转语句用于操纵程序的[流程。它用于终止或](https://www.geeksforgeeks.org/an-introduction-to-flowcharts/)[继续程序内的循环](https://www.geeksforgeeks.org/continue-statement-cpp/)或停止函数的执行。在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中有四个跳转语句:**继续**、 [**断开**](https://www.geeksforgeeks.org/break-statement-cc/) 、 [**返回**](https://www.geeksforgeeks.org/return-local-array-c-function/) ，以及 [**转到**](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/) 。
 
 [**<u>Continue</u>**](https://www.geeksforgeeks.org/continue-statement-cpp/)**:**用于执行循环的其他部分，同时跳过条件内部声明的部分，而不是终止循环，而是继续执行同一循环的下一次迭代。它与必须出现在循环内部的决策语句一起使用。这种说法可以用在 [**内部为循环**](https://www.geeksforgeeks.org/range-based-loop-c/) 或 [**而**](https://www.geeksforgeeks.org/loops-in-c-and-cpp/) 或[**do-while**](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)**循环。**
 

@@ -52,14 +52,14 @@ void compareFiles(FILE *fp1, FILE *fp2)
     // iterate loop till end of file
     while (ch1 != EOF && ch2 != EOF)
     {
-        pos++;
+        pos++ ;
 
         // if both variable encounters new
         // line then line variable is incremented
         // and pos variable is set to 0
         if (ch1 == '\n' && ch2 == '\n')
         {
-            line++;
+            line++ ;
             pos = 0;
         }
 
@@ -67,7 +67,7 @@ void compareFiles(FILE *fp1, FILE *fp2)
         // error is incremented
         if (ch1 != ch2)
         {
-            error++;
+            error++ ;
             printf("Line Number : %d \tError"
                " Position : %d \n", line, pos);
         }

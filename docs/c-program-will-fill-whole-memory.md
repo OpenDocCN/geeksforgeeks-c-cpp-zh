@@ -1,10 +1,10 @@
-# 将充满整个内存的 C++程序
+# 将充满整个内存的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-program-will-fill-all-memory/](https://www.geeksforgeeks.org/c-program-will-fill-whole-memory/)
 
 **注意:我们强烈建议在虚拟机中尝试此代码，因为它可能会在 5 秒内挂起您的计算机**
 
-[C/c++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)中的动态内存分配是指程序员手动进行内存分配。动态分配的内存在堆上分配，非静态变量和局部变量在堆栈上分配内存
+[C/c++ ](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)中的动态内存分配是指程序员手动进行内存分配。动态分配的内存在堆上分配，非静态变量和局部变量在堆栈上分配内存
 
 **新关键字**
 新运算符表示对堆内存分配的请求。如果有足够的内存，new 运算符初始化内存，并将新分配和初始化的内存的地址返回给指针变量。
@@ -26,7 +26,7 @@ delete pointer-variable;
 
 ```
 
-下面是将填满整个内存的 C++程序
+下面是将填满整个内存的 C++ 程序
 
 ```cpp
 #include<bits/stdc++.h>

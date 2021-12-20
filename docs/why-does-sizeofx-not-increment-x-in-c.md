@@ -59,7 +59,7 @@ x = 3
 int main()
 {
     int x = 3;
-    printf("%d\n", sizeof(int[x++]));
+    printf("%d\n", sizeof(int[x++ ]));
     printf("x = %d", x);
 
     return 0;
@@ -86,7 +86,7 @@ x = 4
 int main()
 {
     int x = 3;
-    printf("%d\n", sizeof(int[++x]));
+    printf("%d\n", sizeof(int[++ x]));
     printf("x = %d", x);
 
     return 0;

@@ -1,8 +1,8 @@
-# c++中基于范围的循环
+# c++ 中基于范围的循环
 
 > 原文:[https://www.geeksforgeeks.org/range-based-loop-c/](https://www.geeksforgeeks.org/range-based-loop-c/)
 
-C++中基于范围的 for 循环是从 C++ 11 开始添加的。它在一个范围内执行 for 循环。用作对一系列值(如容器中的所有元素)进行操作的传统 for 循环的更具可读性的等价物。
+C++ 中基于范围的 for 循环是从 C++ 11 开始添加的。它在一个范围内执行 for 循环。用作对一系列值(如容器中的所有元素)进行操作的传统 for 循环的更具可读性的等价物。
 
 **语法:**
 
@@ -28,7 +28,7 @@ is the body of the loop.
 
 ```
 
-C++实现:
+C++ 实现:
 
 ```cpp
 // Illustration of range-for loop

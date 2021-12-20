@@ -233,9 +233,9 @@ Returned index is 2
 
 通过编写单独的自定义比较()，上述搜索功能可用于任何数据类型。
 
-**7)**c++中很多面向对象的特性都是用 C 中的函数指针来实现的，比如[虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)。类方法是使用函数指针实现的另一个例子。详见[本书](http://www.cs.rit.edu/~ats/books/ooc.pdf)。
+**7)**c++ 中很多面向对象的特性都是用 C 中的函数指针来实现的，比如[虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)。类方法是使用函数指针实现的另一个例子。详见[本书](http://www.cs.rit.edu/~ats/books/ooc.pdf)。
 
-**相关文章:**[C 和 C++中的指针|集合 1(介绍、算术和数组)](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+**相关文章:**[C 和 C++ 中的指针|集合 1(介绍、算术和数组)](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
 
 **参考文献:**
 [http://www . cs . CMU . edu/~ ab/15-123s 11/AnnotatedNotes/讲师 14.pdf](http://www.cs.cmu.edu/~ab/15-123S11/AnnotatedNotes/Lecture14.pdf)

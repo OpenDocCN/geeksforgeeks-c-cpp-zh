@@ -1,4 +1,4 @@
-# 在 C++标准模板库中排序(STL)
+# 在 C++ 标准模板库中排序(STL)
 
 > 原文:[https://www . geesforgeks . org/sort-algorithms-the-c-standard-template-library-STL/](https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/)
 
@@ -30,7 +30,7 @@ using namespace std;
 
 void show(int a[], int array_size)
 {
-    for (int i = 0; i < array_size; ++i)
+    for (int i = 0; i < array_size; ++ i)
         cout << a[i] << " ";
 }
 

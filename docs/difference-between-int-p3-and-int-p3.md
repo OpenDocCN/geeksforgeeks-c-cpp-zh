@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/difference-int-P3-and-int-P3/](https://www.geeksforgeeks.org/difference-between-int-p3-and-int-p3/)
 
-[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)存储变量的地址或存储位置。指针是地址的符号表示。它们使程序能够模拟引用调用，以及创建和操纵动态[数据结构](https://www.geeksforgeeks.org/data-structures/)。它在 C/C++中的一般声明具有以下格式:
+[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)存储变量的地址或存储位置。指针是地址的符号表示。它们使程序能够模拟引用调用，以及创建和操纵动态[数据结构](https://www.geeksforgeeks.org/data-structures/)。它在 C/C++ 中的一般声明具有以下格式:
 
 **语法:**
 

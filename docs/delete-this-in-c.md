@@ -1,4 +1,4 @@
-# “删除此”在 C++中
+# “删除此”在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/delete-this-in-c/](https://www.geeksforgeeks.org/delete-this-in-c/)
 

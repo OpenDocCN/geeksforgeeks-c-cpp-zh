@@ -33,6 +33,6 @@ int main(void)
 
 **回答:****(C)**
 
-**说明:**请参考[c++中的纯虚函数和抽象类](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
+**说明:**请参考[c++ 中的纯虚函数和抽象类](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
 
 [本题的小测验](https://www.geeksforgeeks.org/c-plus-plus-gq/virtual-functions-gq/)

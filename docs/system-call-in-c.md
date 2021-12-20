@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/system-call-in-c/](https://www.geeksforgeeks.org/system-call-in-c/)
 
-system()用于从 C/C++程序中调用操作系统命令。
+system()用于从 C/C++ 程序中调用操作系统命令。
 
 ```cpp
     int system(const char *command);
@@ -15,7 +15,7 @@ system()用于从 C/C++程序中调用操作系统命令。
 
 使用 system()，如果操作系统允许，我们可以执行任何可以在终端上运行的命令。例如，我们可以在 Windows 上调用 system(“dir”)和 system(“ls”)来列出目录的内容。
 
-**编写 C/C++程序，编译运行其他程序？**
+**编写 C/C++ 程序，编译运行其他程序？**
 我们可以使用系统()从程序中调用 gcc。请参见下面为 Linux 编写的代码。我们可以轻松地将代码更改为在 windows 上运行。
 
 ```cpp
@@ -57,7 +57,7 @@ system()在 Windows OS 中的一些常见用法是，system(“pause”)用于�
 1.  **<u>这是一个非常昂贵且资源繁重的功能调用</u>**
 2.  **<u>不可移植</u>** :使用 system()使程序非常不可移植，也就是说这只能在系统级有暂停命令的系统上工作，比如 DOS 或者 Windows。但不是 Linux、MAC OSX 和大多数其他系统。
 
-让我们用一个简单的 C++代码，用**系统(“暂停”)**输出 Hello World:
+让我们用一个简单的 C++ 代码，用**系统(“暂停”)**输出 Hello World:
 
 ```cpp
 // A C++ program that pauses screen at the end in Windows OS
@@ -84,7 +84,7 @@ Press any key to continue…
 *   操作系统发现暂停并分配内存来执行命令。
 *   然后，它释放内存，退出操作系统并恢复程序。
 
-除了使用系统(“暂停”)，我们还可以使用在 C/C++中本地定义的函数。
+除了使用系统(“暂停”)，我们还可以使用在 C/C++ 中本地定义的函数。
 
 让我们举一个简单的例子，用 cin.get()输出 Hello World:
 

@@ -1,4 +1,4 @@
-# wcstok()函数在 C++中用示例
+# wcstok()函数在 C++ 中用示例
 
 > 原文:[https://www . geeksforgeeks . org/wcstok-function-in-c-with-example/](https://www.geeksforgeeks.org/wcstok-function-in-c-with-example/)
 

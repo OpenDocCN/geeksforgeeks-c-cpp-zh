@@ -1,8 +1,8 @@
-# 使用 C++中的 std::map 函数在地图中搜索
+# 使用 C++ 中的 std::map 函数在地图中搜索
 
 > 原文:[https://www . geesforgeks . org/search-map-use-stdmap-functions-c/](https://www.geeksforgeeks.org/searching-map-using-stdmap-functions-c/)
 
-通常，使用[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/) stl 容器的主要目的是为了**高效的搜索操作和排序顺序检索**。由于地图存储键值对，所有搜索操作都需要“ **O(log(n))** ”时间(n 是地图的大小)。C++语言中存在不同类型的搜索函数，每种函数都有不同的功能。在竞争性编程的环境中，当需要搜索操作并且性能优于其他容器时，这将非常有用。下面讨论一些搜索操作。
+通常，使用[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/) stl 容器的主要目的是为了**高效的搜索操作和排序顺序检索**。由于地图存储键值对，所有搜索操作都需要“ **O(log(n))** ”时间(n 是地图的大小)。C++ 语言中存在不同类型的搜索函数，每种函数都有不同的功能。在竞争性编程的环境中，当需要搜索操作并且性能优于其他容器时，这将非常有用。下面讨论一些搜索操作。
 
 **std::map::find()**
 

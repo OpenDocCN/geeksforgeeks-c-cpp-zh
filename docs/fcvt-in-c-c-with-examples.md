@@ -1,4 +1,4 @@
-# C/c++中的 fcvt()，示例
+# C/c++ 中的 fcvt()，示例
 
 > 原文:[https://www.geeksforgeeks.org/fcvt-in-c-c-with-examples/](https://www.geeksforgeeks.org/fcvt-in-c-c-with-examples/)
 

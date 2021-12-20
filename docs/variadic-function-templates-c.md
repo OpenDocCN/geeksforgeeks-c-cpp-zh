@@ -1,10 +1,10 @@
-# c++中的变量函数模板
+# c++ 中的变量函数模板
 
 > 原文:[https://www . geesforgeks . org/variadic-function-templates-c/](https://www.geeksforgeeks.org/variadic-function-templates-c/)
 
-变量模板是类或函数[模板](https://www.geeksforgeeks.org/templates-cpp/)，可以接受任何变量(零或更多)数量的参数。在 C++中，模板只能有固定数量的参数，这些参数必须在声明时指定。然而，可变模板有助于克服这个问题。道格拉斯·格雷戈尔和 Jaakko jrvi 为 C++想出了这个特性。
+变量模板是类或函数[模板](https://www.geeksforgeeks.org/templates-cpp/)，可以接受任何变量(零或更多)数量的参数。在 C++ 中，模板只能有固定数量的参数，这些参数必须在声明时指定。然而，可变模板有助于克服这个问题。道格拉斯·格雷戈尔和 Jaakko jrvi 为 C++ 想出了这个特性。
 
-变量参数非常类似于 C++中的[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)。我们可以轻松地遍历参数，找到模板的大小(长度)，可以通过索引访问值，也可以对模板进行切片。
+变量参数非常类似于 C++ 中的[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)。我们可以轻松地遍历参数，找到模板的大小(长度)，可以通过索引访问值，也可以对模板进行切片。
 
 所以基本上，变量函数模板是可以接受多个参数的函数。
 
@@ -17,7 +17,7 @@
 
 > **注意:**参数必须放在尖括号内。
 
-下面是 C++中的一个例子来展示我们如何使用变量函数模板:
+下面是 C++ 中的一个例子来展示我们如何使用变量函数模板:
 
 ## CPP
 

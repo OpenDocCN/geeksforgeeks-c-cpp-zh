@@ -1,4 +1,4 @@
-# c++中的列表|集合 2(一些有用的函数)
+# c++ 中的列表|集合 2(一些有用的函数)
 
 > 原文:[https://www . geesforgeks . org/list-in-c-set-2-某些有用的函数/](https://www.geeksforgeeks.org/list-in-c-set-2-some-useful-functions/)
 

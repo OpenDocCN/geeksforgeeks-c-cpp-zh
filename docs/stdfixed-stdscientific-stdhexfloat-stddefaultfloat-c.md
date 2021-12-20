@@ -1,8 +1,8 @@
-# std::fixed，std::scientific，std::hexfloat，std::defaultfloat 在 C++中
+# std::fixed，std::scientific，std::hexfloat，std::defaultfloat 在 C++ 中
 
 > 原文:[https://www . geesforgeks . org/STD fixed-stdscientific-stdhexfloat-stddefaultfloat-c/](https://www.geeksforgeeks.org/stdfixed-stdscientific-stdhexfloat-stddefaultfloat-c/)
 
-标准 C++库中的格式化是通过使用放置在输出流上的操纵器、特殊变量或对象来完成的。浮点操纵器有两种类型，即固定浮点和科学浮点。这些都在表头 **< iostream >** 中定义。
+标准 C++ 库中的格式化是通过使用放置在输出流上的操纵器、特殊变量或对象来完成的。浮点操纵器有两种类型，即固定浮点和科学浮点。这些都在表头 **< iostream >** 中定义。
 
 **Use of precision :** 
 

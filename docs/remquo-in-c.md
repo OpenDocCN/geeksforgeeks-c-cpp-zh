@@ -1,4 +1,4 @@
-# c++中的 remquo()
+# c++ 中的 remquo()
 
 > 原文:[https://www.geeksforgeeks.org/remquo-in-c/](https://www.geeksforgeeks.org/remquo-in-c/)
 

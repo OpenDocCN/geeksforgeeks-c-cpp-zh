@@ -1,8 +1,8 @@
-# c++中的用户定义文字
+# c++ 中的用户定义文字
 
 > 原文:[https://www.geeksforgeeks.org/user-defined-literals-cpp/](https://www.geeksforgeeks.org/user-defined-literals-cpp/)
 
-**U** ser **D** 定义的**L**ITER(**UDL**)是从 C++11 用 C++添加的。尽管 C++为各种内置类型提供了文本，但这些类型是有限的。
+**U** ser **D** 定义的**L**ITER(**UDL**)是从 C++ 11 用 C++ 添加的。尽管 C++ 为各种内置类型提供了文本，但这些类型是有限的。
 
 **内置类型的文字示例:**
 

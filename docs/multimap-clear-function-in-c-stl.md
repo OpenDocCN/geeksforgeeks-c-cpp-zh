@@ -11,7 +11,7 @@ mymultimap_name.clear()
 
 **参数**:该函数不接受任何参数。
 **返回值**:这个函数不返回任何东西。函数的返回类型是 void。它只是清空了整个容器。
-下面的程序说明了 C++中的 multimap::clear()函数:
+下面的程序说明了 C++ 中的 multimap::clear()函数:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

@@ -1,4 +1,4 @@
-# STD::is _ copy _ 可在 C++中构造，示例
+# STD::is _ copy _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ copy _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_copy_constructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_copy_constructible>class T> ::value
 *   **true:** If the type **t** is replicable.
 *   **false:** If the type **t** is not replicable. /li >
 
-下面的程序说明了 C/C++中的标准::is _ copy _ constructiblev 模板:
+下面的程序说明了 C/C++ 中的标准::is _ copy _ constructiblev 模板:
 
 **程序:**
 

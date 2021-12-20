@@ -4,14 +4,14 @@
 
 [列表](https://www.geeksforgeeks.org/list-cpp-stl/)是允许非连续内存分配的序列容器。与向量相比，列表遍历速度慢，但是一旦找到位置，插入和删除就很快。通常，当我们说一个列表时，我们说的是双链表。为了实现单链表，我们使用正向链表。
 
-在 C++中，可以借助构造函数创建一个列表。做这件事的语法是:
+在 C++ 中，可以借助构造函数创建一个列表。做这件事的语法是:
 **语法:**
 
 ```cpp
 list<type> list_name(size_of_list, value_to_be_inserted);
 ```
 
-下面的程序展示了如何在 C++中用构造函数创建一个列表。
+下面的程序展示了如何在 C++ 中用构造函数创建一个列表。
 
 **程序 1:**
 
@@ -28,7 +28,7 @@ void printList(list<int> mylist)
     list<int>::iterator it;
 
     // printing all the elements of the list
-    for (it = mylist.begin(); it != mylist.end(); ++it)
+    for (it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 }
@@ -66,7 +66,7 @@ void printList(list<string> mylist)
     list<string>::iterator it;
 
     // printing all the elements of the list
-    for (it = mylist.begin(); it != mylist.end(); ++it)
+    for (it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 }

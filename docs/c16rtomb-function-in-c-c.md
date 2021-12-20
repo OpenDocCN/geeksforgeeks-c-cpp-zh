@@ -1,8 +1,8 @@
-# C/c++中的 c16rtomb()函数
+# C/c++ 中的 c16rtomb()函数
 
 > 原文:[https://www.geeksforgeeks.org/c16rtomb-function-in-c-c/](https://www.geeksforgeeks.org/c16rtomb-function-in-c-c/)
 
-**c16rtomb()** 是 C/C++中的内置函数，它将 16 位字符表示转换为窄多字节字符表示。在 C++的 **uchar.h** 头文件中定义。
+**c16rtomb()** 是 C/C++ 中的内置函数，它将 16 位字符表示转换为窄多字节字符表示。在 C++ 的 **uchar.h** 头文件中定义。
 
 **语法** :
 
@@ -45,9 +45,9 @@ int main()
         length = c16rtomb(s, str[j], &p);
         if ((length == 0) || (length > 50))
             break;
-        for (int i = 0; i < length; ++i)
+        for (int i = 0; i < length; ++ i)
             cout << s[i];
-        ++j;
+        ++ j;
     }
 
     return 0;
@@ -84,9 +84,9 @@ int main()
         length = c16rtomb(s, str[j], &p);
         if ((length == 0) || (length > 50))
             break;
-        for (int i = 0; i < length; ++i)
+        for (int i = 0; i < length; ++ i)
             cout << s[i];
-        ++j;
+        ++ j;
     }
 
     return 0;

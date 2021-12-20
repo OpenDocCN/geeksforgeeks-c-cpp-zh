@@ -1,4 +1,4 @@
-# c++中类对结构对并集
+# c++ 中类对结构对并集
 
 > 原文:[https://www . geesforgeks . org/class-vs-structure-vs-union-in-c/](https://www.geeksforgeeks.org/classes-vs-structure-vs-union-in-c/)
 
@@ -25,7 +25,7 @@ class <class_name>
 };
 ```
 
-下面是 C++程序来说明类:
+下面是 C++ 程序来说明类:
 
 ## c++
 

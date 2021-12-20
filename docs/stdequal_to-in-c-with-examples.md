@@ -1,4 +1,4 @@
-# 标准::在 C++中等于 _ 带示例
+# 标准::在 C++ 中等于 _ 带示例
 
 > 原文:[https://www . geesforgeks . org/stdequal _ to-in-c-with-examples/](https://www.geeksforgeeks.org/stdequal_to-in-c-with-examples/)
 
@@ -47,7 +47,7 @@ std::equal_to <int> ()
 *   **真:**如果 a 等于 b。
 *   **假:**如果 a 不等于 b。
 
-下图是 C++中**STD::equal _ to**:
+下图是 C++ 中**STD::equal _ to**:
 **程序 1:**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

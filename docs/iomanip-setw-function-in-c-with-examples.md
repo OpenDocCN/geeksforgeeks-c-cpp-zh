@@ -1,8 +1,8 @@
-# iomanip setw()函数在 C++中的使用示例
+# iomanip setw()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/iomanip-setw-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-setw-function-in-c-with-examples/)
 
-C++中 **iomanip 库**的 **setw()** 方法用于根据指定为该方法参数的宽度设置 ios 库字段宽度。
+C++ 中 **iomanip 库**的 **setw()** 方法用于根据指定为该方法参数的宽度设置 ios 库字段宽度。
 
 **语法:**
 

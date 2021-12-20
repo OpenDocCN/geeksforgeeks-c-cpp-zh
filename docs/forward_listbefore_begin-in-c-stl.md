@@ -37,7 +37,7 @@ int main()
     cout << "Element of the list are:" << endl;
 
     // loop to print the elements of the list
-    for (auto it = fl.begin(); it != fl.end(); ++it)
+    for (auto it = fl.begin(); it != fl.end(); ++ it)
         cout << *it << " ";
 
     return 0;

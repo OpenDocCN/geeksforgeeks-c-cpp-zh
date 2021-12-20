@@ -32,17 +32,17 @@ void modify(struct ArrayWrapper temp)
 
     // Display array contents
     printf("In 'modify()', before modification\n");
-    for (i = 0; i < SIZE; ++i)
+    for (i = 0; i < SIZE; ++ i)
         printf("%d ", ptr[i]);
 
     printf("\n");
 
     // Modify the array
-    for (i = 0; i < SIZE; ++i)
+    for (i = 0; i < SIZE; ++ i)
         ptr[i] = 100; // OR *(ptr + i)
 
     printf("\nIn 'modify()', after modification\n");
-    for (i = 0; i < SIZE; ++i)
+    for (i = 0; i < SIZE; ++ i)
         printf("%d ", ptr[i]); // OR *(ptr + i)
 }
 
@@ -58,7 +58,7 @@ int main()
 
     // Display array contents
     printf("\n\nIn 'Main', after calling modify() \n");
-    for (i = 0; i < SIZE; ++i)
+    for (i = 0; i < SIZE; ++ i)
         printf("%d ", obj.arr[i]); // Not changed
 
     printf("\n");

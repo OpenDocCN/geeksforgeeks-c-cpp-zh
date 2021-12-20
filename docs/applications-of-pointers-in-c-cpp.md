@@ -1,8 +1,8 @@
-# 指针在 C/C++中的应用
+# 指针在 C/C++ 中的应用
 
 > 原文:[https://www . geesforgeks . org/applications-of-pointers-in-c-CPP/](https://www.geeksforgeeks.org/applications-of-pointers-in-c-cpp/)
 
-前提条件:[C/c++中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)，[C 程序的内存布局](https://www.geeksforgeeks.org/memory-layout-of-c-program/)。
+前提条件:[C/c++ 中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)，[C 程序的内存布局](https://www.geeksforgeeks.org/memory-layout-of-c-program/)。
 
 *   **通过引用传递参数**。通过引用传递有两个目的
 
@@ -226,5 +226,5 @@ int main()
 ```
 
 *   **实现数据结构。**
-    例[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)[树](https://www.geeksforgeeks.org/binary-tree-data-structure/)等。我们不能使用 [C++引用](https://www.geeksforgeeks.org/references-in-c/)来实现这些数据结构，因为引用固定在一个位置(例如，我们不能使用引用遍历链表)
-*   **在内存地址有用的地方进行系统级编程**。例如多线程使用的共享内存。更多示例参见[通过共享内存](https://www.geeksforgeeks.org/ipc-shared-memory/)、[C/c++](https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/)中的 Socket 编程等
+    例[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)[树](https://www.geeksforgeeks.org/binary-tree-data-structure/)等。我们不能使用 [C++ 引用](https://www.geeksforgeeks.org/references-in-c/)来实现这些数据结构，因为引用固定在一个位置(例如，我们不能使用引用遍历链表)
+*   **在内存地址有用的地方进行系统级编程**。例如多线程使用的共享内存。更多示例参见[通过共享内存](https://www.geeksforgeeks.org/ipc-shared-memory/)、[C/c++ ](https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/)中的 Socket 编程等

@@ -1,8 +1,8 @@
-# c++中的 strchr()函数及其应用
+# c++ 中的 strchr()函数及其应用
 
 > 原文:[https://www . geesforgeks . org/strchr-function-c-applications/](https://www.geeksforgeeks.org/strchr-function-c-applications/)
 
-在 C++中，strchr()是一个预定义的函数，用于查找字符串中出现的字符。它存在于 cstring 头文件中。
+在 C++ 中，strchr()是一个预定义的函数，用于查找字符串中出现的字符。它存在于 cstring 头文件中。
 
 **语法**
 
@@ -14,7 +14,7 @@ char *strchr(const char *str, int c)
 
 请注意，c 是作为其 int 提升传递的，但它在内部被视为 char。
 **应用程序**
-在 c++中给定一个字符串，我们需要找到一个字符的第一次出现，比如说‘a’。
+在 c++ 中给定一个字符串，我们需要找到一个字符的第一次出现，比如说‘a’。
 
 **示例:**
 

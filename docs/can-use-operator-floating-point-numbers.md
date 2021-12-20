@@ -4,7 +4,7 @@
 
 预测以下程序的输出:
 
-**c++中%可以和浮点数一起使用吗？**
+**c++ 中%可以和浮点数一起使用吗？**
 
 ```cpp
 #include <iostream>
@@ -25,7 +25,7 @@ invalid operands of types 'float' and 'float'
 to binary 'operator%' 
 ```
 
-%运算符不能与 C & C++中的浮点数一起使用。
+%运算符不能与 C & C++ 中的浮点数一起使用。
 
 **那么 Java 和 C#呢？**
 这个行为在 Java & C#中是不一样的。%运算符可用于这些语言中的浮点数。

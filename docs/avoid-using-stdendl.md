@@ -21,7 +21,7 @@
 直接向流中写入“\n”字符更有效，因为它不会像 std::endl 那样强制刷新。
 
 **性能影响演示**
-下面的 C++程序演示了 std::endl 的性能影响。我们使用 std::endl 将 100000 个字符串写入两个文件，然后再次使用' \n '。在每种情况下，我们都会测量执行时间并打印这些时间
+下面的 C++ 程序演示了 std::endl 的性能影响。我们使用 std::endl 将 100000 个字符串写入两个文件，然后再次使用' \n '。在每种情况下，我们都会测量执行时间并打印这些时间
 
 ```cpp
 #include <iostream>
@@ -80,4 +80,4 @@ Writing to file using \n took 1533 microseconds
 从输出中可以看出，std::endl 花费了将近两倍的时间。在某些系统上，性能影响可能会更糟。请注意，可以保证 std::endl 将比直接向流中打印“\n”花费更多的时间。
 
 参考资料:
-[C++周刊–第 7 集](https://www.youtube.com/watch?v=GMqQOEZYVJQ)
+[C++ 周刊–第 7 集](https://www.youtube.com/watch?v=GMqQOEZYVJQ)

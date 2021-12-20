@@ -1,4 +1,4 @@
-# C/c++中的 Socket 编程:在没有多线程的情况下处理服务器上的多个客户端
+# C/c++ 中的 Socket 编程:在没有多线程的情况下处理服务器上的多个客户端
 
 > 原文:[https://www . geesforgeks . org/socket-programming-in-cc-handling-多客户端-服务器-无多线程/](https://www.geeksforgeeks.org/socket-programming-in-cc-handling-multiple-clients-on-server-without-multi-threading/)
 

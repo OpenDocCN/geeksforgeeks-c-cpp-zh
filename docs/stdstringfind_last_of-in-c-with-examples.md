@@ -1,4 +1,4 @@
-# std::string::find_last_of 在 C++中带有示例
+# std::string::find_last_of 在 C++ 中带有示例
 
 > 原文:[https://www . geesforgeks . org/stdstringfind _ last _ in-c-with-examples/](https://www.geeksforgeeks.org/stdstringfind_last_of-in-c-with-examples/)
 

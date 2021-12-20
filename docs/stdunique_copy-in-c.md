@@ -1,4 +1,4 @@
-# std::unique_copy 在 C++中
+# std::unique_copy 在 C++ 中
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdunique _ copy-in-c/
 
@@ -52,14 +52,14 @@ int main()
     v1.resize(std::distance(v1.begin(), ip));
 
     cout << "Before: ";
-    for (ip = v.begin(); ip != v.end(); ++ip) 
+    for (ip = v.begin(); ip != v.end(); ++ ip) 
     {
         cout << *ip << " ";
     }
 
     // Displaying the vector after applying std::unique_copy
     cout << "\nAfter: ";
-    for (ip = v1.begin(); ip != v1.end(); ++ip) 
+    for (ip = v1.begin(); ip != v1.end(); ++ ip) 
     {
         cout << *ip << " ";
     }
@@ -178,13 +178,13 @@ After: 10 30 100 10 30 70 80
             // Displaying the vector v and v1 after applying std::unique
             cout << "v = ";
 
-            for (ip = v.begin(); ip != v.end(); ++ip) 
+            for (ip = v.begin(); ip != v.end(); ++ ip) 
             {
                 cout << *ip << " ";
             }
 
             cout << "\nv1 = ";
-            for (ip = v1.begin(); ip != v1.end(); ++ip) 
+            for (ip = v1.begin(); ip != v1.end(); ++ ip) 
             {
                 cout << *ip << " ";
             }

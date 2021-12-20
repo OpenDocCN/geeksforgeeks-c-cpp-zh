@@ -1,4 +1,4 @@
-# c++中元组向量的排序(降序)
+# c++ 中元组向量的排序(降序)
 
 > 原文:[https://www . geesforgeks . org/sorting-vector-tuple-c-降序/](https://www.geeksforgeeks.org/sorting-vector-tuple-c-descending-order/)
 

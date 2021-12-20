@@ -1,4 +1,4 @@
-# exp()函数用于 C++中的复数
+# exp()函数用于 C++ 中的复数
 
 > 原文:[https://www . geesforgeks . org/exp-function-for-complex-number-in-c/](https://www.geeksforgeeks.org/exp-function-for-complex-number-in-c/)
 
@@ -16,7 +16,7 @@ template<class T> complex<T>
 
 **返回值:**该函数返回复数 z 的**基数-e 指数**
 
-下面的程序说明了 C++中的 exp()函数:
+下面的程序说明了 C++ 中的 exp()函数:
 
 **实施例 1:-**
 

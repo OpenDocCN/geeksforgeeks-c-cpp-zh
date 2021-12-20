@@ -1,4 +1,4 @@
-# C/c++中常用的字符串函数并举例
+# C/c++ 中常用的字符串函数并举例
 
 > 原文:[https://www . geesforgeks . org/常用字符串-函数-in-c-c-with-examples/](https://www.geeksforgeeks.org/commonly-used-string-functions-in-c-c-with-examples/)
 
@@ -36,7 +36,7 @@ int main()
 This is an example
 ```
 
-*   [**strchr**](https://www.geeksforgeeks.org/strrchr-function-in-cpp/):在 C/C++中，strchr()是一个预定义的用于字符串处理的函数。cstring 是字符串函数所需的头文件。
+*   [**strchr**](https://www.geeksforgeeks.org/strrchr-function-in-cpp/):在 C/C++ 中，strchr()是一个预定义的用于字符串处理的函数。cstring 是字符串函数所需的头文件。
     这个函数返回一个指向字符串中最后一个字符的指针。
     我们要查找的最后一次出现的字符作为第二个参数传递给函数，我们要查找的字符串作为第一个参数传递给函数。
     **语法**
@@ -144,7 +144,7 @@ int strcmp(const char *leftStr, const char *rightStr );
     *   strcmp()按字典顺序比较**两个字符串**表示它从第一个字符开始逐字符比较，直到两个字符串中的字符相等或遇到空字符。
     *   如果两个字符串中的第一个字符相等，那么这个函数将检查第二个字符，如果这个字符也相等，那么它将检查第三个字符，以此类推
     *   这一过程将继续，直到任一字符串中的字符为空或字符不相等。
-*   [**strcpy**](https://www.geeksforgeeks.org/strcpy-in-c-cpp/) : strcpy()是 C/C++中的标准库函数，用于将一个字符串复制到另一个字符串。在 C 语言中，它存在于 **string.h** 头文件中，在 C++中，它存在于 **cstring** 头文件中。
+*   [**strcpy**](https://www.geeksforgeeks.org/strcpy-in-c-cpp/) : strcpy()是 C/C++ 中的标准库函数，用于将一个字符串复制到另一个字符串。在 C 语言中，它存在于 **string.h** 头文件中，在 C++ 中，它存在于 **cstring** 头文件中。
     **语法:**
 
 ```cpp
@@ -165,7 +165,7 @@ int strlen(const char *str);
 
 *   **参数:**
     *   **str:** 它代表我们必须找到其长度的字符串变量。
-*   [**strncat**](https://www.geeksforgeeks.org/strncat-function-in-c-cpp/) :在 C/C++中，strncat()是一个预定义的用于字符串处理的函数。 **string.h** 是字符串函数需要的头文件。
+*   [**strncat**](https://www.geeksforgeeks.org/strncat-function-in-c-cpp/) :在 C/C++ 中，strncat()是一个预定义的用于字符串处理的函数。 **string.h** 是字符串函数需要的头文件。
     该函数将 src 指向的字符串中不超过 **n 个**字符追加到 dest 指向的字符串末尾，并加上一个终止的空字符。字符串的初始字符(src)会覆盖字符串(dest)末尾的空字符。因此，字符串(dest)的长度变为 strlen(dest)+n。但是，如果字符串(src)的长度小于 **n** ，则仅复制直到终止空字符的内容，并且字符串(dest)的长度变为 strlen(src) + strlen(dest)。
     在以下情况下，行为未定义
     *   琴弦重叠了。
@@ -189,7 +189,7 @@ char *strncpy( char *dest, const char *src, size_t n )
     *   **src:** 将要复制的字符串。
     *   **dest:** 指向要复制内容的目标数组的指针。
     *   **n:** 从 src 复制到 dest 的前 n 个字符。
-*   [**str chr**](https://www.geeksforgeeks.org/strrchr-function-in-c-c/):C/c++中的**str chr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
+*   [**str chr**](https://www.geeksforgeeks.org/strrchr-function-in-c-c/):C/c++ 中的**str chr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
     **语法:**
 
 ```cpp

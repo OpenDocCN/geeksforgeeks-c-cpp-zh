@@ -1,4 +1,4 @@
-# 函数在 C 或 C++中的地址
+# 函数在 C 或 C++ 中的地址
 
 > 原文:[https://www.geeksforgeeks.org/address-function-c-cpp/](https://www.geeksforgeeks.org/address-function-c-cpp/)
 
@@ -7,7 +7,7 @@
 函数 main()的地址为 004113C0
 函数 funct()的地址为 00411104
 
-在 C/C++中，函数的名字可以用来查找函数的地址。
+在 C/C++ 中，函数的名字可以用来查找函数的地址。
 
 ```cpp
 // C program to addresses of a functions

@@ -1,8 +1,8 @@
-# 在 C/C++中访问数组越界
+# 在 C/C++ 中访问数组越界
 
 > 原文:[https://www.geeksforgeeks.org/accessing-array-bounds-ccpp/](https://www.geeksforgeeks.org/accessing-array-bounds-ccpp/)
 
-额外条件:[C/c++中的数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)
+额外条件:[C/c++ 中的数组](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)
 
 在高级语言如 Java 中，有一些函数通过生成一个异常如 Java . lang . arrayindexoutofboundsexception 来防止你访问数组越界，但是在 C 语言中，没有这样的功能，所以程序员需要处理这种情况。
 
@@ -66,7 +66,7 @@
 **要点:**
 
 *   在 C 编程中，当使用数组时，保持在数组的边界内，以避免任何这样的错误。
-*   然而，C++提供了 [std::vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/) 类模板，它不需要执行边界检查。向量也有[标准::at()](https://www.geeksforgeeks.org/stdbasic_stringat/) 成员函数，可以执行边界检查。
+*   然而，C++ 提供了 [std::vector](https://www.geeksforgeeks.org/vector-in-cpp-stl/) 类模板，它不需要执行边界检查。向量也有[标准::at()](https://www.geeksforgeeks.org/stdbasic_stringat/) 成员函数，可以执行边界检查。
 
 本文由 **[曼德普·辛格](https://github.com/msdeep14)** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

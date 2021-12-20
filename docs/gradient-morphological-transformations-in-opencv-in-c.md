@@ -1,4 +1,4 @@
-# c++中 OpenCV 的渐变|形态变换
+# c++ 中 OpenCV 的渐变|形态变换
 
 > 原文:[https://www . geesforgeks . org/gradient-形态学-transformations-in-opencv-in-c/](https://www.geeksforgeeks.org/gradient-morphological-transformations-in-opencv-in-c/)
 
@@ -27,7 +27,7 @@
 
 > ![{\displaystyle G(f)=f\oplus b-f\ominus b}](img/3060764a6e91e247e67b028d8af97337.png "Rendered by QuickLaTeX.com")
 
-下面是演示渐变形态操作的 C++程序:
+下面是演示渐变形态操作的 C++ 程序:
 
 ## C++
 

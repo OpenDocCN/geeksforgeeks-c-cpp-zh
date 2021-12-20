@@ -1,8 +1,8 @@
-# c++中 ratio_less()函数
+# c++ 中 ratio_less()函数
 
 > 原文:[https://www.geeksforgeeks.org/ratio_less-function-in-c/](https://www.geeksforgeeks.org/ratio_less-function-in-c/)
 
-**比率 _less()** 是 C++中的一个内置函数，它检查比率 R1 是否小于比率 R2。如果比率小于比率 2，则返回真，否则返回假。
+**比率 _less()** 是 C++ 中的一个内置函数，它检查比率 R1 是否小于比率 R2。如果比率小于比率 2，则返回真，否则返回假。
 
 **语法:**
 

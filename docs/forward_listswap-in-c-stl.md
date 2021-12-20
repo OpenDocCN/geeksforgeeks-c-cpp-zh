@@ -41,11 +41,11 @@ int main()
     // printing elements before the swap operation
     // for firstlist and secondlist
     cout << "Before swap operation firstlist was: ";
-    for (auto it = firstlist.begin(); it != firstlist.end(); ++it)
+    for (auto it = firstlist.begin(); it != firstlist.end(); ++ it)
         cout << *it << " ";
 
     cout << "\nBefore swap operation secondlist was: ";
-    for (auto it = secondlist.begin(); it != secondlist.end(); ++it)
+    for (auto it = secondlist.begin(); it != secondlist.end(); ++ it)
         cout << *it << " ";
 
     // swap operation on two lists
@@ -55,10 +55,10 @@ int main()
     // for forward1 and secondlist
     cout << "\n\nAfter swap operation firstlist is: ";
 
-    for (auto it = firstlist.begin(); it != firstlist.end(); ++it)
+    for (auto it = firstlist.begin(); it != firstlist.end(); ++ it)
         cout << *it << " ";
     cout << "\nAfter swap operation secondlist is:";
-    for (auto it = secondlist.begin(); it != secondlist.end(); ++it)
+    for (auto it = secondlist.begin(); it != secondlist.end(); ++ it)
         cout << *it << " ";
     return 0;
 }
@@ -94,11 +94,11 @@ int main()
     // printing elements before the swap operation
     // for firstlist and secondlist
     cout << "Before swap operation firstlist was: ";
-    for (auto it = firstlist.begin(); it != firstlist.end(); ++it)
+    for (auto it = firstlist.begin(); it != firstlist.end(); ++ it)
         cout << *it << " ";
 
     cout << "\nBefore swap operation secondlist was: ";
-    for (auto it = secondlist.begin(); it != secondlist.end(); ++it)
+    for (auto it = secondlist.begin(); it != secondlist.end(); ++ it)
         cout << *it << " ";
 
     // swap operation on two lists
@@ -108,10 +108,10 @@ int main()
     // for forward1 and secondlist
     cout << "\n\nAfter swap operation firstlist is: ";
 
-    for (auto it = firstlist.begin(); it != firstlist.end(); ++it)
+    for (auto it = firstlist.begin(); it != firstlist.end(); ++ it)
         cout << *it << " ";
     cout << "\nAfter swap operation secondlist is:";
-    for (auto it = secondlist.begin(); it != secondlist.end(); ++it)
+    for (auto it = secondlist.begin(); it != secondlist.end(); ++ it)
         cout << *it << " ";
     return 0;
 }

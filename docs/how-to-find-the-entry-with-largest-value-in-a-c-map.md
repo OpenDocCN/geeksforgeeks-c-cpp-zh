@@ -1,4 +1,4 @@
-# 如何在 C++图中找到值最大的条目
+# 如何在 C++ 图中找到值最大的条目
 
 > 原文:[https://www . geesforgeks . org/如何找到 c-a-c-map 中价值最大的条目/](https://www.geeksforgeeks.org/how-to-find-the-entry-with-largest-value-in-a-c-map/)
 
@@ -23,7 +23,7 @@ Output: 3 = 60
     map::iterator itr;
     for (itr = some_map.begin();
          itr != some_map.end();
-         ++itr) 
+         ++ itr) 
     {
         // operations
     } 
@@ -51,7 +51,7 @@ void printMap(map<int, int> sampleMap)
     map<int, int>::iterator itr;
     for (itr = sampleMap.begin();
          itr != sampleMap.end();
-         ++itr) {
+         ++ itr) {
         cout << itr->first
              << " = " << itr->second << ", ";
     }
@@ -73,7 +73,7 @@ pair<int, int> findEntryWithLargestValue(
     map<int, int>::iterator currentEntry;
     for (currentEntry = sampleMap.begin();
          currentEntry != sampleMap.end();
-         ++currentEntry) {
+         ++ currentEntry) {
 
         // If this entry's value is more
         // than the max value

@@ -1,4 +1,4 @@
-# 在 C++中将函数作为参数传递
+# 在 C++ 中将函数作为参数传递
 
 > 原文:[https://www . geesforgeks . org/passing-a-function-as-a-parameter-in-CPP/](https://www.geeksforgeeks.org/passing-a-function-as-a-parameter-in-cpp/)
 
@@ -10,11 +10,11 @@
 > 
 > **}**
 
-传递函数作为[参数](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/)在 [C/C++](https://www.geeksforgeeks.org/difference-between-c-and-c/) 中是一个有用的概念。在[**【STD::sort()**](https://www.geeksforgeeks.org/sort-c-stl/)**中传递自定义[比较器函数](https://www.geeksforgeeks.org/comparator-class-in-c-with-examples/)作为参数，根据需要对一系列[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)进行排序时，已经使用了这个概念。在本文中，我们将讨论设计接受另一个函数作为参数的函数的不同方法。**
+传递函数作为[参数](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/)在 [C/C++ ](https://www.geeksforgeeks.org/difference-between-c-and-c/) 中是一个有用的概念。在[**【STD::sort()**](https://www.geeksforgeeks.org/sort-c-stl/)**中传递自定义[比较器函数](https://www.geeksforgeeks.org/comparator-class-in-c-with-examples/)作为参数，根据需要对一系列[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)进行排序时，已经使用了这个概念。在本文中，我们将讨论设计接受另一个函数作为参数的函数的不同方法。**
 
 ****<u>将</u>** [**<u>指针</u>**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) **<u>转到一个功能</u> :****
 
-**一个函数也可以通过将其地址传递给另一个函数来传递给该函数。下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)来说明同样的情况:**
+**一个函数也可以通过将其地址传递给另一个函数来传递给该函数。下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)来说明同样的情况:**
 
 ## **C++**
 
@@ -141,7 +141,7 @@ Multiplication of 20 and 10 is 200
 
 ****<u>使用兰姆达斯</u> :****
 
-**C++中的 [Lambdas](https://www.geeksforgeeks.org/lambda-expression-in-c/) 提供了一种定义内联、一次性、匿名函数对象的方法。这些 lambdas 可以在需要传递函数作为参数的地方定义。下面是 C++程序来说明同样的情况:**
+**C++ 中的 [Lambdas](https://www.geeksforgeeks.org/lambda-expression-in-c/) 提供了一种定义内联、一次性、匿名函数对象的方法。这些 lambdas 可以在需要传递函数作为参数的地方定义。下面是 C++ 程序来说明同样的情况:**
 
 ## **C++**
 

@@ -1,8 +1,8 @@
-# ios 操纵器 noshowbase()函数在 C++中
+# ios 操纵器 noshowbase()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-noshowbase-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-noshowbase-function-in-c/)
 
-C++中**流操纵器**的 **noshowbase()** 方法用于清除指定字符串流的 showbase 格式标志。此标志仅显示十进制的 nitegers。
+C++ 中**流操纵器**的 **noshowbase()** 方法用于清除指定字符串流的 showbase 格式标志。此标志仅显示十进制的 nitegers。
 
 **语法:**
 

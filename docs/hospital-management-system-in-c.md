@@ -1,8 +1,8 @@
-# c++中的医院管理系统
+# c++ 中的医院管理系统
 
 > 原文:[https://www . geesforgeks . org/hospital-management-system-in-c/](https://www.geeksforgeeks.org/hospital-management-system-in-c/)
 
-本文讨论了一个管理医院管理系统的 C++程序。给定带有医院名称、联系人、医生和患者的医院数据，以下是需要实现的功能:
+本文讨论了一个管理医院管理系统的 C++ 程序。给定带有医院名称、联系人、医生和患者的医院数据，以下是需要实现的功能:
 
 **支持的功能:**
 

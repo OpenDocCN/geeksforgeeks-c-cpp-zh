@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/dos-c-support-function-overloading/](https://www.geeksforgeeks.org/does-c-support-function-overloading/)
 
 首先，什么是函数重载？函数重载是编程语言的一个特性，它允许一个程序有许多同名但不同签名的函数。
-这个特性存在于大多数面向对象语言中，比如 C++和 Java。但是 C 不支持这个特性不是因为 OOP，而是因为编译器不支持(除了你可以使用 _Generic)。然而，人们可以间接地在 C 语言中实现类似的功能。其中一种方法如下。
+这个特性存在于大多数面向对象语言中，比如 C++ 和 Java。但是 C 不支持这个特性不是因为 OOP，而是因为编译器不支持(除了你可以使用 _Generic)。然而，人们可以间接地在 C 语言中实现类似的功能。其中一种方法如下。
 有一个 void *类型的指针作为函数的参数。另一个参数告诉正在传递的第一个参数的实际数据类型。
 
 ```cpp

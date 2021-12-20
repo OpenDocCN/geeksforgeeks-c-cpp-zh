@@ -16,7 +16,7 @@ set_name.max_size()
 
 下面的程序说明了上面的功能:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // CPP program to demonstrate the

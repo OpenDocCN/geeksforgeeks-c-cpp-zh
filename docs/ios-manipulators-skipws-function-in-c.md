@@ -1,8 +1,8 @@
-# ios 操纵器 skipws()函数在 C++中
+# ios 操纵器 skipws()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-skipws-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-skipws-function-in-c/)
 
-C++中**流操纵器**的 **skipws()** 方法用于设置指定字符串流的 skipws 格式标志。此标志跳过输入流中第一个非空白字符之前的空白。
+C++ 中**流操纵器**的 **skipws()** 方法用于设置指定字符串流的 skipws 格式标志。此标志跳过输入流中第一个非空白字符之前的空白。
 
 **语法:**
 

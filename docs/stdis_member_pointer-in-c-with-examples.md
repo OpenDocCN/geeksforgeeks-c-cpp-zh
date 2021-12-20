@@ -1,4 +1,4 @@
-# std::is_member_pointer 用 C++举例
+# std::is_member_pointer 用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stdis _ member _ pointer-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_member_pointer-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::is_member_pointer::value
 *   True: if the type **t** is a pointer to a non-static member.
 *   True: if the type **t** is not a pointer to a non-static member.
 
-下面是用 C/C++说明**标准::is_member_pointer 模板**的程序:
+下面是用 C/C++ 说明**标准::is_member_pointer 模板**的程序:
 
 **程序:**
 

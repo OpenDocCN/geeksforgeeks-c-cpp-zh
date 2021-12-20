@@ -1,4 +1,4 @@
-# std::string::front()用 c++举例
+# std::string::front()用 c++ 举例
 
 > 原文:[https://www . geeksforgeeks . org/stdstringfront-in-cwith-examples/](https://www.geeksforgeeks.org/stdstringfront-in-cwith-examples/)
 

@@ -1,8 +1,8 @@
-# 如何用 C++中的 STL 找到两个 Vector 之间的公共元素？
+# 如何用 C++ 中的 STL 找到两个 Vector 之间的公共元素？
 
 > 原文:[https://www . geesforgeks . org/如何使用-stl-in-c/](https://www.geeksforgeeks.org/how-to-find-common-elements-between-two-vector-using-stl-in-c/) 在两个向量之间查找公共元素
 
-给定两个向量，用 C++中的 STL 找到这两个向量之间的公共元素。
+给定两个向量，用 C++ 中的 STL 找到这两个向量之间的公共元素。
 
 **示例:**
 
@@ -70,7 +70,7 @@ int main()
                           v.begin());
 
     cout << "\nCommon elements:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << *st << ", ";
     cout << '\n';
 

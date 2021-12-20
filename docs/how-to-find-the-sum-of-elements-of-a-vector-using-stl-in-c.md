@@ -1,8 +1,8 @@
-# 如何用 C++中的 STL 求一个向量的元素之和？
+# 如何用 C++ 中的 STL 求一个向量的元素之和？
 
 > 原文:[https://www . geesforgeks . org/如何使用 c-in-STL 找到向量元素的和/](https://www.geeksforgeeks.org/how-to-find-the-sum-of-elements-of-a-vector-using-stl-in-c/)
 
-给定一个向量，用 C++中的 STL 求出这个向量的元素之和。
+给定一个向量，用 C++ 中的 STL 求出这个向量的元素之和。
 **例:**
 
 ```cpp

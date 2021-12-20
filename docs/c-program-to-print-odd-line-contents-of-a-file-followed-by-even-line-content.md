@@ -81,7 +81,7 @@ void printOddEvenLines(char x[])
         if (!(check % 2)) {
             printf("%s", buf);
         }
-        check++;
+        check++ ;
     }
     check = 1;
 
@@ -95,7 +95,7 @@ void printOddEvenLines(char x[])
         if (!(check % 2)) {
             printf("%s", buf);
         }
-        check++;
+        check++ ;
     }
 
     // Close the file

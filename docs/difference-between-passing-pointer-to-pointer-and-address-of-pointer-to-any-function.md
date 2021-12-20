@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/指针到指针的传递和指针到任意函数的地址之间的区别/](https://www.geeksforgeeks.org/difference-between-passing-pointer-to-pointer-and-address-of-pointer-to-any-function/)
 
-在本文中，将“指针指向指针”和“指针地址”传递给函数之间的区别。在 [C](https://www.geeksforgeeks.org/c/) 或 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 编程语言中，已知[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)保存变量或任何[存储位置](https://www.geeksforgeeks.org/difference-between-register-and-memory/)的地址。如果指针指向内存位置，它可以用来改变变量值。
+在本文中，将“指针指向指针”和“指针地址”传递给函数之间的区别。在 [C](https://www.geeksforgeeks.org/c/) 或 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 编程语言中，已知[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)保存变量或任何[存储位置](https://www.geeksforgeeks.org/difference-between-register-and-memory/)的地址。如果指针指向内存位置，它可以用来改变变量值。
 
 至于函数，任何指针都可以自己传递，也可以通过指针的[地址传递。但是，如果指针的存储位置要在函数外永久改变，则必须在函数内使用](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)[引用](https://www.geeksforgeeks.org/references-in-c/)或[双指针](https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/)来捕获，即假设在本地函数内创建了任何存储器。
 

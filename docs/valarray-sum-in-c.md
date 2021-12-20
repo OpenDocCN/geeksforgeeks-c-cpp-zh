@@ -1,4 +1,4 @@
-# c++中的 valarray sum()
+# c++ 中的 valarray sum()
 
 > 原文:[https://www.geeksforgeeks.org/valarray-sum-in-c/](https://www.geeksforgeeks.org/valarray-sum-in-c/)
 

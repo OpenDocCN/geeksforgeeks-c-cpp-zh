@@ -237,10 +237,10 @@ void logic()
         y--;
         break;
     case 2:
-        x++;
+        x++ ;
         break;
     case 3:
-        y++;
+        y++ ;
         break;
     case 4:
         x--;

@@ -15,7 +15,7 @@ int main()
             break;
         else
         {
-            i++;
+            i++ ;
             continue;
         }
         printf("GeeksQuiz");

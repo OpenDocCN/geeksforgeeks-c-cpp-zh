@@ -53,7 +53,7 @@ int main()
     vector<int> myvector2{ 3, 2, 1, 4 };
     myvector1 = myvector2;
     cout << "myvector1 = ";
-    for (auto it = myvector1.begin(); it != myvector1.end(); ++it)
+    for (auto it = myvector1.begin(); it != myvector1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -159,7 +159,7 @@ int main()
     myvector.push_back(9);
     // Vector becomes 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-    for (int i = 0; i < myvector.size(); ++i) {
+    for (int i = 0; i < myvector.size(); ++ i) {
         if (i % 2 != 0) {
             cout << myvector[i];
             cout << " ";

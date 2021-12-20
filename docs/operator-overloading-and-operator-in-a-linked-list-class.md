@@ -4,11 +4,11 @@
 
 > 原文:[https://www . geesforgeks . org/operator-overload-and-operator-in-a-link-list-class/](https://www.geeksforgeeks.org/operator-overloading-and-operator-in-a-linked-list-class/)
 
-**先决条件:**[c++中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)[c++中的链表](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
+**先决条件:**[c++ 中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)[c++ 中的链表](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
 
-C++自带的库提供了执行[输入和输出](https://www.geeksforgeeks.org/basic-input-output-c/)的方法。在 C++中，输入和输出作为字节序列执行，也称为流。[输入和输出流](https://www.geeksforgeeks.org/basic-input-output-c/)由 iostream 库管理。 **cin** 和 **cout** 是输入流和输出流的标准对象。
+C++ 自带的库提供了执行[输入和输出](https://www.geeksforgeeks.org/basic-input-output-c/)的方法。在 C++ 中，输入和输出作为字节序列执行，也称为流。[输入和输出流](https://www.geeksforgeeks.org/basic-input-output-c/)由 iostream 库管理。 **cin** 和 **cout** 是输入流和输出流的标准对象。
 
-我们可以重载**'>>'****'<<'**操作符，在[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)中进行输入，在 C++中打印[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)中的元素。它能够为操作符提供一种特殊的数据类型含义，这种能力被称为[操作符重载](https://www.geeksforgeeks.org/operator-overloading-c/)。
+我们可以重载**'>>'****'<<'**操作符，在[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)中进行输入，在 C++ 中打印[链表](https://www.geeksforgeeks.org/data-structures/linked-list/)中的元素。它能够为操作符提供一种特殊的数据类型含义，这种能力被称为[操作符重载](https://www.geeksforgeeks.org/operator-overloading-c/)。
 
 重载运算符的语法如下:
 

@@ -1,4 +1,4 @@
-# 不使用 size of 如何在 C/C++中求数组的大小？
+# 不使用 size of 如何在 C/C++ 中求数组的大小？
 
 > 原文:[https://www . geesforgeks . org/如何在不使用 sizeof 运算符的情况下找到 cc 中的数组大小/](https://www.geeksforgeeks.org/how-to-find-size-of-array-in-cc-without-using-sizeof-operator/)
 

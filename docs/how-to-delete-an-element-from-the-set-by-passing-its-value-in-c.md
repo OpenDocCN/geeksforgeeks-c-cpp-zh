@@ -1,8 +1,8 @@
-# 如何通过在 C++中传递元素的值来从集合中删除元素
+# 如何通过在 C++ 中传递元素的值来从集合中删除元素
 
 > 原文:[https://www . geeksforgeeks . org/如何通过在 c 中传递元素的值来从集合中删除元素/](https://www.geeksforgeeks.org/how-to-delete-an-element-from-the-set-by-passing-its-value-in-c/)
 
-给定一个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)，任务是在 C++中移除这个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)中的最后一个元素。
+给定一个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)，任务是在 C++ 中移除这个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)中的最后一个元素。
 **例:**
 
 ```cpp
@@ -43,7 +43,7 @@ void printSet(set<int> myset)
     set<int>::iterator it;
 
     // printing all the elements of the set
-    for (it = myset.begin(); it != myset.end(); ++it)
+    for (it = myset.begin(); it != myset.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 }

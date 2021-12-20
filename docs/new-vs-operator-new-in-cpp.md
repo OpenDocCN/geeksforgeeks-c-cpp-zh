@@ -1,4 +1,4 @@
-# c++中新 vs 运算符新
+# c++ 中新 vs 运算符新
 
 > 原文:[https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/](https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/)
 

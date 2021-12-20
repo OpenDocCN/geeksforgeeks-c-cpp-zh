@@ -1,4 +1,4 @@
-# 在 C++中复制向量的方法
+# 在 C++ 中复制向量的方法
 
 > 原文:[https://www.geeksforgeeks.org/ways-copy-vector-c/](https://www.geeksforgeeks.org/ways-copy-vector-c/)
 

@@ -1,11 +1,11 @@
-# c++中 2D 向量排序|集合 3(按列数)
+# c++ 中 2D 向量排序|集合 3(按列数)
 
 > 原文:[https://www . geesforgeks . org/sorting-2d-vector-c-set-3-number-columns/](https://www.geeksforgeeks.org/sorting-2d-vector-c-set-3-number-columns/)
 
 我们在下面的集合 1 和集合 2 中讨论了排序 2D 向量的一些情况。
 
-[c++中 2D 向量排序|集合 1(按行和列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
-[c++中 2D 向量排序|集合 2(按行和列降序)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-2-in-descending-order-by-row-and-column/)
+[c++ 中 2D 向量排序|集合 1(按行和列)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
+[c++ 中 2D 向量排序|集合 2(按行和列降序)](https://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-2-in-descending-order-by-row-and-column/)
 
 本文将讨论更多的案例
 

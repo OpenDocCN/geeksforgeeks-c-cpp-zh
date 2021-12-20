@@ -20,7 +20,7 @@
             // Overhead of managing a counter
             // just for 4 iterations
             // is not a good idea
-            for (int i = 1; i < 5; ++i) {
+            for (int i = 1; i < 5; ++ i) {
                 fact[i] = fact[i - 1] * i;
             }
             return 0;
@@ -53,7 +53,7 @@
 
         // Calculating a constant expression
         // for each iteration is not good.
-        for (int i = 0; i < 1000; ++i) {
+        for (int i = 0; i < 1000; ++ i) {
             arr[i] = (((c % d) * a / b) % d) * i;
         }
         return 0;
@@ -73,7 +73,7 @@
         // pre calculating the constant expression
         int temp = (((c % d) * a / b) % d);
 
-        for (int i = 0; i < 1000; ++i) {
+        for (int i = 0; i < 1000; ++ i) {
             arr[i] = temp * i;
         }
         return 0;
@@ -92,7 +92,7 @@
 
         // Dereferencing pointer inside loop
         // is costly
-        for (int i = 1; i < 11; ++i) {
+        for (int i = 1; i < 11; ++ i) {
             *iptr = *iptr + i;
         }
         printf("Value of a : %d", a);
@@ -120,7 +120,7 @@
         // and saving its value in a temp variable
         int temp = *iptr;
 
-        for (int i = 1; i < 11; ++i) {
+        for (int i = 1; i < 11; ++ i) {
 
             // performing calculations on temp variable
             temp = temp + i;
@@ -154,8 +154,8 @@
 
         // using register variables
         // as counters make the loop faster
-        for (i = 0; i < n; ++i) {
-            for (j = 0; j <= i; ++j) {
+        for (i = 0; i < n; ++ i) {
+            for (j = 0; j <= i; ++ j) {
                 printf("* ");
             }
             printf("\n");

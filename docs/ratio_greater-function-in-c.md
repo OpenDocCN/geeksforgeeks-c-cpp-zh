@@ -1,8 +1,8 @@
-# c++中 ratio _ greater()函数
+# c++ 中 ratio _ greater()函数
 
 > 原文:[https://www.geeksforgeeks.org/ratio_greater-function-in-c/](https://www.geeksforgeeks.org/ratio_greater-function-in-c/)
 
-**ratio_greater()** 是 C++中的一个内置函数，它检查比率 R1 是否大于比率 R2。如果比率大于比率 2，则返回真，否则返回假。
+**ratio_greater()** 是 C++ 中的一个内置函数，它检查比率 R1 是否大于比率 R2。如果比率大于比率 2，则返回真，否则返回假。
 
 **语法:**
 

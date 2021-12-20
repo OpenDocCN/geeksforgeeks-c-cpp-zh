@@ -1,4 +1,4 @@
-# 使用 C++库进行模式搜索
+# 使用 C++ 库进行模式搜索
 
 > 原文:[https://www . geesforgeks . org/pattern-search-use-c-library/](https://www.geeksforgeeks.org/pattern-searching-using-c-library/)
 
@@ -18,7 +18,7 @@ Output : Pattern found at index 0
          Pattern found at index 2
 ```
 
-想法是在 C++字符串类中使用 [find()。](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
+想法是在 C++ 字符串类中使用 [find()。](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

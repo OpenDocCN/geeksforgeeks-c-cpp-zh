@@ -1,4 +1,4 @@
-# std 是 C++中的 _ object Template
+# std 是 C++ 中的 _ object Template
 
 > 原文:[https://www.geeksforgeeks.org/std-is_object-template-in-c/](https://www.geeksforgeeks.org/std-is_object-template-in-c/)
 

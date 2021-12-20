@@ -1,10 +1,10 @@
-# c++中的模板非类型实参
+# c++ 中的模板非类型实参
 
 > 原文:[https://www . geesforgeks . org/template-non-type-arguments-in-c/](https://www.geeksforgeeks.org/template-non-type-arguments-in-c/)
 
-**先决条件:**[c++中的模板](https://www.geeksforgeeks.org/templates-cpp/)
+**先决条件:**[c++ 中的模板](https://www.geeksforgeeks.org/templates-cpp/)
 
-通常，带有单个参数的 C++模板如下所示:
+通常，带有单个参数的 C++ 模板如下所示:
 
 > 模板<typename template_name=""></typename>
 

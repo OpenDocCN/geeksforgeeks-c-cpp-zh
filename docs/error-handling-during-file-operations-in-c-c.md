@@ -1,8 +1,8 @@
-# C/c++中文件操作时的错误处理
+# C/c++ 中文件操作时的错误处理
 
 > 原文:[https://www . geesforgeks . org/file-operations-in-c/](https://www.geeksforgeeks.org/error-handling-during-file-operations-in-c-c/)期间的错误处理
 
-在 C++中[从文件中读取数据](https://www.geeksforgeeks.org/cpp-program-read-file-word-word/)或[向文件中写入数据](https://www.geeksforgeeks.org/readwrite-structure-file-c/)时，很容易出现[错误](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/)。例如，由于以下原因可能会出现错误:
+在 C++ 中[从文件中读取数据](https://www.geeksforgeeks.org/cpp-program-read-file-word-word/)或[向文件中写入数据](https://www.geeksforgeeks.org/readwrite-structure-file-c/)时，很容易出现[错误](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/)。例如，由于以下原因可能会出现错误:
 
 *   当试图读取超出指示器的文件时。
 *   当试图读取不存在的文件时。
@@ -12,11 +12,11 @@
 
 未能检查错误，则程序可能表现异常，因此未检查的错误可能导致程序过早终止或不正确的输出。
 
-以下是 C/C++中[文件操作](https://www.geeksforgeeks.org/basics-file-handling-c/)时的一些[错误处理](https://www.geeksforgeeks.org/error-handling-c-programs/)功能:
+以下是 C/C++ 中[文件操作](https://www.geeksforgeeks.org/basics-file-handling-c/)时的一些[错误处理](https://www.geeksforgeeks.org/error-handling-c-programs/)功能:
 
 ### **铁（）：**
 
-在 C/C++中，库函数 [ferror()](https://www.geeksforgeeks.org/error-handling-c-programs/) 用于检查流中的错误。它的原型写为:
+在 C/C++ 中，库函数 [ferror()](https://www.geeksforgeeks.org/error-handling-c-programs/) 用于检查流中的错误。它的原型写为:
 
 > int ferror(FILE * stream)；
 

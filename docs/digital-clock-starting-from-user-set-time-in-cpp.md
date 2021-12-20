@@ -1,14 +1,14 @@
-# c++中从用户设定时间开始的数字钟
+# c++ 中从用户设定时间开始的数字钟
 
 > 原文:[https://www . geesforgeks . org/digital-clock-start-from-user-set-time-in-CPP/](https://www.geeksforgeeks.org/digital-clock-starting-from-user-set-time-in-cpp/)
 
-在本文中，我们将讨论[**C++语言**](https://www.geeksforgeeks.org/introduction-to-c-programming-language/) 中的**数字钟**。这是一个应用程序，允许个人时钟在自定义设置的时间开始，并显示从那时起的时间。本文描述了如何制作这样一个带有 **HH:MM:SS** 槽的 **24 小时格式**的时钟，并从您希望的位置开始计时，然后从该位置向前移动。
+在本文中，我们将讨论[**C++ 语言**](https://www.geeksforgeeks.org/introduction-to-c-programming-language/) 中的**数字钟**。这是一个应用程序，允许个人时钟在自定义设置的时间开始，并显示从那时起的时间。本文描述了如何制作这样一个带有 **HH:MM:SS** 槽的 **24 小时格式**的时钟，并从您希望的位置开始计时，然后从该位置向前移动。
 
-**功能:**这是一个简单的数字时钟，使用基本的 [C++概念](https://www.geeksforgeeks.org/c-plus-plus/)开发，显示**小时**、**分钟**和**秒**。
+**功能:**这是一个简单的数字时钟，使用基本的 [C++ 概念](https://www.geeksforgeeks.org/c-plus-plus/)开发，显示**小时**、**分钟**和**秒**。
 
 **方法:**这个程序的要求只是 [**数据类型**](https://www.geeksforgeeks.org/c-data-types/)**[**变量**](https://www.geeksforgeeks.org/variables-in-c/)[**操纵器**](https://www.geeksforgeeks.org/manipulators-in-c-with-examples/)[**控制语句**](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)**条件语句、**等的基本概念。以下是步骤:**
 
-*   **创建一个屏幕，显示您所在位置的**“当前时间”**，这将使用 C++中使用的简单输出方法来实现，即 [cout](https://www.geeksforgeeks.org/basic-input-output-c/) ，以及一个操纵器“[**【setw()**](https://www.geeksforgeeks.org/iomanip-setw-function-in-c-with-examples/)”。**
+*   **创建一个屏幕，显示您所在位置的**“当前时间”**，这将使用 C++ 中使用的简单输出方法来实现，即 [cout](https://www.geeksforgeeks.org/basic-input-output-c/) ，以及一个操纵器“[**【setw()**](https://www.geeksforgeeks.org/iomanip-setw-function-in-c-with-examples/)”。**
 *   **在前面提到的屏幕中，执行 **HH** 列、 **MM** 列、 **SS** 列，这将包含时间。**
 *   **使用**系统(“彩色 4A”)，**颜色将采用十六进制格式，控制台可以使用两位十六进制代码 **(0 到 F)** 来实现它们，这又会改变输出控制台中的文本颜色。**
 *   **在最后一个屏幕上，可以看到一个数字时钟最终实现，并从输入的时间运行。**

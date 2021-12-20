@@ -52,7 +52,7 @@ int operate(int array[], int N)
     int sum = 0, index = 0;
 
 label:
-    sum += array[index++];
+    sum += array[index++ ];
 
     if (index < N) {
 
@@ -96,7 +96,7 @@ int operate(int array[], int N)
     int sum = 0, index = 0;
 
 label:
-    sum += array[index++];
+    sum += array[index++ ];
 
     if (index < N) {
 
@@ -139,7 +139,7 @@ class GFG
     int sum = 0, index = 0;      
     while(true)
     {
-      sum += array[index++];      
+      sum += array[index++ ];      
       if (index < N)
       {
 
@@ -229,7 +229,7 @@ static int operate(int[] array, int N)
     int sum = 0, index = 0;
 
 label:
-    sum += array[index++];
+    sum += array[index++ ];
 
     if (index < N)
     {
@@ -275,7 +275,7 @@ function operate($array, $N)
     $sum = 0;
     $index = 0;
     label:
-        $sum += $array[$index++];
+        $sum += $array[$index++ ];
 
         if($index < $N)
         {
@@ -312,7 +312,7 @@ echo operate($array, $N);
       let sum = 0, index = 0;     
       while(true)
       {
-        sum += array[index++];     
+        sum += array[index++ ];     
         if (index < N)
         {
 

@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ default _ 用 C++构造，示例
+# STD::is _ trivaly _ default _ 用 C++ 构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ trivaly _ default _ constructionable-in-c-with-example/](https://www.geeksforgeeks.org/stdis_trivially_default_constructible-in-c-with-example/)
 
@@ -36,7 +36,7 @@ std::is_trivially_default_constructible<T>::value
 
 *   **False:** If the type **t** is not ordinary default constructability.
 
-下面是用 C++演示**STD::is _ trivaly _ default _ construction**的程序:
+下面是用 C++ 演示**STD::is _ trivaly _ default _ construction**的程序:
 
 **程序 1:**
 

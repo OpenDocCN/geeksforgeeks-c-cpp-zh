@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/generic-linked-list-in-c-2/](https://www.geeksforgeeks.org/generic-linked-list-in-c-2/)
 
-与 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 和 [Java](https://www.geeksforgeeks.org/java/) 不同， [C](https://www.geeksforgeeks.org/c/) 不支持泛型。如何用 C 语言创建一个可以用于任何数据类型的链表？在 C 语言中，我们可以使用一个 [void 指针](http://geeksquiz.com/void-pointer-c/)和一个函数指针来实现同样的功能。void 指针的好处是它可以用来指向任何数据类型。而且，所有类型的指针的大小总是相同的，所以我们总是可以分配一个链表节点。需要函数指针来处理存储在 void 指针所指向的地址的实际内容。
+与 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 和 [Java](https://www.geeksforgeeks.org/java/) 不同， [C](https://www.geeksforgeeks.org/c/) 不支持泛型。如何用 C 语言创建一个可以用于任何数据类型的链表？在 C 语言中，我们可以使用一个 [void 指针](http://geeksquiz.com/void-pointer-c/)和一个函数指针来实现同样的功能。void 指针的好处是它可以用来指向任何数据类型。而且，所有类型的指针的大小总是相同的，所以我们总是可以分配一个链表节点。需要函数指针来处理存储在 void 指针所指向的地址的实际内容。
 
 下面是一个演示通用链表工作原理的 C 代码示例。
 

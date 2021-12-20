@@ -15,7 +15,7 @@ private:
     T val;
 public:
     static int count;
-    Test()  {   count++;   }
+    Test()  {   count++ ;   }
 };
 
 template<class T>

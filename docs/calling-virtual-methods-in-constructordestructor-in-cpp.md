@@ -1,9 +1,9 @@
-# 在 C++中调用构造函数/析构函数中的虚方法
+# 在 C++ 中调用构造函数/析构函数中的虚方法
 
 > 原文:[https://www . geesforgeks . org/calling-virtual-methods-in-constructordestructor-in-CPP/](https://www.geeksforgeeks.org/calling-virtual-methods-in-constructordestructor-in-cpp/)
 
-**先决条件:**[c++中的虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)
-从构造函数或析构函数调用虚函数在大多数情况下被认为是危险的，必须尽可能避免。所有 C++实现都需要调用在当前构造函数的层次结构级别定义的函数版本，而不是进一步调用。
+**先决条件:**[c++ 中的虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)
+从构造函数或析构函数调用虚函数在大多数情况下被认为是危险的，必须尽可能避免。所有 C++ 实现都需要调用在当前构造函数的层次结构级别定义的函数版本，而不是进一步调用。
 可以在构造函数中调用虚函数。对象是从基础向上构建的，“先基础后派生”。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

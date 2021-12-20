@@ -28,7 +28,7 @@
 *   然后在 ust2 中寻找 ust1 中的每个元素
 
 如果两个条件都满足**则返回真**值，如果条件不满足，则返回**假**值。
-下面的程序说明了 C++中的无序 _ 集合::运算符==的用法。
+下面的程序说明了 C++ 中的无序 _ 集合::运算符==的用法。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
@@ -174,7 +174,7 @@ uset.operator= ( initializer list )
 *   第三个版本以初始化列表作为参数。
 
 **返回值:**都返回这个指针的值(*this)。
-下面的程序说明了 C++中的**无序 _ 集合::运算符=** 。
+下面的程序说明了 C++ 中的**无序 _ 集合::运算符=** 。
 **程序:**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
@@ -210,15 +210,15 @@ int main()
     sample1 = sample3;
 
     // Print the unordered_set list
-    for (auto it = sample1.begin(); it != sample1.end(); ++it)
+    for (auto it = sample1.begin(); it != sample1.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 
-    for (auto it = sample2.begin(); it != sample2.end(); ++it)
+    for (auto it = sample2.begin(); it != sample2.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 
-    for (auto it = sample3.begin(); it != sample3.end(); ++it)
+    for (auto it = sample3.begin(); it != sample3.end(); ++ it)
         cout << *it << " ";
     cout << endl;
 }

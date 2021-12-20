@@ -1,8 +1,8 @@
-# strtoumax()函数在 C++中
+# strtoumax()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/strtoumax-function-in-c/](https://www.geeksforgeeks.org/strtoumax-function-in-c/)
 
-C++中的 **strtoumax()** 函数将字符串的内容解释为指定基数的整数，并将其值作为 uintmax_t(最大宽度无符号整数)返回。此函数还设置一个指向字符串最后一个有效数字字符后的第一个字符的结束指针，如果没有这样的字符，则指针设置为空。当负数作为字符串输入时，返回值被设置为垃圾值。该功能在 **cinttypes** 头文件中定义。
+C++ 中的 **strtoumax()** 函数将字符串的内容解释为指定基数的整数，并将其值作为 uintmax_t(最大宽度无符号整数)返回。此函数还设置一个指向字符串最后一个有效数字字符后的第一个字符的结束指针，如果没有这样的字符，则指针设置为空。当负数作为字符串输入时，返回值被设置为垃圾值。该功能在 **cinttypes** 头文件中定义。
 
 **语法:**
 

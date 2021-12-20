@@ -12,7 +12,7 @@
 enum State {Working = 1, Failed = 0}; 
 ```
 
-关键字“enum”用于在 C 和 C++中声明新的枚举类型。下面是枚举声明的一个示例。
+关键字“enum”用于在 C 和 C++ 中声明新的枚举类型。下面是枚举声明的一个示例。
 
 ```cpp
 // The name of enumeration is "flag" and the constant

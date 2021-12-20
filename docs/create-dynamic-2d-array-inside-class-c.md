@@ -1,4 +1,4 @@
-# 如何用 C++在类内部创建动态 2D 数组？
+# 如何用 C++ 在类内部创建动态 2D 数组？
 
 > 原文:[https://www . geesforgeks . org/create-dynamic-2d-array-class 内-c/](https://www.geeksforgeeks.org/create-dynamic-2d-array-inside-class-c/)
 
@@ -28,7 +28,7 @@ error: invalid use of non-static data
 
 即使我们将 V 设为静态，我们也会得到错误“数组边界不是整数常数”
 
-C++不允许在大小不恒定的类中创建堆栈分配数组。所以我们需要动态分配内存。下面是一个简单的程序，展示了如何使用带有邻接矩阵表示的 Graph 类在 C++类中动态分配 2D 数组。
+C++ 不允许在大小不恒定的类中创建堆栈分配数组。所以我们需要动态分配内存。下面是一个简单的程序，展示了如何使用带有邻接矩阵表示的 Graph 类在 C++ 类中动态分配 2D 数组。
 
 ```cpp
 // C++ program to show how to allocate dynamic 2D

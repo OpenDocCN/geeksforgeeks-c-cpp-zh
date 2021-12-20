@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-c-if-statement-with-examples/](https://www.geeksforgeeks.org/c-c-if-statement-with-examples/)
 
-[C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
+[C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
 
 C/C++ **if 语句**是最简单的决策语句。它用于根据特定类型的条件决定是否执行特定的语句或语句块。
 
@@ -153,11 +153,11 @@ I am Not in if
 
 **相关文章:**
 
-1.  [C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
+1.  [C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
 2.  [带有示例的 C/C++ if else 语句](https://www.geeksforgeeks.org/c-c-if-else-statement-with-examples/)
 3.  [C/C++ if else if 阶梯示例](https://www.geeksforgeeks.org/c-c-if-else-if-ladder-with-examples/)
-4.  [C/c++中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
-5.  [C/c++中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
-6.  [用 C/C++](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
-7.  [C/c++中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
-8.  [C/c++中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
+4.  [C/c++ 中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
+5.  [C/c++ 中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
+6.  [用 C/C++ ](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
+7.  [C/c++ 中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
+8.  [C/c++ 中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)

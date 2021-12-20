@@ -6,7 +6,7 @@
 
 *   变量函数
 *   呼叫惯例
-*   [C/c++程序的内存布局](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
+*   [C/c++ 程序的内存布局](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
 *   [负下标](https://www.geeksforgeeks.org/overloading-subscript-or-array-index-operator-in-c/)
 
 **变量函数:**一个[变量函数](https://www.geeksforgeeks.org/variadic-function-templates-c/)是接受可变长度参数的模板。可变长度参数是允许函数接收任意数量参数的特性。在某些情况下，函数会根据需求处理可变数量的参数，例如:
@@ -81,14 +81,14 @@ int main()
 Minimum value is 6
 ```
 
-**调用约定:**调用约定是指函数如何被调用，参数如何传递，栈如何被清理。 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) 有多种调用约定，但我们只关心 ***__cdecl*** 和 ***__stdcall** 。*
+**调用约定:**调用约定是指函数如何被调用，参数如何传递，栈如何被清理。 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 有多种调用约定，但我们只关心 ***__cdecl*** 和 ***__stdcall** 。*
 
 两者非常相似，但也有一些不同。
 
-*   __cdecl 是 C/C++的默认调用约定。
+*   __cdecl 是 C/C++ 的默认调用约定。
 *   __stdcall 是默认调用约定 [Windows API 函数](https://www.geeksforgeeks.org/web-window-api-window-locationbar-property/)。
 
-现在两种调用约定都从右向左传递参数。C/C++开发人员选择从右向左，而不是从左向右。
+现在两种调用约定都从右向左传递参数。C/C++ 开发人员选择从右向左，而不是从左向右。
 
 **内存布局:**[内存布局](https://www.geeksforgeeks.org/memory-layout-of-c-program/)讨论如下:
 
@@ -191,7 +191,7 @@ typedef char* va_list;
 > //将 ap 持有的地址(此处为 arg2)转换为 type*
 > #define va_advance(ap，type) ap = ap + sizeof(type)
 
-让我们看看这三个点是什么。实际上，它是一个**日食算子(。。。)**而且是 C++定义的。该运算符用于传递可变数量的参数。如果不能使用变量函数中的第一个参数，这就是 **stdarg.h** 的工作原理。我们可以利用它作为
+让我们看看这三个点是什么。实际上，它是一个**日食算子(。。。)**而且是 C++ 定义的。该运算符用于传递可变数量的参数。如果不能使用变量函数中的第一个参数，这就是 **stdarg.h** 的工作原理。我们可以利用它作为
 
 > #定义 va_start(ap，arg1) (ap = (char*)(&arg1))
 

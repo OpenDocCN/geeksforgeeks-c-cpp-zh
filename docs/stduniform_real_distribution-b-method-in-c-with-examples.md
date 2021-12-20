@@ -1,8 +1,8 @@
-# STD::uniform _ real _ distribution b()方法用 C++举例
+# STD::uniform _ real _ distribution b()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ real _ distribution-B- method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_real_distribution-b-method-in-c-with-examples/)
 
-用 C++中**均匀实分布类**的 **b()** 方法得到这个均匀实分布的上界。
+用 C++ 中**均匀实分布类**的 **b()** 方法得到这个均匀实分布的上界。
 
 **语法:**
 

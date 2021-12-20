@@ -6,7 +6,7 @@
 
 **<u>特征</u> :**
 
-*   A [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) 源代码实际上是[预处理](https://www.geeksforgeeks.org/cc-preprocessors/)创建一个翻译单元，然后编译。
+*   A [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 源代码实际上是[预处理](https://www.geeksforgeeks.org/cc-preprocessors/)创建一个翻译单元，然后编译。
 *   一个翻译单元有[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)及其本身的所有内容。因此，对于编译器来说，很难区分文件和它正在读取的行，然后它会相应地生成[错误](https://www.geeksforgeeks.org/errors-in-cc/)消息。
 *   对于预处理器，它每次都添加行控制，并将头文件插入源代码。
 

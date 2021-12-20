@@ -1,4 +1,4 @@
-# C 和 C++中的字符算术
+# C 和 C++ 中的字符算术
 
 > 原文:[https://www.geeksforgeeks.org/character-arithmetic-c-c/](https://www.geeksforgeeks.org/character-arithmetic-c-c/)
 
@@ -29,7 +29,7 @@ y
 
 所以%d 说明符导致一个整数值被打印，而%c 说明符导致一个字符值被打印。但是必须注意，在使用%c 说明符时，整数值不应超过 127。
 到目前为止还不错。
-但是对于 c++来说，结果有点不同。
+但是对于 c++ 来说，结果有点不同。
 
 看这个例子更好理解。
 

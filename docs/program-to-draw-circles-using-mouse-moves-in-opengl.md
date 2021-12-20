@@ -23,7 +23,7 @@
 *   **glutKeyboardFunc(键盘):**键盘事件处理程序。
 *   **glutMainLoop():** 此函数循环当前事件。
 
-下面是一个在 OpenGL 中实现 [onClick](https://www.geeksforgeeks.org/html-onclick-event-attribute/) 功能的 C++程序:
+下面是一个在 OpenGL 中实现 [onClick](https://www.geeksforgeeks.org/html-onclick-event-attribute/) 功能的 C++ 程序:
 
 ## C++
 
@@ -61,7 +61,7 @@ void mouse(int button, int state,
             counter = 0;
         }
 
-        counter++;
+        counter++ ;
 
         // Redisplay
         glutPostRedisplay();

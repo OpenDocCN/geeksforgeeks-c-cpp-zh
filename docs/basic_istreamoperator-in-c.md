@@ -1,4 +1,4 @@
-# basic _ is tream::c++中的运算符>>
+# basic _ is tream::c++ 中的运算符>>
 
 > 原文:[https://www.geeksforgeeks.org/basic_istreamoperator-in-c/](https://www.geeksforgeeks.org/basic_istreamoperator-in-c/)
 

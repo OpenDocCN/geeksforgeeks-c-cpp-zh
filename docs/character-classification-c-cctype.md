@@ -1,8 +1,8 @@
-# c++中的字符分类:cctype
+# c++ 中的字符分类:cctype
 
 > 原文:[https://www . geesforgeks . org/character-classification-c-cctype/](https://www.geeksforgeeks.org/character-classification-c-cctype/)
 
-使用函数库**中指定的函数，C++中的字符分类是可能的。本文讨论了字符分类的众多功能。** 
+使用函数库**中指定的函数，C++ 中的字符分类是可能的。本文讨论了字符分类的众多功能。** 
 
 ****1。isalpha() :** 如果字符是字母表则此函数返回 **true，否则返回 false。 **a-z 和 A-Z** 中的所有字符根据该功能返回真。****
 

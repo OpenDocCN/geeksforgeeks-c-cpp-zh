@@ -1,8 +1,8 @@
-# c++中的转发列表|集 1(简介和重要功能)
+# c++ 中的转发列表|集 1(简介和重要功能)
 
 > 原文:[https://www . geesforgeks . org/forward-list-c-set-1-introduction-important-functions/](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)
 
-STL 中的正向列表实现了单链表。从 C++11 引入的正向列表在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。
+STL 中的正向列表实现了单链表。从 C++ 11 引入的正向列表在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。
 它与[列表](https://www.geeksforgeeks.org/list-cpp-stl/)的不同之处在于正向列表只跟踪下一个元素的位置，而列表同时跟踪下一个和上一个元素，因此增加了存储每个元素所需的存储空间。正向列表的缺点是不能反向迭代，不能直接访问单个元素。
 当只需要正向遍历时，正向列表优于列表(与单链表优于双链表相同)，这样可以节省空间。一些例子是，散列中的链接，图的邻接表表示等。
 **远期清单操作:**
@@ -277,6 +277,6 @@ int main()
 *   ****[max _ size()](https://www.geeksforgeeks.org/forward_listmax_size-in-c-stl/)–返回 forward_list 可容纳的最大元素数。****
 *   ****[调整大小()](https://www.geeksforgeeks.org/forward_list-resize-function-in-c-stl/)–更改 forward_list 的大小。****
 
-****[c++中的转发列表|第二集(操纵函数)](https://www.geeksforgeeks.org/forward-list-c-set-2-manipulating-functions/)
+****[c++ 中的转发列表|第二集(操纵函数)](https://www.geeksforgeeks.org/forward-list-c-set-2-manipulating-functions/)
 本文由**曼吉特·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 如果发现有不正确的地方，或者想分享更多关于上述话题的信息，请写评论。****

@@ -1,4 +1,4 @@
-# STD::basic _ string::c++中的运算符[]
+# STD::basic _ string::c++ 中的运算符[]
 
 > 原文:[https://www.geeksforgeeks.org/stdbasic_stringoperator-in-c/](https://www.geeksforgeeks.org/stdbasic_stringoperator-in-c/)
 

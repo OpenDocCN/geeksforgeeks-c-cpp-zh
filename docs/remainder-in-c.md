@@ -1,4 +1,4 @@
-# c++中的余数()
+# c++ 中的余数()
 
 > 原文:[https://www.geeksforgeeks.org/remainder-in-c/](https://www.geeksforgeeks.org/remainder-in-c/)
 

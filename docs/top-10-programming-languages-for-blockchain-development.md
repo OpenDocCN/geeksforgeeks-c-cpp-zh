@@ -8,9 +8,9 @@
 
 [区块链](https://www.geeksforgeeks.org/blockchain-technology-introduction/) 实际上是安全的代名词，因为篡改这些区块几乎是不可能的！这使得这项技术在银行、金融等领域非常受欢迎。事实上，区块链最初是在比特币的实现中流行起来的。毕竟，人们希望他们的钱尽可能安全！所以目前，区块链开发者的需求量很大。学习**区块链开发的顶级编程语言**肯定会让你比其他开发人员有优势，所以这就是本文的全部内容。
 
-### 1。 [C++](https://www.geeksforgeeks.org/c-programming-language/)
+### 1。 [C++ ](https://www.geeksforgeeks.org/c-programming-language/)
 
-C++在整个科技界都很流行，即使在 Blockchain 技术中也是如此！C++对区块链来说非常受欢迎，因为它有多种功能，如移动语义、对内存的原始控制、高级多线程以及其他面向对象的特性，如函数重载、运行时多态性等。C++ 的这些不同的 [OOPS 特性允许 Blockchain 开发人员在单个模块中轻松地将数据和功能组合在一起，就像 Blockchain 用密码链来组合数据块一样。事实上，C++也像比特币一样受到 Blockchain 的欢迎，比特币是一种密码货币，Blockchain 的第一个实现最初是用 C++编写的。](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
+C++ 在整个科技界都很流行，即使在 Blockchain 技术中也是如此！C++ 对区块链来说非常受欢迎，因为它有多种功能，如移动语义、对内存的原始控制、高级多线程以及其他面向对象的特性，如函数重载、运行时多态性等。C++ 的这些不同的 [OOPS 特性允许 Blockchain 开发人员在单个模块中轻松地将数据和功能组合在一起，就像 Blockchain 用密码链来组合数据块一样。事实上，C++ 也像比特币一样受到 Blockchain 的欢迎，比特币是一种密码货币，Blockchain 的第一个实现最初是用 C++ 编写的。](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
 
 ### 2。 [巨蟒](https://www.geeksforgeeks.org/python-programming-language/)
 
@@ -18,7 +18,7 @@ Python 正在迅速成为世界上最流行的编程语言，如果你是 Python
 
 ### 3。 [爪哇](https://www.geeksforgeeks.org/java/)
 
-Java 在普及性和实用性上与 C++形成了激烈的竞争。区块链技术也是如此！Java 有丰富的应用编程接口，包括许多 Java 类、包、接口等。这对于构建不需要知道其内部实现的应用程序非常有用。此外，Java 在区块链中特别有用的一个特性是它的可移植性。Java 程序可以移植到不同的平台上，因为它的 WORA(“一次编写，随处运行”)功能。这些程序不依赖于特定于系统的体系结构，因为它们使用通用 JVM(Java 虚拟机)来执行。这种可移植性以及 Java 的其他流行特性使其非常适合区块链。
+Java 在普及性和实用性上与 C++ 形成了激烈的竞争。区块链技术也是如此！Java 有丰富的应用编程接口，包括许多 Java 类、包、接口等。这对于构建不需要知道其内部实现的应用程序非常有用。此外，Java 在区块链中特别有用的一个特性是它的可移植性。Java 程序可以移植到不同的平台上，因为它的 WORA(“一次编写，随处运行”)功能。这些程序不依赖于特定于系统的体系结构，因为它们使用通用 JVM(Java 虚拟机)来执行。这种可移植性以及 Java 的其他流行特性使其非常适合区块链。
 
 ### 4。坚固性
 
@@ -34,7 +34,7 @@ Go 是构建快速高效区块链系统的优秀编程语言。它是创建超�
 
 ### 7。 [C#](https://www.geeksforgeeks.org/csharp-programming-language/)
 
-C#在语法上与 Java 和 C++相似，因此作为区块链编程语言是理想的。虽然 C#最初只是作为微软的一种语言创建的，但现在它非常流行，被认为是区块链最好的编程语言之一。开源开发人员可以使用 C#轻松创建一个高度可移植的代码，该代码将在所有设备和多个操作系统上运行，如 Windows、Linux、Mac、Android 等。此外，由于 C#是一种 OOPs 编程语言，区块链开发人员在开发下一个区块链时可以获得最大的性能。用 C#编写的项目包括 Stratis，一个区块链即服务提供商，允许企业在区块链平台上轻松创建应用程序。
+C#在语法上与 Java 和 C++ 相似，因此作为区块链编程语言是理想的。虽然 C#最初只是作为微软的一种语言创建的，但现在它非常流行，被认为是区块链最好的编程语言之一。开源开发人员可以使用 C#轻松创建一个高度可移植的代码，该代码将在所有设备和多个操作系统上运行，如 Windows、Linux、Mac、Android 等。此外，由于 C#是一种 OOPs 编程语言，区块链开发人员在开发下一个区块链时可以获得最大的性能。用 C#编写的项目包括 Stratis，一个区块链即服务提供商，允许企业在区块链平台上轻松创建应用程序。
 
 ### 8 . [JavaScript](https://www.geeksforgeeks.org/javascript-tutorial/)
 

@@ -43,10 +43,10 @@ int lc=0, sc=0, tc=0, ch=0; /*Global variables*/
 
 /*Rule Section*/
 %%
-\n lc++; //line counter
-([ ])+ sc++; //space counter
-\t tc++; //tab counter
-. ch++;     //characters counter
+\n lc++ ; //line counter
+([ ])+ sc++ ; //space counter
+\t tc++ ; //tab counter
+. ch++ ;     //characters counter
 %%
 
 int main()

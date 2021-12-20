@@ -1,8 +1,8 @@
-# c++中的 Catch 块和类型转换
+# c++ 中的 Catch 块和类型转换
 
 > 原文:[https://www . geesforgeks . org/catch-block-and-type-conversion-in-c/](https://www.geeksforgeeks.org/catch-block-and-type-conversion-in-c/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ## C++
 

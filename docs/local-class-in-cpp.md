@@ -1,8 +1,8 @@
-# c++中的局部类
+# c++ 中的局部类
 
 > 原文:[https://www.geeksforgeeks.org/local-class-in-cpp/](https://www.geeksforgeeks.org/local-class-in-cpp/)
 
-在函数内部声明的类成为该函数的局部类，在 C++中称为局部类。
+在函数内部声明的类成为该函数的局部类，在 C++ 中称为局部类。
 
 *   本地类名只能在本地使用，即只能在函数内部使用，不能在函数外部使用。
 *   局部类的方法只能在其中定义。
@@ -31,7 +31,7 @@ void fun()
 int main() { return 0; }
 ```
 
-### **下面是一些关于 C++中局部类的有趣事实:**
+### **下面是一些关于 C++ 中局部类的有趣事实:**
 
 **1)** **局部类类型名只能在封闭函数中使用。**
 
@@ -363,4 +363,4 @@ Test1::Test1()
 x = 0
 ```
 
-**必读:**[c++中的嵌套类](https://www.geeksforgeeks.org/nested-classes-in-c/)
+**必读:**[c++ 中的嵌套类](https://www.geeksforgeeks.org/nested-classes-in-c/)

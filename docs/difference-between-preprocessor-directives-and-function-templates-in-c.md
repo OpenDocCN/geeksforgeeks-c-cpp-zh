@@ -1,8 +1,8 @@
-# c++中预处理器指令和函数模板的区别
+# c++ 中预处理器指令和函数模板的区别
 
 > 原文:[https://www . geesforgeks . org/预处理器指令和函数模板之间的区别-in-c/](https://www.geeksforgeeks.org/difference-between-preprocessor-directives-and-function-templates-in-c/)
 
-[预处理器指令](https://www.geeksforgeeks.org/cc-preprocessors/)是在编译之前处理我们的源代码的程序。在 C / C++中，编写程序和执行程序之间涉及许多步骤。
+[预处理器指令](https://www.geeksforgeeks.org/cc-preprocessors/)是在编译之前处理我们的源代码的程序。在 C / C++ 中，编写程序和执行程序之间涉及许多步骤。
 
 下面是说明函数模板功能的程序:
 
@@ -99,7 +99,7 @@ minimum(30, 35);
 minimum(30.5, 40.5);
 ```
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们大多数人更喜欢使用模板而不是预处理器指令，因为:
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们大多数人更喜欢使用模板而不是预处理器指令，因为:
 
 *   在预处理器指令的情况下，没有类型检查。但是在模板的情况下，完全类型检查是由编译器完成的。
 *   预处理器指令会调用意外的结果。考虑一个[宏](https://www.geeksforgeeks.org/c-language-2-gq/macro-preprocessor-gq/)，它计算任意数字的平方为:

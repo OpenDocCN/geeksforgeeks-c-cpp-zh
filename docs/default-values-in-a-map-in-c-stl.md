@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/default-values-in-a-map-in-c-STL/](https://www.geeksforgeeks.org/default-values-in-a-map-in-c-stl/)
 
 **先决条件:**[STL 中的地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
-地图是用于存储键值对的容器。默认情况下，在[中，如果变量没有初始化，C/C++中的原始数据类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)如 **int、char、bool、float** 是未定义的，但是在映射中，当声明映射时，每个键都用默认值零进行映射。使用随机默认值初始化地图的方法如下:
+地图是用于存储键值对的容器。默认情况下，在[中，如果变量没有初始化，C/C++ 中的原始数据类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)如 **int、char、bool、float** 是未定义的，但是在映射中，当声明映射时，每个键都用默认值零进行映射。使用随机默认值初始化地图的方法如下:
 **方法:**
 
 1.  用默认值声明一个[结构](https://www.geeksforgeeks.org/structures-c/)(比如说结构**节点**)。

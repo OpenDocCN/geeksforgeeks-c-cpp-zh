@@ -40,7 +40,7 @@
         // printing initial map elements
         cout << "The initial map elements are : \n";
 
-        for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+        for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
             cout << it1->first << "->" << it1->second << endl;
 
         it = mp.begin();
@@ -50,13 +50,13 @@
         // erasing element using iterator
         // erases 2nd element
         // 'b'
-        ++it;
+        ++ it;
         mp.erase(it);
 
         // printing map elements after deletion
         cout << "The map elements after 1st deletion are : \n";
 
-        for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+        for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
             cout << it1->first << "->" << it1->second << endl;
 
         cout << endl;
@@ -67,7 +67,7 @@
         // printing map elements after deletion
         cout << "The map elements after 2nd deletion are : \n";
 
-        for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+        for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
             cout << it1->first << "->" << it1->second << endl;
 
         cout << "The number of elements deleted in 2nd deletion are : ";
@@ -82,7 +82,7 @@
         // printing map elements after deletion
         cout << "The map elements after 3rd deletion are : \n";
 
-        for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+        for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
             cout << it1->first << "->" << it1->second << endl;
 
         cout << "The number of elements deleted in 3rd deletion are : ";
@@ -90,8 +90,8 @@
 
         cout << endl;
 
-        ++it;
-        ++it;
+        ++ it;
+        ++ it;
 
         // erasing element using range iterator
         // deletes "d" and "e" keys
@@ -100,7 +100,7 @@
         // printing map elements 4th deletion
         cout << "The map elements after 4th deletion are : \n";
 
-        for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+        for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
             cout << it1->first << "->" << it1->second << endl;
 
         cout << endl;
@@ -168,7 +168,7 @@
 
         // printing initial map elements
         cout << "The initial map elements are : \n";
-        for (it1 = mp.begin(); it1!=mp.end();  ++it1)
+        for (it1 = mp.begin(); it1!=mp.end();  ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
         // using clear() to erase all elements in map
@@ -176,7 +176,7 @@
 
         // printing map elements after deletion
         cout << "The map elements after clearing all elements are : \n";
-        for (it1 = mp.begin(); it1!=mp.end();  ++it1)
+        for (it1 = mp.begin(); it1!=mp.end();  ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
     }

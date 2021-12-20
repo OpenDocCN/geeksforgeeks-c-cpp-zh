@@ -1,8 +1,8 @@
-# C/C++程序求 int、float、double 和 char 的大小
+# C/C++ 程序求 int、float、double 和 char 的大小
 
 > 原文:[https://www . geesforgeks . org/c-CPP-program-to-find-size-int-float-double-and-char/](https://www.geeksforgeeks.org/c-cpp-program-to-find-the-size-of-int-float-double-and-char/)
 
-给定四种类型的变量，即 int、char、float 和 double，任务是用 C 或 C++编写一个程序来找到这四种类型变量的大小。
+给定四种类型的变量，即 int、char、float 和 double，任务是用 C 或 C++ 编写一个程序来找到这四种类型变量的大小。
 
 ![sizeof](img/f252029c8bd60a2e37d663c5b770148d.png)
 
@@ -40,7 +40,7 @@ Output: Size of double = 8
 1.  在*中定义了四种类型的变量:整数型、浮点型、双精度型和图表型*。
 2.  变量的大小是使用 size of()运算符计算的。
 
-下面是查找 int、char、float 和 double 数据类型大小的 C 和 C++程序:
+下面是查找 int、char、float 和 double 数据类型大小的 C 和 C++ 程序:
 
 ## C
 

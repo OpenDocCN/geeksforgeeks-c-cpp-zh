@@ -1,8 +1,8 @@
-# ios 操纵器 noshowpos()在 C++中运行
+# ios 操纵器 noshowpos()在 C++ 中运行
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-noshowpos-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-noshowpos-function-in-c/)
 
-C++中**流操纵器**的 **noshowpos()** 方法用于清除指定字符串流的 showbase 格式标志。此标志显示不带+号的非负整数值。
+C++ 中**流操纵器**的 **noshowpos()** 方法用于清除指定字符串流的 showbase 格式标志。此标志显示不带+号的非负整数值。
 
 **语法:**
 

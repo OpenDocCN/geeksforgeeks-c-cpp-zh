@@ -1,4 +1,4 @@
-# c++中地图的优先级队列，示例
+# c++ 中地图的优先级队列，示例
 
 > 原文:[https://www . geesforgeks . org/priority-queue-of-map-in-c-with-examples/](https://www.geeksforgeeks.org/priority-queue-of-maps-in-c-with-examples/)
 
@@ -24,7 +24,7 @@
 *   <u>**size():** 返回地图中元素的数量</u>
 *   <u>**空():**返回地图是否为空</u>
 
-<u>本文主要讨论如何在 C++中使用映射的优先级队列。在设计复杂的数据结构时，地图的优先级队列非常有用。</u>
+<u>本文主要讨论如何在 C++ 中使用映射的优先级队列。在设计复杂的数据结构时，地图的优先级队列非常有用。</u>
 
 <u>**<u>地图最大堆优先级队列:</u>**</u>
 
@@ -74,9 +74,9 @@
 > **data_type2:** 为数值的数据类型。
 > **myComparator:** 是比较器类或结构。</u>
 
-<u>下面是比较器的 C++代码片段:</u>
+<u>下面是比较器的 C++ 代码片段:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // Comparator structure

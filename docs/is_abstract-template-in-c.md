@@ -1,4 +1,4 @@
-# 是 C++中的 _ 抽象模板
+# 是 C++ 中的 _ 抽象模板
 
 > 原文:[https://www.geeksforgeeks.org/is_abstract-template-in-c/](https://www.geeksforgeeks.org/is_abstract-template-in-c/)
 

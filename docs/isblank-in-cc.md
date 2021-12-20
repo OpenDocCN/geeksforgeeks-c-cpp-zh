@@ -35,7 +35,7 @@ Output: Geeks
 极客为极客
 我们用换行符代替空格。
 
-**isblank() C++程序:**
+**isblank() C++ 程序:**
 这段代码逐字符打印出字符串，用换行符替换任何空白字符。
 
 ```cpp
@@ -56,13 +56,13 @@ int main()
 
         // to get ith character
         // from string
-        char ch = str[i++];
+        char ch = str[i++ ];
 
         // mark a new line when space
         // or horizontal tab is found
         if (isblank(ch)) {
             cout << endl;
-            count++;
+            count++ ;
         }
         else
             cout << ch;

@@ -76,7 +76,7 @@ void main()
         // Using switch to go case by case
         switch (number) {
         case 1:
-            id++;
+            id++ ;
 
             // Creating a New Bug
             filebug(id);
@@ -593,7 +593,7 @@ void main()
         // Using switch to go case by case
         switch (number) {
         case 1:
-            id++;
+            id++ ;
 
             // Creating a New Bug
             filebug(id);

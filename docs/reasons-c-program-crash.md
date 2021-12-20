@@ -1,8 +1,8 @@
-# c++程序崩溃的原因
+# c++ 程序崩溃的原因
 
 > 原文:[https://www.geeksforgeeks.org/reasons-c-program-crash/](https://www.geeksforgeeks.org/reasons-c-program-crash/)
 
-我们有时会遇到 C++程序异常崩溃的情况。以下是一些可能导致 C++异常崩溃的原因。
+我们有时会遇到 C++ 程序异常崩溃的情况。以下是一些可能导致 C++ 异常崩溃的原因。
 
 *   **[分段故障](https://www.geeksforgeeks.org/core-dump-segmentation-fault-c-cpp/) :** 是程序崩溃的主要原因。这些都可能是造成这种原因的原因:
     *   试图访问系统中不存在的内存位置。

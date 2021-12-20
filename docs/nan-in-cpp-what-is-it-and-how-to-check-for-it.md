@@ -1,4 +1,4 @@
-# c++中的 NaN 是什么，怎么查？
+# c++ 中的 NaN 是什么，怎么查？
 
 > 原文:[https://www . geesforgeks . org/nan-in-CPP-it 是什么以及如何检查它/](https://www.geeksforgeeks.org/nan-in-cpp-what-is-it-and-how-to-check-for-it/)
 

@@ -1,4 +1,4 @@
-# 点(。)C/C++中的运算符
+# 点(。)C/C++ 中的运算符
 
 > 原文:[https://www.geeksforgeeks.org/dot-operator-in-c-c/](https://www.geeksforgeeks.org/dot-operator-in-c-c/)
 

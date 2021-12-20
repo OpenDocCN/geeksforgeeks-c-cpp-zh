@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/or-gate-use-感知器-network/](https://www.geeksforgeeks.org/or-gate-using-perceptron-network/)
 
 感知器网络属于单层前馈网络，也称为简单感知器。感知器网络由三个单元组成，即感觉单元(输入单元)、联想单元(隐藏单元)、响应单元(输出单元)。感觉单元连接到具有固定权重值 1、0 或-1 的联想单元，这些权重值是随机分配的。
-问题是使用 c++代码使用感知器网络实现 or 门。
+问题是使用 c++ 代码使用感知器网络实现 or 门。
 
 ```cpp
 #include<iostream>
@@ -48,7 +48,7 @@ int main()
             }
             if(t[i] == yo)
             {
-                count++;
+                count++ ;
                 dw1 = 0;
                 dw2 = 0;
                 db = 0;

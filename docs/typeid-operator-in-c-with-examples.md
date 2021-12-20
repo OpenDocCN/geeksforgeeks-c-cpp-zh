@@ -1,8 +1,8 @@
-# c++中的 typeid 运算符，示例
+# c++ 中的 typeid 运算符，示例
 
 > 原文:[https://www . geesforgeks . org/typeid-operator-in-c-with-examples/](https://www.geeksforgeeks.org/typeid-operator-in-c-with-examples/)
 
-**typeid** 是 C++中的[运算符](https://www.geeksforgeeks.org/operators-c-c/)。
+**typeid** 是 C++ 中的[运算符](https://www.geeksforgeeks.org/operators-c-c/)。
 
 *   在需要对象的[动态类型或运行时类型](https://www.geeksforgeeks.org/g-fact-33/)信息的地方使用。
 *   它包含在 **< typeinfo >** 库中。因此，为了使用 typeid，这个库应该包含在程序中。

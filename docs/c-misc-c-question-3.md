@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-misc-c-question-3/](https://www.geeksforgeeks.org/c-misc-c-question-3/)
 
-预测后续 C++程序的输出
+预测后续 C++ 程序的输出
 
 ```cpp
 #include<iostream>

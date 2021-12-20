@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswxdigit-function-in-c-c/](https://www.geeksforgeeks.org/iswxdigit-function-in-c-c/)
 
-**iswxdigit()** 是 C/C++中的一个内置函数，它检查给定的宽字符是否是十六进制数字字符。在 C++的**cwcytpe**头文件中定义。可用的十六进制数字字符有:
+**iswxdigit()** 是 C/C++ 中的一个内置函数，它检查给定的宽字符是否是十六进制数字字符。在 C++ 的**cwcytpe**头文件中定义。可用的十六进制数字字符有:
 
 *   **Number** (0 to 9)
 *   **lowercase letters** from a to f
@@ -127,4 +127,4 @@ xyz2 is not a valid hexadecimal number
 
 ```
 
-**类似函数:** [isalpha()和 isdigit()函数在 C/C++中，示例](https://www.geeksforgeeks.org/isalpha-isdigit-functions-c-example/)
+**类似函数:** [isalpha()和 isdigit()函数在 C/C++ 中，示例](https://www.geeksforgeeks.org/isalpha-isdigit-functions-c-example/)

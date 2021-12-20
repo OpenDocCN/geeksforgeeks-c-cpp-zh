@@ -1,4 +1,4 @@
-# c++中对列表下界()和上界()的实现
+# c++ 中对列表下界()和上界()的实现
 
 > 原文:[https://www . geesforgeks . org/c 对列表中下限和上限的实现/](https://www.geeksforgeeks.org/implementation-of-lower_bound-and-upper_bound-in-list-of-pairs-in-c/)
 

@@ -1,8 +1,8 @@
-# std::bad_array_new_length 类在 C++中有示例
+# std::bad_array_new_length 类在 C++ 中有示例
 
 > 原文:[https://www . geesforgeks . org/stdbad _ array _ new _ length-c-in-class-with-examples/](https://www.geeksforgeeks.org/stdbad_array_new_length-class-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类，**STD::bad _ array _ new _ length**就是其中之一。如果数组的大小小于零，并且数组的大小大于限制，则抛出异常。下面是相同的语法:
+标准 C++ 包含几个内置的异常类，**STD::bad _ array _ new _ length**就是其中之一。如果数组的大小小于零，并且数组的大小大于限制，则抛出异常。下面是相同的语法:
 
 **头文件:**
 

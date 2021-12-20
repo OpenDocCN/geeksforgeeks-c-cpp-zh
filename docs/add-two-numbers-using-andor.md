@@ -1,10 +1,10 @@
-# 使用++和/或—
+# 使用++ 和/或—
 
 添加两个数字
 
 > 原文:[https://www.geeksforgeeks.org/add-two-numbers-using-andor/](https://www.geeksforgeeks.org/add-two-numbers-using-andor/)
 
-给定两个数字，不使用运算符+和/或-，使用++和/或–,返回它们的总和。
+给定两个数字，不使用运算符+和/或-，使用++ 和/或–,返回它们的总和。
 示例:
 
 ```cpp
@@ -30,7 +30,7 @@ int add(int x, int y)
 {
     // If y is positive, y times add 1 to x
     while (y > 0 && y--)
-        x++;
+        x++ ;
 
     // If y is negative, y times subtract 1 from x
     while (y < 0 && y++)
@@ -63,7 +63,7 @@ public class GFG {
         // If y is positive, y times
         // add 1 to x
         while (y > 0 && y != 0) {
-            x++;
+            x++ ;
             y--;
         }
 
@@ -71,7 +71,7 @@ public class GFG {
         // subtract 1 from x
         while (y < 0 && y != 0) {
             x--;
-            y++;
+            y++ ;
         }
 
         return x;
@@ -138,7 +138,7 @@ public class GFG {
         // If y is positive, y times
         // add 1 to x
         while (y > 0 && y != 0) {
-            x++;
+            x++ ;
             y--;
         }
 
@@ -146,7 +146,7 @@ public class GFG {
         // subtract 1 from x
         while (y < 0 && y != 0) {
             x--;
-            y++;
+            y++ ;
         }
 
         return x;
@@ -178,7 +178,7 @@ function add($x, $y)
     // If y is positive,
     // y times add 1 to x
     while ($y > 0 && $y--)
-       $x++;
+       $x++ ;
 
     // If y is negative,
     // y times subtract
@@ -213,7 +213,7 @@ function add($x, $y)
         // If y is positive, y times
         // add 1 to x
         while (y > 0 && y != 0) {
-            x++;
+            x++ ;
             y--;
         }
 
@@ -221,7 +221,7 @@ function add($x, $y)
         // subtract 1 from x
         while (y < 0 && y != 0) {
             x--;
-            y++;
+            y++ ;
         }
 
         return x;

@@ -1,4 +1,4 @@
-# c++中朋友函数和虚函数的区别
+# c++ 中朋友函数和虚函数的区别
 
 > 原文:[https://www . geesforgeks . org/friend-function-and-virtual-function-in-CPP/](https://www.geeksforgeeks.org/difference-between-friend-function-and-virtual-function-in-cpp/)
 

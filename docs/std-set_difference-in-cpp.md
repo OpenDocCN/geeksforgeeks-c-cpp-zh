@@ -72,7 +72,7 @@ int main()
 
     std::cout << "Using default comparison, \n";
     std::cout << "The difference has " << (ls - v2.begin()) << " elements :";
-    for (it = v2.begin(); it < ls; ++it)
+    for (it = v2.begin(); it < ls; ++ it)
         std::cout << " " << *it;
     std::cout << "\n";
 
@@ -154,7 +154,7 @@ int main()
 
     std::cout << "Using custom comparison, \n";
     std::cout << "The difference has " << (ls - v1.begin()) << " elements :";
-    for (it = v1.begin(); it < ls; ++it)
+    for (it = v1.begin(); it < ls; ++ it)
         std::cout << " " << *it;
     std::cout << "\n";
 
@@ -217,7 +217,7 @@ int main()
     it = set_difference(first, first + n, second, second + n, v.begin());
 
     cout << "Students attending first class only are :\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << ' ' << *st;
     cout << '\n';
 

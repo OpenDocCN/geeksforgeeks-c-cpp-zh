@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 的数组的所有反向排列
+# 在 C++ 中使用 STL 的数组的所有反向排列
 
 > 原文:[https://www . geeksforgeeks . org/all-reverse-置换数组-使用-stl-in-c/](https://www.geeksforgeeks.org/all-reverse-permutations-of-an-array-using-stl-in-c/)
 
-给定一个数组，任务是在 C++中使用 STL 打印或显示这个数组的所有反向排列。反向排列意味着，对于数组{1，2，3}:
+给定一个数组，任务是在 C++ 中使用 STL 打印或显示这个数组的所有反向排列。反向排列意味着，对于数组{1，2，3}:
 
 ```cpp
 [forward permutations:](https://www.geeksforgeeks.org/all-permutations-of-an-array-using-stl-in-c/)
@@ -155,4 +155,4 @@ Possible permutations are:
 
 ```
 
-**相关文章:** [在 C++中使用 STL 的数组的所有排列](https://www.geeksforgeeks.org/all-permutations-of-an-array-using-stl-in-c/)
+**相关文章:** [在 C++ 中使用 STL 的数组的所有排列](https://www.geeksforgeeks.org/all-permutations-of-an-array-using-stl-in-c/)

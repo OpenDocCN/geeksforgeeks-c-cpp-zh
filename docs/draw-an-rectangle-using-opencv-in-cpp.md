@@ -1,8 +1,8 @@
-# 在 C++中使用 OpenCV 绘制一个矩形
+# 在 C++ 中使用 OpenCV 绘制一个矩形
 
 > 原文:[https://www . geesforgeks . org/draw-an-rectangle-use-opencv-in-CPP/](https://www.geeksforgeeks.org/draw-an-rectangle-using-opencv-in-cpp/)
 
-在本文中，任务是使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的 [OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/) 绘制一个矩形。将使用 OpenCV [C++库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中的[矩形()函数](https://www.geeksforgeeks.org/draw-rectangle-c-graphics/)。
+在本文中，任务是使用 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的 [OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/) 绘制一个矩形。将使用 OpenCV [C++ 库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中的[矩形()函数](https://www.geeksforgeeks.org/draw-rectangle-c-graphics/)。
 
 **语法:**
 
@@ -25,7 +25,7 @@
 
 **程序 1:**
 
-下面是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在自形成的背景图像上绘制一个矩形:
+下面是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在自形成的背景图像上绘制一个矩形:
 
 ## C++
 
@@ -87,7 +87,7 @@ int main(int argc, char** argv)
 
 **程序 2:**
 
-下面是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在 GFG 徽标的图像上绘制一个矩形:
+下面是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在 GFG 徽标的图像上绘制一个矩形:
 
 ## C++
 
@@ -147,7 +147,7 @@ int main(int argc, char** argv)
 
 **程序 3:**
 
-下面是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序演示如何画一个充满颜色的矩形:
+下面是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序演示如何画一个充满颜色的矩形:
 
 ## C++
 

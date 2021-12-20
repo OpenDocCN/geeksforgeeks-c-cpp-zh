@@ -45,7 +45,7 @@ int main()
     // Function that prints all the numbers in set
     do {
         std::cout << *it << " ";
-    } while (comp(*(++it), start));
+    } while (comp(*(++ it), start));
 
     std::cout << '\n';
 

@@ -1,8 +1,8 @@
-# C++程序使用计算机图形绘制红绿灯模拟图
+# C++ 程序使用计算机图形绘制红绿灯模拟图
 
 > 原文:[https://www . geesforgeks . org/CPP-program-to-draw-a-traffic-simulation-light-use-computer-graphics/](https://www.geeksforgeeks.org/cpp-program-to-draw-a-traffic-simulation-light-using-computer-graphics/)
 
-在计算机中， [graphics.h](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/) 可以用来提供直接的函数来绘制不同的坐标，如圆形、矩形等。使用这些形状，可以绘制不同的对象。本文重点介绍如何在 [Turbo C++](https://www.geeksforgeeks.org/difference-between-turbo-c-and-dev-c/) 中进行红绿灯模拟。
+在计算机中， [graphics.h](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/) 可以用来提供直接的函数来绘制不同的坐标，如圆形、矩形等。使用这些形状，可以绘制不同的对象。本文重点介绍如何在 [Turbo C++ ](https://www.geeksforgeeks.org/difference-between-turbo-c-and-dev-c/) 中进行红绿灯模拟。
 
 **使用的功能:**
 

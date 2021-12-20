@@ -8,7 +8,7 @@
 
 本系列的主要文章如下:
 
-*   [运行在树莓 PI](https://media.geeksforgeeks.org/geek/full-screen-opencv-gtk-application-in-c-running-on-raspberry-pi/) 上的 C++全屏 OpenCV / GtK 应用。
+*   [运行在树莓 PI](https://media.geeksforgeeks.org/geek/full-screen-opencv-gtk-application-in-c-running-on-raspberry-pi/) 上的 C++ 全屏 OpenCV / GtK 应用。
 
 本文讨论如何配置您的*窗口*来检索源代码，构建和调试这样一个项目。该项目的来源如下:
 

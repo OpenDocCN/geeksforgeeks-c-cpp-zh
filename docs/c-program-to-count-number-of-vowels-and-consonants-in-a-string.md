@@ -57,7 +57,7 @@ void count_vowels_and_consonant(char* str)
             || ch == 'u' || ch == 'A'
             || ch == 'E' || ch == 'I'
             || ch == 'O' || ch == 'U')
-            vowels++;
+            vowels++ ;
 
         // If this character is a space
         // skip it
@@ -66,7 +66,7 @@ void count_vowels_and_consonant(char* str)
 
         else
             // Else increment the count of consonants
-            consonants++;
+            consonants++ ;
     }
 
     // Print the total count of vowels and consonants

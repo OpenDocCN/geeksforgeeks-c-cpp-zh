@@ -104,9 +104,9 @@ int main()
     // Priority queue becomes 1, 8, 3, 6, 2
 
     while (!pqueue.empty()) {
-        for (int i = 2; i <= pqueue.top() / 2; ++i) {
+        for (int i = 2; i <= pqueue.top() / 2; ++ i) {
             if (pqueue.top() % i == 0) {
-                prime++;
+                prime++ ;
                 break;
             }
         }

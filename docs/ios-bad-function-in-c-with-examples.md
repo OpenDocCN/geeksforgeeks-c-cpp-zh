@@ -1,8 +1,8 @@
-# ios 坏()函数在 C++中用示例
+# ios 坏()函数在 C++ 中用示例
 
 > 原文:[https://www . geesforgeks . org/IOs-bad-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-bad-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **bad()** 方法用于检查流是否引发了任何错误。这意味着这个函数将检查这个流是否设置了坏位。
+C++ 中 **ios 类**的 **bad()** 方法用于检查流是否引发了任何错误。这意味着这个函数将检查这个流是否设置了坏位。
 
 **语法:**
 

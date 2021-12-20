@@ -2,11 +2,11 @@
 
 > 原文:[https://www.geeksforgeeks.org/alternative-of-malloc-in-c/](https://www.geeksforgeeks.org/alternative-of-malloc-in-c/)
 
-C 或 C++中的[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)是存储在连续内存位置的项目集合，可以使用数组的索引随机访问元素。它们用于存储类似类型的元素，因为所有元素的数据类型必须相同。它们可以用来存储原始数据类型的集合，例如任何特定类型的 int、float、double、char 等。此外， [C](https://www.geeksforgeeks.org/c-programming-language/) 或 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的数组可以存储派生的数据类型，如结构、指针等。下面给出了一个数组的生动的表示。
+C 或 C++ 中的[数组](https://www.geeksforgeeks.org/introduction-to-arrays/)是存储在连续内存位置的项目集合，可以使用数组的索引随机访问元素。它们用于存储类似类型的元素，因为所有元素的数据类型必须相同。它们可以用来存储原始数据类型的集合，例如任何特定类型的 int、float、double、char 等。此外， [C](https://www.geeksforgeeks.org/c-programming-language/) 或 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的数组可以存储派生的数据类型，如结构、指针等。下面给出了一个数组的生动的表示。
 
 ![array](img/13b7429b646a58c1b6e67867ce0dab9c.png)
 
-C++中有两种类型的数组/字符串声明，如下所示
+C++ 中有两种类型的数组/字符串声明，如下所示
 
 1.  静态声明
 2.  动态声明
@@ -33,7 +33,7 @@ int n = 10;
 int arr2[n];
 ```
 
-> **注**:用最近的 C/C++版本，我们也可以声明一个用户指定大小的数组
+> **注**:用最近的 C/C++ 版本，我们也可以声明一个用户指定大小的数组
 
 **通过初始化元素进行数组声明**
 

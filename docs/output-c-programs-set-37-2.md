@@ -1,8 +1,8 @@
-# c++程序输出|第 37 集
+# c++ 程序输出|第 37 集
 
 > 原文:[https://www.geeksforgeeks.org/output-c-programs-set-37-2/](https://www.geeksforgeeks.org/output-c-programs-set-37-2/)
 
-预测以下 C++代码的输出:
+预测以下 C++ 代码的输出:
 
 **问题 1**
 

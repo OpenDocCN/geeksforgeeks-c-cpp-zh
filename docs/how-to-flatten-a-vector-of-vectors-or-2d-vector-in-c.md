@@ -1,4 +1,4 @@
-# 如何在 C++中展平矢量或 2D 矢量
+# 如何在 C++ 中展平矢量或 2D 矢量
 
 > 原文:[https://www . geeksforgeeks . org/如何展平矢量中的矢量或矢量中的二维矢量/](https://www.geeksforgeeks.org/how-to-flatten-a-vector-of-vectors-or-2d-vector-in-c/)
 
@@ -71,14 +71,14 @@ public:
         // increment currIndex.
         if (iStart[currIndex]
             == iEnd[currIndex]) {
-            currIndex++;
+            currIndex++ ;
             return next();
         }
 
         // Increment iterator
         // and return the value.
         else
-            return *iStart[currIndex]++;
+            return *iStart[currIndex]++ ;
     }
 };
 

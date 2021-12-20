@@ -1,8 +1,8 @@
-# 通过 C++类进行文件处理
+# 通过 C++ 类进行文件处理
 
 > 原文:[https://www.geeksforgeeks.org/file-handling-c-classes/](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
-在 C++中，文件主要通过使用 fstream headerfile 中可用的三个类 fsstream、ifstream、ofstream 来处理。
+在 C++ 中，文件主要通过使用 fstream headerfile 中可用的三个类 fsstream、ifstream、ofstream 来处理。
 **ofstream:** Stream 类写入文件
 **ifstream:** Stream 类读取文件
 **fsstream:**Stream 类读取/写入文件。
@@ -51,7 +51,7 @@
 
 </figure>
 
-**问题陈述**:用 C++读写文件。
+**问题陈述**:用 C++ 读写文件。
 **例:**
 
 ```cpp

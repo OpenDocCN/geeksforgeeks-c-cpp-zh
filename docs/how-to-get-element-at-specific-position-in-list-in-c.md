@@ -1,4 +1,4 @@
-# 如何在 C++中获取列表中特定位置的元素
+# 如何在 C++ 中获取列表中特定位置的元素
 
 > 原文:[https://www . geeksforgeeks . org/如何获取 c 列表中特定位置的元素/](https://www.geeksforgeeks.org/how-to-get-element-at-specific-position-in-list-in-c/)
 
@@ -14,7 +14,7 @@ advance(InputIterator& it, Distance N)
 
 **返回类型:**该功能没有返回类型。
 
-下面是上述方法的 C++实现:
+下面是上述方法的 C++ 实现:
 
 ## c++
 

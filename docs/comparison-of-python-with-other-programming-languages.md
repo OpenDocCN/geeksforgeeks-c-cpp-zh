@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/python 与其他编程语言的比较/](https://www.geeksforgeeks.org/comparison-of-python-with-other-programming-languages/)
 
-**[Python](https://www.geeksforgeeks.org/python-programming-language/)** 是一种适应性很强的编程语言，提供了很多特性。它简洁的语法和开源的特性促进了程序的可读性和实现，这使得它成为当今发展最快的编程语言。Python 还有许多其他的优势，这使得它比其他流行的编程语言更有优势，比如 [Java](https://www.geeksforgeeks.org/java/) 和 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 。
+**[Python](https://www.geeksforgeeks.org/python-programming-language/)** 是一种适应性很强的编程语言，提供了很多特性。它简洁的语法和开源的特性促进了程序的可读性和实现，这使得它成为当今发展最快的编程语言。Python 还有许多其他的优势，这使得它比其他流行的编程语言更有优势，比如 [Java](https://www.geeksforgeeks.org/java/) 和 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 。
 
 ### Python vs Java
 
@@ -47,9 +47,9 @@
 
 ### Python vs C++
 
-*   与不支持垃圾收集的 C++相比，Python 更具内存效率，因为它具有自动垃圾收集功能。
-*   与 C++相比，Python 代码易于学习、使用和编写，而 c++由于其复杂的语法而难以理解和使用。
-*   Python 使用解释器来执行代码，这使得它很容易在几乎每台计算机或操作系统上运行。相比之下，C++代码只有在计算机上编译后才能在其他计算机上运行。
-*   Python 可以很容易地用于快速应用程序开发，因为与 C++相比，它的代码更小，而 c++由于代码片段大而无法用于快速应用程序开发。
-*   Python 代码的可读性更强，因为与包含难以阅读的结构和语法的 C++代码相比，它更像真实的英语。
-*   与 C++相比，Python 中定义的变量很容易在循环外访问，在 c++中，变量的范围被限制在循环内。
+*   与不支持垃圾收集的 C++ 相比，Python 更具内存效率，因为它具有自动垃圾收集功能。
+*   与 C++ 相比，Python 代码易于学习、使用和编写，而 c++ 由于其复杂的语法而难以理解和使用。
+*   Python 使用解释器来执行代码，这使得它很容易在几乎每台计算机或操作系统上运行。相比之下，C++ 代码只有在计算机上编译后才能在其他计算机上运行。
+*   Python 可以很容易地用于快速应用程序开发，因为与 C++ 相比，它的代码更小，而 c++ 由于代码片段大而无法用于快速应用程序开发。
+*   Python 代码的可读性更强，因为与包含难以阅读的结构和语法的 C++ 代码相比，它更像真实的英语。
+*   与 C++ 相比，Python 中定义的变量很容易在循环外访问，在 c++ 中，变量的范围被限制在循环内。

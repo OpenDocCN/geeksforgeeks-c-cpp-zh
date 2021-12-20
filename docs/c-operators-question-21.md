@@ -22,6 +22,6 @@ int main()
 
 **答案:****(A)**
 
-**解释:**sizeof 内部编写的表达式未求值，所以 i++不执行。
+**解释:**sizeof 内部编写的表达式未求值，所以 i++ 不执行。
 
 [本题小考](https://www.geeksforgeeks.org/java-gq/operators-gq/)

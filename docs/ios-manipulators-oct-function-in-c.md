@@ -1,8 +1,8 @@
-# ios 操纵器 oct()在 C++中运行
+# ios 操纵器 oct()在 C++ 中运行
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-oct-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-oct-function-in-c/)
 
-C++中**流操纵器**的 **oct()** 方法用于设置指定字符串流的基线格式标志。该标志设置八进制数的基线。因此，输出显示了八进制基数的数字。
+C++ 中**流操纵器**的 **oct()** 方法用于设置指定字符串流的基线格式标志。该标志设置八进制数的基线。因此，输出显示了八进制基数的数字。
 
 **语法:**
 

@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/fegetenv-function-in-c-c/](https://www.geeksforgeeks.org/fegetenv-function-in-c-c/)
 
-C/C++中的 **fegetenv()** 函数在头文件 **cfenv.h** 中指定，并尝试将浮点环境的当前状态存储在 **envp** 所指向的对象中。浮点环境是一组状态标志和控制模式，包括浮点异常和舍入方向模式。
+C/C++ 中的 **fegetenv()** 函数在头文件 **cfenv.h** 中指定，并尝试将浮点环境的当前状态存储在 **envp** 所指向的对象中。浮点环境是一组状态标志和控制模式，包括浮点异常和舍入方向模式。
 
 **语法:**
 

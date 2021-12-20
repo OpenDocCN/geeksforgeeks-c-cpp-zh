@@ -1,4 +1,4 @@
-# C/c++中的 lseek()读取第 n 个备用字节，并将其写入另一个文件
+# C/c++ 中的 lseek()读取第 n 个备用字节，并将其写入另一个文件
 
 > 原文:[https://www . geesforgeks . org/lseek-in-c-to-read-alternate-n-byte-and-write-it-in-other-file/](https://www.geeksforgeeks.org/lseek-in-c-to-read-the-alternate-nth-byte-and-write-it-in-another-file/)
 

@@ -146,7 +146,7 @@ void generate(char** arr, int size, char *a)
     if (size==0)
     {
         strcpy(arr[row], a);
-        row++;
+        row++ ;
         return;
     }
     char b0[20] = {'\0'};
@@ -196,7 +196,7 @@ int main()
     if (accept[1]==1) //Check for empty string
     {
         printf("e\n");
-        count++;
+        count++ ;
     }
 
     while (count < 11)
@@ -232,14 +232,14 @@ int main()
             {
                 printf("%s\n",input);
                                 // Print if accepted
-                count++;
+                count++ ;
             }
 
             if (count==10)
                 return 0;
         }
 
-        size++; //Increment size of binary string input
+        size++ ; //Increment size of binary string input
         row=0;
     }
 

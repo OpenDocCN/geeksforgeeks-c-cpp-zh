@@ -1,8 +1,8 @@
-# ios good()函数在 C++中用示例
+# ios good()函数在 C++ 中用示例
 
 > 原文:[https://www . geeksforgeeks . org/IOs-good-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-good-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **good()** 方法用来检查流是否足够好可以工作。这意味着该函数将检查该流是否引发了任何错误。
+C++ 中 **ios 类**的 **good()** 方法用来检查流是否足够好可以工作。这意味着该函数将检查该流是否引发了任何错误。
 
 **语法:**
 

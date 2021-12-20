@@ -1,4 +1,4 @@
-# 用 C++创建自定义向量类的程序
+# 用 C++ 创建自定义向量类的程序
 
 > 原文:[https://www . geesforgeks . org/program-to-create-custom-vector-class-in-c/](https://www.geeksforgeeks.org/program-to-create-custom-vector-class-in-c/)
 
@@ -8,7 +8,7 @@
 *   **data_type pop_back():** 从数组末尾移除一个元素，并返回弹出的元素
 *   **int size() const:** 返回向量的当前大小
 
-下面的程序用 C++实现了一个自定义向量类，具有上述功能:
+下面的程序用 C++ 实现了一个自定义向量类，具有上述功能:
 
 ## CPP14
 
@@ -77,7 +77,7 @@ public:
         }
         iterator& operator++()
         {
-            ++ptr;
+            ++ ptr;
             return *this;
         }
         iterator operator++(int)
@@ -114,7 +114,7 @@ ll GenericMyVector<DT>::push_back(DT data)
         copy(old, old + length, arr);
         delete[] old;
     }
-    arr[length++] = data;
+    arr[length++ ] = data;
     return length;
 }
 

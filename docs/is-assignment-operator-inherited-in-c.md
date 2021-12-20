@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/is-赋值-运算符-继承-in-c/](https://www.geeksforgeeks.org/is-assignment-operator-inherited-in-c/)
 
-在 C++中，像其他函数一样，赋值运算符函数在派生类中被继承。
+在 C++ 中，像其他函数一样，赋值运算符函数在派生类中被继承。
 
 例如，在下面的程序中，可以使用派生类对象访问基类赋值运算符函数。
 

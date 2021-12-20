@@ -17,7 +17,7 @@
 *   该函数基于关键元素搜索矢量从**开始**到**结束**的元素。如果该值不存在，那么它将返回**结束迭代器**。
 *   如果关键元素与向量元素匹配，那么它将返回元素及其位置。
 
-下面是 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)来说明泛型 **find()** 在 vector 中的实现:
+下面是 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)来说明泛型 **find()** 在 vector 中的实现:
 
 ## C++
 
@@ -44,7 +44,7 @@ ForwardIterator search(
         }
 
         // Increment the iterator
-        start++;
+        start++ ;
     }
 
     // If key is not present then,

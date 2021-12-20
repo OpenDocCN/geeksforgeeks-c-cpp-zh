@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/如何编译并运行 c-c-plus-plus-Java-programs-in-Linux/](https://www.geeksforgeeks.org/how-to-compile-and-run-c-c-plus-plus-java-programs-in-linux/)
 
 c 是一种过程编程语言。它最初是由丹尼斯·里奇在 1969 年至 1973 年间开发的。它主要是作为编写操作系统的系统编程语言开发的。C 语言的主要特性包括对内存的低级访问、一组简单的关键字和干净的风格，这些特性使 C 语言适合像操作系统或编译器开发这样的系统编程。
-首先需要安装一些 GNU、GCC、C/C++编译器等开发工具和应用，在 Linux 上编译执行代码。您可以使用以下命令验证安装的工具:
+首先需要安装一些 GNU、GCC、C/C++ 编译器等开发工具和应用，在 Linux 上编译执行代码。您可以使用以下命令验证安装的工具:
 
 *查看 cc 的版本信息:*
 
@@ -46,11 +46,11 @@ cc Geeks.c -o geeksoutput
 
 [![](img/f014f541c6c00cc92d1ebad28a65c759.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190308155304/how-3.png)
 
-**对于 C++程序文件:**
+**对于 C++ 程序文件:**
 
-C++是一种通用编程语言，现在广泛用于竞争性编程。它具有命令式、面向对象和泛型编程特性。C++运行在许多平台上，如视窗、Linux、Unix、Mac 等。在我们开始用 C++编程之前。我们需要在本地计算机上建立一个环境来成功编译和运行我们的 C++程序。您可以使用以下命令验证安装的工具:
+C++ 是一种通用编程语言，现在广泛用于竞争性编程。它具有命令式、面向对象和泛型编程特性。C++ 运行在许多平台上，如视窗、Linux、Unix、Mac 等。在我们开始用 C++ 编程之前。我们需要在本地计算机上建立一个环境来成功编译和运行我们的 C++ 程序。您可以使用以下命令验证安装的工具:
 
-*查看 g++的版本信息:*
+*查看 g++ 的版本信息:*
 
 ```cpp
 g++ --version
@@ -58,7 +58,7 @@ g++ --version
 
 [![](img/647093a36fed256aa2f7707a90ffa9a7.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190308170121/how-4.png)
 
-现在考虑一个简单的名为 *geeks.cpp* 的 C++程序文件，如下所示:
+现在考虑一个简单的名为 *geeks.cpp* 的 C++ 程序文件，如下所示:
 
 ```cpp
 #include<iostream>  
@@ -82,7 +82,7 @@ int main() 
 g++ filename.cpp -o executable_file_name
 ```
 
-这里， *filename.cpp* 是 C++程序文件，使用-o 选项显示代码中的错误。如果没有发现错误，这将生成一个可执行文件作为*可执行文件名称*。
+这里， *filename.cpp* 是 C++ 程序文件，使用-o 选项显示代码中的错误。如果没有发现错误，这将生成一个可执行文件作为*可执行文件名称*。
 
 ```cpp
 g++ geeks.cpp -o geeksoutput

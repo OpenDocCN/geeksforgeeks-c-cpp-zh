@@ -162,14 +162,14 @@ void UtilFindFreqArr(int arr[], int N)
                arr[i], fr);
 
         // Update i
-        i++;
+        i++ ;
 
         // Remove duplicate elements
         // from the array
         while (i < N && arr[i] == arr[i - 1]) {
 
             // Update i
-            i++;
+            i++ ;
         }
 
         // If arr[i] is not

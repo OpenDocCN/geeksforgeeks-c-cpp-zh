@@ -191,7 +191,7 @@ void transfermoney(void)
  {
    for (j = 0; j < 1200000; j++)  
    {
-     j++;
+     j++ ;
      j--;
    }
    printf("*");
@@ -250,13 +250,13 @@ void checkbalance(char username2[])
    if (strcmp(username2,  
               m1.usernameto) == 0)  
    {
-     gotoxy(k, ++l);
+     gotoxy(k, ++ l);
      printf("%d", i);
-     i++;
-     gotoxy(m, ++n);
+     i++ ;
+     gotoxy(m, ++ n);
      printf("%s", m1.userpersonfrom);
 
-     gotoxy(u, ++v);
+     gotoxy(u, ++ v);
      printf("%d", m1.money1);
      // adding and
      // finding total money
@@ -366,7 +366,7 @@ void loginsu(void)
  printf("Fetching account details.....\n");
  for (i = 0; i < 20000; i++)  
  {
-   i++;
+   i++ ;
    i--;
  }
  gotoxy(30, 10);
@@ -587,7 +587,7 @@ void accountcreated(void)
     printf(
         "PLEASE WAIT....\n\nYOUR DATA IS PROCESSING....");
     for (i = 0; i < 200000000; i++) {
-        i++;
+        i++ ;
         i--;
     }
 
@@ -681,7 +681,7 @@ void loginsu(void)
     system("cls");
     printf("Fetching account details.....\n");
     for (i = 0; i < 20000; i++) {
-        i++;
+        i++ ;
         i--;
     }
 
@@ -873,7 +873,7 @@ void transfermoney(void)
     gotoxy(10, 27);
     for (i = 0; i < 70; i++) {
         for (j = 0; j < 1200000; j++) {
-            j++;
+            j++ ;
             j--;
         }
         printf("*");
@@ -927,13 +927,13 @@ void checkbalance(char username2[])
         if (strcmp(username2,
                    m1.usernameto)
             == 0) {
-            gotoxy(k, ++l);
+            gotoxy(k, ++ l);
             printf("%d", i);
-            i++;
-            gotoxy(m, ++n);
+            i++ ;
+            gotoxy(m, ++ n);
             printf("%s", m1.userpersonfrom);
 
-            gotoxy(u, ++v);
+            gotoxy(u, ++ v);
             printf("%d", m1.money1);
             // Adding and
             // finding total money
@@ -965,7 +965,7 @@ void logout(void)
 
     for (i = 0; i < 10; i++) {
         for (j = 0; j < 25000000; j++) {
-            i++;
+            i++ ;
             i--;
         }
         printf(".");

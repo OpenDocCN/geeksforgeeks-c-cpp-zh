@@ -1,8 +1,8 @@
-# 为什么在 C++程序中写“使用命名空间 std”很重要？
+# 为什么在 C++ 程序中写“使用命名空间 std”很重要？
 
 > 原文:[https://www . geesforgeks . org/why-it-is-important-write-use-namespace-STD-in-CPP-program/](https://www.geeksforgeeks.org/why-it-is-important-to-write-using-namespace-std-in-cpp-program/)
 
-在本文中，我们将讨论 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)中**使用 [**命名空间**](https://www.geeksforgeeks.org/namespace-in-c/)**【STD】**的用法。**
+在本文中，我们将讨论 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)中**使用 [**命名空间**](https://www.geeksforgeeks.org/namespace-in-c/)**【STD】**的用法。**
 
 **<u>需要的</u>** [**<u>命名空间</u>**](https://www.geeksforgeeks.org/namespace-in-c/) **:**
 
@@ -11,7 +11,7 @@
 
 **程序 1:**
 
-下面是一个 C++程序，演示了函数和变量同名的名称空间的使用:
+下面是一个 C++ 程序，演示了函数和变量同名的名称空间的使用:
 
 ## C++
 
@@ -87,7 +87,7 @@ This is fun() of n2
 
 **程序 2:**
 
-下面是演示“使用”[指令](https://www.geeksforgeeks.org/cc-preprocessors/)用法的 C++程序:
+下面是演示“使用”[指令](https://www.geeksforgeeks.org/cc-preprocessors/)用法的 C++ 程序:
 
 ## C++
 
@@ -138,7 +138,7 @@ This is fun() of n1
 
 **程序 3:**
 
-下面是 C++程序，演示了 [main()函数](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/)中“使用命名空间”的用法:
+下面是 C++ 程序，演示了 [main()函数](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/)中“使用命名空间”的用法:
 
 ## C++
 
@@ -190,7 +190,7 @@ int main()
 *   众所周知，“std”(标准的缩写)是一个名字空间，其成员在程序中使用。
 *   所以“std”命名空间的成员有 [cout](https://www.geeksforgeeks.org/difference-between-cout-and-stdcout-in-c/) 、 [cin](https://www.geeksforgeeks.org/cincout-vs-scanfprintf/) 、 [endl](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/) 等。
 *   该名称空间存在于 [iostream.h](https://www.geeksforgeeks.org/c-stream-classes-structure/) [头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)中。
-*   下面是 C++中的代码片段，显示了 iostream.h 中编写的内容:
+*   下面是 C++ 中的代码片段，显示了 iostream.h 中编写的内容:
 
 ## C++
 
@@ -211,7 +211,7 @@ i0stream cin;
 
 **程序 4:**
 
-下面是演示 std 使用的 C++程序:
+下面是演示 std 使用的 C++ 程序:
 
 ## C++
 

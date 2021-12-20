@@ -54,7 +54,7 @@ void findMinimumDistinct(int A[], int N, int K)
 
         // Update frequency
         // of array elements
-        mp[A[i]]++;
+        mp[A[i]]++ ;
 
     // Store the required result
     int count = 0;
@@ -86,7 +86,7 @@ void findMinimumDistinct(int A[], int N, int K)
         if (len >= K)
             break;
         len += counts[i];
-        count++;
+        count++ ;
     }
 
     // Print the result
@@ -167,7 +167,7 @@ static void findMinimumDistinct(int A[], int N, int K)
             break;
 
         len += counts.get(i);
-        count++;
+        count++ ;
     }
 
     // Print the result

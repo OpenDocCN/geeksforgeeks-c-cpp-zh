@@ -1,8 +1,8 @@
-# C++程序检查一个字符串是否是 Pangram
+# C++ 程序检查一个字符串是否是 Pangram
 
 > 原文:[https://www . geesforgeks . org/c-program-to-check-a-string-is-pangram-or-not/](https://www.geeksforgeeks.org/c-program-to-check-whether-a-string-is-a-pangram-or-not/)
 
-给定字符串 **str，**任务是检查一个字符串在 C++中是否是 pangram 使用。
+给定字符串 **str，**任务是检查一个字符串在 C++ 中是否是 pangram 使用。
 
 > 如果一个[字符串包含所有的英文字母，那么这个字符串就是一个 Pangram](https://www.geeksforgeeks.org/pangram-checking/) 。
 
@@ -156,7 +156,7 @@ string pangrams(string s)
     // Count distinct alphabets
     for (int i = 0; i < s.size(); i++) {
         if (s[i] != s[i + 1])
-            count++;
+            count++ ;
     }
 
     // If count is 27 then the string

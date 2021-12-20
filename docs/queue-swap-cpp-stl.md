@@ -57,12 +57,12 @@ int main()
     int v = 96;
     for (int i = 0; i < 5; i++) {
       queue1.push(v + 1);
-      v++;
+      v++ ;
     }
 
    for (int i = 0; i < 4; i++) {
       queue2.push(v + 1);
-      v++;
+      v++ ;
     }
 
     // Swap elements of queues

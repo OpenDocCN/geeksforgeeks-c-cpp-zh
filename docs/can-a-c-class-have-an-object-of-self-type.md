@@ -1,4 +1,4 @@
-# c++类可以有自身类型的对象吗？
+# c++ 类可以有自身类型的对象吗？
 
 > 原文:[https://www . geeksforgeeks . org/can-a-c-class-have-a-object-of-self-type/](https://www.geeksforgeeks.org/can-a-c-class-have-an-object-of-self-type/)
 

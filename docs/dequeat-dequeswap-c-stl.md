@@ -98,7 +98,7 @@ int main()
     mydeque.push_back(9);
     // Deque becomes 1, 2, 3, 4, 5, 6, 7, 8, 9
 
-    for (int i = 0; i < mydeque.size(); ++i) {
+    for (int i = 0; i < mydeque.size(); ++ i) {
         if (i % 2 == 0) {
             cout << mydeque.at(i);
             cout << " ";
@@ -172,13 +172,13 @@ int main()
 
     // printing the first deque
     cout << "mydeque1 = ";
-    for (auto it = mydeque1.begin(); it < mydeque1.end(); ++it)
+    for (auto it = mydeque1.begin(); it < mydeque1.end(); ++ it)
         cout << *it << " ";
 
     // printing the second deque
     cout << endl
          << "mydeque2 = ";
-    for (auto it = mydeque2.begin(); it < mydeque2.end(); ++it)
+    for (auto it = mydeque2.begin(); it < mydeque2.end(); ++ it)
         cout << *it << " ";
     return 0;
 }

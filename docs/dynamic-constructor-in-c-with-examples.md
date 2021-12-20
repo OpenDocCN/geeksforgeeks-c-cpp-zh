@@ -1,4 +1,4 @@
-# c++中的动态构造函数，示例
+# c++ 中的动态构造函数，示例
 
 > 原文:[https://www . geesforgeks . org/dynamic-constructor-in-c-with-examples/](https://www.geeksforgeeks.org/dynamic-constructor-in-c-with-examples/)
 

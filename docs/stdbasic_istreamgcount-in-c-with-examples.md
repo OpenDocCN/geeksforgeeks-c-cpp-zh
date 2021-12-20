@@ -1,4 +1,4 @@
-# c++中的 std::basic_istream::gcount()，示例
+# c++ 中的 std::basic_istream::gcount()，示例
 
 > 原文:[https://www . geesforgeks . org/stdbasic _ is treamgcount-in-c-with-examples/](https://www.geeksforgeeks.org/stdbasic_istreamgcount-in-c-with-examples/)
 

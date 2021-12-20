@@ -1,8 +1,8 @@
-# c++中的子串
+# c++ 中的子串
 
 > 原文:[https://www.geeksforgeeks.org/substring-in-cpp/](https://www.geeksforgeeks.org/substring-in-cpp/)
 
-在 C++中，std::substr()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
+在 C++ 中，std::substr()是用于字符串处理的预定义函数。 **string.h** 是字符串函数所需的头文件。
 该函数以两个值 **pos** 和 **len** 为参数，返回一个新构造的字符串对象，其值初始化为该对象的子字符串的副本。字符串的复制从*位置*开始，一直到*位置+镜头*表示**【位置，位置+镜头)**。
 **要点:**
 

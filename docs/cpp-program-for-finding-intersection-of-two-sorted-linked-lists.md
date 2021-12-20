@@ -1,4 +1,4 @@
-# 寻找两个排序链表交集的 C++程序
+# 寻找两个排序链表交集的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-寻找两个排序链表交集的程序/](https://www.geeksforgeeks.org/cpp-program-for-finding-intersection-of-two-sorted-linked-lists/)
 

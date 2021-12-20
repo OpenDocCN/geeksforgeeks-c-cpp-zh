@@ -10,7 +10,7 @@ C 语言是。(GATE CS 2002)
 
 **答案:****(B)**
 
-T21】解释: C 和 C++都是上下文相关的
+T21】解释: C 和 C++ 都是上下文相关的
 
 有几个原因:
 
@@ -27,6 +27,6 @@ T21】解释: C 和 C++都是上下文相关的
     第一个“foo”是标识符，而第二个和第三个是 typedef 名称。您需要解析 typedef 声明来解决这个问题(由于类型有嵌套的括号，这肯定至少和解析上下文无关的语言一样困难)。
     这意味着解析器和 lexer 是相互递归的，所以说解析器是上下文无关的，而 lexer 是上下文相关的是没有意义的。
 
-参考: [C 和 C++不是上下文无关的](http://trevorjim.com/c-and-cplusplus-are-not-context-free/)
+参考: [C 和 C++ 不是上下文无关的](http://trevorjim.com/c-and-cplusplus-are-not-context-free/)
 
 [本题小考](https://www.geeksforgeeks.org/c-language-2-gq/misc-gq/)

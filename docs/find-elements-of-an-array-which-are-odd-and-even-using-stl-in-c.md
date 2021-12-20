@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 查找奇数和偶数数组的元素
+# 在 C++ 中使用 STL 查找奇数和偶数数组的元素
 
 > 原文:[https://www . geeksforgeeks . org/find-array-elements-哪些是奇数和偶数-使用-stl-in-c/](https://www.geeksforgeeks.org/find-elements-of-an-array-which-are-odd-and-even-using-stl-in-c/)
 
-给定一个数组，任务是使用 C++中的 STL 找到奇数和偶数元素
+给定一个数组，任务是使用 C++ 中的 STL 找到奇数和偶数元素
 
 **例:**
 
@@ -15,7 +15,7 @@ Output: Odd = 4, Even = 1
 
 ```
 
-**方法:**这可以使用 C++中的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 方法来实现
+**方法:**这可以使用 C++ 中的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 方法来实现
 
 **语法:**
 

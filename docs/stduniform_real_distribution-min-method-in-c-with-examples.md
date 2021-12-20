@@ -1,8 +1,8 @@
-# STD::uniform _ real _ distribution min()方法用 C++举例
+# STD::uniform _ real _ distribution min()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ real _ distribution-min-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_real_distribution-min-method-in-c-with-examples/)
 
-C++中**均匀实分布类**的 **min()** 方法用来得到这个均匀实分布所能产生的最小可能值。
+C++ 中**均匀实分布类**的 **min()** 方法用来得到这个均匀实分布所能产生的最小可能值。
 
 **语法:**
 

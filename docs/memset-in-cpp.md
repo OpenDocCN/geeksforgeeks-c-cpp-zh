@@ -1,8 +1,8 @@
-# c++中的 Memset
+# c++ 中的 Memset
 
 > 原文:[https://www.geeksforgeeks.org/memset-in-cpp/](https://www.geeksforgeeks.org/memset-in-cpp/)
 
-Memset()是一个 C++函数。它将单个字符复制指定的次数到一个对象。在**<>**头文件中定义。
+Memset()是一个 C++ 函数。它将单个字符复制指定的次数到一个对象。在**<>**头文件中定义。
 
 **语法:**
 
@@ -88,7 +88,7 @@ int main()
 
 **另请参阅:**
 
-*   [memcpy()哦，天啊 c/c++](https://www.geeksforgeeks.org/memcpy-in-cc/)
-*   [memcmp()哦，天啊 c++](https://www.geeksforgeeks.org/stdmemcmp-in-cpp/)
+*   [memcpy()哦，天啊 c/c++ ](https://www.geeksforgeeks.org/memcpy-in-cc/)
+*   [memcmp()哦，天啊 c++ ](https://www.geeksforgeeks.org/stdmemcmp-in-cpp/)
 
 本文由**普拉纳夫**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](http://www.write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

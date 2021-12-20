@@ -1,8 +1,8 @@
-# wctrans()函数在 C/C++中
+# wctrans()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wctrans-function-in-c-c/](https://www.geeksforgeeks.org/wctrans-function-in-c-c/)
 
-C/C++中的这个 **wctrans()** 在头文件**cwcytepe . h**中指定，并返回一个与转换对应的 wctrans_t 类型的值。特定的区域设置可以接受字符的多种转换。以下是一些公认的转型:
+C/C++ 中的这个 **wctrans()** 在头文件**cwcytepe . h**中指定，并返回一个与转换对应的 wctrans_t 类型的值。特定的区域设置可以接受字符的多种转换。以下是一些公认的转型:
 
 *   **“to lower”**->改为小写|[**to lower**](https://www.geeksforgeeks.org/towlower-function-in-c-c/)
 *   **“to upper”**->改为大写|[**to upper**](https://www.geeksforgeeks.org/towupper-function-in-c-c/)

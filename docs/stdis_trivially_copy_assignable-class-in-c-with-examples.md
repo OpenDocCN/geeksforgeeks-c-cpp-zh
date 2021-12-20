@@ -1,4 +1,4 @@
-# STD::is _ trivaly _ copy _ 可赋值 C++类，示例
+# STD::is _ trivaly _ copy _ 可赋值 C++ 类，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ trivaly _ copy _ assigned-class-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_copy_assignable-class-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ is_trivially_copy_assignable<T>::value
 *   **真:**如果类型 **T** 是平凡地复制.
 *   **False:** If the type **t** is not a distributable ordinary copy.
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**标准::is _ 平凡 _ 副本 _ 可分配**的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示**标准::is _ 平凡 _ 副本 _ 可分配**的程序:
 
 **程序 1:**
 

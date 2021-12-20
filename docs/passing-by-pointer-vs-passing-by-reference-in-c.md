@@ -1,8 +1,8 @@
-# c++中通过指针传递与通过引用传递
+# c++ 中通过指针传递与通过引用传递
 
 > 原文:[https://www . geesforgeks . org/按指针传递 vs 按引用传递 in-c/](https://www.geeksforgeeks.org/passing-by-pointer-vs-passing-by-reference-in-c/)
 
-在 C++中，我们可以通过指针或引用将参数传递给函数。在这两种情况下，我们得到相同的结果。所以下面的问题是不可避免的；什么时候一个比另一个更受欢迎？我们用一个代替另一个的原因是什么？
+在 C++ 中，我们可以通过指针或引用将参数传递给函数。在这两种情况下，我们得到相同的结果。所以下面的问题是不可避免的；什么时候一个比另一个更受欢迎？我们用一个代替另一个的原因是什么？
 **路过指针:**
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
@@ -122,8 +122,8 @@ int main()
     p = NULL;          
     // &r = NULL;               // 2\. Compile Error
 
-    p++;                        // 3\. Points to next memory location
-    r++;                        // 3\. x values becomes 7
+    p++ ;                        // 3\. Points to next memory location
+    r++ ;                        // 3\. x values becomes 7
 
     cout << &p << " " << &x << endl;    // 4\. Different address
     cout << &r << " " << &x << endl;    // 4\. Same address
@@ -154,5 +154,5 @@ int main()
 
 **参数传递中的用法:**
 每当我们不需要“重新定位”时，引用通常比指针更受欢迎。
-总的来说，**可以的时候使用引用，必须的时候使用指针**。但是，如果我们想编写同时用 C 和 C++编译器编译的 C 代码，您将不得不限制自己使用指针。
+总的来说，**可以的时候使用引用，必须的时候使用指针**。但是，如果我们想编写同时用 C 和 C++ 编译器编译的 C 代码，您将不得不限制自己使用指针。
 本文由**罗希特·卡斯勒**供稿。如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

@@ -1,4 +1,4 @@
-# C/c++中带有函数名的额外括号
+# C/c++ 中带有函数名的额外括号
 
 > 原文:[https://www . geesforgeks . org/g-fact-36-function-declaration-带括号外-in-c/](https://www.geeksforgeeks.org/g-fact-36-function-declaration-with-extra-brackets-in-c/)
 
@@ -27,7 +27,7 @@ int main()
 Function 4
 ```
 
-所以在 C/C++中用函数名加上额外的括号是有效的。
+所以在 C/C++ 中用函数名加上额外的括号是有效的。
 
 **它有什么用？**
 一个用法可能是，如果我们有一个与函数同名的宏，那么多余的括号可以避免在我们想要调用函数的地方进行宏扩展。

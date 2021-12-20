@@ -1,8 +1,8 @@
-# c++中初始化的问题
+# c++ 中初始化的问题
 
 > 原文:[https://www . geesforgeks . org/CPP 中初始化问题/](https://www.geeksforgeeks.org/problem-of-initialization-in-cpp/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的初始化问题，一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)的数据成员默认具有私有作用域，因此不能直接在类外访问。因此在创建[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)时，不能直接初始化对象的成员，这种无法初始化[数据成员](https://www.geeksforgeeks.org/g-fact-32/)的问题被称为初始化 的 [**问题。**](https://www.geeksforgeeks.org/g-fact-32/)
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的初始化问题，一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)的数据成员默认具有私有作用域，因此不能直接在类外访问。因此在创建[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)时，不能直接初始化对象的成员，这种无法初始化[数据成员](https://www.geeksforgeeks.org/g-fact-32/)的问题被称为初始化 的 [**问题。**](https://www.geeksforgeeks.org/g-fact-32/)
 
 **示例:**在下面的示例中，用两个数据成员创建了一个类。这些数据成员没有明确定义的范围，因此默认情况下它们是私有的。稍后不能使用类的对象初始化私有数据成员。这里，如果使用类的对象初始化数据成员，那么它将显示一个错误。
 
@@ -50,7 +50,7 @@ int main()
 
 构造函数应该用于初始化类的成员变量，因为成员变量不能在单个语句中声明或定义。因此，在创建对象时，构造函数用于初始化类的数据成员。
 
-下面是 C++程序来说明上面的概念:
+下面是 C++ 程序来说明上面的概念:
 
 ## C++
 

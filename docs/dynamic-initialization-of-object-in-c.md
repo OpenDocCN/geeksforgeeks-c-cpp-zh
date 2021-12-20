@@ -1,4 +1,4 @@
-# c++中对象的动态初始化
+# c++ 中对象的动态初始化
 
 > 原文:[https://www . geeksforgeeks . org/c 中对象的动态初始化/](https://www.geeksforgeeks.org/dynamic-initialization-of-object-in-c/)
 
@@ -136,7 +136,7 @@ Value: 10
 
 ```
 
-下面的 C++程序正在演示对象的动态初始化和计算银行存款:
+下面的 C++ 程序正在演示对象的动态初始化和计算银行存款:
 
 ## C++
 

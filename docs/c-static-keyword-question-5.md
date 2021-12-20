@@ -18,7 +18,7 @@ int Test::count = 0;
 
 Test& Test::fun()
 {
-    Test::count++;
+    Test::count++ ;
     cout << Test::count << " ";
     return *this;
 }

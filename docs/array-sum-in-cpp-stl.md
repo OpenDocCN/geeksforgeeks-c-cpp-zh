@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/array-sum-in-cpp-stl/](https://www.geeksforgeeks.org/array-sum-in-cpp-stl/)
 
-在 C++中，我们可以使用[累加()](https://www.geeksforgeeks.org/numeric-header-in-c-stl-set-1-accumulate-and-partial_sum/)
+在 C++ 中，我们可以使用[累加()](https://www.geeksforgeeks.org/numeric-header-in-c-stl-set-1-accumulate-and-partial_sum/)
 
 ```cpp
 // C++ program to demonstrate working of accumulate()

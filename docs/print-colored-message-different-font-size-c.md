@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/print-colored-message-differential-font-size-c/](https://www.geeksforgeeks.org/print-colored-message-different-font-size-c/)
 
-在 C/C++中，我们可以使用 graphics.h 头文件来创建程序，该文件使用图形功能，如创建不同的对象、设置文本颜色、以不同的字体和大小打印消息、更改输出控制台的背景等。
+在 C/C++ 中，我们可以使用 graphics.h 头文件来创建程序，该文件使用图形功能，如创建不同的对象、设置文本颜色、以不同的字体和大小打印消息、更改输出控制台的背景等。
 在这里，我们将创建一个程序，该程序将以不同的字体样式和大小以彩色形式打印消息(“极客”)。下面列出了一些使用的功能:
 
 *   **setcolor():** 它将设置光标颜色，因此输出屏幕上写入的任何内容都将具有与 setcolor()相同的颜色。

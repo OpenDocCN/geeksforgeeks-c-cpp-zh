@@ -465,7 +465,7 @@ Sum is 12
 // Function pass by value
 void increase_by_one(int x)
 {
-    x++;
+    x++ ;
 }
 
 int main()
@@ -511,7 +511,7 @@ Value after function call 5
 // call by value
 void increase_by_one(int* x)
 {
-    (*x)++;
+    (*x)++ ;
 }
 
 int main()

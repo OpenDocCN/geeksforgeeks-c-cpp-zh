@@ -81,8 +81,8 @@ int main()
     ptr = &arr;
 
     cout << "p =" << p <<", ptr = "<< ptr<< endl;
-    p++;
-    ptr++;
+    p++ ;
+    ptr++ ;
     cout << "p =" << p <<", ptr = "<< ptr<< endl;
 
     return 0;
@@ -116,8 +116,8 @@ int main()
 
     printf("p = %p, ptr = %p\n", p, ptr);
 
-    p++;
-    ptr++;
+    p++ ;
+    ptr++ ;
 
     printf("p = %p, ptr = %p\n", p, ptr);
 

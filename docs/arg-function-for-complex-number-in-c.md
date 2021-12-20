@@ -1,4 +1,4 @@
-# c++中复数的 arg()函数
+# c++ 中复数的 arg()函数
 
 > 原文:[https://www . geesforgeks . org/arg-function-for-complex-number-in-c/](https://www.geeksforgeeks.org/arg-function-for-complex-number-in-c/)
 

@@ -1,8 +1,8 @@
-# 带示例的 C/C++中的指针
+# 带示例的 C/C++ 中的指针
 
 > 原文:[https://www.geeksforgeeks.org/pointers-c-examples/](https://www.geeksforgeeks.org/pointers-c-examples/)
 
-指针是地址的符号表示。它们使程序能够模拟按引用调用，以及创建和操作动态数据结构。它在 C/C++中的一般声明具有以下格式:
+指针是地址的符号表示。它们使程序能够模拟按引用调用，以及创建和操作动态数据结构。它在 C/C++ 中的一般声明具有以下格式:
 
 **语法:**
 
@@ -93,7 +93,7 @@ Value at *ptr = 20
 
 **参考和指针**
 
-有 3 种方法可以将 C++参数传递给函数:
+有 3 种方法可以将 C++ 参数传递给函数:
 
 *   按值调用
 *   带指针参数的按引用调用
@@ -179,7 +179,7 @@ Square of n3: 64
 Change reflected in n3: 64
 ```
 
-在 C++中，默认情况下，参数是按值传递的，在被调用函数中所做的更改不会反映在传递的变量中。被调用的函数将更改复制到克隆中。
+在 C++ 中，默认情况下，参数是按值传递的，在被调用函数中所做的更改不会反映在传递的变量中。被调用的函数将更改复制到克隆中。
 如果希望直接修改原始副本(尤其是在传递巨大对象或数组时)和/或避免克隆开销，我们使用传递引用。带引用参数的传递引用不需要任何笨拙的语法来引用和取消引用。
 
 *   [C](https://www.geeksforgeeks.org/function-pointer-in-c/)中的函数指针
@@ -288,7 +288,7 @@ void geeks() 
             cout << "Value at *ptr = " << *ptr << "\n";
 
             // Increment pointer ptr by 1 
-            ptr++;
+            ptr++ ;
     }
 }
 
@@ -346,7 +346,7 @@ char y = ptr[3];
 
 **指向指针的指针**
 
-在 C++中，我们可以创建一个指向指针的指针，该指针又可以指向数据或其他指针。在声明指针时，语法只要求每个间接层有一元运算符(*)。
+在 C++ 中，我们可以创建一个指向指针的指针，该指针又可以指向数据或其他指针。在声明指针时，语法只要求每个间接层有一元运算符(*)。
 
 ```cpp
 char a;
@@ -361,7 +361,7 @@ c = &b;
 
 **[【空指针】](https://www.geeksforgeeks.org/void-pointer-c-cpp/)**
 
-这是 C++中可用的一种特殊类型的指针，表示缺少类型。void 指针是指向没有类型的值的指针(因此也是未确定长度和未确定解引用属性的指针)。
+这是 C++ 中可用的一种特殊类型的指针，表示缺少类型。void 指针是指向没有类型的值的指针(因此也是未确定长度和未确定解引用属性的指针)。
 这意味着 void 指针具有很大的灵活性，因为它可以指向任何数据类型。这种灵活性是有回报的。这些指针不能被直接取消引用。在被取消引用之前，它们必须首先被转换成其他指向具体数据类型的指针类型。
 
 ```cpp
@@ -378,7 +378,7 @@ void increase(void *data,int ptrsize)
         ptrchar = (char*)data;
 
         //Increase the char stored at *ptrchar by 1
-        (*ptrchar)++;
+        (*ptrchar)++ ;
         cout << "*data points to a char"<<"\n";
     }
     else if(ptrsize == sizeof(int))
@@ -389,7 +389,7 @@ void increase(void *data,int ptrsize)
         ptrint = (int*)data;
 
         //Increase the int stored at *ptrchar by 1
-        (*ptrint)++;
+        (*ptrint)++ ;
         cout << "*data points to an int"<<"\n";
     }
 }

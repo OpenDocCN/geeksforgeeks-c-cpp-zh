@@ -1,8 +1,8 @@
-# C/C++三元运算符–一些有趣的观察
+# C/C++ 三元运算符–一些有趣的观察
 
 > 原文:[https://www . geesforgeks . org/cc-三元-运算符-某些-有趣-观察/](https://www.geeksforgeeks.org/cc-ternary-operator-some-interesting-observations/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ```cpp
 #include <iostream>
@@ -93,6 +93,6 @@ int main()
 
 ******最佳实践:******
 
-****正是 C++类型系统的强大功能避免了这样的 bug。确保表达式 *exp <sub>2</sub>* 和 *exp <sub>3</sub>* 返回相同类型或至少可安全转换的类型。我们可以看到其他类似 C++的成语 *convert union* 进行安全转换。****
+****正是 C++ 类型系统的强大功能避免了这样的 bug。确保表达式 *exp <sub>2</sub>* 和 *exp <sub>3</sub>* 返回相同类型或至少可安全转换的类型。我们可以看到其他类似 C++ 的成语 *convert union* 进行安全转换。****
 
 ****如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。我们很乐意向其他极客学习和更新。****

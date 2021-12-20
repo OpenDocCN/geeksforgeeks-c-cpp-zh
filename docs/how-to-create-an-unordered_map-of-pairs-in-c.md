@@ -1,4 +1,4 @@
-# 如何在 C++中创建成对的无序 _ 映射？
+# 如何在 C++ 中创建成对的无序 _ 映射？
 
 > 原文:[https://www . geeksforgeeks . org/如何创建无序的 c 对地图/](https://www.geeksforgeeks.org/how-to-create-an-unordered_map-of-pairs-in-c/)
 

@@ -1,8 +1,8 @@
-# c++中的 Dynamic _ Cast
+# c++ 中的 Dynamic _ Cast
 
 > 原文:[https://www.geeksforgeeks.org/dynamic-_cast-in-cpp/](https://www.geeksforgeeks.org/dynamic-_cast-in-cpp/)
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是一门功能强大的语言。在 C++中，我们可以编写一个结构化程序，也可以编写[面向对象程序](https://www.geeksforgeeks.org/oops-object-oriented-design/)。在本文中，我们将关注 C++中的**动态 _cast** 。现在在 C++中开始 dynamic_cast 之前，先了解一下什么是 C++中的[型铸造](https://www.geeksforgeeks.org/type-conversion-in-c/)。'
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是一门功能强大的语言。在 C++ 中，我们可以编写一个结构化程序，也可以编写[面向对象程序](https://www.geeksforgeeks.org/oops-object-oriented-design/)。在本文中，我们将关注 C++ 中的**动态 _cast** 。现在在 C++ 中开始 dynamic_cast 之前，先了解一下什么是 C++ 中的[型铸造](https://www.geeksforgeeks.org/type-conversion-in-c/)。'
 
 ### [<u>型铸造</u>](https://www.geeksforgeeks.org/type-conversion-c/) :
 

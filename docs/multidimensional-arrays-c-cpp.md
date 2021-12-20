@@ -1,9 +1,9 @@
-# C/c++中的多维数组
+# C/c++ 中的多维数组
 
 > 原文:[https://www . geesforgeks . org/多维-数组-c-cpp/](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
 
 [数组-基础](https://www.geeksforgeeks.org/arrays-in-c-language-set-1-introduction/)
-在 C/C++中，我们可以用简单的话把多维数组定义为数组的数组。多维数组中的数据以表格形式存储(按主要行顺序)。
+在 C/C++ 中，我们可以用简单的话把多维数组定义为数组的数组。多维数组中的数据以表格形式存储(按主要行顺序)。
 申报 N 维数组的一般形式:
 
 ```cpp
@@ -163,11 +163,11 @@ int main()
     };
 
     // output each element's value
-    for (int i = 0; i < 2; ++i)
+    for (int i = 0; i < 2; ++ i)
     {
-        for (int j = 0; j < 3; ++j)
+        for (int j = 0; j < 3; ++ j)
         {
-            for (int k = 0; k < 2; ++k)
+            for (int k = 0; k < 2; ++ k)
             {
                 cout << "Element at x[" << i << "][" << j
                      << "][" << k << "] = " << x[i][j][k]

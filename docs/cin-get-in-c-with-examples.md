@@ -1,4 +1,4 @@
-# cin 在 C++中用例子得到()
+# cin 在 C++ 中用例子得到()
 
 > 原文:[https://www.geeksforgeeks.org/cin-get-in-c-with-examples/](https://www.geeksforgeeks.org/cin-get-in-c-with-examples/)
 

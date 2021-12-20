@@ -32,19 +32,19 @@ int main()
         g1.push_back(i);
 
     cout << "Output of begin and end: ";
-    for (auto i = g1.begin(); i != g1.end(); ++i)
+    for (auto i = g1.begin(); i != g1.end(); ++ i)
         cout << *i << " ";
 
     cout << "\nOutput of cbegin and cend: ";
-    for (auto i = g1.cbegin(); i != g1.cend(); ++i)
+    for (auto i = g1.cbegin(); i != g1.cend(); ++ i)
         cout << *i << " ";
 
     cout << "\nOutput of rbegin and rend: ";
-    for (auto ir = g1.rbegin(); ir != g1.rend(); ++ir)
+    for (auto ir = g1.rbegin(); ir != g1.rend(); ++ ir)
         cout << *ir << " ";
 
     cout << "\nOutput of crbegin and crend : ";
-    for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir)
+    for (auto ir = g1.crbegin(); ir != g1.crend(); ++ ir)
         cout << *ir << " ";
 
     return 0;

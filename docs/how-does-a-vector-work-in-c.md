@@ -1,8 +1,8 @@
-# 向量在 C++中是如何工作的？
+# 向量在 C++ 中是如何工作的？
 
 > 原文:[https://www.geeksforgeeks.org/how-does-a-vector-work-in-c/](https://www.geeksforgeeks.org/how-does-a-vector-work-in-c/)
 
-C++中的一个[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)可以在添加更多元素时自行调整大小。它还允许删除元素。
+C++ 中的一个[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)可以在添加更多元素时自行调整大小。它还允许删除元素。
 下面是当数组变满，用户希望添加一个项目时的一个非常基本的想法。
 1)在堆内存上创建更大的内存(例如两倍大小的内存)。
 2)将当前内存元素复制到新内存中。

@@ -69,7 +69,7 @@ void mouse(int button, int state,
             counter = 0;
         }
 
-        counter++;
+        counter++ ;
 
         // Redisplay
         glutPostRedisplay();
@@ -137,7 +137,7 @@ void midPointCircleDraw(void)
             // Mid-point is inside or
             // on the perimeter
             if (decision < 0) {
-                x1++;
+                x1++ ;
                 decision += 2 * x1 + 1;
             }
 
@@ -145,7 +145,7 @@ void midPointCircleDraw(void)
             // the perimeter
             else {
                 y1--;
-                x1++;
+                x1++ ;
                 decision += 2 * (x1 - y1) + 1;
             }
 

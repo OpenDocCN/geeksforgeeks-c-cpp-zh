@@ -1,4 +1,4 @@
-# c++中的 PImpl 成语，附示例
+# c++ 中的 PImpl 成语，附示例
 
 > 原文:[https://www . geeksforgeeks . org/pimpl-成语-in-c-with-examples/](https://www.geeksforgeeks.org/pimpl-idiom-in-c-with-examples/)
 

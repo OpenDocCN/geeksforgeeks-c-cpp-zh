@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/feholdexcept-in-c-c/](https://www.geeksforgeeks.org/feholdexcept-in-c-c/)
 
-C/C++中的 **feholdexcept()** 函数首先将当前浮点环境保存在 fenv_t 的对象中，然后重置所有浮点状态标志的当前值。feholdexcept()函数在 **C++** 中的 **cfenv** 头文件和 **C** 中的 **fenv.h** 头文件中定义。
+C/C++ 中的 **feholdexcept()** 函数首先将当前浮点环境保存在 fenv_t 的对象中，然后重置所有浮点状态标志的当前值。feholdexcept()函数在 **C++** 中的 **cfenv** 头文件和 **C** 中的 **fenv.h** 头文件中定义。
 **语法:**
 
 ```cpp

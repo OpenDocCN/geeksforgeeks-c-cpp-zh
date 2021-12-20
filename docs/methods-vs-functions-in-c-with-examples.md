@@ -1,4 +1,4 @@
-# c++中方法与函数的比较，示例
+# c++ 中方法与函数的比较，示例
 
 > 原文:[https://www . geesforgeks . org/methods-vs-functions-in-c-with-examples/](https://www.geeksforgeeks.org/methods-vs-functions-in-c-with-examples/)
 
@@ -22,14 +22,14 @@
 **[功能](https://www.geeksforgeeks.org/functions-in-c/) :**
 
 1.  函数是一组语句，接受特定的输入，进行一些计算，最后产生输出。
-2.  函数是独立定义的。**例如:** [主()在 C++](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/)
+2.  函数是独立定义的。**例如:** [主()在 C++ ](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/)
 3.  默认情况下，函数是公共的。
 4.  它可以在整个程序的任何地方访问。
 5.  它被称为它的名字本身。
 6.  如果需要，它能够返回值。
 7.  如果定义了一个函数，那么它对于已经创建的每个对象都是相同的。
 
-下面是用 C++说明函数和方法的程序:
+下面是用 C++ 说明函数和方法的程序:
 
 **程序 1:**
 

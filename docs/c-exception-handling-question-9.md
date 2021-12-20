@@ -11,7 +11,7 @@ class Test {
   int id;
 public:
   Test() {
-    count++;
+    count++ ;
     id = count;
     cout << "Constructing object number " << id << endl;
     if(id == 4)

@@ -1,4 +1,4 @@
-# 标准::C++中的一元 _ 求反()，示例
+# 标准::C++ 中的一元 _ 求反()，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdunary _ notify-in-c-with-examples/](https://www.geeksforgeeks.org/stdunary_negate-in-c-with-examples/)
 
@@ -55,7 +55,7 @@ int main()
     vector<int> arr;
 
     // Insert value from 1-10 in arr
-    for (int i = 1; i <= 10; ++i) {
+    for (int i = 1; i <= 10; ++ i) {
         arr.push_back(i);
     }
 

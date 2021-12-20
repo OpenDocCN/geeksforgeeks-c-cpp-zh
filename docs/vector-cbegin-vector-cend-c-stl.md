@@ -53,7 +53,7 @@ int main()
     cout << "Contents of the vector:" << endl;
     for (auto itr = vec.cbegin(); 
          itr != vec.end(); 
-         ++itr)
+         ++ itr)
         cout << *itr << endl;
 
     return 0;

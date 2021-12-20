@@ -1,8 +1,8 @@
-# 引用可以引用 C++中的无效位置吗？
+# 引用可以引用 C++ 中的无效位置吗？
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-25/](https://www.geeksforgeeks.org/g-fact-25/)
 
-在 C++中，[引用变量](http://en.wikipedia.org/wiki/Reference_%28C%2B%2B%29)比指针更安全，因为引用变量必须被初始化，并且一旦被初始化就不能被更改为引用其他东西。但是也有例外，我们可以有无效的引用。
+在 C++ 中，[引用变量](http://en.wikipedia.org/wiki/Reference_%28C%2B%2B%29)比指针更安全，因为引用变量必须被初始化，并且一旦被初始化就不能被更改为引用其他东西。但是也有例外，我们可以有无效的引用。
 
 1)引用未初始化指针处的值。
 

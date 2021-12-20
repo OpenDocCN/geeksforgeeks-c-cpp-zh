@@ -1,4 +1,4 @@
-# c++中基类和派生类的区别
+# c++ 中基类和派生类的区别
 
 > 原文:[https://www . geesforgeks . org/c 中基类和派生类的区别/](https://www.geeksforgeeks.org/difference-between-base-class-and-derived-class-in-c/)
 

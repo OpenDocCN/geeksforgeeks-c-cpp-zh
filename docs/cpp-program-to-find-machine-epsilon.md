@@ -1,4 +1,4 @@
-# C++程序查找机器ε
+# C++ 程序查找机器ε
 
 > 原文:[https://www . geesforgeks . org/CPP-程序到查找-机器-epsilon/](https://www.geeksforgeeks.org/cpp-program-to-find-machine-epsilon/)
 
@@ -6,12 +6,12 @@
 
 在 C 语言中，机器ε在标准标题中指定，名称为 FLT _ε、DBL _ε和 LDBL _ε。这三个宏分别为 float、double 和 long double 类型提供了机器ε。
 
-在 C++中，标准标题中也有类似的宏。C++中首选的方法是使用标准标题中指定的 STD::numeric _ limits::epsilon()–值。
+在 C++ 中，标准标题中也有类似的宏。C++ 中首选的方法是使用标准标题中指定的 STD::numeric _ limits::epsilon()–值。
 
 在 Java 中，它被称为 ULP(最后一位的单位)。您可以使用 java.lang.Math 包和 Math.ulp()方法找到它。
 
 在 Python3 中，该信息在 sys.float_info 中可用，它对应于 C99 中的 float.h。
-这是 c++等价的 std::numeric_limits::epsilon()。
+这是 c++ 等价的 std::numeric_limits::epsilon()。
 > > >导入 sys
 >>>sys . float _ info . epsilon
 

@@ -1,8 +1,8 @@
-# ios 操纵器在 C++中显示()函数
+# ios 操纵器在 C++ 中显示()函数
 
 > 原文:[https://www . geesforgeks . org/IOs-机械手-showpos-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-showpos-function-in-c/)
 
-C++中**流操纵器**的 **showpos()** 方法用于设置指定字符串流的 showpos 格式标志。此标志始终显示非负值及其+号。
+C++ 中**流操纵器**的 **showpos()** 方法用于设置指定字符串流的 showpos 格式标志。此标志始终显示非负值及其+号。
 
 **语法:**
 

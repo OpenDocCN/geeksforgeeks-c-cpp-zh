@@ -1,4 +1,4 @@
-# 标准::C++中的 not_equal_to，示例
+# 标准::C++ 中的 not_equal_to，示例
 
 > 原文:[https://www . geesforgeks . org/stdnot _ equal _ in-c-with-examples/](https://www.geeksforgeeks.org/stdnot_equal_to-in-c-with-examples/)
 
@@ -48,7 +48,7 @@ std::not_equal_to <int> ()
 *   **真:**如果 a 不等于 b。
 *   **假:**如果 a 等于 b。
 
-下面是 C++中**STD::not _ equal _ to**:
+下面是 C++ 中**STD::not _ equal _ to**:
 **程序 1:**
 的图解
 

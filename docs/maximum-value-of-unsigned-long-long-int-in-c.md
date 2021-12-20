@@ -1,8 +1,8 @@
-# c++中无符号长整型的最大值
+# c++ 中无符号长整型的最大值
 
 > 原文:[https://www . geesforgeks . org/最大值-无符号-long-long-int-in-c/](https://www.geeksforgeeks.org/maximum-value-of-unsigned-long-long-int-in-c/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的**无符号长整型** [数据类型](https://www.geeksforgeeks.org/c-data-types/)。是 C++ 中最大的(64 位)整数[数据类型。](https://www.geeksforgeeks.org/c-data-types/)
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的**无符号长整型** [数据类型](https://www.geeksforgeeks.org/c-data-types/)。是 C++ 中最大的(64 位)整数[数据类型。](https://www.geeksforgeeks.org/c-data-types/)
 
 无符号长整型数据类型的一些属性包括:
 
@@ -13,7 +13,7 @@
 *   无符号长整型可以存储的最小值为零。
 *   在数据类型的[溢出](https://www.geeksforgeeks.org/overflow-in-arithmetic-addition-in-binary-number-system/)或下溢的情况下，该值被环绕。例如，如果 **0** 存储在无符号长整型数据类型中，并且从中减去 **1** ，则该变量中的值将等于 **18，446，744，073，709，551，615。**同样，在溢出的情况下，该值将舍入回 **0** 。
 
-下面是获取 C++中无符号长整型可以存储的最高值的程序:
+下面是获取 C++ 中无符号长整型可以存储的最高值的程序:
 
 ## C++
 

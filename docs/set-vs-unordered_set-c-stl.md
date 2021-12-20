@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/set-vs-unordered_set-c-stl/](https://www.geeksforgeeks.org/set-vs-unordered_set-c-stl/)
 
-先决条件:[设置在 C++](https://www.geeksforgeeks.org/set-in-cpp-stl/) ，[无序 _ 设置在 C++](https://www.geeksforgeeks.org/unorderd_set-stl-uses/)
+先决条件:[设置在 C++ ](https://www.geeksforgeeks.org/set-in-cpp-stl/) ，[无序 _ 设置在 C++ ](https://www.geeksforgeeks.org/unorderd_set-stl-uses/)
 
 **差异:**
 
@@ -155,7 +155,7 @@ void inorderSuccessor(int key)
 
     set<int>::iterator it;
     it = s.find(key); // get iterator of key
-    ++it; // get next element
+    ++ it; // get next element
 
     // Iterator points to NULL (Element does
     // not exist)

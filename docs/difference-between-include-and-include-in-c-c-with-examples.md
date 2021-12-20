@@ -1,8 +1,8 @@
-# C/c++中#include <和#include“”的区别，示例
+# C/c++ 中#include <和#include“”的区别，示例
 
 > 原文:[https://www . geeksforgeeks . org/include 和 include-in-c-c-with-examples/](https://www.geeksforgeeks.org/difference-between-include-and-include-in-c-c-with-examples/)
 
-**先决条件:**[C/c++头文件及其用途](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)
+**先决条件:**[C/c++ 头文件及其用途](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)
 
 这两种类型的区别在于预处理器搜索要包含在代码中的文件的位置。
 
@@ -21,7 +21,7 @@
 
 [预处理器](https://www.geeksforgeeks.org/cc-preprocessors/)以依赖于实现的方式进行搜索，通常是在由[编译器/IDE](https://www.geeksforgeeks.org/top-5-free-online-ide-compilers-in-2020/) 预先指定的搜索目录中。这意味着编译器将搜索标准库头所在的位置。头文件可以在 **/usr/include** 或 **/usr/local/include** 等默认位置找到。此方法通常用于包含标准库头文件。
 
-**示例:**下面是演示上述概念的 C++程序:
+**示例:**下面是演示上述概念的 C++ 程序:
 
 ## C
 

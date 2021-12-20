@@ -1,8 +1,8 @@
-# C/c++中 long int 和 long long int 的区别
+# C/c++ 中 long int 和 long long int 的区别
 
 > 原文:[https://www . geesforgeks . org/long-int-和 long-long-int-in-c-cpp/](https://www.geeksforgeeks.org/difference-between-long-int-and-long-long-int-in-c-cpp/) 之间的差异
 
-所有[变量](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)在声明过程中使用[数据类型](https://www.geeksforgeeks.org/c-data-types/)来限制要存储的数据类型。因此，我们可以说数据类型用于告诉变量它可以存储的数据类型。每当在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中定义一个变量时，编译器[会根据其声明的数据类型为该变量分配一些内存](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)。不同的数据类型需要不同数量的[内存](https://www.geeksforgeeks.org/memory-layout-of-c-program/)。
+所有[变量](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)在声明过程中使用[数据类型](https://www.geeksforgeeks.org/c-data-types/)来限制要存储的数据类型。因此，我们可以说数据类型用于告诉变量它可以存储的数据类型。每当在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中定义一个变量时，编译器[会根据其声明的数据类型为该变量分配一些内存](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)。不同的数据类型需要不同数量的[内存](https://www.geeksforgeeks.org/memory-layout-of-c-program/)。
 
 **整数:**整数数据类型使用的关键字是 int。整数通常需要 4 字节的内存空间，范围从 **-2147483648** 到 **2147483647** 。
 
@@ -63,7 +63,7 @@ int main()
 
 **程序 2:**
 
-下面是 C++程序，演示了将 int 转换为 long 如何影响输出:
+下面是 C++ 程序，演示了将 int 转换为 long 如何影响输出:
 
 ## C++
 
@@ -99,7 +99,7 @@ int main()
 
 **程序 3:**
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 

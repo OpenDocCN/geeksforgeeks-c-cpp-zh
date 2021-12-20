@@ -1,8 +1,8 @@
-# c++中的无格式输入/输出操作
+# c++ 中的无格式输入/输出操作
 
 > 原文:[https://www . geesforgeks . org/unformated-input-output-operations-in-CPP/](https://www.geeksforgeeks.org/unformatted-input-output-operations-in-cpp/)
 
-在本文中，我们将讨论在 [C++中的无格式](https://www.geeksforgeeks.org/c-plus-plus/)[输入/输出操作](https://www.geeksforgeeks.org/basic-input-output-c/)。由于运算符[**>>****<<**](https://www.geeksforgeeks.org/overloading-stream-insertion-operators-c/)重载识别所有基本的 C++类型，因此可以使用[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)**【CIN】**和 **cout** 进行各种类型数据的输入和输出。操作员 **> >** 在 [**中超载，操作员 **< <在****](https://www.geeksforgeeks.org/c-stream-classes-structure/)****[中超载。](https://www.geeksforgeeks.org/operator-overloading-and-operator-in-a-linked-list-class/)****
+在本文中，我们将讨论在 [C++ 中的无格式](https://www.geeksforgeeks.org/c-plus-plus/)[输入/输出操作](https://www.geeksforgeeks.org/basic-input-output-c/)。由于运算符[**>>****<<**](https://www.geeksforgeeks.org/overloading-stream-insertion-operators-c/)重载识别所有基本的 C++ 类型，因此可以使用[对象](https://www.geeksforgeeks.org/c-classes-and-objects/)**【CIN】**和 **cout** 进行各种类型数据的输入和输出。操作员 **> >** 在 [**中超载，操作员 **< <在****](https://www.geeksforgeeks.org/c-stream-classes-structure/)****[中超载。](https://www.geeksforgeeks.org/operator-overloading-and-operator-in-a-linked-list-class/)****
 
 从键盘读取数据的一般格式:
 
@@ -96,7 +96,7 @@ int main()
     while (data != '\n') {
         // Print the data
         cout.put(data);
-        count++;
+        count++ ;
 
         // Get the data again
         cin.get(data);
@@ -112,7 +112,7 @@ int main()
 
 ### [<u>getline()和 write()函数</u>](https://www.geeksforgeeks.org/getline-function-character-array/) :
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，函数 [getline()](https://www.geeksforgeeks.org/getline-string-c/) 和 [write()](https://www.geeksforgeeks.org/fine-write-void-main-cc/) 提供了一种更有效的方式来处理面向行的输入和输出。 **getline()** 函数读取以[新行字符](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/)结束的完整文本行。可以使用 **cin 对象**调用该功能。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，函数 [getline()](https://www.geeksforgeeks.org/getline-string-c/) 和 [write()](https://www.geeksforgeeks.org/fine-write-void-main-cc/) 提供了一种更有效的方式来处理面向行的输入和输出。 **getline()** 函数读取以[新行字符](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/)结束的完整文本行。可以使用 **cin 对象**调用该功能。
 
 **语法:**
 

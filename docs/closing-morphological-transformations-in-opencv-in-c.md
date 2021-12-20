@@ -1,4 +1,4 @@
-# 关闭| c++中 OpenCV 的形态转换
+# 关闭| c++ 中 OpenCV 的形态转换
 
 > 原文:[https://www . geesforgeks . org/closing-形态学-transformations-in-opencv-in-c/](https://www.geeksforgeeks.org/closing-morphological-transformations-in-opencv-in-c/)
 

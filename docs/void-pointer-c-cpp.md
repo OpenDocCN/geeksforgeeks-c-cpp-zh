@@ -1,4 +1,4 @@
-# C/c++中的空指针
+# C/c++ 中的空指针
 
 > 原文:[https://www.geeksforgeeks.org/void-pointer-c-cpp/](https://www.geeksforgeeks.org/void-pointer-c-cpp/)
 
@@ -24,7 +24,7 @@ int main(void)
 }
 ```
 
-注意，上面的程序是用 C 编译的，而不是用 C++编译的。在 C++中，我们必须显式地将 malloc 的返回值类型转换为(int *)。
+注意，上面的程序是用 C 编译的，而不是用 C++ 编译的。在 C++ 中，我们必须显式地将 malloc 的返回值类型转换为(int *)。
 
 **2)**C 中的 void 指针用于实现 C 中的泛型函数，例如 qsort() 中使用的[比较函数。](https://www.geeksforgeeks.org/comparator-function-of-qsort-in-c/)
 

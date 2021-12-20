@@ -1,8 +1,8 @@
-# c++中的对象切片
+# c++ 中的对象切片
 
 > 原文:[https://www.geeksforgeeks.org/object-slicing-in-c/](https://www.geeksforgeeks.org/object-slicing-in-c/)
 
-在 C++中，可以将派生类对象分配给基类对象，但另一种方式是不可能的。
+在 C++ 中，可以将派生类对象分配给基类对象，但另一种方式是不可能的。
 
 ## C++
 

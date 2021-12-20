@@ -101,7 +101,7 @@ int base_change(int n,
   {
     buffer[pos] = digits[n % base];
     n /= base;
-    pos++;
+    pos++ ;
   }
 
   buffer[pos] = '\0';

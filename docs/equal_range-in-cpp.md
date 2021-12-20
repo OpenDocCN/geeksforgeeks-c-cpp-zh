@@ -1,4 +1,4 @@
-# c++中的 equal _ range
+# c++ 中的 equal _ range
 
 > 原文:[https://www.geeksforgeeks.org/equal_range-in-cpp/](https://www.geeksforgeeks.org/equal_range-in-cpp/)
 

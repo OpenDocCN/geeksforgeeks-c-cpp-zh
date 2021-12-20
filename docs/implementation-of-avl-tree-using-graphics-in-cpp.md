@@ -1,4 +1,4 @@
-# 用 C++中的图形实现 AVL 树
+# 用 C++ 中的图形实现 AVL 树
 
 > 原文:[https://www . geesforgeks . org/implementation-of-AVL-tree-using-graphics-in-CPP/](https://www.geeksforgeeks.org/implementation-of-avl-tree-using-graphics-in-cpp/)
 
@@ -6,7 +6,7 @@
 
 [![](img/9aac3641c7b4fd8d7cdd18462b4908f1.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/AVL-Tree1.jpg)
 
-在本文中，我们将使用 c++中的[图形来实现 **AVL 树**的概念。作为先决条件，必须设置图形。他们的编辑。使用此链接在代码块](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/)中安装 [graphics.h。](https://www.youtube.com/watch?v=VEkAj-xVTKQ)
+在本文中，我们将使用 c++ 中的[图形来实现 **AVL 树**的概念。作为先决条件，必须设置图形。他们的编辑。使用此链接在代码块](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/)中安装 [graphics.h。](https://www.youtube.com/watch?v=VEkAj-xVTKQ)
 
 以下是本文将介绍的功能:
 

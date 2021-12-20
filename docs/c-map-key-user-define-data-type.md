@@ -1,8 +1,8 @@
-# 以键作为用户定义数据类型的 C++映射
+# 以键作为用户定义数据类型的 C++ 映射
 
 > 原文:[https://www . geesforgeks . org/c-map-key-user-define-data-type/](https://www.geeksforgeeks.org/c-map-key-user-define-data-type/)
 
-[C++映射](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)以有序的形式存储密钥(注意，它在内部使用自平衡二叉查找树)。排序是使用运算符“<”在内部完成的。因此，如果我们使用自己的数据类型作为关键字，我们必须为我们的数据类型重载该运算符。
+[C++ 映射](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)以有序的形式存储密钥(注意，它在内部使用自平衡二叉查找树)。排序是使用运算符“<”在内部完成的。因此，如果我们使用自己的数据类型作为关键字，我们必须为我们的数据类型重载该运算符。
 
 让我们考虑一个**映射**，其关键数据类型为结构，映射值为整数。
 

@@ -1,8 +1,8 @@
-# c++中的 hypot()，hypotf()，hypotl()
+# c++ 中的 hypot()，hypotf()，hypotl()
 
 > 原文:[https://www.geeksforgeeks.org/hypot-hypotf-hypotl-c/](https://www.geeksforgeeks.org/hypot-hypotf-hypotl-c/)
 
-C++中的**hypt()**函数返回传递的参数平方和的平方根。它找到了斜边，*斜边*是直角三角形最长的边。其计算公式如下:
+C++ 中的**hypt()**函数返回传递的参数平方和的平方根。它找到了斜边，*斜边*是直角三角形最长的边。其计算公式如下:
 
 ```cpp
  h = sqrt(x<sup>2</sup>+y<sup>2</sup>)
@@ -89,7 +89,7 @@ float hypotf(float x);
 ```
 
 海波 tf()
-的 C++程序实现这里，变量被赋值为浮点类型否则*类型不匹配*错误发生。
+的 C++ 程序实现这里，变量被赋值为浮点类型否则*类型不匹配*错误发生。
 
 ```cpp
 // CPP program to illustrate
@@ -127,7 +127,7 @@ long double hypotl(long double x);
 ```
 
 hypotl()
-的 C++程序实现这里，变量被赋值为长双类型否则*类型不匹配*错误发生。
+的 C++ 程序实现这里，变量被赋值为长双类型否则*类型不匹配*错误发生。
 
 ```cpp
 // CPP program to illustrate

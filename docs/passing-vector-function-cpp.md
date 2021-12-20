@@ -1,4 +1,4 @@
-# 在 C++中将向量传递给函数
+# 在 C++ 中将向量传递给函数
 
 > 原文:[https://www.geeksforgeeks.org/passing-vector-function-cpp/](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 

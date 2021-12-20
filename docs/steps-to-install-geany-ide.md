@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/steps-to-install-geany-ide/](https://www.geeksforgeeks.org/steps-to-install-geany-ide/)
 
-Geany 是一个轻量级、高性能的[集成开发环境](https://www.geeksforgeeks.org/setting-c-development-environment/)系统，支持使用最多的编程语言，即 [C/C++](https://www.geeksforgeeks.org/difference-between-c-and-c/) 、 [Java](https://www.geeksforgeeks.org/java/) 、 [Python2.x/3/x](https://www.geeksforgeeks.org/important-differences-between-python-2-x-and-python-3-x-with-examples/) 等。它的开发方式使得它对其他包的依赖性最小，因此与[代码块](https://www.geeksforgeeks.org/how-to-change-the-theme-of-code-blocks-20-03-to-dark-mode-in-windows-10/)或 [devc++](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/) 相比，它相当快。特别注意使它尽可能独立于特定的桌面环境，如 KDE、GNOME。本文列出了下载和设置[视窗操作系统](https://www.geeksforgeeks.org/difference-between-unix-and-windows-operating-system/)的通用集成开发环境的分步说明。
+Geany 是一个轻量级、高性能的[集成开发环境](https://www.geeksforgeeks.org/setting-c-development-environment/)系统，支持使用最多的编程语言，即 [C/C++ ](https://www.geeksforgeeks.org/difference-between-c-and-c/) 、 [Java](https://www.geeksforgeeks.org/java/) 、 [Python2.x/3/x](https://www.geeksforgeeks.org/important-differences-between-python-2-x-and-python-3-x-with-examples/) 等。它的开发方式使得它对其他包的依赖性最小，因此与[代码块](https://www.geeksforgeeks.org/how-to-change-the-theme-of-code-blocks-20-03-to-dark-mode-in-windows-10/)或 [devc++ ](https://www.geeksforgeeks.org/basic-graphic-programming-in-c/) 相比，它相当快。特别注意使它尽可能独立于特定的桌面环境，如 KDE、GNOME。本文列出了下载和设置[视窗操作系统](https://www.geeksforgeeks.org/difference-between-unix-and-windows-operating-system/)的通用集成开发环境的分步说明。
 
 **安装齿轮:**
 

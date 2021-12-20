@@ -1,4 +1,4 @@
-# 是 C++中的 _standard_layout 模板
+# 是 C++ 中的 _standard_layout 模板
 
 > 原文:[https://www . geesforgeks . org/is _ standard _ layout-template-in-c/](https://www.geeksforgeeks.org/is_standard_layout-template-in-c/)
 

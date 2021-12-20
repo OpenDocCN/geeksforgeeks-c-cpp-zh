@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/如何添加容器中对象的引用类/](https://www.geeksforgeeks.org/how-to-add-reference-of-an-object-in-container-classes/)
 
-我们都很熟悉 [C++中的一个**别名**。别名意味着某个实体的另一个名称。因此，引用变量是一个别名，是现有变量/对象等的另一个名称。](https://www.geeksforgeeks.org/c-plus-plus/)
+我们都很熟悉 [C++ 中的一个**别名**。别名意味着某个实体的另一个名称。因此，引用变量是一个别名，是现有变量/对象等的另一个名称。](https://www.geeksforgeeks.org/c-plus-plus/)
 
 下面是添加变量引用的程序:
 
@@ -62,7 +62,7 @@ Value of N :100
 因此，当我们将 **a 的值更改为 100** 时，那么，N 的值也更改为 100。**
 
 **<u>容器类中对象的引用</u> :**
-上面的方法给任何变量取别名都是正确的，但是在[容器](https://www.geeksforgeeks.org/containers-cpp-stl/)的情况下，上面的方法会抛出[编译错误](https://www.geeksforgeeks.org/errors-in-cc/)，因为容器不能直接存储引用，但是有一种替代的方法可以做到这一点。 [C++ STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 中的模板 [std::reference_wrapper](https://www.geeksforgeeks.org/reference_wrapper-in-cpp/) 用于引用 C++中的任何容器。 **std::reference_wrapper** 是一个类模板，它将引用包装在一个可复制、可赋值的对象中。它经常被用作一种机制，将引用存储在通常不能保存引用的标准容器(如[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)、[列表](https://www.geeksforgeeks.org/list-cpp-stl/)等)中。
+上面的方法给任何变量取别名都是正确的，但是在[容器](https://www.geeksforgeeks.org/containers-cpp-stl/)的情况下，上面的方法会抛出[编译错误](https://www.geeksforgeeks.org/errors-in-cc/)，因为容器不能直接存储引用，但是有一种替代的方法可以做到这一点。 [C++ STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 中的模板 [std::reference_wrapper](https://www.geeksforgeeks.org/reference_wrapper-in-cpp/) 用于引用 C++ 中的任何容器。 **std::reference_wrapper** 是一个类模板，它将引用包装在一个可复制、可赋值的对象中。它经常被用作一种机制，将引用存储在通常不能保存引用的标准容器(如[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)、[列表](https://www.geeksforgeeks.org/list-cpp-stl/)等)中。
 
 下面是在容器类中添加对象引用的程序:
 

@@ -1,4 +1,4 @@
-# C/c++中的鼠标编程
+# C/c++ 中的鼠标编程
 
 > 原文:[https://www.geeksforgeeks.org/mouse-programming-in-c-c/](https://www.geeksforgeeks.org/mouse-programming-in-c-c/)
 
@@ -9,7 +9,7 @@
 **基础知识:**
 这个想法是告诉鼠标在输出屏幕上做任何事情。实际上，直接与鼠标通信是不可能的，而是通过提供的驱动程序。想法是使用**中断**来访问这个驱动程序。计算机提供的每个设备都有一个[唯一端口](https://www.geeksforgeeks.org/tcp-ip-ports-and-its-applications/)，这是一个[十六进制值](https://www.geeksforgeeks.org/program-for-hexadecimal-to-decimal/)，旨在独立于机器，增强程序的可移植性。鼠标上有端口 ***0X33*** 。访问这些端口也需要使用地址寄存器。这些基本上都是 [dos.h](https://www.geeksforgeeks.org/dos-h-header-in-c-with-examples/) 中定义的 **REGS** 类型的 **UNION** 。使用两个寄存器与设备驱动程序通信，一个用于输入，一个用于输出，通过输入寄存器向设备驱动程序发送值，并接收嵌入输出寄存器的信息。
 
-现在有两种方法可以在 C/C++屏幕上显示鼠标指针。首先是非图形模式，其次是图形模式，这里我们使用图形模式。要在图形模式下切换我们的输出窗口，步骤如下:
+现在有两种方法可以在 C/C++ 屏幕上显示鼠标指针。首先是非图形模式，其次是图形模式，这里我们使用图形模式。要在图形模式下切换我们的输出窗口，步骤如下:
 **启用图形模式:**要启用图形模式，请使用 **initgraph()** 功能，该功能用于初始化图形模式。该功能存在于**[**graphics . h**](https://www.geeksforgeeks.org/include-graphics-h-codeblocks/)**[头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)中。****
 
 ******initgraph()的语法:******

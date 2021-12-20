@@ -1,4 +1,4 @@
-# C 和 C++中的指针|集合 1(介绍、算术和数组)
+# C 和 C++ 中的指针|集合 1(介绍、算术和数组)
 
 > 原文:[https://www . geesforgeks . org/pointers-in-c-and-c-set-1-introduction-算术与数组/](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
 
@@ -45,7 +45,7 @@ int main()
 ```
 
 *   还有一个运算符是**一元*** (星号)，用于两个目的:
-    *   要声明指针变量:在 C/C++中声明指针变量时，其名称前必须有一个*号。
+    *   要声明指针变量:在 C/C++ 中声明指针变量时，其名称前必须有一个*号。
 
 ## C
 
@@ -192,7 +192,7 @@ int main()
         printf("Value of ptr = %p\n\n", ptr);
 
         // Increment pointer ptr by 1
-        ptr++;
+        ptr++ ;
     }
 }
 ```
@@ -271,7 +271,7 @@ int nums[2][3]  =  { {16, 18, 20}, {25, 26, 27} };
 
 **Related Articles**: 
 
-[**指针在 C/C++中的应用。**](https://www.geeksforgeeks.org/applications-of-pointers-in-c-cpp/)
+[**指针在 C/C++ 中的应用。**](https://www.geeksforgeeks.org/applications-of-pointers-in-c-cpp/)
 
 **小测验**–[指针基础知识小测验](https://www.geeksforgeeks.org/c-language-2-gq/pointers-gq/)、[高级指针小测验](https://www.geeksforgeeks.org/c-language-2-gq/advanced-pointer-c-gq/)
 **参考:**

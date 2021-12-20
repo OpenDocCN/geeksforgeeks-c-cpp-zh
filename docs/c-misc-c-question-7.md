@@ -21,6 +21,6 @@ int main()
 
 **答案:****(C)**
 
-**解释:**正确答案是 C .在 C++中所有的
+**解释:**正确答案是 C .在 C++ 中所有的
 
 [本题小考](https://www.geeksforgeeks.org/c-plus-plus-gq/misc-c-gq/)

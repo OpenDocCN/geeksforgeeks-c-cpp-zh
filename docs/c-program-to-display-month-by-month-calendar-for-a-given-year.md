@@ -168,7 +168,7 @@ void printCalendar(int year)
         for (int j = 1; j <= days; j++) {
             printf("%5d", j);
 
-            if (++k > 6) {
+            if (++ k > 6) {
                 k = 0;
                 printf("\n");
             }

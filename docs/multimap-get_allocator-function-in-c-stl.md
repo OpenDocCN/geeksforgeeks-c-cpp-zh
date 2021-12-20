@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/multimap-get _ 分配器-function-in-c-stl/](https://www.geeksforgeeks.org/multimap-get_allocator-function-in-c-stl/)
 
-**多映射::get _ 分配器()**是 C++中 STL 中的一个函数，它返回与这个多映射相关联的分配器对象的副本。
+**多映射::get _ 分配器()**是 C++ 中 STL 中的一个函数，它返回与这个多映射相关联的分配器对象的副本。
 
 **语法:**
 

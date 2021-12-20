@@ -1,4 +1,4 @@
-# 标准::C++中的 remove_const 示例
+# 标准::C++ 中的 remove_const 示例
 
 > 原文:[https://www . geesforgeks . org/stdremove _ const-in-c-with-examples/](https://www.geeksforgeeks.org/stdremove_const-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::remove_const<T>::value
 *   **true:** If the type **t** is not qualified by const.
 *   **False:** If the type **t** is const qualified.
 
-以下是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::remove_const** 的程序:
+以下是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::remove_const** 的程序:
 
 **程序:**
 

@@ -1,8 +1,8 @@
-# 在 C++中重新解释 _ cast | Type Casting 运算符
+# 在 C++ 中重新解释 _ cast | Type Casting 运算符
 
 > 原文:[https://www . geesforgeks . org/re interpret _ cast-in-c-type-casting-operators/](https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/)
 
-**重新解释 _cast** 是 C++中使用的一种类型的铸造运算符。
+**重新解释 _cast** 是 C++ 中使用的一种类型的铸造运算符。
 
 *   它用于将某种数据类型的指针转换为另一种数据类型的指针，即使转换前后的数据类型不同。
 *   它不检查指针类型和指针指向的数据是否相同。
@@ -98,12 +98,12 @@ int main()
     cout << *p << endl;
 
     // incrementing the pointer by 1
-    p++;
+    p++ ;
 
     // printing the next integer value
     cout << *p << endl;
 
-    p++;
+    p++ ;
 
     // we are casting back char * pointed
     // by p using char *ch.
@@ -113,7 +113,7 @@ int main()
     // pointed by (*ch)
     cout << *ch << endl;
 
-    ch++;
+    ch++ ;
 
     /* since, (*ch) now points to boolean value,
     so it is required to access the value using

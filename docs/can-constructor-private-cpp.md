@@ -1,9 +1,9 @@
-# c++中构造函数可以是私有的吗？
+# c++ 中构造函数可以是私有的吗？
 
 > 原文:[https://www.geeksforgeeks.org/can-constructor-private-cpp/](https://www.geeksforgeeks.org/can-constructor-private-cpp/)
 
 **先决条件:** [构造函数](https://www.geeksforgeeks.org/constructors-c/)
-A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++中，当创建类的对象时，会自动调用构造函数。
+A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++ 中，当创建类的对象时，会自动调用构造函数。
 
 默认情况下，构造函数在类的公共部分定义。那么，问题是构造函数可以在类的私有部分定义吗？
 **回答:可以，构造函数可以在类**的私有部分定义

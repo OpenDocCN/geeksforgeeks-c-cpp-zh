@@ -1,4 +1,4 @@
-# c++中 endl vs \ n
+# c++ 中 endl vs \ n
 
 > 原文:[https://www.geeksforgeeks.org/endl-vs-n-in-cpp/](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/)
 

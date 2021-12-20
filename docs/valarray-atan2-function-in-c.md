@@ -1,4 +1,4 @@
-# valarray atan2()函数在 C++中
+# valarray atan2()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-atan2-function-in-c/](https://www.geeksforgeeks.org/valarray-atan2-function-in-c/)
 
@@ -43,7 +43,7 @@ int main()
 
     // print results of atan2() function
     cout << "results:";
-    for (size_t i = 0; i < res.size(); ++i)
+    for (size_t i = 0; i < res.size(); ++ i)
         cout << ' ' << res[i];
     cout << '\n';
 
@@ -82,7 +82,7 @@ int main()
 
     // print results of atan2() function
     cout << "results:";
-    for (size_t i = 0; i < res.size(); ++i)
+    for (size_t i = 0; i < res.size(); ++ i)
         cout << ' ' << res[i];
     cout << '\n';
 
@@ -121,7 +121,7 @@ int main()
 
     // print results of atan2() function
     cout << "results:";
-    for (size_t i = 0; i < res.size(); ++i)
+    for (size_t i = 0; i < res.size(); ++ i)
         cout << ' ' << res[i];
     cout << '\n';
 

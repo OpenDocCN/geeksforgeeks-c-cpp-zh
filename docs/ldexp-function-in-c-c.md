@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/ldexp-function-in-c-c/](https://www.geeksforgeeks.org/ldexp-function-in-c-c/)
 
-**ldexp()** 是 C/C++中的一个内置函数，通过取两个参数 x 和 exp，即 ***x * 2^exp*** ，给出任意变量 x 和 2 的乘积乘以 exp 的幂
+**ldexp()** 是 C/C++ 中的一个内置函数，通过取两个参数 x 和 exp，即 ***x * 2^exp*** ，给出任意变量 x 和 2 的乘积乘以 exp 的幂
 
 **语法:**
 

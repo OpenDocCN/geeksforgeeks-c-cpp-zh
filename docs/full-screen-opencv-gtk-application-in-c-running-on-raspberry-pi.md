@@ -1,4 +1,4 @@
-# 运行在树莓 PI 上的 C++全屏 OpenCV / GtK 应用
+# 运行在树莓 PI 上的 C++ 全屏 OpenCV / GtK 应用
 
 > 原文:[https://www . geesforgeks . org/全屏-opencv-GTK-application-in-c-running-on-覆盆子-pi/](https://www.geeksforgeeks.org/full-screen-opencv-gtk-application-in-c-running-on-raspberry-pi/)
 
@@ -84,7 +84,7 @@
 
     ### OpenCV 和 GtK
 
-    我们通过第三方贡献安装 *OpenCV* 。一开始你不需要它们，但它们也不会打扰你。我们用的是 *Gtkmm3* ，也就是 C++的 *GtK* :
+    我们通过第三方贡献安装 *OpenCV* 。一开始你不需要它们，但它们也不会打扰你。我们用的是 *Gtkmm3* ，也就是 C++ 的 *GtK* :
 
     ```cpp
     brew install opencv3 --with-contrib
@@ -359,7 +359,7 @@
     让我们逐一查看这些命令:
 
     *   `cmake_minimum_required`需要最低版本的 *CMake* 。这允许您放心地使用指定版本中存在的功能，或者在安装的版本太旧时显示明确的错误消息。
-    *   `project`声明全局项目的名称，`rascam`，指定当前版本并列出我们正在使用的语言，即 C++。从历史上看， *C++* 的扩展是`*.c++`，但在某些上下文中++有问题，所以他们切换到`cpp`或`cxx`。在 *CMake* 中，`CXX`表示 *C++* 。
+    *   `project`声明全局项目的名称，`rascam`，指定当前版本并列出我们正在使用的语言，即 C++。从历史上看， *C++* 的扩展是`*.c++ `，但在某些上下文中++ 有问题，所以他们切换到`cpp`或`cxx`。在 *CMake* 中，`CXX`表示 *C++* 。
     *   `set(CMAKE_CXX...)`设置一些适合现代 *C++* 的标志。
     *   `find_package(PkgConfig)`链接到`pkg-config`命令，所以我们可以稍后使用它。
     *   `pkg_check_modules(GTKMM gtkmm-3.0)`做的和在终端执行`pkg-config gtkmm-3.0`一样(如果愿意可以试试)，然后将答案的每一段复制到前缀为指定`GTKMM`的变量中。因此，在这个命令之后，我们有三个名为`GTKMM_LIBRARY_DIRS`、`GTKMM_INCLUDE_DIRS`和`GTKMM_LIBRARIES`的变量。
@@ -369,7 +369,7 @@
 
     如果您想了解更多关于编译步骤的信息:
 
-    *   [c++如何工作:理解编译](https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation)
+    *   [c++ 如何工作:理解编译](https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation)
     *   [堆栈溢出–编译/链接过程如何工作？](https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)
 
     ## *Gtk* 启动

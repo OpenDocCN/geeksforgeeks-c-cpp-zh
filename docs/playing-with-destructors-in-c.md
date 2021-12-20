@@ -1,4 +1,4 @@
-# 在 C++中玩析构函数
+# 在 C++ 中玩析构函数
 
 > 原文:[https://www . geeksforgeeks . org/c-in-c 玩析构函数/](https://www.geeksforgeeks.org/playing-with-destructors-in-c/)
 

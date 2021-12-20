@@ -1,8 +1,8 @@
-# wcstoll()函数在 C/C++中
+# wcstoll()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcstoll-function-in-c-c/](https://www.geeksforgeeks.org/wcstoll-function-in-c-c/)
 
-C/C++中的 **wcstoll()** 函数将宽字符串转换为长整数。它设置指针指向最后一个字符之后的第一个字符。
+C/C++ 中的 **wcstoll()** 函数将宽字符串转换为长整数。它设置指针指向最后一个字符之后的第一个字符。
 
 **语法:**
 

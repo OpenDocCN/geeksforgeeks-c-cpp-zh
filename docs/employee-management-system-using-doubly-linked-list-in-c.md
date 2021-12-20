@@ -78,7 +78,7 @@ void create()
     strcpy(temp->desg, desg);
     temp->sal = sal;
     temp->phno = phno;
-    count++;
+    count++ ;
 }
 
 // Function to insert at beginning

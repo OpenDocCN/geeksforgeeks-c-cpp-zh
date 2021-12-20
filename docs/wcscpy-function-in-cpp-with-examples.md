@@ -1,4 +1,4 @@
-# wcscpy()函数在 C++中的应用举例
+# wcscpy()函数在 C++ 中的应用举例
 
 > 原文:[https://www . geesforgeks . org/wcscpy-function-in-CPP-with-examples/](https://www.geeksforgeeks.org/wcscpy-function-in-cpp-with-examples/)
 

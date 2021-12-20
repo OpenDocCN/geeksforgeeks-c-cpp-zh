@@ -13,7 +13,7 @@ int main()
 
     // Assume that base address of arr is 2000 and size of integer
         // is 32 bit
-    arr++;
+    arr++ ;
     printf("%u", arr);
 
     return 0;

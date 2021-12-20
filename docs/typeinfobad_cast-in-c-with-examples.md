@@ -1,8 +1,8 @@
-# type info::c++中的 bad_cast，带示例
+# type info::c++ 中的 bad_cast，带示例
 
 > 原文:[https://www . geeksforgeeks . org/typeinfobad _ cast-in-c-with-examples/](https://www.geeksforgeeks.org/typeinfobad_cast-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类。 **typeinfo::bad_cast** 就是其中之一。这是动态转换失败时引发的异常。下面是相同的语法:
+标准 C++ 包含几个内置的异常类。 **typeinfo::bad_cast** 就是其中之一。这是动态转换失败时引发的异常。下面是相同的语法:
 
 **头文件:**
 

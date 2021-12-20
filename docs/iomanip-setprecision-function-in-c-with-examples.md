@@ -1,8 +1,8 @@
-# c++中 iomanip setprecision()函数示例
+# c++ 中 iomanip setprecision()函数示例
 
 > 原文:[https://www . geesforgeks . org/iomanip-set precision-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-setprecision-function-in-c-with-examples/)
 
-C++中 **iomaip 库**的 **setprecision()** 方法用于根据指定为该方法参数的精度设置 ios 库浮点精度。
+C++ 中 **iomaip 库**的 **setprecision()** 方法用于根据指定为该方法参数的精度设置 ios 库浮点精度。
 
 **语法:**
 

@@ -11,7 +11,7 @@ class A
     static int count;
 public:
     A() {
-        count++;
+        count++ ;
         id = count;
         cout << "constructor for id " << id << endl;
     }

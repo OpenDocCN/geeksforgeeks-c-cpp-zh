@@ -1,4 +1,4 @@
-# 如何在 C++中在数组的特定位置插入元素
+# 如何在 C++ 中在数组的特定位置插入元素
 
 > 原文:[https://www . geesforgeks . org/如何在 c 数组中特定位置插入元素/](https://www.geeksforgeeks.org/how-to-insert-an-element-at-a-specific-position-in-an-array-in-c/)
 
@@ -32,7 +32,7 @@ int* insertX(int n, int arr[],
     int i;
 
     // increase the size by 1
-    n++;
+    n++ ;
 
     // shift elements forward
     for (i = n; i >= pos; i--)

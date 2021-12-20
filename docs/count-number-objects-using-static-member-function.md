@@ -46,7 +46,7 @@ class test {
 public:
     test()
     {
-    objNo = ++objCnt;
+    objNo = ++ objCnt;
     }
     ~test()
     {

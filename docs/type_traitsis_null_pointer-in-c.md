@@ -1,4 +1,4 @@
-# c++中的 type _ traits::is _ null _ pointer
+# c++ 中的 type _ traits::is _ null _ pointer
 
 > 原文:[https://www . geesforgeks . org/type _ traitsis _ null _ pointer-in-c/](https://www.geeksforgeeks.org/type_traitsis_null_pointer-in-c/)
 

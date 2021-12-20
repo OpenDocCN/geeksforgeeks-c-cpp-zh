@@ -104,7 +104,7 @@ a%b is: 2
 
 属于一元算术运算符类别的有:
 
-*   **增量:****“++”**运算符用于增加整数值。当放在变量名(也称为预递增运算符)之前时，其值会立即递增。例如 **++x** 。
+*   **增量:****“++”**运算符用于增加整数值。当放在变量名(也称为预递增运算符)之前时，其值会立即递增。例如 **++ x** 。
     当它被放在变量名(也称为后递增运算符)之后时，它的值会被暂时保留，直到执行该语句，并在执行下一条语句之前得到更新。例如 **x++** 。
 *   **递减:****–‘**运算符用于递减整数值。当放在变量名(也称为预递减运算符)之前时，其值会立即递减。例如，**––x**。
     当它被放在变量名(也称为后减量运算符)之后时，它的值会被暂时保留，直到执行该语句，并在执行下一个语句之前得到更新。例如，**x–**。
@@ -123,7 +123,7 @@ int main()
 
     // post-increment example:
     // res is assigned 10 only, a is not updated yet
-    res = a++;
+    res = a++ ;
     printf("a is %d and res is %d\n", a,
            res); // a becomes 11 now
 
@@ -136,7 +136,7 @@ int main()
     // pre-increment example:
     // res is assigned 11 now since
     // a is updated here itself
-    res = ++a;
+    res = ++ a;
 
     // a and res have same values = 11
     printf("a is %d and res is %d\n", a, res);
@@ -166,7 +166,7 @@ int main()
     // post-increment example:
     // res is assigned 10 only,
     // a is not updated yet
-    res = a++;
+    res = a++ ;
     // a becomes 11 now
     cout << "a is " << a
          << " and res is "
@@ -184,7 +184,7 @@ int main()
     // pre-increment example:
     // res is assigned 11 now
     // since a is updated here itself
-    res = ++a;
+    res = ++ a;
 
     // a and res have same values = 11
     cout << "a is " << a

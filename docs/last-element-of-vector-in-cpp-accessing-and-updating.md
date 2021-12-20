@@ -1,8 +1,8 @@
-# c++中向量的最后一个元素(访问和更新)
+# c++ 中向量的最后一个元素(访问和更新)
 
 > 原文:[https://www . geeksforgeeks . org/CPP 中向量的最后一个元素-访问和更新/](https://www.geeksforgeeks.org/last-element-of-vector-in-cpp-accessing-and-updating/)
 
-在 [C++向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)中，我们可以通过以下方式使用向量的大小来访问最后一个元素。
+在 [C++ 向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)中，我们可以通过以下方式使用向量的大小来访问最后一个元素。
 
 **1)使用尺寸()**
 

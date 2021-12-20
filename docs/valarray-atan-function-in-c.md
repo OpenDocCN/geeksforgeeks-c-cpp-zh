@@ -1,4 +1,4 @@
-# c++中 valarray atan()函数
+# c++ 中 valarray atan()函数
 
 > 原文:[https://www.geeksforgeeks.org/valarray-atan-function-in-c/](https://www.geeksforgeeks.org/valarray-atan-function-in-c/)
 

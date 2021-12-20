@@ -1,4 +1,4 @@
-# 检查单链表是否回文的 C++程序
+# 检查单链表是否回文的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序检查单链表是否是回文/](https://www.geeksforgeeks.org/cpp-program-to-check-if-a-singly-linked-list-is-palindrome/)
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/why-array-index-starts-from-zero/](https://www.geeksforgeeks.org/why-array-index-starts-from-zero/)
 
-先决条件:[C/c++中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
+先决条件:[C/c++ 中的指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)
 
 **原因可能有很多，但这里有两个原因:**
 

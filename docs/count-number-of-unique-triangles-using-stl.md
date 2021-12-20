@@ -35,7 +35,7 @@ pair <int, pair<int, int> >
 
 注意:我们可以通过 make_pair(a，b)进行配对，也可以简单地使用{a，b}。
 
-下面是上面思路的 C++实现:
+下面是上面思路的 C++ 实现:
 
 ```cpp
 // A C++ program to find number of unique Triangles

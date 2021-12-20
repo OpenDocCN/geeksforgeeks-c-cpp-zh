@@ -1,4 +1,4 @@
-# 集装箱船与 C++中继承的区别
+# 集装箱船与 C++ 中继承的区别
 
 > 原文:[https://www . geeksforgeeks . org/container ship-and-Inc-heritage 之间的区别/](https://www.geeksforgeeks.org/difference-between-containership-and-inheritance-in-c/)
 

@@ -32,7 +32,7 @@ int main()
 
     while (i < 10) {
         printf("GFG\n");
-        i++;
+        i++ ;
     }
 
     return 0;
@@ -51,7 +51,7 @@ int main()
     int i = 5;
 
     while (i < 10) {
-        i++;
+        i++ ;
         cout << "GFG\n";
     }
 
@@ -71,7 +71,7 @@ class GFG {
         int i = 5;
 
         while (i < 10) {
-            i++;
+            i++ ;
             System.out.println("GfG");
         }
     }
@@ -121,7 +121,7 @@ int main()
 
     do {
         printf("GFG\n");
-        i++;
+        i++ ;
     } while (i < 10);
 
     return 0;
@@ -140,7 +140,7 @@ int main()
     int i = 5;
 
     do {
-        i++;
+        i++ ;
         cout << "GFG\n";
     } while (i < 10);
 
@@ -160,7 +160,7 @@ class GFG {
         int i = 5;
 
         do {
-            i++;
+            i++ ;
             System.out.println("GfG");
         } while (i < 10);
     }

@@ -1,4 +1,4 @@
-# 为用户定义的数据类型设置的 C++代码
+# 为用户定义的数据类型设置的 C++ 代码
 
 > 原文:[https://www . geesforgeks . org/CPP-set-for-user-define-data-type/](https://www.geeksforgeeks.org/cpp-set-for-user-define-data-type/)
 

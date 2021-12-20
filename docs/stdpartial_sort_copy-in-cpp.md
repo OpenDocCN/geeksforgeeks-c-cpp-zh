@@ -1,4 +1,4 @@
-# std::partial_sort_copy 在 C++中
+# std::partial_sort_copy 在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdpartial_sort_copy-in-cpp/](https://www.geeksforgeeks.org/stdpartial_sort_copy-in-cpp/)
 
@@ -46,7 +46,7 @@
 
         // Displaying the vector after applying
         // std::partial_sort_copy
-        for (ip = v1.begin(); ip != v1.end(); ++ip) {
+        for (ip = v1.begin(); ip != v1.end(); ++ ip) {
             cout << *ip << " ";
         }
 
@@ -115,7 +115,7 @@
 
         // Displaying the vector after applying
         // std::partial_sort_copy
-        for (ip = v1.begin(); ip != v1.end(); ++ip) {
+        for (ip = v1.begin(); ip != v1.end(); ++ ip) {
             cout << *ip << " ";
         }
 
@@ -155,12 +155,12 @@
         // std::partial_sort_copy
         cout << "v = ";
 
-        for (ip = v.begin(); ip != v.end(); ++ip) {
+        for (ip = v.begin(); ip != v.end(); ++ ip) {
             cout << *ip << " ";
         }
 
         cout << "\nv1 = ";
-        for (ip = v1.begin(); ip != v1.end(); ++ip) {
+        for (ip = v1.begin(); ip != v1.end(); ++ ip) {
             cout << *ip << " ";
         }
         return 0;

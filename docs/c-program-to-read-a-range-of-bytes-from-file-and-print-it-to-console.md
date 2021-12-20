@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
         // Skip the bytes not required
         if (i >= from) {
             str[j] = c;
-            j++;
+            j++ ;
         }
 
         // Get the characters

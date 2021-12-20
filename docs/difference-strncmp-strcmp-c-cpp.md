@@ -1,4 +1,4 @@
-# C/c++中 strncmp()和 strcmp 的区别
+# C/c++ 中 strncmp()和 strcmp 的区别
 
 > 原文:[https://www . geesforgeks . org/difference-strncmp-str CMP-c-CPP/](https://www.geeksforgeeks.org/difference-strncmp-strcmp-c-cpp/)
 

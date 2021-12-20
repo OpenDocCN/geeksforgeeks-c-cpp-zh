@@ -1,4 +1,4 @@
-# std::search_n 用 C++举例
+# std::search_n 用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stdsearch _ n-with-example-in-CPP/](https://www.geeksforgeeks.org/stdsearch_n-with-example-in-cpp/)
 

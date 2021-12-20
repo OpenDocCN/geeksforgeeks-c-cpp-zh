@@ -1,8 +1,8 @@
-# 标准::to_address 用 C++举例
+# 标准::to_address 用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stdto _ address-in-c-with-examples/](https://www.geeksforgeeks.org/stdto_address-in-c-with-examples/)
 
-C++20 中引入的 **std::to_address** 用于获取指定指针所表示的地址，而不构成对指针的引用。现有的 **std::addressof** 不能做 *std::addressof(*ptr)* ，因为 **ptr* 并不总是一个对象。 **std::to_address** 为我们解决了这些问题。
+C++ 20 中引入的 **std::to_address** 用于获取指定指针所表示的地址，而不构成对指针的引用。现有的 **std::addressof** 不能做 *std::addressof(*ptr)* ，因为 **ptr* 并不总是一个对象。 **std::to_address** 为我们解决了这些问题。
 
 **语法:**
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/forward _ list remove-forward _ list remove _ if-c-STL/](https://www.geeksforgeeks.org/forward_listremove-forward_listremove_if-c-stl/)
 
-[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它不同于列表，因为转发列表只跟踪下一个元素的位置，而列表跟踪下一个和上一个元素。
+[STL 中的正向列表](https://www.geeksforgeeks.org/forward-list-c-set-1-introduction-important-functions/)实现单链表。前向列表是从 C++ 11 引入的，在插入、移除和移动操作(如排序)方面比其他容器更有用，并且允许元素的时间常数插入和移除。它不同于列表，因为转发列表只跟踪下一个元素的位置，而列表跟踪下一个和上一个元素。
 
 **forward_list::remove()**
 
@@ -50,7 +50,7 @@ int main()
 {
     forward_list<int> myforwardlist{ 1, 2, 2, 2, 5, 6, 7 };
     myforwardlist.remove(2);
-    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++it)
+    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -111,7 +111,7 @@ int main()
 {
     forward_list<int> myforwardlist{ 1, 2, 2, 2, 5, 6, 7 };
     myforwardlist.remove_if(even);
-    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++it)
+    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -160,7 +160,7 @@ int main()
 {
     forward_list<int> myforwardlist{ 2, 4, 6, 7, 9, 11, 13 };
     myforwardlist.remove_if(prime);
-    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++it)
+    for (auto it = myforwardlist.begin(); it != myforwardlist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```

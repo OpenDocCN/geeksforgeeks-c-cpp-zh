@@ -1,8 +1,8 @@
-# c++中的 StringStream 表示十进制到十六进制再回到
+# c++ 中的 StringStream 表示十进制到十六进制再回到
 
 > 原文:[https://www . geeksforgeeks . org/string stream-c-十进制-十六进制-back/](https://www.geeksforgeeks.org/stringstream-c-decimal-hexadecimal-back/)
 
-[Stringstream](https://www.geeksforgeeks.org/stringstream-c-applications/) 是 C++中的流类，用于对字符串进行操作。它可用于格式化/解析/将字符串转换为数字/字符等。
+[Stringstream](https://www.geeksforgeeks.org/stringstream-c-applications/) 是 C++ 中的流类，用于对字符串进行操作。它可用于格式化/解析/将字符串转换为数字/字符等。
 [Hex](https://www.geeksforgeeks.org/stdoct-stddec-and-stdhex-in-cpp/) 是一个 I/O 操纵器，它以对 I/O 流的引用为参数，并在操纵后返回对该流的引用。
 以下是使用 stringstream 将任何十进制转换为十六进制的快速方法:
 

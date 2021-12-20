@@ -1,4 +1,4 @@
-# c++中的 feclearexcept，带示例
+# c++ 中的 feclearexcept，带示例
 
 > 原文:[https://www.geeksforgeeks.org/feclearexcept-in-c/](https://www.geeksforgeeks.org/feclearexcept-in-c/)
 

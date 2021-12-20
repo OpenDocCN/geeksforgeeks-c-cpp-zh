@@ -176,4 +176,4 @@ Entered Sentence is: Geeks For Geeks
 
 ```
 
-**Related Articles:**[Format specifiers in C](https://www.geeksforgeeks.org/format-specifiers-in-c/)[Use of fflush(stdin) in C](https://www.geeksforgeeks.org/use-fflushstdin-c/)[Clearing The Input Buffer In C/C++](https://www.geeksforgeeks.org/clearing-the-input-buffer-in-cc/)
+**Related Articles:**[Format specifiers in C](https://www.geeksforgeeks.org/format-specifiers-in-c/)[Use of fflush(stdin) in C](https://www.geeksforgeeks.org/use-fflushstdin-c/)[Clearing The Input Buffer In C/C++ ](https://www.geeksforgeeks.org/clearing-the-input-buffer-in-cc/)

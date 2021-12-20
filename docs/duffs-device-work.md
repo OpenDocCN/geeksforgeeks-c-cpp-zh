@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/duffs-device-work/](https://www.geeksforgeeks.org/duffs-device-work/)
 
-Duff 的设备是一个技巧，不用额外的代码来处理剩余的部分循环，直接用 C 或 C++来表达循环展开。技巧是使用一个 switch 语句，其中除了一个 casess 标签之外，所有的 case 标签都在 while 循环的中间。此外，所有的情况都会延续到 while 循环的末尾。尽管印象深刻，但它使达夫的设备是合法的 C 和 C++代码(然而，它在 Java 中是无效的)。
+Duff 的设备是一个技巧，不用额外的代码来处理剩余的部分循环，直接用 C 或 C++ 来表达循环展开。技巧是使用一个 switch 语句，其中除了一个 casess 标签之外，所有的 case 标签都在 while 循环的中间。此外，所有的情况都会延续到 while 循环的末尾。尽管印象深刻，但它使达夫的设备是合法的 C 和 C++ 代码(然而，它在 Java 中是无效的)。
 
 **怎么有用？**
 

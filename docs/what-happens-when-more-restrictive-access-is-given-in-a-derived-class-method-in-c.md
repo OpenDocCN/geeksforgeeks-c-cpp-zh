@@ -1,8 +1,8 @@
-# 当 C++中对派生类方法给予更严格的访问时会发生什么？
+# 当 C++ 中对派生类方法给予更严格的访问时会发生什么？
 
 > 原文:[https://www . geeksforgeeks . org/当更严格的访问在 c 中的派生类方法中给出时会发生什么/](https://www.geeksforgeeks.org/what-happens-when-more-restrictive-access-is-given-in-a-derived-class-method-in-c/)
 
-我们在 Java [这里](https://www.geeksforgeeks.org/more-restrictive-access-is-given-to-a-derived-class-method-in-java/)也讨论过类似的话题。与 Java 不同，C++允许对派生类方法进行更严格的访问。例如，以下程序编译良好。
+我们在 Java [这里](https://www.geeksforgeeks.org/more-restrictive-access-is-given-to-a-derived-class-method-in-java/)也讨论过类似的话题。与 Java 不同，C++ 允许对派生类方法进行更严格的访问。例如，以下程序编译良好。
 
 ## C++
 

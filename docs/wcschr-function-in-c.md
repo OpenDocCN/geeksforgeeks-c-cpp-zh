@@ -1,8 +1,8 @@
-# wcs HR()函数在 C++中
+# wcs HR()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcschr-function-in-c/](https://www.geeksforgeeks.org/wcschr-function-in-c/)
 
-**wcschr()** 函数在 C++中搜索宽字符串中第一次出现的宽字符。终止的空宽字符被认为是字符串的一部分。因此，也可以定位它，以便检索指向宽字符串末尾的指针。
+**wcschr()** 函数在 C++ 中搜索宽字符串中第一次出现的宽字符。终止的空宽字符被认为是字符串的一部分。因此，也可以定位它，以便检索指向宽字符串末尾的指针。
 
 **语法:**
 

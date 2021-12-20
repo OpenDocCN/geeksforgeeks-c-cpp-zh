@@ -1,12 +1,12 @@
-# c++中的即时函数
+# c++ 中的即时函数
 
 > 原文:[https://www.geeksforgeeks.org/immediate-functions-in-cpp/](https://www.geeksforgeeks.org/immediate-functions-in-cpp/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中使用的立即函数。
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中使用的立即函数。
 
 **<u>即时功能</u> :**
 
-*   在 C++20 中，立即[函数](https://www.geeksforgeeks.org/functions-in-c/)是这样一个函数，其中对该函数的每次调用都直接或间接产生一个编译时常数表达式。
+*   在 C++ 20 中，立即[函数](https://www.geeksforgeeks.org/functions-in-c/)是这样一个函数，其中对该函数的每次调用都直接或间接产生一个编译时常数表达式。
 *   这些函数在返回类型之前使用**常量** [关键字](https://www.geeksforgeeks.org/variables-and-keywords-in-c/)来声明。
 
 下面给出了一些与即时功能相关的重要术语:
@@ -18,9 +18,9 @@
 *   这些函数用于通过在编译时而不是运行时进行计算来提高程序的性能。
 *   这些函数确实很有帮助，其中[多次执行一个程序](https://www.geeksforgeeks.org/how-does-a-c-program-executes/)，因为常量表达式在编译时只会被求值一次。
 
-下面是 C++程序，演示了 constexpr 函数的使用:
+下面是 C++ 程序，演示了 constexpr 函数的使用:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program demonstrates the use of
@@ -75,9 +75,9 @@ The fibonacci number is: 17711
 *   **常量表达式**指定变量或函数的值可以出现在常量表达式中。
 *   这里要注意的关键是，它说，一个函数可以出现在常量表达式中，它并没有说函数必须是，而一个 **consteval** 则指定一个函数是立即函数，也就是说，对该函数的每次调用都必须产生一个编译时常量。
 
-下面是演示 consteval 函数使用的 C++程序:
+下面是演示 consteval 函数使用的 C++ 程序:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program illustrating the use
@@ -87,7 +87,7 @@ The fibonacci number is: 17711
 using namespace std;
 
 // If constexpr replaces with consteval
-// program gives an error in C++20
+// program gives an error in C++ 20
 constexpr int fib(int n)
 {
     // Base Case

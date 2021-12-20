@@ -44,20 +44,20 @@ void producer()
 
     // Increase the number of full
     // slots by 1
-    ++full;
+    ++ full;
 
     // Decrease the number of empty
     // slots by 1
     --empty;
 
     // Item produced
-    x++;
+    x++ ;
     printf("\nProducer produces"
            "item %d",
            x);
 
     // Increase mutex value by 1
-    ++mutex;
+    ++ mutex;
 }
 
 // Function to consume an item and
@@ -73,14 +73,14 @@ void consumer()
 
     // Increase the number of empty
     // slots by 1
-    ++empty;
+    ++ empty;
     printf("\nConsumer consumes "
            "item %d",
            x);
     x--;
 
     // Increase mutex value by 1
-    ++mutex;
+    ++ mutex;
 }
 
 // Driver Code

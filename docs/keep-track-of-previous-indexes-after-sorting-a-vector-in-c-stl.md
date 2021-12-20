@@ -38,7 +38,7 @@ void sortArr(int arr[], int n)
 
     // Inserting element in pair vector
     // to keep track of previous indexes
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++ i) {
         vp.push_back(make_pair(arr[i], i));
     }
 

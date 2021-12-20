@@ -1,4 +1,4 @@
-# c++中的 asctime()函数
+# c++ 中的 asctime()函数
 
 > 原文:[https://www.geeksforgeeks.org/asctime-function-in-c/](https://www.geeksforgeeks.org/asctime-function-in-c/)
 
@@ -14,7 +14,7 @@ char* asctime(const struct tm * time_ptr);
 
 **返回值:**该函数以“Www Mmm dd hh:mm:ss yyyy”的形式返回**日历时间**
 
-下面的程序说明了 C++中的 asctime()函数:
+下面的程序说明了 C++ 中的 asctime()函数:
 
 **例:-**
 

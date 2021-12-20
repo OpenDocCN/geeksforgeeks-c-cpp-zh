@@ -1,4 +1,4 @@
-# 寻找给定链表中间元素的 C++程序
+# 寻找给定链表中间元素的 C++ 程序
 
 > 原文:[https://www . geeksforgeeks . org/CPP-寻找给定链表中间元素的程序/](https://www.geeksforgeeks.org/cpp-program-for-finding-the-middle-element-of-a-given-linked-list/)
 
@@ -137,7 +137,7 @@ void printMiddle(struct node* head)
         if (count & 1)
             mid = mid->next;
 
-        ++count;
+        ++ count;
         head = head->next;
     }
 

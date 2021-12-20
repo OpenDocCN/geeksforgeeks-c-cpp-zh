@@ -1,4 +1,4 @@
-# c++中静态函数和常量函数的区别
+# c++ 中静态函数和常量函数的区别
 
 > 原文:[https://www . geesforgeks . org/static-and-constant-function in-CPP/](https://www.geeksforgeeks.org/difference-between-static-and-constant-function-in-cpp/)
 

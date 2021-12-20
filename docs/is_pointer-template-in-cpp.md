@@ -1,4 +1,4 @@
-# 是 C++中的 _ 指针模板
+# 是 C++ 中的 _ 指针模板
 
 > 原文:[https://www.geeksforgeeks.org/is_pointer-template-in-cpp/](https://www.geeksforgeeks.org/is_pointer-template-in-cpp/)
 

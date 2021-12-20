@@ -80,7 +80,7 @@ int GetNth(struct Node* head, 
     {
         if (count == index)
             return (current->data);
-        count++;
+        count++ ;
         current = current->next;
     }
 

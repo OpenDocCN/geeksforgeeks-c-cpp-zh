@@ -1,4 +1,4 @@
-# 箭头运算符- >用 C/C++举例
+# 箭头运算符- >用 C/C++ 举例
 
 > 原文:[https://www . geesforgeks . org/arrow-operator-in-c-c-with-examples/](https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/)
 
@@ -9,7 +9,7 @@ C/C++ 中的**箭头操作符允许访问[结构](https://www.geeksforgeeks.org/
 (pointer_name)->(variable_name)
 ```
 
-**操作:**C 或 C++中的- >运算符将变量 _name 持有的值赋予结构或联合变量指针 _name。
+**操作:**C 或 C++ 中的- >运算符将变量 _name 持有的值赋予结构或联合变量指针 _name。
 T3】点(。)和箭头(- >)操作符:
 
 *   点(。)运算符通常用于访问结构或联合的成员。

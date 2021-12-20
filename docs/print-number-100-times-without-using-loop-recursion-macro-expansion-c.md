@@ -21,7 +21,7 @@ int main()
     setjmp(buf);
     cout << "1"; // Prints 1
 
-    x++;
+    x++ ;
     if (x <= 100)
 
         // Jump to the point setup by setjmp

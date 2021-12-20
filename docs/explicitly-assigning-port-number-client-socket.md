@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/explicit-assignment-port-number-client-socket/](https://www.geeksforgeeks.org/explicitly-assigning-port-number-client-socket/)
 
-先决条件:[C/c++](https://www.geeksforgeeks.org/socket-programming-cc/)中的 Socket 编程。
+先决条件:[C/c++ ](https://www.geeksforgeeks.org/socket-programming-cc/)中的 Socket 编程。
 在套接字编程中，当服务器和客户端连接时，操作系统会向客户端提供任何随机端口号来运行，一般来说，我们并不关心它，但在某些情况下，客户端可能有防火墙，只允许特定端口号上的传出连接。因此，操作系统提供给客户端的端口号很可能已被客户端防火墙阻止。在这种情况下，我们需要**显式或强制地将任何端口号分配给它可以操作的客户端**。
 
 有些协议，如[**【NFS】**](https://en.wikipedia.org/wiki/Network_File_System)协议，要求客户端程序只在某个端口号上运行，因此在这种情况下，客户端只需要强制分配该端口号，因为它在 111 或 2049 上运行的是[端口号](https://serverfault.com/questions/377170/which-ports-do-i-need-to-open-in-the-firewall-to-use-nfs)。这可以使用在客户端套接字中指定特定端口号的 bind()系统调用来完成。

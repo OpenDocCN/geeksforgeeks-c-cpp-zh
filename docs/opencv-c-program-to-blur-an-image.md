@@ -1,8 +1,8 @@
-# OpenCV C++程序模糊图像
+# OpenCV C++ 程序模糊图像
 
 > 原文:[https://www . geesforgeks . org/opencv-c-program-to-blur-an-image/](https://www.geeksforgeeks.org/opencv-c-program-to-blur-an-image/)
 
-以下是对使用 OpenCV 工具在 C++中模糊图像的 C++代码的解释。 [](https://media.geeksforgeeks.org/wp-content/cdn-uploads/bat.jpg) 
+以下是对使用 OpenCV 工具在 C++ 中模糊图像的 C++ 代码的解释。 [](https://media.geeksforgeeks.org/wp-content/cdn-uploads/bat.jpg) 
 
 **要知道的事情:**
 
@@ -110,6 +110,6 @@ int main() // Main function
 
 关于作者:
 
-阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/f1efc84e1327d1f39e82c99b49cb6e47.png)的本科生。他主要用 C++编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
+阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/f1efc84e1327d1f39e82c99b49cb6e47.png)的本科生。他主要用 C++ 编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
 
 如果你也想在这里展示你的博客，请查看 [GBlog](http://geeksquiz.com/gblog/) 在 GeeksforGeeks 上的客座博文。

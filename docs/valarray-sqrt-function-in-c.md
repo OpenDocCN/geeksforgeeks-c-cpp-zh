@@ -1,4 +1,4 @@
-# c++中的 valarray sqrt()函数
+# c++ 中的 valarray sqrt()函数
 
 > 原文:[https://www.geeksforgeeks.org/valarray-sqrt-function-in-c/](https://www.geeksforgeeks.org/valarray-sqrt-function-in-c/)
 

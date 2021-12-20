@@ -1,4 +1,4 @@
-# STD::c++中的 generate _ n
+# STD::c++ 中的 generate _ n
 
 > 原文:[https://www.geeksforgeeks.org/stdgenerate_n-in-cpp/](https://www.geeksforgeeks.org/stdgenerate_n-in-cpp/)
 
@@ -32,7 +32,7 @@ whose value has been generated.
 int gen()
 {
     static int i = 0;
-    return ++i;
+    return ++ i;
 }
 
 using namespace std;
@@ -47,7 +47,7 @@ int main()
     std::generate_n(v1.begin(), 10, gen);
 
     vector<int>::iterator i1;
-    for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+    for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
         cout << *i1 << " ";
     }
     return 0;

@@ -2,13 +2,13 @@
 
 > 原文:[https://www . geesforgeks . org/access-is-reject-in-c-visual studio-以及如何解决它/](https://www.geeksforgeeks.org/access-is-denied-error-in-c-visual-studio-and-how-to-resolve-it/)
 
-**先决条件:** [如何在 Windows 上安装 Visual c++](https://www.geeksforgeeks.org/how-to-install-visual-cpp-on-windows/)
+**先决条件:** [如何在 Windows 上安装 Visual c++ ](https://www.geeksforgeeks.org/how-to-install-visual-cpp-on-windows/)
 
-在本文中，我们将讨论 C++中 Visual Studio 中的拒绝访问错误。
+在本文中，我们将讨论 C++ 中 Visual Studio 中的拒绝访问错误。
 
-**<u>什么是 C++中 Visual Studio 拒绝访问错误？</u>T3】**
+**<u>什么是 C++ 中 Visual Studio 拒绝访问错误？</u>T3】**
 
-在 Visual Studio c++中，当试图访问某个安装文件时，由于某种原因，对所请求文件的访问被拒绝，就会出现拒绝访问错误。可能有几个原因。本文主要讨论在 Visual Studio 中运行 C++程序时遇到的拒绝访问错误。
+在 Visual Studio c++ 中，当试图访问某个安装文件时，由于某种原因，对所请求文件的访问被拒绝，就会出现拒绝访问错误。可能有几个原因。本文主要讨论在 Visual Studio 中运行 C++ 程序时遇到的拒绝访问错误。
 
 **<u>为什么会出现拒绝访问错误？</u>T3】**
 
@@ -20,7 +20,7 @@
 
 **<u>如何解决此错误</u>**
 
-解决该错误的解决方案之一是在防病毒软件中进行更改，以解锁 Visual Studio 安装文件。下面是在 Visual Studio 中运行 C++程序时遇到的错误的截图。
+解决该错误的解决方案之一是在防病毒软件中进行更改，以解锁 Visual Studio 安装文件。下面是在 Visual Studio 中运行 C++ 程序时遇到的错误的截图。
 
 ![Access Denied Error](img/ba9918f7d6d6e0994cc275fbf564c442.png)
 

@@ -1,10 +1,10 @@
-# C/c++中结构和枚举的区别，示例
+# C/c++ 中结构和枚举的区别，示例
 
 > 原文:[https://www . geesforgeks . org/struct-和 enum-in-c-c-with-examples/](https://www.geeksforgeeks.org/difference-between-struct-and-enum-in-c-c-with-examples/)
 
-**<u>c++中的结构</u>**
+**<u>c++ 中的结构</u>**
 
-A [结构](https://www.geeksforgeeks.org/structures-c/)是 C/C++中用户自定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。“struct”关键字用于创建结构。
+A [结构](https://www.geeksforgeeks.org/structures-c/)是 C/C++ 中用户自定义的数据类型。结构创建的数据类型可用于将可能不同类型的项组合成单一类型。“struct”关键字用于创建结构。
 
 **语法:**
 
@@ -26,12 +26,12 @@ A [结构](https://www.geeksforgeeks.org/structures-c/)是 C/C++中用户自定�
 > 
 > };
 
-C++中的结构可以包含两种类型的成员:
+C++ 中的结构可以包含两种类型的成员:
 
-*   **数据成员**:这些成员都是正常的 C++变量。我们可以在 C++中用不同数据类型的变量创建一个结构。
-*   **成员函数**:这些成员都是普通的 C++函数。除了变量，我们还可以在结构声明中包含函数。
+*   **数据成员**:这些成员都是正常的 C++ 变量。我们可以在 C++ 中用不同数据类型的变量创建一个结构。
+*   **成员函数**:这些成员都是普通的 C++ 函数。除了变量，我们还可以在结构声明中包含函数。
 
-**<u>c++中的枚举</u>**
+**<u>c++ 中的枚举</u>**
 
 [枚举](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/?ref=lbp)是枚举的简称。它是用户定义的数据类型。它用于定义可以选择的选项列表。一旦声明了 enum，我们就不能改变它的值，编译器会抛出一个错误。两个枚举不能共享相同的名称。
 

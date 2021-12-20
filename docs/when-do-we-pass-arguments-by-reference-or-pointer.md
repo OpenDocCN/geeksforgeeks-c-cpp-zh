@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/when-do-we-pass-arguments-by-reference-or-pointer/](https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/)
 
-在 C++中，变量是通过引用传递的，原因如下:
+在 C++ 中，变量是通过引用传递的，原因如下:
 **1)** ***要修改调用者函数的局部变量:*** 引用(或指针)允许被调用的函数修改调用者函数的局部变量。例如，考虑以下示例程序，其中 *fun()* 能够修改 *main()* 的局部变量 *x* 。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

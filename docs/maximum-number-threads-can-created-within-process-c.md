@@ -40,7 +40,7 @@ int main()
     while (err == 0)
     {
         err = pthread_create (&tid, NULL, thread, NULL);
-        count++;
+        count++ ;
     }
     printf("Maximum number of thread within a Process"
                                    " is : %d\n", count);

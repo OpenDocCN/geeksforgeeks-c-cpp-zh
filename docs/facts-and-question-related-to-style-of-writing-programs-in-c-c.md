@@ -1,10 +1,10 @@
-# 与 C/C++中程序编写风格相关的事实和问题
+# 与 C/C++ 中程序编写风格相关的事实和问题
 
 > 原文:[https://www . geesforgeks . org/facts-and-question-to-style-writing-programs-in-c/](https://www.geeksforgeeks.org/facts-and-question-related-to-style-of-writing-programs-in-c-c/)
 
 这里有一些关于 C 程序编写风格的问题:
- **问题-1:** 为什么 i++执行速度比 i + 1 快？
-**答案-1:** 表达式 i++需要 INR 等单条机器指令来执行增量操作，而 i + 1 需要更多指令来执行该操作。
+ **问题-1:** 为什么 i++ 执行速度比 i + 1 快？
+**答案-1:** 表达式 i++ 需要 INR 等单条机器指令来执行增量操作，而 i + 1 需要更多指令来执行该操作。
 
 **问题-2:** 是写 if(！ [strcmp(s1，s2)](https://www.geeksforgeeks.org/strcmp-in-c-cpp/) )好风格？
 **回答-2:** 不，这不是好风格因为如果(！strcmp(s1，s2))调用未定义的行为，因此可能会令人困惑。

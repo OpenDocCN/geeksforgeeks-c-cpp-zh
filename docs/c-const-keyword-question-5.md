@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-const-keyword-question-5/](https://www.geeksforgeeks.org/c-const-keyword-question-5/)
 
-C++程序的输出？
+C++ 程序的输出？
 
 ```cpp
 #include <iostream>

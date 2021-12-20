@@ -47,7 +47,7 @@ void findPeriodicString(string S)
     int count = 0;
     for (int i = 0; i < S.length(); i++) {
         if (S[i] == '1')
-            count++;
+            count++ ;
     }
 
     // Print the string S if it
@@ -96,7 +96,7 @@ static void findPeriodicString(String S)
     for(int i = 0; i < S.length(); i++)
     {
         if (S.charAt(i) == '1')
-            count++;
+            count++ ;
     }
 
     // Print the string S if it
@@ -192,7 +192,7 @@ static void findPeriodicString(string S)
     for(int i = 0; i < S.Length; i++)
     {
         if (S[i] == '1')
-            count++;
+            count++ ;
     }
 
     // Print the string S if it
@@ -248,7 +248,7 @@ function findPeriodicString(S)
     for(let i = 0; i < S.length; i++)
     {
         if (S[i] == '1')
-            count++;
+            count++ ;
     }
 
     // Print the string S if it

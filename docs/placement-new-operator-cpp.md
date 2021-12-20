@@ -1,8 +1,8 @@
-# 在 C++中放置新运算符
+# 在 C++ 中放置新运算符
 
 > 原文:[https://www.geeksforgeeks.org/placement-new-operator-cpp/](https://www.geeksforgeeks.org/placement-new-operator-cpp/)
 
-Placement new 是 C++中的一个变体 [new](https://www.geeksforgeeks.org/malloc-vs-new/) 运算符。普通的新运算符做两件事:(1)分配内存(2)在分配的内存中构造一个对象。
+Placement new 是 C++ 中的一个变体 [new](https://www.geeksforgeeks.org/malloc-vs-new/) 运算符。普通的新运算符做两件事:(1)分配内存(2)在分配的内存中构造一个对象。
 放置新允许我们将以上两件事分开。在 placement new 中，我们可以传递一个预分配的内存，并在传递的内存中构造一个对象。
 
 **新 vs 放置新**
@@ -65,11 +65,11 @@ Buff Addr              Int Addr
 3                      5
 ```
 
-下图形象地显示了上述 C++程序中实际发生的情况。
+下图形象地显示了上述 C++ 程序中实际发生的情况。
 
 ![Placement new operator in C++ 1](img/1ffdeb4dca087e7e471b826e61ae7227.png)
 
-下面是 C++中另一个简单的**实现，以说明在 C++中放置 new 的使用:** 
+下面是 C++ 中另一个简单的**实现，以说明在 C++ 中放置 new 的使用:** 
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
@@ -112,7 +112,7 @@ mem : 0x69fee8
 ```
 
 ****说明:**在这里，很明显 **x** 的新值是在 **x** 的地址上借助放置新操作符分配的。这一点可以通过 **& X** 和 **mem** 的值相等这一事实来明确。
-下图形象地展示了上述 C++程序中实际发生的事情。** 
+下图形象地展示了上述 C++ 程序中实际发生的事情。** 
 
 **![Placement new operator in C++ 2](img/90001c0a7a515bd53a8670fc1cb202ff.png)**
 

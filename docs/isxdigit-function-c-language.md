@@ -84,9 +84,9 @@ int ttl_hexadecimal(int i, int counter)
     while (ch != '\0') {
         ch = a[i];
         if (isxdigit(ch))
-            counter++;
+            counter++ ;
 
-        i++;
+        i++ ;
     }
 
     // returning total number of hexadecimal

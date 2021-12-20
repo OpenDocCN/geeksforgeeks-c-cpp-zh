@@ -109,7 +109,7 @@ int findNumUtil(string& num)
             // it in the st[] array
 
             if (flag == true)
-                st[ed++] = num[i];
+                st[ed++ ] = num[i];
         }
 
     combinations(num, pre, 0, 0);
@@ -230,7 +230,7 @@ int findNumUtil(char num[])
             // it in the set[] array
 
             if (flag == true)
-                set[end++] = num[i];
+                set[end++ ] = num[i];
         }
 
     combinations(num, pre, 0, 0);

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/implement-min-heap-using-stl/](https://www.geeksforgeeks.org/implement-min-heap-using-stl/)
 
-C++ STL 中有 [priority_queue](https://www.geeksforgeeks.org/priority-queue-container-adaptors-the-c-standard-template-library-stl/) 可以直接用来实现 Max Heap。为了完全理解代码，请确保您熟悉 C++中的以下概念
+C++ STL 中有 [priority_queue](https://www.geeksforgeeks.org/priority-queue-container-adaptors-the-c-standard-template-library-stl/) 可以直接用来实现 Max Heap。为了完全理解代码，请确保您熟悉 C++ 中的以下概念
 
 *   [STL 中的容器适配器](http://cs.stmarys.ca/~porter/csc/ref/stl/containers_summary.html)
 *   [函子](https://www.geeksforgeeks.org/functors-in-cpp/)

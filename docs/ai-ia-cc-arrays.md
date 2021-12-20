@@ -1,4 +1,4 @@
-# 为什么 C/C++数组中的 a[i] == i[a]？
+# 为什么 C/C++ 数组中的 a[i] == i[a]？
 
 > 原文:[https://www.geeksforgeeks.org/ai-ia-cc-arrays/](https://www.geeksforgeeks.org/ai-ia-cc-arrays/)
 

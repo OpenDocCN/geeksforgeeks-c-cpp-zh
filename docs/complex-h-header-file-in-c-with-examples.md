@@ -4,7 +4,7 @@
 
 大多数 C 程序都是通过使用 **complex.h** 头文件来处理[复数](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)操作和操纵。这个头文件是在 **C99 标准**中添加的。
 
-C++标准库有一个表头，实现复数作为模板类，**[<【T】>](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)**，不同于 c 中的 **< complex.h >**
+C++ 标准库有一个表头，实现复数作为模板类，**[<【T】>](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)**，不同于 c 中的 **< complex.h >**
 
 **<u>宏与< complex.h ></u>**
 相关联 **< complex.h >** 的一些宏如下所示。左侧的值描述了 complex.h 中的宏，右侧描述了 C99 标准中添加了关键字(_ 虚数，_Complex)的宏的扩展。

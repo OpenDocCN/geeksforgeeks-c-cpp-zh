@@ -1,4 +1,4 @@
-# c++中的复制和交换习惯用法
+# c++ 中的复制和交换习惯用法
 
 > 原文:[https://www.geeksforgeeks.org/copy-swap-idiom-c/](https://www.geeksforgeeks.org/copy-swap-idiom-c/)
 

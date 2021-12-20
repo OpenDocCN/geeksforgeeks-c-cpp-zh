@@ -1,4 +1,4 @@
-# c++中的 regex _ error
+# c++ 中的 regex _ error
 
 > 原文:[https://www.geeksforgeeks.org/regex_error-in-c/](https://www.geeksforgeeks.org/regex_error-in-c/)
 

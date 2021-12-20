@@ -52,7 +52,7 @@ int main()
     // deque becomes 1, 2, 3, 4, 5, 6
 
     for (auto it = mydeque.begin();
-              it != mydeque.end(); ++it)
+              it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```

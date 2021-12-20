@@ -41,7 +41,7 @@ int main()
     sample.emplace(sample.begin(), 1);
 
     // Looping the whole
-    for (itr = sample.begin(); itr != sample.end(); ++itr)
+    for (itr = sample.begin(); itr != sample.end(); ++ itr)
         // sample for printing
         cout << *itr << " ";
 
@@ -74,7 +74,7 @@ int main()
     deque<char>::iterator itr = sample.begin();
 
     // incrementing the iterator by one place
-    ++itr;
+    ++ itr;
 
     // adding E at the second position in
     // the sample as itr points to
@@ -82,7 +82,7 @@ int main()
     sample.emplace(itr, 'E');
 
     // Looping the whole
-    for (itr = sample.begin(); itr != sample.end(); ++itr)
+    for (itr = sample.begin(); itr != sample.end(); ++ itr)
 
         // sample for printing
         cout << *itr;

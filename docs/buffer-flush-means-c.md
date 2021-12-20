@@ -1,11 +1,11 @@
-# 缓冲区刷新在 C++中是什么意思？
+# 缓冲区刷新在 C++ 中是什么意思？
 
 > 原文:[https://www.geeksforgeeks.org/buffer-flush-means-c/](https://www.geeksforgeeks.org/buffer-flush-means-c/)
 
 缓冲区刷新是将计算机数据从临时存储区传输到计算机的永久内存。例如，如果我们对一个文件进行任何更改，我们在一个计算机屏幕上看到的更改会暂时存储在一个缓冲区中。
 通常，当我们打开任何 word 文档时，都会有一个临时文件，当我们关闭主文件时，它会自动销毁。因此，当我们保存工作时，自上次保存以来对文档所做的更改会从缓冲区刷新到硬盘上的永久存储中。
 
-在 C++中，我们可以显式刷新来强制写入缓冲区。一般来说， **std::endl** 函数通过插入一个新行字符并刷新流来实现同样的功能。 **stdout/cout 是行缓冲的**也就是说，直到你写了一个换行符或显式刷新缓冲区，输出才被发送到操作系统。例如，
+在 C++ 中，我们可以显式刷新来强制写入缓冲区。一般来说， **std::endl** 函数通过插入一个新行字符并刷新流来实现同样的功能。 **stdout/cout 是行缓冲的**也就是说，直到你写了一个换行符或显式刷新缓冲区，输出才被发送到操作系统。例如，
 
 ## C++
 
@@ -30,7 +30,7 @@ using namespace std;
 
 int main()
 {
-  for (int i = 1; i <= 5; ++i)
+  for (int i = 1; i <= 5; ++ i)
   {
       cout << i << " ";
       this_thread::sleep_for(chrono::seconds(1));
@@ -57,7 +57,7 @@ The above program will output 1 2 3 4 5 at once.
 using namespace std;
 int main()
 {
-   for (int i = 1; i <= 5; ++i)
+   for (int i = 1; i <= 5; ++ i)
    {
       cout << i << " " << flush;
       this_thread::sleep_for(chrono::seconds(1));

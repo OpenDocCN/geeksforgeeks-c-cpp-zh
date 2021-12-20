@@ -1,9 +1,9 @@
-# 覆盖 C++中的关键字
+# 覆盖 C++ 中的关键字
 
 > 原文:[https://www.geeksforgeeks.org/override-keyword-c/](https://www.geeksforgeeks.org/override-keyword-c/)
 
 [函数覆盖](https://www.geeksforgeeks.org/function-overloading-vs-function-overriding-in-cpp/)是用相同的签名，即返回类型和参数，在其派生类中重新定义基类函数。
-但是可能会有程序员在重写该函数时出错的情况。因此，为了跟踪这样的错误，C++11 提出了关键字 override。它将使编译器检查基类，看看是否有一个具有这个确切签名的虚函数。如果没有，编译器会显示一个错误。
+但是可能会有程序员在重写该函数时出错的情况。因此，为了跟踪这样的错误，C++ 11 提出了关键字 override。它将使编译器检查基类，看看是否有一个具有这个确切签名的虚函数。如果没有，编译器会显示一个错误。
 
 从下面的例子可以更清楚地看出这一点:
 
@@ -50,7 +50,7 @@ Compiled successfully
 ```
 
 **解释**:这里用户打算覆盖派生类中的 func()函数，但是做了一个愚蠢的错误，用不同的签名重新定义了函数。编译器没有检测到。然而，程序实际上并不是用户想要的。所以，为了避免这样愚蠢的错误，可以使用 override 关键字。
-下面是一个 C++例子，展示了在 C++中 override 关键字的使用。
+下面是一个 C++ 例子，展示了在 C++ 中 override 关键字的使用。
 
 ```cpp
 // A CPP program that uses override keyword so

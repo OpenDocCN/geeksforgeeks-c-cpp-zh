@@ -1,8 +1,8 @@
-# c++中短整型的最大值
+# c++ 中短整型的最大值
 
 > 原文:[https://www . geesforgeks . org/max-value-of-short-int-in-c/](https://www.geeksforgeeks.org/maximum-value-of-short-int-in-c/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的**短整型数据类型**。C++ 中的这个[数据类型用于存储 16 位整数。](https://www.geeksforgeeks.org/c-data-types/)
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的**短整型数据类型**。C++ 中的这个[数据类型用于存储 16 位整数。](https://www.geeksforgeeks.org/c-data-types/)
 
 短整型数据类型的一些属性包括:
 
@@ -14,7 +14,7 @@
 6.  **可以存储在短整型数据类型中的最小整数值通常为**-32768******(****)-2<sup>15</sup>+1****)**(不过是[编译器依赖的](https://www.geeksforgeeks.org/compile-32-bit-program-64-bit-gcc-c-c/))。****
 7.  ****在数据类型的[溢出](https://www.geeksforgeeks.org/overflow-in-arithmetic-addition-in-binary-number-system/)或下溢的情况下，该值被环绕。例如，如果将 **-32768** 存储在短整型数据类型中，并从中减去 1，则该变量中的值将等于 **32767** **。**同样，在溢出的情况下，数值会四舍五入回 **-32768** 。****
 
-****下面是获取 C++中无符号长整型可以存储的最高值的程序:****
+****下面是获取 C++ 中无符号长整型可以存储的最高值的程序:****
 
 ## ****C++****
 
@@ -55,8 +55,8 @@ int main()
     // value i.e., present becomes less
     // than the previous value
     while (present > previous) {
-        previous++;
-        present++;
+        previous++ ;
+        present++ ;
     }
 
     cout << "Value using the wrap "

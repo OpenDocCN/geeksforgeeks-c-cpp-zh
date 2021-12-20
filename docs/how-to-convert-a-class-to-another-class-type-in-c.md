@@ -1,8 +1,8 @@
-# 如何在 C++中将一个类转换成另一个类类型？
+# 如何在 C++ 中将一个类转换成另一个类类型？
 
 > 原文:[https://www . geesforgeks . org/如何将一个类转换为另一个类-类型-in-c/](https://www.geeksforgeeks.org/how-to-convert-a-class-to-another-class-type-in-c/)
 
-**先决条件:**[c++中的类型转换](https://www.geeksforgeeks.org/reverse-a-string-in-java/)[高级 C++ |转换运算符](https://www.geeksforgeeks.org/advanced-c-conversion-operators/)
+**先决条件:**[c++ 中的类型转换](https://www.geeksforgeeks.org/reverse-a-string-in-java/)[高级 C++ |转换运算符](https://www.geeksforgeeks.org/advanced-c-conversion-operators/)
 通过类转换，可以将属于特定类类型的数据分配给属于另一类类型的对象。
 **例:**
 设‘A’和‘B’两类。如果我们想将属于“A”类的细节分配给“B”类的对象，那么这可以通过–

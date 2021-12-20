@@ -1,8 +1,8 @@
-# c++中 int 的最大值
+# c++ 中 int 的最大值
 
 > 原文:[https://www.geeksforgeeks.org/maximum-value-of-int-in-c/](https://www.geeksforgeeks.org/maximum-value-of-int-in-c/)
 
-在本文中，我们将讨论 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的 **int** [数据类型](https://www.geeksforgeeks.org/c-data-types/)。用于存储 **32 位整数**。
+在本文中，我们将讨论 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的 **int** [数据类型](https://www.geeksforgeeks.org/c-data-types/)。用于存储 **32 位整数**。
 
 **int** 数据类型的一些属性包括:
 
@@ -13,7 +13,7 @@
 *   可以存储在 int 数据类型中的最小整数值通常为 **-2，147，483，648** **，**在 **-2 <sup>31</sup>** 周围，但与编译器有关。
 *   在数据类型的[溢出](https://www.geeksforgeeks.org/check-for-integer-overflow/)或[下溢](https://www.geeksforgeeks.org/check-for-integer-overflow/)的情况下，该值被环绕。例如，如果将 **-2，147，483，648** 存储在 **int** 数据类型中，并从中减去 **1** ，则该变量中的值将等于 **2，147，483，647** **。**同样，在溢出的情况下，该值将舍入回 **-2，147，483，648** 。
 
-下面是在 C++中获取 int 中可以存储的最高值的程序:
+下面是在 C++ 中获取 int 中可以存储的最高值的程序:
 
 ## C++
 
@@ -55,8 +55,8 @@ int main()
     // to the negative value i.e., present
     // becomes less than previous value
     while (present > previous) {
-        previous++;
-        present++;
+        previous++ ;
+        present++ ;
     }
 
     cout << "\nValue using the wrap "

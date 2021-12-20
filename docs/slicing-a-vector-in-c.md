@@ -1,8 +1,8 @@
-# 在 C++中对向量进行切片
+# 在 C++ 中对向量进行切片
 
 > 原文:[https://www.geeksforgeeks.org/slicing-a-vector-in-c/](https://www.geeksforgeeks.org/slicing-a-vector-in-c/)
 
-**先决条件:**[c++中的向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+**先决条件:**[c++ 中的向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
 对向量进行切片意味着从给定的向量中生成一个子向量。
 给定向量[中的 N 个整数](https://www.geeksforgeeks.org/vector-in-cpp-stl/) **arr** 和正数 **X 和 Y** ，任务是将给定向量从给定向量中的索引 **X 切分到 Y** 。
 **举例:**

@@ -1,8 +1,8 @@
-# c++中的对象数组，示例
+# c++ 中的对象数组，示例
 
 > 原文:[https://www . geeksforgeeks . org/带示例的 c 中对象数组/](https://www.geeksforgeeks.org/array-of-objects-in-c-with-examples/)
 
-一个 [数组](https://www.geeksforgeeks.org/introduction-to-arrays/) 中的 [C/C++](https://www.geeksforgeeks.org/difference-between-c-and-c/) 或者是它在任何编程语言中都是存储在连续内存位置的相似数据项的集合，并且可以使用数组的索引随机访问元素。它们可以用来存储原始数据类型的集合，例如任何特定类型的 int、float、double、char 等。补充一下，C/C++中的数组可以存储结构、指针、等派生数据类型。下面给出了一个数组的图片表示。
+一个 [数组](https://www.geeksforgeeks.org/introduction-to-arrays/) 中的 [C/C++ ](https://www.geeksforgeeks.org/difference-between-c-and-c/) 或者是它在任何编程语言中都是存储在连续内存位置的相似数据项的集合，并且可以使用数组的索引随机访问元素。它们可以用来存储原始数据类型的集合，例如任何特定类型的 int、float、double、char 等。补充一下，C/C++ 中的数组可以存储结构、指针、等派生数据类型。下面给出了一个数组的图片表示。
 
 **示例:**
 我们来考虑一个从用户处获取随机整数的示例。
@@ -28,7 +28,7 @@ ClassName ObjectName[number of objects];
 
 ![Array of objects](img/343871ba39f41254a385730f68719529.png)
 
-以下是用于存储一名员工数据的 C++程序:
+以下是用于存储一名员工数据的 C++ 程序:
 
 ## C++
 
@@ -73,7 +73,7 @@ int main(){
     *   **getdata():** 获取用户输入的 id 和名称。
     *   **putdata():** 在控制台屏幕上显示数据。
 
-该程序只能获取一名员工的数据。如果需要添加多个员工的数据，该怎么办。答案是对象数组。如果需要存储多个员工的数据，可以使用对象数组。下面是实现上述方法的 C++程序
+该程序只能获取一名员工的数据。如果需要添加多个员工的数据，该怎么办。答案是对象数组。如果需要存储多个员工的数据，可以使用对象数组。下面是实现上述方法的 C++ 程序
 
 ## C++
 

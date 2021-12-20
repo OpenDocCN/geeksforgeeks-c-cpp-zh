@@ -1,4 +1,4 @@
-# c++中的复数|集合 1
+# c++ 中的复数|集合 1
 
 > 原文:[https://www.geeksforgeeks.org/complex-numbers-c-set-1/](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)
 
@@ -233,7 +233,7 @@
 
     ```
 
-下一篇:[c++中的复数|集合 2](https://www.geeksforgeeks.org/complex-numbers-c-set-2/)
+下一篇:[c++ 中的复数|集合 2](https://www.geeksforgeeks.org/complex-numbers-c-set-2/)
 
 本文由**香巴拉维·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

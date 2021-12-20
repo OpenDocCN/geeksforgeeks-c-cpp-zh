@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/map-key _ comp-function-in-c-STL/](https://www.geeksforgeeks.org/map-key_comp-function-in-c-stl/)
 
-**映射::key_comp()** 是 C++中 STL 中的一个函数，它返回比较键的容器所使用的比较对象的副本。
+**映射::key_comp()** 是 C++ 中 STL 中的一个函数，它返回比较键的容器所使用的比较对象的副本。
 
 **语法:**
 

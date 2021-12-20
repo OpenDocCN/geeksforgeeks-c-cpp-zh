@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/unordered_map-size-in-c-stl/](https://www.geeksforgeeks.org/unordered_map-size-in-c-stl/)
 
-**无序 _ 多映射::size()** 是 C++标准模板库中的一个内置函数，它返回无序映射中元素的数量。
+**无序 _ 多映射::size()** 是 C++ 标准模板库中的一个内置函数，它返回无序映射中元素的数量。
 
 **语法**:
 

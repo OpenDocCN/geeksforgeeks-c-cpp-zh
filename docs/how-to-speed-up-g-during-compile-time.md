@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/如何在编译时加速 g/](https://www.geeksforgeeks.org/how-to-speed-up-g-during-compile-time/)
 
-**在** [**上快速编译 g++**](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/) 构建系统基本上是用于在终端编译执行 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序。有许多选项可以加快编译速度，甚至减慢速度。其中一些如下:
+**在** [**上快速编译 g++**](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/) 构建系统基本上是用于在终端编译执行 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序。有许多选项可以加快编译速度，甚至减慢速度。其中一些如下:
 
 ### **g++ { filename . CPP }-fconcepts:**
 
@@ -14,7 +14,7 @@
 
 > g++ <filename.cpp>-fconcepts</filename.cpp>
 
-下面是 C++程序来说明 **-fconcepts** 的使用:
+下面是 C++ 程序来说明 **-fconcepts** 的使用:
 
 ## C++
 
@@ -55,9 +55,9 @@ int main()
 
 **语法:**
 
-> g++<filename.cpp>-墙</filename.cpp>
+> g++ <filename.cpp>-墙</filename.cpp>
 
-下面是 C++程序来说明 **-Wall** 的使用:
+下面是 C++ 程序来说明 **-Wall** 的使用:
 
 ## C++
 

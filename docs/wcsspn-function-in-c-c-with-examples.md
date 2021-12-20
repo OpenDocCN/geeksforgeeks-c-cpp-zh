@@ -1,8 +1,8 @@
-# wcsspn()函数在 C/C++中的应用举例
+# wcsspn()函数在 C/C++ 中的应用举例
 
 > 原文:[https://www . geesforgeks . org/wcsspn-function-in-c-c-with-examples/](https://www.geeksforgeeks.org/wcsspn-function-in-c-c-with-examples/)
 
-**wcsspn()** 是 C/C++中的内置函数，它返回宽字符串的最大初始段长度，该长度由另一个宽字符串中存在的字符组成。在 C++的**cwcchar**头文件中定义。
+**wcsspn()** 是 C/C++ 中的内置函数，它返回宽字符串的最大初始段长度，该长度由另一个宽字符串中存在的字符组成。在 C++ 的**cwcchar**头文件中定义。
 
 **语法**:
 

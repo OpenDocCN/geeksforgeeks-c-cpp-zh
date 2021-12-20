@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/bitsetnone-in-c-STL/
 
-**位集::none()** 是 C++中的内置 STL，如果其位都没有设置，则返回 True。如果设置了最少一位，则返回假。
+**位集::none()** 是 C++ 中的内置 STL，如果其位都没有设置，则返回 True。如果设置了最少一位，则返回假。
 
 **语法:**
 

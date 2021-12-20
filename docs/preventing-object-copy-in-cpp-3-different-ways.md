@@ -1,14 +1,14 @@
-# 防止 C++中的对象复制(3 种不同方式)
+# 防止 C++ 中的对象复制(3 种不同方式)
 
 > 原文:[https://www . geesforgeks . org/proving-object-copy-in-CPP-3-异途/](https://www.geeksforgeeks.org/preventing-object-copy-in-cpp-3-different-ways/)
 
-很多时候，用户希望一个 C++类的实例根本不应该被复制。那么，问题是我们如何实现这一点？
+很多时候，用户希望一个 C++ 类的实例根本不应该被复制。那么，问题是我们如何实现这一点？
 
 有三种方法可以实现这一点:
 
 1.  **Keeping the Copy Constructor and Copy assignment operator as private in the class.**
 
-    下面是 C++实现来说明如何做到这一点。
+    下面是 C++ 实现来说明如何做到这一点。
 
     ```cpp
     #include <iostream>
@@ -62,7 +62,7 @@
 
 2.  **Inherit a Dummy class with a private copy constructor and a private copy assignment operator.**
 
-    下面是 C++实现来说明如何做到这一点。
+    下面是 C++ 实现来说明如何做到这一点。
 
     ```cpp
     #include <iostream>
@@ -113,9 +113,9 @@
 
     注意:这段代码不能编译，因为我们不能复制这个类的对象，所以它会显示这个错误。
 
-3.  **Using Deleted copy constructor and copy assignment operator**: Above two ways are quite complex, C++11 has come up with a simpler solution i.e. just delete the copy constructor and assignment operator.
+3.  **Using Deleted copy constructor and copy assignment operator**: Above two ways are quite complex, C++ 11 has come up with a simpler solution i.e. just delete the copy constructor and assignment operator.
 
-    下面是 C++实现来说明:
+    下面是 C++ 实现来说明:
 
     ```cpp
     // CPP program to demonstrate use Delete copy

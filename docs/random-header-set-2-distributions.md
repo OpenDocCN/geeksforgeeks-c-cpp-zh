@@ -36,7 +36,7 @@ int main()
 
     uniform_int_distribution<int> distribution(1,10);
     cout << "Some random numbers between 1 and 10";
-    for (int i = 0; i < 10; ++i)
+    for (int i = 0; i < 10; ++ i)
         cout << distribution(generator) ;
 
     cout << endl;
@@ -119,7 +119,7 @@ int main()
 
         uniform_int_distribution<int> distribution(1,10);
         cout << "Random numbers between 1 and 10";
-        for (int i = 0; i< 10; ++i)
+        for (int i = 0; i< 10; ++ i)
             cout << distribution(generator) ;
 
         cout << endl;
@@ -212,12 +212,12 @@ int main()
             // count number of trues
             int count=0; 
 
-            for (int i = 0; i < temp; ++i) 
+            for (int i = 0; i < temp; ++ i) 
             {
 
                 // checking for true condition 
                 if (distribution(generator)) 
-                count++;
+                count++ ;
             }
 
             cout << "bernoulli_distribution (0.7) x 500:" << endl;
@@ -301,7 +301,7 @@ int main()
             binomial_distribution<int> distribution (15, 0.4);
 
             cout << "some binomial results (t=15, p=0.4): ";
-            for (int i = 0; i < 15; ++i)
+            for (int i = 0; i < 15; ++ i)
             {
 
                 // Use of operator()
@@ -340,7 +340,7 @@ int main()
             binomial_distribution<int> distribution (15, 0.4);
 
             cout << "some binomial results (t=15, p=0.4): ";
-            for (int i = 0; i < 15; ++i)
+            for (int i = 0; i < 15; ++ i)
             {
 
                 // Use of operator()
@@ -387,7 +387,7 @@ int main()
             geometric_distribution<int> distribution (1.0 / 5);
 
             cout << "Plus sign is 5 spaces away from the next :" << endl;
-            for (int i = 0; i < 10 ; ++i) 
+            for (int i = 0; i < 10 ; ++ i) 
             {
                 int number = distribution(generator);
                 cout << string (number,' ') << "+";
@@ -472,7 +472,7 @@ int main()
             negative_binomial_distribution<int> distribution (6,0.7);
 
             cout << "Negative binomial results (t=6, p=0.7): ";
-            for (int i = 0; i < 15; ++i)
+            for (int i = 0; i < 15; ++ i)
                 {
                     // Use of operator
                     cout << distribution(generator) << " ";
@@ -569,11 +569,11 @@ int main()
         for (int i = 0; i < n; i++) 
         {
             int number = distribution(generator);
-            p[number]++;
+            p[number]++ ;
         }
 
         cout << "a discrete_distribution:" << endl;
-        for (int i = 0; i < 10; ++i)
+        for (int i = 0; i < 10; ++ i)
         {
             cout << i << ": " << string(p[i]*m/n,'*') << endl;
         }

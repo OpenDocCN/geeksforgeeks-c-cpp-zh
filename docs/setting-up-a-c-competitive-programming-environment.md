@@ -1,4 +1,4 @@
-# 建立 C++竞争编程环境
+# 建立 C++ 竞争编程环境
 
 > 原文:[https://www . geesforgeks . org/setting-a-c-competitive-programming-environment/](https://www.geeksforgeeks.org/setting-up-a-c-competitive-programming-environment/)
 
@@ -20,11 +20,11 @@
 
 ## 要使用的语言
 
-现在是选择语言使用的时候了。大多数人使用 C++作为他们的主要编码语言。这主要是因为它的速度、清晰度和广泛的支持。所以，如果你是编码新手，你应该使用 C++语言，但是如果你不知道 C++但是知道一些其他的语言，试着只关注那种语言。大多数 CP Online 评委会做一些可变时间限制之类的事情，而且都是针对其他语言的。ie。如果你的语言比 C++慢 2 倍，那么与 C++程序相比，你也会有 2 倍的时间限制。
+现在是选择语言使用的时候了。大多数人使用 C++ 作为他们的主要编码语言。这主要是因为它的速度、清晰度和广泛的支持。所以，如果你是编码新手，你应该使用 C++ 语言，但是如果你不知道 C++ 但是知道一些其他的语言，试着只关注那种语言。大多数 CP Online 评委会做一些可变时间限制之类的事情，而且都是针对其他语言的。ie。如果你的语言比 C++ 慢 2 倍，那么与 C++ 程序相比，你也会有 2 倍的时间限制。
 
 ## 编译程序
 
-现在，如果你使用 C++作为你的主要编码语言，你必须安装一个 gcc 编译器(Linux 用户可以跳过这一步，因为大多数 Linux 发行版都带有编译器:))，如果你不确定你是否有 gcc 编译器；打开外壳(ie cmd)并执行以下代码。如果你得到了答案，那么你就准备好出发了。如果没有(即系统不理解命令)，你必须先安装一个编译器。
+现在，如果你使用 C++ 作为你的主要编码语言，你必须安装一个 gcc 编译器(Linux 用户可以跳过这一步，因为大多数 Linux 发行版都带有编译器:))，如果你不确定你是否有 gcc 编译器；打开外壳(ie cmd)并执行以下代码。如果你得到了答案，那么你就准备好出发了。如果没有(即系统不理解命令)，你必须先安装一个编译器。
 
 g++–版本
 
@@ -127,13 +127,13 @@ void solve()
 ```cpp
 {
 "shell_cmd": "g++ \"${file}\" -o \"${file_path}\\\\${file_base_name}\"", "file_regex": "^(..[^:]):([0-9]+):?([0-9]+)?:? (.){content}quot;,
-"shell_cmd": "g++ -O2 -std=c++11 \"${file}\" -o \"${file_path}\\\\${file_base_name}\" && \"${file_path}\\\\${file_base_name}\" < input.txt",
+"shell_cmd": "g++ -O2 -std=c++ 11 \"${file}\" -o \"${file_path}\\\\${file_base_name}\" && \"${file_path}\\\\${file_base_name}\" < input.txt",
 "working_dir": "${file_path}",
 "selector": "source.c, source.c++",
 
 "variants": [
  { "name": "Run + Commit",
-"shell_cmd": "g++ -O2 -std=c++11 \"${file}\" -o \"${file_path}\\\\${file_base_name}\" && \"${file_path}\\\\${file_base_name}\" < input.txt && git add test.cpp && dd if=\"${file}\" of=*/Enter the location of your Programming folder her/*/name.txt bs=10 count=1 && git commit -F name.txt ",
+"shell_cmd": "g++ -O2 -std=c++ 11 \"${file}\" -o \"${file_path}\\\\${file_base_name}\" && \"${file_path}\\\\${file_base_name}\" < input.txt && git add test.cpp && dd if=\"${file}\" of=*/Enter the location of your Programming folder her/*/name.txt bs=10 count=1 && git commit -F name.txt ",
  }
  ]
  }

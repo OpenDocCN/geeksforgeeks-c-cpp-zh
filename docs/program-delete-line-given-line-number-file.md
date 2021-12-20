@@ -50,7 +50,7 @@ void delete_line(const char *file_name, int n)
     {
         // if a newline character
         if (c == '\n')
-        line_no++;
+        line_no++ ;
 
         // file content not to be deleted
         if (line_no != n)

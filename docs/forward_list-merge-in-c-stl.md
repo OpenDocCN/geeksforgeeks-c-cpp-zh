@@ -42,7 +42,7 @@ int main()
 
     // print the contents of the forward list
     cout << "List contains following elements" << endl;
-    for (auto it = fl1.begin(); it != fl1.end(); ++it)
+    for (auto it = fl1.begin(); it != fl1.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -79,7 +79,7 @@ int main()
 
     // print the contents of the forward list
     cout << "List contains following elements" << endl;
-    for (auto it = fl1.begin(); it != fl1.end(); ++it)
+    for (auto it = fl1.begin(); it != fl1.end(); ++ it)
         cout << *it << " ";
 
     return 0;

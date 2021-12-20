@@ -1,8 +1,8 @@
-# C/c++中的 iswgraph()，示例
+# C/c++ 中的 iswgraph()，示例
 
 > 原文:[https://www . geeksforgeeks . org/isw graph-in-c-c-with-examples/](https://www.geeksforgeeks.org/iswgraph-in-c-c-with-examples/)
 
-**iswgraph()** 是 C/C++中的一个内置函数，它检查给定的宽字符是否有图形表示。在 C++的**cwcytpe**头文件中定义。默认情况下，以下字符是图形:
+**iswgraph()** 是 C/C++ 中的一个内置函数，它检查给定的宽字符是否有图形表示。在 C++ 的**cwcytpe**头文件中定义。默认情况下，以下字符是图形:
 
 *   **数字** (0 至 9)
 *   **大写字母** (A 至 Z)

@@ -1,8 +1,8 @@
-# 用 C++计算数据类型的范围
+# 用 C++ 计算数据类型的范围
 
 > 原文:[https://www . geesforgeks . org/calculate-range-data-type-using-c/](https://www.geeksforgeeks.org/calculate-range-data-types-using-c/)
 
-C++程序，用于打印范围数据类型，如 int、char、short。
+C++ 程序，用于打印范围数据类型，如 int、char、short。
 
 **有符号数据类型**
 

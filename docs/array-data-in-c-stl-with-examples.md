@@ -69,11 +69,11 @@ int main()
     auto it = arr.data();
 
     // increment
-    it++;
+    it++ ;
     cout << "\nThe second element is: " << *it;
 
     // increment
-    it++;
+    it++ ;
     cout << "\nThe third element is: " << *it;
 
     return 0;

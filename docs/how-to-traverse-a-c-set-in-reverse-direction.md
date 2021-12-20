@@ -1,4 +1,4 @@
-# 如何反向遍历 C++集合
+# 如何反向遍历 C++ 集合
 
 > 原文:[https://www . geesforgeks . org/如何反向遍历 a-c-set/](https://www.geeksforgeeks.org/how-to-traverse-a-c-set-in-reverse-direction/)
 

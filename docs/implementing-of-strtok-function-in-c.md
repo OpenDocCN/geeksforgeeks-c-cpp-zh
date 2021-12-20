@@ -1,4 +1,4 @@
-# 在 C++中实现 strtok()函数
+# 在 C++ 中实现 strtok()函数
 
 > 原文:[https://www . geeksforgeeks . org/implementing-of-strtok-function-in-c/](https://www.geeksforgeeks.org/implementing-of-strtok-function-in-c/)
 

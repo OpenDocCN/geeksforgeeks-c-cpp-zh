@@ -42,7 +42,7 @@
         it = vec.insert(vec.begin() + i, 7);
 
         cout << "The vector elements are: ";
-        for (auto it = vec.begin(); it != vec.end(); ++it)
+        for (auto it = vec.begin(); it != vec.end(); ++ it)
             cout << *it << " ";
 
         return 0;
@@ -126,7 +126,7 @@
         vec.insert(it, 2, 4);
 
         cout << "The vector elements are: ";
-        for (auto it = vec.begin(); it != vec.end(); ++it)
+        for (auto it = vec.begin(); it != vec.end(); ++ it)
             cout << *it << " ";
 
         return 0;
@@ -174,7 +174,7 @@
         vec2.insert(vec2.begin(), vec1.begin(), vec1.end());
 
         cout << "The vector2 elements are: ";
-        for (auto it = vec2.begin(); it != vec2.end(); ++it)
+        for (auto it = vec2.begin(); it != vec2.end(); ++ it)
             cout << *it << " ";
 
         return 0;

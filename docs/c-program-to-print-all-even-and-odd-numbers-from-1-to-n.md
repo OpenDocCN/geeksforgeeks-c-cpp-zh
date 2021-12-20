@@ -1,4 +1,4 @@
-# C++程序打印所有从 1 到 N 的偶数和奇数
+# C++ 程序打印所有从 1 到 N 的偶数和奇数
 
 > 原文:[https://www . geesforgeks . org/c-program-to-print-all-偶数和奇数-从-1 到-n/](https://www.geeksforgeeks.org/c-program-to-print-all-even-and-odd-numbers-from-1-to-n/)
 

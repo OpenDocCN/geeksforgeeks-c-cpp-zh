@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/class-template-multi-parameters/](https://www.geeksforgeeks.org/class-template-multiple-parameters/)
 
-前提条件:[c++中的模板](https://www.geeksforgeeks.org/templates-cpp/)
+前提条件:[c++ 中的模板](https://www.geeksforgeeks.org/templates-cpp/)
 
 创建模板时，可以指定多种类型。我们可以在一个类模板中使用多个通用数据类型。它们在模板中声明为逗号分隔列表，如下所示:
 **语法:**

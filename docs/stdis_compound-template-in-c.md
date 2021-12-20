@@ -1,4 +1,4 @@
-# STD::is _ c++中的复合模板
+# STD::is _ c++ 中的复合模板
 
 > 原文:[https://www.geeksforgeeks.org/stdis_compound-template-in-c/](https://www.geeksforgeeks.org/stdis_compound-template-in-c/)
 

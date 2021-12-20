@@ -1,4 +1,4 @@
-# C/c++中的模运算符(%)，示例
+# C/c++ 中的模运算符(%)，示例
 
 > 原文:[https://www . geeksforgeeks . org/模-运算符-in-c-cpp-with-examples/](https://www.geeksforgeeks.org/modulo-operator-in-c-cpp-with-examples/)
 

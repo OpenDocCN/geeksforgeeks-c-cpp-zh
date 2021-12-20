@@ -1,8 +1,8 @@
-# c++中的范围解析运算符
+# c++ 中的范围解析运算符
 
 > 原文:[https://www . geesforgeks . org/scope-resolution-operator-in-c/](https://www.geeksforgeeks.org/scope-resolution-operator-in-c/)
 
-在 C++中，范围解析运算符是 **::** 。它用于以下目的。
+在 C++ 中，范围解析运算符是 **::** 。它用于以下目的。
 
 **1)当存在同名局部变量时，访问全局变量:**
 

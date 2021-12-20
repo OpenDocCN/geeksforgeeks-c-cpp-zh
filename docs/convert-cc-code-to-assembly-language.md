@@ -1,8 +1,8 @@
-# 将 C/C++代码转换为汇编语言
+# 将 C/C++ 代码转换为汇编语言
 
 > 原文:[https://www . geesforgeks . org/convert-cc-code-to-assembly-language/](https://www.geeksforgeeks.org/convert-cc-code-to-assembly-language/)
 
-我们使用 g++编译器将提供的 C 代码转换成汇编语言。要查看 C 编译器生成的汇编代码，我们可以使用命令行上的**-【S】**选项:
+我们使用 g++ 编译器将提供的 C 代码转换成汇编语言。要查看 C 编译器生成的汇编代码，我们可以使用命令行上的**-【S】**选项:
 
 **语法:**
 

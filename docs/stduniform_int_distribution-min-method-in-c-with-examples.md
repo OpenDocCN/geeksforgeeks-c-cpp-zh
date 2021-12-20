@@ -1,8 +1,8 @@
-# STD::uniform _ int _ distribution min()方法用 C++举例
+# STD::uniform _ int _ distribution min()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ int _ distribution-min-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_int_distribution-min-method-in-c-with-examples/)
 
-C++中**均匀 _int_distribution 类**的 **min()** 方法用来得到这个均匀 _int_distribution 可以生成的最小可能值。
+C++ 中**均匀 _int_distribution 类**的 **min()** 方法用来得到这个均匀 _int_distribution 可以生成的最小可能值。
 
 **语法:**
 

@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/strxfrm-in-ccpp/](https://www.geeksforgeeks.org/strxfrm-in-ccpp/)
 
-c/c++库 **strxfrm()** 将源字符串的字符转换为当前区域设置，并将其放置在目标字符串中。
+c/c++ 库 **strxfrm()** 将源字符串的字符转换为当前区域设置，并将其放置在目标字符串中。
 使用在**场所定义的 LC_COLLATE 类别。h** 。strxfrm()函数执行转换的方式是，两个字符串上的 strcmp 结果与两个原始字符串上的 strcoll 结果相同。
 **语法:**
 

@@ -1,8 +1,8 @@
-# Turbo c++中的调试
+# Turbo c++ 中的调试
 
 > 原文:[https://www.geeksforgeeks.org/debugging-in-turbo-cpp/](https://www.geeksforgeeks.org/debugging-in-turbo-cpp/)
 
-调试是程序员检测并删除程序中现有或潜在的[错误/bug](https://www.geeksforgeeks.org/software-engineering-differences-between-defect-bug-and-failure/)的过程。这是编写有效代码的一个很好的实践。现在，Turbo C++为其社区提供了各种有用的特性。在我们的调试中起重要作用的一些选项是监视和跟踪。让我们通过以下程序来理解这些概念:
+调试是程序员检测并删除程序中现有或潜在的[错误/bug](https://www.geeksforgeeks.org/software-engineering-differences-between-defect-bug-and-failure/)的过程。这是编写有效代码的一个很好的实践。现在，Turbo C++ 为其社区提供了各种有用的特性。在我们的调试中起重要作用的一些选项是监视和跟踪。让我们通过以下程序来理解这些概念:
 
 **示例:**编写一个程序来检查两个数字是否相等
 

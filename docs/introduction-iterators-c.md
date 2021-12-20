@@ -1,4 +1,4 @@
-# c++迭代器介绍
+# c++ 迭代器介绍
 
 > 原文:[https://www.geeksforgeeks.org/introduction-iterators-c/](https://www.geeksforgeeks.org/introduction-iterators-c/)
 
@@ -51,7 +51,7 @@
         cout << "Without iterators = ";
 
         // Accessing the elements without using iterators
-        for (j = 0; j < 3; ++j) 
+        for (j = 0; j < 3; ++ j) 
         {
             cout << v[j] << " ";
         }
@@ -59,7 +59,7 @@
         cout << "\nWith iterators = ";
 
         // Accessing the elements using iterators
-        for (i = v.begin(); i != v.end(); ++i)
+        for (i = v.begin(); i != v.end(); ++ i)
         {
             cout << *i << " ";
         }
@@ -70,7 +70,7 @@
         cout << "\nWithout iterators = ";
 
         // Accessing the elements without using iterators
-        for (j = 0; j < 4; ++j) 
+        for (j = 0; j < 4; ++ j) 
         {
             cout << v[j] << " ";
         }
@@ -78,7 +78,7 @@
         cout << "\nWith iterators = ";
 
         // Accessing the elements using iterators
-        for (i = v.begin(); i != v.end(); ++i) 
+        for (i = v.begin(); i != v.end(); ++ i) 
         {
             cout << *i << " ";
         }
@@ -123,7 +123,7 @@
         int j;
 
         // Inserting element using iterators
-        for (i = v.begin(); i != v.end(); ++i) {
+        for (i = v.begin(); i != v.end(); ++ i) {
             if (i == v.begin()) {
                 i = v.insert(i, 5);
                 // inserting 5 at the beginning of v
@@ -133,7 +133,7 @@
         // v contains 5 1 2 3
 
         // Deleting a element using iterators
-        for (i = v.begin(); i != v.end(); ++i) {
+        for (i = v.begin(); i != v.end(); ++ i) {
             if (i == v.begin() + 1) {
                 i = v.erase(i);
                 // i now points to the element after the
@@ -144,7 +144,7 @@
         // v contains 5 2 3
 
         // Accessing the elements using iterators
-        for (i = v.begin(); i != v.end(); ++i) {
+        for (i = v.begin(); i != v.end(); ++ i) {
             cout << *i << " ";
         }
 

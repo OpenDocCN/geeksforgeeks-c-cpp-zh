@@ -1,8 +1,8 @@
-# STD::bit _ or c++示例
+# STD::bit _ or c++ 示例
 
 > 原文:[https://www.geeksforgeeks.org/stdbit_or-in-c-with-examples/](https://www.geeksforgeeks.org/stdbit_or-in-c-with-examples/)
 
-**位或**是 C++中的一个内置函数，用于执行 **[位或](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)** ，并在其参数上应用**位或**运算后返回结果。
+**位或**是 C++ 中的一个内置函数，用于执行 **[位或](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)** ，并在其参数上应用**位或**运算后返回结果。
 
 **头文件:**
 
@@ -27,7 +27,7 @@ template <class T> struct bit_or;
 
 我们必须包含库**【函数】**和**【算法】**来分别使用 bit_or 和 transform()。
 
-下面是 C++中**位 _ 或**的图示:
+下面是 C++ 中**位 _ 或**的图示:
 
 **问题 1:**
 

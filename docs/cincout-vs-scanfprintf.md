@@ -77,7 +77,7 @@ sys	 0m0.084s
 
 原来 *iostream* 利用了 *stdio* 的缓冲系统。因此， *cin* 浪费时间与底层 C 库的 *stdio* 缓冲区同步，以便对 *scanf()* 和 *cin* 的调用可以交错。
 
-好消息是 libstdc++提供了一个选项，可以使用关闭所有 *iostream* 标准流与其对应的标准 C 流的同步
+好消息是 libstdc++ 提供了一个选项，可以使用关闭所有 *iostream* 标准流与其对应的标准 C 流的同步
 
 ```cpp
 std::ios::sync_with_stdio(false);

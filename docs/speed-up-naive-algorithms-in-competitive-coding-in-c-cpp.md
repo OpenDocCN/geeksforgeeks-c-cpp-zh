@@ -1,4 +1,4 @@
-# 借助 C/C++中的 Pragma 加速代码执行
+# 借助 C/C++ 中的 Pragma 加速代码执行
 
 > 原文:[https://www . geesforgeks . org/speed-up-native-algorithms-in-competitive-coding-in-c-CPP/](https://www.geeksforgeeks.org/speed-up-naive-algorithms-in-competitive-coding-in-c-cpp/)
 
@@ -28,7 +28,7 @@ vector<bool> prime(N, true);
 // Number
 void sieveOfEratosthenes()
 {
-    for (int i = 2; i <= sqrt(N); ++i) {
+    for (int i = 2; i <= sqrt(N); ++ i) {
         if (prime[i]) {
             for (int j = i * i; j <= N; j += i) {
                 prime[j] = false;

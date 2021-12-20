@@ -1,4 +1,4 @@
-# 标准::C++中的 set _ 交集
+# 标准::C++ 中的 set _ 交集
 
 > 原文:[https://www.geeksforgeeks.org/std-set_intersection-in-cpp/](https://www.geeksforgeeks.org/std-set_intersection-in-cpp/)
 
@@ -83,7 +83,7 @@ int main()
     ls = std::set_intersection(first, first + 5, second, second + 5, v1.begin());
 
     std::cout << "The intersection has " << (ls - v1.begin()) << " elements:";
-    for (it = v1.begin(); it != ls; ++it)
+    for (it = v1.begin(); it != ls; ++ it)
         std::cout << ' ' << *it;
     std::cout << "\n";
 
@@ -166,7 +166,7 @@ int main()
     ls = std::set_intersection(first, first + 5, second, second + 5, v1.begin(), comp);
 
     std::cout << "The intersection has " << (ls - v1.begin()) << " elements:";
-    for (it = v1.begin(); it != ls; ++it)
+    for (it = v1.begin(); it != ls; ++ it)
         std::cout << ' ' << *it;
     std::cout << "\n";
 
@@ -227,7 +227,7 @@ int main()
     it = set_intersection(first, first + n, second, second + n, v.begin());
 
     cout << "Students attending both the classes only are :\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         cout << ' ' << *st;
     cout << '\n';
 

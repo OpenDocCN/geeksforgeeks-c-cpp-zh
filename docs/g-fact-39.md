@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-39/](https://www.geeksforgeeks.org/g-fact-39/)
 
-在 C++中，以下是运算符重载的一般规则。
+在 C++ 中，以下是运算符重载的一般规则。
 
 1)只能重载内置运算符。无法创建新的运算符。
 2) [不能改变操作员](http://en.wikipedia.org/wiki/Arity)的独立性。

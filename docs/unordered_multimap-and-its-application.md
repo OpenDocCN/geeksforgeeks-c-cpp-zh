@@ -178,7 +178,7 @@ bool find_kv(unordered_multimap<string, int>& umm,
         tmp = *it1;
         if (tmp == p)
             return true;
-        it1++;
+        it1++ ;
     }
     return false;
 }
@@ -204,7 +204,7 @@ void erase_kv(unordered_multimap<string, int>& umm,
             umm.erase(it1);
             break;
         }
-        it1++;
+        it1++ ;
     }
 }
 

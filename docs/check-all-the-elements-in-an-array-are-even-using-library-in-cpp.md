@@ -1,4 +1,4 @@
-# 检查一个数组中的所有元素是否在 C++中使用库
+# 检查一个数组中的所有元素是否在 C++ 中使用库
 
 > 原文:[https://www . geesforgeks . org/check-数组中的所有元素都是偶数-使用 cpp 中的库/](https://www.geeksforgeeks.org/check-all-the-elements-in-an-array-are-even-using-library-in-cpp/)
 
@@ -15,7 +15,7 @@ Output : Alla the elements are even
 
 ```
 
-**方法:**使用 for 循环可以解决上述问题，但是在 C++中，我们有 [**all_of()**](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/) 算法，该算法对整个数组进行操作，节省了编写循环代码和检查每个元素的指定属性的时间。
+**方法:**使用 for 循环可以解决上述问题，但是在 C++ 中，我们有 [**all_of()**](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/) 算法，该算法对整个数组进行操作，节省了编写循环代码和检查每个元素的指定属性的时间。
 
 注意 [**all_of()**](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/) 内部也使用循环，只是节省了我们写循环代码的时间。
 

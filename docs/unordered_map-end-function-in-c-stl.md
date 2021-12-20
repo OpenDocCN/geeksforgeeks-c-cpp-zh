@@ -36,11 +36,11 @@ int main()
 
     // Printing all the elements of the multimap
     cout << "marks bucket contains : " << endl;
-    for (int i = 0; i < marks.bucket_count(); ++i) {
+    for (int i = 0; i < marks.bucket_count(); ++ i) {
 
         cout << "bucket #" << i << " contains:";
 
-        for (auto iter = marks.begin(i); iter != marks.end(i); ++iter) {
+        for (auto iter = marks.begin(i); iter != marks.end(i); ++ iter) {
             cout << "(" << iter->first << ", " << iter->second << "), ";
         }
 
@@ -83,7 +83,7 @@ int main()
     marks = { { "Rohit", 64 }, { "Aman", 37 }, { "Ayush", 96 } };
 
     // Printing all the elements of the multimap
-    for (auto iter = marks.begin(); iter != marks.end(); ++iter) {
+    for (auto iter = marks.begin(); iter != marks.end(); ++ iter) {
 
         cout << "Marks of " << iter->first << " is "
              << iter->second << " and his bucket number is "

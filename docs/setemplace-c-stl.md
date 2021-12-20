@@ -70,7 +70,7 @@ int main()
 
     // printing the set
     for (auto it = myset.begin();
-         it != myset.end(); ++it)
+         it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -117,7 +117,7 @@ int main()
 
     // printing the set
     for (auto it = myset.begin();
-         it != myset.end(); ++it)
+         it != myset.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -209,7 +209,7 @@ int main()
     ms.insert(make_pair('b', 25));    
 
     // printing the set
-    for (auto it = ms.begin(); it != ms.end(); ++it)
+    for (auto it = ms.begin(); it != ms.end(); ++ it)
         cout << " " << (*it).first << " " 
              << (*it).second << endl;
 

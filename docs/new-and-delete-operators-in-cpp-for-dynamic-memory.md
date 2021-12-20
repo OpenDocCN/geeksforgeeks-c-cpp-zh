@@ -1,8 +1,8 @@
-# 在 C++中为动态内存新建和删除操作符
+# 在 C++ 中为动态内存新建和删除操作符
 
 > 原文:[https://www . geesforgeks . org/new-and-delete-operators-in-CPP-for-dynamic-memory/](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
 
-C/C++中的动态内存分配是指程序员手动进行内存分配。动态分配的内存分配在**堆**上，非静态和局部变量在**栈**上获得分配的内存(详见[内存布局 C 程序](https://www.geeksforgeeks.org/memory-layout-of-c-program/))。
+C/C++ 中的动态内存分配是指程序员手动进行内存分配。动态分配的内存分配在**堆**上，非静态和局部变量在**栈**上获得分配的内存(详见[内存布局 C 程序](https://www.geeksforgeeks.org/memory-layout-of-c-program/))。
 **有哪些应用？**
 
 *   动态分配内存的一个用途是分配可变大小的内存，除了[可变长度数组](https://www.geeksforgeeks.org/variable-length-arrays-in-c-and-c/)之外，编译器分配的内存是不可能分配可变大小的内存的。
@@ -10,8 +10,8 @@ C/C++中的动态内存分配是指程序员手动进行内存分配。动态分
 
 **与分配给正常变量的内存有何不同？**
 对于“int a”、“char str[10]”等常规变量，内存会自动分配和释放。对于像“int *p = new int[10]”这样的动态分配内存，程序员有责任在不再需要时释放内存。如果程序员不释放内存，就会导致[内存泄漏](https://www.geeksforgeeks.org/what-is-memory-leak-how-can-we-avoid/)(直到程序终止内存才会释放)。
-**c++中内存是如何分配/解除分配的？**
-C 使用 [malloc()和 calloc()](https://www.geeksforgeeks.org/calloc-versus-malloc/) 函数在运行时动态分配内存，使用 free()函数释放动态分配的内存。C++支持这些功能，还有两个运算符**新增**和**删除**，以更好更简单的方式执行分配和释放内存的任务。
+**c++ 中内存是如何分配/解除分配的？**
+C 使用 [malloc()和 calloc()](https://www.geeksforgeeks.org/calloc-versus-malloc/) 函数在运行时动态分配内存，使用 free()函数释放动态分配的内存。C++ 支持这些功能，还有两个运算符**新增**和**删除**，以更好更简单的方式执行分配和释放内存的任务。
 本文讲的都是新增和删除操作符。
 
 **新操作员**
@@ -96,7 +96,7 @@ if (!p)
 
 **删除运算符**
 
-由于释放动态分配的内存是程序员的责任，所以 C++语言为程序员提供了删除操作符。
+由于释放动态分配的内存是程序员的责任，所以 C++ 语言为程序员提供了删除操作符。
 **语法:**
 
 ```cpp

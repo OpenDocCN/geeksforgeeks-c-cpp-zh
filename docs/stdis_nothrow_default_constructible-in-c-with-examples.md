@@ -1,4 +1,4 @@
-# STD::is _ northrow _ default _ 可在 C++中构造，示例
+# STD::is _ northrow _ default _ 可在 C++ 中构造，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ default _ constructionable-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_nothrow_default_constructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_nothrow_default_constructible::value
 *   真:如果类型 **T** 是 is _ north row _ default _ construction able .
 *   假:如果类型 **T** 不是 is _ north row _ default _ construction able .
 
-下面是用 C/C++说明**标准::is _ northrow _ default _ construction 模板**的程序:
+下面是用 C/C++ 说明**标准::is _ northrow _ default _ construction 模板**的程序:
 
 **程序 1:**
 

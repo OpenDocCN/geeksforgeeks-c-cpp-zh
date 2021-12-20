@@ -1,4 +1,4 @@
-# c++中的存储类，示例
+# c++ 中的存储类，示例
 
 > 原文:[https://www . geesforgeks . org/storage-class-in-c-with-examples/](https://www.geeksforgeeks.org/storage-classes-in-c-with-examples/)
 
@@ -10,7 +10,7 @@
 storage_class var_data_type var_name; 
 ```
 
-C++使用 5 个存储类，即:
+C++ 使用 5 个存储类，即:
 
 1.  汽车
 2.  注册
@@ -22,7 +22,7 @@ C++使用 5 个存储类，即:
 
 以下是每个存储类别的详细说明:
 
-*   [**【自动】**](https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/):auto 关键字提供了类型推断功能，使用该功能可以自动推断编程语言中表达式的数据类型。这就减少了编写编译器已经知道的东西的时间。因为所有的类型都是在编译阶段推导出来的，所以编译的时间会稍微增加，但是不会影响程序的运行时间。此功能还扩展到函数和非类型模板参数。由于 C++14 适用于函数，返回类型将从其返回语句中推导出来。由于 C++17，对于非类型模板参数，类型将从参数中推导出来。
+*   [**【自动】**](https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/):auto 关键字提供了类型推断功能，使用该功能可以自动推断编程语言中表达式的数据类型。这就减少了编写编译器已经知道的东西的时间。因为所有的类型都是在编译阶段推导出来的，所以编译的时间会稍微增加，但是不会影响程序的运行时间。此功能还扩展到函数和非类型模板参数。由于 C++ 14 适用于函数，返回类型将从其返回语句中推导出来。由于 C++ 17，对于非类型模板参数，类型将从参数中推导出来。
 
 **示例:**
 
@@ -130,7 +130,7 @@ Modified value of the variable 'x' declared as extern:
 2
 ```
 
-*   [**【静态】**](https://www.geeksforgeeks.org/static-variables-in-c/) :这个存储类用来声明 C++语言编写程序时常用的静态变量。静态变量有一个属性，即使超出了它们的范围，也能保持它们的值！因此，静态变量在其作用域中保留了最后一次使用的值。所以我们可以说它们只初始化一次，一直存在到程序终止。因此，没有分配新的内存，因为它们没有被重新声明。它们的范围局限于它们被定义的功能。全局静态变量可以在程序的任何地方访问。默认情况下，编译器会为它们赋值 0。
+*   [**【静态】**](https://www.geeksforgeeks.org/static-variables-in-c/) :这个存储类用来声明 C++ 语言编写程序时常用的静态变量。静态变量有一个属性，即使超出了它们的范围，也能保持它们的值！因此，静态变量在其作用域中保留了最后一次使用的值。所以我们可以说它们只初始化一次，一直存在到程序终止。因此，没有分配新的内存，因为它们没有被重新声明。它们的范围局限于它们被定义的功能。全局静态变量可以在程序的任何地方访问。默认情况下，编译器会为它们赋值 0。
 
 ## C++
 
@@ -144,7 +144,7 @@ int staticFun()
 {
     cout << "For static variables: ";
     static int count = 0;
-    count++;
+    count++ ;
     return count;
 }
 
@@ -155,7 +155,7 @@ int nonStaticFun()
     cout << "For Non-Static variables: ";
 
     int count = 0;
-    count++;
+    count++ ;
     return count;
 }
 

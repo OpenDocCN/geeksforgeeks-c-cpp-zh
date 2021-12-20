@@ -44,7 +44,7 @@
 
 ![](img/3a2da6e00d5c294a52de55ed7e5a4220.png)
 
-*   写下任何人想要使用这个片段的范围。在下面的情况下，范围是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) :
+*   写下任何人想要使用这个片段的范围。在下面的情况下，范围是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) :
 
 ![](img/156ecd073d86224d768181b9bcf4e74f.png)
 

@@ -1,4 +1,4 @@
-# c++中 OpenCV 的打开|形态转换
+# c++ 中 OpenCV 的打开|形态转换
 
 > 原文:[https://www . geesforgeks . org/open-形态学-transformations-in-opencv-in-c/](https://www.geeksforgeeks.org/opening-morphological-transformations-in-opencv-in-c/)
 
@@ -28,7 +28,7 @@
 
 该表达式表示 B 的 **A <sup>是子集(A 的子图像)。打开操作符去除图像内部的内部噪声和薄突起。</sup>**
 
-下面是演示开放形态操作的 C++程序:
+下面是演示开放形态操作的 C++ 程序:
 
 ## C++
 

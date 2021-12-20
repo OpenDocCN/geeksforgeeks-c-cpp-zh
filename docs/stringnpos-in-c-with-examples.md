@@ -1,4 +1,4 @@
-# 字符串::C++中的 NPO，示例
+# 字符串::C++ 中的 NPO，示例
 
 > 原文:[https://www . geeksforgeeks . org/string pos-in-c-with-examples/](https://www.geeksforgeeks.org/stringnpos-in-c-with-examples/)
 
@@ -14,7 +14,7 @@
 > static const size _ t NPOs =-1；
 > 其中， **npos** 是类型为 **size_t** 的元素的最大可能值的恒定静态值，用-1 定义。
 
-**程序 1:** 下面是 C++程序来说明**字符串的用法:**
+**程序 1:** 下面是 C++ 程序来说明**字符串的用法:**
 
 ## C++
 

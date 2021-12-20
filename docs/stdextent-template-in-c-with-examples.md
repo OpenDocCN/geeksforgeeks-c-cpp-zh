@@ -1,4 +1,4 @@
-# 标准::范围()C++模板，带示例
+# 标准::范围()C++ 模板，带示例
 
 > 原文:[https://www . geeksforgeeks . org/STD extend-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdextent-template-in-c-with-examples/)
 

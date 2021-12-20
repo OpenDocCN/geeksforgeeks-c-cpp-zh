@@ -73,7 +73,7 @@ class GFG
         {
             if(number % 2 == 1)
             {
-                counter++;
+                counter++ ;
             }
 
             //or number = number >> 1
@@ -212,7 +212,7 @@ function _popcnt32($number)
     {
         if($number % 2 == 1)
         {
-            $counter++;
+            $counter++ ;
         }
 
         //or number = number >> 1
@@ -266,7 +266,7 @@ function _popcnt32(number)
     {
         if(number % 2 == 1)
         {
-            counter++;
+            counter++ ;
         }
 
         //or number = number >> 1

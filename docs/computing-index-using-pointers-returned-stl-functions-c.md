@@ -1,8 +1,8 @@
-# 使用 C++中 STL 函数返回的指针计算索引
+# 使用 C++ 中 STL 函数返回的指针计算索引
 
 > 原文:[https://www . geesforgeks . org/computing-index-using-pointers-returned-STL-functions-c/](https://www.geeksforgeeks.org/computing-index-using-pointers-returned-stl-functions-c/)
 
-C++中的许多内置函数将指针返回到内存中给出所需数字地址的位置，但与计算值容器中的实际索引无关。例如，要在代码中找到最大元素，我们使用 [std::max_element()](https://www.geeksforgeeks.org/stdmax_element-in-cpp/) ，它返回内存中的地址，而不是所需元素的索引。
+C++ 中的许多内置函数将指针返回到内存中给出所需数字地址的位置，但与计算值容器中的实际索引无关。例如，要在代码中找到最大元素，我们使用 [std::max_element()](https://www.geeksforgeeks.org/stdmax_element-in-cpp/) ，它返回内存中的地址，而不是所需元素的索引。
 
 ```cpp
 // C++ code to demonstrate return value of

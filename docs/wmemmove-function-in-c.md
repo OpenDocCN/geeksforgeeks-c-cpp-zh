@@ -1,4 +1,4 @@
-# wme move()函数在 c++中
+# wme move()函数在 c++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wmemmove-function-in-c/](https://www.geeksforgeeks.org/wmemmove-function-in-c/)
 
@@ -20,7 +20,7 @@ wchar_t* wmemmove(wchar_t* dest, const wchar_t* src, size_t n);
 下面的程序说明了上面的功能:-
 **示例:-**
 
-## C++14
+## C++ 14
 
 ```cpp
 // c++ program to demonstrate

@@ -1,4 +1,4 @@
-# 如何打印分号(；)在 C/C++中不使用分号？
+# 如何打印分号(；)在 C/C++ 中不使用分号？
 
 > 原文:[https://www . geesforgeks . org/print-a-分号-不使用分号-in-ccpp/](https://www.geeksforgeeks.org/print-a-semicolon-without-using-semicolon-in-ccpp/)
 
@@ -55,7 +55,7 @@
 
     ```
 
-**相关文章:**[C/c++](https://www.geeksforgeeks.org/print-hello-world-without-semicolon-in-ccpp/)无分号打印 Hello World
+**相关文章:**[C/c++ ](https://www.geeksforgeeks.org/print-hello-world-without-semicolon-in-ccpp/)无分号打印 Hello World
 
 如果你喜欢 GeeksforGeeks 并想投稿，你也可以用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

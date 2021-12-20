@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/unordered _ multimap-erase-in-c-STL/](https://www.geeksforgeeks.org/unordered_multimap-erase-in-c-stl/)
 
 unordered_multimap::erase()是 C++ STL 中的一个内置函数，它通过位置和键从给定的范围中移除元素。这个函数在 C++ STL 中有三种变体。
-c++中对于无序 _ 多映射有以下几种类型的 erase()函数。
+c++ 中对于无序 _ 多映射有以下几种类型的 erase()函数。
 
 1.  **按位置**:它通过给定的位置从无序多映射中移除元素，并返回一个迭代器，该迭代器指向被擦除的最后一个元素之后的位置。
 2.  **按键:**按键移除元素。它返回已擦除的元素数量。

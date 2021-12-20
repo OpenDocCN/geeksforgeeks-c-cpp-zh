@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/mktime-function-in-c-stl/](https://www.geeksforgeeks.org/mktime-function-in-c-stl/)
 
-**mktime()** 是一个内置的 C++函数，它将本地日历时间转换为自纪元以来的时间，并将该值作为类型为 **time_t.** 的对象返回
+**mktime()** 是一个内置的 C++ 函数，它将本地日历时间转换为自纪元以来的时间，并将该值作为类型为 **time_t.** 的对象返回
 
 **语法:**
 

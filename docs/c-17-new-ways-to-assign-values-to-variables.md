@@ -11,7 +11,7 @@ int a = 5;
 
 ```
 
-但是现在在 **C++17** 中又引入了 2 种方式。它们是:
+但是现在在 **C++ 17** 中又引入了 2 种方式。它们是:
 
 1.  **Constructor initialization:** In this way, the value of the variable is enclosed in parentheses ( () ). In this way, value can be passed in two ways shown below.
 

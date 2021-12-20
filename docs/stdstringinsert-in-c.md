@@ -1,4 +1,4 @@
-# std::string::insert()在 C++中
+# std::string::insert()在 C++ 中
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdstring insert-in-c/
 

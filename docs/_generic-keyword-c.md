@@ -9,7 +9,7 @@ C/C++ 中[宏的一个主要缺点是参数是强类型检查的，即一个宏�
 ```cpp
 // C program to illustrate macro function.
 #include<stdio.h>
-#define INC(P) ++P
+#define INC(P) ++ P
 int main()
 {
     char *p = "Geeks";

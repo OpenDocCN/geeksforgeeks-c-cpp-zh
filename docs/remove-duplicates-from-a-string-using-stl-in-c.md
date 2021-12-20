@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 删除字符串中的重复项
+# 在 C++ 中使用 STL 删除字符串中的重复项
 
 > 原文:[https://www . geesforgeks . org/remove-duplicates-from-a-string-use-STL-in-c/](https://www.geeksforgeeks.org/remove-duplicates-from-a-string-using-stl-in-c/)
 
-给定一个字符串 S，用 C++中的 STL 删除这个字符串中的重复项
+给定一个字符串 S，用 C++ 中的 STL 删除这个字符串中的重复项
 
 **示例:**
 

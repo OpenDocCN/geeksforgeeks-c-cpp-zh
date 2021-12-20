@@ -1,4 +1,4 @@
-# 使用 C/C++和 SQLite 的 SQLite】
+# 使用 C/C++ 和 SQLite 的 SQLite】
 
 > 原文:[https://www.geeksforgeeks.org/sql-using-c-c-and-sqlite/](https://www.geeksforgeeks.org/sql-using-c-c-and-sqlite/)
 

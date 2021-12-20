@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/match _ results-operator-in-c-STL/](https://www.geeksforgeeks.org/match_results-operator-in-c-stl/)
 
-**match_results::operator[]**是 C++中的一个内置函数，用于获取 match _ result 对象中的第*个*匹配。它在运算符内部给定的位置给出匹配的引用。
+**match_results::operator[]**是 C++ 中的一个内置函数，用于获取 match _ result 对象中的第*个*匹配。它在运算符内部给定的位置给出匹配的引用。
 **语法:**
 
 ```cpp

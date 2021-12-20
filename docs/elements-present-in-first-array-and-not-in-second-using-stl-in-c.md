@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 时，元素出现在第一个数组中，而不是第二个数组中
+# 在 C++ 中使用 STL 时，元素出现在第一个数组中，而不是第二个数组中
 
 > 原文:[https://www . geesforgeks . org/elements-in-first-array-and-not-in-second-use-STL-in-c/](https://www.geeksforgeeks.org/elements-present-in-first-array-and-not-in-second-using-stl-in-c/)
 
-给定两个数组，我们的任务是使用 C++中的 STL 找到第一个数组中存在但第二个数组中不存在的数字
+给定两个数组，我们的任务是使用 C++ 中的 STL 找到第一个数组中存在但第二个数组中不存在的数字
 
 **示例:**
 
@@ -58,7 +58,7 @@ void findMissing(int a[], int b[],
     // Print the results
     cout << "The elements in a[]"
          << " which are not in b[]:\n";
-    for (it = v.begin(); it != v.end(); ++it)
+    for (it = v.begin(); it != v.end(); ++ it)
         cout << *it << "  ";
     cout << endl;
 }

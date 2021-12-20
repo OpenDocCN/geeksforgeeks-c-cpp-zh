@@ -1,8 +1,8 @@
-# 在 Ubuntu 上为 C++14 中的竞争编码设置崇高文本
+# 在 Ubuntu 上为 C++ 14 中的竞争编码设置崇高文本
 
 > 原文:[https://www . geesforgeks . org/setting-supreme-text-for-competitive-coding-in-CPP 14-on-Ubuntu/](https://www.geeksforgeeks.org/setting-up-sublime-text-for-competitive-coding-in-cpp14-on-ubuntu/)
 
-从编码开始，学习了 c++语言和基本的 ds&algo，并想更深入地学习它。好吧，竞争性编码正是你提升编码技能所需要的。在本教程中，我们将从设置 cp 环境开始，这样您就可以开始您的竞争编程之旅。
+从编码开始，学习了 c++ 语言和基本的 ds&algo，并想更深入地学习它。好吧，竞争性编码正是你提升编码技能所需要的。在本教程中，我们将从设置 cp 环境开始，这样您就可以开始您的竞争编程之旅。
 
 这里我们使用 Ubuntu 中的崇高文本编辑器。所以如果你的电脑上有 Ubuntu，你就可以开始了。
 
@@ -15,15 +15,15 @@
 
 ### **设置****构建系统**
 
-为了编译 c++14 代码，我们需要在崇高的文本中为 c++14 设置一个编译器，因为默认情况下它不会出现。
+为了编译 c++ 14 代码，我们需要在崇高的文本中为 c++ 14 设置一个编译器，因为默认情况下它不会出现。
 
 **第一步:**打开崇高文本
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/822ff684ab838685ccb73be715e86857.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/822ff684ab838685ccb73be715e86857.png)
 
 **步骤 2:** 从顶部菜单中，选择工具- >构建系统- >新构建系统。选择此选项后，将打开一个新窗口，如下所示
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/c291be09e112cbf8517a627683f7ccd8.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/c291be09e112cbf8517a627683f7ccd8.png)
 
 **第三步:**现在你要做的就是把下面给定的代码粘贴到打开的标签中。确保删除前一个
 
@@ -53,9 +53,9 @@
 > 
 > }
 
-上面的代码为 sublime 创建了一个 C++14 构建系统，因为默认情况下 sublime 有一个 c++11 的默认构建系统，所以为了使 c++14 的新特性在 sublime 中工作，我们需要为 c++14 设置构建系统。
+上面的代码为 sublime 创建了一个 C++ 14 构建系统，因为默认情况下 sublime 有一个 c++ 11 的默认构建系统，所以为了使 c++ 14 的新特性在 sublime 中工作，我们需要为 c++ 14 设置构建系统。
 
-**现在，我们已经为 c++14** 设置好了构建系统
+**现在，我们已经为 c++ 14** 设置好了构建系统
 
 ### **改变输入输出操作的布局**
 
@@ -65,19 +65,19 @@
 
 **将创建三个新列，如下所示:**
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/5cf8821dcd5600e145e9a112d903b43a.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/5cf8821dcd5600e145e9a112d903b43a.png)
 
 **第 2 步:**现在选择**视图- >组- >最大列数:2。**
 
 **这将对最后两个创建的列进行分组。见下图:**
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/d97a416e278eac765f700375e59f8764.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/d97a416e278eac765f700375e59f8764.png)
 
 **第三步:**现在你可以在崇高文本中同时查看三个文件。
 
 我们现在将选择第一列(左)并将文件保存为 main.cpp(这是我们的代码将被写入的文件)。同样，选择第二列(右上角)，按(Ctrl+N)，然后将文件保存为 input.txt，最后选择第三列(右上角)，按(Ctrl+N)，然后将文件保存为 output.txt。
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/2848168674711272dfdced1bbab2e44e.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/2848168674711272dfdced1bbab2e44e.png)
 
 现在，我们已经为输入输出操作改变了崇高文本的布局。
 
@@ -135,4 +135,4 @@ int main()
 
 保存 main.cpp 文件后，按(Ctrl+b)运行该文件，您想要的输出将显示在 output.txt 文件中。
 
-![Setting up sublime text for competitive coding in C++14(ubuntu)](img/6b8d018eb617ea7c7e02da874c6b7050.png)
+![Setting up sublime text for competitive coding in C++ 14(ubuntu)](img/6b8d018eb617ea7c7e02da874c6b7050.png)

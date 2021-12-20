@@ -1,8 +1,8 @@
-# 函数::C++中的 bad_function_call 附带示例
+# 函数::C++ 中的 bad_function_call 附带示例
 
 > 原文:[https://www . geesforgeks . org/function bad _ function _ call-in-c-with-examples/](https://www.geeksforgeeks.org/functionalbad_function_call-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类，**functional::bad _ function _ call**就是其中之一。这是在错误调用时引发的异常。下面是相同的语法:
+标准 C++ 包含几个内置的异常类，**functional::bad _ function _ call**就是其中之一。这是在错误调用时引发的异常。下面是相同的语法:
 
 **头文件:**
 

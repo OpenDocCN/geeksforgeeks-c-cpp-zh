@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswalnum-function-in-c-stl/](https://www.geeksforgeeks.org/iswalnum-function-in-c-stl/)
 
-**iswalnum()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是字母数字字符。在 C++的**cwcytpe**头文件中定义。
+**iswalnum()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是字母数字字符。在 C++ 的**cwcytpe**头文件中定义。
 以下字符为字母数字:
 
 *   **大写字母** : A 到 Z

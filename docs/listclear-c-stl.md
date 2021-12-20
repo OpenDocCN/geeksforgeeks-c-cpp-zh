@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/listclear-c-STL/
 
-[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++中用来以非连续方式存储数据的容器。通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
+[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++ 中用来以非连续方式存储数据的容器。通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
 
 **list::clear()**
 
@@ -52,7 +52,7 @@ int main()
     // List becomes empty
 
     // Printing the list
-    for (auto it = mylist.begin(); it != mylist.end(); ++it)
+    for (auto it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

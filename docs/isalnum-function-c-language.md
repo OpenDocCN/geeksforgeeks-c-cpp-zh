@@ -73,9 +73,9 @@ int ttl_alphanumeric(int i, int counter)
     while (ch != '\0') {
         ch = a[i];
         if (isalnum(ch))
-            counter++;
+            counter++ ;
 
-        i++;
+        i++ ;
     }
 
     // returning total number of alphanumerics

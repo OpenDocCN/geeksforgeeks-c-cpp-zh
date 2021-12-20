@@ -43,7 +43,7 @@
         // prints the elements
         cout << "\nThe map is : \n";
         cout << "KEY\tELEMENT\n";
-        for (auto itr = mp.cbegin(); itr != mp.cend(); ++itr) {
+        for (auto itr = mp.cbegin(); itr != mp.cend(); ++ itr) {
             cout << itr->first
                  << '\t' << itr->second << '\n';
         }

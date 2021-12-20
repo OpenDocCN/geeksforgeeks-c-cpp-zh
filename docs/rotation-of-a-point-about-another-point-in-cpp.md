@@ -1,4 +1,4 @@
-# c++中一个点围绕另一个点的旋转
+# c++ 中一个点围绕另一个点的旋转
 
 > 原文:[https://www . geeksforgeeks . org/一点转另一点转 cpp/](https://www.geeksforgeeks.org/rotation-of-a-point-about-another-point-in-cpp/)
 

@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 移除数组中的重复元素
+# 在 C++ 中使用 STL 移除数组中的重复元素
 
 > 原文:[https://www . geesforgeks . org/remove-replicate-elements-in-a-array-use-STL-in-c/](https://www.geeksforgeeks.org/remove-duplicate-elements-in-an-array-using-stl-in-c/)
 
-给定一个数组，任务是使用 C++中的 STL 从数组中移除重复的元素
+给定一个数组，任务是使用 C++ 中的 STL 从数组中移除重复的元素
 
 **示例:**
 
@@ -51,7 +51,7 @@ void removeDuplicates(int arr[], int n)
 
     // Print the array with duplicates removed
     cout << "\nAfter removing duplicates:\n";
-    for (it = s.begin(); it != s.end(); ++it)
+    for (it = s.begin(); it != s.end(); ++ it)
         cout << *it << ", ";
     cout << '\n';
 }

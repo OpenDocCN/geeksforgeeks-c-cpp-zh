@@ -44,7 +44,7 @@ int main()
 
     // Displaying the vector after applying
     // std::partial_sort
-    for (ip = v.begin(); ip != v.end(); ++ip) {
+    for (ip = v.begin(); ip != v.end(); ++ ip) {
         cout << *ip << " ";
     }
 
@@ -108,7 +108,7 @@ int main()
 
         // Displaying the vector after applying
         // std::partial_sort
-        for (ip = v.begin(); ip != v.end(); ++ip) {
+        for (ip = v.begin(); ip != v.end(); ++ ip) {
             cout << *ip << " ";
         }
 
@@ -222,12 +222,12 @@ int main()
         std::sort(v1.begin(), v1.begin() + 2);
 
         cout << "v = ";
-        for (i = 0; i < 2; ++i) {
+        for (i = 0; i < 2; ++ i) {
             cout << v[i] << " ";
         }
 
         cout << "\nv1 = ";
-        for (i = 0; i < 2; ++i) {
+        for (i = 0; i < 2; ++ i) {
             cout << v1[i] << " ";
         }
 

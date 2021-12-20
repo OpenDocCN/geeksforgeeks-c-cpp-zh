@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 对一个向量进行降序排序？
+# 如何在 C++ 中使用 STL 对一个向量进行降序排序？
 
 > 原文:[https://www . geesforgeks . org/如何使用-stl-in-c 对向量进行降序排序/](https://www.geeksforgeeks.org/how-to-sort-a-vector-in-descending-order-using-stl-in-c/)
 
-给定一个向量，用 C++中的 STL 对这个向量进行降序排序。
+给定一个向量，用 C++ 中的 STL 对这个向量进行降序排序。
 
 **例:**
 

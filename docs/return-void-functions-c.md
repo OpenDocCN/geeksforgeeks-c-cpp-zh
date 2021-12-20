@@ -1,4 +1,4 @@
-# 从 C++中的 void 函数返回
+# 从 C++ 中的 void 函数返回
 
 > 原文:[https://www.geeksforgeeks.org/return-void-functions-c/](https://www.geeksforgeeks.org/return-void-functions-c/)
 

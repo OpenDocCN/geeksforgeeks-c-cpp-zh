@@ -1,8 +1,8 @@
-# 理解 C++中的 null ptr
+# 理解 C++ 中的 null ptr
 
 > 原文:[https://www.geeksforgeeks.org/understanding-nullptr-c/](https://www.geeksforgeeks.org/understanding-nullptr-c/)
 
-考虑以下显示空值问题的 C++程序(需要空值)
+考虑以下显示空值问题的 C++ 程序(需要空值)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

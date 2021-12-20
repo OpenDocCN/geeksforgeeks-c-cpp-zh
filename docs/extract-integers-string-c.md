@@ -1,4 +1,4 @@
-# 在 C++中从字符串中提取所有整数
+# 在 C++ 中从字符串中提取所有整数
 
 > 原文:[https://www.geeksforgeeks.org/extract-integers-string-c/](https://www.geeksforgeeks.org/extract-integers-string-c/)
 

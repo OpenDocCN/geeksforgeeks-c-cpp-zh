@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/bitset-set-function-in-c-stl/](https://www.geeksforgeeks.org/bitset-set-function-in-c-stl/)
 
-**位集::set()** 是 C++中的内置 STL，它将位设置为特定索引处的给定值。如果没有传递参数，它会将所有位设置为 1。如果只传递了一个参数，它会将该特定索引处的位设置为 1。
+**位集::set()** 是 C++ 中的内置 STL，它将位设置为特定索引处的给定值。如果没有传递参数，它会将所有位设置为 1。如果只传递了一个参数，它会将该特定索引处的位设置为 1。
 
 **语法:**
 

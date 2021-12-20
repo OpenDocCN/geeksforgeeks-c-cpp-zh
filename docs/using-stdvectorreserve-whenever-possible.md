@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/using-stdvectoreserve-尽可能/](https://www.geeksforgeeks.org/using-stdvectorreserve-whenever-possible/)
 
-在 C++中，向量是动态数组。与数组不同，它们没有固定的大小。它们可以根据需要生长或收缩。向量在连续位置的块中被分配给存储器。当为向量分配的内存不足以存储新元素时，会为向量分配一个新的内存块，并将所有元素从旧位置复制到新位置。这种元素的重新分配有助于向量在需要时增长。然而，这是一个昂贵的操作，并且这一步所涉及的时间复杂度是线性的。
+在 C++ 中，向量是动态数组。与数组不同，它们没有固定的大小。它们可以根据需要生长或收缩。向量在连续位置的块中被分配给存储器。当为向量分配的内存不足以存储新元素时，会为向量分配一个新的内存块，并将所有元素从旧位置复制到新位置。这种元素的重新分配有助于向量在需要时增长。然而，这是一个昂贵的操作，并且这一步所涉及的时间复杂度是线性的。
 
 **std::vector** 类提供了一个有用的函数 **reserve** ，帮助用户指定向量的最小大小。它表示创建向量时，它可以至少存储指定元素的数量，而不必重新分配内存。
 
@@ -50,7 +50,7 @@ int main()
     // https://www.geeksforgeeks.org/measure-execution-time-function-cpp/
 
     auto start = high_resolution_clock::now();
-    for (int i = 0; i < N; ++i)
+    for (int i = 0; i < N; ++ i)
         v1.push_back(i);
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
@@ -59,7 +59,7 @@ int main()
 
     // Start filling up elements in v2
     start = high_resolution_clock::now();
-    for (int i = 0; i < N; ++i)
+    for (int i = 0; i < N; ++ i)
         v2.push_back(i);
     stop = high_resolution_clock::now();
     duration = duration_cast<microseconds>(stop - start);

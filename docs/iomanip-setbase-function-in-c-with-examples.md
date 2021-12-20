@@ -1,8 +1,8 @@
-# iomanip setbase()函数在 C++中的使用示例
+# iomanip setbase()函数在 C++ 中的使用示例
 
 > 原文:[https://www . geesforgeks . org/iomanip-setbase-function-in-c-with-examples/](https://www.geeksforgeeks.org/iomanip-setbase-function-in-c-with-examples/)
 
-C++中 **iomaip 库**的 **setbase()** 方法用于根据指定为该方法参数的参数设置 ios 库 basefield 标志。
+C++ 中 **iomaip 库**的 **setbase()** 方法用于根据指定为该方法参数的参数设置 ios 库 basefield 标志。
 
 **语法:**
 

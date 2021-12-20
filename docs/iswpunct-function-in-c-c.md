@@ -1,8 +1,8 @@
-# isw point()函数在 C/C++中
+# isw point()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/iswpunct-function-in-c-c/](https://www.geeksforgeeks.org/iswpunct-function-in-c-c/)
 
-**isw point()**是 C/C++中的一个函数，用于测试**宽字符代码**是否表示程序当前区域中的类**点**的字符。如果宽字符是标点宽字符代码，则返回非零值，否则返回 0。该功能在**cwcytpe**头文件中定义。该功能检查 **ch** 是否为标点符号。标点符号如下
+**isw point()**是 C/C++ 中的一个函数，用于测试**宽字符代码**是否表示程序当前区域中的类**点**的字符。如果宽字符是标点宽字符代码，则返回非零值，否则返回 0。该功能在**cwcytpe**头文件中定义。该功能检查 **ch** 是否为标点符号。标点符号如下
 
 ```cpp
 ! " # $ % & ' () * +, - . / : ;  ? @ [\] ^ _ ` {|} ~
@@ -46,9 +46,9 @@ int main()
 
             // store the punctuation characters
             string2[count_] = string1[i];
-            count_++;
+            count_++ ;
         }
-        i++;
+        i++ ;
     }
 
     // prints the punctuation character
@@ -85,9 +85,9 @@ int main()
 
             // store the punctuation characters
             string2[count_] = string1[i];
-            count_++;
+            count_++ ;
         }
-        i++;
+        i++ ;
     }
     // prints the punctuation character
     printf("The sentence contains %d punct. character :\n", count_);
@@ -132,9 +132,9 @@ int main()
 
             // store the punctuation characters
             string2[count_] = string1[i];
-            count_++;
+            count_++ ;
         }
-        i++;
+        i++ ;
     }
 
     // prints the punctuation character
@@ -171,9 +171,9 @@ int main()
 
             // store the punctuation characters
             string2[count_] = string1[i];
-            count_++;
+            count_++ ;
         }
-        i++;
+        i++ ;
     }
     // prints the punctuation character
     printf("The sentence contains %d punct. character :\n", count_);

@@ -1,4 +1,4 @@
-# C/c++中的#include 和 JAVA 中的 import 的区别
+# C/c++ 中的#include 和 JAVA 中的 import 的区别
 
 > 原文:[https://www . geesforgeks . org/include-in-c-c 和 import-in-java 之间的区别/](https://www.geeksforgeeks.org/difference-between-include-in-c-c-and-import-in-java/)
 

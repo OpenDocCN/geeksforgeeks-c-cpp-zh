@@ -1,4 +1,4 @@
-# C/c++中浮点和双精度的区别
+# C/c++ 中浮点和双精度的区别
 
 > 原文:[https://www . geesforgeks . org/difference-float-double-c-CPP/](https://www.geeksforgeeks.org/difference-float-double-c-cpp/)
 

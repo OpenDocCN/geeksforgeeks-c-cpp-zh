@@ -77,7 +77,7 @@ int main()
 
             // Update the vote of the
             // chosen candidate
-            votes[candidatechoice - 1]++;
+            votes[candidatechoice - 1]++ ;
             break;
         }
         case 2: {

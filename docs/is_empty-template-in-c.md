@@ -1,4 +1,4 @@
-# 是 C++中的 _ 空模板
+# 是 C++ 中的 _ 空模板
 
 > 原文:[https://www.geeksforgeeks.org/is_empty-template-in-c/](https://www.geeksforgeeks.org/is_empty-template-in-c/)
 

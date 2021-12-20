@@ -1,8 +1,8 @@
-# c++中的 RTTI(运行时类型信息)
+# c++ 中的 RTTI(运行时类型信息)
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-33/](https://www.geeksforgeeks.org/g-fact-33/)
 
-在 C++中，RTTI(运行时类型信息)是一种在运行时公开对象数据类型信息的机制，并且只对至少有一个虚函数的类可用。它允许在程序执行期间确定对象的类型
+在 C++ 中，RTTI(运行时类型信息)是一种在运行时公开对象数据类型信息的机制，并且只对至少有一个虚函数的类可用。它允许在程序执行期间确定对象的类型
 
 例如，dynamic_cast 使用 RTTI，并且由于基类 B 中没有虚函数，随后的程序失败，并出现错误“无法将 dynamic_cast `b '(类型为` class B* ')转换为 type `class D* '(源类型不是多态的)。”
 

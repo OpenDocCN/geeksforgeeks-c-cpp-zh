@@ -1,4 +1,4 @@
-# C/C++程序实现的板球游戏
+# C/C++ 程序实现的板球游戏
 
 > 原文:[https://www . geesforgeks . org/c-CPP-程序实现板球比赛/](https://www.geeksforgeeks.org/c-cpp-program-to-implement-the-cricket-game/)
 
@@ -36,7 +36,7 @@
 > 
 > **游戏结束。**
 
-下面是实现上述方法的 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/):
+下面是实现上述方法的 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/):
 
 ## C++
 

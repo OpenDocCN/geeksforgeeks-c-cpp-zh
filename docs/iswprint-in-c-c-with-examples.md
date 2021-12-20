@@ -1,8 +1,8 @@
-# 是 C/C++中的 iswprint()，带有示例
+# 是 C/C++ 中的 iswprint()，带有示例
 
 > 原文:[https://www . geeksforgeeks . org/isw print-in-c-c-with-examples/](https://www.geeksforgeeks.org/iswprint-in-c-c-with-examples/)
 
-**isw print()**是 C/C++中的一个内置函数，用于检查给定的宽字符是否可以打印。在 C++的**cwcytpe**头文件中定义。默认情况下，以下字符是可打印的:
+**isw print()**是 C/C++ 中的一个内置函数，用于检查给定的宽字符是否可以打印。在 C++ 的**cwcytpe**头文件中定义。默认情况下，以下字符是可打印的:
 
 *   **数字** (0 至 9)
 *   **大写字母** (A 至 Z)

@@ -1,10 +1,10 @@
 # 在 main()
 
-中调用 main()的 C/C++程序
+中调用 main()的 C/C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-c-program-for-calling-main-in-main/](https://www.geeksforgeeks.org/c-c-program-for-calling-main-in-main/)
 
-给定一个数字 **N** ，任务是编写 [C/C++程序，通过使用](https://www.geeksforgeeks.org/c-program-to-print-numbers-from-1-to-n-without-using-semicolon/)[递归](https://www.geeksforgeeks.org/recursion/)调用 [main()](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/) 函数打印从 N 到 1 的数字。
+给定一个数字 **N** ，任务是编写 [C/C++ 程序，通过使用](https://www.geeksforgeeks.org/c-program-to-print-numbers-from-1-to-n-without-using-semicolon/)[递归](https://www.geeksforgeeks.org/recursion/)调用 [main()](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/) 函数打印从 N 到 1 的数字。
 **举例:**
 
 > **输入:** N = 10

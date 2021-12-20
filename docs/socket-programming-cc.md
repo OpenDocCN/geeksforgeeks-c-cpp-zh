@@ -1,4 +1,4 @@
-# C/c++中的套接字编程
+# C/c++ 中的套接字编程
 
 > 原文:[https://www.geeksforgeeks.org/socket-programming-cc/](https://www.geeksforgeeks.org/socket-programming-cc/)
 
@@ -6,7 +6,7 @@
 Socket 编程是连接网络上两个节点相互通信的一种方式。一个套接字(节点)监听某个 IP 的特定端口，而另一个套接字则与另一个套接字建立连接。服务器形成侦听器套接字，而客户端则连接到服务器。
 
 **服务器和客户端模型状态图**
-[![Socket Programming in C-C++](img/f043e4369ffb7cdd1cc7514439ddf840.png)](http://media.geeksforgeeks.org/wp-content/uploads/Socket-Programming-in-C-C-.jpg)
+[![Socket Programming in C-C++ ](img/f043e4369ffb7cdd1cc7514439ddf840.png)](http://media.geeksforgeeks.org/wp-content/uploads/Socket-Programming-in-C-C-.jpg)
 
 **服务器阶段**
 

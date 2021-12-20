@@ -43,7 +43,7 @@ int addConst(int input)
     const int constant_not_static = 13;
     input += value;
 
-    // value++; ==> this statement will produce error
+    // value++ ; ==> this statement will produce error
     return input;
 }
 
@@ -126,7 +126,7 @@ int main()
 
 **什么是枚举？**
 
-枚举是用户定义的数据类型。它用于为整型常量赋值，以提高代码的可读性。使用枚举“enum”关键字在 C/C++中使用。
+枚举是用户定义的数据类型。它用于为整型常量赋值，以提高代码的可读性。使用枚举“enum”关键字在 C/C++ 中使用。
 
 **语法:**
 

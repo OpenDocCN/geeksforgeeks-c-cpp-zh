@@ -142,7 +142,7 @@ void set_contiguous_memory(vector<Block>* memory,
             // Check if there are
             // contiguous Blocks available
             if ((*slot).is_empty()) {
-                count++;
+                count++ ;
 
                 // This if condition will note
                 // the 1st index for each
@@ -167,7 +167,7 @@ void set_contiguous_memory(vector<Block>* memory,
             else {
                 count = 0;
             }
-            i++;
+            i++ ;
         }
 
         // If our flag is set,
@@ -189,7 +189,7 @@ void set_contiguous_memory(vector<Block>* memory,
                  i++) {
                 file.partition = count;
                 (*memory).at(i).set_file(file);
-                count++;
+                count++ ;
             }
             cout << "File " << file.filename
                  << " has been successfully"
@@ -241,7 +241,7 @@ void delete_contiguous_mem(vector<Block>* memory,
                 main_index = (*slot);
                 break;
             }
-            i++;
+            i++ ;
         }
 
         // Iterate through the main index until
@@ -256,7 +256,7 @@ void delete_contiguous_mem(vector<Block>* memory,
                && !(*memory).at(i).is_empty()) {
             // Set the Block as empty
             (*memory).at(i).set_empty();
-            i++;
+            i++ ;
         }
 
         // Erase entry of file from index page
@@ -376,7 +376,7 @@ void show_contiguous_index(vector<Block> memory,
                           .at(j)
                           .get_file_name()
                       == fname) {
-            j++;
+            j++ ;
         }
         j -= 1;
 
@@ -521,7 +521,7 @@ void show_contiguous_indexes(vector<Block> memory,
                            ' ')
                  << "|"
                  << endl;
-            index++;
+            index++ ;
         }
         cout << "+------------------+"
              << "------------------+"
@@ -911,7 +911,7 @@ void delete_from_indexed_memory(vector<Block>* memory,
                 index = i;
                 break;
             }
-            i++;
+            i++ ;
         }
 
         // Set the memory flag as empty
@@ -1090,7 +1090,7 @@ void show_indexed_indexes(vector<Block> memory,
                 main_index = i;
                 break;
             }
-            i++;
+            i++ ;
         }
 
         // Display File Details
@@ -1573,7 +1573,7 @@ void delete_from_linked_memory(vector<Block>* memory,
                 index = i;
                 break;
             }
-            i++;
+            i++ ;
         }
 
         // 1st partition
@@ -1674,7 +1674,7 @@ void show_linked_index(vector<Block> memory,
                           .get_file_name()
                       == fname) {
             i = memory.at(i).get_next();
-            count++;
+            count++ ;
         }
 
         cout << "|" << string(max / 2 + max % 2

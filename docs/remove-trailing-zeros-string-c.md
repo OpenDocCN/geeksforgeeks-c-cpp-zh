@@ -1,4 +1,4 @@
-# 在 C++中删除字符串的尾随零
+# 在 C++ 中删除字符串的尾随零
 
 > 原文:[https://www . geesforgeks . org/remove-尾随-零-string-c/](https://www.geeksforgeeks.org/remove-trailing-zeros-string-c/)
 
@@ -18,7 +18,7 @@ Output : 12356090
 1)计算尾随零。
 2)使用[字符串擦除功能](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)删除等于以上计数的字符。
 
-下面是 C++实现。
+下面是 C++ 实现。
 
 ```cpp
 // C++ program to remove trailing/preceding zeros
@@ -31,7 +31,7 @@ string removeZero(string str)
     // Count trailing zeros
     int i = 0;
     while (str[i] == '0')
-       i++;
+       i++ ;
 
     // The erase function removes i characters
     // from given index (0 here)

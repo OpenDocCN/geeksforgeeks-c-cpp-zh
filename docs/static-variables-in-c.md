@@ -21,7 +21,7 @@ static data_type var_name = var_value;
 int fun()
 {
   static int count = 0;
-  count++;
+  count++ ;
   return count;
 }
 
@@ -48,7 +48,7 @@ int main()
 int fun()
 {
   int count = 0;
-  count++;
+  count++ ;
   return count;
 }
 
@@ -117,19 +117,19 @@ int main()
      ^
 ```
 
-请注意，这个条件在 C++中不成立。所以如果你把程序保存为 C++程序，它会编译并运行良好。
+请注意，这个条件在 C++ 中不成立。所以如果你把程序保存为 C++ 程序，它会编译并运行良好。
 
-**5)** 静态全局变量和函数在 C/C++中也是可以的。其目的是将变量或函数的范围限制在一个文件中。详情请参考 C 中的[静态功能。
+**5)** 静态全局变量和函数在 C/C++ 中也是可以的。其目的是将变量或函数的范围限制在一个文件中。详情请参考 C 中的[静态功能。
 **6)** 静态变量不应该在结构内部声明。原因是 C 编译器要求整个结构元素放在一起(即结构成员的内存分配应该是连续的)。可以在函数内部声明结构(堆栈段)或动态分配内存(堆段)，甚至可以是全局的(BSS 或数据段)。不管是什么情况，所有的结构成员都应该驻留在同一个内存段中，因为结构元素的值是通过计算元素相对于结构起始地址的偏移量来获取的。将一个成员单独分离到数据段违背了静态变量的目的，并且有可能使整个结构成为静态的。
 **相关文章:**](https://www.geeksforgeeks.org/what-are-static-functions-in-c/) 
 
-*   [c++中的静态关键字](https://www.geeksforgeeks.org/static-keyword-cpp/)
+*   [c++ 中的静态关键字](https://www.geeksforgeeks.org/static-keyword-cpp/)
 *   [静态关键词测验](https://www.geeksforgeeks.org/c-plus-plus-gq/static-keyword-gq/)
-*   [c++中的静态数据成员](https://www.geeksforgeeks.org/stati/)
+*   [c++ 中的静态数据成员](https://www.geeksforgeeks.org/stati/)
 *   [静止物体什么时候被破坏？](https://www.geeksforgeeks.org/static-objects-destroyed/)
 *   [关于静态成员函数的有趣事实](https://www.geeksforgeeks.org/some-interesting-facts-about-static-member-functions-in-c/)
 *   [静态函数可以是虚函数吗？](https://www.geeksforgeeks.org/g-fact-29/)
-*   [c++和 Java 中静态关键字的比较](https://www.geeksforgeeks.org/static-keyword-in-java/)
+*   [c++ 和 Java 中静态关键字的比较](https://www.geeksforgeeks.org/static-keyword-in-java/)
 *   [C](https://www.geeksforgeeks.org/what-are-static-functions-in-c/)中的静态功能
 
 如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

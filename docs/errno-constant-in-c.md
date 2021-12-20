@@ -1,12 +1,12 @@
-# c++中的 errno 常量
+# c++ 中的 errno 常量
 
 > 原文:[https://www.geeksforgeeks.org/errno-constant-in-c/](https://www.geeksforgeeks.org/errno-constant-in-c/)
 
 **errno** 是用于错误指示的预处理器宏。
 
-*   程序启动时 **errno** 的值置零，无论是否发生错误，标准 C++库的任何函数都允许向 errno 写入正整数。
-*   一旦 errno 的值从零变为非零，那么 C++标准库中的任何其他函数都不能将其值变为零。errno 在 **cerrno** 头文件中定义。
-*   当数学参数有错误时，errno 的值设置为 33。在 C++中，数学参数的误差由值为 33 的 **EDOM** 表示。
+*   程序启动时 **errno** 的值置零，无论是否发生错误，标准 C++ 库的任何函数都允许向 errno 写入正整数。
+*   一旦 errno 的值从零变为非零，那么 C++ 标准库中的任何其他函数都不能将其值变为零。errno 在 **cerrno** 头文件中定义。
+*   当数学参数有错误时，errno 的值设置为 33。在 C++ 中，数学参数的误差由值为 33 的 **EDOM** 表示。
 
 声明 errno()的同一个头还声明了至少以下值不同于零的宏常数:
 

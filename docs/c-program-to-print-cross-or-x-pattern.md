@@ -1,4 +1,4 @@
-# C++程序打印十字或 X 图案
+# C++ 程序打印十字或 X 图案
 
 > 原文:[https://www . geesforgeks . org/c-程序到打印-交叉或-x-pattern/](https://www.geeksforgeeks.org/c-program-to-print-cross-or-x-pattern/)
 

@@ -1,4 +1,4 @@
-# STD::c++中的数组
+# STD::c++ 中的数组
 
 > 原文:[https://www.geeksforgeeks.org/stdarray-in-cpp/](https://www.geeksforgeeks.org/stdarray-in-cpp/)
 

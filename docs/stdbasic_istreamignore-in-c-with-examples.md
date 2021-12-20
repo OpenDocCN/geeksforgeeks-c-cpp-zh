@@ -1,4 +1,4 @@
-# std::basic_istream::在 C++中忽略，示例
+# std::basic_istream::在 C++ 中忽略，示例
 
 > 原文:[https://www . geesforgeks . org/stdbasic _ is treamignore-in-c-with-examples/](https://www.geeksforgeeks.org/stdbasic_istreamignore-in-c-with-examples/)
 

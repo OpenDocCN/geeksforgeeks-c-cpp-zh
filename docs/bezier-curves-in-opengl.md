@@ -18,7 +18,7 @@
 *   贝塞尔曲线通常遵循定义多边形的形状。
 *   曲线总是在控制点的凸包内。
 
-下面是实现贝塞尔曲线的 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/):
+下面是实现贝塞尔曲线的 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/):
 
 ## C++
 

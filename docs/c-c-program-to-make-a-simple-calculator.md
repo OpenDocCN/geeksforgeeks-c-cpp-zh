@@ -1,10 +1,10 @@
-# C/C++程序制作简单计算器
+# C/C++ 程序制作简单计算器
 
 > 原文:[https://www . geesforgeks . org/c-c-program-to-make-a-simple-calculator/](https://www.geeksforgeeks.org/c-c-program-to-make-a-simple-calculator/)
 
 ![](img/efebb041b4239604056c9a44f07c68b7.png)
 
-计算器是现在广泛使用的设备。它使计算更容易和更快。计算器在日常生活中被每个人使用。一个简单的计算器可以使用 C++程序来实现，该程序能够对用户输入的两个操作数进行加、减、乘和除。switch 和 break 语句用于创建计算器。
+计算器是现在广泛使用的设备。它使计算更容易和更快。计算器在日常生活中被每个人使用。一个简单的计算器可以使用 C++ 程序来实现，该程序能够对用户输入的两个操作数进行加、减、乘和除。switch 和 break 语句用于创建计算器。
 
 **程序:**
 

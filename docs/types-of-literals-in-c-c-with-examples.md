@@ -1,12 +1,12 @@
-# C/c++中文字的类型，示例
+# C/c++ 中文字的类型，示例
 
 > 原文:[https://www . geesforgeks . org/type-of-lithos-in-c-c-with-examples/](https://www.geeksforgeeks.org/types-of-literals-in-c-c-with-examples/)
 
-分配给每个常量变量的值被称为**文字**。通常，术语、常数和文字可以互换使用。例如，“const int = 5，是常量表达式，值 5 称为常量整数。C 语言中有四种文字，C++中有五种文字。
+分配给每个常量变量的值被称为**文字**。通常，术语、常数和文字可以互换使用。例如，“const int = 5，是常量表达式，值 5 称为常量整数。C 语言中有四种文字，C++ 中有五种文字。
 
 [![](img/61bfb05543af3b58753a8ade16a2ac74.png)](https://media.geeksforgeeks.org/wp-content/uploads/20190823141825/Types-of-Literals-in-C_C-3.jpg)
 
-C/C++的文字被相应地划分:
+C/C++ 的文字被相应地划分:
 
 1.  **[整数文字](https://www.geeksforgeeks.org/integer-literal-in-c-cpp-prefixes-suffixes/) :** 用于表示和存储整数值。整数文字以两种类型表示，
     1.  **前缀:**整数文字的前缀表示要读取的基数。

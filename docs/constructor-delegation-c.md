@@ -1,4 +1,4 @@
-# c++中的构造函数委托
+# c++ 中的构造函数委托
 
 > 原文:[https://www.geeksforgeeks.org/constructor-delegation-c/](https://www.geeksforgeeks.org/constructor-delegation-c/)
 

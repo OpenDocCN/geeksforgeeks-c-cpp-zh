@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-function-overload-and-default-arguments-question-3/](https://www.geeksforgeeks.org/c-function-overloading-and-default-arguments-question-3/)
 
-C++中不允许下列哪些重载函数？
+C++ 中不允许下列哪些重载函数？
 
 1)仅在返回类型上不同的函数声明
 
@@ -40,6 +40,6 @@ int fun( int x, int y = 10);
 
 **答案:****(A)**
 
-**说明:**参见[c++中函数重载](https://www.geeksforgeeks.org/function-overloading-in-c/)
+**说明:**参见[c++ 中函数重载](https://www.geeksforgeeks.org/function-overloading-in-c/)
 
 [本题竞猜](https://www.geeksforgeeks.org/quiz-corner-gq/)

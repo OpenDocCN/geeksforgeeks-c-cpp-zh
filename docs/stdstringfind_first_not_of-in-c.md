@@ -1,4 +1,4 @@
-# STD::string::c++中的 find _ first _ not _ of
+# STD::string::c++ 中的 find _ first _ not _ of
 
 > 原文:[https://www . geesforgeks . org/stdstringfind _ first _ not _ of-in-c/](https://www.geeksforgeeks.org/stdstringfind_first_not_of-in-c/)
 

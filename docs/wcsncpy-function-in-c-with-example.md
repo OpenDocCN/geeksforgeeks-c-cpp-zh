@@ -1,4 +1,4 @@
-# wcsncpy()函数在 C++中用示例
+# wcsncpy()函数在 C++ 中用示例
 
 > 原文:[https://www . geeksforgeeks . org/wcsncpy-function-in-c-with-example/](https://www.geeksforgeeks.org/wcsncpy-function-in-c-with-example/)
 

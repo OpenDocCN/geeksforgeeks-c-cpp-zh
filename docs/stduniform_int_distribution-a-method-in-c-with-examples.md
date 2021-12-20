@@ -1,8 +1,8 @@
-# STD::uniform _ int _ distribution a()方法用 C++举例
+# STD::uniform _ int _ distribution a()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ int _ distribution-a-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_int_distribution-a-method-in-c-with-examples/)
 
-用 C++中**均匀 int 分布类**的 **a()** 方法得到这个均匀 int 分布的下界。如果没有下限，则此方法返回 0。
+用 C++ 中**均匀 int 分布类**的 **a()** 方法得到这个均匀 int 分布的下界。如果没有下限，则此方法返回 0。
 
 **语法:**
 

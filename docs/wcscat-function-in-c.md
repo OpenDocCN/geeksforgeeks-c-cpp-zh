@@ -1,4 +1,4 @@
-# wcscat()函数在 C++中
+# wcscat()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcscat-function-in-c/](https://www.geeksforgeeks.org/wcscat-function-in-c/)
 

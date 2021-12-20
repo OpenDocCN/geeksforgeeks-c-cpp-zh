@@ -1,4 +1,4 @@
-# c++中的 std::oct、std::dec 和 STD::hex
+# c++ 中的 std::oct、std::dec 和 STD::hex
 
 > 原文:[https://www . geesforgeks . org/stdoct-stddec-和-stdhex-in-cpp/](https://www.geeksforgeeks.org/stdoct-stddec-and-stdhex-in-cpp/)
 

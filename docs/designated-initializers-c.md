@@ -3,7 +3,7 @@
 > 原文:[https://www.geeksforgeeks.org/designated-initializers-c/](https://www.geeksforgeeks.org/designated-initializers-c/)
 
 标准 C90 要求初始值设定项的元素以固定顺序出现，与正在初始化的数组或结构中的元素顺序相同。
-在 ISO C99，你可以以随机顺序给出元素，指定它们所应用的数组索引或结构字段名，GNU C 也允许这作为 C90 模式的扩展。这个扩展没有在 GNU C++中实现。
+在 ISO C99，你可以以随机顺序给出元素，指定它们所应用的数组索引或结构字段名，GNU C 也允许这作为 C90 模式的扩展。这个扩展没有在 GNU C++ 中实现。
 要指定一个**数组索引**，在元素值前写**'【索引】= '或'【索引】'**。例如
 
 ```cpp

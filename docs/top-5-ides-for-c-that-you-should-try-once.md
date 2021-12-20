@@ -1,4 +1,4 @@
-# 你应该尝试一次的 C++前 5 个 IDEs】
+# 你应该尝试一次的 C++ 前 5 个 IDEs】
 
 > 原文:[https://www . geesforgeks . org/top-5-ides-for-c-you-the-try-once/](https://www.geeksforgeeks.org/top-5-ides-for-c-that-you-should-try-once/)
 
@@ -6,7 +6,7 @@
 
 ![Top-5-IDEs-for-CPP-That-You-Should-Try-Once](img/4db3dad4122716454928a214048a30d7.png)
 
-因此，为了提高生产率和加快软件开发过程，所有这些对开发至关重要的包都被集成或组合到一个称为 IDE(集成开发环境)的环境中，这使得现代软件开发更加容易和快速。一个典型的 IDE 必须具备很少的特性，例如**语法高亮**、**自动代码完成**、**自动保存代码**、**代码搜索**、**编译器**、**重构**、**调试**、**版本控制**、**构建和部署**等。如果你是一个 C++程序员，那么下面是一些免费的软件开发软件:
+因此，为了提高生产率和加快软件开发过程，所有这些对开发至关重要的包都被集成或组合到一个称为 IDE(集成开发环境)的环境中，这使得现代软件开发更加容易和快速。一个典型的 IDE 必须具备很少的特性，例如**语法高亮**、**自动代码完成**、**自动保存代码**、**代码搜索**、**编译器**、**重构**、**调试**、**版本控制**、**构建和部署**等。如果你是一个 C++ 程序员，那么下面是一些免费的软件开发软件:
 
 ### [1。Visual Studio 代码](https://visualstudio.microsoft.com/)
 
@@ -26,7 +26,7 @@ Visual Studio Code 是微软开发的最受欢迎的免费开源代码编辑器�
 
 ### [2。代码::区块](http://www.codeblocks.org/)
 
-Code::blocks 是一个面向 C 和 C++的开源免费 IDE，可以在多个平台上使用，使用名为“wxWidget”的 GUI widget 工具内置 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 。这个 IDE 是专门用来用 C++编程的，性能和特性都很流畅。
+Code::blocks 是一个面向 C 和 C++ 的开源免费 IDE，可以在多个平台上使用，使用名为“wxWidget”的 GUI widget 工具内置 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 。这个 IDE 是专门用来用 C++ 编程的，性能和特性都很流畅。
 
 **特征:**
 
@@ -55,7 +55,7 @@ Clion 是一个由 JetBrains 开发的现代 IDE，旨在运行各种平台上�
 
 ### [4。日食](https://www.eclipse.org/downloads/packages/release/luna/r/eclipse-ide-cc-developers)
 
-Eclipse 是 C++开发人员最流行和最强大的集成开发环境之一。它也是开源的，在优秀的社区支持下可以免费使用。它支持 Windows、Linux、MacOS 等多平台，很多用户觉得很好用。
+Eclipse 是 C++ 开发人员最流行和最强大的集成开发环境之一。它也是开源的，在优秀的社区支持下可以免费使用。它支持 Windows、Linux、MacOS 等多平台，很多用户觉得很好用。
 
 **特征:**
 
@@ -70,7 +70,7 @@ Eclipse 是 C++开发人员最流行和最强大的集成开发环境之一。�
 
 ### [5。code lite〔t1〕](https://codelite.org/)
 
-CodeLite 是最好使用的 C++ IDE 之一，它是免费的，开源的，用 C++编写，专门运行在各种平台上，如 Windows、MacOS、Linux。它还像任何 C++ IDE 一样提供了许多功能。
+CodeLite 是最好使用的 C++ IDE 之一，它是免费的，开源的，用 C++ 编写，专门运行在各种平台上，如 Windows、MacOS、Linux。它还像任何 C++ IDE 一样提供了许多功能。
 
 **特征:**
 

@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/isless-in-cc/](https://www.geeksforgeeks.org/isless-in-cc/)
 
-在 C++中，isless()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。
+在 C++ 中，isless()是用于数学计算的预定义函数。 **math.h** 是各种数学函数所需的头文件。
 isless()函数用于检查给函数的第一个参数是否小于给函数的第二个参数。意思是如果 **a** 是第一个参数， **b** 是第二个参数，则检查 **a < b** 是否存在。
 **语法:**
 
@@ -108,7 +108,7 @@ int main()
     int i = 1;
     while (isless(i, 10)) {
         cout << i << " ";
-        i++;
+        i++ ;
     }
     return 0;
 }

@@ -58,7 +58,7 @@ void* foo(void* arg)
 
         // determine which thread need to be scheduled now
         if (cnt < threads - 1) {
-            cnt++;
+            cnt++ ;
         }
         else {
             cnt = 0;

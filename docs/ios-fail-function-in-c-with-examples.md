@@ -1,8 +1,8 @@
-# ios 在 C++中失败()函数，示例
+# ios 在 C++ 中失败()函数，示例
 
 > 原文:[https://www . geesforgeks . org/IOs-fail-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-fail-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **fail()** 方法用于检查流是否引发了任何失败错误。这意味着该函数将检查该流是否设置了 failbit。
+C++ 中 **ios 类**的 **fail()** 方法用于检查流是否引发了任何失败错误。这意味着该函数将检查该流是否设置了 failbit。
 
 **语法:**
 

@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/assignment-integer-float-comparison-cc/](https://www.geeksforgeeks.org/assigning-integer-float-comparison-cc/)
 
-考虑下面的 C++程序并预测输出。
+考虑下面的 C++ 程序并预测输出。
 
 ```cpp
 #include <iostream>

@@ -1,8 +1,8 @@
-# 在 C++中使用复数的几何<:complex>|集合 1
+# 在 C++ 中使用复数的几何<:complex>|集合 1
 
 > 原文:[https://www . geesforgeks . org/geometry-use-complex-numbers-stdcomplex-in-c/](https://www.geeksforgeeks.org/geometry-using-complex-numbers-stdcomplex-in-c/)
 
-在解决几何问题时，定义用于在 2D 平面或欧几里得平面上指定点的点类是非常耗时的。因此，本文指定了一种更快、更聪明的方法，在 C++中使用来自 STL 的复杂类来实现同样的功能。
+在解决几何问题时，定义用于在 2D 平面或欧几里得平面上指定点的点类是非常耗时的。因此，本文指定了一种更快、更聪明的方法，在 C++ 中使用来自 STL 的复杂类来实现同样的功能。
 在实现之前，必须了解什么是复数，以及它们如何帮助表示 2D 平面上的点。
 
 **什么是复数？**

@@ -1,4 +1,4 @@
-# c++中的枚举类型或枚举
+# c++ 中的枚举类型或枚举
 
 > 原文:[https://www . geesforgeks . org/enumed-type-or-enums-in-c/](https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c/)
 

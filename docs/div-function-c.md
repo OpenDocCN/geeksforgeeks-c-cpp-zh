@@ -1,4 +1,4 @@
-# c++中的 div()函数
+# c++ 中的 div()函数
 
 > 原文:[https://www.geeksforgeeks.org/div-function-c/](https://www.geeksforgeeks.org/div-function-c/)
 

@@ -102,7 +102,7 @@ geeksforgeeks
 
 **用 fflush(stdin)好不好？**
 
-虽然在“scanf()”语句后使用“fflush(stdin)”也会清除某些编译器中的输入缓冲区，但不建议使用它，因为根据语言标准，这是未定义的行为。在 C 和 C++中，我们有不同的方法来清除这个 [**帖子**](https://www.geeksforgeeks.org/clearing-the-input-buffer-in-cc/) 中讨论的缓冲区。
+虽然在“scanf()”语句后使用“fflush(stdin)”也会清除某些编译器中的输入缓冲区，但不建议使用它，因为根据语言标准，这是未定义的行为。在 C 和 C++ 中，我们有不同的方法来清除这个 [**帖子**](https://www.geeksforgeeks.org/clearing-the-input-buffer-in-cc/) 中讨论的缓冲区。
 
 **参考:**
 [https://stackoverflow . com/questions/2979209/using-fflushtdin](https://stackoverflow.com/questions/2979209/using-fflushstdin)

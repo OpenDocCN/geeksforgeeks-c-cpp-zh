@@ -1,8 +1,8 @@
-# c++中的 transform_inclusive_scan()函数
+# c++ 中的 transform_inclusive_scan()函数
 
 > 原文:[https://www . geesforgeks . org/transform _ inclusive _ scan-function-in-c/](https://www.geeksforgeeks.org/transform_inclusive_scan-function-in-c/)
 
-transform_inclusive_scan()是 C++中的内置函数，它与 inclusive_scan()相同，只是一元函数首先应用于每个输入项。
+transform_inclusive_scan()是 C++ 中的内置函数，它与 inclusive_scan()相同，只是一元函数首先应用于每个输入项。
 它的功能是用一元运算在第一个和最后一个元素之间转换每个元素，然后在特定范围的*二元运算*的帮助下计算包含前缀和运算。定义第 I 个输入元素的*包含*包含在第 I 个求和操作中。
 我们可以取一个可选的 init(初始值)，并将结果写入从 d_first 开始的范围。
 
@@ -59,13 +59,13 @@ OutputItrator transform_inclusive_scan(InputItrator first,
                                        UnaryOperation unary_op)
 {
     *d_first = unary_op(*first);
-    first++;
-    d_first++;
+    first++ ;
+    d_first++ ;
     for (auto it = first; it != last; it++) {
 
         // calculate the prefix sum
         *d_first = binary_op(unary_op(*it), *(d_first - 1));
-        d_first++;
+        d_first++ ;
     }
     return d_first;
 }

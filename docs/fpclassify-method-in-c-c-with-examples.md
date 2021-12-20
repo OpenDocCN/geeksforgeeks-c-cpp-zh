@@ -1,8 +1,8 @@
-# C/c++中的 fpclassify()方法，示例
+# C/c++ 中的 fpclassify()方法，示例
 
 > 原文:[https://www . geeksforgeeks . org/FP classifier-method-in-c-c-with-examples/](https://www.geeksforgeeks.org/fpclassify-method-in-c-c-with-examples/)
 
-**FP classifier()**函数在 C++中的 **[math.h 头文件](https://www.geeksforgeeks.org/c-library-math-h-functions/)** 和 **[cmath 库中定义。该函数用于获取与分类宏常量之一相匹配的 int 类型的值(取决于 x 的值)。](https://www.geeksforgeeks.org/c-mathematical-functions/)**
+**FP classifier()**函数在 C++ 中的 **[math.h 头文件](https://www.geeksforgeeks.org/c-library-math-h-functions/)** 和 **[cmath 库中定义。该函数用于获取与分类宏常量之一相匹配的 int 类型的值(取决于 x 的值)。](https://www.geeksforgeeks.org/c-mathematical-functions/)**
 
 **语法:**
 

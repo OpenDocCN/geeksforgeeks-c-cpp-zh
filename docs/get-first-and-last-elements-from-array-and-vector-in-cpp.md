@@ -11,7 +11,7 @@ Last element: 98
 
 ```
 
-在 C++中，我们可以使用 [sizeof 运算符](https://www.geeksforgeeks.org/sizeof-operator-c/)来查找数组中的元素数量。
+在 C++ 中，我们可以使用 [sizeof 运算符](https://www.geeksforgeeks.org/sizeof-operator-c/)来查找数组中的元素数量。
 
 ```cpp
 // C++ Program to print first and last element in an array

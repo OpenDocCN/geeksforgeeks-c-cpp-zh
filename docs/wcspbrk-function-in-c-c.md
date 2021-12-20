@@ -1,8 +1,8 @@
-# wcspbrk()函数在 C/C++中
+# wcspbrk()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcspbrk-function-in-c-c/](https://www.geeksforgeeks.org/wcspbrk-function-in-c-c/)
 
-**wcspbrk()** 是 C/C++中的内置函数，它在另一个宽字符串中搜索宽字符串中的一组宽字符。在 C++的**cwcchar**头文件中定义。
+**wcspbrk()** 是 C/C++ 中的内置函数，它在另一个宽字符串中搜索宽字符串中的一组宽字符。在 C++ 的**cwcchar**头文件中定义。
 
 **语法**:
 

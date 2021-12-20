@@ -1,4 +1,4 @@
-# std::在 C++中移动
+# std::在 C++ 中移动
 
 > 原文:[https://www.geeksforgeeks.org/stdmove-in-c/](https://www.geeksforgeeks.org/stdmove-in-c/)
 

@@ -40,14 +40,14 @@ int main()
     // prints the elements
     cout << "\nThe multimap mp1 is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+    for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }
 
     cout << "\nThe multimap copymap is : \n";
     cout << "KEY\tELEMENT\n";
-    for (auto itr = copymp.begin(); itr != copymp.end(); ++itr) {
+    for (auto itr = copymp.begin(); itr != copymp.end(); ++ itr) {
         cout << itr->first
              << '\t' << itr->second << '\n';
     }

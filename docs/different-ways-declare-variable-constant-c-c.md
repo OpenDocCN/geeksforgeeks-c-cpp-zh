@@ -1,4 +1,4 @@
-# 在 C 和 C++中将变量声明为常量的不同方式
+# 在 C 和 C++ 中将变量声明为常量的不同方式
 
 > 原文:[https://www . geesforgeks . org/different-way-declare-variable-constant-c-c/](https://www.geeksforgeeks.org/different-ways-declare-variable-constant-c-c/)
 

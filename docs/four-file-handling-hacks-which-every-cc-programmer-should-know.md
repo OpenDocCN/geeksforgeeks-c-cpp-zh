@@ -1,13 +1,13 @@
-# 每个 C/C++程序员都应该知道的四个文件处理黑客
+# 每个 C/C++ 程序员都应该知道的四个文件处理黑客
 
 > 原文:[https://www . geesforgeks . org/四-文件处理-黑客-每个 cc-程序员都应该知道的/](https://www.geeksforgeeks.org/four-file-handling-hacks-which-every-cc-programmer-should-know/)
 
 我们将讨论下面列出的四种文件黑客攻击-
 
-1.  重命名–使用 C/C++重命名文件
-2.  移除–使用 C/C++移除文件
-3.  文件大小–使用 C/C++获取文件大小
-4.  检查存在性–检查文件在 C/C++中是否存在
+1.  重命名–使用 C/C++ 重命名文件
+2.  移除–使用 C/C++ 移除文件
+3.  文件大小–使用 C/C++ 获取文件大小
+4.  检查存在性–检查文件在 C/C++ 中是否存在
 
 ```cpp
 // A C++ Program to demonstrate the

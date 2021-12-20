@@ -21,7 +21,7 @@ int main()
 
     cout << "\nArray after sorting using "
             "default sort is : \n";
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
 
     return 0;
@@ -55,7 +55,7 @@ int main()
     stable_sort(arr, arr + n, greater<int>());
 
     cout << "Array after sorting : \n";
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         cout << arr[i] << " ";
 
     return 0;

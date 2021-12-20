@@ -1,4 +1,4 @@
-# c++中构造函数和析构函数的区别
+# c++ 中构造函数和析构函数的区别
 
 > 原文:[https://www . geesforgeks . org/c 中构造函数和析构函数的区别/](https://www.geeksforgeeks.org/difference-between-constructor-and-destructor-in-c/)
 
@@ -66,7 +66,7 @@ Destructor called
 Destructor called 
 ```
 
-**c++中构造函数和析构函数的区别:**
+**c++ 中构造函数和析构函数的区别:**
 
 <figure class="table">
 

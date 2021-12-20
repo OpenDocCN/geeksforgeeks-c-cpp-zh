@@ -1,4 +1,4 @@
-# 在 MacBook M1 上为 VS 代码进行 C++安装
+# 在 MacBook M1 上为 VS 代码进行 C++ 安装
 
 > 原文:[https://www . geesforgeks . org/c-macbook 上安装-m1-for-vs-code/](https://www.geeksforgeeks.org/c-installation-on-macbook-m1-for-vs-code/)
 
@@ -9,7 +9,7 @@
 *   首先[在你的设备上下载 VS 代码](https://code.visualstudio.com)。
 *   您也可以[下载 M1 特定的 Visual Studio 代码](https://code.visualstudio.com/insiders/)(即 Visual Studio 代码-内部人员)
 
-下载 Visual Studio 代码或 Visual Studio 代码内部人员后，打开它并转到扩展。有一个搜索选项卡，只需键入 c++然后点击 1 推荐并安装它。您必须下载的另一个扩展是代码运行器。
+下载 Visual Studio 代码或 Visual Studio 代码内部人员后，打开它并转到扩展。有一个搜索选项卡，只需键入 c++ 然后点击 1 推荐并安装它。您必须下载的另一个扩展是代码运行器。
 
 在此过程中，用户可能会遇到两种不同类型的问题。因此，让我们讨论它们是什么以及如何解决它们。
 
@@ -66,7 +66,7 @@ nano stdc++.h
 
 <u>现在只需尝试实现任何 CPP 代码，以确保您在 MacBook M1 上完成了 CPP 设置。</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 #include <bits/stdc++.h>

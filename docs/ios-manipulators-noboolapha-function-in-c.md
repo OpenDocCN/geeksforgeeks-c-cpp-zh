@@ -1,8 +1,8 @@
-# ios 操纵器 noboolapha()函数在 C++中
+# ios 操纵器 noboolapha()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-nopoolapha-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-noboolapha-function-in-c/)
 
-C++中**流操纵器**的**nobolalpha()**方法用于获取指定字符串流的 boolapha 格式标志的整数值。
+C++ 中**流操纵器**的**nobolalpha()**方法用于获取指定字符串流的 boolapha 格式标志的整数值。
 
 **语法:**
 

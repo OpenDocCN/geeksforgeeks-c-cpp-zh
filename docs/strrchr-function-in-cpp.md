@@ -5,7 +5,7 @@
 > 原文:[https://www.geeksforgeeks.org/strrchr-function-in-cpp/](https://www.geeksforgeeks.org/strrchr-function-in-cpp/)
 
 **str chr()函数**
-在 C++中，str chr()是一个用于字符串处理的预定义函数。cstring 是字符串函数所需的头文件。
+在 C++ 中，str chr()是一个用于字符串处理的预定义函数。cstring 是字符串函数所需的头文件。
 该函数返回字符串中最后一个字符的指针。
 我们要查找的最后一个字符作为第二个参数传递给函数，我们要查找的字符串作为第一个参数传递给函数。
 **语法**
@@ -16,7 +16,7 @@ char *strrchr(const char *str, int c)
 
 这里，str 是字符串，c 是要定位的字符。它作为其 int 提升传递，但在内部转换回 char。
 **应用程序**
-在 C++中给定一个字符串，我们需要找到一个字符的最后一次出现，比如说‘a’。
+在 C++ 中给定一个字符串，我们需要找到一个字符的最后一次出现，比如说‘a’。
 示例:
 
 ```cpp

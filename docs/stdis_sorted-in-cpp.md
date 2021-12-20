@@ -1,8 +1,8 @@
-# STD::is _ 在 C++中排序
+# STD::is _ 在 C++ 中排序
 
 > 原文:[https://www.geeksforgeeks.org/stdis_sorted-in-cpp/](https://www.geeksforgeeks.org/stdis_sorted-in-cpp/)
 
-C++函数 std :: is_sorted 检查范围[第一个，最后一个]中的元素是否按升序排序。使用 **<** 运算符比较元素。
+C++ 函数 std :: is_sorted 检查范围[第一个，最后一个]中的元素是否按升序排序。使用 **<** 运算符比较元素。
 STD 有两种变体::is_sorted:
 
 1.  **不使用二元谓语**

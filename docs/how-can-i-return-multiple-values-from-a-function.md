@@ -20,4 +20,4 @@ int foo(int arg1, int arg2);
 
 通常，当一个函数需要返回几个值时，我们使用一个指针而不是几个指针作为参数。
 
-请看 **[如何在 C 或 C++中从一个函数返回多个值？](https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/)** 了解更多详情。
+请看 **[如何在 C 或 C++ 中从一个函数返回多个值？](https://www.geeksforgeeks.org/how-to-return-multiple-values-from-a-function-in-c-or-cpp/)** 了解更多详情。

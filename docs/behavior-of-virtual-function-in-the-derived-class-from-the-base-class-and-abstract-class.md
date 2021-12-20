@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/从基类和抽象类派生的类中虚拟函数的行为/](https://www.geeksforgeeks.org/behavior-of-virtual-function-in-the-derived-class-from-the-base-class-and-abstract-class/)
 
-在本文中，我们将讨论[派生类](https://www.geeksforgeeks.org/difference-between-base-class-and-derived-class-in-c/)中[虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)的行为，以及 C++中[抽象基类的派生类](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)。
+在本文中，我们将讨论[派生类](https://www.geeksforgeeks.org/difference-between-base-class-and-derived-class-in-c/)中[虚函数](https://www.geeksforgeeks.org/virtual-function-cpp/)的行为，以及 C++ 中[抽象基类的派生类](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)。
 
 考虑以下程序:
 

@@ -32,7 +32,7 @@ int main()
     // printing list elements
     cout << "\nList: ";
 
-    for (auto it = lis.cbegin(); it != lis.end(); ++it)
+    for (auto it = lis.cbegin(); it != lis.end(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -74,7 +74,7 @@ int main()
     // printing list elements
     cout << "List: " << endl;
 
-    for (auto it = lis.cbegin(); it != lis.cend(); ++it)
+    for (auto it = lis.cbegin(); it != lis.cend(); ++ it)
         cout << *it << " ";
 
     return 0;

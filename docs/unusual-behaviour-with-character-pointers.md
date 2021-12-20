@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/带字符指针的异常行为/](https://www.geeksforgeeks.org/unusual-behaviour-with-character-pointers/)
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中， [cout](https://www.geeksforgeeks.org/basic-input-output-c/) 显示了不同于其他数据类型的指针/数组的字符指针/数组的不同打印行为。因此，本文将首先解释 **cout** 如何通过字符指针表现出不同的行为，然后讨论其背后的原因和工作机制。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中， [cout](https://www.geeksforgeeks.org/basic-input-output-c/) 显示了不同于其他数据类型的指针/数组的字符指针/数组的不同打印行为。因此，本文将首先解释 **cout** 如何通过字符指针表现出不同的行为，然后讨论其背后的原因和工作机制。
 
 **例 1:**
 

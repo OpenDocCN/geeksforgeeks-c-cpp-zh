@@ -31,7 +31,7 @@
         cout << "The last element is: " << *lis.crbegin();
         cout << "\nList: ";
 
-        for (auto it = lis.crbegin(); it != lis.crend(); ++it)
+        for (auto it = lis.crbegin(); it != lis.crend(); ++ it)
             cout << *it << " ";
 
         return 0;
@@ -74,7 +74,7 @@
 
         cout << "List: " << endl;
 
-        for (auto it = lis.crbegin(); it != lis.crend(); ++it)
+        for (auto it = lis.crbegin(); it != lis.crend(); ++ it)
             cout << *it << " ";
 
         return 0;

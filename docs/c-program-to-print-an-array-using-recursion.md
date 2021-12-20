@@ -1,8 +1,8 @@
-# 使用递归打印数组的 C++程序
+# 使用递归打印数组的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-程序使用递归打印数组/](https://www.geeksforgeeks.org/c-program-to-print-an-array-using-recursion/)
 
-用 C++编写一个程序，使用[递归](https://www.geeksforgeeks.org/recursion/)打印一个[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
+用 C++ 编写一个程序，使用[递归](https://www.geeksforgeeks.org/recursion/)打印一个[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
 
 [![](img/13b7429b646a58c1b6e67867ce0dab9c.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2015/05/Arrays.png)
 
@@ -37,7 +37,7 @@
 
         // print the ith element
         cout << arr[i] << " ";
-        i++;
+        i++ ;
 
         // recursive call
         print_array(arr, size);
@@ -84,7 +84,7 @@
 
         // print the ith element
         cout << arr[i] << " ";
-        i++;
+        i++ ;
 
         // recursive call
         print_array(arr, size, i);

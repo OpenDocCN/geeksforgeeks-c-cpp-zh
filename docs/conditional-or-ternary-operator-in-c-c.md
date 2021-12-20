@@ -1,4 +1,4 @@
-# 条件或三元运算符(？:)在 C/C++中
+# 条件或三元运算符(？:)在 C/C++ 中
 
 > 原文:[https://www . geesforgeks . org/conditional-or-三元运算符 in-c-c/](https://www.geeksforgeeks.org/conditional-or-ternary-operator-in-c-c/)
 

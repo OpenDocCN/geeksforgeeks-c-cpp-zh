@@ -1,4 +1,4 @@
-# 用 C/C++打印 2D 矩阵不同行，不带花括号？
+# 用 C/C++ 打印 2D 矩阵不同行，不带花括号？
 
 > 原文:[https://www . geeksforgeeks . org/print-2d-不同行中的矩阵和不带花括号的 cc/](https://www.geeksforgeeks.org/print-2d-matrix-in-different-lines-and-without-curly-braces-in-cc/)
 

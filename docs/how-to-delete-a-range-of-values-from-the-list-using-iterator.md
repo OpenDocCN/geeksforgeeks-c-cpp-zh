@@ -50,7 +50,7 @@ void printList(list<int> mylist)
     list<int>::iterator it;
 
     // printing all the elements of the list
-    for (it = mylist.begin(); it != mylist.end(); ++it)
+    for (it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     cout << '\n';
 }
@@ -64,8 +64,8 @@ void deleteRange(list<int> mylist)
 
     // Get the starting Iterator at 3rd element
     list<int>::iterator start_itr = mylist.begin();
-    start_itr++;
-    start_itr++;
+    start_itr++ ;
+    start_itr++ ;
 
     // Get the ending Iterator at 2nd last element
     list<int>::iterator end_itr = mylist.end();

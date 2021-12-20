@@ -38,7 +38,7 @@ int count(string s, char c)
 
         // checking character in string
         if (s[i] == c)
-            res++;
+            res++ ;
 
     return res;
 }
@@ -71,7 +71,7 @@ class GFG
         {
             // checking character in string
             if (s.charAt(i) == c)
-            res++;
+            res++ ;
         }
         return res;
     }
@@ -134,7 +134,7 @@ public class GFG {
 
             // checking character in string
             if (s[i] == c)
-            res++;
+            res++ ;
         }
 
         return res;
@@ -173,7 +173,7 @@ function count($s, $c)
 
         // checking character in string
         if ($s[$i] == $c)
-            $res++;
+            $res++ ;
 
     return $res;
 }
@@ -204,7 +204,7 @@ function count($s, $c)
         {
             // checking character in string
             if (s.charAt(i) == c)
-            res++;
+            res++ ;
         }
         return res;
     }
@@ -222,7 +222,7 @@ function count($s, $c)
 4
 ```
 
-**在 C++中使用直接函数**
+**在 C++ 中使用直接函数**
 
 ## C
 
@@ -273,7 +273,7 @@ class GFG {
           //the given string is that character
           //or not
           if(s.charAt(0)==ch)
-          count++;
+          count++ ;
 
           //this will count the occurrence of
           //given character in the string
@@ -308,7 +308,7 @@ public class GFG {
           // the given string is that character
           // or not
           if(s[0] == ch)
-          count++;
+          count++ ;
 
           // this will count the occurrence of
           // given character in the string
@@ -347,7 +347,7 @@ public class GFG {
         // the given string is that character
         // or not
         if (s[0] == ch)
-            count++;
+            count++ ;
 
         // this will count the occurrence of
         // given character in the string

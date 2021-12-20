@@ -1,4 +1,4 @@
-# 是 C++中的 _signed 模板
+# 是 C++ 中的 _signed 模板
 
 > 原文:[https://www.geeksforgeeks.org/is_signed-template-in-c/](https://www.geeksforgeeks.org/is_signed-template-in-c/)
 

@@ -56,7 +56,7 @@ int main()
 {
     std::valarray<int> sample(12);
     // initialising valarray
-    for (int i = 0; i < 13; ++i)
+    for (int i = 0; i < 13; ++ i)
         sample[i] = i;
 
     // using slice from start 1 and size 3 and stride 4
@@ -97,7 +97,7 @@ int main()
     std::valarray<int> matrix(row * col);
 
     // initialising matrix
-    for (int i = 0; i < row * col; ++i)
+    for (int i = 0; i < row * col; ++ i)
         matrix[i] = i + 1;
 
     // using slice from start 0 with size as col and stride col+1
@@ -107,7 +107,7 @@ int main()
     int index = 0;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++)
-            std::cout << matrix[index++] << " "; // same as matrix[i][j]
+            std::cout << matrix[index++ ] << " "; // same as matrix[i][j]
         std::cout << endl;
     }
 

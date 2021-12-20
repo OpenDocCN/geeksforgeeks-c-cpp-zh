@@ -1,4 +1,4 @@
-# 如何在 C++中找到向量中给定元素的索引
+# 如何在 C++ 中找到向量中给定元素的索引
 
 > 原文:[https://www . geesforgeks . org/如何找到给定 cpp 中矢量元素的索引/](https://www.geeksforgeeks.org/how-to-find-index-of-a-given-element-in-a-vector-in-cpp/)
 

@@ -1,4 +1,4 @@
-# c++中的 smatch | Regex(正则表达式)
+# c++ 中的 smatch | Regex(正则表达式)
 
 > 原文:[https://www . geesforgeks . org/smatch-regex-正则表达式-in-c/](https://www.geeksforgeeks.org/smatch-regex-regular-expressions-in-c/)
 

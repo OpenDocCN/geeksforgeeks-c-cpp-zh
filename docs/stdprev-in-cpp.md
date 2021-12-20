@@ -1,10 +1,10 @@
-# 标准::C++中的 prev
+# 标准::C++ 中的 prev
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/stdprev-in-CPP/
 
 **std::prev** 返回一个迭代器，该迭代器在反向前进一定数量的位置后指向元素。它在头文件**中定义。**
 
-**它**返回一个参数**的副本，该参数向后前进指定的量。如果是随机访问迭代器，函数只使用一次运算符+或运算符–来推进。否则，该函数在复制的迭代器上重复使用递增或递减运算符(运算符++或运算符–-)，直到 n 个元素被推进。**
+**它**返回一个参数**的副本，该参数向后前进指定的量。如果是随机访问迭代器，函数只使用一次运算符+或运算符–来推进。否则，该函数在复制的迭代器上重复使用递增或递减运算符(运算符++ 或运算符–-)，直到 n 个元素被推进。**
 
 **语法:**
 
@@ -58,12 +58,12 @@ int main()
     cout << "v1 = ";
 
     int i;
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v1[i] << " ";
     }
 
     cout << "\nv2 = ";
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v2[i] << " ";
     }
 
@@ -81,7 +81,7 @@ v2 = 8 9 10 1 2 3 4
 
 **怎么会有帮助？**
 
-*   **在列表中移动迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能通过使用++和––运算符来递增。所以，如果我们想让迭代器前进一个以上的位置，那么 **std::next** 如果我们想减少迭代器，那么 std::prev 会非常有用。
+*   **在列表中移动迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能通过使用++ 和––运算符来递增。所以，如果我们想让迭代器前进一个以上的位置，那么 **std::next** 如果我们想减少迭代器，那么 std::prev 会非常有用。
 
     ```cpp
     // C++ program to demonstrate std::prev
@@ -117,12 +117,12 @@ v2 = 8 9 10 1 2 3 4
         cout << "v1 = ";
 
         int i;
-        for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+        for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
             cout << *i1 << " ";
         }
 
         cout << "\nv2 = ";
-        for (i1 = v2.begin(); i1 != v2.end(); ++i1) {
+        for (i1 = v2.begin(); i1 != v2.end(); ++ i1) {
             cout << *i1 << " ";
         }
 
@@ -180,12 +180,12 @@ int main()
     cout << "v1 = ";
 
     int i;
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v1[i] << " ";
     }
 
     cout << "\nv2 = ";
-    for (i = 0; i < 7; ++i) {
+    for (i = 0; i < 7; ++ i) {
         cout << v2[i] << " ";
     }
 

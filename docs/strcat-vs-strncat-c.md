@@ -1,4 +1,4 @@
-# c++中的 strcat()vs strn cat()
+# c++ 中的 strcat()vs strn cat()
 
 > 原文:[https://www.geeksforgeeks.org/strcat-vs-strncat-c/](https://www.geeksforgeeks.org/strcat-vs-strncat-c/)
 
@@ -37,7 +37,7 @@ This is an example
 
 [**【strncat()**](https://www.geeksforgeeks.org/strncat-function-in-c-cpp/)
 
-C++中的 strncat()函数将一个字符串中给定数量的字符追加到另一个字符串的末尾。strncat()函数将接受这三个参数:
+C++ 中的 strncat()函数将一个字符串中给定数量的字符追加到另一个字符串的末尾。strncat()函数将接受这三个参数:
 1)目的地
 2) Src
 3)计数

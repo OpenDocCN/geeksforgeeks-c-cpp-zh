@@ -59,14 +59,14 @@ arr[][] = { {0, 1, 2},
 
                 // move the pointer to the
                 // next element in the row
-                ptr++;
+                ptr++ ;
             }
 
             printf("\n");
-            k++;
+            k++ ;
 
             // move the pointer to the next row
-            jagged[i]++;
+            jagged[i]++ ;
         }
 
         return 0;
@@ -116,12 +116,12 @@ arr[][] = { {0, 1, 2},
             int* p = jagged[i];
 
             for (int j = 0; j < Size[k]; j++) {
-                *p = number++;
+                *p = number++ ;
 
                 // move the pointer
-                p++;
+                p++ ;
             }
-            k++;
+            k++ ;
         }
 
         k = 0;
@@ -134,12 +134,12 @@ arr[][] = { {0, 1, 2},
 
                 printf("%d ", *p);
                 // move the pointer to the next element
-                p++;
+                p++ ;
             }
             printf("\n");
-            k++;
+            k++ ;
             // move the pointer to the next row
-            jagged[i]++;
+            jagged[i]++ ;
         }
 
         return 0;

@@ -1,8 +1,8 @@
-# 检查 C++映射或无序映射中是否存在键
+# 检查 C++ 映射或无序映射中是否存在键
 
 > 原文:[https://www . geesforgeks . org/check-key-present-CPP-map-无序 _map/](https://www.geeksforgeeks.org/check-key-present-cpp-map-unordered_map/)
 
-一个 [C++映射](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)和[无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)被初始化为一些键和它们各自的映射值。
+一个 [C++ 映射](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)和[无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)被初始化为一些键和它们各自的映射值。
 示例:
 
 ```cpp
@@ -12,7 +12,7 @@ Check1 : 5, Check2 : 4
 Output : 5 : Not present, 4 : Present
 ```
 
-C++实现:
+C++ 实现:
 
 ## 地图
 
@@ -97,7 +97,7 @@ int main()
 
 **接近 2 档:**
 
-我们也可以在 c++中使用 map 的 count 函数。
+我们也可以在 c++ 中使用 map 的 count 函数。
 
 **实施:**
 

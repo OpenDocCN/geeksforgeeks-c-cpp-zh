@@ -1,4 +1,4 @@
-# 是 C++中的 _ 标量模板
+# 是 C++ 中的 _ 标量模板
 
 > 原文:[https://www.geeksforgeeks.org/is_scalar-template-in-c/](https://www.geeksforgeeks.org/is_scalar-template-in-c/)
 

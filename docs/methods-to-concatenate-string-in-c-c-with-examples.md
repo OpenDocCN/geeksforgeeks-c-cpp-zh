@@ -1,4 +1,4 @@
-# C/c++中连接字符串的方法，示例
+# C/c++ 中连接字符串的方法，示例
 
 > 原文:[https://www . geesforgeks . org/methods-to-concatenate-string-in-c-with-examples/](https://www.geeksforgeeks.org/methods-to-concatenate-string-in-c-c-with-examples/)
 

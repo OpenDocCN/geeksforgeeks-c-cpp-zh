@@ -53,7 +53,7 @@ void planetMotion(int xrad, int yrad,
     // corresponding orbits
     for (i = 360; i > 0; i = i - 6) {
         x[j] = midx - (xrad * cos((i * 3.14) / 180));
-        y[j++] = midy - (yrad * sin((i * 3.14) / 180));
+        y[j++ ] = midy - (yrad * sin((i * 3.14) / 180));
     }
 
     return;

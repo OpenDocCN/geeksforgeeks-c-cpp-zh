@@ -1,4 +1,4 @@
-# 如何在 C、C++和 Java 中用空 main()打印“GeeksforGeeks”？
+# 如何在 C、C++ 和 Java 中用空 main()打印“GeeksforGeeks”？
 
 > 原文:[https://www . geesforgeks . org/print-geesforgeks-empty-main-c/](https://www.geeksforgeeks.org/print-geeksforgeeks-empty-main-c/)
 
@@ -65,7 +65,7 @@
     GeeksforGeeks
     ```
 
-**C++语言**
+**C++ 语言**
 
 1.  The idea is to create a **class**, have a cout statement in constructor and create a global object of the class. When the object is created, constructor is called and “GeeksforGeeks” is printed.
 

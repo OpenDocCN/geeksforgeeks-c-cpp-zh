@@ -42,7 +42,7 @@ HELLO-3
 操作 c 风格的字符串有非常有用的功能，如 **strcpy()** 、 **strlen()** 、 **strpbrk()** 、 **strcat()** 、**strtr()**等等！(这些功能都是“ **cstring** ”表头的成员功能)。
 
 **什么是 std::string？**
-C++标准库包含函数和类。String 是它的一个类。这里我们处理一个字符串类的对象。这个 std::string 会自己处理并管理自己的内存。
+C++ 标准库包含函数和类。String 是它的一个类。这里我们处理一个字符串类的对象。这个 std::string 会自己处理并管理自己的内存。
 
 **声明和初始化**
 
@@ -194,8 +194,8 @@ This is a C-String : Testing
 
 C 字符串和 std::字符串都有各自的优势。一个人应该懂得它们之间的转换，才能轻松有效地解决问题。
  **相关文章:**
-[C++字符串类及其应用|集合 1](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
-[C++字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
+[C++ 字符串类及其应用|集合 1](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
+[C++ 字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
 
 本文由 **Nishant** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

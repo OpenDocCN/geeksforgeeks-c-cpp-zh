@@ -1,4 +1,4 @@
-# std::在 C++中搜索
+# std::在 C++ 中搜索
 
 > 原文:[https://www.geeksforgeeks.org/stdsearch-in-c/](https://www.geeksforgeeks.org/stdsearch-in-c/)
 

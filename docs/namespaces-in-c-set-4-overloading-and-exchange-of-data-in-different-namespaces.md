@@ -1,15 +1,15 @@
-# c++中的命名空间|集合 4(不同命名空间中的重载和数据交换)
+# c++ 中的命名空间|集合 4(不同命名空间中的重载和数据交换)
 
 > 原文:[https://www . geesforgeks . org/namespace-in-c-set-4-不同命名空间中数据的重载和交换/](https://www.geeksforgeeks.org/namespaces-in-c-set-4-overloading-and-exchange-of-data-in-different-namespaces/)
 
 **先决条件:**
 
-*   [c++中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
-*   [c++中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
-*   [c++中的命名空间|集合 3(访问、创建头、嵌套和别名)](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
+*   [c++ 中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
+*   [c++ 中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
+*   [c++ 中的命名空间|集合 3(访问、创建头、嵌套和别名)](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
 
 在本文中，我们将讨论不同命名空间之间数据共享的概念，如何访问和重载标准操作符以在用户定义的命名空间内为用户定义的类工作，以及它们的实现。
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们可以在不同的名称空间内创建类，而这些类的范围仅限于创建它们的名称空间。因此，我们必须使用范围解析运算符 **(::)** 来访问这些类。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，我们可以在不同的名称空间内创建类，而这些类的范围仅限于创建它们的名称空间。因此，我们必须使用范围解析运算符 **(::)** 来访问这些类。
 下面是理解命名空间内类的声明和程序中对象的初始化的实现:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

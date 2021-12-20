@@ -1,4 +1,4 @@
-# std::remove，std::remove_if 在 c++中
+# std::remove，std::remove_if 在 c++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdremove-stdremove_if-c/](https://www.geeksforgeeks.org/stdremove-stdremove_if-c/)
 
@@ -97,7 +97,7 @@ int main()
     // Print the vector
     std ::cout << "After remove : ";
     for (std ::vector<int>::iterator p = vec1.begin();
-         p != pend; ++p)
+         p != pend; ++ p)
         std ::cout << ' ' << *p;
     std ::cout << '\n';
 
@@ -119,7 +119,7 @@ int main()
     // Print the vector
     std ::cout << "After remove_if : ";
     for (std ::vector<int>::iterator q = vec2.begin();
-         q != pend; ++q)
+         q != pend; ++ q)
         std ::cout << ' ' << *q;
     std ::cout << '\n';
 

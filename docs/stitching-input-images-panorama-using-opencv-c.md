@@ -1,8 +1,8 @@
-# 用 C++使用 OpenCV 拼接输入图像(全景图)
+# 用 C++ 使用 OpenCV 拼接输入图像(全景图)
 
 > 原文:[https://www . geesforgeks . org/sticking-input-images-panorama-using-opencv-c/](https://www.geeksforgeeks.org/stitching-input-images-panorama-using-opencv-c/)
 
-该程序旨在通过使用 OpenCV library stitching.hpp 将一组图像拼接在一起，从而从一组图像中创建全景图，其实现是在 C++中完成的。程序将合成的缝合图像保存在与程序文件相同的目录中。如果这组图像没有被缝合，那么它会以错误退出程序。该错误是由于输入图像没有公共区域或者它们没有共享公共像素块。
+该程序旨在通过使用 OpenCV library stitching.hpp 将一组图像拼接在一起，从而从一组图像中创建全景图，其实现是在 C++ 中完成的。程序将合成的缝合图像保存在与程序文件相同的目录中。如果这组图像没有被缝合，那么它会以错误退出程序。该错误是由于输入图像没有公共区域或者它们没有共享公共像素块。
 
 **实现代码的步骤:**
 
@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
 {
     // Get all the images that need to be 
     // stitched as arguments from command line 
-    for (int i = 1; i < argc; ++i)
+    for (int i = 1; i < argc; ++ i)
     {
             // Read the ith argument or image 
             // and push into the image array

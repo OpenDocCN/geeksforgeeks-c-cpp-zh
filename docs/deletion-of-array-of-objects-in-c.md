@@ -1,4 +1,4 @@
-# c++中对象数组的删除
+# c++ 中对象数组的删除
 
 > 原文:[https://www . geeksforgeeks . org/c 中对象数组的删除/](https://www.geeksforgeeks.org/deletion-of-array-of-objects-in-c/)
 
@@ -192,4 +192,4 @@ int main()
 **说明:**这个程序运行时会崩溃。在这个程序中，[构造函数](https://www.geeksforgeeks.org/constructors-c/)工作正常，但是[析构函数](https://www.geeksforgeeks.org/destructors-c/)只对第一个对象执行，之后由于内存泄漏，程序在运行时崩溃。这是因为 3 个对象是在运行时创建的，但只有一个对象被显式删除，这就是为什么剩下的两个对象在运行时崩溃。
 
 **<u>结论</u> :**
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，在运行时使用**新的**操作符创建的类的单个对象通过使用****删除**操作符被删除，而对象数组通过使用**删除[]** 操作符被删除，因此不会导致内存泄漏。**
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，在运行时使用**新的**操作符创建的类的单个对象通过使用****删除**操作符被删除，而对象数组通过使用**删除[]** 操作符被删除，因此不会导致内存泄漏。**

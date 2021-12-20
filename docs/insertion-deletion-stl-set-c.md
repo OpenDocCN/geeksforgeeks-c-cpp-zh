@@ -1,8 +1,8 @@
-# STL 集合 C++中的插入和删除
+# STL 集合 C++ 中的插入和删除
 
 > 原文:[https://www.geeksforgeeks.org/insertion-deletion-stl-set-c/](https://www.geeksforgeeks.org/insertion-deletion-stl-set-c/)
 
-[Set](https://www.geeksforgeeks.org/set-associative-containers-the-c-standard-template-library-stl/) 是一个在 STL 中用 C++语言实现的容器，其概念类似于数学中如何定义 Set。将 set 与其他容器分开的事实是，它只包含**不同的元素**，并且元素可以按排序顺序遍历。在竞争编程和解决算法问题时，对集合有很强的控制力是很有用的。本文讨论了 STL 集中的插入和删除。
+[Set](https://www.geeksforgeeks.org/set-associative-containers-the-c-standard-template-library-stl/) 是一个在 STL 中用 C++ 语言实现的容器，其概念类似于数学中如何定义 Set。将 set 与其他容器分开的事实是，它只包含**不同的元素**，并且元素可以按排序顺序遍历。在竞争编程和解决算法问题时，对集合有很强的控制力是很有用的。本文讨论了 STL 集中的插入和删除。
 
 **Insertion**
 
@@ -42,7 +42,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 1st insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     // inserting set elements using hint
@@ -50,7 +50,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 2nd insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     // inserting array elements in set
@@ -60,7 +60,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 3rd insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
 }
@@ -113,7 +113,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 1st insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     // using emplace() to insert single element
@@ -128,7 +128,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 2nd insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     // inserting set elements using hint
@@ -136,7 +136,7 @@ int main()
 
     // printing set elements after insertion
     cout << "\nThe set elements after 3rd insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 }
 ```
@@ -186,7 +186,7 @@ int main()
 
     // printing initial set elements
     cout << "The set elements after insertion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     it = st.begin();
@@ -195,12 +195,12 @@ int main()
 
     // erasing element using iterator
     // erases 2nd element i.e., 10
-    ++it;
+    ++ it;
     st.erase(it);
 
     // printing set elements after deletion
     cout << "The set elements after 1st deletion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     // erasing element using value
@@ -208,13 +208,13 @@ int main()
 
     // printing set elements after deletion
     cout << "\nThe set elements after 2nd deletion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
-    ++it;
-    ++it;
-    ++it;
-    ++it;
+    ++ it;
+    ++ it;
+    ++ it;
+    ++ it;
 
     // erasing element using range iterator
     // deletes 25 - last(45)
@@ -222,7 +222,7 @@ int main()
 
     // printing set elements 3rd deletion
     cout << "\nThe set elements after 3rd deletion are : ";
-    for (it1 = st.begin(); it1!=st.end();  ++it1)
+    for (it1 = st.begin(); it1!=st.end();  ++ it1)
         cout << *it1 << " ";
 
     cout << endl;

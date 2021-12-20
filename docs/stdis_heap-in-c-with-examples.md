@@ -1,8 +1,8 @@
-# std::is_heap()在 C++中有示例
+# std::is_heap()在 C++ 中有示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ heap-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_heap-in-c-with-examples/)
 
-[C++标准模板库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中的 **std::is_heap()** 函数用于检查给定范围的元素是否形成[最大堆](https://www.geeksforgeeks.org/heap-data-structure/)。当给定的元素范围形成最大堆时，它返回真，否则返回假。
+[C++ 标准模板库](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)中的 **std::is_heap()** 函数用于检查给定范围的元素是否形成[最大堆](https://www.geeksforgeeks.org/heap-data-structure/)。当给定的元素范围形成最大堆时，它返回真，否则返回假。
 
 **头文件:**
 

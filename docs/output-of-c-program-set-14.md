@@ -1,8 +1,8 @@
-# c++程序输出|第 14 集
+# c++ 程序输出|第 14 集
 
 > 原文:[https://www.geeksforgeeks.org/output-of-c-program-set-14/](https://www.geeksforgeeks.org/output-of-c-program-set-14/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 难度等级:菜鸟
 
@@ -49,7 +49,7 @@ class A
 public:
     A()
     {
-        count++;
+        count++ ;
         id = count;
         cout << "constructor called " << id << endl;
     }

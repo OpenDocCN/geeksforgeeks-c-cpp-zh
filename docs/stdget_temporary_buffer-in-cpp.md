@@ -1,4 +1,4 @@
-# STD::c++中 get _ temporal _ buffer
+# STD::c++ 中 get _ temporal _ buffer
 
 > 原文:[https://www . geesforgeks . org/stdget _ temporary _ buffer-in-CPP/](https://www.geeksforgeeks.org/stdget_temporary_buffer-in-cpp/)
 
@@ -31,7 +31,7 @@ Output : It contain 10 elements
 Explanation:
 Step 1: initialize the array b[]
         first, we find the even number  elements in an array using for loop[0-n-1]
-        if(a[i]%2==0){ c++;}
+        if(a[i]%2==0){ c++ ;}
         print the count of even number.
 Step 2: use get_temporary buffer to allocate the block of memory 
         pair(int*, ptrdiff_t) p=get_temporary_buffer(int)(required size)
@@ -58,7 +58,7 @@ void sorting(int b[], int n)
     int i, c = 0;
     for (i = 0; i < n; i++) {
         if (b[i] % 2 == 0) {
-            c++;
+            c++ ;
         }
     }
     cout << "The total even numbers are:  " << c << endl;

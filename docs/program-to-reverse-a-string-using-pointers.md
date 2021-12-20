@@ -40,7 +40,7 @@ void reverseString(char* str)
 
     // Move the end_ptr to the last character
     for (i = 0; i < l - 1; i++)
-        end_ptr++;
+        end_ptr++ ;
 
     // Swap the char from start and end
     // index using begin_ptr and end_ptr
@@ -52,7 +52,7 @@ void reverseString(char* str)
         *begin_ptr = ch;
 
         // update pointers positions
-        begin_ptr++;
+        begin_ptr++ ;
         end_ptr--;
     }
 }

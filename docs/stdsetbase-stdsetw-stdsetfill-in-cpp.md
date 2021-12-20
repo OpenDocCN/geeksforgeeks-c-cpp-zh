@@ -1,4 +1,4 @@
-# std::setbase，std::setw，std::setfill 在 C++中
+# std::setbase，std::setw，std::setfill 在 C++ 中
 
 > 原文:[https://www . geesforgeks . org/stdsetbase-stdsetw-stdsetfill-in-CPP/](https://www.geeksforgeeks.org/stdsetbase-stdsetw-stdsetfill-in-cpp/)
 

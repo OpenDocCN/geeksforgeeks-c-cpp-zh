@@ -1,4 +1,4 @@
-# c++中字典顺序下一个排列
+# c++ 中字典顺序下一个排列
 
 > 原文:[https://www . geesforgeks . org/find-the-next-按字典顺序大于给定单词/](https://www.geeksforgeeks.org/find-the-next-lexicographically-greater-word-than-a-given-word/)
 
@@ -6,7 +6,7 @@
 
 注意:在某些情况下，下一个字典上更大的单词可能不存在，例如，“aaa”和“edcba”
 
-在 C++中，有一个特定的函数可以省去我们很多代码。它在文件#include <algorithm>中。函数是 next _ arrange(a . begin()、a.end())。如果函数可以将对象重新排列为字典上更大的排列，则返回“真”。否则，该函数返回“false”。</algorithm>
+在 C++ 中，有一个特定的函数可以省去我们很多代码。它在文件#include <algorithm>中。函数是 next _ arrange(a . begin()、a.end())。如果函数可以将对象重新排列为字典上更大的排列，则返回“真”。否则，该函数返回“false”。</algorithm>
 
 让我们看看这里的代码片段:
 
@@ -71,7 +71,7 @@ void swap(char* a, char* b)
 void rev(string& s, int l, int r)
 {
     while (l < r)
-        swap(&s[l++], &s[r--]);
+        swap(&s[l++ ], &s[r--]);
 }
 
 int bsearch(string& s, int l, int r, int key)

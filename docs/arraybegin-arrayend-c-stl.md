@@ -2,7 +2,7 @@
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/arraybegin-arrayend-c-STL/
 
-[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 型数组更高效、轻量、可靠。从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。
+[数组](https://www.geeksforgeeks.org/array-class-c/)类一般比 C 型数组更高效、轻量、可靠。从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。
 
 **array::begin()**
 
@@ -49,7 +49,7 @@ int main()
 
     // using begin() to print array
     for (auto it = myarray.begin();
-         it != myarray.end(); ++it)
+         it != myarray.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -107,7 +107,7 @@ int main()
 
     // using end() to print array
     for (auto it = myarray.begin();
-         it != myarray.end(); ++it)
+         it != myarray.end(); ++ it)
         cout << ' ' << *it;
 
       auto it = myarray.end();

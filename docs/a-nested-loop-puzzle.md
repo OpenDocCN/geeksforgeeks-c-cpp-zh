@@ -50,7 +50,7 @@ for i in range(100):
 
 1.  第二次执行赋值操作(j = 0 或 i = 0) 101 次，而第一次只执行 11 次。
 2.  第二个进行 101 + 1100 次比较(i < 100 或 j < 10)，而第一个进行 11 + 1010 次比较(i < 10 或 j < 100)。
-3.  第二个执行 1100 个增量操作(i++或 j++)，而第一个执行 1010 个增量操作。
+3.  第二个执行 1100 个增量操作(i++ 或 j++)，而第一个执行 1010 个增量操作。
 
 下面的代码计算第一次和第二次执行的增量操作的数量，并打印计数。
 
@@ -213,12 +213,12 @@ int main()
    int c1 = 0, c2 = 0;
 
    /* FIRST */
-   for(int i=0; ++c1&&i<10; i++)
-      for(int j=0; ++c1&&j<100;j++);
+   for(int i=0; ++ c1&&i<10; i++)
+      for(int j=0; ++ c1&&j<100;j++);
 
    /* SECOND */
-   for(int i=0; ++c2&&i<100; i++)
-      for(int j=0; ++c2&&j<10; j++);
+   for(int i=0; ++ c2&&i<100; i++)
+      for(int j=0; ++ c2&&j<10; j++);
 
    cout << " Count for FIRST  " <<c1 << endl;
    cout << " Count for SECOND  " <<c2 << endl;
@@ -238,13 +238,13 @@ class GFG {
     public static void main (String[] args) {
          int c1 = 0, c2 = 0;
 
-        for(int i=0; i<++c1 && i<10;i++) {
-              for(int j=0;j<++c1 &&j<100;j++) {                 
+        for(int i=0; i<++ c1 && i<10;i++) {
+              for(int j=0;j<++ c1 &&j<100;j++) {                 
               }
         }
 
-        for(int i=0;i<++c2 && i<100;i++) {
-              for(int j=0;j<++c2 &&j<10;j++) {        
+        for(int i=0;i<++ c2 && i<100;i++) {
+              for(int j=0;j<++ c2 &&j<10;j++) {        
               }
         }
 
@@ -301,15 +301,15 @@ class GFG {
     public static void Main (String[] args) {
          int c1 = 0, c2 = 0;
 
-        for(int i = 0; i < ++c1 && i < 10; i++)
+        for(int i = 0; i < ++ c1 && i < 10; i++)
         {
-              for(int j = 0; j < ++c1 && j < 100; j++)
+              for(int j = 0; j < ++ c1 && j < 100; j++)
               {                 
               }
         }
 
-        for(int i = 0; i < ++c2 && i < 100; i++) {
-              for(int j = 0; j < ++c2 && j < 10; j++) {        
+        for(int i = 0; i < ++ c2 && i < 100; i++) {
+              for(int j = 0; j < ++ c2 && j < 10; j++) {        
               }
         }
 
@@ -333,13 +333,13 @@ class GFG {
 
          let c1 = 0, c2 = 0;
 
-        for(let i=0; i<++c1 && i<10;i++) {
-              for(let j=0;j<++c1 &&j<100;j++) {                 
+        for(let i=0; i<++ c1 && i<10;i++) {
+              for(let j=0;j<++ c1 &&j<100;j++) {                 
               }
         }
 
-        for(let i=0;i<++c2 && i<100;i++) {
-              for(let j=0;j<++c2 &&j<10;j++) {        
+        for(let i=0;i<++ c2 && i<100;i++) {
+              for(let j=0;j<++ c2 &&j<10;j++) {        
               }
         }
 

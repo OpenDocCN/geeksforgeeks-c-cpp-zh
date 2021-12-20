@@ -1,4 +1,4 @@
-# 在 C++中是正常的()
+# 在 C++ 中是正常的()
 
 > 原文:[https://www.geeksforgeeks.org/isnormal-in-c/](https://www.geeksforgeeks.org/isnormal-in-c/)
 
@@ -26,7 +26,7 @@ bool  isnormal(long double x);
 
 **返回:**如果给定值正常，则函数返回 **1** 否则函数返回**0**。
 
-下面的程序说明了 C++中的 isnormal()函数:
+下面的程序说明了 C++ 中的 isnormal()函数:
 
 **示例 1:-** 用浮点值显示
 

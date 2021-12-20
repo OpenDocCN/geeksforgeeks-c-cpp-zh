@@ -1,4 +1,4 @@
-# std::is_literal_type 在 C++中带有示例
+# std::is_literal_type 在 C++ 中带有示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ literal _ type-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_literal_type-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_literal_type::value
 *   **true:** If type t is a text type.
 *   **false:** If the type t is not literal.
 
-下面是用 C/C++演示 **std::is_literal_type:** 的程序:
+下面是用 C/C++ 演示 **std::is_literal_type:** 的程序:
 
 **程序:**
 

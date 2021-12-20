@@ -35,7 +35,7 @@ int main()
     // a given key if it does exists
     auto range1 = sample.equal_range(20);
     if (range1.first != sample.end()) {
-        for (; range1.first != range1.second; ++range1.first)
+        for (; range1.first != range1.second; ++ range1.first)
             cout << *range1.first << endl;
     }
     else
@@ -69,7 +69,7 @@ int main()
     // for a given key if it does not exist
     auto range1 = sample.equal_range(60);
     if (range1.first != sample.end()) {
-        for (; range1.first != range1.second; ++range1.first)
+        for (; range1.first != range1.second; ++ range1.first)
             cout << *range1.first << endl;
     }
     else

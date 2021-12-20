@@ -1,8 +1,8 @@
-# wcs col()函数在 C++中
+# wcs col()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcscoll-function-in-c/](https://www.geeksforgeeks.org/wcscoll-function-in-c/)
 
-**wcs col()**函数在 C++中比较两个空终止的字符串。该比较基于由 **LC_COLLATE** 类别定义的当前区域设置。
+**wcs col()**函数在 C++ 中比较两个空终止的字符串。该比较基于由 **LC_COLLATE** 类别定义的当前区域设置。
 这个函数开始比较每个字符串的第一个字符。它们被认为是相等的，直到字符有所不同，或者直到一个空的宽字符表示到达字符串的末尾。
 
 **语法:**

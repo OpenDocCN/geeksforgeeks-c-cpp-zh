@@ -1,4 +1,4 @@
-# c++中的词典编纂 _ 比较()
+# c++ 中的词典编纂 _ 比较()
 
 > 原文:[https://www . geesforgeks . org/词典编纂 _compare-in-cpp-2/](https://www.geeksforgeeks.org/lexicographical_compare-in-cpp-2/)
 
@@ -16,7 +16,7 @@ template
   {
     if (beg2==end2 || *beg2<*beg1) return false;
     else if (*beg1<*beg2) return true;
-    ++beg1; ++beg2;
+    ++ beg1; ++ beg2;
   }
   return (beg2!=end2);
 }
@@ -76,7 +76,7 @@ template
   {
     if (beg2==end2 || *beg2<*beg1) return false;
     else if (*beg1<*beg2) return true;
-    ++beg1; ++beg2;
+    ++ beg1; ++ beg2;
   }
   return (beg2!=end2);
 }

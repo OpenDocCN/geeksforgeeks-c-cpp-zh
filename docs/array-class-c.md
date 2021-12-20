@@ -1,8 +1,8 @@
-# c++中的数组类
+# c++ 中的数组类
 
 > 原文:[https://www.geeksforgeeks.org/array-class-c/](https://www.geeksforgeeks.org/array-class-c/)
 
-从 C++11 引入数组类为 C 风格的数组提供了一个更好的选择。数组类相对于 C 风格数组的优势是:-
+从 C++ 11 引入数组类为 C 风格的数组提供了一个更好的选择。数组类相对于 C 风格数组的优势是:-
 
 *   数组类知道自己的大小，而 C 风格的数组缺少这个属性。因此，当传递给函数时，我们不需要将数组的大小作为一个单独的参数传递。
 *   使用 C 型数组时，[数组更有可能衰减成指针](https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented/)。数组类不会衰减成指针

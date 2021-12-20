@@ -1,4 +1,4 @@
-# STD::uniform _ real _ distribution 类用 C++举例
+# STD::uniform _ real _ distribution 类用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/STD uniform _ real _-distribution-class-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_real_-distribution-class-in-c-with-examples/)
 
@@ -6,7 +6,7 @@
 
 ![\[ f(x) = \frac{1}{b-a}, & a\leq x < b\\ \] ](img/6fa2ff6415a8589e2bac3bf570c2c8b3.png "Rendered by QuickLaTeX.com")
 
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 在**随机库**中引入了**均匀实分布**类，其成员函数以均匀概率给出来自给定输入范围的随机实数或连续值。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 在**随机库**中引入了**均匀实分布**类，其成员函数以均匀概率给出来自给定输入范围的随机实数或连续值。
 **uniform _ real _ distribution 类中的公共成员函数:**
 
 1.  **运算符():**该函数返回给定范围内的随机值。返回值的数据类型是在模板类初始化期间指定的。任何值的概率都是一样的。该操作的时间复杂度为 0(1)。
@@ -43,12 +43,12 @@ int main()
     // number of ranges
     int n = 100;
     int p[n] = {};
-    for (int i = 0; i < num_of_exp; ++i) {
+    for (int i = 0; i < num_of_exp; ++ i) {
 
         // using operator() function
         // to give random values
         double number = distribution(generator);
-        ++p[int(number * n)];
+        ++ p[int(number * n)];
     }
 
     cout << "Probability of some ranges" << endl;

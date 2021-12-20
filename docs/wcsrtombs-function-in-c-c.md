@@ -1,4 +1,4 @@
-# wcsrgrams()在 C/C++中的功能
+# wcsrgrams()在 C/C++ 中的功能
 
 > 原文:[https://www.geeksforgeeks.org/wcsrtombs-function-in-c-c/](https://www.geeksforgeeks.org/wcsrtombs-function-in-c-c/)
 

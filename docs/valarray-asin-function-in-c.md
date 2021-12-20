@@ -1,4 +1,4 @@
-# valarray asin()函数在 C++中
+# valarray asin()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-asin-function-in-c/](https://www.geeksforgeeks.org/valarray-asin-function-in-c/)
 

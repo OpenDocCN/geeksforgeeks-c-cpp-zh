@@ -1,8 +1,8 @@
-# wcrtomb()函数在 C/C++中
+# wcrtomb()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wcrtomb-function-in-c-c/](https://www.geeksforgeeks.org/wcrtomb-function-in-c-c/)
 
-C/C++中的 **wcrtomb()** 函数将宽字符转换为窄多字节表示。宽字符 **wc** 被翻译成它的多字节等价物，并存储在由 **s** 指向的数组中。该函数返回由 **s** 指向的等效多字节序列的字节长度。
+C/C++ 中的 **wcrtomb()** 函数将宽字符转换为窄多字节表示。宽字符 **wc** 被翻译成它的多字节等价物，并存储在由 **s** 指向的数组中。该函数返回由 **s** 指向的等效多字节序列的字节长度。
 
 **语法:**
 

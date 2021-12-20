@@ -1,8 +1,8 @@
-# 基于反向范围的 C++循环示例
+# 基于反向范围的 C++ 循环示例
 
 > 原文:[https://www . geeksforgeeks . org/基于反向范围的 c-in-loop-in-examples/](https://www.geeksforgeeks.org/reversed-range-based-for-loop-in-c-with-examples/)
 
-**[基于范围的循环](https://www.geeksforgeeks.org/range-based-loop-c/)** 是循环[的升级版本。](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)它与 Python 中使用的 for 循环非常相似。 [C++中基于范围的循环](https://www.geeksforgeeks.org/c-plus-plus/)是从 C++ 11 开始增加的。
+**[基于范围的循环](https://www.geeksforgeeks.org/range-based-loop-c/)** 是循环[的升级版本。](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)它与 Python 中使用的 for 循环非常相似。 [C++ 中基于范围的循环](https://www.geeksforgeeks.org/c-plus-plus/)是从 C++ 11 开始增加的。
 
 我们可以使用 **boost 库头**中包含的**boost::adapters::reverse()**函数来反转循环迭代的过程。
 
@@ -26,7 +26,7 @@ for (auto i : boost::adaptors::reverse(x))
 *   **range_expression:** 表示合适序列或支撑初始化列表的表达式。
 *   **loop_statement:** 一个语句，通常是一个复合语句，它是循环的主体。
 
-下面是用 C++说明反向范围循环的程序:
+下面是用 C++ 说明反向范围循环的程序:
 
 ## CPP14
 

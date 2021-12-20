@@ -1,4 +1,4 @@
-# c++中的 get _ 分配器()
+# c++ 中的 get _ 分配器()
 
 > 原文:[https://www.geeksforgeeks.org/get_allocator-in-cpp/](https://www.geeksforgeeks.org/get_allocator-in-cpp/)
 
@@ -43,7 +43,7 @@ char* Allocate(vector<char> arr, int size)
 void Construct(vector<char> arr,
                       char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
 
       // construct values in-place on the array:
       arr.get_allocator().construct(&point[iter],
@@ -54,7 +54,7 @@ void Construct(vector<char> arr,
 void deAllocate(vector<char> arr,
                        char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         arr.get_allocator().destroy(&point[iter]);
 
     // free allocated memory    
@@ -72,7 +72,7 @@ int main()
     Construct(array, pointer, size);
 
     cout << "Array elements:  ";
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         cout << pointer[iter] << " ";
 
     deAllocate(array, pointer, size);
@@ -108,7 +108,7 @@ char* Allocate(list<char> arr, int size)
 void Construct(list<char> arr,
                       char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
 
       // construct values in-place on the array:
       arr.get_allocator().construct(&point[iter],
@@ -119,7 +119,7 @@ void Construct(list<char> arr,
 void deAllocate(list<char> arr,
                        char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         arr.get_allocator().destroy(&point[iter]);
 
     // free allocated memory    
@@ -137,7 +137,7 @@ int main()
     Construct(array, pointer, size);
 
     cout << "Array elements:  ";
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         cout << pointer[iter] << " ";
 
     deAllocate(array, pointer, size);
@@ -173,7 +173,7 @@ char* Allocate(set<char> arr, int size)
 void Construct(set<char> arr,
                       char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
 
       // construct values in-place on the array:
       arr.get_allocator().construct(&point[iter],
@@ -184,7 +184,7 @@ void Construct(set<char> arr,
 void deAllocate(set<char> arr,
                        char* point, int size)
 {
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         arr.get_allocator().destroy(&point[iter]);
 
     // free allocated memory    
@@ -202,7 +202,7 @@ int main()
     Construct(array, pointer, size);
 
     cout << "Array elements:  ";
-    for (int iter = 0; iter < size; ++iter)
+    for (int iter = 0; iter < size; ++ iter)
         cout << pointer[iter] << " ";
 
     deAllocate(array, pointer, size);

@@ -1,4 +1,4 @@
-# 生成测试用例(C++中的 generate()和 generate _ n())
+# 生成测试用例(C++ 中的 generate()和 generate _ n())
 
 > 原文:[https://www . geesforgeks . org/generating-test-cases-generate-and-generate _ n-in-c/](https://www.geeksforgeeks.org/generating-test-cases-generate-and-generate_n-in-c/)
 

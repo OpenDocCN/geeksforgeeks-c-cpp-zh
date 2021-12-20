@@ -1,4 +1,4 @@
-# std::string::data()在 C++中
+# std::string::data()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdstringdata-in-c/](https://www.geeksforgeeks.org/stdstringdata-in-c/)
 

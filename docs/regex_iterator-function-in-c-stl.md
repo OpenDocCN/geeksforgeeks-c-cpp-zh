@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/regex _ iterator-function-in-c-STL/](https://www.geeksforgeeks.org/regex_iterator-function-in-c-stl/)
 
-**regex_iterator()** 是 C++中**双向迭代器类**的一个函数。此方法返回一个迭代器类型，以迭代序列中相同正则表达式模式的不同匹配项。
+**regex_iterator()** 是 C++ 中**双向迭代器类**的一个函数。此方法返回一个迭代器类型，以迭代序列中相同正则表达式模式的不同匹配项。
 
 **语法:**
 
@@ -14,7 +14,7 @@ template<
 
 ```
 
-**C++14 语法**
+**C++ 14 语法**
 
 ```cpp
 template <class BidirectionalIterator,
@@ -23,7 +23,7 @@ template <class BidirectionalIterator,
 
 ```
 
-**C++11 语法:**
+**C++ 11 语法:**
 
 ```cpp
 template <class BidirectionalIterator,
@@ -76,7 +76,7 @@ int main()
     cout << "\n\nThe words are:\n";
     for (sregex_iterator k = words_begin;
          k != words_end;
-         ++k) {
+         ++ k) {
 
         smatch match = *k;
         string match_str = match.str();

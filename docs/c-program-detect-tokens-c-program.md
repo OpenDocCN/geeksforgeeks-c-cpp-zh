@@ -140,13 +140,13 @@ void parse(char* str)
 
     while (right <= len && left <= right) {
         if (isDelimiter(str[right]) == false)
-            right++;
+            right++ ;
 
         if (isDelimiter(str[right]) == true && left == right) {
             if (isOperator(str[right]) == true)
                 printf("'%c' IS AN OPERATOR\n", str[right]);
 
-            right++;
+            right++ ;
             left = right;
         } else if (isDelimiter(str[right]) == true && left != right
                    || (right == len && left != right)) {

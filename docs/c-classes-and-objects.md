@@ -1,8 +1,8 @@
-# C++类和对象
+# C++ 类和对象
 
 > 原文:[https://www.geeksforgeeks.org/c-classes-and-objects/](https://www.geeksforgeeks.org/c-classes-and-objects/)
 
-**类:**c++中的类是通向面向对象编程的构造块。它是用户定义的数据类型，保存自己的数据成员和成员函数，可以通过创建该类的实例来访问和使用。C 与 C++程序设计学习与实验系统类就像一个对象的蓝图。
+**类:**c++ 中的类是通向面向对象编程的构造块。它是用户定义的数据类型，保存自己的数据成员和成员函数，可以通过创建该类的实例来访问和使用。C 与 C++ 程序设计学习与实验系统类就像一个对象的蓝图。
 例如:考虑**汽车的等级**。可能有很多不同名称和品牌的汽车，但它们都有一些共同的属性，比如它们都有 *4 个轮子*、*限速*、*里程范围*等。所以在这里，汽车是级别，车轮、限速、里程是它们的属性。
 
 *   类是用户定义的数据类型，具有数据成员和成员函数。
@@ -13,7 +13,7 @@
 
 **定义类和声明对象**
 
-在 C++中，使用关键字 class 后跟类名来定义类。类的主体在花括号内定义，并在末尾以分号结束。![classes-and-objects-in-c](img/f21aadcadb8192f44d1badfacf248f3b.png)
+在 C++ 中，使用关键字 class 后跟类名来定义类。类的主体在花括号内定义，并在末尾以分号结束。![classes-and-objects-in-c](img/f21aadcadb8192f44d1badfacf248f3b.png)
 
 **声明对象:**定义类时，只定义对象的规范；没有分配内存或存储空间。要使用类中定义的数据和访问函数，需要创建对象。
 
@@ -229,7 +229,7 @@ int main()
     {
         Geeks obj2;
         obj2.id=i;
-        i++;       
+        i++ ;       
     } // Scope for obj2 ends here
 
     return 0;
@@ -252,8 +252,8 @@ Destructor called for id: 7
 
 **相关文章:**
 
-*   [c++中的多重遗传](https://www.geeksforgeeks.org/multiple-inheritance-in-c/)
-*   [C++测验](https://www.geeksforgeeks.org/quiz-corner-gq/)
+*   [c++ 中的多重遗传](https://www.geeksforgeeks.org/multiple-inheritance-in-c/)
+*   [C++ 测验](https://www.geeksforgeeks.org/quiz-corner-gq/)
 
 本文由**阿比拉夫·卡里亚**供稿。如果你喜欢极客博客并想投稿，你也可以用 write.geeksforgeeks.org 写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

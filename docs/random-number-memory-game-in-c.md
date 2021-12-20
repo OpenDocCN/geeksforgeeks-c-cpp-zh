@@ -70,7 +70,7 @@ void main()
 
             // Get the guessed number
             scanf("%ld", &guessnum);
-            level++;
+            level++ ;
 
             // Condition for the Game
             // Over State

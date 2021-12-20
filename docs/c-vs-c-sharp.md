@@ -3,9 +3,9 @@
 > 原文:[https://www.geeksforgeeks.org/c-vs-c-sharp/](https://www.geeksforgeeks.org/c-vs-c-sharp/)
 
 [C#](https://www.geeksforgeeks.org/introduction-to-c-sharp/) 是一种通用、现代、面向对象的编程语言，发音为“C sharp”。它是由安德斯·海尔斯伯格和他的团队领导的微软开发的。
-[C++](https://www.geeksforgeeks.org/c-plus-plus/) 是一种静态类型、多参数和面向对象的编程语言。起初，C++被称为带类的 C。它是由比雅尼·斯特劳斯特鲁普在 AT & T 贝尔实验室开发的。
+[C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是一种静态类型、多参数和面向对象的编程语言。起初，C++ 被称为带类的 C。它是由比雅尼·斯特劳斯特鲁普在 AT & T 贝尔实验室开发的。
 
-***下面是 C++和 C#的一些主要区别:***
+***下面是 C++ 和 C#的一些主要区别:***
 
 <figure class="table">
 

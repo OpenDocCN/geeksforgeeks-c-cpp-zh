@@ -1,12 +1,12 @@
-# c++中虚函数与纯虚函数的区别
+# c++ 中虚函数与纯虚函数的区别
 
 > 原文:[https://www . geesforgeks . org/虚函数与纯虚函数的区别在 c/](https://www.geeksforgeeks.org/difference-between-virtual-function-and-pure-virtual-function-in-c/)
 
-**[【c++中的虚函数】](https://www.geeksforgeeks.org/virtual-function-cpp/)**
+**[【c++ 中的虚函数】](https://www.geeksforgeeks.org/virtual-function-cpp/)**
 虚函数是在基类中声明并由派生类重新定义(Overriden)的成员函数。当您使用指向基类的指针或引用来引用派生类对象时，您可以为该对象调用一个虚拟函数并执行该函数的派生类版本。
 
-**[【c++中的纯虚函数】](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)**
-c++中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们只声明它。纯虚函数通过在声明中赋值 0 来声明。
+**[【c++ 中的纯虚函数】](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)**
+c++ 中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们只声明它。纯虚函数通过在声明中赋值 0 来声明。
 
 **虚函数与纯虚函数的相似之处**
 
@@ -14,7 +14,7 @@ c++中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们
 2.  原型，即两个功能的声明在整个程序中保持不变。
 3.  这些函数不能是全局的或静态的。
 
-**c++中虚函数与纯虚函数的区别**
+**c++ 中虚函数与纯虚函数的区别**
 
 | 虚拟功能 | 纯虚函数 |
 | --- | --- |

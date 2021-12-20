@@ -1,14 +1,14 @@
-# 【Ruby 和 C++的异同
+# 【Ruby 和 C++ 的异同
 
 > 原文:[https://www . geesforgeks . org/ruby-and-c 的异同/](https://www.geeksforgeeks.org/similarities-and-differences-between-ruby-and-c/)
 
-**c++和 Ruby 有很多相似之处，有些是:**
+**c++ 和 Ruby 有很多相似之处，有些是:**
 
-就像 C++一样，在 Ruby 中…
+就像 C++ 一样，在 Ruby 中…
 
-*   正如在 C++中一样，公共的、私有的和受保护的在 Ruby 中也同样有效。*   继承语法仍然只有一个字符，但是在 Ruby 中是*   C++中使用“名称空间”的方式，与我们在 ruby 中将代码放入“模块”的方式类似。*   Ruby 中有许多类似于 C++中的运算符。*   Though the keyword names have been changed to protect the innocent, exceptions work in a similar manner.
+*   正如在 C++ 中一样，公共的、私有的和受保护的在 Ruby 中也同样有效。*   继承语法仍然只有一个字符，但是在 Ruby 中是*   C++ 中使用“名称空间”的方式，与我们在 ruby 中将代码放入“模块”的方式类似。*   Ruby 中有许多类似于 C++ 中的运算符。*   Though the keyword names have been changed to protect the innocent, exceptions work in a similar manner.
 
-    【Ruby 和 C++的区别。
+    【Ruby 和 C++ 的区别。
 
     | 【红宝石】 | c++ |
     | --- | --- |

@@ -1,4 +1,4 @@
-# strtod()函数在 C/C++中
+# strtod()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/strtod-function-in-c-c/](https://www.geeksforgeeks.org/strtod-function-in-c-c/)
 

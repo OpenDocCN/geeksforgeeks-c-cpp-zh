@@ -1,15 +1,15 @@
-# C/c++中的命令行参数
+# C/c++ 中的命令行参数
 
 > 原文:[https://www . geesforgeks . org/命令行-参数-in-c-cpp/](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/)
 
-C/C++最重要的功能是 main()函数。它主要是用 int 的返回类型定义的，没有参数:
+C/C++ 最重要的功能是 main()函数。它主要是用 int 的返回类型定义的，没有参数:
 
 ```cpp
 int main() { /* ... */ } 
 
 ```
 
-我们也可以用 C 和 C++给出命令行参数。在操作系统的命令行外壳中，命令行参数位于程序名称之后。
+我们也可以用 C 和 C++ 给出命令行参数。在操作系统的命令行外壳中，命令行参数位于程序名称之后。
 为了传递命令行参数，我们通常用两个参数定义 main():第一个参数是命令行参数的数量，第二个参数是命令行参数的列表。
 
 ```cpp
@@ -42,7 +42,7 @@ int main(int argc, char** argv)
     cout << "You have entered " << argc
          << " arguments:" << "\n";
 
-    for (int i = 0; i < argc; ++i)
+    for (int i = 0; i < argc; ++ i)
         cout << argv[i] << "\n";
 
     return 0;
@@ -68,7 +68,7 @@ geeks
 
 ```
 
-**注意:**C 和 C++标准也允许其他平台相关的格式；例如，Unix(虽然不是 POSIX.1)和微软 Visual C++有第三个参数给出了程序的环境，否则可以通过 stdlib.h 中的 getenv 访问:有关详细信息，请参考 [C 程序打印环境变量](https://www.geeksforgeeks.org/c-program-print-environment-variables/)。
+**注意:**C 和 C++ 标准也允许其他平台相关的格式；例如，Unix(虽然不是 POSIX.1)和微软 Visual C++ 有第三个参数给出了程序的环境，否则可以通过 stdlib.h 中的 getenv 访问:有关详细信息，请参考 [C 程序打印环境变量](https://www.geeksforgeeks.org/c-program-print-environment-variables/)。
 
 **命令行参数的属性:**
 

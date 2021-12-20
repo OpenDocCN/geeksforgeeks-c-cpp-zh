@@ -1,8 +1,8 @@
-# C++中每个循环的
+# C++ 中每个循环的
 
 > 原文:[https://www.geeksforgeeks.org/for_each-loop-c/](https://www.geeksforgeeks.org/for_each-loop-c/)
 
-除了[通用循环技术](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)，例如“for，while 和 do-while”，C++在其语言中还允许我们使用另一种功能来解决被称为“for-each”循环的相同目的。这个循环接受一个在每个容器元素上执行的函数。该循环在头文件“算法”中定义:***#包括<算法>*** ，因此必须包括该循环才能成功运行。
+除了[通用循环技术](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)，例如“for，while 和 do-while”，C++ 在其语言中还允许我们使用另一种功能来解决被称为“for-each”循环的相同目的。这个循环接受一个在每个容器元素上执行的函数。该循环在头文件“算法”中定义:***#包括<算法>*** ，因此必须包括该循环才能成功运行。
 
 *   它是多功能的，即可以与任何容器一起工作。
 *   它减少了使用泛型 for 循环提交错误的机会
@@ -243,7 +243,7 @@ int main()
     vector<int> vec{ 1, 2, 3, 4, 5 };
 
     // this increases all the values in the vector by 1;
-    for_each(vec.begin(), vec.end(), [](int& a) { a++; });
+    for_each(vec.begin(), vec.end(), [](int& a) { a++ ; });
 
     // this prints all the values in the vector;
     for_each(vec.begin(), vec.end(),

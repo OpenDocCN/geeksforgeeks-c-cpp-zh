@@ -1,4 +1,4 @@
-# STD::is _ c++中的函数模板，带示例
+# STD::is _ c++ 中的函数模板，带示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ function-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_function-template-in-c-with-examples/)
 

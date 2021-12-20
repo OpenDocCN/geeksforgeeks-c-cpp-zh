@@ -1,8 +1,8 @@
-# c++中的信号处理
+# c++ 中的信号处理
 
 > 原文:[https://www.geeksforgeeks.org/signal-handling-in-cpp/](https://www.geeksforgeeks.org/signal-handling-in-cpp/)
 
-信号是迫使操作系统停止其正在进行的任务并参与中断已被发送的任务的中断。这些中断可以暂停操作系统中任何程序的服务。类似地，C++也提供了它可以在程序中捕捉和处理的各种信号。下面是 C++提供给用户使用的各种信号及其操作的列表。
+信号是迫使操作系统停止其正在进行的任务并参与中断已被发送的任务的中断。这些中断可以暂停操作系统中任何程序的服务。类似地，C++ 也提供了它可以在程序中捕捉和处理的各种信号。下面是 C++ 提供给用户使用的各种信号及其操作的列表。
 
 <figure class="table">
 
@@ -119,7 +119,7 @@ int main()
     signal(SIGSEGV, signal_handler);
     // register signal SIGSEGV and signal handler
 
-    while (++count) {
+    while (++ count) {
         cout << "Hello GeeksforGeeks..." << endl;
         if (count == 5)
             raise(SIGSEGV);

@@ -96,7 +96,7 @@ void replaceNodes(Node* head)
         while (x != NULL) {
 
             if (x->data > p->data)
-                count++;
+                count++ ;
 
             x = x->next;
         }
@@ -200,7 +200,7 @@ static void replaceNodes(Node head)
         while (x != null) {
 
             if (x.data > p.data)
-                count++;
+                count++ ;
 
             x = x.next;
         }
@@ -393,7 +393,7 @@ static void replaceNodes(Node head)
         {
 
             if (x.data > p.data)
-                count++;
+                count++ ;
 
             x = x.next;
         }
@@ -500,7 +500,7 @@ function replaceNodes( head)
         while (x != null) {
 
             if (x.data > p.data)
-                count++;
+                count++ ;
 
             x = x.next;
         }
@@ -603,11 +603,11 @@ void solve(Node* head, oset& os, unordered_map<int, int>& mp, int& count) {
     solve(head->next, os, mp, count);
     // we first call our recursion and then compute to traverse the linked list backwards on recursion return
     // increament count backwards
-    count++;
+    count++ ;
     // inserting elements into PBDS with indexes starting from backwards
     os.insert({head->value, count});
     // mapping elements to count
-    mp[head->value]++;
+    mp[head->value]++ ;
     // formula: total elements in PBDS - total number of elements equal to current - elements smaller than current
     int numberOfElements = count - mp[head->value] - os.order_of_key({head->value, -1});
     // replace the linked list current element to the number of elements greater than the current

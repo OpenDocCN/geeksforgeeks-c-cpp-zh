@@ -1,4 +1,4 @@
-# std::在 C++中查找
+# std::在 C++ 中查找
 
 > 原文:[https://www.geeksforgeeks.org/std-find-in-cpp/](https://www.geeksforgeeks.org/std-find-in-cpp/)
 

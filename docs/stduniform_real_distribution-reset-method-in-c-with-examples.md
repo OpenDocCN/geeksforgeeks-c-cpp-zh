@@ -1,8 +1,8 @@
-# STD::uniform _ real _ distribution reset()方法用 C++举例
+# STD::uniform _ real _ distribution reset()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ real _ distribution-reset-method-in-c-with-examples/](https://www.geeksforgeeks.org/stduniform_real_distribution-reset-method-in-c-with-examples/)
 
-C++中**均匀实分布类**的 **reset()** 方法用来重置这个均匀实分布。
+C++ 中**均匀实分布类**的 **reset()** 方法用来重置这个均匀实分布。
 
 **语法:**
 

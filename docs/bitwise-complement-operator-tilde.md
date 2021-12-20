@@ -3,7 +3,7 @@
 > 原文:[https://www . geeksforgeeks . org/bitwise-complex-operator-tilde/](https://www.geeksforgeeks.org/bitwise-complement-operator-tilde/)
 
 **先决条件:**
-[C/c++](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)中的按位运算符
+[C/c++ ](https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/)中的按位运算符
 [Java 中的按位运算符](https://www.geeksforgeeks.org/bitwise-operators-in-java/)
 
 按位补码运算符是一元运算符 (仅适用于一个操作数)。它取一个数字，然后把它的所有位反转。当按位运算符应用于位时，所有的 1 变成 0，反之亦然。按位补码的运算符是 **~(颚化符)。**

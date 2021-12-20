@@ -1,4 +1,4 @@
-# c++中的时钟头文件
+# c++ 中的时钟头文件
 
 > 原文:[https://www.geeksforgeeks.org/clocale-header-file-in-c/](https://www.geeksforgeeks.org/clocale-header-file-in-c/)
 

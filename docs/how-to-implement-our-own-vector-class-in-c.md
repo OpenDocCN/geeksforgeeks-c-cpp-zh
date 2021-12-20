@@ -1,8 +1,8 @@
-# 如何在 C++中实现自己的 Vector 类？
+# 如何在 C++ 中实现自己的 Vector 类？
 
 > 原文:[https://www . geesforgeks . org/如何实现我们自己的矢量类 in-c/](https://www.geeksforgeeks.org/how-to-implement-our-own-vector-class-in-c/)
 
-给定的任务是在 C++中实现一个行为类似于[向量类](https://www.geeksforgeeks.org/vector-in-cpp-stl/)的类。
+给定的任务是在 C++ 中实现一个行为类似于[向量类](https://www.geeksforgeeks.org/vector-in-cpp-stl/)的类。
 向量与动态数组相同，能够在插入或删除元素时自动调整自身大小，其存储由容器自动处理。向量元素被放在连续的存储中，这样就可以使用迭代器访问和遍历它们。在向量中，数据被插入到末尾。在末尾插入需要不同的时间，因为有时可能需要扩展数组。移除最后一个元素只需要恒定的时间，因为不会发生调整大小的情况。在开始或中间插入和擦除在时间上是线性的。
 
 我们也可以使用模板使向量类通用。
@@ -76,7 +76,7 @@ public:
 
         // Inserting data
         arr[current] = data;
-        current++;
+        current++ ;
     }
 
     // function to add element at any index

@@ -1,8 +1,8 @@
-# std::regex_match，std::regex_replace() | Regex(正则表达式)在 C++中
+# std::regex_match，std::regex_replace() | Regex(正则表达式)在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/regex-正则表达式 in-c/](https://www.geeksforgeeks.org/regex-regular-expression-in-c/)
 
-Regex 是“**正则表达式**的简称，在编程语言和许多不同的库中经常以这种方式使用。它在 C++11 以后的编译器中得到支持。
+Regex 是“**正则表达式**的简称，在编程语言和许多不同的库中经常以这种方式使用。它在 C++ 11 以后的编译器中得到支持。
 **正则表达式中使用的函数模板**
 **正则表达式匹配给定字符串时，该函数返回真，否则返回假。** 
 

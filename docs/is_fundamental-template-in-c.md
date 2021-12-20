@@ -1,4 +1,4 @@
-# 是 C++中的 _ 基本模板
+# 是 C++ 中的 _ 基本模板
 
 > 原文:[https://www.geeksforgeeks.org/is_fundamental-template-in-c/](https://www.geeksforgeeks.org/is_fundamental-template-in-c/)
 

@@ -1,4 +1,4 @@
-# 声明一个 C/C++函数返回指针到整数指针数组
+# 声明一个 C/C++ 函数返回指针到整数指针数组
 
 > 原文:[https://www . geesforgeks . org/declare-a-cc-function-returning-指针指向整数数组/](https://www.geeksforgeeks.org/declare-a-cc-function-returning-pointer-to-array-of-integers/)
 

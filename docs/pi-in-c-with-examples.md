@@ -1,8 +1,8 @@
-# c++中的 Pi(π)举例
+# c++ 中的 Pi(π)举例
 
 > 原文:[https://www.geeksforgeeks.org/pi-in-c-with-examples/](https://www.geeksforgeeks.org/pi-in-c-with-examples/)
 
-在这篇文章中，我们将讨论一些在 C++中用来推导**π(T1)**值的数学函数。
+在这篇文章中，我们将讨论一些在 C++ 中用来推导**π(T1)**值的数学函数。
 
 **方法一:**使用 [acos()功能](https://www.geeksforgeeks.org/acos-function-in-c-stl/):
 T5】进场:

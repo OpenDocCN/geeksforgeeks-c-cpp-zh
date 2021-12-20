@@ -1,8 +1,8 @@
-# STD::uniform _ real _ distribution a()方法用 C++举例
+# STD::uniform _ real _ distribution a()方法用 C++ 举例
 
 > 原文:[https://www . geesforgeks . org/stduniform _ real _ distribution-a-in-c-method-in-with-examples/](https://www.geeksforgeeks.org/stduniform_real_distribution-a-method-in-c-with-examples/)
 
-用 C++中**均匀实分布类**的 **a()** 方法得到这个均匀实分布的下界。
+用 C++ 中**均匀实分布类**的 **a()** 方法得到这个均匀实分布的下界。
 
 **语法:**
 

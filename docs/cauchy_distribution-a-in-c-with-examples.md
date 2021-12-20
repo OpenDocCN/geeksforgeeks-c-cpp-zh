@@ -1,4 +1,4 @@
-# c++中的柯西分布 a()，示例
+# c++ 中的柯西分布 a()，示例
 
 > 原文:[https://www . geesforgeks . org/Cauchy _ distribution-a-in-c-with-examples/](https://www.geeksforgeeks.org/cauchy_distribution-a-in-c-with-examples/)
 

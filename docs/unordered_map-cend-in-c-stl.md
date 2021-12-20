@@ -32,7 +32,7 @@ int main()
     ump[5] = 6;
 
     // here 'it' can not be modified
-    for (auto it = ump.cbegin(); it != ump.cend(); ++it)
+    for (auto it = ump.cbegin(); it != ump.cend(); ++ it)
         cout << it->first << " " << it->second << endl;
     return 0;
 }

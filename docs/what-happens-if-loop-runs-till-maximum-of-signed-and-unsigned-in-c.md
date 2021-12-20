@@ -1,8 +1,8 @@
-# 如果循环到 C/C++中有符号和无符号的最大值会发生什么？
+# 如果循环到 C/C++ 中有符号和无符号的最大值会发生什么？
 
 > 原文:[https://www . geesforgeks . org/if-what-if-loop-run-to-max-of-signed-and-unsigned-in-c/](https://www.geeksforgeeks.org/what-happens-if-loop-runs-till-maximum-of-signed-and-unsigned-in-c/)
 
-让我们看看下面的 C/C++代码片段。
+让我们看看下面的 C/C++ 代码片段。
 
 ## C++
 
@@ -130,7 +130,7 @@ void fun1()
     do
     {
         printf("%d ", i);
-        i++;
+        i++ ;
     }
     while (i > 0);
 }
@@ -153,7 +153,7 @@ void fun2()
     do
     {
         printf("%d ", i);
-        i++;
+        i++ ;
     }
     while (i > 0);
 }

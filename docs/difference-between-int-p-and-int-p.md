@@ -10,7 +10,7 @@ A [**指针**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduct
 type *var_name;
 ```
 
-这里，**类型**是指针的基本类型。必须是有效的 [C](https://www.geeksforgeeks.org/c/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) [数据类型](https://www.geeksforgeeks.org/c-data-types/)， **var-name** 是指针变量的名称。**星号*** 用于将变量指定为指针。以下是它们各自数据类型的有效指针声明:
+这里，**类型**是指针的基本类型。必须是有效的 [C](https://www.geeksforgeeks.org/c/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) [数据类型](https://www.geeksforgeeks.org/c-data-types/)， **var-name** 是指针变量的名称。**星号*** 用于将变量指定为指针。以下是它们各自数据类型的有效指针声明:
 
 ```cpp
 int *ip;

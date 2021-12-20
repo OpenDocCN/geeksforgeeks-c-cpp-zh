@@ -1,9 +1,9 @@
-# c++中的比率操作|集合 2(比较)
+# c++ 中的比率操作|集合 2(比较)
 
 > 原文:[https://www . geeksforgeeks . org/ratio-manuals-in-c-set-2-comparison/](https://www.geeksforgeeks.org/ratio-manipulations-in-c-set-2-comparison/)
 
 操纵比率算法已经在下面的集合 1
-[中讨论过了，在 C++中的比率操纵|集合 1(算术)](https://www.geeksforgeeks.org/ratio-manipulations-in-c-set-1-arithmetic/)
+[中讨论过了，在 C++ 中的比率操纵|集合 1(算术)](https://www.geeksforgeeks.org/ratio-manipulations-in-c-set-1-arithmetic/)
 在本文中讨论了比率的比较。
 **1。ratio_equal** :-该模板别名检查其参数**中的**比率**是否相等**。如果相等，则返回 true，否则返回 false。它返回一个**布尔成员**常量**“值”**。
 **2。ratio_not_equal** :-该模板别名检查其参数中的**比率**是否为**不相等**。如果不相等则返回真，否则如果相等则返回假。它返回一个**布尔成员**常量**“值”**。

@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的多集
+# c++ 标准模板库(STL)中的多集
 
 > 原文:[https://www.geeksforgeeks.org/multiset-in-cpp-stl/](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
 
@@ -42,7 +42,7 @@ int main()
     multiset <int, greater <int> > :: iterator itr;
     cout << "\nThe multiset gquiz1 is : \n";
     for (itr = gquiz1.begin(); itr
-         != gquiz1.end(); ++itr)
+         != gquiz1.end(); ++ itr)
     {
         cout << *itr << " ";
     }
@@ -56,7 +56,7 @@ int main()
     cout << "\nThe multiset gquiz2 \n"
              "after assign from gquiz1 is : \n";
     for (itr = gquiz2.begin(); itr
-         != gquiz2.end(); ++itr)
+         != gquiz2.end(); ++ itr)
     {
         cout << *itr <<" ";
     }
@@ -69,7 +69,7 @@ int main()
     gquiz2.erase(gquiz2.begin()
                  , gquiz2.find(30));
     for (itr = gquiz2.begin(); itr
-         != gquiz2.end(); ++itr)
+         != gquiz2.end(); ++ itr)
     {
         cout << *itr << " " ;
     }
@@ -80,7 +80,7 @@ int main()
     cout << "\ngquiz2.erase(50) : \n";
     cout << num << " removed \n" ;
     for (itr = gquiz2.begin(); itr
-         != gquiz2.end(); ++itr)
+         != gquiz2.end(); ++ itr)
     {
         cout  << *itr << " ";
     }

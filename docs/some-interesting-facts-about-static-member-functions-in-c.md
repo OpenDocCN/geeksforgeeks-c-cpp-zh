@@ -1,4 +1,4 @@
-# 关于 C++中静态成员函数的一些有趣事实
+# 关于 C++ 中静态成员函数的一些有趣事实
 
 > 原文:[https://www . geesforgeks . org/some-interest-facts-about-static-member-functions-in-c/](https://www.geeksforgeeks.org/some-interesting-facts-about-static-member-functions-in-c/)
 

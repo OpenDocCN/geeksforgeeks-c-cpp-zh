@@ -65,7 +65,7 @@ int checktree(int preorder[], int inorder[],
     // search for first element of preorder
     // in inorder array
     int idx = -1, f = 0;
-    for (int i = 0; i < len; ++i)
+    for (int i = 0; i < len; ++ i)
         if (inorder[i] == preorder[0]) {
             idx = i;
             break;
@@ -149,7 +149,7 @@ class GFG {
         // search for first element of preorder
         // in inorder array
         int idx = -1;
-        for (int i = s1; i < s1 + len; ++i)
+        for (int i = s1; i < s1 + len; ++ i)
             if (inorder[i] == preorder[s]) {
                 idx = i;
                 break;
@@ -297,7 +297,7 @@ class GFG {
         // search for first element of preorder
         // in inorder array
         int idx = -1;
-        for (int i = s1; i < len; ++i)
+        for (int i = s1; i < len; ++ i)
             if (inorder[i] == preorder[s]) {
                 idx = i;
                 break;
@@ -455,7 +455,7 @@ function checktree($preorder, $inorder,
         // search for first element of preorder
         // in inorder array
         let idx = -1;
-        for (let i = s1; i < len; ++i)
+        for (let i = s1; i < len; ++ i)
             if (inorder[i] == preorder[s]) {
                 idx = i;
                 break;

@@ -1,8 +1,8 @@
-# typeinfo::c++中的 bad_typeid，带示例
+# typeinfo::c++ 中的 bad_typeid，带示例
 
 > 原文:[https://www . geesforgeks . org/typeinfobad _ type id-in-c-with-examples/](https://www.geeksforgeeks.org/typeinfobad_typeid-in-c-with-examples/)
 
-标准 C++包含几个内置的异常类， **typeinfo::bad_typeid** 就是其中之一。这是对 null 指针的 typeid 引发的异常。下面是相同的语法:
+标准 C++ 包含几个内置的异常类， **typeinfo::bad_typeid** 就是其中之一。这是对 null 指针的 typeid 引发的异常。下面是相同的语法:
 
 **头文件:**
 

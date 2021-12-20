@@ -1,4 +1,4 @@
-# 检测链表中循环的 C++程序
+# 检测链表中循环的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-检测链表中循环的程序/](https://www.geeksforgeeks.org/cpp-program-for-detecting-loop-in-a-linked-list/)
 

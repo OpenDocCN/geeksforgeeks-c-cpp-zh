@@ -128,7 +128,7 @@ Copied string: geeksforgeeks
 
 ```
 
-【strncpy()的问题:如果 src 的前 n 个字符中没有空字符，则放置在 dest 中的字符串不会被空终止。因此 strncpy()不能保证目标字符串将被空终止。strlen()非终止字符串会导致 segfault。换句话说，C/C++中的非终止字符串是一个等待破坏代码的定时炸弹。
+【strncpy()的问题:如果 src 的前 n 个字符中没有空字符，则放置在 dest 中的字符串不会被空终止。因此 strncpy()不能保证目标字符串将被空终止。strlen()非终止字符串会导致 segfault。换句话说，C/C++ 中的非终止字符串是一个等待破坏代码的定时炸弹。
 
 ```cpp
 // C Program  to illustrate the problem in 

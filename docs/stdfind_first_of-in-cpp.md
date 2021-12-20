@@ -1,4 +1,4 @@
-# std::find_first_of 在 C++中
+# std::find_first_of 在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdfind_first_of-in-cpp/](https://www.geeksforgeeks.org/stdfind_first_of-in-cpp/)
 

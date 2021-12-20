@@ -47,14 +47,14 @@ int isChangeable(int notes[], int n)
 
         // Increase the number of 5$ note by one
         if (notes[i] == 5)
-            fiveCount++;
+            fiveCount++ ;
         else if (notes[i] == 10) {
 
             // decrease the number of note 5$ and
             // increase 10$ note by one
             if (fiveCount > 0) {
                 fiveCount--;
-                tenCount++;
+                tenCount++ ;
             }
             else
                 return 0;
@@ -126,7 +126,7 @@ static int isChangeable(int notes[],
         // Increase the number
         // of 5$ note by one
         if (notes[i] == 5)
-            fiveCount++;
+            fiveCount++ ;
         else if (notes[i] == 10)
         {
 
@@ -136,7 +136,7 @@ static int isChangeable(int notes[],
             if (fiveCount > 0)
             {
                 fiveCount--;
-                tenCount++;
+                tenCount++ ;
             }
             else
                 return 0;
@@ -277,7 +277,7 @@ static int isChangeable(int []notes,
         // Increase the number
         // of 5$ note by one
         if (notes[i] == 5)
-            fiveCount++;
+            fiveCount++ ;
         else if (notes[i] == 10)
         {
 
@@ -287,7 +287,7 @@ static int isChangeable(int []notes,
             if (fiveCount > 0)
             {
                 fiveCount--;
-                tenCount++;
+                tenCount++ ;
             }
             else
                 return 0;
@@ -366,7 +366,7 @@ else
             // Increase the number
             // of 5$ note by one
             if (notes[i] == 5)
-                fiveCount++;
+                fiveCount++ ;
             else if (notes[i] == 10)
             {
 
@@ -376,7 +376,7 @@ else
                 if (fiveCount > 0)
                 {
                     fiveCount--;
-                    tenCount++;
+                    tenCount++ ;
                 }
                 else
                     return 0;

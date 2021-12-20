@@ -1,8 +1,8 @@
-# C/c++中的 wmemset()，示例
+# C/c++ 中的 wmemset()，示例
 
 > 原文:[https://www.geeksforgeeks.org/wmemset-in-c-c-with-examples/](https://www.geeksforgeeks.org/wmemset-in-c-c-with-examples/)
 
-**wmemset()** 函数是 C/C++中的一个内置函数，它将一个宽字符复制指定的次数到一个宽字符数组中。它在 C++中的**cwcchar**头文件中定义。
+**wmemset()** 函数是 C/C++ 中的一个内置函数，它将一个宽字符复制指定的次数到一个宽字符数组中。它在 C++ 中的**cwcchar**头文件中定义。
 
 **语法**:
 

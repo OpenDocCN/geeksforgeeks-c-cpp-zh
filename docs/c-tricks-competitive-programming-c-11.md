@@ -1,10 +1,10 @@
-# 竞争性编程的 C++技巧(针对 C++ 11)
+# 竞争性编程的 C++ 技巧(针对 C++ 11)
 
 > 原文:[https://www . geesforgeks . org/c-ticks-competitive-programming-c-11/](https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/)
 
 我们已经在下面的帖子中讨论了一些技巧。在这篇文章中，讨论了更多的技巧。
 
-[在竞争性编程中高效编写 C/C++代码](https://www.geeksforgeeks.org/writing-cc-code-efficiently-in-competitive-programming/)
+[在竞争性编程中高效编写 C/C++ 代码](https://www.geeksforgeeks.org/writing-cc-code-efficiently-in-competitive-programming/)
 
 虽然练习是确保在编程竞赛中提高性能的唯一方法，但是掌握一些技巧可以确保优势和快速调试。
 
@@ -57,7 +57,7 @@ for (i=0; s[i]; i++) 
 **5)在 STL 中使用 retain _ back()(这里讨论了、[这里](https://www.geeksforgeeks.org/inserting-elements-in-stdmap-insert-emplace-and-operator/)和[这里](https://www.geeksforgeeks.org/insertion-deletion-stl-set-c/) )**
 代替 push_back()可以使用 retain _ back，因为它要快得多，而不是在其他地方分配内存，然后追加它直接在容器中分配内存。
 
-**6)内置 GCD 函数:** C++内置 GCD 函数，无需显式编码。语法:__gcd(x，y)；
+**6)内置 GCD 函数:** C++ 内置 GCD 函数，无需显式编码。语法:__gcd(x，y)；
 
 **7)使用内联函数:**我们可以创建内联函数并使用它们，而无需在比赛期间对它们进行编码。例子:(a)筛选函数，(b)回文函数。
 
@@ -91,7 +91,7 @@ bool isPowerOfTwo (int x)
 }
 ```
 
-**12) C++11 内置了以下算法:**
+**12) C++ 11 内置了以下算法:**
 
 ```cpp
        // are all of the elements positive?
@@ -118,7 +118,7 @@ copy_n(source, 5, target);
 
 详见【C++ STL 中的[数组算法(all_of，any_of，none_of，copy_n 和 itoa)](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/) 。
 
-**14)Iota 算法**算法 Iota()创建一系列顺序递增的值，就好像首先给*赋值，然后使用前缀++递增该值。在下面的列表中，iota()将连续的值{10，11，12，13，14}分配给数组 arr，并将{'a '，' b '，' c'}分配给字符数组 c[]。
+**14)Iota 算法**算法 Iota()创建一系列顺序递增的值，就好像首先给*赋值，然后使用前缀++ 递增该值。在下面的列表中，iota()将连续的值{10，11，12，13，14}分配给数组 arr，并将{'a '，' b '，' c'}分配给字符数组 c[]。
 
 ```cpp
 int a[5] = {0};

@@ -1,4 +1,4 @@
-# c++中用户定义的数据类型
+# c++ 中用户定义的数据类型
 
 > 原文:[https://www.geeksforgeeks.org/user-defined-data-types-in-c/](https://www.geeksforgeeks.org/user-defined-data-types-in-c/)
 
@@ -222,8 +222,8 @@
     typedef type name;
     ```
 
-    其中*类型*为任意 C++数据类型，*名称*为该数据类型的新名称。
-    这为 C++的标准*类型*定义了另一个名称。
+    其中*类型*为任意 C++ 数据类型，*名称*为该数据类型的新名称。
+    这为 C++ 的标准*类型*定义了另一个名称。
 
     **示例:**
 

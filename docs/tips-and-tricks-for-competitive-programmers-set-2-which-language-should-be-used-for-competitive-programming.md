@@ -16,9 +16,9 @@
 
 [T1】爪哇 T3】](https://www.geeksforgeeks.org/java/)
 
-*   **STL vs Containers:**c++中的 STL 真的设计得很好，而有些人更喜欢 Java Containers。几乎没有 STL 没有直接解决方案的情况。例如，STL 中的 priority_queue 不支持 Dijkstra 最短路径算法和 Prim 算法实现所需的减少键操作
+*   **STL vs Containers:**c++ 中的 STL 真的设计得很好，而有些人更喜欢 Java Containers。几乎没有 STL 没有直接解决方案的情况。例如，STL 中的 priority_queue 不支持 Dijkstra 最短路径算法和 Prim 算法实现所需的减少键操作
 
-**Java 中的异常处理是无与伦比的:**与 C++相比，Java 代码提供了更强的异常处理。例如，在 Java 中跟踪 ArrayIndexOutOfBound 异常或分段错误更容易。C++/C 可能会给你错误的答案，但在这种情况下，Java 肯定是可靠的。
+**Java 中的异常处理是无与伦比的:**与 C++ 相比，Java 代码提供了更强的异常处理。例如，在 Java 中跟踪 ArrayIndexOutOfBound 异常或分段错误更容易。C++/C 可能会给你错误的答案，但在这种情况下，Java 肯定是可靠的。
 
 **时间限制超过**:你可能会得到 TLE，因为 Java 在时间限制方面稍微慢一点(特别是在 SPOJ 中)，Codeforces。
 
@@ -28,8 +28,8 @@
 
 [**c++**T3**和**T6**C**T9】](https://www.geeksforgeeks.org/c-plus-plus/)
 
-*   **C++的速度堪比 C:** 许多 C 程序也是有效的 C++程序——并且这类 C 程序在编译时以相同的速度运行
-*   **C++不强制面向对象编程:**C++语言包含一些便于面向对象编程的语言扩展，c++不强制任何地方的面向对象设计——它只是允许这样做。
+*   **C++ 的速度堪比 C:** 许多 C 程序也是有效的 C++ 程序——并且这类 C 程序在编译时以相同的速度运行
+*   **C++ 不强制面向对象编程:**C++ 语言包含一些便于面向对象编程的语言扩展，c++ 不强制任何地方的面向对象设计——它只是允许这样做。
 *   **参数化类型**模板关键字允许程序员编写算法的泛型(类型不可知)实现。其中，在 C 语言中，可以编写一个通用的列表实现，其元素如下:
 
 ```cpp
@@ -40,7 +40,7 @@
     };
 ```
 
-*   C++允许人们写一些类似的东西:
+*   C++ 允许人们写一些类似的东西:
 
 ```cpp
 template <typename T>
@@ -51,8 +51,8 @@ struct element_t
 };
 ```
 
-*   **更大的标准库:** C++允许完全使用 C 标准库，C++包括自己的库，包括[标准模板库](http://geeksquiz.com/the-c-standard-template-library-stl/)。STL 包含许多有用的模板，像上面的排序例程。它包括有用的通用数据结构，如列表、地图、集合等。像排序例程一样，其他的 STL 例程和数据结构是根据程序员的特定需求“定制”的——程序员所要做的就是填写类型。
-    例如，如果我们需要为一个问题实现二分搜索法，我们将不得不编写我们自己的函数，而在 C++中[二分搜索法 STL 例程](http://geeksquiz.com/binary-search-algorithms-the-c-standard-template-library-stl/)被定义为
+*   **更大的标准库:** C++ 允许完全使用 C 标准库，C++ 包括自己的库，包括[标准模板库](http://geeksquiz.com/the-c-standard-template-library-stl/)。STL 包含许多有用的模板，像上面的排序例程。它包括有用的通用数据结构，如列表、地图、集合等。像排序例程一样，其他的 STL 例程和数据结构是根据程序员的特定需求“定制”的——程序员所要做的就是填写类型。
+    例如，如果我们需要为一个问题实现二分搜索法，我们将不得不编写我们自己的函数，而在 C++ 中[二分搜索法 STL 例程](http://geeksquiz.com/binary-search-algorithms-the-c-standard-template-library-stl/)被定义为
 
 ```cpp
  binary_search(startaddress, endaddress, valuetofind)
@@ -61,15 +61,15 @@ struct element_t
 **C++ vs Java**
 **Java 代码更长**一个程序员在用 Java 编程的时候需要写更多的东西
 
-*   **Java 比较啰嗦**:在 C++中，只写 scanf/printf，Input Output 比较简单。在 Java 中，您需要 BufferedReader 类，这同样是乏味的。
+*   **Java 比较啰嗦**:在 C++ 中，只写 scanf/printf，Input Output 比较简单。在 Java 中，您需要 BufferedReader 类，这同样是乏味的。
 
 **C++ STL vs Java Containers:** 大部分程序员发现使用 STL 更容易。
 
-**C++更受欢迎:**无论是起源年份还是使用舒适度，但 C++在使用该语言的用户数量上胜过 Java。
+**C++ 更受欢迎:**无论是起源年份还是使用舒适度，但 C++ 在使用该语言的用户数量上胜过 Java。
 
-**C++节省时间:**众所周知，Java 比 C++慢。我们通常需要多次编译和运行程序来测试它们。在 C++中花费的时间相对要少得多。因此，在有限的时间竞赛中，我们的时间可以节省。
+**C++ 节省时间:**众所周知，Java 比 C++ 慢。我们通常需要多次编译和运行程序来测试它们。在 C++ 中花费的时间相对要少得多。因此，在有限的时间竞赛中，我们的时间可以节省。
 
-总结一下，C++是迄今为止最受欢迎的语言，其次是 Java，当涉及到编程竞赛时，但你应该总是选择一种你觉得舒服的语言。对任何语言都充满信心是最重要的。永远不要选择一种你“刚刚学会”的语言，因为用那种语言表达自己是很困难的。
+总结一下，C++ 是迄今为止最受欢迎的语言，其次是 Java，当涉及到编程竞赛时，但你应该总是选择一种你觉得舒服的语言。对任何语言都充满信心是最重要的。永远不要选择一种你“刚刚学会”的语言，因为用那种语言表达自己是很困难的。
 
 对于主题，从简单的问题开始，然后转向特别的问题，然后涵盖标准[算法](https://www.geeksforgeeks.org/fundamentals-of-algorithms/)和[数据结构](https://www.geeksforgeeks.org/data-structures/)。最后学会优化你的代码。所有这些时间都强调学习数学，因为[数学算法](https://www.geeksforgeeks.org/fundamentals-of-algorithms/#MathematicalAlgorithms)是超越竞争性编程的重要部分。
 

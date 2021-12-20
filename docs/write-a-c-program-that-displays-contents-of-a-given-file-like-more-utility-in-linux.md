@@ -39,7 +39,7 @@ void show(char *fname, int n)
         // then increment count of current lines
         if (ch == '\n')
         {
-            curr_lines++;
+            curr_lines++ ;
 
             // If count of current lines reaches limit, then
             // wait for user to enter a key

@@ -1,8 +1,8 @@
-# c++中的多重遗传
+# c++ 中的多重遗传
 
 > 原文:[https://www.geeksforgeeks.org/multiple-inheritance-in-c/](https://www.geeksforgeeks.org/multiple-inheritance-in-c/)
 
-多重继承是 C++的一个特性，其中一个类可以从多个类继承。
+多重继承是 C++ 的一个特性，其中一个类可以从多个类继承。
 
 继承类的构造函数的调用顺序与它们被继承的顺序相同。例如，在下面的程序中，在 A 的构造函数之前调用 B 的构造函数。
 

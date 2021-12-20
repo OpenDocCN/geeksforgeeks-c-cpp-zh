@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-program-print-string-不带引号-sing-double-program/](https://www.geeksforgeeks.org/c-program-print-string-without-quote-singe-double-program/)
 
-使用 C 或 C++在程序中的任何地方打印字符串而不使用引号。
+使用 C 或 C++ 在程序中的任何地方打印字符串而不使用引号。
 注意:不应从控制台读取输入。
 
 思路是在 C 中使用[宏处理器(参考本文第 6 点)。传递给宏的标记可以通过在它前面使用#转换为字符串。](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)

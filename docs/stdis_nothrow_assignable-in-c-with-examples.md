@@ -1,4 +1,4 @@
-# STD::is _ northrow _ 可在 C++中赋值，示例
+# STD::is _ northrow _ 可在 C++ 中赋值，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ northrow _ assigned-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_nothrow_assignable-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::is_assignable<A, B>::value
 *   **true:** If type A can be assigned to type B. 。
 *   **false:** If type A cannot be assigned to type B. 。
 
-下面是用 C++演示**STD::is _ northrow _ assigned**模板的程序:
+下面是用 C++ 演示**STD::is _ northrow _ assigned**模板的程序:
 
 **程序:**
 

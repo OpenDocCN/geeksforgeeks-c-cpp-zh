@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-const-keyword-question-2/](https://www.geeksforgeeks.org/c-const-keyword-question-2/)
 
-在 C++中，const 限定符可以应用于
+在 C++ 中，const 限定符可以应用于
 1)类的成员函数
 2)函数参数
 3)声明为静态的类数据成员

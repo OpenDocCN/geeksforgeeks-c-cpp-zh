@@ -1,8 +1,8 @@
-# mbsinit()函数在 C/C++中
+# mbsinit()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/mbsinit-function-in-c-c/](https://www.geeksforgeeks.org/mbsinit-function-in-c-c/)
 
-**mbsinit()** 是 C++中的一个内置函数，用于检查 *ps* (作为参数传递给该函数)是否指向描述初始转换状态的 mbstate_t 对象。对于任何表示初始状态的 mbstate_t 对象，或者如果 ps 是空指针，该函数返回非零值。
+**mbsinit()** 是 C++ 中的一个内置函数，用于检查 *ps* (作为参数传递给该函数)是否指向描述初始转换状态的 mbstate_t 对象。对于任何表示初始状态的 mbstate_t 对象，或者如果 ps 是空指针，该函数返回非零值。
 PS 指向的状态可以通过调用:
 设置为初始状态
 

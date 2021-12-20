@@ -57,14 +57,14 @@ int main()
     // Print the first multi set
     cout << "multiset1 = ";
     for (auto it = multiset1.begin();
-         it != multiset1.end(); ++it)
+         it != multiset1.end(); ++ it)
         cout << ' ' << *it;
 
     // Print the second multiset
     cout << endl
          << "multiset2 = ";
     for (auto it = multiset2.begin();
-         it != multiset2.end(); ++it)
+         it != multiset2.end(); ++ it)
         cout << ' ' << *it;
 
     return 0;
@@ -98,14 +98,14 @@ int main()
     // Print the first multi set
     cout << "multiset1 = ";
     for (auto it = multiset1.begin();
-         it != multiset1.end(); ++it)
+         it != multiset1.end(); ++ it)
         cout << ' ' << *it;
 
     // Print the second multiset
     cout << endl
          << "multiset2 = ";
     for (auto it = multiset2.begin();
-         it != multiset2.end(); ++it)
+         it != multiset2.end(); ++ it)
         cout << '
 ```
 
@@ -135,14 +135,14 @@ int main()
     // Print the first multi set
     cout << "multiset1 = ";
     for (auto it = multiset1.begin();
-         it != multiset1.end(); ++it)
+         it != multiset1.end(); ++ it)
         cout << ' ' << *it;
 
     // Print the second multiset
     cout << endl
          << "multiset2 = ";
     for (auto it = multiset2.begin();
-         it != multiset2.end(); ++it)
+         it != multiset2.end(); ++ it)
         cout << ' ' << *it;
 
     re

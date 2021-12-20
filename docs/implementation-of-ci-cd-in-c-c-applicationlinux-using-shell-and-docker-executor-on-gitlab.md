@@ -1,4 +1,4 @@
-# 在 GitLab 上使用 Shell 和 Docker 执行器在 C/C++应用程序(Linux)中实现 CI/CD
+# 在 GitLab 上使用 Shell 和 Docker 执行器在 C/C++ 应用程序(Linux)中实现 CI/CD
 
 > 原文:[https://www . geesforgeks . org/implementation-of-ci-CD-in-c-c-application Linux-using-shell-and-docker-executor-on-git lab/](https://www.geeksforgeeks.org/implementation-of-ci-cd-in-c-c-applicationlinux-using-shell-and-docker-executor-on-gitlab/)
 
@@ -8,7 +8,7 @@
 
 **Docker Executor:** 它是一个功能强大的工具，包含很多软件，可以通过图像访问。这个执行器的优点是，我们不需要手动安装任何软件，一切都将通过 docker 来处理，所需的映像将从 docker hub 下载。然而，不利的是，由于安全目的，这种通信在一些组织中被阻止。所以，如果是这种情况，Shell Executor 是最好的选择。
 
-### **C/c++在 Shell 执行器上的实现**
+### **C/c++ 在 Shell 执行器上的实现**
 
 **要求**:这些是需要安装在 Linux 机器上的基础软件。但是，它可以根据编译脚本进行更改，如果需要，需要下载其他软件。
 
@@ -25,9 +25,9 @@
  |
 | --- | --- |
 | 饭桶 | 这是第一个要求，在 GitLab 上提交变更。这是一个版本控制软件，跟踪文件的变化 |
-| cmake | 要构建自动化、测试和打包 c/c++应用程序，需要在 Linux 机器上安装 cmake。 |
-| （同 groundcontrolcenter）地面控制中心 | 它是一个需要编译 c/c++程序的编译器 |
-| g++ | 它也是一个需要编译 c/c++程序的编译器。可以根据书写的脚本进行选择。 |
+| cmake | 要构建自动化、测试和打包 c/c++ 应用程序，需要在 Linux 机器上安装 cmake。 |
+| （同 groundcontrolcenter）地面控制中心 | 它是一个需要编译 c/c++ 程序的编译器 |
+| g++ | 它也是一个需要编译 c/c++ 程序的编译器。可以根据书写的脚本进行选择。 |
 | 可做文件内的字符串查找 | 如果程序搜索纯文本，请安装它。 |
 
 </figure>
@@ -157,7 +157,7 @@ build_job:
    - master
  script:  
     - cd sourcecode
-    - export G++=/usr/bin/g++  //if not set manually path of g++
+    - export G++ =/usr/bin/g++  //if not set manually path of g++
     - export GCC=/usr/bin/gcc //if not set manually path of gcc
     - chmod -R 777 *
     - ./BuildPackage.sh
@@ -183,7 +183,7 @@ test_job:
    - build_job
 ```
 
-**C/c++在 Docker Executor 上的实现:**不需要手动安装任何软件，一切都会从 Docker 容器中取出。但是，您可以安装所需的软件，在 yml 文件中输入名称，也可以导出路径。要在 docker 执行器模式下运行 gitlab runner，请转到 GitLab Runner 设置(上图)，并选择 docker 而不是 shell。
+**C/c++ 在 Docker Executor 上的实现:**不需要手动安装任何软件，一切都会从 Docker 容器中取出。但是，您可以安装所需的软件，在 yml 文件中输入名称，也可以导出路径。要在 docker 执行器模式下运行 gitlab runner，请转到 GitLab Runner 设置(上图)，并选择 docker 而不是 shell。
 
 **。gitlab-ci.yml_ Docker 执行者**:
 
@@ -206,7 +206,7 @@ build_job:
    - master
  script:  
     - cd sourcecode
-    - export G++=/usr/bin/g++  //if not set manually path of g++
+    - export G++ =/usr/bin/g++  //if not set manually path of g++
     - export GCC=/usr/bin/gcc //if not set manually path of gcc
     - chmod -R 777 *
     - ./BuildPackage.sh

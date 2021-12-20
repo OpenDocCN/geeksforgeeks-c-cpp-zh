@@ -1,4 +1,4 @@
-# 给定单链表交替拆分的 C++程序-集合 1
+# 给定单链表交替拆分的 C++ 程序-集合 1
 
 > 原文:[https://www . geeksforgeeks . org/CPP-program-for-alternative-split-of-给定-single-link-list-set-1/](https://www.geeksforgeeks.org/cpp-program-for-alternating-split-of-a-given-singly-linked-list-set-1/)
 

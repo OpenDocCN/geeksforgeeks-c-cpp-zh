@@ -1,4 +1,4 @@
-# c++中的元组
+# c++ 中的元组
 
 > 原文:[https://www.geeksforgeeks.org/tuples-in-c/](https://www.geeksforgeeks.org/tuples-in-c/)
 

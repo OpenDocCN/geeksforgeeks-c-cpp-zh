@@ -50,7 +50,7 @@ int main()
 
     // starts from the first element
     // of the list to the last
-    for (auto it = list.begin(); it != list.end(); ++it)
+    for (auto it = list.begin(); it != list.end(); ++ it)
         cout << *it << " ";
 
     // unique operation on list with parameter
@@ -60,7 +60,7 @@ int main()
 
     // starts from the first element
     // of the list to the last
-    for (auto it = list.begin(); it != list.end(); ++it)
+    for (auto it = list.begin(); it != list.end(); ++ it)
         cout << *it << " ";
 
     return 0;

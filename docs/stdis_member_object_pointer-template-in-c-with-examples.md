@@ -1,4 +1,4 @@
-# STD::is _ member _ object _ pointer c++中的模板，带示例
+# STD::is _ member _ object _ pointer c++ 中的模板，带示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ member _ object _ pointer-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_member_object_pointer-template-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::is_member_function_pointer<T>::value
 
 *   **false:** If the type **t** is not a pointer to the non-static data member object type.
 
-下面是用 C++演示**STD::is _ member _ object _ pointer:**的程序:
+下面是用 C++ 演示**STD::is _ member _ object _ pointer:**的程序:
 
 **程序:**
 

@@ -1,8 +1,8 @@
-# 在 C++中使用 OpenCV 绘制椭圆
+# 在 C++ 中使用 OpenCV 绘制椭圆
 
 > 原文:[https://www . geesforgeks . org/绘制椭圆-使用-opencv-in-cpp/](https://www.geeksforgeeks.org/draw-an-ellipse-using-opencv-in-cpp/)
 
-在本文中，任务是使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的 [OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/) 绘制一个椭圆。将使用 OpenCV C++库中的[椭圆()](https://www.geeksforgeeks.org/draw-ellipse-c-graphics/)函数。
+在本文中，任务是使用 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的 [OpenCV](https://www.geeksforgeeks.org/introduction-to-opencv/) 绘制一个椭圆。将使用 OpenCV C++ 库中的[椭圆()](https://www.geeksforgeeks.org/draw-ellipse-c-graphics/)函数。
 
 **语法:**
 
@@ -28,7 +28,7 @@
 
 **程序 1:**
 
-下面是 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在自形成的背景图像上绘制椭圆:
+下面是 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 程序，演示如何在自形成的背景图像上绘制椭圆:
 
 ## C++
 
@@ -84,7 +84,7 @@ int main(int argc, char** argv)
 
 **程序 2:**
 
-下面是 C++程序在加载的图像上显示的矩形，GFG 徽标周围有一个椭圆:
+下面是 C++ 程序在加载的图像上显示的矩形，GFG 徽标周围有一个椭圆:
 
 ## C++
 

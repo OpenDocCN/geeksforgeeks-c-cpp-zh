@@ -1,4 +1,4 @@
-# 在 C++中使用 STL 的合并操作| merge()，包括()，set_union()，set _ 交集()，set _ difference()，。，inplace_merge，
+# 在 C++ 中使用 STL 的合并操作| merge()，包括()，set_union()，set _ 交集()，set _ difference()，。，inplace_merge，
 
 > 原文:[https://www . geesforgeks . org/merge-operations-using-STL-in-c-merge-includes-set _ union-set _ intersection-set _ difference/](https://www.geeksforgeeks.org/merge-operations-using-stl-in-c-merge-includes-set_union-set_intersection-set_difference/)
 

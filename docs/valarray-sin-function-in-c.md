@@ -1,4 +1,4 @@
-# valarray sin()函数在 C++中
+# valarray sin()函数在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/valarray-sin-function-in-c/](https://www.geeksforgeeks.org/valarray-sin-function-in-c/)
 

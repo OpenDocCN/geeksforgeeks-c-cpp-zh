@@ -1,8 +1,8 @@
-# c++中的上限
+# c++ 中的上限
 
 > 原文:[https://www.geeksforgeeks.org/upper_bound-in-cpp/](https://www.geeksforgeeks.org/upper_bound-in-cpp/)
 
-upper_bound()是标题<algorithm>中定义的 C++中的标准库函数。它返回一个迭代器，指向大于值的范围[第一个，最后一个]中的第一个元素，如果找不到这样的元素，则返回最后一个。该范围内的元素应该已经相对于 val 进行了排序或至少进行了分区。</algorithm>
+upper_bound()是标题<algorithm>中定义的 C++ 中的标准库函数。它返回一个迭代器，指向大于值的范围[第一个，最后一个]中的第一个元素，如果找不到这样的元素，则返回最后一个。该范围内的元素应该已经相对于 val 进行了排序或至少进行了分区。</algorithm>
 
 **模板:**
 
@@ -34,7 +34,7 @@ Output : upper_bound for element 60 is at index 5
 
 ```
 
-下面是一些 C++程序来说明 std::upper_bound 的用法:
+下面是一些 C++ 程序来说明 std::upper_bound 的用法:
 
 ```cpp
 // CPP program to illustrate using 

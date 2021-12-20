@@ -1,8 +1,8 @@
-# c++中使用复数的几何|集合 2
+# c++ 中使用复数的几何|集合 2
 
 > 原文:[https://www . geesforgeks . org/geometry-using-complex-numbers-c-set-2/](https://www.geeksforgeeks.org/geometry-using-complex-numbers-c-set-2/)
 
-在浏览了[之前的](https://www.geeksforgeeks.org/geometry-using-complex-numbers-stdcomplex-in-c/)帖子后，我们知道了什么是复数，以及如何使用它们来模拟笛卡尔平面中的点。现在，我们将了解如何在 C++中使用来自 STL 的复杂类。
+在浏览了[之前的](https://www.geeksforgeeks.org/geometry-using-complex-numbers-stdcomplex-in-c/)帖子后，我们知道了什么是复数，以及如何使用它们来模拟笛卡尔平面中的点。现在，我们将了解如何在 C++ 中使用来自 STL 的复杂类。
 **要使用来自 STL 的复杂类，我们使用#include <复杂>**
 
 **定义点类**

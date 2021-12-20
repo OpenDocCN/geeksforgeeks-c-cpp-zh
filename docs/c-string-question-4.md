@@ -9,7 +9,7 @@
 int fun(char *str1)
 {
   char *str2 = str1;
-  while(*++str1);
+  while(*++ str1);
   return (str1-str2);
 }
 
@@ -28,4 +28,4 @@ int main()
 
 **答案:****(B)**
 
-**说明:**函数 fun()基本统计输入字符串中的字符数。在 fun()内部，指针 str2 被初始化为 str1。while 语句(*++ST R1)；递增 str1，直到达到“\0”。str1 递增 9。最后，返回 str2 和 str1 之间的差值，即 9。
+**说明:**函数 fun()基本统计输入字符串中的字符数。在 fun()内部，指针 str2 被初始化为 str1。while 语句(*++ ST R1)；递增 str1，直到达到“\0”。str1 递增 9。最后，返回 str2 和 str1 之间的差值，即 9。

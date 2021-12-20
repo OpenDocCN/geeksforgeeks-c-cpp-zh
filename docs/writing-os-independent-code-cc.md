@@ -1,10 +1,10 @@
-# 用 C/C++写操作系统无关代码
+# 用 C/C++ 写操作系统无关代码
 
 > 原文:[https://www . geesforgeks . org/writing-OS-independent-code-cc/](https://www.geeksforgeeks.org/writing-os-independent-code-cc/)
 
 如何编写一个实用程序，列出目录的所有内容，而不考虑操作系统。
 
-大多数 C/C++编译器都定义了可以用来检测操作系统的宏。例如，在 GCC 中，以下是常见的宏。
+大多数 C/C++ 编译器都定义了可以用来检测操作系统的宏。例如，在 GCC 中，以下是常见的宏。
 
 ```cpp
 _WIN32 : Defined for both 32 bit and 64 bit windows OS.
@@ -18,7 +18,7 @@ Source : StackOverflow
 
 ```
 
-在视窗系统中，我们使用目录调用来列出所有目录，而在大多数其他操作系统中，则使用“ls”。下面是简单的 C++实现，列出了文件夹的目录，与操作系统无关。
+在视窗系统中，我们使用目录调用来列出所有目录，而在大多数其他操作系统中，则使用“ls”。下面是简单的 C++ 实现，列出了文件夹的目录，与操作系统无关。
 
 ```cpp
 // C++ program to list all directories.

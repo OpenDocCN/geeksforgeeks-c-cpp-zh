@@ -1,10 +1,10 @@
-# c++中()处的无序 _ map
+# c++ 中()处的无序 _ map
 
 > 原文:[https://www.geeksforgeeks.org/unordered_map-at-cpp/](https://www.geeksforgeeks.org/unordered_map-at-cpp/)
 
 **先决条件:**[STL 中的无序映射](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)
 **无序 _ 映射:**无序 _ 映射是存储键值和映射值组合而成的元素的关联容器。键值用于唯一标识元素，映射值是与键相关联的内容。键和值都可以是预定义或用户定义的任何类型。
-**无序 _map :: at():** 这个函数在 C++中**无序 _map** 返回对以元素为键 k 的值的引用。
+**无序 _map :: at():** 这个函数在 C++ 中**无序 _map** 返回对以元素为键 k 的值的引用。
 
 **语法:**
 

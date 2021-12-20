@@ -1,8 +1,8 @@
-# wmemchr()函数在 C/C++中
+# wmemchr()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wmemchr-function-in-c-c/](https://www.geeksforgeeks.org/wmemchr-function-in-c-c/)
 
-C/C++中的 **wmemchr()** 函数在宽字符块中定位字符。该函数在由 **ptr** 指向的块的第一个**数字**宽字符中搜索第一个出现的 **ch** ，并返回一个指向它的指针。
+C/C++ 中的 **wmemchr()** 函数在宽字符块中定位字符。该函数在由 **ptr** 指向的块的第一个**数字**宽字符中搜索第一个出现的 **ch** ，并返回一个指向它的指针。
 
 **语法:**
 

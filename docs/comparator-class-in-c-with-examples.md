@@ -1,4 +1,4 @@
-# c++中的比较器类，示例
+# c++ 中的比较器类，示例
 
 > 原文:[https://www . geesforgeks . org/comparator-class-in-c-with-examples/](https://www.geeksforgeeks.org/comparator-class-in-c-with-examples/)
 
@@ -49,7 +49,7 @@ ForwardIterator search(
         if (*start == key) {
             return start;
         }
-        start++;
+        start++ ;
     }
     return end;
 }

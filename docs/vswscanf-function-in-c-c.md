@@ -1,8 +1,8 @@
-# C/c++中的 vswscanf()函数
+# C/c++ 中的 vswscanf()函数
 
 > 原文:[https://www.geeksforgeeks.org/vswscanf-function-in-c-c/](https://www.geeksforgeeks.org/vswscanf-function-in-c-c/)
 
-C++中的 **vfwscanf()** 函数用于将格式化数据从宽字符串读入变量参数列表。它还从宽字符串缓冲区读取宽字符串。该函数从 **ws** 读取数据，并根据**格式**将其存储到由 **arg** 标识的变量参数列表中的元素所指向的位置。
+C++ 中的 **vfwscanf()** 函数用于将格式化数据从宽字符串读入变量参数列表。它还从宽字符串缓冲区读取宽字符串。该函数从 **ws** 读取数据，并根据**格式**将其存储到由 **arg** 标识的变量参数列表中的元素所指向的位置。
 在 **<cwchar.h></cwchar.h>**库文件中定义。
 
 **语法:**

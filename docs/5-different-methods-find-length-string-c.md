@@ -1,4 +1,4 @@
-# 5 种在 C++中求字符串长度的不同方法
+# 5 种在 C++ 中求字符串长度的不同方法
 
 > 原文:[https://www . geesforgeks . org/5-不同方法-查找-长度-字符串-c/](https://www.geeksforgeeks.org/5-different-methods-find-length-string-c/)
 
@@ -61,7 +61,7 @@ int main()
     // while 'NOT NULL'
     int i = 0;
     while (str[i])
-        i++;
+        i++ ;
     cout << i << endl;
 
     // 5\. size of string object using for loop

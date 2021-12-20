@@ -1,4 +1,4 @@
-# c++中默认构造函数的主体是空的吗？
+# c++ 中默认构造函数的主体是空的吗？
 
 > 原文:[https://www . geesforgeks . org/is-body-of-a-default-constructor-blank-in-CPP/](https://www.geeksforgeeks.org/is-body-of-a-default-constructor-blank-in-cpp/)
 

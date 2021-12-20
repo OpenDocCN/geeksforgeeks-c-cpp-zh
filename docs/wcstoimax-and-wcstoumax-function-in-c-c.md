@@ -1,8 +1,8 @@
-# wcstoimax()和 wcstomax()函数在 C/C++中
+# wcstoimax()和 wcstomax()函数在 C/C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/wcstoimax-and-wcstoumax-function-in-c-c/](https://www.geeksforgeeks.org/wcstoimax-and-wcstoumax-function-in-c-c/)
 
-C/C++中的 **wcstoimax()** 和**wcstomax()**函数的工作原理与 C++中的 [strtoimax()](https://www.geeksforgeeks.org/strtoimax-function-in-c/) 和 [strtoumax()](https://www.geeksforgeeks.org/strtoumax-function-in-c/) 函数完全相同，但用于将**宽字符串(wstring)** 的内容转换为指定基数的整数。该功能在 **cinttypes** 头文件中定义。
+C/C++ 中的 **wcstoimax()** 和**wcstomax()**函数的工作原理与 C++ 中的 [strtoimax()](https://www.geeksforgeeks.org/strtoimax-function-in-c/) 和 [strtoumax()](https://www.geeksforgeeks.org/strtoumax-function-in-c/) 函数完全相同，但用于将**宽字符串(wstring)** 的内容转换为指定基数的整数。该功能在 **cinttypes** 头文件中定义。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# 用于分离链表中偶数和奇数节点的 C++程序
+# 用于分离链表中偶数和奇数节点的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-隔离链表中奇偶节点的程序/](https://www.geeksforgeeks.org/cpp-program-for-segregating-even-and-odd-nodes-in-a-linked-list/)
 

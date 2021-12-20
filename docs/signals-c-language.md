@@ -199,7 +199,7 @@ pid_t pid;
 int counter = 0;
 void handler1(int sig)
 {
-    counter++;
+    counter++ ;
     printf("counter = %d\n", counter);
     /* Flushes the printed string to stdout */
     fflush(stdout);

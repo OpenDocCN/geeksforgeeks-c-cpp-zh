@@ -1,12 +1,12 @@
-# 完成在 Windows 上安装 C++17 的指南
+# 完成在 Windows 上安装 C++ 17 的指南
 
 > 原文:[https://www . geesforgeks . org/complete-install-guide-c17-in-window/](https://www.geeksforgeeks.org/complete-guide-to-install-c17-in-windows/)
 
-在[竞技编程](https://www.geeksforgeeks.org/category/competitive-programming/)领域 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 是使用最多的语言之一，因为它庞大的 [STL(标准模板库)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)函数，并且一天比一天更新。这是安装最新版本的 C++(C++ 17)的完整指南，也是崇高文本和代码块的设置指南。
+在[竞技编程](https://www.geeksforgeeks.org/category/competitive-programming/)领域 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 是使用最多的语言之一，因为它庞大的 [STL(标准模板库)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/)函数，并且一天比一天更新。这是安装最新版本的 C++(C++ 17)的完整指南，也是崇高文本和代码块的设置指南。
 
-### **<u>安装 C++17 编译器(GCC 9.2)</u>**
+### **<u>安装 C++ 17 编译器(GCC 9.2)</u>**
 
-要安装 C++17 编译器，按照[这个](https://nuwen.net/mingw.html)链接下载 GCC 9.2 编译器。下载完成后，提取文件并将提取的 **MinGw** 文件夹保存在 c 盘，如下图所示:
+要安装 C++ 17 编译器，按照[这个](https://nuwen.net/mingw.html)链接下载 GCC 9.2 编译器。下载完成后，提取文件并将提取的 **MinGw** 文件夹保存在 c 盘，如下图所示:
 
 ![](img/b0c9da363091b1d8728bb6ece6cf194f.png) ![](img/1d01bfce6d68523b1672e583bf582a4e.png)
 
@@ -29,11 +29,11 @@ gcc --version
 
 ### **<u>崇高文本设置指南</u>**
 
-在崇高文本编辑器中，当运行 C++代码时，它会对一些新添加的 C++17 STL 函数发出警告，并且由于 C++程序的默认构建设置，如果有任何警告，它将不会运行。为了克服这个问题，我们将为 C++程序添加自定义构建代码，如下所示:
+在崇高文本编辑器中，当运行 C++ 代码时，它会对一些新添加的 C++ 17 STL 函数发出警告，并且由于 C++ 程序的默认构建设置，如果有任何警告，它将不会运行。为了克服这个问题，我们将为 C++ 程序添加自定义构建代码，如下所示:
 
 ```cpp
 {
-    "cmd" : [ "g++.exe", "-std=c++17", "${file_name}", "-o",
+    "cmd" : [ "g++.exe", "-std=c++ 17", "${file_name}", "-o",
               "${file_base_name}.exe", "&&", "start", "cmd",
               "/k", "${file_base_name}.exe" ],
     "file_regex" : "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*){content}quot;,
@@ -53,7 +53,7 @@ gcc --version
 
 1.转到全局编译器设置->选择编译器作为 GNU GCC 编译器
 
-2.在编译器设置中将 c++17 标记为:
+2.在编译器设置中将 c++ 17 标记为:
 
 ![](img/33df3dbd00362e911bf15c2b801c76ef.png)
 
@@ -63,7 +63,7 @@ gcc --version
 
 ![](img/419f57f917a5fd1942fcd81ad7f1fe98.png)
 
-### <u>开发人员设置指南–c++</u>
+### <u>开发人员设置指南–c++ </u>
 
 *   转到工具->编译器选项-> '+'按钮(添加按文件夹设置的编译器)
 

@@ -1,4 +1,4 @@
-# c++中的 difftime()函数
+# c++ 中的 difftime()函数
 
 > 原文:[https://www.geeksforgeeks.org/difftime-function-in-c/](https://www.geeksforgeeks.org/difftime-function-in-c/)
 

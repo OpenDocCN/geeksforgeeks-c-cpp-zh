@@ -11,7 +11,7 @@
 
 void fun(char** str_ref)
 {
-    str_ref++;
+    str_ref++ ;
 }
 
 int main()
@@ -32,7 +32,7 @@ int main()
 
 **答案:****(A)**
 
-**解释:**注意 str_ref 是一个局部变量来取乐()。当我们做 str_ref++时，它只改变局部变量 str_ref。
+**解释:**注意 str_ref 是一个局部变量来取乐()。当我们做 str_ref++ 时，它只改变局部变量 str_ref。
 
 我们可以使用取消引用操作符*来更改字符串指针。例如，下面的程序打印“电子测验”
 
@@ -43,7 +43,7 @@ int main()
 
 void fun(char** str_ref)
 {
-    (*str_ref)++;
+    (*str_ref)++ ;
 }
 
 int main()

@@ -1,10 +1,10 @@
-# 通过 C++生成 RGBA 便携式图形图像
+# 通过 C++ 生成 RGBA 便携式图形图像
 
 > 原文:[https://www . geesforgeks . org/generating-rgba-portable-graphic-images-through-c/](https://www.geeksforgeeks.org/generating-rgba-portable-graphic-images-through-c/)
 
 [PNG 图像](https://www.geeksforgeeks.org/difference-between-jpeg-and-png/)能够支持多种图像属性，如多种颜色、透明度、伽马校正、无损压缩等。PNG 图像被广泛使用，并且是许多类型图像的首选。
 
-为了处理 PNG 文件，我们将使用 **PNGwriter** 独立于平台、包装开源的 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 库作为 **libpng** (PNG 参考库)中功能最丰富的库之一，用 [C](https://www.geeksforgeeks.org/c/) 编写。PNGwriter 库适用于 Linux、Unix、macOS 和 Windows。其支持的功能包括打开现有的巴布亚新几内亚图像，绘制和读取 RGB、HSV 和 CMYK 颜色空间中的像素，基本形状，缩放，双线性插值，完整的 TrueType 抗锯齿和旋转文本支持，以及贝塞尔曲线。它需要 **FreeType2** 库提供文本支持。
+为了处理 PNG 文件，我们将使用 **PNGwriter** 独立于平台、包装开源的 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 库作为 **libpng** (PNG 参考库)中功能最丰富的库之一，用 [C](https://www.geeksforgeeks.org/c/) 编写。PNGwriter 库适用于 Linux、Unix、macOS 和 Windows。其支持的功能包括打开现有的巴布亚新几内亚图像，绘制和读取 RGB、HSV 和 CMYK 颜色空间中的像素，基本形状，缩放，双线性插值，完整的 TrueType 抗锯齿和旋转文本支持，以及贝塞尔曲线。它需要 **FreeType2** 库提供文本支持。
 更多文档和库请访问 [SourceForge](http://pngwriter.sourceforge.net/) 、 [PNGwriter-github](https://github.com/pngwriter/pngwriter) 。
 
 **图像是如何生成的:**
@@ -17,7 +17,7 @@
 通过应用颜色生成图像:
 [![](img/343e3b9d6f1e5a36d3646aa97017577f.png)](https://media.geeksforgeeks.org/wp-content/uploads/20200501000352/pixel1.gif)
 
-下面是用 C++生成 RGBA 门户图形图像的程序:
+下面是用 C++ 生成 RGBA 门户图形图像的程序:
 
 ```cpp
 // C++ program to generate PNG images

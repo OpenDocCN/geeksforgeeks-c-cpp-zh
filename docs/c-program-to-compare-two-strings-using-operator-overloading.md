@@ -1,8 +1,8 @@
-# 使用运算符重载比较两个字符串的 C++程序
+# 使用运算符重载比较两个字符串的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/c-程序-比较-两个字符串-使用-运算符-重载/](https://www.geeksforgeeks.org/c-program-to-compare-two-strings-using-operator-overloading/)
 
-**先决条件:**[c++中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)
+**先决条件:**[c++ 中的运算符重载](https://www.geeksforgeeks.org/operator-overloading-c/)
 给定两个字符串，如何使用运算符重载检查这两个字符串是否相等。
 
 **示例:**

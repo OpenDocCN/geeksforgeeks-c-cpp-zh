@@ -1,4 +1,4 @@
-# 如果一个对象是在 C++中的一个块内创建的，那么它存储在哪里？
+# 如果一个对象是在 C++ 中的一个块内创建的，那么它存储在哪里？
 
 > 原文:[https://www . geeksforgeeks . org/如果对象是在 c 块内部创建的，则该对象存储在哪里/](https://www.geeksforgeeks.org/where-is-an-object-stored-if-it-is-created-inside-a-block-in-c/)
 

@@ -2,7 +2,7 @@
 
 > [https://www.geeksforgeeks.org/stdlistsort-c-stl/](https://www.geeksforgeeks.org/stdlistsort-c-stl/)
 
-[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++中用于以非连续方式存储数据的容器，通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
+[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++ 中用于以非连续方式存储数据的容器，通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
 
 **list::sort()**
 
@@ -55,7 +55,7 @@ int main()
     mylist.sort();
 
     // printing the list after sort
-    for (auto it = mylist.begin(); it != mylist.end(); ++it)
+    for (auto it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -85,7 +85,7 @@ int main()
     mylist.sort();
 
     // printing the list after sort
-    for (auto it = mylist.begin(); it != mylist.end(); ++it)
+    for (auto it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

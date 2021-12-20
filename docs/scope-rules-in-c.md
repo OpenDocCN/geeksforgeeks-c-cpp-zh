@@ -122,11 +122,11 @@ int main()
 
                 // Changes the outer block
                 // variable x to 11
-                x++;
+                x++ ;
 
                 // Changes this block's
                 // variable y to 41
-                y++;
+                y++ ;
 
                 printf("x = %d, y = %d\n", x, y);
             }

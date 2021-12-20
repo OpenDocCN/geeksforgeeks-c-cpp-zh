@@ -1,4 +1,4 @@
-# 将一个文本文件的内容附加到另一个文本文件的 C++程序
+# 将一个文本文件的内容附加到另一个文本文件的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-program-to-append-content-of-one-text-file-to-other/](https://www.geeksforgeeks.org/cpp-program-to-append-content-of-one-text-file-to-another/)
 

@@ -138,7 +138,7 @@ int main(void)
  error: assignment of read-only location ‘*ptr’
 ```
 
-在 C++中不允许向下限定，这可能会在 C 中导致警告。下面是另一个带有向下限定的示例。
+在 C++ 中不允许向下限定，这可能会在 C 中导致警告。下面是另一个带有向下限定的示例。
 
 ## C
 

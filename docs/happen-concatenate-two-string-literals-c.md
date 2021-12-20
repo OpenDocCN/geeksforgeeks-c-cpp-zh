@@ -1,8 +1,8 @@
-# 如果我们在 C++中连接两个字符串会发生什么？
+# 如果我们在 C++ 中连接两个字符串会发生什么？
 
 > 原文:[https://www . geeksforgeeks . org/发生-连接-两个字符串文字-c/](https://www.geeksforgeeks.org/happen-concatenate-two-string-literals-c/)
 
-如果您要在 C++中执行串联，您必须记住的一些事情是:
+如果您要在 C++ 中执行串联，您必须记住的一些事情是:
 
 *   If a+b is an expression showing string concatenation, the result of the expression will be a copy of the characters in "a" followed by the characters in "b".
 *   "A" or "B" can be a string or a char value, but not both. That's why the connection below does not cause errors, while the connection above does.

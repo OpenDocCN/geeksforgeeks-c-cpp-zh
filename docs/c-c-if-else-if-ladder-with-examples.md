@@ -2,9 +2,9 @@
 
 > 原文:[https://www . geeksforgeeks . org/c-c-if-else-if-ladder-with-examples/](https://www.geeksforgeeks.org/c-c-if-else-if-ladder-with-examples/)
 
-[C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
+[C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策有助于编写决策驱动的语句，并基于某些条件执行一组特定的代码。
 
-在 C/C++中 **if-else-if 阶梯**帮助用户从多个选项中进行选择。C/C++ if 语句是自上而下执行的。一旦控制 if 的条件之一为真，就执行与该 if 相关联的语句，并绕过 C else-if 阶梯的其余部分。如果这些条件都不成立，那么将执行最后的 else 语句。
+在 C/C++ 中 **if-else-if 阶梯**帮助用户从多个选项中进行选择。C/C++ if 语句是自上而下执行的。一旦控制 if 的条件之一为真，就执行与该 if 相关联的语句，并绕过 C else-if 阶梯的其余部分。如果这些条件都不成立，那么将执行最后的 else 语句。
 
 [![](img/b8014de160f0bde6a8f4bfa678a2ef6b.png)](https://media.geeksforgeeks.org/wp-content/uploads/20191114112014/If-else-if-ladder-GeeksforGeeks-1.jpg)
 
@@ -206,11 +206,11 @@ i is greater than 20
 
 **相关文章:**
 
-1.  [C/c++](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
+1.  [C/c++ ](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)中的决策
 2.  [带有示例的 C/C++ if else 语句](https://www.geeksforgeeks.org/c-c-if-else-statement-with-examples/)
 3.  [C/C++ if 语句示例](https://www.geeksforgeeks.org/c-c-if-statement-with-examples/) 
-4.  [C/c++中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
-5.  [C/c++中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
-6.  [用 C/C++](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
-7.  [C/c++中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
-8.  [C/c++中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
+4.  [C/c++ 中的开关语句](https://www.geeksforgeeks.org/switch-statement-cc/)
+5.  [C/c++ 中的 Break 语句](https://www.geeksforgeeks.org/break-statement-cc/)
+6.  [用 C/C++ ](https://www.geeksforgeeks.org/continue-statement-cpp/) 继续语句
+7.  [C/c++ 中的 goto 语句](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)
+8.  [C/c++ 中的返回语句，示例](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)

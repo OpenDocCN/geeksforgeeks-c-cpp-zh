@@ -45,7 +45,7 @@ void reverse(char* str, int len)
         temp = str[i];
         str[i] = str[j];
         str[j] = temp;
-        i++;
+        i++ ;
         j--;
     }
 }
@@ -58,14 +58,14 @@ int intToStr(int x, char str[], int d)
 {
     int i = 0;
     while (x) {
-        str[i++] = (x % 10) + '0';
+        str[i++ ] = (x % 10) + '0';
         x = x / 10;
     }
 
     // If number of digits required is more, then
     // add 0s at the beginning
     while (i < d)
-        str[i++] = '0';
+        str[i++ ] = '0';
 
     reverse(str, i);
     str[i] = '\0';

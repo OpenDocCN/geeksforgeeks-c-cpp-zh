@@ -1,8 +1,8 @@
-# iswcntrl()函数在 C/C++中
+# iswcntrl()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/iswcntrl-function-in-c-c/](https://www.geeksforgeeks.org/iswcntrl-function-in-c-c/)
 
-**iswcntrl()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是控制字符。在 C/C++的**cwcytpe**头文件中定义。
+**iswcntrl()** 是 C++ STL 中的一个内置函数，它检查给定的宽字符是否是控制字符。在 C/C++ 的**cwcytpe**头文件中定义。
 
 **语法:**
 

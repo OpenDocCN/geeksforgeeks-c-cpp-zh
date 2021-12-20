@@ -1,4 +1,4 @@
-# c++中构造函数/析构函数调用的顺序
+# c++ 中构造函数/析构函数调用的顺序
 
 > 原文:[https://www . geesforgeks . org/order-constructor-destructor-call-c/](https://www.geeksforgeeks.org/order-constructor-destructor-call-c/)
 
@@ -195,6 +195,6 @@ Inside sub class's parameterised constructor
 *   要在子类的参数化构造函数中调用基类的参数化构造函数，我们必须明确提到它。
 *   基类的参数化构造函数不能在子类的默认构造函数中调用，应该在子类的参数化构造函数中调用。
 
-C++中的 [**【析构函数】**](https://www.geeksforgeeks.org/destructors-c/) 的调用顺序与构造函数相反。
+C++ 中的 [**【析构函数】**](https://www.geeksforgeeks.org/destructors-c/) 的调用顺序与构造函数相反。
 本文由**阿比拉夫·卡里亚**[和**哈什·阿加瓦尔**](https://www.facebook.com/harsh.agarwal.16752) 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](http://www.write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 如果发现有不正确的地方，或者想分享更多关于上述话题的信息，请写评论。

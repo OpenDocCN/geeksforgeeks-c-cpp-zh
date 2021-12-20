@@ -36,7 +36,7 @@ int main()
     while (str[i] != '\0')
     {
         fputc(str[i], tmp);
-        i++;
+        i++ ;
     }
 
     // rewind() function sets the file pointer

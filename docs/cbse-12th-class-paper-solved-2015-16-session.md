@@ -31,7 +31,7 @@ z = sum(x, y);
 is replaced with Z = x + y;
 ```
 
-**b .将包含哪个 C++ [头文件](https://www.geeksforgeeks.org/difference-header-file-library/)来运行/执行以下 C++代码？1**
+**b .将包含哪个 C++ [头文件](https://www.geeksforgeeks.org/difference-header-file-library/)来运行/执行以下 C++ 代码？1**
 
  ```cpp
 void main()
@@ -74,7 +74,7 @@ cout << S;
 }=>
 ```
 
-**d .找到以下 C++程序的输出:2**
+**d .找到以下 C++ 程序的输出:2**
 
  ```cpp
 #include <iostream.h>
@@ -86,7 +86,7 @@ void repch(char s[])
         }
         else if (s[i] == s[i + 1]) {
             s[i + 1] = '!';
-            i++;
+            i++ ;
         }
     }
 }
@@ -144,7 +144,7 @@ Display()打印修改后数组的值，输出为:
 
 ```
 
-**f .观察下面的 C++代码，找出给定选项 I)到 iv)中哪一个是预期的正确输出。同时指定变量“Go”的最大值和最小值。2**
+**f .观察下面的 C++ 代码，找出给定选项 I)到 iv)中哪一个是预期的正确输出。同时指定变量“Go”的最大值和最小值。2**
 
 ```cpp
 void main()
@@ -205,7 +205,7 @@ public:
 **(二)函数 3 叫什么？什么时候调用？**
 **Ans:** 函数 3 是一个[析构函数](https://www.geeksforgeeks.org/destructors-c/)，当对象超出范围时被调用。
 
-**c .用以下规范在 C++中定义一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)候选:4**
+**c .用以下规范在 C++ 中定义一个[类](https://www.geeksforgeeks.org/c-classes-and-objects/)候选:4**
 私有成员:
 
 *   一个数据成员 Rno(注册号)类型长
@@ -400,7 +400,7 @@ void insertsort(int a[], int n)
     }
 ```
 
-**d .在 C++中编写一个函数 NewMAT(int A[][]，int r，int c)，该函数接受一个 2d 整数数组及其大小作为参数，将 2d 数组**中所有不在 60 到 600(两个值都包括在内)范围内的数组元素除以 6。2
+**d .在 C++ 中编写一个函数 NewMAT(int A[][]，int r，int c)，该函数接受一个 2d 整数数组及其大小作为参数，将 2d 数组**中所有不在 60 到 600(两个值都包括在内)范围内的数组元素除以 6。2
 
 **年:**
 
@@ -447,7 +447,7 @@ void RevText()
             cout << word;
 ```
 
-**c .用 C++编写一个函数来搜索和显示细节，其目的地是二进制文件“Flight”中的“Chandigarh”。Dat”。假设二进制文件包含以下类的对象:** 3
+**c .用 C++ 编写一个函数来搜索和显示细节，其目的地是二进制文件“Flight”中的“Chandigarh”。Dat”。假设二进制文件包含以下类的对象:** 3
 
 ```cpp
 class FLIGHT {

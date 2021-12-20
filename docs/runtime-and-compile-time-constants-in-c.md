@@ -1,4 +1,4 @@
-# c++中的运行时和编译时常数
+# c++ 中的运行时和编译时常数
 
 > 原文:[https://www . geesforgeks . org/runtime-and-compile-time-constants-in-c/](https://www.geeksforgeeks.org/runtime-and-compile-time-constants-in-c/)
 

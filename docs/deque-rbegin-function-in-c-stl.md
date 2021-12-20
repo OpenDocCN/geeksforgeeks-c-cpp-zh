@@ -30,7 +30,7 @@ int main()
     cout << "The deque in reverse order: ";
 
     // prints the elements in reverse order
-    for (auto it = dq.rbegin(); it != dq.rend(); ++it)
+    for (auto it = dq.rbegin(); it != dq.rend(); ++ it)
         cout << *it << " ";
 
     return 0;
@@ -59,7 +59,7 @@ int main()
     cout << "The deque in reverse order: ";
 
     // prints the elements in reverse order
-    for (auto it = dq.rbegin(); it != dq.rend(); ++it)
+    for (auto it = dq.rbegin(); it != dq.rend(); ++ it)
         cout << *it << " ";
 
     return 0;

@@ -1,8 +1,8 @@
-# 高级 C++带增强库
+# 高级 C++ 带增强库
 
 > 原文:[https://www.geeksforgeeks.org/advanced-c-boost-library/](https://www.geeksforgeeks.org/advanced-c-boost-library/)
 
-[增强库](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License)旨在广泛使用，并可用于广泛的应用领域。例如，它们有助于在 C++中处理超出长整型、长双精度数据类型(2 <sup>64</sup> )范围的大数。
+[增强库](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)#License)旨在广泛使用，并可用于广泛的应用领域。例如，它们有助于在 C++ 中处理超出长整型、长双精度数据类型(2 <sup>64</sup> )范围的大数。
 
 **<u>安装</u>**
 
@@ -78,7 +78,7 @@
     ```
 
 3.  **multi precision float:**借助 Boost Multiprecision float，我们可以分别用 cpp_float_50 和 cpp_dec_float_100 实现精度高达 50 和 100 的小数。
-    下面是 C++代码，使用 float、decimal 和 cpp_float_50 类型计算不同精度的圆的面积。
+    下面是 C++ 代码，使用 float、decimal 和 cpp_float_50 类型计算不同精度的圆的面积。
 
     ```cpp
     #include<iostream>

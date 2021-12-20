@@ -15,7 +15,7 @@ return_type function_name([ arg1_type arg1_name, ... ]) { code }  
 ```
 
 **示例:**
-下面是一个简单的 C/C++程序演示函数。
+下面是一个简单的 C/C++ 程序演示函数。
 
 ## C
 

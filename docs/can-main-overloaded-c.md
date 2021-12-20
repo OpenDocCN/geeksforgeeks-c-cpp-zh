@@ -1,8 +1,8 @@
-# c++中 main()可以重载吗？
+# c++ 中 main()可以重载吗？
 
 > 原文:[https://www.geeksforgeeks.org/can-main-overloaded-c/](https://www.geeksforgeeks.org/can-main-overloaded-c/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ```cpp
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
 
 上述程序编译失败，产生警告和错误(产生的警告和错误见[本](http://ideone.com/SFhsE7))。你可能会在不同的编译器上得到不同的错误。
 
-要在 C++中重载 main()函数，需要使用类并将 main 声明为成员函数。请注意，在 C、C++、Java 和 C#等编程语言中，main 不是保留字。例如，我们可以声明一个名为 main 的变量，试试下面的例子:
+要在 C++ 中重载 main()函数，需要使用类并将 main 声明为成员函数。请注意，在 C、C++、Java 和 C#等编程语言中，main 不是保留字。例如，我们可以声明一个名为 main 的变量，试试下面的例子:
 
 ```cpp
 #include <iostream>

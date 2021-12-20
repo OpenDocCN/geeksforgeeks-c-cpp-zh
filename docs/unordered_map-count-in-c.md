@@ -1,8 +1,8 @@
-# c++中无序 _ 映射计数()
+# c++ 中无序 _ 映射计数()
 
 > 原文:[https://www.geeksforgeeks.org/unordered_map-count-in-c/](https://www.geeksforgeeks.org/unordered_map-count-in-c/)
 
-无序映射::count()是 C++中的一个内置方法，用于计算具有给定键的无序映射中的元素数量。
+无序映射::count()是 C++ 中的一个内置方法，用于计算具有给定键的无序映射中的元素数量。
 
 **注意**:由于无序 _map 不允许存储重复键的元素，所以 count()函数基本上是检查给定键的无序 _map 中是否存在元素。
 

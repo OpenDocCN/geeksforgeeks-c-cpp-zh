@@ -1,10 +1,10 @@
-# c++中的前向迭代器
+# c++ 中的前向迭代器
 
 > 原文:[https://www.geeksforgeeks.org/forward-iterators-in-cpp/](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)
 
 浏览了 [std::search](https://www.geeksforgeeks.org/stdsearch-in-c/) 、 [std::search_n](https://www.geeksforgeeks.org/stdsearch_n-with-example-in-cpp/) 、 [std::下界](https://www.geeksforgeeks.org/stdlower_bound-in-c/)等各种 STL 算法的模板定义后，你一定找到了它们的模板定义，由类型为**正向迭代器**的对象组成。那么它们是什么，为什么被使用？
 
-**前向迭代器**是 C++标准库中存在的五种主要类型的迭代器之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
+**前向迭代器**是 C++ 标准库中存在的五种主要类型的迭代器之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
 
 前向迭代器被认为是输入和输出迭代器的**组合。它为两者的功能提供支持。它允许值被访问和修改。**
 
@@ -39,12 +39,12 @@
         // Declaring an iterator
         vector<int>::iterator i1;
 
-        for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+        for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
             // Assigning values to locations pointed by iterator
             *i1 = 1;
         }
 
-        for (i1 = v1.begin(); i1 != v1.end(); ++i1) {
+        for (i1 = v1.begin(); i1 != v1.end(); ++ i1) {
             // Accessing values at locations pointed by iterator
             cout << (*i1) << " ";
         }
@@ -70,7 +70,7 @@
 
     ```cpp
     A++   // Using post increment operator
-    ++A   // Using pre increment operator
+    ++ A   // Using pre increment operator
 
     ```
 
@@ -90,7 +90,7 @@
         while (first != last) {
             if (*first == old_value) // L1
                 *first = new_value; // L2
-            ++first;
+            ++ first;
         }
     }
     ```

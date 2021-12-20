@@ -1,4 +1,4 @@
-# c++中的静态关键字
+# c++ 中的静态关键字
 
 > 原文:[https://www.geeksforgeeks.org/static-keyword-cpp/](https://www.geeksforgeeks.org/static-keyword-cpp/)
 
@@ -13,7 +13,7 @@
 
 **静态变量**
 
-*   **Static variables in a Function**: When a variable is declared as static, space for **it gets allocated for the lifetime of the program**. Even if the function is called multiple times, space for the static variable is allocated only once and the value of variable in the previous call gets carried through the next function call. This is useful for implementing [coroutines in C/C++](https://www.geeksforgeeks.org/coroutines-in-c-cpp/) or any other application where previous state of function needs to be stored.
+*   **Static variables in a Function**: When a variable is declared as static, space for **it gets allocated for the lifetime of the program**. Even if the function is called multiple times, space for the static variable is allocated only once and the value of variable in the previous call gets carried through the next function call. This is useful for implementing [coroutines in C/C++ ](https://www.geeksforgeeks.org/coroutines-in-c-cpp/) or any other application where previous state of function needs to be stored.
 
     ```cpp
     // C++ program to demonstrate 
@@ -32,7 +32,7 @@
         // value is updated and
         // will be carried to next
         // function calls
-        count++;
+        count++ ;
     }
 
     int main()
@@ -254,11 +254,11 @@
 **相关文章:**
 
 *   [静态关键词测验](https://www.geeksforgeeks.org/c-plus-plus-gq/static-keyword-gq/)
-*   [c++中的静态数据成员](https://www.geeksforgeeks.org/stati/)
+*   [c++ 中的静态数据成员](https://www.geeksforgeeks.org/stati/)
 *   [静止物体什么时候被破坏？](https://www.geeksforgeeks.org/static-objects-destroyed/)
 *   [关于静态成员函数的有趣事实](https://www.geeksforgeeks.org/some-interesting-facts-about-static-member-functions-in-c/)
 *   [静态函数可以是虚函数吗？](https://www.geeksforgeeks.org/g-fact-29/)
-*   [c++和 Java 中静态关键字的比较](https://www.geeksforgeeks.org/static-keyword-in-java/)
+*   [c++ 和 Java 中静态关键字的比较](https://www.geeksforgeeks.org/static-keyword-in-java/)
 *   [C](https://www.geeksforgeeks.org/what-are-static-functions-in-c/)中的静态功能
 
 本文由 **Harsh Agarwal** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

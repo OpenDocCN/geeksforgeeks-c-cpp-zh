@@ -1,4 +1,4 @@
-# 标准::C++中的 add_const 示例
+# 标准::C++ 中的 add_const 示例
 
 > 原文:[https://www . geesforgeks . org/stdadd _ const-in-c-with-examples/](https://www.geeksforgeeks.org/stdadd_const-in-c-with-examples/)
 
@@ -28,7 +28,7 @@ std::add_const<T>::value
 
 **参数:**模板 **std::add_const** 接受单个参数 **T(性状类)**，用于声明类型 **T** 为合格的 const。
 
-下面是用 C++演示 **std::add_const:** 的程序:
+下面是用 C++ 演示 **std::add_const:** 的程序:
 
 **程序:**
 

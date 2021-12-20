@@ -1,4 +1,4 @@
-# tan()函数为 C++中的复数
+# tan()函数为 C++ 中的复数
 
 > 原文:[https://www . geesforgeks . org/tan-function-for-complex-number-in-CPP/](https://www.geeksforgeeks.org/tan-function-for-complex-number-in-cpp/)
 
@@ -15,7 +15,7 @@ tan(z);
 *   **z:** 该方法取一个代表复数的强制参数 **z** 。
 
 **返回值:**这个函数返回复数 z 的 tan()。
-下面的程序说明了 C++中的 tan()函数:
+下面的程序说明了 C++ 中的 tan()函数:
 T4【程序 1:-
 
 ## 卡片打印处理机（Card Print Processor 的缩写）

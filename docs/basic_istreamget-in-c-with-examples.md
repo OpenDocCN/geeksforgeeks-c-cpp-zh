@@ -1,4 +1,4 @@
-# c++中 basic_istream::get()示例
+# c++ 中 basic_istream::get()示例
 
 > 原文:[https://www . geeksforgeeks . org/basic _ is tream get-in-c-with-examples/](https://www.geeksforgeeks.org/basic_istreamget-in-c-with-examples/)
 

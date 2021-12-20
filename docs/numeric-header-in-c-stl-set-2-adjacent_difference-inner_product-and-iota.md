@@ -162,7 +162,7 @@ Result using inner_product with user-defined function: 146
 iota(first, last,val) ;
 
 first, last : address of first and last element of range whose elements are to be added
-val: initial value to store, the expression ++value must be well-formed
+val: initial value to store, the expression ++ value must be well-formed
 
 ```
 

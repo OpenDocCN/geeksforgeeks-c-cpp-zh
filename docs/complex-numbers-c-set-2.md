@@ -1,8 +1,8 @@
-# c++中的复数|集合 2
+# c++ 中的复数|集合 2
 
 > 原文:[https://www.geeksforgeeks.org/complex-numbers-c-set-2/](https://www.geeksforgeeks.org/complex-numbers-c-set-2/)
 
-我们在 C++中引入并讨论了[复数的概念|集合 1](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)
+我们在 C++ 中引入并讨论了[复数的概念|集合 1](https://www.geeksforgeeks.org/complex-numbers-c-set-1/)
 剩下的函数用例子讨论如下:
 
 *   **log()**–用于返回复数的 log。

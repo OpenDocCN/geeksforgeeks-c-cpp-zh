@@ -2,9 +2,9 @@
 
 > 原文:[https://www . geesforgeks . org/output-c-programs-set-30-switch-case/](https://www.geeksforgeeks.org/output-c-programs-set-30-switch-case/)
 
-先决条件–[C/c++](https://www.geeksforgeeks.org/switch-statement-cc/)中的开关情况
+先决条件–[C/c++ ](https://www.geeksforgeeks.org/switch-statement-cc/)中的开关情况
 
- **C/c++中 Switch 语句的有趣问题**
+ **C/c++ 中 Switch 语句的有趣问题**
 
 1.  **Program 1**
 

@@ -71,19 +71,19 @@
         sample1 = sample3;
 
         // Print the sets
-        for (auto it = sample1.begin(); it != sample1.end(); ++it) {
+        for (auto it = sample1.begin(); it != sample1.end(); ++ it) {
             cout << *it << " ";
         }
 
         cout << endl;
 
-        for (auto it = sample2.begin(); it != sample2.end(); ++it) {
+        for (auto it = sample2.begin(); it != sample2.end(); ++ it) {
             cout << *it << " ";
         }
 
         cout << endl;
 
-        for (auto it = sample3.begin(); it != sample3.end(); ++it) {
+        for (auto it = sample3.begin(); it != sample3.end(); ++ it) {
             cout << *it << " ";
         }
 

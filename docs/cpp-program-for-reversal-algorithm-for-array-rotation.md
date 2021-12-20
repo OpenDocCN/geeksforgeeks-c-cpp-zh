@@ -1,4 +1,4 @@
-# 数组旋转反转算法的 C++程序
+# 数组旋转反转算法的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-程序换反转-算法换阵列-旋转/](https://www.geeksforgeeks.org/cpp-program-for-reversal-algorithm-for-array-rotation/)
 
@@ -59,7 +59,7 @@ void reverseArray(int arr[], int start, int end)
         int temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
-        start++;
+        start++ ;
         end--;
     }
 }

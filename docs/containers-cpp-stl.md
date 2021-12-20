@@ -58,6 +58,6 @@
 *   [最近关于 C++ STL 的文章](https://www.geeksforgeeks.org/category/cpp/)
 *   [编码实践平台](https://practice.geeksforgeeks.org/)
 *   [选择题](https://www.geeksforgeeks.org/quiz-corner-gq/#C++%20Programming%20Mock%20Tests)
-*   [c++类所有文章](https://www.geeksforgeeks.org/c-plus-plus/)
+*   [c++ 类所有文章](https://www.geeksforgeeks.org/c-plus-plus/)
 
-要以最高效最有效的方式掌握 **C++标准模板库(STL)** ，请务必通过 GeeksforGeeks 查看本 [**C++ STL 在线课程**](https://practice.geeksforgeeks.org/courses/cpp-stl) 。本课程涵盖了 C++的基础知识和对所有 C++ STL 容器、迭代器等的深入解释，以及一些问题的视频解释。此外，您将学习使用 STL 内置的类和函数来实现一些复杂的数据结构，并方便地对它们执行操作。
+要以最高效最有效的方式掌握 **C++ 标准模板库(STL)** ，请务必通过 GeeksforGeeks 查看本 [**C++ STL 在线课程**](https://practice.geeksforgeeks.org/courses/cpp-stl) 。本课程涵盖了 C++ 的基础知识和对所有 C++ STL 容器、迭代器等的深入解释，以及一些问题的视频解释。此外，您将学习使用 STL 内置的类和函数来实现一些复杂的数据结构，并方便地对它们执行操作。

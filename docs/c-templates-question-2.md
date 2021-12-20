@@ -13,7 +13,7 @@ void fun(const T&x)
 {
     static int count = 0;
     cout << "x = " << x << " count = " << count << endl;
-    ++count;
+    ++ count;
     return;
 }
 

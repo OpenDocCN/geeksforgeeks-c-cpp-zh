@@ -110,4 +110,4 @@
 2.  ****[**STD::next _ 排列:**](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/) 将范围转换为下一个排列****
 3.  ****[**标准::prev _ 排列:**](https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/) 将范围转换为前一个排列****
 
-****[c++的所有 STL 文章](https://www.geeksforgeeks.org/tag/stl/)****
+****[c++ 的所有 STL 文章](https://www.geeksforgeeks.org/tag/stl/)****

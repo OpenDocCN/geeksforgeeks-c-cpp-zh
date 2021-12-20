@@ -1,4 +1,4 @@
-# 在 C++中调用类内部的非成员函数
+# 在 C++ 中调用类内部的非成员函数
 
 > 原文:[https://www . geesforgeks . org/calling-a-非成员-函数-在 cpp 中的类内/](https://www.geeksforgeeks.org/calling-a-non-member-function-inside-a-class-in-cpp/)
 

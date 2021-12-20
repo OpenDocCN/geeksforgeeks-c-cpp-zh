@@ -1,10 +1,10 @@
-# 在 C++中将字符数组转换为字符串
+# 在 C++ 中将字符数组转换为字符串
 
 > 原文:[https://www . geesforgeks . org/convert-character-array-to-string-in-c/](https://www.geeksforgeeks.org/convert-character-array-to-string-in-c/)
 
-本文展示了如何在 C++中将字符数组转换为字符串。
+本文展示了如何在 C++ 中将字符数组转换为字符串。
 
-c++中的 [std::string](https://www.geeksforgeeks.org/stdstring-class-in-c/) 有很多内置函数，这使得实现比处理字符数组容易得多。因此，如果我们将字符数组转换为字符串，通常会更容易工作。
+c++ 中的 [std::string](https://www.geeksforgeeks.org/stdstring-class-in-c/) 有很多内置函数，这使得实现比处理字符数组容易得多。因此，如果我们将字符数组转换为字符串，通常会更容易工作。
 
 **示例:**
 

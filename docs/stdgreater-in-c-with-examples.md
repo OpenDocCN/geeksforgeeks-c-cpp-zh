@@ -1,4 +1,4 @@
-# 标准::在 C++中更大，示例
+# 标准::在 C++ 中更大，示例
 
 > 原文:[https://www . geesforgeks . org/STD greater-in-c-with-examples/](https://www.geeksforgeeks.org/stdgreater-in-c-with-examples/)
 
@@ -25,7 +25,7 @@ template <class T> struct greater;
 *   **真:**如果两个元素说(a & b)这样一个> b
 *   **假:**若甲<乙
 
-下面是 C++中 **std::大于**的图解:
+下面是 C++ 中 **std::大于**的图解:
 
 **程序 1:**
 

@@ -1,4 +1,4 @@
-# c++中对数组的引用
+# c++ 中对数组的引用
 
 > 原文:[https://www.geeksforgeeks.org/reference-to-array-in-cpp/](https://www.geeksforgeeks.org/reference-to-array-in-cpp/)
 

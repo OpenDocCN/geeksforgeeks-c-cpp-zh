@@ -1,4 +1,4 @@
-# std::tuple，std::pair |在 C++中使用 tuple 和 pair 从函数返回多个值
+# std::tuple，std::pair |在 C++ 中使用 tuple 和 pair 从函数返回多个值
 
 > 原文:[https://www . geeksforgeeks . org/使用 c 中的元组和对从函数返回多个值/](https://www.geeksforgeeks.org/returning-multiple-values-from-a-function-using-tuple-and-pair-in-c/)
 

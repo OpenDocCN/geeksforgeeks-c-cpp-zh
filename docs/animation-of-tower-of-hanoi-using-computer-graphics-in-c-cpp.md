@@ -1,8 +1,8 @@
-# 在 C/C++中使用计算机图形学制作河内塔的动画
+# 在 C/C++ 中使用计算机图形学制作河内塔的动画
 
 > 原文:[https://www . geeksforgeeks . org/animation-of-of-tower-of-of-of-of-Hanoi-in-computer-graphics-in-c-CPP/](https://www.geeksforgeeks.org/animation-of-tower-of-hanoi-using-computer-graphics-in-c-cpp/)
 
-任务是使用 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中的[计算机图形](https://www.geeksforgeeks.org/introduction-to-computer-graphics/)设计河内[塔。](https://www.geeksforgeeks.org/iterative-tower-of-hanoi/)
+任务是使用 [C](https://www.geeksforgeeks.org/c-programming-language/) / [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中的[计算机图形](https://www.geeksforgeeks.org/introduction-to-computer-graphics/)设计河内[塔。](https://www.geeksforgeeks.org/iterative-tower-of-hanoi/)
 
 [**河内塔**](https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/) **:** 这是一个数学问题，有三座塔和 **N** 个圆盘。问题是按照以下规则将所有磁盘从第一个塔移动到第三个塔:
 

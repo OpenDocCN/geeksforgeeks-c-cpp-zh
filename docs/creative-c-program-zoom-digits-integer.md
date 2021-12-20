@@ -1,4 +1,4 @@
-# 一个创造性的 C++程序来缩放一个整数的数字
+# 一个创造性的 C++ 程序来缩放一个整数的数字
 
 > 原文:[https://www . geesforgeks . org/creative-c-program-zoom-digits-integer/](https://www.geeksforgeeks.org/creative-c-program-zoom-digits-integer/)
 
@@ -37,7 +37,7 @@ Output :
 
 首先使用[字符串流](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)将给定的数字转换为字符串。之后，每个字符(数字)被访问并放入开关盒结构，开关盒结构缩放每个数字并以图案的形式打印。
 
-下面是 C++实现
+下面是 C++ 实现
 
 ```cpp
 // C++ program to zoon digits of an integer

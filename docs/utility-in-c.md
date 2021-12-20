@@ -1,4 +1,4 @@
-# <utility>在 C++中</utility>
+# <utility>在 C++ 中</utility>
 
 > 原文:[https://www.geeksforgeeks.org/utility-in-c/](https://www.geeksforgeeks.org/utility-in-c/)
 

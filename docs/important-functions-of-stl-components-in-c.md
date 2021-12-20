@@ -1,4 +1,4 @@
-# c++中 STL 组件的重要功能
+# c++ 中 STL 组件的重要功能
 
 > 原文:[https://www . geesforgeks . org/重要功能-STL-of-components-in-c/](https://www.geeksforgeeks.org/important-functions-of-stl-components-in-c/)
 

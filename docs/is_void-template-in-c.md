@@ -1,4 +1,4 @@
-# 是 C++中的 _void 模板
+# 是 C++ 中的 _void 模板
 
 > 原文:[https://www.geeksforgeeks.org/is_void-template-in-c/](https://www.geeksforgeeks.org/is_void-template-in-c/)
 

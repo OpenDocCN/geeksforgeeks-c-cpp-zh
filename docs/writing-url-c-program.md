@@ -1,4 +1,4 @@
-# 在 C++程序中写一个 URL
+# 在 C++ 程序中写一个 URL
 
 > 原文:[https://www.geeksforgeeks.org/writing-url-c-program/](https://www.geeksforgeeks.org/writing-url-c-program/)
 

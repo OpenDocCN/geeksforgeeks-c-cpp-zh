@@ -1,4 +1,4 @@
-# C 和 C++中的循环
+# C 和 C++ 中的循环
 
 > 原文:[https://www.geeksforgeeks.org/loops-in-c-and-cpp/](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)
 
@@ -84,7 +84,7 @@ Hello World
 1.  **进入受控回路**:在这种类型的回路中，测试条件在进入回路主体之前进行测试。**为循环**和**而循环**为入口控制循环。
 2.  **退出受控循环**:在这种类型的循环中，测试条件在循环体的末端进行测试或评估。因此，不管测试条件是真还是假，循环体都将至少执行一次。**do–while 循环**是出口控制循环。
 
-[![Loops in C and C++](img/14f44975772da592ad8f11c6c48abb06.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128194516/Cpp-loops.png)
+[![Loops in C and C++ ](img/14f44975772da592ad8f11c6c48abb06.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128194516/Cpp-loops.png)
 
 回路的
 
@@ -106,7 +106,7 @@ for (initialization expr; test expr; update expr)
 *   ****更新表达式**:执行循环体后，该表达式将循环变量增加/减少某个值。例如:i++；**
 
 **回路等效流程图:
-![Equivalent flow diagram for loops in C and C++](img/f7b6f5ab5e7b4646dd4c503024e5bbad.png)**
+![Equivalent flow diagram for loops in C and C++ ](img/f7b6f5ab5e7b4646dd4c503024e5bbad.png)**
 
 ****示例:****
 
@@ -181,7 +181,7 @@ while (**test_expression**)
 ```
 
 ****流程图** :
-![flow diagram for While Loop in C and C++](img/dbfdf73ebf7174be08c9988aaf75cb88.png)**
+![flow diagram for While Loop in C and C++ ](img/dbfdf73ebf7174be08c9988aaf75cb88.png)**
 
 ****示例:****
 
@@ -202,7 +202,7 @@ int main()
         printf( "Hello World\n");    
 
         // update expression
-        i++;
+        i++ ;
     }
 
     return 0;
@@ -227,7 +227,7 @@ int main()
         cout << "Hello World\n";
 
         // update expression
-        i++;
+        i++ ;
     }
 
     return 0;
@@ -265,7 +265,7 @@ do
 ****注意**:注意分号(；))在循环结束时。**
 
 ****流程图** :
-![flow diagram for do while Loop in C and C++](img/94f10304b44ab077d05f98482e5e7638.png)**
+![flow diagram for do while Loop in C and C++ ](img/94f10304b44ab077d05f98482e5e7638.png)**
 
 ****示例:****
 
@@ -285,7 +285,7 @@ int main()
         printf( "Hello World\n");    
 
         // update expression
-        i++;
+        i++ ;
 
     }  while (i < 1);   // test expression
 
@@ -310,7 +310,7 @@ int main()
         cout << "Hello World\n";
 
         // update expression
-        i++;
+        i++ ;
 
     }  while (i < 1);   // test expression
 
@@ -424,8 +424,8 @@ This loop will run forever.
 
 **更高级的循环技术**
 
-*   [c++中基于范围的循环](https://www.geeksforgeeks.org/range-based-loop-c/)
-*   C++中每个循环的
+*   [c++ 中基于范围的循环](https://www.geeksforgeeks.org/range-based-loop-c/)
+*   C++ 中每个循环的
 
 **要点:**
 
@@ -435,7 +435,7 @@ This loop will run forever.
 
 **相关文章:**
 
-*   [如果循环到 C/C++中有符号和无符号的最大值会发生什么？](https://www.geeksforgeeks.org/what-happens-if-loop-runs-till-maximum-of-signed-and-unsigned-in-c/)
+*   [如果循环到 C/C++ 中有符号和无符号的最大值会发生什么？](https://www.geeksforgeeks.org/what-happens-if-loop-runs-till-maximum-of-signed-and-unsigned-in-c/)
 *   [循环测验](https://www.geeksforgeeks.org/c-language-2-gq/loops-control-structure-gq/)
 
 本文由 **Harsh Agarwal** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

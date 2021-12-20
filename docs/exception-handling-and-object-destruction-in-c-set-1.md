@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/异常处理和对象销毁-in-c-set-1/](https://www.geeksforgeeks.org/exception-handling-and-object-destruction-in-c-set-1/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ```cpp
 #include <iostream>
@@ -89,7 +89,7 @@ class Test {
   int id;
 public:
   Test() {
-    count++;
+    count++ ;
     id = count;
     cout << "Constructing object number " << id << endl;
     if(id == 4)

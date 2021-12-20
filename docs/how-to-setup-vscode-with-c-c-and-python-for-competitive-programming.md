@@ -1,4 +1,4 @@
-# 如何用 C、C++和 Python 设置 VSCode 进行竞技编程
+# 如何用 C、C++ 和 Python 设置 VSCode 进行竞技编程
 
 > 原文:[https://www . geesforgeks . org/how-setup-vs code-with-c-c-和-python-for-competitive-programming/](https://www.geeksforgeeks.org/how-to-setup-vscode-with-c-c-and-python-for-competitive-programming/)
 
@@ -76,9 +76,9 @@ Python 自带调试器，GCC 有 gdb。转到左边的调试器选项卡，点�
 
 这将在下面创建一个 launch.json 文件。vscode 目录。看起来是这样的。不需要编辑这个文件，开始调试就够了。在这里了解更多关于编辑配置[的信息。](https://code.visualstudio.com/docs/python/debugging)
 
-#### **调试 C/C++脚本**
+#### **调试 C/C++ 脚本**
 
-在调试之前，您需要添加构建任务。从主菜单中，选择**终端>配置默认构建任务**。出现一个下拉列表，显示 C++编译器的各种预定义构建任务。选择 C/C++: g++构建活动文件。
+在调试之前，您需要添加构建任务。从主菜单中，选择**终端>配置默认构建任务**。出现一个下拉列表，显示 C++ 编译器的各种预定义构建任务。选择 C/C++ : g++ 构建活动文件。
 
 [![](img/ad9bfae6120a83a6a71d1fd8ff865b93.png)](https://media.geeksforgeeks.org/wp-content/uploads/20200705193313/169T1huvsAPYXShC8hFlgg.png)
 
@@ -88,7 +88,7 @@ Python 自带调试器，GCC 有 gdb。转到左边的调试器选项卡，点�
 
 这也将创建一个类似如下的 launch.json 文件。有关配置的更多信息，请参考本[页面](https://code.visualstudio.com/docs/cpp/launch-json-reference)。
 
-现在你可以用 C 和 C++调试你的程序了。
+现在你可以用 C 和 C++ 调试你的程序了。
 
 **注意:**如果在不同的目录下工作，则需要创建这些配置。创建这些文件不需要太多时间，但是您也可以将它们复制到其他目录中。
 
@@ -106,7 +106,7 @@ Python 自带调试器，GCC 有 gdb。转到左边的调试器选项卡，点�
 "console": "externalTerminal"
 ```
 
-它打开一个外部终端，可用于粘贴输入。对于 C/C++来说，这可以通过将*外部变量*设置为真来实现
+它打开一个外部终端，可用于粘贴输入。对于 C/C++ 来说，这可以通过将*外部变量*设置为真来实现
 
 ```cpp
 "externalConsole": true

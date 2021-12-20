@@ -1,4 +1,4 @@
-# 如何在 C++中创建一个用户定义的类或结构的无序 _ 集合？
+# 如何在 C++ 中创建一个用户定义的类或结构的无序 _ 集合？
 
 > 原文:[https://www . geesforgeks . org/如何创建一个无序的用户定义类或结构集合/](https://www.geeksforgeeks.org/how-to-create-an-unordered_set-of-user-defined-class-or-struct-in-c/)
 

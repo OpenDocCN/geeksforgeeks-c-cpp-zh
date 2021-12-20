@@ -17,14 +17,14 @@
 "OFAkHFOuFETpHCStHAUFAgcEAelclcn^r^r\\tZvYxXyT|S~Pn SPm SOn TNn ULo0ULo#ULo-WHq!WFs XDt!";
 ```
 
-请注意编码字符串末尾的[b+++21]。由于 b++ + 21 相当于(b+++21)，其计算结果为 31 (10 + 21)，因此该字符串的前 31 个字符将被忽略，不会有任何作用。剩余的编码字符串包含绘制地图的说明。单个字符决定了要连续绘制多少个空格或感叹号。
+请注意编码字符串末尾的[b+++ 21]。由于 b++ + 21 相当于(b+++ 21)，其计算结果为 31 (10 + 21)，因此该字符串的前 31 个字符将被忽略，不会有任何作用。剩余的编码字符串包含绘制地图的说明。单个字符决定了要连续绘制多少个空格或感叹号。
 **【外部 for 循环】**
 这个循环遍历字符串中的字符。每次迭代将 b 的值增加 1，并将字符串中的下一个字符分配给 a。
 **内部 for 循环**
 此循环绘制单个字符，并在到达行尾时绘制一条新行。考虑一下这个 putchar 语句
 
 ```cpp
-putchar(++c=='Z' ? c = c/9 : 33^b&1);
+putchar(++ c=='Z' ? c = c/9 : 33^b&1);
 ```
 
 因为“Z”代表 ASCII 中的数字 90，所以 90/9 会给我们 10，这是一个换行符。十进制 33 是代表“！”的 ASCII。切换 33 的低位会得到 32，这是一个空格的 ASCII 码。这导致！如果 b 是奇数，则打印；如果 b 是偶数，则打印空白。
@@ -52,10 +52,10 @@ int main()
     while (a != 0)
     {
         // read each character of encoded string
-        a = str[b++];
+        a = str[b++ ];
         while (a-- > 64)
         {
-            if (++c == 90) // 'Z' is 90 in ascii
+            if (++ c == 90) // 'Z' is 90 in ascii
             {
                 // reset c to 10 when the end of line is reached
                 c = 10;        // '\n' is 10 in ascii
@@ -102,10 +102,10 @@ int main()
     while (a != 0)
     {
         // read each character of encoded string
-        a = str[b++];
+        a = str[b++ ];
         while (a-- > 64)
         {
-            if (++c == 90) // 'Z' is 90 in ascii
+            if (++ c == 90) // 'Z' is 90 in ascii
             {
                 // reset c to 10 when the end of line is reached
                 c = 10;        // '\n' is 10 in ascii
@@ -154,11 +154,11 @@ class GFG
             if (b < 170)
             {
                 a = s1.charAt(b);
-                b++;
+                b++ ;
                 while (a-- > 64)
                 {
 
-                    if (++c=='Z')
+                    if (++ c=='Z')
                     {
 
                         c/=9;
@@ -244,11 +244,11 @@ class GFG
             if (b < 170)
             {
                 a = s1[b];
-                b++;
+                b++ ;
                 while (a-- > 64)
                 {
 
-                    if (++c == 'Z')
+                    if (++ c == 'Z')
                     {
 
                         c/=9;
@@ -293,7 +293,7 @@ while ($a != 0)
         if ($b < 170)
         {
             $a = ord($s1[$b]);
-            $b++;
+            $b++ ;
             while ($a-- > 64)
             {
 

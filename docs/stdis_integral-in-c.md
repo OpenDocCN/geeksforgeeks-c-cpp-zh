@@ -1,4 +1,4 @@
-# STD::is _ c++中的整型模板
+# STD::is _ c++ 中的整型模板
 
 > 原文:[https://www.geeksforgeeks.org/stdis_integral-in-c/](https://www.geeksforgeeks.org/stdis_integral-in-c/)
 
@@ -17,7 +17,7 @@ template <class T> struct is_integral;
 *   **真**:如果类型是积分。
 *   **假**:如果类型是非整数。
 
-下面的程序说明了 C++中的标准::is_integral 模板:
+下面的程序说明了 C++ 中的标准::is_integral 模板:
 
 **程序 1:** :
 

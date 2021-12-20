@@ -1,14 +1,14 @@
-# 常见 C++面试问题|第 1 集
+# 常见 C++ 面试问题|第 1 集
 
 > 原文:[https://www . geesforgeks . org/common-question-c-interview-questions-set-1/](https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/)
 
-**C 和 C++有什么区别？**
-**1)** C++是 C 的一种超集，大部分 C 程序除了极少数例外(见[本](https://www.geeksforgeeks.org/write-c-program-produce-different-result-c/)和[本](https://www.geeksforgeeks.org/write-c-program-wont-compiler-c/)外)在 C++中工作也是如此。
-**2)** C 是过程编程语言，但 C++同时支持过程编程和面向对象编程。
-**3)** 由于 C++支持面向对象编程，因此支持函数重载、模板、继承、虚函数、友元函数等特性。这些特性在 C 中是不存在的。
-**(4)**c++在语言层面支持异常处理，在 C 中异常处理，是以传统的 if-else 风格完成的。
-**5)** C++支持[引用](https://www.geeksforgeeks.org/references-in-c/) **，** C 不支持。
-**6)** 在 C 语言中，主要使用 scanf()和 printf()进行输入/输出。C++主要使用流来执行输入和输出操作。cin 是标准输入流，cout 是标准输出流。
+**C 和 C++ 有什么区别？**
+**1)** C++ 是 C 的一种超集，大部分 C 程序除了极少数例外(见[本](https://www.geeksforgeeks.org/write-c-program-produce-different-result-c/)和[本](https://www.geeksforgeeks.org/write-c-program-wont-compiler-c/)外)在 C++ 中工作也是如此。
+**2)** C 是过程编程语言，但 C++ 同时支持过程编程和面向对象编程。
+**3)** 由于 C++ 支持面向对象编程，因此支持函数重载、模板、继承、虚函数、友元函数等特性。这些特性在 C 中是不存在的。
+**(4)**c++ 在语言层面支持异常处理，在 C 中异常处理，是以传统的 if-else 风格完成的。
+**5)** C++ 支持[引用](https://www.geeksforgeeks.org/references-in-c/) **，** C 不支持。
+**6)** 在 C 语言中，主要使用 scanf()和 printf()进行输入/输出。C++ 主要使用流来执行输入和输出操作。cin 是标准输入流，cout 是标准输出流。
 
 还有很多不同之处，以上是主要区别的列表。
 
@@ -21,7 +21,7 @@
 2)引用不能为空。指针通常为空，表示它们没有指向任何有效的东西。
 3)引用在声明时必须初始化。指针没有这样的限制
 
-由于上述限制，C++中的引用不能用于实现链表、树等数据结构。在 Java 中，引用没有上述限制，可以用来实现所有的数据结构。Java 中引用功能更强大是 Java 不需要指针的主要原因。
+由于上述限制，C++ 中的引用不能用于实现链表、树等数据结构。在 Java 中，引用没有上述限制，可以用来实现所有的数据结构。Java 中引用功能更强大是 Java 不需要指针的主要原因。
 *引用更安全更容易使用:*
 1)更安全:由于引用必须初始化，像野指针这样的野引用不太可能存在。仍然有可能存在不引用有效位置的引用(参见下面练习中的问题 5 和 6)
 2)更容易使用:引用不需要解引用运算符来访问值。它们可以像普通变量一样使用。&'仅在申报时需要操作员。此外，可以使用点运算符('.'来访问对象引用的成员)，与需要箭头运算符(- >)来访问成员的指针不同。
@@ -29,7 +29,7 @@
 **什么是虚函数——写一个例子？**
 [虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)与继承一起使用，它们是根据被指向或引用的对象的类型来调用的，而不是根据指针或引用的类型来调用的。换句话说，虚函数在运行时被延迟解析。virtual 关键字用于使函数虚拟化。
 
-编写一个运行时多态的 C++程序(使用虚函数)
+编写一个运行时多态的 C++ 程序(使用虚函数)
 需要做以下事情 1)一个基类和一个派生类。
 2)基类和派生类中同名的函数。
 3)基类类型的指针或引用，指向或引用派生类的对象。
@@ -80,7 +80,7 @@ vptr 是指向 vtable 的指针。它是按对象维护的(参见这个例子)�
 
 你可能还喜欢:
 
-*   在 C++上练习[小测验](https://www.geeksforgeeks.org/quiz-corner-gq/)
+*   在 C++ 上练习[小测验](https://www.geeksforgeeks.org/quiz-corner-gq/)
 *   C/C++ [文章](https://www.geeksforgeeks.org/category/c-puzzles/)
 
 我们将很快覆盖更多的 C++。如果你发现任何不正确的地方，或者你想分享更多关于上面讨论的话题的信息，请写评论。

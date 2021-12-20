@@ -1,4 +1,4 @@
-# 标准::C++中的 stof
+# 标准::C++ 中的 stof
 
 > 原文:[https://www.geeksforgeeks.org/stdstof-in-cpp/](https://www.geeksforgeeks.org/stdstof-in-cpp/)
 
@@ -43,7 +43,7 @@ int main()
 }
 ```
 
-的 C++实现
+的 C++ 实现
 
 输出:
 

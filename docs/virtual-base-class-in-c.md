@@ -1,4 +1,4 @@
-# c++中的虚拟基类
+# c++ 中的虚拟基类
 
 > 原文:[https://www.geeksforgeeks.org/virtual-base-class-in-c/](https://www.geeksforgeeks.org/virtual-base-class-in-c/)
 
@@ -11,7 +11,7 @@
 
 从图中我们可以看到类 **A** 的数据成员/函数被两次继承到类 **D** 中。一至类**乙**和二至类**丙**。当类 **A** 的任何数据/函数成员被类 **D** 的对象访问时，会产生关于哪个数据/函数成员将被调用的模糊性？一个通过 **B** 继承，另一个通过 **C** 继承。这会混淆编译器并显示错误。
 
-**示例:**展示 C++中虚拟基类的需求
+**示例:**展示 C++ 中虚拟基类的需求
 
 ```cpp
 #include <iostream>

@@ -1,4 +1,4 @@
-# 在 C++中使用无序映射的字符串中每个字符的频率
+# 在 C++ 中使用无序映射的字符串中每个字符的频率
 
 > 原文:[https://www . geeksforgeeks . org/字符串中每个字符使用无序映射的频率-in-c/](https://www.geeksforgeeks.org/frequency-of-each-character-in-a-string-using-unordered_map-in-c/)
 
@@ -37,7 +37,7 @@ if(M.find(s[i])==M.end()) {
     M.insert(make_pair{s[i], 1});
 }
 else {
-    M[s[i]]++;
+    M[s[i]]++ ;
 }
 
 ```
@@ -75,7 +75,7 @@ void printFrequency(string str)
         // Else update the frequency
         else
         {
-            M[str[i]]++;
+            M[str[i]]++ ;
         }
     }
 

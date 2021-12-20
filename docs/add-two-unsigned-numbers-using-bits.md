@@ -22,7 +22,7 @@ Output: 12563
 *   1+1=0 进位 1
 *   if(进位==1) 1+1=1 进位 1
 
-用 C++中的[位集函数](https://www.geeksforgeeks.org/c-bitset-and-its-application/)表示整数。它的行为就像一个在第 0 个索引处存储最低有效位的数组，当我们打印这样一个数组时，它会以相反的格式打印二进制表示。根据位添加属性从右开始添加每个位，并存储在第三个位集中。函数 [to_ulong()](https://www.geeksforgeeks.org/stdbitsetto_ullong-and-stdbitsetto_ulong/) 用于将一个位集形式转换为其十进制形式。
+用 C++ 中的[位集函数](https://www.geeksforgeeks.org/c-bitset-and-its-application/)表示整数。它的行为就像一个在第 0 个索引处存储最低有效位的数组，当我们打印这样一个数组时，它会以相反的格式打印二进制表示。根据位添加属性从右开始添加每个位，并存储在第三个位集中。函数 [to_ulong()](https://www.geeksforgeeks.org/stdbitsetto_ullong-and-stdbitsetto_ulong/) 用于将一个位集形式转换为其十进制形式。
 以下是上述办法的实施情况。
 
 ## C++

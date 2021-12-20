@@ -1,4 +1,4 @@
-# STD::is _ enum c++中的模板
+# STD::is _ enum c++ 中的模板
 
 > 原文:[https://www.geeksforgeeks.org/stdis_enum-template-in-c/](https://www.geeksforgeeks.org/stdis_enum-template-in-c/)
 
@@ -17,7 +17,7 @@ template <class T> struct is_enum;
 *   **True:** 如果类型是枚举。
 *   **False:** 如果类型是非枚举类型。
 
-下面的程序说明了 C++中的标准::is_enum 模板:
+下面的程序说明了 C++ 中的标准::is_enum 模板:
 
 **程序 1:** :
 

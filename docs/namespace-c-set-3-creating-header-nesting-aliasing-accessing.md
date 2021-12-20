@@ -1,9 +1,9 @@
-# c++中的命名空间|集合 3(访问、创建头、嵌套和别名)
+# c++ 中的命名空间|集合 3(访问、创建头、嵌套和别名)
 
 > 原文:[https://www . geesforgeks . org/namespace-c-set-3-creating-header-nesting-aliasing-access/](https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/)
 
-[c++中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
-[c++中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
+[c++ 中的命名空间|集合 1(简介)](https://www.geeksforgeeks.org/namespace-in-c/)
+[c++ 中的命名空间|集合 2(扩展命名空间和未命名的命名空间)](https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/)
 
 <center>**Different ways to access namespace**</center>
 

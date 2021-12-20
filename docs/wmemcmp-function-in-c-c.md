@@ -1,8 +1,8 @@
-# wmemcmp()函数在 C/C++中
+# wmemcmp()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/wmemcmp-function-in-c-c/](https://www.geeksforgeeks.org/wmemcmp-function-in-c-c/)
 
-C/C++中的 **wmemcmp()** 函数比较两个宽字符。该函数比较由 **str1** 和 **str2** 指向的两个宽字符的第一个**数字**宽字符，如果两个字符串的值相等或不相等，则返回零。
+C/C++ 中的 **wmemcmp()** 函数比较两个宽字符。该函数比较由 **str1** 和 **str2** 指向的两个宽字符的第一个**数字**宽字符，如果两个字符串的值相等或不相等，则返回零。
 
 **语法:**
 

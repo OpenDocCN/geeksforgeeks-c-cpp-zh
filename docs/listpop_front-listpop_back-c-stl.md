@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/listpop _ front-listpop _ back-c-STL/](https://www.geeksforgeeks.org/listpop_front-listpop_back-c-stl/)
 
-[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++中用于以非连续方式存储数据的容器，通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
+[列表](https://www.geeksforgeeks.org/list-cpp-stl/)是 C++ 中用于以非连续方式存储数据的容器，通常，数组和向量本质上是连续的，因此与列表中的插入和删除选项相比，插入和删除操作的成本更高。
 
 **list::pop_front()**
 
@@ -52,7 +52,7 @@ int main()
 
     // list becomes 2, 3, 4, 5
 
-    for (auto it = mylist.begin(); it != mylist.end(); ++it)
+    for (auto it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -97,7 +97,7 @@ int main()
         newlist.push_front(mylist.front());
         mylist.pop_front();
     }
-    for (auto it = newlist.begin(); it != newlist.end(); ++it)
+    for (auto it = newlist.begin(); it != newlist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -157,7 +157,7 @@ int main()
 
     // list becomes 1, 2, 3, 4
 
-    for (auto it = mylist.begin(); it != mylist.end(); ++it)
+    for (auto it = mylist.begin(); it != mylist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -202,7 +202,7 @@ int main()
         newlist.push_back(mylist.back());
         mylist.pop_back();
     }
-    for (auto it = newlist.begin(); it != newlist.end(); ++it)
+    for (auto it = newlist.begin(); it != newlist.end(); ++ it)
         cout << ' ' << *it;
 }
 ```

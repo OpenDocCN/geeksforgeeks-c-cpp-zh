@@ -1,4 +1,4 @@
-# 使用 C++对文本文件进行加密和解密
+# 使用 C++ 对文本文件进行加密和解密
 
 > 原文:[https://www . geesforgeks . org/encrypt-and-decrypt-text-file-use-CPP/](https://www.geeksforgeeks.org/encrypt-and-decrypt-text-file-using-cpp/)
 

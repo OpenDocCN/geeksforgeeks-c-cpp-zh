@@ -1,4 +1,4 @@
-# 我们什么时候在 C++中使用初始化列表？
+# 我们什么时候在 C++ 中使用初始化列表？
 
 > 原文:[https://www . geesforgeks . org/when-do-we-use-initializer-list-in-c/](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
 

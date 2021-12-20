@@ -1,4 +1,4 @@
-# c++库中的 boost::trim
+# c++ 库中的 boost::trim
 
 > 原文:[https://www.geeksforgeeks.org/boosttrim-in-cpp-library/](https://www.geeksforgeeks.org/boosttrim-in-cpp-library/)
 

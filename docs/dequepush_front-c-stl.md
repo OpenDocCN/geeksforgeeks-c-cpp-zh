@@ -54,7 +54,7 @@ int main()
     // deque becomes 6, 1, 2, 3, 4, 5
 
     for (auto it = mydeque.begin();
-         it != mydeque.end(); ++it)
+         it != mydeque.end(); ++ it)
         cout << ' ' << *it;
 }
 ```
@@ -99,7 +99,7 @@ int main()
     mydeque.push_front(5);
     mydeque.push_front(6);
     while (!mydeque.empty()) {
-        count++;
+        count++ ;
         mydeque.pop_front();
     }
     cout << count;

@@ -1,4 +1,4 @@
-# c++中无序映射的桶计数和桶大小
+# c++ 中无序映射的桶计数和桶大小
 
 > 原文:[https://www . geesforgeks . org/bucket _ count-and-bucket _ size-in-无序 _map-in-cpp/](https://www.geeksforgeeks.org/bucket_count-and-bucket_size-in-unordered_map-in-cpp/)
 

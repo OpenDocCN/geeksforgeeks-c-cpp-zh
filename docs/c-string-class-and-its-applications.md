@@ -1,15 +1,15 @@
-# C++字符串类及其应用
+# C++ 字符串类及其应用
 
 > 原文:[https://www . geesforgeks . org/c-string-class-and-its-applications/](https://www.geeksforgeeks.org/c-string-class-and-its-applications/)
 
-在 C++中，我们可以通过以下两种方式之一来存储字符串
+在 C++ 中，我们可以通过以下两种方式之一来存储字符串
 
 1.  [C 风格琴弦](https://www.geeksforgeeks.org/storage-for-strings-in-c/)
 2.  字符串类(在这篇文章中讨论)
 
-在这篇文章中，讨论了第二种方法。字符串类是 C++库的一部分，它支持比 C 风格字符串更多的功能。
-C++ string 类内部使用 char 数组存储字符，但是所有的内存管理、分配和 null 终止都是由 string 类本身处理的，这就是为什么它易于使用的原因。C++字符串的长度可以在运行时更改，因为内存的动态分配类似于向量。由于 string 类是一个容器类，我们可以使用类似于其他容器(如 vector、set 和 map)的迭代器来迭代它的所有字符，但是通常，我们使用一个简单的 for 循环来迭代字符，并使用[]运算符对它们进行索引。
-C++字符串类有很多函数可以轻松处理字符串。下面的代码演示了其中大部分有用的功能。
+在这篇文章中，讨论了第二种方法。字符串类是 C++ 库的一部分，它支持比 C 风格字符串更多的功能。
+C++ string 类内部使用 char 数组存储字符，但是所有的内存管理、分配和 null 终止都是由 string 类本身处理的，这就是为什么它易于使用的原因。C++ 字符串的长度可以在运行时更改，因为内存的动态分配类似于向量。由于 string 类是一个容器类，我们可以使用类似于其他容器(如 vector、set 和 map)的迭代器来迭代它的所有字符，但是通常，我们使用一个简单的 for 循环来迭代字符，并使用[]运算符对它们进行索引。
+C++ 字符串类有很多函数可以轻松处理字符串。下面的代码演示了其中大部分有用的功能。
 
 ```cpp
 // C++ program to demonstrate various function string class
@@ -221,9 +221,9 @@ google%20com%20in
 
 **相关文章**:
 
-*   [如何在 C++中快速反转一个字符串？](https://www.geeksforgeeks.org/quickly-reverse-string-c/)
-*   [C++字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
-*   [c++中的字符串数组](https://www.geeksforgeeks.org/array-strings-c-3-different-ways-create/)
-*   [在 C++中将字符串转换为数字，反之亦然](https://www.geeksforgeeks.org/converting-string-to-number-and-vice-versa-in-c/)
+*   [如何在 C++ 中快速反转一个字符串？](https://www.geeksforgeeks.org/quickly-reverse-string-c/)
+*   [C++ 字符串类及其应用|集合 2](https://www.geeksforgeeks.org/c-string-class-applications-set-2/)
+*   [c++ 中的字符串数组](https://www.geeksforgeeks.org/array-strings-c-3-different-ways-create/)
+*   [在 C++ 中将字符串转换为数字，反之亦然](https://www.geeksforgeeks.org/converting-string-to-number-and-vice-versa-in-c/)
 
 本文由乌卡什·特里维迪供稿。如果您发现任何不正确的地方，或者您想分享更多关于上面讨论的主题的信息，请写评论

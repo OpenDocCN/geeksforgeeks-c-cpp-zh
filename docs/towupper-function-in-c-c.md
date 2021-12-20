@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/towupper-function-in-c-c/](https://www.geeksforgeeks.org/towupper-function-in-c-c/)
 
-**to upper()**是 C/C++中的一个内置函数，它将给定的宽字符转换为大写。在 C++的**cwcytpe**头文件中定义。
+**to upper()**是 C/C++ 中的一个内置函数，它将给定的宽字符转换为大写。在 C++ 的**cwcytpe**头文件中定义。
 
 **语法**:
 

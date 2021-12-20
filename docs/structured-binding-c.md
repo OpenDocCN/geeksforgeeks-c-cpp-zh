@@ -1,10 +1,10 @@
-# c++中的结构化绑定
+# c++ 中的结构化绑定
 
 > 原文:[https://www.geeksforgeeks.org/structured-binding-c/](https://www.geeksforgeeks.org/structured-binding-c/)
 
-**先决条件:**[c++中的元组](https://www.geeksforgeeks.org/tuples-in-c/)
+**先决条件:**[c++ 中的元组](https://www.geeksforgeeks.org/tuples-in-c/)
 
-结构化绑定是 C++17 的最新特性之一，它将指定的名称绑定到初始值设定项的子对象或元素。简单地说，结构化绑定让我们能够声明从一个元组或结构初始化的多个变量。C++ 17 中结构化绑定的主要目的是使代码清晰易懂。像引用一样，结构化绑定是现有对象 的 ***别名。与引用不同，结构化绑定的类型 ***不一定是引用类型*** 。***
+结构化绑定是 C++ 17 的最新特性之一，它将指定的名称绑定到初始值设定项的子对象或元素。简单地说，结构化绑定让我们能够声明从一个元组或结构初始化的多个变量。C++ 17 中结构化绑定的主要目的是使代码清晰易懂。像引用一样，结构化绑定是现有对象 的 ***别名。与引用不同，结构化绑定的类型 ***不一定是引用类型*** 。***
 
 **语法:**
 
@@ -37,7 +37,7 @@ auto ref-operator*(optional)*[identifier-list](expression);
 *   **情况 3** :如果 E 是非并集类类型但是 **tuple_size** 不是完整类型，那么名字绑定到 E 的公共数据成员
 
 让我们借助一个例子来看看结构绑定相对于元组的优势:
-**例 1 :** 在 C++98 中
+**例 1 :** 在 C++ 98 中
 
 ```cpp
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ Y Coordinate : 2
 
 ```
 
-**例 2 :** 在 C++11/C++14 中
+**例 2 :** 在 C++ 11/C++ 14 中
 
 ```cpp
 #include <bits/stdc++.h>
@@ -124,7 +124,7 @@ Y Coordinate : 2
 
 ```
 
-**示例 3 :** 在 C++17 中
+**示例 3 :** 在 C++ 17 中
 
 ```cpp
 #include <bits/stdc++.h>

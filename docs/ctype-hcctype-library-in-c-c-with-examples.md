@@ -1,8 +1,8 @@
-# C/c++中的 ctype.h( <cctype>)库，示例</cctype>
+# C/c++ 中的 ctype.h( <cctype>)库，示例</cctype>
 
 > 原文:[https://www . geesforgeks . org/ctype-hcctype-library-in-c-c-with-examples/](https://www.geeksforgeeks.org/ctype-hcctype-library-in-c-c-with-examples/)
 
-由于 **[string.h](https://www.geeksforgeeks.org/commonly-used-string-functions-in-c-c-with-examples/)** 头文件包含处理 C/C++中字符串的内置函数，**ctype . h**/**<cctype>**包含分别处理 C/C++中字符的内置函数。
+由于 **[string.h](https://www.geeksforgeeks.org/commonly-used-string-functions-in-c-c-with-examples/)** 头文件包含处理 C/C++ 中字符串的内置函数，**ctype . h**/**<cctype>**包含分别处理 C/C++ 中字符的内置函数。
 
 字符有两种类型:
 
@@ -56,11 +56,11 @@
         for (int i = 0; a[i] != '\0'; i++) {
             // To check the character is alphabet
             if (isalpha(a[i]))
-                count_alpha++;
+                count_alpha++ ;
 
             // To check the character is a digit
             if (isdigit(a[i]))
-                count_digit++;
+                count_digit++ ;
         }
         printf("The number of alphabets are %d\n",
                count_alpha);
@@ -101,13 +101,13 @@
 
             // To check the uppercase characters
             if (isupper(a[i])) {
-                count_upper++;
+                count_upper++ ;
                 a[i] = tolower(a[i]);
             }
 
             // To check the lowercase characters
             else if (islower(a[i])) {
-                count_lower++;
+                count_lower++ ;
                 a[i] = toupper(a[i]);
             }
         }

@@ -1,4 +1,4 @@
-# C/c++中鼠标编程用例|集合 2
+# C/c++ 中鼠标编程用例|集合 2
 
 > 原文:[https://www . geeksforgeeks . org/c-c-set-2 中的鼠标编程用例/](https://www.geeksforgeeks.org/use-cases-of-mouse-programming-in-c-c-set-2/)
 

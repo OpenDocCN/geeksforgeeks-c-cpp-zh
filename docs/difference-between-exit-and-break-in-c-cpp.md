@@ -1,4 +1,4 @@
-# C/c++中退出()和中断的区别
+# C/c++ 中退出()和中断的区别
 
 > 原文:[https://www . geesforgeks . org/c-CPP/](https://www.geeksforgeeks.org/difference-between-exit-and-break-in-c-cpp/)退出和闯入的区别
 
@@ -76,7 +76,7 @@ int main()
     while (a < 20) {
 
         cout <<"value of a:"<< a<< endl;
-        a++;
+        a++ ;
 
         // terminate the loop using
         // break statement
@@ -112,7 +112,7 @@ int main()
     while (a < 20) {
 
         printf("value of a: %d\n", a);
-        a++;
+        a++ ;
 
         // terminate the loop using
         // break statement

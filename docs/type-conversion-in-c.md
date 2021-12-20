@@ -1,4 +1,4 @@
-# c++中的类型转换
+# c++ 中的类型转换
 
 > 原文:[https://www.geeksforgeeks.org/type-conversion-in-c/](https://www.geeksforgeeks.org/type-conversion-in-c/)
 
@@ -59,7 +59,7 @@
 
 2.  **Explicit Type Conversion**: This process is also called type casting and it is user-defined. Here the user can typecast the result to make it of a particular data type.
 
-    在 C++中，可以通过两种方式完成:
+    在 C++ 中，可以通过两种方式完成:
 
     *   **Converting by assignment:** This is done by explicitly defining the required type in front of the expression in parenthesis. This can be also considered as forceful casting.
 
@@ -101,7 +101,7 @@
         ```
 
     *   **使用 Cast 运算符的转换:**Cast 运算符是一个**一元运算符**，它强制将一种数据类型转换为另一种数据类型。
-        C++支持四种类型的铸造:
+        C++ 支持四种类型的铸造:
         1.  [静态铸造](https://www.geeksforgeeks.org/static_cast-in-c-type-casting-operators/)
         2.  动态铸造
         3.  [Const Cast](https://www.geeksforgeeks.org/casting-operators-in-c-set-1-const_cast/)

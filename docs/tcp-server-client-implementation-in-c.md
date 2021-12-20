@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/TCP-server-client-implementation-in-c/](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)
 
-先决条件–[C/c++](https://www.geeksforgeeks.org/socket-programming-cc/)、 [TCP 和 UDP 服务器使用 select](https://www.geeksforgeeks.org/tcp-and-udp-server-using-select/) 、 [UDP 服务器-客户端在 C 中的实现](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
+先决条件–[C/c++ ](https://www.geeksforgeeks.org/socket-programming-cc/)、 [TCP 和 UDP 服务器使用 select](https://www.geeksforgeeks.org/tcp-and-udp-server-using-select/) 、 [UDP 服务器-客户端在 C 中的实现](https://www.geeksforgeeks.org/udp-server-client-implementation-c/)
 如果我们使用 TCP 在客户端和服务器之间创建连接，那么它几乎没有类似的功能，TCP 适用于要求高可靠性的应用程序，传输时间相对不那么关键。它被其他协议使用，如 HTTP、HTTPs、FTP、SMTP、Telnet。TCP 按照指定的顺序重新排列数据包。绝对保证传输的数据保持完整，并按照发送的顺序到达。TCP 进行流量控制，在发送任何用户数据之前，需要三个数据包来建立套接字连接。TCP 处理可靠性和拥塞控制。它还进行错误检查和错误恢复。错误的数据包从源重传到目的地。
 
 整个过程可以分解为以下步骤:
@@ -56,7 +56,7 @@ void func(int connfd)
         bzero(buff, MAX);
         n = 0;
         // copy server message in the buffer
-        while ((buff[n++] = getchar()) != '\n')
+        while ((buff[n++ ] = getchar()) != '\n')
             ;
 
         // and send that buffer to client
@@ -146,7 +146,7 @@ void func(int sockfd)
         bzero(buff, sizeof(buff));
         printf("Enter the string : ");
         n = 0;
-        while ((buff[n++] = getchar()) != '\n')
+        while ((buff[n++ ] = getchar()) != '\n')
             ;
         write(sockfd, buff, sizeof(buff));
         bzero(buff, sizeof(buff));

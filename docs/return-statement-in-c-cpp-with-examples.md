@@ -1,8 +1,8 @@
-# C/c++中的返回语句，示例
+# C/c++ 中的返回语句，示例
 
 > 原文:[https://www . geesforgeks . org/return-statement-in-c-CPP-with-examples/](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
 
-**先决条件:** [在 C/C++](https://www.geeksforgeeks.org/functions-in-c/) 中的功能
+**先决条件:** [在 C/C++ ](https://www.geeksforgeeks.org/functions-in-c/) 中的功能
 
 **返回语句**将执行流程返回到[函数](https://www.geeksforgeeks.org/functions-in-c/)，从这里调用它。这个语句不一定需要任何条件语句。语句一执行，程序的**流程立即停止**并从调用它的地方返回控制。return 语句可以为 void 函数返回任何东西，也可以不返回任何东西，但是对于非 void 函数，必须返回一个返回值。
 
@@ -15,7 +15,7 @@ return[expression];
 [![](img/f8e39f6e28383908160945b860ff3612.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128194949/CPP-return-statement.png) 
 使用返回语句的方式有多种。下面提到的很少:
 
-1.  **不返回值的方法:**在 C/C++中，当方法属于返回类型时，不能跳过返回语句。仅对于 void 类型，可以跳过 return 语句。
+1.  **不返回值的方法:**在 C/C++ 中，当方法属于返回类型时，不能跳过返回语句。仅对于 void 类型，可以跳过 return 语句。
     *   **Not using return statement in void return type function:** When a function does not return anything, the void return type is used. So if there is a void return type in the function definition, then there will be no return statement inside that function (generally).
 
         **语法:**

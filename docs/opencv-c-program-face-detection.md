@@ -1,4 +1,4 @@
-# 用于人脸检测的 OpenCV C++程序
+# 用于人脸检测的 OpenCV C++ 程序
 
 > 原文:[https://www . geesforgeks . org/opencv-c-program-face-detection/](https://www.geeksforgeeks.org/opencv-c-program-face-detection/)
 

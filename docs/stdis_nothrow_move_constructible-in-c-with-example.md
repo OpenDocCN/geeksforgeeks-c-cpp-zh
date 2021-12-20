@@ -1,4 +1,4 @@
-# STD::is _ northrow _ move _ 可在 C++中用示例
+# STD::is _ northrow _ move _ 可在 C++ 中用示例
 
 构造
 
@@ -35,7 +35,7 @@ std::is_nothrow_move_constructible<T>::value
 *   **true:** If the type **t** is a movable structural type.
 *   **False:** If the type **t** is not a movable structural type.
 
-下面是用 C/C++说明**标准::is _ northrow _ default _ construction 模板**的程序:
+下面是用 C/C++ 说明**标准::is _ northrow _ default _ construction 模板**的程序:
 
 **程序:**
 

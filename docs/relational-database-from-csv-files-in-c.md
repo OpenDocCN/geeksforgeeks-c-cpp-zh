@@ -63,7 +63,7 @@ int main()
         while (fgets(buffer,
                      1024, fp)) {
             column = 0;
-            row++;
+            row++ ;
 
             // To avoid printing of column
             // names in file can be changed
@@ -92,7 +92,7 @@ int main()
 
                 printf("%s", value);
                 value = strtok(NULL, ", ");
-                column++;
+                column++ ;
             }
 
             printf("\n");

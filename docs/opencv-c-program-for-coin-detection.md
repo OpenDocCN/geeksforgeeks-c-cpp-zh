@@ -1,8 +1,8 @@
-# 硬币检测 OpenCV C++程序
+# 硬币检测 OpenCV C++ 程序
 
 > 原文:[https://www . geesforgeks . org/opencv-c-硬币检测程序/](https://www.geeksforgeeks.org/opencv-c-program-for-coin-detection/)
 
-以下是使用 OpenCV 工具在 C++中对硬币检测的 C++代码的解释。
+以下是使用 OpenCV 工具在 C++ 中对硬币检测的 C++ 代码的解释。
 
 [![](img/22f77a5ba61b501be20ba522ef407e64.png)](https://media.geeksforgeeks.org/wp-content/uploads/coin-detection.jpg) 
 **事情要知道:**
@@ -108,6 +108,6 @@ End of explanation.
 
 关于作者:
 
-阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院的本科生。他主要用 C++编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
+阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院的本科生。他主要用 C++ 编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
 
 **如果你也想在这里展示你的博客，请查看 [GBlog](http://geeksquiz.com/gblog/) 在 GeeksforGeeks 上的客座博文。**

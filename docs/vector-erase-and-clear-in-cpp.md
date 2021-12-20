@@ -1,4 +1,4 @@
-# c++中的矢量擦除()和清除()
+# c++ 中的矢量擦除()和清除()
 
 > 原文:[https://www . geesforgeks . org/vector-erase-and-clear-in-CPP/](https://www.geeksforgeeks.org/vector-erase-and-clear-in-cpp/)
 
@@ -58,7 +58,7 @@ int main()
     // vector becomes empty
 
     // Printing the vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -124,7 +124,7 @@ int main()
     myvector.erase(it);
 
     // Printing the Vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -160,7 +160,7 @@ int main()
     myvector.erase(it1, it2);
 
     // Printing the Vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -199,7 +199,7 @@ int main()
 {
     vector<int> myvector{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-    for (auto i = myvector.begin(); i != myvector.end(); ++i) {
+    for (auto i = myvector.begin(); i != myvector.end(); ++ i) {
         if (*i % 2 == 0) {
             myvector.erase(i);
             i--;
@@ -207,7 +207,7 @@ int main()
     }
 
     // Printing the vector
-    for (auto it = myvector.begin(); it != myvector.end(); ++it)
+    for (auto it = myvector.begin(); it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

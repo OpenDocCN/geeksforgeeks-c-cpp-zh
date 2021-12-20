@@ -1,10 +1,10 @@
-# 在 C++中模拟最终类
+# 在 C++ 中模拟最终类
 
 > 原文:[https://www.geeksforgeeks.org/simulating-final-class-in-c/](https://www.geeksforgeeks.org/simulating-final-class-in-c/)
 
-有没有想过如何用 C++设计一个不能被继承的类。Java 和 C#编程语言内置了这个特性。你可以在 java 中使用 [final](https://www.geeksforgeeks.org/final-keyword-in-java/) 关键字，在 C# 中使用[来使一个类不可扩展。](https://www.geeksforgeeks.org/c-sharp-sealed-class/)
+有没有想过如何用 C++ 设计一个不能被继承的类。Java 和 C#编程语言内置了这个特性。你可以在 java 中使用 [final](https://www.geeksforgeeks.org/final-keyword-in-java/) 关键字，在 C# 中使用[来使一个类不可扩展。](https://www.geeksforgeeks.org/c-sharp-sealed-class/)
 
-下面是一个机制，使用它我们可以在 C++中实现相同的行为。它利用私有构造函数、虚拟继承和友元类。
+下面是一个机制，使用它我们可以在 C++ 中实现相同的行为。它利用私有构造函数、虚拟继承和友元类。
 
 在下面的代码中，我们使 ***【最终】*** 类不可继承。当一个类 ***派生*** 试图继承它时，我们得到一个编译错误。
 一个额外的类 ***MakeFinal*** (其默认构造函数是私有的)用于我们的目的。 ***Final*** 的构造函数可以将 ***MakeFinal*** 的私有构造函数调用为 ***Final*** 是 ***MakeFinal*** 的朋友。

@@ -1,4 +1,4 @@
-# c++中的模板和静态变量
+# c++ 中的模板和静态变量
 
 > 原文:[https://www . geesforgeks . org/templates-and-static-variables-in-c/](https://www.geeksforgeeks.org/templates-and-static-variables-in-c/)
 
@@ -14,7 +14,7 @@ template <typename T>
 void fun(const T& x)
 {
   static int i = 10;
-  cout << ++i;
+  cout << ++ i;
   return;
 }
 
@@ -57,7 +57,7 @@ public:
   static int count;
   Test()
   {
-    count++;
+    count++ ;
   }
   // some other stuff in class
 };

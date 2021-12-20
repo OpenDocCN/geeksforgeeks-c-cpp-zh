@@ -1,4 +1,4 @@
-# 在 C++中交换不同容器的子范围
+# 在 C++ 中交换不同容器的子范围
 
 > 原文:[https://www . geeksforgeeks . org/从不同容器交换子范围-in-c/](https://www.geeksforgeeks.org/swapping-of-subranges-from-different-containers-in-c/)
 

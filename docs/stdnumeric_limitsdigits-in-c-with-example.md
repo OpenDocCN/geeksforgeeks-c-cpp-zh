@@ -1,4 +1,4 @@
-# 标准::数值 _ 限制::C++中的数字，示例
+# 标准::数值 _ 限制::C++ 中的数字，示例
 
 > 原文:[https://www . geesforgeks . org/stdnumeric _ limitsdigts-in-c-with-example/](https://www.geeksforgeeks.org/stdnumeric_limitsdigits-in-c-with-example/)
 
@@ -30,7 +30,7 @@ std::numeric_limits<T>::digits
 
 **返回值:**函数**STD::numeric _ limits<T>:digits**返回该类型可以表示的基数位数而不损失精度。
 
-下面是用 C++演示**标准:数值极限< T >数字**的程序:
+下面是用 C++ 演示**标准:数值极限< T >数字**的程序:
 
 **程序:**
 

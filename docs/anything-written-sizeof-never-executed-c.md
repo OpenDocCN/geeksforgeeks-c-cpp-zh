@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/any-writed-sizeof-never-executed-c/](https://www.geeksforgeeks.org/anything-written-sizeof-never-executed-c/)
 
-在 C/C++中，sizeof()运算符用于查找日期类型或变量的大小。从不执行用 sizeof()编写的表达式。
+在 C/C++ 中，sizeof()运算符用于查找日期类型或变量的大小。从不执行用 sizeof()编写的表达式。
 
 示例:
 

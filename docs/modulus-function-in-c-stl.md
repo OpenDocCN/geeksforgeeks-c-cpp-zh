@@ -81,7 +81,7 @@ int main()
     // Create a std::vector with elements
     // {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
     vector<int> v;
-    for (int i = 0; i < 10; ++i)
+    for (int i = 0; i < 10; ++ i)
         v.push_back(i);
 
     // Perform a modulus of two on every element

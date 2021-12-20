@@ -1,4 +1,4 @@
-# c++中的 stringstream 及其应用
+# c++ 中的 stringstream 及其应用
 
 > 原文:[https://www.geeksforgeeks.org/stringstream-c-applications/](https://www.geeksforgeeks.org/stringstream-c-applications/)
 
@@ -40,7 +40,7 @@ stringstream 类在解析输入时非常有用。
 
         int count = 0;
         while (s >> word)
-            count++;
+            count++ ;
         return count;
     }
 
@@ -90,7 +90,7 @@ stringstream 类在解析输入时非常有用。
         string Word; // To store individual words
 
         while (ss >> Word)
-            FW[Word]++;
+            FW[Word]++ ;
 
         map<string, int>::iterator m;
         for (m = FW.begin(); m != FW.end(); m++)
@@ -117,7 +117,7 @@ stringstream 类在解析输入时非常有用。
     ```
 
 3.  [使用 Stringstream 删除字符串中的空格](https://www.geeksforgeeks.org/removing-spaces-string-using-stringstream/)
-4.  [在 C/C++中将字符串转换为数字](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
+4.  [在 C/C++ 中将字符串转换为数字](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
 
 本文由 **ASIPU PAWAN KUMAR** 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

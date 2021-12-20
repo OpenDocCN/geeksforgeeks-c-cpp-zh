@@ -10,6 +10,6 @@
 
 **答案:****(D)**
 
-**解释:**参见[我们在 C++中什么时候使用初始化列表？](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
+**解释:**参见[我们在 C++ 中什么时候使用初始化列表？](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
 
 [本题小考](https://www.geeksforgeeks.org/quiz-corner-gq/)

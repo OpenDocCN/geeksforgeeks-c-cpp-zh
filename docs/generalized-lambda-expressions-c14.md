@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/generalized-lambda-expressions-C14/](https://www.geeksforgeeks.org/generalized-lambda-expressions-c14/)
 
-在 C++11 中引入了 Lambda 表达式。它们基本上是代码片段，可以嵌套在其他函数甚至函数调用语句中。通过将 lambda 表达式与 auto 关键字相结合，这些表达式随后可以在程序中使用。
+在 C++ 11 中引入了 Lambda 表达式。它们基本上是代码片段，可以嵌套在其他函数甚至函数调用语句中。通过将 lambda 表达式与 auto 关键字相结合，这些表达式随后可以在程序中使用。
 
 我们在这篇文章[中详细讨论了λ表达式。在继续阅读本文之前，请确保您已经阅读了链接的文章，或者了解 lambda 表达式语义，如范围捕获、返回值。](https://www.geeksforgeeks.org/lambda-expression-in-c/)
 
@@ -152,7 +152,7 @@ Tom Shyam Ram Harry
 
 ```
 
-**注意:**广义 Lambda 表达式仅适用于 C++标准 14 及更高版本。支持 C++ 14 的编译器列表在参考资料部分给出
+**注意:**广义 Lambda 表达式仅适用于 C++ 标准 14 及更高版本。支持 C++ 14 的编译器列表在参考资料部分给出
 
 **参考文献:**
 

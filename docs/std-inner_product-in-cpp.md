@@ -1,4 +1,4 @@
-# STD::c++中的 inner _ product
+# STD::c++ 中的 inner _ product
 
 > 原文:[https://www.geeksforgeeks.org/std-inner_product-in-cpp/](https://www.geeksforgeeks.org/std-inner_product-in-cpp/)
 

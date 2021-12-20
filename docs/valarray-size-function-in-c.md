@@ -1,4 +1,4 @@
-# c++中 valarray size()函数
+# c++ 中 valarray size()函数
 
 > 原文:[https://www.geeksforgeeks.org/valarray-size-function-in-c/](https://www.geeksforgeeks.org/valarray-size-function-in-c/)
 

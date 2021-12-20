@@ -1,8 +1,8 @@
-# 用 C++中的 STL 找到可以被 N 整除的数组元素
+# 用 C++ 中的 STL 找到可以被 N 整除的数组元素
 
 > 原文:[https://www . geesforgeks . org/find-数组中可被 n 整除的元素-使用-stl-in-c/](https://www.geeksforgeeks.org/find-elements-of-an-array-which-are-divisible-by-n-using-stl-in-c/)
 
-给定一个数组和一个整数 N，用 C++中的 STL 找到能被 N 整除的元素
+给定一个数组和一个整数 N，用 C++ 中的 STL 找到能被 N 整除的元素
 
 **例:**
 
@@ -21,7 +21,7 @@ Therefore the output is 3
 
 ```
 
-**方法:**这可以使用 C++中的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 方法来实现
+**方法:**这可以使用 C++ 中的 [count_if()](https://www.geeksforgeeks.org/count_if-in-c/) 方法来实现
 
 **语法:**
 

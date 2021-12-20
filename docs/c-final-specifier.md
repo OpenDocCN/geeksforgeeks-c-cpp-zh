@@ -1,8 +1,8 @@
-# C++最终说明符
+# C++ 最终说明符
 
 > 原文:[https://www.geeksforgeeks.org/c-final-specifier/](https://www.geeksforgeeks.org/c-final-specifier/)
 
-在 Java 中，我们可以对一个函数使用 [final](http://geeksquiz.com/java/final-keyword/) 来确保它不能被覆盖。我们还可以在 Java 中使用 final 来确保类不能被继承。同样，最新的 C++标准 [C++ 11](http://en.wikipedia.org/wiki/C%2B%2B11) 增加了 final。
+在 Java 中，我们可以对一个函数使用 [final](http://geeksquiz.com/java/final-keyword/) 来确保它不能被覆盖。我们还可以在 Java 中使用 final 来确保类不能被继承。同样，最新的 C++ 标准 [C++ 11](http://en.wikipedia.org/wiki/C%2B%2B11) 增加了 final。
 **在 C++ 11 中使用最终说明符:**
 有时候你不想让派生类覆盖基类的虚函数。 [C++ 11](http://en.wikipedia.org/wiki/C%2B%2B11) 允许内置工具防止使用最终说明符重写虚函数。
 

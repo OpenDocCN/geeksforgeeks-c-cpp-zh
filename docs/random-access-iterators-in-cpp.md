@@ -1,10 +1,10 @@
-# c++中的随机访问迭代器
+# c++ 中的随机访问迭代器
 
 > 原文:[https://www . geesforgeks . org/random-access-iterators-in-CPP/](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)
 
 浏览了各种 STL 算法的模板定义，如 [std::nth_element](https://www.geeksforgeeks.org/stdnth_element-in-cpp/) 、 [std::sort](https://www.geeksforgeeks.org/sort-c-stl/) ，您一定找到了它们的模板定义，该定义由类型为**的随机访问迭代器**的对象组成。那么它们是什么，为什么被使用？
 
-**随机访问迭代器**是 C++标准库中存在的五种主要类型的迭代器之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)** 和 **[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 。
+**随机访问迭代器**是 C++ 标准库中存在的五种主要类型的迭代器之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)** 和 **[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)** 。
 
 随机访问迭代器是一种迭代器，可用于**访问相对于它们所指向元素的任意偏移位置**的元素，提供与指针相同的功能。随机访问迭代器在功能上是**最完整的迭代器**。所有指针类型也是有效的随机访问迭代器。
 
@@ -42,13 +42,13 @@
         // Declaring an iterator
         vector<int>::iterator i1;
 
-        for (i1=v1.begin();i1!=v1.end();++i1)
+        for (i1=v1.begin();i1!=v1.end();++ i1)
         {
             // Assigning values to locations pointed by iterator
             *i1 = 7;
         }
 
-        for (i1=v1.begin();i1!=v1.end();++i1)
+        for (i1=v1.begin();i1!=v1.end();++ i1)
         {
             // Accessing values at locations pointed by iterator
             cout << (*i1) << " ";
@@ -73,7 +73,7 @@
 
     ```cpp
     A++   // Using post increment operator
-    ++A   // Using pre increment operator
+    ++ A   // Using pre increment operator
 
     ```
 
@@ -197,7 +197,7 @@
 
         // Accessing elements using offset dereference
         // operator [ ]
-        for(i=0;i<5;++i)
+        for(i=0;i<5;++ i)
         {
             cout << v1[i] << " ";
         }
@@ -238,7 +238,7 @@
 
     在这里，我们可以看到我们使用了随机访问迭代器，因为没有其他类型的迭代器支持算术运算符，这就是我们使用它的原因。
 
-事实上，如果你正在考虑使用随机访问迭代器，那么你可以**使用随机访问迭代器来代替任何其他类型的迭代器**，因为它是 C++标准库中最强和最好的迭代器类型。
+事实上，如果你正在考虑使用随机访问迭代器，那么你可以**使用随机访问迭代器来代替任何其他类型的迭代器**，因为它是 C++ 标准库中最强和最好的迭代器类型。
 
 本文由**姆里根德拉·辛格**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://www.contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

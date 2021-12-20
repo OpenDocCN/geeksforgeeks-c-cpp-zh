@@ -1,4 +1,4 @@
-# c++中的 Chrono
+# c++ 中的 Chrono
 
 > 原文:[https://www.geeksforgeeks.org/chrono-in-c/](https://www.geeksforgeeks.org/chrono-in-c/)
 
@@ -48,7 +48,7 @@ duration (in seconds): 60 seconds.
 
 **时钟**
 
-时钟由一个起点(或纪元)和一个刻度率组成。例如，一个时钟可能有一个 1996 年 2 月 22 日的纪元，并且每秒都在滴答作响。C++定义了三种时钟类型:
+时钟由一个起点(或纪元)和一个刻度率组成。例如，一个时钟可能有一个 1996 年 2 月 22 日的纪元，并且每秒都在滴答作响。C++ 定义了三种时钟类型:
 
 *   **system _ clock**-是根据系统显示的当前时间(我们在电脑工具栏上看到的常规时钟)。它被写成- std::chrono::system_clock
 

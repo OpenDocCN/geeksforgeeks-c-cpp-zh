@@ -1,8 +1,8 @@
-# c++中 log()函数
+# c++ 中 log()函数
 
 > 原文:[https://www.geeksforgeeks.org/log-function-cpp/](https://www.geeksforgeeks.org/log-function-cpp/)
 
-**c++中的 log()函数:**c++中的 Log()函数返回参数中传递的参数的自然对数(以-e 为底的对数)。
+**c++ 中的 log()函数:**c++ 中的 Log()函数返回参数中传递的参数的自然对数(以-e 为底的对数)。
 T3】
 
 > 返回自然对数的语法:

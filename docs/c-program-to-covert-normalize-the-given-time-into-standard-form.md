@@ -1,8 +1,8 @@
-# 将给定时间转换/归一化为标准形式的 C++程序
+# 将给定时间转换/归一化为标准形式的 C++ 程序
 
 > 原文:[https://www . geeksforgeeks . org/c-程序到隐蔽-正常化-给定时间到标准形式/](https://www.geeksforgeeks.org/c-program-to-covert-normalize-the-given-time-into-standard-form/)
 
-给定三个代表小时、分钟和秒的变量，任务是编写一个 [C++程序](https://www.geeksforgeeks.org/c-plus-plus/)将给定时间归一化/转换成标准形式，即 **HR: MIN: SEC** 格式。
+给定三个代表小时、分钟和秒的变量，任务是编写一个 [C++ 程序](https://www.geeksforgeeks.org/c-plus-plus/)将给定时间归一化/转换成标准形式，即 **HR: MIN: SEC** 格式。
 
 **示例:**
 

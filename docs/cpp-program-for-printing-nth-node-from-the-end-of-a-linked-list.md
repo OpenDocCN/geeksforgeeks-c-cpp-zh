@@ -1,4 +1,4 @@
-# 从链表末尾打印第 n 个节点的 C++程序
+# 从链表末尾打印第 n 个节点的 C++ 程序
 
 > 原文:[https://www . geesforgeks . org/CPP-打印程序-链接列表末尾的第 n 个节点/](https://www.geeksforgeeks.org/cpp-program-for-printing-nth-node-from-the-end-of-a-linked-list/)
 
@@ -16,7 +16,7 @@
 
 下面是上述方法的实现:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to find n'th node from 
@@ -44,7 +44,7 @@ void printNthFromLast(struct Node* head, 
     while (temp != NULL) 
     {
         temp = temp->next;
-        len++;
+        len++ ;
     }
 
     // check if value of n is not
@@ -115,7 +115,7 @@ void printNthFromLast(struct Node* head, int n)
     if (head == NULL)
         return;
     printNthFromLast(head->next, n);
-    if (++i == n)
+    if (++ i == n)
         cout<<head->data;
 }
 ```
@@ -163,7 +163,7 @@ void printNthFromLast(struct Node *head, int n)
            return;
         }
         ref_ptr = ref_ptr->next;
-        count++;
+        count++ ;
      } /* End of while*/
 
      if(ref_ptr == NULL)

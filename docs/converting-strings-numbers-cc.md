@@ -1,4 +1,4 @@
-# 在 C/C++中将字符串转换为数字
+# 在 C/C++ 中将字符串转换为数字
 
 > 原文:[https://www . geesforgeks . org/converting-strings-numbers-cc/](https://www.geeksforgeeks.org/converting-strings-numbers-cc/)
 
@@ -90,7 +90,7 @@ Value of x : 12345
 
 ```cpp
 // C++ program to demonstrate working of stoi()
-// Work only if compiler supports C++11 or above.
+// Work only if compiler supports C++ 11 or above.
 #include <iostream>
 #include <string>
 using namespace std;
@@ -129,7 +129,7 @@ stoi("31337 geek") is 31337
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
 ```cpp
-// For C++11 above
+// For C++ 11 above
 #include <cstdlib>
 #include <iostream>
 using namespace std;
@@ -190,7 +190,7 @@ atoi("31337 geek") is 31337
 
 *   atoi()是一个遗留的 C 风格函数。stoi()是在 C++ 11 中添加的。
 
-*   atoi()只适用于 C 风格的字符串(字符数组和字符串文字)，stoi()适用于 C++字符串和 C 风格的字符串
+*   atoi()只适用于 C 风格的字符串(字符数组和字符串文字)，stoi()适用于 C++ 字符串和 C 风格的字符串
 *   atoi()只接受一个参数并返回整数值。
 
 ```cpp

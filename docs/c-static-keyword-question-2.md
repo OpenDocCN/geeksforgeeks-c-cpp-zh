@@ -13,7 +13,7 @@ private:
     static int next_id;
 public:
     int getID() { return id; }
-    Player()  {  id = next_id++; }
+    Player()  {  id = next_id++ ; }
 };
 int Player::next_id = 1;
 

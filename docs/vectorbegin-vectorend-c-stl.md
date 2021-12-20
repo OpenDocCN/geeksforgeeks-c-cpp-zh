@@ -53,7 +53,7 @@ int main()
 
     // using begin() to print vector
     for (auto it = myvector.begin();
-         it != myvector.end(); ++it)
+         it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -85,7 +85,7 @@ int main()
 
     // using begin() to print vector
     for (auto it = myvector.begin();
-         it != myvector.end(); ++it)
+         it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -148,7 +148,7 @@ int main()
 
     // using end() to print vector
     for (auto it = myvector.begin();
-         it != myvector.end(); ++it)
+         it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -180,7 +180,7 @@ int main()
 
     // using end() to print vector
     for (auto it = myvector.begin();
-         it != myvector.end(); ++it)
+         it != myvector.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

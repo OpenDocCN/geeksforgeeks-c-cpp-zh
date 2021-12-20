@@ -1,4 +1,4 @@
-# c++中线程 get_id()函数
+# c++ 中线程 get_id()函数
 
 > 原文:[https://www.geeksforgeeks.org/thread-get_id-function-in-c/](https://www.geeksforgeeks.org/thread-get_id-function-in-c/)
 
@@ -12,7 +12,7 @@ thread_name.get_id();
 **参数:**此功能不接受任何参数。
 **返回值:**该方法返回一个类型为 **std::thread::id** 的值，该值标识与该*关联的线程，即返回用于调用 get_id 函数的**线程。当没有识别到这样的线程时，返回**默认构造的 std::thread::id** 。
 下面的例子演示了 std::thread::get_id()方法的使用:
-**注意**:在线 IDE 上这个程序会显示错误。要编译这个，在命令“**g++–STD = c++ 14-pthread file . CPP**”的帮助下，使用 g++编译器编译上的标志“-pthread”。** 
+**注意**:在线 IDE 上这个程序会显示错误。要编译这个，在命令“**g++–STD = c++ 14-pthread file . CPP**”的帮助下，使用 g++ 编译器编译上的标志“-pthread”。** 
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

@@ -1,4 +1,4 @@
-# c++中的字符串查找
+# c++ 中的字符串查找
 
 > 原文:[https://www.geeksforgeeks.org/string-find-in-cpp/](https://www.geeksforgeeks.org/string-find-in-cpp/)
 

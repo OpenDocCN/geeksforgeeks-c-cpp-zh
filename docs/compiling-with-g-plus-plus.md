@@ -4,9 +4,9 @@
 
 > 原文:[https://www.geeksforgeeks.org/compiling-with-g-plus-plus/](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/)
 
-**g++** 命令是 GNU c++编译器调用命令，用于对源代码进行预处理、编译、汇编和链接，生成可执行文件。g++命令的不同“选项”允许我们在中间阶段停止这个过程。
+**g++** 命令是 GNU c++ 编译器调用命令，用于对源代码进行预处理、编译、汇编和链接，生成可执行文件。g++ 命令的不同“选项”允许我们在中间阶段停止这个过程。
 
-*   **查看 g++编译器版本信息:**
+*   **查看 g++ 编译器版本信息:**
 
 ```cpp
 g++ --version

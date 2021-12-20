@@ -1,4 +1,4 @@
-# STD::is _ 同 C++模板，示例
+# STD::is _ 同 C++ 模板，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ same-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_same-template-in-c-with-examples/)
 
@@ -42,7 +42,7 @@ std::is_same<A, B>::value
 *   **true:** If type **a** is the same as type **b** .
 *   **False:** If type **a** is different from type **b** .
 
-下面是在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::is_same** 的程序:
+下面是在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中演示 **std::is_same** 的程序:
 
 **程序:**
 

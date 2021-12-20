@@ -1,4 +1,4 @@
-# cos()函数在 C++中为复数
+# cos()函数在 C++ 中为复数
 
 > 原文:[https://www . geeksforgeeks . org/cos-function-for-complex-number-in-CPP/](https://www.geeksforgeeks.org/cos-function-for-complex-number-in-cpp/)
 
@@ -17,7 +17,7 @@ cos (z);
 
 **返回值:**此函数返回复数 z 的 cos()
 
-下面的程序说明了 C++中的 cos()函数:
+下面的程序说明了 C++ 中的 cos()函数:
 
 **程序 1:-**
 

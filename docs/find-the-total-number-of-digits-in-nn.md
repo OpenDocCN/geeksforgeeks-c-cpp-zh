@@ -56,7 +56,7 @@ int CountDigits(int n)
     double sum = 0;
 
     // Finding X
-    for (int i = 2; i <= n; ++i) {
+    for (int i = 2; i <= n; ++ i) {
         sum += (double)log(i) / (double)log(10);
     }
 
@@ -99,7 +99,7 @@ public double CountDigits(int n)
     double sum = 0;
 
     // Finding X
-    for (int i = 2; i <= n; ++i)
+    for (int i = 2; i <= n; ++ i)
     {
         sum += ((double)Math.log(i) /
                 (double)Math.log(10));
@@ -178,7 +178,7 @@ public double CountDigits(int n)
     double sum = 0;
 
     // Finding X
-    for (int i = 2; i <= n; ++i)
+    for (int i = 2; i <= n; ++ i)
     {
         sum += ((double)Math.Log(i) /
                 (double)Math.Log(10));
@@ -257,7 +257,7 @@ echo CountDigits($N);
         var sum = 0;
 
         // Finding X
-        for (i = 2; i <= n; ++i) {
+        for (i = 2; i <= n; ++ i) {
             sum += (Math.log(i) /  Math.log(10));
         }
 

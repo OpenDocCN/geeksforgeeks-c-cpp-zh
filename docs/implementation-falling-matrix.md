@@ -2,9 +2,9 @@
 
 > 原文:[https://www . geesforgeks . org/implementation-fall-matrix/](https://www.geeksforgeeks.org/implementation-falling-matrix/)
 
-自从计算机出现以来，好莱坞已经很好地展示了一个黑客或程序员，他坐在电脑上，在电脑上输入随机键，最终编译成一个类似模拟的坠落矩阵。这里，我们将尝试使用 C++在控制台上实现类似的下降矩阵模拟。
+自从计算机出现以来，好莱坞已经很好地展示了一个黑客或程序员，他坐在电脑上，在电脑上输入随机键，最终编译成一个类似模拟的坠落矩阵。这里，我们将尝试使用 C++ 在控制台上实现类似的下降矩阵模拟。
 
-![A Falling-Matrix on command line using C++](img/4026e71f90d28ecc6124d6226565c592.png)
+![A Falling-Matrix on command line using C++ ](img/4026e71f90d28ecc6124d6226565c592.png)
 
 这里的想法是在一个定义的宽度上打印随机字符，其中两个连续的字符可能有也可能没有随机定义的一定量的间隙。为了产生“下降效应”，必须在打印连续行之间实现一定量的延迟。
 
@@ -65,7 +65,7 @@ int main()
 
         // Flip the defined amount of Boolean values
         // after each line
-        for (i=0; i!=flipsPerLine; ++i)
+        for (i=0; i!=flipsPerLine; ++ i)
         {
             x = rand() % width;
             switches[x] = !switches[x];
@@ -90,7 +90,7 @@ int main()
 *   如果您在编译这个程序时遇到编译器错误。在 GCC 上使用下面的命令编译它。
 
     ```cpp
-    $ g++ -std=c++11 abc.cpp -o falling.o
+    $ g++ -std=c++ 11 abc.cpp -o falling.o
     $ falling.o 
     ```
 

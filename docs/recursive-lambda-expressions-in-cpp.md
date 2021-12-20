@@ -1,4 +1,4 @@
-# c++中的递归 lambda 表达式
+# c++ 中的递归 lambda 表达式
 
 > 原文:[https://www . geesforgeks . org/recursive-lambda-expressions-in-CPP/](https://www.geeksforgeeks.org/recursive-lambda-expressions-in-cpp/)
 
@@ -36,9 +36,9 @@ int fact(int n)
 
 **程序 1:**
 
-下面是 C++中 [sort()方法](https://www.geeksforgeeks.org/sort-c-stl/)中 lambda 表达式的程序:
+下面是 C++ 中 [sort()方法](https://www.geeksforgeeks.org/sort-c-stl/)中 lambda 表达式的程序:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -72,7 +72,7 @@ int main()
 
 **程序 2:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -110,7 +110,7 @@ int main()
 
 **程序 3:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -147,9 +147,9 @@ int main()
 
 **程序 4:**
 
-下面是使用 lambda 表达式实现上述代码的 C++程序:
+下面是使用 lambda 表达式实现上述代码的 C++ 程序:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -190,11 +190,11 @@ int main()
 
 **1。通过将函数本身传递给函数参数:**
 
-下面是实现上述概念的 C++程序:
+下面是实现上述概念的 C++ 程序:
 
 **程序 5:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -234,7 +234,7 @@ int main()
 
 **程序 6:**
 
-下面是实现上述概念的 C++程序:
+下面是实现上述概念的 C++ 程序:
 
 ## C++
 
@@ -269,9 +269,9 @@ Hello I am learning how to declare a function
 
 **程序 7:**
 
-因为它是一个 lambda 函数，所以必须有某种独特的方法来声明这个函数。下面是同样的 C++程序:
+因为它是一个 lambda 函数，所以必须有某种独特的方法来声明这个函数。下面是同样的 C++ 程序:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -314,11 +314,11 @@ int main()
 5 4 3 2 1 
 ```
 
-**说明:**在上面的代码中，首先声明了函数 printReverse，然后我们定义了它的主体。相反，我们可以直接声明函数及其主体，这就是所谓的定义函数。下面是实现上述方法的 C++程序:
+**说明:**在上面的代码中，首先声明了函数 printReverse，然后我们定义了它的主体。相反，我们可以直接声明函数及其主体，这就是所谓的定义函数。下面是实现上述方法的 C++ 程序:
 
 **程序 8:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -358,7 +358,7 @@ int main()
 
 **程序 9:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement
@@ -404,7 +404,7 @@ int main()
 
 **程序 10:**
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program to implement

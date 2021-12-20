@@ -65,7 +65,7 @@ int main()
     // erase by range
     cout << "After erasing by Range : \n";
     auto it = um.begin();
-    it++; // Returns iterator pointing to second element
+    it++ ; // Returns iterator pointing to second element
     um.erase(it, um.end());
     for (auto p : um)
         cout << p.first << "==>" << p.second << "\n";

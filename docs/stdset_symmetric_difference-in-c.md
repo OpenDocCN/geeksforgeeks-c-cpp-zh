@@ -1,4 +1,4 @@
-# 用例子在 C++中设置 _ 对称 _ 差
+# 用例子在 C++ 中设置 _ 对称 _ 差
 
 > 原文:[https://www . geesforgeks . org/stdset _ symmetric _ difference-in-c/](https://www.geeksforgeeks.org/stdset_symmetric_difference-in-c/)
 
@@ -86,7 +86,7 @@ int main()
 
     std::cout << "The symmetric difference has "
               << (it - v.begin()) << " elements:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         std::cout << ' ' << *st;
     std::cout << '\n';
 
@@ -176,7 +176,7 @@ int main()
 
     std::cout << "The symmetric difference has "
               << (it - v.begin()) << " elements:\n";
-    for (st = v.begin(); st != it; ++st)
+    for (st = v.begin(); st != it; ++ st)
         std::cout << ' ' << *st;
     std::cout << '\n';
 

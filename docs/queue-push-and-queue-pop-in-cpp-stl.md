@@ -6,7 +6,7 @@
 
 ### 队列::推送()
 
-push()函数用于在队列的后面插入一个元素。这是来自 [C++标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<队列>** 头文件。元素被添加到队列容器中，队列的大小增加 1。
+push()函数用于在队列的后面插入一个元素。这是来自 [C++ 标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<队列>** 头文件。元素被添加到队列容器中，队列的大小增加 1。
 
 **语法:**
 
@@ -72,7 +72,7 @@ int main()
 
 ### 伫列::pop()
 
-pop()函数用于从队列前面移除一个元素(队列中最早的元素)。这是一个来自 C++标准模板库(STL)的内置函数。该功能属于 **<队列>** 头文件。元素从队列容器中移除，队列的大小减少 1。
+pop()函数用于从队列前面移除一个元素(队列中最早的元素)。这是一个来自 C++ 标准模板库(STL)的内置函数。该功能属于 **<队列>** 头文件。元素从队列容器中移除，队列的大小减少 1。
 
 **语法:**
 
@@ -181,7 +181,7 @@ int main()
     // Counting number of elements in queue
     while (!myqueue.empty()) {
         myqueue.pop();
-        c++;
+        c++ ;
     }
     cout << c;
 }

@@ -1,4 +1,4 @@
-# C/c++中的一元运算符
+# C/c++ 中的一元运算符
 
 > 原文:[https://www.geeksforgeeks.org/unary-operators-cc/](https://www.geeksforgeeks.org/unary-operators-cc/)
 
@@ -28,11 +28,11 @@
     用于将变量的值增加 1。增量可以通过两种方式完成:
 
 1.  **前缀增量**
-    在此方法中，运算符位于操作数之前(例如，++a)。在使用之前，操作数的值将被改变*。
+    在此方法中，运算符位于操作数之前(例如，++ a)。在使用之前，操作数的值将被改变*。
 
     ```cpp
       int a = 1;
-      int b = ++a;  // b = 2
+      int b = ++ a;  // b = 2
 
     ```* 
 2.  **后缀增量**
@@ -40,7 +40,7 @@
 
     ```cpp
      int a = 1;
-     int b = a++;   // b = 1
+     int b = a++ ;   // b = 1
      int c = a;     // c = 2
 
     ```* 
@@ -65,7 +65,7 @@
 
         ```* 
 
-    **组合前缀和后缀操作的 C++程序:**
+    **组合前缀和后缀操作的 C++ 程序:**
 
     ```cpp
     // C++ program to demonstrate working of unary increment
@@ -78,16 +78,16 @@
         // Post increment
         int a = 1;
         cout << "a value: " << a << endl;
-        int b = a++;
+        int b = a++ ;
         cout << "b value after a++ : " << b << endl;
         cout << "a value after a++ : " << a << endl;
 
         // Pre increment
         a = 1;
         cout << "a value:" << a << endl;
-        b = ++a;
-        cout << "b value after ++a : " << b << endl;
-        cout << "a value after ++a : "<< a << endl;
+        b = ++ a;
+        cout << "b value after ++ a : " << b << endl;
+        cout << "a value after ++ a : "<< a << endl;
 
         // Post decrement
         a = 5;
@@ -114,8 +114,8 @@
     b value after a++ : 1
     a value after a++ : 2
     a value:1
-    b value after ++a : 2
-    a value after ++a : 2
+    b value after ++ a : 2
+    a value after ++ a : 2
     a value before decrement: 5
     b value after a-- : 5
     a value after a-- : 4

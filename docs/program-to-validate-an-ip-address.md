@@ -75,7 +75,7 @@ int is_valid_ip(char* ip_str)
     // for it to be valid
     for (int i = 0; i < len; i++)
         if (ip_str[i] == '.')
-            count++;
+            count++ ;
     if (count != 3)
         return false;
 
@@ -93,7 +93,7 @@ int is_valid_ip(char* ip_str)
             /* parse remaining string */
             ptr = strtok(NULL, ".");
             if (ptr != NULL)
-                ++dots;
+                ++ dots;
         }
         else
             return 0;

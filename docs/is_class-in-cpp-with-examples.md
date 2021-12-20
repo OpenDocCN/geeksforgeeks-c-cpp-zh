@@ -1,4 +1,4 @@
-# 是 C++中的 _class 模板
+# 是 C++ 中的 _class 模板
 
 > 原文:[https://www . geesforgeks . org/is _ class-in-CPP-with-examples/](https://www.geeksforgeeks.org/is_class-in-cpp-with-examples/)
 
@@ -18,7 +18,7 @@ template <class T> struct is_class;
 *   **True:** 如果类型是类类。
 *   **False:** 如果类型是类类。
 
-下面的程序说明了 C++中的 std::is_class 模板:
+下面的程序说明了 C++ 中的 std::is_class 模板:
 
 **程序 1:** :
 

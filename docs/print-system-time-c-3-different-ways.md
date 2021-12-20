@@ -1,4 +1,4 @@
-# 用 C++打印系统时间(3 种不同方式)
+# 用 C++ 打印系统时间(3 种不同方式)
 
 > 原文:[https://www . geesforgeks . org/print-system-time-c-3-differential-way/](https://www.geeksforgeeks.org/print-system-time-c-3-different-ways/)
 

@@ -18,7 +18,7 @@ while(1) or while(2) or while(any non-zero integer)
 
 但实际上，在现实世界中使用 **while(1)或 while(任何非零整数)**是不可取的，因为它增加了 CPU 的使用，并且还会阻塞代码，即在程序手动关闭之前，不能从 **while(1)** 中出来。**而(1)** 可以用在条件总是需要真实的地方。
 
-下面是在 C/C++中说明 while(1)和 while(2)的代码:
+下面是在 C/C++ 中说明 while(1)和 while(2)的代码:
 
 **节目 1:**
 
@@ -34,7 +34,7 @@ int main()
     int i = 0;
     while (1) {
 
-        printf("%d ", ++i);
+        printf("%d ", ++ i);
         if (i == 5) {
 
             // Break to come out of loop
@@ -58,7 +58,7 @@ int main()
     int i = 0;
     while (1) {
 
-        cout << ++i << " ";
+        cout << ++ i << " ";
         if (i == 5) {
 
             // Break to come out of loop
@@ -90,7 +90,7 @@ int main()
     int i = 0;
     while (2) {
 
-        printf("%d ", ++i);
+        printf("%d ", ++ i);
         if (i == 5) {
 
             // Break to come out of loop
@@ -114,7 +114,7 @@ int main()
     int i = 0;
     while (2) {
 
-        cout << ++i << " ";
+        cout << ++ i << " ";
         if (i == 5) {
 
             // Break to come out of loop

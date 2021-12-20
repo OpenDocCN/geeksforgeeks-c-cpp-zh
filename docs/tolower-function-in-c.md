@@ -72,7 +72,7 @@ int main()
         // convert ch to lowercase using toLower()
         putchar(tolower(ch));
 
-        j++;
+        j++ ;
     }
 
     return 0;
@@ -116,7 +116,7 @@ int main()
     while (str[j]) {
         ch = str[j];
         putchar(tolower(ch));
-        j++;
+        j++ ;
     }
 
     return 0;

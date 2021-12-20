@@ -1,4 +1,4 @@
-# STD::c++中的除法
+# STD::c++ 中的除法
 
 > 原文:[https://www.geeksforgeeks.org/stddivides-in-cpp/](https://www.geeksforgeeks.org/stddivides-in-cpp/)
 

@@ -53,7 +53,7 @@ void print_last_lines(char *str, int n) 
 
         /* Step 2.b: skip '\n' and increment count of '\n' */
         if (*target_pos == DELIM) 
-            --target_pos, ++cnt; 
+            --target_pos, ++ cnt; 
 
         /* str < target_pos means str has 
         less than 10 '\n' characters, so break from loop */
@@ -137,7 +137,7 @@ void print_last_lines(char *str, int n)
 
          /* Step 2.b: skip '\n' and increment count of '\n' */
         if (*target_pos ==  DELIM)
-            --target_pos, ++cnt;
+            --target_pos, ++ cnt;
 
         /* str < target_pos means str has less than 10 '\n' characters,
            so break from loop */

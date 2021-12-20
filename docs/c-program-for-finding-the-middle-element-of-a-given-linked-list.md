@@ -147,7 +147,7 @@ void printMiddle(struct node* head)
         if (count & 1)
             mid = mid->next;
 
-        ++count;
+        ++ count;
         head = head->next;
     }
 

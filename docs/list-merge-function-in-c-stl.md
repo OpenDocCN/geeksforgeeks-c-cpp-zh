@@ -37,7 +37,7 @@
 
         cout << "List:  ";
 
-        for (auto it = list2.begin(); it != list2.end(); ++it)
+        for (auto it = list2.begin(); it != list2.end(); ++ it)
             cout << *it << " ";
 
         return 0;
@@ -87,7 +87,7 @@
 
         cout << "List: ";
 
-        for (auto it = list1.begin(); it != list1.end(); ++it)
+        for (auto it = list1.begin(); it != list1.end(); ++ it)
             cout << *it << " ";
 
         return 0;

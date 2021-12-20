@@ -1,4 +1,4 @@
-# 【Java 和 C++的相似之处
+# 【Java 和 C++ 的相似之处
 
 > 原文:[https://www . geesforgeks . org/相似点-介于-java 和-c/](https://www.geeksforgeeks.org/similarities-between-java-and-c/)
 
@@ -18,7 +18,7 @@
 
 2.  **They have similar syntax:**
 
-    **C++语法:**
+    **C++ 语法:**
 
     ```cpp
     #include& lt; iostream & gt;
@@ -51,7 +51,7 @@
 
     单行和多行注释都写成//…。和/* …。*/分别为。
 
-    **C++:**
+    **C++ :**
 
     ```cpp
     #include <iostream>
@@ -91,7 +91,7 @@
 
 4.  **The loops (like while, for etc.) and conditional statements (like if-else, switch etc.) are similar**:
 
-    **C++:**
+    **C++ :**
 
     ```cpp
     #include <iostream>
@@ -147,7 +147,7 @@
 6.  **Execution of both the C++ and Java programs starts from the main function:**
     It is the entry point of the execution of the program. However, the function declaration is different, but the name is same.
 
-    **C++:**
+    **C++ :**
 
     ```cpp
     #include& lt; iostream & gt;
@@ -177,7 +177,7 @@
     ```
 
 7.  **它们具有相同的原始数据类型** :
-    这些数据类型包括 int、float、char、double 等。有一些区别，比如布尔数据类型在 Java 中被称为布尔，但在 C++中被称为 bool。
+    这些数据类型包括 int、float、char、double 等。有一些区别，比如布尔数据类型在 Java 中被称为布尔，但在 C++ 中被称为 bool。
 
 8.  **Many of their keywords are same**:
     Example:
@@ -190,8 +190,8 @@
     都允许同时执行多个线程(子进程)，实现多任务处理。
 
 10.  **应用领域** :
-    C++最适合开发大型软件，如图书馆管理系统、员工管理系统、乘客预订系统等。
+    C++ 最适合开发大型软件，如图书馆管理系统、员工管理系统、乘客预订系统等。
     Java 可以用来开发所有这些软件，但除此之外，Java 最适合开发通信/互联网应用软件。例如:网络协议、互联网程序、网页、网络浏览器等。
 
 **[学习 Java](https://www.geeksforgeeks.org/java/)**
-**[学习 C++](https://www.geeksforgeeks.org/c-plus-plus/)**
+**[学习 C++ ](https://www.geeksforgeeks.org/c-plus-plus/)**

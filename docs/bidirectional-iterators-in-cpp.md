@@ -1,10 +1,10 @@
-# c++中的双向迭代器
+# c++ 中的双向迭代器
 
 > 原文:[https://www . geesforgeks . org/双向-迭代器-in-cpp/](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)
 
 浏览了各种 STL 算法的模板定义，如 [std::reverse](http://contribute.geeksforgeeks.org/stdreverse-in-c/) 、[STD::next _ replacement](http://www.cplusplus.com/reference/algorithm/next_permutation/)和 [std::reverse_copy](http://www.cplusplus.com/reference/algorithm/reverse_copy/) 之后，您一定找到了它们的模板定义，该定义由类型为**双向迭代器**的对象组成。那么它们是什么，为什么被使用？
 
-**双向迭代器**是 C++标准库中存在的五种主要迭代器类型之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
+**双向迭代器**是 C++ 标准库中存在的五种主要迭代器类型之一，其他的还有 **[输入迭代器](https://www.geeksforgeeks.org/input-iterators-in-cpp/)****[输出迭代器](https://www.geeksforgeeks.org/output-iterators-c/)****[正向迭代器](https://www.geeksforgeeks.org/forward-iterators-in-cpp/)** 和 **[随机访问迭代器](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)** 。
 
 双向迭代器是一种迭代器，可用于在**两个方向**访问一个范围内的元素序列(朝末尾和朝开头)。它们类似于向前迭代器，除了它们可以**向后移动**，也不同于向前迭代器，向前迭代器只能向前移动。
 
@@ -42,13 +42,13 @@
         // Declaring an iterator
         list<int>::iterator i1;
 
-        for (i1=v1.begin();i1!=v1.end();++i1)
+        for (i1=v1.begin();i1!=v1.end();++ i1)
         {
             // Assigning values to locations pointed by iterator
             *i1 = 1;
         }
 
-        for (i1=v1.begin();i1!=v1.end();++i1)
+        for (i1=v1.begin();i1!=v1.end();++ i1)
         {
             // Accessing values at locations pointed by iterator
             cout << (*i1) << " ";
@@ -73,7 +73,7 @@
 
     ```cpp
     A++   // Using post increment operator
-    ++A   // Using pre increment operator
+    ++ A   // Using pre increment operator
 
     ```
 

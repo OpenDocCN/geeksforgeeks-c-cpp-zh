@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-函数-参数-返回值/](https://www.geeksforgeeks.org/c-function-argument-return-values/)
 
-**先决条件:**[C/c++](https://www.geeksforgeeks.org/functions-in-c/) 中的函数
+**先决条件:**[C/c++ ](https://www.geeksforgeeks.org/functions-in-c/) 中的函数
 C 中的函数可以用参数调用，也可以不用参数调用。这些函数可以向调用函数返回值，也可以不返回值。在 C 程序中，所有的 C 函数都可以用参数或者不用参数来调用。此外，它们可能会也可能不会返回值。因此，C 语言中函数的函数原型如下:
 
 ![](img/cf4ff6ec86dee9bd325f0deb8abc6f70.png)

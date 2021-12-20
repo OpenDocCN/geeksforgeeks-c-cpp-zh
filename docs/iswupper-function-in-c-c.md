@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/iswupper-function-in-c-c/](https://www.geeksforgeeks.org/iswupper-function-in-c-c/)
 
-**iswupper()** 是 C/C++中的一个内置函数，它检查给定的宽字符**是否是大写字符**。在 CPP 头文件**<cwcytype . h>**中定义，该功能是 [isupper](https://www.geeksforgeeks.org/isupper-islower-application-c/) ( <cctype>)的宽字符等价物。</cctype>
+**iswupper()** 是 C/C++ 中的一个内置函数，它检查给定的宽字符**是否是大写字符**。在 CPP 头文件**<cwcytype . h>**中定义，该功能是 [isupper](https://www.geeksforgeeks.org/isupper-islower-application-c/) ( <cctype>)的宽字符等价物。</cctype>
 
 **语法:**
 

@@ -1,8 +1,8 @@
-# ios eof()函数在 C++中的应用举例
+# ios eof()函数在 C++ 中的应用举例
 
 > 原文:[https://www . geesforgeks . org/IOs-eof-function-in-c-with-examples/](https://www.geeksforgeeks.org/ios-eof-function-in-c-with-examples/)
 
-C++中 **ios 类**的 **eof()** 方法用于检查流是否引发了任何 eof(文件结束)错误。这意味着该函数将检查该流是否设置了 eofbit。
+C++ 中 **ios 类**的 **eof()** 方法用于检查流是否引发了任何 eof(文件结束)错误。这意味着该函数将检查该流是否设置了 eofbit。
 
 **语法:**
 

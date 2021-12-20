@@ -1,8 +1,8 @@
-# ios 操纵器 nounitbuf()函数在 C++中
+# ios 操纵器 nounitbuf()函数在 C++ 中
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-nonitbuf-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-nounitbuf-function-in-c/)
 
-C++中**流操纵器**的**nonitbuf()**方法用于清除指定字符串流的 showbase 格式标志。此标志不会在每次操作后刷新关联的缓冲区。
+C++ 中**流操纵器**的**nonitbuf()**方法用于清除指定字符串流的 showbase 格式标志。此标志不会在每次操作后刷新关联的缓冲区。
 
 **语法:**
 

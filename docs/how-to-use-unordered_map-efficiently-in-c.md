@@ -1,10 +1,10 @@
-# 如何在 C++中高效使用无序 _ map
+# 如何在 C++ 中高效使用无序 _ map
 
 > 原文:[https://www . geesforgeks . org/如何使用-无序 _ 地图-高效 in-c/](https://www.geeksforgeeks.org/how-to-use-unordered_map-efficiently-in-c/)
 
 **先决条件** : [无序 _ 集合，](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)T4】无序 _ 地图
 
-C++提供 [std::无序 _ 集合](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)和 [std::无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)分别作为[哈希](https://www.geeksforgeeks.org/hashing-data-structure/)集合和哈希映射。它们在恒定的平均时间内执行插入/删除/访问。
+C++ 提供 [std::无序 _ 集合](https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/)和 [std::无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/)分别作为[哈希](https://www.geeksforgeeks.org/hashing-data-structure/)集合和哈希映射。它们在恒定的平均时间内执行插入/删除/访问。
 
 1.  然而，最坏情况的复杂度是 O(n <sup>2</sup> )。
 2.  原因是无序映射存储的键值对是通过对输入值取素数的模，然后将其存储在哈希表中。

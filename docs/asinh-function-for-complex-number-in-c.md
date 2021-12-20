@@ -1,4 +1,4 @@
-# c++中复数的 asinh()函数
+# c++ 中复数的 asinh()函数
 
 > 原文:[https://www . geeksforgeeks . org/asinh-function for-complex-number-in-c/](https://www.geeksforgeeks.org/asinh-function-for-complex-number-in-c/)
 
@@ -16,7 +16,7 @@ template<class T> complex<T>
 
 **返回值:**此函数返回复数 z 的圆弧双曲正弦。
 
-下面的程序说明了 C++中的 asinh()函数:
+下面的程序说明了 C++ 中的 asinh()函数:
 
 **例 1:**
 

@@ -1,4 +1,4 @@
-# 如何使用基本功能在 C++中创建自定义字符串类
+# 如何使用基本功能在 C++ 中创建自定义字符串类
 
 > 原文:[https://www . geesforgeks . org/如何使用基本功能创建自定义字符串类/](https://www.geeksforgeeks.org/how-to-create-a-custom-string-class-in-c-with-basic-functionalities/)
 

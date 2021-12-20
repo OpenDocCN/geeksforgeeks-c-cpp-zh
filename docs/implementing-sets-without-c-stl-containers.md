@@ -147,7 +147,7 @@ public:
     {
         if (!root->containsNode(root, data)) {
             root = root->insert(root, data);
-            size++;
+            size++ ;
         }
     }
 
@@ -362,7 +362,7 @@ public:
             node = nodeStack.top();
             nodeStack.pop();
 
-            A[i++] = node->data;
+            A[i++ ] = node->data;
 
             if (node->right)
                 nodeStack.push(node->right);
@@ -569,4 +569,4 @@ C' = { 3 5 6 7 }
 ```
 
 [AVL 树](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)或[红黑树](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)可以代替简单的 BST，使插入和搜索 O(log(n))的最坏情况复杂度。
-使用 STL 集合，参考本文【C++标准模板库(STL) 中的[集合。](https://www.geeksforgeeks.org/set-in-cpp-stl/)
+使用 STL 集合，参考本文【C++ 标准模板库(STL) 中的[集合。](https://www.geeksforgeeks.org/set-in-cpp-stl/)

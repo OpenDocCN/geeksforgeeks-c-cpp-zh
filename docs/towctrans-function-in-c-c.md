@@ -1,8 +1,8 @@
-# towctrans()函数在 C/C++中
+# towctrans()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/towctrans-function-in-c-c/](https://www.geeksforgeeks.org/towctrans-function-in-c-c/)
 
-**towctrans()** 是 C/C++中的内置函数，它对由 *desc* 指定的宽字符 *wc* 进行转换。在 C/C++的*cwcytpe*头文件中定义。
+**towctrans()** 是 C/C++ 中的内置函数，它对由 *desc* 指定的宽字符 *wc* 进行转换。在 C/C++ 的*cwcytpe*头文件中定义。
 
 **语法:**
 

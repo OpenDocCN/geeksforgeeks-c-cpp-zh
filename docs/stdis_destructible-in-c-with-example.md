@@ -1,4 +1,4 @@
-# STD::is _ destructionable 在 C++中，示例
+# STD::is _ destructionable 在 C++ 中，示例
 
 > 原文:[https://www . geeksforgeeks . org/stdis _ destructible-in-c-with-example/](https://www.geeksforgeeks.org/stdis_destructible-in-c-with-example/)
 
@@ -33,7 +33,7 @@ std::is_destructible<T>::value
 *   **true:** If type T is destructible.
 *   **false:** If the type t is not destructible.
 
-下面是用 C++演示**STD::is _ destructive**的程序:
+下面是用 C++ 演示**STD::is _ destructive**的程序:
 
 **程序:**
 

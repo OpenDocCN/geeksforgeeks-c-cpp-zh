@@ -1,12 +1,12 @@
-# 在 C++中传递对指针的引用
+# 在 C++ 中传递对指针的引用
 
 > 原文:[https://www . geesforgeks . org/passing-reference-to-a-pointer-in-c/](https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/)
 
-**先决条件**:[c++中的指针与引用](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)。
+**先决条件**:[c++ 中的指针与引用](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)。
 
 为了清楚地理解，让我们比较一下“指针对指针”和“引用对指针”在某些情况下的用法。
 
-**注意:**C 和 C++都允许使用“指针对指针”，但我们只能在 C++中使用“引用对指针”。
+**注意:**C 和 C++ 都允许使用“指针对指针”，但我们只能在 C++ 中使用“引用对指针”。
 
 **将指针传递给函数**
 

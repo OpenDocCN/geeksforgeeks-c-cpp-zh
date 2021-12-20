@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/operators-in-c-set-2-relational-and-logic-operators/](https://www.geeksforgeeks.org/operators-in-c-set-2-relational-and-logical-operators/)
 
-我们已经讨论了[**【C 中的运算符简介】**](https://www.geeksforgeeks.org/operators-c-c/) ，在这里我们对什么类型的运算符、C 和 C++支持以及它的基本实现有了一个总体的概念。接下来，我们学习了 [**算术运算符**](https://www.geeksforgeeks.org/operators-in-c-set-1-arithmetic-operators/) ，在这里我们详细了解了 C 和 C++中算术运算符的类型和用法。在本文中，让我们尝试理解**关系运算符和逻辑运算符**的类型和用途。
+我们已经讨论了[**【C 中的运算符简介】**](https://www.geeksforgeeks.org/operators-c-c/) ，在这里我们对什么类型的运算符、C 和 C++ 支持以及它的基本实现有了一个总体的概念。接下来，我们学习了 [**算术运算符**](https://www.geeksforgeeks.org/operators-in-c-set-1-arithmetic-operators/) ，在这里我们详细了解了 C 和 C++ 中算术运算符的类型和用法。在本文中，让我们尝试理解**关系运算符和逻辑运算符**的类型和用途。
 
 ![](img/d26209f0baa51da031433d6ba6e9ac33.png)
 

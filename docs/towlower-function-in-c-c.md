@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/towlower-function-in-c-c/](https://www.geeksforgeeks.org/towlower-function-in-c-c/)
 
-**tow low()**是 C/C++中的一个内置函数，它将给定的宽字符转换成小写。在 C++的**cwcytpe**头文件中定义。
+**tow low()**是 C/C++ 中的一个内置函数，它将给定的宽字符转换成小写。在 C++ 的**cwcytpe**头文件中定义。
 
 *   它是头文件<cwctype>中的一个函数，所以如果使用这个函数</cwctype>
 *   就必须使用这个头文件，它是 tolower()函数的宽字符等价物。

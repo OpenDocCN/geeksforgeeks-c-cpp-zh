@@ -1,10 +1,10 @@
-# c++中的模板专门化
+# c++ 中的模板专门化
 
 > 原文:[https://www.geeksforgeeks.org/template-specialization-c/](https://www.geeksforgeeks.org/template-specialization-c/)
 
-[c++中的模板](https://www.geeksforgeeks.org/templates-cpp/)是一个特性。我们只编写一次代码，并将其用于任何数据类型，包括用户定义的数据类型。例如，sort()可以编写并用于对任何数据类型项进行排序。可以创建一个类堆栈，它可以用作任何数据类型的堆栈。
+[c++ 中的模板](https://www.geeksforgeeks.org/templates-cpp/)是一个特性。我们只编写一次代码，并将其用于任何数据类型，包括用户定义的数据类型。例如，sort()可以编写并用于对任何数据类型项进行排序。可以创建一个类堆栈，它可以用作任何数据类型的堆栈。
 *如果我们想要特定数据类型的不同代码，该怎么办？*考虑一个大项目，它需要一个函数 sort()来处理许多不同数据类型的数组。让快速排序用于除字符之外的所有数据类型。在 char 的情况下，总的可能值是 256，计数排序可能是更好的选择。只有在对 char 数据类型调用 sort()时，才能使用不同的代码吗？
-*在 C++中有可能获得特定数据类型的特殊行为。这叫做模板特殊化*。
+*在 C++ 中有可能获得特定数据类型的特殊行为。这叫做模板特殊化*。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

@@ -1,4 +1,4 @@
-# 在 C++中集成 Lua
+# 在 C++ 中集成 Lua
 
 > 原文:[https://www.geeksforgeeks.org/integrating-lua-in-cpp/](https://www.geeksforgeeks.org/integrating-lua-in-cpp/)
 
@@ -92,11 +92,11 @@ int main(int argc, char** argv)
 
 [![](img/ef193e6c592380a391e14d8a305b88e8.png)](https://media.geeksforgeeks.org/wp-content/uploads/20210416105738/LuaPracticeProgram1.jpg)
 
-### **将数据从 C++传到 Lua 再传回来:**
+### **将数据从 C++ 传到 Lua 再传回来:**
 
-这个例子向我们展示了如何编译和执行来自 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 的 Lua 代码片段。但是，如果没有将数据从 **C++传递到 Lua** ，再从 **Lua 传递回 C++** 的能力，这种模式能够解决的现实案例并不多。
+这个例子向我们展示了如何编译和执行来自 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 的 Lua 代码片段。但是，如果没有将数据从 **C++ 传递到 Lua** ，再从 **Lua 传递回 C++** 的能力，这种模式能够解决的现实案例并不多。
 
-LuaCpp 到达时准备好在两个执行环境之间建立桥梁，将尽可能少地了解 Lua 的内部工作，并使用最少的代码。让我们通过添加一个将由两个执行环境共享的变量来改进**“Hello World”**示例。这引入了一个名为“**世界**”的“**字符串**”变量，并用来自 **C++上下文**的值填充它。在 Lua 上下文中，更新变量值，并在返回 C++上下文时打印变量值。
+LuaCpp 到达时准备好在两个执行环境之间建立桥梁，将尽可能少地了解 Lua 的内部工作，并使用最少的代码。让我们通过添加一个将由两个执行环境共享的变量来改进**“Hello World”**示例。这引入了一个名为“**世界**”的“**字符串**”变量，并用来自 **C++ 上下文**的值填充它。在 Lua 上下文中，更新变量值，并在返回 C++ 上下文时打印变量值。
 
 下面是同样的程序来说明:
 
@@ -142,7 +142,7 @@ int main(int argc, char** argv)
 
 [![](img/339924c22bbeaf7ef0be86e564df5c73.png)](https://media.geeksforgeeks.org/wp-content/uploads/20210416105737/LuaPracticeProgram2.jpg)
 
-上下文允许将多个变量从 [C++范围](https://www.geeksforgeeks.org/scope-of-variables-in-c/)传递到 Lua 范围，反之亦然。上述模式允许在大多数情况下向 **C++项目**添加脚本支持。简单的 4 步流程是:
+上下文允许将多个变量从 [C++ 范围](https://www.geeksforgeeks.org/scope-of-variables-in-c/)传递到 Lua 范围，反之亦然。上述模式允许在大多数情况下向 **C++ 项目**添加脚本支持。简单的 4 步流程是:
 
 *   创建上下文。
 *   创建共享变量，并将其注册到上下文中。
@@ -151,15 +151,15 @@ int main(int argc, char** argv)
 
 ### **支持的 Lua 类型:**
 
-LuaCpp 提供了以下类型的变量，可以在 C++和 Lua 上下文之间传递:
+LuaCpp 提供了以下类型的变量，可以在 C++ 和 Lua 上下文之间传递:
 
-*   **“LuaTString”:**相当于 C++中的“std::string”。
-*   **“LuaTNumber”:**相当于 C++中的“double”。LUA 允许将**LUA _ tnnumber**(数字的内部 Lua 类型)编译为浮点数，但是，LuaCpp 将包含在 C++上下文中以双精度表示的内容，这意味着，在 Lua 库被定制为将数字定义为浮点数的情况下，可能会由于精度而丢失数据。
-*   **“LuaTBoolean”:**相当于 C++中的“ **bool** ”。
+*   **“LuaTString”:**相当于 C++ 中的“std::string”。
+*   **“LuaTNumber”:**相当于 C++ 中的“double”。LUA 允许将**LUA _ tnnumber**(数字的内部 Lua 类型)编译为浮点数，但是，LuaCpp 将包含在 C++ 上下文中以双精度表示的内容，这意味着，在 Lua 库被定制为将数字定义为浮点数的情况下，可能会由于精度而丢失数据。
+*   **“LuaTBoolean”:**相当于 C++ 中的“ **bool** ”。
 *   **“Luatnil”:**Lua 引擎用来表示缺少值的空类型。
-*   **“LuaTTable”:**数组/映射的混合，在 C++中实现为“std::map”。映射可以有一个字符串或数字作为键，当映射中的所有键都是数字类型时，映射代表一个数组。这遵循 Lua 表实现的逻辑。
+*   **“LuaTTable”:**数组/映射的混合，在 C++ 中实现为“std::map”。映射可以有一个字符串或数字作为键，当映射中的所有键都是数字类型时，映射代表一个数组。这遵循 Lua 表实现的逻辑。
 *   **“Luatuserdata”:**一种允许实现用户定义类型的特殊类型。这是一个非常强大的类型，引擎的**Luame object**类型就是基于这个原语类型实现的。这个概念值得单独写一篇文章。
 
 ### **结论:**
 
-向现有的 C++项目添加脚本支持为开发的应用程序带来了巨大的灵活性和可配置性。虽然 Lua C APIs 不是很复杂，但它们仍然要求开发人员充分理解 Lua 虚拟机的内部工作。正如本文所述，LuaCpp 正在抽象所有这些复杂性，并提供了一个 C++开发人员非常熟悉的界面。
+向现有的 C++ 项目添加脚本支持为开发的应用程序带来了巨大的灵活性和可配置性。虽然 Lua C APIs 不是很复杂，但它们仍然要求开发人员充分理解 Lua 虚拟机的内部工作。正如本文所述，LuaCpp 正在抽象所有这些复杂性，并提供了一个 C++ 开发人员非常熟悉的界面。

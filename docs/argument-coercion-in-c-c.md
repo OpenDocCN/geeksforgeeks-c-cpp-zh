@@ -1,4 +1,4 @@
-# C/c++中的参数强制
+# C/c++ 中的参数强制
 
 > 原文:[https://www.geeksforgeeks.org/argument-coercion-in-c-c/](https://www.geeksforgeeks.org/argument-coercion-in-c-c/)
 
@@ -8,7 +8,7 @@
 
 它遵循参数提升规则。因此，较低的数据类型可能会转换为较高的数据类型，但反之亦然。这是因为当较高的数据类型转换为较低的数据类型时，会导致数据丢失或截断。
 
-**c++中基本数据类型的提升层次是:**
+**c++ 中基本数据类型的提升层次是:**
 
 ![](img/cb1e99a19b8df7f58f51441bcbeb7305.png)
 

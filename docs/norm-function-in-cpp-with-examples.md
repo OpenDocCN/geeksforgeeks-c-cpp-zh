@@ -1,4 +1,4 @@
-# c++中的范数()函数，示例
+# c++ 中的范数()函数，示例
 
 > 原文:[https://www . geesforgeks . org/norm-function-in-CPP-with-examples/](https://www.geeksforgeeks.org/norm-function-in-cpp-with-examples/)
 

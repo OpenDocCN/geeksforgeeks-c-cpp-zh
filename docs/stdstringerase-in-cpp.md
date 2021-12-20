@@ -1,4 +1,4 @@
-# std::string::在 C++中擦除
+# std::string::在 C++ 中擦除
 
 > 原文:[https://www.geeksforgeeks.org/stdstringerase-in-cpp/](https://www.geeksforgeeks.org/stdstringerase-in-cpp/)
 

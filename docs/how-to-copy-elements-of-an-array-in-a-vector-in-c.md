@@ -1,4 +1,4 @@
-# 如何在 C++中复制向量中数组的元素
+# 如何在 C++ 中复制向量中数组的元素
 
 > 原文:[https://www . geesforgeks . org/如何复制 c 中矢量数组元素/](https://www.geeksforgeeks.org/how-to-copy-elements-of-an-array-in-a-vector-in-c/)
 
@@ -50,7 +50,7 @@ int main()
 ```
 
 **方法 2:初始化期间基于范围的赋值**
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，Vector 类提供了一个[构造函数](https://www.geeksforgeeks.org/constructors-c/)，该构造函数接受一个范围，因此要从数组元素创建一个向量，在向量初始化期间将指向范围的第一个和最后一个位置的指针作为需要复制到向量的参数传递(即 arr，arr+N)。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，Vector 类提供了一个[构造函数](https://www.geeksforgeeks.org/constructors-c/)，该构造函数接受一个范围，因此要从数组元素创建一个向量，在向量初始化期间将指向范围的第一个和最后一个位置的指针作为需要复制到向量的参数传递(即 arr，arr+N)。
 
 下面是上述方法的实现:
 
@@ -219,7 +219,7 @@ int main()
 
 下面是上述方法的实现:
 
-## C++14
+## C++ 14
 
 ```cpp
 // C++ program of the above approach

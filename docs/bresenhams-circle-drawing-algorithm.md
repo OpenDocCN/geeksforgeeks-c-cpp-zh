@@ -100,7 +100,7 @@ void circleBres(int xc, int yc, int r)
         // for each pixel we will
         // draw all eight pixels
 
-        x++;
+        x++ ;
 
         // check for decision parameter
         // and correspondingly

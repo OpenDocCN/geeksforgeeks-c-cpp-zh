@@ -1,10 +1,10 @@
-# 为 C/C++安装 MinGW 工具并更改环境变量
+# 为 C/C++ 安装 MinGW 工具并更改环境变量
 
 > 原文:[https://www . geesforgeks . org/installing-mingw-tools-for-c-c-and-changing-environment-variable/](https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/)
 
-MinGW 是一个本地的 C/C++编译器(GCC) ，它有免费的可分发的导入库和头文件来构建本地的窗口应用程序。在本教程中，我们将为 C/C++安装 MinGW。为了在我们的设备上成功安装 MinGW，我们必须执行以下几个步骤。
+MinGW 是一个本地的 C/C++ 编译器(GCC) ，它有免费的可分发的导入库和头文件来构建本地的窗口应用程序。在本教程中，我们将为 C/C++ 安装 MinGW。为了在我们的设备上成功安装 MinGW，我们必须执行以下几个步骤。
 
-**<u>如何安装 C/C++的 MinGW 工具？</u>T3】**
+**<u>如何安装 C/C++ 的 MinGW 工具？</u>T3】**
 
 **第一步:**前往 [MinGW](https://sourceforge.net/projects/mingw/) 网站，点击下载。它将在 5 秒后开始下载。
 

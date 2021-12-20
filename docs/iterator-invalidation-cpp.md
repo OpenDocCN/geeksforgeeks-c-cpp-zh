@@ -1,8 +1,8 @@
-# c++中迭代器失效
+# c++ 中迭代器失效
 
 > 原文:[https://www.geeksforgeeks.org/iterator-invalidation-cpp/](https://www.geeksforgeeks.org/iterator-invalidation-cpp/)
 
-在 C++中使用迭代器时应该小心。当我们使用迭代器迭代容器时，迭代器可能会失效。这可能是由于迭代时容器的形状和大小发生了变化。让我们举个例子来理解这个-
+在 C++ 中使用迭代器时应该小心。当我们使用迭代器迭代容器时，迭代器可能会失效。这可能是由于迭代时容器的形状和大小发生了变化。让我们举个例子来理解这个-
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 

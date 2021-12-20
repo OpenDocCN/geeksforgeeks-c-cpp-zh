@@ -71,7 +71,7 @@ int main()
     printf("In C programming All graphic "
             "characters are: \n");
 
-    for (i = 0; i <= 127; ++i) 
+    for (i = 0; i <= 127; ++ i) 
         if (isgraph(i) != 0)
             printf("%c ", i);    
 

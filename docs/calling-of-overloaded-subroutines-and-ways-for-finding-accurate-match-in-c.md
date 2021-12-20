@@ -1,4 +1,4 @@
-# c++中重载子程序的调用和寻找精确匹配的方法
+# c++ 中重载子程序的调用和寻找精确匹配的方法
 
 > 原文:[https://www . geeksforgeeks . org/调用重载子程序和方法来查找精确匹配的 c/](https://www.geeksforgeeks.org/calling-of-overloaded-subroutines-and-ways-for-finding-accurate-match-in-c/)
 
@@ -216,7 +216,7 @@ Second Distance :centimeter: 30kilometer:120
     > afunc(471)
     > 匹配一个 func(双精度)
 
-    使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 标准转换规则，int 参数 **471** 可以转换为双精度值 **471** ，如果实际参数可以转换为多种形式参数类型，编译器将生成一条错误消息，因为它是不明确的匹配。例如:
+    使用 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 标准转换规则，int 参数 **471** 可以转换为双精度值 **471** ，如果实际参数可以转换为多种形式参数类型，编译器将生成一条错误消息，因为它是不明确的匹配。例如:
 
     ```cpp
     void afunc(long)

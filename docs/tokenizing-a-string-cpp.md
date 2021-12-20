@@ -1,4 +1,4 @@
-# 在 C++中标记字符串
+# 在 C++ 中标记字符串
 
 > 原文:[https://www.geeksforgeeks.org/tokenizing-a-string-cpp/](https://www.geeksforgeeks.org/tokenizing-a-string-cpp/)
 
@@ -8,7 +8,7 @@
 
 一个**字符串流**将一个字符串对象与一个流相关联，允许您像读取一个流一样读取该字符串。
 
-下面是 C++实现:
+下面是 C++ 实现:
 
 ## c++
 

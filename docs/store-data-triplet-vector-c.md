@@ -1,4 +1,4 @@
-# 如何在 C++中将数据三元组存储在一个向量中？
+# 如何在 C++ 中将数据三元组存储在一个向量中？
 
 > 原文:[https://www.geeksforgeeks.org/store-data-triplet-vector-c/](https://www.geeksforgeeks.org/store-data-triplet-vector-c/)
 

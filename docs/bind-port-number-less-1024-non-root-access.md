@@ -37,7 +37,7 @@ int main()
     int b = 1, i = 0;
     while (b)
     {
-        i++;
+        i++ ;
 
         // Assigning every port number starting
         // from one to check

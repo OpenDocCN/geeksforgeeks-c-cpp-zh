@@ -1,8 +1,8 @@
-# 删除并释放 C++中的()
+# 删除并释放 C++ 中的()
 
 > 原文:[https://www.geeksforgeeks.org/delete-and-free-in-cpp/](https://www.geeksforgeeks.org/delete-and-free-in-cpp/)
 
-**删除**和 **free()** 在编程语言中具有相似的功能，但它们不同。在 C++中，删除操作符应该只用于指向使用新操作符分配的内存的指针或空指针，而 free()应该只用于指向使用 malloc()分配的内存的指针或空指针。
+**删除**和 **free()** 在编程语言中具有相似的功能，但它们不同。在 C++ 中，删除操作符应该只用于指向使用新操作符分配的内存的指针或空指针，而 free()应该只用于指向使用 malloc()分配的内存的指针或空指针。
 
 **delete 和 free 的区别有:**
 

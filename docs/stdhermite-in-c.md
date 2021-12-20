@@ -1,4 +1,4 @@
-# STD::c++中的 Hermite
+# STD::c++ 中的 Hermite
 
 > 原文:[https://www.geeksforgeeks.org/stdhermite-in-c/](https://www.geeksforgeeks.org/stdhermite-in-c/)
 

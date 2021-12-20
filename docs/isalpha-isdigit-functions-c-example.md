@@ -38,11 +38,11 @@ int main()
 
         // check for alphabets
         if (isalpha(str[i]) != 0)
-            alphabet++;
+            alphabet++ ;
 
         // check for decimal digits
         else if (isdigit(str[i]) != 0)
-            number++;
+            number++ ;
     }
 
     printf("Alphabetic_letters = %d, "

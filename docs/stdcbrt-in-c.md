@@ -1,4 +1,4 @@
-# std::cbrt()在 C++中
+# std::cbrt()在 C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/stdcbrt-in-c/](https://www.geeksforgeeks.org/stdcbrt-in-c/)
 

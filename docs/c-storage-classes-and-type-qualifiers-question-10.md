@@ -26,6 +26,6 @@ int main() 
 
 **答案:****(A)**
 
-**说明:**在 C 语言中，静态变量只能使用常量文字初始化。这在 C++中是允许的。详见[本](https://www.geeksforgeeks.org/g-fact-80/) GFact。
+**说明:**在 C 语言中，静态变量只能使用常量文字初始化。这在 C++ 中是允许的。详见[本](https://www.geeksforgeeks.org/g-fact-80/) GFact。
 
 [本题小考](https://www.geeksforgeeks.org/c-language-2-gq/storage-classes-gq/)

@@ -1,8 +1,8 @@
-# c++中函数重载和浮点
+# c++ 中函数重载和浮点
 
 > 原文:[https://www . geesforgeks . org/g-fact-30-function-overload-and-float-in-c/](https://www.geeksforgeeks.org/g-fact-30-function-overloading-and-float-in-c/)
 
-虽然多态性在 C++中是一个非常有用的现象，但是它有时会非常复杂。例如，考虑以下代码片段:
+虽然多态性在 C++ 中是一个非常有用的现象，但是它有时会非常复杂。例如，考虑以下代码片段:
 
 ```cpp
 #include<iostream>

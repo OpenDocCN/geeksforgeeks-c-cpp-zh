@@ -1,8 +1,8 @@
-# OpenCV C++程序播放视频
+# OpenCV C++ 程序播放视频
 
 > 原文:[https://www . geesforgeks . org/opencv-c-plus-plus-program-to-play-a-video/](https://www.geeksforgeeks.org/opencv-c-plus-plus-program-to-play-a-video/)
 
-以下是使用工具 OpenCV 用 C++播放视频的 C++代码说明。
+以下是使用工具 OpenCV 用 C++ 播放视频的 C++ 代码说明。
 要知道的事情:
 (1)代码只会在 Linux 环境下编译。
 (2)要在 windows 中运行，请使用文件:“play_video.o”并在 cmd 中运行。但是，如果它不运行(系统架构有问题)，那么通过对代码进行适当且明显的更改，在
@@ -79,6 +79,6 @@ int main()
 
 关于作者:
 
-阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/7f989f45758a9a92d71e2ed9f6d7af18.png)的本科生。他主要用 C++编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
+阿迪蒂亚·普拉卡什是瓦多达拉印度信息技术学院![Aditya](img/7f989f45758a9a92d71e2ed9f6d7af18.png)的本科生。他主要用 C++ 编写代码。他的座右铭是:目前为止一切顺利。他打板球，看超级英雄电影，踢足球，是一个回答问题的忠实粉丝。
 
 **如果你也想在这里展示你的博客，请查看[博客](http://geeksquiz.com/gblog/)在极客博客上的客座博文。**

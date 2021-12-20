@@ -1,4 +1,4 @@
-# C/c++中鼠标编程用例
+# C/c++ 中鼠标编程用例
 
 > 原文:[https://www . geesforgeks . org/c-c 中鼠标编程用例/](https://www.geeksforgeeks.org/use-cases-of-mouse-programming-in-c-c/)
 

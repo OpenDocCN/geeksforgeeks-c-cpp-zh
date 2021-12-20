@@ -1,4 +1,4 @@
-# STD::is _ convertible c++模板，示例
+# STD::is _ convertible c++ 模板，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ convertible-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_convertible-template-in-c-with-examples/)
 
@@ -39,7 +39,7 @@ is_convertible <A*, B*>::value;
 *   **True:** If the given data type **a** is converted to data type **b** .
 *   **false:** If the given data type **a** is not converted to data type **b** .
 
-下面是用 C++演示 **std::is_convertible** 的程序:
+下面是用 C++ 演示 **std::is_convertible** 的程序:
 
 **程序:**
 

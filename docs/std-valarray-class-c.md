@@ -1,8 +1,8 @@
-# STD::c++中的 valarray 类
+# STD::c++ 中的 valarray 类
 
 > 原文:[https://www.geeksforgeeks.org/std-valarray-class-c/](https://www.geeksforgeeks.org/std-valarray-class-c/)
 
-C++98 引入了一个名为 valarray 的特殊容器，可以有效地保存和提供数组上的数学运算。
+C++ 98 引入了一个名为 valarray 的特殊容器，可以有效地保存和提供数组上的数学运算。
 
 *   Support element mathematical operations and various forms of generalized subscript operators, slicing and indirect access.
 *   Compared with vectors, arrays are also more effective than vectors in some mathematical operations.

@@ -35,7 +35,7 @@
 
 <u>下面是上述方法的实现:</u>
 
-## <u>C++</u>
+## <u>C++ </u>
 
 ```cpp
 // C++ program for the above approach

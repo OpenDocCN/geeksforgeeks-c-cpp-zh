@@ -1,4 +1,4 @@
-# 标准::是 C++中模板的 _ base _ 带有示例
+# 标准::是 C++ 中模板的 _ base _ 带有示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ base _ of-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_base_of-template-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::is_base_of<A, B>::value
 *   **true:** If the base class (class **a** ) is the parent class of the derived class (class **b** ).
 *   **false:** If the base class (class **a** ) is not the parent class of the derived class (class **b** ).
 
-下面是用 C/C++说明模板的**标准::is _ base _ 的程序:**
+下面是用 C/C++ 说明模板的**标准::is _ base _ 的程序:**
 
 **程序 1:**
 

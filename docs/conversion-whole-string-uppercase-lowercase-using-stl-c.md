@@ -1,8 +1,8 @@
-# 在 C++中使用 STL 将整个字符串转换为大写或小写
+# 在 C++ 中使用 STL 将整个字符串转换为大写或小写
 
 > 原文:[https://www . geesforgeks . org/conversion-整串-大写-小写-using-stl-c/](https://www.geeksforgeeks.org/conversion-whole-string-uppercase-lowercase-using-stl-c/)
 
-给定一个字符串，在 C++中使用 STL 将整个字符串转换为大写或小写。
+给定一个字符串，在 C++ 中使用 STL 将整个字符串转换为大写或小写。
 
 示例:
 

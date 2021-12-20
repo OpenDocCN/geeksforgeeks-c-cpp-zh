@@ -1,4 +1,4 @@
-# 使用客户端服务器模型在 C/C++中反转字符串
+# 使用客户端服务器模型在 C/C++ 中反转字符串
 
 > 原文:[https://www . geesforgeks . org/reverse-string-cc-use-client-server-model/](https://www.geeksforgeeks.org/reverse-string-cc-using-client-server-model/)
 

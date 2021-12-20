@@ -1,4 +1,4 @@
-# std::string::replace_copy()，std::string::replace_copy_if 在 C++中
+# std::string::replace_copy()，std::string::replace_copy_if 在 C++ 中
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/STD string replace _ copy-STD string replace _ copy _ if-CPP/
 

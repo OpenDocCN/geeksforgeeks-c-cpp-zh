@@ -1,4 +1,4 @@
-# 是 C++中的 _ 无符号模板
+# 是 C++ 中的 _ 无符号模板
 
 > 原文:[https://www.geeksforgeeks.org/is_unsigned-template-in-c/](https://www.geeksforgeeks.org/is_unsigned-template-in-c/)
 

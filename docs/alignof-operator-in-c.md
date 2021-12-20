@@ -1,8 +1,8 @@
-# c++中的 alignof 运算符
+# c++ 中的 alignof 运算符
 
 > 原文:[https://www.geeksforgeeks.org/alignof-operator-in-c/](https://www.geeksforgeeks.org/alignof-operator-in-c/)
 
-在 C++11 中，用于返回对齐方式的运算符的**对齐方式，以指定类型的字节为单位。
+在 C++ 11 中，用于返回对齐方式的运算符的**对齐方式，以指定类型的字节为单位。
 **语法:****
 
 ```cpp

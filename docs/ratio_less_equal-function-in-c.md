@@ -1,8 +1,8 @@
-# c++中 ratio_less_equal()函数
+# c++ 中 ratio_less_equal()函数
 
 > 原文:[https://www . geesforgeks . org/ratio _ less _ equal-function-in-c/](https://www.geeksforgeeks.org/ratio_less_equal-function-in-c/)
 
-**比率小于等于()**是 C++中的一个内置函数，它检查比率 R1 是否小于或等于比率 R2。如果比率小于或等于比率 2，则返回真，否则返回假。
+**比率小于等于()**是 C++ 中的一个内置函数，它检查比率 R1 是否小于或等于比率 R2。如果比率小于或等于比率 2，则返回真，否则返回假。
 **语法:**
 
 ```cpp

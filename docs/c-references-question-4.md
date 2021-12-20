@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-references-question-4/](https://www.geeksforgeeks.org/c-references-question-4/)
 
-预测后续 C++程序的输出。
+预测后续 C++ 程序的输出。
 
 ```cpp
 #include<iostream>

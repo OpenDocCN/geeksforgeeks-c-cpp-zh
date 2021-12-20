@@ -28,7 +28,7 @@ int main()
 {
     int x = 1;
 
-    if (x || ++x) {
+    if (x || ++ x) {
         printf("%d", x);
     }
 

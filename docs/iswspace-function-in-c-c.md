@@ -1,8 +1,8 @@
-# C/c++中的 iswspace()函数
+# C/c++ 中的 iswspace()函数
 
 > 原文:[https://www.geeksforgeeks.org/iswspace-function-in-c-c/](https://www.geeksforgeeks.org/iswspace-function-in-c-c/)
 
-**iswspace()** 是 C/C++中的内置函数，它检查给定的宽字符是否是宽空白字符。在 C++的**cwcytpe**头文件中定义。
+**iswspace()** 是 C/C++ 中的内置函数，它检查给定的宽字符是否是宽空白字符。在 C++ 的**cwcytpe**头文件中定义。
 
 **语法**:
 
@@ -44,7 +44,7 @@ int main()
         if (iswspace(c))
             c = L'\n';
         putwchar(c);
-        i++;
+        i++ ;
     }
     return 0;
 }
@@ -83,7 +83,7 @@ int main()
         if (iswspace(c))
             c = L'\n';
         putwchar(c);
-        i++;
+        i++ ;
     }
     return 0;
 }

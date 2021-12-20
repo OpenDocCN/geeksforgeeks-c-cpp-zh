@@ -21,7 +21,7 @@ void prtFun (void)
 {
     static int a = 2; /* line 2 */
     int b = 1;
-    a += ++b;
+    a += ++ b;
     printf (" \n %d %d " , a, b);
 }
 ```

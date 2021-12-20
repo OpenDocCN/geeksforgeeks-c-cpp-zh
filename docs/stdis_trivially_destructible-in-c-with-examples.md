@@ -1,4 +1,4 @@
-# std::在 C++中是可普通销毁的，示例
+# std::在 C++ 中是可普通销毁的，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ trivaly _ destructible-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_trivially_destructible-in-c-with-examples/)
 
@@ -33,7 +33,7 @@ std::is_trivially_destructible<T>::value
 *   True: If the type **t** is an ordinary destructible type.
 *   False: If the type **t** is not an ordinary destructible type.
 
-下面是用 C/C++说明**标准的程序:**
+下面是用 C/C++ 说明**标准的程序:**
 
 **程序 1:**
 

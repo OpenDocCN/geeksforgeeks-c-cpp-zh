@@ -60,7 +60,7 @@ int maxSum(int a[], int n)
     int** dp = new int*[n + 1];
     for (int i = 0; i <= n; i++)
         dp[i] = new int[3];
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i <= n; ++ i) {
 
         // Case 1: Choosing current or (current + previous)
         // whichever is smaller
@@ -123,7 +123,7 @@ class GFG
 
         // 2d array to contain solution for each step
         int [][] dp = new int [n + 1][3];
-        for (int i = 1; i <= n; ++i)
+        for (int i = 1; i <= n; ++ i)
         {
 
             // Case 1: Choosing current or (current + previous)
@@ -255,7 +255,7 @@ class GFG
 
         // 2d array to contain solution for each step
         int [, ] dp = new int [n + 1, 3];
-        for (int i = 1; i <= n; ++i)
+        for (int i = 1; i <= n; ++ i)
         {
 
             // Case 1: Choosing current or (current + previous)
@@ -391,15 +391,15 @@ echo maxSum($arr, $n);
 
         // 2d array to contain solution for each step
         let dp = new Array(n + 1);
-        for (let i = 0; i <= n; ++i)
+        for (let i = 0; i <= n; ++ i)
         {
             dp[i] = new Array(3);
-            for (let j = 0; j < 3; ++j)
+            for (let j = 0; j < 3; ++ j)
             {
                 dp[i][j] = 0;
             }
         }
-        for (let i = 1; i <= n; ++i)
+        for (let i = 1; i <= n; ++ i)
         {
 
             // Case 1: Choosing current or (current + previous)

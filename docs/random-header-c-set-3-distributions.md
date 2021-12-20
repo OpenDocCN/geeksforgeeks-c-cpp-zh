@@ -1,4 +1,4 @@
-# c++中的随机头|集合 3(分布)
+# c++ 中的随机头|集合 3(分布)
 
 > 原文:[https://www . geesforgeks . org/random-header-c-set-3-distributes/](https://www.geeksforgeeks.org/random-header-c-set-3-distributions/)
 
@@ -37,7 +37,7 @@
       poisson_distribution<int> distribution (7.1);
 
       cout << "Poisson-distribution(mean=5.0): ";
-      for (int i=0; i<10; ++i)
+      for (int i=0; i<10; ++ i)
 
         // use of operator()
         cout << distribution(generator) << " ";
@@ -81,7 +81,7 @@
       exponential_distribution<double> distribution (1.0);
 
       cout << "Hi's separated by 2 seconds, on average: \n";
-      for (int i=0; i<5; ++i) 
+      for (int i=0; i<5; ++ i) 
       {      
         // use of operator()
         double number = distribution(generator);

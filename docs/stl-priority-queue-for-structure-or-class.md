@@ -78,7 +78,7 @@ int main()
     float arr[ROW][COL] = { { 30, 5.5 }, { 25, 5 },
                     { 20, 6 }, { 33, 6.1 }, { 23, 5.6 } };
 
-    for (int i = 0; i < ROW; ++i) {
+    for (int i = 0; i < ROW; ++ i) {
 
         Q.push(Person(arr[i][0], arr[i][1]));
 
@@ -152,7 +152,7 @@ int main()
     float arr[ROW][COL] = { { 30, 5.5 }, { 25, 5 },
                { 20, 6 }, { 33, 6.1 }, { 23, 5.6 } };
 
-    for (int i = 0; i < ROW; ++i) {
+    for (int i = 0; i < ROW; ++ i) {
 
         Q.push(Person(arr[i][0], arr[i][1]));
 

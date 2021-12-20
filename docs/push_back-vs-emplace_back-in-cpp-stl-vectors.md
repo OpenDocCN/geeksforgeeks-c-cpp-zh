@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/push _ back-vs-retain _ back-in-CPP-STL-vectors/](https://www.geeksforgeeks.org/push_back-vs-emplace_back-in-cpp-stl-vectors/)
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 、[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)是[动态数组](https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/)，可以增长或收缩，它们的存储由[容器](https://www.geeksforgeeks.org/containers-cpp-stl/)本身处理。有两种方式[在向量](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/)中插入元素。分别是 [**推 _ 回()**](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/) 和 [**侵位 _ 回()**](https://www.geeksforgeeks.org/vectoremplace_back-c-stl/) 。在本文中，我们将讨论它们之间的区别。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 、[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)是[动态数组](https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/)，可以增长或收缩，它们的存储由[容器](https://www.geeksforgeeks.org/containers-cpp-stl/)本身处理。有两种方式[在向量](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/)中插入元素。分别是 [**推 _ 回()**](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/) 和 [**侵位 _ 回()**](https://www.geeksforgeeks.org/vectoremplace_back-c-stl/) 。在本文中，我们将讨论它们之间的区别。
 
 ### [**<u>推 _ 回()</u>**](https://www.geeksforgeeks.org/vectorpush_back-vectorpop_back-c-stl/) :
 

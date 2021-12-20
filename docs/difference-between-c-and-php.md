@@ -1,9 +1,9 @@
-# c++和 PHP 的区别
+# c++ 和 PHP 的区别
 
 > 原文:[https://www.geeksforgeeks.org/difference-between-c-and-php/](https://www.geeksforgeeks.org/difference-between-c-and-php/)
 
-**1。 [C++](https://www.geeksforgeeks.org/c-plus-plus/) :**
-C++是由比雅尼·斯特劳斯特鲁普在贝尔实验室从 1979 年开始开发的，作为 [C 语言的扩展](https://www.geeksforgeeks.org/c-programming-language/) C++是一种通用编程语言，现在广泛用于竞争性编程。它具有命令式、面向对象和泛型编程特性。C++因其高效、高速和动态内存利用率而在程序员中广泛流行。它运行在 Windows、 [Linux](https://www.geeksforgeeks.org/introduction-to-linux-operating-system/) 、 [Unix](https://www.geeksforgeeks.org/introduction-to-unix-system/) 、Mac 等各种平台上。
+**1。 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) :**
+C++ 是由比雅尼·斯特劳斯特鲁普在贝尔实验室从 1979 年开始开发的，作为 [C 语言的扩展](https://www.geeksforgeeks.org/c-programming-language/) C++ 是一种通用编程语言，现在广泛用于竞争性编程。它具有命令式、面向对象和泛型编程特性。C++ 因其高效、高速和动态内存利用率而在程序员中广泛流行。它运行在 Windows、 [Linux](https://www.geeksforgeeks.org/introduction-to-linux-operating-system/) 、 [Unix](https://www.geeksforgeeks.org/introduction-to-unix-system/) 、Mac 等各种平台上。
 
 ## C++
 

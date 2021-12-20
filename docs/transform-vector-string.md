@@ -2,8 +2,8 @@
 
 > 原文:[https://www.geeksforgeeks.org/transform-vector-string/](https://www.geeksforgeeks.org/transform-vector-string/)
 
-[向量:](https://www.geeksforgeeks.org/vector-sequence-containers-the-c-standard-template-library-stl-set-1/)向量与动态数组相同，能够在插入或删除元素时自动调整自身大小，其存储由容器自动处理。将向量转换成字符串的 C++程序。
-[字符串:](https://www.geeksforgeeks.org/stdstring-class-in-c/) C++在其定义中有一种将字符序列表示为类对象的方式。这个类叫做 std:: string。
+[向量:](https://www.geeksforgeeks.org/vector-sequence-containers-the-c-standard-template-library-stl-set-1/)向量与动态数组相同，能够在插入或删除元素时自动调整自身大小，其存储由容器自动处理。将向量转换成字符串的 C++ 程序。
+[字符串:](https://www.geeksforgeeks.org/stdstring-class-in-c/) C++ 在其定义中有一种将字符序列表示为类对象的方式。这个类叫做 std:: string。
 
 **std::ostringstream** :对字符串进行操作的输出流类。此类的对象使用包含一系列字符的字符串缓冲区。这个字符序列可以使用成员字符串作为字符串对象直接访问。
 

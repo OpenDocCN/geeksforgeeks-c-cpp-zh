@@ -58,7 +58,7 @@ int main()
     // printing map pairs after insertion
     cout << "The map pairs after 1st insertion are : \n";
 
-    for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+    for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
     it = mp.begin();
@@ -71,7 +71,7 @@ int main()
     // printing map pairs after insertion
     cout << "The map pairs after 2nd insertion are : \n";
 
-    for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+    for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
     // initializing another map 
@@ -85,7 +85,7 @@ int main()
     // printing new map pairs after insertion
     cout << "The new map pairs after insertion are : \n";
 
-    for (it1 = mp2.begin(); it1!=mp2.end(); ++it1)
+    for (it1 = mp2.begin(); it1!=mp2.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
 }
@@ -154,7 +154,7 @@ int main()
     // printing map pairs after insertion
     cout << "The map pairs after 1st insertion are : \n";
 
-    for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+    for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
     cout << endl ;
@@ -175,7 +175,7 @@ int main()
     // printing map pairs after insertion
     cout << "The map pairs after 2nd insertion are : \n";
 
-    for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+    for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
     it = mp.begin();
@@ -188,7 +188,7 @@ int main()
     // printing map pairs after insertion
     cout << "The map pairs after 3rd insertion are : \n";
 
-    for (it1 = mp.begin(); it1!=mp.end(); ++it1)
+    for (it1 = mp.begin(); it1!=mp.end(); ++ it1)
         cout << it1->first << "->" << it1->second << endl;
 
 }
@@ -259,7 +259,7 @@ The element keys to c is : 2
 The element keys to d is : 0
 ```
 
-**相关文章** : [在地图 STL C++中搜索](https://www.geeksforgeeks.org/searching-map-using-stdmap-functions-c/)
+**相关文章** : [在地图 STL C++ 中搜索](https://www.geeksforgeeks.org/searching-map-using-stdmap-functions-c/)
 
 本文由 [**【曼吉特·辛格】**](https://www.facebook.com/manjeet.04.singh) 供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[write.geeksforgeeks.org](https://write.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 review-team@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。
 

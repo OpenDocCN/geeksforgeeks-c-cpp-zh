@@ -1,8 +1,8 @@
-# ios 操纵器在 C++中不显示 point()函数
+# ios 操纵器在 C++ 中不显示 point()函数
 
 > 原文:[https://www . geeksforgeeks . org/IOs-机械手-noshowpoint-function-in-c/](https://www.geeksforgeeks.org/ios-manipulators-noshowpoint-function-in-c/)
 
-C++中**流操纵器**的 **noshowpoint()** 方法用于清除指定字符串流的 showpoint 格式标志。只有当浮点值具有十进制值时，此标志才会以十进制显示浮点值。
+C++ 中**流操纵器**的 **noshowpoint()** 方法用于清除指定字符串流的 showpoint 格式标志。只有当浮点值具有十进制值时，此标志才会以十进制显示浮点值。
 **语法:**
 
 ```cpp

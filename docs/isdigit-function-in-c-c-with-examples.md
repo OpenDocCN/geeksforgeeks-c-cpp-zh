@@ -1,4 +1,4 @@
-# 是 C/C++中的 digit()函数，示例
+# 是 C/C++ 中的 digit()函数，示例
 
 > 原文:[https://www . geesforgeks . org/isdigit-function-in-c-c-with-examples/](https://www.geeksforgeeks.org/isdigit-function-in-c-c-with-examples/)
 
@@ -52,7 +52,7 @@ int main()
 }
 ```
 
-// C++程序演示 is digit()
+// C++ 程序演示 is digit()
 # include<ctype . h>
 # include<iostream>
 使用命名空间 std

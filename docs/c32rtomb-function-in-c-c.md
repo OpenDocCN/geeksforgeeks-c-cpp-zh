@@ -4,7 +4,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c32rtomb-function-in-c-c/](https://www.geeksforgeeks.org/c32rtomb-function-in-c-c/)
 
-**c32 rre()**是 C/C++中的内置函数，它将 32 位字符表示转换为窄多字节字符表示。在 C++的 **uchar.h** 头文件中定义。
+**c32 rre()**是 C/C++ 中的内置函数，它将 32 位字符表示转换为窄多字节字符表示。在 C++ 的 **uchar.h** 头文件中定义。
 
 **语法** :
 
@@ -46,9 +46,9 @@ int main()
         if ((length == 0) || (length > 50))
             break;
 
-        for (int i = 0; i < length; ++i)
+        for (int i = 0; i < length; ++ i)
             cout << s[i];
-        ++j;
+        ++ j;
     }
 
     return 0;
@@ -86,9 +86,9 @@ int main()
         if ((length == 0) || (length > 50))
             break;
 
-        for (int i = 0; i < length; ++i)
+        for (int i = 0; i < length; ++ i)
             cout << s[i];
-        ++j;
+        ++ j;
     }
 
     return 0;

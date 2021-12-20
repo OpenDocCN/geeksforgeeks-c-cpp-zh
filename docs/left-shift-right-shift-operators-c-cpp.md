@@ -1,4 +1,4 @@
-# C/c++中的左移和右移运算符
+# C/c++ 中的左移和右移运算符
 
 > 原文:[https://www . geesforgeks . org/left-shift-right-shift-operators-c-CPP/](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 

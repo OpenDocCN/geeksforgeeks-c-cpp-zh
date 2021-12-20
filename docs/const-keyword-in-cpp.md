@@ -1,8 +1,8 @@
-# c++中的 Const 关键字
+# c++ 中的 Const 关键字
 
 > 原文:[https://www.geeksforgeeks.org/const-keyword-in-cpp/](https://www.geeksforgeeks.org/const-keyword-in-cpp/)
 
-本文讨论了 **C++中 [const 关键字](https://www.geeksforgeeks.org/const-qualifier-in-c/)的各种功能。每当 **const 关键字**被附加任何方法()，变量，[指针变量](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)，并且带有一个类的对象时，它阻止特定的**对象/方法()/变量**修改它的数据项值。**
+本文讨论了 **C++ 中 [const 关键字](https://www.geeksforgeeks.org/const-qualifier-in-c/)的各种功能。每当 **const 关键字**被附加任何方法()，变量，[指针变量](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)，并且带有一个类的对象时，它阻止特定的**对象/方法()/变量**修改它的数据项值。**
 
 #### <u>常量变量</u>:
 
@@ -14,7 +14,7 @@
 
 ![const variable](img/79c3b2e26b34bb1d4db3d7cfd46ecd1d.png)
 
-下面是演示上述概念的 C++程序:
+下面是演示上述概念的 C++ 程序:
 
 ## C++
 
@@ -59,7 +59,7 @@ int main()
 const data_type* var_name;
 ```
 
-下面是实现上述概念的 C++程序:
+下面是实现上述概念的 C++ 程序:
 
 ## C++
 

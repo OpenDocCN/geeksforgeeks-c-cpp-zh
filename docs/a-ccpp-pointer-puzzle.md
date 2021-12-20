@@ -1,4 +1,4 @@
-# 一个 C/C++指针拼图
+# 一个 C/C++ 指针拼图
 
 > 原文:[https://www.geeksforgeeks.org/a-ccpp-pointer-puzzle/](https://www.geeksforgeeks.org/a-ccpp-pointer-puzzle/)
 

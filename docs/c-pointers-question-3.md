@@ -22,7 +22,7 @@ int main()
     printf(" x  = %d\n", x);
     printf(" *ptr = %d\n", *ptr);
 
-    (*ptr)++;
+    (*ptr)++ ;
     printf(" x = %d\n", x);
     printf(" *ptr = %d\n", *ptr);
 
@@ -72,7 +72,7 @@ x = 0
   printf(" x  = %d\n", x);  /* prints x = 5 */
   printf(" *ptr = %d\n", *ptr); /* prints *ptr =  5 */
 
-  (*ptr)++;         /* increment the value at ptr by 1 */
+  (*ptr)++ ;         /* increment the value at ptr by 1 */
   printf(" x  = %d\n", x);  /* prints x = 6 */
   printf(" *ptr = %d\n", *ptr);  /* prints *ptr =  6 */
 

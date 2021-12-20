@@ -86,7 +86,7 @@ int main()
     mymultiset1 = mymultiset2;
     cout << "mymultiset1 = ";
     for (auto it = mymultiset1.begin();
-              it != mymultiset1.end(); ++it)
+              it != mymultiset1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -114,7 +114,7 @@ int main()
     mymultiset1 = mymultiset2;
     cout << "mymultiset1 = ";
     for (auto it = mymultiset1.begin();
-              it != mymultiset1.end(); ++it)
+              it != mymultiset1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -143,7 +143,7 @@ int main()
     mymultiset1 = mymultiset2;
     cout << "mymultiset1 = ";
     for (auto it = mymultiset1.begin();
-              it != mymultiset1.end(); ++it)
+              it != mymultiset1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }
@@ -173,7 +173,7 @@ int main()
     myset1 = myset2;
     cout << "myset1 = ";
     for (auto it = myset1.begin();
-              it != myset1.end(); ++it)
+              it != myset1.end(); ++ it)
         cout << ' ' << *it;
     return 0;
 }

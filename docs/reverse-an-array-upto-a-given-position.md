@@ -46,7 +46,7 @@ int main()
 
     reverse(a, n, k);
 
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         printf("%d ", a[i]);
 
     return 0;
@@ -86,7 +86,7 @@ public class GFG {
         int []a = {1, 2, 3, 4, 5, 6};
         int n = a.length, k = 4;
         reverse(a, n, k);
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; ++ i)
             System.out.print(a[i] + " ");
     }
 }
@@ -169,7 +169,7 @@ public static void Main()
 
     reverse(a, n, k);
 
-    for (int i = 0; i < n; ++i)
+    for (int i = 0; i < n; ++ i)
         Console.Write(a[i] + " ");
 }
 }
@@ -211,7 +211,7 @@ function reverse( a, n, k)
 
     reverse(a, n, k);
 
-    for (let i = 0; i < n; ++i)
+    for (let i = 0; i < n; ++ i)
         document.write(a[i] + " ");
 
 </script>

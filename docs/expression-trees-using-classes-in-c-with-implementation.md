@@ -1,4 +1,4 @@
-# 在 C++中使用类的表达式树，带有实现
+# 在 C++ 中使用类的表达式树，带有实现
 
 > 原文:[https://www . geesforgeks . org/expression-trees-use-class-in-c-with-implementation/](https://www.geeksforgeeks.org/expression-trees-using-classes-in-c-with-implementation/)
 
@@ -40,7 +40,7 @@ Output: A + B * C / D
 
 ![Final Constructed expression tree](img/fc37062ae1c3cf02ce258591c5523ef0.png)
 
-下面是实现上述方法的 C++程序:
+下面是实现上述方法的 C++ 程序:
 
 ## C++
 

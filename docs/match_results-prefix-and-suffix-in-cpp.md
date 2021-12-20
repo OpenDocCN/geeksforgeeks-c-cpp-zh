@@ -1,8 +1,8 @@
-# c++中 match_results 前缀()和后缀()
+# c++ 中 match_results 前缀()和后缀()
 
 > 原文:[https://www . geesforgeks . org/match _ results-前缀-后缀-in-cpp/](https://www.geeksforgeeks.org/match_results-prefix-and-suffix-in-cpp/)
 
-*   **match_results::prefix()** 是 C++中的一个内置函数，用于获取输入目标字符串中匹配字符串之前的字符串。
+*   **match_results::prefix()** 是 C++ 中的一个内置函数，用于获取输入目标字符串中匹配字符串之前的字符串。
     **语法:**
 
 ```cpp
@@ -47,7 +47,7 @@ int main()
 Prefix is: [Geeksforgeeks is a ]
 ```
 
-*   **match_results::后缀()**是 C++中的一个内置函数，用于获取输入目标字符串中匹配字符串之后的字符串。
+*   **match_results::后缀()**是 C++ 中的一个内置函数，用于获取输入目标字符串中匹配字符串之后的字符串。
     **语法:**
 
 ```cpp

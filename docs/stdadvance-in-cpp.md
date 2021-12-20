@@ -1,4 +1,4 @@
-# STD::c++中的高级功能
+# STD::c++ 中的高级功能
 
 > 原文:[https://www.geeksforgeeks.org/stdadvance-in-cpp/](https://www.geeksforgeeks.org/stdadvance-in-cpp/)
 

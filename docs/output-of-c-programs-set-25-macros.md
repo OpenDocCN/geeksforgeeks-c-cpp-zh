@@ -1,4 +1,4 @@
-# c++程序输出|第 25 集(宏)
+# c++ 程序输出|第 25 集(宏)
 
 > 原文:[https://www . geesforgeks . org/c 程序输出-set-25-宏/](https://www.geeksforgeeks.org/output-of-c-programs-set-25-macros/)
 
@@ -113,7 +113,7 @@ GeeksforGeeks
 Bye Bye
 ```
 
-*   **说明:**c++编译器支持 printf，所以不会抛出任何错误。**宏甚至适用于关键词**和任何类型的语句，如 printf。当控件进入 printf 时，它会像函数调用一样抛出参数，因为它已经被定义了。
+*   **说明:**c++ 编译器支持 printf，所以不会抛出任何错误。**宏甚至适用于关键词**和任何类型的语句，如 printf。当控件进入 printf 时，它会像函数调用一样抛出参数，因为它已经被定义了。
 
 *   **以下程序的输出是什么？**
 

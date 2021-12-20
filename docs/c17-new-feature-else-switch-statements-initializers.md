@@ -1,4 +1,4 @@
-# C++17 新特性:If Else 和 Switch 语句带初始值
+# C++ 17 新特性:If Else 和 Switch 语句带初始值
 
 > 原文:[https://www . geesforgeks . org/c17-new-feature-else-switch-statements-initializer/](https://www.geeksforgeeks.org/c17-new-feature-else-switch-statements-initializers/)
 
@@ -38,7 +38,7 @@ if (condition) {
 
 ```
 
-在 C++17 中，init 语句被称为初始值设定项，我们可以将其直接放入 if-else 块，如下所示
+在 C++ 17 中，init 语句被称为初始值设定项，我们可以将其直接放入 if-else 块，如下所示
 
 ```cpp
 if (init-statement; condition) {
@@ -82,7 +82,7 @@ switch (initial-statement; variable) {
 
 ```cpp
 // Program to demonstrate init if-else
-// feature introduced in C++17
+// feature introduced in C++ 17
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -93,12 +93,12 @@ int main() {
   // later in program
   srand(time(NULL));
 
-  // Before C++17
+  // Before C++ 17
   int i = 2;
   if ( i % 2 == 0)
     cout << i << " is even number" << endl;
 
-  // After C++17
+  // After C++ 17
   // if(init-statement; condition)
   if (int i = 4; i % 2 == 0  )
     cout << i << " is even number" << endl;
@@ -121,13 +121,13 @@ i = 5
 
 ```
 
-**注意:**要编译这些程序，我们需要最新版本的编译器。在撰写本文时，这个特性已经在 clang 5 和 gcc 7 中完全实现了。为了编译程序，我们还需要指定-std=c++17 标志
+**注意:**要编译这些程序，我们需要最新版本的编译器。在撰写本文时，这个特性已经在 clang 5 和 gcc 7 中完全实现了。为了编译程序，我们还需要指定-std=c++ 17 标志
 
 ```cpp
-g++-7 program_file.cpp -std=c++17
+g++-7 program_file.cpp -std=c++ 17
 
 or
 
-clang++ program_file.cpp -std=c++17
+clang++ program_file.cpp -std=c++ 17
 
 ```

@@ -1,4 +1,4 @@
-# 在 C/C++中复制字符串的不同方式
+# 在 C/C++ 中复制字符串的不同方式
 
 > 原文:[https://www . geeksforgeeks . org/differential-to-copy-a-string-in-c/](https://www.geeksforgeeks.org/different-ways-to-copy-a-string-in-c-c/)
 

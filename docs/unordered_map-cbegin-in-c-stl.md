@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/unordered _ map-CBE gin-in-c-STL/](https://www.geeksforgeeks.org/unordered_map-cbegin-in-c-stl/)
 
-**c++中的 cbegin** 函数用于返回指向无序映射中第一个元素的常量迭代器。
+**c++ 中的 cbegin** 函数用于返回指向无序映射中第一个元素的常量迭代器。
 
 **语法:**
 

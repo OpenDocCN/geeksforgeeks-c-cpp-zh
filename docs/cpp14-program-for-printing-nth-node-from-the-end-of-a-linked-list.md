@@ -14,7 +14,7 @@
 
 下面是上述方法的实现:
 
-## C++14
+## C++ 14
 
 ```cpp
 // Simple C++ program to find n'th node from end
@@ -36,7 +36,7 @@ void printNthFromLast(struct Node* head, int n)
     // count the number of nodes in Linked List
     while (temp != NULL) {
         temp = temp->next;
-        len++;
+        len++ ;
     }
 
     // check if value of n is not

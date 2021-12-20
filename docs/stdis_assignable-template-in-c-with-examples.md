@@ -1,4 +1,4 @@
-# STD::is _ 可赋值模板 C++示例
+# STD::is _ 可赋值模板 C++ 示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ assigned-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_assignable-template-in-c-with-examples/)
 

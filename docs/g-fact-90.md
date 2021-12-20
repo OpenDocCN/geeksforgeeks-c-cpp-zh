@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-90/](https://www.geeksforgeeks.org/g-fact-90/)
 
-**c++中模板的默认参数:**
+**c++ 中模板的默认参数:**
 和函数默认参数一样，模板也可以有默认参数。例如，在下面的程序中，第二个参数 U 的默认值为 char。
 
 ```cpp

@@ -1,4 +1,4 @@
-# 如何在 C++中快速交换两个大小相同的数组？
+# 如何在 C++ 中快速交换两个大小相同的数组？
 
 > 原文:[https://www . geesforgeks . org/quick-swap-two-array-size-c/](https://www.geeksforgeeks.org/quickly-swap-two-arrays-size-c/)
 

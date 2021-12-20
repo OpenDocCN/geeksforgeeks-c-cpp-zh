@@ -74,7 +74,7 @@ int main()
     while (1) {
         // generating random character
         char randoml = 'a' + (random() % 26);
-        play2[k++] = randoml;
+        play2[k++ ] = randoml;
 
         size = strcspn(play2, player1);
 
@@ -96,7 +96,7 @@ int main()
     while (1) {
         // generating random character
         char randoml = 'a' + (random() % 26);
-        play1[k++] = randoml;
+        play1[k++ ] = randoml;
 
         size = strcspn(play1, player2);
 

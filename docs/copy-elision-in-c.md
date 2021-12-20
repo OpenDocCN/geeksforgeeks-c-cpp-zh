@@ -1,4 +1,4 @@
-# 在 C++中复制省略
+# 在 C++ 中复制省略
 
 > 原文:[https://www.geeksforgeeks.org/copy-elision-in-c/](https://www.geeksforgeeks.org/copy-elision-in-c/)
 
@@ -49,7 +49,7 @@ Constructor called
      B ob = B("copy me");
 ```
 
-然而，大多数 C++编译器避免了创建临时对象然后复制它的开销。
+然而，大多数 C++ 编译器避免了创建临时对象然后复制它的开销。
 
 ```cpp
 The modern compilers break down the statement
@@ -60,7 +60,7 @@ and thus eliding call to copy constructor.
 
 ```
 
-但是，如果我们仍然希望确保编译器不省略对复制构造函数的调用[禁用复制省略]，我们可以使用 g++的“-fno-elide-constructors”选项编译程序，并看到如下输出:
+但是，如果我们仍然希望确保编译器不省略对复制构造函数的调用[禁用复制省略]，我们可以使用 g++ 的“-fno-elide-constructors”选项编译程序，并看到如下输出:
 
 ```cpp
   aashish@aashish-ThinkPad-SL400:~$ g++ copy_elision.cpp -fno-elide-constructors

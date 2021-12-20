@@ -1,4 +1,4 @@
-# c++中的虚函数
+# c++ 中的虚函数
 
 > 原文:[https://www.geeksforgeeks.org/virtual-function-cpp/](https://www.geeksforgeeks.org/virtual-function-cpp/)
 

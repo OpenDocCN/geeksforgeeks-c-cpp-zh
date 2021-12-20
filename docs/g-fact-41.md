@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/g-fact-41/](https://www.geeksforgeeks.org/g-fact-41/)
 
-在 C 和 C++中，逗号是[优先表](http://www.cppreference.com/wiki/operator_precedence)中的最后一个运算符。所以在赋值表达式的右边要小心使用逗号。例如，在下面的程序中，可以预期输出为 b = 10。但是程序打印 b = 20，因为赋值比逗号具有更高的优先级，语句“b = 20，a”变得相当于(b = 20，a)”。
+在 C 和 C++ 中，逗号是[优先表](http://www.cppreference.com/wiki/operator_precedence)中的最后一个运算符。所以在赋值表达式的右边要小心使用逗号。例如，在下面的程序中，可以预期输出为 b = 10。但是程序打印 b = 20，因为赋值比逗号具有更高的优先级，语句“b = 20，a”变得相当于(b = 20，a)”。
 
 ```cpp
 #include<stdio.h>

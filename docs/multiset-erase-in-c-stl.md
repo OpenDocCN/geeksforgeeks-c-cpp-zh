@@ -4,7 +4,7 @@
 
 **先决条件:** [多集](https://www.geeksforgeeks.org/multiset-in-cpp-stl/)
 
-**多集::erase()** 是 C++中从多集移除指定元素的 STL 函数。
+**多集::erase()** 是 C++ 中从多集移除指定元素的 STL 函数。
 
 这个方法有三个版本。这些是:
 
@@ -46,14 +46,14 @@ int main()
 
     for (ms_iterator = multi_set.begin();
          ms_iterator != multi_set.end();
-         ++ms_iterator)
+         ++ ms_iterator)
 
         cout
             << ' ' << *ms_iterator;
     cout << '\n';
 
     ms_iterator = multi_set.begin();
-    ms_iterator++;
+    ms_iterator++ ;
 
     // Passing the iterator for the position
     // at which the value is to be erased
@@ -63,7 +63,7 @@ int main()
 
     for (ms_iterator = multi_set.begin();
          ms_iterator != multi_set.end();
-         ++ms_iterator)
+         ++ ms_iterator)
 
         cout << ' ' << *ms_iterator;
     cout << '\n';
@@ -119,7 +119,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
         for (ms_iterator = multi_set.begin();
              ms_iterator != multi_set.end();
-             ++ms_iterator)
+             ++ ms_iterator)
             cout << ' ' << *ms_iterator;
         cout << '\n';
 
@@ -134,7 +134,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
         for (ms_iterator = multi_set.begin();
              ms_iterator != multi_set.end();
-             ++ms_iterator)
+             ++ ms_iterator)
             cout << ' ' << *ms_iterator;
         cout << '\n';
 
@@ -189,14 +189,14 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
         for (ms_iterator = multi_set.begin();
              ms_iterator != multi_set.end();
-             ++ms_iterator)
+             ++ ms_iterator)
 
             cout << ' ' << *ms_iterator;
         cout << '\n';
 
         ms_iterator = multi_set.begin();
-        ms_iterator++;
-        ms_iterator++;
+        ms_iterator++ ;
+        ms_iterator++ ;
 
         // Passing the iterator range for the positions
         // at which the values are to be erased
@@ -206,7 +206,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
         for (ms_iterator = multi_set.begin();
              ms_iterator != multi_set.end();
-             ++ms_iterator)
+             ++ ms_iterator)
 
             cout << ' ' << *ms_iterator;
         cout << '\n';

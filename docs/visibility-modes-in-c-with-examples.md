@@ -1,4 +1,4 @@
-# c++中的可见模式，示例
+# c++ 中的可见模式，示例
 
 > 原文:[https://www . geesforgeks . org/visibility-modes-in-c-with-examples/](https://www.geeksforgeeks.org/visibility-modes-in-c-with-examples/)
 

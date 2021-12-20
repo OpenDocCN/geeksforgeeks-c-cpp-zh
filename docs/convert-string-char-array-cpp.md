@@ -1,4 +1,4 @@
-# 在 C++中将字符串转换为字符数组
+# 在 C++ 中将字符串转换为字符数组
 
 > 原文:[https://www . geesforgeks . org/convert-string-char-array-CPP/](https://www.geeksforgeeks.org/convert-string-char-array-cpp/)
 

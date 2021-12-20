@@ -36,7 +36,7 @@
 
         // prints the elements
         cout << "KEY\tELEMENT\n";
-        for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+        for (auto itr = mp.begin(); itr != mp.end(); ++ itr) {
             cout << itr->first
                  << '\t' << itr->second << '\n';
         }

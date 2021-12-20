@@ -1,4 +1,4 @@
-# c++中的 STD::memcmp()
+# c++ 中的 STD::memcmp()
 
 > 原文:[https://www.geeksforgeeks.org/stdmemcmp-in-cpp/](https://www.geeksforgeeks.org/stdmemcmp-in-cpp/)
 

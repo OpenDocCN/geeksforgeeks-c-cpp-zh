@@ -1,8 +1,8 @@
-# STD::mt 19937 c++中的 Class
+# STD::mt 19937 c++ 中的 Class
 
 > 原文:[https://www.geeksforgeeks.org/stdmt19937-class-in-cpp/](https://www.geeksforgeeks.org/stdmt19937-class-in-cpp/)
 
-**std::mt19937** (因为是 C++11)类是一个非常高效的伪随机数生成器，在随机头文件中定义。它使用著名且流行的算法 Mersenne twister 算法产生 32 位伪随机数。std::mt19937 类基本上是 std::mersenne_twister_engine 类的一种类型。
+**std::mt19937** (因为是 C++ 11)类是一个非常高效的伪随机数生成器，在随机头文件中定义。它使用著名且流行的算法 Mersenne twister 算法产生 32 位伪随机数。std::mt19937 类基本上是 std::mersenne_twister_engine 类的一种类型。
 
 ```cpp
 typedef mersenne_twister_engine<uint_fast32_t,

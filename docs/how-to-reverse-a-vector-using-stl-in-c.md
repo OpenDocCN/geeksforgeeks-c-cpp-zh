@@ -1,8 +1,8 @@
-# 如何在 C++中使用 STL 反转一个向量？
+# 如何在 C++ 中使用 STL 反转一个向量？
 
 > 原文:[https://www . geesforgeks . org/如何使用-stl-in-c/](https://www.geeksforgeeks.org/how-to-reverse-a-vector-using-stl-in-c/) 反转矢量
 
-给定一个向量，用 C++中的 STL 反转这个向量。
+给定一个向量，用 C++ 中的 STL 反转这个向量。
 **例:**
 
 ```cpp

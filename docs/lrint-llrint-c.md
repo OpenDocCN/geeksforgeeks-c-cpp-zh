@@ -1,4 +1,4 @@
-# c++中的 lrint()和 llrint()
+# c++ 中的 lrint()和 llrint()
 
 > 哎哎哎:# t0]https://www . geeksforgeeks . org/lrint-llrint-c/
 
@@ -145,7 +145,7 @@ Downward rounding of 50.88 is 50
 
 ```
 
-c++中的 llrint()
+c++ 中的 llrint()
 
 llrint()函数使用当前舍入模式将参数中给定的小数值舍入为整数值。
 这里，电流模式由函数 fesetround()决定。

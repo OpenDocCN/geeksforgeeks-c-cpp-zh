@@ -1,8 +1,8 @@
-# 标准::C++中的 min _ element
+# 标准::C++ 中的 min _ element
 
 > 原文:[https://www.geeksforgeeks.org/stdmin_element-in-cpp/](https://www.geeksforgeeks.org/stdmin_element-in-cpp/)
 
-为了计算给定列表中所有元素中的最小元素，我们有 [std::min](https://www.geeksforgeeks.org/stdmin-in-cpp/) ，但是如果我们想要找到的不是整个列表中的最小元素，而是列表的**子部分**中的最小元素，该怎么办。为了达到这个目的，我们在 C++中有 std::min_element。
+为了计算给定列表中所有元素中的最小元素，我们有 [std::min](https://www.geeksforgeeks.org/stdmin-in-cpp/) ，但是如果我们想要找到的不是整个列表中的最小元素，而是列表的**子部分**中的最小元素，该怎么办。为了达到这个目的，我们在 C++ 中有 std::min_element。
 
 std::min_element 在头文件<algorithm>中定义，它返回一个迭代器，指向范围[第一个，最后一个]中值最小的元素。</algorithm>
 

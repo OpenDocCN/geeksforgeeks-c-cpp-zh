@@ -1,8 +1,8 @@
-# C++位集有趣的事实
+# C++ 位集有趣的事实
 
 > 原文:[https://www.geeksforgeeks.org/c-bitset-interesting-facts/](https://www.geeksforgeeks.org/c-bitset-interesting-facts/)
 
-[位集](https://www.geeksforgeeks.org/c-bitset-and-its-application/)是 C++标准模板库中的一个容器，用于处理位级的数据。
+[位集](https://www.geeksforgeeks.org/c-bitset-and-its-application/)是 C++ 标准模板库中的一个容器，用于处理位级的数据。
 
 1.位集存储位(只有两个可能值的元素:0 或 1)。然而，我们可以通过向位集构造函数提供位置来获得字符串的一部分(位置是相对于从左到右的字符串位置)
 

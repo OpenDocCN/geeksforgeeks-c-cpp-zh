@@ -123,7 +123,7 @@ iterator multiset_name.insert(iterator position1, iterator position2)
 
 下面的程序说明了上面的功能:
 
-T3】c++T5
+T3】c++ T5
 
 ```cpp
 // C++ program to demonstrate the

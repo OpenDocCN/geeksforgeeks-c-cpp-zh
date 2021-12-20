@@ -1,4 +1,4 @@
-# cerr–c++中的标准错误流对象
+# cerr–c++ 中的标准错误流对象
 
 > 原文:[https://www . geesforgeks . org/cerr-standard-error-stream-object-in-CPP/](https://www.geeksforgeeks.org/cerr-standard-error-stream-object-in-cpp/)
 

@@ -135,7 +135,7 @@ char* base64Encoder(char input_str[], int len_str)
 
                 // calculates how many time loop
                 // ran if "MEN" -> 3 otherwise "ON" -> 2
-                count++;
+                count++ ;
 
             }
 
@@ -165,14 +165,14 @@ char* base64Encoder(char input_str[], int len_str)
                     index = (val << temp) & 63;
                     no_of_bits = 0;
                 }
-                res_str[k++] = char_set[index];
+                res_str[k++ ] = char_set[index];
             }
     }
 
     // padding is done here
     for (i = 1; i <= padding; i++)
     {
-        res_str[k++] = '=';
+        res_str[k++ ] = '=';
     }
 
     res_str[k] = '\0';
@@ -239,7 +239,7 @@ char* base64Encoder(char input_str[], int len_str)
 
                 // calculates how many time loop
                 // ran if "MEN" -> 3 otherwise "ON" -> 2
-                count++;
+                count++ ;
 
             }
 
@@ -269,14 +269,14 @@ char* base64Encoder(char input_str[], int len_str)
                     index = (val << temp) & 63;
                     no_of_bits = 0;
                 }
-                res_str[k++] = char_set[index];
+                res_str[k++ ] = char_set[index];
             }
     }
 
     // padding is done here
     for (i = 1; i <= padding; i++)
     {
-        res_str[k++] = '=';
+        res_str[k++ ] = '=';
     }
 
     res_str[k] = '\0;';

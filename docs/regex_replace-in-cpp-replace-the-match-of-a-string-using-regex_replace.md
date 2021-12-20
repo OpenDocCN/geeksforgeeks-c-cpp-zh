@@ -1,4 +1,4 @@
-# c++中的 regex_replace |使用 regex _ Replace 替换字符串的匹配项
+# c++ 中的 regex_replace |使用 regex _ Replace 替换字符串的匹配项
 
 > 原文:[https://www . geeksforgeeks . org/regex _ replace-in-CPP-replace-the-match-of-string-use-regex _ replace/](https://www.geeksforgeeks.org/regex_replace-in-cpp-replace-the-match-of-a-string-using-regex_replace/)
 
@@ -21,7 +21,7 @@ regex_replace(subject, regex_object, replace_text)
 
 1.  { content } amp 或者$0 用于插入整个正则表达式匹配。
 2.  $1、$2、…最多$9 用于插入前九个捕获组匹配的文本。
-3.  # c++中的 regex_replace |使用正则表达式 _ 替换替换字符串的匹配项
+3.  # c++ 中的 regex_replace |使用正则表达式 _ 替换替换字符串的匹配项
 
     (back-tick)用于插入比赛左边的字符串。
 4.  { content } ' 2019；(引号)用于插入匹配项右侧的字符串。

@@ -3,7 +3,7 @@
 > 原文:[https://www . geesforgeks . org/sorting-c-set-2 中的成对向量-按第一和第二降序排序/](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-2-sort-in-descending-order-by-first-and-second/)
 
 我们在下面的集合 1 中讨论了排序向量对的一些情况。
-[c++中对向量的排序|集合 1(按第一个和第二个排序)](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-1-sort-by-first-and-second/)
+[c++ 中对向量的排序|集合 1(按第一个和第二个排序)](https://www.geeksforgeeks.org/sorting-vector-of-pairs-in-c-set-1-sort-by-first-and-second/)
 更多情况在本文中讨论
 有时我们要求对向量进行逆序排序。在这些情况下，不是首先对向量进行排序，然后使用“反向”函数，而是增加代码的时间复杂性。因此，为了避免这种情况，我们直接按降序对向量进行排序。
 **情况 3:以对的第一个元素为基础，按降序对向量元素进行排序。**

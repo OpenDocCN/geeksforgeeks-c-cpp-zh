@@ -1,4 +1,4 @@
-# c++中的 expm 1()
+# c++ 中的 expm 1()
 
 > 原文:[https://www.geeksforgeeks.org/expm1-in-cpp/](https://www.geeksforgeeks.org/expm1-in-cpp/)
 

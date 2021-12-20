@@ -1,4 +1,4 @@
-# STD::is _ 可在 C++中构造的模板，示例
+# STD::is _ 可在 C++ 中构造的模板，示例
 
 > 原文:[https://www . geesforgeks . org/stdis _ constructionable-template-in-c-with-examples/](https://www.geeksforgeeks.org/stdis_constructible-template-in-c-with-examples/)
 
@@ -36,7 +36,7 @@ std::is_constructible::value
 *   True: if the type **t** is constructable.
 *   False: If the type **t** cannot be constructed.
 
-下面是用 C/C++说明**标准::is _ 可构造模板**的程序:
+下面是用 C/C++ 说明**标准::is _ 可构造模板**的程序:
 
 **程序:**
 

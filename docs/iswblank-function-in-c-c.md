@@ -1,8 +1,8 @@
-# iswblank()函数在 C/C++中
+# iswblank()函数在 C/C++ 中
 
 > 原文:[https://www.geeksforgeeks.org/iswblank-function-in-c-c/](https://www.geeksforgeeks.org/iswblank-function-in-c-c/)
 
-**isw blank()**是 C/C++中的一个内置函数，用于检查给定的宽字符是否为空白字符。在 C++的**cwcytpe**头文件中定义。
+**isw blank()**是 C/C++ 中的一个内置函数，用于检查给定的宽字符是否为空白字符。在 C++ 的**cwcytpe**头文件中定义。
 
 **语法**:
 

@@ -1,8 +1,8 @@
-# 用 C++解析逗号分隔字符串的程序
+# 用 C++ 解析逗号分隔字符串的程序
 
 > 原文:[https://www . geesforgeks . org/program-to-parse-a-逗号分隔字符串 in-c/](https://www.geeksforgeeks.org/program-to-parse-a-comma-separated-string-in-c/)
 
-给定一个逗号分隔的字符串，任务是解析这个字符串并在 C++中分隔单词。
+给定一个逗号分隔的字符串，任务是解析这个字符串并在 C++ 中分隔单词。
 **例:**
 
 ```cpp

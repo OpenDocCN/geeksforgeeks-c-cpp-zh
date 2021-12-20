@@ -96,7 +96,7 @@ int main()
             line(x1, y1, x2, y2);
             x1 = x1 + 20;
             y2 = y2 + 50;
-            i++;
+            i++ ;
         }
 
         // Drawing the boat
@@ -124,7 +124,7 @@ int main()
 
         // Moving the position of
         // boat and stick man
-        x++;
+        x++ ;
 
         setcolor(LIGHTBLUE);
         delay(250);
@@ -152,7 +152,7 @@ int main()
             line(x1, y1, x2, y2);
             x1 = x1 + 30;
             y2 = y2 + 60;
-            i++;
+            i++ ;
         }
 
         // Drawing the boat
@@ -178,14 +178,14 @@ int main()
 
         // Forwarding the position of
         // the boat
-        x++;
+        x++ ;
 
         // Sleep for 250 milliseconds
         delay(250);
 
         // Clears the graphic device
         cleardevice();
-        j++;
+        j++ ;
     }
 
     getch();

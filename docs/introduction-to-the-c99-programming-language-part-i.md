@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geeksforgeeks . org/入门-c99-编程语言-part-i/](https://www.geeksforgeeks.org/introduction-to-the-c99-programming-language-part-i/)
 
-**C99** 是 1999 年通过的**ISO/IEC 9899:1999**C 标准规范的别称。本文通过与 C89 标准的比较，重点介绍 C99 新增的功能。在 C99 标准的开发阶段，重新检查了 C 语言的每个元素，分析了使用模式，并预测了未来的需求。C 与 C++的关系为整个开发过程提供了背景。由此产生的 C99 标准是对原版优势的证明。
+**C99** 是 1999 年通过的**ISO/IEC 9899:1999**C 标准规范的别称。本文通过与 C89 标准的比较，重点介绍 C99 新增的功能。在 C99 标准的开发阶段，重新检查了 C 语言的每个元素，分析了使用模式，并预测了未来的需求。C 与 C++ 的关系为整个开发过程提供了背景。由此产生的 C99 标准是对原版优势的证明。
 
 1.  **C99 中增加的关键词:**
     *   **[inline](https://www.geeksforgeeks.org/inline-functions-cpp/):** C99 adds the keyword inline which is applicable to functions. If we write **inline datatype function_name (param)** to any function it means that we are specifying the compiler to optimize calls to that function i.e. the function’s code will be expanded inline rather than called.
@@ -66,7 +66,7 @@
 
     *   **_Bool Datatype:** _Bool datatype was added in C99 standard which stores 0 and 1 values. _Bool is an integer type.
 
-        **注意:**c++中的 bool 关键字和 C 中的 _Bool 不同。
+        **注意:**c++ 中的 bool 关键字和 C 中的 _Bool 不同。
 
         _Bool 很少使用，取而代之的是 C99 定义了一个新的头文件**[【stdbool . h】](https://www.geeksforgeeks.org/bool-in-c/)**，它定义了三个宏 Bool，真和假。
 

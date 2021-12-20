@@ -39,7 +39,7 @@ For 循环的各个**部分是:**
     **例:**
 
     ```cpp
-    i++;
+    i++ ;
     ```
 
 **For 循环是如何执行的？**
@@ -173,7 +173,7 @@ int main()
 
 ```cpp
 
-**相关文章:**1.  [C 和 C++中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)2.  [C/C++ while 循环示例](https://www.geeksforgeeks.org/c-c-while-loop-with-examples/)3.  [C/C++边做边循环示例](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)4.  [C、C++、Java 中 while 和 do-while 循环的区别](https://www.geeksforgeeks.org/difference-between-while-and-do-while-loop-in-c-c-java/)5.  [C、C++、Java 中 for 和 while 循环的区别](https://www.geeksforgeeks.org/difference-between-for-and-while-loop-in-c-c-java/)
+**相关文章:**1.  [C 和 C++ 中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)2.  [C/C++ while 循环示例](https://www.geeksforgeeks.org/c-c-while-loop-with-examples/)3.  [C/C++ 边做边循环示例](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)4.  [C、C++、Java 中 while 和 do-while 循环的区别](https://www.geeksforgeeks.org/difference-between-while-and-do-while-loop-in-c-c-java/)5.  [C、C++、Java 中 for 和 while 循环的区别](https://www.geeksforgeeks.org/difference-between-for-and-while-loop-in-c-c-java/)
 
 =>
 ```

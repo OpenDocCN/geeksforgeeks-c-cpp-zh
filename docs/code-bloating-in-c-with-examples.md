@@ -1,4 +1,4 @@
-# c++代码膨胀示例
+# c++ 代码膨胀示例
 
 > 原文:[https://www . geesforgeks . org/code-膨胀-in-c-with-examples/](https://www.geeksforgeeks.org/code-bloating-in-c-with-examples/)
 

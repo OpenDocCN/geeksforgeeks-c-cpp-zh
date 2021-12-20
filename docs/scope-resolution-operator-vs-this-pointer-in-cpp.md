@@ -1,10 +1,10 @@
-# c++中作用域解析运算符与该指针的关系
+# c++ 中作用域解析运算符与该指针的关系
 
 > 原文:[https://www . geesforgeks . org/scope-resolution-operator-vs-this-pointer-in-CPP/](https://www.geeksforgeeks.org/scope-resolution-operator-vs-this-pointer-in-cpp/)
 
 **作用域解析运算符**用于访问静态或类成员，**该指针**用于在存在同名局部变量时访问对象成员。
 
-考虑下面的 C++程序:
+考虑下面的 C++ 程序:
 
 T3】CPPT5
 

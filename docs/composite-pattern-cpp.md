@@ -1,4 +1,4 @@
-# c++中的复合设计模式
+# c++ 中的复合设计模式
 
 > 原文:[https://www.geeksforgeeks.org/composite-pattern-cpp/](https://www.geeksforgeeks.org/composite-pattern-cpp/)
 

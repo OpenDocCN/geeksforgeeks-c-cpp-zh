@@ -15,9 +15,9 @@ int fun(char *p)
         if (p[current] != p[current-1])
         {
             p[i] = p[current];
-            i++;
+            i++ ;
         }
-        current++;
+        current++ ;
     }
     *(p+i)='\0';
     return i;

@@ -78,15 +78,15 @@ int determinant(vector<vector<int> > mat2, int s)
             for (j = 0; j < s; j++) {
                 if (j != 0) {
                     mat1[i - 1][k] = mat2[i][j];
-                    k++;
+                    k++ ;
                 }
                 if (j != 1) {
                     mat3[i - 1][l] = mat2[i][j];
-                    l++;
+                    l++ ;
                 }
                 if (j != 2) {
                     mat4[i - 1][m] = mat2[i][j];
-                    m++;
+                    m++ ;
                 }
             }
         }
@@ -114,7 +114,7 @@ void* createTd(void* arg)
         for (j = 0; j < size; j++) {
             if (j != (*ar)) {
                 mat2[i - 1][k] = mat[i][j];
-                k++;
+                k++ ;
             }
         }
     }

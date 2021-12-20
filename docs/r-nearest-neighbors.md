@@ -62,9 +62,9 @@ int rNN(Point arr[], int n, float r, Point p)
         (arr[i].y - p.y) * (arr[i].y - p.y))) <= r)
         {
             if (arr[i].val == 0)
-                freq1++;
+                freq1++ ;
             else if (arr[i].val == 1)
-                freq2++;
+                freq2++ ;
         }
     }
     return (freq1 > freq2 ? 0 : 1);

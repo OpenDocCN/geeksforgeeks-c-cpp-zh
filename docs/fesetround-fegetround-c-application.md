@@ -1,11 +1,11 @@
-# c++中的 fesetround()和 fegetround()及其应用
+# c++ 中的 fesetround()和 fegetround()及其应用
 
 > 原文:[https://www . geeksforgeeks . org/fese trond-fegetround-c-application/](https://www.geeksforgeeks.org/fesetround-fegetround-c-application/)
 
 **fese trond()**
 
 它设置指定的浮点舍入方向或“当前舍入方向”，这将是浮点舍入宏之一。
-在 C++中与 rint()、nearbyint()等舍入函数配合使用。
+在 C++ 中与 rint()、nearbyint()等舍入函数配合使用。
 
 ```cpp
 Syntax:
@@ -69,7 +69,7 @@ int main()
 
 炼狱()
 
-用于获取当前舍入方向对应的浮点舍入宏的值。它与 rint()，nearbyint()和 C++中的其他舍入函数一起使用。
+用于获取当前舍入方向对应的浮点舍入宏的值。它与 rint()，nearbyint()和 C++ 中的其他舍入函数一起使用。
 
 ```cpp
 Syntax : 

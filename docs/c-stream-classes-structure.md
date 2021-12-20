@@ -1,8 +1,8 @@
-# C++流类结构
+# C++ 流类结构
 
 > 原文:[https://www.geeksforgeeks.org/c-stream-classes-structure/](https://www.geeksforgeeks.org/c-stream-classes-structure/)
 
-在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，有许多流类，用于定义与文件相关的各种流和进行输入输出操作。所有这些类都在文件 **iostream.h** 中定义。下图显示了这些类的层次结构。
+在 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中，有许多流类，用于定义与文件相关的各种流和进行输入输出操作。所有这些类都在文件 **iostream.h** 中定义。下图显示了这些类的层次结构。
 
 ![](img/4363b6686b681706d704665ac3f26d59.png)
 
@@ -211,4 +211,4 @@ Value of dx and dy are
 
 **相关文章** :
 
-*   [c++中的基本输入/输出](https://www.geeksforgeeks.org/basic-input-output-c/)
+*   [c++ 中的基本输入/输出](https://www.geeksforgeeks.org/basic-input-output-c/)

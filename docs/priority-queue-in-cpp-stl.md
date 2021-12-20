@@ -1,4 +1,4 @@
-# c++标准模板库(STL)中的优先级队列
+# c++ 标准模板库(STL)中的优先级队列
 
 > 原文:[https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/)
 
@@ -56,11 +56,11 @@ gquiz.top() : 30
 gquiz.pop() :     20    10    5    1
 ```
 
-> **注意:**默认情况下，C++为优先级队列创建最大堆。
+> **注意:**默认情况下，C++ 为优先级队列创建最大堆。
 
 **如何为优先级队列创建最小堆？**
 
-C++提供了相同的语法。
+C++ 提供了相同的语法。
 
 **语法:**
 

@@ -1,4 +1,4 @@
-# C 和 C++中比较运算的结果
+# C 和 C++ 中比较运算的结果
 
 > 原文:[https://www . geeksforgeeks . org/c-in-c-and-c 操作比较结果/](https://www.geeksforgeeks.org/results-of-comparison-operations-in-c-and-c/)
 
@@ -22,7 +22,7 @@ int main()
 4
 ```
 
-而在 C++中，比较运算的结果类型是 bool。例如，请参见以下程序。
+而在 C++ 中，比较运算的结果类型是 bool。例如，请参见以下程序。
 
 ```cpp
 #include<iostream>

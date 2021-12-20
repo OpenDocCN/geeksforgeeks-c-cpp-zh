@@ -1,4 +1,4 @@
-# c++中的函数重载与函数覆盖
+# c++ 中的函数重载与函数覆盖
 
 > 原文:[https://www . geesforgeks . org/function-overriding-override-in-CPP/](https://www.geeksforgeeks.org/function-overloading-vs-function-overriding-in-cpp/)
 

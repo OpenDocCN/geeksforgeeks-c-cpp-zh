@@ -1,11 +1,11 @@
-# c++中的访问修饰符
+# c++ 中的访问修饰符
 
 > 原文:[https://www.geeksforgeeks.org/access-modifiers-in-c/](https://www.geeksforgeeks.org/access-modifiers-in-c/)
 
 访问修饰符用于实现面向对象编程的一个重要方面，称为 [**【数据隐藏】**](https://practice.geeksforgeeks.org/problems/what-is-data-hiding) 。考虑一个现实生活中的例子:
 研究和分析部门(R & AW)，有 10 个核心成员已经掌握了关于国家安全的敏感机密信息。现在我们可以将这些核心成员关联到一个类的数据成员或成员函数，这些数据成员或成员函数又可以关联到 R & A 翼。这 10 名成员可以直接从他们的分支(班级)访问机密信息，但是除了这 10 名成员之外的任何人都不能直接访问这些信息，即除了班级本身中流行的功能之外，其他功能都不能访问无权访问的信息。 既没有被分配的特权(如前面本文将看到的由 friend 类和继承类拥有的特权)，也没有被允许直接访问机密信息的这 10 个成员之一的访问权(类似于一个类的私有成员如何在外部世界通过直接访问私有成员的类的公共成员函数被访问)。 这就是数据隐藏在实践中的作用。
 类[中的访问修饰符或访问说明符用于将可访问性分配给类成员。也就是说，它对类成员设置了一些限制，不让外部函数直接访问。
-c++中有 3 种访问修饰符:](https://www.geeksforgeeks.org/c-classes-and-objects/)
+c++ 中有 3 种访问修饰符:](https://www.geeksforgeeks.org/c-classes-and-objects/)
 
 1.  **公共**
 2.  **私人**

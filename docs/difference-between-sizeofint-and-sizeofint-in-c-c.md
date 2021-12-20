@@ -4,7 +4,7 @@
 
 > 原文:[https://www . geesforgeks . org/difference-sizeo fint-in-c-c/](https://www.geeksforgeeks.org/difference-between-sizeofint-and-sizeofint-in-c-c/)
 
-**[sizeof()](https://www.geeksforgeeks.org/sizeof-operator-c/)** 是 [C](https://www.geeksforgeeks.org/c/) 或 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中常用的运算符。它是一个编译时[一元运算符](https://www.geeksforgeeks.org/unary-operators-cc/)，可用于计算其操作数的大小。 **sizeof()** 的结果为**无符号整型**，通常用 **[size_t](https://www.geeksforgeeks.org/size_t-data-type-c-language/)** 表示。该运算符可应用于任何数据类型，包括[基元类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)如整数和浮点类型、指针类型，或复合数据类型如[结构](https://www.geeksforgeeks.org/structures-c/)、[联合](https://www.geeksforgeeks.org/union-c/)等。
+**[sizeof()](https://www.geeksforgeeks.org/sizeof-operator-c/)** 是 [C](https://www.geeksforgeeks.org/c/) 或 [C++ ](https://www.geeksforgeeks.org/c-plus-plus/) 中常用的运算符。它是一个编译时[一元运算符](https://www.geeksforgeeks.org/unary-operators-cc/)，可用于计算其操作数的大小。 **sizeof()** 的结果为**无符号整型**，通常用 **[size_t](https://www.geeksforgeeks.org/size_t-data-type-c-language/)** 表示。该运算符可应用于任何数据类型，包括[基元类型](https://www.geeksforgeeks.org/uninitialized-primitive-data-types-in-c-c/)如整数和浮点类型、指针类型，或复合数据类型如[结构](https://www.geeksforgeeks.org/structures-c/)、[联合](https://www.geeksforgeeks.org/union-c/)等。
 
 > **int** 表示数据类型为整数的变量。
 > **sizeof(int)** 返回用于存储整数的字节数。
