@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```cpp
 // In the below C++ code, we have created
 // a destructor, but no copy constructor
 // and no copy assignment operator.

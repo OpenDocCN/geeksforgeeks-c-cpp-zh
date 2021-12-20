@@ -10,7 +10,7 @@ empty()函数用于检查集合容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *setname*.empty()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input  : myset{1, 2, 3, 4, 5};
          myset.empty();
 Output : False
@@ -38,7 +38,7 @@ Output : True
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // INTEGER SET
 // CPP program to illustrate
 // Implementation of empty() function
@@ -64,12 +64,12 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 
 ```
 
-```
+```cpp
 // CHARACTER SET
 // CPP program to illustrate
 // Implementation of empty() function
@@ -93,7 +93,7 @@ int main()
 
 输出:
 
-```
+```cpp
 False
 
 ```
@@ -103,7 +103,7 @@ False
 **应用:**
 给定一组整数，求所有整数的和。
 
-```
+```cpp
 Input  : 1, 5, 6, 3, 9, 2
 Output : 26
 Explanation -  1+5+6+3+9+2 = 26
@@ -115,7 +115,7 @@ Explanation -  1+5+6+3+9+2 = 26
 2。重复此步骤，直到集合为空。
 3。打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include<iostream>
@@ -145,7 +145,7 @@ int main()
 
 输出:
 
-```
+```cpp
 26
 
 ```

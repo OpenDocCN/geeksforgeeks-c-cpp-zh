@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```cpp
 int isprint ( int c ); 
 c : character to be checked.
 Returns a non-zero value(true) if c is a printable 
@@ -31,7 +31,7 @@ character else, zero (false).
 
 示例:
 
-```
+```cpp
 Input : string = 'My name \n is \n Ayush'
 Output : 18
 
@@ -40,7 +40,7 @@ Output : 19
 
 ```
 
-```
+```cpp
 // CPP program to count printable characters in a string
 #include <iostream>
 #include <cstring>
@@ -71,7 +71,7 @@ int main()
 
 输出:
 
-```
+```cpp
 18
 
 ```

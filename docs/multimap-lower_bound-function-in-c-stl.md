@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.lower_bound(key)
 ```
 
@@ -14,7 +14,7 @@ multimap_name.lower_bound(key)
 
 **返回值:**函数返回一个迭代器，指向容器中的键，相当于参数中传递的 k。如果 k 不在 multimap 容器中，函数返回一个迭代器，指向刚好大于 k 的下一个元素。如果参数中传递的键超过了容器中的最大键，则返回的迭代器指向键+1 和元素=0。
 
-```
+```cpp
 // C++ function for illustration
 // multimap::lower_bound() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The lower bound of key 2 is 2 30
 The lower bound of key 3 is 4 50
 The lower bound of key 5 is 6 0

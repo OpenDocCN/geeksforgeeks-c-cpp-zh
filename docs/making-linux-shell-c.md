@@ -26,7 +26,7 @@
 
 **要安装 readline 库，请打开终端窗口并写入**
 
-```
+```cpp
 sudo apt-get install libreadline-dev
 ```
 
@@ -45,7 +45,7 @@ sudo apt-get install libreadline-dev
     3.  创造两个孩子。
     4.  在子 1->
 
-        ```
+        ```cpp
         Here the output has to be taken into the pipe.
         Copy file descriptor 1 to stdout.
         Close  file descriptor 0.
@@ -55,7 +55,7 @@ sudo apt-get install libreadline-dev
 
     5.  在子 2->
 
-        ```
+        ```cpp
         Here the input has to be taken from the pipe.
         Copy file descriptor 0 to stdin.
         Close file descriptor 1.
@@ -65,7 +65,7 @@ sudo apt-get install libreadline-dev
 
     6.  等两个孩子在家长里说完。** 
 
-```
+```cpp
 // C Program to design a shell in Linux
 #include<stdio.h>
 #include<string.h>
@@ -347,7 +347,7 @@ int main()
 
 ****运行代码–****
 
-```
+```cpp
  gcc shell.c -lreadline
 ./a.out 
 ```

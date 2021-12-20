@@ -7,7 +7,7 @@ C++在其 STL 库中提供了一个 merge()，这对于将两个排序容器合�
 
 **语法 1:使用运算符“<”**
 
-```
+```cpp
 Template :
 template 
   outiter merge (initer1 beg1, initer1 end1,
@@ -27,7 +27,7 @@ Iterator to last element of the resulting container.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // merge() implementation 1
 
@@ -63,14 +63,14 @@ int main()
 
 输出:
 
-```
+```cpp
 The container after merging initial containers is : 1 1 2 2 3 4 5 6 6 7 
 
 ```
 
 **语法 2:使用比较器功能**
 
-```
+```cpp
 Template :
 template 
   outiter merge (initer1 beg1, initer1 end1,
@@ -94,7 +94,7 @@ Iterator to last element of the resulting container.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // merge() implementation 2
 
@@ -140,14 +140,14 @@ int main()
 
 输出:
 
-```
+```cpp
 The container after reverse merging initial containers is : 7 6 6 5 4 3 2 2 1 1 
 
 ```
 
 **可能的应用:**合并功能可用于以**排序顺序**获得两个堆栈的**单个堆栈。这些可以是一叠书或笔记。让我们讨论一个简单的例子，它根据两叠钞票的价值，将两叠钞票按升序排列成一叠。**
 
-```
+```cpp
 // C++ code to demonstrate the application of
 // merge() stacking notes
 
@@ -199,7 +199,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The original 1st stack : 50 20 10 100 2000 
 The original 2nd stack : 500 2000 10 100 50 
 The resultant stack of notes is : 10 10 20 50 50 100 100 500 2000 2000 

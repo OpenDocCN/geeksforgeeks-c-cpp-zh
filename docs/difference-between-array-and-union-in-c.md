@@ -9,7 +9,7 @@
 
 **数组声明:**
 
-```
+```cpp
 datatype array_name[size]
 
 ```
@@ -21,7 +21,7 @@ datatype array_name[size]
 
 **联合声明:**
 
-```
+```cpp
 union name
 {
   datatype element;

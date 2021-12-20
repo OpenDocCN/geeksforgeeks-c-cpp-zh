@@ -15,7 +15,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program with compilation
 // error to demonstrate that
 // Final class cannot be inherited
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
 
 ****输出****
 
-```
+```cpp
  In constructor 'Derived::Derived()':
   error: 'MakeFinal::MakeFinal()' is private
 ```
@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program without any
 // compilation error to demonstrate
 // that instances of the Final
@@ -94,7 +94,7 @@ int main(int argc, char* argv[])
 
 ******Output**
 
-```
+```cpp
 MakeFinal constructor
 Final constructor
 ```**** 
@@ -105,7 +105,7 @@ Final constructor
 
 ## ****C++****
 
-```
+```cpp
 **// C++ Program with compilation error
 // as the base class is declared as final
 
@@ -128,7 +128,7 @@ int main() {
 
 ******输出******
 
-```
+```cpp
 **prog.cpp:8:7: error: cannot derive from ‘final’ base ‘base’ in derived type ‘derive’
  class derive: public base  // compile error because base class is final**
 ```

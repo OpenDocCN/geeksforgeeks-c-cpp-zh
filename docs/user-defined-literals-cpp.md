@@ -6,7 +6,7 @@
 
 **内置类型的文字示例:**
 
-```
+```cpp
 // Examples of classical literals for built-in types.
 42    // int
 2.4    // double
@@ -20,7 +20,7 @@
 **我们为什么要用 UDLs？**
 让我们考虑下面的例子来理解 UDLs 的需求。
 
-```
+```cpp
 long double Weight = 2.3; //  pounds? kilograms? grams?
 
 // With UDL, we attach units to the values which has
@@ -35,7 +35,7 @@ ratio = 2.3kg/1.2lb;
 
 **用户定义的文字示例:**
 
-```
+```cpp
 "hello"s            // string
 4.3i                // imaginary
 101000111101001b    // binary
@@ -47,7 +47,7 @@ ratio = 2.3kg/1.2lb;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate working of user defined
 // literals (UDLs)
 #include<iostream>
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3600
 3600.0023
 16150
@@ -98,7 +98,7 @@ int main()
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 #include <complex>
 using namespace std;
@@ -122,7 +122,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 z + y = (5.3,9)
 z * y = (-13.1,24.2)
 abs(z) = 5
@@ -134,7 +134,7 @@ abs(z) = 5
 **限制:**
 UDL 只能使用以下参数:
 
-```
+```cpp
 char const*
 unsigned long long
 long double

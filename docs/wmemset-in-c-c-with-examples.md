@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 wmemset(des, ch, count)
 ```
 
@@ -25,7 +25,7 @@ wmemset(des, ch, count)
 下面的程序说明了上述功能。
 **节目 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wmemset() function when count is greater than 0
 #include <cwchar>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After copying G 10 times
 GGGGGGGGGG
 
@@ -58,7 +58,7 @@ GGGGGGGGGG
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wmemset() function when count is 0
 #include <cwchar>
@@ -83,14 +83,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After copying r 0 times
 
 ```
 
 **Program 3**:
 
-```
+```cpp
 // C++ program to illustrate the
 // wmemset() function when 
 // count is less than 0
@@ -117,7 +117,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Runtime Errors:
 Segmentation Fault (SIGSEGV)
 

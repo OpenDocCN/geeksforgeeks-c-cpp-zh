@@ -8,7 +8,7 @@ C/C++中的 **wcsncmp()** 函数比较两个宽字符串的字符。比较是按
 
 **语法:**
 
-```
+```cpp
 int wcsncmp( const wchar_t* lhs, const wchar_t* rhs, size_t count )
 ```
 
@@ -27,7 +27,7 @@ int wcsncmp( const wchar_t* lhs, const wchar_t* rhs, size_t count )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsncmp() function
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First 4 characters of  are same
 geekGgeek precedes geekforgeeks
 
@@ -76,7 +76,7 @@ geekGgeek precedes geekforgeeks
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsncmp() function
 #include <bits/stdc++.h>
@@ -118,7 +118,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First 5 characters of  are same
 First 8 characters of  are same
 

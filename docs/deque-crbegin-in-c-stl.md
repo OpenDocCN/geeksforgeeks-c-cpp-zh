@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 dequename.crbegin()
 ```
 
@@ -25,7 +25,7 @@ dequename.crbegin()
 
 下面的程序说明了 crbegin 函数的工作原理:
 
-```
+```cpp
 // deque::crbegin and crend
 #include <deque>
 #include <iostream>
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Printing the numdeque backwards: 6 5 4 3 2 1
 
 ```
 
 由于返回的迭代器是常量，如果我们试图改变值，我们会得到编译器错误。
 
-```
+```cpp
 // deque::crbegin and crend
 #include <deque>
 #include <iostream>

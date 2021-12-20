@@ -9,7 +9,7 @@
 
         **示例:**
 
-        ```
+        ```cpp
         // C program to demonstrate inline keyword
 
         #include <stdio.h>
@@ -32,7 +32,7 @@
 
         上述程序相当于以下程序
 
-        ```
+        ```cpp
         #include <stdio.h>
 
         int main()
@@ -46,14 +46,14 @@
 
         **Output:**
 
-        ```
+        ```cpp
         Maximum of 5 and 10 is 10
 
         ```
 
         **Output:**
 
-        ```
+        ```cpp
         Maximum of 5 and 10 is 10
 
         ```
@@ -95,7 +95,7 @@
 
         **示例:**
 
-        ```
+        ```cpp
         int fun1(char arr[static 80])
         {
             // code
@@ -106,7 +106,7 @@
 
         **示例:**
 
-        ```
+        ```cpp
         #include <stdio.h>
         void fun(int a[static 10])
         {
@@ -128,7 +128,7 @@
 
         **Output:**
 
-        ```
+        ```cpp
         2 3 4 5 5 5 5 5 6 6
 
         ```** 
@@ -136,7 +136,7 @@
 
     例如:
 
-    ```
+    ```cpp
     // First Comment
     int a; // another comment
     ```** 
@@ -145,7 +145,7 @@
 
     简单来说，我们可以这样看:
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {

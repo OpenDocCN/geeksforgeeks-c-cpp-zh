@@ -12,7 +12,7 @@
 
 **解释:**如果我们声明*新的*和*【新的】*运算符，那么就不能在任何地方(类内和类外)创建对象我们不能使用新的来分配测试类型的对象。
 
-```
+```cpp
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>

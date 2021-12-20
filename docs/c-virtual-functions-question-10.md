@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-virtual-functions-question-10/](https://www.geeksforgeeks.org/c-virtual-functions-question-10/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Base  {
@@ -24,7 +24,7 @@ int main()  {
 
 **(甲)**
 
-```
+```cpp
 Constructor: Base
 Constructor: Derived
 Destructor : Derived
@@ -33,7 +33,7 @@ Destructor : Base
 
 **(B)**
 
-```
+```cpp
 Constructor: Base
 Constructor: Derived
 Destructor : Base
@@ -41,7 +41,7 @@ Destructor : Base
 
 **(C)**
 
-```
+```cpp
 Constructor: Base
 Constructor: Derived
 Destructor : Derived
@@ -49,7 +49,7 @@ Destructor : Derived
 
 **(D)**
 
-```
+```cpp
 Constructor: Derived
 Destructor : Derived
 ```

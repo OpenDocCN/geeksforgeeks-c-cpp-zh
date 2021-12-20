@@ -4,7 +4,7 @@
 
 在以下 C 中 printf()的上下文中，选择最佳语句。
 
-```
+```cpp
 i) printf("%d",8);
 ii) printf("%d",090);
 iii) printf("%d",00200);

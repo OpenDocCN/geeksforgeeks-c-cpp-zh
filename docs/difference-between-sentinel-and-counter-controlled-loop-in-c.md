@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // The following program does the work
 // of finding a length of a string using
 // sentinel controlled loop
@@ -54,7 +54,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The length of string is 13
 
 ```

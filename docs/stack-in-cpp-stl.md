@@ -34,7 +34,7 @@ size_type-无符号整数类型。
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -57,7 +57,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
  22 21
 ```
 

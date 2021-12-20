@@ -6,7 +6,7 @@
 
 下面的程序会编译吗？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {
@@ -25,7 +25,7 @@ int main() {
 
 **说明:**一个析构器可以是虚的。当基类指针指向派生类对象并且我们删除该对象时，我们可能需要调用适当的析构函数。如果析构函数不是虚拟的，那么只能调用基类析构函数。例如，考虑以下程序。
 
-```
+```cpp
 // Not good code as destructor is not virtual
 #include<iostream>
 using namespace std;

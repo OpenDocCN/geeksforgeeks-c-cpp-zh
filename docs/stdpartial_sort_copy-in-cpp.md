@@ -10,7 +10,7 @@
 
     语法:
 
-    ```
+    ```cpp
     Template 
     RandomAccessIterator partial_sort_copy (InputIterator first, InputIterator last,
                                             RandomAccessIterator result_first,
@@ -28,7 +28,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of
     // std::partial_sort_copy
     #include <iostream>
@@ -56,7 +56,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 1 3
 
     ```
@@ -67,7 +67,7 @@
 
     语法:
 
-    ```
+    ```cpp
     Template
      RandomAccessIterator partial_sort_copy (InputIterator first, InputIterator last,
                                              RandomAccessIterator result_first,
@@ -89,7 +89,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of
     // std::partial_sort_copy
     #include <iostream>
@@ -125,7 +125,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 1 3 3 3 7 7
 
     ```
@@ -134,7 +134,7 @@
 
 *   **For copying the sorted range:** So, whenever we want the original container to remain unchanged after sorting and the resultant of partial_sort to be stored inside another container, then we can use this.
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of
     // std::partial_sort_copy
     #include <iostream>
@@ -169,7 +169,7 @@
 
     输出:
 
-    ```
+    ```cpp
     v = 100 45 78 23 220
     v1 = 23 45 78 100 220
 

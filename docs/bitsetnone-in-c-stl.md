@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool none() 
 
 ```
@@ -21,7 +21,7 @@ bool none()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::none() function
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1100 has a minimum of one bit set
 000000 has no bits set
 
@@ -70,7 +70,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::none() function
 // when the input is a number
@@ -109,7 +109,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 100 has a minimum of one bit set
 000000 has no bits set
 

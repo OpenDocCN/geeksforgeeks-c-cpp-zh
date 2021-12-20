@@ -12,7 +12,7 @@
 *   **插入(提示，ele)** :在这个实现中，**提示指针**与要插入的元素一起发送。使用提示指针是为了**帮助 insert()知道实际的插入必须发生在哪里**。因此，尝试减少分配元素的时间。提示指针不会强制在特定位置插入。该功能**将指针返回到插入元素的位置**。
 *   **插入(beg_ptr，end_ptr)** :这种类型的插入需要**将其他容器**的元件插入到套件中。如果重复的元素出现在源容器中，则不会插入它们。
 
-```
+```cpp
 // C++ code to demonstrate the working of insert()
 #include<iostream>
 #include<set> // for set operations
@@ -68,7 +68,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The element was newly inserted
 The set elements after 1st insertion are : 20 
 The set elements after 2nd insertion are : 20 24 
@@ -81,7 +81,7 @@ The set elements after 3rd insertion are : 20 24 25 26
 *   **定位()**:使用原地构建策略插入元素。将集合的大小增加 1。返回指针对。**第一个元素是迭代器，指向插入元素的位置。2nd 返回一个布尔变量，表示已经存在或新创建的元素**。
 *   **侵位 _ 提示()**:取一个**“提示 _ 迭代器”得到插入位置的提示**可能会减少插入插入元素所需的时间。这不会影响插入的位置。它发生在内部定义的地方。
 
-```
+```cpp
 // C++ code to demonstrate the working of emplace()
 // and emplace_hint()
 #include<iostream>
@@ -143,7 +143,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The element was newly inserted
 The set elements after 1st insertion are : 24 
 The element was already present
@@ -160,7 +160,7 @@ The set elements after 3rd insertion are : 24 25
 *   **擦除(iter)** :擦除其参数中提到的迭代器所指向位置的值**。**
 *   **擦除(strt_iter，end_iter)** :擦除从“strt_iter”到“end_iter”的**元素范围**。
 
-```
+```cpp
 // C++ code to demonstrate the working of erase()
 #include<iostream>
 #include<set> // for set operations
@@ -231,7 +231,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The set elements after insertion are : 5 10 15 20 25 30 35 40 45 
 The set elements after 1st deletion are : 5 15 20 25 30 35 40 45 
 The set elements after 2nd deletion are : 5 15 20 25 30 35 45 

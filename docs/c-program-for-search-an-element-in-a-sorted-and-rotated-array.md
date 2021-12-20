@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```cpp
 Input  : arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
          key = 3
 Output : Found at index 8
@@ -34,7 +34,7 @@ Output : Found at index 3
 
 **执行:**
 
-```
+```cpp
 Input arr[] = {3, 4, 5, 1, 2}
 Element to Search = 1
   1) Find out pivot point and divide the array in two
@@ -52,7 +52,7 @@ Element to Search = 1
 
 ## C
 
-```
+```cpp
 /* Program to search an element in 
    a sorted and pivoted array*/
 #include <stdio.h>
@@ -129,7 +129,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Index of the element is : 8
 ```
 

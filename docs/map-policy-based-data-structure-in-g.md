@@ -10,7 +10,7 @@ g++编译器支持一些数据结构，但它们不是 C++标准库的一部分�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <ext/pb_ds/assoc_container.hpp> // Common file
 #include <ext/pb_ds/tree_policy.hpp>
 #include <functional> // for less
@@ -22,7 +22,7 @@ using namespace __gnu_pbds;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program showing a Policy Based Data Structure as a map
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Contents of map:
 KEY    ELEMENT
 12    22

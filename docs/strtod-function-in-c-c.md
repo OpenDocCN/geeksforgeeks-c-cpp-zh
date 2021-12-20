@@ -7,7 +7,7 @@
 
 **语法**:
 
-```
+```cpp
 double strtod(str, &end)
 ```
 
@@ -21,7 +21,7 @@ double strtod(str, &end)
 
 ****程序 1** :**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtod() function
 #include <cstdlib>
@@ -46,7 +46,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 number = 11.03e 0mn
 double = 11.03
 end string = e 0mn
@@ -55,7 +55,7 @@ end string = e 0mn
 
 ****程序 2** :**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtod() function without trailing characters
 #include <cstdlib>
@@ -87,7 +87,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 number= 4.06
 double= 4.06
 null
@@ -97,7 +97,7 @@ null
 ****程序 3** :
 用指数和十六进制数构造()函数**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtod() function with exponents and hexadecimals
 #include <cstdlib>
@@ -132,7 +132,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 str = -89.04e-3win gfg
 double = -0.08904
 end string = win gfg
@@ -145,7 +145,7 @@ end string = gupta.1204ishwar
 
 ****程序 4** :**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtod() function for Infinity and NaN
 #include <cstdlib>
@@ -181,7 +181,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Infinity to double = inf
 end string = 
 
@@ -196,7 +196,7 @@ end string = 11x
 ****程序 5** :带前导空格的
 strtod()函数**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtod() function with leading whitespace
 #include <cstdlib>
@@ -229,7 +229,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 99.99 to double = 19.99
 end string = 
 

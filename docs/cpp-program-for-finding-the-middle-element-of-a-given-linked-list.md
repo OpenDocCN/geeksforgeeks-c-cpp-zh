@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <iostream>
@@ -88,7 +88,7 @@ int main(){
 
 **Output**
 
-```
+```cpp
 5->NULL
 The middle element is [5]
 
@@ -111,7 +111,7 @@ The middle element is [3]
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -202,7 +202,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5->NULL
 The middle element is [5]
 

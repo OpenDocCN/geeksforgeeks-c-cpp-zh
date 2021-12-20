@@ -11,7 +11,7 @@
 
     **原型**
 
-    ```
+    ```cpp
     lconv* localeconv();
 
     ```
@@ -22,7 +22,7 @@
 
     **程序:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <locale.h>
     using namespace std;
@@ -38,7 +38,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     $
 
     ```
@@ -52,7 +52,7 @@
 
     **原型**:
 
-    ```
+    ```cpp
     int setlocale(int category, const char* locale);
 
     ```
@@ -61,7 +61,7 @@
 
     **程序:**
 
-    ```
+    ```cpp
     #include <clocale>
     #include <iostream>
     using namespace std;
@@ -78,7 +78,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     C
 
     ```

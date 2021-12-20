@@ -5,7 +5,7 @@
 **match_results::运算符=** 用于将一个 smatch 对象中的所有匹配替换为另一个 smatch 对象中的新匹配。
 **语法:**
 
-```
+```cpp
 smatch_name1 = (smatch_name2)
 
 Note: *smatch_name is an object of match_results class.*
@@ -19,7 +19,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results operator= in C++
 #include <bits/stdc++.h>
@@ -48,7 +48,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Matches are:
 Geeksforgeeks
 Geeks
@@ -59,7 +59,7 @@ forgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results operator= in C++
 #include <bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Smatch with maximum matches:
 Geeksforgeeks
 Ge

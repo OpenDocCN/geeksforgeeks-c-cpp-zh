@@ -12,7 +12,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
 1.  **Using Friend Class :** If we want that class should not be instantiated by anyone else but only by a friend class.
 
-    ```
+    ```cpp
     // CPP program to demonstrate usage of 
     // private constructor
     #include <iostream>
@@ -45,7 +45,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
     输出:
 
-    ```
+    ```cpp
     constructor of A
     constructor of B
 
@@ -53,7 +53,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
     如果评论行**好友 B 类**，会遇到以下错误:
 
-    ```
+    ```cpp
     test1.cpp: In constructor ‘B::B()’:
     test1.cpp:9:5: error: ‘A::A()’ is private
          A(){
@@ -70,7 +70,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
     例如，考虑下面的 CPP 程序
 
-    ```
+    ```cpp
     // CPP program to demonstrate
     // ambiguous nature of constructor
     // with same no of parameters of same type
@@ -99,7 +99,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
     这个问题可以通过命名构造函数来解决。上述 CPP 计划可以改进如下:
 
-    ```
+    ```cpp
     // CPP program to demonstrate
     // named constructor idiom
     #include <iostream>
@@ -158,7 +158,7 @@ A **构造函数**是初始化类的对象的类的特殊成员函数。在 C++�
 
     输出:
 
-    ```
+    ```cpp
     polar coordinates 
     x :: 2.06544
     y :: 5.31262

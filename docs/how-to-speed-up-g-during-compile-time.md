@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of -fconcepts
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ code to illustrate the use
 // of -Wall
 #include <iostream>

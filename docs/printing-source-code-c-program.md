@@ -9,7 +9,7 @@
 
 C 编程文件的位置包含在预定义的宏 __FILE__ 中。例如:
 
-```
+```cpp
 
 #include <stdio.h>
 int main()
@@ -22,7 +22,7 @@ int main()
 上面程序的输出就是这个 C 文件的位置。
 以下程序显示这个特定 C 文件的内容(源代码)，因为 __FILE__ 包含这个 C 文件在字符串中的位置。
 
-```
+```cpp
 
 // A C program that prints its source code.
 #include <stdio.h>
@@ -50,7 +50,7 @@ int main(void)
 
 **输出**:
 
-```
+```cpp
 // A C program that prints its source code.
 #include <stdio.h>
 

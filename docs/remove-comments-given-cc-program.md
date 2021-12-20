@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 // C++ program to remove comments from a C/C++ program
 #include <iostream>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
 
 输出
 
-```
+```cpp
 Given Program
    /* Test program */
    int main()

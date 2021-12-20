@@ -4,7 +4,7 @@
 
 会调用析构函数吗，如果会，那么是由于哪个向量？
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -6,14 +6,14 @@ C++ STL 的**STD::is _ trivaly _ attribute**模板存在于< type_traits >头文
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class A, Class B>
 struct is_trivially_assignable;
 
@@ -21,7 +21,7 @@ struct is_trivially_assignable;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_assignable 
 ```
 
@@ -39,7 +39,7 @@ std::is_trivially_assignable
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_assignable
 #include <bits/stdc++.h>
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is int = double? true
 is struct A = struct A? true
 is class B = class A? false
@@ -98,7 +98,7 @@ is class Gfg = class gfg? false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_assignable
 #include <bits/stdc++.h>
@@ -151,7 +151,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is class GfG = class gfg? false
 is class GfG = class GfG? true
 is class AB = class gfg? false

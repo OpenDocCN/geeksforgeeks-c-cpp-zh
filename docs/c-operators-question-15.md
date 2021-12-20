@@ -4,7 +4,7 @@
 
 预测后续程序的输出。假设字符使用 ASCII 值表示。
 
-```
+```cpp
 #include <stdio.h>
 #define VAL 32
 

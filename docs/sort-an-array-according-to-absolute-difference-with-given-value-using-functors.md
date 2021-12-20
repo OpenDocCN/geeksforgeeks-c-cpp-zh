@@ -36,7 +36,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to sort an array according
 // absolute difference with x.
 #include <bits/stdc++.h>
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 9 10 3 2
 
 ```

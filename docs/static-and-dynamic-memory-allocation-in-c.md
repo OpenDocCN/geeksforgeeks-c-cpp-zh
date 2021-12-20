@@ -36,7 +36,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // concept of memory allocation
 #include <iostream>
@@ -62,7 +62,7 @@ void main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // static memory allocation
 #include <stdio.h>
@@ -151,7 +151,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the concept
 // of memory allocation
 #include <iostream>
@@ -184,7 +184,7 @@ void main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the above
 // concepts of memory allocation
 #include <stdio.h>

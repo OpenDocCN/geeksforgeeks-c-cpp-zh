@@ -39,7 +39,7 @@ A **分形**是一种永无止境的模式。分形是无限复杂的模式，�
 
 *   继续计算每个像素的这些值，直到我们达到最大迭代次数，z 的绝对值不小于 2。最后，我们给像素上色。
 
-```
+```cpp
 // C++ implementation for mandelbrot set fractals
 #include <graphics.h>
 #include <stdio.h>

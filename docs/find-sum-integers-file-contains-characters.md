@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : text.txt 
 Let contents of test.txt be : 
 :-,,$%^5313&^*1)(*(
@@ -31,7 +31,7 @@ Output : 274
 4。如果发现整数以外的任何字符，则在最终结果中添加 temp 值，并再次设置 temp = 0
 5。如果最后一个元素是一个整数，那么我们必须在循环之后添加 temp，如果不是，那么 temp 的值将已经为零。所以总和不会受到影响。
 
-```
+```cpp
 // C++ implementation of given text file which
 // contains any type of characters. We have to
 // find the sum of integer value.
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6727 (for Input 1)
 
 ```

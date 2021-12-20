@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 list_name.push_front(dataType value)
 
 ```
@@ -17,7 +17,7 @@ list_name.push_front(dataType value)
 
 下面程序举例说明列表::push_front()函数在 C++ STL 中:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::push_front() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Initial List: 10 20 30 40 
 
 List after adding elements to the front:

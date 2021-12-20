@@ -6,7 +6,7 @@ C++ STL 的**is _ basic 模板**用于检查类型是否为 basic 类型。它�
 
 **语法**:
 
-```
+```cpp
 template <class T> struct is_fundamental;
 ```
 
@@ -21,7 +21,7 @@ template <class T> struct is_fundamental;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_fundamental template
 
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_fundamental:
 GFG :false
 int :true
@@ -68,7 +68,7 @@ int* :false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_fundamental template
 
@@ -107,7 +107,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_fundamental:
 float:true
 float&:false
@@ -120,7 +120,7 @@ double*:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_fundamental template
 
@@ -153,7 +153,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_fundamental:
 char:true
 char&:false

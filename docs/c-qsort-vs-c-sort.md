@@ -4,7 +4,7 @@
 
 标准 C 库提供了一个 qsort 函数，可以用来对数组进行排序。下面是 qsort()函数的原型。
 
-```
+```cpp
 // Sort an array of any type. The parameters are, base
 // address of array, size of array and pointer to
 // comparator function
@@ -16,7 +16,7 @@ void qsort (void* base, size_t num, size_t size,
 
 C++标准库提供了一个类似的函数 sort()，它起源于 STL。我们已经在这里讨论了 C++排序。以下是 C++ sort()函数的原型。
 
-```
+```cpp
 // To sort in default or ascending order.
 template void sort(T first, T last);
 
@@ -43,7 +43,7 @@ STL 的排序比手工编码的快速排序快 20%到 50%，比 C qsort 库函�
 
 当我们试图在 C++14 上对一百万个整数进行排序时，C qsort()花费的时间是 0.247883 秒，C++ sort()花费的时间只有 0.086125 秒
 
-```
+```cpp
 // C++ program to demonstrate performance of
 // C qsort and C++ sort() algorithm
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Time taken by C qsort() - 0.247883
 Time taken by C++ sort() - 0.086125 
 ```

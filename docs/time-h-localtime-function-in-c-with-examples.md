@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tm* localtime(const time_t* t_ptr);
 ```
 
@@ -16,7 +16,7 @@ tm* localtime(const time_t* t_ptr);
 
 下面程序用 C 语言说明 localtime()函数:
 
-```
+```cpp
 // C program to demonstrate
 // example of localtime() function.
 
@@ -41,7 +41,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Local time and date: Mon Sep 23 08:25:53 2019
 
 ```

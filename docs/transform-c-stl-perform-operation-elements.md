@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ code to add two arrays
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,7 +30,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 7 9
 ```
 
@@ -38,7 +38,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Using transform() in STL to add two arrays
 #include <bits/stdc++.h>
 using namespace std;
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 7 9
 ```
 
@@ -69,7 +69,7 @@ int main()
 
 1.  **一元运算**:对输入应用一元运算符转换为输出
 
-```
+```cpp
 transform(Iterator inputBegin, Iterator inputEnd, 
          Iterator OutputBegin, unary_operation) 
 ```
@@ -78,7 +78,7 @@ transform(Iterator inputBegin, Iterator inputEnd,
 
 ## C
 
-```
+```cpp
 // C++ program to demonstrate working of
 // transform with unary operator.
 #include <bits/stdc++.h>
@@ -105,13 +105,13 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 2 3 4 5 6 
 ```
 
 2.  **二进制运算**:对输入应用二进制运算符转换为输出
 
-```
+```cpp
 transform(Iterator inputBegin1, Iterator inputEnd1, 
          Iterator inputBegin2, Iterator OutputBegin, 
          binary_operation) 
@@ -123,7 +123,7 @@ transform(Iterator inputBegin1, Iterator inputEnd1,
 我们可以使用 transform 将字符串转换为大写(参见[这个](http://en.cppreference.com/w/cpp/algorithm/transform) )
 我们还可以修改上面的矢量示例。
 
-```
+```cpp
 
     // vect is a vector of integers.
     transform(vect.begin(), vect.end(), 

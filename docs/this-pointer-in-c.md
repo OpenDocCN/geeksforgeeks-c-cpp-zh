@@ -16,7 +16,7 @@
 在早期的 C++版本中会让“this”指针被改变；通过这样做，程序员可以改变一个方法正在处理的对象。这个特性最终被移除了，现在这个在 C++中是一个 r 值。
 C++通过调用以下代码让对象自我毁灭:
 
-```
+```cpp
 delete this;
 ```
 
@@ -26,7 +26,7 @@ delete this;
 
 **1)当局部变量名称与成员名称相同时**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
  x = 20
 ```
 
@@ -65,7 +65,7 @@ int main()
 
 **2)返回对调用对象的引用**
 
-```
+```cpp
 /* Reference to the calling object can be returned */ 
 Test& Test::func ()
 {
@@ -76,7 +76,7 @@ Test& Test::func ()
 
 当返回对局部对象的引用时，返回的引用可用于对单个对象的**链函数调用**。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 x = 10 y = 20
 ```
 
@@ -116,7 +116,7 @@ x = 10 y = 20
 
 **问题 1**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -142,7 +142,7 @@ int main()
 
 **问题 2**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -167,7 +167,7 @@ int main()
 
 **第三题**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -194,7 +194,7 @@ int main()
 
 **问题 4**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

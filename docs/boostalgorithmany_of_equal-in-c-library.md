@@ -23,7 +23,7 @@
 
 **程序-1** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -53,14 +53,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 at least one elements is 1
 
 ```
 
 **程序-2** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 all elements are not 4
 
 ```

@@ -12,7 +12,7 @@
 
 1.  **语法 1:**
 
-    ```
+    ```cpp
     accumulate(first, last, sum);
     first, last : first and last elements of range 
                   whose elements are to be added
@@ -22,7 +22,7 @@
 
 2.  **语法 2:** 该函数返回变量 sum 位于[第一个，最后一个]之间的所有值的总和。
 
-    ```
+    ```cpp
     accumulate(first, last, sum, myfun); 
     myfun : a function for performing any 
             specific task. For example, we can
@@ -31,7 +31,7 @@
 
     ```
 
-```
+```cpp
 // C++ program to demonstrate working of accumulate()
 #include <iostream> 
 #include <numeric>     
@@ -73,7 +73,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 Result using accumulate: 31
 Result using accumulate with user-defined function: 750
 Result using accumulate with pre-defined function: -29
@@ -87,7 +87,7 @@ Result using accumulate with pre-defined function: -29
 该函数将数组中相应元素的部分和赋给第二个数组的每个位置。它返回位于**【第一个，最后一个】**之间的所有值的部分和，并将其存储在另一个数组 b 中。
 例如，如果 x 表示[第一个，最后一个]中的元素，y 表示结果中的元素，则 ys 可以计算为:
 
-```
+```cpp
 y0 = x0 
 y1 = x0 + x1 
 y2 = x0 + x1 + x2 
@@ -98,7 +98,7 @@ y4 = x0 + x1 + x2 + x3 + x4
 
 语法:
 
-```
+```cpp
 
 partial_sum(first, last, b);
 partial_sum(first, last, b, myfun);
@@ -111,7 +111,7 @@ myfun : a user defined function for performing
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate working of accumulate()
 #include <iostream> 
 #include <numeric>     
@@ -152,7 +152,7 @@ int main () 
 
 输出:
 
-```
+```cpp
 Partial Sum - Using Default function: 1 3 6 10 15 
 Partial sum - Using user defined function: 1 5 11 19 29 
 

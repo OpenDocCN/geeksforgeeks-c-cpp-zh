@@ -11,7 +11,7 @@
 
 **语法**:
 
-```
+```cpp
 wint_t towlower( wint_t ch )
 ```
 
@@ -23,7 +23,7 @@ wint_t towlower( wint_t ch )
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // towlower() function
 #include <cwchar>
@@ -48,14 +48,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The lowercase version of "GeeksforGeeks" is geeksforgeeks
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // towlower() function
 #include <cwchar>
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The lowercase version of "hello Ishwar 123!@#" is hello ishwar 123!@#
 
 ```

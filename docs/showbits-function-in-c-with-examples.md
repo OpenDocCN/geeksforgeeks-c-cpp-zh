@@ -27,7 +27,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // showbits() function
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 0000000000000101
 ```
 
@@ -71,7 +71,7 @@ int main()
 
 T3】CT5
 
-```
+```cpp
 // C program to implement the
 // above approach
 #include <stdio.h>

@@ -17,7 +17,7 @@
 
 有时，拥有不阻塞的输入/输出是很方便的，也就是说，我们不希望一个读调用阻塞另一个的输入。这个问题的解决方案是给定的函数:
 
-```
+```cpp
   To specify non-blocking option:
        #include<fcntl.h> 
        int fd; 
@@ -38,7 +38,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // non I/O blocking calls
 #include <stdio.h>
@@ -149,7 +149,7 @@ void child_write(int p[])
 
 **输出:**
 
-```
+```cpp
 (pipe empty)
 MSG=hello
 (pipe empty)
@@ -185,7 +185,7 @@ End of conversation
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // finding capacity of pipe
 #include <stdio.h>
@@ -227,7 +227,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Write blocked after 65536 characters 
 //output depend on the system so output may change in different system
 ```

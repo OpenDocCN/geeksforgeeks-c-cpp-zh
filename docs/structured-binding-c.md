@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 auto ref-operator*(optional)*[identifier-list] = expression;
 
 // Or
@@ -39,7 +39,7 @@ auto ref-operator*(optional)*[identifier-list](expression);
 让我们借助一个例子来看看结构绑定相对于元组的优势:
 **例 1 :** 在 C++98 中
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -66,7 +66,7 @@ int main()
 
 输出:
 
-```
+```cpp
 X Coordinate : 1
 Y Coordinate : 2
 
@@ -74,7 +74,7 @@ Y Coordinate : 2
 
 **例 2 :** 在 C++11/C++14 中
 
-```
+```cpp
 #include <bits/stdc++.h>
 #include <tuple>
 using namespace std;
@@ -118,7 +118,7 @@ int main()
 
 输出:
 
-```
+```cpp
 X Coordinate : 1
 Y Coordinate : 2
 
@@ -126,7 +126,7 @@ Y Coordinate : 2
 
 **示例 3 :** 在 C++17 中
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -153,7 +153,7 @@ int main( )
 
 输出:
 
-```
+```cpp
 X Coordinate : 1
 Y Coordinate : 2
 
@@ -161,7 +161,7 @@ Y Coordinate : 2
 
 **应用:**结构化绑定可以和数组一起使用，从数组中获取元素。在这种情况下，E 是一个数组类型，因此名称被绑定到数组元素。下面是同样的实现:
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -182,7 +182,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3
 
 ```
@@ -191,7 +191,7 @@ int main()
 
 使用结构化绑定的一个更实际的例子如下:
 
-```
+```cpp
 #include <bits/stdc++.h>
 #include <map>
 using namespace std;
@@ -217,7 +217,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksforGeeks Coding Resources
 StackOverflow Q-A type
 Wikipedia Resources + References

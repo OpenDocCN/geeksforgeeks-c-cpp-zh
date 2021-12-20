@@ -5,7 +5,7 @@
 函数**中点()**计算整数、浮点或[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) a 和 b 的中点。
 **头文件:**
 
-```
+```cpp
 <numeric>
 ```
 
@@ -27,7 +27,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // midpoint function
 #include <iostream>
@@ -64,7 +64,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <climits>
 #include <iostream>
@@ -102,7 +102,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <numeric>
@@ -139,7 +139,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <numeric>

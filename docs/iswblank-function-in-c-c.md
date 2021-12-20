@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 int isblank(ch)
 ```
 
@@ -21,7 +21,7 @@ int isblank(ch)
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // isblank() function
 #include <cwctype>
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ch1 is blank 
 ch2 is not blank
 
@@ -60,7 +60,7 @@ ch2 is not blank
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // isblank() function
 #include <cwctype>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ch1 is not blank
 ch2 is blank
 

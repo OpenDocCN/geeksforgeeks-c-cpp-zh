@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.rend()
 ```
 
@@ -20,7 +20,7 @@ map_name.rend()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate map::rend() function
 
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 c = 5
 b = 3
 a = 1
@@ -60,7 +60,7 @@ a = 1
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate map::rend() function
 
 #include <iostream>
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a = 1
 
 ```

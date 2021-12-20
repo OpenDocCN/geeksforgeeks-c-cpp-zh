@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map.bucket(k);
 k is the key corresponds to which we want to know bucket number.
 Returns: The order number of the bucket corresponding to key k.
@@ -20,7 +20,7 @@ Returns: The order number of the bucket corresponding to key k.
 
 **语法:**
 
-```
+```cpp
 unordered_map.bucket_count();
 Returns: The number of the bucket present in hash table of unordered_map.
 
@@ -31,7 +31,7 @@ Returns: The number of the bucket present in hash table of unordered_map.
 
 **语法:**
 
-```
+```cpp
 unordered_map.bucket_size(i);
 where 'i' is the bucket number in which we want 
 to find no. of elements. (i < bucket_count)
@@ -39,7 +39,7 @@ Returns: The number of elements present in bucket 'i'.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::bucket
 #include <bits/stdc++.h>
 using namespace std;
@@ -85,7 +85,7 @@ int main()
 
 输出:
 
-```
+```cpp
 (PI, 3.14) is in bucket= 5
 (e, 2.718) is in bucket= 1
 (root2, 1.414) is in bucket= 1
@@ -110,7 +110,7 @@ Bucket 10 has 1 elements.
 
 我们还可以打印无序映射的每个桶中的所有元素。
 
-```
+```cpp
 // C++ program to print all elements present in each bucket
 #include <bits/stdc++.h>
 using namespace std;
@@ -145,7 +145,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Bucket 0 contains: 
 Bucket 1 contains: (e, 2.718) (root2, 1.414) 
 Bucket 2 contains: 

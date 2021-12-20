@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 /* C program to print a long int number
  using putchar() only*/
 #include <stdio.h>
@@ -43,7 +43,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 12045
 ```
 

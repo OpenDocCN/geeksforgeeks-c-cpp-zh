@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     int wprintf (const wchar_t* format, ...);
     ```
 
@@ -19,7 +19,7 @@
     *   **返回值:**如果成功，wprintf()函数返回写入的字符数。失败时，它返回负值。如果成功，wprintf()函数返回写入的字符数。
         失败时返回负值。
 
-    ```
+    ```cpp
     // C Program to show the wprintf () function.
     #include <stdio.h>
     #include <wchar.h> // Header file containing wprintf function
@@ -36,7 +36,7 @@
 
     输出:
 
-    ```
+    ```cpp
     x = 5 
     HELLO GEEKS
 
@@ -46,7 +46,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     int wscanf (const wchar_t* format, ...);
     ```
 
@@ -57,7 +57,7 @@
     *   **返回值:**wscanf()函数返回成功赋值的接收参数个数。我们可以计算并匹配预期的项目数，也可以由于匹配失败、出现读取错误或到达文件末尾导致错误而减少。
         如果在分配第一个接收参数之前失败，则返回 EOF。
 
-    ```
+    ```cpp
     // Program to show the wprintf () function.
     #include <stdio.h>
     #include <wchar.h> // Header file containing wscanf() function
@@ -75,7 +75,7 @@
 
     输入:
 
-    ```
+    ```cpp
     GEEK
     2
 
@@ -83,7 +83,7 @@
 
     输出:
 
-    ```
+    ```cpp
     I am a GEEK of CSE in 2 year.
 
     ```

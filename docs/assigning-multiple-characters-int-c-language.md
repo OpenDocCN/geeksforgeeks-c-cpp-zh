@@ -4,7 +4,7 @@
 
 考虑下面的 C 程序。
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 100
 25700
 
@@ -33,7 +33,7 @@ int main(void)
 
 让我们考虑线下
 
-```
+```cpp
 int a = 'dd' 
 ```
 
@@ -43,7 +43,7 @@ int a = 'dd'
 
 现在猜测以下代码的输出。
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {

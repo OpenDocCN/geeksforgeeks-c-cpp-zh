@@ -7,7 +7,7 @@ C++中的 **vfwscanf()** 函数用于将格式化数据从宽字符串读入变�
 
 **语法:**
 
-```
+```cpp
 int vswscanf( const wchar_t* ws, const wchar_t* format, va_list arg )
 ```
 
@@ -25,7 +25,7 @@ int vswscanf( const wchar_t* ws, const wchar_t* format, va_list arg )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // vswscanf() function
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Random Symbols are :
 G F G
 
@@ -79,7 +79,7 @@ G F G
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // vswscanf() function
 
@@ -118,7 +118,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Best: websites
 Quantity: 100
 

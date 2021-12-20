@@ -13,7 +13,7 @@ C 和 C++支持不同于大多数其他编程语言的指针。其他语言包�
 [References](https://www.geeksforgeeks.org/references-in-c/) :引用变量是别名，即已经存在的变量的另一个名称。像指针一样，引用也是通过存储对象的地址来实现的。
 引用可以被认为是一个常量指针(不要和指向常量值的指针混淆！)具有自动间接性，即编译器将为您应用 ***** 运算符。
 
-```
+```cpp
 int i = 3; 
 
 // A pointer to variable i (or stores
@@ -28,7 +28,7 @@ int &ref = i;
 
 **1。初始化:**指针可以这样初始化:
 
-```
+```cpp
  int a = 10;        
   int *p = &a;    
          OR 
@@ -39,7 +39,7 @@ we can declare and initialize pointer at same step or in multiple line.
 
 2.而在参考文献中，
 
-```
+```cpp
 int a=10;
 int &p=a;  //it is correct
    but
@@ -51,7 +51,7 @@ int &p;
 
 **4。重新分配:**指针可以重新分配。这个属性对于实现链表、树等数据结构非常有用。请参见以下示例:
 
-```
+```cpp
 int a = 5;
 int b = 6;
 int *p;
@@ -61,7 +61,7 @@ p = &b;
 
 5.另一方面，引用不能重新分配，必须在初始化时分配。
 
-```
+```cpp
 int a = 5;
 int b = 6;
 int &p = a;
@@ -73,7 +73,7 @@ int &q=p;
 
 **6。内存地址:**指针在堆栈上有自己的内存地址和大小，而引用共享相同的内存地址(与原始变量)，但也会占用堆栈上的一些空间。
 
-```
+```cpp
    int &p = a;
    cout << &p << endl << &a;
 ```
@@ -82,7 +82,7 @@ int &q=p;
 
 **8。间接性:**您可以拥有指向提供额外间接性级别的指针的指针。而引用只提供了一个间接层。即，
 
-```
+```cpp
 In Pointers,
 int a = 10;
 int *p;

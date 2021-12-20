@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -26,7 +26,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 forgeeksforgeeks
 ```
 
@@ -37,7 +37,7 @@ forgeeksforgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -54,7 +54,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 forgeeksforgeeks
 ```
 
@@ -65,7 +65,7 @@ forgeeksforgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -79,7 +79,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 o
 ```
 
@@ -90,7 +90,7 @@ o
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -111,7 +111,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 geeks
 for
 geeks
@@ -124,7 +124,7 @@ geeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -140,7 +140,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 ********geeks
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.equal_range(value)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.equal_range(value)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::equal_range() function
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 500 500 
 100 100 100
 
@@ -69,7 +69,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::equal_range() function
 #include <bits/stdc++.h>
@@ -112,7 +112,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a a 
 d d d
 

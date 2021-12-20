@@ -6,7 +6,7 @@
 
 它将等于旧值的范围[第一个，最后一个]中的每个元素替换为新值。该函数使用运算符==将各个元素与 old_value 进行比较。
 
-```
+```cpp
 template <class ForwardIterator, class T>
  void replace (ForwardIterator first, ForwardIterator last,
  const T& old_value, const T& new_value);
@@ -17,7 +17,7 @@ new_value : the value to use as replacement
 
 ## C++
 
-```
+```cpp
 // CPP code to demonstrate replace()
 
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Demonstration of replace
 Hello World !
 Hello Geeks !
@@ -77,7 +77,7 @@ Hello to all!!!!
 
 replace_if()用 newValue 替换一元谓词(即 op(elem))为其生成 true 的范围[第一个，最后一个]中的每个元素。
 
-```
+```cpp
 template <class ForwardIterator, class UnaryPredicate, class T>
  void replace_if (ForwardIterator first, ForwardIterator last,
  UnaryPredicate pred, const T& new_value );
@@ -88,7 +88,7 @@ element fits the criterion
 
 ## C++
 
-```
+```cpp
 // CPP code to demonstrate replace_if()
 
 #include <iostream>
@@ -137,7 +137,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before replace_if : A B C D E F G 
 After replace_if : V B C D V F G 
 ```

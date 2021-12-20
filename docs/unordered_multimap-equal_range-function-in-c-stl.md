@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multimap_name.equal_range(k)
 ```
 
@@ -18,7 +18,7 @@ unordered_multimap_name.equal_range(k)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::equal_range()
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements with Key 1: 2 2 
 Elements with Key 2: 6 3
 
@@ -70,7 +70,7 @@ Elements with Key 2: 6 3
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::equal_range()
 #include <iostream>
@@ -114,7 +114,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements with Key b: d e 
 Elements with Key a: d b b
 

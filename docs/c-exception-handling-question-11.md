@@ -4,7 +4,7 @@
 
 在 C++中，当异常被抛出而没有像下面的程序一样被捕获时会发生什么。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

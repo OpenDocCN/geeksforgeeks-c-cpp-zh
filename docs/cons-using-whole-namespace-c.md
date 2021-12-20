@@ -17,7 +17,7 @@ C++代码:
 
 Header1.h:
 
-```
+```cpp
 namespace one
 {
     /*Function to print name of the namespace*/
@@ -30,7 +30,7 @@ namespace one
 
 Header2.h
 
-```
+```cpp
 namespace two
 {
     /*Function to print name of the namespace*/
@@ -43,7 +43,7 @@ namespace two
 
 源代码文件
 
-```
+```cpp
 /*Including headers*/
 #include <iostream>
 #include "Header1.h"
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Error: Call of overloaded print() is ambiguous.
 
 ```
@@ -74,7 +74,7 @@ Error: Call of overloaded print() is ambiguous.
 
 源代码文件
 
-```
+```cpp
 /*Including headers*/
 #include <iostream>
 #include "Header1.h"

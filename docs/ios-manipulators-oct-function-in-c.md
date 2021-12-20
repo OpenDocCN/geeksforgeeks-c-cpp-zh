@@ -6,7 +6,7 @@ C++中**流操纵器**的 **oct()** 方法用于设置指定字符串流的基�
 
 **语法:**
 
-```
+```cpp
 ios_base& oct (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& oct (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of oct() function
 
@@ -41,14 +41,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 oct flag: 501
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of oct() function
 
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 oct flag: 37777777277
 
 ```

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_member_function_pointer;
 
@@ -21,7 +21,7 @@ struct is_member_function_pointer;
 
 **语法:**
 
-```
+```cpp
 std::is_member_function_pointer::value 
 
 ```
@@ -40,7 +40,7 @@ std::is_member_function_pointer::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_member_function_pointer
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GFG*: false
 int GFG::* false
 int A::* false
@@ -105,7 +105,7 @@ int A::*() true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_member_function_pointer
 #include <bits/stdc++.h>
@@ -149,7 +149,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A*: false
 void(A::*)(): true
 B*: false

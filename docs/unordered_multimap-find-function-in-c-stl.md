@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multimap_name.find(k)
 ```
 
@@ -18,7 +18,7 @@ unordered_multimap_name.find(k)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::find() function
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1:2
 2:6
 element with key 100 not found
@@ -75,7 +75,7 @@ element with key 100 not found
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::find()
 #include <iostream>
@@ -127,7 +127,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 element with key r not found
 a:d
 b:d

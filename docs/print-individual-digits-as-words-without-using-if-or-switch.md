@@ -5,7 +5,7 @@
 给定一个数字，打印单个数字的单词。不允许使用 if 或 switch。
 示例:
 
-```
+```cpp
 Input:  n = 123
 Output: One Two Three
 
@@ -26,7 +26,7 @@ Output: Three Five Zero
 
 ## C++
 
-```
+```cpp
 // C++ program to print individual words without if and
 // without switch
 #include <bits/stdc++.h>
@@ -69,7 +69,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print individual words without
 //  if and without switch
 class GFG
@@ -114,7 +114,7 @@ public static void main(String[] args)
 
 ## C#
 
-```
+```cpp
 // C# program to print individual words without
 // if and without switch
 using System;
@@ -161,7 +161,7 @@ public static void Main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to prindividual words without if and
 # without switch
 
@@ -199,7 +199,7 @@ printWordsWithoutIfSwitch(n)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program to print individual words without
 //  if and without switch
@@ -241,7 +241,7 @@ printWordsWithoutIfSwitch(n)
 
 **输出:**
 
-```
+```cpp
 Three Five Zero
 ```
 

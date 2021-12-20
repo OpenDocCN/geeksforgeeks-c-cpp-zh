@@ -22,7 +22,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : 10 20 30 40
 Output : Element 30 found at position : 2 (counting from zero)  
 
@@ -31,7 +31,7 @@ Output : Element 4 not found.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate 
 // std::find
 // CPP program to illustrate 
@@ -72,7 +72,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 Original vector : 10 20 30 40
 Element 30 found at position : 2 (counting from zero)
 

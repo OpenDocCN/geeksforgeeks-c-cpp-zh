@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```cpp
 *vectorname*.cbegin()
 
 ```
@@ -29,7 +29,7 @@
 
 下面的程序说明了该功能的工作原理
 
-```
+```cpp
 // CPP program to illustrate
 // use of cbegin()
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Contents of the vector:
 first
 second
@@ -81,7 +81,7 @@ fifth
 
 ***语法:***
 
-```
+```cpp
 ****vectorname*.cend()*** 
 ```
 
@@ -96,7 +96,7 @@ fifth
 
 ***下面的程序说明了该功能的工作原理***
 
-```
+```cpp
 ***// CPP programto illustrate
 // functioning of cend()
 #include <iostream>
@@ -129,7 +129,7 @@ int main()
 
 ***输出:***
 
-```
+```cpp
 ***Contents of the vector:
 fifth
 fourth

@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -35,7 +35,7 @@ begin:
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -53,7 +53,7 @@ begin:
 
 ## C#
 
-```
+```cpp
 using System;
 
 class GFG{
@@ -77,6 +77,6 @@ static public void Main ()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 . . . 97 98 99 100
 ```

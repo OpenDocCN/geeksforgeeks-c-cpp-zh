@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 any var= value/object; 
 
 ```
@@ -21,7 +21,7 @@ any var= value/object;
 
     **语法:**
 
-    ```
+    ```cpp
     any variable_name = object/value;
 
     ```
@@ -30,7 +30,7 @@ any var= value/object;
 
     **语法:**
 
-    ```
+    ```cpp
     any variable_name ( object/value);
 
     ```
@@ -39,7 +39,7 @@ any var= value/object;
 
     **语法:**
 
-    ```
+    ```cpp
     any variable_name;
     variable_name= object/value;
 
@@ -53,7 +53,7 @@ any var= value/object;
 
     **一个简单的例子(说明任意的构造/读取值)**
 
-    ```
+    ```cpp
     #include <any>
     #include <iostream>
     #include <string>
@@ -94,7 +94,7 @@ any var= value/object;
 
     **输出:**
 
-    ```
+    ```cpp
      Value: 42 
      Value: Hello World 
      Value: 19 
@@ -115,7 +115,7 @@ any var= value/object;
 
         **程序:**
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // emplace() method of any class
 
@@ -144,7 +144,7 @@ any var= value/object;
 
         **输出:**
 
-        ```
+        ```cpp
         Value:  4.2 
         Value:  44
 
@@ -154,7 +154,7 @@ any var= value/object;
 
         **程序:**
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // reset() method of any class
 
@@ -183,7 +183,7 @@ any var= value/object;
 
         **输出:**
 
-        ```
+        ```cpp
         Value:  4.2 
         No value found in var variable
 
@@ -193,7 +193,7 @@ any var= value/object;
 
         **程序:**
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // has_value() method of any class
 
@@ -223,7 +223,7 @@ any var= value/object;
 
         **输出:**
 
-        ```
+        ```cpp
          Value:  9.5 
          Value found of type d
 
@@ -233,7 +233,7 @@ any var= value/object;
 
         **程序:**
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // type() method of any class
 
@@ -262,7 +262,7 @@ any var= value/object;
 
         **输出:**
 
-        ```
+        ```cpp
         Type:  f 
         Type:  PKc
 
@@ -288,7 +288,7 @@ any var= value/object;
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // using exceptions of any class
 
@@ -315,7 +315,7 @@ any var= value/object;
 
     **输出**
 
-    ```
+    ```cpp
     Value:  
     bad any_cast
 
@@ -325,7 +325,7 @@ any var= value/object;
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // returning pointer of any class
 
@@ -358,7 +358,7 @@ any var= value/object;
 
     **输出:**
 
-    ```
+    ```cpp
     Value:  12
 
     ```

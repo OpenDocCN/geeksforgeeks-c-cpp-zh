@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 strtol(s, &end, b)
 ```
 
@@ -25,7 +25,7 @@ strtol(s, &end, b)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // strtol() function when decimal base
 #include <cstdlib>
@@ -65,7 +65,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Number in  String = 6010IG_2016p
 Number in Long Int = 6010
 End String = IG_2016p
@@ -78,7 +78,7 @@ Null pointer
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // strtol() function
 #include <cstdlib>
@@ -108,7 +108,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 489bc to Long Int with base-4 = 0
 End String = 489bc
 123s to Long Int with base-11 = 146
@@ -119,7 +119,7 @@ End String = s
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate the
 // strtol() function when base is 0
 #include <cstdlib>
@@ -157,7 +157,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 312gfg to Long Int with base-0 = 312
 End String = gfg
 
@@ -171,7 +171,7 @@ End String =
 
 **程序 4**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtol() function for invalid
 // conversions and leading whitespaces.
@@ -208,7 +208,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 22abcd to Long Int with base-6 = 14
 End String = abcd
 

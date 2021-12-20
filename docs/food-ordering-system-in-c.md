@@ -52,7 +52,7 @@
 
 ## 初始化
 
-```
+```cpp
 // C program to initialize the Food
 // Ordering System
 // Initialization
@@ -118,7 +118,7 @@ int ch, food, hotel_id;
 
 ## 样板文件
 
-```
+```cpp
 // C program to implement Boilerplate
 // Code for the Food Ordering System
 int main()
@@ -161,7 +161,7 @@ int main()
 
 ## 签约雇用
 
-```
+```cpp
 // Function to create a new user for
 // the Food ordering system
 void signup()
@@ -194,7 +194,7 @@ void signup()
 
 ## 使生效
 
-```
+```cpp
 // Function to validate the user for
 // the signup process
 int validate()
@@ -331,7 +331,7 @@ int validate()
 
 ## 应收帐款检查
 
-```
+```cpp
 // Function to check if the account
 // already exists or not
 void account_check()
@@ -372,7 +372,7 @@ void account_check()
 
 ## 注册
 
-```
+```cpp
 // Function to Login the users
 void login()
 {
@@ -444,7 +444,7 @@ void login()
 
 ## 酒店初始化
 
-```
+```cpp
 // Function that initializes the
 // Hotels
 void hotel_initialize()
@@ -486,7 +486,7 @@ void hotel_initialize()
 
 ## 按酒店搜索
 
-```
+```cpp
 // Function that implements the
 // functionality search by hotels
 void search_by_hotels()
@@ -581,7 +581,7 @@ void hotels(int hotel_choice)
 
 ## 按食物搜索
 
-```
+```cpp
 // Function to implement the
 // search by food
 void search_by_food()
@@ -637,7 +637,7 @@ void search_by_food()
 
 ## 手推车
 
-```
+```cpp
 // Function to implement the cart
 void cart()
 {
@@ -679,7 +679,7 @@ void cart()
 
 ## 完全码
 
-```
+```cpp
 // C program to implement the Food
 // Ordering System
 #include <stdio.h>

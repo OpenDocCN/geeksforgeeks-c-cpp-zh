@@ -13,98 +13,98 @@
 
 1. **CHAR_MIN :**
 
-```
+```cpp
 Minimum value for an object of type char
 Value of CHAR_MIN is either -127 (-27+1) or less* or 0
 ```
 
 2. **CHAR_MAX :**
 
-```
+```cpp
 Maximum value for an object of type char
 Value of CHAR_MAX is either 127 (27-1) or 255 (28-1) or greater*    
 ```
 
 3. **SHRT_MIN :**
 
-```
+```cpp
 Minimum value for an object of type short int
 Value of SHRT_MIN is -32767 (-215+1) or less*
 ```
 
 4. **SHRT_MAX :**
 
-```
+```cpp
 Maximum value for an object of type short int
 Value of SHRT_MAX is 32767 (215-1) or greater*
 ```
 
 5. **USHRT_MAX :**
 
-```
+```cpp
 Maximum value for an object of type unsigned short int    
 Value of USHRT_MAX is 65535 (216-1) or greater*
 ```
 
 6. **INT_MIN :**
 
-```
+```cpp
 Minimum value for an object of type int    
 Value of INT_MIN is -32767 (-215+1) or less*
 ```
 
 7. **INT_MAX :**
 
-```
+```cpp
 Maximum value for an object of type int    
 Value of INT_MAX is 32767 (215-1) or greater*
 ```
 
 8.uint _ max:
 
-```
+```cpp
 Maximum value for an object of type unsigned int    
 Value of UINT_MAX is 65535 (216-1) or greater*
 ```
 
 9. **LONG_MIN :**
 
-```
+```cpp
 Minimum value for an object of type long int    
 Value of LONG_MIN is -2147483647 (-231+1) or less*
 ```
 
 10. **LONG_MAX :**
 
-```
+```cpp
 Maximum value for an object of type long int    
 Value of LONG_MAX is 2147483647 (231-1) or greater*
 ```
 
 11. **ULONG_MAX :**
 
-```
+```cpp
 Maximum value for an object of type unsigned long int    
 Value of ULONG_MAX is 4294967295 (232-1) or greater*
 ```
 
 12\. **LLONG_MIN ：**
 
-```
+```cpp
 Minimum value for an object of type long long int    
 Value of LLONG_MIN is -9223372036854775807 (-263+1) or less*
 ```
 
 13\. **LLONG_MAX ：**
 
-```
+```cpp
 Maximum value for an object of type long long int    
 Value of LLONG_MAX is 9223372036854775807 (263-1) or greater*
 ```
 
 14. **ULLONG_MAX :**
 
-```
+```cpp
 Maximum value for an object of type unsigned long long int    
 Value of ULLONG_MAX is 18446744073709551615 (264-1) or greater*
 ```
@@ -120,7 +120,7 @@ LLONG_MIN、LLONG_MAX 和 ULLONG_MAX 是为符合 1999 年或更高版本 C 标�
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate working of
 // constants in climits.
 #include <climits>
@@ -150,7 +150,7 @@ int main()
 
 输出(取决于机器):
 
-```
+```cpp
 CHAR_MIN : -128
 CHAR_MAX : 127
 SHRT_MIN : -32768

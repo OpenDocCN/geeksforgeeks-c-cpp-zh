@@ -10,7 +10,7 @@ STL 是 C++的支柱之一。它让生活变得容易得多，尤其是当你专
 
 ## **C++**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -36,7 +36,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```cpp
 import java.util.*;
 class GFG
 {
@@ -67,7 +67,7 @@ class GFG
 
 ## **蟒蛇 3**
 
-```
+```cpp
 if __name__=='__main__':
 
     # Creating  a list
@@ -89,7 +89,7 @@ if __name__=='__main__':
 
 ## **C#**
 
-```
+```cpp
 using System;
 using System.Collections.Generic;
 
@@ -119,7 +119,7 @@ public class GFG {
 
 ## **java 描述语言**
 
-```
+```cpp
 
 <script>
 
@@ -145,7 +145,7 @@ public class GFG {
 
 ****输出****
 
-```
+```cpp
 1 2 3
 ```
 
@@ -155,7 +155,7 @@ public class GFG {
 
 ## **C++**
 
-```
+```cpp
 // C++ program to implement Custom Linked List and
 // iterator pattern.
 #include <bits/stdc++.h>
@@ -343,7 +343,7 @@ int main()
 
 ****输出:****
 
-```
+```cpp
 Traversing LinkedList through method
 1 2 3 
 Traversing LinkedList through Iterator

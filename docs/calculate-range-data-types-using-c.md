@@ -6,7 +6,7 @@ C++程序，用于打印范围数据类型，如 int、char、short。
 
 **有符号数据类型**
 
-```
+```cpp
 METHOD
 1.) calculate total number of bits by multiplying sizeof with 8 (say n)
 2.) Calculate  -2^(n-1) for minimum range
@@ -14,7 +14,7 @@ METHOD
 
 ```
 
-```
+```cpp
 // CPP program to calculate 
 // range of signed data type
 #include <bits/stdc++.h>
@@ -46,7 +46,7 @@ int main()
 
 输出:
 
-```
+```cpp
 signed char: -128 to 127
 signed int: -2147483648 to 2147483647
 signed short int: -32768 to 32767
@@ -55,7 +55,7 @@ signed short int: -32768 to 32767
 
 **无符号数据类型**
 
-```
+```cpp
 METHOD
 1.)Find number of bits by multiplying result of sizeof with 8 say n
 2.)minimum range is always zero for unsigned data type
@@ -63,7 +63,7 @@ METHOD
 
 ```
 
-```
+```cpp
 // CPP program to calculate range 
 // of given unsigned data type
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 输出:
 
-```
+```cpp
 unsigned char: 0 to 255
 unsigned int: 0 to 4294967295
 unsigned short int: 0 to 65535

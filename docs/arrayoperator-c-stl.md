@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 ***arrayname[position]***
 Parameters :
 Position of the element to be fetched.
@@ -20,7 +20,7 @@ Direct reference to the element at the given position.
 
 示例:
 
-```
+```cpp
 Input :  myarray = {1, 2, 3, 4, 5}
          myarray[2]
 Output : 3
@@ -36,7 +36,7 @@ Output : 5
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of [] operator
 #include <iostream>
@@ -53,14 +53,14 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```
 
 **应用程序**
 给定一个整数数组，打印所有出现在偶数位置的整数。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5
 Output :1 3 5
 *Explanation - 1, 3 and 5 are at position 0,2,4 which are even*
@@ -72,7 +72,7 @@ Output :1 3 5
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of [] operator
 #include <iostream>
@@ -95,6 +95,6 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 5
 ```

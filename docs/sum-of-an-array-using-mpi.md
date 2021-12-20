@@ -12,7 +12,7 @@ MPI 使用两种基本的通信例程:
 
 MPI_Send 和 MPI_Recv 的语法是:
 
-```
+```cpp
 int MPI_Send(void *data_to_send, 
              int send_count, 
              MPI_Datatype send_type, 
@@ -34,7 +34,7 @@ int MPI_Recv(void *received_data,
 
 **示例:**
 
-```
+```cpp
 Input : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 Output : Sum of array is 55
 
@@ -47,7 +47,7 @@ Output : Sum of array is 1205
 
 使用以下代码编译并运行程序:
 
-```
+```cpp
 mpicc program_name.c -o object_file
 mpirun -np [number of processes] ./object_file
 
@@ -55,7 +55,7 @@ mpirun -np [number of processes] ./object_file
 
 以下是上述主题的实现:
 
-```
+```cpp
 #include <mpi.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 
 **输出:**
 
-```
+```cpp
 Sum of array is 55
 
 ```

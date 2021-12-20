@@ -14,7 +14,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to illustrate the higher
 // order function in C++
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Rxop Rka
 ```
 
@@ -76,7 +76,7 @@ Rxop Rka
 
 通过使用高阶函数，可以解决许多问题。例如，要构建一个以列表和另一个函数作为输入的函数，请将该函数应用于该列表的每个元素，并返回新列表。在 Haskell 中，使用名为 map 的内置高阶函数可以非常容易地做到这一点。[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)的定义是:
 
-```
+```cpp
 map :: (a -> b) -> [a] -> [b] 
 map _ [ ] = [ ] 
 map f (x : xs) = f x : map f xs

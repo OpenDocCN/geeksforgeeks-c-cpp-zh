@@ -6,7 +6,7 @@ C++ STL 中的**多集::get _ 分配器()**方法是 C++ STL 中的内置函数�
 
 **语法**:
 
-```
+```cpp
 multiset_name.get_allocator()
 ```
 
@@ -19,7 +19,7 @@ multiset_name.get_allocator()
 以下程序说明了多集::get _ 分配器()函数:
 **程序 1** :
 
-```
+```cpp
 // CPP code to illustrate multiset::get_allocator
 
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The allocated array contains: 10 10 20 30 20
 
 ```

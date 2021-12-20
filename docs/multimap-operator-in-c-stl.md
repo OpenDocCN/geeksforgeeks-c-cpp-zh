@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap1_name = multimap2_name
 ```
 
@@ -14,7 +14,7 @@ multimap1_name = multimap2_name
 
 **返回值:**这个函数不返回任何东西。
 
-```
+```cpp
 // C++ program for illustration of
 // multimap::operator= function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The multimap mp1 is : 
 KEY    ELEMENT
 1    40

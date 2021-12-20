@@ -9,14 +9,14 @@
 **语法:**
 条件运算符的形式为
 
-```
+```cpp
 variable = Expression1 ? Expression2 : Expression3
 
 ```
 
 它可以被可视化为 if-else 语句，如下所示:
 
-```
+```cpp
 if(Expression1)
 {
     variable = Expression2;
@@ -38,7 +38,7 @@ else
 
 ## C
 
-```
+```cpp
 // C program to find largest among two
 // numbers using ternary operator
 
@@ -59,7 +59,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to find largest among two
 // numbers using ternary operator
 
@@ -85,7 +85,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 m is greater than n that is 5 > 4
 
 ```

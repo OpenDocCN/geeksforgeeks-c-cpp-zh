@@ -4,7 +4,7 @@
 
 预测以下程序的输出:
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 
 **解释:**
 
-```
+```cpp
 The statement *printf(str, 0[arr], 2[arr + 3]);* boils down to:
 *printf("%d %c, 0["GeeksQUiz"], 2["GeeksQUiz" + 3]);*
 Which is further interpreted as:

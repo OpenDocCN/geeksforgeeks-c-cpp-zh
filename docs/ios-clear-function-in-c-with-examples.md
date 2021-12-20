@@ -6,7 +6,7 @@ C++中 **ios 类**的 **clear()** 方法是通过设置来改变指定标志的�
 
 **语法:**
 
-```
+```cpp
 void clear(iostate state)
 
 ```
@@ -17,7 +17,7 @@ void clear(iostate state)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of clear() function
 
@@ -50,7 +50,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is eofbit set: 0
 clear() used to set eofbit 
 is eofbit set: 1
@@ -59,7 +59,7 @@ is eofbit set: 1
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of clear() function
 
@@ -92,7 +92,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is failbit set: 0
 clear() used to set failbit 
 is failbit set: 1

@@ -8,7 +8,7 @@ C++中的所有 STL 容器都有一个默认为 **std::分配器**的类型参�
 
 **申报:**
 
-```
+```cpp
 template <class T> class allocator;
 ```
 
@@ -26,7 +26,7 @@ template <class T> class allocator;
 
 **程序 1:**
 
-```
+```cpp
 // C++ program for illustration
 // of std::allocator() function
 #include <iostream>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10
 100
 
@@ -65,7 +65,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program for illustration
 // of std::allocator() function
 #include <iostream>
@@ -101,7 +101,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```

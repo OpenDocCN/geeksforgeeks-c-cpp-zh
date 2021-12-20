@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // Syntax:
 
 // Below function is assigned to
@@ -23,7 +23,7 @@ auto fun = [&]() {
 
 ## C++
 
-```
+```cpp
 // C++ program to implement function
 // assigned to a variable
 
@@ -49,7 +49,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Inside Function Variable
 
 ```
@@ -58,7 +58,7 @@ Inside Function Variable
 
 ## C++
 
-```
+```cpp
 // C++ program to implement parameterized
 // function assigned to a variable
 #include <iostream>
@@ -81,7 +81,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Parameterised Function
 
 ```
@@ -90,7 +90,7 @@ Parameterised Function
 
 ## C++
 
-```
+```cpp
 // C++ program to implement the function
 // assigned to a variable returning
 // some values
@@ -116,7 +116,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The sum is: 9
 
 ```

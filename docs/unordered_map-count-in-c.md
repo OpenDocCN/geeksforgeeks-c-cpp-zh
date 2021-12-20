@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 size_type count(Key);
 
 ```
@@ -21,7 +21,7 @@ size_type count(Key);
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the 
 // unordered_map::count() function
 
@@ -57,14 +57,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Element Found
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the 
 // unordered_map::count() function
 
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Count of elements in map, mapped with key 3: 1
 
 ```

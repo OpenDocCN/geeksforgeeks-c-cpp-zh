@@ -10,7 +10,7 @@ mbtowc 有自己的内部移位状态，只在需要时通过调用这个函数�
 
 **语法**:
 
-```
+```cpp
 pwc: Pointer to an object of type wchar_t.
 Alternatively, this argument can be a null pointer, 
 in which case the function does not store the wchar_t translation, 
@@ -36,7 +36,7 @@ encodings are state-dependent, and zero otherwise.
 
 ```
 
-```
+```cpp
 // C program to illustrate mbtowc
 // function
 #include <stdio.h>
@@ -77,7 +77,7 @@ int main()
 
 输出:
 
-```
+```cpp
 [g][e][e][k][s][ ][p][o][r][t][a][l]
 
 ```

@@ -8,7 +8,7 @@
 
 一个有趣的方法是:
 
-```
+```cpp
 // May not work with C++ compilers and
 // may produce warnings in C.
 
@@ -54,7 +54,7 @@ int sum(int a, int b) 
 
 再仔细看一遍，我们注意到进位和逻辑 and 的真值表是相同的。现在，我们必须将 a & 1 向左移动，并用 a ^ b 求和。然而，这些操作也可能有进位。没问题，只要递归地将 a & 1 向左移动，对 a ^ b 求和。
 
-```
+```cpp
 // Returns sum of a and b using bitwise
 // operators.
 int sum(int a, int b) 
@@ -79,7 +79,7 @@ int sum(int a, int b) 
 
 记住这一点，我们可以理解这个功能:
 
-```
+```cpp
 // Returns sum of a and b using printf
 // Constraints: a, b > 0.
 int sum(int a, int b) 

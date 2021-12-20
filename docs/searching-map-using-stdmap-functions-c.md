@@ -8,7 +8,7 @@
 
 find()用于**搜索键值**对，并接受其参数中的“key”进行查找。如果找到该元素，该函数返回指向该元素的指针，否则返回指向地图最后位置的指针，即“ **map.end()** ”。
 
-```
+```cpp
 // C++ code to demonstrate the working of find()
 
 #include<iostream>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Key-value pair present : b->10
 Key-value pair not present in map
 
@@ -71,7 +71,7 @@ Key-value pair not present in map
 
 lower_bound()也用于搜索操作，但有时也会返回有效的键值对，即使它不在 map 中。lower_bound()返回键值对的**地址，如果映射中有一个，则返回大于其参数中提到的键的最小键的地址。如果所有键都比要找到的键小，则指向“map . end()”**。
 
-```
+```cpp
 // C++ code to demonstrate the working of lower_bound()
 
 #include<iostream>
@@ -140,7 +140,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Key-value pair returned : b->10
 Key-value pair returned : h->20
 Key-value pair not present in map
@@ -151,7 +151,7 @@ Key-value pair not present in map
 
 upper_bound()也用于搜索操作，**从不返回在**中搜索的键值对。upper_bound()返回**键值对的**地址，如果在地图中存在的话，该地址正好位于搜索到的关键字的下一个**处。如果所有键都小于要查找的键，则指向“map . end()”**
 
-```
+```cpp
 // C++ code to demonstrate the working of upper_bound()
 
 #include<iostream>
@@ -220,7 +220,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Key-value pair returned : c->15
 Key-value pair returned : h->20
 Key-value pair not present in map
@@ -231,7 +231,7 @@ Key-value pair not present in map
 
 还有一个在地图中搜索的功能，它**返回包含搜索关键字**的范围。由于映射包含唯一元素，返回范围最多包含 1 个元素。此函数**返回一个对的迭代器，其第一个元素指向搜索到的键对的下界()，第二个元素指向搜索到的键的上界()。如果键不存在，则第一个元素和第二个元素都指向下一个更大的元素。**
 
-```
+```cpp
 // C++ code to demonstrate the working of equal_range()
 
 #include<iostream>
@@ -287,7 +287,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The lower_bound of key is : b->10
 The upper_bound of key is : c->15
 

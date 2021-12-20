@@ -6,7 +6,7 @@
 
 下面的例子展示了如何做到这一点。
 
-```
+```cpp
 // C program to demonstrate use of variable
 // in format specifier.
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6.412
 6.41235
 

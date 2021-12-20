@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *stackname1*.swap(*stackname2*)
 ```
 
@@ -20,7 +20,7 @@
 
 示例:
 
-```
+```cpp
 contents of the stack from top to bottom are
 Input  : mystack1 = {4, 3, 2, 1}
          mystack2 = {9, 7 ,5, 3}
@@ -38,7 +38,7 @@ Output : mystack1 =  8, 6, 4, 2
 
 **注意:**在堆叠容器中，元素以相反的顺序打印，因为首先打印顶部，然后移动到其他元素。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <stack>
@@ -85,7 +85,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mystack1 = 9 7 5 3
 mystack2 = 4 3 2 1
 

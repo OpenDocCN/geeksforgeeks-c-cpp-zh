@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class A, class B >
 struct is_nothrow_assignable;
 
@@ -21,7 +21,7 @@ struct is_nothrow_assignable;
 
 **语法:**
 
-```
+```cpp
 std::is_assignable<A, B>::value
 
 ```
@@ -40,7 +40,7 @@ std::is_assignable<A, B>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_assignable
 #include <bits/stdc++.h>
@@ -121,7 +121,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is int = double? true
 is struct A = struct A? true
 is class B = class A? true

@@ -10,7 +10,7 @@
 
 **转义字符的一些编码示例**
 
-```
+```cpp
 // C program to illustrate
 // \a escape sequence
 #include <stdio.h>
@@ -24,12 +24,12 @@ int main(void)
 
 输出:
 
-```
+```cpp
 My mobile number is 7873923408.
 
 ```
 
-```
+```cpp
 // C program to illustrate
 // \b escape sequence
 #include <stdio.h>
@@ -46,12 +46,12 @@ int main(void)
 
 输出:
 
-```
+```cpp
 The output is dependent upon compiler.
 
 ```
 
-```
+```cpp
 // C program to illustrate
 // \n escape sequence
 #include <stdio.h>
@@ -67,12 +67,12 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Hello
 GeeksforGeeks
 ```
 
-```
+```cpp
 // C program to illustrate
 // \t escape sequence
 #include <stdio.h>
@@ -90,14 +90,14 @@ main(void)
 
 输出:
 
-```
+```cpp
 Hello   GFG
 
 ```
 
 转义序列“\t”在基于循环的[模式打印程序中经常使用。](https://www.geeksforgeeks.org/tag/pattern-printing/)
 
-```
+```cpp
 // C program to illustrate
 // \v escape sequence
 #include <stdio.h>
@@ -115,13 +115,13 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Hello Friends
 Welcome to GFG
 
 ```
 
-```
+```cpp
 // C program to illustrate \r escape 
 // sequence
 #include <stdio.h>
@@ -136,12 +136,12 @@ int main(void)
 
 输出:(取决于编译器)
 
-```
+```cpp
 ends 
 
 ```
 
-```
+```cpp
 // C program to illustrate \\(Backslash)
 // escape sequence to print backslash.
 #include <stdio.h>
@@ -157,14 +157,14 @@ int main(void)
 
 输出:(取决于编译器)
 
-```
+```cpp
 Hello\GFG 
 
 ```
 
 **解释:**它包含两个转义序列，表示它在打印后\编译器读取下一个\以及新的行字符，即\n，这将在下一行打印 GFG
 
-```
+```cpp
 // C program to illustrate \' escape
 // sequence/ and \" escape sequence to
 // print single quote and double quote.
@@ -179,13 +179,13 @@ int main(void)
 
 输出:
 
-```
+```cpp
 ' Hello Geeks
 " Hello Geeks
 
 ```
 
-```
+```cpp
 // C program to illustrate
 // \? escape sequence
 #include <stdio.h>
@@ -202,12 +202,12 @@ int main(void)
 
 输出:
 
-```
+```cpp
 ??!
 
 ```
 
-```
+```cpp
 // C program to illustrate \OOO escape sequence
 #include <stdio.h>
 int main(void)
@@ -223,14 +223,14 @@ int main(void)
 
 输出:
 
-```
+```cpp
 A:5
 
 ```
 
 **说明:**这里 000 是一到三个八进制数字(0…7)表示\之后必须至少有一个八进制数字，最多三个。这里 072 是八进制表示法，首先它被转换成十进制表示法，即 char ':'的 ASCII 值。\072 处有:输出为 A:5。
 
-```
+```cpp
 // C program to illustrate \XHH escape 
 // sequence
 #include <stdio.h>
@@ -247,7 +247,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 BJ
 
 ```

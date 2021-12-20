@@ -13,7 +13,7 @@ C++支持四种类型的铸造:**
 ****静态施法:**这是可以使用的最简单的施法类型。这是一个**编译时剧组**。它可以进行类型间的隐式转换(比如 int 到 float，或者指针到 void*)，还可以调用显式转换函数(或者隐式转换函数)。
 **例如****
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -27,13 +27,13 @@ int main()
 
 ****输出:****
 
-```
+```cpp
 3
 ```
 
 **现在让我们对代码做一些修改。**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -50,7 +50,7 @@ int main()
 
 **如果您编译代码，您将会得到一个错误:**
 
-```
+```cpp
 [Error] invalid static_cast from type 'char*' to type 'int*'
 ```
 
@@ -58,7 +58,7 @@ int main()
 
 **让我们再举一个在类之间转换对象的例子。**
 
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 **运行上面的代码:**
 
-```
+```cpp
 Conversion Ctor called
 Conversion Operator
 Conversion Ctor called
@@ -108,7 +108,7 @@ Conversion Ctor called
 
 **让我们举一个涉及继承的例子。**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {
@@ -132,7 +132,7 @@ int main()
 
 **我们知道 static_cast 执行严格的类型检查，让我们稍微修改一下代码来看看它:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {
@@ -150,7 +150,7 @@ int main()
 
 **试着编译一下上面的代码，你看到了什么？？*编译错误！！！！！！！***
 
-```
+```cpp
 [Error] 'Base' is an inaccessible base of 'Derived'
 ```
 
@@ -158,7 +158,7 @@ int main()
 
 **使用 static_cast 将“往返”转换为 void 指针。**
 
-```
+```cpp
 #include <iostream>
 int main()
 {

@@ -23,7 +23,7 @@
 
 **程序-1** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -60,14 +60,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 at least one element is odd
 
 ```
 
 **程序-2** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 at least one element is less than 7
 
 ```

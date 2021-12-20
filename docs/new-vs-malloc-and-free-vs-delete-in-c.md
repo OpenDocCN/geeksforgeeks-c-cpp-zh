@@ -14,7 +14,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate malloc()
 // and new operator in C++
 #include "bits/stdc++.h"
@@ -59,7 +59,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Constructor was Called!
 Object of class A was created using new operator!
 Object of class A was created using malloc()!
@@ -75,7 +75,7 @@ Object of class A was created using malloc()!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate free()
 // and delete keyword in C++
 #include "bits/stdc++.h"
@@ -137,7 +137,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Constructor was Called!
 Object of class A was created using new operator!
 Destructor was Called!
@@ -152,7 +152,7 @@ Object of class A was deleted using free()!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate new, delete
 // malloc() and free()
 #include "bits/stdc++.h"
@@ -192,7 +192,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Constructor was Called!
 Destructor was Called!
 ```
@@ -203,7 +203,7 @@ Destructor was Called!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate new, delete
 // malloc() and free()
 #include "bits/stdc++.h"
@@ -243,7 +243,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Constructor was Called!
 ```
 
@@ -251,7 +251,7 @@ Constructor was Called!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate new, delete
 // malloc() and free()
 #include "bits/stdc++.h"
@@ -291,7 +291,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Constructor was Called!
 ```
 

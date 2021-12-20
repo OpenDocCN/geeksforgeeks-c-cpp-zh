@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the working
 // of vector of unordered maps
 #include <bits/stdc++.h>
@@ -116,7 +116,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 vector : 
 unordered map : [  6:10  2:1  4:7  ]
 unordered map : [  6:34  14:11  15:21  ]
@@ -128,7 +128,7 @@ unordered map : [  197:199  121:88  97:99  ]
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the working
 // of vector of unordered maps
 #include <bits/stdc++.h>
@@ -213,7 +213,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 vector : 
 unordered map : [  32:Geeks  11:Geeks  23:for  ]
 unordered map : [  73:C++  12:Python  32:Java  ]
@@ -225,7 +225,7 @@ unordered map : [  54:Swift  14:C  27:Javascript  ]
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the working
 // of vector of unordered maps
 #include <bits/stdc++.h>
@@ -319,7 +319,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 vector : 
 unordered map : [  12:e  2:G  21:s  14:k  7:e  ]
 unordered map : [  24:v  27:a  13:J  15:a  ]

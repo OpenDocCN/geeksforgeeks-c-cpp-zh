@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.size()
 ```
 
@@ -18,7 +18,7 @@ multiset_name.size()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::size() function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The size of multiset: 2
 The size of multiset: 4
 The size of multiset: 5
@@ -56,7 +56,7 @@ The size of multiset: 5
 
 **程序二:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::size() function
 #include <bits/stdc++.h>
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The size of multiset: 0
 The size of multiset: 2
 The size of multiset: 3

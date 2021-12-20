@@ -6,7 +6,7 @@ wcstof()函数将 str 指向的宽字符串的初始部分转换为浮点值。s
 以‘wcs’开头的标准库函数在 C.
 的 wchar.h 库中声明**语法:**T4】
 
-```
+```cpp
 float wcstof (const wchar_t* str, wchar_t** endptr);
 Parameters :
 str : C wide string beginning with the 
@@ -24,7 +24,7 @@ range error occurs and is returned.
 
 ## C
 
-```
+```cpp
 // C code to convert string having
 // floating point as its content
 // using wcstof function
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 58.15
 18.52
 Value of Pie is 3.14 .

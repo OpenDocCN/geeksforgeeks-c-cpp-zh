@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 set1.swap(set2)
 
 ```
@@ -18,7 +18,7 @@ set1.swap(set2)
 
 **示例:**
 
-```
+```cpp
 Input  : set1 = {1, 2, 3, 4}
          set2 = {5, 6, 7, 8}
          set1.swap(set2);
@@ -33,7 +33,7 @@ Output : set1 = {'w', 'x', 'y', 'z'}
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <bits/stdc++.h>
@@ -67,7 +67,7 @@ int main()
 
 输出:
 
-```
+```cpp
 set1 =  5 6 7 8
 set2 =  1 2 3 4
 

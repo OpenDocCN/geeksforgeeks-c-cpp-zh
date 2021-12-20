@@ -6,7 +6,7 @@
 
 例如，以下程序将名为“B::fun()的“C::fun()打印为”自动变为虚拟。
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;

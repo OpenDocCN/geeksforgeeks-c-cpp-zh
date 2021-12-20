@@ -19,7 +19,7 @@
 
 *注意:Tuple 也可以用来返回两个值，而不是使用 pair。*
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Values returned by tuple: 10 5 a
 Values returned by Pair: 2 5
 

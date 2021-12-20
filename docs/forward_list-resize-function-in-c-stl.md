@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist_name.resize(n)
 ```
 
@@ -18,7 +18,7 @@ forwardlist_name.resize(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // forward_list::resize() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The contents of forward list :10 20 30 40 50 
 The contents of forward list :10 20 30 40 50 0 0
 
@@ -57,7 +57,7 @@ The contents of forward list :10 20 30 40 50 0 0
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // forward_list::resize() function
 #include <bits/stdc++.h>
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The contents of forward list :10 20 30 40 50 
 The contents of forward list :10 20 30
 

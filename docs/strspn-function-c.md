@@ -8,7 +8,7 @@
 
 语法:
 
-```
+```cpp
 size_t strspn(const char *str1, const char *str2)
 str1 : string to be scanned.
 str2 : string containing the 
@@ -20,7 +20,7 @@ which consist only of characters
 from str2.
 ```
 
-```
+```cpp
 
 // C program to illustrate strspn() function
 #include <stdio.h>
@@ -35,11 +35,11 @@ int main () {
 
 输出:
 
-```
+```cpp
 Length of initial segment matching 4
 ```
 
-```
+```cpp
 
 // C program to illustrate strspn() function
 #include <stdio.h>
@@ -54,7 +54,7 @@ int main () {
 
 输出:
 
-```
+```cpp
 Length of initial segment matching 0
 ```
 

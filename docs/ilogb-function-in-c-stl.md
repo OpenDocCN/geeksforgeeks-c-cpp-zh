@@ -6,7 +6,7 @@ C++ STL 中的 **ilogb(x)** 函数返回|x|的对数的整数部分，使用 **F
 
 **语法**:
 
-```
+```cpp
 ilogb(x)
 ```
 
@@ -22,7 +22,7 @@ ilogb(x)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the ilogb()
 // function when input is an integer
 #include <cfloat>
@@ -50,7 +50,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 ilogb (25) = 4
 ilogb (50) = 5
 ```
@@ -60,7 +60,7 @@ ilogb (50) = 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the ilogb()
 // function when input is a double value
 #include <cfloat>
@@ -86,7 +86,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 ilogb (11) = 3
 ilogb (41) = 5
 ```
@@ -95,7 +95,7 @@ ilogb (41) = 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the ilogb()
 // function when input is 0
 #include <cfloat>
@@ -118,6 +118,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 ilogb (0) = -2147483648
 ```

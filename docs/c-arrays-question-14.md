@@ -4,7 +4,7 @@
 
 假设 int 的大小是 4。
 
-```
+```cpp
 #include <stdio.h>
 void f(char**);
 int main()

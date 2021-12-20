@@ -4,7 +4,7 @@
 
 在 C++中，我们可以使用[累加()](https://www.geeksforgeeks.org/numeric-header-in-c-stl-set-1-accumulate-and-partial_sum/)
 
-```
+```cpp
 // C++ program to demonstrate working of accumulate()
 #include <iostream> 
 #include <numeric>     
@@ -31,14 +31,14 @@ int main() 
 
 输出:
 
-```
+```cpp
 30
 
 ```
 
 **矢量之和**
 
-```
+```cpp
 // C++ program to demonstrate working of accumulate()
 #include <iostream> 
 #include <vector> 
@@ -63,7 +63,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 30
 
 ```

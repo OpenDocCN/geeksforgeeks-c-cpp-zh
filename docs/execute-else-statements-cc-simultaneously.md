@@ -4,7 +4,7 @@
 
 编写一个同时执行两个 if-else 块语句的 C/C++程序。
 
-```
+```cpp
 Syntax of if-else statement in C/C++ language is:
 if (Boolean expression)
 {
@@ -28,7 +28,7 @@ else
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -57,7 +57,7 @@ return 0;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Hello Geeks
 ```
 

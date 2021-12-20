@@ -9,7 +9,7 @@
 empty()函数用于检查向量容器是否为空。
 **语法:**
 
-```
+```cpp
 ***vectorname***.empty()
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ False, Otherwise
 
 **示例:**
 
-```
+```cpp
 Input  : myvector = 1, 2, 3, 4, 5
          myvector.empty();
 Output : False
@@ -36,7 +36,7 @@ Output : True
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of empty() function
 #include <iostream>
@@ -59,14 +59,14 @@ int main()
 
 **Output**
 
-```
+```cpp
 True
 ```
 
 **应用:**
 给定一个整数列表，求所有整数的和。
 
-```
+```cpp
 Input  : 1, 5, 6, 3, 9, 2
 Output : 26
 Explanation -  1+5+6+3+9+2 = 26
@@ -79,7 +79,7 @@ Explanation -  1+5+6+3+9+2 = 26
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include <iostream>
@@ -102,7 +102,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 26
 ```
 
@@ -111,7 +111,7 @@ int main()
 size()函数用于返回向量容器的大小或向量容器中的元素数量。
 **语法:**
 
-```
+```cpp
 ***vectorname***.size()
 Parameters :
 No parameters are passed.
@@ -121,7 +121,7 @@ Number of elements in the container.
 
 **示例:**
 
-```
+```cpp
 Input  : myvector = 1, 2, 3, 4, 5
          myvector.size();
 Output : 5
@@ -137,7 +137,7 @@ Output : 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of size() function
 #include <iostream>
@@ -154,6 +154,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 5
 ```

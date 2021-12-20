@@ -8,7 +8,7 @@
 
 根据 C99 标准:
 
-```
+```cpp
 void *realloc(void *ptr, size_t size);
 ```
 
@@ -19,7 +19,7 @@ void *realloc(void *ptr, size_t size);
 
 **程序 1:**
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -48,7 +48,7 @@ int main()
 
  **节目 2:**
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 int main()

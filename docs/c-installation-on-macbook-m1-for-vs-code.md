@@ -19,13 +19,13 @@
 
 *   **第一步:**打开终端，运行以下命令:
 
-```
+```cpp
 arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/  Homebrew/install/master/install.sh)"
 ```
 
 *   **步骤 2:** 现在在完成之前的命令类型后:
 
-```
+```cpp
 arch -x86_64 brew install mingw-w64
 ```
 
@@ -36,7 +36,7 @@ arch -x86_64 brew install mingw-w64
 *   **第一步:**使用命令+空格打开终端，键入终端。
 *   **步骤 2:** 现在移动到下面给定的路径:
 
-```
+```cpp
 /usr/local/include
 ```
 
@@ -44,7 +44,7 @@ arch -x86_64 brew install mingw-w64
 
 *   **步骤 3:** 现在在当前位置创建 bits 目录
 
-```
+```cpp
 mkdir bits
 ```
 
@@ -52,13 +52,13 @@ mkdir bits
 
 *   **第 4 步:**现在进入 bits 目录，创建一个文件并命名为 ***stdc++。h*** 。
 
-```
+```cpp
 nano stdc++.h
 ```
 
 *   **第五步:**创建文件后，只需从<u>[**<u>GitHub 存储库</u>**](https://github.com/Archies13Singh/cpp-important-packages-file/blob/main/stdc++.h) 复制代码，并将该代码粘贴到 stdc++。文件，然后按</u>
 
-```
+```cpp
  {control+x}-> y -> return
 ```
 
@@ -68,7 +68,7 @@ nano stdc++.h
 
 ## <u>C++</u>
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 

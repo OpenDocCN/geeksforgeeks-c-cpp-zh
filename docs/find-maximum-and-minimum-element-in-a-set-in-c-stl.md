@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: set={1, 6, 15, 10, 5}
 Output: max = 15, min = 1
 
@@ -21,7 +21,7 @@ Output: max = 60, min = 10
 
     **程序:**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
     using namespace std;
 
@@ -93,7 +93,7 @@ Output: max = 60, min = 10
 
     **Output:**
 
-    ```
+    ```cpp
     Set: 1 5 6 10 15 
     Minimum element: 1
     Maximum element: 15
@@ -106,7 +106,7 @@ Output: max = 60, min = 10
 
     **程序:**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
     using namespace std;
 
@@ -178,7 +178,7 @@ Output: max = 60, min = 10
 
     **Output:**
 
-    ```
+    ```cpp
     Set: 1 5 6 10 15 
     Minimum element: 1
     Maximum element: 15

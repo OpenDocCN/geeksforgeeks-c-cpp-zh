@@ -7,25 +7,25 @@
 1.  **通过迭代器擦除**:它以迭代器为参数，擦除迭代器中的键和值。
     **语法**
 
-    ```
+    ```cpp
     unordered_map.erase(const iterator);
     ```
 
 2.  **按键擦除**:以一个按键为参数，擦除按键和值。
     **语法**
 
-    ```
+    ```cpp
     unordered_map.erase(const key);
     ```
 
 3.  **按范围擦除**:它以两个迭代器为参数，擦除其间存在的所有键和值(包括起始迭代器，不包括结束迭代器)。
     **语法:**
 
-    ```
+    ```cpp
     unordered_map.erase(const iteratorStart, const iteratorEnd);
     ```
 
-```
+```cpp
 // CPP program to demonstrate implementation of
 // erase function in unordered_map.
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Contents of the unordered_map :
 4991==>1
 519==>1

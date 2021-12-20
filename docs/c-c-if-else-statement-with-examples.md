@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 if (condition)
 {
     // Executes this block if
@@ -41,7 +41,7 @@ else
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 
 #include <stdio.h>
@@ -67,7 +67,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else statement
 
 #include <iostream>
@@ -94,7 +94,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i is 20
 Outside if-else block
 
@@ -102,7 +102,7 @@ Outside if-else block
 
 **空转示例 1:**
 
-```
+```cpp
 1\. Program starts.
 2\. i is initialized to 20.
 3\. if-condition is checked. i == 10, yields false.
@@ -115,7 +115,7 @@ Outside if-else block
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 
 #include <stdio.h>
@@ -135,7 +135,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else statement
 
 #include <iostream>
@@ -156,7 +156,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i is greater than 15
 
 ```

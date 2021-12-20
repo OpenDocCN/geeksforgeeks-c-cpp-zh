@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // All the variables in below program
 // are statically allocated.
 void fun()
@@ -38,7 +38,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 int main()
 {
    // Below variables are allocated memory
@@ -57,7 +57,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 int main()
 {
    // Below variables are allocated memory

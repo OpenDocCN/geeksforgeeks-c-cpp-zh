@@ -18,7 +18,7 @@ o char *pointer = "abc "将指针设置为" abc "字符串的地址(该地址可
 
 4)指针变量可以赋值，而数组变量不能。
 
-```
+```cpp
 int a[10];
 int *p; 
 p=a; /*legal*/
@@ -27,7 +27,7 @@ a=p; /*illegal*/
 
 5)允许对指针变量进行算术运算。
 
-```
+```cpp
 p++; /*Legal*/
 a++; /*illegal*/ 
 ```

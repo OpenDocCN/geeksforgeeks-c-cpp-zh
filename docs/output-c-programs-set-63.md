@@ -7,7 +7,7 @@ Q1**。**考虑以下代码:
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 struct geeks{
   int i;
@@ -26,7 +26,7 @@ int main()
 **c .**8
 **d .**无法确定
 
-```
+```cpp
 Output: Can't be determined
 ```
 
@@ -36,7 +36,7 @@ Output: Can't be determined
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 int main(){
@@ -54,7 +54,7 @@ int main(){
 **c .**2
 **d .**无法确定
 
-```
+```cpp
 Output: Can't be determined
 ```
 
@@ -63,7 +63,7 @@ Output: Can't be determined
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -80,7 +80,7 @@ int main()
 **c .**-96
 **d .**无法确定
 
-```
+```cpp
 Output: Can't be determined
 ```
 
@@ -91,7 +91,7 @@ Output: Can't be determined
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -108,7 +108,7 @@ int main()
 **c .**16
 **d .**无法确定
 
-```
+```cpp
 Output: Can't be determined
 ```
 
@@ -118,7 +118,7 @@ T4【Q5。考虑以下代码:
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -135,7 +135,7 @@ T6 b .2
 T9】c .3
 T12】d .无法确定
 
-```
+```cpp
 Output: Can't be determined
 ```
 

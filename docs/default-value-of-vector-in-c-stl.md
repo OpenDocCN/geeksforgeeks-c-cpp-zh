@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```cpp
 // For declaring 
 vector v1(size); 
 
@@ -27,7 +27,7 @@ vector v1(5);
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to create an empty
 // vector with default value
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0 0 0
 
 ```
@@ -62,7 +62,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 // For declaring 
 vector v(size, default_value);
 
@@ -75,7 +75,7 @@ vector v1(5, 10);
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to create an empty vector
 // and with a specific default value
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 10 10
 
 ```

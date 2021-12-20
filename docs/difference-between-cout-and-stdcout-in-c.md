@@ -6,7 +6,7 @@
 
 ## c++
 
-```
+```cpp
 // Program to show the use of cout
 // without using namespace
 
@@ -20,7 +20,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```
@@ -29,7 +29,7 @@ GeeksforGeeks
 
 ## c++
 
-```
+```cpp
 // Program to show use of using namespace
 
 #include <iostream>
@@ -43,7 +43,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```

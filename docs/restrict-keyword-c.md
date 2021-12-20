@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C program to use restrict keyword.
 #include <stdio.h>
 
@@ -43,7 +43,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 120 130 70
 ```
 

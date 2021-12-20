@@ -6,7 +6,7 @@ C++中 **uniform_int_distribution 类**的 **reset()** 方法用于重置这个 
 
 **语法:**
 
-```
+```cpp
 void reset();
 
 ```
@@ -17,7 +17,7 @@ void reset();
 
 **例:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of reset() function
 
@@ -62,7 +62,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Next value in uniform_int_distribution: 10
 Next value in uniform_int_distribution: 21
 Next value in uniform_int_distribution: 78

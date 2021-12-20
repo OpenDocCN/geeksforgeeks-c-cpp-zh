@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 strtof(const char* str, char **endptr)
 Parameters:
 str : String object with the representation of floating point number
@@ -19,7 +19,7 @@ Return Value : On success, the function returns the
  converted floating-point number as a value of type float.
 ```
 
-```
+```cpp
 // C code to convert string having
 // floating point as its content
 // using strtof function
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 365.25
 7.0
 One year has 52.18 weeks

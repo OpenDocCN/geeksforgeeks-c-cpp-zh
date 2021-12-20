@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 deque_name.max_size()
 ```
 
@@ -18,7 +18,7 @@ deque_name.max_size()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // deque::max_size() function
 // when deque is non-empty
@@ -48,7 +48,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The deque elements: 1 10 100 50 40 23 6 
 The max-size of deque: 4611686018427387903
 
@@ -56,7 +56,7 @@ The max-size of deque: 4611686018427387903
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // deque::max_size() function
 // when deque is empty
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The max-size of deque: 4611686018427387903
 
 ```

@@ -26,7 +26,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // pointer increment/decrement
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Pointer ptr1 before Increment: 0x7ffcb19385e4 
 Pointer ptr1 after Increment: 0x7ffcb19385e8 
 
@@ -88,7 +88,7 @@ Pointer ptr1 after Decrement: 0x7ffcb19385e4
 
 ## C
 
-```
+```cpp
 // C program to illustrate pointer Addition
 #include <stdio.h>
 
@@ -119,7 +119,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Pointer ptr2 before Addition: 0x7fffffdcd984 
 Pointer ptr2 after Addition: 0x7fffffdcd990
 ```
@@ -132,7 +132,7 @@ Pointer ptr2 after Addition: 0x7fffffdcd990
 
 ## C
 
-```
+```cpp
 // C program to illustrate pointer Subtraction
 #include <stdio.h>
 
@@ -163,7 +163,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Pointer ptr2 before Subtraction: 0x7ffcf1221b24 
 Pointer ptr2 after Subtraction: 0x7ffcf1221b18
 ```
@@ -179,7 +179,7 @@ Pointer ptr2 after Subtraction: 0x7ffcf1221b18
 
 ## C
 
-```
+```cpp
 // C program to illustrate Subtraction
 // of two pointers
 #include <stdio.h>
@@ -217,7 +217,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Subtraction of ptr1 & ptr2 is 3
 ```
 
@@ -230,7 +230,7 @@ Subtraction of ptr1 & ptr2 is 3
 
 ## C
 
-```
+```cpp
 // C program to illustrate the array
 // traversal using pointers
 #include <stdio.h>
@@ -264,7 +264,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 5
 ```
 
@@ -272,7 +272,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the array
 // traversal using pointers in 2D array
 #include <stdio.h>
@@ -317,7 +317,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 
 3 4 
 5 6

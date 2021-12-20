@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to draw the moving
 // cycle using computer graphics
 

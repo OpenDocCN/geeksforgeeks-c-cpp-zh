@@ -9,14 +9,14 @@
 它是一个公共成员函数，返回指向第一个元素前面的元素的 const_reverse_iterator。
 **返回值**
 
-```
+```cpp
 A const_reverse_iterator to the reverse 
 end of the sequence.
 ```
 
 **语法:**
 
-```
+```cpp
 const_reverse_iterator crend() const noexcept;
 ```
 
@@ -25,18 +25,18 @@ const_reverse_iterator crend() const noexcept;
 它返回一个 const_reverse_iterator，指向容器中的最后一个元素(即它的反向开头)..
 **返回值**
 
-```
+```cpp
 A const_reverse_iterator to the reverse 
 beginning of the sequence.
 ```
 
 **语法:**
 
-```
+```cpp
 const_reverse_iterator crbegin() const noexcept;
 ```
 
-```
+```cpp
 // CPP program to illustrate working of crbegin() 
 // crend()
 #include <iostream>
@@ -59,7 +59,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 50 40 30 20 10
 
 ```

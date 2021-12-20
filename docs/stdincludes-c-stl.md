@@ -6,7 +6,7 @@ C++定义了一个函数，可以用来识别一个容器中的所有数字是�
 
 **语法 1:使用运算符“<”**
 
-```
+```cpp
 Template :
 template 
   bool includes (initer1 beg1, initer1 end1,
@@ -23,7 +23,7 @@ True if every element of 2nd container lies in 1st container.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // includes() implementation 1
 
@@ -54,14 +54,14 @@ int main()
 
 输出:
 
-```
+```cpp
 All elements of 2nd container are in 1st container
 
 ```
 
 **语法 2:使用比较器**
 
-```
+```cpp
 Template :
 template 
   bool includes (initer1 beg1, initer1 end1,
@@ -83,7 +83,7 @@ True if every element of 2nd container lies in 1st container.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // includes() implementation 2
 
@@ -118,14 +118,14 @@ int main()
 
 输出:
 
-```
+```cpp
 All elements of 2nd container are in 1st container
 
 ```
 
 **可能的应用:**在一个系统中，如果一个集合是另一个集合的子集，或者可以用来确定彩票中奖者，在这个系统中，卡中有所有彩票号码的人赢得彩票。后面一个通过代码解释。
 
-```
+```cpp
 // C++ code to demonstrate the application of 
 // includes() 
 

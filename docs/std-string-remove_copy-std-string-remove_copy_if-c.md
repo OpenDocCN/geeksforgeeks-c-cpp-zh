@@ -12,7 +12,7 @@
 
 **功能模板**
 
-```
+```cpp
 ResultIterator remove_copy(ForwardIterator first, ForwardIterator last, 
 ResultIterator result ,const T& ele);
 
@@ -31,7 +31,7 @@ ele : element to be removed.
 
 示例:
 
-```
+```cpp
 Input : b d a f g h a k   given element is a
 Output :b d f g h k _ _ 
 Input : b k c s n m c l   given element is c
@@ -40,7 +40,7 @@ Output : b k s n m l _ _
 '_' represent remove places
 ```
 
-```
+```cpp
 // CPP code to demonstrate remove_copy()
 #include <vector>
 #include <algorithm>
@@ -87,7 +87,7 @@ return 0;
 
 **Output:**
 
-```
+```cpp
 elements of v1 before remove_copy: 
 4 5 0 1 2 3 4 5 0 1 2 3 4 5 0 1 
 After removing element 3
@@ -106,7 +106,7 @@ After removing element 3
 
 **功能模板**
 
-```
+```cpp
 ResultIterator remove_copy_if(ForwardIterator first, ForwardIterator last,
                                  ResultIterator result, UnaryPredicate pred);
 pred :  Unary function that accepts an element in the range as
@@ -117,7 +117,7 @@ argument, and returns a value convertible to bool. The value returned indicates
 
 示例:
 
-```
+```cpp
 Input : 1 2 3 4 5 6 7 8 9 check if a number is prime and remove
 Output :1 4 6 8 9 0 0 0 0
 
@@ -126,7 +126,7 @@ Output :1 3 5 7 9 0 0 0 0
 
 ```
 
-```
+```cpp
 // CPP code to demonstrate remove_copy_if()
 #include <vector>
 #include <algorithm>
@@ -179,7 +179,7 @@ return 0;
 
 **Output:**
 
-```
+```cpp
 elements of v1 before remove_copy: 10 11 12 13 14 15 16 17 18 19 20 
 elements of v1 after remove_copy: 10 11 12 13 14 15 16 17 18 19 20 
 After removing Odd Numbers from v1 copy result in vector v2

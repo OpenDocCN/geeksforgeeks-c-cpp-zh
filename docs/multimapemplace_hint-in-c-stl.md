@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.emplace_hint(position, key, element)
 
 ```
@@ -19,7 +19,7 @@ multimap_name.emplace_hint(position, key, element)
 
 **返回值:**函数不返回任何内容。
 
-```
+```cpp
 // C++ program to illustrate the
 // multimap::emplace_hint() function
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The multimap is : 
 KEY    ELEMENT
 1    50

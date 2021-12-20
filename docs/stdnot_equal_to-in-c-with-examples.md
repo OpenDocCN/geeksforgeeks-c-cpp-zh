@@ -5,13 +5,13 @@
 **std::not_equal_to** 是一个用于**非等式**比较和二元函数对象类的函数对象类。它根据两个参数是否相等的条件返回一个 [**布尔值**](https://www.geeksforgeeks.org/bool-data-type-in-c/) 。
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 ```
 
 **模板类:**
 
-```
+```cpp
 template struct not_equal_to :
             binary_function  {
 
@@ -38,7 +38,7 @@ template struct not_equal_to :
 
 **语法:**
 
-```
+```cpp
 std::not_equal_to <int> ()
 ```
 
@@ -54,7 +54,7 @@ std::not_equal_to <int> ()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to illustrate std::not_equal_to
 
 #include <algorithm>
@@ -99,7 +99,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The 1st match element of 1st container : 50
 The 1st match element of 2nd container : 50
 ```
@@ -108,7 +108,7 @@ The 1st match element of 2nd container : 50
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // std::not_equals_to
 #include <algorithm>
@@ -146,7 +146,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 true
 false
 ```

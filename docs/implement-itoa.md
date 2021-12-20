@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 char* itoa(int num, char* buffer, int base)
 ```
 
@@ -14,7 +14,7 @@ char* itoa(int num, char* buffer, int base)
 如果基数为 10 且值为负，则结果字符串前面会有一个减号(-)。对于任何其他基数，值总是被认为是无符号的。
 参考:[http://www.cplusplus.com/reference/cstdlib/itoa/?kw=itoa](http://www.cplusplus.com/reference/cstdlib/itoa/)T4**例:**T7】
 
-```
+```cpp
   itoa(1567, str, 10) should return string "1567"
   itoa(-1567, str, 10) should return string "-1567"
   itoa(1567, str, 2) should return string "11000011111"
@@ -25,7 +25,7 @@ char* itoa(int num, char* buffer, int base)
 
 ## C
 
-```
+```cpp
 /* A C++ program to implement itoa() */
 #include <iostream>
 using namespace std;
@@ -100,7 +100,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Base:10 1567
 Base:10 -1567
 Base:2 11000011111

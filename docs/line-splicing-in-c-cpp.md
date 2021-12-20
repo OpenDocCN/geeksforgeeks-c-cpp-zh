@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the concept of Line splicing.
 #include <stdio.h>
 int main()

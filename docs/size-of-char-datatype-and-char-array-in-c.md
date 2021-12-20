@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: ch = 'G', arr[] = {'G', 'F', 'G'}
 Output: 
 Size of char datatype is: 1 byte
@@ -28,7 +28,7 @@ Size of char array is: 2 byte
 
 下面是查找 char 变量和 char 数组大小的 C 程序:
 
-```
+```cpp
 // C program to find the size of
 // char data type and char array
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of char datatype is: 1 byte
 Size of char array is: 3 byte
 

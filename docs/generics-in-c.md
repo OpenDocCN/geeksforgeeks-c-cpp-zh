@@ -18,7 +18,7 @@
 
 我们编写了一个通用函数，可以用于不同的数据类型。函数模板的示例有 sort()、max()、min()、printArray()
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 7
 7
 g
@@ -63,7 +63,7 @@ g
 
 下面是一个模板数组类的简单例子。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
@@ -115,7 +115,7 @@ int main()
 
 我们可以将多个数据类型作为参数传递给模板。下面的示例演示了相同的内容。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -141,7 +141,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Constructor Called
 Constructor Called
 

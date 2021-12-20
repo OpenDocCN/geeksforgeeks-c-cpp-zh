@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *setname*.emplace(*value*)
 Parameters :
 The element to be inserted into the set
@@ -23,7 +23,7 @@ the set does not contain that element already.
 
 示例:
 
-```
+```cpp
 Input  : myset{1, 2, 3, 4, 5};
          myset.emplace(6);
 Output : myset = 1, 2, 3, 4, 5, 6
@@ -38,7 +38,7 @@ Output : myset = 1, 2, 3, 4, 5
 1。它具有很强的异常保证，因此，如果抛出异常
 2，则不会进行任何更改。参数应该与容器的类型相同，否则会引发错误
 
-```
+```cpp
 // INTEGER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -78,12 +78,12 @@ int main()
 
 输出:
 
-```
+```cpp
 0 2 5 6 8 9
 
 ```
 
-```
+```cpp
 // STRING SET EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -125,7 +125,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksForGeeks This a computer science is portal
 
 ```
@@ -135,12 +135,12 @@ GeeksForGeeks This a computer science is portal
 **应用**
 使用侵位()函数输入一个空的多集合，输入以下数字和顺序，求元素的和。
 
-```
+```cpp
 Input :  7, 9, 4, 6, 2, 5, 3
 Output : 36
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Application of emplace() function
 #include <iostream>
@@ -180,7 +180,7 @@ int main()
 
 输出:
 
-```
+```cpp
 36
 
 ```
@@ -188,7 +188,7 @@ int main()
 **定位()vs 插入**
 当我们使用插入时，我们创建一个对象，然后将其插入多集。通过定位()，对象被就地构建。
 
-```
+```cpp
 // C++ code to demonstrate difference between
 // emplace and insert
 #include<bits/stdc++.h>
@@ -219,7 +219,7 @@ int main()
 
 输出:
 
-```
+```cpp
  a 24
  b 25
 

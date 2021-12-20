@@ -6,14 +6,14 @@
 
 1)引用未初始化指针处的值。
 
-```
+```cpp
 int *ptr;
 int &ref = *ptr;  // Reference to value at some random memory location
 ```
 
 2)返回对局部变量的引用。
 
-```
+```cpp
 int& fun()
 {
    int a = 10;

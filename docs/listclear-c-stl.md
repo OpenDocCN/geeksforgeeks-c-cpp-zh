@@ -9,7 +9,7 @@
 clear()函数用于移除列表容器的所有元素，从而使其大小为 0。
 **语法:**
 
-```
+```cpp
 *listname*.clear()
 Parameters :
 No parameters are passed.
@@ -21,7 +21,7 @@ removed ( or destroyed )
 
 示例:
 
-```
+```cpp
 Input  : list{1, 2, 3, 4, 5};
          list.clear();
 Output : list{}
@@ -37,7 +37,7 @@ Output : list{}
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of clear() function
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 *No Output*
 
 ```

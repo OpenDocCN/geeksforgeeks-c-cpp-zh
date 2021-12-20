@@ -6,7 +6,7 @@ std::advance 使迭代器“it”前进 n 个元素位置。
 
 **语法:**
 
-```
+```cpp
 template 
     void advance (InputIterator& it, Distance n);
 
@@ -23,13 +23,13 @@ None.
 
 **示例:**
 
-```
+```cpp
 Input : 10 40 20 50 80 70
 Output : 10 20 80
 
 ```
 
-```
+```cpp
 // C++ program to illustrate
 // using std::advance
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0 10 20 30 40 50 60 70 80 90 
 0 20 40 60 80
 

@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```cpp
 cin.get(string_name, size);
 ```
 
 **例 1:**
 
-```
+```cpp
 // C++ program to demonstrate cin.get()
 
 #include <iostream>
@@ -30,19 +30,19 @@ int main()
 
 **输入:**
 
-```
+```cpp
 Geeks for Geeks
 ```
 
 **输出:**
 
-```
+```cpp
 Geeks for Geeks
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ program to demonstrate cin.get()
 
 #include <iostream>
@@ -60,12 +60,12 @@ int main()
 
 **输入:**
 
-```
+```cpp
 GFG
 ```
 
 **输出:**
 
-```
+```cpp
 GF
 ```

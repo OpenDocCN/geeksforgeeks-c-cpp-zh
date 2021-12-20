@@ -5,7 +5,7 @@
 **tellp()** 函数用于输出流，并返回指针在流中的当前“放”位置。它没有参数，返回一个成员类型 pos_type 的值，这是一个整数数据类型，表示 put 流指针的当前位置。
 **语法:**
 
-```
+```cpp
 pos_type tellp();
 ```
 
@@ -14,7 +14,7 @@ pos_type tellp();
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // cpp code to get the position at particular
 // position using tellp() function
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 the current position of pointer is :-1
 ```
 
@@ -49,7 +49,7 @@ the current position of pointer is :-1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // code to add content at particular position
 // using tellp()
 #include <fstream>
@@ -76,7 +76,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 this is a sample
 ```
 

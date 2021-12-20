@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```cpp
 double beta(double x, double y)
 or 
 long double betal(long double x, long double y)
@@ -23,7 +23,7 @@ float betaf(float x, float y)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the three functions
 // Being a special function, beta is only guaranteed
 // to be in cmath if the user defines
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0.00357143
 0.00034965
 1.65804e-005
@@ -67,7 +67,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to print the pascal triangle
 // Being a special function, beta is only guaranteed
 // to be in cmath if the user defines
@@ -97,6 +97,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```

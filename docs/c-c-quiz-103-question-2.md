@@ -4,7 +4,7 @@
 
 当我们编译并运行下面的 C 程序片段时会发生什么？
 
-```
+```cpp
 #include "stdio.h"
 int main()
 {

@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,7 +35,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Segmentation Fault (SIGSEGV)
 ```
 
@@ -47,7 +47,7 @@ Segmentation Fault (SIGSEGV)
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -72,7 +72,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 20
 ```
 
@@ -80,7 +80,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -105,6 +105,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 3
 ```

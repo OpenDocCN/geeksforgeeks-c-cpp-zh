@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate difference
 // between behaviour of integer pointer
 // and character pointer
@@ -34,7 +34,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0x7ffc623e56c0
 abc
 
@@ -50,7 +50,7 @@ abc
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate behaviour
 // of character pointer pointing to
 // character array
@@ -73,7 +73,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 abc
 
 ```
@@ -85,7 +85,7 @@ abc
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate difference
 // between behaviour of character and
 // character pointer
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 abc
 a
 a
@@ -127,7 +127,7 @@ a
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // printing of character array
 #include <iostream>
@@ -148,7 +148,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 abc
 a
 a
@@ -166,7 +166,7 @@ a
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate behaviour
 // of typecasted character pointer
 #include <iostream>
@@ -183,7 +183,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0x7ffe66f7f420
 
 ```
@@ -197,7 +197,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // utilization of unusual behaviour
 // of character pointer
@@ -234,7 +234,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 d
 cd
 bcd

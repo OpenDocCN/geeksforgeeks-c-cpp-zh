@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 constant_reverse_iterator multiset_name.crbegin()
 
 ```
@@ -19,7 +19,7 @@ constant_reverse_iterator multiset_name.crbegin()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::crbegin() function
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The last element: 15
 15 14 11 10 10
 
@@ -53,7 +53,7 @@ The last element: 15
 
 **语法:**
 
-```
+```cpp
 constant_reverse_iterator multiset_name.crend()
 
 ```
@@ -66,7 +66,7 @@ constant_reverse_iterator multiset_name.crend()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::crend() function
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 16 16 15 14 12 11 10 10
 
 ```

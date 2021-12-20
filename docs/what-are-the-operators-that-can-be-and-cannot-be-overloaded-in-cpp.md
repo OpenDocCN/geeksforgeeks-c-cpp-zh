@@ -26,7 +26,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // operators that can be overloaded
 #include <iostream>
@@ -58,6 +58,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Count: 5
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 char* asctime(const struct tm * time_ptr);
 ```
 
@@ -20,7 +20,7 @@ char* asctime(const struct tm * time_ptr);
 
 ## c++
 
-```
+```cpp
 // c++ program to demonstrate
 // example of asctime() function.
 
@@ -41,6 +41,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Current date and time = Mon Oct  1 10:21:26 2018
 ```

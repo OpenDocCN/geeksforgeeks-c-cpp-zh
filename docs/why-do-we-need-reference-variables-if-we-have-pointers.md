@@ -30,7 +30,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to illustrate
 // pointer and references
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 20
 26
 23
@@ -101,7 +101,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -142,7 +142,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a = 5
 b = 10
 ```

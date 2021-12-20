@@ -14,7 +14,7 @@
 
 ## C
 
-```
+```cpp
 // C program printing inside printf()
 
 #include <stdio.h>
@@ -34,7 +34,7 @@ int main()
 
 输出
 
-```
+```cpp
 GeeksForGeeks
 Int printf("GeeksForGeeks\n ") = 14
 ```

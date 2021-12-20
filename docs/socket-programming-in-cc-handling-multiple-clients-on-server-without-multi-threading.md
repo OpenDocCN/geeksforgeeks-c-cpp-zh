@@ -22,7 +22,7 @@
 它包含监控某些活动的文件描述符列表。
 FD _ set 有四个功能:
 
-```
+```cpp
 fd_set readfds;
 
 // Clear an fd_set
@@ -41,13 +41,13 @@ FD_ISSET(master_sock, &readfds);
 
 **激活选择:**请阅读选择手册页，检查选择命令的所有参数。
 
-```
+```cpp
 activity = select( max_fd + 1 , &readfds , NULL , NULL , NULL);
 ```
 
 **实施:**
 
-```
+```cpp
 //Example code: A simple server side code, which echos back the received message.
 //Handle multiple socket connections with select and fd_set on Linux 
 #include <stdio.h> 
@@ -241,7 +241,7 @@ int main(int argc , char *argv[])  
 
 尝试使用以下命令在不同的计算机上运行:
 
-```
+```cpp
  telnet localhost 8888
 ```
 

@@ -10,7 +10,7 @@ pthread_cancel() =该函数使用线程 id 取消特定的线程。这个函数�
 
 **第一个程序:–**取消自线程
 
-```
+```cpp
 // C program to demonstrates cancellation of self thread 
 // using thread id
 #include <stdio.h>
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksForGeeks
 
 ```
@@ -54,7 +54,7 @@ GeeksForGeeks
 
 **第二个程序:–**取消其他线程
 
-```
+```cpp
 // C program to demonstrates cancellation of another thread 
 // using thread id
 #include <stdio.h>
@@ -127,7 +127,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 thread number one
 thread number two
 thread number one 

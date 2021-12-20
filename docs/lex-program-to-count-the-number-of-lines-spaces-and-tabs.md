@@ -6,7 +6,7 @@
 我们来了解一下如何使用 Lex 统计行数、空格数和制表符数。
 **例:**
 
-```
+```cpp
 Input:
 Geeks for       Geeks 
 gfg  gfg
@@ -32,7 +32,7 @@ No. of other characters=15
 
 ## C
 
-```
+```cpp
 /*lex code to count the number of lines,
     tabs and spaces used in the input*/
 

@@ -32,7 +32,7 @@
 
 1.  **Convenience in programming:** It is better to use iterators to iterate through the contents of containers as if we will not use an iterator and access elements using [ ] operator, then we need to be always worried about the size of the container, whereas with iterators we can simply use member function end() and iterate through the contents without having to keep anything in mind.
 
-    ```
+    ```cpp
     // C++ program to demonstrate iterators
 
     #include <iostream>
@@ -89,7 +89,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Without iterators = 1 2 3
     With iterators = 1 2 3
     Without iterators = 1 2 3 4
@@ -106,7 +106,7 @@
 
 3.  **Dynamic processing of the container:** Iterators provide us the ability to dynamically add or remove elements from the container as and when we want with ease.
 
-    ```
+    ```cpp
     // C++ program to demonstrate iterators
 
     #include <iostream>
@@ -154,7 +154,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5 2 3
 
     ```

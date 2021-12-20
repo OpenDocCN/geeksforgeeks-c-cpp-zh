@@ -12,7 +12,7 @@ C/C++的文字被相应地划分:
     1.  **前缀:**整数文字的前缀表示要读取的基数。
         **例如:**
 
-```
+```cpp
 0x10 = 16
 
 Because 0x prefix represents a HexaDecimal base.
@@ -27,7 +27,7 @@ Hence the value 16\.
 
     **例如:**
 
-    ```
+    ```cpp
     56, 78
 
     ```
@@ -36,7 +36,7 @@ Hence the value 16\.
 
     **例如:**
 
-    ```
+    ```cpp
     045, 076, 06210
 
     ```
@@ -45,7 +45,7 @@ Hence the value 16\.
 
     **例如:**
 
-    ```
+    ```cpp
     0x23A, 0Xb4C, 0xFEA
 
     ```
@@ -54,7 +54,7 @@ Hence the value 16\.
 
     **例如:**
 
-    ```
+    ```cpp
     0b101, 0B111
 
     ```
@@ -63,7 +63,7 @@ Hence the value 16\.
 
     **例如:**
 
-    ```
+    ```cpp
     12345678901234LL 
     indicates a long long integer value 12345678901234
     because of the suffix LL
@@ -83,7 +83,7 @@ Hence the value 16\.
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     int main()

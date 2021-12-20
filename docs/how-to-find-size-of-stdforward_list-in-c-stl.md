@@ -20,7 +20,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Size of l1 is : 5
 Size of l1, after removing all instances of 6 is : 3
 Size of l2, before assigning it to l1 : 3

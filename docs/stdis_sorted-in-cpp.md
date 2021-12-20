@@ -7,7 +7,7 @@ STD 有两种变体::is_sorted:
 
 1.  **不使用二元谓语**
 
-```
+```cpp
 bool is_sorted( ForwardIt first, ForwardIt last );
 first, last : the range of elements to examine
 Return value : 
@@ -18,7 +18,7 @@ false: any element in increasing order.
 1.  **示例:**
     给定一个大小为 n 的容器，并且范围在[0 … n]之间，编写一个程序来检查它是否按升序排序。数组中允许相等的值，并且两个连续的相等值被视为已排序。
 
-```
+```cpp
 Input : 2 5 9 4      /*Range = 3*/
 Output : Sorted in given range.
 
@@ -28,7 +28,7 @@ Output : Not sorted in given range.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std::is_sorted
 // without binary predicate
@@ -65,7 +65,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 Sorted in the range : 3
 Not Sorted in the range : 4
 ```
@@ -74,7 +74,7 @@ Not Sorted in the range : 4
 
 2.  **使用二元谓语**
 
-```
+```cpp
 bool is_sorted (ForwardIt first, ForwardIt last, Compare comp);
 first, last : the range of elements to examine
 comp : binary predicate
@@ -86,7 +86,7 @@ false: any element in increasing order.
 1.  示例:
     给定一个仅由字符组成的字符串。检查字符是否按排序顺序排列。此外，在比较时忽略案例，即“f”>“A”
 
-```
+```cpp
 Input : AHZP
 Output : Not Sorted
 
@@ -96,7 +96,7 @@ Output : Sorted
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std::is_sorted
 // using binary predicate
@@ -140,7 +140,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 Not sorted
 ```
 

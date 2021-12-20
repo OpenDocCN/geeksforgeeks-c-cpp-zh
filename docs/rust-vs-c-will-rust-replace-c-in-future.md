@@ -16,7 +16,7 @@ C++是一种伟大的语言，它可以提供令人敬畏的性能，并且您�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 int main() {
     std::cout << "Hello, world!";
@@ -26,7 +26,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Hello, world!
 ```
 
@@ -38,7 +38,7 @@ Rust 是一种多范式编程语言，侧重于性能和安全性，尤其是安
 
 **示例:**
 
-```
+```cpp
 fn main() {
     println!("Hello World!");
 }
@@ -46,7 +46,7 @@ fn main() {
 
 **输出:**
 
-```
+```cpp
 Hello World!
 ```
 

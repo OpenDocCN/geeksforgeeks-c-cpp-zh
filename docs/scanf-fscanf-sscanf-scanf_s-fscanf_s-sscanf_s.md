@@ -4,7 +4,7 @@
 
 1.  **scanf() :** The C library function int scanf (const char *format, …) reads formatted input from stdin.
 
-    ```
+    ```cpp
     Syntax:
     int scanf(const char *format, ...)
 
@@ -19,14 +19,14 @@
     每个参数必须是一个内存地址，转换后的结果将被写入其中。成功后，函数返回填充的变量数。在输入失败的情况下，在能够成功读取任何数据之前，返回 e of。
     可用于扫描的类型说明符:
 
-    ```
+    ```cpp
     %c — Character
     %d — Signed integer
     %f — Floating point
     %s — String
     ```
 
-    ```
+    ```cpp
     //C program t illustrate scanf statement
     #include <stdio.h>
     #include <stdlib.h>
@@ -47,13 +47,13 @@
 
     **输入:**
 
-    ```
+    ```cpp
     Geek
     ```
 
     **输出:**
 
-    ```
+    ```cpp
     Please enter your name : 
     You entered: 
     Geek
@@ -61,7 +61,7 @@
 
 2.  **sscanf():** sscanf() is used to read formatted input from the string.
 
-    ```
+    ```cpp
     Syntax:
     int sscanf ( const char * s, const char * format, ...);
 
@@ -79,7 +79,7 @@
 
     成功后，函数返回填充的变量数。在输入失败的情况下，在能够成功读取任何数据之前，返回 e of。
 
-    ```
+    ```cpp
     // C program to illustrate sscanf statement
     #include <stdio.h>
 
@@ -101,13 +101,13 @@
 
     **输出:**
 
-    ```
+    ```cpp
     3 blue balls
     ```
 
 3.  **fscanf()**: fscanf() reads formatted data from file and stores it into variables.
 
-    ```
+    ```cpp
     Syntax:
     int fscanf(FILE *stream, const char *format, ...)
 
@@ -119,7 +119,7 @@
 
     成功后，函数返回填充的变量数。在输入失败的情况下，在能够成功读取任何数据之前，返回 e of。
 
-    ```
+    ```cpp
     // C program to illustrate sscanf statement
     // This program will run on system having the file file.txt
     #include <stdio.h>
@@ -159,7 +159,7 @@
 
     输出:
 
-    ```
+    ```cpp
     String1 |Hello|
     String2 |World|
     String3 |its|
@@ -169,7 +169,7 @@
 
 4.  **scanf_s() :** This function is specific to Microsoft compilers. It is the same as scanf, except it does not cause buffer overload.
 
-    ```
+    ```cpp
     Syntax:
     int scanf_s(const char *format [argument]...);
 
@@ -182,7 +182,7 @@
     scanf 只读取控制台提供的任何输入。c 不会检查用户输入是否适合您指定的变量。
     如果你有一个名为 color[3]的数组，并且你使用 scanf 表示“红色”，它会正常工作，但是如果用户输入超过 3 个字符，scanf 会开始写入不属于 color 的内存。c 不会捕捉到这一点或警告你，它可能会也可能不会使程序崩溃，这取决于是否有东西试图访问和写入不属于 color 的内存插槽。这就是 scanf_s 发挥作用的地方。scanf_s 检查用户输入是否适合给定的内存空间。
 
-    ```
+    ```cpp
     // C program to illustrate sscanf_s statement
     // scanf_s() will only work in Microsoft Visual Studio.
     #include <stdio.h>
@@ -203,25 +203,25 @@
 
     **输入:**
 
-    ```
+    ```cpp
     Red
     ```
 
     **输出:**
 
-    ```
+    ```cpp
     Red
     ```
 
     **输入:**
 
-    ```
+    ```cpp
     Yellow
     ```
 
     **输出:**
 
-    ```
+    ```cpp
     No Output
     ```
 
@@ -229,7 +229,7 @@
 
     ## C
 
-    ```
+    ```cpp
     // C program
     // consumes the Enter key 
     // (newline character) pressed after input
@@ -243,7 +243,7 @@
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program
     // consumes the Enter key 
     // (newline character) pressed after input
@@ -271,7 +271,7 @@
 
 *   **fscanf_s() :** Difference between fscanf() and fscanf_s() is same as that of scanf() and scanf_s(). fscanf_s() is secure function and secure functions require the size of each c, C, s, S and [ type field to be passed as an argument immediately following the variable.
 
-    ```
+    ```cpp
     Syntax:
     int fscanf_s(   FILE *stream,  const char *format ,[argument ]... ); 
 
@@ -282,7 +282,7 @@
 
     成功后，函数返回填充的变量数。在输入失败的情况下，在能够成功读取任何数据之前，返回 e of。
 
-    ```
+    ```cpp
     //C program to illustrate fscanf_s statement
     //This program will run on MS Visual studio
     #include <stdio.h>
@@ -322,7 +322,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     String1 |Hello|
     String2 |World|
     String3 |its|
@@ -332,7 +332,7 @@
 
     *   **sscanf_s() :** sscanf_s() is secure function of sscanf() and secure functions require the size of each c, C, s, S and [ type field to be passed as an argument immediately following the variable.
 
-    ```
+    ```cpp
     Syntax:
     int sscanf_s(const char *restrict buffer, const char *restrict format, ...);
 
@@ -343,7 +343,7 @@
 
     成功后，函数返回填充的变量数。在输入失败的情况下，在能够成功读取任何数据之前，返回 e of。
 
-    ```
+    ```cpp
     //C program to illustrate sscanf_s statement
     //This program will run on MS Visual studio
     #include <stdio.h>
@@ -367,7 +367,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     3 blue balls 
 
     ```

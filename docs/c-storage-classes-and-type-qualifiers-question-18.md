@@ -4,7 +4,7 @@
 
 以下程序的输出
 
-```
+```cpp
 #include <stdio.h>
 int fun(int n)
 {

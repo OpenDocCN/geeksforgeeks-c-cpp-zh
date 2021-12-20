@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -31,7 +31,7 @@ int fun(int n)
 
 **解释:**程序唯一的问题是 ***好玩**以下程序运行良好，并打印出“极客 sQuiz 极客 sQuiz”*
 
-```
+```cpp
 int fun(int n);
 
 int main()

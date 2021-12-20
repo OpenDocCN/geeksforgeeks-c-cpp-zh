@@ -7,7 +7,7 @@
 该值代表在一系列独立的是/否试验中失败的次数(每个试验都以概率 p 成功)，正好在 k 次成功之前。
 **语法:**
 
-```
+```cpp
 template( class IntType = int )
 class negative_binomial_distribution
 ```
@@ -48,7 +48,7 @@ class negative_binomial_distribution
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // negative_binomial_distribution
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Negative binomial distribution with ( k = 4, p = 0.5 ) :
 0: *****
 1: ************
@@ -114,7 +114,7 @@ Negative binomial distribution with ( k = 4, p = 0.5 ) :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // negative_binomial_distribution
 #include <bits/stdc++.h>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Negative binomial distribution with ( k = 1, p = 0.2 ) :
 0: *******************
 1: ***************

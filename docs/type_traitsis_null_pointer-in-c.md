@@ -6,14 +6,14 @@ C++ STL 的**type _ traits::is _ null_pointer**用于检查给定的类型是否
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **语法:**
 
-```
+```cpp
 template class T struct is_null_pointer;
 
 ```
@@ -29,7 +29,7 @@ template class T struct is_null_pointer;
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_null_pointer template
 
@@ -62,7 +62,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_null_pointer:
 int *&: true
 int *[10]: false
@@ -73,7 +73,7 @@ int[10]:false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_null_pointer template
 
@@ -100,7 +100,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 true
 false
 false

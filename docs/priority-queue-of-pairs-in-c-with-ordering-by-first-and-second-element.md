@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the
 // priority queue of pairs
 // ordered by the first element
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 9 4
 7 3
 5 4

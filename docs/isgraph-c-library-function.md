@@ -7,7 +7,7 @@ C 库函数**是 graph()** 检查字符是否是图形字符。
 
 **语法–**
 
-```
+```cpp
 #include <ctype.h>
 int isgraph(int ch);
 
@@ -19,7 +19,7 @@ int isgraph(int ch);
 
 **代码–**
 
-```
+```cpp
 // code to check graphical character
 #include <stdio.h>
 #include <ctype.h>
@@ -51,7 +51,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 var1 = |g| can be printed
 var2 = | | can't be printed
 var3 = |1| can be printed
@@ -60,7 +60,7 @@ var3 = |1| can be printed
 
 **代码–**
 
-```
+```cpp
 // code to print all Graphical Characters
 #include <stdio.h>
 #include <ctype.h>
@@ -81,7 +81,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 In C programming All graphic characters are: 
 ! " # $ % & ' ( ) * +, - . / 0 1 2 3 4 5 6 7 8 9 
 : ;  ? @ A B C D E F G H I J K L M N O P Q R S T U

@@ -8,7 +8,7 @@
 
 该函数对整个数组元素范围进行操作，并且可以节省时间来运行循环来逐个检查每个元素。它检查每个元素的给定属性，当范围内的每个元素满足指定属性时返回 true，否则返回 false。
 
-```
+```cpp
 // C++ code to demonstrate working of all_of()
 #include<iostream>
 #include<algorithm> // for all_of()
@@ -30,7 +30,7 @@ int main()
 
 输出:
 
-```
+```cpp
 All are not positive elements
 
 ```
@@ -41,7 +41,7 @@ All are not positive elements
 
 这个函数检查给定的范围，如果有一个元素满足函数中提到的给定属性。如果至少有一个元素满足属性，则返回 true，否则返回 false。
 
-```
+```cpp
 // C++ code to demonstrate working of any_of()
 #include<iostream>
 #include<algorithm> // for any_of()
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 There exists a negative element
 
 ```
@@ -74,7 +74,7 @@ There exists a negative element
 
 如果没有任何元素满足给定条件，则此函数返回 true，否则返回 false。
 
-```
+```cpp
 // C++ code to demonstrate working of none_of()
 #include<iostream>
 #include<algorithm> // for none_of()
@@ -95,7 +95,7 @@ int main()
 
 输出:
 
-```
+```cpp
 No negative elements
 
 ```
@@ -106,7 +106,7 @@ No negative elements
 
 copy_n()将一个数组元素复制到新数组。这种类型的拷贝会创建阵列的深度拷贝。这个函数接受 3 个参数，源数组名，数组大小和目标数组名。
 
-```
+```cpp
 // C++ code to demonstrate working of copy_n()
 #include<iostream>
 #include<algorithm> // for copy_n()
@@ -134,7 +134,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new array after copying is : 1 2 3 4 5 6
 
 ```
@@ -146,7 +146,7 @@ The new array after copying is : 1 2 3 4 5 6
 
 此函数用于将连续值赋给数组。这个函数接受 3 个参数，数组名、大小和起始数字。
 
-```
+```cpp
 // C++ code to demonstrate working of iota()
 #include<iostream>
 #include<numeric> // for iota()
@@ -171,7 +171,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new array after assigning values is : 20 21 22 23 24 25
 
 ```

@@ -8,7 +8,7 @@
 
 在 C++中内联定义函数的语法是:
 
-```
+```cpp
 inline return-type function-name(parameters)
 {
     // function code

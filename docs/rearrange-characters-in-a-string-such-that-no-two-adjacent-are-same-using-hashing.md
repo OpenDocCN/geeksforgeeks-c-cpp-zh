@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 #include <time.h>
@@ -68,7 +68,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.util.*;
 
@@ -122,7 +122,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function that returns true if it is possible
@@ -159,7 +159,7 @@ else:
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -216,7 +216,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
     // Javascript implementation of the approach
@@ -267,7 +267,7 @@ class GFG {
 
 **Output:** 
 
-```
+```cpp
 Yes
 ```
 

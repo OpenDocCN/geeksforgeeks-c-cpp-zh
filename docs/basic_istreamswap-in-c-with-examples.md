@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 void swap (basic_istream& x);
 
 ```
@@ -28,7 +28,7 @@ void swap (basic_istream& x);
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::swap()
 
@@ -56,14 +56,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geeks Welcome
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::swap()
 
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geeks forGeeks
 
 ```

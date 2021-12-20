@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input :
 5 10 15 20 25
 50 40 30 20 10
@@ -20,7 +20,7 @@ The intersection has 2 elements :
 1.**使用“<”比较元素:**
 语法:
 
-```
+```cpp
 Template :
 OutputIterator set_intersection (InputIterator1 first1, InputIterator1 last1,
                                  InputIterator2 first2, InputIterator2 last2,
@@ -48,7 +48,7 @@ An iterator to the end of the constructed range.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_intersection
 
@@ -93,7 +93,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array : 5 10 15 20 25
 Second array : 10 20 30 40 50
 
@@ -104,7 +104,7 @@ The intersection has 2 elements: 10 20
 2.**通过使用预定义函数进行比较:**
 Synatax:
 
-```
+```cpp
 Template :
 OutputIterator set_intersection (InputIterator1 first1, InputIterator1 last1,
                                  InputIterator2 first2, InputIterator2 last2,
@@ -126,7 +126,7 @@ An iterator to the end of the constructed range.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_intersection
 
@@ -176,7 +176,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array : 5 10 15 20 25
 Second array : 10 20 30 40 50
 The intersection has 2 elements: 10 20
@@ -187,7 +187,7 @@ The intersection has 2 elements: 10 20
 
 1.它可以用来**找到两个班级的学生名单。**
 
-```
+```cpp
 // CPP program to demonstrate use of
 // std :: set_intersection
 #include <iostream>
@@ -237,7 +237,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Students in first class : Sachin Rakesh Sandeep Serena
 Students in second class : Vaibhav Sandeep Rakesh Neha
 

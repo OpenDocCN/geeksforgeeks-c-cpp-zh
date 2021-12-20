@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 // to get size of stack
 int pthread_attr_getstacksize(const pthread_attr_t* restrict attr,
                                           size_t* restrict stacksize);
@@ -30,7 +30,7 @@ int pthread_attr_setstacksize(pthread_attr_t* attr, size_t stacksize);
 *第一个参数–*它采用 pthread 属性。
 *第二个参数–*它采用新堆栈的大小(以字节为单位)
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -63,7 +63,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Current stack size - > 4196464
 New stack size-> 320000034
 

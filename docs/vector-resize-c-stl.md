@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```cpp
 *vectorname*.resize(int n, int val)
 
 ```
@@ -34,7 +34,7 @@
 
 2.  **Size of the vector container is lowered.
 
-    ```
+    ```cpp
     // resizing of the vector
     #include <iostream>
     #include <vector>
@@ -80,7 +80,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Contents of the vector before resizing:
     1 2 3 4 5 
     Contents of the vector after resizing:
@@ -89,7 +89,7 @@
     ```** 
 3.  ****Size of the vector container is increased.
 
-    ```
+    ```cpp
     // resizing of the vector
     #include <iostream>
     #include <vector>
@@ -135,7 +135,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Contents of the vector before resizing:
     1 2 3 4 5 
     Contents of the vector after resizing:
@@ -144,7 +144,7 @@
     ```**** 
 4.  ******Size of the vector container is increased and new elements are initialized with specified value.
 
-    ```
+    ```cpp
     // resizing of the vector
     #include <iostream>
     #include <vector>
@@ -190,7 +190,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Contents of the vector before resizing:
     1 2 3 4 5 
     Contents of the vector after resizing:

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 lineto(int x, int y);
 
 where,
@@ -22,7 +22,7 @@ line will be drawn from previous point.
 
 以下是初始位置在原点的 lineto()函数的实现:
 
-```
+```cpp
 // C Implementation for lineto()
 #include <graphics.h>
 
@@ -62,7 +62,7 @@ int main()
 
 下面是初始位置不是原点的 lineto()函数的实现:
 
-```
+```cpp
 // C Implementation for lineto()
 #include <graphics.h>
 

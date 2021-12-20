@@ -20,7 +20,7 @@ STL 中的**集合图**:集合图在设计**复杂的**数据结构和算法时�
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate use of map of set
 
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 => For Geeks 
 2 => Is The 
 3 => Great Learning 

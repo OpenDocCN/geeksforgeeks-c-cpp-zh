@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: arr[] = {1, 45, 54, 71, 76, 12}
 Output: 259
 
@@ -19,14 +19,14 @@ Output: 35
 
 **语法:**
 
-```
+```cpp
 accumulate(first_index, last_index, initial value of sum);
 
 ```
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to find the sum
 // of Array using accumulate() in STL
 
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array: 1 45 54 71 76 12 
 Sum = 259
 

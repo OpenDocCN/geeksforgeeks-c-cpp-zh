@@ -6,7 +6,7 @@
 
 1.  **语法**(从不同容器复制元素):
 
-```
+```cpp
 *unordered_multimap_name1* operator= (*unordered_multimap_name2*)
 ```
 
@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::operator=
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Key and Elements of Sample1 before copy  are:{50, 500} {10, 100} 
 The size of sample2 before copy: 0
 Key and Elements of Sample2 after copy are: {50, 500} {10, 100}
@@ -63,7 +63,7 @@ Key and Elements of Sample2 after copy are: {50, 500} {10, 100}
 
 1.  **语法**(用于移动不同容器中的元素):
 
-```
+```cpp
 *unordered_multimap_name1* operator= (*unordered_multimap_name2*)
 ```
 
@@ -73,7 +73,7 @@ Key and Elements of Sample2 after copy are: {50, 500} {10, 100}
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::operator=
 #include <bits/stdc++.h>
@@ -129,7 +129,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Key and Elements of Sample1 are: {g, G} {a, A} 
 Key and Elements of Sample2 are: {d, D} {b, B} {c, C} 
 
@@ -138,7 +138,7 @@ Key and Elements of Sample1 are: {c, C} {b, B} {d, D} {a, A} {g, G}
 
 1.  **语法**(用于分配来自不同*列表*的元素):
 
-```
+```cpp
 *unordered_multimap_name1* operator= (*intitializer_list il*)
 ```
 
@@ -148,7 +148,7 @@ Key and Elements of Sample1 are: {c, C} {b, B} {d, D} {a, A} {g, G}
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::operator=
 #include <bits/stdc++.h>
@@ -179,7 +179,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Key and Elements of Sample1 are: {5, 6} {3, 4} {1, 2} 
 
 Key and Elements of Sample1 are: {c, C} {b, B} {a, A}

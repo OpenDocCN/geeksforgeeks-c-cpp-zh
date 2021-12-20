@@ -5,7 +5,7 @@
 data()函数将字符串的字符写入数组。它返回一个指向数组的指针，该指针是从字符串到数组的转换中获得的。它的返回类型不是有效的 C 字符串，因为**没有“\ 0”**字符被追加到数组的末尾。
 **语法:**
 
-```
+```cpp
 const char* data() const;
 char* is the pointer to the obtained array.
 Parameters : None
@@ -15,7 +15,7 @@ Parameters : None
 *   **std::string::data()** 返回字符串所属的数组。因此，调用者不能修改或释放内存。
     我们举一个同样的例子，ptr 指向最终数组。
 
-    ```
+    ```cpp
     ptr[2] = 'a';
     this will raise an error as ptr points to an array that
     is owned by the string, in other words ptr is now pointing
@@ -27,7 +27,7 @@ Parameters : None
     **解释:**
     假设 str 是需要在数组中转换的原始字符串
 
-    ```
+    ```cpp
     // converts str in an array pointed by pointer ptr.
     const char* ptr = str.data(); 
 
@@ -41,7 +41,7 @@ Parameters : None
 
     ```
 
-```
+```cpp
 // CPP code to illustrate
 // std::string::data()
 
@@ -84,7 +84,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Content of Original String : GeeksforGeeks
 Length of original String : 13
 Content of transformed string : GeeksforGeeks

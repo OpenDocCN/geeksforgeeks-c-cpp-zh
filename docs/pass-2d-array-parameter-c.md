@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 const int M = 3;
 const int N = 3;
@@ -31,7 +31,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 
 ```
 
@@ -39,7 +39,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 const int N = 3;
 
@@ -61,6 +61,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 
 ```

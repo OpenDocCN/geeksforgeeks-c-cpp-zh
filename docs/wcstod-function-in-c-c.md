@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 double wcstod( const wchar_t* str, wchar_t** str_end )
 ```
 
@@ -25,7 +25,7 @@ double wcstod( const wchar_t* str, wchar_t** str_end )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcstod() function
 
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String -> 95.6Geek
 Double value -> 95.6
 End String is : Geek
@@ -65,7 +65,7 @@ End String is : Geek
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcstod() function
 // with no endString characters
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String -> 10.6464
 Double value -> 10.6464
 End String is :
@@ -105,7 +105,7 @@ End String is :
 
 **程序 3 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcstod() function
 // with whitespace present at the beginning
@@ -136,7 +136,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String ->             99.999Geek
 Double value -> 99.999
 End String is : Geek

@@ -9,7 +9,7 @@
 *   **set jump (JMP _ bufbuf)** : use buf to remember the current position and return 0.
 *   **Dragon Ball (jmp_buf buf, I)** : Return to the place indicated by buf, and return to I. 。
 
-```
+```cpp
 // A simple C program to demonstrate working of setjmp() and longjmp()
 #include<stdio.h>
 #include<setjmp.h>
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geek4
 Welcome to GeeksforGeeks
 Geek3

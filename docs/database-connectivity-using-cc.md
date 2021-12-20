@@ -55,7 +55,7 @@ c:\程序文件\代码块\ MinGW \库\库文件 32
 1.  **<u>Connecting to database (and error handling)</u>**
     **Code:**
 
-    ```
+    ```cpp
     // C++ pgroram for connecting to database (and error handling)
     #include<stdio.h>
     #include<SQLAPI.h>         // main SQLAPI++ header
@@ -105,7 +105,7 @@ c:\程序文件\代码块\ MinGW \库\库文件 32
 
     **输出:**
 
-    ```
+    ```cpp
     We are Connected!
     We are Disconnected!
 
@@ -118,7 +118,7 @@ c:\程序文件\代码块\ MinGW \库\库文件 32
 
     现在，在您的 con.connect 之后，建立与数据库的连接；方法您应该使用 cmd.setCommandText 方法将查询传递给数据库，如下所示:
 
-    ```
+    ```cpp
     con.Connect("test", "tester", "tester", SA_Oracle_Client);
     cmd.setCommandText("create table tb1(id number, name varchar(20));”);
     ```
@@ -129,7 +129,7 @@ c:\程序文件\代码块\ MinGW \库\库文件 32
 
     **完整代码:**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #include <SQLAPI.h> // main SQLAPI++ header
     int main(int argc, char* argv[])
@@ -184,19 +184,19 @@ c:\程序文件\代码块\ MinGW \库\库文件 32
 
 正如我们所知，Oracle 不是自动提交的(提交是对数据库中数据的永久反映)，所以我们必须提交它。
 
-```
+```cpp
 con.Commit();
 ```
 
 同样，当异常发生时，我们可以回滚事务，为此，我们使用:
 
-```
+```cpp
 con.Rollback();
 ```
 
 为了删除一行，我们使用这个命令。
 
-```
+```cpp
 cmd.setCommandText("delete from tb1 where id= 2");
 ```
 

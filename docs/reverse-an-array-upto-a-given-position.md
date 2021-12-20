@@ -5,7 +5,7 @@
 给定数组 arr[]和数组 k 中的一个位置，写一个函数名 reverse (a[]，k)，这样它就可以反转子数组 arr[0..k-1]。使用的额外空间应为 0(1)，时间复杂度应为 0(k)。
 例:
 
-```
+```cpp
 Input:
 arr[] = {1, 2, 3, 4, 5, 6}
     k = 4
@@ -19,7 +19,7 @@ arr[] = {4, 3, 2, 1, 5, 6}
 
 ## C++
 
-```
+```cpp
 // C++ program to reverse a subarray arr[0..k-1]
 #include <bits/stdc++.h>
 using namespace std;
@@ -55,7 +55,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // java program to reverse a
 // subarray arr[0..k-1]
 
@@ -96,7 +96,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # python program to reverse a subarray
 # arr[0..k-1]
 from __future__ import print_function
@@ -130,7 +130,7 @@ for i in range(0, n):
 
 ## C#
 
-```
+```cpp
 // C# program to reverse a
 // subarray arr[0..k-1]
 using System;
@@ -179,7 +179,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to reverse
@@ -219,7 +219,7 @@ function reverse( a, n, k)
 
 **输出:**
 
-```
+```cpp
 4 3 2 1 5 6
 ```
 

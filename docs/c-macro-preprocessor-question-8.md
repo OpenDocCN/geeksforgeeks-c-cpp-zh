@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-8/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-8/)
 
-```
+```cpp
 #include <stdio.h>
 #define a 10
 int main()

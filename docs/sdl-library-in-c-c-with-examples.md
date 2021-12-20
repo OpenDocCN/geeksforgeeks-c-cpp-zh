@@ -14,7 +14,7 @@
 3.  运行命令**sudo apt-get install libsdl 2-2.0-0 libsdl 2-dbg libsdl 2-dev libsdl 2-image-2.0-0 libsdl 2-image-dbg libsdl 2-image-dev**在您的终端上。
 4.  我们需要制作一个 Makefile。所以打开你选择的文本编辑器，开始写下面的代码。
 
-```
+```cpp
 # A simple Makefile for compiling small SDL projects
 
 # set the compiler
@@ -62,7 +62,7 @@ clean:
 
 ## C++
 
-```
+```cpp
 // for initializing and shutdown functions
 #include <SDL2/SDL.h>
 
@@ -77,7 +77,7 @@ clean:
 
 ## C++
 
-```
+```cpp
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_timer.h>
@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
 
 ## C++
 
-```
+```cpp
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_timer.h>

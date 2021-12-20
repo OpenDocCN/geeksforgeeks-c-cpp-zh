@@ -21,7 +21,7 @@
 
 这一部分有大约 15 个概念应该是不言自明的。这些概念表达了类型、类型分类和基本类型属性之间的关系。
 
-```
+```cpp
 Defined in header <concepts>
 Defined in namespace std
 
@@ -50,14 +50,14 @@ Defined in namespace std
 
 三向比较运算符表达式的形式如下:
 
-```
+```cpp
 lhs <=> rhs 
 
 ```
 
 宇宙飞船操作符看起来像<=>，它的官方 C++名字是**三路比较操作符**。之所以这样叫，是因为它是通过比较两个对象，然后将结果与 0 进行比较来使用的:
 
-```
+```cpp
 (x <=> y) < 0 is true if x < y
 (x <=> y) > 0 is true if x > y
 (x <=> y) == 0 is true if x and y are equal/equivalent.
@@ -70,7 +70,7 @@ lhs <=> rhs
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <bits/stdc++.h>
@@ -130,7 +130,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>
@@ -172,7 +172,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>
@@ -202,7 +202,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 // helloworld.cpp module declaration
@@ -220,7 +220,7 @@ export void hello()
 
 ## C++
 
-```
+```cpp
 // main.cpp import declaration
 import helloworld;
 
@@ -246,7 +246,7 @@ C++ 11/14 的[计时库](https://www.geeksforgeeks.org/chrono-in-c/)扩展了日
 
 **语法:**
 
-```
+```cpp
 Defined in header <chrono>
 Defined in namespace std::chrono
 
@@ -254,7 +254,7 @@ Defined in namespace std::chrono
 
 **示例:**
 
-```
+```cpp
 auto date1 = 2020y/sep/8;
 auto date2 = 21d/oct/2018;
 auto date3 = jan/27/2019;
@@ -270,7 +270,7 @@ auto date3 = jan/27/2019;
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>
@@ -313,7 +313,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>
@@ -349,7 +349,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>
@@ -379,7 +379,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <iostream>

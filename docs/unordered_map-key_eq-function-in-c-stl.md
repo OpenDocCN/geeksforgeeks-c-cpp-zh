@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 unordered_map_name.key_eq()(args1, args2)
 
 ```
@@ -19,7 +19,7 @@ unordered_map_name.key_eq()(args1, args2)
 
 **例 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_map::key_eq() function
 
@@ -50,14 +50,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GEEKS and geeks are treated dissimilarly in the container
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_map::key_eq() function
 
@@ -94,7 +94,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 100 and 200 are treated dissimilarly in the container
 100 and 100 are treated similarly in the container
 

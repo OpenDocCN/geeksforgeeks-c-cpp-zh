@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 pair(int*, ptrdiff_t) p = get_temporary_buffer(int)(required size)
 ```
 
@@ -24,7 +24,7 @@ pair(int*, ptrdiff_t) p = get_temporary_buffer(int)(required size)
 **示例 1:**
 使用*get _ temporal _ buffer*对数组中的偶数总数进行计数并打印排序后的数组
 
-```
+```cpp
 Input : 8, 9, 2, 1, 10, 14, 37, 18, 17, 5
 Output : It contain 10 elements
         Sorted array is 1, 2, 5, 8, 9, 10, 14, 17, 18, 37
@@ -45,7 +45,7 @@ Step 3: now copy the elements in the temporary buffer
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the get_temporary_buffer
 // to sort an array
 
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The total even numbers are: 5
 original array : 
 8 9 2 1 10 14 37 18 17 5 
@@ -104,7 +104,7 @@ sorted array :
 **示例 2:**
 使用 get _ temporary _ buffer 和 return _ temporary _ buffer 对字符串进行字母排序
 
-```
+```cpp
 Input : 'b', 'g', 'y', 'v', 'p'
 Output : b g p v y 
 This will print the contents in an increasing order of alphabets. 
@@ -112,7 +112,7 @@ This will print the contents in an increasing order of alphabets.
 
 ## C++
 
-```
+```cpp
 // C++ code to sort the characters
 // alphabetically using std::get_temporary_buffer
 #include <iostream>
@@ -153,7 +153,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 sorted characters are :
 b g p v y  
 ```

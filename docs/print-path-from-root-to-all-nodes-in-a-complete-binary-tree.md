@@ -5,7 +5,7 @@
 给定一个数字 **N** ，这是一个完整的二叉树中节点的总数，其中节点从 1 到 N 依次逐级排列。任务是编写一个程序来打印从根到完整二叉树中所有节点的路径。
 N = 3 时，树为:
 
-```
+```cpp
      1
   /     \
 2        3 
@@ -13,7 +13,7 @@ N = 3 时，树为:
 
 对于 N = 7，树将是:
 
-```
+```cpp
        1
     /     \
    2        3 
@@ -23,7 +23,7 @@ N = 3 时，树为:
 
 **例:**
 
-```
+```cpp
 Input : 7  
 Output : 
 1 
@@ -48,7 +48,7 @@ Output :
 
 ## C++
 
-```
+```cpp
 // C++ program to print path from root to all
 // nodes in a complete binary tree.
 
@@ -115,7 +115,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print path from root to all
 // nodes in a complete binary tree.
 import java.util.*;
@@ -186,7 +186,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to print path from root
 # to all nodes in a complete binary tree.
 
@@ -247,7 +247,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to print path from root to all
 // nodes in a complete binary tree.
 using System;
@@ -319,7 +319,7 @@ public static void Main(String []args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to print path from root to all
 // nodes in a complete binary tree.
@@ -383,7 +383,7 @@ printPathToCoverAllNodeUtil($nThNode);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to print path from root to all
@@ -448,7 +448,7 @@ printPathToCoverAllNodeUtil(nThNode);
 
 **Output:** 
 
-```
+```cpp
 1 
 1 2 
 1 2 4 

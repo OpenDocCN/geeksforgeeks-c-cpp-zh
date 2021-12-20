@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of static function
 #include "bits/stdc++.h"
@@ -31,7 +31,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GeeksforGeeks!
 
 ```
@@ -42,7 +42,7 @@ GeeksforGeeks!
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of const keyword
 
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1
 
 ```

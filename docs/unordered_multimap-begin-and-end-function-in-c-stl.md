@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     *unordered_multimap_name*.begin(n)
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // unordered_multimap::begin() function
     #include <bits/stdc++.h>
@@ -56,7 +56,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Key and Elements: 
        2          3
        2          3
@@ -70,7 +70,7 @@
 
     **程序 2:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // unordered_multimap::begin(bucket) function
     #include <bits/stdc++.h>
@@ -108,7 +108,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Key and Elements of first bucket: 
        1          2
 
@@ -120,7 +120,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     *unordered_multimap_name*.end(n)
     ```
 
@@ -132,7 +132,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // unordered_multimap::end() function
     #include <bits/stdc++.h>
@@ -163,7 +163,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Key and Elements: 
        2          3
        2          3
@@ -175,7 +175,7 @@
 
     **程序 2:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // unordered_multimap::end(bucket) function
     #include <bits/stdc++.h>
@@ -206,7 +206,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Key and Elements of first bucket: 
        1          2
 

@@ -10,7 +10,7 @@
 
 ## 【C】
 
-```
+```cpp
 // C Program to demonstrate calling an undeclared function
 #include <stdio.h>
 
@@ -32,6 +32,6 @@ void f(int x) { printf("%d", x); }
 
 **输出**中正常工作
 
-```
+```cpp
 2
 ```

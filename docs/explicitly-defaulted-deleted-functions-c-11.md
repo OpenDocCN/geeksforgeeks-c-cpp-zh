@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the
 // use of defaulted functions
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **输出** :
 
-```
+```cpp
 This is a parameterized constructor
 ```
 
@@ -55,7 +55,7 @@ This is a parameterized constructor
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate that
 // non-special member functions
 // can't be defaulted
@@ -97,7 +97,7 @@ c++ 11 标准引入了该运算符的另一种用法，即:**禁用成员函数�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to disable the usage of
 // copy-constructor using delete operator
 #include <iostream>
@@ -136,7 +136,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to disable undesirable argument
 // type conversion using delete operator
 #include <iostream>
@@ -167,7 +167,7 @@ int main()
 
 请注意，删除的函数是隐式内联的，这一点非常重要。删除的函数定义必须是函数的第一个声明。换句话说，以下方式是将函数声明为已删除的正确方式:
 
-```
+```cpp
 class C 
 {
 public:
@@ -179,7 +179,7 @@ public:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Sample C++ code to demonstrate the
 // incorrect syntax of declaring a member
 // function as deleted

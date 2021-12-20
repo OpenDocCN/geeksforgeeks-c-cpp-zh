@@ -13,7 +13,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program for the above concepts
 
 #include <iostream>
@@ -37,7 +37,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Value of a: 5
 Address of a: 0x7ffe25768fa4
 ```

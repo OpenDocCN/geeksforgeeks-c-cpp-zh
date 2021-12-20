@@ -27,7 +27,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 
@@ -198,7 +198,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 { 1 : 1, 3 : 2, 100000000 : 2 }
 ```
 

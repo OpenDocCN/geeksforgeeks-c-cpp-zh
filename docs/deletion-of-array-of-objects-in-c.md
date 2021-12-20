@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to create an object
 // dynamically and  delete explicitly
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Constructor is called!
 Writing!
 Destructor is called!
@@ -71,7 +71,7 @@ Destructor is called!
 
 ## C++
 
-```
+```cpp
 // C++ program to create an array of
 // objects and deleting it explicitly
 #include <iostream>
@@ -122,7 +122,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Constructor is called!
 Constructor is called!
 Constructor is called!
@@ -141,7 +141,7 @@ Destructor is called!
 
 ## C++
 
-```
+```cpp
 // C++ program to delete array of
 // objects
 #include <iostream>

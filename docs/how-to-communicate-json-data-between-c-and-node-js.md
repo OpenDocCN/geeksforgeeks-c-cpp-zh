@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 #include<iostream>
 #include<ofstream>
 #include "json.hpp"

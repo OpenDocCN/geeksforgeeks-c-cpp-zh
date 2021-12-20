@@ -8,7 +8,7 @@
 我们可以通过如下代码所示的构造函数，使用整数和二进制字符串构造一个位集。位集的大小在编译时是固定的，也就是说，它不能在运行时更改。
 为位集类定义的**主要功能是运算符[]、计数、大小、设置、重置以及更多，它们将在下面的代码中解释–**
 
-```
+```cpp
 // C++ program to demonstrate various functionality of bitset
 #include <bits/stdc++.h>
 using namespace std;
@@ -102,7 +102,7 @@ int main()
 
 输出:
 
-```
+```cpp
 00000000000000000000000000000000
 00000000000000000000000000010100
 00000000000000000000000000001100
@@ -127,7 +127,7 @@ Decimal number: 100 Binary equivalent: 01100100
 对于位集，所有按位运算符都是重载的，也就是说，它们可以直接应用于位集，而无需任何强制转换或转换，主要重载运算符有&、|、==、！=和移位运算符< >，这使得位集上的操作变得容易。
 上述运算符的用法如下代码所示。
 
-```
+```cpp
 // C++ program to show applicable operator on bitset.
 #include <bits/stdc++.h>
 using namespace std;
@@ -162,7 +162,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0
 1
 1010

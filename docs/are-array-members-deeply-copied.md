@@ -6,7 +6,7 @@
 
 在下面的 C++程序中，结构变量 st1 包含指向动态分配内存的指针。当我们将 st1 分配给 st2 时，st2 的 str 指针也开始指向相同的存储位置。这种复制称为[浅复制](http://en.wikipedia.org/wiki/Object_copy#Shallow_copy)。
 
-```
+```cpp
 # include <iostream>
 # include <string.h>
 
@@ -43,7 +43,7 @@ st2 的 str = XYeksforGeeks
 
 那么，数组呢？*需要注意的是，数组成员不是浅拷贝的，编译器会自动对数组成员执行[深拷贝](http://en.wikipedia.org/wiki/Object_copy#Deep_copy)。*。在下面的程序中，结构测试包含数组成员 str[]。当我们将 st1 分配给 st2 时，st2 有一个新的阵列副本。所以当我们改变 st1 的 str[]时，st2 不会改变。
 
-```
+```cpp
 # include <iostream>
 # include <string.h>
 

@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the use of
 // goes to (-->) operator
 #include <stdio.h>
@@ -34,7 +34,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of goes to (-->) operator
 #include <stdio.h>
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 9 8 7 6 5 4 3 2 1 0 
 -1
 

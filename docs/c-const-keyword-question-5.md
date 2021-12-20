@@ -4,7 +4,7 @@
 
 C++程序的输出？
 
-```
+```cpp
 #include <iostream>
 int const s=9;
 int main()

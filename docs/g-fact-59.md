@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // Program 1
 #include<stdio.h>
 int main()
@@ -26,13 +26,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
   h
 ```
 
 ## C
 
-```
+```cpp
 // Program 2
 #include<stdio.h>
 int main()
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
   e
 ```
 

@@ -6,7 +6,7 @@ C++ 17 引入了许多新的方法来声明变量。先前的赋值和声明是�
 
 示例:
 
-```
+```cpp
 int a = 5;
 
 ```
@@ -15,7 +15,7 @@ int a = 5;
 
 1.  **Constructor initialization:** In this way, the value of the variable is enclosed in parentheses ( () ). In this way, value can be passed in two ways shown below.
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -40,7 +40,7 @@ int a = 5;
 
     **输出:**
 
-    ```
+    ```cpp
     a = 5
     b = 10
 
@@ -51,7 +51,7 @@ int a = 5;
 
     例如，
 
-    ```
+    ```cpp
     a=(2, 21, -50, 1)
     ```
 
@@ -59,7 +59,7 @@ int a = 5;
 
 2.  **Uniform initialization:** In this way, the value of the variable is enclosed in curly braces ( {} ) instead of parentheses. In this way, the value can be passed in two ways shown below.
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -83,7 +83,7 @@ int a = 5;
 
     **输出:**
 
-    ```
+    ```cpp
     a = 3
     b = 7
 
@@ -93,14 +93,14 @@ int a = 5;
 
     例如，
 
-    ```
+    ```cpp
     int b={7, 12};
 
     ```
 
     **输出**
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:9:12: error: scalar object 'b' requires one element in initializer
      int b={7, 12};

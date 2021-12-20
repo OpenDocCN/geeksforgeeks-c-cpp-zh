@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 const T& clamp ( const T& val, const T& lo, const T& hi )
 or 
 const T& clamp ( const T& value, const T& low, const T& high, Pred p )
@@ -27,7 +27,7 @@ const T& clamp ( const T& value, const T& low, const T& high, Pred p )
 
     **程序-1** :
 
-    ```
+    ```cpp
     // C++ program to implement the
     // above mentioned function
 
@@ -53,14 +53,14 @@ const T& clamp ( const T& value, const T& low, const T& high, Pred p )
 
     **Output:**
 
-    ```
+    ```cpp
     10
 
     ```
 
     **程序-2** :
 
-    ```
+    ```cpp
     // C++ program to implement the
     // above mentioned function
 
@@ -85,14 +85,14 @@ const T& clamp ( const T& value, const T& low, const T& high, Pred p )
 
     **Output:**
 
-    ```
+    ```cpp
     20
 
     ```
 
     **程序-3** :
 
-    ```
+    ```cpp
     // C++ program to implement the
     // above mentioned function
 
@@ -117,7 +117,7 @@ const T& clamp ( const T& value, const T& low, const T& high, Pred p )
 
     **Output:**
 
-    ```
+    ```cpp
     15
 
     ```

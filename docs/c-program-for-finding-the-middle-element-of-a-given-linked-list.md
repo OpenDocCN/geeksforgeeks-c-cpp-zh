@@ -17,7 +17,7 @@
 
 ## C
 
-```
+```cpp
 // C program to find middle of linked list
 #include<stdio.h> 
 #include<stdlib.h> 
@@ -97,7 +97,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 5->NULL
 The middle element is [5]
 
@@ -120,7 +120,7 @@ The middle element is [3]
 
 ## C
 
-```
+```cpp
 // C program to implement the 
 // above approach
 #include <stdio.h>
@@ -205,7 +205,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5->NULL
 The middle element is [5]
 

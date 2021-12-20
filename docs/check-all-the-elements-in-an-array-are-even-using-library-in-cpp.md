@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : [2, 4, 6, 8, 9]
 Output : All the elements are not even
 
@@ -19,7 +19,7 @@ Output : Alla the elements are even
 
 注意 [**all_of()**](https://www.geeksforgeeks.org/useful-array-algorithms-in-c-stl/) 内部也使用循环，只是节省了我们写循环代码的时间。
 
-```
+```cpp
 // CPP program to check if all elements
 // of an array are even or odd.
 #include <algorithm>
@@ -46,7 +46,7 @@ int main()
 
 输出:
 
-```
+```cpp
 All are not even elements
 
 ```

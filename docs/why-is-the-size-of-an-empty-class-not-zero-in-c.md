@@ -20,7 +20,7 @@ C 中引入结构时，当时还没有[对象](https://www.geeksforgeeks.org/c-c
 
 ## CPP
 
-```
+```cpp
 // C++ program without any compilation
 // error to demonstrate the size of
 // an Empty Class
@@ -42,7 +42,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Size of Empty Class is = 1
 ```
 
@@ -50,7 +50,7 @@ Size of Empty Class is = 1
 
 ## CPP
 
-```
+```cpp
 // C++ program without any compilation
 // error to demonstrate that the size
 // of the two different objects of an
@@ -79,7 +79,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Fine 
 ```
 
@@ -87,7 +87,7 @@ Fine
 
 ## c++
 
-```
+```cpp
 // C++ program without any
 // compilation error to demonstrate
 // that "new" always returns pointers
@@ -116,7 +116,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Fine 
 ```
 
@@ -124,7 +124,7 @@ Fine
 
 ## CPP
 
-```
+```cpp
 // CPP Program as an exercise
 
 #include <iostream>
@@ -149,7 +149,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 4
 ```
 
@@ -159,7 +159,7 @@ int main()
 
 ## CPP
 
-```
+```cpp
 // CPP Program as an exercise
 #include <iostream>
 using namespace std;
@@ -200,7 +200,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 sizeof(Empty) 1
 sizeof(Derived1) 1
 sizeof(Derived2) 8

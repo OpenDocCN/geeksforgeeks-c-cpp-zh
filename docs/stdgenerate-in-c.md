@@ -8,7 +8,7 @@
 
 **模板功能:**
 
-```
+```cpp
 void generate (ForwardIterator first, ForwardIterator last, Generator gen);
 
 first: Forward iterator pointing to the first element of the container.
@@ -20,7 +20,7 @@ Since, it has a void return type, so it does not return any value.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::generate
 #include <iostream>
 #include <vector>
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10
 
 ```

@@ -7,7 +7,7 @@ C++定义的函数使用不同的函数来获取 2 或容器中的最小和最�
 1.  **Minimum maximum (a, b):** This function **returns a pair of** , where the first element of **is the minimum** of **of the two elements, and the second** element of **is **of the two elements.****
 2.  **minmax(元素数组):**该函数返回类似于第一版。唯一不同的是，在这个版本中，**接受的参数是整数/字符串列表**，其中获得了最大值和最小值。在我们需要在列表中找到最大和最小元素而不排序的情况下很有用。
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of minmax()
 
     #include<iostream>
@@ -43,7 +43,7 @@ C++定义的函数使用不同的函数来获取 2 或容器中的最小和最�
 
     输出:
 
-    ```
+    ```cpp
     The minimum value obtained is : 23
     The maximum value obtained is : 53
 
@@ -54,7 +54,7 @@ C++定义的函数使用不同的函数来获取 2 或容器中的最小和最�
 
 3.  **minmax _ element ()** : The purpose of this function is the same as the above function, that is, to find the minimum and maximum elements. But it is different in the return type and the parameters it accepts. The function **takes the start and end pointers** as parameters, and is used to find the largest and smallest elements in a range. This function **returns the pairing pointer** , whose first element points to the **position** of the smallest element in the range, and the second element points to the position of the largest element in the range. If the minimum number exceeds 1, the first element points to the first **occurrence element. If the maximum number exceeds 1, the second element points to the last **element.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of minmax_element()
 
     #include<iostream>
@@ -101,7 +101,7 @@ C++定义的函数使用不同的函数来获取 2 或容器中的最小和最�
 
     Output:
 
-    ```
+    ```cpp
     The minimum value position obtained is : 1
     The maximum value position obtained is : 0
 

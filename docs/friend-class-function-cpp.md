@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class Node {
 private:
     int key;
@@ -25,7 +25,7 @@ b)全局函数
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class Node {
 private:
     int key;
@@ -47,7 +47,7 @@ private:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 class A {
 private:
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 A::a=0
 ```
 
@@ -90,7 +90,7 @@ A::a=0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 class B;
@@ -127,7 +127,7 @@ int main()
 
 输出:
 
-```
+```cpp
 B::b = 0
 ```
 
@@ -135,7 +135,7 @@ B::b = 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 class A {
@@ -165,7 +165,7 @@ int main()
 
 输出:
 
-```
+```cpp
 A::a = 0
 ```
 

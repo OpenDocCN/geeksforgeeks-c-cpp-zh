@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-structure-union-question-9/](https://www.geeksforgeeks.org/c-structure-union-question-9/)
 
-```
+```cpp
 # include <iostream>
 # include <string.h>
 using namespace std;

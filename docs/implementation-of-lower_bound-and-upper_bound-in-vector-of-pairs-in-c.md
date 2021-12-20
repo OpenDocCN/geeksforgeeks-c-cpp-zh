@@ -15,7 +15,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate lower_bound()
 // and upper_bound() in Vectors of Pairs
 
@@ -71,7 +71,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 lower_bound() for {2, 5} is at index: 3
 upper_bound() for {2, 5} is at index: 4
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: Geeks
 Output: skeeG
 
@@ -19,7 +19,7 @@ Output: skeeGroFskeeG
 
 **程序:**
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter a string: GeeksForGeeks
 Reverse of the string: skeeGroFskeeG
 

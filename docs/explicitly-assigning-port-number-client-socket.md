@@ -15,7 +15,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // socket programming in finding ip address
 // and port number of connected client
@@ -90,7 +90,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Server Created
 Binded Correctly
 Listening ...
@@ -103,7 +103,7 @@ Client : Hello
 
 ## C
 
-```
+```cpp
 // C program to demonstrate socket programming
 // as well as explicitly assigning a port number
 // on Client Side
@@ -165,7 +165,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Client Created
 Binded Correctly
 Client Connected

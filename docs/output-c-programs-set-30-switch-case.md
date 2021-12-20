@@ -8,7 +8,7 @@
 
 1.  **Program 1**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -30,7 +30,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Default: 
     ```
 
@@ -38,7 +38,7 @@
 
 2.  **程序 2**
 
-    ```
+    ```cpp
     #include<stdio.h>
     void main()
     {
@@ -59,7 +59,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Bahubali
     ```
 
@@ -67,7 +67,7 @@
 
 3.  **Program 3**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #define L 10
     void main()
@@ -99,7 +99,7 @@
 
     输出:
 
-    ```
+    ```cpp
     XYZ
     ```
 
@@ -110,7 +110,7 @@
 
 4.  **Program 4**
 
-    ```
+    ```cpp
     #include<stdio.h>
     void main()
     {
@@ -134,7 +134,7 @@
 
     输出:
 
-    ```
+    ```cpp
     GEEKSFOR
     ```
 

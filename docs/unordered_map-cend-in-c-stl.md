@@ -7,7 +7,7 @@
 这个函数有两种变体。
 **语法-1:**
 
-```
+```cpp
 unordered_map.cend()
 
 ```
@@ -15,7 +15,7 @@ unordered_map.cend()
 **参数:**此功能不接受任何参数。
 **返回类型:**这个函数返回一个迭代器到容器末尾的元素。
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_map cend()
 #include <bits/stdc++.h>
@@ -40,7 +40,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 6
 1 2
 3 4

@@ -15,7 +15,7 @@
 
 因此，实际读取用户输入的代码如下:
 
-```
+```cpp
 char* inputBuffer = malloc(sizeof(char) * DEFAULT_BUFFER_SIZE);
 memset(inputBuffer, NUL, DEFAULT_BUFFER_SIZE);
 
@@ -47,7 +47,7 @@ while (result == NULL) {
 
 您会注意到，我检查以确保最后读取的值不是新行。如果这是真的，这意味着用户输入的输入字符串太长了。为了解决这个问题，我们需要将我们的“结果”变量设置为空，这样我们就可以再次循环这个循环，但是我们还需要清空输入缓冲区。否则，程序将只读取尚未使用的旧输入，而不是提示用户进行额外输入。为了处理这个问题，我提供了两个额外的函数。
 
-```
+```cpp
 static inline void ErrorInputStringTooLong()
 {
 

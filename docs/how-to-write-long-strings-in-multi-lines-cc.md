@@ -6,7 +6,7 @@
 
 在 C/C++中，我们可以使用中间的两个双引号在中间的任意点断开一个字符串。下面是一个简单的例子来证明这一点。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -36,7 +36,7 @@ int main()
 
 下面是几个例子，为了更好的可读性，使用两个双引号将长字符串断开。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -55,7 +55,7 @@ int main()
 
 同样，我们可以在 printf 和或 cout 中编写长字符串。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

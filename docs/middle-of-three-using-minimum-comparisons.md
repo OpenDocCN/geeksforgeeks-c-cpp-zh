@@ -5,7 +5,7 @@
 给定三个不同的数字 a、b 和 c，找出中间有一个值的数字。
 示例:
 
-```
+```cpp
 Input : a = 20, b = 30, c = 40
 Output : 30
 
@@ -17,7 +17,7 @@ Output : 12
 
 ## C++
 
-```
+```cpp
 // CPP program to find  middle of three distinct
 // numbers
 #include <bits/stdc++.h>
@@ -48,7 +48,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find middle of
 // three distinct numbers
 import java.util.*;
@@ -84,7 +84,7 @@ class Middle
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find middle
 # of three distinct numbers
 
@@ -112,7 +112,7 @@ print(middleOfThree(a, b, c))
 
 ## C#
 
-```
+```cpp
 // C# program to find middle of
 // three distinct numbers
 using System;
@@ -148,7 +148,7 @@ class Middle
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find middle
 // of three distinct numbers
@@ -182,7 +182,7 @@ function middleOfThree($a, $b, $c)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find  middle of three distinct
@@ -212,7 +212,7 @@ function middleOfThree( a,  b, c)
 
 **输出:**
 
-```
+```cpp
 30
 ```
 
@@ -221,7 +221,7 @@ function middleOfThree( a,  b, c)
 
 ## C++
 
-```
+```cpp
 // CPP program to find middle of three distinct
 // numbers
 #include <bits/stdc++.h>
@@ -264,7 +264,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find middle of
 // three distinct numbers
 import java.util.*;
@@ -311,7 +311,7 @@ class Middle
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find middle
 # of three distinct numbers
 
@@ -347,7 +347,7 @@ print( middleOfThree(a, b, c) )
 
 ## C#
 
-```
+```cpp
 // C# program to find middle of
 // three distinct numbers
 using System;
@@ -394,7 +394,7 @@ class Middle
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find middle
 // of three distinct numbers
@@ -441,7 +441,7 @@ function middleOfThree( $a, $b, $c)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find middle of three distinct numbers
 
@@ -480,7 +480,7 @@ function middleOfThree( $a, $b, $c)
 
 输出:
 
-```
+```cpp
 30
 ```
 
@@ -489,7 +489,7 @@ function middleOfThree( $a, $b, $c)
 
 ## C++
 
-```
+```cpp
 // CPP program to find middle of three distinct
 // numbers
 #include <bits/stdc++.h>
@@ -529,7 +529,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 //java program to find middle of three distinct
 // numbers
 import java.util.*;
@@ -573,7 +573,7 @@ class Middle
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find middle
 # of three distinct numbers
 
@@ -613,7 +613,7 @@ print(middleOfThree(a, b, c))
 
 ## C#
 
-```
+```cpp
 //C# program to find middle of three distinct
 // numbers
 using System;
@@ -660,7 +660,7 @@ class Middle
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find middle
 // of three distinct numbers
@@ -709,7 +709,7 @@ function middleOfThree($a, $b, $c)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // javascript program to find middle of
@@ -748,6 +748,6 @@ function middleOfThree($a, $b, $c)
 
 **输出:**
 
-```
+```cpp
 30
 ```

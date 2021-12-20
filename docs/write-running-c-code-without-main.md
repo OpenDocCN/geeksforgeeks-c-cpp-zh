@@ -17,7 +17,7 @@
 
 1.  **使用宏定义主**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #define fun main
     int fun(void)
@@ -27,14 +27,14 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: Geeksforgeeks
     ```
 
 2.  **使用令牌粘贴操作符**
     上面的解决方案中有“主”字。如果连 main 都不允许写，可以用贴令牌运算符(详见[本](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/))
 
-    ```
+    ```cpp
     #include<stdio.h>
     #define fun m##a##i##n
     int fun()
@@ -44,13 +44,13 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: Geeksforgeeks
     ```
 
 3.  **使用论证宏**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #define begin(m,a,i,n) m##a##i##n
     #define start begin(m,a,i,n)
@@ -60,13 +60,13 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: Geeksforgeeks
     ```
 
 4.  **Modify the entry point during compilation**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #include<stdlib.h>
 
@@ -87,7 +87,7 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: 
     Geeksforgeeks
     ```

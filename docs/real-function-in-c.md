@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> T 
     real(const complex<T>& z);
 
@@ -20,7 +20,7 @@ template<class T> T
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of real() function.
 
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Complex Number = (20.3, 4.9)
 Real part of the complex number is =20.3
 
@@ -55,7 +55,7 @@ Real part of the complex number is =20.3
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of real() function.
 
@@ -82,7 +82,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Complex Number = (2, 2)
 Real part of the complex number is =2
 

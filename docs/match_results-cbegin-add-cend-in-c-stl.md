@@ -5,7 +5,7 @@
 *   **match_results::cbegin()** 是 C++ STL 中的一个内置函数，它返回一个指向 match_results 对象中第一个匹配的常量迭代器。这个迭代器不能修改向量的内容。
     **语法:**
 
-```
+```cpp
 smatch_name.cbegin()
 ```
 
@@ -16,7 +16,7 @@ smatch_name.cbegin()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // match_result function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 *   **输出:**
 
-```
+```cpp
 Match size=3
 matches:
 geeksforgeeks
@@ -58,7 +58,7 @@ forgeeks
 *   **smatch::cend()** 是 C++ STL 中的一个内置函数，它返回一个常量迭代器，指向 match_results 对象中的结束匹配。这个迭代器不能修改向量的内容。
     **语法:**
 
-```
+```cpp
 smatch_name.cend()
 ```
 
@@ -69,7 +69,7 @@ smatch_name.cend()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // match_results cend() function
 #include <bits/stdc++.h>
@@ -100,7 +100,7 @@ int main()
 
 *   **输出:**
 
-```
+```cpp
 Match size=3
 matches:
 matchresults

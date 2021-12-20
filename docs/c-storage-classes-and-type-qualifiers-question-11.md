@@ -4,7 +4,7 @@
 
 考虑下面的 C 函数
 
-```
+```cpp
 int f(int n) 
 { 
    static int i = 1; 
@@ -27,7 +27,7 @@ f(1)返回的值是(GATE CS 2004)
 
 **说明:**既然我是静态的，第一行 f()只执行一次。
 
-```
+```cpp
 Execution of f(1)
     i = 1
     n = 2

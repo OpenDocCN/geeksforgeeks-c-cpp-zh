@@ -8,7 +8,7 @@
 
 让我们举个例子来看看。下面的宏采用可变长度参数，如“printf()”函数。此宏用于错误记录。宏打印文件名后跟着行号，最后打印信息/错误信息。第一个参数“prio”决定了消息的优先级，即它是信息消息还是错误，“stream”可能是“标准输出”或“标准错误”。它在 stdout 上显示 INFO 消息，在 stderr 流上显示 ERROR 消息。
 
-```
+```cpp
 #include <stdio.h>
 
 #define INFO    1
@@ -45,7 +45,7 @@ int main(void)
 
 编译并运行上面的程序，它产生下面的结果。
 
-```
+```cpp
   [narendra@/media/partition/GFG]$ ./variable_length 
   [ERR] : variable_length.c : 26 : Failed to open file 
   [INFO] : variable_length.c : 27 : Hello Geeks for Geeks 

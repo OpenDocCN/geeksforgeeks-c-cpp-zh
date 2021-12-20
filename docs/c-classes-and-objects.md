@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```cpp
 ClassName ObjectName;
 ```
 
@@ -30,7 +30,7 @@ ClassName ObjectName;
 公共数据成员也以相同的方式被访问，但是私有数据成员不允许被对象直接访问。访问数据成员仅取决于该数据成员的访问控制。
 这个访问控制是由 C++ 中的[访问修饰符给出的。有三个访问修饰符:**公共、私有和受保护**。](https://www.geeksforgeeks.org/access-modifiers-in-c/)
 
-```
+```cpp
 // C++ program to demonstrate
 // accessing of data members
 
@@ -67,7 +67,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Geekname is: Abhi
 ```
 
@@ -80,7 +80,7 @@ Geekname is: Abhi
 
 要在类定义之外定义成员函数，我们必须使用范围解析::运算符以及类名和函数名。
 
-```
+```cpp
 // C++ program to demonstrate function
 // declaration outside class
 
@@ -125,7 +125,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Geekname is: xyz
 Geek id is: 15
 
@@ -144,7 +144,7 @@ Geek id is: 15
 *   参数化构造函数
 *   [复制构造函数](https://www.geeksforgeeks.org/copy-constructor-in-cpp/)
 
-```
+```cpp
 // C++ program to demonstrate constructors
 
 #include <bits/stdc++.h>
@@ -183,7 +183,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Default Constructor called
 Geek id is: -1
 Parameterized Constructor called
@@ -194,7 +194,7 @@ Geek id is: 21
 一个**复制构造器**创建一个新对象，它是现有对象的精确副本。编译器为所有类提供默认的复制构造函数。
 语法:
 
-```
+```cpp
 class-name (class-name &){}
 
 ```
@@ -203,7 +203,7 @@ class-name (class-name &){}
 
 析构函数是另一个特殊的成员函数，当对象的作用域结束时，编译器会调用它。
 
-```
+```cpp
 // C++ program to explain destructors
 
 #include <bits/stdc++.h>
@@ -238,7 +238,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Destructor called for id: 0
 Destructor called for id: 1
 Destructor called for id: 2

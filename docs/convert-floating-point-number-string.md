@@ -4,7 +4,7 @@
 
 编写一个 C 函数 ftoa()，将给定的浮点数或双精度浮点数转换为字符串。不允许使用标准库函数进行直接转换。以下是 ftoa()的原型。这篇文章提供了将 C double 转换为 string 的见解。
 
-```
+```cpp
 ftoa(n, res, afterpoint)
 n          --> Input Number
 res[]      --> Array where output string to be stored
@@ -32,7 +32,7 @@ afterpoint --> Number of digits to be considered after the point.
 
 以下是上述方法的 C 实现。
 
-```
+```cpp
 // C program for implementation of ftoa()
 #include <math.h>
 #include <stdio.h>
@@ -110,7 +110,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 "233.0070"
 
 ```

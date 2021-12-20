@@ -10,7 +10,7 @@ pop_front()函数用于从前面弹出或移除列表中的元素。该值将从
 
 **语法:**
 
-```
+```cpp
 *listname*.pop_front()
 Parameters :
 No argument is passed as parameter.
@@ -22,7 +22,7 @@ of the given list named as *listname*
 
 示例:
 
-```
+```cpp
 Input :  list list{1, 2, 3, 4, 5};
          list.pop_front();
 Output : 2, 3, 4, 5
@@ -38,7 +38,7 @@ Output : 4, 3, 2, 1
 1.  不抛出-保证-如果抛出异常，容器中没有变化。
 2.  如果列表为空，则显示未定义的行为。
 
-```
+```cpp
 // CPP program to illustrate
 // pop_front() function
 #include <iostream>
@@ -59,20 +59,20 @@ int main()
 
 输出:
 
-```
+```cpp
 2, 3, 4, 5
 
 ```
 
 **应用:**使用 push_front()函数输入一个空列表，列表中有以下数字和顺序，打印列表的反面。
 
-```
+```cpp
 Input : 1, 2, 3, 4, 5, 6, 7, 8
 Output: 8, 7, 6, 5, 4, 3, 2, 1
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // application Of pop_front() function
 #include <iostream>
@@ -104,7 +104,7 @@ int main()
 
 输出:
 
-```
+```cpp
 8, 7, 6, 5, 4, 3, 2, 1
 
 ```
@@ -115,7 +115,7 @@ pop_back()函数用于从后面弹出或移除列表中的元素。该值从列�
 
 **语法:**
 
-```
+```cpp
 *listname*.pop_back()
 Parameters :
 No argument is passed as parameter.
@@ -127,7 +127,7 @@ of the given list named as *listname*
 
 示例:
 
-```
+```cpp
 Input :  list list{1, 2, 3, 4, 5};
          list.pop_back();
 Output : 1, 2, 3, 4
@@ -143,7 +143,7 @@ Output : 5, 4, 3, 2
 1.  不抛出-保证-如果抛出异常，容器中没有变化。
 2.  如果列表为空，则显示未定义的行为。
 
-```
+```cpp
 // CPP program to illustrate
 // pop_back() function
 #include <iostream>
@@ -164,20 +164,20 @@ int main()
 
 输出:
 
-```
+```cpp
 1, 2, 3, 4
 
 ```
 
 **应用:**使用 push_front()函数输入一个空列表，列表中有以下数字和顺序，打印列表的反面。
 
-```
+```cpp
 Input : 1, 20, 39, 43, 57, 64, 73, 82
 Output: 82, 73, 64, 57, 43, 39, 20, 1
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // application Of pop_back() function
 #include <iostream>
@@ -209,7 +209,7 @@ int main()
 
 输出:
 
-```
+```cpp
 82, 73, 64, 57, 43, 39, 20, 1
 
 ```

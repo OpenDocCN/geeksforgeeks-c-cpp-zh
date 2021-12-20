@@ -36,7 +36,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate line control
 #include <iostream>
 using namespace std;

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: 
 arr1[] = {1, 45, 54, 71, 76, 12}, 
 arr2[] = {1, 7, 5, 4, 6, 12}
@@ -23,14 +23,14 @@ Output: {1, 4, 12}
 
 **语法:**
 
-```
+```cpp
 set_intersection (InputIterator1 first1, InputIterator1 last1,
            InputIterator2 first2, InputIterator2 last2,
            OutputIterator result);
 
 ```
 
-```
+```cpp
 // C++ program to find common elements
 // between two Arrays using STL
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First Array: 1 12 45 54 71 76 
 Second Array: 1 4 5 6 7 12 
 

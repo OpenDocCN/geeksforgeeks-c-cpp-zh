@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     template <class Predicate> 
       unary_negate<Predicate> 
         not1 (const Predicate& pred)
@@ -26,7 +26,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // not1 function template
 
@@ -89,7 +89,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     removal of even elements: 1 3 5 7 9 
     removal of odd elements: 2 4 6 8 10
 
@@ -99,7 +99,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     template <class Predicate> 
       binary_negate<Predicate> 
         not2 (const Predicate& pred)
@@ -115,7 +115,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // not2 function template
 
@@ -139,7 +139,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     10 9 7 6 5 4 3 2
 
     ```

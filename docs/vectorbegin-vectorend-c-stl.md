@@ -9,7 +9,7 @@
 begin()函数用于返回指向向量容器第一个元素的迭代器。begin()函数**返回一个双向迭代器**到容器的第一个元素。
 **语法:**
 
-```
+```cpp
 ***vectorname***.begin()
 Parameters :
 No parameters are passed.
@@ -21,7 +21,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : myvector{1, 2, 3, 4, 5};
          myvector.begin();
 Output : *returns an iterator to the element 1*
@@ -38,7 +38,7 @@ Output : *returns an iterator to the element This*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -61,14 +61,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // STRING VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is Geeksforgeeks
 
 ```
@@ -105,7 +105,7 @@ This is Geeksforgeeks
 end()函数用于返回指向向量容器最后一个元素的迭代器。end()函数**返回一个双向迭代器**。
 **语法:**
 
-```
+```cpp
 ***vectorname***.end()
 Parameters :
 No parameters are passed.
@@ -117,7 +117,7 @@ iterator pointing to next to last element.
 
 示例:
 
-```
+```cpp
 Input  : myvector{1, 2, 3, 4, 5};
          myvector.end();
 Output : *returns an iterator after 5*
@@ -133,7 +133,7 @@ Output : *returns an iterator after**portal*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of end() function
@@ -156,14 +156,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // STRING VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of end() function
@@ -188,7 +188,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 computer science portal
 
 ```

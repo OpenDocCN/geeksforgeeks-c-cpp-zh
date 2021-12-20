@@ -4,7 +4,7 @@
 
 下面给出一小段来自开源项目的代码，
 
-```
+```cpp
 #ifndef __cplusplus
 
 typedef enum BoolenTag
@@ -32,13 +32,13 @@ int main()
 
 语句*而(false)* 仅用于测试目的。考虑以下操作，
 
-```
+```cpp
 ((void(*)())0)();
 ```
 
 可以通过如下方式实现:
 
-```
+```cpp
 0;                      /* literal zero */
 (0); ( ()0 );                /* 0 being casted to some type */
 ( (*) 0 );              /* 0 casted some pointer type */

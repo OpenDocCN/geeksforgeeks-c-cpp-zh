@@ -4,13 +4,13 @@
 
 给定一个数字 N，任务是找到给定数列中的第 N 项:
 
-```
+```cpp
 9, 23, 45, 75, 113, 159......
 ```
 
 **例:**
 
-```
+```cpp
 Input: 4
 Output: 113
 Explanation:
@@ -26,7 +26,7 @@ Output: 509
 **方法:**
 给定序列的第 n 项可以概括为:
 
-```
+```cpp
 Nth term of the series : ( 2 * N + 3 )*( 2 * N + 3 ) - 2 * N
 ```
 
@@ -35,7 +35,7 @@ Nth term of the series : ( 2 * N + 3 )*( 2 * N + 3 ) - 2 * N
 
 ## C++
 
-```
+```cpp
 // CPP program to find N-th term of the series:
 // 9, 23, 45, 75, 113...
 
@@ -65,7 +65,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find
 // N-th term of the series:
 // 9, 23, 45, 75, 113...
@@ -98,7 +98,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find
 # N-th term of the series:
 # 9, 23, 45, 75, 113...
@@ -122,7 +122,7 @@ print(nthTerm(n))
 
 ## C#
 
-```
+```cpp
 // C# program to find
 // N-th term of the series:
 // 9, 23, 45, 75, 113...
@@ -157,7 +157,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find
 // N-th term of the series:
@@ -185,7 +185,7 @@ echo nthTerm($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to find N-th term of the series:
@@ -211,7 +211,7 @@ function nthTerm( N)
 
 **Output:** 
 
-```
+```cpp
 113
 ```
 

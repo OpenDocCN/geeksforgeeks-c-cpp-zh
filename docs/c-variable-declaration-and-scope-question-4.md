@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-variable-declaration-and-scope-question-4/](https://www.geeksforgeeks.org/c-variable-declaration-and-scope-question-4/)
 
-```
+```cpp
 #include <stdio.h>
 extern int var = 0;
 int main()

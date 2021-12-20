@@ -27,7 +27,7 @@
 
 **解决方案:**在以下方法中，使用的方法是制作两个二维数组，每个二维数组有 3 行 4 列，具有以下值。
 
-```
+```cpp
 1 2 3 4
 5 6 7 8
 9 10 11 12
@@ -45,7 +45,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically allocate
 // the memory for 3D array in C++
 // using new operator
@@ -98,7 +98,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 
 5 6 7 8 
 9 10 11 12 
@@ -116,7 +116,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically allocate
 // the memory for 3D array in C++
 // using new operator
@@ -188,7 +188,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 
 5 6 7 8 
 9 10 11 12 

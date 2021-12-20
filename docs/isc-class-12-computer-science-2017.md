@@ -19,7 +19,7 @@
 **1(a)陈述以下命题所代表的定律，借助真值表证明:P V P = P [1]**
 定律:[幂等定律](https://www.geeksforgeeks.org/mathematics-properties-boolean-algebra/)。它指出 P = P。
 
-```
+```cpp
 P   P   P V P
 0   0     0
 1   1     1
@@ -36,7 +36,7 @@ P   P   P V P
 
 **(d)绘制 2 输入 [XNOR 门的逻辑图和真值表。](https://www.geeksforgeeks.org/xnor-two-numbers/)【1】**
 
-```
+```cpp
 A    B      X
 0    0      1
 0    1      0
@@ -54,7 +54,7 @@ b .逆:(Q = > P) OR Q' + P '
 
 **(b)将以下中缀表达式转换为后缀形式:P * Q / R + (S + T) [2]**
 
-```
+```cpp
 (b) Infix to postfix : 
     P*Q/R+(S+T)
   = P*Q/R+ ST+
@@ -71,7 +71,7 @@ P[10][7]= 2256
 
 **(d) (i)以下代码段的最坏情况复杂度是多少:[2]**
 
-```
+```cpp
 for (int x = 1; x <= a; x++) {
     statements;
 }
@@ -94,7 +94,7 @@ for (int y = 1; y <= b; y++) {
 
 **3。下面的函数 magicfun()是某个类的一部分。当 n=7 和 n=10 时，magicfun()函数将返回什么？显示试运行/工作状态:[5]**
 
-```
+```cpp
 int magicfun(int n)
 {
     if (n = = 0)
@@ -106,7 +106,7 @@ int magicfun(int n)
 
 **(i)当 n = 7 时**
 
-```
+```cpp
 OUTPUT : magicfun(7)
             magicfun(3) * 10 + 1
                magicfun(1) *10 + 1
@@ -115,7 +115,7 @@ OUTPUT : magicfun(7)
 
 **(ii)当 n = 10 时**
 
-```
+```cpp
 OUTPUT : magicfun(10)
            magicfun(5) * 10 + 0
                magicfun(2) *10 + 1
@@ -163,7 +163,7 @@ D 具有出色的一般意识**
 **输出:X【1 表示是，0 表示不是所有情况】
 绘制上面给出的输入和输出的真值表，写出 X 的 POS 表达式(A，B，C，D)。【5】**
 
-```
+```cpp
 A   B    C   D    X (OUTPUT)
 0   0    0   0    0
 0   0    0   1    0
@@ -190,7 +190,7 @@ POS 表达式:X (A，B，C，D) = R (0，1，2，4，6，8，9，10)
 半加法器的应用是执行两位的部分相加。
 半加法器真值表:**
 
-```
+```cpp
 A   B    Sum  CARRY
 0   0    0      0
 0   1    1      0
@@ -242,7 +242,7 @@ int reverse(int y) :使用递归技术反转参数化参数“y”并将其存�
 void check():通过调用函数 reverse()检查该数字是否为回文，并使用适当的消息显示结果
 指定给出构造函数详细信息的类 Palin()，void accept()，int reverse()和 void check()。 定义 main()函数来创建对象，并相应地调用函数来启用任务。**
 
-```
+```cpp
 import java.util.*;
 public class Palin {
     int num, revnum;
@@ -295,7 +295,7 @@ void addtime(加法器 X，加法器 Y):将两个参数化对象 X 和 Y 的时�
 void disptime():用适当的消息显示数组元素(即小时=和分钟= )
 指定给出构造函数详细信息的类 Adder()、void readtime()、void addtime(加法器)和 void disptime()。 定义 main()函数来创建对象，并相应地调用函数来启用任务。**
 
-```
+```cpp
 import java.util.*;
 public class Adder {
     int a[] = new int[2];
@@ -349,7 +349,7 @@ void sortword():按字母顺序对原始单词的字符进行排序，并将其�
 void display():显示原始单词、交换的单词和排序的单词
 指定类别 SwapSort，给出构造函数的详细信息()、void readword()、void swapchar()、void sort word()和 void 定义 main()函数来创建对象，并相应地调用函数来启用任务。**
 
-```
+```cpp
 import java.util.*;
 public class SwapSort {
     String wrd, swapwrd, sortwrd;
@@ -424,7 +424,7 @@ void show():显示超级类的数据成员和总金额
 假设超级类产品已经定义。 使用继承的概念，指定 Sales 类，给出构造函数(…)、void compute()和 void show()的细节。
 超级类、主函数、算法不用写。**
 
-```
+```cpp
 public class Sales extends Product {
     int day;
     double tax, totamt;
@@ -464,7 +464,7 @@ int delele():如果存在，从前面返回元素，否则显示消息“Underfl
 void display():显示数组元素
 指定类 Queue，仅给出函数 void addele(int)和 int delele()的详细信息。 假设已经定义了其他函数。主要功能和算法不需要写。**
 
-```
+```cpp
 public class Queue {
     int Quen = new int[100];
     int max, f, r;
@@ -495,7 +495,7 @@ int count odd(Node startPtr)[2]**
 步骤 6。结束
 **方法**:
 
-```
+```cpp
 int CountOdd(Node startPtr)
 {
     int c = 0;

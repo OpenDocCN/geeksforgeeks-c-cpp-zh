@@ -32,7 +32,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to implement
 // the above approach
 import java.io.*;
@@ -85,7 +85,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to implement
 # the above approach
 
@@ -97,7 +97,7 @@ print("Bitwise complement of {n} :",
 
 ## C#
 
-```
+```cpp
 // C# program to implement 
 // the above approach
 using System;
@@ -116,7 +116,7 @@ static public void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to implement 

@@ -13,7 +13,7 @@ removeDuplicates()之外的函数只是创建一个链表并测试 remove duplic
 
 ## C
 
-```
+```cpp
 // C Program to remove duplicates 
 // from a sorted linked list 
 #include<stdio.h>
@@ -128,7 +128,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list before duplicate removal  11 11 11 13 13 20
 Linked list after duplicate removal  11 13 20
 ```
@@ -139,7 +139,7 @@ Linked list after duplicate removal  11 13 20
 
 ## C
 
-```
+```cpp
 // C recursive Program to remove duplicates
 // from a sorted linked list
 #include<stdio.h>
@@ -250,7 +250,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list before duplicate removal  11 11 11 13 13 20
 Linked list after duplicate removal  11 13 20
 ```

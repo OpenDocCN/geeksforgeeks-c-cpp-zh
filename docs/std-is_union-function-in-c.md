@@ -6,7 +6,7 @@ C++ STL 的 **std::is_union 模板**用于检查给定类型是否为 union。�
 
 **语法**:
 
-```
+```cpp
 template <class T> struct is_union;
 ```
 
@@ -21,7 +21,7 @@ template <class T> struct is_union;
 
 **程序 1:** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_union template
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_union:
 GFG1: false
 GFG2: true
@@ -60,7 +60,7 @@ GFG2: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_union template
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_union:
 int: false
 GFG1: true

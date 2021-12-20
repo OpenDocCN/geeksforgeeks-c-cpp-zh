@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 cosh(z);
 
 ```
@@ -23,14 +23,14 @@ cosh(z);
 
 **输出:**
 
-```
+```cpp
 The cosh of (0, 1) is (0.540302, 0)
 
 ```
 
 **例 2:-**
 
-```
+```cpp
 
 // c++ program to demonstrate
 // example of cosh() function.
@@ -53,7 +53,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 The cosh of (1, 0) is (1.54308, 0)
 
 ```

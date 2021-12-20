@@ -10,7 +10,7 @@
 
 下面是必选的 C 程序。
 
-```
+```cpp
 // C program to show contents of a file with breaks
 #include <stdio.h>
 

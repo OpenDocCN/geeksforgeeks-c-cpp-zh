@@ -17,7 +17,7 @@ C++是一种跨平台语言，可用于创建高性能应用程序。它是由�
 
 ## C++
 
-```
+```cpp
 // C++ Hello World Program
 #include <iostream>
 using namespace std;
@@ -30,7 +30,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello World!
 ```
 
@@ -61,7 +61,7 @@ Hello World!
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // standard output
 #include <iostream>
@@ -85,7 +85,7 @@ T6T8**输出**T1
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // standard input
 #include <iostream>
@@ -168,7 +168,7 @@ T6T8**输出**T1
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // data types
 #include <iostream>
@@ -210,7 +210,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Size of bool is: 1 bytes
 Size of char is: 1 bytes
 Size of int is: 4 bytes
@@ -231,7 +231,7 @@ Size of wchar_t is: 4 bytes
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // derived data types
 #include <iostream>
@@ -300,7 +300,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Array elements are : 2 4 6 8 10 
 Value of a is 10
 Value of p is 0x7ffd0ec3c084
@@ -320,7 +320,7 @@ ref = 40
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // user-defined data types
 #include <iostream>
@@ -348,7 +348,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 String is: GeeksForGeeks is the best Technical Website
 ```
 
@@ -356,7 +356,7 @@ String is: GeeksForGeeks is the best Technical Website
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // struct 
 #include <iostream>
@@ -381,7 +381,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 30, 40
 ```
 
@@ -389,7 +389,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // union
 #include <iostream>
@@ -417,7 +417,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 After changing a = 5:
 a = 5, b = 5
 After changing b = 15:
@@ -428,7 +428,7 @@ a = 15, b = 15
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // enum
 #include <iostream>
@@ -450,7 +450,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 3
 ```
 
@@ -483,7 +483,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // arithmetic operators
 #include <iostream>
@@ -511,7 +511,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Sum of a and b is 15
 Difference of b and a is 5
 Multiplication of a and b is 50
@@ -528,7 +528,7 @@ Modulo of b and a is 0
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // post-incrementer and
 // post-decrementer
@@ -557,7 +557,7 @@ T6T8**输出**T1
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // pre-incrementer and 
 // pre-decrementer
@@ -605,7 +605,7 @@ T6T8**输出**T1
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // relational operators
 #include <iostream>
@@ -657,7 +657,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 a != b is true
 a < b is true
 a <= b is true
@@ -683,7 +683,7 @@ a <= b is true
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // the logical operators
 #include <iostream>
@@ -718,7 +718,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 a || b is true
 !a is true
 ```
@@ -754,7 +754,7 @@ a || b is true
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // bitwise operators
 #include <iostream>
@@ -782,7 +782,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 4
 7
 3
@@ -808,7 +808,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // assignment operator
 #include <iostream>
@@ -853,7 +853,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 5
 7
 5
@@ -878,7 +878,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // miscellaneous operator
 #include <iostream>
@@ -916,7 +916,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 4
 Minimum value from x and y is 5
 4
@@ -950,7 +950,7 @@ if 块用于指定要执行的代码。如果其中指定的条件为真，则�
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // if-else
 #include <iostream>
@@ -977,7 +977,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Not eligible for voting.
 ```
 
@@ -987,7 +987,7 @@ Not eligible for voting.
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // else if
 #include <iostream>
@@ -1016,7 +1016,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Y is greater than X
 ```
 
@@ -1026,7 +1026,7 @@ Y is greater than X
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // nested if
 #include <iostream>
@@ -1059,7 +1059,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Y is greater than X
 ```
 
@@ -1069,7 +1069,7 @@ Switch case 语句可以替代将一个变量与多个值进行比较的 long if
 
 **语法:**
 
-```
+```cpp
 switch (n)
 {
   case 1:     // code to be executed if n == 1;
@@ -1090,7 +1090,7 @@ switch (n)
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // the switch statement
 #include <iostream>
@@ -1136,7 +1136,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Enter 2 numbers: Enter operand: Operator not found!
 ```
 
@@ -1148,7 +1148,7 @@ Enter 2 numbers: Enter operand: Operator not found!
 
 for 循环的语法是
 
-```
+```cpp
 for (initialization; condition; update)
 {
    // body of-loop
@@ -1159,7 +1159,7 @@ for (initialization; condition; update)
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // for loop
 #include <iostream>
@@ -1178,7 +1178,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -1190,7 +1190,7 @@ for 循环由值 1 初始化，测试条件为 i<=5，即循环一直执行到 I
 
 while 循环的语法是
 
-```
+```cpp
 while (condition) 
 {
  // body of the loop
@@ -1201,7 +1201,7 @@ while (condition)
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // while loop
 #include <iostream>
@@ -1230,7 +1230,7 @@ while 循环由值 1 初始化，测试条件为 i<=5，即循环一直执行到
 
 while 循环的语法是
 
-```
+```cpp
 do {
 // body of loop;
 }
@@ -1241,7 +1241,7 @@ while (condition);
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // do-while loop
 #include <iostream>
@@ -1277,7 +1277,7 @@ continue 语句用于跳到该循环的下一次迭代。这意味着它会停�
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // the continue statement
 #include <iostream>
@@ -1312,7 +1312,7 @@ break 语句用于终止当前循环。一旦在循环中遇到 break 语句，�
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // the break statement
 #include <iostream>
@@ -1335,7 +1335,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1
 2
 3

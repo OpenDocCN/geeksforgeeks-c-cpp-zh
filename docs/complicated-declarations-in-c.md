@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 void (*bsd_signal(int, void (*)(int)))(int);
 ```
 
@@ -20,13 +20,13 @@ void (*bsd_signal(int, void (*)(int)))(int);
 
 ## C
 
-```
+```cpp
 1)  int (*fp) ();
 ```
 
 让我们把上面的表达式转换成后缀格式。对于上面的例子，没有最里面的括号，这就是为什么，我们将打印声明名称即“fp”。下一步是，转到表达式的右侧，但是“fp”的右侧没有任何内容需要解析，这就是为什么要转到左侧。在左侧我们找到“*”，现在打印“*”并从括号中出来。我们将得到如下后缀表达式。
 
-```
+```cpp
   fp  *  ()  int
 ```
 
@@ -34,7 +34,7 @@ void (*bsd_signal(int, void (*)(int)))(int);
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -52,7 +52,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 hello
 ```
 
@@ -60,7 +60,7 @@ hello
 
 ## C
 
-```
+```cpp
 2) int (*daytab)[13]
 ```
 
@@ -69,7 +69,7 @@ hello
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -85,13 +85,13 @@ int main()
 
 **Output**
 
-```
+```cpp
 arr[2] = 3
 ```
 
 ## C
 
-```
+```cpp
 3) void (*f[10]) (int, int)
 ```
 
@@ -101,7 +101,7 @@ arr[2] = 3
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -132,7 +132,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 func1 = 1, 2
 func2 = 3, 4
 func3 = 5, 6
@@ -140,7 +140,7 @@ func3 = 5, 6
 
 ## C
 
-```
+```cpp
 4) char (*(*x())[]) ()
 ```
 
@@ -149,7 +149,7 @@ func3 = 5, 6
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -171,7 +171,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 a
 b
 c
@@ -179,7 +179,7 @@ c
 
 ## C
 
-```
+```cpp
 5) char (*(*x[3])())[5]
 ```
 
@@ -188,7 +188,7 @@ c
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -222,7 +222,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 func1 = [a, b, c, d]
 func2 = [q, w, e, r]
 func3 = [x, y, z, w]
@@ -230,7 +230,7 @@ func3 = [x, y, z, w]
 
 ## C
 
-```
+```cpp
 6) int *(*(*arr[5])()) ()
 ```
 
@@ -239,7 +239,7 @@ func3 = [x, y, z, w]
 
 ## C
 
-```
+```cpp
 /* Example */
 
 #include <stdio.h>
@@ -263,14 +263,14 @@ int main()
 
 **Output**
 
-```
+```cpp
 1
 2
 ```
 
 ## C
 
-```
+```cpp
 7) void (*bsd_signal(int sig, void (*func)(int)))(int);
 ```
 
@@ -279,7 +279,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 void on_sig10_exit(int u) { printf("sig10 exit\n"); }
@@ -319,7 +319,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 sig10 exit
 sig20 exit
 default exit

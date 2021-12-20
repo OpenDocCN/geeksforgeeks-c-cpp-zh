@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.load_factor()
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::load_factor() function
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 5
 The bucket_count is: 7
 The load_factor is: 0.714286
@@ -94,7 +94,7 @@ The load_factor is: 0.470588
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::load_factor() function
 #include <iostream>
@@ -149,7 +149,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 5
 The bucket_count is: 7
 The load_factor is: 0.714286

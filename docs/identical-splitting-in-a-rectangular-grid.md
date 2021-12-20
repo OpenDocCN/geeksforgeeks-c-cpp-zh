@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <iostream>
 using namespace std;
@@ -53,7 +53,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program of the above approach
 import java.util.*;
 
@@ -85,7 +85,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program of the above approach
 
 # Function to find the minimum cuts
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program of the above approach
 using System;
 
@@ -142,7 +142,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program of the above approach
@@ -169,7 +169,7 @@ minimumCuts(N, M);
 
 **Output:** 
 
-```
+```cpp
 15
 ```
 

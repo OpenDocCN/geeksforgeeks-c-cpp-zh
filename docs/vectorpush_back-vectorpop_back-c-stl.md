@@ -10,7 +10,7 @@ push_back()函数用于将元素从后面推入向量。新值插入到向量的
 
 **语法:**
 
-```
+```cpp
 ***vectorname.push_back(value)***
 Parameters :
 The value to be added in the back is 
@@ -22,7 +22,7 @@ to the back of the vector named as *vectorname*
 
 示例:
 
-```
+```cpp
 Input : myvector = {1, 2, 3, 4, 5};
         myvector.push_back(6);
 Output :1, 2, 3, 4, 5, 6
@@ -38,7 +38,7 @@ Output :5, 4, 3, 2, 1, 0
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // push_back() function
 #include <iostream>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 ```
 
@@ -69,7 +69,7 @@ pop_back()函数用于从后面弹出或移除矢量中的元素。该值从向�
 
 **语法:**
 
-```
+```cpp
 ***vectorname.pop_back()***
 Parameters :
 No parameters are passed
@@ -80,7 +80,7 @@ of the given vector named as *vectorname*
 
 示例:
 
-```
+```cpp
 Input : myvector = {1, 2, 3, 4, 5};
         myvector.pop_back();
 Output :1, 2, 3, 4
@@ -96,7 +96,7 @@ Output :5, 4, 3, 2
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // pop_back() function
 #include <iostream>
@@ -117,7 +117,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4
 ```
 
@@ -128,7 +128,7 @@ int main()
 **应用** push_back()和 pop_back()
 给定一个空向量，使用 push_back 函数向其添加整数，然后计算其大小。
 
-```
+```cpp
 Input  : 1, 2, 3, 4, 5, 6
 Output : 6
 ```
@@ -141,7 +141,7 @@ Output : 6
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of push_back and pop_back function
 #include <iostream>
@@ -169,6 +169,6 @@ int main()
 
 输出:
 
-```
+```cpp
 6
 ```

@@ -23,7 +23,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <conio.h>

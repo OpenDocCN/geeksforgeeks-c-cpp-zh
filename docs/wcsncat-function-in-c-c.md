@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t* wcsncat (wchar_t* destination, const wchar_t* source, size_t num)
 ```
 
@@ -22,7 +22,7 @@ wchar_t* wcsncat (wchar_t* destination, const wchar_t* source, size_t num)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // wcsncat() function
 #include <bits/stdc++.h>
@@ -52,14 +52,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geekforgeeks is the best
 
 ```
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcsncat() function
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 only some of the  letters will be copi
 
 ```

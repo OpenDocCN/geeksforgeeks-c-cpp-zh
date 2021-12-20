@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set_name.emplace_hint(iterator position, value) 
 
 ```
@@ -20,7 +20,7 @@ set_name.emplace_hint(iterator position, value)
 
 下面的程序说明了上面的功能。
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::emplace_hint() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0 1 2 3
 
 ```

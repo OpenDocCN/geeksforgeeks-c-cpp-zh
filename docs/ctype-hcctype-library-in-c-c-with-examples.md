@@ -44,7 +44,7 @@
 
 *   **例 1:** 以下程序识别字母、数字的个数:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Header file containing character functions
@@ -80,7 +80,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     The number of alphabets are 24
     The number of digits are 4
 
@@ -88,7 +88,7 @@
 
 *   **示例 2:** 以下程序识别大写字母和小写字母的数量，并将大写字母转换为小写:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Header file containing character functions
@@ -130,7 +130,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     No. of uppercase alphabets are 5
     No. of lowercase alphabets are 19
     hI, wELCOME TO gEEKSfORgEEKS
@@ -139,7 +139,7 @@
 
 *   **示例 3:** 以下程序打印新行中的每个单词:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Header file containing character functions
@@ -169,7 +169,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Hello
     Everyone.
     Welcome

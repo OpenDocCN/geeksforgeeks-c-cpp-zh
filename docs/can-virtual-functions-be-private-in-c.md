@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 class base
@@ -94,7 +94,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 printing with base class pointer
 base class constructor
 derived class constructor

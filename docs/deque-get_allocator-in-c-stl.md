@@ -5,7 +5,7 @@
 **[【德格】](https://www.geeksforgeeks.org/deque-cpp-stl/):get _ 分配器()**是 C++ STL 中的一个内置函数，用来获取容器德格的分配器。
 **语法:**
 
-```
+```cpp
 Allocator_type get_allocator()
 
 ```
@@ -16,7 +16,7 @@ Allocator_type get_allocator()
 下面的程序说明了**deque::get _ 分配器()**函数的工作原理。
 **例-1:**
 
-```
+```cpp
 // CPP program to illustrate
 // deque get_allocator()
 #include <bits/stdc++.h>
@@ -43,13 +43,13 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is allocator Pair : true 
 ```
 
 **示例-2:**
 
-```
+```cpp
 // CPP program to illustrate
 // deque get_allocator()
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 0 1 2
 
 ```

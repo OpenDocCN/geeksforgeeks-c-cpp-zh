@@ -19,7 +19,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <cerrno>
 #include <clocale>
 #include <cmath>
@@ -45,7 +45,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Value of errno is : 33
  log(-1) is not valid : Numerical argument out of domain
 ```

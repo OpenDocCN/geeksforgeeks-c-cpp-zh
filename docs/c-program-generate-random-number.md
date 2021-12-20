@@ -6,7 +6,7 @@
 
 先决条件:[c++中的随机头|集 1(生成器)](https://www.geeksforgeeks.org/random-header-c-set-1generators/)
 
-```
+```cpp
 // C++ program to generate random number
 #include <bits/stdc++.h>
 using namespace std;

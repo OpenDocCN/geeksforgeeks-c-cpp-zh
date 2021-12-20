@@ -4,13 +4,13 @@
 
 在 C 语言中，我们可以使用函数 [freopen()](http://www.cplusplus.com/reference/cstdio/freopen/) 将现有的文件指针重定向到另一个流。freopen()的原型如下所示
 
-```
+```cpp
 FILE * freopen ( const char * filename, const char * mode, FILE * stream );
 ```
 
 例如，要将标准输出重定向为文本文件，我们可以写
 
-```
+```cpp
 freopen ("text_file.txt", "w", stdout);
 ```
 
@@ -32,7 +32,7 @@ C++允许我们为任何流设置流缓冲区。因此，重定向流的任务�
 
 我们可以使用函数 [ios::rdbuf()](http://www.cplusplus.com/reference/ios/ios/rdbuf/) 来执行两个操作。
 
-```
+```cpp
 1) stream_object.rdbuf(): Returns pointer to the stream buffer of stream_object
 2) stream_object.rdbuf(streambuf * p): Sets the stream buffer to the object pointed by p
 ```
@@ -41,7 +41,7 @@ C++允许我们为任何流设置流缓冲区。因此，重定向流的任务�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Cpp program to redirect cout to a file
 #include <fstream>
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This line is written to screen
 Contents of file cout.txt:
 This line written to file
@@ -87,7 +87,7 @@ This line written to file
 **注:**
 以上步骤可浓缩为一步
 
-```
+```cpp
 auto cout_buf = cout.rdbuf(file.rdbuf())
 
 // sets couts streambuffer and returns the old 

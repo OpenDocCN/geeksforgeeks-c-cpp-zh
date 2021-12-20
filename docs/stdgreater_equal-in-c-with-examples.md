@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct greater_equal {
 
   // Declaration of the
@@ -48,7 +48,7 @@ template <class T> struct greater_equal {
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate greater_equal
 
 #include <algorithm>
@@ -84,14 +84,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 9 8 7 6 5 4 3 2 1 0
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate greater_equal
 
 #include <algorithm>
@@ -119,7 +119,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 7
 
 ```

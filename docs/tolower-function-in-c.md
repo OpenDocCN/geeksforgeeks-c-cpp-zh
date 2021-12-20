@@ -7,7 +7,7 @@
 **tolower()** 函数在 **ctype.h** 头文件中定义。如果传递的字符是大写字母，那么 tolower()函数会将大写字母转换为小写字母。
 **语法:**
 
-```
+```cpp
 int tolower(int ch);
 ```
 
@@ -18,7 +18,7 @@ int tolower(int ch);
 
 ## c
 
-```
+```cpp
 // C program to demonstrate
 // example of tolower() function.
 
@@ -40,7 +40,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 G in lowercase is represented as = g
 ```
 
@@ -48,7 +48,7 @@ G in lowercase is represented as = g
 
 ## c
 
-```
+```cpp
 // C program to demonstrate
 // example of tolower() function.
 
@@ -81,7 +81,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 geeksforgeeks
 ```
 
@@ -101,7 +101,7 @@ tolower()将按原样返回字符。
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // example of tolower() function.
 #include <ctype.h>
@@ -126,7 +126,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 geeks@123
 
 ```

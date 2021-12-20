@@ -10,7 +10,7 @@ delete 运算符应该用于释放单个分配的内存空间，而 delete []运
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program with memory leak
 #include <bits/stdc++.h>
 using namespace std;
@@ -50,7 +50,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to
 // illustrate how to avoid
 // memory leak

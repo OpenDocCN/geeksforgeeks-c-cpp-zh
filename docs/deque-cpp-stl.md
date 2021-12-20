@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <deque>
 
@@ -54,7 +54,7 @@ int main()
 
 上述程序的输出为:
 
-```
+```cpp
 The deque gquiz is :     15    20    10    30
 
 gquiz.size() : 4

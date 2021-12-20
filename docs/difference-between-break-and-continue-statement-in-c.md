@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // break statement
 #include <stdio.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i = 0, j = 0 1 
 i = 1, j = 0 1 
 i = 2, j = 0 1 
@@ -62,7 +62,7 @@ i = 4, j = 0 1
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // continue statement
 #include <stdio.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i = 0, j = 0 1 3 4 
 i = 1, j = 0 1 3 4 
 i = 2, j = 0 1 3 4 

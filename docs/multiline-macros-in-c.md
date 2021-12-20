@@ -6,7 +6,7 @@
 
 在本文中，我们将讨论如何编写多行宏。我们可以像函数一样编写多行宏，但是每个语句都以“\”结尾。让我们举个例子来看看。下面是简单宏，接受用户输入数字，打印输入数字是偶数还是奇数。
 
-```
+```cpp
 #include <stdio.h>
 
 #define MACRO(num, str) {\
@@ -34,7 +34,7 @@ int main(void)
 
 乍一看，代码看起来还可以，但是当我们试图编译这段代码时，它会给出编译错误。
 
-```
+```cpp
 [narendra@/media/partition/GFG]$ make macro
 cc     macro.c   -o macro
 macro.c: In function ‘main’:
@@ -46,7 +46,7 @@ make: *** [macro] Error 1
 
 让我们看看我们在编写宏时犯了什么错误。我们用花括号把宏括起来。根据 C 语言规则，每个 C 语句都应该以分号结束。这就是为什么我们用分号来结束 MACRO。这是一个错误。让我们看看编译是如何扩展这个宏的。
 
-```
+```cpp
 if (num & 1)
 {
     -------------------------
@@ -68,7 +68,7 @@ else
 
 为了克服这个限制，我们可以将宏放在“do-while(0)”语句中。我们修改后的宏将如下所示。
 
-```
+```cpp
 #include <stdio.h>
 
 #define MACRO(num, str) do {\
@@ -96,7 +96,7 @@ int main(void)
 
 编译并运行上面的代码，现在这段代码可以正常工作了。
 
-```
+```cpp
 [narendra@/media/partition/GFG]$ make macro
 cc     macro.c   -o macro
 [narendra@/media/partition/GFG]$ ./macro 
@@ -113,7 +113,7 @@ Enter a number: 10
 
 类似地，我们可以用括号将多行宏括起来，而不是“do–while(0)”循环。通过使用这个技巧，我们可以达到同样的效果。让我们看看例子。
 
-```
+```cpp
 #include <stdio.h>
 
 #define MACRO(num, str) ({\
@@ -139,7 +139,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@/media/partition/GFG]$ make macro
 cc     macro.c   -o macro
 [narendra@/media/partition/GFG]$ ./macro 

@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -59,6 +59,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value of data is: 10
 ```

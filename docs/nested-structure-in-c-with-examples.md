@@ -58,7 +58,7 @@ C 中的**嵌套结构**是结构内的结构。一个结构可以在另一个�
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -134,7 +134,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -181,7 +181,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -260,7 +260,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the nested strcture
 #include <stdio.h>
@@ -342,7 +342,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -413,7 +413,7 @@ void show(struct Organisation org )
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -501,7 +501,7 @@ void show(char organisation_name[],
 
 ## C
 
-```
+```cpp
 // C prorgam to implement
 // the above approach
 #include <stdio.h>
@@ -554,7 +554,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C prorgam to implement
 // the above approach
 #include <stdio.h>

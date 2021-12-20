@@ -31,7 +31,7 @@
 
 ## C
 
-```
+```cpp
 // C program to execute for loop 100 times
 #include <stdio.h>
 

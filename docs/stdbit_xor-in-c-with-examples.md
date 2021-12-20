@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct bit_xor;
 
 ```
@@ -30,7 +30,7 @@ template <class T> struct bit_xor;
 下面是 C++中 **bit_xor** 的图解:
 **问题 1:**
 
-```
+```cpp
 // C++ program to illustrate bit_xor in C++
 
 #include <algorithm>
@@ -64,14 +64,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 A xor B =  7 5 11 0 0 6
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate bit_xor in C++
 
 #include <algorithm>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 A xor B =  1 0 245 0
 
 ```

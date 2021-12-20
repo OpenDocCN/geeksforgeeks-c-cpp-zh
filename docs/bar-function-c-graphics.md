@@ -5,7 +5,7 @@
 头文件 graphics.h 包含**条()**函数，用于绘制二维矩形填充条。
 **语法:**
 
-```
+```cpp
 void bar(int left, int top, int right, int bottom);
 
 where,
@@ -18,7 +18,7 @@ bottom specifies the Y-coordinate of right bottom corner.
 
 **示例:**
 
-```
+```cpp
 Input : left = 150, top = 150, 
         right = 190, bottom = 350
 
@@ -43,7 +43,7 @@ Output :
 
 下面是 bar()函数的实现。
 
-```
+```cpp
 // C implementation of bar() function
 #include <graphics.h>
 

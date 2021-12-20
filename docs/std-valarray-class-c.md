@@ -13,7 +13,7 @@ C++98 引入了一个名为 valarray 的特殊容器，可以有效地保存和�
 
 **2。sum()** :-这个函数**一次返回 valarrays 所有元素的总和**。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // apply() and sum()
 #include<iostream>
@@ -48,7 +48,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new valarray with manipulated values is : 15 7 25 6 35 
 The sum of old valarray is : 63
 The sum of new valarray is : 88
@@ -59,7 +59,7 @@ The sum of new valarray is : 88
 
 **4。max()** :-该函数返回 valarray 中最大的**元素。**
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // max() and min()
 #include<iostream>
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The largest element of valarray is : 30
 The smallest element of valarray is : 1 
 ```
@@ -94,7 +94,7 @@ The smallest element of valarray is : 1
 
 **6。cs shift()**:-该函数通过参数中提到的号**循环移位(旋转)**元素**后返回新的 valarray。如果**号为正，则应用左循环** **换档**，如果**号为负，则应用右循环换档**。**
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // shift() and cshift()
 #include<iostream>
@@ -133,7 +133,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new valarray after shifting is : 20 1 30 0 0 
 The new valarray after circular shifting is : 20 1 30 10 2 
 
@@ -141,7 +141,7 @@ The new valarray after circular shifting is : 20 1 30 10 2
 
 **7。swap()** :-此功能**将一个 valarray 与另一个 valarray 互换**。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // swap()
 #include<iostream>
@@ -190,7 +190,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of 1st valarray before swapping are : 1 2 3 4 
 The contents of 2nd valarray before swapping are : 2 4 6 8 
 The contents of 1st valarray after swapping are : 2 4 6 8 

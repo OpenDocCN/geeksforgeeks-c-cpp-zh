@@ -6,7 +6,7 @@
 
 例如，考虑一个简单的问题，给定一个矩阵和访问的职位，打印哪些职位没有被访问。
 
-```
+```cpp
 // C++ program to demonstrate use of map
 // for pairs
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ int main()
 
 输出:
 
-```
+```cpp
 (0, 1)
 (0, 2)
 (1, 2)

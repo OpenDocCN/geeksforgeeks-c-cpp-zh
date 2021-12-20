@@ -6,7 +6,7 @@
 
 1)仅在返回类型上不同的函数声明。例如，以下程序编译失败。
 
-```
+```cpp
 #include<iostream>
 int foo() { 
   return 10; 
@@ -26,7 +26,7 @@ int main()
 
 2)具有相同名称和名称参数类型列表的成员函数声明，如果其中任何一个是静态成员函数声明，则不能重载。例如，以下程序编译失败。
 
-```
+```cpp
 #include<iostream>
 class Test {
    static void fun(int i) {}
@@ -43,14 +43,14 @@ int main()
 
 3)仅指针*与数组[]不同的参数声明是等效的。也就是说，数组声明被调整为指针声明。在参数类型中，只有第二个和后续的数组维度是重要的。例如，以下两个函数声明是等价的。
 
-```
+```cpp
 int fun(int *ptr);
 int fun(int ptr[]); // redeclaration of fun(int *ptr)
 ```
 
 4)参数声明的不同之处仅在于一个是函数类型，另一个是指向相同函数类型的指针，它们是等价的。
 
-```
+```cpp
 void h(int ());
 void h(int (*)()); // redeclaration of h(int())
 ```
@@ -59,7 +59,7 @@ void h(int (*)()); // redeclaration of h(int())
 
 示例:
 
-```
+```cpp
 #include<iostream>
 #include<stdio.h>
 
@@ -84,7 +84,7 @@ int main() {     
 
 6)只有默认参数不同的两个参数声明是等价的。例如，以下程序编译失败，错误为*“重新定义‘int f(int，int)’”*
 
-```
+```cpp
 #include<iostream>
 #include<stdio.h>
 

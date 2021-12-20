@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswspace(ch)
 ```
 
@@ -21,7 +21,7 @@ int iswspace(ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswspace() function
 #include <cwctype>
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geeks
 For
 Geeks
@@ -61,7 +61,7 @@ Geeks
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswspace() function
 #include <cwctype>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello
 Ishwar
 Gupta

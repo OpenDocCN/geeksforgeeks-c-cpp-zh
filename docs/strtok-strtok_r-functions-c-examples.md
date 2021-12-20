@@ -5,7 +5,7 @@
 c 提供了两个函数 strtok()和 strtok_r()，用于通过某种分隔符拆分字符串。拆分字符串是一项非常常见的任务。例如，我们有一个逗号分隔的文件项目列表，我们想要一个数组中的单个项目。
 **strtok()**
 
-```
+```cpp
 // Splits str[] according to given delimiters.
 // and returns next token. It needs to be called
 // in a loop to get all tokens. It returns NULL
@@ -15,7 +15,7 @@ char * strtok(char str[], const char *delims);
 
 ## C
 
-```
+```cpp
 // A C/C++ program for splitting a string
 // using strtok()
 #include <stdio.h>
@@ -41,7 +41,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks
 for
 Geeks
@@ -51,7 +51,7 @@ Geeks
 就像 C 语言中的 strtok()函数一样，strtok_r()也执行同样的任务，将一个字符串解析成一个令牌序列。strtok_r()是 strtok()
 的[重入](https://www.geeksforgeeks.org/reentrant-function/)版本，我们有两种方法可以调用 strtok_r()
 
-```
+```cpp
 // The third argument saveptr is a pointer to a char * 
 // variable that is used internally by strtok_r() in 
 // order to maintain context between successive calls
@@ -63,7 +63,7 @@ char *strtok_r(char *str, const char *delim, char **saveptr);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C program to demonstrate working of strtok_r()
 // by splitting string based on space character.
 #include <stdio.h>
@@ -84,7 +84,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks
 for
 Geeks
@@ -94,7 +94,7 @@ Geeks
 
 ## C
 
-```
+```cpp
 // C code to demonstrate working of
 // strtok
 #include <stdio.h>
@@ -129,7 +129,7 @@ int main()
 
 输出:
 
-```
+```cpp
  Geeks
  for
  geeks
@@ -141,7 +141,7 @@ strtok 可以基于一些分隔符将一个字符串拆分成多个字符串。�
 
 ## C
 
-```
+```cpp
 // C code to demonstrate practical application of
 // strtok
 #include <stdio.h>
@@ -177,7 +177,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1997, Ford, E350, ac, 3000.00,
 ```
 

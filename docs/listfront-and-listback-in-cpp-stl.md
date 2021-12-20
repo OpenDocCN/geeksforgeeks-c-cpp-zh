@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 ***listname.front()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -20,7 +20,7 @@ Direct reference to the first element of the list container.
 
 示例:
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.front();
 Output : 1
@@ -37,7 +37,7 @@ Output : 0
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of front() function
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```
 
@@ -64,7 +64,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 ***listname.back()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -74,7 +74,7 @@ Direct reference to the last element of the list container.
 
 **示例:**
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.back();
 Output : 5
@@ -91,7 +91,7 @@ Output : 6
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of back() function
 #include <iostream>
@@ -108,14 +108,14 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```
 
 **应用程序**
 给定一个空的整数列表，在列表中添加数字，然后打印第一个和最后一个元素之间的差异。
 
-```
+```cpp
 Input: 1, 2, 3, 4, 5, 6, 7, 8
 Output:7
 *Explanation:* Last element = 8, First element = 1, Difference = 7
@@ -128,7 +128,7 @@ Output:7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // application Of front() and back() function
 #include <iostream>
@@ -162,6 +162,6 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 ```

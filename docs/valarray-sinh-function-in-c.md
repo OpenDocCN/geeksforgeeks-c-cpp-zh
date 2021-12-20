@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 sinh(varr);
 ```
 
@@ -18,7 +18,7 @@ sinh(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sinh() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.252612 0.521095 0.822317 1.1752
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sinh() function.
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.201336 0.140458 1.1752 0
 

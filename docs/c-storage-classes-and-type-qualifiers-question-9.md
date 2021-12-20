@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 #include <stdio.h>
 int fun()
 {
@@ -29,7 +29,7 @@ int main()
 
 **解释:**自*数*为静中此外，由于语句 return*num*–是后缀，因此它会返回 *num* 的旧值，并为下一次函数调用更新该值。
 
-```
+```cpp
 fun() called first time: num = 16 // for loop initialization done;
 
 In test condition, compiler checks for non zero value

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 data_type *var_name = 
        reinterpret_cast <data_type *>(pointer_variable);
 ```
@@ -24,7 +24,7 @@ data_type *var_name =
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of
 // reinterpret_cast
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 65
 A
 0x1609c20
@@ -62,7 +62,7 @@ A
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate using structure
 #include <bits/stdc++.h>
 using namespace std;
@@ -133,7 +133,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 12
 5
 10
@@ -146,7 +146,7 @@ a
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate the pointer reinterpret
 #include <iostream>
 using namespace std;
@@ -184,7 +184,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 In class A
 ```
 

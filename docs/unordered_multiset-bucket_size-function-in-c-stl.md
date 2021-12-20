@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.bucket_size(val)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.bucket_size(val)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket_size() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket size in which 14 is 1
 The bucket size in which 11 is 3
 The bucket size in which 11 is 3
@@ -62,7 +62,7 @@ The bucket size in which 13 is 2
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket_size() function
 #include <bits/stdc++.h>
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket size in which 1 is 3
 The bucket size in which 1 is 3
 The bucket size in which 1 is 3

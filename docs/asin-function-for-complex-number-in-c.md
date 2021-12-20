@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        asin (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **例 1:**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of asin() function.
 
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The asin of (-2,0) is (-1.5708,1.31696)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of asin() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The asin of (-2,-0) is (-1.5708,-1.31696)
 
 ```

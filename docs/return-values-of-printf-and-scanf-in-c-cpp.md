@@ -11,7 +11,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C/C++ program to demonstrate return value
 // of printf()
 #include <stdio.h>
@@ -30,7 +30,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 While printing CODING, the value returned by printf() is : 6
 ```
 
@@ -38,7 +38,7 @@ While printing CODING, the value returned by printf() is : 6
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C/C++ program to demonstrate return value
 // of printf()
 
@@ -57,7 +57,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 While printing 123456789, the value returned by printf() is : 9
 ```
 
@@ -66,7 +66,7 @@ While printing 123456789, the value returned by printf() is : 9
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C/C++ program to demonstrate return value
 // of printf()
 
@@ -91,7 +91,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input:
 Hey!
 welcome to

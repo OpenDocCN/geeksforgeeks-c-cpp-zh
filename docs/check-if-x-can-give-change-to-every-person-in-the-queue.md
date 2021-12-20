@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to check whether X can give change
 // to every person in the Queue
 #include <bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check
 // whether X can give
 // change to every person
@@ -190,7 +190,7 @@ else
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to check whether X can
 # give change to every person in the Queue
 
@@ -248,7 +248,7 @@ else:
 
 ## C#
 
-```
+```cpp
 // C# program to check
 // whether X can give
 // change to every person
@@ -341,7 +341,7 @@ else
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to check
     // whether X can give
@@ -423,6 +423,6 @@ else
 
 **Output:** 
 
-```
+```cpp
 YES
 ```

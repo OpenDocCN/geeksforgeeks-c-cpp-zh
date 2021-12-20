@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include<bits/stdc++.h>
@@ -116,7 +116,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  isPalindrome: true
 ```
 
@@ -135,7 +135,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to check if a linked list
 // is palindrome
 #include <bits/stdc++.h>
@@ -329,7 +329,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a->NULL
 Is Palindrome
 
@@ -370,7 +370,7 @@ T3】辅助空间: O(1)
 
 ## C++
 
-```
+```cpp
 // Recursive program to check if a given
 // linked list is palindrome
 #include <bits/stdc++.h>
@@ -470,7 +470,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a->NULL
 Not Palindrome
 

@@ -36,7 +36,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for demonstrating the
 // closing morphological operator
 

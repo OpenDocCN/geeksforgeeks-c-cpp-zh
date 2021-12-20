@@ -4,7 +4,7 @@
 
 当我们开始用 C/C++编程时，我们通常编写一个 main()函数，并在其中编写我们所有的逻辑。这种方法适用于非常小的程序，但是随着程序规模的增长，这变得难以管理。所以我们使用[功能](https://www.geeksforgeeks.org/functions-in-c/)。我们以函数的形式编写代码。主函数总是充当驱动函数并调用其他函数。
 
-```
+```cpp
 // C++ program to call a function in main
 #include <iostream>
 using namespace std;
@@ -26,14 +26,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 46
 
 ```
 
 我们也可以写函数调用作为函数的参数。在下面的代码中，首先计算 add(num1，num2)，让结果为 r1。计算 add(r1，num3)。假设结果是 r2。最后，计算 add(r2，num4)并打印其结果。
 
-```
+```cpp
 // C++ program to call a function in main
 #include <iostream>
 using namespace std;
@@ -57,14 +57,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 125
 
 ```
 
 函数调用函数的另一个例子如下:–
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -126,7 +126,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 15
 
 ```

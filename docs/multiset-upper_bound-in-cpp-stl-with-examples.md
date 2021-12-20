@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.upper_bound(key)
 ```
 
@@ -20,7 +20,7 @@ multiset_name.upper_bound(key)
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::upper_bound() function
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The multiset elements are: 1 3 3 4 5 
 The upper bound of key 3 is 4
 The upper bound of key 2 is 3
@@ -75,7 +75,7 @@ The upper bound of key 10 is 5
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::upper_bound() function
 #include <bits/stdc++.h>
@@ -119,7 +119,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 The multiset elements are: 10 13 13 24 25 
 The upper bound of key 10 is 13
 The upper bound of key 2 is 10

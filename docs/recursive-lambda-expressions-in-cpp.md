@@ -6,7 +6,7 @@
 
 递归函数只是一种循环结构。不同的是，它自己维护一个[内存堆栈](https://www.geeksforgeeks.org/memory-layout-of-c-program/)。显然，它必须有一个像[一样的](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)[破环条件](https://www.geeksforgeeks.org/break-statement-cc/)和。因此，递归函数具有以下结构-
 
-```
+```cpp
 function name(arguments)
 {
     a base case (a breaking condition)   
@@ -14,7 +14,7 @@ function name(arguments)
 }
 ```
 
-```
+```cpp
 int fact(int n)
 {
     // Base Case
@@ -27,7 +27,7 @@ int fact(int n)
 
 [C++ 11](https://www.geeksforgeeks.org/c-11-vs-c-14-vs-c-17/) 引入了 [lambda 表达式](https://www.geeksforgeeks.org/lambda-expression-in-c/)来允许我们编写一个[内联函数](https://www.geeksforgeeks.org/inline-functions-cpp/)，该函数可以用于那些不会被重用且不值得命名的简短代码片段。在其最简单的形式中，lambda 表达式可以定义如下:
 
-```
+```cpp
 [ capture clause ] (parameters) -> return-type  
 {   
    definition of method   
@@ -40,7 +40,7 @@ int fact(int n)
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -74,7 +74,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -100,7 +100,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -112,7 +112,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -139,7 +139,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -151,7 +151,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -196,7 +196,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -224,7 +224,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -238,7 +238,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -263,7 +263,7 @@ void declaringFunction(string s)
 
 **Output**
 
-```
+```cpp
 Hello I am learning how to declare a function
 ```
 
@@ -273,7 +273,7 @@ Hello I am learning how to declare a function
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <functional>
@@ -310,7 +310,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -320,7 +320,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <functional>
@@ -350,7 +350,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -360,7 +360,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -395,7 +395,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 720
 120
 ```
@@ -406,7 +406,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -455,6 +455,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Found on index 4
 ```

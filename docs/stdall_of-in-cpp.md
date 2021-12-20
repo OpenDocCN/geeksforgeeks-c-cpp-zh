@@ -5,7 +5,7 @@
 C++函数在 STL 中的 **<算法>** 库中定义。该函数对整个数组元素范围进行操作，并且可以节省时间来运行循环来逐个检查每个元素。它检查每个元素的给定属性，当范围内的每个元素满足指定属性时返回 true，否则返回 false。
 **语法:**
 
-```
+```cpp
 template <class InputIterator, class UnaryPredicate>
 bool all_of (InputIterator first, InputIterator last, UnaryPredicate pred);
 first : Input iterators to the initial positions in a sequence.
@@ -16,7 +16,7 @@ pred : An unary predicate function that accepts an element and returns a bool.
 **异常:**如果谓词或迭代器上的操作引发异常，则引发异常。
 **例:**
 
-```
+```cpp
 // C++ code to demonstrate working of all_of()
 #include <vector>
 #include <algorithm>
@@ -36,12 +36,12 @@ int main()
 
 输出:
 
-```
+```cpp
 All numbers are even
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate working of all_of()
 #include<iostream>
 #include<algorithm> // for all_of()
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 All are not positive elements
 
 ```

@@ -15,7 +15,7 @@ T4【1】。at() :-该函数用于访问数组的元素。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate working of array,
 // at() and get()
 #include<iostream>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The array elements are (using at()) : 1 2 3 4 5 6 
 The array elements are (using get()) : 1 2 3 4 5 6 
 The array elements are (using operator[]) : 1 2 3 4 5 6 
@@ -64,7 +64,7 @@ T4【5】。back() :-这将返回数组的最后一个元素。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate working of
 // front() and back()
 #include<iostream>
@@ -90,7 +90,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First element of array is : 1
 Last element of array is : 6
 ```
@@ -100,7 +100,7 @@ Last element of array is : 6
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate working of
 // size() and max_size()
 #include<iostream>
@@ -126,7 +126,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The number of array elements is : 6
 Maximum elements array can hold is : 6
 ```
@@ -135,7 +135,7 @@ Maximum elements array can hold is : 6
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate working of swap()
 #include<iostream>
 #include<array> // for swap() and array
@@ -179,7 +179,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The first array elements before swapping are : 1 2 3 4 5 6 
 The second array elements before swapping are : 7 8 9 10 11 12 
 The first array elements after swapping are : 7 8 9 10 11 12 
@@ -191,7 +191,7 @@ T4【10。fill() :-此函数用于用特定值填充整个数组。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate working of empty()
 // and fill()
 #include<iostream>
@@ -226,7 +226,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array empty
 Array after filling operation is : 0 0 0 0 0 0 
 ```

@@ -6,7 +6,7 @@
 
 memcpy()用于将一个内存块从一个位置复制到另一个位置。在**字符串中声明**
 
-```
+```cpp
 // Copies "numBytes" bytes from address "from" to address "to"
 void * memcpy(void *to, const void *from, size_t numBytes);
 ```
@@ -15,7 +15,7 @@ void * memcpy(void *to, const void *from, size_t numBytes);
 
 ## C
 
-```
+```cpp
 /* A C program to demonstrate working of memcpy */
 #include <stdio.h>
 #include <string.h>
@@ -40,7 +40,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 str1 before memcpy 
 Geeks
 

@@ -7,7 +7,7 @@
 
 **第二种方法**
 
-```
+```cpp
 // CPP program to print current date and time
 // using time and ctime.
 #include <stdio.h>
@@ -27,7 +27,7 @@ int main()
 
 输出:
 
-```
+```cpp
 It will show the current day, date and localtime, 
 in the format Day Month Date hh:mm:ss Year
 
@@ -42,7 +42,7 @@ chrono 库定义了三种主要类型以及实用函数和常见类型定义。
 
 打印当前日期、日期和时间的代码。
 
-```
+```cpp
 // CPP program to print current date and time
 // using chronos.
 #include <chrono>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 It will show the current day, date and localtime, 
 in the format Day Month Date hh:mm:ss Year
 

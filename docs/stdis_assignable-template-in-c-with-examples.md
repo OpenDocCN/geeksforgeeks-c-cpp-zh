@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **语法:**
 
-```
+```cpp
 template 
   <class A, class B> 
   struct is_assignable;;
@@ -31,7 +31,7 @@ template
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_assignable example
 
@@ -67,7 +67,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_assignable:
 A = B: false
 B = A: true
@@ -76,7 +76,7 @@ B = A: true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_assignable example
 
@@ -113,7 +113,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_assignable:
 A = B: true
 B = A: false

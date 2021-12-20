@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        exp (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of exp() function.
 
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The exp of (-1,0) is (0.367879,0)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of exp() function.
 
@@ -79,7 +79,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The exp of (0,1) is (0.540302,0.841471)
 
 ```

@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that we can change
 // local values of one function in another using pointers.
 
@@ -34,7 +34,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can change
 // local values of one function in another using
 // pointers.
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20 10
 ```
 
@@ -70,7 +70,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that compiler
 // internally uses pointer arithmetic to access
 // array elements.
@@ -93,7 +93,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that compiler
 // internally uses pointer arithmetic to access
 // array elements.
@@ -116,7 +116,7 @@ int main()
 
 输出:
 
-```
+```cpp
 300 300
 ```
 
@@ -124,7 +124,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that using a pointer
 // we can return multiple values.
 
@@ -152,7 +152,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that using a pointer
 // we can return multiple values.
 #include <bits/stdc++.h>
@@ -178,7 +178,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10000 10
 ```
 
@@ -186,7 +186,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to dynamically allocate an
 // array of given size.
 
@@ -207,7 +207,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically allocate an
 // array of given size.
 #include <iostream>

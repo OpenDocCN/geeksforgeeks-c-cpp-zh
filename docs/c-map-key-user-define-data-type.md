@@ -6,7 +6,7 @@
 
 让我们考虑一个**映射**，其关键数据类型为结构，映射值为整数。
 
-```
+```cpp
 // key's structure
 struct key
 {
@@ -14,7 +14,7 @@ struct key
 };
 ```
 
-```
+```cpp
 // CPP program to demonstrate how a map can
 // be used to have a user defined data type
 // as key.
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 101 3
 102 2
 110 1
@@ -61,7 +61,7 @@ int main()
 
 我们还可以使< operator 成为结构/类的成员。
 
-```
+```cpp
 // With < operator defined as member method.
 #include <bits/stdc++.h>
 using namespace std;
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 101 3
 102 2
 110 1
@@ -107,7 +107,7 @@ int main()
 **如果我们不超载<操作员会怎么样？**
 如果我们试图在地图中插入任何东西，就会出现编译器错误。
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 struct Test {
@@ -126,7 +126,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 /usr/include/c++/5/bits/stl_function.h:387:20: error: no match for 'operator<' (operand types are 'const Test' and 'const Test')
        { return __x < __y; }
 

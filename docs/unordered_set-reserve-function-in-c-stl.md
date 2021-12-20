@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 unordered_set_name.reserve(size_type n)
 ```
 
@@ -18,7 +18,7 @@ unordered_set_name.reserve(size_type n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // the unordered_set.reserve()
 #include <iostream>
@@ -50,14 +50,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 geeksforgeeks users geeks for
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // the unordered_set.reserve()
 #include <iostream>
@@ -87,7 +87,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 for geeks
 
 ```

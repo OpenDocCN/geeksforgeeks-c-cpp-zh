@@ -4,7 +4,7 @@
 
 预测后续程序的输出？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Test
@@ -30,14 +30,14 @@ int main()
 **(A)** 编译错误
 **(B)**
 
-```
+```cpp
 Called
 Called
 ```
 
 **(C)**
 
-```
+```cpp
 Called
 ```
 
@@ -47,7 +47,7 @@ Called
 
 当单一引数的类型指派给物件时，可以在任何地方呼叫转换建构函式。给定程序的输出是
 
-```
+```cpp
 Called
 Called
 ```

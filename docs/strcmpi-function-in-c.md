@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int strcmpi (const char * str1, const char * str2 );
 
 ```
@@ -26,7 +26,7 @@ int strcmpi (const char * str1, const char * str2 );
 
 **程序 1:**
 
-```
+```cpp
 // C program to demonstrate
 // example of strcmpi() function
 
@@ -47,14 +47,14 @@ int main( )
 
 **输出:**
 
-```
+```cpp
 The function returns = 0
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C program to demonstrate
 // example of strcmpi() function
 
@@ -75,7 +75,7 @@ int main( )
 
 **输出:**
 
-```
+```cpp
 The function returns = 1
 
 ```

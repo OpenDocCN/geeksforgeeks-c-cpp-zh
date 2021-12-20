@@ -7,7 +7,7 @@
 *   **std::base** :设置 basefield 标志；将基字段设置为其可能的值之一:dec、hex 或 oct。
     **句法**:
 
-```
+```cpp
 std::setbase (int base);
 decimal : if base is 10
 hexadecimal : if base is 16
@@ -19,7 +19,7 @@ zero : if base is any other value.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to illustrate
 // std::setbase manipulator
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 *   **输出:**
 
-```
+```cpp
 ff
 377
 ```
@@ -52,7 +52,7 @@ ff
 *   **std::setw** :设置字段宽度；设置用于输出操作的字段宽度。就像在作为操纵器插入/提取成员宽度的流上用 n 作为参数调用成员宽度一样(它可以在输入流或输出流上插入/提取)。
     **句法**:
 
-```
+```cpp
 std::setw (int n);
 where n is Number of characters to 
 be used as field width.
@@ -60,7 +60,7 @@ be used as field width.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to illustrate
 // std::setw manipulator
 #include <iostream>
@@ -85,7 +85,7 @@ int main()
 
 *   **输出:**
 
-```
+```cpp
        100
          GFG
 ```
@@ -95,7 +95,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include<iomanip>
 #include<string>
@@ -112,14 +112,14 @@ int main() {
 
 *   **输出:**
 
-```
+```cpp
 Hello setw
 ```
 
 *   **std::setfill** :设置填充字符；将 c 设置为流的填充字符。就像在作为操纵器插入的流上用 c 作为参数调用成员填充一样(可以在输出流上插入)。
     **句法**:
 
-```
+```cpp
 std::setfill (char_type c);
 char_type is the type of characters 
 used by the stream (i.e., its first class template 
@@ -130,7 +130,7 @@ parameter, charT).
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to test std::setfill manipulator
 #include <iostream>
 #include <iomanip> // std::setfill, std::setw
@@ -155,7 +155,7 @@ int main()
 
 *   输出:
 
-```
+```cpp
 xxxxxxxx77
 GeeksGGGGG
 ```
@@ -164,7 +164,7 @@ GeeksGGGGG
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to print
 // pattern using std::setw and std::fill
 #include <iostream>
@@ -182,7 +182,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 *
 **
 ***

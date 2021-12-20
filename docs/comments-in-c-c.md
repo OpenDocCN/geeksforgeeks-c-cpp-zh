@@ -22,7 +22,7 @@
 用于表示单行注释。它只对一行应用注释。它被称为 C++风格的注释，因为它最初是 C++编程的一部分。
 例如:
 
-```
+```cpp
 // single line comment
 ```
 
@@ -30,7 +30,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // use of multi-line comment
 #include <stdio.h>
@@ -45,7 +45,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Welcome to GeeksforGeeks
 ```
 
@@ -54,7 +54,7 @@ Welcome to GeeksforGeeks
 表示为 **/* any_text */** 以正斜杠和星号(/*)开头，以星号和正斜杠(*/)结尾。
 表示多行注释。它可以将注释应用于多行。它被称为 C 风格注释，因为它是在 C 编程中引入的。
 
-```
+```cpp
 /*Comment starts
 continues
 continues
@@ -68,7 +68,7 @@ Comment ends*/
 
 ## C
 
-```
+```cpp
 /* C program to illustrate
 use of
 multi-line comment */
@@ -86,7 +86,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Welcome to GeeksforGeeks
 ```
 
@@ -95,7 +95,7 @@ Welcome to GeeksforGeeks
 您还可以创建一个显示在一行代码末尾的注释。但是一般来说，将注释放在代码行之前是更好的做法。
 **示例:**这个示例对于 C 和 C++来说是一样的，因为这两种语言的注释风格都是一样的。
 
-```
+```cpp
  int age; // age of the person
 ```
 

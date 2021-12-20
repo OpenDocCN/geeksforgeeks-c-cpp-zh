@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.find(key)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::find() function
 
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 element found.
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::find() function
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Not found
 
 ```

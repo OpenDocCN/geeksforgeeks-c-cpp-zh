@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 /* Using non-const in case label */
 #include<stdio.h>
 int main()
@@ -30,7 +30,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -53,7 +53,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

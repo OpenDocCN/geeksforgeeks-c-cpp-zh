@@ -12,7 +12,7 @@
 
 典型的变量声明形式为:
 
-```
+```cpp
 // Declaring a single variable
 type variable_name;
 
@@ -32,7 +32,7 @@ type variable1_name, variable2_name, variable3_name;
 
 **示例** :
 
-```
+```cpp
 // Declaring float variable
 float simpleInterest; 
 
@@ -50,7 +50,7 @@ char var;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a
 ```
 
@@ -117,7 +117,7 @@ a
 *   我们可以通过对象引用访问实例变量**，通过类名直接访问**静态变量。****
 *   静态变量和实例变量的语法:
 
-    ```
+    ```cpp
     class Example
     {
         static int a; // static variable

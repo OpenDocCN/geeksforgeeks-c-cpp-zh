@@ -6,7 +6,7 @@
 
 **常量赋值语法:**
 
-```
+```cpp
 vectorname.assign(int size, int value)
 
 Parameters: 
@@ -19,7 +19,7 @@ value - value to be assigned to the vectorname
 
 T2CPPT0T6T8】输出 T10】
 
-```
+```cpp
 Size of first: 7
 Elements are
 100

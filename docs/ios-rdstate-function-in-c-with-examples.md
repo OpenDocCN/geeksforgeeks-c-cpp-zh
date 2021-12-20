@@ -6,7 +6,7 @@ C++中 **ios 类**的 **rdstate()** 方法用来读取这个流的内部状态�
 
 **语法:**
 
-```
+```cpp
 iostate rdstate() const;
 
 ```
@@ -17,7 +17,7 @@ iostate rdstate() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of rdstate() function
 
@@ -40,14 +40,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 stream rdstate: 0
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of rdstate() function
 
@@ -71,7 +71,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 stream rdstate: 4
 
 ```

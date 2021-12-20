@@ -18,7 +18,7 @@
 6.  通过指针间接寻址的结果，前提是它不是函数指针。
 7.  通过指针(->或)访问成员的结果。)
 
-```
+```cpp
 // declare a an object of type 'int'
 int a;
 
@@ -38,7 +38,7 @@ int b = a; // Ok, as l-value can appear on right
 
 **<u>R 值</u>** : r 值“是指存储在内存某个地址的数据值。r 值是不能赋值的表达式，这意味着 r 值可以出现在赋值运算符(=)的右侧，但不能出现在左侧。
 
-```
+```cpp
 // declare a, b an object of type 'int'
 int a = 1, b;
 
@@ -76,7 +76,7 @@ struct S* ptr = &obj;
 
 **注意**:一元&(的地址)运算符需要左值作为其操作数。也就是说，&只有当 n 是左值时，n 才是有效的表达式。因此，像& 12 这样的表述是错误的。同样，12 不引用对象，因此它是不可寻址的。例如，
 
-```
+```cpp
 // declare a as int variable and
 // 'p' as pointer variable
 int a, *p;

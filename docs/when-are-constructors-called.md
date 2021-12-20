@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 using namespace std;
 
 class Test
@@ -71,7 +71,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -107,7 +107,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 // PROGRAM 1: Constructor without any parameter
 #include<iostream>
 using namespace std;
@@ -145,7 +145,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 // PROGRAM 2: Constructor with parameter (using initializer list)
 #include <iostream>
 using namespace std;
@@ -191,7 +191,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;

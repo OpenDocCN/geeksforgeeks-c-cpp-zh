@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // call by value
 #include <iostream>
@@ -47,7 +47,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // call by value
 #include <stdio.h>
@@ -70,7 +70,7 @@ int main(void)
 
 1.  输出:
 
-```
+```cpp
 In func, a = 12 b = 7
 In main, x = 5 y = 7
 ```
@@ -85,7 +85,7 @@ In main, x = 5 y = 7
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // call by reference
 #include <iostream.h>
@@ -114,7 +114,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // call by reference
 #include <stdio.h>
@@ -140,7 +140,7 @@ int main(void)
 
 1.  输出:
 
-```
+```cpp
 a is 20 and b is 10
 ```
 
@@ -160,7 +160,7 @@ a is 20 and b is 10
     示例:
     要将*C【j】*的值翻倍，可以将其名称(不是其值)传入以下程序。
 
-```
+```cpp
 procedure double(x);
   real x;
 begin 

@@ -12,7 +12,7 @@ C++自带的库提供了执行[输入和输出](https://www.geeksforgeeks.org/ba
 
 重载运算符的语法如下:
 
-```
+```cpp
 returnType operator symbol (arguments)
 {
    Operations...
@@ -23,7 +23,7 @@ returnType operator symbol (arguments)
 
 ## C++
 
-```
+```cpp
 istream& operator>>(istream& is, node*& head)
 {
     // Function call to overload the ">>"
@@ -39,7 +39,7 @@ istream& operator>>(istream& is, node*& head)
 
 ## C++
 
-```
+```cpp
 ostream& operator<<(ostream& os, node* head)
 {
     // Function call to overload the "<<"
@@ -57,7 +57,7 @@ ostream& operator<<(ostream& os, node* head)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // overloading of '<<' and '>>'
 // operators

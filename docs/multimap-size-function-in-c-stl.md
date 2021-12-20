@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.size()
 ```
 
@@ -14,7 +14,7 @@ multimap_name.size()
 
 **返回值:**这个函数返回一个多映射容器的元素数量。
 
-```
+```cpp
 // C++ function for illustration
 // multimap::size() function
 #include <bits/stdc++.h>
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 multimap mp has 6 number of elements
 
 ```

@@ -7,7 +7,7 @@
 
 **[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)**
 
-```
+```cpp
 // C++ program to print vector objects
 // by overloading "<<" operator
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output
 [4, 2, 17, 11, 15]
 
@@ -48,7 +48,7 @@ Output
 
 **[设置](https://www.geeksforgeeks.org/set-in-cpp-stl/)**
 
-```
+```cpp
 // C++ program to print set elements
 // by overloading "<<" operator
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output
 [2, 4, 11, 15, 17]
 
@@ -86,7 +86,7 @@ Output
 
 **[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)**
 
-```
+```cpp
 // C++ program to print map elements
 // by overloading "<<" operator
 #include <iostream>
@@ -116,7 +116,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output
 a : 2
 b : 3
@@ -126,7 +126,7 @@ d : 5
 
 **[配对](https://www.geeksforgeeks.org/pair-in-cpp-stl/)**
 
-```
+```cpp
 // C++ program to print pair<> class
 // by overloading "<<" operator
 #include <iostream>
@@ -152,7 +152,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output
 (45, 7)
 

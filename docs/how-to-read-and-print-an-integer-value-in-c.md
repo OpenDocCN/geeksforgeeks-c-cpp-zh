@@ -15,7 +15,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     cin >> variableOfXType;
 
     where >> is the extraction operator
@@ -30,7 +30,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     cin >> variableOfIntType;
 
     ```
@@ -40,7 +40,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     cout << variableOfXType;
 
     where << is the insertion operator.
@@ -53,7 +53,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     cout << variableOfIntType;
 
     ```
@@ -64,7 +64,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to take an integer
 // as input and print it
 
@@ -90,7 +90,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the integer: 10
 Entered integer is: 10
 

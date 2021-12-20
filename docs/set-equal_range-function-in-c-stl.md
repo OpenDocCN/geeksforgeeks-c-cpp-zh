@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set_name.equal_range(key) 
 
 ```
@@ -17,7 +17,7 @@ set_name.equal_range(key)
 
 下面的程序说明了上面的功能。
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::equal_range() function
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The set elements are: 1 2 3 4 5 
 The lower bound of 2 is 2
 The upper bound of 2 is 3

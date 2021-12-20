@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 cosh(varr);
 
 ```
@@ -19,7 +19,7 @@ cosh(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cosh() function.
 
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1 1.03141 1.12763 1.29468 1.54308
 
@@ -61,7 +61,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cosh() function.
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1.02007 1.00982 1.54308 1
 

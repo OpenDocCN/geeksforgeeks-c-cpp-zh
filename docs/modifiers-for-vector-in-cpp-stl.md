@@ -8,7 +8,7 @@
 1.1 赋值(先输入 _ 迭代器，后输入 _ 迭代器)–将新内容赋给矢量并调整大小
 1.2 赋值(size_type n，const value _ type g)–将新内容赋给矢量并调整大小
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -39,7 +39,7 @@ int main()
 
 上述程序的输出是:
 
-```
+```cpp
 Size of g1: 5
 Size of g2: 3
 Size of g3: 2
@@ -49,7 +49,7 @@ Size of g3: 2
 2.push _ back(const value _ type g)–在向量末尾添加新元素‘g’，并将向量容器大小增加 1
 3。pop _ back()–删除向量末尾的元素，即最后一个元素，并将向量容器的大小减少 1
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -78,7 +78,7 @@ int main()
 
 上述程序的输出是:
 
-```
+```cpp
 The sum of the elements of gquiz is : 60
 
 ```
@@ -87,7 +87,7 @@ The sum of the elements of gquiz is : 60
 4.2insert(const_iterator q，size_type n，const value _ type g)–在迭代器“q”当前引用的元素之前添加每个都带有值“g”的“n”个元素，并返回指向第一个新添加元素的迭代器
 4.3 insert(const_iterator q，type
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -121,7 +121,7 @@ int main()
 
 上述程序的输出是:
 
-```
+```cpp
 gquiz1 contains : 50    60    70    30    30    
 40    40    20    10    10    10
 
@@ -130,7 +130,7 @@ gquiz1 contains : 50    60    70    30    30
 5.1 erase(const_iterator q)–删除由‘q’引用的元素，并返回一个迭代器到被删除元素后面的元素
 5.2 erase(const_iterator 优先，const _ iterator 最后)–删除范围内从第一个到最后一个的元素，第一个迭代器包含在范围内，最后一个迭代器不包含在内，并返回一个迭代器到被删除元素后面的元素
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -158,7 +158,7 @@ int main ()
 
 上述程序的输出是:
 
-```
+```cpp
 gquiz contains :14    16    18    20
 
 ```
@@ -166,7 +166,7 @@ gquiz contains :14    16    18    20
 6.交换(向量 q，向量 r)–交换‘q’和‘r’的内容
 7。clear()–从向量中移除所有元素
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -217,7 +217,7 @@ int main()
 
 上述程序的输出是:
 
-```
+```cpp
 Before Swapping, 
 Contents of vector gquiz1 : 10    20    
 Contents of vector gquiz2 : 30    40    

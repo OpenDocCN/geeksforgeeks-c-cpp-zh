@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-structure-union-question-8/](https://www.geeksforgeeks.org/c-structure-union-question-8/)
 
-```
+```cpp
 union test
 {
     int x;

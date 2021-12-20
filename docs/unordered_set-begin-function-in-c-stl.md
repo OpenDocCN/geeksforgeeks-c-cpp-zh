@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```cpp
 unordered_set_name.begin(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_set_name.begin(n)
 
 下面程序举例说明*无序 _ 集合::begin()* 功能:
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::begin() function
 
@@ -51,7 +51,7 @@ int main()
 
 T5】输出:
 
-```
+```cpp
 First element in the container is: 25
 First element in the bucket 4 is: 15
 

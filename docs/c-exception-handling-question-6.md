@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-6/](https://www.geeksforgeeks.org/c-exception-handling-question-6/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

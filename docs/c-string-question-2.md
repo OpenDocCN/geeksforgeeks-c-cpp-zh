@@ -4,7 +4,7 @@
 
 以下程序的输出是什么？
 
-```
+```cpp
 # include <stdio.h>
 
 int main()

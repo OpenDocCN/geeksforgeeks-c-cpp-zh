@@ -13,7 +13,7 @@ Placement new 是 C++中的一个变体 [new](https://www.geeksforgeeks.org/mall
 
 **语法:**
 
-```
+```cpp
 new (address) (type) initializer
 As we can see, we can specify an address
 where we want a new object of given type 
@@ -26,7 +26,7 @@ to be constructed.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the placement new operator
 #include<iostream>
 using namespace std;
@@ -56,7 +56,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Buff Addr              Int Addr
 0x69fed8               0x69fed8
 0x69fedc               0x69fedc
@@ -73,7 +73,7 @@ Buff Addr              Int Addr
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ program to illustrate the placement new operator
 #include<iostream>
 using namespace std;
@@ -100,7 +100,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 Before placement new :
 X : 10
 &X : 0x69fee8
@@ -122,7 +122,7 @@ mem : 0x69fee8
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ program to illustrate using destructor for
 // deleting memory allocated by placement new
 #include<iostream>
@@ -197,7 +197,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 Constructor : (4.2, 5.3)
 Constructor : (0, 0)
 Constructor : (0, 0)
@@ -225,7 +225,7 @@ Destructor : (2.6, 3.9)
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ program to illustrate segmentation fault
 // while using placement new operator
 #include<iostream>
@@ -255,7 +255,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Segmentation fault
 ```
 

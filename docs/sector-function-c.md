@@ -7,7 +7,7 @@
 头文件 graphics.h 包含 sector()函数，该函数以(x，y)为中心，以(s_angle，e_angle)为起始和结束角度，以(x_radius，y_radius)为扇区的 x 和 y 半径，绘制并填充一个椭圆形饼图切片。
 **语法:**
 
-```
+```cpp
 void sector(int x, int y, int s_angle, 
            int e_angle, int x_radius, 
                         int y_radius);
@@ -23,7 +23,7 @@ radius of sector.
 
 **示例:**
 
-```
+```cpp
 Input : x = 200, y = 200, s_angle = 0,
          e_angle = 150, x_radius = 50, 
          y_radius = 65
@@ -38,7 +38,7 @@ Output :
 
 下面是扇区()函数的实现:
 
-```
+```cpp
 // C Implementation for sector()
 #include <graphics.h>
 

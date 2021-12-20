@@ -6,7 +6,7 @@
 
 system()用于从 C/C++程序中调用操作系统命令。
 
-```
+```cpp
     int system(const char *command);
 
 ```
@@ -18,7 +18,7 @@ system()用于从 C/C++程序中调用操作系统命令。
 **编写 C/C++程序，编译运行其他程序？**
 我们可以使用系统()从程序中调用 gcc。请参见下面为 Linux 编写的代码。我们可以轻松地将代码更改为在 windows 上运行。
 
-```
+```cpp
 // A C++ program that compiles and runs another C++ 
 // program
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ system()在 Windows OS 中的一些常见用法是，system(“pause”)用于�
 
 让我们用一个简单的 C++代码，用**系统(“暂停”)**输出 Hello World:
 
-```
+```cpp
 // A C++ program that pauses screen at the end in Windows OS
 #include <iostream>
 using namespace std;
@@ -73,7 +73,7 @@ int main ()
 
 以上程序在 Windows 操作系统中的输出:
 
-```
+```cpp
 Hello World!
 Press any key to continue…
 ```
@@ -88,7 +88,7 @@ Press any key to continue…
 
 让我们举一个简单的例子，用 cin.get()输出 Hello World:
 
-```
+```cpp
 // Replacing system() with library function
 #include <iostream>
 #include <cstdlib>
@@ -103,7 +103,7 @@ int main ()
 
 程序的输出是:
 
-```
+```cpp
  Hello World!
 ```
 
@@ -113,7 +113,7 @@ int main ()
 **检查我们是否可以在操作系统中使用 system()运行命令的常用方法？**
 如果我们传递空指针代替命令参数的字符串，如果命令处理器存在(或者系统可以运行)，系统返回非零值。否则返回 0。
 
-```
+```cpp
 // C++ program to check if we can run commands using 
 // system()
 #include <iostream>

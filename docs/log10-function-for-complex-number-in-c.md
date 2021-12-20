@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        log10 (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of log10() function.
 
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The log10 of (-1,0) is (0,1.36438)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of log10() function.
 
@@ -79,7 +79,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The log10 of (-1,-0) is (0,-1.36438)
 
 ```

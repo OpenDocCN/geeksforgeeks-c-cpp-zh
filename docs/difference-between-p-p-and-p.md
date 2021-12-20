@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 // PROGRAM 1
 #include <stdio.h>
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // PROGRAM 2
 #include <stdio.h>
 int main(void)
@@ -38,7 +38,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // PROGRAM 3
 #include <stdio.h>
 int main(void)

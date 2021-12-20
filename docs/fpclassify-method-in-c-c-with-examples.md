@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int fpclassify(int x);
 int fpclassify(float x);
 int fpclassify(double x);
@@ -26,7 +26,7 @@ int fpclassify(long double x);
 
 以下示例演示了 FP classifier()方法的使用:
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of fpclassify() method
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 For 1.0/0.0: Infinite Number 
 For 0.0/0.0: Not a Number 
 For -0.0: Zero 

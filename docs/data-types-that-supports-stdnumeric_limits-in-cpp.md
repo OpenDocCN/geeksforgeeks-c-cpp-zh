@@ -24,7 +24,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // possible numerical data types
 // that supports std::numeric_limits
@@ -183,7 +183,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Numeric limits for type: bool
 ------------------------------------------------------------
                          Type:                     bool

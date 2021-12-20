@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswdigit(ch)
 ```
 
@@ -23,7 +23,7 @@ int iswdigit(ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswdigit() function
 #include <cwctype>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ? is not a digit 
 3 is a digit
 
@@ -63,7 +63,7 @@ int main()
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswdigit() function
 #include <cwctype>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 is a digit 
 q is not a digit
 

@@ -5,7 +5,7 @@
 **什么是 NaN？**
 NaN，缩写为“Not a Number”，是一个例外，通常出现在表达式导致数字无法表示的情况下。例如负数的平方根。
 
-```
+```cpp
 // C++ code to demonstrate NaN exception
 #include<iostream>
 #include<cmath> // for sqrt()
@@ -27,7 +27,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1.41421
 -nan
 
@@ -38,7 +38,7 @@ int main()
 **方法 1:使用[比较(==)运算符](https://www.geeksforgeeks.org/operators-in-c-set-2-relational-and-logical-operators/)。**
 在这种方法中，我们通过比较一个数字和它本身来检查它是否复杂。如果结果为真，则该数字为**而非**复数即实数。但如果结果为假，则返回“nan”，即数字为复数。
 
-```
+```cpp
 // C++ code to check for NaN exception
 // using "==" operator
 #include<iostream>
@@ -66,7 +66,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Its a real number
 Its NaN
 
@@ -75,7 +75,7 @@ Its NaN
  **方法二:使用内置函数“isnan()”。**
 检查 NaN 的另一种方法是使用“isnan()”函数，如果一个数字是复数，该函数返回 true，否则返回 false。
 
-```
+```cpp
 // C++ code to check for NaN exception
 // using "isnan()" 
 #include<iostream>
@@ -101,7 +101,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Its a real number
 Its NaN
 

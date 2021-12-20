@@ -20,7 +20,7 @@ auto_ptr 是一个智能指针，用于管理通过新表达式获得的对象�
 
 [![Auto pointer in C++](img/fae37bc6157b532a79688a45e78b9615.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190917111931/Auto-Pointer-in-C1.jpg)
 
-```
+```cpp
 // C++ program to illustrate the use of auto_ptr
 #include <iostream>
 #include <memory>
@@ -56,7 +56,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A::show()
 0x1b42c20
 A::show()
@@ -76,7 +76,7 @@ std::unique_ptr 是在 C++11 中开发的，作为 std::auto_ptr 的替代。
 unique_ptr 是一个新的设施，具有类似的功能，但具有改进的安全性(没有伪造的副本分配)、增加的功能(删除器)和对数组的支持。它是原始指针的容器。它显式地防止复制其包含的指针，就像正常赋值一样，即它只允许底层指针的一个所有者。
 因此，当使用 unique_ptr 时，在任何一个资源上最多只能有一个 unique_ptr，当该 unique_ptr 被销毁时，该资源将被自动声明。此外，由于任何资源只能有一个 unique_ptr，因此任何复制 unique_ptr 的尝试都会导致编译时错误。
 
-```
+```cpp
  unique_ptr<A> ptr1 (new A);
 
  // Error: can't copy unique_ptr
@@ -86,7 +86,7 @@ unique_ptr 是一个新的设施，具有类似的功能，但具有改进的安
 
 但是，unique_ptr 可以使用新的移动语义进行移动，即使用 std::move()函数将包含的指针的所有权转移到另一个 unique_ptr。
 
-```
+```cpp
 // Works, resource now stored in ptr2
 unique_ptr<A> ptr2 = move(ptr1); 
 
@@ -94,7 +94,7 @@ unique_ptr<A> ptr2 = move(ptr1);
 
 因此，当我们想要一个指向某个对象的单个指针时，最好使用 unique_ptr，当该单个指针被销毁时，该对象将被回收。
 
-```
+```cpp
 // C++ program to illustrate the use of unique_ptr
 #include <iostream>
 #include <memory>
@@ -135,7 +135,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A::show()
 0x1c4ac20
 A::show()
@@ -150,7 +150,7 @@ A::show()
 
 下面的代码返回一个资源，如果我们不显式捕获返回值，这个资源将被清除。如果我们这样做了，那么我们就拥有该资源的专属所有权。这样，我们就可以认为 unique_ptr 是 auto_ptr 更安全、更好的替代品。
 
-```
+```cpp
 unique_ptr<A> fun()
 {
     unique_ptr<A> ptr(new A);
@@ -175,7 +175,7 @@ shared_ptr 是原始指针的容器。它是一个**引用计数所有权模型*
 在引用计数大于零之前，即在 shared_ptr 的所有副本都被删除之前，包含的原始指针所引用的对象不会被销毁。
 所以，当我们想要将一个原始指针分配给多个所有者时，应该使用 shared_ptr。
 
-```
+```cpp
 // C++ program to demonstrate shared_ptr
 #include <iostream>
 #include <memory>
@@ -217,7 +217,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0x1c41c20
 A::show()
 A::show()

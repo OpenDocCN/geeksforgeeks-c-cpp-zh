@@ -7,7 +7,7 @@
 给定两个数字，不使用运算符+和/或-，使用++和/或–,返回它们的总和。
 示例:
 
-```
+```cpp
 Input: x = 10, y = 5
 Output: 15
 
@@ -20,7 +20,7 @@ Output: 10
 
 ## C++
 
-```
+```cpp
 // C++ program to add two numbers using ++
 #include <bits/stdc++.h>
 using namespace std;
@@ -49,7 +49,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // java program to add two numbers
 // using ++
 
@@ -91,7 +91,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # python program to add two
 # numbers using ++
 
@@ -123,7 +123,7 @@ print(add(43, -23))
 
 ## C#
 
-```
+```cpp
 // C# program to add two numbers
 // using ++
 using System;
@@ -165,7 +165,7 @@ public class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to add two
 // numbers using ++
@@ -199,7 +199,7 @@ function add($x, $y)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
     // Javascript program to
@@ -235,7 +235,7 @@ function add($x, $y)
 
 **输出:**
 
-```
+```cpp
 66
 20
 ```

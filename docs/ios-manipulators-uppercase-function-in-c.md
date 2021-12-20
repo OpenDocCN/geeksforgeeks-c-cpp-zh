@@ -6,7 +6,7 @@ C++中**流操纵器**的**大写()**方法用于设置指定字符串流的大�
 
 **语法:**
 
-```
+```cpp
 ios_base& uppercase (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& uppercase (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of uppercase() function
 
@@ -44,14 +44,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 uppercase flag: 024
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of uppercase() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 uppercase flag: 0X14
 
 ```

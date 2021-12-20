@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 
@@ -36,7 +36,7 @@ void main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <stdio.h>

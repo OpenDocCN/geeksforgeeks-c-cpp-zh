@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above approach
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 56 / 84 = 0
 
 ```
@@ -63,7 +63,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above approach
 #include <iostream>
@@ -84,7 +84,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 14
 
 ```

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 list_name.pop_front();
 
 ```
@@ -17,7 +17,7 @@ list_name.pop_front();
 
 下面程序举例说明列表::pop_front()函数在 C++ STL 中:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::pop_front() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Initial List: 10 20 30 40 
 
 List after removing an element from front: 20 30 40

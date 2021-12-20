@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.begin(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.begin(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::begin() function
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The first element: 14
 Elements: 14 13 15 10 11
 
@@ -59,7 +59,7 @@ Elements: 14 13 15 10 11
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::begin() function
 #include <bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The first element: z
 The second element: x
 Elements: z x c a b
@@ -106,7 +106,7 @@ Elements: z x c a b
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::begin() function
 #include <bits/stdc++.h>
@@ -139,7 +139,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The first element in first bucket : x
 Elements in first bucket: x c
 

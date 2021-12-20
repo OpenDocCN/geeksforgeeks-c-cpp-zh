@@ -5,7 +5,7 @@
 基于模式的程序的思想是理解 for 循环的嵌套概念，以及如何和在哪里放置字母/数字/星星以形成所需的模式。
 写入程序，以下列方式打印数字模式，用于循环
 
-```
+```cpp
     1
    232
   34543
@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the above
 // given pattern of numbers.
 #include<bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the above
 // given pattern of numbers.
 #include<stdio.h>
@@ -104,7 +104,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java Program to illustrate the
 // above given pattern of numbers
 import java.io.*;
@@ -150,7 +150,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python Program to illustrate the
 # above given pattern of numbers.
 
@@ -180,7 +180,7 @@ for j in range(1, n + 1) :
 
 ## C#
 
-```
+```cpp
 // C# Program to illustrate the
 // above given pattern of numbers
 using System;
@@ -223,7 +223,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 //php program to illustrate the above
 // given pattern of numbers.
@@ -263,7 +263,7 @@ for ($j = 1; $j <= $n; $j++)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript program to illustrate the above
       // given pattern of numbers.
@@ -298,7 +298,7 @@ for ($j = 1; $j <= $n; $j++)
 
 **输出:**
 
-```
+```cpp
     1
    232
   34543

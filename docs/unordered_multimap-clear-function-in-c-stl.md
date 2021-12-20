@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.clear()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::clear()
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements of multimap are:
 {15, 150}
 {30, 300}
@@ -67,7 +67,7 @@ Size of container after function call: 0
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::clear()
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements of multimap are:
 {c, b}
 {r, a}

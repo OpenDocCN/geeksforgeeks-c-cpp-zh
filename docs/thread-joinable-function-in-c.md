@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```cpp
 std::thread::joinable()
 
 ```
@@ -28,7 +28,7 @@ std::thread::joinable()
 
 **注意:**在联机 IDE 上，这个程序会显示错误。要编译这个，在命令**“g++–STD = c++ 14-pthread file . CPP”**的帮助下，使用 g++编译器编译上的标志“-pthread”。
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // std::thread::joinable()
 
@@ -84,7 +84,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 t1 joinable when default created? 
 NO
 t1 joinable when put to sleep? 

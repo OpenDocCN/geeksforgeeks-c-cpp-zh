@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 template 
 bool next_permutation (BidirectionalIterator first,
  BidirectionalIterator last);
@@ -31,7 +31,7 @@ but the lowest possible (sorted in ascending order).
 
 **示例:**
 
-```
+```cpp
 Input : next permutation of 1 2 3 is 
 Output : 1 3 2
 
@@ -41,7 +41,7 @@ Output : 4 8 6
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // next_permutation example
 
@@ -70,7 +70,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The 3! possible permutations with 3 elements:
 1 2 3
 1 3 2
@@ -87,7 +87,7 @@ After loop: 1 2 3
 
 **语法:**
 
-```
+```cpp
 template 
 bool prev_permutation (BidirectionalIterator first,
  BidirectionalIterator last );
@@ -111,7 +111,7 @@ but the largest possible (sorted in descending order).
 
 **示例:**
 
-```
+```cpp
 Input : prev permutation of 3 2 1 is 
 Output : 3 1 2 
 
@@ -121,7 +121,7 @@ Output :8 4 6
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // prev_permutation example
 
@@ -151,7 +151,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The 3! possible permutations with 3 elements:
 3 2 1
 3 1 2

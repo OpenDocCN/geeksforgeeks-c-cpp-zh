@@ -46,7 +46,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -121,7 +121,7 @@ std::vector<std::string> createAndInsert()
 
 **Output**
 
-```
+```cpp
 Hello
 HelloHello
 Hello
@@ -157,7 +157,7 @@ T3】2。vectring = createdinsert()；- 调用 createAndInsert()函数。
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -232,7 +232,7 @@ std::vector<std::string> createAndInsert()
 
 **Output**
 
-```
+```cpp
 Hello
 HelloHello
 Hello
@@ -284,7 +284,7 @@ Hello
 
 ## **C++14**
 
-```
+```cpp
 // C++ program to implement
 // the above concept
 
@@ -432,7 +432,7 @@ void constObjectCallFunc(std::string&& str)
 
 ****Output**
 
-```
+```cpp
 foo(std::string&& str) : 
     Hello
 foo(std::string& str) : 

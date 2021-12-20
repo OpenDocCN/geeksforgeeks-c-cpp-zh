@@ -9,14 +9,14 @@
 
 **重载新运算符的语法:**
 
-```
+```cpp
 void* operator new(size_t size);
 ```
 
 重载的新运算符接收 size_t 类型的大小，它指定要分配的内存字节数。重载 new 的返回类型必须是 void*。重载函数返回一个指向已分配内存块开始的指针。
 **重载删除运算符的语法:**
 
-```
+```cpp
 void operator delete(void*);
 ```
 
@@ -26,7 +26,7 @@ void operator delete(void*);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Overloading new and delete operator
 // for a specific class
@@ -78,7 +78,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Overloading new operator with size: 16
 Constructor is called
 Name:Yash
@@ -94,7 +94,7 @@ void * p =::new student()；//这是正确的
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Global overloading of
 // new and delete operator
@@ -135,7 +135,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 New operator overloading 
 Array: 0 1 2 3 4 
 Delete operator overloading 
@@ -149,7 +149,7 @@ Delete operator overloading
 
 ## C
 
-```
+```cpp
 void *operator new(size_t size, char c)
 {
    void *ptr;

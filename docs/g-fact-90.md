@@ -5,7 +5,7 @@
 **c++中模板的默认参数:**
 和函数默认参数一样，模板也可以有默认参数。例如，在下面的程序中，第二个参数 U 的默认值为 char。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -32,7 +32,7 @@ int main()
 
 此外，类似于默认函数参数，如果一个模板参数有默认参数，那么它后面的所有模板参数也必须有默认参数。例如，编译器不允许下列程序:
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

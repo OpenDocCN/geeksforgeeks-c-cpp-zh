@@ -47,7 +47,7 @@ T3 初始化:
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -139,7 +139,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.util.*;
 
@@ -250,7 +250,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 implementation of the approach
 # Node of the binary tree
 class node:
@@ -325,6 +325,6 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```cpp
 2 3 4 5 6 7 8
 ```

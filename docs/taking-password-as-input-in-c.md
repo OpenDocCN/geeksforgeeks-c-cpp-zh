@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to take the input
 // invisibly
 #include <iostream>
@@ -84,7 +84,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate the
 // use of getch()
 #include <conio.h>
@@ -134,7 +134,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate the
 // solution of above drawback
 #include <conio.h>
@@ -204,7 +204,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to hide the password
 // using *(asterik)
 #include <conio.h>

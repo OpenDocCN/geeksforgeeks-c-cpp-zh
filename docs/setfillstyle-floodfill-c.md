@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 void setfillstyle(int pattern, int color)
 
 void floodfill(int x, int y, int border_color)
@@ -17,7 +17,7 @@ void floodfill(int x, int y, int border_color)
 
 **示例:**
 
-```
+```cpp
 Input : pattern = HATCH_FILL, Color = RED 
         circle : x = 250, y = 250, radius = 100 
         floodfill : x = 250, y = 250, border color =15
@@ -32,7 +32,7 @@ Output :
 
 下表显示了对应于颜色的 INT 值:
 
-```
+```cpp
 COLOR               INT VALUES
 -------------------------------
 BLACK                   0
@@ -56,7 +56,7 @@ WHITE                  15
 
 下表显示了对应于模式的整数值:
 
-```
+```cpp
 PATTERN              INT VALUES
 -------------------------------
 EMPTY_FILL               0
@@ -77,7 +77,7 @@ USER_FILL               12
 
 下面是 setfillstyle()和 floodfill()函数的实现:
 
-```
+```cpp
 // C Implementation for setfillstyle
 // and floodfill function
 #include <graphics.h>

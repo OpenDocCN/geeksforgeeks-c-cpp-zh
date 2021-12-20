@@ -6,7 +6,7 @@
 
 例如，下面的函数求和是在外部进行的
 
-```
+```cpp
 extern int sum(int x, int y, int z)
 {
     return (x + y + z);

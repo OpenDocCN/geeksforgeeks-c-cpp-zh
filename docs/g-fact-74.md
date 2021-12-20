@@ -8,7 +8,7 @@
 
 在 C/C++中(也可能在其他语言中)，即使这些运算符是可交换的，它们的顺序也很关键。例如见下面的代码，
 
-```
+```cpp
 // Traverse every alternative node
 while( pTemp && pTemp->Next )
 {

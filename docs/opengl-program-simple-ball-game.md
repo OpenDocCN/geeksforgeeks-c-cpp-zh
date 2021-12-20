@@ -10,14 +10,14 @@ OpenGL 是一个跨语言、跨平台的应用编程接口，用于渲染 2D 和
 
 **在 Ubuntu 操作系统上工作:**
 
-```
+```cpp
 gcc filename.c -lGL -lGLU -lglut -lm 
 where filename.c is the name of the file
 with which this program is saved.
 
 ```
 
-```
+```cpp
 // C program to illustrate OpenGL game
 #include<stdio.h>
 #include<GL/glut.h>

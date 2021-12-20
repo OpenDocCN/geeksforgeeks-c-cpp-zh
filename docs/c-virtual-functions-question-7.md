@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-virtual-functions-question-7/](https://www.geeksforgeeks.org/c-virtual-functions-question-7/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

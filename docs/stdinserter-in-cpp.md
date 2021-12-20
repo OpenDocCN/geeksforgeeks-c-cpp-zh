@@ -7,7 +7,7 @@
 **插入迭代器是一种特殊类型的**输出迭代器**，旨在允许通常覆盖元素(如复制)的算法在容器的特定位置自动插入新元素。
 语法:**
 
-```
+```cpp
 **std::inserter(Container& x, typename Container::iterator it);**
 **x:** Container in which new elements will 
 be inserted.
@@ -17,7 +17,7 @@ be inserted.
 x at the position indicated by it. 
 ```
 
-```
+```cpp
 // C++ program to demonstrate std::inserter
 #include <iostream>
 #include <iterator>
@@ -60,7 +60,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 v1 = 1 2 3
 v2 = 4 1 2 3 5 6 
 ```
@@ -69,7 +69,7 @@ v2 = 4 1 2 3 5 6
 
 *   ****Inserting values anywhere :** Now, just imagine, if we had to copy value into a container such as a vector, firstly, we had to move elements and then copy, but with the help of std::insert() we can insert at any position with ease.
 
-    ```
+    ```cpp
     // C++ program to demonstrate std::inserter
     #include <iostream>
     #include <iterator>
@@ -111,7 +111,7 @@ v2 = 4 1 2 3 5 6
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3 7 8 9
     v2 = 4 5 1 2 3 7 8 9 6
 
@@ -125,7 +125,7 @@ v2 = 4 1 2 3 5 6
 2.  ****insert()vs std::inserter():**现在，您可能会认为 insert()和 STD::inserter()相似，但实际上并不相似。当你必须在算法中传递一个迭代器时，你应该像上面的例子一样使用 insert()方法，而对于在容器中正常插入值，可以使用 insert()方法。**
 3.  **In place of using std::inserter, we can **create a insert_iterator** and then use it, as eventually, std::inserter returns a insert_iterator only.
 
-    ```
+    ```cpp
     // C++ program to demonstrate insert_iterator
     #include <iostream>
     #include <iterator>
@@ -171,7 +171,7 @@ v2 = 4 1 2 3 5 6
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3
     v2 = 4 1 2 3 5 6
 

@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to create a header
 // file named as "Animal.h"
 #include <iostream>
@@ -41,7 +41,7 @@ public:
 
 ## C++
 
-```
+```cpp
 // C++ program to create header file
 // named as Dog.h
 
@@ -69,7 +69,7 @@ public:
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // include guards
 #include "Animal.h"
@@ -112,7 +112,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 #ifndef ANIMAL(Any word you like but unique to program)
 #define ANIMAL(same word as used earlier)
 
@@ -127,7 +127,7 @@ class Animal {
 
 ## C++
 
-```
+```cpp
 // Checks if _ANIMALS IF DECLARED
 #ifndef _ANIMALS_
 

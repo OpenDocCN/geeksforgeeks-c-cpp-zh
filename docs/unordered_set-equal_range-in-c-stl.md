@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
  setname.equal_range(key name)
 
 ```
@@ -17,7 +17,7 @@
 它返回两个迭代——包含该键的范围的下限和上限。
 **示例**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::equal_range function
 #include <iostream>
@@ -46,11 +46,11 @@ int main()
 
 **输出**
 
-```
+```cpp
 20
 ```
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::equal_range function
 #include <iostream>
@@ -80,7 +80,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Element does not exist
 
 ```

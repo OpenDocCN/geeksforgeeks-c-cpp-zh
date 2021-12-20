@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template<class T>
 struct is_trivially_copy_assignable
 
@@ -21,7 +21,7 @@ struct is_trivially_copy_assignable
 
 **语法:**
 
-```
+```cpp
 is_trivially_copy_assignable<T>::value
 
 ```
@@ -37,7 +37,7 @@ is_trivially_copy_assignable<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_copy_assignable
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int? true
 X? true
 Y? false

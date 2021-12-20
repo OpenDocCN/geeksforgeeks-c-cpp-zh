@@ -10,7 +10,7 @@
 
 ## ****c++****
 
-```
+```cpp
 **// C++ program to illustrate the use
 // of the break statement
 #include <iostream>
@@ -47,7 +47,7 @@ int main()
 
 ******输出:**
 
-```
+```cpp
 Value of i: 0
 Value of i: 1
 Value of i: 2
@@ -62,7 +62,7 @@ Value of i: 2
 
 ****T5】c++T7
 
-```
+```cpp
 // C++ program to illustrate the
 // use of the continue statement
 
@@ -107,7 +107,7 @@ T8********T10**输出:**T1
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of goto statement
 #include <iostream>
@@ -150,7 +150,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 value of i: 1
 value of i: 3
 value of i: 4

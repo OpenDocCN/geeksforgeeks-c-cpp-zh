@@ -6,7 +6,7 @@ C++中 **ios 类**的 **fail()** 方法用于检查流是否引发了任何失�
 
 **语法:**
 
-```
+```cpp
 bool fail() const;
 
 ```
@@ -17,7 +17,7 @@ bool fail() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of fail() function
 
@@ -43,14 +43,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream fail: 0
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of fail() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream fail: 1
 
 ```

@@ -22,7 +22,7 @@
 *   同样，数组的**(N/2–1)**奇数元素是从 1 开始的自然数的第一个**(N/2–1)**奇数元素。
 *   The Last odd element of the array is the required value to make the sum of the even and odd elements of the array equal.
 
-    ```
+    ```cpp
     Last Odd Element = 
        (sum of even elements) - 
        (sum of N/2 - 1 odd elements)
@@ -32,7 +32,7 @@
 
     ## C++
 
-    ```
+    ```cpp
     // C++ implementation to find the
     // array containing same count of
     // even and odd elements with equal
@@ -101,7 +101,7 @@
 
     ## Java 语言(一种计算机语言，尤用于创建网站)
 
-    ```
+    ```cpp
     // Java implementation to find the
     // array containing same count of
     // even and odd elements with equal
@@ -173,7 +173,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```cpp
     # Python3 implementation to find the 
     # array containing same count of 
     # even and odd elements with equal 
@@ -233,7 +233,7 @@
 
     ## C#
 
-    ```
+    ```cpp
     // C# implementation to find the
     // array containing same count of
     // even and odd elements with equal
@@ -306,7 +306,7 @@
 
     ## java 描述语言
 
-    ```
+    ```cpp
     <script>
 
     // JavaScript implementation to find the
@@ -372,7 +372,7 @@
 
     **Output:** 
 
-    ```
+    ```cpp
     1 2 3 4 5 6 11 8
     ```
 

@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -45,7 +45,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Derived::fun(char c) called
 ```
 
@@ -124,7 +124,7 @@ int main()
     d.fun();  // Works fine now 🙂
     return 0;
 }
-```
+```cpp
 
 **Output**
 

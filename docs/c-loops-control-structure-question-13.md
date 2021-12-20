@@ -4,7 +4,7 @@
 
 下面的 C 程序段会输出什么？(GATE CS 2012)
 
-```
+```cpp
 char inchar = 'A';
 switch (inchar)
 {
@@ -31,7 +31,7 @@ default:
 **解释:**在情况“A”下没有 break 语句。如果一个案例被执行，并且它不包含 break，那么所有后续的案例都被执行，直到找到 break 语句。这就是为什么开关内的所有东西都被打印出来。
 尝试以下程序作为练习。
 
-```
+```cpp
 int main()
 {
     char inchar = 'A';

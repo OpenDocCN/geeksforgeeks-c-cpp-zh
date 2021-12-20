@@ -4,7 +4,7 @@
 
 我们已经在[集合 1](https://www.geeksforgeeks.org/geometry-using-complex-numbers-stdcomplex-in-c/) 和[集合 2](https://www.geeksforgeeks.org/geometry-using-complex-numbers-c-set-2/) 中讨论了点 P 围绕原点的旋转。点 P 绕原点逆时针旋转角度θ如下所示:
 
-```
+```cpp
 Rotation of P about origin: P * polar(1.0, θ)
 
 ```
@@ -30,12 +30,12 @@ Rotation of P about origin: P * polar(1.0, θ)
 
 因此，
 
-```
+```cpp
  Rotation of P about Q : (P – Q) * polar(1.0, θ) + Q
 
 ```
 
-```
+```cpp
 // CPP example to illustrate the rotation 
 // of a point about another point
 #include <iostream>
@@ -81,7 +81,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The point P on rotating 90 degrees anti-clockwise about Q becomes: P_rotated(1, 4)
 
 ```

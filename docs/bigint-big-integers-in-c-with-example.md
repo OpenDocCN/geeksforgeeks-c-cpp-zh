@@ -50,7 +50,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -570,7 +570,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The number of digits in first big integer = 5
 first and second are equal!
 third is smaller than fourth!

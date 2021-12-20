@@ -14,7 +14,7 @@
 
 注意:孩子不是僵尸，因为父母叫等待。同样在这种情况下，父母不能验证孙儿的退出状态。
 
-```
+```cpp
 // C program of zombie prevention by
 // creating grandchild or double forking
 #include <stdio.h>

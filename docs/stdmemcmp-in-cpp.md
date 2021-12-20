@@ -5,7 +5,7 @@
 它比较 buf1 和 buf2 指向的数组的第一个计数字符。
 语法:
 
-```
+```cpp
 int memcmp(const void *buf1, const void *buf2, size_t count);
 Return Value: it returns an integer.
 Parameters:  
@@ -22,7 +22,7 @@ Greater than zero                    buf1 is greater than buf2.
 
 **实施例 1。当计数大于零时(> 0)**
 
-```
+```cpp
 // CPP program to illustrate std::memcmp()
 #include <iostream>
 #include <cstring>
@@ -49,14 +49,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Welcome to GeeksforGeeks is greater than Hello Geeks 
 
 ```
 
 **例 2。当计数小于零时(< 0)**
 
-```
+```cpp
 // CPP program to illustrate std::memcmp() 
 #include <cstring>
 #include <iostream>
@@ -77,14 +77,14 @@ int main()
 
 输出:
 
-```
+```cpp
 String 1 is less than String 2
 
 ```
 
 **例 3:当计数等于零时(= 0)**
 
-```
+```cpp
 // CPP program to illustrate std::memcmp()
 #include <iostream>
 #include <cstring>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Welcome to GeeksforGeeks is the same as Welcome to GeeksforGeeks
 
 ```

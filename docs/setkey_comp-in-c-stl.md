@@ -6,7 +6,7 @@
 
 ****语法:****
 
- **```
+ ```cpp
 key_compare set_name.key_comp() 
 
 ```** 
@@ -17,7 +17,7 @@ key_compare set_name.key_comp()
 
 演示上述功能的程序:
 
-```
+```cpp
 // C++ program to illustrate the
 // set::key_comp() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Set a has the numbers: 0 1 2 3 4 5 6 7 8 9
 
 ```

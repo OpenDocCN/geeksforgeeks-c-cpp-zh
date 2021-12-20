@@ -5,7 +5,7 @@
 这个函数类似于 c 语言中的 strtok，输入序列被拆分成标记，用分隔符隔开。分隔符通过谓词给出。
 **语法:**
 
-```
+```cpp
 Template:
 split(Result, Input, Predicate Pred);
 
@@ -23,7 +23,7 @@ Returns: A reference the result
 **应用:**用于将字符串拆分为子串，子串之间用分隔符隔开。
 T3】例:
 
-```
+```cpp
 Input : boost::split(result, input, boost::is_any_of("\t"))
        input = "geeks\tfor\tgeeks"
 Output : geeks
@@ -37,7 +37,7 @@ here separator is "\t".
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to split
 // string into substrings
 // which are separated by
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeks
 for
 geeks        

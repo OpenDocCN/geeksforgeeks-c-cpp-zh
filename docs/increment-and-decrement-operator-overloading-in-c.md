@@ -7,7 +7,7 @@
 假设我们定义了一个 Integer 类来处理整数上的操作。我们可以让函数 add()、减法()、乘法()和除法()来处理各自的运算。但是，为了使代码更直观，增强可读性，最好使用与给定操作(+、-、*、/分别对应的运算符，即我们可以替换以下代码
 **示例:**
 
-```
+```cpp
 Replace
 i5 = divide(add(i1, i2), subtract(i3, i4))
 
@@ -23,7 +23,7 @@ i5 = (i1 + i2) / (i3 - i4)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // prefix increment operator overloading
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before increment: i = 3
 After pre increment: i = 4
 ```
@@ -83,7 +83,7 @@ After pre increment: i = 4
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // postfix increment operator overloading
 
@@ -134,7 +134,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before increment: i = 3
 After post increment: i = 3
 ```
@@ -146,7 +146,7 @@ After post increment: i = 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // prefix decrement operator overloading
 
@@ -197,7 +197,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before decrement: i = 3
 After pre decrement: i = 2
 ```
@@ -206,7 +206,7 @@ After pre decrement: i = 2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // postfix decrement operator overloading
 
@@ -257,7 +257,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before decrement: i = 3
 After post decrement: i = 3
 ```

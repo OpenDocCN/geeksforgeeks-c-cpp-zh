@@ -21,7 +21,7 @@ E)如果 ptr 为空，则转到步骤 3，否则转到步骤 1
 
 ## C++
 
-```
+```cpp
 // Program to check if a given
 // string is valid IPv4 address or not
 #include <bits/stdc++.h>
@@ -126,7 +126,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Valid
 Valid
 Not valid

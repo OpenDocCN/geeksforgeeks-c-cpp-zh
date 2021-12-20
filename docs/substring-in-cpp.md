@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```cpp
 string substr (size_t pos, size_t len) const;
 Parameters:
 pos: Position of the first character to be copied.
@@ -25,7 +25,7 @@ Return value: It returns a string object.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate substr()
 #include <string.h>
 #include <iostream>
@@ -49,7 +49,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 String is: eek
 ```
 
@@ -61,7 +61,7 @@ String is: eek
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate substr()
 #include <string.h>
 #include <iostream>
@@ -87,7 +87,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 String is: cat
 ```
 
@@ -97,7 +97,7 @@ String is: cat
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate substr()
 #include <string.h>
 #include <iostream>
@@ -123,7 +123,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 String is: dog
 ```
 

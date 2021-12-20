@@ -11,7 +11,7 @@
 这里分析了这个程序的不同元素–
 **编码字符串**
 
-```
+```cpp
 "Hello!Welcome to GeeksForGeeks."
 "TFy!QJu ROo TNn(ROo)SLq SLq ULo+UHs UJq TNn*RPn/QPbEWS_JSWQAIJO^NBELPeHBFHT}TnALVlBL"
 "OFAkHFOuFETpHCStHAUFAgcEAelclcn^r^r\\tZvYxXyT|S~Pn SPm SOn TNn ULo0ULo#ULo-WHq!WFs XDt!";
@@ -23,7 +23,7 @@
 **内部 for 循环**
 此循环绘制单个字符，并在到达行尾时绘制一条新行。考虑一下这个 putchar 语句
 
-```
+```cpp
 putchar(++c=='Z' ? c = c/9 : 33^b&1);
 ```
 
@@ -32,7 +32,7 @@ putchar(++c=='Z' ? c = c/9 : 33^b&1);
 
 ## C++
 
-```
+```cpp
 // C++ program to print map of India
 #include <iostream>
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print map of India
 #include <stdio.h>
 
@@ -131,7 +131,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print map of India
 class GFG
 {
@@ -178,7 +178,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to print map of India
 a = 10
 b = 0
@@ -219,7 +219,7 @@ while a != 0:
 
 ## C#
 
-```
+```cpp
 // C# program to print map of India
 using System;
 
@@ -270,7 +270,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP Implementation to
 // print map of India

@@ -4,7 +4,7 @@
 
 以下配对的最合适匹配(GATE CS 2000)
 
-```
+```cpp
 X: m=malloc(5); m= NULL;        1: using dangling pointers
 Y: free(n); n->value=5;         2: using uninitialized pointers
 Z: char *p; *p = ’a’;           3\. lost memory is:

@@ -18,7 +18,7 @@ C 语言中隐式类型转换有多种方式，例如:
 
 **示例:**
 
-```
+```cpp
 bool        x = true;
 char        y = ‘X’;
 int         i = 123;
@@ -41,7 +41,7 @@ d = i;   // value of d is 1234.0
     同样，如果一个**长双**值存储在一个浮点型变量中，那么只有当该值符合否则非常**大的值变得无效**时，结果才有效。
     **例:**
 
-    ```
+    ```cpp
     bool  b = false;
     char  c = ‘X’;
     short s = 98;
@@ -62,7 +62,7 @@ d = i;   // value of d is 1234.0
 
     **示例:**
 
-    ```
+    ```cpp
     bool        x = true;
     char        y = ‘X’;
     int         i = 123;
@@ -77,7 +77,7 @@ d = i;   // value of d is 1234.0
 
     下面是一个示例，演示数值类型的隐式类型转换，以便更好地理解。
 
-    ```
+    ```cpp
     // C program to demonstrate Implicit
     // Type Conversion of numeric types
 
@@ -120,7 +120,7 @@ d = i;   // value of d is 1234.0
 
     **Output:**
 
-    ```
+    ```cpp
     bool + char is char:     Y
     int * short is int:      12054
     float * char is float:   108636.000000

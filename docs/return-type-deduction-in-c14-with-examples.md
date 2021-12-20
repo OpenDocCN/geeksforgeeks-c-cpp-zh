@@ -8,7 +8,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++14 program to illustrate the
 // return type deduction
 #include <iostream>
@@ -37,7 +37,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 20
 
 ```
@@ -48,7 +48,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ 14 program to illustrate the
 // return type deduction
 #include <iostream>
@@ -91,7 +91,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++14 program to illustrate return
 // type deduction using auto&
 #include <iostream>
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 11
 11
 
@@ -131,7 +131,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++14 program to illustrate return
 // type deduction using decltype()
 #include <iostream>
@@ -162,7 +162,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 11
 11
 

@@ -22,7 +22,7 @@ GLU 库包含一个函数，为 GLU 和 GL 的每个错误返回一个描述性�
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 GLenum code;
 
@@ -38,7 +38,7 @@ fprintf(stderr, "OpenGL error: %s\n", string);
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 

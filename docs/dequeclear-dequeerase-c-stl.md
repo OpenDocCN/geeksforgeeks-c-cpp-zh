@@ -9,7 +9,7 @@
 clear()函数用于移除 deque 容器的所有元素，从而使其大小为 0。
 **语法:**
 
-```
+```cpp
 ***dequename.clear()***
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ removed ( or destroyed )
 
 示例:
 
-```
+```cpp
 Input  : mydeque = {1, 2, 3, 4, 5}
          mydeque.clear();
 Output : mydeque = {}
@@ -36,7 +36,7 @@ Output : mydeque = {}
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of clear() function
 #include <deque>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 *No Output*
 ```
 
@@ -68,7 +68,7 @@ int main()
 erase()函数用于从指定位置或范围移除容器中的元素。
 **语法:**
 
-```
+```cpp
 1\. ***dequename.erase(position)***
 2\. ***dequename.erase(startingposition, endingposition)***
 Parameters :
@@ -81,7 +81,7 @@ position of the container.
 
 示例:
 
-```
+```cpp
 Input  : mydeque{1, 2, 3, 4, 5}, iterator= 2
          mydeque.erase(iterator);
 Output : 1, 2, 4, 5
@@ -98,7 +98,7 @@ Output : 1, 2, 3, 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of erase() function
 #include <deque>
@@ -122,7 +122,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3 4 5
 ```
 
@@ -130,7 +130,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of erase() function
 #include <deque>
@@ -158,14 +158,14 @@ int main()
 
 输出:
 
-```
+```cpp
 4 5
 ```
 
 **应用程序**
 给定一个整数列表，从德格中移除所有偶数元素并打印德格。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :1 3 5 7 9
 *Explanation - 2, 4, 6 and 8 which are even are erased from the deque*
@@ -178,7 +178,7 @@ Output :1 3 5 7 9
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of erase() function
 #include <deque>
@@ -207,7 +207,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 5 7 9
 ```
 

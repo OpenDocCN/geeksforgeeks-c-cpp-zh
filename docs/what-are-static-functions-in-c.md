@@ -8,7 +8,7 @@
 
 在 C 语言中，函数默认是全局的。函数名前的“ *static* 关键字使其成为静态的。比如下面的功能 *fun()* 就是静态的。
 
-```
+```cpp
 static int fun(void)
 {
   printf("I am a static function ");
@@ -19,7 +19,7 @@ static int fun(void)
 
 例如，如果我们将以下程序存储在一个文件*文件 1.c* 中
 
-```
+```cpp
 /* Inside file1.c */ 
 static void fun1(void)
 {
@@ -29,7 +29,7 @@ static void fun1(void)
 
 并将以下程序存储在另一个文件*文件 2.c*
 
-```
+```cpp
 /* Inside file2.c  */ 
 int main(void)
 {

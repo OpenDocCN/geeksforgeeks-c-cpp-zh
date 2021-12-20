@@ -5,7 +5,7 @@
 **问题:**统计从 1 到 N 有多少个整数包含 0 作为数字。
 **例:**
 
-```
+```cpp
 Input:  n = 9
 Output: 0
 
@@ -39,7 +39,7 @@ The numbers having 0 are 10, 20,..90, 100, 101..110,
 
 让我们用一个例子来说明。
 
-```
+```cpp
 Let the number be n = 123. non_zero = 0
 We encounter 1 first, 
  add (1-1)*92  to non_zero (= 0+0)
@@ -59,7 +59,7 @@ We encounter 3,
 
 ## C++
 
-```
+```cpp
 //Modified C++ program to count number from 1 to n with
 // 0 as a digit.
 #include <bits/stdc++.h>
@@ -147,7 +147,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 //Modified Java program to count number from 1 to n with
 // 0 as a digit.
 
@@ -236,7 +236,7 @@ static int countZero(String num)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to count number from 1 to n
 # with 0 as a digit.
 
@@ -309,7 +309,7 @@ print("Count of numbers from 1 to",
 
 ## C#
 
-```
+```cpp
 // Modified C# program to count number from 1 to n with
 // 0 as a digit. 
 
@@ -399,7 +399,7 @@ static int countZero(String num)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to count
 // number from 1 to n
@@ -502,7 +502,7 @@ echo "Count of numbers from 1 to " .
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Modified javascript program to count number from 1 to n with
@@ -589,7 +589,7 @@ document.write("<br>Count of numbers from 1" + " to "
 
 **输出:**
 
-```
+```cpp
 Count of numbers from 1 to 107 is 17 
 Count of numbers from 1 to 1264 is 315
 ```

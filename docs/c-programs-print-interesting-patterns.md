@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : 5
 Output: 
 * * * * *  * * * * *
@@ -25,7 +25,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 // C++ program to print
 // the given pattern
 #include<iostream>
@@ -91,7 +91,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print
 // the given pattern
 
@@ -151,7 +151,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print
 // the given pattern
 import java.io.*;
@@ -215,7 +215,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to print
 # the given pattern
 
@@ -262,7 +262,7 @@ pattern(7);
 
 ## C#
 
-```
+```cpp
 // C# program to print
 // the given pattern
 using System;
@@ -332,7 +332,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to print
 // the given pattern
@@ -391,7 +391,7 @@ pattern(7);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
       // JavaScript program to print
@@ -445,7 +445,7 @@ pattern(7);
 
 **输出:**
 
-```
+```cpp
 * * * * * * *  * * * * * * *
 * * * * * *      * * * * * *
 * * * * *          * * * * *
@@ -466,7 +466,7 @@ pattern(7);
 
 **示例:**
 
-```
+```cpp
 Input : 5
 Output: 
 *                  *
@@ -485,7 +485,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 // C++ program to print the
 // given pattern
 #include <bits/stdc++.h>
@@ -548,7 +548,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print the
 // given pattern
 
@@ -608,7 +608,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print the
 // given pattern
 
@@ -673,7 +673,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to
 # print the given pattern
 
@@ -724,7 +724,7 @@ pattern(7);
 
 ## C#
 
-```
+```cpp
 // C# program to print
 // the given pattern
 using System;
@@ -794,7 +794,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to print
 // the given pattern
@@ -853,7 +853,7 @@ pattern(7);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to print the
@@ -915,7 +915,7 @@ pattern(7);
 
 **输出:**
 
-```
+```cpp
 *                          *
 * *                      * *
 * * *                  * * *

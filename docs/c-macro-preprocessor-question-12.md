@@ -4,7 +4,7 @@
 
 预测后续程序的输出？
 
-```
+```cpp
 #include <stdio.h>
 #define MAX 1000
 int main()
@@ -24,7 +24,7 @@ int main()
 
 **说明:**编译预处理阶段后，函数 main()更改为如下
 
-```
+```cpp
 int main()
 {
    int 1000 = 100;  // COMPILER ERROR: expected unqualified-id before numeric constant

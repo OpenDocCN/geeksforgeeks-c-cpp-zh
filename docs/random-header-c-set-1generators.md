@@ -15,7 +15,7 @@
 
 **1。线性 _ 同余 _ 引擎**:是 STL 库中最简单的生成随机无符号整数的引擎。接下来是:
 
-```
+```cpp
  x = (a.x +c) mod m 
 Where x= current state value  
             a = multiplier parameter ; if m is not zero, 
@@ -31,7 +31,7 @@ Where x= current state value
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator(), max and min
 // in linear_congruential_engine
@@ -64,7 +64,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 211182246 is a random number between 1 and 2147483646
 ```
 
@@ -77,7 +77,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use of
 // operator(), min and max
 // in mersenne_twister_engine
@@ -109,7 +109,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 3348201622 is a random number between 0 and 4294967295
 ```
 
@@ -122,7 +122,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use of
 // operator(), min and max
 // in subtract_with_carry_engine
@@ -153,7 +153,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 8606455 is a random number between 0 and 16777215
 ```
 
@@ -166,7 +166,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use of
 // operator(), min and max
 // in random_device
@@ -199,7 +199,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 default random_device characteristics:
 minimum: 0
 maximum: 4294967295
@@ -218,7 +218,7 @@ a random number: 3705944883
 *   **运算符()**:返回一个新的随机数。
     该函数将内部状态改变 1，根据给定的算法修改状态值:
 
-```
+```cpp
  x= (a.x + c)mod m
  Where x= current state value
  a and c = respective class template parameters
@@ -227,7 +227,7 @@ a random number: 3705944883
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use of 
 // operator(), min and max
 // in default_random_engine 
@@ -259,7 +259,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 201066682 is a random number between 1 and 2147483646
 ```
 
@@ -267,7 +267,7 @@ int main ()
 
 *   **运算符():**返回一个新的随机数。该函数将内部状态更改一，这将根据以下算法修改状态值:
 
-```
+```cpp
 x = (a.x + c) mod m
 where x= current state value
 a ,c and m=class template parameter
@@ -278,7 +278,7 @@ a ,c and m=class template parameter
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator(), max and min
 // in minstd_rand
@@ -311,7 +311,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 489592737 is a random number between 1 and 2147483646
 ```
 
@@ -323,7 +323,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the 
 // use of operator(),min and max 
 // in mt19937
@@ -356,7 +356,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 1445431990 is a random number between 0 and 4294967295
 ```
 
@@ -369,7 +369,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate 
 // the use of operator(),min and max
 // in ranlux24_base
@@ -399,7 +399,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 7275352 is a random number between 0 and 16777215
 ```
 
@@ -420,7 +420,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator(),min and max
 // in the discard_block_engine
@@ -453,7 +453,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 8132325 is a random number between 0 and 16777215
 ```
 
@@ -466,7 +466,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator(),min and max
 // in independent_bits_engine
@@ -502,7 +502,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 13551674127875514537 is a random number between 0 and 184467
 ```
 
@@ -516,7 +516,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator(),min and max
 // in shuffle_order_engine
@@ -548,6 +548,6 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 9213395 is a random number between 0 and 16777215
 ```

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 size_t c16rtomb(char* s, char16_t c16, mbstate_t* p)
 ```
 
@@ -24,7 +24,7 @@ size_t c16rtomb(char* s, char16_t c16, mbstate_t* p)
 
 ****程序 1** :**
 
-```
+```cpp
 // C++ program to illustrate the
 // c16rtomb () function on it's success
 #include <iostream>
@@ -56,14 +56,14 @@ int main()
 
 ****输出:**
 
-```
+```cpp
 Ishwar Gupta
 
 ```
 
 **程序二** :
 
-```
+```cpp
 // C++ program to illustrate the
 // c16rtomb () function on it's failure
 #include <iostream>

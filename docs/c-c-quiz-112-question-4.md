@@ -4,7 +4,7 @@
 
 选择以下计划的最佳陈述:
 
-```
+```cpp
 #include "stdio.h"
 
 int main()

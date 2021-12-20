@@ -9,7 +9,7 @@
 push_front()函数用于将元素从前面推入前进列表。在当前第一个元素和容器大小增加 1 之前，新值被插入到转发列表的开头。
 **语法:**
 
-```
+```cpp
 ***forwardlistname.push_front(value)***
 Parameters :
 The value to be added in the front is 
@@ -21,7 +21,7 @@ front of the forward list named as *forwardlistname*
 
 示例:
 
-```
+```cpp
 Input : forward_list forwardlist{1, 2, 3, 4, 5};
         forwardlist.push_front(6);
 Output : 6, 1, 2, 3, 4, 5
@@ -37,7 +37,7 @@ Output :6, 5, 4, 3, 2, 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // push_front() function
 #include <forward_list>
@@ -58,20 +58,20 @@ int main()
 
 输出:
 
-```
+```cpp
 6 1 2 3 4 5
 ```
 
 **应用:**使用 push_front()函数输入一个空的正向列表，该列表包含以下数字和顺序，并对给定的正向列表进行排序。
 
-```
+```cpp
 Input :  7, 89, 45, 6, 24, 58, 43
 Output : 6, 7, 24, 43, 45, 58, 89
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of push_front() function
 #include <forward_list>
@@ -101,7 +101,7 @@ int main()
 
 输出
 
-```
+```cpp
 6 7 24 43 45 58 89
 ```
 
@@ -110,7 +110,7 @@ int main()
 pop_front()函数用于从前面弹出或移除正向列表中的元素。该值将从列表的开头移除，容器大小将减少 1。
 **语法:**
 
-```
+```cpp
 ***forwardlistname.pop_front()***
 Parameters :
 No parameter is passed as the parameter.
@@ -121,7 +121,7 @@ of the given forward list named as *forwardlistname*
 
 示例:
 
-```
+```cpp
 Input : forward_list forwardlist{1, 2, 3, 4, 5};
         forwardlist.pop_front();
 Output :2, 3, 4, 5
@@ -137,7 +137,7 @@ Output :4, 3, 2, 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // pop_front() function
 #include <forward_list>
@@ -158,20 +158,20 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3 4 5
 ```
 
 **应用:**使用 push_front()功能，输入一个空的正向列表，列表的编号和顺序如下，打印列表的反面。
 
-```
+```cpp
 Input : 1, 2, 3, 4, 5, 6, 7, 8
 Output: 8, 7, 6, 5, 4, 3, 2, 1
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of pop_front() function
 #include <forward_list>
@@ -203,6 +203,6 @@ int main()
 
 输出
 
-```
+```cpp
 8 7 6 5 4 3 2 1
 ```

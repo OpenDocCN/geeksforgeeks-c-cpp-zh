@@ -39,7 +39,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate difference
 // between the numeric limits min, max,
 // and the lowest
@@ -136,7 +136,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 int 4 bytes
     max :
 01111111111111111111111111111111
@@ -173,7 +173,7 @@ float 4 bytes
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 
@@ -229,7 +229,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 lowest :
 -3.40282e+38
 11111111011111111111111111101110

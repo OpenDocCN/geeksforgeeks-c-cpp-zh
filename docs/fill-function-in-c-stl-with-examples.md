@@ -6,7 +6,7 @@ C++ STL 中的 fill()函数用于填充容器中的一些默认值。fill()函�
 
 **语法** :
 
-```
+```cpp
 void fill(iterator begin, iterator end, type value);
 
 ```
@@ -23,7 +23,7 @@ void fill(iterator begin, iterator end, type value);
 
 下图程序说明了 C++ STL 中的 fill()函数:
 
-```
+```cpp
 // C++ program to demonstrate working of fill()
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0 0 4 4 4 4 4 0 
 10 10 10 10 10 10 10 10
 

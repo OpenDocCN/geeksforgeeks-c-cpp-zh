@@ -4,7 +4,7 @@
 
 假设一个整数的大小是 4 字节。预测产量？
 
-```
+```cpp
 #include <stdio.h>
 int fun()
 {

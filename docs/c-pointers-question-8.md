@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointers-question-8/](https://www.geeksforgeeks.org/c-pointers-question-8/)
 
-```
+```cpp
 int main()
 {
  char *ptr = "GeeksQuiz";
@@ -22,7 +22,7 @@ int main()
 
 现在试试下面
 
-```
+```cpp
 int main()
 {
  char *ptr = "GeeksQuiz";

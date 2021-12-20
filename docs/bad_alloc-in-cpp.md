@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP code for bad_alloc
 #include <iostream>
 #include <new>
@@ -33,7 +33,7 @@ int main () {
 
 RunTime error :
 
-```
+```cpp
 bad_alloc caught: std::bad_alloc
 
 ```

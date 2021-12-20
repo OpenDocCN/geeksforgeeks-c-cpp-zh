@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 
 main( ) 
 {
@@ -20,7 +20,7 @@ main( )
 
 **示例:**
 
-```
+```cpp
 // C program to demonstrate
 // Internal Static Variables
 
@@ -43,7 +43,7 @@ int value()
 
 **Output:**
 
-```
+```cpp
 5
 
 ```
@@ -52,7 +52,7 @@ int value()
 
 **语法:**
 
-```
+```cpp
 
 static datatype variable;
 
@@ -70,7 +70,7 @@ function1()
 
 **示例:**
 
-```
+```cpp
 // C program to demonstrate
 // External Static Variables
 
@@ -96,7 +96,7 @@ int add(int c, int b)
 
 **Output:**
 
-```
+```cpp
 10
 
 ```

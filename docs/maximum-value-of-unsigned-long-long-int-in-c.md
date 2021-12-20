@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to obtain the maximum
 // value stored in unsigned long long int
 #include <climits>
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value from climits constant: 18446744073709551615
 Value using the wrap around property: 18446744073709551615
 

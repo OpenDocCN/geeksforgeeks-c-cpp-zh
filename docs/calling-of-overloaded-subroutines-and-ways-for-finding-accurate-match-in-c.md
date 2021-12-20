@@ -4,7 +4,7 @@
 
 就像其他[子程序](https://www.geeksforgeeks.org/subroutine-subroutine-nesting-and-stack-memory/)一样，重载子程序也被调用。要决定调用哪个函数，确定参数的数量和类型很重要。例如，下面的代码部分将讲述调用重载子例程:
 
-```
+```cpp
 prnsqr('z')                   // calls #2
 prnsqr(13)                    // calls #1
 prnsqr(134.520000012)         // calls #4
@@ -16,7 +16,7 @@ prnsqr(12.5F)                 // calls #3
 
 在[浮点](https://www.geeksforgeeks.org/comparison-float-value-c/)值、双精度值或 [int](https://www.geeksforgeeks.org/int-1-sign-bit-31-data-bits-keyword-in-c/) 值或 [long](https://www.geeksforgeeks.org/need-long-data-type-c-cpp/) 值之间，可能会有歧义，如以下声明所调用的函数:
 
-```
+```cpp
 void prnsqr(double d);
 ```
 
@@ -26,7 +26,7 @@ void prnsqr(double d);
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First Distance : centimeter: 87kilometer:33
 Second Distance :centimeter: 30kilometer:120
 
@@ -111,7 +111,7 @@ Second Distance :centimeter: 30kilometer:120
 
 *   **Searching for an exact match:** When the actual argument type matches exactly with the type of one defined instance, the compiler will invoke for that instance. For Examples:
 
-    ```
+    ```cpp
     // For overloaded functions
     void afunc(int);
     void afunc(double);    
@@ -127,7 +127,7 @@ Second Distance :centimeter: 30kilometer:120
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program for the above approach
 
     #include <iostream>
@@ -155,7 +155,7 @@ Second Distance :centimeter: 30kilometer:120
 
     **Output:**
 
-    ```
+    ```cpp
     Integer:0
 
     ```
@@ -174,7 +174,7 @@ Second Distance :centimeter: 30kilometer:120
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program for the above approach
     #include <iostream>
     using namespace std;
@@ -202,7 +202,7 @@ Second Distance :centimeter: 30kilometer:120
 
     **Output:**
 
-    ```
+    ```cpp
     Integer:100
 
     ```
@@ -218,7 +218,7 @@ Second Distance :centimeter: 30kilometer:120
 
     使用 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 标准转换规则，int 参数 **471** 可以转换为双精度值 **471** ，如果实际参数可以转换为多种形式参数类型，编译器将生成一条错误消息，因为它是不明确的匹配。例如:
 
-    ```
+    ```cpp
     void afunc(long)
     void afunc(double)
 
@@ -233,7 +233,7 @@ Second Distance :centimeter: 30kilometer:120
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program to explain the standard
     // conversion rule
     #include <iostream>
@@ -267,7 +267,7 @@ Second Distance :centimeter: 30kilometer:120
 
     **Output:**
 
-    ```
+    ```cpp
     h = 108
     s = a
     f = 109
@@ -282,7 +282,7 @@ Second Distance :centimeter: 30kilometer:120
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program to illustrate the user
     // defined type casting
     #include <iostream>
@@ -304,7 +304,7 @@ Second Distance :centimeter: 30kilometer:120
 
     **Output:**
 
-    ```
+    ```cpp
     Add = 3
 
     ```

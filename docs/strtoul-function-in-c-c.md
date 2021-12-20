@@ -6,7 +6,7 @@ C/C++中的**strtool()**函数，该函数根据给定的基数将 str 中字符
 
 **语法:**
 
-```
+```cpp
 unsigned long int strtoul(const char *str, char **end, int base)
 ```
 
@@ -27,7 +27,7 @@ unsigned long int strtoul(const char *str, char **end, int base)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoul() function
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The unsigned long integer is : 15124320
 String in str is :  Geeks For Geeks
 ```
@@ -67,7 +67,7 @@ String in str is :  Geeks For Geeks
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoul() function with
 // different bases
@@ -111,7 +111,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The unsigned long integer is : 12345
 String in str is :  GFG
 The unsigned long integer is : 24677

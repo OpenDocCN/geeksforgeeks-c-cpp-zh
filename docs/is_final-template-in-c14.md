@@ -6,7 +6,7 @@ C++ STL 的 **std::is_final 模板**用于检查类型是否为 final。
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_final;
 
 ```
@@ -24,7 +24,7 @@ template < class T > struct is_final;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_final template
 
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_final:
 gfg:false
 sam:true
@@ -71,7 +71,7 @@ int:false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_final template
 
@@ -107,7 +107,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_final:
 gfg:false
 sam:true
@@ -117,7 +117,7 @@ float:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_final template
 
@@ -155,7 +155,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_final:
 sam:true
 gfg:false

@@ -6,13 +6,13 @@ C 程序设计中的 isupper()函数检查给定字符是否大写。isupper()�
 
 **语法:**
 
-```
+```cpp
 int isupper ( int x );
 ```
 
 **示例:**
 
-```
+```cpp
 Input: A
 Output: Entered character is uppercase character
 Input: a
@@ -23,7 +23,7 @@ Output: Entered character is not uppercase character
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // isupper() function
 #include <ctype.h>
@@ -42,14 +42,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Entered character is uppercase character
 ```
 
 **应用:**C 编程语言中的 isupper()函数用于找出给定句子中出现的大写字母总数。
 T3】例:
 
-```
+```cpp
 Input: GEEKSFORGEEKS
 Output: Number of upper case present in the sentence is : 13
 Input: GeeksFORGeeks
@@ -60,7 +60,7 @@ Output: Number of upper case present in the sentence is : 0
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // isupper() function
 
@@ -100,6 +100,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Number of upper case present in the sentence is : 3 
 ```

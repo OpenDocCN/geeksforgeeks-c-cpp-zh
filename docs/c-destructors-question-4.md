@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-destructors-question-4/](https://www.geeksforgeeks.org/c-destructors-question-4/)
 
-```
+```cpp
 #include <iostream>
 using namespace std; 
 class A
@@ -30,7 +30,7 @@ int main() {
 
 **(甲)**
 
-```
+```cpp
 constructor for id 1
 constructor for id 2
 constructor for id 3
@@ -41,7 +41,7 @@ destructor for id 1
 
 **(B)**
 
-```
+```cpp
 constructor for id 1
 constructor for id 2
 constructor for id 3
@@ -52,13 +52,13 @@ destructor for id 3
 
 **(C)**
 
-```
+```cpp
 Compiler Dependent.
 ```
 
 **(D)**
 
-```
+```cpp
 constructor for id 1
 destructor for id 1
 ```
@@ -67,7 +67,7 @@ destructor for id 1
 
 **说明:**在上面的程序中，id 是一个静态变量，它随着每个对象的创建而递增。首先创建对象 a[0]，但首先销毁对象 a[2]。对象总是按照与创建相反的顺序被销毁。颠倒顺序的原因是，以后创建的对象可能会使用以前创建的对象。例如，考虑下面的代码片段。
 
-```
+```cpp
 A a;
 B b(a);
 ```

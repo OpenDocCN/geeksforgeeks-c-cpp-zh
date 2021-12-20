@@ -21,7 +21,7 @@
 
 ## **C++14**
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of vector of maps
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 ****Output:** 
 
-```
+```cpp
 Frequency upto position 1
 g-1
 Frequency upto position 2

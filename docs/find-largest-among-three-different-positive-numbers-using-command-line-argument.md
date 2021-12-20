@@ -12,7 +12,7 @@
 
 *   **命令行参数**在操作系统命令行外壳中的程序名称后面给出。为了传递命令行参数，我们通常使用两个参数来定义 main():第一个参数是命令行参数的数量，第二个参数是命令行参数的列表。
 
-    ```
+    ```cpp
     int main(int argc, char *argv[]) { /* ... */ }
     ```
 
@@ -20,7 +20,7 @@
 
     例:
 
-    ```
+    ```cpp
     Input  : filename 8 9 45
     Output : 45 is largest
 
@@ -42,7 +42,7 @@
 
     为了更好的理解，在你的 linux 机器上运行这段代码。
 
-    ```
+    ```cpp
     // C program for finding the largest integer
     // among three numbers using command line arguments
     #include<stdio.h>

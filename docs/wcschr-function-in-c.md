@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 const wchar_t* wcschr (const wchar_t* ws, wchar_t wc)
       wchar_t* wcschr (      wchar_t* ws, wchar_t wc)
 
@@ -25,7 +25,7 @@ const wchar_t* wcschr (const wchar_t* ws, wchar_t wc)
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcschr() function
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Looking for the 'o' character in "This is some good coding"...
 found at 10
 found at 15
@@ -65,7 +65,7 @@ found at 20
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcschr() function
 #include <bits/stdc++.h>
@@ -94,7 +94,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Looking for the 'g' character in "geekforgeeks"...
 found at 1
 found at 8

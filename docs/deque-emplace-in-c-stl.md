@@ -6,7 +6,7 @@
 **侵位()**功能在指定位置前插入新元素，容器的大小增加一。
 **语法:**
 
-```
+```cpp
 iterator emplace(const_iterator position, value_type val);
 ```
 
@@ -21,7 +21,7 @@ iterator emplace(const_iterator position, value_type val);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <deque>
 #include <iostream>
 using namespace std;
@@ -52,7 +52,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 5
 ```
 
@@ -60,7 +60,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <deque>
 #include <iostream>
 using namespace std;
@@ -94,6 +94,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 GEEKS
 ```

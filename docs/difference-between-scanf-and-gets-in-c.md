@@ -11,7 +11,7 @@
 
 例如，请参见以下代码:
 
-```
+```cpp
 // C program to see how scanf()
 // stops reading input after whitespaces
 
@@ -29,7 +29,7 @@ int main()
 
 **这里输入由用户提供，输出如下:**
 
-```
+```cpp
 Input: Geeks for Geeks
 Output: Geeks
 
@@ -43,7 +43,7 @@ Output: Computer
 *   它用于从标准输入(键盘)读取输入。
 *   它用于读取输入，直到遇到换行符或文件结束符。
 
-```
+```cpp
 // C program to show how gets() 
 // takes whitespace as a string.
 
@@ -60,7 +60,7 @@ int main()
 
 **这里输入将由用户提供如下**
 
-```
+```cpp
 Input: Geeks for Geeks
 Output: Geeks for Geeks
 
@@ -86,7 +86,7 @@ Output: Computer science
 
 实际上，我们可以使用 scanf()读取整个字符串。例如，我们可以在 scanf()中使用 **%[^\n]s** 来读取整个字符串。
 
-```
+```cpp
 // C program to show how to read
 // entire string using scanf()
 
@@ -110,7 +110,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 Input: Geeks for Geeks
 Output: Geeks for Geeks
 

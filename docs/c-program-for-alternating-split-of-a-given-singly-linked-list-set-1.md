@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 /* C Program to alternatively split a 
    linked list into two halves */
 #include<stdio.h>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original linked List: 0 1 2 3 4 5 
 Resultant Linked List 'a' : 4 2 0 
 Resultant Linked List 'b' : 5 3 1
@@ -174,7 +174,7 @@ Resultant Linked List 'b' : 5 3 1
 
 ## C
 
-```
+```cpp
 void AlternatingSplit(struct Node* source, 
                       struct Node** aRef, 
                       struct Node** bRef) 

@@ -15,7 +15,7 @@ std::count()返回给定范围内元素出现的次数。返回范围[第一个�
 
 **计算数组中的出现次数。**
 
-```
+```cpp
 // C++ program for count in C++ STL for
 // array
 #include <bits/stdc++.h>
@@ -32,14 +32,14 @@ int main()
 }
 ```
 
-```
+```cpp
 Number of times 3 appears : 4
 
 ```
 
 **计算向量中的出现次数。**
 
-```
+```cpp
 // C++ program for count in C++ STL for
 // a vector
 #include <bits/stdc++.h>
@@ -55,14 +55,14 @@ int main()
 }
 ```
 
-```
+```cpp
 Number of times 3 appears : 4
 
 ```
 
 **计算字符串中出现的次数。**
 
-```
+```cpp
 // C++ program for the count in C++ STL
 // for a string
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Number of times 'e' appears : 4
 
 ```

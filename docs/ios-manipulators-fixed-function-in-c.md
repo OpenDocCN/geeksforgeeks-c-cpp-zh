@@ -6,7 +6,7 @@ C++中**流操纵器**的 **fixed()** 方法用于设置指定字符串流的 fl
 
 **语法:**
 
-```
+```cpp
 ios_base& fixed (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& fixed (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of fixed() function
 
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without fixed flag: 1.23
 with fixed flag: 1.23000
 
@@ -54,7 +54,7 @@ with fixed flag: 1.23000
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of fixed() function
 
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without fixed flag: 1
 with fixed flag: 1.00000
 
@@ -91,7 +91,7 @@ with fixed flag: 1.00000
 
 **例 3:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of fixed() function
 
@@ -120,7 +120,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without fixed flag: 1.23e+09
 with fixed flag: 1230000000.00000
 

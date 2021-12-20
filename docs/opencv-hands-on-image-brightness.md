@@ -4,7 +4,7 @@
 
 亮度意味着改变每个图像像素的值。这种变化可以通过增加或减少图像的像素值来实现，增加或减少任何常数。本文深入介绍了如何使用 OpenCV 改变图像亮度。
 
-```
+```cpp
 Input : 
 Original Image
 
@@ -19,7 +19,7 @@ Output :
 
  **代码:CPP 代码操纵图像亮度**
 
-```
+```cpp
 // c++ code explaining how to
 // increase or decrease the brightness of
 // an image
@@ -119,7 +119,7 @@ int main(int argc, char** argv)
 
 ## **说明:**
 
-```
+```cpp
 // Declaring the Brightness Instances
 
 Mat imageBrighnessHigh50;
@@ -144,7 +144,7 @@ image.convertTo(imageBrighnessLow100, -1, 1, -100);
 **MAT 函数:**
 MAT 函数将每个图像像素值更改为目标数据类型，并且这些值会随着增加或减少而改变。
 
-```
+```cpp
 Parameters : 
 
 m      : Output Image 

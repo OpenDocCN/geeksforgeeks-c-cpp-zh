@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 key_compare multiset_name.key_comp();
 
 ```
@@ -19,7 +19,7 @@ key_compare multiset_name.key_comp();
 
 **例 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // multiset::key_comp() function
 
@@ -63,7 +63,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Multiset has the elements
  10 20 30 40
 
@@ -71,7 +71,7 @@ Multiset has the elements
 
 **例 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // multiset::key_comp() function
 
@@ -115,7 +115,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Multiset has the elements
  100 200 300 400
 

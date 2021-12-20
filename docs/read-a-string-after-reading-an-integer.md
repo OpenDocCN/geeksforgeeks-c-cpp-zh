@@ -10,7 +10,7 @@
 
 ## 之后输入一个带有空格的 的程序
 
-```
+```cpp
 // C++ program that inputs a string
 // with spaces just after taken an
 // input of an integer

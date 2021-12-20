@@ -6,7 +6,7 @@
 
 为了检查这一点，首先想到的是下面的程序。
 
-```
+```cpp
 #include "stdio.h"
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 
 为了展示这种差异，我建议看一下下面的程序。
 
-```
+```cpp
 #include "stdio.h"
 int main()
 {

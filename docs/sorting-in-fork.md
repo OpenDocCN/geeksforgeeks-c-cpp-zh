@@ -5,7 +5,7 @@
 **先决条件–**[引入 fork()](https://www.geeksforgeeks.org/fork-system-call/) 、[排序算法](https://www.geeksforgeeks.org/sorting-algorithms/)
 **问题语句–**编写程序对父进程中的编号进行排序，并打印子进程中未排序的编号。例如:
 
-```
+```cpp
 Input : 5, 2, 3, 1, 4
 
 Output :
@@ -30,7 +30,7 @@ numbers to sort are
 
 **代码–**
 
-```
+```cpp
 // C++ program to demonstrate sorting in parent and
 // printing result in child processes using fork()
 #include <iostream>
@@ -74,7 +74,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 Output :
 Parent process 
 sorted numbers are 1 2 3 4 5 6 7 8 9 10

@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of int (*p)[3]
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3
 
 ```
@@ -68,7 +68,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of int*p[3]
 #include <bits/stdc++.h>
@@ -101,7 +101,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3
 
 ```

@@ -9,7 +9,7 @@
 sort()函数用于通过改变容器元素的位置来对它们进行排序。
 **语法:**
 
-```
+```cpp
 ***1.***    ***forwardlistname.sort()***
     Parameters :
     No parameters are passed.
@@ -27,7 +27,7 @@ sort()函数用于通过改变容器元素的位置来对它们进行排序。
 
 示例:
 
-```
+```cpp
 Input  : myflist{1, 5, 3, 2, 4};
          myflist.sort();
 Output : 1, 2, 3, 4, 5
@@ -42,7 +42,7 @@ Output : Geekforgeeks, This, is
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // SORTING INTEGERS
 // CPP program to illustrate
 // Implementation of sort() function
@@ -67,13 +67,13 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // SORTING STRINGS
 // CPP program to illustrate
 // Implementation of sort() function
@@ -99,7 +99,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeksforgeeks This is
 ```
 
@@ -107,7 +107,7 @@ Geeksforgeeks This is
 
 ## C++
 
-```
+```cpp
 // SORTING STRINGS USING CUSTOM COMPARATOR FUNCTION
 // CPP program to illustrate
 // Implementation of sort() function
@@ -137,7 +137,7 @@ int main()
 
 输出:
 
-```
+```cpp
 is This Geeksforgeeks
 ```
 

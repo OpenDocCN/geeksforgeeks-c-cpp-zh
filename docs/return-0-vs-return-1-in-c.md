@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to divide two numbers
 #include <iostream>
 using namespace std;
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Division by zero is not possible.
 
 ```
@@ -77,7 +77,7 @@ Division by zero is not possible.
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of return 0 and return 1 inside
 // user-defined function
@@ -120,7 +120,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 You are an adult
 
 ```

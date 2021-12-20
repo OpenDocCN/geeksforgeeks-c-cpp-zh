@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class A, class B>
 struct is_same
 
@@ -26,7 +26,7 @@ inline constexpr
 
 **语法:**
 
-```
+```cpp
 std::is_same<A, B>::value
 
 ```
@@ -46,7 +46,7 @@ std::is_same<A, B>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate std::is_same
 #include <bits/stdc++.h>
 #include <type_traits>
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is int & int32_t is same? true
 is int & int64_t is same? false
 is float & int32_t is same? false
@@ -98,7 +98,7 @@ is int & signed int is same? true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate std::is_same
 #include <bits/stdc++.h>
 #include <type_traits>
@@ -148,7 +148,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_same:
 int, const int is_same: false
 int, integer_type is_same: true

@@ -5,7 +5,7 @@
 **无序 _ 映射::max_size** 是 C++ STL 中的内置函数。它返回无序映射可以容纳的最大元素数。任何容器中元素的最大数量取决于系统和库的实现。
 **语法**
 
-```
+```cpp
 size unordered_map.max_size()
 ```
 
@@ -15,7 +15,7 @@ size unordered_map.max_size()
 
 **例 1**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_size function
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current size is :  0
  max size is : 1152921504606846975
  Current size is :  4
@@ -55,7 +55,7 @@ Current size is :  0
 
 **例 2**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_size function
 #include <bits/stdc++.h>
@@ -84,7 +84,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current size is :  0
  max size is : 1152921504606846975
  Current size is :  3

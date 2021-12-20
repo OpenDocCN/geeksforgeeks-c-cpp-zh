@@ -4,7 +4,7 @@
 
 考虑下面两个 c 中的语句，两者有什么区别？
 
-```
+```cpp
    char s[] = "geeksquiz";
    char *s  = "geeksquiz";
 ```
@@ -17,7 +17,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -31,7 +31,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 jeeksquiz
 ```
@@ -41,7 +41,7 @@ jeeksquiz
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
 8
 ```
 
@@ -65,7 +65,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

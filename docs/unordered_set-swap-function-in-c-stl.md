@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 unordered_set_firstname.swap(unordered_set_secondname)
 
 ```
@@ -17,7 +17,7 @@ unordered_set_firstname.swap(unordered_set_secondname)
 
 下面的程序说明了*无序 _ 集合::交换()*功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set_swap() function
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The elements of arr1 before swap(): 5 1 2 3 4 
 The elements of arr2 before swap(): 9 5 6 7 8 
 

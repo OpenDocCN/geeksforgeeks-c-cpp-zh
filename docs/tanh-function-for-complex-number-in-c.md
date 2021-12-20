@@ -5,7 +5,7 @@
 复数的 **tanh()** 函数在*复数*头文件中定义。这个函数是 cmath 头文件的 **tanh()** 函数的复杂版本。此函数用于计算复数 z 的复双曲正切。
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
          tanh (const complex<T>& z );
 ```
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tanh() function.
 
@@ -41,7 +41,7 @@ int main ()
 
 **Output:** 
 
-```
+```cpp
 The tanh of (0,1) is (0,1.55741)
 ```
 
@@ -49,7 +49,7 @@ The tanh of (0,1) is (0,1.55741)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tanh() function.
 
@@ -70,6 +70,6 @@ int main ()
 
 **Output:** 
 
-```
+```cpp
 The tanh of (1,0) is (0.761594,0)
 ```

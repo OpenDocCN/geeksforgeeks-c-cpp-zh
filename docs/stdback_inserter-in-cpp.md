@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 std::back_inserter (Container& x);
 
 x: Container in which new elements will 
@@ -19,7 +19,7 @@ elements at the end of container x.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate std::back_inserter
 #include <iostream>
 #include <iterator>
@@ -58,7 +58,7 @@ int main()
 
 输出:
 
-```
+```cpp
 v1 = 1 2 3
 v2 = 4 5 6 1 2 3
 
@@ -68,7 +68,7 @@ v2 = 4 5 6 1 2 3
 
 *   **不需要事先知道容器的大小:**这样的功能可以提供极大帮助的场景之一是，当我们不知道容器的大小，即有多少元素将被插入其中时，因此一种方法是使该容器具有极大的大小，但是**最有效的方法是在这种情况下使用 STD::back _ insider()**，而无需声明容器的大小。
 
-    ```
+    ```cpp
     // C++ program to demonstrate std::back_inserter
     #include <iostream>
     #include <iterator>
@@ -107,7 +107,7 @@ v2 = 4 5 6 1 2 3
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3
     v2 = 1 2 3
 
@@ -123,7 +123,7 @@ v2 = 4 5 6 1 2 3
 2.  **push _ back () vs back _ inserter ():** Now, you may be thinking that push _ back () and back _ inserter are similar, but they are not. When you have to pass an iterator in the algorithm, you should use back_inserter as in the above example, and push_back () can be used for the values usually inserted at the end of the container.
 3.  代替使用 std::back_inserter，我们可以**创建 back_insert_iterator** 然后作为最终使用，std::back_inserter 只返回 back_insert_iterator。
 
-    ```
+    ```cpp
     // C++ program to demonstrate back_insert_iterator
     #include <iostream>
     #include <iterator>
@@ -165,7 +165,7 @@ v2 = 4 5 6 1 2 3
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3
     v2 = 4 5 6 1 2 3
 

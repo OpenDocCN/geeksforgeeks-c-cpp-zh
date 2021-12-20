@@ -32,14 +32,14 @@
 
 如下载说明中所述，首先要做的是升级包数据库。打开 *MSYS2 MSYS* 并输入以下命令:
 
-```
+```cpp
 $ pacman -Syuu
 
 ```
 
 如果遇到下面的消息，用鼠标关闭 *MSYS2 MSYS* 窗口，再次打开，运行同样的命令，直到正常终止。
 
-```
+```cpp
 warning: terminate MSYS2 without returning to shell and check for updates again
 warning: for example close your terminal window instead of calling exit
 
@@ -47,7 +47,7 @@ warning: for example close your terminal window instead of calling exit
 
 如果您正在寻找一个特定的包，您可以使用类似下面的命令。假设你找 *CMake* :
 
-```
+```cpp
 $ pacman -Ss cmake
 
 ```
@@ -56,7 +56,7 @@ $ pacman -Ss cmake
 
 [受阿列克谢·巴甫洛夫主旨](https://gist.github.com/papesch/b401aa68d0a7c7c96095fa64a7c9f684)的启发，我建议安装以下软件包和工具，这样您就有了一个与 *Linux* 机器中的开发环境非常相似的开发环境。有了它，你可以使用 *Linux* 工具为 windows 编译应用程序:
 
-```
+```cpp
 $ pacman -S base base-devel net-utils git ruby wget man
 $ pacman -S msys/openssh msys/vim msys/bc nano msys/tmux
 $ pacman -S gzip zip unzip msys/p7zip tar msys/tree
@@ -70,7 +70,7 @@ $ pacman -S mingw64/mingw-w64-x86_64-cmake
 
 下载并安装所有这些包后，您可以验证它们是否正在测试某些包。为此，打开*MSYS2 mingw 64 位*环境，测试一些命令:
 
-```
+```cpp
 $ git --version
 $ make --version
 $ cmake --version
@@ -88,7 +88,7 @@ $ pkg-config --version
 
 您可以使用 *MSYS2 MSYS* 中的 *pacman* 安装 *Gtk* 和 *OpenCV* 库，命令如下:
 
-```
+```cpp
 $ pacman -S mingw64/mingw-w64-x86_64-gtkmm3
 $ pacman -S mingw64/mingw-w64-x86_64-opencv
 
@@ -98,7 +98,7 @@ $ pacman -S mingw64/mingw-w64-x86_64-opencv
 
 要构建项目，打开 *MSYS2 MinGW 64 位*，找到一个合适的文件夹(驱动单元映射到根文件夹，例如`C:\Users\me\Document\Development\`将是`/c/Users/me/Development`):
 
-```
+```cpp
 $ cd navigate/to/your/project/folder
 $ git clone https://github.com/cpp-tutorial/raspberry-cpp-gtk-opencv.git
 $ cd raspberry-cpp-gtk-opencv
@@ -112,7 +112,7 @@ $ ./racapp.exe
 
 如果要用 *gdb* 调试，可以用稍微不同的`cmake`命令。如果您已经构建了项目，请毫不犹豫地删除`build`文件夹并重新创建:
 
-```
+```cpp
 $ cd ..
 $ rm -rf build
 $ mkdir build
@@ -133,7 +133,7 @@ $ gdb ./rascapp.exe
 
 完成后，您可以打开*窗口*命令行，并验证是否有相同的工具可用:
 
-```
+```cpp
 $ pkg-config --version
 $ pkg-config gtkmm-3.0 --cflags --libs
 $ pkg-config opencv-3.0 --cflags --libs
@@ -165,7 +165,7 @@ Windows 中默认的 IDE 是 *Visual Studio* 。但是， *Visual Studio* 期望
 
 最简单的方法就是用 *CMake* 为你准备一个*代码::Blocks* 项目。假设您已经在已知位置克隆了项目，并且您的 *MSYS2 MinGW 64 位*终端已经在那里，这是命令序列:
 
-```
+```cpp
 $ mkdir codeb
 $ cd codeb
 $ cmake -DCMAKE_BUILD_TYPE=Debug -G"CodeBlocks - Unix Makefiles" ../src/
@@ -190,7 +190,7 @@ $ cmake -DCMAKE_BUILD_TYPE=Debug -G"CodeBlocks - Unix Makefiles" ../src/
 
 使用 *pacman* 下载、更新或升级时，偶尔可能会发现以下错误信息:
 
-```
+```cpp
 (4/4) checking package integrity                                                                                 [###################################################################] 100%
 error: jsoncpp: signature from "Alexey Pavlov (Alexpux) " 
 is invalid
@@ -201,7 +201,7 @@ corrupted (invalid or corrupted package (PGP signature)).
 
 这是一个与创作网站不可用有关的暂时问题，您可以通过等待来解决它(参见“阿列克谢·巴甫洛夫(AlexPux)”关于签名问题的[讨论)。或者，您可以通过编辑`/etc/pacman.conf`(使用*中的 *Vim* 并更改以下条目来停用签名检查:*](https://github.com/Alexpux/MSYS2-pacman/issues/12)
 
-```
+```cpp
 SigLevel = Never
 
 ```

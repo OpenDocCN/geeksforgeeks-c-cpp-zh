@@ -15,7 +15,7 @@
 [删除(const g)](https://www.geeksforgeeks.org/map-erase-function-in-c-stl/)–从地图中删除键值“g”
 [清除()](https://www.geeksforgeeks.org/mapclear-c-stl/)–从地图中删除所有元素
 
-```
+```cpp
 #include <iostream>
 #include <iterator>
 #include <map>
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The map gquiz1 is : 
     KEY    ELEMENT
     1    40

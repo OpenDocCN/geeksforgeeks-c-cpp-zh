@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find log(n) using Recursion
 #include <iostream>
 using namespace std;
@@ -32,7 +32,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // program to find log(n) using Recursion
 #include <stdio.h>
 
@@ -52,7 +52,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find log(n)
 // using Recursion
 class Gfg1
@@ -76,7 +76,7 @@ class Gfg1
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to
 # find log(n) using Recursion
 
@@ -94,7 +94,7 @@ print(Log2n(n))
 
 ## C#
 
-```
+```cpp
 // C# program to find log(n)
 // using Recursion
 using System;
@@ -122,7 +122,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // program to find log(n) using Recursion
 
@@ -139,7 +139,7 @@ class GFG {
 
 **输出:**
 
-```
+```cpp
 5
 ```
 
@@ -152,7 +152,7 @@ T3】辅助空间: O(log n)如果在递归过程中考虑了堆栈大小，否�
 
 ## C++
 
-```
+```cpp
 // C++ program to find log(n) using Inbuilt
 #include <bits/stdc++.h>
 using namespace std;
@@ -169,7 +169,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find log(n) using Inbuilt
 // function of <math.h> library
 #include <math.h>
@@ -184,7 +184,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find log(n) using Inbuilt
 // function of java.util.Math library
 import java.util.*;
@@ -203,7 +203,7 @@ class Gfg2
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find log(n) using Inbuilt
 
 # Function of math library
@@ -219,7 +219,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to find log(n) using Inbuilt
 // function
 using System;
@@ -238,7 +238,7 @@ static public void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 //program to find log(n) using Inbuilt
 // function of <math.h> library
@@ -251,7 +251,7 @@ static public void Main()
 
 **输出:**
 
-```
+```cpp
 5
 ```
 
@@ -266,7 +266,7 @@ T3】辅助空间: O(1)
 
 ## C++
 
-```
+```cpp
 // C++ program to find log(n) on arbitrary
 // base using Recursion
 #include <bits/stdc++.h>
@@ -295,7 +295,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find log(n) on arbitrary base using Recursion
 #include <stdio.h>
 
@@ -315,7 +315,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find log(n) on
 // arbitrary base using Recursion
 class Gfg3
@@ -339,7 +339,7 @@ class Gfg3
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find log(n) on arbitrary
 # base using Recursion
 def Logn(n, r):
@@ -356,7 +356,7 @@ print(Logn(n, r))
 
 ## C#
 
-```
+```cpp
 // C# program to find log(n) on
 // arbitrary base using Recursion
 using System;
@@ -382,7 +382,7 @@ public class Gfg3
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 //program to find log(n) on arbitrary base using Recursion
 
@@ -400,7 +400,7 @@ public class Gfg3
 
 **输出:**
 
-```
+```cpp
 5
 ```
 
@@ -413,7 +413,7 @@ T3】辅助空间: O(log n)如果在递归过程中考虑了堆栈大小，否�
 
 ## C++
 
-```
+```cpp
 // C++ program to find log(n) on arbitrary base
 // using log() library function
 #include <bits/stdc++.h>
@@ -441,7 +441,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find log(n) on arbitrary base
 // using log() function of maths library
 #include <math.h>
@@ -464,7 +464,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find log(n) on arbitrary base
 // using log() function of java.util.Math library
 import java.util.*;
@@ -484,7 +484,7 @@ class Gfg4 {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find log(n) on arbitrary base
 # using log() library function
 import math
@@ -501,7 +501,7 @@ print(int(Logn(n, r)))
 
 ## C#
 
-```
+```cpp
 // C# program to find log(n) on arbitrary base
 // using log() function of java.util.Math library
 using System;
@@ -521,7 +521,7 @@ class Gfg4 {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // program to find log(n) on arbitrary base
 // using log() function of maths library
@@ -540,7 +540,7 @@ class Gfg4 {
 
 **输出:**
 
-```
+```cpp
 5
 ```
 

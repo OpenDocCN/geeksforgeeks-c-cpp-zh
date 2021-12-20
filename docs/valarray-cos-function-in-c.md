@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 cos(varr);
 
 ```
@@ -19,7 +19,7 @@ cos(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cos() function.
 
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1 0.968912 0.877583 0.731689 0.540302
 
@@ -61,7 +61,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cos() function.
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.362358 -0.999999 0.283662 1
 

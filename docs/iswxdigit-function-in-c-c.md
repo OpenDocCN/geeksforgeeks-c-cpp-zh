@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```cpp
 int iswxdigit(ch)
 ```
 
@@ -27,7 +27,7 @@ int iswxdigit(ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswxdigit() function
 #include <cwchar>
@@ -70,7 +70,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a3lz is not a valid hexadecimal number
 10dbe is a valid hexadecimal number
 
@@ -78,7 +78,7 @@ a3lz is not a valid hexadecimal number
 
 **程序二** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswxdigit() function
 #include <cwchar>
@@ -121,7 +121,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1441a is a valid hexadecimal number
 xyz2 is not a valid hexadecimal number
 

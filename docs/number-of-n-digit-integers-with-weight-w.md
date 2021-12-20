@@ -7,7 +7,7 @@
 
 **示例**:
 
-```
+```cpp
 Input : N = 2, W = 3
 Output : 6
 
@@ -38,7 +38,7 @@ Output : 5
 
 ## C++
 
-```
+```cpp
 // CPP program to find total possible numbers
 // with n digits and weight w
 
@@ -89,7 +89,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find total
 // possible numbers with n
 // digits and weight w
@@ -149,7 +149,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find total possible
 # numbers with n digits and weight w
 
@@ -196,7 +196,7 @@ print(findNumbers(n, w));
 
 ## C#
 
-```
+```cpp
 // C# program to find total possible
 // numbers with n digits and weight w
 using System;
@@ -254,7 +254,7 @@ static public void Main ()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find total possible
 // numbers with n digits and weight w
@@ -304,7 +304,7 @@ echo findNumbers($n, $w);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find total possible
     // numbers with n digits and weight w
@@ -354,6 +354,6 @@ echo findNumbers($n, $w);
 
 **Output:** 
 
-```
+```cpp
 50
 ```

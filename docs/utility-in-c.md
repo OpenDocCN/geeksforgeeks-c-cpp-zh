@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // the use of swap function
 #include <iostream>    
@@ -44,7 +44,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 a contains:10
 20
 30
@@ -55,7 +55,7 @@ a contains:10
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // the use of make_pair
 #include <utility>    
@@ -87,7 +87,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 a: 10, 20
 b: 15, 66
 ```
@@ -96,7 +96,7 @@ b: 15, 66
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // the use of move
 #include <utility>    
@@ -129,7 +129,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 gfg contains: Hello!! I am a geek.
 ```
 
@@ -138,7 +138,7 @@ gfg contains: Hello!! I am a geek.
 
 ## C++
 
-```
+```cpp
 // CPP program to
 // Illustrate the use of vector
 // move range of elements
@@ -182,7 +182,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 Moving ranges...
 string1 contains 5 elements
 string2 contains 5 elements(after moving):Hello! I am a geek 
@@ -192,7 +192,7 @@ string2 contains 5 elements(after moving):Hello! I am a geek
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // the use of move_if_noexcept
 #include<iostream>
@@ -246,7 +246,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Non-throwing move constructor called
 Throwing copy constructor called
 ```
@@ -257,7 +257,7 @@ Throwing copy constructor called
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // the use of declval
 #include <utility>
@@ -301,7 +301,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2000
 ```
 

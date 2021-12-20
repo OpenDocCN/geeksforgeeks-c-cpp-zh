@@ -6,7 +6,7 @@ multimap::swap()用于将一个 multimap 的内容与另一个相同类型和大
 
 语法:-
 
-```
+```cpp
 multimap1.swap(multimap2)
 
 ```
@@ -18,7 +18,7 @@ multimap1.swap(multimap2)
 
 示例:
 
-```
+```cpp
 Input:   multimap1 = { ('a',1), ('b',2), ('c',3)
          multimap2 = ( ('d',4), ('e',5) )
          multimap1.swap(multimap2);
@@ -41,7 +41,7 @@ Output: multimap 1 data
 
 ```
 
-```
+```cpp
 // CPP Program to illustrate...
 #include<iostream>
 #include<map>
@@ -90,7 +90,7 @@ int main()
 
 输出:-
 
-```
+```cpp
 MultiMap 1 data
 d 4
 e 5

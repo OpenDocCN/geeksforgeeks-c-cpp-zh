@@ -4,13 +4,13 @@
 
 **isw point()**是 C/C++中的一个函数，用于测试**宽字符代码**是否表示程序当前区域中的类**点**的字符。如果宽字符是标点宽字符代码，则返回非零值，否则返回 0。该功能在**cwcytpe**头文件中定义。该功能检查 **ch** 是否为标点符号。标点符号如下
 
-```
+```cpp
 ! " # $ % & ' () * +, - . / : ;  ? @ [\] ^ _ ` {|} ~
 ```
 
 **语法:**
 
-```
+```cpp
 int iswpunct(ch)
 ```
 
@@ -22,7 +22,7 @@ int iswpunct(ch)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the iswpunct() function
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C++ program to illustrate
 // the iswpunct() function
 #include <stdio.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The sentence contains 2 punct. character :
 ~ !
 ```
@@ -108,7 +108,7 @@ The sentence contains 2 punct. character :
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the iswpunct() function
 #include <iostream>
@@ -149,7 +149,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C++ program to illustrate
 // the iswpunct() function
 #include <bits/stdc++.h>
@@ -185,7 +185,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The sentence contains 4 punct. character :
 @ # $ ^
 ```

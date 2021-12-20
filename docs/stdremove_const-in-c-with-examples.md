@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct remove_const;
 
@@ -21,7 +21,7 @@ struct remove_const;
 
 **语法:**
 
-```
+```cpp
 std::remove_const<T>::value
 
 ```
@@ -37,7 +37,7 @@ std::remove_const<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::remove_const
 #include <bits/stdc++.h>
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A is without const int? true
 B is without const int? true
 C is without const int? false

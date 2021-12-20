@@ -8,7 +8,7 @@
     *   试图访问系统中不存在的内存位置。
     *   There may be an attempt to write on a **read only memory** location.
 
-        ```
+        ```cpp
         // CPP program to demonstrate
         int main()
         {
@@ -25,14 +25,14 @@
 
         输出:
 
-        ```
+        ```cpp
         Segmentation fault (core dumped)
         ```
 
     *   可能有人试图访问**受保护的内存位置**，如**内核内存**
     *   **[Stack Overflow](https://www.geeksforgeeks.org/heap-overflow-stack-overflow/):** There may case of **non terminating recursion** with memory location.
 
-        ```
+        ```cpp
         // C program to demonstrate stack overflow
         // by creating a non-terminating recursive
         // function.
@@ -55,7 +55,7 @@
 
         输出:
 
-        ```
+        ```cpp
         Segmentation fault (core dumped)
         ```
 
@@ -63,7 +63,7 @@
 
     *   Consider below C++ program.
 
-        ```
+        ```cpp
         // C++ code to demonstrate buffer
         // overflow.
         #include <bits/stdc++.h>
@@ -81,7 +81,7 @@
 
         输出:
 
-        ```
+        ```cpp
         *** stack smashing detected ***: /home/gfg/a terminated
         Aborted (core dumped)
         ```
@@ -108,7 +108,7 @@
         *   **[内存泄漏:](https://www.geeksforgeeks.org/what-is-memory-leak-how-can-we-avoid/)**
     如果我们通过某个程序分配一些内存，让它保持原样。过了一段时间，将会有大量的内存被分配但没有被使用，所以过了一段时间，这将会缺少内存。因此程序开始崩溃。
 
-    ```
+    ```cpp
     // C program to demonstrate heap overflow
     // by continuously allocating memory
     #include<stdio.h>
@@ -126,7 +126,7 @@
     *   **异常**
     *   Divide by zero.
 
-        ```
+        ```cpp
         // C++ code to demonstrate divide by 0.
         #include <bits/stdc++.h>
         using namespace std;
@@ -143,6 +143,6 @@
 
         输出:
 
-        ```
+        ```cpp
         Floating point exception (core dumped)
         ```

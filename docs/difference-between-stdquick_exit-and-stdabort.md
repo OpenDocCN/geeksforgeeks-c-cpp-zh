@@ -7,19 +7,19 @@
 它会导致正常程序终止，而不会完全清理资源。
 **语法:**
 
-```
+```cpp
  void quick_exit(int exit_code) no except; 
 ```
 
 在执行线程的情况下，代码变得复杂，知道线程的执行是困难的。一个线程可能在等待一个进程结束，而另一个线程在等待前一个线程。在这种情况下，真正的程序通常会死锁和退出，这是不愉快的。管理员必须强制启动系统或关闭用户界面等才能解除锁定。为此，制定了**标准::快速退出()**。它终止程序，将我们从执行真实程序时摆脱死锁的困难中解救出来。它清除输入输出，但不刷新静态析构函数。另一个功能 **at_quick_exit()**
 
-```
+```cpp
  int at_quick_exit( void (*func)(void) ); 
 ```
 
 将函数作为参数，在调用 quick_exit()函数时执行该参数。注册到这个的函数是按照相反的执行顺序调用的。
 
-```
+```cpp
 #include <cstdlib>
 void atEXIT()
 {
@@ -43,13 +43,13 @@ int main ()
 导致程序异常终止，除非 SIGABRT 被传递给 std::signal 的信号处理程序捕获，并且该处理程序没有返回。
 **语法:**
 
-```
+```cpp
  void abort() no except; 
 ```
 
 POSIX 指定中止函数覆盖阻塞或忽略 SIGABRT 信号。
 
-```
+```cpp
 #include <cstdlib>
 
 int main ()

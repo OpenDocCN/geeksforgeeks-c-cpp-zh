@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 forward_list_name.cend()
 ```
 
@@ -19,7 +19,7 @@ forward_list_name.cend()
 
 以下程序说明了 forward_list::cend()函数的使用:
 
-```
+```cpp
 // CPP program to illustrate
 // forward_list::cend();
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sample: 7 54 47 48
 
 ```

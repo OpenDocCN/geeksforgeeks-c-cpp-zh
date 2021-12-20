@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 iterator insert(const_iterator position, const value_type& val);
 ```
 
@@ -26,7 +26,7 @@ T3】程序 1:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -57,7 +57,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 A: 1
 B: 2
 C: 3
@@ -69,7 +69,7 @@ E: 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -102,7 +102,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 G: 6
 A: 1
 b: 2
@@ -115,7 +115,7 @@ e: 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -146,7 +146,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 G: 7
 F: 6
 A: 1

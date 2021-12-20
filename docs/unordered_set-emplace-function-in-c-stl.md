@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.emplace(element)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::emplace() function
 
@@ -51,14 +51,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sampleSet contains: 25 5 10 15 20
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::emplate() function
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sampleSet contains: Welcome To GeeksforGeeks For Geeks Computer Science Portal
 
 ```

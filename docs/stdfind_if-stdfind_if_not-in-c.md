@@ -7,7 +7,7 @@
 返回范围[第一个，最后一个]中第一个元素的迭代器，pred(一元函数)为该元素返回 **true** 。如果没有找到这样的元素，函数返回 last。
 **功能模板:**
 
-```
+```cpp
 InputIterator find_if (InputIterator first, InputIterator last, UnaryPredicate pred);
 
 first, last :range which contains all the elements between first
@@ -29,7 +29,7 @@ no such element is found, the function returns last.
 将迭代器返回到 pred(一元函数)返回 **false** 的[第一个，最后一个]范围内的第一个元素。如果没有找到这样的元素，函数返回 last。
 **功能模板:**
 
-```
+```cpp
 InputIterator find_if_not (InputIterator first, InputIterator last, UnaryPredicate pred);
 
 Return value :
@@ -38,7 +38,7 @@ Returns an iterator to the first element in the range
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::find_if and std::find_if_not
 #include <bits/stdc++.h>
@@ -75,7 +75,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The first odd value is 25
 The first non-odd(or even) value is 10
 

@@ -8,7 +8,7 @@
 
 下面是 C 中的一个简单的例子来说明上面的定义，让它更清晰:
 
-```
+```cpp
 // A simple C program to demonstrate callback
 #include<stdio.h>
 
@@ -35,7 +35,7 @@ int main()
 }
 ```
 
-```
+```cpp
 I am function A
 
 ```

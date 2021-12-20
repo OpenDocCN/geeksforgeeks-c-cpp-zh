@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : geeks01for02geeks03!!!
 Output :geeksforgeeks
         010203
@@ -31,7 +31,7 @@ Output :Docodingeveryday
 
 ## C++
 
-```
+```cpp
 // CPP program to split an alphanumeric
 // string using STL
 #include<bits/stdc++.h>
@@ -67,7 +67,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // java program to split an alphanumeric
 // string using stringbuffer
 
@@ -104,7 +104,7 @@ class Test
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to split an alphanumeric
 # string using STL
 def splitString(str):
@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to split an alphanumeric
 // string using stringbuffer
 using System;
@@ -185,7 +185,7 @@ class GFG  {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program to split an alphanumeric
 // string using stringbuffer   
@@ -221,7 +221,7 @@ class GFG  {
 
 **输出:**
 
-```
+```cpp
 geeksforgeeks
 010203
 $!@!!

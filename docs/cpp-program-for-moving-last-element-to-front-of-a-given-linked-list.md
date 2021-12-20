@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 /* C++ Program to move last element 
    to front in a given linked list */
 #include <bits/stdc++.h>
@@ -128,7 +128,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 Linked list before moving last to front 
 1 2 3 4 5 
 Linked list after removing last to front 

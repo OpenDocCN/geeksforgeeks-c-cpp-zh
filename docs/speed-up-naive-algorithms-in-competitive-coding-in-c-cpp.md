@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to calculate the Prime
 // Numbers upto 10000000 using Sieve
 // of Eratosthenes with NO optimization
@@ -69,6 +69,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Execution time: 0.592183 secs
 ```

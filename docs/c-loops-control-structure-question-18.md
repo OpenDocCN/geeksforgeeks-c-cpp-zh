@@ -4,7 +4,7 @@
 
 极客 sQuiz 被打印了多少次
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

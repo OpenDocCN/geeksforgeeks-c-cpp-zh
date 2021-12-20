@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct is_default_constructible;
 
@@ -21,7 +21,7 @@ struct is_default_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_default_constructible<T>::value
 
 ```
@@ -40,7 +40,7 @@ std::is_trivially_default_constructible<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::is_trivially_default_constructible
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 class A: true
 class B: false
@@ -122,7 +122,7 @@ class D: false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::is_trivially_default_constructible
 #include <iostream>
@@ -181,7 +181,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Ex1 is default-constructible? false
 Ex1 is trivially default-constructible? false
 Ex2 is trivially default-constructible? false

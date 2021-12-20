@@ -8,7 +8,7 @@
 
 *   **查看 g++编译器版本信息:**
 
-```
+```cpp
 g++ --version
 ```
 
@@ -20,7 +20,7 @@ g++ --version
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // hello.cpp file
 #include <iostream>
 int main()

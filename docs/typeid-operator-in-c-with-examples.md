@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 typeid(type);
 OR
 typeid(expression);
@@ -28,7 +28,7 @@ typeid(expression);
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     // C++ program to show the use of typeid operator
 
     #include <iostream>
@@ -67,7 +67,7 @@ typeid(expression);
 
     **输出**
 
-    ```
+    ```cpp
     i and j are of similar type
     j and c are of different type
     ```
@@ -76,7 +76,7 @@ typeid(expression);
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     // C++ program to show the use of typeid operator
 
     #include <iostream>
@@ -110,7 +110,7 @@ typeid(expression);
 
     **输出:**
 
-    ```
+    ```cpp
     ti1 is of type f
     ti2 is of type i
     ti3 is of type c

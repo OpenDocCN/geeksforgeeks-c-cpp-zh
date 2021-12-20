@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input: str = "Geeks"
 Output: Length of Str is : 4
 
@@ -23,7 +23,7 @@ Output: Length of Str is : 13
 
 **例 1:** 用循环计算字符串长度。
 
-```
+```cpp
 // C program to find the length of string
 #include <stdio.h>
 #include <string.h>
@@ -46,7 +46,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter the String: Geeks
 Length of Str is 5
 
@@ -54,7 +54,7 @@ Length of Str is 5
 
 **例 2:** 用 strlen()求字符串的长度。
 
-```
+```cpp
 // C program to find the length of 
 // string using strlen function
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter the String: Geeks
 Length of Str is 5
 

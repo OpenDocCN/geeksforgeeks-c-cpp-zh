@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct less {
 
   // Declaration of the less operation
@@ -39,7 +39,7 @@ template <class T> struct less {
 
 **语法:**
 
-```
+```cpp
 std::less()
 
 ```
@@ -55,7 +55,7 @@ std::less()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::less function
 #include <algorithm>
@@ -91,14 +91,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 21 22 23 24 25 26 27 28
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate less
 #include <iostream>
 #include <algorithm>
@@ -135,7 +135,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 true
 false
 

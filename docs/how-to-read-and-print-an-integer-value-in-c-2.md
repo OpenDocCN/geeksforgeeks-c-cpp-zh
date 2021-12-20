@@ -15,7 +15,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     scanf("%X", &variableOfXType);
 
     where %X is the format specifier in C
@@ -35,7 +35,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     scanf("%d", &variableOfIntType);
 
     ```
@@ -45,7 +45,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     printf("%X", variableOfXType);
 
     ```
@@ -54,7 +54,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     printf("%d", variableOfIntType);
 
     ```
@@ -65,7 +65,7 @@
 
 ## C
 
-```
+```cpp
 // C program to take an integer
 // as input and print it
 
@@ -90,7 +90,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the integer: 10
 Entered integer is: 10
 

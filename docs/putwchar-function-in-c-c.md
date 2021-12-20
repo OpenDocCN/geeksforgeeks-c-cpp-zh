@@ -6,7 +6,7 @@ C/C++中的 **putwchar()** 函数将一个宽字符写入 stdout(标准输出)�
 
 **语法:**
 
-```
+```cpp
 wint_t putwchar(wchar_t ch)
 ```
 
@@ -20,7 +20,7 @@ wint_t putwchar(wchar_t ch)
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // putwchar() function
 
@@ -49,14 +49,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 All Hebrew Alphabets : × ×? ×? ×? ×? ×? ×? ×? ×? ×? ×? ×? ×? × ×? ×? ×  ×¡ ×¢ ×£ ×¤ ×¥ ×¦ ×§ ×¨ ×© ×ª
 
 ```
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // putwchar() function
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 All English Alphabets : A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ```

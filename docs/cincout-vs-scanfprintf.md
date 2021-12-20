@@ -6,7 +6,7 @@
 
 让我们创建一个虚拟输入文件，其中包含一行 16 个字节，后跟一个换行符，并且有 1000000 个这样的行，这样一个 17MB 的文件应该足够好了。
 
-```
+```cpp
 // Creating a dummy file of size 17 MB to compare 
 // performance of scanf() and cin()
 $ yes 1111111111111111 | head -1000000 > tmp/dummy
@@ -14,7 +14,7 @@ $ yes 1111111111111111 | head -1000000 > tmp/dummy
 
 让我们通过使用 scanf()和 cin 来比较从 stdin 读取文件(使用重定向将文件从磁盘获取到 stdin)所花费的时间。
 
-```
+```cpp
 // Filename : cin_test.cc to test the 
 // We redirect above created temp file 
 // of 17 MB to stdin when this program 
@@ -34,7 +34,7 @@ int main()
 
 当虚拟文件被重定向到标准输入时，上述程序的输出。
 
-```
+```cpp
 $ g++ cin_test.cc –o cin_test
 $ time ./cin_test < /tmp/dummy
 real	 0m2.162s
@@ -42,7 +42,7 @@ user	 0m1.696s
 sys	 0m0.332s
 ```
 
-```
+```cpp
 // Filename : scanf_test.c to see
 // performance of scanf()
 // We redirect above created temp file
@@ -62,7 +62,7 @@ int main()
 
 当虚拟文件被重定向到标准输入时，上述程序的输出。
 
-```
+```cpp
 $ g++ scanf_test.cc –o scanf_test
 $ time ./scanf_test < /tmp/dummy
 real	 0m0.426s
@@ -79,7 +79,7 @@ sys	 0m0.084s
 
 好消息是 libstdc++提供了一个选项，可以使用关闭所有 *iostream* 标准流与其对应的标准 C 流的同步
 
-```
+```cpp
 std::ios::sync_with_stdio(false);
 ```
 
@@ -87,7 +87,7 @@ std::ios::sync_with_stdio(false);
 
 竞技编程[快速输入输出](https://www.geeksforgeeks.org/fast-io-for-competitive-programming/)详解
 
-```
+```cpp
 // Filename : cin_test_2.cc to see
 // performance of cin() with stdio syc
 // disabled using sync_with_stdio(false).
@@ -109,7 +109,7 @@ int main()
 
 运行程序:
 
-```
+```cpp
 $ g++ cin_test_2.cc –o cin_test_2
 $ time./cin_test_2 </tmp/dummy
 real    0m0.380s
@@ -122,7 +122,7 @@ sys    0m0.028s
 
 现在想知道，它能多快完成？
 
-```
+```cpp
 // Redirecting contents of dummy file to null
 // device (a special device that discards the
 // information written to it) using command line.

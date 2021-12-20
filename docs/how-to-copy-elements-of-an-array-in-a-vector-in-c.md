@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -45,7 +45,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -56,7 +56,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -84,7 +84,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -101,7 +101,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -131,7 +131,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 4 6 8 10 12 
 ```
 
@@ -141,7 +141,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -171,7 +171,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -181,7 +181,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -211,7 +211,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -221,7 +221,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program of the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -257,6 +257,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 2 3 4 5 6 
 ```

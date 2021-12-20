@@ -6,21 +6,21 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct is_copy_constructible;
 
 ```
 
 **语法:**
 
-```
+```cpp
 std::is_copy_constructible <int> ::value
 std::is_copy_constructible>class T> ::value
 
@@ -37,7 +37,7 @@ std::is_copy_constructible>class T> ::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_copy_constructible example
 #include <bits/stdc++.h>
@@ -92,7 +92,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 char: true
 int: true
 int[2]: false

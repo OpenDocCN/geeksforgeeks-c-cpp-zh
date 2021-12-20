@@ -10,7 +10,7 @@
 
 示例:
 
-```
+```cpp
 Input: (content inside file (gfg.txt)
 Geeks Classes:
 An extensive classroom programme
@@ -31,7 +31,7 @@ DATA STRUCTURES AND ALGORITHM CONCEPTS
 如果找到了文件，那么在 while 循环的帮助下，使用[将该文件的所有字符转换成大写。
 通过传递文件指针，使用 **fclose()** 函数关闭文件。](https://www.geeksforgeeks.org/conversion-whole-string-uppercase-lowercase-using-stl-c/)
 
-```
+```cpp
 // C++ program to convert
 // all lower case characters of a file
 // into Upper Case
@@ -68,7 +68,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GEEKS CLASSES:
 AN EXTENSIVE CLASSROOM PROGRAMME
 BY GEEKSFORGEEKS TO BUILD AND ENHANCE
@@ -80,7 +80,7 @@ DATA STRUCTURES AND ALGORITHM CONCEPTS
 与上面类似，只是使用 **[来降低](https://www.geeksforgeeks.org/isupper-islower-application-c/)** 功能来代替**去覆盖**
 示例:
 
-```
+```cpp
 Input: (content inside file (gfg.txt)
 Geeks Classes:
 AN EXTENSIVE CLASSROOM PROGRAMME
@@ -95,7 +95,7 @@ data structures and algorithm concepts
 
 ```
 
-```
+```cpp
 // C++ program to convert all upper
 // case characters of a file
 // into lower Case
@@ -133,7 +133,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeks classes:
 an extensive classroom programme
 by geeksforgeeks to build and enhance

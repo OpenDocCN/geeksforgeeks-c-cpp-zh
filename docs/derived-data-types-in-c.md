@@ -26,13 +26,13 @@
 
     **语法:**
 
-    ```
+    ```cpp
     FunctionType FunctionName(parameters)
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // Function Derived Type
 
@@ -64,7 +64,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     m is 20
 
     ```
@@ -74,13 +74,13 @@
 
     **语法:**
 
-    ```
+    ```cpp
     DataType ArrayName[size_of_array];
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // Array Derived Type
 
@@ -107,7 +107,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     5 2 -10 5
 
     ```
@@ -116,13 +116,13 @@
 
     **语法:**
 
-    ```
+    ```cpp
     datatype *var_name;
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     int *ptr;   
 
     ptr points to an address
@@ -131,7 +131,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // Pointers Derived Type
 
@@ -169,7 +169,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Value at ptr = 0x7ffc10d7fd5c
     Value at var = 20
     Value at *ptr = 20
@@ -180,7 +180,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // Reference Derived Type
 
@@ -209,7 +209,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     x = 20
     ref = 30
 

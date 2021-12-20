@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool any() 
 
 ```
@@ -21,7 +21,7 @@ bool any()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::any() function
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1100 has a minimum of one-bit set
 000000 does not have any bits set
 
@@ -69,7 +69,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::any() function
 // when the input is as a number
@@ -109,7 +109,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 11 has a minimum of one-bit set
 000 does not have any bit set
 

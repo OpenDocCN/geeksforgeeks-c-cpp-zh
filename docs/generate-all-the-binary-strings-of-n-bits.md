@@ -5,7 +5,7 @@
 给定一个正整数 **N** 。任务是生成所有 N 位的二进制字符串。这些二进制字符串应该按升序排列。
 **例:**
 
-```
+```cpp
 Input: 2
 Output:
 0 0
@@ -30,7 +30,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the above approach:
 
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the above approach:
 import java.util.*;
 
@@ -140,7 +140,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the
 # above approach
 
@@ -186,7 +186,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# implementation of the above approach:
 using System;
 
@@ -243,7 +243,7 @@ public static void Main(String []args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP implementation of the above approach
 
@@ -293,7 +293,7 @@ generateAllBinaryStrings($n, $arr, 0);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript implementation of the above approach:
 
@@ -343,7 +343,7 @@ generateAllBinaryStrings($n, $arr, 0);
 
 **Output:** 
 
-```
+```cpp
 0 0 0 0 
 0 0 0 1 
 0 0 1 0 

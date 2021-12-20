@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct is_member_object_pointer
 
@@ -21,7 +21,7 @@ struct is_member_object_pointer
 
 **语法:**
 
-```
+```cpp
 std::is_member_function_pointer<T>::value
 
 ```
@@ -40,7 +40,7 @@ std::is_member_function_pointer<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_member_object_pointer
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GFG*: false
 int GFG::*  true
 int A::*  true

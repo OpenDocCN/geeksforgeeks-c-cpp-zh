@@ -5,7 +5,7 @@
 **无序 _map::clear()** 函数用于从容器中移除所有元素。当此函数应用于无序映射时，其大小为零。
 **语法:**
 
-```
+```cpp
  unordered_map_name.clear()
 
 ```
@@ -19,7 +19,7 @@
 > UMP . clear()；
 > **输出:**UMP = { }；
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of unordered_map clear() function
 #include <bits/stdc++.h>
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Unordered_map size before calling clear function: 
 ump1 size = 4
 ump2 size = 0

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_set_name.emplace_hint( position, value )
 ```
 
@@ -21,7 +21,7 @@ unordered_set_name.emplace_hint( position, value )
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_set::emplace_hint() function
 #include <iostream>
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 uset: 80 20 40 50 60
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_set::emplace_hint() function
 #include <iostream>
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 uset: 60 50 40 20
 
 ```

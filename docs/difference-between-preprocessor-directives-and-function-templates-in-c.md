@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // preprocessor directives
 #include <bits/stdc++.h>
@@ -32,7 +32,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Minimum of both is: 2
 
 ```
@@ -43,7 +43,7 @@ Minimum of both is: 2
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of Function Templates
 #include <iostream>
@@ -71,14 +71,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Minimum of both is: 4
 
 ```
 
 函数模板用于制作[通用函数](https://www.geeksforgeeks.org/generics-in-c/)，该函数可以使用任何[数据类型](https://www.geeksforgeeks.org/c-data-types/)。例如，用于计算任何类型的 2 个最小值的函数模板可以定义为:
 
-```
+```cpp
 template <class T>
 T minimum(T a, T b)
 {
@@ -88,13 +88,13 @@ T minimum(T a, T b)
 
 但是，该任务也可以使用使用预处理器指令[**#定义**](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/) 创建的 [**预处理器指令**](https://www.geeksforgeeks.org/cc-preprocessors/) 来执行。所以，这两个数字的最小值可以定义为:
 
-```
+```cpp
 #define minimum(a, b) ((a < b) ? a : b)
 ```
 
 预处理器指令也可以通过使用以下语句来实现:
 
-```
+```cpp
 minimum(30, 35);
 minimum(30.5, 40.5);
 ```
@@ -104,7 +104,7 @@ minimum(30.5, 40.5);
 *   在预处理器指令的情况下，没有类型检查。但是在模板的情况下，完全类型检查是由编译器完成的。
 *   预处理器指令会调用意外的结果。考虑一个[宏](https://www.geeksforgeeks.org/c-language-2-gq/macro-preprocessor-gq/)，它计算任意数字的平方为:
 
-```
+```cpp
 #define sqr(x) (x*x)
 ```
 

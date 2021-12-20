@@ -8,7 +8,7 @@
 
 **一个简单完整的例子**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 12 + i9
 ```
 
@@ -47,7 +47,7 @@ int main()
 操作员功能与正常功能相同。唯一的区别是，运算符函数的名称总是运算符关键字后跟运算符符号，并且在使用相应的运算符时调用运算符函数。
 下面是全局算子函数的一个例子。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -80,7 +80,7 @@ int main()
 **我们能让所有运营商超负荷吗？**
 几乎所有的运营商都可能过载，只有少数例外。以下是不能重载的运算符列表。
 
-```
+```cpp
    . (dot) 
    :: 
    ?: 
@@ -97,7 +97,7 @@ int main()
 
 **3)** **转换运算符:**我们还可以编写转换运算符，用于将一种类型转换为另一种类型。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Fraction
@@ -122,7 +122,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 0.4
 ```
 
@@ -130,7 +130,7 @@ int main() {
 
 **4)** 任何可以用单个参数调用的构造函数都可以作为转换构造函数，这意味着它也可以用于隐式转换到正在构造的类。
 
-```
+```cpp
 #include<iostream> 
 using namespace std;
 
@@ -158,7 +158,7 @@ int main() {
 
 输出:
 
-```
+```cpp
  x = 20, y = 20
  x = 30, y = 0
 ```

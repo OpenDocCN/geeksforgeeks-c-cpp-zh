@@ -10,7 +10,7 @@
 不允许使用任何条件运算符(包括三元运算符)。
 **例:**
 
-```
+```cpp
 Input  : a = 3, b = 7,  x = 1
 Output : y = 7
 
@@ -22,7 +22,7 @@ Output : y = 3
 
 ## C++
 
-```
+```cpp
 // CPP program to pick a value among two
 // according to value of a third variable.
 #include <iostream>
@@ -48,7 +48,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to pick a value among two
 // according to value of a third variable.
 class GFG {
@@ -75,7 +75,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to
 # pick a value among two
 # according to value
@@ -100,7 +100,7 @@ print(y)
 
 ## C#
 
-```
+```cpp
 // C# program to pick a value among two
 // according to value of a third variable.
 using System;
@@ -128,7 +128,7 @@ public class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to pick a value
 // among two according to value
@@ -154,7 +154,7 @@ echo $y;
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript program to pick a value among two
 // according to value of a third variable.   
@@ -177,7 +177,7 @@ echo $y;
 
 **输出:**
 
-```
+```cpp
  3
 ```
 
@@ -185,7 +185,7 @@ echo $y;
 
 ## C++
 
-```
+```cpp
 // C++ program to pick a value among two
 // according to value of a third variable.
 #include <iostream>
@@ -209,7 +209,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to pick a value among two
 // according to value of a third variable.
 import java.io.*;
@@ -237,7 +237,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to pick a value among two
 # according to the value of a third variable.
 
@@ -256,7 +256,7 @@ print(y)
 
 ## C#
 
-```
+```cpp
 // C# program to pick a value among two
 // according to value of a third variable.
 using System;
@@ -284,7 +284,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to pick a value among two
@@ -309,7 +309,7 @@ public static void Main()
 
 **输出:**
 
-```
+```cpp
 3
 ```
 

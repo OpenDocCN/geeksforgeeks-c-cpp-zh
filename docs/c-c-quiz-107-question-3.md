@@ -4,7 +4,7 @@
 
 在 C 程序片段中，以下内容用于定义整数变量？
 
-```
+```cpp
 signed s;
 unsigned u;
 long l;

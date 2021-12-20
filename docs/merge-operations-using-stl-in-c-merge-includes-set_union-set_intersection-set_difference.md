@@ -8,7 +8,7 @@
 1.  **合并(beg1，end1，beg2，end2，beg3)** :-此函数合并两个已排序的容器，并按排序顺序存储在新容器中(合并排序)。它需要 5 个参数，第一个容器的第一个和最后一个迭代器，第二个容器的第一个和最后一个迭代器，以及结果容器的第一个迭代器。
 2.  **includes(beg1, end1, beg2, end2)** :- This function is used to check whether one sorted container elements are including other sorted container elements or not. Returns true if 1st container includes 2nd container else returns false.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // merge() and include()
     #include<iostream>
@@ -52,7 +52,7 @@
 
     输出
 
-    ```
+    ```cpp
     The new container after merging is :
     1 1 3 4 5 5 6 7 20 25 30 30 
     v4 includes v1
@@ -61,7 +61,7 @@
 
 3.  **inplace_merge(beg1, beg2, end) :-** This function is used to sort two consecutively placed sorted ranges in a single container. It takes 3 arguments, iterator to beginning of 1st sorted range, iterator to beginning of 2nd sorted range, and iterator to last position.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // inplace_merge()
     #include<iostream>
@@ -102,7 +102,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The new container after inplace_merging is :
     1 1 3 4 5 5 6 7 20 25 30 30 
 
@@ -112,7 +112,7 @@
 5.  **set _ 交集(beg1，end1，beg2，end2，beg3)** :-该函数计算两个容器的集合交集，并存储在新容器中。它将迭代器返回到结果容器的最后一个元素。它需要 5 个参数，第一个容器的第一个和最后一个迭代器，第二个容器的第一个和最后一个迭代器，以及结果容器的第一个迭代器。应该对容器进行分类，并且有必要将新容器的大小调整到合适的大小。
     在排序范围内实现集合并和集合交的一种方法可以在这里[找到](https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // set_union() and set_intersection()
 #include<iostream>
@@ -169,7 +169,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Union of two containers is : 1 3 4 5 6 7 20 25 30 
 Intersection of two containers is : 1 5 30 
 
@@ -178,7 +178,7 @@ Intersection of two containers is : 1 5 30
 11.  **set_difference(beg1，end1，beg2，end2，beg3)** :-该函数计算两个容器的集差并存储在新容器中。它将迭代器返回到结果容器的最后一个元素。它需要 5 个参数，第一个容器的第一个和最后一个迭代器，第二个容器的第一个和最后一个迭代器，以及结果容器的第一个迭代器。应该对容器进行分类，并且有必要将新容器的大小调整到合适的大小。
 12.  s**et_symmetric_difference(beg1, end1, beg2, end2, beg3)** :- This function computes the set symmetric difference of two containers and stores in new container .It returns the iterator to the last element of resultant container. It takes 5 arguments, first and last iterator of 1st container, first and last iterator of 2nd container and 1st iterator of resultant container . The containers should be sorted and it is necessary that new container is resized to suitable size.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // set_difference() and set_symmetric_difference()
     #include<iostream>
@@ -235,7 +235,7 @@ Intersection of two containers is : 1 5 30
 
     输出:
 
-    ```
+    ```cpp
     Difference of two containers is : 3 4 20 
     Symmetric difference of two containers is : 3 4 6 7 20 25 
 

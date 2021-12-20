@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input :  1, 5, 7, 10, 12, 14, 15, 18, 20, 
          22, 25, 27, 30, 64, 110, 220
 Output :Maximum Element is : 220
@@ -25,13 +25,13 @@ Output : Maximum Element is : 640
 只能在 linux 环境下运行。
 命令:
 
-```
+```cpp
 >> gcc -pthread maximum.c 
 >> ./a.out
 
 ```
 
-```
+```cpp
 // C++ code to find maximum of an array using Multithreading
 #include <pthread.h>
 #include <stdio.h>
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Maximum Element is : 300
 
 ```

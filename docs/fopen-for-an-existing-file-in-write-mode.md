@@ -7,7 +7,7 @@
 **如果文件已经存在怎么办？**
 如果同名文件已经存在，其内容将被丢弃，该文件将被视为新的空文件。例如，在下面的程序中，如果“test.txt”已经存在，它的内容将被删除，并且“GeeksforGeeks”将被写入其中。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,7 +33,7 @@ int main()
 
 最新的 C 标准 [C11](http://en.wikipedia.org/wiki/C11_(C_standard_revision)) 提供了一个新的模式“x”，这是一个专属的创建和打开模式。模式“x”可以与任何“w”说明符一起使用，如“wx”、“wbx”。**当 x 与 w 一起使用时，如果文件已经存在或无法打开，fopen()将返回 NULL。**以下是修改后的 C11 程序，不会覆盖现有文件。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 

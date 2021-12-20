@@ -22,7 +22,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate calling
 // main() function in main() itself
 #include "stdio.h"
@@ -46,7 +46,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate calling
 // main() function in main() itself
 #include "iostream"
@@ -70,7 +70,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 10 9 8 7 6 5 4 3 2 1
 ```
 

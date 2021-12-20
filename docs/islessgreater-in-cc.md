@@ -8,13 +8,13 @@
 islesslater()函数用于检查给函数的第一个参数是否小于或大于给函数的第二个参数。意思是如果 **a** 是第一个参数， **b** 是第二个参数，则检查 **a > b || a < b** 是否存在。
 **语法:**
 
-```
+```cpp
 bool islessgreater(a, b)
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // the exception of function
 #include <bits/stdc++.h>
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 nan islessgreater than 5: 0
 ```
 
@@ -50,7 +50,7 @@ nan islessgreater than 5: 0
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of islessgreater function
     #include <bits/stdc++.h>
@@ -94,7 +94,7 @@ nan islessgreater than 5: 0
 
 **输出:**
 
-```
+```cpp
 10.2 islessgreater than 8.5: 1
 2 islessgreater than 10.2: 1
 8.5 islessgreater than 8.5: 0
@@ -105,7 +105,7 @@ nan islessgreater than 5: 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate the
 // use of islessgreater function
 #include <bits/stdc++.h>
@@ -145,6 +145,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 is not present in array
 ```

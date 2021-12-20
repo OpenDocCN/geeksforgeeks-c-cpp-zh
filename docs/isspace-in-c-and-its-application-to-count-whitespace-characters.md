@@ -15,7 +15,7 @@ c++中有很多类型的空白字符，比如-
 *   \ f '–提要
 *   \ r '–回车
 
-```
+```cpp
 Syntax :
 int isspace(int x)
 x : x is character to be checked
@@ -27,7 +27,7 @@ x : x is character to be checked
 
 示例:
 
-```
+```cpp
 Input : string = 'Geeks for geeks'
 Output : 2
 
@@ -36,7 +36,7 @@ Output : 3
 
 ```
 
-```
+```cpp
 // C program to illustrate
 // isspace() function
 #include <ctype.h>
@@ -56,7 +56,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Entered character is space
 
 ```
@@ -64,7 +64,7 @@ Entered character is space
  isspace()函数用于查找给定句子中的空格数。
 **例:**
 
-```
+```cpp
 Input : This is a good website
 Output : Number of spaces in the sentence is : 4
 
@@ -80,7 +80,7 @@ Output : Number of spaces in the sentence is : 5
 2。如果它是一个空白字符，将计数器加 1，否则遍历到下一个字符。
 3。打印计数器的值。
 
-```
+```cpp
 // C program to illustrate
 // isspace() function
 #include <ctype.h>
@@ -124,11 +124,11 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of spaces in the sentence is : 2
 ```
 
-```
+```cpp
 // CPP program to count white spaces in a string
 #include <iostream>
 #include <cstring>
@@ -159,7 +159,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2
 
 ```

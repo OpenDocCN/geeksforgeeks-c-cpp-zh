@@ -31,7 +31,7 @@ PGM 和 PPM 格式(ASCII 和二进制版本)在 X 和 Y 维度之后和实际像
 8。空白。
 9。**宽度** X **高度**灰度值，以 ASCII 十进制表示，介于 0 和指定的最大值之间，由空白分隔，以光栅格式表示，从上到下。
 
-```
+```cpp
 // C program to read a BMP Image and 
 // write the same into a PGM Image file
 #include <stdio.h>

@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论选择排序和冒泡排序之间的比较。基于时间和空间复杂度的选择排序和冒泡排序算法所需的资源如下。
 
-```
+```cpp
 Time Complexity - 
 Same Complexity - 
 ```
@@ -26,7 +26,7 @@ Same Complexity - 
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 void Selection_Sort(int arr[], int n) 
@@ -56,7 +56,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class GFG{
 
   static void Selection_Sort(int arr[], int n) 
@@ -92,7 +92,7 @@ class GFG{
 
 ## 蟒蛇 3
 
-```
+```cpp
 def Selection_Sort(arr, n):
 
     for i in range(n - 1):
@@ -119,7 +119,7 @@ for i in range(n):
 
 ## C#
 
-```
+```cpp
 using System;
 
 public class GFG{
@@ -157,7 +157,7 @@ public class GFG{
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program for above approach
@@ -192,7 +192,7 @@ public class GFG{
 
 **Output**
 
-```
+```cpp
 The Sorted Array by using Selection Sort is : 0 1 2 3 4 
 ```
 
@@ -208,7 +208,7 @@ The Sorted Array by using Selection Sort is : 0 1 2 3 4
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 void Bubble_Sort(int arr[], int n) 
@@ -237,7 +237,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 import java.io.*;
 
 class GFG{
@@ -277,7 +277,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 def Bubble_Sort(arr, n):
     for i in range(1, n):
         for j in range(0, n - i):
@@ -300,7 +300,7 @@ for i in range(n):
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 
@@ -342,7 +342,7 @@ public class GFG{
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program for the above approach
 
@@ -375,7 +375,7 @@ for(var i = 0; i < n; i++){
 
 **Output**
 
-```
+```cpp
 The Sorted Array by using Bubble Sort is : 0 1 2 3 4 
 ```
 
@@ -390,7 +390,7 @@ The Sorted Array by using Bubble Sort is : 0 1 2 3 4
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -432,7 +432,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.io.*;
 
@@ -483,7 +483,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program for the above approach
 
 # Function for bubble sort
@@ -515,7 +515,7 @@ for i in range(n):
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 public class GFG{
@@ -562,7 +562,7 @@ public class GFG{
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program for the above approach
@@ -611,7 +611,7 @@ for(var i = 0; i < n; ++i)
 
 **Output**
 
-```
+```cpp
 The Sorted Array by using Bubble Sort is : 0 1 2 3 4 
 ```
 

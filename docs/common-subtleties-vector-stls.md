@@ -8,7 +8,7 @@
 
 1.  **向量< int >向量(10) vs 向量< int >向量【10】**
 
-    ```
+    ```cpp
     // Creates a vector vect[] of size 10
     vector <int> vect(10) 
 
@@ -21,7 +21,7 @@
 2.  **resize()和 push_back():**
     在向量上使用 resize()函数后，如果在同一向量上使用 push_back()，则被推回的元素将被添加到调整大小的向量的末尾，而不是其中。
 
-    ```
+    ```cpp
     // A C++ program to demonstrate that push_back()
     // happens at the end of resized vector.
     #include<bits/stdc++.h>
@@ -51,7 +51,7 @@
     }
     ```
 
-    ```
+    ```cpp
     Output:
     0 1 2 3 4 0 0 0 0 0
     0 1 2 3 4 0 0 0 0 0 50
@@ -60,7 +60,7 @@
 3.  **clear()函数**使向量有零个元素，即-无元素，不使元素全为 0。
 4.  **Creating a two dimensional vector**
 
-    ```
+    ```cpp
     // This doesn't work
     vector<vector<int>> vect;
 
@@ -73,7 +73,7 @@
 5.  **将向量传递给函数:**
     当向量被简单地传递给函数时，向量的副本就被创建了。在向量很大的情况下，这可能需要很多时间。
 
-```
+```cpp
 // C++ program to demonstrate that when vectors
 // are passed to functions without &, a copy is
 // created.
@@ -105,13 +105,13 @@ int main()
 
 输出:
 
-```
+```cpp
 10 20
 ```
 
 在我们实际上不需要向量副本的情况下，声明应该如下进行:
 
-```
+```cpp
 // It is recommended to pass vectors by reference
 // wherever possible.
 int func(vector<int>& vect)

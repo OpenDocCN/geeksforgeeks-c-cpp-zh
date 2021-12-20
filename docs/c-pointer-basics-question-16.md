@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointer-basics-question-16/](https://www.geeksforgeeks.org/c-pointer-basics-question-16/)
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

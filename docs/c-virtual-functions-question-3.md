@@ -4,7 +4,7 @@
 
 以下程序的输出
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -34,7 +34,7 @@ int main(void)
 
 **(甲)**
 
-```
+```cpp
 In Base 
 In Base 
 
@@ -42,7 +42,7 @@ In Base
 
 **(B)**
 
-```
+```cpp
 In Base 
 In Derived
 
@@ -50,7 +50,7 @@ In Derived
 
 **(C)**
 
-```
+```cpp
 In Derived
 In Derived
 
@@ -58,7 +58,7 @@ In Derived
 
 **(D)**
 
-```
+```cpp
 In Derived
 In Base 
 

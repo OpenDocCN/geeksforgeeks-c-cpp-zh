@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 deque_name.shrink_to_fit()
 
 ```
@@ -17,7 +17,7 @@ deque_name.shrink_to_fit()
 以下程序说明了上述功能:
 **示例-1**
 
-```
+```cpp
 // C++ program to illustrate
 // the deque::shrink_to_fit()
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Deque size initially: 10
 Deque  elements are: 0 1 2 3 4 0 0 0 0 0 
 Deque size after resize(7): 7
@@ -80,7 +80,7 @@ Deque elements after shrink_to_fit() are: 0 1 2 3 4 0 0 0 0 0
 
 **示例-2**
 
-```
+```cpp
 // C++ program to illustrate
 // the deque::shrink_to_fit()
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of d is : 100
 Size of d after resize is : 20
 

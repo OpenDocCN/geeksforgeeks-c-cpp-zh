@@ -4,7 +4,7 @@
 
 要计算一个进程所花费的时间，我们可以使用 *time.h* 提供的 [clock()](http://www.gnu.org/software/libc/manual/html_node/CPU-Time.html) 功能。我们可以在我们测量时间的代码的开头和结尾调用 clock 函数，减去这些值，然后除以 [CLOCKS_PER_SEC](http://www.cplusplus.com/reference/ctime/CLOCKS_PER_SEC/) (每秒钟的时钟节拍数)得到处理器时间，如下所示。
 
-```
+```cpp
      #include <time.h>
 
      clock_t start, end;
@@ -19,7 +19,7 @@
 
 下面是一个示例 C 程序，我们在其中测量乐趣所花费的时间()。fun()函数等待回车键按下终止。
 
-```
+```cpp
 /* Program to demonstrate time taken by function fun() */
 #include <stdio.h>
 #include <time.h>
@@ -54,7 +54,7 @@ int main()
 
 输出:等待 4 秒左右，然后按回车键，得到如下输出。
 
-```
+```cpp
 fun() starts
 Press enter to stop fun
 

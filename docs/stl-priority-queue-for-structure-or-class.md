@@ -13,7 +13,7 @@
 
 ## C++
 
-```
+```cpp
 struct Person{
 int Age;
 float Height;
@@ -24,7 +24,7 @@ float Height;
 
 ## C++
 
-```
+```cpp
 priority_queue<Person> pq;
 ```
 
@@ -34,7 +34,7 @@ priority_queue<Person> pq;
 
 ## C++
 
-```
+```cpp
 // program in c++ to use priority_queue with structure
 
 #include <iostream>
@@ -97,7 +97,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 33 6.1
 20 6
 23 5.6
@@ -109,7 +109,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // program in c++ to use priority_queue with class
 #include <iostream>
 #include <queue>
@@ -174,7 +174,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 33 6.1
 20 6
 23 5.6

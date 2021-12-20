@@ -20,7 +20,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate semantic error
 
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to demonstrate semantic error
 import java.util.*;
 class GFG
@@ -62,7 +62,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to demonstrate semantic error
 import sys
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to demonstrate semantic error
 using System;
 

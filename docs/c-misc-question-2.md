@@ -18,7 +18,7 @@ T21】解释: C 和 C++都是上下文相关的
 2.  语法是模糊的:它有 LR 冲突，比如 if-then-else 冲突。解析器通常使用上下文来解决这个问题(一个“else”匹配最接近的“if”)。
 3.  C and C++ lexers require lexical feedback to differentiate between typedef names and identifiers. That is, the context-sensitive lexer needs help from the “context-free” parser to distinguish between an identifier “foo” and a typedef name “foo”. In this snippet,
 
-    ```
+    ```cpp
     int foo;
     typedef int foo;
     foo x;

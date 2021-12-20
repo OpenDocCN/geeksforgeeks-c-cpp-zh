@@ -14,7 +14,7 @@
 
 让我们看看代码。
 
-```
+```cpp
 // C program to print a  Christmas tree
 // It is recommended is try it with a desktop 
 // compiler like CodeBlocks.

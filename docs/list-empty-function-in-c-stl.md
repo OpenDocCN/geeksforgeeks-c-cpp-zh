@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 list_name.empty() 
 
 ```
@@ -17,7 +17,7 @@ list_name.empty()
 
 下面的程序说明了 list::empty()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::empty() function
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Empty List
 Not Empty
 

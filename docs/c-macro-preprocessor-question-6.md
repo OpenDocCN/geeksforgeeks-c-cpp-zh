@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-6/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-6/)
 
-```
+```cpp
 #include <stdio.h>
 #define square(x) x*x
 int main()
@@ -25,7 +25,7 @@ int main()
 
 如果我们想要宏方块(x)的正确行为，我们应该将宏声明为
 
-```
+```cpp
 #define square(x) ((x)*(x))  
 
 ```

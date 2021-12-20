@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 size_t mbrlen( const char* str, size_t n, mbstate_t* ps)
 ```
 
@@ -28,7 +28,7 @@ size_t mbrlen( const char* str, size_t n, mbstate_t* ps)
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // mbrlen() function
 #include <bits/stdc++.h>
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Next 1 byte(s) doesn't represent a complete multibyte character
 Next 6 byte(s) of á??0b5holds 3 byte multibyte character
 
@@ -84,7 +84,7 @@ Next 6 byte(s) of á??0b5holds 3 byte multibyte character
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // mbrlen() function
 // with empty string
@@ -132,7 +132,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Next 1 byte(s) of holds 0 byte multibyte character
 Next 3 byte(s) of holds 0 byte multibyte character
 

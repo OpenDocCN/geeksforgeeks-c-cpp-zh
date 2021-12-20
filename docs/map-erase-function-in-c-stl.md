@@ -6,7 +6,7 @@
 
 *   **擦除键的语法:**
 
-```
+```cpp
 map_name.erase(key)
 
 ```
@@ -19,7 +19,7 @@ map_name.erase(key)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // map::erase(key)
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The map before using erase() is : 
 KEY    ELEMENT
 1    40
@@ -79,7 +79,7 @@ KEY    ELEMENT
 
 *   **移除位置的语法:**
 
-```
+```cpp
 map_name.erase(iterator position)
 
 ```
@@ -92,7 +92,7 @@ map_name.erase(iterator position)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // map::erase(iteratorposition)
 #include <bits/stdc++.h>
@@ -137,7 +137,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The map before using erase() is : 
 KEY    ELEMENT
 1    40
@@ -154,7 +154,7 @@ KEY    ELEMENT
 
 *   **擦除给定范围的语法:**
 
-```
+```cpp
 map_name.erase(iterator position1, iterator position2)
 
 ```
@@ -170,7 +170,7 @@ map_name.erase(iterator position1, iterator position2)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // map::erase(iteratorposition1, iteratorposition2)
 #include <bits/stdc++.h>
@@ -216,7 +216,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The map before using erase() is : 
 KEY    ELEMENT
 1    40

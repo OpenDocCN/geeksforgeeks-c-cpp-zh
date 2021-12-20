@@ -32,7 +32,7 @@
 
 ## C
 
-```
+```cpp
 // C program illustrating the use of
 // #define
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 area of circle is 50.240002
 
 ```
@@ -70,7 +70,7 @@ area of circle is 50.240002
 
 ## C
 
-```
+```cpp
 // C program to find the product of
 // two numbers using #define
 
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 product of a and b is 12
 
 ```
@@ -114,7 +114,7 @@ product of a and b is 12
 
 ## C
 
-```
+```cpp
 // C program to illustrate the use
 // of #undef in a program
 #include <stdio.h>

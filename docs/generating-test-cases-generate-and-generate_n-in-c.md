@@ -10,7 +10,7 @@
 
     下面的代码演示了生成的实现:
 
-    ```
+    ```cpp
     // C++ program to demonstrate generate function in STL
     #include <bits/stdc++.h>     
     using namespace std;
@@ -41,7 +41,7 @@
 
     输出:
 
-    ```
+    ```cpp
     832 60 417 710 487 260 920 803 576 58
 
     ```
@@ -53,7 +53,7 @@
 
     The following code demonstrates the working of generate_n :
 
-    ```
+    ```cpp
     // C++ program to demonstrate generate_n() function in STL
     #include <bits/stdc++.h>    
     using namespace std;
@@ -84,7 +84,7 @@
 
     输出:
 
-    ```
+    ```cpp
     177 567 15 922 527 4 0 0 0 0
 
     ```

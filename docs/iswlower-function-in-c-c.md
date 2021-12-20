@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswlower(ch)
 ```
 
@@ -23,7 +23,7 @@ int iswlower(ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswlower() function
 #include <cwctype>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a is a lowercase character 
 A is not a lowercase character
 
@@ -63,7 +63,7 @@ A is not a lowercase character
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswlower() function
 #include <cwctype>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 q is a lowercase character 
 ? is not a lowercase character
 

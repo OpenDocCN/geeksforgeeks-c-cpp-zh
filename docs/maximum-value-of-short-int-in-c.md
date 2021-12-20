@@ -18,7 +18,7 @@
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to obtain themaximum
 // value that can be store in short int
 #include <climits>
@@ -70,7 +70,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 Value from climits constant (maximum): 32767
 Value from climits constant (minimum): -32768
 Value using the wrap around property :

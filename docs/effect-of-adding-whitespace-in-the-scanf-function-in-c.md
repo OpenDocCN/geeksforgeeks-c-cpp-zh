@@ -8,7 +8,7 @@
 
 在 [**scanf()函数**](https://www.geeksforgeeks.org/scanf-and-fscanf-in-c-simple-yet-poweful/) 中添加空白字符会导致它读取元素并尽可能忽略所有空白字符，并继续搜索非空白字符。
 
-```
+```cpp
 scanf("%d ");
 scanf(" %d");
 
@@ -27,7 +27,7 @@ from scanf("%d"); function.
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // above approach
 
@@ -73,7 +73,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // above approach
 #include <stdio.h>

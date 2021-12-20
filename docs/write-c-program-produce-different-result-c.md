@@ -10,7 +10,7 @@
 
 例如，下面的程序在 C 中生成 sizeof(int)作为输出，但在 C++中生成 sizeof(char)。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 **2)** 在 C 语言中，每当我们声明一个结构变量时，都需要使用 struct tag。在 C++中，结构标记不是必需的。例如，让*学生*有一个结构。在 C 语言中，我们必须使用“*结构学生*来表示学生*变量。在 C++中，我们可以省略 struct，只使用“ *Student* ”。
 下面是一个基于事实的程序，用 C 和 C++产生不同的输出。它在 C 中打印 sizeof(int)，在 C++中打印 sizeof(struct T)。*
 
-```
+```cpp
 #include <stdio.h>
 int T;
 
@@ -37,7 +37,7 @@ int main()
 
 **3)** 布尔结果的类型在 C 和 C++中是不同的。感谢 Gaurav Jain 提出这一点。
 
-```
+```cpp
 
 // output = 4 in C (which is size of int)
 printf("%d", sizeof(1==1)); 

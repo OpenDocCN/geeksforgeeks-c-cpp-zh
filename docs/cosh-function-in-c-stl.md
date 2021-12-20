@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 cosh(data_type x)
 
 ```
@@ -19,7 +19,7 @@ cosh(data_type x)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // cosh() function
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 cosh(4.1) = 30.1784
 cosh(90 degrees) = 2.50918
 
@@ -53,7 +53,7 @@ cosh(90 degrees) = 2.50918
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // cosh() function
 #include <bits/stdc++.h>
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 cosh(-4) = 27.3082
 cosh(90 degrees) = 1.54308
 
@@ -90,7 +90,7 @@ cosh(90 degrees) = 1.54308
 
 **程序 3:**
 
-```
+```cpp
 // CPP program to demonstrate the 
 // cosh() function when string passed
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp:14:20: error: no matching function for call to 'cosh(std::__cxx11::string&)'
 result = cosh(x);
 
@@ -118,7 +118,7 @@ result = cosh(x);
 
 **程序 4:** 当自变量过大时。
 
-```
+```cpp
 // CPP program to demonstrate the cosh()
 // function
 #include <bits/stdc++.h>
@@ -137,7 +137,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 cosh(3000.0) = inf
 
 ```

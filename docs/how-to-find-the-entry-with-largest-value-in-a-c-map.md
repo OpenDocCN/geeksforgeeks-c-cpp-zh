@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: Map = {ABC = 10, DEF = 30, XYZ = 20}
 Output: DEF = 30
 
@@ -19,7 +19,7 @@ Output: 3 = 60
 
 1.  [在](https://www.geeksforgeeks.org/traversing-a-map-or-unordered_map-in-cpp-stl/)[迭代器](https://www.geeksforgeeks.org/iterators-c-stl/)
 
-    ```
+    ```cpp
     map::iterator itr;
     for (itr = some_map.begin();
          itr != some_map.end();
@@ -38,7 +38,7 @@ Output: 3 = 60
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to find the Entry
 // with largest Value in a Map
 
@@ -120,7 +120,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map: 1 = 40, 2 = 30, 3 = 60, 
 Entry with highest value: 3 = 60
 

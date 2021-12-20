@@ -6,7 +6,7 @@
 
 fprintf 用于打印文件中的内容，而不是 stdout 控制台。
 
-```
+```cpp
 int fprintf(FILE *fptr, const char *str, ...);
 
 ```
@@ -15,7 +15,7 @@ int fprintf(FILE *fptr, const char *str, ...);
 
 T3】CT5
 
-```
+```cpp
 // C Program for the above approach  
 #include<stdio.h>
 int main()

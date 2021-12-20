@@ -4,7 +4,7 @@
 
 **模数函数**用于返回其两个自变量之间的模值。它的工作原理与模数运算符相同。
 
-```
+```cpp
 template  struct modulus : binary_function  
 {
   T operator() (const T& x, const T& y) const 
@@ -25,7 +25,7 @@ template  struct modulus : binary_function
 
 Bewlo 程序说明了模数函数的工作原理:
 
-```
+```cpp
 // C++ program to implement modulus function
 #include <algorithm> // transform
 #include <functional> // modulus, bind2nd
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 8 is a even
 6 is a even
 3 is a odd
@@ -66,7 +66,7 @@ int main()
 
 ```
 
-```
+```cpp
 // C++ program to implement modulus function
 #include <algorithm> // transform
 #include <functional> // modulus, bind2nd
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0 1 0 1 0 1 0 1 0 1
 
 ```

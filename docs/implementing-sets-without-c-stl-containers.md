@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <algorithm>
 #include <iostream>
@@ -523,7 +523,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 A = { 1 2 3 }
 P(A) = 
 { }

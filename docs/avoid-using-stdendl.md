@@ -6,13 +6,13 @@
 
 **std::endl** 不仅向流中添加换行符，还会在每次使用缓冲区时刷新缓冲区。因此当我们写作时
 
-```
+```cpp
  cout << std::endl 
 ```
 
 我们实际上正在做这样的事情
 
-```
+```cpp
  cout << '\n' << std::flush; 
 ```
 
@@ -23,7 +23,7 @@
 **性能影响演示**
 下面的 C++程序演示了 std::endl 的性能影响。我们使用 std::endl 将 100000 个字符串写入两个文件，然后再次使用' \n '。在每种情况下，我们都会测量执行时间并打印这些时间
 
-```
+```cpp
 #include <iostream>
 #include <chrono>
 #include <fstream>
@@ -71,7 +71,7 @@ int main()
 
 输出:(取决于机器)
 
-```
+```cpp
 Writing to file using endl took 3272 microseconds
 Writing to file using \n took 1533 microseconds
 

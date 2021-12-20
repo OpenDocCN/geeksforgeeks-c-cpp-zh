@@ -5,7 +5,7 @@
 **priority_queue::value _ type**方法是 C++ STL 中的一个内置函数，它表示作为一个元素存储在 priority _ queue 中的对象类型。它充当模板参数的同义词。
 **语法:**
 
-```
+```cpp
 priority_queue::value_type variable_name
 ```
 
@@ -15,7 +15,7 @@ priority_queue::value_type variable_name
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // priority_queue :: value_type function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value_type is AnInt = 20
 The element at the top of the priority_queue is 30.
 ```
@@ -56,7 +56,7 @@ The element at the top of the priority_queue is 30.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value_type is AString = geeks for geeks
 Value stored in priority queue are :
     ghi    def    abc

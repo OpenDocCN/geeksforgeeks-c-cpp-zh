@@ -9,13 +9,13 @@
 
 语法:
 
-```
+```cpp
 int getc(FILE *stream); 
 ```
 
 示例:
 
-```
+```cpp
 // Example for getc() in C
 #include <stdio.h>
 int main()
@@ -25,7 +25,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: g (press enter key)
 Output: g 
 ```
@@ -37,13 +37,13 @@ getc()和 getchar()的区别在于 getc()可以从任何输入流读取，但是
 
 语法:
 
-```
+```cpp
 int getchar(void); 
 ```
 
 示例:
 
-```
+```cpp
 // Example for getchar() in C
 #include <stdio.h>
 int main()
@@ -53,7 +53,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: g(press enter key)
 Output: g 
 ```
@@ -63,13 +63,13 @@ getch()是一个非标准函数，存在于像 Turbo C 这样的 MS-DOS 编译�
 和上述函数一样，它也是从键盘读取单个字符。但是它不使用任何缓冲区，所以输入的字符会立即返回，而无需等待回车键。
 语法:
 
-```
+```cpp
 int getch();
 ```
 
 示例:
 
-```
+```cpp
 // Example for getch() in C
 #include <stdio.h>
 #include <conio.h>
@@ -80,7 +80,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input:  g (Without enter key)
 Output: Program terminates immediately.
         But when you use DOS shell in Turbo C, 
@@ -92,13 +92,13 @@ Output: Program terminates immediately.
 
 语法:
 
-```
+```cpp
 int getche(void); 
 ```
 
 示例:
 
-```
+```cpp
 #include <stdio.h>
 #include <conio.h>
 // Example for getche() in C
@@ -109,7 +109,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: g(without enter key as it is not buffered)
 Output: Program terminates immediately.
         But when you use DOS shell in Turbo C, 

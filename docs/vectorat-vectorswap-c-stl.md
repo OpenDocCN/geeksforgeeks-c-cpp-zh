@@ -9,7 +9,7 @@
 at()函数用于引用出现在 ***位置*** 的元素，该位置作为函数的参数给出。
 **语法:**
 
-```
+```cpp
 ***vectorname***.at(***position***)
 Parameters: 
 Position of the element to be fetched.
@@ -19,7 +19,7 @@ Direct reference to the element at the given position.
 
 **示例:**
 
-```
+```cpp
 Input: myvector = 1, 2, 3
          myvector.at(2);
 Output: 3
@@ -36,7 +36,7 @@ Output: 7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of at() function
 #include <iostream>
@@ -58,14 +58,14 @@ int main()
 
 **Output**
 
-```
+```cpp
 7
 ```
 
 **应用:**
 给定一个整数向量，打印所有出现在偶数位置的整数。
 
-```
+```cpp
 Input: 1, 2, 3, 4, 5, 6, 7, 8, 9
 Output: 1 3 5 7 9
 *Explanation - 1, 3, 5, 7 and 9 are at position 0, 2, 4, 6 and 8 which are even*
@@ -78,7 +78,7 @@ Output: 1 3 5 7 9
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of at() function
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 3 5 7 9 
 ```
 
@@ -121,7 +121,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 ***vectorname1***.swap(***vectorname2***)
 Parameters:
 The name of the vector with which
@@ -132,7 +132,7 @@ All the elements of the 2 vectors are swapped.
 
 **示例:**
 
-```
+```cpp
 Input: myvector1 = {1, 2, 3, 4}
          myvector2 = {3, 5, 7, 9}
          myvector1.swap(myvector2);
@@ -153,7 +153,7 @@ Output: myvector1 = {2, 4, 6, 8}
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <iostream>
@@ -188,7 +188,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 myvector1 = 3 5 7 9 
 myvector2 = 1 2 3 4 
 ```
@@ -197,7 +197,7 @@ myvector2 = 1 2 3 4
 
 ## C++
 
-```
+```cpp
 // CPP program
 #include <iostream>
 #include <vector>
@@ -226,7 +226,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The vec1 contains: 200 200 200 200 200
 The vec2 contains: 100 100 100
 ```

@@ -4,7 +4,7 @@
 
 预测后续 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -44,7 +44,7 @@ int main(void)
 
 为了修复这个错误，我们需要显式地定义一个。
 
-```
+```cpp
 #include <iostream >
 using namespace std;
 

@@ -13,7 +13,7 @@ scanf 系列函数支持由%[]表示的 scanset 说明符。在 scanset 中，�
 
 ## C
 
-```
+```cpp
 /* A simple scanset example */
 #include <stdio.h>
 
@@ -30,7 +30,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
   [root@centos-6 C]# ./scan-set 
   Enter a string: GEEKs_for_geeks
   You entered: GEEK
@@ -40,7 +40,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 scanf("%[^o]s", str);
 ```
 
@@ -48,7 +48,7 @@ scanf("%[^o]s", str);
 
 ## C
 
-```
+```cpp
 /* Another scanset example with ^ */
 #include <stdio.h>
 
@@ -65,7 +65,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
   [root@centos-6 C]# ./scan-set 
   Enter a string: http://geeks for geeks
   You entered: http://geeks f
@@ -76,7 +76,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 /* implementation of gets() function using scanset */
 #include <stdio.h>
 
@@ -93,7 +93,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
   [root@centos-6 C]# ./gets 
   Enter a string with spaces: Geeks For Geeks
   You entered: Geeks For Geeks

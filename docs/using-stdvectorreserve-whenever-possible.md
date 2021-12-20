@@ -8,7 +8,7 @@
 
 **std::vector::reserve**
 
-```
+```cpp
 void reserve(size_type n)
 Return Type: none
 Arguments: n which denotes the no of elements to be stored in vector
@@ -24,7 +24,7 @@ not modify existing elements in the vector
 
 这里有一个程序来演示使用保留函数可以获得的性能改进。在这个程序中，我们用大量元素填充两个向量，并计算执行这个步骤所花费的时间。对于第一个向量，我们不指定容量，而对于第二个向量，我们使用 reserve()指定容量。
 
-```
+```cpp
 // CPP program to demonstrate use of 
 // std::vector::reserve 
 #include <chrono>
@@ -73,7 +73,7 @@ int main()
 
 输出:(取决于机器)
 
-```
+```cpp
 Method I took 18699 microseconds
 Method II took 16276 microseconds 
 

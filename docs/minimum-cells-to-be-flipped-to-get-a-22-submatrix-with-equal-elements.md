@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -86,7 +86,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 class GFG
 {
@@ -160,7 +160,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 implementation of the approach
 import sys
 
@@ -226,7 +226,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -304,7 +304,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript implementation of the approach   
 // Function to return the minimum flips
@@ -375,6 +375,6 @@ public static void Main(String[] args)
 
 **Output:** 
 
-```
+```cpp
 2
 ```

@@ -24,7 +24,7 @@
 
 现在画给定半径“r”和中心(xc，yc)的圆，我们将从(0，r)开始，在第一象限移动，直到 x=y(即 45 度)。我们应该从列出的初始条件开始:
 
-```
+```cpp
 d = 3 - (2 * r)
 x = 0
 y = r
@@ -46,7 +46,7 @@ y = r
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // function to draw all other 7 pixels
 // present at symmetric position
 drawCircle(int xc, int yc, int x, int y)
@@ -66,7 +66,7 @@ drawCircle(int xc, int yc, int x, int y)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C-program for circle drawing
 // using Bresenham’s Algorithm
 // in computer-graphics

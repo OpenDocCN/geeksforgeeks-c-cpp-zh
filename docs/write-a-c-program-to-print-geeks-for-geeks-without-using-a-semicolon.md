@@ -7,7 +7,7 @@
 首先我们要了解 printf()函数是如何工作的。
 printf()函数的原型是:
 
-```
+```cpp
 int printf( const char *format , ...)
 
 ```
@@ -24,7 +24,7 @@ int printf( const char *format , ...)
 1.  **使用 if 条件:**T0】
 2.  **使用同时条件:**
 
-    ```
+    ```cpp
     #include<stdio.h>
     int main(){
         while (!printf( "Geeks for Geeks" ))
@@ -34,7 +34,7 @@ int printf( const char *format , ...)
 
 3.  **使用开关情况:**
 
-    ```
+    ```cpp
     #include<stdio.h>
     int main(){
         switch (printf("Geeks for Geeks" ))
@@ -44,7 +44,7 @@ int printf( const char *format , ...)
 
 4.  **使用宏:**
 
-    ```
+    ```cpp
     #include<stdio.h>
     #define PRINT printf("Geeks for Geeks")
     int main()
@@ -54,14 +54,14 @@ int printf( const char *format , ...)
     }
     ```
 
-```
+```cpp
 Output: Geeks for Geeks
 
 ```
 
 **上述问题的一个微不足道的扩展:**写一个 C 程序打印“；”不使用分号
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {   
@@ -72,7 +72,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output: ;
 
 ```

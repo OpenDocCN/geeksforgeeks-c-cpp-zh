@@ -4,7 +4,7 @@
 
 预测以下没有任何虚函数的简单 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -46,14 +46,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Base class invoke function
 Base class print function
 ```
 
 由于没有[虚函数](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)，运行时多态行为在上面的代码中不起作用。现在预测下面 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Base class invoke function
 Derived class print function
 ```

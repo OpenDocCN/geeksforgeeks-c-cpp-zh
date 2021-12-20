@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 inline return_type function_name(parameters) 
 {
 // Insert your Function code here
@@ -17,7 +17,7 @@ inline return_type function_name(parameters)
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate inline function
 
 // Importing input output stream files
@@ -51,6 +51,6 @@ int main()
 
 **输出**
 
-```
+```cpp
 Multiplication ( 20 , 30 ):600
 ```

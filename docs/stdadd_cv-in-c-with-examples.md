@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct add_cv
 
@@ -21,7 +21,7 @@ struct add_cv
 
 **语法:**
 
-```
+```cpp
 std::add_const::type
 
 ```
@@ -32,7 +32,7 @@ std::add_const::type
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::add_cv
 #include <bits/stdc++.h>
@@ -78,7 +78,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 typedefs of const volatile int:
 A: true
 B: true

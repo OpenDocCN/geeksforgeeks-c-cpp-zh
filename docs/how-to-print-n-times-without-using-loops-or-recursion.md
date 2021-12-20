@@ -9,7 +9,7 @@
 
 首先我们创建一个类。之后，我们需要通过在 cout/print 语句中写入要打印的语句来初始化类的构造函数。这里使用的基本思想是“创建类的对象的次数，该类的构造函数被调用的次数。”
 
-```
+```cpp
 // CPP program to print a sentence N times
 // without loop and recursion.
 // Author : Rohan Prasad
@@ -34,7 +34,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello
 Hello
 Hello

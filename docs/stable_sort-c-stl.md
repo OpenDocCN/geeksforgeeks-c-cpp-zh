@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate default behaviour of
 // sort() in STL.
 #include <bits/stdc++.h>
@@ -30,7 +30,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array after sorting using default sort is : 
 0 1 2 3 4 5 6 7 8 9 
 ```
@@ -41,7 +41,7 @@ Like sort()，stable_sort()接受第三个参数，用于指定元素的排序�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate descending order
 // stable sort using greater<>().
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array after sorting : 
 9 8 7 6 5 4 3 2 1 0 
 ```
@@ -75,7 +75,7 @@ Array after sorting :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to demonstrate STL stable_sort()
 // to sort intervals according to start time.
 // Given intervals are sorted according to
@@ -117,7 +117,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Intervals sorted by start time : 
 [1, 3] [1, 7] [2, 4] [2, 19] 
 ```

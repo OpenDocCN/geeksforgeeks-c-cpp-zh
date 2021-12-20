@@ -6,7 +6,7 @@
 
 将字符串转换为无符号整数。解析字符串，将其内容解释为指定基数的整数，该整数作为无符号长值返回。
 
-```
+```cpp
 unsigned long stoul 
 (const string&  str, size_t* idx = 0, int base = 10);
 Parameters :
@@ -28,7 +28,7 @@ the sequence.Notice that by default this argument is 10, not 0\.
 
 将字符串转换为无符号长整型。解析字符串，将其内容解释为指定基数的整数，该整数作为无符号 long 类型的值返回。
 
-```
+```cpp
 unsigned long long stoull 
 (const string&  str, size_t* idx = 0, int base = 10);
 Parameters :
@@ -47,7 +47,7 @@ sequence. Notice that by default this argument is 10, not 0\.
 
 **示例:**
 
-```
+```cpp
 Input : FF
 Output : 255
 
@@ -56,7 +56,7 @@ Output :
 
 ```
 
-```
+```cpp
 // CPP code to convert hexadecimal
 // string to int
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main()
 
 输出:
 
-```
+```cpp
 255
 16777215
 
@@ -96,7 +96,7 @@ int main()
 **另一个例子:** **程序比较两个包含十六进制值的字符串**
 这里使用 **stoul** ，但是如果数字超过无符号长值，则使用**stoall**。
 
-```
+```cpp
 // CPP code to compare two
 // hexadecimal string
 #include <bits/stdc++.h>
@@ -125,7 +125,7 @@ int main()
 
 输出:
 
-```
+```cpp
 A0 is greater than 4F
 
 ```

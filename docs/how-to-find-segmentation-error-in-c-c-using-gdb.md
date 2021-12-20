@@ -9,7 +9,7 @@
 注意:-我在这个演示中使用了 Linux 发行版–Ubuntu。
 所以，考虑下面的 C++代码片段。
 
-```
+```cpp
 // Segmentation Error Demonstration
 // Author - Rohan Prasad
 #include <iostream>

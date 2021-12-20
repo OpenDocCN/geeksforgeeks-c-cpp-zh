@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        asinh (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **例 1:**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of asinh() function.
 
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The asinh of (-2,0) is (-1.44364,0)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of asinh() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The asinh of (-0,-2) is (-1.31696,-1.5708)
 
 ```

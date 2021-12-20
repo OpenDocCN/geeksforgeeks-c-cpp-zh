@@ -11,7 +11,7 @@
 **回答:****(B)**【T29】
 **解释:** fp 是一个 FILE 类型的指针，FILE 是一个存储打开文件的以下信息的结构。
 
-```
+```cpp
 typedef struct {
   int level; /* fill/empty level of buffer */
   unsigned flags; /* File status flags */

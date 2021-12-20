@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 swap(forward_list first, forward_list second)
                or 
 forward_list1.swap(forward_list second)
@@ -24,7 +24,7 @@ forward_list1.swap(forward_list second)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program that demonstrates the
 // forward_list::swap() function
 // when two parameters is passed
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before swap operation firstlist was: 9 8 7 6 
 Before swap operation secondlist was: 10 20 30 
 
@@ -77,7 +77,7 @@ After swap operation secondlist is:9 8 7 6
 
 **程序 2:**
 
-```
+```cpp
 // CPP program that demonstrates the
 // forward_list::swap() function
 // when two parameters is passed
@@ -119,7 +119,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before swap operation firstlist was: 9 8 7 6 
 Before swap operation secondlist was: 10 20 30 
 

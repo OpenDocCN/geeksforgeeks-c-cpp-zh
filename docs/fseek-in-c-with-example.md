@@ -5,7 +5,7 @@
 fseek()用于将与给定文件相关联的文件指针移动到特定位置。
 **语法:**
 
-```
+```cpp
 int fseek(FILE *pointer, long int offset, int position)
 pointer: pointer to a FILE object that identifies the stream.
 offset: number of bytes to offset from position
@@ -21,7 +21,7 @@ SEEK_END:表示文件结束。
 SEEK_SET:表示文件的开始。
 SEEK_CUR:表示文件指针的当前位置。
 
-```
+```cpp
 // C Program to demonstrate the use of fseek()
 #include <stdio.h>
 
@@ -42,7 +42,7 @@ int main()
 
 输出:
 
-```
+```cpp
 81
 
 ```
@@ -51,7 +51,7 @@ int main()
 
 文件 test.txt 包含以下文本:
 
-```
+```cpp
 "Someone over there is calling you.
 we are going for work.
 take care of yourself."

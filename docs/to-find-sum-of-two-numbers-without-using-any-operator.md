@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int add(int x, int y)
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
        Sum = 7
 ```
 
@@ -60,7 +60,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -81,7 +81,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int add(int x, int y)
@@ -99,7 +99,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
       Sum = 7
 ```
 
@@ -111,7 +111,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -140,7 +140,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -167,7 +167,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java code
 class GfG {
 
@@ -195,7 +195,7 @@ class GfG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 Code
 
 if __name__ == '__main__':
@@ -220,7 +220,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# code
 using System;
 
@@ -250,7 +250,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP Code
 $a = 10;
@@ -281,7 +281,7 @@ echo "Sum is: ", $a;
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program for the above approach
@@ -308,7 +308,7 @@ echo "Sum is: ", $a;
 
 **输出:**
 
-```
+```cpp
 sum = 15
 ```
 

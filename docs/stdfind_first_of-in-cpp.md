@@ -12,7 +12,7 @@
 
 语法:
 
-```
+```cpp
 Template
 ForwardIterator1 find_first_of(ForwardIterator1 first1,
                                ForwardIterator1 last1,
@@ -35,7 +35,7 @@ Return Value: It returns an iterator to the
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate 
 // the use of std::find_first_of
 #include<iostream>
@@ -72,7 +72,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 
 3
 
@@ -84,7 +84,7 @@ int main()
 
     语法:
 
-    ```
+    ```cpp
     Template
        ForwardIterator1 find_first_of (ForwardIterator1 first1, 
                                        ForwardIterator1 last1,
@@ -109,7 +109,7 @@ int main()
     is empty, the function returns last1.
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // the use of std::find_first_of
     #include<iostream>
@@ -149,7 +149,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     15
 
     ```
@@ -160,7 +160,7 @@ int main()
 
     1.  One possible application of this is to find **the first vowel in a sentence.**
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of std::find_first_of
         #include<iostream>
         #include<vector>
@@ -190,7 +190,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         First vowel found at index 1
 
         ```
@@ -199,7 +199,7 @@ int main()
 
     2.  It can also be used to find the **first odd and even numbers** present in list.
 
-        ```
+        ```cpp
         // C++ program to find the first occurrence of an odd
         // and even number
         #include<iostream>
@@ -265,7 +265,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         First odd no. occurs at index 0
         First even no. occurs at index 2
 

@@ -6,7 +6,7 @@
 精确地说，求**F(A<sub>i1</sub>)+F(A<sub>I2</sub>)+F(A<sub>i3</sub>)+…+F(A<sub>IX</sub>)**，其中(A <sub>i1</sub> ，A <sub>i2</sub> ，…， A <sub>ix</sub> ) < = K 和 1 < = (i <sub>1</sub> ，i <sub>2</sub> ，…，i <sub>x</sub> ) < = n .这里， **F(i)** 是 **i <sup>第</sup>个斐波那契数**
 例:
 
-```
+```cpp
 Input : arr = {1, 2, 3, 4, 2, 7}
         Query 1 : K = 2
         Query 2 : K = 6
@@ -26,7 +26,7 @@ Output : 3
 在这种技术中，在查询到达时进行处理。首先，按升序对数组进行排序。获得特定 k 的查询后，在这个排序的数组上使用二分搜索法来查找最后一个索引，其中数组的值是& < = k。让我们称这个位置为 x。
 现在，由于数组是排序的，</sup></sup> 
 
-```
+```cpp
 For all i <= x, a[i] <= x
 i.e
 a[i] <= a[x] for all i ∈ [1, x]
@@ -40,7 +40,7 @@ a[i] <= a[x] for all i ∈ [1, x]
 
 ## C++
 
-```
+```cpp
 // C++ program to find fibonacci sum of
 // subarray where all elements <= k
 #include <bits/stdc++.h>
@@ -168,7 +168,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find fibonacci sum of
 // subarray where all elements <= k
 import java.util.*;
@@ -314,7 +314,7 @@ class GFG
 
 ## C#
 
-```
+```cpp
 // C# program to find fibonacci sum of
 // subarray where all elements <= k
 using System;
@@ -460,7 +460,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program to find fibonacci sum of
 // subarray where all elements <= k
@@ -588,7 +588,7 @@ for (let i = 0; i < q; i++) {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find fibonacci sum of
 # subarray where all elements <= k
 
@@ -691,7 +691,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```cpp
 Query  1 : 3
 Query  2 : 8
 ```
@@ -714,7 +714,7 @@ i，指向数组的 i <sup>第</sup>个索引，
 j，指向查询数组的 j <sup>第</sup>个索引
 然后，考虑以下伪代码:
 
-```
+```cpp
 while (i <= query[j].K) {
      fibonacciSum  = fibonacciSum + a[i]th Fibonacci number
      i = i + 1
@@ -723,7 +723,7 @@ while (i <= query[j].K) {
 
 因此，当子集中的元素小于或等于当前查询对的第一个成员(即 K)时，继续前进到下一个元素，同时将所需的斐波那契数添加到当前总和中。一旦当前元素变得大于当前查询的参数 K，则将 sum 的当前值存储在大小为 q 的辅助数组 ans 中(即查询数)，该数组位于当前查询对的第 2 <sup>和第</sup>成员所指向的索引处(即当前查询发生的原始索引处)。
 
-```
+```cpp
 ans[query[j].original index] = current value of fibonacciSum
 ```
 
@@ -731,7 +731,7 @@ ans[query[j].original index] = current value of fibonacciSum
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find fibonacci sum of
 // subarray where all elements <= k
 #include <bits/stdc++.h>
@@ -873,7 +873,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find fibonacci sum of
 # subarray where all elements <= k
 
@@ -982,7 +982,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```cpp
 Query  1 : 3
 Query  2 : 21
 Query  3 : 8

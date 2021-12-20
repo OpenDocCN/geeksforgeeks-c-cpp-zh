@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP Program to demonstrate the use of copy constructor
 #include <iostream>
 #include <stdio.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Copy constructor has been called 
 ```
 

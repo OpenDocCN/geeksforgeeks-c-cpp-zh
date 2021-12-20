@@ -16,7 +16,7 @@
 
 在这个片段中，我们将使用包含在 **sqlite3.h** 库中的两个例程。
 
-```
+```cpp
 - sqlite3_open(const char *filename, sqlite3 **ppDb)
 - sqlite3_close(sqlite3 *ppDb)
 
@@ -24,7 +24,7 @@
 
 编译通过添加命令**-SQL lite 3**来执行。
 
-```
+```cpp
 #include <iostream>
 #include <sqlite3.h>
 
@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 
 输出:
 
-```
+```cpp
 $ g++ createDB.cpp -l sqlite3
 $ ./a.out
 
@@ -68,12 +68,12 @@ example.db
 
 在这个片段中，我们将使用例程:
 
-```
+```cpp
 - sqlite3_exec(sqlite3*, const char *sql, sqlite_callback, void *data, char **errmsg)
 
 ```
 
-```
+```cpp
 #include <iostream>
 #include <sqlite3.h>
 
@@ -105,7 +105,7 @@ int main(int argc, char** argv)
 
 输出:
 
-```
+```cpp
 $ g++ createTable.cpp -l sqlite3
 $ ./a.out
 
@@ -120,7 +120,7 @@ Table created Successfully
 
 我们也将使用 **SQLITE3_EXEC()** 例程进行插入。程序和检查与前一个相似。我们和 **SQLITE3_EXEC()** 使用的字符串只有一个不同。
 
-```
+```cpp
 #include <iostream>
 #include <sqlite3.h>
 #include <string>
@@ -186,7 +186,7 @@ int main(int argc, char** argv)
 
 输出:
 
-```
+```cpp
 $ g++ insertDelete.cpp -l sqlite3
 $ ./a.out
 STATE OF TABLE BEFORE INSERT
@@ -236,7 +236,7 @@ SALARY = 9900.0
 在我们继续展示 Select 操作之前，我们不妨考虑一下所有教程中最重要的一个，让我们看看我们将在示例中使用的**回调**原型。
 这个操作让我们从选择操作中获得一个输出:
 
-```
+```cpp
 typedef int (*sqlite3_callback)(
    void*,    /* Data provided in the 4th argument of sqlite3_exec() */
    int,      /* The number of columns in row */
@@ -248,7 +248,7 @@ typedef int (*sqlite3_callback)(
 
 现在，我们将在选择中使用回调函数，如下面的代码片段所示:
 
-```
+```cpp
 #include <iostream>
 #include <sqlite3.h>
 
@@ -299,7 +299,7 @@ int main(int argc, char** argv)
 $ g++ select . CPP-l SQLite 3
 $。/a.out
 
-```
+```cpp
 Opened Database Successfully!
 RESULT OF SELECT
 ID = 1

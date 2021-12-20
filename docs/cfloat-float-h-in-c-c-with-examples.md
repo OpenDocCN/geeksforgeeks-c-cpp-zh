@@ -21,86 +21,86 @@
 
 1.  **FLT _ 基数:**所有浮点类型的基数
 
-    ```
+    ```cpp
     Minimum value is 2
     ```
 
 2.  **FLT_DIG:** 可以舍入为浮点类型并再次舍入到相同十进制数的十进制数，而不会损失精度。
 
-    ```
+    ```cpp
     Minimum value is 6
     ```
 
 3.  **DBL_DIG 或 LDBL_DIG:** 可以四舍五入成浮点数并返回而小数位数不变的小数位数。
 
-    ```
+    ```cpp
     Minimum value is 10
     ```
 
 4.  **十进制 _ 挖:**表示浮点值所需的十进制数字
 
-    ```
+    ```cpp
     No Minimum value
     ```
 
 5.  **FLT_MANT_DIG 或 DBL_MANT_DIG 或 LDBL_MANT_DIG:** 尾数的精度，即符合有效数字的位数。
 
-    ```
+    ```cpp
     No Minimum value
     ```
 
 6.  **FLT _ 最小 _EXP 或 LDBL _ 最小 _EXP 或 LDBL _ 最小 _EXP:** 生成归一化浮点数的指数的最小负整数值。
 
-    ```
+    ```cpp
     No Minimum value
     ```
 
 7.  **FLT _ 闵 _10_EXP 或 LDBL _ 闵 _10_EXP 或 LDBL_MIN_10_EXP:** 将生成规范化浮点数的基数为 10 的表达式的指数的最小负整数值。
 
-    ```
+    ```cpp
     Maximum value is -37
     ```
 
 8.  **FLT _ 最大 _EXP 或 LDBL _ 最大 _EXP 或 LDBL _ 最大 _EXP:** 生成归一化浮点数的指数的最大整数值。
 
-    ```
+    ```cpp
     No Minimum value
     ```
 
 9.  **FLT_MAX_10_EXP 或 DBL_MAX_10_EXP 或 LDBL_MAX_10_EXP:** 将生成规范化浮点数的基数为 10 的表达式的指数的最大整数值。
 
-    ```
+    ```cpp
     Minimum value is 37
     ```
 
 10.  **FLT_MAX 或 DBL_MAX 或 LDBL_MAX:** 最大有限可表示浮点数。
 
-    ```
+    ```cpp
     Minimum value is 1037
     ```
 
 11.  **FLT _ε:**1 和可表示的大于 1 的最小值之间的差值。
 
-    ```
+    ```cpp
     Maximum value is 10-5
     ```
 
 12.  **DBL _ε或 LDBL _ε:**1 和可表示的大于 1 的最小值之间的差值。
 
-    ```
+    ```cpp
     Maximum value is 10-9
     ```
 
 13.  **FLT _ 最小或 LDBL _ 最小或低密度脂蛋白 _ 最小:**最小可表示正浮点数。
 
-    ```
+    ```cpp
     Maximum value is 10-37
     ```
 
 14.  **FLT_ROUNDS:** 舍入浮点数
     不同的可能值是:
 
-    ```
+    ```cpp
     -1 : indeterminate
      0 : towards zero
      1 : towards one
@@ -112,7 +112,7 @@
 15.  **FLT _ EVAL _ 方法:**舍入浮点数
     不同的可能值为:
 
-    ```
+    ```cpp
     -1 : undetermined
      0 : evaluate just to the range 
          and precision of the type
@@ -126,7 +126,7 @@
 
 下面是演示 cfloat 库中宏常量工作的程序。
 
-```
+```cpp
 // C++ program to demonstrate working
 // of macros constants in cfloat library
 
@@ -158,7 +158,7 @@ int main()
 
 **Output (Machine Dependent):**
 
-```
+```cpp
 FLT_RADIX : 2
 FLT_DIG : 6
 DECIMAL_DIG : 21

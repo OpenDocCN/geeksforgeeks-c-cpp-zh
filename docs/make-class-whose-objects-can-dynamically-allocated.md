@@ -4,7 +4,7 @@
 
 问题是创建一个类，使得对象的非动态分配导致编译器错误。例如，使用以下规则创建一个“测试”类。
 
-```
+```cpp
 Test t1;  // Should generate compiler error
 Test *t3 = new Test; // Should work fine
 ```
@@ -12,7 +12,7 @@ Test *t3 = new Test; // Should work fine
 想法是在类中创建一个[私有析构函数](https://www.geeksforgeeks.org/private-destructor/)。当我们创建一个私有析构函数时，编译器会为非动态分配的对象生成一个编译器错误，因为一旦它们不被使用，编译器就需要将它们从堆栈段中移除。
 由于编译器不负责动态分配对象的解除分配(程序员应该显式解除分配)，编译器不会对它们有任何问题。为了避免内存泄漏，我们创建了一个朋友函数*destrust()*，类的用户可以调用这个函数来销毁对象。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Object Created
 Destroying Object
 Object Destroyed

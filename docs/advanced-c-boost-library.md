@@ -16,7 +16,7 @@
 1.  **Big Integer data type** We can use either **int128_t, int256_t, int512_t or int1024_t** data type according to your requirement. By using these one, we can achieve precision up to 1024 easily.
     Below C++ implementation code of finding the product of large numbers.
 
-    ```
+    ```cpp
     #include <boost/multiprecision/cpp_int.hpp>
     using namespace boost::multiprecision;
     using namespace std;
@@ -40,7 +40,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Product of 98745636214564698 * 7459874565236544789 =
     736630060025131838840151335215258722
 
@@ -49,7 +49,7 @@
 2.  **Arbitrary precision data type:** We can use any precision with the help of cpp_int data type if we are not sure about how much precision is needed in future. It automatically converts the desired precision at the Run-time.
     Below implementation of C++ code for finding the factorial of 30.
 
-    ```
+    ```cpp
     #include <boost/multiprecision/cpp_int.hpp>
     using namespace boost::multiprecision;
     using namespace std;
@@ -73,14 +73,14 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Factorial of 30 = 265252859812191058636308480000000
     ```
 
 3.  **multi precision float:**借助 Boost Multiprecision float，我们可以分别用 cpp_float_50 和 cpp_dec_float_100 实现精度高达 50 和 100 的小数。
     下面是 C++代码，使用 float、decimal 和 cpp_float_50 类型计算不同精度的圆的面积。
 
-    ```
+    ```cpp
     #include<iostream>
     #include <boost/multiprecision/cpp_dec_float.hpp>
     #include <boost/math/constants/constants.hpp>
@@ -133,7 +133,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Float: 4.75292
     Double: 4.752915525616
     Boost Multiprecision: 4.7529155256159980531876290929438093413108253981451

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointer-basics-question-15/](https://www.geeksforgeeks.org/c-pointer-basics-question-15/)
 
-```
+```cpp
 #include<stdio.h>
 
 void swap (char *x, char *y)
@@ -29,28 +29,28 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 (geeksquiz, geeksforgeeks)
 (geeksforgeeks, geeksquiz)
 ```
 
 **(B)**
 
-```
+```cpp
 (geeksforgeeks, geeksquiz)
 (geeksquiz, geeksforgeeks)
 ```
 
 **(C)**
 
-```
+```cpp
 (geeksquiz, geeksforgeeks)
 (geeksquiz, geeksforgeeks)
 ```
 
 **(D)**
 
-```
+```cpp
 (geeksforgeeks, geeksquiz)
 (geeksforgeeks, geeksquiz)
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.emplace_hint(position, key, element)
 
 ```
@@ -20,7 +20,7 @@ map_name.emplace_hint(position, key, element)
 **返回值:**向新插入的元素返回一个迭代器。
 如果因为元素已经存在而导致插入失败，将返回一个迭代器给已经存在的元素，并使用等价键。
 
-```
+```cpp
 // C++ program to illustrate the
 // map::emplace_hint() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The map is : 
 KEY    ELEMENT
 1    40

@@ -7,7 +7,7 @@
 
 示例:
 
-```
+```cpp
 Input : a
 Output :a is printable character
         a is not control character
@@ -24,7 +24,7 @@ i **sprint()** 函数检查一个字符是否是可打印字符。isprint()函�
 
 **is centrl()**功能用于检查字符是否为控制字符。iscntrl()函数也接受一个参数并返回一个整数。
 
-```
+```cpp
 // C program to illustrate isprint() and iscntrl() functions.
 #include <stdio.h>
 #include <ctype.h>
@@ -48,7 +48,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 a is printable character
 a is not control character
 

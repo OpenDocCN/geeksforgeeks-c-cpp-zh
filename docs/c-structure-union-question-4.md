@@ -4,7 +4,7 @@
 
 考虑以下 C 声明
 
-```
+```cpp
 struct { 
     short s[5];
     union { 

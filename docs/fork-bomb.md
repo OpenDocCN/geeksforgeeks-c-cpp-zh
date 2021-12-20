@@ -10,7 +10,7 @@ Fork Bomb 是一个通过使系统耗尽内存来伤害系统的程序。它无�
 
 ## C
 
-```
+```cpp
 // C program Sample  for FORK BOMB
 // It is not recommended to run the program as
 // it may make a system non-responsive.
@@ -30,7 +30,7 @@ int main()
 **注意**:请不要运行此命令来“测试”它，除非您准备好崩溃和/或强制重新启动系统。而且，它不需要 root 就能运行。
 如果你使用的是终端，那么 bash 脚本为 fork() bomb 脚本如下。
 
-```
+```cpp
 :(){ :|: & };:
 ```
 
@@ -55,13 +55,13 @@ int main()
 *   你可以如下限制 fork 的进程:-
     只要以 root 身份登录，编辑这个文件，添加用户并配置，他们的限制。
 
-```
+```cpp
 # vi /etc/security/limits.conf
 ```
 
 将文件编辑为:
 
-```
+```cpp
  your_user_name hard nproc 10
 ```
 

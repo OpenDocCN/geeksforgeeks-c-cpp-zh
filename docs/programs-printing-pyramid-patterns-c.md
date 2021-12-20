@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate star pattern
 #include <iostream>
 using namespace std;
@@ -44,7 +44,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 * 
 * * 
 * * * 
@@ -57,7 +57,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate star pattern
 #include <iostream>
 using namespace std;
@@ -97,7 +97,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 * 
 * * 
 * * * 
@@ -109,7 +109,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate star pattern
 #include <iostream>
 using namespace std;
@@ -141,7 +141,7 @@ int main()
 
 **Output**
 
-```
+```cpp
         * 
       * * 
     * * * 
@@ -153,7 +153,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate pattern printing
 #include <iostream>
 using namespace std;
@@ -198,7 +198,7 @@ int main()
 
 **Output**
 
-```
+```cpp
         * 
       * * 
     * * * 

@@ -13,7 +13,7 @@ printf 的%i 和%d 格式说明符没有区别。考虑下面的例子。
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // the behavior of %i and %d
 // with printf statement
@@ -33,7 +33,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Value of num using %d is = 9
 Value of num using %i is = 9
@@ -52,7 +52,7 @@ Value of num using %i is = 9
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the difference
 // between %i and %d specifier
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Enter value of a in decimal format:12
 Enter value of b in octal format: 012

@@ -20,14 +20,14 @@
 
 **语法:**
 
-```
+```cpp
 set_intersection (InputIterator1 first1, InputIterator1 last1,
            InputIterator2 first2, InputIterator2 last2,
            OutputIterator result);
 
 ```
 
-```
+```cpp
 // C++ program to find common elements
 // between two Vectors using STL
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First Vector: 1 12 45 54 71 76 
 Second Vector: 1 4 5 6 7 12 
 

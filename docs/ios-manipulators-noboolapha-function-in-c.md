@@ -6,7 +6,7 @@ C++中**流操纵器**的**nobolalpha()**方法用于获取指定字符串流的
 
 **语法:**
 
-```
+```cpp
 ios_base& noboolalpha (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& noboolalpha (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noboolalpha() function
 
@@ -41,14 +41,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noboolalpha flag: 1
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noboolalpha() function
 
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noboolalpha flag: 0
 
 ```

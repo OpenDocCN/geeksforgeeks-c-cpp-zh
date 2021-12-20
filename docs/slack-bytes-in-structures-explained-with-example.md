@@ -7,7 +7,7 @@
 [**<u>【结构】</u>**](https://www.geeksforgeeks.org/structures-c/)**<u>:</u>**
 结构用于存储同一变量名下属于不同数据类型的数据。结构示例如下所示:
 
-```
+```cpp
 struct STUDENT
 {
     char[10] name;
@@ -33,7 +33,7 @@ struct STUDENT
 
 **示例:**考虑以下结构声明:
 
-```
+```cpp
 struct EMPLOYEE
 {
     char name[8];

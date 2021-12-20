@@ -22,7 +22,7 @@
 
     因此，如果 A 和 B 是双向迭代器，以下两个表达式是有效的:
 
-    ```
+    ```cpp
     A == B  // Checking for equality
     A != B  // Checking for inequality
 
@@ -30,7 +30,7 @@
 
 3.  **Dereferencing:** Because an input iterator can be dereferenced, using operator * and -> as an rvalue and an output iterator can be dereferenced as an lvalue, so forward iterators being the combination of both can be used for both the purposes, and similarly, bidirectional operators can also serve both the purposes.
 
-    ```
+    ```cpp
     // C++ program to demonstrate bidirectional iterator
     #include<iostream>
     #include<list>
@@ -60,7 +60,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 1 1 1 1
 
     ```
@@ -71,7 +71,7 @@
 
     因此，如果 A 是双向迭代器，以下两个表达式是有效的:
 
-    ```
+    ```cpp
     A++   // Using post increment operator
     ++A   // Using pre increment operator
 
@@ -81,7 +81,7 @@
 
     这就是为什么，它的名字叫双向，说明**它可以双向移动**。
 
-    ```
+    ```cpp
     // C++ program to demonstrate bidirectional iterator
     #include<iostream>
     #include<list>
@@ -110,7 +110,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5 4 3 2 1
 
     ```
@@ -125,7 +125,7 @@
 
 *   **std::reverse_copy:** As the name suggests, this algorithm is used to copy a range into another range, but in reverse order. Now, as far as accessing elements and assigning elements are concerned, forward iterators are fine, **but as soon as we have to decrement the iterator, then we cannot use these forward iterators** for this purpose, and that’s where bidirectional iterators come for our rescue.
 
-    ```
+    ```cpp
     // Definition of std::reverse_copy()
     template 
     OutputIterator reverse_copy(BidirectionalIterator first,
@@ -142,7 +142,7 @@
 
 *   **std::random_shuffle:** As we know this algorithm is used to randomly shuffle all the elements present in a container. So, let us look at its internal working (Don’t go into detail just look where bidirectional iterators can be used and where they cannot be):
 
-    ```
+    ```cpp
     // Definition of std::random_shuffle()
     template 
     void random_shuffle(RandomAccessIterator first,
@@ -170,7 +170,7 @@
 
 1.  **关系运算符:**虽然，双向迭代器可以与等式运算符(==)一起使用，但它不能与其他关系运算符(如，=)一起使用。
 
-    ```
+    ```cpp
     If A and B are Bidirectional iterators, then
 
     A == B     // Allowed
@@ -180,7 +180,7 @@
 
 2.  **Arithmetic Operators:** Similar to relational operators, they also can’t be used with arithmetic operators like +, – and so on. This means that bidirectional iterators can move in both the direction, but sequentially.
 
-    ```
+    ```cpp
     If A and B are Bidirectional iterators, then
 
     A + 1     // Not allowed
@@ -188,7 +188,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate bidirectional iterator
     #include<iostream>
     #include<list>
@@ -227,7 +227,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Error, because of use of arithmetic and relational operators 
     with bidirectional iterators 
 
@@ -235,7 +235,7 @@
 
 3.  **使用偏移取消引用运算符([ ]):** 双向迭代器不支持用于随机访问的偏移取消引用运算符([ ])。
 
-    ```
+    ```cpp
     If A is a Bidirectional iterator, then
     A[3]    // Not allowed 
 

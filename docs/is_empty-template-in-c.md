@@ -6,7 +6,7 @@ C++ STL 的 **std::is_empty 模板**用于检查给定类型是否为空。此�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_empty;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_empty;
 
 **程序 1** :使用结构
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_empty template
 
@@ -73,7 +73,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is GFG1 empty: true
 Is GFG2 empty: false
 Is GFG3 empty: true
@@ -83,7 +83,7 @@ Is GFG4 empty: false
 
 **程序 2** :使用类
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_empty template
 
@@ -132,7 +132,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is GFG1 empty: true
 Is GFG2 empty: false
 Is GFG3 empty: true

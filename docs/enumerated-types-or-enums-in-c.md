@@ -26,7 +26,7 @@
 
 **例如:**
 
-```
+```cpp
 //first_enum is the enumerated-type-name
 ***enum first_enum{value 1, value2=10, value3};***
 
@@ -43,7 +43,7 @@ Output:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -72,7 +72,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Gender is Male
 
 ```
@@ -81,7 +81,7 @@ Gender is Male
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -116,7 +116,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0 1 2 3 4 5 6 7 8 9 10 11
 
 ```

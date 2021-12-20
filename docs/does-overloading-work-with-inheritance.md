@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base
@@ -39,14 +39,14 @@ int main()
 
 这个程序的输出是:
 
-```
+```cpp
 f(double): 6.3
 f(double): 6.6 
 ```
 
 而不是假设的输出:
 
-```
+```cpp
 f(int): 6
 f(double): 6.6 
 ```
@@ -59,7 +59,7 @@ f(double): 6.6
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Base
 {
     public int f(int i)
@@ -89,7 +89,7 @@ class myprogram3
 
 上述程序的输出是:
 
-```
+```cpp
 f (int): 6
 f (double): 6.6 
 ```
@@ -100,7 +100,7 @@ f (double): 6.6
 
 ## C#
 
-```
+```cpp
 using System;                    
 class Base
 {
@@ -133,14 +133,14 @@ class MyProgram
 **注**:控制台。ReadKey()用于暂停控制台。它类似于 C/C++中的 getch。
 上述程序的输出是:
 
-```
+```cpp
 f(double) : 6.3
 f(double):  6.6 
 ```
 
 代替假设的输出
 
-```
+```cpp
 f(int) : 6
 f(double) : 6.6 
 ```
@@ -153,7 +153,7 @@ f(double) : 6.6
 
 ## C#
 
-```
+```cpp
 using System;                    
 class Base
 {
@@ -189,7 +189,7 @@ class MyProgram
 
 **输出:**
 
-```
+```cpp
 f (int): 6
 f (double) : 6.6
 ```

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct make_signed;
 
@@ -25,7 +25,7 @@ using make_signed_t
 
 **语法:**
 
-```
+```cpp
 std::make_signed<T>::type
 
 ```
@@ -36,7 +36,7 @@ std::make_signed<T>::type
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::make_signed
 // make_signed
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A is signed type? true
 B is signed type? true
 C is signed type? false

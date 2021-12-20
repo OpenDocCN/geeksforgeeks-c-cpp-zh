@@ -14,7 +14,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate memory
 // failure when very large memory
 // is allocated
@@ -54,6 +54,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Memory Allocation is failed: std::bad_alloc
 ```

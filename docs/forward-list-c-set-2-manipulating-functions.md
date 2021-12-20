@@ -12,7 +12,7 @@
 
 **2。[运算符“=”](https://www.geeksforgeeks.org/forward_listoperator-c-stl/)**:-该运算符将一个转发列表复制到另一个列表中。这种情况下的复制是深度复制。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // merge() and operator=
 #include<iostream>
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of 2nd forward list after copy are : 1 2 3 
 The contents of forward list after merge are : 1 1 2 2 3 3 
 
@@ -64,7 +64,7 @@ The contents of forward list after merge are : 1 1 2 2 3 3
 
 **4。 [unique()](https://www.geeksforgeeks.org/forward_listunique-in-c-stl/)** :-该函数删除一个数字的多次出现，并返回一个包含唯一元素的正向列表。应该对转发列表进行排序，以便成功执行此功能。
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // sort() and unique()
 #include<iostream>
@@ -102,7 +102,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of forward list after sorting are : 1 1 2 2 3 3 3 
 The contents of forward list after unique operation are : 1 2 3 
 
@@ -112,7 +112,7 @@ The contents of forward list after unique operation are : 1 2 3
 
 **6。[交换()](https://www.geeksforgeeks.org/forward_listswap-c-stl/)** :-此功能将一个转发列表的内容与另一个进行交换。
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // reverse() and swap()
 #include<iostream>
@@ -170,7 +170,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of forward list after reversing are : 3 2 1 
 
 The contents of 1st forward list before swapping are : 3 2 1 
@@ -184,7 +184,7 @@ The contents of 2nd forward list after swapping are : 3 2 1
 
 **8。[空()](https://www.geeksforgeeks.org/forward_listfront-forward_listempty-c-stl/)** :-如果列表为空，该函数返回真，否则返回假。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // clear() and empty()
 #include<iostream>
@@ -221,7 +221,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of forward list  are : 1 2 3 
 The contents of forward list after clearing are : 
 Forward list is empty

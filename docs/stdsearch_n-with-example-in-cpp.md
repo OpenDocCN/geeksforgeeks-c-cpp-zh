@@ -15,7 +15,7 @@
 
     语法:
 
-    ```
+    ```cpp
      ForwardIterator search_n (ForwardIterator first, ForwardIterator last,
                                Size count, const T& val);
 
@@ -33,7 +33,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::search_n
 
     #include <iostream>
@@ -72,7 +72,7 @@
 
     输出:
 
-    ```
+    ```cpp
     v2 is present consecutively 2 times at index 5
 
     ```
@@ -80,7 +80,7 @@
 2.  **For comparing element using a predicate:**
     Syntax:
 
-    ```
+    ```cpp
     ForwardIterator search_n ( ForwardIterator first, ForwardIterator last,
                                Size count, const T& val, BinaryPredicate pred );
 
@@ -100,7 +100,7 @@
     If no such sequence is found, the function returns last.
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::search_n
     // with binary predicate
     #include <iostream>
@@ -151,7 +151,7 @@
 
     输出:
 
-    ```
+    ```cpp
     v2 is present consecutively 2 times at index 5
 
     ```

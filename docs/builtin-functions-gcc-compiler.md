@@ -7,7 +7,7 @@
 1.  **__builtin_popcount(x):** 此函数用于计算一个整数中的一(设置位)数。
     **例:**
 
-```
+```cpp
 if x = 4
 binary value of 4 is 100
 Output: No of ones is 1.
@@ -15,7 +15,7 @@ Output: No of ones is 1.
 
 ## C
 
-```
+```cpp
 // C program to illustrate _builtin_popcount(x)
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Count of 1s in binary of 5 is 2
 ```
 
@@ -39,7 +39,7 @@ Count of 1s in binary of 5 is 2
 2.  **_ _ 内建 _ 奇偶校验(x):** 该功能用于检查一个数字的[奇偶校验](https://www.geeksforgeeks.org/program-to-find-parity/)。这个函数返回真(1)，如果这个数字有奇数奇偶校验，否则它返回假(0)为偶数奇偶校验。
     **例:**
 
-```
+```cpp
 if x = 7
 7 has odd no. of 1's in its binary(111).
 Output: Parity of 7 is 1 
@@ -47,7 +47,7 @@ Output: Parity of 7 is 1
 
 ## C
 
-```
+```cpp
 // C program to illustrate _builtin_parity(x)
 
 #include <stdio.h>
@@ -63,7 +63,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Parity of 7 is 1
 ```
 
@@ -71,7 +71,7 @@ Parity of 7 is 1
 2.  **__builtin_clz(x):** 此函数用于计算整数的前导零。注意:clz =计算前导零的数量
     **示例:**它计算第一次出现 1(设置位)之前的零的数量。
 
-```
+```cpp
 a = 16
 Binary form of 16 is 00000000 00000000 00000000 00010000
 Output: 27
@@ -79,7 +79,7 @@ Output: 27
 
 ## C
 
-```
+```cpp
 // C program to illustrate __builtin_clz(x)
 #include <stdio.h>
 int main()
@@ -94,7 +94,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Count of leading zeros before 1 in 16 is 27
 ```
 
@@ -103,7 +103,7 @@ Count of leading zeros before 1 in 16 is 27
 2.  **__builtin_ctz(x):** 此函数用于计算给定整数的尾随零。注意:ctz =计算尾随零。
     **示例:**从最后一次出现到第一次出现(设置位)计算零的数量。
 
-```
+```cpp
 a = 16
 Binary form of 16 is 00000000 00000000 00000000 00010000
 Output: ctz = 4
@@ -111,7 +111,7 @@ Output: ctz = 4
 
 ## C
 
-```
+```cpp
 // C program to illustrate __builtin_ctz(x)
 #include <stdio.h>
 int main()
@@ -127,7 +127,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Count of zeros from last to first occurrence of one is 4
 ```
 

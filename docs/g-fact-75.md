@@ -8,7 +8,7 @@
 
 **C++程序**
 
-```
+```cpp
 #include<iostream>
 int foo() { 
     return 10; 
@@ -28,7 +28,7 @@ int main()
 
 **Java 程序**
 
-```
+```cpp
 // filename Main.java
 public class Main {
     public int foo() {

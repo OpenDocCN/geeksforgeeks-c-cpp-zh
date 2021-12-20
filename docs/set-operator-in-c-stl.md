@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(set &set2)
     ```
 
@@ -18,7 +18,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(set &&set2)
     ```
 
@@ -28,7 +28,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(initializer list)
     ```
 
@@ -38,7 +38,7 @@
 
     **以下程序说明了 set::operator= :**
 
-    ```
+    ```cpp
     // C++ code to illustrate the method
     // set::operator=()
 
@@ -95,7 +95,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     1 2 3 4 5 6 7 8 
     1 6 7 8 
     1 2 3 4 5 6 7 8

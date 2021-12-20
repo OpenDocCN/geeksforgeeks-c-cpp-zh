@@ -6,7 +6,7 @@
 
 C/C++ 中[宏的一个主要缺点是参数是强类型检查的，即一个宏可以操作不同类型的变量(如 char，int，double，..)而不进行类型检查。](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)
 
-```
+```cpp
 // C program to illustrate macro function.
 #include<stdio.h>
 #define INC(P) ++P
@@ -22,14 +22,14 @@ int main()
 
 输出:
 
-```
+```cpp
 eeks 11
 
 ```
 
 因此，我们避免使用宏。但是在 C 编程实现 C11 标准后，我们可以借助一个新的关键词即“_Generic”来使用 Macro。我们可以为不同类型的数据类型定义 MACRO。例如，以下宏 INC(x)根据 x 的类型转换为 INC(x)、INC(x)或 INCf(x):
 
-```
+```cpp
 #define INC(x) _Generic((x), long double: INCl, \
                               default: INC, \
                               float: INCf)(x)
@@ -38,7 +38,7 @@ eeks 11
 
 示例:-
 
-```
+```cpp
 // C program to illustrate macro function.
 #include <stdio.h>
 int main(void)
@@ -58,14 +58,14 @@ int main(void)
 输出:
 注意:如果你运行的是 C11 编译器，那么下面提到的输出就会出现。
 
-```
+```cpp
 3
 0
 3
 
 ```
 
-```
+```cpp
 // C program to illustrate macro function.
 #include <stdio.h>
 #define geeks(T) _Generic( (T), char: 1, int: 2, long: 3, default: 0)
@@ -83,7 +83,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 2
 0
 

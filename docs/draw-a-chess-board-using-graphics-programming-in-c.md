@@ -8,7 +8,7 @@
 
 要运行该程序，我们需要包含以下头文件:
 
-```
+```cpp
 #include <graphic.h>
 
 ```
@@ -23,7 +23,7 @@
 
 下面是用 C 语言图形绘制**棋盘**的实现:
 
-```
+```cpp
 // C program to create a chess board
 #include <conio.h>
 #include <dos.h>

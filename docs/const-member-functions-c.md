@@ -6,7 +6,7 @@
 可以通过在对象声明前加上 const 关键字来创建 const 对象。任何更改 const 对象的数据成员的尝试都会导致编译时错误。
 **语法:**
 
-```
+```cpp
 const Class_Name Object_name; 
 ```
 
@@ -18,7 +18,7 @@ const Class_Name Object_name;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -41,7 +41,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 20
 ```
 
@@ -50,7 +50,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -70,7 +70,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
  passing 'const Test' as 'this' argument of 'int 
 Test::getValue()' discards qualifiers
 ```
@@ -79,7 +79,7 @@ Test::getValue()' discards qualifiers
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Demonstration of constant object,
 // show that constant object can only
 // call const member function
@@ -112,7 +112,7 @@ int main()
 }
 ```
 
-```
+```cpp
 OUTPUT : Hello world I'm Rancho Baba Inside display() Function
 ```
 

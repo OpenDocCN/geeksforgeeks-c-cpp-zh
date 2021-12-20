@@ -9,7 +9,7 @@
 begin()函数用于返回指向列表容器第一个元素的迭代器。它与 front()函数不同，因为 front 函数**返回对容器第一个元素的引用**，而 begin()函数**返回对容器第一个元素的双向迭代器**。
 **语法:**
 
-```
+```cpp
 ***listname***.begin()
 Parameters :
 No parameters are passed.
@@ -21,7 +21,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : mylist{1, 2, 3, 4, 5};
          mylist.begin();
 Output : *returns an iterator to the element 1*
@@ -38,7 +38,7 @@ Output : *returns an iterator to the element 8*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of begin() function
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
@@ -72,7 +72,7 @@ int main()
 end()函数用于返回指向列表容器最后一个元素的迭代器。它与 back()函数不同，因为 back()函数**返回容器最后一个元素的引用**，而 end()函数**返回容器过去最后一个元素的双向迭代器**。
 **语法:**
 
-```
+```cpp
 ***listname***.end()
 Parameters :
 No parameters are passed.
@@ -88,7 +88,7 @@ iterator pointing to the past last element.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of end() function
 #include <iostream>
@@ -110,7 +110,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```

@@ -6,7 +6,7 @@
 
 1.  **使用 [const 关键字](https://www.geeksforgeeks.org/const-qualifier-in-c/):**const 关键字指定变量或对象值是常量，在编译时不能修改。
 
-    ```
+    ```cpp
     // C program to demonstrate const specifier
     #include <stdio.h>
     int main()
@@ -18,7 +18,7 @@
     }
     ```
 
-    ```
+    ```cpp
     It will throw as error like:
     error: assignment of read-only variable ‘num’
 
@@ -26,7 +26,7 @@
 
 2.  **Using [enum keyword](https://www.geeksforgeeks.org/enumeration-enum-c/):** Enumeration (or enum) is a user defined data type in C and C++. It is mainly used to assign names to integral constants, that make a program easy to read and maintain.
 
-    ```
+    ```cpp
     // In C and C++ internally the default
     // type of 'var' is int
     enum VARS { var = 42 };
@@ -43,7 +43,7 @@
 
 3.  **Using [constexpr](https://www.geeksforgeeks.org/understanding-constexper-specifier-in-c/) keyword:** Using constexpr in C++(not in C) can be used to declare variable as a guaranteed constant. But it would fail to compile if its initializer isn’t a constant expression.
 
-    ```
+    ```cpp
     #include <iostream>
 
     int main()
@@ -57,7 +57,7 @@
 
     上述程序将抛出一个错误，
 
-    ```
+    ```cpp
     error: the value of ‘var’ is not usable in a constant expression
     ```
 
@@ -65,6 +65,6 @@
 
 4.  **使用[宏](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/) :** 我们也可以使用宏来定义常量，但是有一个陷阱，
 
-    ```
+    ```cpp
     #define var 5
     ```

@@ -6,14 +6,14 @@
 这个特性存在于大多数面向对象语言中，比如 C++和 Java。但是 C 不支持这个特性不是因为 OOP，而是因为编译器不支持(除了你可以使用 _Generic)。然而，人们可以间接地在 C 语言中实现类似的功能。其中一种方法如下。
 有一个 void *类型的指针作为函数的参数。另一个参数告诉正在传递的第一个参数的实际数据类型。
 
-```
+```cpp
    int foo(void * arg1, int arg2);
 ```
 
 假设，arg2 可以解释如下。0 = Struct1 类型变量，1 = Struct2 类型变量，等等。这里，结构 1 和结构 2 是用户定义的结构类型。
 在不同的地方调用函数 foo 时……
 
-```
+```cpp
     foo(arg1, 0);   /*Here, arg1 is pointer to struct type Struct1 variable*/
     foo(arg1, 1);    /*Here, arg1 is pointer to struct type Struct2 variable*/
 ```
@@ -23,7 +23,7 @@
 
 ## c
 
-```
+```cpp
 if(arg2 == 0)
 {
   struct1PtrVar = (Struct1 *)arg1;

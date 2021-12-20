@@ -15,7 +15,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate range based for
 // loops for accessing vector and array elements
 #include<iostream>
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0 1 2 3 4
 1 2 3 4 5
 ```
@@ -56,7 +56,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 
 template<typename T>
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 One Two Three
 ```
 
@@ -85,7 +85,7 @@ One Two Three
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 
 // Call by reference is used in x
@@ -124,7 +124,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Max value = 11
 Min value = -9
 ```
@@ -133,7 +133,7 @@ Min value = -9
 
 ## C
 
-```
+```cpp
 #include <bits/stdc++.h>
 
 template<typename T> void scan(T &x)
@@ -197,7 +197,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input:  756
 Output: 756
 ```
@@ -208,7 +208,7 @@ Output: 756
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -242,7 +242,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 4 5 6 9 22 11
 5 6 9 22 11
 11 22 9 6 5 4
@@ -252,7 +252,7 @@ int main()
 *   **容器:**使用各种容器，如向量、列表、映射等，可以使用预定义的函数，并大大减少代码的大小(通常情况下)
 *   **快速 cin 和 cout:** 如果使用 cin 和 cout 进行 I/O，只需在 main()之后添加以下行即可。
 
-```
+```cpp
 std::ios_base::sync_with_stdio(false);
 ```
 

@@ -8,7 +8,7 @@ A [好友类](https://www.geeksforgeeks.org/friend-class-function-cpp/)可以访
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate friend class
 #include <iostream>
 using namespace std;
@@ -64,7 +64,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Accessed Private Member of class A
 A::a = 0
 ```
@@ -78,7 +78,7 @@ A::a = 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate mutual
 // friendship of classes
 #include <iostream>
@@ -159,7 +159,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Data of A is: 10
 Data of B is: 20
 ```

@@ -10,13 +10,13 @@
 
 ****语法:****
 
-```
+```cpp
 vector<vector<data_type>> vec;
 ```
 
 ****示例:****
 
-```
+```cpp
 vector<vector<int>> vec{ { 1, 2, 3 }, 
                          { 4, 5, 6 }, 
                          { 7, 8, 9, 4 } }; 
@@ -32,7 +32,7 @@ where vec is the vector of vectors with different
 
 ****语法:****
 
-```
+```cpp
 vector_name.push_back(value)
 
 where *value* refers to the element
@@ -41,7 +41,7 @@ where *value* refers to the element
 
 ****例 1:****
 
-```
+```cpp
 v2 = {1, 2, 3}
 v1.push_back(v2); 
 ```
@@ -50,7 +50,7 @@ v1.push_back(v2);
 
 ****例 2:****
 
-```
+```cpp
 v2 = {4, 5, 6}
 v1.push_back(v2); 
 ```
@@ -59,7 +59,7 @@ v1.push_back(v2);
 
 **下面是演示插入向量的例子。**
 
-```
+```cpp
 // C++ program to demonstrate insertion
 // into a vector of vectors
 
@@ -107,7 +107,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 10 15 20 25 30 
 35 40 45 50 55 
 60 65 70 75 80 
@@ -122,13 +122,13 @@ int main()
 **下面的例子演示了向量中的移除操作。代码使用 pop_back()函数从 2D 向量中移除元素，然后显示矩阵。
 **语法:****
 
-```
+```cpp
 vector_name[row_position].pop_back()
 ```
 
 ****例 1:** 让向量的向量为向量 v = { { 1，2，3 }，{ 4，5，6 }，{ 7，8，9 } }**
 
-```
+```cpp
 v[2].pop_back() 
 ```
 
@@ -136,7 +136,7 @@ v[2].pop_back()
 
 ****例 2:****
 
-```
+```cpp
 v[1].pop_back() 
 ```
 
@@ -144,7 +144,7 @@ v[1].pop_back()
 
 **下面是演示从向量向量中移除的示例。**
 
-```
+```cpp
 // C++ program to demonstrate removal
 // from a vector of vectors
 
@@ -180,7 +180,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 1 2 3 
 4 5 
 7 8
@@ -193,7 +193,7 @@ int main()
 
 ****语法:****
 
-```
+```cpp
 for i in [0, n)
 {
     for (iterator it = v[i].begin();
@@ -208,7 +208,7 @@ for i in [0, n)
 
 **下面是演示向量中遍历的例子。**
 
-```
+```cpp
 // C++ code to demonstrate traversal
 // of a 2D vector
 
@@ -240,7 +240,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 1 2 3 
 4 5 6 
 7 8 9

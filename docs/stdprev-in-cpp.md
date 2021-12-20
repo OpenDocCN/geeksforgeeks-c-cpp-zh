@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 **BidirectionalIterator prev (BidirectionalIterator it,
        typename iterator_traits::difference_type n = 1);**
 **it:** Iterator to the base position.
@@ -22,7 +22,7 @@ a default value 1 so it will atleast advance by 1 position.
 n positions before it. 
 ```
 
- **```
+ ```cpp
 // C++ program to demonstrate std::prev
 #include <iostream>
 #include <iterator>
@@ -73,7 +73,7 @@ int main()
 
 输出:
 
-```
+```cpp
 v1 = 1 2 3 4 5 6 7
 v2 = 8 9 10 1 2 3 4
 
@@ -83,7 +83,7 @@ v2 = 8 9 10 1 2 3 4
 
 *   **在列表中移动迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能通过使用++和––运算符来递增。所以，如果我们想让迭代器前进一个以上的位置，那么 **std::next** 如果我们想减少迭代器，那么 std::prev 会非常有用。
 
-    ```
+    ```cpp
     // C++ program to demonstrate std::prev
     #include <iostream>
     #include <iterator>
@@ -132,7 +132,7 @@ v2 = 8 9 10 1 2 3 4
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3 7 8 9
     v2 = 4 5 6 1 2 3 
 
@@ -144,7 +144,7 @@ v2 = 8 9 10 1 2 3 4
 
 std::prev 可能会出现的一个常见查询是，可以将 std::next 与一个负参数一起使用，以向后移动迭代器。嗯，答案是**是的**。
 
-```
+```cpp
 // C++ program to demonstrate std::next
 #include <iostream>
 #include <iterator>
@@ -195,7 +195,7 @@ int main()
 
 输出:
 
-```
+```cpp
 v1 = 1 2 3 4 5 6 7
 v2 = 8 9 10 1 2 3 4
 

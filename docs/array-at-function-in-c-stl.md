@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 array_name.at(i)
 ```
 
@@ -20,7 +20,7 @@ array_name.at(i)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // the array::at() function
 #include <bits/stdc++.h>
@@ -41,14 +41,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The element at index 2 is 2
 
 ```
 
 **Program 2 :** Illustrating function when it is implemented on lesser size array causing an error.
 
-```
+```cpp
 // CPP program to illustrate
 // the array::at() function
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Abort signal from abort(3) (SIGABRT)
 
 ```

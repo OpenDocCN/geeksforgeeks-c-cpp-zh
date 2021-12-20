@@ -10,7 +10,7 @@
 
 1.  **语法:**
 
-```
+```cpp
 void erase (iterator position_of_iterator);
 
 ```
@@ -23,7 +23,7 @@ void erase (iterator position_of_iterator);
 
 以下示例说明了 multist::erase()方法的工作原理:
 
-```
+```cpp
 // C++ program to demonstrate
 // multiset::erase() method
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Original multiset:  1 2 3 4 5 6 7 8 9
 Modified multiset:  1 3 4 5 6 7 8 9
 
@@ -82,7 +82,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
 *   **Syntax:**
 
-    ```
+    ```cpp
     size_type erase (const value_type& contant_value);
 
     ```
@@ -95,7 +95,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
     以下示例说明了 multist::erase()方法的工作原理:
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // multiset::erase() method
 
@@ -144,7 +144,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
     **Output:**
 
-    ```
+    ```cpp
     Original multiset:  1 2 3 4 5 6 7 8 9
     Modified multiset:(1)removed  1 3 4 5 6 7 8 9
 
@@ -152,7 +152,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
     *   **Syntax:**
 
-    ```
+    ```cpp
     void erase (iterator starting_iterator, iterator ending_iterator);
 
     ```
@@ -166,7 +166,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
     以下示例说明了 multist::erase()方法的工作原理:
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // multiset::erase() method
 
@@ -221,7 +221,7 @@ Modified multiset:  1 3 4 5 6 7 8 9
 
     **Output:**
 
-    ```
+    ```cpp
     Original multiset:  1 2 3 4 5 6 7 8 9
     Modified multiset:  1 2
     Return value is: multi_set.end();

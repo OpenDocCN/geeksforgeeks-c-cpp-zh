@@ -6,7 +6,7 @@
 
 我们在 C++ STL 中使用[计数](https://www.geeksforgeeks.org/std-count-cpp-stl/)
 
-```
+```cpp
 // CPP program to count vector elements that
 // match given target value.
 #include <algorithm>
@@ -26,7 +26,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Target: 30 Count : 4
 
 ```
@@ -36,7 +36,7 @@ Target: 30 Count : 4
 
 我们在 C++ STL 中使用[count _ if](https://www.geeksforgeeks.org/count_if-in-c/)
 
-```
+```cpp
 // lambda expression to count elements
 // divisible by 3.
 #include <algorithm>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Numbers divisible by 3: 4
 
 ```

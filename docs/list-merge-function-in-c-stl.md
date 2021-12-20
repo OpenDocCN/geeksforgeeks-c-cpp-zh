@@ -6,7 +6,7 @@
 
 1.  **Syntax:**
 
-    ```
+    ```cpp
     list1_name.merge(list2_name)
 
     ```
@@ -19,7 +19,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // program below demonstrates the
     // merge function in c++
     #include <bits/stdc++.h>
@@ -46,14 +46,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     List:  10 20 30 40 50 60
 
     ```
 
 2.  **Syntax:**
 
-    ```
+    ```cpp
     list1_name.merge(list2_name, comparator)
 
     ```
@@ -65,7 +65,7 @@
 
     **返回值:**函数不返回任何东西
 
-    ```
+    ```cpp
     // program below demonstrates the
     // merge function in c++
     #include <bits/stdc++.h>
@@ -96,7 +96,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     List: 1 2 3 4 70 80
 
     ```

@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // char const *p
 #include<stdio.h>
@@ -32,7 +32,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 value pointed to by ptr:A
 value pointed to by ptr:B
 ```
@@ -43,7 +43,7 @@ value pointed to by ptr:B
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // char* const p
 #include<stdio.h>
@@ -67,7 +67,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value pointed to by ptr: A
 Address ptr is pointing to: -1443150762
 
@@ -81,7 +81,7 @@ Address ptr is pointing to: -1443150762
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 //const char * const ptr
 #include<stdio.h>
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value pointed to by ptr: A
 Address ptr is pointing to: -255095482
 ```

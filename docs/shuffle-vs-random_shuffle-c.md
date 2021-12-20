@@ -7,7 +7,7 @@
 它随机重新排列范围内的元素[第一个，最后一个]。
 该函数将每个元素的值与其他随机选取的元素交换。如果提供了函数 gen，它将决定在每种情况下选择哪个元素。否则，该函数会使用一些未指定的随机性来源。
 
-```
+```cpp
 // CPP program Illustrating the
 // use of random_shuffle
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 arr contains: 5 8 1 7 9 6 4 3 2
 
 ```
@@ -59,7 +59,7 @@ arr contains: 5 8 1 7 9 6 4 3 2
 使用 g 作为统一随机数生成器，随机重新排列范围[第一个，最后一个]中的元素。
 该函数将每个元素的值与其他随机选取的元素的值进行交换。该函数确定通过调用 g()选择的元素。
 
-```
+```cpp
 // CPP program Illustrating
 // the use of shuffle
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main()
 
 输出:
 
-```
+```cpp
 
 shuffled elements are: 3 1 5 4 2
 
@@ -100,7 +100,7 @@ shuffled elements are: 3 1 5 4 2
 3.  **Example of Swapping Variables using both**
     **random shuffle:**
 
-    ```
+    ```cpp
     template (class RandomIt, class RandomFunc)
     void random_shuffle(RandomIt first, RandomIt last, RandomFunc&& r)
     {
@@ -116,7 +116,7 @@ shuffled elements are: 3 1 5 4 2
 
     **洗牌:**
 
-    ```
+    ```cpp
     template void shuffle(RandomIt first, RandomIt last, 
                  UniformRandomBitGenerator&& g)
     {

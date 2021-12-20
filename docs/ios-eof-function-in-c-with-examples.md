@@ -6,7 +6,7 @@ C++中 **ios 类**的 **eof()** 方法用于检查流是否引发了任何 eof(�
 
 **语法:**
 
-```
+```cpp
 bool eof() const;
 
 ```
@@ -17,7 +17,7 @@ bool eof() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of eof() function
 
@@ -43,14 +43,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream eof: 0
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of eof() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream eof: 1
 
 ```

@@ -5,7 +5,7 @@
 一个 [C++映射](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)和[无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)被初始化为一些键和它们各自的映射值。
 示例:
 
-```
+```cpp
 Input : 
 Map : 1 -> 4, 2 -> 6, 4 -> 6
 Check1 : 5, Check2 : 4
@@ -16,7 +16,7 @@ C++实现:
 
 ## 地图
 
-```
+```cpp
 // CPP code to check if a
 // key is present in a map
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 ## 无序地图
 
-```
+```cpp
 // CPP code to check if a key is present
 // in an unordered_map
 #include <bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5: Not Present
 4: Present
 ```
@@ -105,7 +105,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP code to check if a
 // key is present in a map
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP code to check if a key is present
 // in an unordered_map
 #include <bits/stdc++.h>

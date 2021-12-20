@@ -6,7 +6,7 @@
 
 例如，在下面的程序中，可以使用派生类对象访问基类赋值运算符函数。
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;

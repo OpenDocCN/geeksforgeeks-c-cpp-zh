@@ -5,7 +5,7 @@
 正如我们所知，C++是一种全面而强大的编程语言，但是很少有它无法处理的高度专门化的情况。对于这些情况，C++提供了一个可以随时删除汇编代码的选项。这个选项是使用' asm '语句。使用 asm 语句，汇编语言可以直接嵌入到 C++程序中。asm 关键字接受一个必须是字符串的字段。
 ASM 关键字的一般形式是:
 
-```
+```cpp
 asm("op-code");
 ```
 
@@ -13,7 +13,7 @@ asm("op-code");
 
 一些编译器使用以下形式的 asm 语句:
 
-```
+```cpp
 asm instruction;
 asm instruction newline
 asm {instruction sequence }
@@ -25,7 +25,7 @@ asm {instruction sequence }
 1.  **寄存器命名:**寄存器名称以%为前缀。
     例如-寄存器是%eax、%cl 等，而不仅仅是 eax、cl。
 
-    ```
+    ```cpp
     #include<bits/stdc++.h>
     using namespace std;
 
@@ -45,7 +45,7 @@ asm {instruction sequence }
 
     **输出:**
 
-    ```
+    ```cpp
     10
 
     ```
@@ -53,7 +53,7 @@ asm {instruction sequence }
 2.  **操作数的顺序:**与英特尔惯例(第一个操作数是目标)不同，操作数的顺序是源在前，目标在后。
     例如，英特尔语法“mov eax，edx”在 AT & T 汇编中将看起来像“mov %edx，%eax”。
 
-    ```
+    ```cpp
     #include<bits/stdc++.h>
     using namespace std;
 
@@ -71,14 +71,14 @@ asm {instruction sequence }
 
     **输出:**
 
-    ```
+    ```cpp
     5
 
     ```
 
 3.  **立即操作数:**立即操作数用$前缀标记。例如，就像在“addl $5，%eax”中一样，这意味着向注册%eax 添加立即长值 5。
 
-    ```
+    ```cpp
     #include<bits/stdc++.h>
     using namespace std;
 
@@ -98,7 +98,7 @@ asm {instruction sequence }
 
     **输出:**
 
-    ```
+    ```cpp
     70
 
     ```
@@ -106,7 +106,7 @@ asm {instruction sequence }
 这基本上显示了内联程序集在 c++中的使用。术语内联用于指示编译器在进行实际调用的地方将函数的代码插入其调用方的代码中。这种函数称为“内联函数”。它减少了函数调用开销。使用 asm 关键字，汇编代码被写成内联函数。
 ASM 关键字使用的简单示例:
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -122,13 +122,13 @@ int main()
 
 内联程序集可以以以下两种格式使用:
 
-```
+```cpp
 asm("assembly code") or __asm__("assembly code")
 ```
 
 说明 asm 关键字使用的程序:
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -149,7 +149,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 100 + 20 = 120
  100 - 20 = 80 100 * 20 = 2000
 
@@ -157,7 +157,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 Input : 10 20 
 Output :10+20=30 10-20=-10 10*20=200 
 

@@ -6,7 +6,7 @@ unordered_set::end()函数是 C++ STL 中的一个内置函数，它返回一个
 
 **语法**
 
-```
+```cpp
 umap_name.end()
 
 or,
@@ -27,7 +27,7 @@ umap_name.end(int i)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the unordered_set::end() 
 // function
 
@@ -55,14 +55,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 6 8 7 2 4 15 10 5
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::end() function
 
@@ -94,7 +94,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Bucket 0 Contains: 
 Bucket 1 Contains: 
 Bucket 2 Contains:  2

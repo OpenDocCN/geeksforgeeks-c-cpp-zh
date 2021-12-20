@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: 
 First linked list: 1->2->3->4->6
 Second linked list be 2->4->6->8, 
@@ -31,7 +31,7 @@ intersection list.
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -148,7 +148,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list containing common items of a & b 
 2 4 6 
 ```
@@ -167,7 +167,7 @@ Linked list containing common items of a & b
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -285,7 +285,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  Linked list containing common items of a & b 
  2 4 6 
 ```
@@ -308,7 +308,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -422,7 +422,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  Linked list containing common items of a & b 
   2 4 6
 ```

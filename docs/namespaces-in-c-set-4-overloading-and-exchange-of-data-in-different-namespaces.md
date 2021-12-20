@@ -14,7 +14,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the basics
 // of classes inside namespaces
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 This is not from (GeeksforGeeks::string) class!
 Hello! From namespace Test!
 ```
@@ -75,7 +75,7 @@ Hello! From namespace Test!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show overloading and
 // accessing from different namespaces
 #include <iostream>
@@ -228,7 +228,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 This is a standard string
 (test_space1::string) This is a test_space1 namespace string
 (test_space2::string) This is a test_space2 namespace string

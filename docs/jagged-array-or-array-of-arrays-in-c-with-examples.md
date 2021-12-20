@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 arr[][] = { {0, 1, 2},
             {6, 4},
             {1, 7, 6, 8, 9},
@@ -30,7 +30,7 @@ arr[][] = { {0, 1, 2},
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```cpp
     // C program to show the
     // implementation of Jagged Arrays
 
@@ -75,7 +75,7 @@ arr[][] = { {0, 1, 2},
 
     **Output:**
 
-    ```
+    ```cpp
     1 2 3 4 
     5 6
 
@@ -89,7 +89,7 @@ arr[][] = { {0, 1, 2},
     以下是上述方法的实现:
     **示例:**
 
-    ```
+    ```cpp
     // C program to show the
     // implementation of Jagged Arrays
 
@@ -148,7 +148,7 @@ arr[][] = { {0, 1, 2},
 
     **Output:**
 
-    ```
+    ```cpp
     100 
     101 102 103
 

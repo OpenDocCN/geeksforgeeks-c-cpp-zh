@@ -10,7 +10,7 @@
 **参数:**该函数以两个参数作为输入参数。要插入的键及其值。
 **返回类型:**函数返回指向容器中新元素的迭代器。
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_map::insert({key, element})
 #include <bits/stdc++.h>
@@ -38,7 +38,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 KEY    ELEMENT
 31    60
 20    130

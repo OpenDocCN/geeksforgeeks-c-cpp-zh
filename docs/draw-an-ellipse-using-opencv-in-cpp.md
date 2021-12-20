@@ -32,7 +32,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrating ellipse
 // over a self-formed background image
 #include <iostream>
@@ -88,7 +88,7 @@ int main(int argc, char** argv)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate rectangle
 // over a loaded image with an ellipse
 // around the GFG logo

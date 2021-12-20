@@ -6,7 +6,7 @@ fmax()和 fmin()函数在 **cmath** 头文件中定义。
 
 1.  **fmax() function:** The syntax of this function is:
 
-    ```
+    ```cpp
     double fmax (double x, double y);
     float fmax (float x, float y);
     long double fmax (long double x, long double y);
@@ -17,7 +17,7 @@ fmax()和 fmin()函数在 **cmath** 头文件中定义。
 
     下面是展示 fmax()函数工作原理的 C++示例程序:
 
-    ```
+    ```cpp
     // CPP program to show working
     // of fmax() function.
 
@@ -55,7 +55,7 @@ fmax()和 fmin()函数在 **cmath** 头文件中定义。
 
     **Output:**
 
-    ```
+    ```cpp
     fmax(10.0, 1.0) = 10.0000
     fmax(-10.0, 1.0) = 1.0000
     fmax(-10.0, -1.0) = -1.0000

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 constant_iterator multiset_name.cbegin()
 
 ```
@@ -19,7 +19,7 @@ constant_iterator multiset_name.cbegin()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::cbegin() function
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The first elements is: 10
 10 10 11 14 15
 
@@ -55,7 +55,7 @@ The first elements is: 10
 
 **语法:**
 
-```
+```cpp
 constant_iterator multiset_name.cend()
 
 ```
@@ -68,7 +68,7 @@ constant_iterator multiset_name.cend()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::cend() function
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10 10 11 14 15 15 17 17
 
 ```

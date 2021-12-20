@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.max_size()
 ```
 
@@ -18,7 +18,7 @@ multiset_name.max_size()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::max_size() function
 // when multiset is non-empty
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The multiset elements are: 10 13 13 24 25 
 The max size of multiset: 461168601842738790
 
@@ -56,7 +56,7 @@ The max size of multiset: 461168601842738790
 
 **程序二:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::max_size() function
 // when multiset is empty
@@ -74,7 +74,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The max size of multiset: 461168601842738790
 
 ```

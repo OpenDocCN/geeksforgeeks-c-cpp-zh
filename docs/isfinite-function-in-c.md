@@ -5,7 +5,7 @@
 isfinite()函数是 C++中的内置函数，用于确定给定值是否有限。有限值是既不是无穷大也不是 NAN 的值。如果数字是有限的，那么函数返回 1，否则返回 0。
 **语法:**
 
-```
+```cpp
 bool isfinite(float x);  
 
 or,
@@ -22,7 +22,7 @@ bool isfinite(long double x);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // isfinite() function.
 
@@ -45,7 +45,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value of x is = 19
 isfinite(x) = 1
 ```
@@ -54,7 +54,7 @@ isfinite(x) = 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // isfinite() function
 
@@ -75,7 +75,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value of x is = inf
 isfinite(x) = 0
 ```
@@ -84,7 +84,7 @@ isfinite(x) = 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // isfinite() function
 
@@ -106,7 +106,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Value of x is = -nan
 isfinite(x) = 0
 ```

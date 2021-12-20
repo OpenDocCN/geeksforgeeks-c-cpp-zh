@@ -66,7 +66,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // implementation of multiset of
 // tuples
@@ -152,7 +152,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // implementation of multiset of 
 // tuples by using custom comparator

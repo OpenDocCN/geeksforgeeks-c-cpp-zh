@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 // A simple representation of the date
 struct date {
@@ -27,7 +27,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Size of date is 12 bytes
 Date is 31/12/2014
 ```
@@ -38,7 +38,7 @@ Date is 31/12/2014
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // Space optimized representation of the date
@@ -66,7 +66,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Size of date is 8 bytes
 Date is -1/-4/2014
 ```
@@ -78,7 +78,7 @@ Date is -1/-4/2014
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // A structure without forced alignment
@@ -106,7 +106,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Size of test1 is 4 bytes
 Size of test2 is 8 bytes
 ```
@@ -115,7 +115,7 @@ Size of test2 is 8 bytes
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 struct test {
     unsigned int x : 5;
@@ -139,7 +139,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:14:1: error: cannot take address of bit-field 'x'
  printf("Address of t.x is %p", &t.x); 
@@ -150,7 +150,7 @@ prog.c:14:1: error: cannot take address of bit-field 'x'
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 struct test {
     unsigned int x : 2;
@@ -168,7 +168,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Implementation-Dependent
 ```
 
@@ -176,7 +176,7 @@ Implementation-Dependent
 
 ## C++
 
-```
+```cpp
 // The below C++ program compiles and runs fine
 struct test1 {
     static unsigned int x;
@@ -188,7 +188,7 @@ int main() {}
 
 ## C++
 
-```
+```cpp
 // But below C++ program fails in the compilation
 // as bit fields cannot be static
 struct test1 {
@@ -199,7 +199,7 @@ int main() {}
 
 **输出:**
 
-```
+```cpp
 prog.cpp:5:29: error: static member 'x' cannot be a bit-field
      static unsigned int x : 5;
                              ^
@@ -209,7 +209,7 @@ prog.cpp:5:29: error: static member 'x' cannot be a bit-field
 
 ## C
 
-```
+```cpp
 struct test {
     unsigned int x[10] : 5;
 };
@@ -221,7 +221,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.c:3:1: error: bit-field 'x' has invalid type
  unsigned int x[10]: 5; 
  ^
@@ -233,7 +233,7 @@ T4【1)
 
 ## C++
 
-```
+```cpp
 #include <stdio.h>
 struct test {
     unsigned int x;
@@ -251,7 +251,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <stdio.h>
 struct test {
     unsigned int x;
@@ -272,7 +272,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 union test {
     unsigned int x : 3;
     unsigned int y : 3;

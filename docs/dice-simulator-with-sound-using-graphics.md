@@ -20,7 +20,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the dice
 // simulator using graphics
 

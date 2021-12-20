@@ -4,7 +4,7 @@
 
 输出？(GATE CS 2012)
 
-```
+```cpp
 #include <stdio.h>
 int a, b, c = 0;
 void prtFun (void);

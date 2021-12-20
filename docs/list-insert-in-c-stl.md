@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 insert(pos_iter, ele_num, ele)
 
 ```
@@ -19,7 +19,7 @@ insert(pos_iter, ele_num, ele)
 
 **返回值:**这个函数返回一个迭代器，指向第一个新插入的元素。
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // insert() function
 
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The list after inserting 1 element using insert() is : 2 2 5 2 
 The list after inserting multiple elements using insert() is : 2 2 5 7 7 2
 

@@ -4,7 +4,7 @@
 
 在下面的代码中，只更改/添加一个字符，并精确地打印 20 次' * '。
 
-```
+```cpp
 int main()
 {
     int i, n = 20;
@@ -20,7 +20,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -35,7 +35,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -49,7 +49,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java code
 class GfG {
 public static void main(String[] args)
@@ -63,7 +63,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to implement 
 # the above approach
 if __name__ == '__main__':
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# code
 using System;
 class GfG
@@ -94,7 +94,7 @@ class GfG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript code
@@ -111,7 +111,7 @@ for(i = 0; i < n; n--)
 
 ## C++
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -129,7 +129,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -143,7 +143,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java code
 import java.util.*;
 public class GFG
@@ -161,7 +161,7 @@ public class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to implement 
 # the above approach
 if __name__ == '__main__':
@@ -174,7 +174,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# code
 using System;
 class GfG
@@ -192,7 +192,7 @@ class GfG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 let i, n = 20;
@@ -207,7 +207,7 @@ for (i = 0; -i < n; i--)
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -225,7 +225,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -239,7 +239,7 @@ int main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 let i, n = 20;
@@ -256,7 +256,7 @@ for(i = 0; i + n; i--)
 解决方法:将否定运算符放在 I 之前，用于循环的第二个表达式。
 解释:否定运算符将数字转换为其补码。
 
-```
+```cpp
        No.              One's complement
  0 (00000..00)            -1 (1111..11)                         
 -1 (11..1111)             0 (00..0000)                        
@@ -268,7 +268,7 @@ for(i = 0; i + n; i--)
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -287,7 +287,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -301,7 +301,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.util.*;
 
@@ -320,7 +320,7 @@ public static void main(String[] args)
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 
@@ -339,7 +339,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program for the above approach

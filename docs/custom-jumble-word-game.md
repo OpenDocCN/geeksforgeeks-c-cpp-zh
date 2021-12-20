@@ -36,7 +36,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <bits/stdc++.h>

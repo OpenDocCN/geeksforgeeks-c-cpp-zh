@@ -7,14 +7,14 @@
 头文件 graphics.h 包含 **textwidth ()** 函数，以像素为单位返回输入字符串的宽度。
 **语法:**
 
-```
+```cpp
 int textwidth(char *string);
 
 ```
 
 **示例:**
 
-```
+```cpp
 Input : string = "Hello Geek ! Have a good day."
 Output : 
 
@@ -22,7 +22,7 @@ Output :
 
 下面是 textwidth()函数的实现。
 
-```
+```cpp
 // C Implementation for textwidth()
 #include <graphics.h>
 #include <stdio.h>

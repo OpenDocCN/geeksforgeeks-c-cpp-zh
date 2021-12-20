@@ -8,7 +8,7 @@
 
 对于在非递增数组中排序的数组，lower_bound()查找第一个元素的迭代器，该元素与给定元素的比较结果不大于。upper_bound()查找小于给定元素的第一个元素的迭代器。为此，我们使用了更大的()。
 
-```
+```cpp
 // C++ program to demonstrate the working of lower_bound()
 // and upper_bound() for array sorted in non-decreasing
 // array,
@@ -38,7 +38,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 lower_bound at position 5
 upper_bound at position 4
 

@@ -89,7 +89,7 @@
 
 将下面给出的整个代码复制到 main.cpp 文件中:
 
-```
+```cpp
 #ifndef ONLINE_JUDGE
 freopen("input.txt","r",stdin); //file input.txt is opened in reading mode i.e "r"
 freopen("output.txt","w",stdout);  //file output.txt is opened in writing mode i.e "w"
@@ -108,7 +108,7 @@ Input.txt 和 output.txt 是我们分别为给程序输入和接收输出而创�
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 
 using namespace std;

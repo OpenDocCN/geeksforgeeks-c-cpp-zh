@@ -7,19 +7,19 @@
 
 *   导入 boost/asio.hpp(版本:1.65.1.0)
 
-```
+```cpp
 #include <boost/asio.hpp>
 ```
 
 *   正在创建 io_service 对象(用于服务器)，这是使用 boost::asio 所必需的。
 
-```
+```cpp
 boost::asio::io_service io_service_object;
 ```
 
 *   创建接受者的对象，传递 io_service 对象和连接端点，即 IPv4 和端口号 9999(在 boost::asio 中也支持 IPv6 协议，还要注意端口 0–1233 是保留的)。
 
-```
+```cpp
 boost::asio::ip::tcp::acceptor 
   acceptor_object(
     io_service_object, 
@@ -29,19 +29,19 @@ boost::asio::ip::tcp::acceptor
 
 *   为我们的服务器创建 tcp::socket 对象。
 
-```
+```cpp
 boost::asio::ip::tcp::socket socket_object(io_service_object) 
 ```
 
 *   调用接受者对象的 accept 方法建立连接。
 
-```
+```cpp
 acceptor_server.accept(server_socket);
 ```
 
 *   read _ 直到()方法在通信过程中从存储数据的缓冲区获取消息。这里我们使用“\n”作为输出分隔符，这意味着我们将继续从缓冲区读取数据，直到遇到“\n”并存储它。
 
-```
+```cpp
 // Create buffer for storing
 boost::asio::streambuf buf;
 
@@ -51,7 +51,7 @@ string data = boost::asio::buffer_cast(buf.data());
 
 *   write()方法以套接字对象和消息为参数将数据写入缓冲区。
 
-```
+```cpp
 boost::asio::write(
   socket, 
   boost::asio::buffer(message + "\n"));
@@ -61,26 +61,26 @@ boost::asio::write(
 
 *   导入 boost/asio . HPP
 
-```
+```cpp
 #include <boost/asio.hpp>
 ```
 
 *   正在为客户端创建 io_service 对象。
 
-```
+```cpp
 boost::asio::io_service io_service_object;
 ```
 
 *   正在为客户端创建 tcp::socket 对象。
 
-```
+```cpp
 boost::asio::ip::tcp::socket
   socket_object(io_service_object) 
 ```
 
 *   调用 socket 对象的 connect 方法，使用 localhost (IP 127.0.0.1)启动与服务器的连接，并连接到同一个端口 9999。
 
-```
+```cpp
 client_socket.connect(
   tcp::endpoint(
     address::from_string("127.0.0.1"), 
@@ -93,7 +93,7 @@ client_socket.connect(
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-0">server.cpp</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="CPP"></gfg-panel>
 
-```
+```cpp
  // Server-side Synchronous Chatting Application
 // using C++ boost::asio
 
@@ -177,7 +177,7 @@ int main(int argc, char* argv[])
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-1"><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-1" data-code-lang="CPP"></gfg-panel></gfg-tab>
 
-```
+```cpp
  // Client-side Synchronous Chatting Application
 // using C++ boost::asio
 

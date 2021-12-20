@@ -37,7 +37,7 @@
 
 ## *C++*
 
-```
+```cpp
 *// C++ program for the above approach 
 #include <bits/stdc++.h>
 #include<stdio.h>
@@ -145,7 +145,7 @@ int main()
 
 ## *C*
 
-```
+```cpp
 *// C program for the above approach 
 #include <stdio.h>
 #include <stdlib.h>
@@ -250,7 +250,7 @@ int main()
 
 ***Output**
 
-```
+```cpp
 1 0 0 0 0 
 1 2 0 0 0 
 1 2 3 0 0 

@@ -5,7 +5,7 @@
 **log()** 函数在 **valarray** 头文件中定义。此函数用于计算 valarray 中元素值的自然对数。
 **语法:**
 
-```
+```cpp
 log(varr);
 
 ```
@@ -18,7 +18,7 @@ log(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of log() function.
 
@@ -53,7 +53,7 @@ int main() 
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.693147 1.09861 1.38629 1.60944
 
@@ -61,7 +61,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of log() function.
 
@@ -96,7 +96,7 @@ int main() 
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 nan 1.79176 1.09861 3.80666 1.60944
 

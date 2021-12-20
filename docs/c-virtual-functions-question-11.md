@@ -4,7 +4,7 @@
 
 静态函数可以是虚拟的吗？下面的程序会编译吗？
 
-```
+```cpp
 #include<iostream> 
 using namespace std;    
 

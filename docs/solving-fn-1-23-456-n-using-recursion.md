@@ -4,7 +4,7 @@
 
 **例:**
 
-```
+```cpp
 Input : 2
 Output: 7
 Series: (1) + (2*3)
@@ -16,7 +16,7 @@ Series: (1) + (2*3) + (4*5*6) + (7*8*9*10)
 
 ## C++
 
-```
+```cpp
 // CPP Program to print the solution
 // of the series f(n)= (1) + (2*3)
 // + (4*5*6) ... n using recursion
@@ -67,7 +67,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to print the solution
 // of the series f(n)= (1) + (2*3)
 // + (4*5*6) ... n using recursion
@@ -117,7 +117,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java Program to print the
 // solution of the series
 // f(n)= (1) + (2*3) + (4*5*6)
@@ -174,7 +174,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 Program to print the solution
 # of the series f(n)= (1) + (2*3) + (4*5*6)
 # ... n using recursion
@@ -220,7 +220,7 @@ print(seriesSum(1, 1, N));
 
 ## C#
 
-```
+```cpp
 // C# Program to print the
 // solution of the series
 // f(n)= (1) + (2*3) + (4*5*6)
@@ -279,7 +279,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP Program to print the
 // solution of the series
@@ -330,7 +330,7 @@ echo(seriesSum(1, 1, $N));
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript Program to print the
@@ -385,7 +385,7 @@ echo(seriesSum(1, 1, $N));
 
 **输出:**
 
-```
+```cpp
 365527 
 ```
 

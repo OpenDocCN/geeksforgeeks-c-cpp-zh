@@ -9,7 +9,7 @@
 clear()函数用于移除向量容器的所有元素，从而使其大小为 0。
 **语法:**
 
-```
+```cpp
 ***vectorname***.clear()
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ removed ( or destroyed )
 
 **示例:**
 
-```
+```cpp
 Input  : myvector= {1, 2, 3, 4, 5};
          myvector.clear();
 Output : myvector= {}
@@ -36,7 +36,7 @@ Output : myvector= {}
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of clear() function
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 *No Output*
 ```
 
@@ -78,7 +78,7 @@ int main()
 erase()函数用于从指定位置或范围移除容器中的元素。
 **语法:**
 
-```
+```cpp
 1\. ***vectorname***.erase(***position***)
 2\. ***vectorname***.erase(***startingposition***, ***endingposition***)
 Parameters :
@@ -91,7 +91,7 @@ position of the container.
 
 示例:
 
-```
+```cpp
 Input  : myvector= {1, 2, 3, 4, 5}, iterator= myvector.begin()+2
          myvector.erase(iterator);
 Output : 1, 2, 4, 5
@@ -108,7 +108,7 @@ Output : 1, 2, 3, 7, 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // working of erase() function
 #include <iostream>
@@ -132,7 +132,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2 3 4 5
 ```
 
@@ -140,7 +140,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of erase() function
 #include <iostream>
@@ -168,14 +168,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4 5
 ```
 
 **应用程序**
 给定一个整数列表，从向量中移除所有偶数元素并打印向量。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :1 3 5 7 9
 *Explanation - 2, 4, 6 and 8 which are even are erased from the vector*
@@ -188,7 +188,7 @@ Output :1 3 5 7 9
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of erase() function
 #include <iostream>
@@ -215,7 +215,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 3 5 7 9
 ```
 

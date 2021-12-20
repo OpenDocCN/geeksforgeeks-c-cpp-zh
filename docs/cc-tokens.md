@@ -13,7 +13,7 @@
 
 1.关键词 **:** 关键词是编程语言中预先定义或保留的词。每个关键字都意味着在程序中执行特定的功能。因为关键字是编译器的参考名称，所以它们不能用作变量名，因为这样做，我们试图给关键字赋予一个不允许的新含义。您不能重新定义关键字。但是，您可以在编译前使用 C/C++预处理器指令指定要替换关键字的文本。 **C** 语言支持 **32** 关键词，如下:
 
-```
+```cpp
 auto         double      int        struct
 break        else        long       switch
 case         enum        register   typedef
@@ -26,7 +26,7 @@ do           if          static     while
 
 而在 **C++** 中，除了 **C** 关键词之外，还有 **31** 其他关键词，它们是:
 
-```
+```cpp
 asm          bool        catch          class
 const_cast   delete      dynamic_cast   explicit 
 export       false       friend         inline 

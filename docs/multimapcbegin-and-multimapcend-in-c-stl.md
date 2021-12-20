@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     multimap_name.cbegin()
 
     ```
@@ -15,7 +15,7 @@
 
     **返回值:**函数返回一个常量迭代器，引用 multimap 容器中的第一个元素。
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // the multimap::cbegin() function
     #include <bits/stdc++.h>
@@ -53,7 +53,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The first element is: {1, 40}
 
     The multimap is : 

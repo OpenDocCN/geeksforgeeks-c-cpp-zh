@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 T min() const;
 ```
 
@@ -16,7 +16,7 @@ T min() const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of min() function.
 
@@ -39,14 +39,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The smallest element of valarray is = 1
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of min() function.
 
@@ -69,7 +69,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The smallest element of valarray is = 12
 
 ```

@@ -9,7 +9,7 @@
 fgetc()用于一次从一个文件中获取单个字符的输入。该函数返回该函数读取的字符的 ASCII 码。它返回出现在文件指针指示位置的字符。读取字符后，文件指针前进到下一个字符。如果指针在文件的末尾或者发生错误，这个函数将返回一个文件。
 **语法:**
 
-```
+```cpp
 int fgetc(FILE *pointer)
 pointer: pointer to a FILE object that identifies 
 the stream on which the operation is to be performed.
@@ -17,7 +17,7 @@ the stream on which the operation is to be performed.
 
 ## C
 
-```
+```cpp
 // C program to illustrate fgetc() function
 #include <stdio.h>
 
@@ -49,7 +49,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 The entire content of file is printed character by
 character till end of file. It reads newline character
 as well.
@@ -61,7 +61,7 @@ fputc()用于一次向给定文件中写入一个字符。它在文件指针指�
 该函数返回写操作成功时写的字符，否则返回错误的电渗流。
 **语法:**
 
-```
+```cpp
 int fputc(int char, FILE *pointer)
 char:  character to be written. 
 This is passed as its int promotion.
@@ -71,7 +71,7 @@ stream where the character is to be written.
 
 ## C
 
-```
+```cpp
 // C program to illustrate fputc() function
 #include<stdio.h>
 int main()
@@ -106,7 +106,7 @@ int main()
 
 输出:
 
-```
+```cpp
 good bye
 ```
 

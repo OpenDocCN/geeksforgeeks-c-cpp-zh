@@ -6,7 +6,7 @@ C++中 **iomaip 库**的 **setbase()** 方法用于根据指定为该方法参�
 
 **语法:**
 
-```
+```cpp
 setbase (int base)
 
 ```
@@ -17,7 +17,7 @@ setbase (int base)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setbase() function
 
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before set: 
 50
 Setting base to hex using setbase: 
@@ -58,7 +58,7 @@ Setting base to hex using setbase:
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setbase() function
 
@@ -89,7 +89,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before set: 
 50
 Setting base to oct using setbase: 

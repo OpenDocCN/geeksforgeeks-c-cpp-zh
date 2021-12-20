@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 *multisetname1* = (*multisetname2*)
 Parameters :
 Another container of the same type.
@@ -28,7 +28,7 @@ parameter to the container written on left side of the operator.
 
 **语法:**
 
-```
+```cpp
 *setname1* = (*setname2*)
 Parameters :
 Another container of the same type.
@@ -40,7 +40,7 @@ parameter to the container written on left side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  mymultiset1 = 1, 2, 3
           mymultiset2 = 3, 2, 1, 4
           mymultiset1 = mymultiset2;
@@ -53,7 +53,7 @@ Output :  mymultiset1 = 3, 2
 
 ```
 
-```
+```cpp
 Input  :  myset1 = 1, 2, 3
           myset2 = 3, 2, 1, 4
           myset1 = myset2;
@@ -71,7 +71,7 @@ Output :  myset1 = 3, 2
 1.如果容器的类型不同，则会引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // INTEGER MULISET EXAMPLE
 // CPP program to illustrate
 // Implementation of = operator
@@ -94,12 +94,12 @@ int main()
 
 输出:
 
-```
+```cpp
 mymultilist1 = 3 4
 
 ```
 
-```
+```cpp
 // CHARACTER MULTISET EXAMPLE
 // CPP program to illustrate
 // Implementation of = operator
@@ -122,12 +122,12 @@ int main()
 
 输出:
 
-```
+```cpp
 mymultilist1 = x y
 
 ```
 
-```
+```cpp
 // STRING MULTISET EXAMPLE
 // CPP program to illustrate
 // Implementation of = operator
@@ -151,14 +151,14 @@ int main()
 
 输出:
 
-```
+```cpp
 mymultilist1 = GeeksForGeeks
 
 ```
 
 **时间复杂度:** O(n)
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of = operator
 #include <iostream>
@@ -181,7 +181,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mylist1 = GeeksForGeeks
 
 ```

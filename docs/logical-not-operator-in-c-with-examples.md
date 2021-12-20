@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 !Condition
 
 // returns true if the conditions is false
@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```cpp
 // C program to demonstrate working
 // of logical NOT '!' operators
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Condition yielded True
 Condition yielded False
 

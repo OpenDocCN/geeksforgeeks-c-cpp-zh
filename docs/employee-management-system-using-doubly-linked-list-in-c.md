@@ -14,7 +14,7 @@
 
 *   To store employee data, create a user-defined data type to store information about employees. The following is the declaration of the data type:
 
-```
+```cpp
 struct node {
     struct node* prev;
     int ssn;
@@ -35,7 +35,7 @@ struct node {
 
 演示雇主详情的 C 程序
 
-```
+```cpp
 // C-program to demonstrate employer
 // details using a Doubly-linked list
 #include <conio.h>

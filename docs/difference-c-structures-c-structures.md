@@ -34,7 +34,7 @@ C++结构
 
 ## C
 
-```
+```cpp
 // C Program to Implement Member
 // functions inside structure
 
@@ -67,13 +67,13 @@ int main()
 
 **输出**
 
-```
+```cpp
 This will generate an error in C but no error in C++. 
 ```
 
 ## C++
 
-```
+```cpp
 // C++ Program to Implement Member functions inside
 // structure
 
@@ -108,7 +108,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 num=9
 ```
 
@@ -116,7 +116,7 @@ num=9
 
 ## C
 
-```
+```cpp
 // C program with structure static member
 
 struct Record {
@@ -129,7 +129,7 @@ int main() { return 0; }
 
 ## C++
 
-```
+```cpp
 // C++ program with structure static member
 
 struct Record {
@@ -146,7 +146,7 @@ int main() { return 0; }
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that
 // Constructor is not allowed
 
@@ -168,7 +168,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to initialize data member in c++
 #include <iostream>
 using namespace std;
@@ -191,7 +191,7 @@ int main()
 
 **c++输出:**
 
-```
+```cpp
 2
 ```
 
@@ -199,7 +199,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that direct
 // member initialization is not possible in C
 
@@ -220,7 +220,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to initialize data member in c++
 #include <iostream>
 using namespace std;
@@ -242,7 +242,7 @@ int main()
 
 **c++输出:**
 
-```
+```cpp
 7
 ```
 
@@ -256,7 +256,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate empty structure
 
 #include <stdio.h>
@@ -276,7 +276,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate empty structure
 #include <iostream>
 using namespace std;
@@ -298,13 +298,13 @@ int main()
 
 **C 中的输出:**
 
-```
+```cpp
 0
 ```
 
 **c++输出:**
 
-```
+```cpp
 1
 ```
 

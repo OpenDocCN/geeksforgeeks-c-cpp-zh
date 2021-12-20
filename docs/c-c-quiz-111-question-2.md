@@ -4,7 +4,7 @@
 
 为以下程序片段选择最佳语句:
 
-```
+```cpp
 #include "stdio.h"
 void foo(void)
 {

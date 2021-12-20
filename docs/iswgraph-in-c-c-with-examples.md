@@ -11,7 +11,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswgraph(ch)
 ```
 
@@ -26,7 +26,7 @@ int iswgraph(ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswgraph() function
 #include <cwctype>
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ? has graphical representation 
   does not have graphical representation
 
@@ -66,7 +66,7 @@ int main()
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // iswgraph() function
 #include <cwctype>
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 does not have graphical representation 
 3 has graphical representation
 

@@ -8,12 +8,12 @@
 
 **先决条件:**c 中的[线程](https://www.geeksforgeeks.org/operarting-system-thread/)、[等待系统调用](https://www.geeksforgeeks.org/wait-system-call-c/)
 
-```
+```cpp
 To execute the program we use following command :
 
 ```
 
-```
+```cpp
 Input:
 Press a key :
 s -> start
@@ -25,7 +25,7 @@ Output :
 
 ```
 
-```
+```cpp
 // C code to create stop watch
 
 // Header file for necessary system library

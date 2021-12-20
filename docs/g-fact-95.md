@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -28,7 +28,7 @@ char fun()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int fun()
@@ -48,7 +48,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main (void)

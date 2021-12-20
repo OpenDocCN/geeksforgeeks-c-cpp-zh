@@ -20,7 +20,7 @@ Insert 可以在已删除的槽中插入项目，但搜索不会在已删除的�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -196,7 +196,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 key = 1 value = 1
 key = 2 value = 3
 2

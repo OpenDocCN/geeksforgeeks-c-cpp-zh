@@ -6,7 +6,7 @@ C++ STL 中的 **list::back()** 函数返回列表容器中最后一个元素的
 
 **语法:**
 
-```
+```cpp
 list_name.back() 
 
 ```
@@ -19,7 +19,7 @@ list_name.back()
 
 下面的程序说明了 list::back()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::assign() function
 #include <bits/stdc++.h>
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 30
 
 ```

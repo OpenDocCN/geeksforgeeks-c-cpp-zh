@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -40,7 +40,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 B's Constructor Called
 ```
 
@@ -49,7 +49,7 @@ B's Constructor Called
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -78,7 +78,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Compiler Error: undefined reference to `B::a' 
 ```
 
@@ -86,7 +86,7 @@ Compiler Error: undefined reference to `B::a'
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -118,7 +118,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A's constructor called
 B's constructor called
 B's constructor called
@@ -129,7 +129,7 @@ B's constructor called
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A's constructor called
 ```
 

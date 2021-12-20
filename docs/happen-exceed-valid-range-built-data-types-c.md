@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the problem with 'char'
 #include <iostream>
@@ -27,7 +27,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the problem with 'bool'
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the problem with 'short'
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the problem with 'unsigned short'
 #include <iostream>

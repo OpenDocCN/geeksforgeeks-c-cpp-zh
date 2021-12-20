@@ -13,7 +13,7 @@
 1.  **Main 函数在类**之外:C++支持面向对象编程，但 OO 不是语言固有的。你可以编写一个有效的、编码良好的、风格极佳的 C++程序，而无需使用一次对象。
     在 C++中，main 函数是强制的，它首先执行，但是它**驻留在类**之外，我们从那里创建对象。因此，在这里类的创建变成了**可选的**，我们可以不用类来编写代码。
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -26,7 +26,7 @@ int main()
 
 而在 JAVA 中，主函数首先被执行，它在类中被设计，类是强制的。所以，不上课我们什么都做不了。为了做与上面相同的事情，我们需要创建一个类作为:
 
-```
+```cpp
 class hello
 {
     public static void main(String args[])
@@ -38,7 +38,7 @@ class hello
 
 *   **Concept of Global variable :** In C++, we can declare a variable globally, which can be accessible from anywhere and hence, it does not provides complete privacy to the data as no one can be restricted to access and modify those data and so, it provides encapsulation partially whereas In JAVA, we can declare variable inside class only and we can provide access specifier to it.
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -60,7 +60,7 @@ class hello
 
     输出:
 
-    ```
+    ```cpp
     50 20 
     ```
 

@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the test.cpp
 #include "MyHeader.h"
 #include <iostream>
@@ -28,7 +28,7 @@ int main()
 
 ## MyHeader.h
 
-```
+```cpp
 // Below is code for the header file
 // named as "MyHeader.h"
 #pragma once
@@ -46,7 +46,7 @@ size_t powerOfTwo(const int x)
 
 **<u>方法 1–cmd.exe 境内</u> :** 不建议使用此方法。
 
-```
+```cpp
 g++ -E test.cpp
 ```
 
@@ -56,7 +56,7 @@ g++ -E test.cpp
 
 使用下面给出的命令获得**你好。i**
 
-```
+```cpp
 g++ -E test.cpp -o hello.i
 ```
 
@@ -69,7 +69,7 @@ g++ -E test.cpp -o hello.i
 
 ### **<u>这是怎么发生的</u>？**
 
-```
+```cpp
 # 7 "MyHeader.h"
 ```
 
@@ -79,13 +79,13 @@ g++ -E test.cpp -o hello.i
 
 *   可以使用以下命令编译预处理器输出文件:
 
-```
+```cpp
 g++ hello.i -o test.exe
 ```
 
 *   include 指令的预处理:
 
-```
+```cpp
 // test.cpp
 #include<iostream>
 
@@ -95,7 +95,7 @@ int main(){
 }
 ```
 
-```
+```cpp
 // MyHeader.h
 ;
 ```

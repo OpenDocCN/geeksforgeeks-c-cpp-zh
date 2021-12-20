@@ -21,7 +21,7 @@ C++标准库有一个表头，实现复数作为模板类，**[<【T】>](https:
 
 **例 1:**
 
-```
+```cpp
 // C program to show the working
 // of complex.h library
 
@@ -42,7 +42,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 z = 1.3+4.9i
 
 ```
@@ -57,7 +57,7 @@ z = 1.3+4.9i
 
 **示例 2:** 我们也可以使用宏 **I** 创建复数对象。
 
-```
+```cpp
 // C program to create a complex
 // number using macro I
 
@@ -81,7 +81,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 z = 3.2+4.1i
 
 ```
@@ -140,7 +140,7 @@ long double complex cimagl(long double complex arg) | 它返回复变元的虚�
 
 **例 3:** 求复数共轭的程序。
 
-```
+```cpp
 #include <complex.h>
 #include <stdio.h>
 
@@ -161,14 +161,14 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 z = 1.3-4.9i
 
 ```
 
 **例 4:** 求复数绝对值的程序。
 
-```
+```cpp
 #include <complex.h>
 #include <stdio.h>
 
@@ -185,14 +185,14 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Absolute value = 5.1
 
 ```
 
 **例 4:** 求复数相角的程序。
 
-```
+```cpp
 #include <complex.h>
 #include <stdio.h>
 
@@ -210,7 +210,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Phase Angle = 1.3 radians
 
 ```

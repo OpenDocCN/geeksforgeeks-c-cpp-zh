@@ -6,7 +6,7 @@
 
 例如，如果我们想要打印十六进制值 100，那么我们可以将其打印为:
 
-```
+```cpp
 cout<<setbase(16)<<100
 ```
 
@@ -22,7 +22,7 @@ cout<<setbase(16)<<100
 
         **示例:**
 
-        ```
+        ```cpp
         #include <iostream>
         #include <istream>
         #include <sstream>
@@ -59,7 +59,7 @@ cout<<setbase(16)<<100
 
         **Output:**
 
-        ```
+        ```cpp
         Programmer
         only a test
         abc
@@ -93,7 +93,7 @@ cout<<setbase(16)<<100
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iomanip>
     #include <iostream>
     using namespace std;
@@ -133,7 +133,7 @@ cout<<setbase(16)<<100
 
     **Output:**
 
-    ```
+    ```cpp
     0x64
     _______+2001.53
     2.014552646E+05

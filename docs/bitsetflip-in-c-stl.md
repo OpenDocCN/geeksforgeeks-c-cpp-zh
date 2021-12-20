@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bitset_name.flip(int pos)
 
 ```
@@ -19,7 +19,7 @@ bitset_name.flip(int pos)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::flip() function
 // when no parameter is passed
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0011 after applying flip() function returns 1100
 101101 after applying flip() function returns 010010
 
@@ -53,7 +53,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::flip() function
 // when parameter is passed
@@ -81,7 +81,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0100 after applying flip(3) function returns 1100
 1100100 after applying flip(6) function returns 0100100
 

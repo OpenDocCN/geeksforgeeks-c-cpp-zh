@@ -12,7 +12,7 @@
 
 **示例** :
 
-```
+```cpp
 Input : 10, 20 
 Output : 
 Largest number between two numbers (10, 20) is: 20
@@ -24,7 +24,7 @@ Largest number among four numbers (25, 75, 55, 15) is: 75
 
 一个**三元运算符**有以下形式，
 
-```
+```cpp
 exp1 ? exp2 : exp3
 ```
 
@@ -34,7 +34,7 @@ exp1 ? exp2 : exp3
 
 ## C++
 
-```
+```cpp
 // C++ program to find largest among
 // two numbers using ternary operator
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find largest among two
 // numbers using ternary operator
 
@@ -86,7 +86,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find largest
 // among two numbers using
 // ternary operator
@@ -111,7 +111,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find largest
 # between two numbers using
 # Ternary Operator.
@@ -146,7 +146,7 @@ print("Largest number between " + str(n1) +
 
 ## C#
 
-```
+```cpp
 // C# program to find largest
 // among two numbers using
 // ternary operator using System;
@@ -175,7 +175,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find largest
 // among two numbers using
@@ -197,7 +197,7 @@ echo "Largest number between " .
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find largest among
@@ -219,7 +219,7 @@ document.write("Largest number between "
 
 **Output:** 
 
-```
+```cpp
 Largest number between 5 and 10 is 10.
 ```
 
@@ -227,7 +227,7 @@ Largest number between 5 and 10 is 10.
 
 ## C++
 
-```
+```cpp
 // C++ program to find largest among three
 // numbers using ternary operator
 #include <iostream>
@@ -257,7 +257,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find largest among three
 // numbers using ternary operator
 
@@ -281,7 +281,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find largest
 // among three numbers using
 // ternary operator
@@ -310,7 +310,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find largest
 # among three numbers using
 # ternary operator
@@ -344,7 +344,7 @@ print("Largest number among " + str(n1) +
 
 ## C#
 
-```
+```cpp
 // C# program to find largest
 // number among three numbers
 // using ternary operator
@@ -373,7 +373,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find largest among three
 // numbers using ternary operator
@@ -393,7 +393,7 @@ echo "Largest number among ". $n1 . ", ". $n2 .
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find largest among three
@@ -417,7 +417,7 @@ document.write( "Largest number among "
 
 **Output:** 
 
-```
+```cpp
 Largest number among 5, 10 and 15 is 15.
 ```
 
@@ -425,7 +425,7 @@ Largest number among 5, 10 and 15 is 15.
 
 ## C++
 
-```
+```cpp
 // C++ program to find largest
 // number among four numbers
 // using ternary operator
@@ -457,7 +457,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find largest among four
 // numbers using ternary operator
 
@@ -485,7 +485,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find largest
 // among four numbers using
 // ternary operator
@@ -516,7 +516,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find largest
 # among four numbers using
 # Ternary Operator.
@@ -552,7 +552,7 @@ print("Largest number among " + str(n1) + ", " +
 
 ## C#
 
-```
+```cpp
 // C# program to find largest
 // number among four numbers
 // using ternary operator
@@ -584,7 +584,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find largest among four
 // numbers using ternary operator
@@ -605,7 +605,7 @@ echo "Largest number among ". $n1\. ", ". $n2\. ", ".
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript program to find largest
 // among four numbers using
@@ -629,6 +629,6 @@ echo "Largest number among ". $n1\. ", ". $n2\. ", ".
 
 **Output:** 
 
-```
+```cpp
 Largest number among 5, 10, 15 and 20 is 20.
 ```

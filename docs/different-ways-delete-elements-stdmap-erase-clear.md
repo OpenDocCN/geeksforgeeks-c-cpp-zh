@@ -12,7 +12,7 @@
     *   **擦除(strt_iter，end_iter)** :擦除从“strt_iter”到“end_iter”开始的**对范围**。
         时间复杂度: **O(k)** (k 为地图大小)
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of erase()
 
     #include<iostream>
@@ -110,7 +110,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The initial map elements are : 
     a->5
     b->10
@@ -143,7 +143,7 @@
 
 2.  **Using clear()** : This function **clears** all the elements present in the map. After this function is called, the size of map becomes 0.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of clear()
 
     #include<iostream>
@@ -184,7 +184,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The initial map elements are : 
     a->5
     b->10

@@ -8,7 +8,7 @@
 
 这是一个无限循环，将一直运行到一个 break 语句被显式发出。 **while(1)** 和 **while(2)** 但任何非零的整数都不会产生与 while(1)类似的效果。因此，while(1)、while(2)或 while(-255)，都只会给出无限循环，除非我们使用 break 语句。
 
-```
+```cpp
 while(1) or while(2) or while(any non-zero integer)
 { 
     // loop runs infinitely
@@ -24,7 +24,7 @@ while(1) or while(2) or while(any non-zero integer)
 
 ## C
 
-```
+```cpp
 // C program to illustrate while(1)
 #include<stdio.h>
 
@@ -47,7 +47,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate while(1)
 #include <iostream>
 using namespace std;
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
@@ -80,7 +80,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate while(2)
 #include<stdio.h>
 
@@ -103,7 +103,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate while(2)
 #include <iostream>
 using namespace std;
@@ -127,7 +127,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```

@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find sum of n and
 // it's largest prime factor
 #include <cmath>
@@ -70,7 +70,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find sum of n and
 // it's largest prime factor
 import java.io.*;
@@ -126,7 +126,7 @@ System.out.println(maxPrimeFactors(n));
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find sum of n and
 # it's largest prime factor
 from math import sqrt
@@ -172,7 +172,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to find sum of n and
 // it's largest prime factor
 using System;
@@ -234,7 +234,7 @@ static void Main ()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find sum of n and
 // it's largest prime factor
@@ -288,7 +288,7 @@ echo maxPrimeFactors($n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find sum of n and
@@ -344,6 +344,6 @@ document.write(maxPrimeFactors(n));
 
 **Output:** 
 
-```
+```cpp
 38
 ```

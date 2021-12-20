@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```cpp
 Input : N = 5
 Output : 32
 
@@ -28,7 +28,7 @@ Output : 64
 
 ## C++
 
-```
+```cpp
 // CPP program to find the Nth term of
 // the series 14, 28, 20, 40, …..
 
@@ -71,7 +71,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find the Nth term of
 // the series 14, 28, 20, 40,
 
@@ -115,7 +115,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find the Nth term
 # of the series 14, 28, 20, 40, …..
 
@@ -151,7 +151,7 @@ print(findNth(N))
 
 ## C#
 
-```
+```cpp
 // C# program to find the Nth term of
 // the series 14, 28, 20, 40,
 
@@ -193,7 +193,7 @@ static int findNth(int N)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find the Nth term of
 // the series 14, 28, 20, 40, …..
@@ -230,7 +230,7 @@ echo findNth($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // java script program to find the Nth term of
@@ -269,6 +269,6 @@ document.write(findNth(N));
 
 **Output:** 
 
-```
+```cpp
 64
 ```

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 list_name.reverse()
 
 ```
@@ -17,7 +17,7 @@ list_name.reverse()
 
 下面程序举例说明列表::reverse()函数在 C++ STL 中:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::reverse() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Initial List: 10 20 30 40 
 
 List after reversing: 40 30 20 10

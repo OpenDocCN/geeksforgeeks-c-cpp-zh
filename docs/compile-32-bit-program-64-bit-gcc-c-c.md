@@ -8,7 +8,7 @@
 在继续之前，让我们确认一下当前系统中安装的是哪个位版本的 **gcc** 。
 只需在 Linux 终端上键入以下命令。**** 
 
-```
+```cpp
 ****Command**: gcc -v
 **Output** 
 Using built-in specs.
@@ -22,19 +22,19 @@ Target: x86_64-linux-gnu
 ****因此第四行 *Target: x86_64-linux-gnu* 确认我们正在运行 64 位 gcc。
 现在为了用 32 位 gcc 编译，只需在编译‘C’语言程序的命令行中添加一个标志 **-m32** 。例如，要通过 Linux 终端编译 **geek.c** 的文件，必须用 **-m32** 标志编写以下命令。**** 
 
-```
+```cpp
 ****Command:** gcc -m32 geek.c -o geek**
 ```
 
 ****如果出现如下错误:**** 
 
-```
+```cpp
 **fatal error: bits/predefs.h: No such file or directory**
 ```
 
 ****那么它表明 gcc 的标准库丢失了。在这种情况下，您必须使用以下命令来安装**gcc-multlib**:**** 
 
-```
+```cpp
 **For C language:
 sudo apt-get install gcc-multilib
 For C++ language:
@@ -47,7 +47,7 @@ sudo apt-get install g++-multilib**
 
 ## ****卡片打印处理机（Card Print Processor 的缩写）****
 
-```
+```cpp
 **// C program to demonstrate difference
 // in output in 32-bit and 64-bit gcc
 // File name: geek.c
@@ -61,7 +61,7 @@ int main()
 ****用这两个不同的命令在 Linux 中编译上述程序，
 默认 64 位编译，**** 
 
-```
+```cpp
 ****Input:** gcc -m64 geek.c -o out
 **Output:** ./out
 Size = 8**
@@ -69,7 +69,7 @@ Size = 8**
 
 ****强制 32 位编译，**** 
 
-```
+```cpp
 ****Input:** gcc -m32 geek.c -o out
 **Output:** ./out
 Size = 4**

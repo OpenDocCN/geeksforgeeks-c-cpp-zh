@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
 int getmaxcolor();
 
 ```
 
 下面是 getmaxcolor()函数的实现。
 
-```
+```cpp
 // C Implementation for getmaxcolor()
 #include <graphics.h>
 #include <stdio.h>

@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 17 5 2
 ```
 
@@ -57,7 +57,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2 5 17
 ```
 

@@ -11,7 +11,7 @@ T3】1。如何在数字“num”中设置一位:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 // num is the number and pos is the position
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6
 ```
 
@@ -47,7 +47,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 // First step is to get a number that  has all 1's except the given position.
@@ -68,7 +68,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```
 
@@ -84,7 +84,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 // First step is to shift 1,Second step is to XOR with given number
@@ -104,7 +104,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6
 ```
 
@@ -116,7 +116,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -138,7 +138,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```
 
@@ -154,7 +154,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -167,7 +167,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
  -5
 ```
@@ -178,7 +178,7 @@ Output:
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -193,7 +193,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This is two's complement -4
 This is also two's complement -4
 ```
@@ -204,7 +204,7 @@ This is also two's complement -4
 
 我们这样做:
 
-```
+```cpp
 X = X & (X-1)
 ```
 
@@ -215,7 +215,7 @@ X-1 变成 1011。在用 X-1“与”X 之后，我们得到最低设置位剥�
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 void strip_last_set_bit(int &num)
@@ -233,7 +233,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6
 ```
 
@@ -241,7 +241,7 @@ int main()
 
 这是通过使用表达式“X &(-X)”来完成的。让我们通过一个例子来看看这个:让 X = 00101100。所以~X(1 的补码)将是‘11010011’，2 的补码将是(~X+1 或-X)，即‘11010100’。因此，如果我们将原始数“X”与它的二进制补码“-X”进行“与”，我们将得到最低的集位。
 
-```
+```cpp
 00101100
 & 11010100
 -----------
@@ -250,7 +250,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int lowest_set_bit(int num)
@@ -269,7 +269,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2
 ```
 
@@ -277,7 +277,7 @@ int main()
 
 **用右移位运算符除以 2:**
 
-```
+```cpp
 00001100 >> 1 (00001100 is 12)
 ------------
 00000110 (00000110 is 6)
@@ -285,7 +285,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -299,13 +299,13 @@ int main()
 
 **Output**
 
-```
+```cpp
 6
 ```
 
 **用左移位运算符乘以 2:**
 
-```
+```cpp
 00001100 << 1 (00001100 is 12)
 ------------
 00011000 (00000110 is 24)
@@ -313,7 +313,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -327,7 +327,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 24
 ```
 

@@ -11,13 +11,13 @@
 
 **头文件:**
 
-```
+```cpp
 #include <ctype.h>
 ```
 
 **语法:**
 
-```
+```cpp
 std::isdigit(int arg)
 ```
 
@@ -29,7 +29,7 @@ std::isdigit(int arg)
 
 ## C
 
-```
+```cpp
 // C program to demonstrate isdigit()
 #include <ctype.h>
 #include <stdio.h>
@@ -76,7 +76,7 @@ cout < <“输入字符”不是“
 
 **Output:**
 
-```
+```cpp
 Entered character is numeric character
 
 ```

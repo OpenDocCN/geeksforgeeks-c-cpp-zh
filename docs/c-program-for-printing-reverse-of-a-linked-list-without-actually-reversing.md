@@ -9,7 +9,7 @@
 
 **算法:**
 
-```
+```cpp
 printReverse(head)
   1\. call print reverse for head->next
   2\. print head->data
@@ -19,7 +19,7 @@ printReverse(head)
 
 ## C
 
-```
+```cpp
 // C program to print reverse 
 // of a linked list
 #include<stdio.h>
@@ -87,7 +87,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4 3 2 1
 ```
 

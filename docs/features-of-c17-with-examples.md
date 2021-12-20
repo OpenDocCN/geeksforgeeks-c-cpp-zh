@@ -22,7 +22,7 @@ C++17 使编写简单、清晰和更具表现力的代码成为可能。C++17 �
 
 ## **C++**
 
-```
+```cpp
 // Below is the syntax for using
 // the nested namespace
 
@@ -46,7 +46,7 @@ namespace Game {
 
 ## **C++**
 
-```
+```cpp
 // Below is the syntax to use the
 // nested namespace in one line
 
@@ -68,7 +68,7 @@ namespace Game::Graphics::Physics {
 
 ## **C++**
 
-```
+```cpp
 // Below is the approach for replace
 // any string with another string
 // in vector of string
@@ -95,7 +95,7 @@ vector<string> str
 
 ## **C++**
 
-```
+```cpp
 // Below is the syntax for replacing a
 // string in vector of string in C++17
 
@@ -110,7 +110,7 @@ if (const auto it = find(begin(str),
 **现在迭代器**“it”**的范围在 if 语句本身内，同样的迭代器名称也可以用来替换其他字符串。
 使用 [switch 语句](https://www.geeksforgeeks.org/switch-statement-cc/)使用下面给出的语法可以完成同样的事情:**
 
-```
+```cpp
 switch (initial-statement; variable) {
   ....
   // Cases
@@ -121,7 +121,7 @@ switch (initial-statement; variable) {
 
 ## **C++**
 
-```
+```cpp
 // C++ 17 code to demonstrate if constexpr
 
 #include <algorithm>

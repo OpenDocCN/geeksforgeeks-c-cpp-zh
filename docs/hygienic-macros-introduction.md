@@ -5,7 +5,7 @@
 我们都很熟悉像 c 语言中[宏](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)的工作方式，在某些情况下，宏扩展会因为意外捕获标识符而导致不良结果。
 例如:
 
-```
+```cpp
 // C program to illustrate a situation known as 
 // accidental capture of identifiers - an
 // undesirable result caused by unhygienic macros
@@ -27,7 +27,7 @@ int main(void)
 
 该代码实际上相当于:
 
-```
+```cpp
 // C program to illustrate unhygenic macros
 // with Macro definition substituted in source code.
 int main(void)
@@ -47,7 +47,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 x = 4, y = 9
 
 ```
@@ -59,7 +59,7 @@ x = 4, y = 9
 卫生宏是这样的宏，它的扩展保证不会导致标识符的意外捕获。一个健康的宏不会使用可能会干扰扩展中的代码的变量名。
 只需在宏定义中更改变量的名称，就可以避免上述代码中的情况，这将产生不同的输出。
 
-```
+```cpp
 // C program to illustrate  
 // Hygienic macros using 
 // identifier names such that 
@@ -83,7 +83,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 x = 5, y = 9
 
 ```

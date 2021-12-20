@@ -31,7 +31,7 @@ UDP 客户端:
 
 **必要功能:**
 
-```
+```cpp
 int socket(int domain, int type, int protocol)
 Creates an unbound socket in the specified domain.
 Returns socket file descriptor.
@@ -45,7 +45,7 @@ Returns socket file descriptor.
 **协议–**套接字要使用的协议。
 0 表示地址族使用默认协议。
 
-```
+```cpp
 int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
 Assigns address to the unbound socket.
 ```
@@ -55,7 +55,7 @@ Assigns address to the unbound socket.
 **addr–**结构，其中指定了要绑定的地址
 **addr len–**结构的大小 *addr*
 
-```
+```cpp
 ssize_t sendto(int sockfd, const void *buf, size_t len, int flags,
                const struct sockaddr *dest_addr, socklen_t addrlen)
 Send a message on the socket
@@ -69,7 +69,7 @@ Send a message on the socket
 **dest _ addr–**结构包含目的地的地址
 **addr len–**
 
-```
+```cpp
 ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags,
                  struct sockaddr *src_addr, socklen_t *addrlen)
 Receive a message from the socket.
@@ -83,7 +83,7 @@ Receive a message from the socket.
 **src _ addr–**返回包含源地址的结构
 **addrlen–【T21****
 
-```
+```cpp
 int close(int fd)
 Close a file descriptor
 ```
@@ -98,7 +98,7 @@ Close a file descriptor
 
 ## **C**
 
-```
+```cpp
 // Server side implementation of UDP client-server model
 #include <stdio.h>
 #include <stdlib.h>
@@ -163,7 +163,7 @@ int main() {
 
 ## **C**
 
-```
+```cpp
 // Client side implementation of UDP client-server model
 #include <stdio.h>
 #include <stdlib.h>
@@ -217,13 +217,13 @@ int main() {
 
 ****输出:****
 
-```
+```cpp
 $ ./server
 Client : Hello from client
 Hello message sent.
 ```
 
-```
+```cpp
 $ ./client
 Hello message sent.
 Server : Hello from server

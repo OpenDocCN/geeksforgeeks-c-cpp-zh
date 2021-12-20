@@ -5,7 +5,7 @@
 给定某棵树的前序、中序和后序遍历。任务是检查它们是否都属于同一棵树。
 **例:**
 
-```
+```cpp
 Input : Inorder -> 4 2 5 1 3
         Preorder -> 1 2 4 5 3
         Postorder -> 4 5 2 3 1
@@ -37,7 +37,7 @@ Output : No
 
 ## C++
 
-```
+```cpp
 // C++ program to check if the given
 // three traversals are of the same
 // tree or not
@@ -121,7 +121,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check if the given
 // three traversals are of the same
 // tree or not
@@ -202,7 +202,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python program to check if the given
 # three traversals are of the same
 # tree or not
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to check if the given
 // three traversals are of the same
 // tree or not
@@ -349,7 +349,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to check if the given
 // three traversals are of the same
@@ -430,7 +430,7 @@ function checktree($preorder, $inorder,
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to check if the given
     // three traversals are of the same
@@ -502,6 +502,6 @@ function checktree($preorder, $inorder,
 
 **Output:** 
 
-```
+```cpp
 Yes
 ```

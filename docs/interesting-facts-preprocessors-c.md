@@ -13,7 +13,7 @@
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define max 100
 int main()
@@ -25,7 +25,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 max is 100
 ```**** 
 
@@ -33,7 +33,7 @@ max is 100
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define INCREMENT(x) ++x
 int main()
@@ -48,7 +48,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 eeksQuiz  11
 ```**** 
 
@@ -56,7 +56,7 @@ eeksQuiz  11
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define MULTIPLY(a, b) a* b
 int main()
@@ -70,7 +70,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 16
 ```**** 
 
@@ -78,7 +78,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 // here, instead of writing a*a we write (a)*(b)
 #define MULTIPLY(a, b) (a) * (b)
@@ -93,7 +93,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 40
 ```**** 
 
@@ -101,7 +101,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define merge(a, b) a##b
 int main() { printf("%d ", merge(12, 34)); }**
@@ -109,7 +109,7 @@ int main() { printf("%d ", merge(12, 34)); }**
 
 ******Output:** 
 
-```
+```cpp
 1234
 ```**** 
 
@@ -117,7 +117,7 @@ int main() { printf("%d ", merge(12, 34)); }**
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define get(a) #a
 int main()
@@ -129,7 +129,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 GeeksQuiz
 ```**** 
 
@@ -137,7 +137,7 @@ GeeksQuiz
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define PRINT(i, limit)                                    \
     while (i < limit) {                                    \
@@ -154,7 +154,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 GeeksQuiz GeeksQuiz GeeksQuiz
 ```**** 
 
@@ -164,7 +164,7 @@ GeeksQuiz GeeksQuiz GeeksQuiz
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 
 #define square(x) x* x
@@ -179,7 +179,7 @@ int main()
 
 ******Output**
 
-```
+```cpp
 36
 ```**** 
 
@@ -187,7 +187,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 
 #define square(x) (x * x)
@@ -208,7 +208,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 
 static inline int square(int x) { return x * x; }
@@ -222,7 +222,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 1
 ```**** 
 
@@ -230,7 +230,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **int main()
 {
 #if VERBOSE >= 2
@@ -241,7 +241,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 No Output
 ```**** 
 
@@ -251,7 +251,7 @@ No Output
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 
 int main()
@@ -266,7 +266,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 Current File :/usr/share/IDE_PROGRAMS/C/other/081c548d50135ed88cfa0296159b05ca/081c548d50135ed88cfa0296159b05ca.c
 Current Date :Sep  4 2019
 Current Time :10:17:43
@@ -278,7 +278,7 @@ Line Number :8
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define LIMIT 100
 int main()
@@ -297,7 +297,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 #define LIMIT 1000
 int main()
@@ -314,7 +314,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 1000
 1001
 ```**** 
@@ -323,7 +323,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **#include <stdio.h>
 // div function prototype
 float div(float, float);
@@ -348,7 +348,7 @@ float div(float x, float y) { return y / x; }
 
 ******Output:** 
 
-```
+```cpp
 2.00
 0.50
 ```**** 

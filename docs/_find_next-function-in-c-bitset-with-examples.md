@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 
 iterator bitset._Find_next(index)
            or
@@ -22,7 +22,7 @@ int bitset._Find_next(index)
 
 **例:**
 
-```
+```cpp
 // C++ program for illustration
 // of _Find_next() function
 
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Next set bit after index 0 in bset
 5
 Next set bit after index 6 in bset

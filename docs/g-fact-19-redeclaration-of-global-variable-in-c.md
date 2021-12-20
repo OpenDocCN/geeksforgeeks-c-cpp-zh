@@ -4,7 +4,7 @@
 
 考虑以下两个程序:
 
-```
+```cpp
 // Program 1
 int main()
 {
@@ -17,11 +17,11 @@ int main()
 
 C 中的输出:
 
-```
+```cpp
 redeclaration of ‘x’ with no linkage
 ```
 
-```
+```cpp
 // Program 2
 int x;
 int x = 5;
@@ -35,7 +35,7 @@ int main()
 
 C 中的输出:
 
-```
+```cpp
 5
 ```
 
@@ -45,7 +45,7 @@ C 中的输出:
 
 下面的程序在两个 C 语言中都失败了，因为全局变量是在第一个声明中初始化的。
 
-```
+```cpp
 int x = 5;
 int x = 10;
 
@@ -58,7 +58,7 @@ int main()
 
 输出:
 
-```
+```cpp
  error: redefinition of ‘x’
 ```
 

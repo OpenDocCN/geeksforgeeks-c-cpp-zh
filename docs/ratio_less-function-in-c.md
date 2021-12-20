@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template < class ratio1_name, class ratio2_name > ratio_less
 
 ```
@@ -19,7 +19,7 @@ template < class ratio1_name, class ratio2_name > ratio_less
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_less function
 #include <iostream>
@@ -42,14 +42,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3/9 is not less than 1/3
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_less function
 #include <iostream>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1/2 is less than 4/7
 
 ```

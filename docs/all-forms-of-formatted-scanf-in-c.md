@@ -10,7 +10,7 @@
 
 ****语法:****
 
-```
+```cpp
 int scanf(const char*format, arg1, agr2, arg3, ...);
 ```
 
@@ -23,7 +23,7 @@ int scanf(const char*format, arg1, agr2, arg3, ...);
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above idea
 #include <stdio.h>
 
@@ -62,7 +62,7 @@ int main()
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above idea
 #include <stdio.h>
 
@@ -120,7 +120,7 @@ int main()
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above idea
 #include <stdio.h>
 
@@ -150,7 +150,7 @@ int main()
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above idea
 #include <stdio.h>
 
@@ -177,7 +177,7 @@ int main()
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above idea
 #include <stdio.h>
 
@@ -249,7 +249,7 @@ int main()
 
 ## **C**
 
-```
+```cpp
 // C program to implement the above concept
 #include <stdio.h>
 
@@ -270,6 +270,6 @@ int main()
 
 ****Output**
 
-```
+```cpp
 11:pm
 ```**

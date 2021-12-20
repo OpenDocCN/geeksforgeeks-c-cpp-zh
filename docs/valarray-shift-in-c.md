@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 valarray shift (int n) const;
 ```
 
@@ -18,7 +18,7 @@ valarray shift (int n) const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of shift() function.
 
@@ -51,14 +51,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray after shifting is = 4 1 0 0 0
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of shift() function.
 
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray after shifting is = 0 0 3 2 5
 
 ```

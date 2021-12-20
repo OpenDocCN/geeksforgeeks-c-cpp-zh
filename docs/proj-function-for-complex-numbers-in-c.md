@@ -5,7 +5,7 @@
 **proj()** 函数是一个内置函数，在*复杂的*头文件中定义。该函数用于求复数![z  ](img/1859c931c8589697dda65dbf5bf5e51a.png "Rendered by QuickLaTeX.com")在黎曼球面上的投影。
 **语法:**
 
-```
+```cpp
 template <class T> complex<T> 
             proj (const complex<T>& z);
 ```
@@ -20,7 +20,7 @@ template <class T> complex<T>
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of proj() function
 
@@ -41,6 +41,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 proj(2,2) = (2,2)
 ```

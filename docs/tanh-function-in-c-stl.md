@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tanh(data_type x)
 
 ```
@@ -19,7 +19,7 @@ tanh(data_type x)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // tanh() function
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 tanh(4.1) = 0.999451
 tanh(90 degrees) = 0.917152
 
@@ -53,7 +53,7 @@ tanh(90 degrees) = 0.917152
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // tanh() function
 #include <bits/stdc++.h>
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 tanh(-4) = -0.999329
 tanh(90 degrees) = 0.761594
 
@@ -90,7 +90,7 @@ tanh(90 degrees) = 0.761594
 
 **程序 3:**
 
-```
+```cpp
 // CPP program to demonstrate the tanh()
 // function when a string is passed as argument 
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp:14:20: error: no matching function for call to 'tanh(std::__cxx11::string&)'
 result = tanh(x);
 

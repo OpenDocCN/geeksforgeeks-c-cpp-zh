@@ -6,7 +6,7 @@
 
 让我们举下面的例子:
 
-```
+```cpp
 #include <stdio.h>
 
 // Inline function in C
@@ -31,7 +31,7 @@ int main()
 
 **编译器错误:**
 
-```
+```cpp
 In function `main':
 undefined reference to `foo'
 
@@ -51,7 +51,7 @@ undefined reference to `foo'
 
 **示例:**
 
-```
+```cpp
 #include <stdio.h>
 
 // Inline function in C
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Output is: 2
 
 ```

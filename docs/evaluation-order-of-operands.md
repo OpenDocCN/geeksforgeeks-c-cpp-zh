@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation
 #include <bits/stdc++.h>
 using namespace std;
@@ -35,7 +35,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int x = 0;
 
@@ -62,7 +62,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class GFG {
 
     static int x = 0;
@@ -91,7 +91,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the above approach
 class A():
     x = 0;
@@ -113,7 +113,7 @@ print(A.x);
 
 ## C#
 
-```
+```cpp
 // C# implementation of the above approach
 using System;
 
@@ -147,7 +147,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP implementation of the above approach
 $x = 0;
@@ -176,7 +176,7 @@ print($x);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 x = 0;
 
@@ -201,7 +201,7 @@ document.write(x);
 
 **输出:**
 
-```
+```cpp
 10
 ```
 

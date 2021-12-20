@@ -4,7 +4,7 @@
 
 以下 C 程序的输出？假设包含了所有必要的头文件
 
-```
+```cpp
 int main()
 {
     char *s1 = (char *)malloc(50);

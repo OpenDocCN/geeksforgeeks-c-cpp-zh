@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate concept
 // of the pointers to constant
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 100
 66
 
@@ -72,7 +72,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate concept
 // of the constant pointers
 #include <iostream>
@@ -109,7 +109,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 90
 0x7ffc641845a8
 56
@@ -127,7 +127,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate concept of
 // the constant pointers to pointers
 #include <iostream>
@@ -163,7 +163,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0x7ffea7e22d68
 50
 

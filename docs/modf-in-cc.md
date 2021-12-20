@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 double modf(k, &p)
 
 ```
@@ -31,7 +31,7 @@ double modf(k, &p)
 
 *   If anything other then a float, double or integer number is passed, it returns a type error.
 
-    ```
+    ```cpp
     // CPP program to demonstrate
     // exception of this function
     #include <bits/stdc++.h>
@@ -56,7 +56,7 @@ double modf(k, &p)
 
     **输出:**
 
-    ```
+    ```cpp
     prog.cpp:13:23: error: no matching function for call to 'modf(std::__cxx11::string&, double*)'
       fraction = modf(k, &p);
     .....
@@ -71,7 +71,7 @@ double modf(k, &p)
 
 1.  Passing double(float) value as an argument:
 
-    ```
+    ```cpp
     // CPP program to demonstrate
     // modf() function
     #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ double modf(k, &p)
 
     **输出**
 
-    ```
+    ```cpp
     Integer Value = 5
     Fraction Value = 0.06
 
@@ -103,7 +103,7 @@ double modf(k, &p)
 
 2.  **Passing integer value as an argument:**
 
-    ```
+    ```cpp
     // CPP program to demonstrate
     // modf() function
     #include <bits/stdc++.h>
@@ -137,7 +137,7 @@ double modf(k, &p)
 
     **输出**
 
-    ```
+    ```cpp
     8  =>    Integer Value = 8
         Fraction Value = 0
     -8 =>    Integer Value = -8

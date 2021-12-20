@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // ratio_equal and ratio_not_equal
 #include<iostream>
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Ratios are equal
 Ratios are equal
 ```
@@ -50,7 +50,7 @@ Ratios are equal
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // ratio_greater and ratio_less
 #include<iostream>
@@ -83,7 +83,7 @@ int main()
 
 输出:
 
-```
+```cpp
 ratio1 is not greater than ratio2
 ratio1 is less than ratio2
 ```
@@ -93,7 +93,7 @@ ratio1 is less than ratio2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // ratio_greater_equal and ratio_less_equal
 #include<iostream>
@@ -126,7 +126,7 @@ int main()
 
 输出:
 
-```
+```cpp
 ratio1 is greater or equal than ratio2
 ratio1 is less or equal than ratio2
 ```

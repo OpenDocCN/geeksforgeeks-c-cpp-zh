@@ -11,7 +11,7 @@
 
 在 C++中，封装可以使用类和[访问修饰符](https://www.geeksforgeeks.org/access-modifiers-in-c/)来实现。请看下面的程序:
 
-```
+```cpp
 // c++ program to explain
 // Encapsulation
 
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```

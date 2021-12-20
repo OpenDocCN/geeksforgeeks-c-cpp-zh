@@ -5,7 +5,7 @@
 如果 pred 为范围[第一个，最后一个]中的所有元素返回 false，或者如果范围为空，则返回 true，否则返回 false。
 语法:
 
-```
+```cpp
 Template :
 bool none_of(InputIterator first, InputIterator last,
                                  UnaryPredicate pred);
@@ -34,7 +34,7 @@ and false otherwise.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate std :: none_of
 #include <iostream> // cout
 #include <algorithm> // none_of
@@ -66,7 +66,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Array contains : 2 4 6 8 12 0
 No negative elements in the range.
 
@@ -78,7 +78,7 @@ std :: none_of 函数如果某个条件对范围[第一个，最后一个]中的
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate std :: none_of
 #include <iostream> // cout
 #include <algorithm> // none_of
@@ -119,7 +119,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Array contains : 2 4 6 8 12 0
 Contains even number only
 

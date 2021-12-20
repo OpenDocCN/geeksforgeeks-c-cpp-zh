@@ -8,7 +8,7 @@
 
 ## C++14
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 // Function to check whether n is odd
@@ -48,7 +48,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Function to check whether n is odd
 def isOdd(n):
     pass
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 ## C
 
-```
+```cpp
 #include <iostream.h>
 
 // Function to check whether n is odd
@@ -111,7 +111,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Function to check whether n is even
 def isEven(n):
     pass

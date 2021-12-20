@@ -29,7 +29,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // object allocation & deallocation
 
@@ -69,7 +69,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The object is created
 The object is destructed
 ```
@@ -84,7 +84,7 @@ The object is destructed
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // constructor and destructor when
 // multiple objects are created
@@ -137,7 +137,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The obj - 1 - is created
 The obj - 2 - is created
 The obj - 2 - is destructed
@@ -156,7 +156,7 @@ The obj - 1 - is destructed
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrates the
 // object Allocation and deallocation
 // during inheritance B stands for base

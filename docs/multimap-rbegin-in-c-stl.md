@@ -5,7 +5,7 @@
 [multimap](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/) ::rbegin()是 C++ STL 中的内置函数，它返回一个指向容器最后一个元素的迭代器。
 **语法:**
 
-```
+```cpp
 multimap_name.rbegiin()
 
 ```
@@ -18,7 +18,7 @@ multimap_name.rbegiin()
 
 **程序 1**
 
-```
+```cpp
 // CPP program to illustrate
 // multimap::rbegin()
 
@@ -45,14 +45,14 @@ int main()
 
 **输出**
 
-```
+```cpp
 c = 50
 
 ```
 
 **程序 2**
 
-```
+```cpp
 // CPP program to illustrate
 // multimap::rbegin()
 
@@ -79,7 +79,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 c = 50
 c = 40
 b = 30

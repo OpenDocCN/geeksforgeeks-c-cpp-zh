@@ -8,7 +8,7 @@
 
 1.  One way of doing this is to apply GCC constructor attribute to a function so that it executes before main() (See [this](https://www.geeksforgeeks.org/functions-that-are-executed-before-and-after-main-in-c/) for details).
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     /* Apply the constructor attribute to myStartupFun() 
@@ -28,13 +28,13 @@
 
     输出:
 
-    ```
+    ```cpp
     GeeksforGeeks
     ```
 
 2.  In linux, just override the default definition of **_start()** function so that it would work as a custom startup code. See [this](https://www.geeksforgeeks.org/executing-main-in-c-behind-the-scene/) article to understand more.
 
-    ```
+    ```cpp
     #include <stdio.h>
     #include <stdlib.h>
 
@@ -55,13 +55,13 @@
 
     现在通过以下命令编译它
 
-    ```
+    ```cpp
     gcc -nostartfiles -o file file.c
     ```
 
     输出:
 
-    ```
+    ```cpp
     GeeksforGeeks
     ```
 
@@ -69,7 +69,7 @@
 
 1.  The idea is to create a **class**, have a cout statement in constructor and create a global object of the class. When the object is created, constructor is called and “GeeksforGeeks” is printed.
 
-    ```
+    ```cpp
     #include <iostream>
 
     class MyClass {
@@ -87,13 +87,13 @@
 
     输出:
 
-    ```
+    ```cpp
     GeeksforGeeks
     ```
 
 2.  The idea is to create **struct** and use the same logic which is discussed in above. The reason is that **struct** and **class** in C++ are exactly the same data structure except **struct** default to public visibility while **class** defaults to private visibility
 
-    ```
+    ```cpp
     #include <iostream>
 
     struct Mystruct {
@@ -109,13 +109,13 @@
 
     输出:
 
-    ```
+    ```cpp
     GeeksforGeeks
     ```
 
 3.  By using global variable, idea is to initialise **printf()** function to global variable, but it will work only in C++ language as in C language we can’t initialise variable or expression like this to global variable.
 
-    ```
+    ```cpp
     #include <cstdio>
 
     int var = printf("GeeksforGeeks");
@@ -127,7 +127,7 @@
 
     输出:
 
-    ```
+    ```cpp
     GeeksforGeeks
     ```
 
@@ -135,7 +135,7 @@
 
 其思想是使用静态块进行打印，实际上 java 中 main()方法之外声明的任何静态块都是在 main 方法之前执行的。
 
-```
+```cpp
 class Myjava {
     static
     {
@@ -149,7 +149,7 @@ class Myjava {
 
 输出:
 
-```
+```cpp
 GeeksforGeeks
 ```
 

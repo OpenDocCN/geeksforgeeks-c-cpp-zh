@@ -8,7 +8,7 @@
 
 **示例#1 :**
 
-```
+```cpp
 #include <stdio.h>
 
 void main()
@@ -23,12 +23,12 @@ void main()
 
 **输出:**
 
-```
+```cpp
 It works fine
 ```
 
 **运行时错误:**
 
-```
+```cpp
 NZEC
 ```

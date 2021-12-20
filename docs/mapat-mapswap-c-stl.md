@@ -9,7 +9,7 @@ at()函数用于返回对与键 **k** 关联的元素的引用。
 
 **语法:**
 
-```
+```cpp
 map1.at(k)
 
 Parameters:
@@ -22,7 +22,7 @@ element whose associated value is accessed.
 
 **示例:**
 
-```
+```cpp
 Input:  map1 = {
                  {1, 'a'},
                  {2, 'b'},
@@ -42,7 +42,7 @@ Output: 1
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <bits/stdc++.h>
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Element at map1[2] = b
 Element at map2['w'] = 1
 
@@ -86,7 +86,7 @@ Element at map2['w'] = 1
 swap()函数用于交换两张地图的内容，但地图必须是**相同类型的**，尽管大小可能不同。
 **语法:**
 
-```
+```cpp
 map1.swap(map2)
        OR
 swap(map1, map2)
@@ -101,7 +101,7 @@ map2 is the second map object.
 
 **示例:**
 
-```
+```cpp
 Input : map1 = {
                  {1, 'a'},
                  {2, 'b'},
@@ -129,7 +129,7 @@ Output : map1 = {
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <bits/stdc++.h>
@@ -173,7 +173,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 map1:
     KEY    ELEMENT
     5    w

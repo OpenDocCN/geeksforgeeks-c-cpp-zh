@@ -11,7 +11,7 @@
 **字符串 vs 字符数组**
 在 C++中，除了字符数组之外，还有一种类似的实现字符串的方式，那就是使用字符串类，它是 C++标准库的一部分。要使用字符串类实现字符串，我们需要添加头文件**。字符数组和字符串的基本区别是，在字符数组的情况下，大小必须在声明时分配，即一旦分配，所有内存都是固定的，不能在运行时更改。而对于 string，在声明时不需要指定大小和分配固定内存。**
 
-```
+```cpp
 // C++ program to demonstrate Character Array
 // and String
 #include<iostream>
@@ -35,7 +35,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 GeeksforGeeks 
 ```
@@ -44,7 +44,7 @@ GeeksforGeeks
 
 *   ****compare(string_to_compare )** :- It is used to compare two strings. It returns the difference of second string and first string in integer.
 
-    ```
+    ```cpp
     // C++ program to demonstrate use of compare()
     #include<iostream>
     #include<string>
@@ -65,7 +65,7 @@ GeeksforGeeks
 
     输出:
 
-    ```
+    ```cpp
     Strings are equal
     ```** 
 *   ****查找(“字符串”):**在字符串中搜索参数中指定的子字符串的第一次出现。它返回子字符串第一次出现的位置。**
@@ -73,7 +73,7 @@ GeeksforGeeks
 *   ****find_last_of(“字符串”):**在字符串中搜索与参数中指定的任何字符匹配的最后一个字符。它返回匹配的最后一个字符的位置。**
 *   ****rfind(“string”):** Searches the string for the last occurrence of the substring specified in arguments. It returns the position of the last occurrence of substring
 
-    ```
+    ```cpp
     // C++ program to demonstrate working of find(),
     // rfind(),find_first_of() and find_last_of()
     #include<iostream>
@@ -112,7 +112,7 @@ GeeksforGeeks
 
     输出:
 
-    ```
+    ```cpp
     First occurrence of "Geeks" starts from : 4
     First occurrence of character from "reef" is at : 2
     Last occurrence of character from "reef" is at : 16
@@ -121,7 +121,7 @@ GeeksforGeeks
     ```** 
 *   ****insert(pos_to_begin,string_to_insert):** This function inserts the given substring in the string. It takes two arguments, first the position from which you want to insert the substring and second the substring.
 
-    ```
+    ```cpp
     // C++ program to demonstrate working of insert()
     #include<iostream>
     #include<string>
@@ -146,7 +146,7 @@ GeeksforGeeks
 
     输出:
 
-    ```
+    ```cpp
     Geeksfor
     GeeksforGeeks
 
@@ -154,7 +154,7 @@ GeeksforGeeks
 *   ****clear():** 该函数清除字符串中的所有字符。执行此操作后，字符串变为空(长度变为 0)。**
 *   ****empty():** Tests whether the string is empty. This function return a Boolean value.
 
-    ```
+    ```cpp
     // C++ program to demonstrate working of clear()
     // and empty()
     #include<iostream>
@@ -179,7 +179,7 @@ GeeksforGeeks
 
     输出:
 
-    ```
+    ```cpp
     String is empty
 
     ```** 

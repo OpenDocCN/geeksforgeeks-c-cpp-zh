@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above problem
 #include <iostream>
 using namespace std;

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 if (condition)
     statement 1;
 else if (condition)
@@ -44,7 +44,7 @@ else
 
 ## C
 
-```
+```cpp
 // C program to illustrate nested-if statement
 
 #include <stdio.h>
@@ -78,7 +78,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else-if ladder
 #include <iostream>
 using namespace std;
@@ -112,14 +112,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i is 20
 
 ```
 
 **干运转例 1:**
 
-```
+```cpp
 1\. Program starts.
 2\. i is initialized to 20.
 3\. condition 1 is checked. 20 == 10, yields false.
@@ -134,7 +134,7 @@ i is 20
 
 ## C
 
-```
+```cpp
 // C program to illustrate nested-if statement
 
 #include <stdio.h>
@@ -166,7 +166,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else-if ladder
 
 #include <iostream>
@@ -199,7 +199,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i is greater than 20
 
 ```

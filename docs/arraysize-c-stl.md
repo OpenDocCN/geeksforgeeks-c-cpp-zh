@@ -10,7 +10,7 @@ size()函数用于返回列表容器的大小或列表容器中的元素数量�
 
 **语法:**
 
-```
+```cpp
 *arrayname*.size()
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ Number of elements in the container.
 
 示例:
 
-```
+```cpp
 Input  : myarray{1, 2, 3, 4, 5};
          myarray.size();
 Output : 5
@@ -35,7 +35,7 @@ Output : 0
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of size() function
 #include <iostream>
@@ -52,6 +52,6 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```

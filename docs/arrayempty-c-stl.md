@@ -10,7 +10,7 @@ empty()函数用于检查数组容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *arrayname*.empty()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input  : myarray{1, 2, 3, 4, 5};
          myarray.empty();
 Output : False
@@ -38,7 +38,7 @@ Output : True
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // Non Empty array example
 // CPP program to illustrate
 // Implementation of empty() function
@@ -61,12 +61,12 @@ int main()
 
 输出:
 
-```
+```cpp
 False
 
 ```
 
-```
+```cpp
 // Empty array example
 // CPP program to illustrate
 // Implementation of empty() function
@@ -89,7 +89,7 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 
 ```

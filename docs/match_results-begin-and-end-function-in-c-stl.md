@@ -5,7 +5,7 @@
 *   **match_results::cbegin()** 是 C++ STL 中的一个内置函数，它返回一个指向 match_results 对象中第一个匹配的迭代器。
     **语法:**
 
-```
+```cpp
 smatch_name.begin()
 ```
 
@@ -16,7 +16,7 @@ smatch_name.begin()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // match_results begin() function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Match size = 3
 matches:
 geeksforgeeks
@@ -58,7 +58,7 @@ forgeeks
 *   **match_results::end()** 是 C++ STL 中的一个内置函数，它返回一个迭代器，指向 match_results 对象中的结束匹配。
     **语法:**
 
-```
+```cpp
 smatch_name.end()
 ```
 
@@ -69,7 +69,7 @@ smatch_name.end()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // match_results end() function
 #include <bits/stdc++.h>
@@ -100,7 +100,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Match size = 3
 matches:
 matchresult

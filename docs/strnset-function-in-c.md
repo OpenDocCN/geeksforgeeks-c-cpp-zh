@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strnset(const char *str, char ch, int n);
 
 ```
@@ -25,7 +25,7 @@ char *strnset(const char *str, char ch, int n);
 
 **程序 1:**
 
-```
+```cpp
 // C program to illustrate 
 // the strnset() function
 
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String: GeeksforGeeks
 Modified String: *****forGeeks
 
@@ -56,7 +56,7 @@ Modified String: *****forGeeks
 
 **程序 2:**
 
-```
+```cpp
 // C program to illustrate 
 // the strnset() function
 
@@ -79,7 +79,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String: Computer Science
 Modified String: *****ter Science
 

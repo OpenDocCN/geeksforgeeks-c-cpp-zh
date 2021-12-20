@@ -12,7 +12,7 @@
 1.  **Comparing elements using ==:**
     Syntax:
 
-    ```
+    ```cpp
     template 
     ForwardIterator unique (ForwardIterator first, ForwardIterator last);
 
@@ -26,7 +26,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::unique
     #include <iostream>
     #include <vector>
@@ -57,7 +57,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 3 10 1 3 7 8
 
     ```
@@ -67,7 +67,7 @@
 2.  **By comparing using a pre-defined function:**
     Syntax:
 
-    ```
+    ```cpp
     template 
      ForwardIterator unique (ForwardIterator first, ForwardIterator last,
                              BinaryPredicate Pred);
@@ -88,7 +88,7 @@
     duplicates and hence not removed.
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::unique
     #include <iostream>
     #include <algorithm>
@@ -124,7 +124,7 @@
 
     输出:
 
-    ```
+    ```cpp
     You arre vvvisiting GFG
 
     ```
@@ -137,7 +137,7 @@
 
     所以，std::unique 也可以用来**移除容器中所有重复的元素。**
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::unique
     #include <iostream>
     #include <vector>
@@ -172,7 +172,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 2 3 7 8 10
 
     ```
@@ -181,7 +181,7 @@
 
 2.  **Count unique elements :** It can also be used if we want to count the total no. of unique elements in a container.
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::unique
     #include <iostream>
     #include <iterator>
@@ -211,7 +211,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Total no. of unique elements = 5
 
     ```

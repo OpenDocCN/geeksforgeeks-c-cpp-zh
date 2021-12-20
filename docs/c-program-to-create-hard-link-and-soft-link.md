@@ -25,7 +25,7 @@
 
 ## C
 
-```
+```cpp
 // C program to create an Hard Link
 // to the existing file
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main(int argc, char* argv[])
 
 ## C
 
-```
+```cpp
 // C program to create an Soft Link
 // to the existing file
 #include <stdio.h>

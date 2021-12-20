@@ -5,7 +5,7 @@
 **集合::count()** 是 C++ STL 中的内置函数，它返回元素在集合中出现的次数。它只能返回 1 或 0，因为集合容器只包含唯一的元素。
 **语法:**
 
-```
+```cpp
 set_name.count(element) 
 ```
 
@@ -19,7 +19,7 @@ set_name.count(element)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::count() function
 #include <bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 11 is present in the set
 18 is not present in the set
 ```

@@ -10,14 +10,14 @@ T5】分步说明:
 *   **步骤 1:** 首先通过键入
     安装构建必备组件
 
-```
+```cpp
 sudo apt-get install build-essential
 ```
 
 *   **步骤 2:** 通过键入
     安装一些附加包
 
-```
+```cpp
 sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-2.0 \
 guile-2.0-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev \
 libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev \
@@ -28,7 +28,7 @@ libslang2-dev libasound2 libasound2-dev
 *   **步骤 3:** 现在提取下载的 libgraph-1.0.2.tar.gz 文件。
 *   **步骤 4:** 转到提取的文件夹并运行以下命令
 
-```
+```cpp
 ./configure
 make
 sudo make install
@@ -37,7 +37,7 @@ sudo cp /usr/local/lib/libgraph.* /usr/lib
 
 *   现在您可以使用 graphics.h lib，使用以下几行:
 
-```
+```cpp
 int gd = DETECT,gm; 
 initgraph (& gd,& gm,NULL);
 ```
@@ -46,7 +46,7 @@ initgraph (& gd,& gm,NULL);
 
 ## C
 
-```
+```cpp
 // C code to illustrate using
 // graphics in linux environment
 #include<stdio.h>

@@ -6,7 +6,7 @@ is _ 置换()用于检查两个容器(如字符串和向量)是否相互置换�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of
 // is_permutation()
 #include <bits/stdc++.h>
@@ -37,7 +37,7 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 False
 ```
@@ -46,7 +46,7 @@ False
 给定一个模式和一个文本，查找文本中模式及其字谜的所有出现。
 示例:
 
-```
+```cpp
 Input : text ="forxxorfxdofr"  
         pat = "for"
 Output :  3
@@ -63,7 +63,7 @@ Output : 4
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to count all permutation of
 // given text
 #include<bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 ```
 

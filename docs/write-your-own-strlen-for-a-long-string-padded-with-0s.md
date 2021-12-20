@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input: str[] = {'g', 'e', 'e', 'k', '\0', '\0', '\0', '\0', '\0', '\0'}
        n = 10  // Total no. of characters including \0's
 Output: Length of string is 4     
@@ -28,7 +28,7 @@ Output: Length of string is 9
 
 下面是上述想法的 C 实现。
 
-```
+```cpp
 // A Binary Search based implementation of strlen when all non-string
 // characters are \0
 #include <stdio.h>
@@ -78,7 +78,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Length of string is 9
 ```
 

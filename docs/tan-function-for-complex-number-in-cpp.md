@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tan(z);
 ```
 
@@ -20,7 +20,7 @@ T4【程序 1:-
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tan() function.
 #include <iostream>
@@ -41,7 +41,7 @@ int main ()
 
 **Output:** 
 
-```
+```cpp
 The tan of (0,1) is (0,0.761594)
 ```
 
@@ -49,7 +49,7 @@ The tan of (0,1) is (0,0.761594)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tan() function.
 #include <iostream>
@@ -70,6 +70,6 @@ int main ()
 
 **Output:** 
 
-```
+```cpp
 The tan of (1,0) is (1.55741,0)
 ```

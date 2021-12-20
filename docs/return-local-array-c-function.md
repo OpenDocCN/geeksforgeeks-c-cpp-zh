@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int* fun()
@@ -30,7 +30,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -55,7 +55,7 @@ int main()
 
 **警告:**
 
-```
+```cpp
 In function 'int* fun()':
 6:8: warning: address of local variable 'arr' returned [-Wreturn-local-addr]
     int arr[100];
@@ -65,7 +65,7 @@ In function 'int* fun()':
 
 **Output:** 
 
-```
+```cpp
 10 20
 
 ```

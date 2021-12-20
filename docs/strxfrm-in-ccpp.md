@@ -8,7 +8,7 @@ c/c++库 **strxfrm()** 将源字符串的字符转换为当前区域设置，并
 使用在**场所定义的 LC_COLLATE 类别。h** 。strxfrm()函数执行转换的方式是，两个字符串上的 strcmp 结果与两个原始字符串上的 strcoll 结果相同。
 **语法:**
 
-```
+```cpp
 size_t strxfrm(char *str1, const char *str2, size_t num);
 parameters:
 str1 :is the string which receives 
@@ -20,13 +20,13 @@ which to be copied into str1.
 
 **示例:**
 
-```
+```cpp
 Input : 'geeksforgeeks'
 Output : 13
 
 ```
 
-```
+```cpp
 // C program to demonstrate
 // strxfrm()
 #include <stdio.h>
@@ -45,20 +45,20 @@ int main()
 
 输出:
 
-```
+```cpp
 Length of string geeksforgeeks is: 13
 
 ```
 
 **例 2 :**
 
-```
+```cpp
 Input : 'hello geeksforgeeks'
 Output : 20 // in this example it count space also 
 
 ```
 
-```
+```cpp
 // C program to demonstrate
 // strxfrm()
 #include <stdio.h>
@@ -77,14 +77,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Length of string  hello geeksforgeeks is: 20
 
 ```
 
 **例 3 :**
 
-```
+```cpp
 // C program to demonstrate
 // strxfrm()
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 19
 Hell
 Hello geeksforgeeks

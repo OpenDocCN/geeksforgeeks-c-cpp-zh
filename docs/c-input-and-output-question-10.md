@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-输入输出-问题-10/](https://www.geeksforgeeks.org/c-input-and-output-question-10/)
 
-```
+```cpp
 #include<stdio.h>
 
 int main()

@@ -10,7 +10,7 @@
 
 ****3。isdigit() :** 如果字符是数字则此函数返回 **true，否则返回 false。所有**所有数字**按此功能返回真。****
 
-```
+```cpp
 // C++ program to demonstrate insalpha(), isnum() 
 // and isdigit()
 #include <cctype>
@@ -57,7 +57,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 g is alphabet
 1 is not alphabet
 
@@ -74,7 +74,7 @@ g is not digit
 
 ****6。iscentrl():**如果字符是 tab 或任何控制代码则此函数返回 **true，否则返回 false。****
 
-```
+```cpp
 // C++ program to demonstrate iscntrl(), isblank() and
 // isspace()
 #include <cctype>
@@ -121,7 +121,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  Character is not control code
  Character is control code 
  Character is control code 
@@ -141,7 +141,7 @@ int main()
 
 ****9。ispunt():**如果字符是标点符号则此函数返回 **true，否则返回 false。****
 
-```
+```cpp
 // C++ program to demonstrate isprint(), isxdigit() and
 // ispunct()
 #include <cctype>
@@ -188,7 +188,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  is not printable Character
 @ is printable character 
 g is printable character 

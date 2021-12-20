@@ -12,7 +12,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to demonstrate
 // the above approach
 #include <iostream>
@@ -32,7 +32,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1000000
 ```
 
@@ -42,7 +42,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // C++ program to demonstrate
 // the above approach
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 a:123456
 b:123456
 c:123456

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 key_compare map_name.key_comp();
 ```
 
@@ -18,7 +18,7 @@ key_compare map_name.key_comp();
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // map::key_comp() function
 
@@ -64,7 +64,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map has the elements
 a => 10
 b => 20
@@ -75,7 +75,7 @@ d => 40
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // map::key_comp() function
 
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map has the elements
 a => 1
 b => 2

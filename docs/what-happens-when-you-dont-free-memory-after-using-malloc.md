@@ -8,7 +8,7 @@
 使用“malloc”或“内存分配”方法来动态分配指定大小的单个大内存块。它返回一个 void 类型的指针，该指针可以转换成任何形式的指针。它用默认垃圾值初始化每个块。
 **语法:**
 
-```
+```cpp
 ptr = (cast-type*) malloc(byte-size)
 ```
 
@@ -29,7 +29,7 @@ ptr = (cast-type*) malloc(byte-size)
 
 ## C
 
-```
+```cpp
 // C program to illustrate free()
 // and malloc() function
 #include <stdio.h>
@@ -90,7 +90,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Memory allocation successful using malloc.
 The array elements are:
 2 3 4 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name1*.swap(*unordered_multimap_name2*)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::swap()
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements of Sample1 before swap are:{50, 500} {10, 100} 
 Key and Elements of Sample2 before swap are:{20, 200} {30, 150} {30, 300} 
 
@@ -82,7 +82,7 @@ Key and Elements of Sample2 after swap are:{50, 500} {10, 100}
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::swap()
 #include <bits/stdc++.h>
@@ -135,7 +135,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements of Sample1 before swap are:{g, G} {a, A} 
 Key and Elements of Sample2 before swap are:{d, D} {b, B} {c, C} 
 

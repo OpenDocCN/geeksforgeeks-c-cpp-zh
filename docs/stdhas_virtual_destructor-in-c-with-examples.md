@@ -5,13 +5,13 @@
 C++ STL 的**STD::has _ virtual _ destructor**用于检查给定的类型 T 是否有虚拟析构函数。它返回真或假的布尔值。以下是相同的语法:
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 ```
 
 **语法:**
 
-```
+```cpp
 template
   <class T>
   struct has_virtual_destructor;
@@ -28,7 +28,7 @@ T3】程序 1:T5】
 
 ## CPP14
 
-```
+```cpp
 // C++ program to illustrate
 // has_virtual_destructor example
 
@@ -69,7 +69,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 has_virtual_destructor:
 int: false
 gfg1: false
@@ -81,7 +81,7 @@ gfg3: true
 
 ## CPP14
 
-```
+```cpp
 // C++ program to illustrate
 // has_virtual_destructor example
 
@@ -122,7 +122,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 has_virtual_destructor:
 int: false
 gfg1: true

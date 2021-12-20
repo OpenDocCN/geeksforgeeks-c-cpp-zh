@@ -5,7 +5,7 @@
 C++提供了各种要使用的标准模板库。其中一个是 memchr()函数，它将在指定数量的字符中搜索第一个出现的字符。
 **模板**
 
-```
+```cpp
 const void* memchr( const void* ptr, int ch, std::size_t count );
 Parameters : 
 ptr : Pointer to the object to be searched for.
@@ -18,7 +18,7 @@ the location of the character, otherwise returns null pointer.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate memchr()
 #include <cstring>
 #include <iostream>
@@ -44,14 +44,14 @@ int main()
 
 输出:
 
-```
+```cpp
 s is present in first 13 characters of "This is a sample"
 
 ```
 
 示例:
 
-```
+```cpp
 // CPP program to illustrate memchr()
 #include <iostream>
 #include <cstring>
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 search character found
 
 ```

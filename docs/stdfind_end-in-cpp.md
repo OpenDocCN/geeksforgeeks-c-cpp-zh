@@ -12,7 +12,7 @@
 
 语法:
 
-```
+```cpp
 Template
    ForwardIterator1 find_end (ForwardIterator1 first1, ForwardIterator1 last1,
                               ForwardIterator2 first2, ForwardIterator2 last2);
@@ -29,7 +29,7 @@ the function returns last1.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::find_end
 #include<iostream>
 #include<vector>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 11
 
 ```
@@ -68,7 +68,7 @@ int main()
 
     语法:
 
-    ```
+    ```cpp
     Template
        ForwardIterator1 find_end (ForwardIterator1 first1, ForwardIterator1 last1,
                                   ForwardIterator2 first2, ForwardIterator2 last2,
@@ -91,7 +91,7 @@ int main()
     the function returns last1.
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::find_end
     #include<iostream>
     #include<vector>
@@ -127,7 +127,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     4
 
     ```
@@ -141,7 +141,7 @@ int main()
 
         所以，如果必须从头开始搜索的话，这是 std::search 的一个**可能的替代。**
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of std::find_end
 
         #include <iostream>
@@ -192,7 +192,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         vector2 is present firstly at index 2
         vector2 is present lastly at index 7
 
@@ -200,7 +200,7 @@ int main()
 
     2.  **To find last occurrence of element satisfying a condition:** Since, **std::find_end** starts searching from the end, so we can use this fact as well as manipulate the BinaryFunction to solve questions which demand us to **find the last occurrence of anything** (like last odd number, last even number, and so on).
 
-        ```
+        ```cpp
         // C++ program to find the last occurrence of an odd
         // and even number
         #include<iostream>
@@ -262,7 +262,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         Last odd no. occurs at 5
         Last even no. occurs at 7
 

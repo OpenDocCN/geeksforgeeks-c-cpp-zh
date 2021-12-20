@@ -6,14 +6,14 @@ C++ STL 的 **std::remove_volatile** 模板存在于< type_traits >头文件中�
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class <T>
 struct remove_volatile;
 
@@ -21,7 +21,7 @@ struct remove_volatile;
 
 **语法:**
 
-```
+```cpp
 std::remove_volatile::value
 
 ```
@@ -40,7 +40,7 @@ std::remove_volatile::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::remove_volatile
 #include <bits/stdc++.h>
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 checking Non-volatileness:
 A: false
 B: false
@@ -105,7 +105,7 @@ E: false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::remove_volatile
 #include <bits/stdc++.h>
@@ -158,7 +158,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 checking Non-volatileness:
 A: true
 B: true

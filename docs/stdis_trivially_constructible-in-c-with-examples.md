@@ -8,14 +8,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T, class.. Args>
 struct is_trivially_constructible;
 
@@ -23,7 +23,7 @@ struct is_trivially_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_constructible::value
 
 ```
@@ -42,7 +42,7 @@ std::is_trivially_constructible::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_constructible
 #include <bits/stdc++.h>
@@ -92,7 +92,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Ex1: false
 Ex2: true
 A(int, int): false
@@ -101,7 +101,7 @@ A(int, int): false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_constructible
 #include <bits/stdc++.h>
@@ -151,7 +151,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int(): true
 Y(): false
 Y(X): false

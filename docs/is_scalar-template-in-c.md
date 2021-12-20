@@ -6,7 +6,7 @@ C++ STL 的 **std::is_scalar 模板**用于检查给定类型是否为标量类�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_scalar;
 ```
 
@@ -21,7 +21,7 @@ template < class T > struct is_scalar;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_scalar template
 
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_scalar:
 GFG1: false
 GFG2: true
@@ -80,7 +80,7 @@ char: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_scalar template
 
@@ -115,7 +115,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_scalar:
 int(gfg::*): true
 int *: true
@@ -126,7 +126,7 @@ int(int): false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_scalar template
 
@@ -168,7 +168,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_scalar:
 GFG:false
 float: true

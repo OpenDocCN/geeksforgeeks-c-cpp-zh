@@ -13,14 +13,14 @@
 一个变量或函数可以被*声明*任意次，但只能被*定义*一次。(记住一个基本原则，同一变量或函数不能有两个位置)。
 现在回到 extern 关键字。首先，让我们考虑在函数中使用 extern。事实证明，当一个函数被声明或定义时，extern 关键字是隐式假定的。当我们写作时。
 
-```
+```cpp
 int foo(int arg1, char arg2);
 
 ```
 
 编译器将其视为:
 
-```
+```cpp
 extern int foo(int arg1, char arg2);
 
 ```
@@ -28,7 +28,7 @@ extern int foo(int arg1, char arg2);
 由于 extern 关键字将函数的可见性扩展到了整个程序，所以函数可以在整个程序的任何文件中的任何地方使用(调用)，前提是这些文件包含函数的声明。(有了函数的声明，编译器知道函数的定义存在于其他地方，并继续编译文件)。这就是外在和功能。
 现在让我们考虑一下 extern 和变量的使用。首先，在没有定义的情况下，您如何将*声明为*变量？你会做这样的事:
 
-```
+```cpp
 extern int var;
 
 ```
@@ -36,7 +36,7 @@ extern int var;
 这里，已经声明了一个名为 var 的整数类型变量(它还没有被定义，所以到目前为止还没有为 var 分配内存)。我们可以想做多少次就做多少次。目前为止一切顺利。🙂
 现在，你如何定义 var？你会这样做:
 
-```
+```cpp
 int var;
 
 ```
@@ -47,7 +47,7 @@ int var;
 
 ## c
 
-```
+```cpp
 int var;
 int main(void)
 {
@@ -61,7 +61,7 @@ int main(void)
 
 ## c
 
-```
+```cpp
 extern int var;
 int main(void)
 {
@@ -74,7 +74,7 @@ int main(void)
 
 ## c
 
-```
+```cpp
 extern int var;
 int main(void)
 {
@@ -88,7 +88,7 @@ int main(void)
 
 ## c
 
-```
+```cpp
 #include "somefile.h"
 extern int var;
 int main(void)
@@ -103,7 +103,7 @@ int main(void)
 
 ## c
 
-```
+```cpp
 extern int var = 0;
 int main(void)
 {

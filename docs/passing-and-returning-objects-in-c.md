@@ -9,7 +9,7 @@
 为了将对象作为参数传递，我们将对象名作为参数，同时调用函数，就像我们对其他变量那样。
 **语法:**
 
-```
+```cpp
 function_name(object_name);
 ```
 
@@ -17,7 +17,7 @@ function_name(object_name);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show passing
 // of objects to a function
 
@@ -69,7 +69,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Initial Values 
 Value of object 1: 50
 & object 2: 100

@@ -10,7 +10,7 @@ front()用于引用 deque 容器的第一个元素。这个函数可以用来获
 
 **语法:**
 
-```
+```cpp
 dequename.front()
 ```
 
@@ -18,7 +18,7 @@ dequename.front()
 
 **示例:**
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque.front();
 Output :  1
@@ -35,7 +35,7 @@ Output :  3
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate
 // Implementation of front() function
 #include <deque>
@@ -59,7 +59,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 3
 ```
 
@@ -69,7 +69,7 @@ back()函数用于引用 deque 容器的最后一个元素。这个函数可以�
 
 **语法:**
 
-```
+```cpp
 dequename.back()
 ```
 
@@ -77,7 +77,7 @@ dequename.back()
 
 **示例:**
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque.back();
 Output :  3
@@ -94,7 +94,7 @@ Output :  3
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate
 // Implementation of back() function
 #include <deque>
@@ -118,7 +118,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 3
 ```
 
@@ -126,7 +126,7 @@ int main()
 
 给定一个空的整数数，将数字加到数上，然后打印第一个和最后一个元素之间的差。
 
-```
+```cpp
 Input  : 1, 2, 3, 4, 5, 6, 7, 8
 Output : 7
 ```
@@ -142,7 +142,7 @@ Output : 7
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate
 // application Of front() and back() function
 #include <deque>
@@ -178,7 +178,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 7
 ```
 

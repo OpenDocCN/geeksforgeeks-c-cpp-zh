@@ -38,7 +38,7 @@ g++–版本
 
 ## C++
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 void solve();
@@ -76,7 +76,7 @@ void solve()
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 void solve();
@@ -124,7 +124,7 @@ void solve()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 {
 "shell_cmd": "g++ \"${file}\" -o \"${file_path}\\\\${file_base_name}\"", "file_regex": "^(..[^:]):([0-9]+):?([0-9]+)?:? (.){content}quot;,
 "shell_cmd": "g++ -O2 -std=c++11 \"${file}\" -o \"${file_path}\\\\${file_base_name}\" && \"${file_path}\\\\${file_base_name}\" < input.txt",

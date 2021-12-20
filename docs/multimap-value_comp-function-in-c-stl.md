@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap::compared_value value_comp() const;
 ```
 
@@ -18,7 +18,7 @@ multimap::compared_value value_comp() const;
 
 下图程序说明了 multimap value_comp()函数:
 
-```
+```cpp
 // C++ program to show
 // the use of multimap::value_comp
 
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a = 10
 b = 20
 c = 30

@@ -6,7 +6,7 @@ C++中 **iomaip 库**的 **setprecision()** 方法用于根据指定为该方法
 
 **语法:**
 
-```
+```cpp
 setprecision(int n)
 ```
 
@@ -18,7 +18,7 @@ setprecision(int n)
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setprecision() function
 
@@ -57,7 +57,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before setting the precision: 
 3.14286
 Setting the precision using setprecision to 5: 
@@ -70,7 +70,7 @@ Setting the precision using setprecision to 9:
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setprecision() function
 
@@ -110,7 +110,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before setting the precision: 
 3.140000
 Setting the precision using setprecision to 5: 

@@ -8,7 +8,7 @@
 
 下面是添加变量引用的程序:
 
-```
+```cpp
 // C++ program to illustrate
 // aliasing in variable
 
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of a: 9
 After Update:
 Value of a :100
@@ -66,7 +66,7 @@ Value of N :100
 
 下面是在容器类中添加对象引用的程序:
 
-```
+```cpp
 // C++ program to illustrate aliasing
 // in list containers in C++
 #include <bits/stdc++.h>
@@ -124,7 +124,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of a for object obj is 5
 After Update
 Value of a for object obj is 700

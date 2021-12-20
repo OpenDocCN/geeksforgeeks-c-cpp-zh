@@ -8,7 +8,7 @@ c++中的 [std::string](https://www.geeksforgeeks.org/stdstring-class-in-c/) 有
 
 **示例:**
 
-```
+```cpp
 Input: char s[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o',
                      'r', 'g', 'e', 'e', 'k', 's' } ;
 Output: string s = "geeksforgeeks" ;
@@ -28,7 +28,7 @@ Output: string s = "coding" ;
 
     下面是上述方法的实现。
 
-    ```
+    ```cpp
     // Demonstrates conversion
     // from character array to string
 
@@ -68,7 +68,7 @@ Output: string s = "coding" ;
 
     **Output:**
 
-    ```
+    ```cpp
     CODE
     geeksforgeeks
 
@@ -86,7 +86,7 @@ Output: string s = "coding" ;
 
     下面是上述方法的实现。
 
-    ```
+    ```cpp
     // Demonstrates conversion
     // from character array to string
 
@@ -137,7 +137,7 @@ Output: string s = "coding" ;
 
     **Output:**
 
-    ```
+    ```cpp
     CODE
     geeksforgeeks
 
@@ -155,7 +155,7 @@ Output: string s = "coding" ;
 
     下面是上述方法的实现。
 
-    ```
+    ```cpp
     // Demonstrates conversion
     // from character array to string
 
@@ -191,7 +191,7 @@ Output: string s = "coding" ;
 
     **Output:**
 
-    ```
+    ```cpp
     CODE
     geeksforgeeks
 

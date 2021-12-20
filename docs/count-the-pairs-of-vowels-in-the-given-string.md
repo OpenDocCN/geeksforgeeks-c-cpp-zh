@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 class GFG {
 
@@ -114,7 +114,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function that return true
@@ -151,7 +151,7 @@ print(vowelPairs(s, n))
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -207,7 +207,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP implementation of the approach
 
@@ -250,7 +250,7 @@ echo vowelPairs($s, $n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript implementation of the approach
@@ -298,6 +298,6 @@ echo vowelPairs($s, $n);
 
 **Output:** 
 
-```
+```cpp
 2
 ```

@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <math.h>
 #include <stdio.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 3.464102
 ```
 
@@ -58,7 +58,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 #include <stdlib.h>
@@ -134,7 +134,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 3.464099
 ```
 
@@ -160,7 +160,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <math.h>
 #include <stdio.h>
@@ -183,6 +183,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 3.464102
 ```

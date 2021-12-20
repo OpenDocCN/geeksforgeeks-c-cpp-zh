@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.cend(n)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::cend()
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements:
    2          3
    2          3
@@ -61,7 +61,7 @@ Key and Elements:
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::cend(bucket)
 #include <bits/stdc++.h>
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements of first bucket:
    1          2
 

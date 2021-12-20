@@ -7,7 +7,7 @@
 断言是用于测试程序员所做假设的语句。例如，我们可以使用断言来检查 malloc()返回的指针是否为空。
 以下是断言的语法。
 
-```
+```cpp
 void assert( int expression ); 
 ```
 
@@ -16,7 +16,7 @@ void assert( int expression );
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <assert.h>
 
@@ -39,7 +39,7 @@ int main()
 
 输出
 
-```
+```cpp
 Assertion failed: x==7, file test.cpp, line 13 
 This application has requested the Runtime to terminate it in an unusual 
 way. Please contact the application's support team for more information.
@@ -52,7 +52,7 @@ way. Please contact the application's support team for more information.
 
 ## C
 
-```
+```cpp
 // The below program runs fine because NDEBUG is defined
 # define NDEBUG
 # include <assert.h>

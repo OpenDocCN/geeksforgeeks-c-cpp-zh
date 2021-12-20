@@ -5,7 +5,7 @@
 **atan2()** 是 C++ STL 中的一个内置函数，返回(y/x)的正切倒数，其中 y 是 y 坐标的比例，x 是 x 坐标的比例。数值介于–![\pi ](img/b1e4b020b2fbb98ab91207094bdb1078.png "Rendered by QuickLaTeX.com")和![\pi ](img/b1e4b020b2fbb98ab91207094bdb1078.png "Rendered by QuickLaTeX.com")之间，代表(x，y)点和正 x 轴的角度![\theta ](img/71665d472a66ac434109c1ed1f496e2f.png "Rendered by QuickLaTeX.com")。它是正 X 轴和点(X，y)之间的逆时针角度，以弧度为单位。
 **语法:**
 
-```
+```cpp
 atan2(data_type y, data_type x)
 ```
 
@@ -22,7 +22,7 @@ atan2(data_type y, data_type x)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the atan2()
 // function when both parameters are of
 // same type
@@ -45,7 +45,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 atan2(y/x) = 0.785398 radians
 atan2(y/x) = 45 degrees
 ```
@@ -54,7 +54,7 @@ atan2(y/x) = 45 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the atan2()
 // function when both parameters are of
 // different types
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 atan2(y/x) = 2.35619 radians
 atan2(y/x) = 135 degrees
 ```
@@ -87,7 +87,7 @@ atan2(y/x) = 135 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the atan2()
 // function when y/x is undefined
 #include<bits/stdc++.h>
@@ -109,7 +109,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 atan2(y/x) = 1.5708 radians
 atan2(y/x) = 90 degrees
 ```
@@ -118,7 +118,7 @@ atan2(y/x) = 90 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the atan2()
 // function when both parameters are zero
 #include<bits/stdc++.h>
@@ -140,7 +140,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 atan2(y/x) = 0 radians
 atan2(y/x) = 0 degrees
 ```
@@ -150,7 +150,7 @@ atan2(y/x) = 0 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the atan2()
 // errors and exceptions
 #include<bits/stdc++.h>
@@ -172,7 +172,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp:9:26: error: no matching function for call to 'atan2(const char [2], double&)'
      result = atan2("1", x);
 ```

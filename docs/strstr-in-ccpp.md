@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strstr (const char *s1, const char *s2);
 
 Parameters:
@@ -23,7 +23,7 @@ s2: This is the sub-string to be searched in *s1* string.
 
 **示例:**
 
-```
+```cpp
 // CPP program to illustrate strstr()
 #include <string.h>
 #include <stdio.h>
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 String found
 First occurrence of string 'for' in 'GeeksforGeeks' is 'forGeeks'
 
@@ -60,7 +60,7 @@ First occurrence of string 'for' in 'GeeksforGeeks' is 'forGeeks'
 **应用:将一个字符串替换为另一个**
 在本例中，借助 strstr()函数，我们首先在 **s1** 中搜索 *STL* 子字符串的出现，然后将该单词替换为 *Strings* 。
 
-```
+```cpp
 // CPP program to illustrate strstr()
 #include <string.h>
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Fun with Strings
 
 ```

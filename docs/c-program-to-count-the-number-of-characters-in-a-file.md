@@ -14,7 +14,7 @@
 
 **程序:**
 
-```
+```cpp
 // C Program to count
 // the Number of Characters in a Text File
 

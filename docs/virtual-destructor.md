@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program without virtual destructor
 // causing undefined behavior
 #include <iostream>
@@ -41,7 +41,7 @@ int main()
 
 虽然以下程序的输出在不同的编译器上可能不同，但是当使用 Dev-CPP 编译时，它会打印如下:
 
-```
+```cpp
 Constructing base
 Constructing derived
 Destructing base
@@ -51,7 +51,7 @@ Destructing base
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A program with virtual destructor
 #include <iostream>
 
@@ -85,7 +85,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructing base
 Constructing derived
 Destructing derived

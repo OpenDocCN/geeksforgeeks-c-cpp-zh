@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : n = 687
 Output : 21
 
@@ -28,7 +28,7 @@ Output : 3
 
 ## C++
 
-```
+```cpp
 // C program to compute sum of digits in
 // number.
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to compute sum of digits in
 // number.
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to compute
 // sum of digits in number.
 import java.io.*;
@@ -122,7 +122,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to
 # compute sum of digits in
 # number.
@@ -146,7 +146,7 @@ print(getSum(n))
 
 ## C#
 
-```
+```cpp
 // C# program to compute
 // sum of digits in number.
 using System;
@@ -178,7 +178,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP Code to compute sum
 // of digits in number.
@@ -208,7 +208,7 @@ echo("$res");
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to compute sum of digits in
@@ -234,7 +234,7 @@ document.write(getSum(n));
 
 **Output**
 
-```
+```cpp
 21
 ```
 
@@ -243,7 +243,7 @@ document.write(getSum(n));
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -275,7 +275,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 /* Function to get sum of digits */
@@ -301,7 +301,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to compute
 // sum of digits in number.
 import java.io.*;
@@ -334,7 +334,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Function to get sum of digits
 
 def getSum(n):
@@ -358,7 +358,7 @@ print(getSum(n))
 
 ## C#
 
-```
+```cpp
 // C# program to compute
 // sum of digits in number.
 using System;
@@ -388,7 +388,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP Code for Sum the
 // digits of a given number
@@ -414,7 +414,7 @@ echo(getsum($n));
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to compute
@@ -445,7 +445,7 @@ document.write(getSum(n));
 
 **Output**
 
-```
+```cpp
 21
 ```
 
@@ -454,7 +454,7 @@ document.write(getSum(n));
 
 算法:
 
-```
+```cpp
 1) Get the number
 2) Get the remainder and pass the next remaining digits
 3) Get the rightmost digit of the number with help of the remainder '%' operator by dividing it by 10 and add it to sum.
@@ -465,7 +465,7 @@ document.write(getSum(n));
 
 ## C++
 
-```
+```cpp
 // C++ program to compute
 // sum of digits in number.
 #include <iostream>
@@ -493,7 +493,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // C program to compute
 // sum of digits in number.
 #include <stdio.h>
@@ -516,7 +516,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to compute
 // sum of digits in number.
 import java.io.*;
@@ -545,7 +545,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to compute
 # sum of digits in number.
 
@@ -561,7 +561,7 @@ print(sumDigits(687))
 
 ## C#
 
-```
+```cpp
 // C# program to compute
 // sum of digits in number.
 using System;
@@ -585,7 +585,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to compute
 // sum of digits in number.
@@ -604,7 +604,7 @@ echo sumDigits(687);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Program to compute
 // sum of digits in number
@@ -628,7 +628,7 @@ echo sumDigits(687);
 
 **Output**
 
-```
+```cpp
 21
 ```
 
@@ -640,7 +640,7 @@ echo sumDigits(687);
 
 ## C++14
 
-```
+```cpp
 // C++ implementation of the above approach
 #include <iostream>
 using namespace std;
@@ -669,7 +669,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the above approach
 import java.io.*;
 class GFG {
@@ -702,7 +702,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python implementation of the above approach
 def getSum(n):
     # Initializing sum to 0
@@ -720,7 +720,7 @@ print(getSum(n))
 
 ## C#
 
-```
+```cpp
 // C# implementation of the above approach
 using System;
 public class GFG {
@@ -752,7 +752,7 @@ public class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript implementation of the above approach
 
@@ -782,7 +782,7 @@ document.write(getSum(st));
 
 **Output**
 
-```
+```cpp
 104
 ```
 
@@ -800,7 +800,7 @@ document.write(getSum(st));
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -833,7 +833,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.io.*;
 import java.lang.*;
@@ -864,7 +864,7 @@ class sum_of_digits {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program for the above approach
 
 # Function to check sum
@@ -888,7 +888,7 @@ print("Sum of digits is", result)
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 
@@ -921,7 +921,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program for the above approach
@@ -952,7 +952,7 @@ function sum_of_digit(n, val)
 
 **Output**
 
-```
+```cpp
 Sum of digits is 15
 ```
 

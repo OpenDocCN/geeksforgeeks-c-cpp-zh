@@ -4,7 +4,7 @@
 
 **typedef**:typedef 用来给数据类型一个新的名字。例如
 
-```
+```cpp
 // C program to demonstrate typedef
 #include <stdio.h>
 
@@ -23,13 +23,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 c
 ```
 
 C 语言中的 **#define** 是一个指令，用来#定义别名。
 
-```
+```cpp
 // C program to demonstrate #define
 #include <stdio.h>
 
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Hyderabad
 ```
 
@@ -58,7 +58,7 @@ Hyderabad
 4.  #define will only copy and paste the definition value at the point of use, while typedef is the actual definition of the new type.
 5.  Typedef follows the scope rule, which means that if a new type is defined in a scope (inside a function), the new type name is only visible when the scope exists. In the case of #define, when the preprocessor encounters #define, it will replace all subsequent events (without following the scope rule).
 
-```
+```cpp
 // C program to demonstrate importance
 // of typedef over #define for data types
 #include <stdio.h>
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 sizeof a:8
 sizeof b:8
 sizeof c:8
@@ -92,7 +92,7 @@ sizeof z:1
 
 从上述程序的输出来看，指针“a”的大小是 8(在使用 8 字节存储指针的机器上)。在上面的程序中，当编译器来到
 
-```
+```cpp
 typedef char* ptr;
 ptr a, b, c;
 ```
@@ -101,7 +101,7 @@ ptr a, b, c;
 
 该声明实际上成为
 
-```
+```cpp
 char *a, *b, *c;
 ```
 
@@ -109,7 +109,7 @@ char *a, *b, *c;
 
 相比之下，#像这样定义作品:
 
-```
+```cpp
 #define PTR char*
 PTR x, y, z;
 
@@ -117,7 +117,7 @@ PTR x, y, z;
 
 该声明实际上成为
 
-```
+```cpp
 char *x, y, z;
 ```
 

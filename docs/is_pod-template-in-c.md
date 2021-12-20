@@ -6,7 +6,7 @@ C++ STL 的 **std::is_pod 模板**用于检查类型是否为纯旧数据(pod)�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_pod;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_pod;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_pod template
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pod:
 gfg:true
 sam:false
@@ -68,7 +68,7 @@ raj:false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_pod template
 
@@ -104,7 +104,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pod:
 gfg:true
 sam:true
@@ -114,7 +114,7 @@ raj:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_pod template
 
@@ -145,7 +145,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pod:
 gfg:true
 sam:false

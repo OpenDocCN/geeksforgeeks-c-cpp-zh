@@ -6,7 +6,7 @@
 
 这是一个延迟函数的实现。
 
-```
+```cpp
 // C function showing how to do time delay
 #include <stdio.h>
 // To use time library of C

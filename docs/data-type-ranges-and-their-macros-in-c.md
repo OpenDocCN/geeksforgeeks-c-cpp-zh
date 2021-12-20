@@ -4,7 +4,7 @@
 
 大多数情况下，在竞争性编程中，需要分配变量，即数据类型可以容纳的最大值或最小值，但是记住如此大而精确的数字是一项困难的工作。因此，C++有某些宏来表示这些数字，这样就可以直接将这些数字赋给变量，而无需实际键入整数。下面列出了其中的一些。
 
-```
+```cpp
 Data Type                              Range                      Macro for min value           Macro for max value
 char                                -128 to +127                        CHAR_MIN                      CHAR_MAX
 short char                          -128 to +127                       SCHAR_MIN                     SCHAR_MAX
@@ -26,7 +26,7 @@ double(negative)           -2.22507e-308 to -1.79769e+308               -DBL_MIN
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the macros for data types
 #include<iostream>
 #include<limits.h> // for int,char macros
@@ -61,7 +61,7 @@ return 0;
 
 输出:
 
-```
+```cpp
 char ranges from : -128 to 127
 
 short char ranges from : -128 to 127

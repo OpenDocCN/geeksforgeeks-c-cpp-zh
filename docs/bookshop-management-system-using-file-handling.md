@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate bookshop
 // management system using File Handling
 #include <fstream>

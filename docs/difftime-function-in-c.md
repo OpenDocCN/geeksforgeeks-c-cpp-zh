@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 double difftime(time_t end, time_t start);
 ```
 
@@ -19,7 +19,7 @@ double difftime(time_t end, time_t start);
 
 **例:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of difftime() function.
 
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Total time required = 2 seconds
 
 ```

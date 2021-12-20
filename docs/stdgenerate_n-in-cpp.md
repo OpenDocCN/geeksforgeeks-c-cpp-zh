@@ -8,7 +8,7 @@
 现在，可以有一个场景，我们希望只给前 n 个元素赋值，为此我们有另一个 STL 算法 **std::generate_n** ，其语法如下:
 **模板函数:**
 
-```
+```cpp
 OutputIterator generate_n (OutputIterator first, Size n, Generator gen);
 
 first: Output iterator pointing to the beginning of the container.
@@ -22,7 +22,7 @@ whose value has been generated.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::generate_n
 #include <iostream>
 #include <vector>
@@ -56,7 +56,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10
 
 ```

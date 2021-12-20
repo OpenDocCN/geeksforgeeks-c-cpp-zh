@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 advance(InputIterator& it, Distance N)
 ```
 
@@ -18,7 +18,7 @@ advance(InputIterator& it, Distance N)
 
 ## c++
 
-```
+```cpp
 // C++ program to access  Kth element
 // of the list using advanced
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 20
 
 ```

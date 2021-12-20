@@ -10,7 +10,7 @@
 
 函数的一般形式是:
 
-```
+```cpp
 return_type function_name([ arg1_type arg1_name, ... ]) { code }  
 ```
 
@@ -19,7 +19,7 @@ return_type function_name([ arg1_type arg1_name, ... ]) { code }  
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // An example function that takes two parameters 'x' and 'y'

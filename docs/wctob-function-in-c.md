@@ -6,7 +6,7 @@ C++中的 wctob()函数有助于将宽字符 *wc* 转换为单字节，如果其
 
 **语法:**
 
-```
+```cpp
 int wctob (wint_t wc);
 
 ```
@@ -21,7 +21,7 @@ int wctob (wint_t wc);
 
     **程序 1:**
 
-    ```
+    ```cpp
     // Program illustrating
     // wctob() function
     #include <bits/stdc++.h>
@@ -55,14 +55,14 @@ int wctob (wint_t wc);
 
     **Output:**
 
-    ```
+    ```cpp
     wc has 9 characters to be translatedto single-byte characters.
 
     ```
 
     **程序 2 :**
 
-    ```
+    ```cpp
     // C++ program illustrating the wctob() function
     #include <bits/stdc++.h>
 
@@ -95,7 +95,7 @@ int wctob (wint_t wc);
 
     **Output:**
 
-    ```
+    ```cpp
     In Thai UTF-8 locale:
     0x61 translated to 0x61
     0x3f translated to 0x3f

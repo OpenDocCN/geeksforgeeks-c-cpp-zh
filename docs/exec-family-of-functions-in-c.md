@@ -6,7 +6,7 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
 *   **execvp** : Using this command, the created child process does not have to run the same program as the parent process does. The **exec** type system calls allow a process to run any program files, which include a binary executable or a shell script . **Syntax:**
 
-    ```
+    ```cpp
     int execvp (const char *file, char *const argv[]);
     ```
 
@@ -15,7 +15,7 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     让我们看一个小例子来展示如何在 c 语言中使用 execvp()函数。c 文件， **EXEC.c** 和 **execDemo.c** 我们将通过调用 execDemo.c 中的 execvp()函数，用 EXEC.c 替换 execDemo.c。
 
-    ```
+    ```cpp
     //EXEC.c
 
     #include<stdio.h>
@@ -34,11 +34,11 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     现在，使用命令创建一个 EXEC.c 的可执行文件
 
-    ```
+    ```cpp
     gcc EXEC.c -o EXEC
     ```
 
-    ```
+    ```cpp
     //execDemo.c
 
     #include<stdio.h>
@@ -62,13 +62,13 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     现在，使用命令创建一个 execDemo.c 的可执行文件
 
-    ```
+    ```cpp
     gcc execDemo.c -o execDemo
     ```
 
     使用命令运行 execDemo.cby 的可执行文件后。/excDemo，我们得到以下输出:
 
-    ```
+    ```cpp
     I AM EXEC.c called by execvp()
 
     ```
@@ -77,7 +77,7 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
 *   **execv** : This is very similar to execvp() function in terms of syntax as well. The syntax of **execv()** is as shown below:**Syntax:**
 
-    ```
+    ```cpp
     int execv(const char *path, char *const argv[]);
     ```
 
@@ -86,7 +86,7 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     让我们看一个小例子，展示如何在 c 语言中使用 execv()函数。我们将有两个。c 文件， **EXEC.c** 和 **execDemo.c** 我们将通过调用 execDemo.c 中的 execv()函数，用 EXEC.c 替换 execDemo.c。
 
-    ```
+    ```cpp
     //EXEC.c
 
     #include<stdio.h>
@@ -104,11 +104,11 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     现在，使用命令创建一个 EXEC.c 的可执行文件
 
-    ```
+    ```cpp
     gcc EXEC.c -o EXEC
     ```
 
-    ```
+    ```cpp
     //execDemo.c
 
     #include<stdio.h>
@@ -132,20 +132,20 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 
     现在，使用命令创建一个 execDemo.c 的可执行文件
 
-    ```
+    ```cpp
     gcc execDemo.c -o execDemo
     ```
 
     使用命令运行 execDemo.c 的可执行文件后。/excDemo，我们得到以下输出:
 
-    ```
+    ```cpp
     I AM EXEC.c called by execv()
 
     ```
 
 *   **execlp and execl** : These two also serve the same purpose but the syntax of them are a bit different which is as shown below:**Syntax:**
 
-    ```
+    ```cpp
     int execlp(const char *file, const char *arg,.../* (char  *) NULL */);
     int execl(const char *path, const char *arg,.../* (char  *) NULL */);
 
@@ -159,7 +159,7 @@ exec 系列函数用一个新进程替换当前运行的进程。它可以通过
 *   **execvpe and execle** : These two also serve the same purpose but the syntax of them are a bit different from all the above members of exec family. The synatxes of both of them are shown below :
     **Syntax:**
 
-    ```
+    ```cpp
     int execvpe(const char *file, char *const argv[],char *const envp[]);
 
     Syntax:

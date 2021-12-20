@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     iterator multiset_name.begin()
 
     ```
@@ -17,7 +17,7 @@
 
     下面的程序说明了上述功能:
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // multiset::begin() function
     #include <bits/stdc++.h>
@@ -43,7 +43,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The first element is: 10
     10 10 11 14 15
 
@@ -52,7 +52,7 @@
 2.  The **multiset::end()** is a built-in function in C++ STL which returns an iterator pointing to the position past the last element in the container.
     **Syntax:**
 
-    ```
+    ```cpp
     iterator multiset_name.end()
 
     ```
@@ -63,7 +63,7 @@
 
     下面的程序说明了上述功能:
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // multiset::end() function
     #include <bits/stdc++.h>
@@ -86,7 +86,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     10 10 11 12 12 14 15 17
 
     ```

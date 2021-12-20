@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.bucket(element);
 
 ```
@@ -21,7 +21,7 @@
 
 下面的程序说明了*无序 _ 集::桶()*功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::bucket() function
 
@@ -54,7 +54,7 @@ int main()
 
 T5】输出:
 
-```
+```cpp
 The Element 25 is present in the bucket: 3
 The Element 5 is present in the bucket: 5
 The Element 10 is present in the bucket: 10

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-program-count-number-line-file/](https://www.geeksforgeeks.org/c-program-count-number-lines-file/)
 
-```
+```cpp
 /* C Program to count the Number of Lines in a Text File  */
 #include <stdio.h>
 #define MAX_FILE_NAME 100
@@ -44,7 +44,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Enter file name: countLines.c
 The file countLines.c has 41 lines
 

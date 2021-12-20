@@ -10,7 +10,7 @@ C++中的 [cin 对象](https://www.geeksforgeeks.org/basic-input-output-c/)用�
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // cin object
 #include <iostream>

@@ -5,7 +5,7 @@
 在 C++11 中，用于返回对齐方式的运算符的**对齐方式，以指定类型的字节为单位。
 **语法:****
 
-```
+```cpp
 alignof(type)
 ```
 
@@ -19,7 +19,7 @@ alignof(type)
 
 **程序:**
 
-```
+```cpp
 // C++ program to demonstrate alignof operator
 #include <iostream>
 using namespace std;
@@ -48,7 +48,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Alignment of char: 1
 Alignment of pointer: 8
 Alignment of float: 4
@@ -60,7 +60,7 @@ Alignment of Empty class: 1
 **alignof vs sizeof:**
 **alignof**值与基本类型的 sizeof 值相同。考虑这个例子:
 
-```
+```cpp
 typedef struct { int a; double b; } S;  
 // alignof(S) == 8  
 
@@ -69,7 +69,7 @@ typedef struct { int a; double b; } S;
 上述情况下，值的**对齐是结构中最大元素的对齐要求。
 **演示 alignof 和 sizeof 区别的示例程序:****
 
-```
+```cpp
 // C++ program to demonstrate
 // alignof vs sizeof operator
 #include <iostream>
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 alignment of Geeks : 4
 sizeof of Geeks : 12
 alignment of int : 4

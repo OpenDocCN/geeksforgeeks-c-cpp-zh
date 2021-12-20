@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.max_size()
 
 ```
@@ -17,7 +17,7 @@ multimap_name.max_size()
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // multimap::max_size()
 #include <bits/stdc++.h>
@@ -37,7 +37,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The max size of mp1 is 461168601842738790
 The max size of mp2 is 461168601842738790
 

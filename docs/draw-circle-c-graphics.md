@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 circle(x, y, radius);
 
 where,
@@ -17,7 +17,7 @@ where,
 
 **示例:**
 
-```
+```cpp
 Input : x = 250, y = 200, radius = 50
 Output : 
 
@@ -28,7 +28,7 @@ Output :
 
 下面是用 C 画圆的实现:
 
-```
+```cpp
 // C Implementation for drawing circle
 #include <graphics.h>
 

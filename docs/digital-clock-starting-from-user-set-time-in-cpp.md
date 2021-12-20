@@ -24,7 +24,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate the digital
 // clock starting from the entered time
 

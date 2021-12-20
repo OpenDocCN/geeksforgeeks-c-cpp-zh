@@ -17,7 +17,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C program to execute zombie and
 // orphan process in a single program
 #include <stdio.h>

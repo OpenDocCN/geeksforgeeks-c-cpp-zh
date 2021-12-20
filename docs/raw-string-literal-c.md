@@ -6,7 +6,7 @@
 
 **原始字符串文字的语法:**
 
-```
+```cpp
 R "delimiter( raw_characters )delimiter"
 ```
 
@@ -16,13 +16,13 @@ R "delimiter( raw_characters )delimiter"
 
 **普通字符串**
 
-```
+```cpp
 "\\\\n"
 ```
 
 **原始字符串文字**
 
-```
+```cpp
 R"(\\n)"
 ```
 
@@ -30,7 +30,7 @@ R"(\\n)"
 
 T3】CPPT5
 
-```
+```cpp
 // C++ program to demonstrate working of raw string literal
 #include <iostream>
 using namespace std;

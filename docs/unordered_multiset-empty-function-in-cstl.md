@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.empty()
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.empty()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::empty() function
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 14 11 11 11 12 13 13 
 Container is empty
 
@@ -67,7 +67,7 @@ Container is empty
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::empty() function
 #include <bits/stdc++.h>
@@ -108,7 +108,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: a a b c d d d 
 Container is empty
 

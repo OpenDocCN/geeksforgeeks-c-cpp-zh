@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```cpp
 // C program to demonstrate that the
 // expressions written in sizeof() are
 // never executed
@@ -28,7 +28,7 @@ int main(){
 }
 ```
 
-```
+```cpp
 Output:
 4
 
@@ -36,7 +36,7 @@ Output:
 
 即使我们在 sizeof()中指定了一个值，这些更改也不会得到反映。
 
-```
+```cpp
 // One more C program to demonstrate that 
 // the expressions written in sizeof() are
 // never executed
@@ -50,7 +50,7 @@ int main() {
 }
 ```
 
-```
+```cpp
 Output:
 a = 5, b = 4
 

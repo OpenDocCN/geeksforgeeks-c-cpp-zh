@@ -4,7 +4,7 @@
 
 预测产量
 
-```
+```cpp
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -36,7 +36,7 @@ int main()
 
 我们可以使用取消引用操作符*来更改字符串指针。例如，下面的程序打印“电子测验”
 
-```
+```cpp
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

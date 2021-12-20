@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <typeinfo>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_cast;
 
 ```
@@ -26,7 +26,7 @@ class bad_cast;
 
 **节目 1:**
 
-```
+```cpp
 // C++ code for std::bad_cast
 #include <bits/stdc++.h>
 #include <typeinfo>
@@ -65,14 +65,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_cast caught: std::bad_cast
 
 ```
 
 **节目 2:**
 
-```
+```cpp
 // C++ code for std::bad_cast
 #include <bits/stdc++.h>
 #include <typeinfo>
@@ -112,7 +112,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_cast caught: std::bad_cast
 
 ```

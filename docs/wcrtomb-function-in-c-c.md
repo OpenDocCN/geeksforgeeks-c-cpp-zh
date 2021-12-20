@@ -6,7 +6,7 @@ C/C++中的 **wcrtomb()** 函数将宽字符转换为窄多字节表示。宽字
 
 **语法:**
 
-```
+```cpp
 size_t wcrtomb( char* s, wchar_t wc, mbstate_t* ps )
 ```
 
@@ -24,7 +24,7 @@ size_t wcrtomb( char* s, wchar_t wc, mbstate_t* ps )
 以下程序说明了上述功能:
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // wcrtomb() function
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of z is 1 bytes
 Size of Ã? is 2 bytes
 Size of æ°´ is 3 bytes
@@ -70,7 +70,7 @@ Size of ð?? is 4 bytes
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // wcrtomb() function
 #include <bits/stdc++.h>
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of u    Ì_e is 1 bytes
 Size of Ã?Ì_e is 2 bytes
 Size of ÃµÌ_e is 2 bytes

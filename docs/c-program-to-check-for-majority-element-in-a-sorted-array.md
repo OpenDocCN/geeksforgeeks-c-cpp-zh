@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: arr[] = {1, 2, 3, 3, 3, 3, 10}, x = 3
 Output: True (x appears more than n/2 times in the given array)
 
@@ -23,7 +23,7 @@ Output: True (x appears more than n/2 times in the given array)
 
 ## C
 
-```
+```cpp
 /* C Program to check for majority element in a sorted array */
 # include <stdio.h>
 # include <stdbool.h>
@@ -65,7 +65,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4 appears more than 3 times in arr[]
 ```
 
@@ -76,7 +76,7 @@ int main()
 
 ## C
 
-```
+```cpp
 /* C Program to check for majority element in a sorted array */
 # include <stdio.h>
 # include <stdbool.h>
@@ -146,7 +146,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 3 appears more than 3 times in arr[]
 ```
 
@@ -159,7 +159,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdbool.h> 
 
@@ -189,7 +189,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 3 appears more than 3 times in arr[]
 ```
 

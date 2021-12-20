@@ -33,7 +33,7 @@
 
 **语法:**
 
-```
+```cpp
 register string s = "Register on GfG"
 ```
 
@@ -45,7 +45,7 @@ register string s = "Register on GfG"
 
 ****例:****
 
-```
+```cpp
 unique_ptr<T> p1 (new T);
 unique_ptr<T> p2 = p1; 
 // Error: can't copy unique_ptr
@@ -55,7 +55,7 @@ unique_ptr<T> p2 = p1;
 
 ****例:****
 
-```
+```cpp
 ??- produces ~ 
 ??= produces #
 ??/ produces \
@@ -75,13 +75,13 @@ unique_ptr<T> p2 = p1;
 
 ****语法:****
 
-```
+```cpp
 throw(typeid, typeid, ...)
 ```
 
 ****例:****
 
-```
+```cpp
 void throwsInt(int x) throw(int) 
 {  
     cout<<"throw function replaced with noexcept :)";  

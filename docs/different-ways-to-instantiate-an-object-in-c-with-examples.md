@@ -28,7 +28,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -96,7 +96,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -172,7 +172,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

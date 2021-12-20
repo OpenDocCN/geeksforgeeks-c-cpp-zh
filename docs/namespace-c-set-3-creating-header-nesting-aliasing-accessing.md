@@ -11,7 +11,7 @@ In C++, there are two ways of accessing namespace variables and functions.
 
 1.  **Normal way**
 
-    ```
+    ```cpp
     // C++ program to demonstrate accessing of variables
     // in normal way, i.e., using "::"
     #include <iostream>
@@ -34,14 +34,14 @@ In C++, there are two ways of accessing namespace variables and functions.
 
     输出:
 
-    ```
+    ```cpp
     300
 
     ```
 
 2.  **“using” directive**
 
-    ```
+    ```cpp
     // C++ program to demonstrate accessing of variables
     // in normal way, i.e., using "using" directive
     #include <iostream>
@@ -67,7 +67,7 @@ In C++, there are two ways of accessing namespace variables and functions.
 
     输出:
 
-    ```
+    ```cpp
     300
 
     ```
@@ -81,7 +81,7 @@ We can create namespace in one file and access contents using another program. T
 
 **文件 1**
 
-```
+```cpp
 // file1.h 
 namespace foo
 {
@@ -94,7 +94,7 @@ namespace foo
 
 **文件 2**
 
-```
+```cpp
 // file2.cpp - Not to be executed online
 #include <iostream>
 #include “file1.h” // Including file1
@@ -113,7 +113,7 @@ int main () 
 
 In C++, namespaces can also be nested i.e., one namespace inside another. The resolution of namespace variables is hierarchical.
 
-```
+```cpp
 // C++ program to demonstrate nesting of namespaces
 #include <iostream>
 using namespace std;
@@ -138,7 +138,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```
@@ -147,12 +147,12 @@ int main()
 
 In C++, you can use an alias name for your namespace name, for ease of use. Existing namespaces can be aliased with new names, with the following syntax:
 
-```
+```cpp
 namespace new_name = current_name;
 
 ```
 
-```
+```cpp
 #include <iostream>
 
 namespace name1 
@@ -177,7 +177,7 @@ int main()
 
 输出:
 
-```
+```cpp
 42
 
 ```

@@ -8,7 +8,7 @@
 
 在下面的程序中，试图修改使用 const 限定符声明的只读变量:
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -21,7 +21,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:5:9: error: assignment of read-only variable 'var'
 
@@ -34,7 +34,7 @@ prog.c:5:9: error: assignment of read-only variable 'var'
 
 下面的程序说明了这一点:
 
-```
+```cpp
 //Write C code here
 #include<stdio.h>
 #include<stdlib.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:6:16: warning: initialization discards 'const' qualifier 
 from pointer target type [-Wdiscarded-qualifiers]

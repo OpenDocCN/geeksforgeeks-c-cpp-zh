@@ -6,7 +6,7 @@
 匿名工会/结构也称为未命名工会/结构，因为它们没有名称。因为没有名字，所以不创建它们的直接对象(或变量)，我们在嵌套结构或联合中使用它们。
 定义就像没有名字和标签的正常结合。例如，
 
-```
+```cpp
 // Anonymous union example
 union 
 {
@@ -15,7 +15,7 @@ union
 };
 ```
 
-```
+```cpp
 // Anonymous structure example
 struct 
 {
@@ -29,7 +29,7 @@ struct
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate working of anonymous union
 #include <stdio.h>
 struct Scope {
@@ -57,6 +57,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 x.alpha = A, x.num = 65
 ```

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: {1, 45, 54, 71, 76, 12}
 Output: min = 1, max = 76
 
@@ -22,7 +22,7 @@ Output: min = 1, max = 76
 
 **语法:**
 
-```
+```cpp
 *min_element (first_index, last_index);
 
 *max_element (first_index, last_index);
@@ -31,7 +31,7 @@ Output: min = 1, max = 76
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to find the min and max element
 // of Vector using *min_element() in STL
 
@@ -62,7 +62,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Vector: 1 45 54 71 76 12 
 
 Min Element = 1

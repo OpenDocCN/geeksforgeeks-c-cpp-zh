@@ -14,7 +14,7 @@
 
 **例:**
 
-```
+```cpp
 Input: { 2, 1, 4, 9, 5, 3, 6, 10 }
 Output: 1, 2, 3, 4, 5, 6, 9, 10
 
@@ -24,7 +24,7 @@ Output: 1, 4, 8, 11, 19, 20, 22, 25
 
 **注意:**在基于 Linux 的系统上使用以下命令编译程序。
 
-```
+```cpp
 g++ program_name.cpp -pthread
 ```
 
@@ -32,7 +32,7 @@ g++ program_name.cpp -pthread
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program for Odd-Even Transposition sort
 // using pthreads
 
@@ -129,7 +129,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Given array is:  2 1 4 9 5 3 6 10
 Sorted array is: 1 2 3 4 5 6 9 10
 ```

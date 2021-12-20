@@ -9,7 +9,7 @@
 此函数用于将新元素插入堆栈容器，新元素被添加到堆栈顶部。
 **语法:**
 
-```
+```cpp
 ***stackname.emplace(value)***
 Parameters :
 The element to be inserted into the stack
@@ -21,7 +21,7 @@ at the top position.
 
 示例:
 
-```
+```cpp
 Input  : mystack{1, 2, 3, 4, 5};
          mystack.emplace(6);
 Output : mystack = 6, 5, 4, 3, 2, 1
@@ -31,7 +31,7 @@ Input  : mystack{};
 Output : mystack = 4
 ```
 
-```
+```cpp
 Note: In stack container, the elements are printed in reverse order because the top is printed first then moving on to other elements.
 ```
 
@@ -41,7 +41,7 @@ Note: In stack container, the elements are printed in reverse order because the 
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of emplace() function
 #include <iostream>
@@ -70,7 +70,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 6 5 4 3 2 1
 ```
 
@@ -80,7 +80,7 @@ push()函数将*值*或传递给函数的参数的**副本**插入到顶部的�
 **应用:**
 给定若干个整数，使用侵位()将它们加到栈中，不用 size 函数就能求出栈的大小。
 
-```
+```cpp
 Input : 5, 13, 0, 9, 4
 Output: 5
 ```
@@ -92,7 +92,7 @@ Output: 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of emplace() function
 #include <iostream>
@@ -121,6 +121,6 @@ int main() {
 
 输出:
 
-```
+```cpp
 5
 ```

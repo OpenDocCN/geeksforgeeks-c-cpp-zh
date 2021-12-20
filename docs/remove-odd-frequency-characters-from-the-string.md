@@ -25,7 +25,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to remove the characters
 // having odd frequencies in the string
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to remove the characters
 // having odd frequencies in the string
 import java.util.*;
@@ -144,7 +144,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to remove the characters
 # having odd frequencies in the string
 
@@ -191,7 +191,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to remove the characters
 // having odd frequencies in the string
 using System;
@@ -264,7 +264,7 @@ public static void Main(string []args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to remove the characters
@@ -324,6 +324,6 @@ public static void Main(string []args)
 
 **Output:** 
 
-```
+```cpp
 geeksgeeks
 ```

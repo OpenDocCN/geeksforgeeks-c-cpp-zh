@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the abnormal
 // behaviours of floating point value
 #include <stdio.h>
@@ -33,7 +33,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the abnormal
 // behaviours of floating point value
 #include <iostream>
@@ -55,14 +55,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 it's movie time
 
 ```
 
 **说明:**在上面的节目中，输出的是“现在是电影时间”，而不是“现在是极客时间”。因此，这里的解释是，由于 f 是一个浮点值，“0.2”是一个双精度值，因此由于两种数据类型的精度差异，可以看到这种异常行为。在语句中，如果(f==0.2)， **f 与 0.2 进行比较，因此内部是这样写的:**
 
-```
+```cpp
 **if((double)(float)(0.2) == (0.2))**
 ```
 
@@ -80,7 +80,7 @@ it's movie time
 
 **T3】CT5
 
-```
+```cpp
 // C program to illustrate the above idea
 #include <stdio.h>
 
@@ -107,7 +107,7 @@ T6
 
 T9
 
-```
+```cpp
 // C program to illustrate the above idea
 #include <iostream>
 using namespace std;
@@ -130,7 +130,7 @@ int main()
 
 T10****T12**输出:**T15】
 
-```
+```cpp
 it's geek time
 
 ```**

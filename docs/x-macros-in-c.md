@@ -9,7 +9,7 @@
 
 *   **列表元素的定义:**
 
-    ```
+    ```cpp
     #define VARIABLES \
         X(value1, 1)  \
         .
@@ -21,7 +21,7 @@
 
 *   **扩展列表以生成声明或语句的片段:**
 
-    ```
+    ```cpp
     #define X(name) int name;
         VARIABLES
     #undef X
@@ -34,7 +34,7 @@
 
 *   **Example 1:** Following Code explains the working of X-Macros:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Defines four variables.
@@ -69,7 +69,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     1) geeks
     2) for
     3) geeks
@@ -79,7 +79,7 @@
 
     在上述代码中，在宏**“变量”**中添加一个或多个变量将导致其自动声明、扫描以及打印。这个简单的例子阐明了 X 宏的工作原理和功能。扩展后，上面的代码看起来像下面的代码:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     int main(void)
@@ -104,7 +104,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     1) geeks
     2) for
     3) geeks
@@ -116,7 +116,7 @@
 
 *   **Example 2:** Following code explains the working of X-Macros with enum:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Defining a macro 
@@ -159,14 +159,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     WHITE
 
     ```
 
     在上面的代码中，从 COLORS 宏中添加或删除任何常量都会自动反映在枚举以及 toString()函数的定义中。这就是为什么 X-macro 被用来产生自我维护的代码。宏展开后，上面的代码看起来像下面的代码:
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     // Creating an enum of colors.
@@ -204,7 +204,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     WHITE
 
     ```

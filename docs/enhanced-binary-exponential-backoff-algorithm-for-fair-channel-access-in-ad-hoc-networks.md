@@ -30,7 +30,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 #include <stdlib.h>
@@ -176,7 +176,7 @@ int main()
 
 **输入文件:**
 
-```
+```cpp
 1010011000100011
 ```
 
@@ -205,7 +205,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <stdio.h>
@@ -360,7 +360,7 @@ int main()
 
 **输入文件:**
 
-```
+```cpp
 1010011000100011
 ```
 

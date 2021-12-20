@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 ***priorityqueuename.emplace(value)***
 Parameters :
 The element to be inserted into the priority
@@ -22,7 +22,7 @@ priority queue at the top position.
 
 示例:
 
-```
+```cpp
 Input  : mypqueue{5, 4};
          mypqueue.emplace(6);
 Output : mypqueue = 6, 5, 4
@@ -40,7 +40,7 @@ Output : mypqueue = 4
 
 ## C++
 
-```
+```cpp
 // INTEGER PRIORITY QUEUE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -72,13 +72,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 mypqueue = 6 5 4 3 2 1
 ```
 
 ## C++
 
-```
+```cpp
 // CHARACTER PRIORITY QUEUE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -110,13 +110,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 mypqueue = f d b E C A
 ```
 
 ## C++
 
-```
+```cpp
 // STRING PRIORITY QUEUE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -148,14 +148,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 mypqueue = portal is a computer science GEEKSFORGEEKS
 ```
 
 **应用:**
 给定若干整数，用侵位()将它们加到优先级队列中，求出优先级队列的大小。
 
-```
+```cpp
 Input : 5, 13, 0, 9, 4
 Output: 5
 ```
@@ -167,7 +167,7 @@ Output: 5
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of emplace() function
 #include <iostream>
@@ -201,7 +201,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 5
 ```
 
@@ -212,7 +212,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate difference between
 // emplace and insert
 #include<bits/stdc++.h>
@@ -246,7 +246,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 b 25
 a 24
 ```

@@ -6,7 +6,7 @@ C++中基于范围的 for 循环是从 C++ 11 开始添加的。它在一个范�
 
 **语法:**
 
-```
+```cpp
 for ( range_declaration : range_expression ) 
     loop_statement
 
@@ -30,7 +30,7 @@ is the body of the loop.
 
 C++实现:
 
-```
+```cpp
 // Illustration of range-for loop
 // using CPP code
 #include <iostream>
@@ -84,7 +84,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 0 1 2 3 4 5 
 0 1 2 3 4 5 
 0 1 2 3 4 5 

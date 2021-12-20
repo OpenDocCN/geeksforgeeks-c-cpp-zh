@@ -5,7 +5,7 @@
 **什么是对的向量？**
 一个[对](https://www.geeksforgeeks.org/pair-in-cpp-stl/)是一个存储相互映射的两个值的容器，一个包含多个这样的对的[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)被称为一个对向量。
 
-```
+```cpp
 // C++ program to demonstrate vector of pairs
 #include<bits/stdc++.h>
 using namespace std;
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 30
 20 60
 5 20
@@ -51,7 +51,7 @@ int main()
 **情况 1:以对的第一个元素为基础，按升序对向量元素进行排序。**
 这种类型的排序可以使用简单的“sort()”函数来实现。默认情况下，排序函数根据第一个元素对向量元素进行排序。
 
-```
+```cpp
 // C++ program to demonstrate sorting in
 // vector of pair according to 1st element
 // of pair
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The vector before applying sort operation is:
 10 30
 20 60
@@ -120,7 +120,7 @@ The vector after applying sort operation is:
 **情况 2:以对的第二个元素为基础，按升序对向量元素进行排序。**
 有时我们需要根据第二对元素对向量的元素进行排序。为此，我们修改了 sort()函数，并传递了第三个参数，即对 sort()函数中用户定义的显式函数的调用。
 
-```
+```cpp
 // C++ program to demonstrate sorting in vector
 // of pair according to 2nd element of pair
 #include<bits/stdc++.h>
@@ -179,7 +179,7 @@ int main()
 
 输出:
 
-```
+```cpp
 
 The vector before applying sort operation is:
 10 30

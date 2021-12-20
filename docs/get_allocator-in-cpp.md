@@ -5,7 +5,7 @@
 在 STL 中，容器可以动态改变大小。分配器是负责动态内存分配/解除分配的对象。get _ 分配器()用于分配内存块。它返回与容器关联的分配器对象的副本。在[矢量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)、[地图](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)、[列表](https://www.geeksforgeeks.org/list-cpp-stl/)、[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)库中定义。
 **语法:**
 
-```
+```cpp
 allocator_type get_allocator() const;
 ```
 
@@ -25,7 +25,7 @@ allocator_type get_allocator() const;
 
 **1。STD::vector::get _ 分配器()**它返回与[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)关联的分配器对象的副本。
 
-```
+```cpp
 // C++ program to show working 
 // of get_allocator function
 #include <iostream>
@@ -83,14 +83,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Array elements:  a b c d e f g h
 
 ```
 
 **2。STD::list::get _ 分配器()**它返回与[列表](https://www.geeksforgeeks.org/list-cpp-stl/)相关联的分配器对象的副本。
 
-```
+```cpp
 // C++ program to show working 
 // of get_allocator function
 #include <iostream>
@@ -148,14 +148,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Array elements:  a b c d e f g h
 
 ```
 
 **3。STD::set::get _ 分配器()**它返回与[集](https://www.geeksforgeeks.org/set-in-cpp-stl/)关联的分配器对象的副本。
 
-```
+```cpp
 // C++ program to show working 
 // of get_allocator function
 #include <iostream>
@@ -213,7 +213,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Array elements:  a b c d e f g h
 
 ```

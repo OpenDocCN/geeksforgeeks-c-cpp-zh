@@ -27,7 +27,7 @@ strlen()是 C 语言中的一个预定义函数，其定义包含在头文件“
         C 风格字符串中的 **strlen()** 可以替换为 **C++ std::strings** 。C 中的
         **sizeof()是作为 malloc()、memcpy()或 memset()等函数的参数，可以用 **C++(使用 new、std::copy()、std::fill()或构造函数)**代替。**
 
-    ```
+    ```cpp
     // C program to demonstrate difference 
     // between strlen() and sizeof()
     #include<stdio.h>
@@ -43,7 +43,7 @@ strlen()是 C 语言中的一个预定义函数，其定义包含在头文件“
 
     输出:
 
-    ```
+    ```cpp
     Length of String is 8
     Size of String is 9
 
@@ -56,7 +56,7 @@ strlen()是 C 语言中的一个预定义函数，其定义包含在头文件“
     **sizeof()** 运算符返回为传递给它的操作数分配的实际内存量。这里的操作数是一个字符数组，包含 9 个字符，包括空字符，1 个字符的大小是 1 个字节。所以，这里的总大小是 9 字节。
     **试猜以下程序的输出:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string.h>
     using namespace std;
@@ -77,7 +77,7 @@ strlen()是 C 语言中的一个预定义函数，其定义包含在头文件“
     strlen 函数寻找一个空字符，如果找不到，就会表现异常。
     输出:
 
-    ```
+    ```cpp
     sizeof(a) = 10
     strlen(a) = 9
     sizeof(b) = 9

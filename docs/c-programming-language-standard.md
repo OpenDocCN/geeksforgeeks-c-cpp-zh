@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 void main() {  }
 ```
 
@@ -19,7 +19,7 @@ void main() {  }
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -29,7 +29,7 @@ int main()
 }
 ```
 
-```
+```cpp
 2 1 3 - using g++ 4.2.1 on Linux.i686
 1 2 3 - using SunStudio C++ 5.9 on Linux.i686
 2 1 3 - using g++ 4.2.1 on SunOS.x86pc
@@ -51,7 +51,7 @@ C 标准将许多 C 构造的一些行为保留为[未定义的](http://en.wikip
 **那么以上两个例子的结论是什么呢？**
 让我们考虑第一个例子，即“void main() {}”，标准对 main()的原型说如下。
 
-```
+```cpp
 The function called at program startup is named main. The implementation 
 declares no prototype for this function. It shall be defined with a return 
 type of int and with no parameters:
@@ -66,7 +66,7 @@ or equivalent;10) or in some other implementation-defined manner.
 
 让我们谈谈第二个例子。请注意，C 标准中的以下语句列在“未指定的行为”下。
 
-```
+```cpp
 The order in which the function designator, arguments, and 
 subexpressions within the arguments are evaluated in a function 
 call (6.5.2.2). 

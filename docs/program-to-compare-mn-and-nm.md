@@ -20,7 +20,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to compare which is greater
 // m^n or n^m 
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to compare which
 // is greater m^n or n^m
 import java .io.*;
@@ -102,7 +102,7 @@ static public void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to compare
 # which is greater m^n or n^m
 import math
@@ -139,7 +139,7 @@ check(m, n);
 
 ## C#
 
-```
+```cpp
 // C# program to compare which 
 // is greater m^n or n^m
 using System;
@@ -183,7 +183,7 @@ static public void Main ()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to compare 
 // which is greater m^n or n^m
@@ -222,7 +222,7 @@ check($m, $n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // javascript program to compare which
@@ -265,6 +265,6 @@ function check( m,  n)
 
 **输出:**
 
-```
+```cpp
 m^n < n^m
 ```

@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to take unknown number
 // of integers from user.
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 To stop enter any character
 Enter Your Input 1 2 3 s
 Total number of inputs entered: 3

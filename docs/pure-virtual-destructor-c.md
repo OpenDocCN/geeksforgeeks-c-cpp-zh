@@ -6,7 +6,7 @@
 是的，有可能有纯虚析构函数。纯虚拟析构函数在标准 C++中是合法的，需要记住的最重要的一点是，如果一个类包含纯虚拟析构函数，它必须为纯虚拟析构函数提供一个函数体。你可能想知道为什么一个纯虚函数需要一个函数体。原因是析构函数(不像其他函数)实际上没有被“覆盖”，而是总是以类派生的相反顺序被调用。这意味着将首先调用派生类的析构函数，然后调用基类析构函数。如果没有提供纯虚析构函数的定义，那么在对象销毁时会调用什么函数体？因此，编译器和链接器强制纯虚拟析构函数存在函数体。
 考虑以下程序:
 
-```
+```cpp
 #include <iostream>
 class Base
 {
@@ -33,14 +33,14 @@ int main()
 
 链接器将在上述程序中产生以下错误。
 
-```
+```cpp
 test.cpp:(.text$_ZN7DerivedD1Ev[__ZN7DerivedD1Ev]+0x4c): 
 undefined reference to `Base::~Base()' 
 ```
 
 现在，如果提供了纯虚拟析构函数的定义，那么程序编译运行良好。
 
-```
+```cpp
 #include <iostream>
 class Base
 {
@@ -71,14 +71,14 @@ int main()
 
 输出:
 
-```
+```cpp
 ~Derived() is executed
 Pure virtual destructor is called
 ```
 
 需要注意的是，当一个类包含一个纯虚拟析构函数时，它就变成了抽象类。例如，试着编译下面的程序。
 
-```
+```cpp
 #include <iostream>
 class Test
 {

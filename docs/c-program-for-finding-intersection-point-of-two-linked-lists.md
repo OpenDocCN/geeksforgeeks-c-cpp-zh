@@ -30,7 +30,7 @@
 
 ## C
 
-```
+```cpp
 // C program to get intersection point
 //  of two linked list
 #include <stdio.h>
@@ -171,7 +171,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The node of intersection is 15
 ```
 
@@ -191,7 +191,7 @@ T3】辅助空间: O(1)
 **方法 5(颠倒第一个列表，做等式):**
 感谢**萨拉瓦南马尼**提供了这个方法。
 
-```
+```cpp
 1) Let X be the length of the first linked list until intersection point.
    Let Y be the length of the second linked list until the intersection point.
    Let Z be the length of the linked list from the intersection point to End of
@@ -218,7 +218,7 @@ T5】辅助空间: O(1)
 
 **方法 6(遍历两个列表，比较最后一个节点的地址):**这个方法只是检测是否有交点。(感谢纽泰萨沃的建议)
 
-```
+```cpp
 1) Traverse the list 1, store the last node address
 2) Traverse list 2, store the last node address.
 3) If nodes stored in 1 and 2 are same then they are intersecting.

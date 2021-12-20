@@ -5,7 +5,7 @@
 给定一个数组，任务是洗牌并打印整个数组。
 **例**
 
-```
+```cpp
 Input  (1, 2, 3, 4, 5, 6, 7}
 Output  {3, 1, 6, 7, 2, 4, 5}
 
@@ -20,7 +20,7 @@ STL 包含两种方法，可以用来得到一个混洗的数组。这就是 [**
 该方法使用 *g* 作为统一随机数发生器，随机重新排列范围【第一个，最后一个】内的元素。它将每个元素的值与其他随机选取的元素的值进行交换。它确定通过调用 g()拾取的元素。
 T3】模板 T5】
 
-```
+```cpp
 template 
   void shuffle (RandomAccessIterator first, 
                 RandomAccessIterator last, 
@@ -37,7 +37,7 @@ template
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to shuffle
 // the given array
 // using shuffle() method
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 30 10 20 40
 ```
 
@@ -89,7 +89,7 @@ int main()
 该函数随机重新排列范围[第一个，最后一个]中的元素。它将每个元素的值与其他随机选取的元素交换。当提供时，函数 *gen* 确定在每种情况下选择哪个元素。否则，该函数会使用一些未指定的随机性来源。
 T3】模板 T5】
 
-```
+```cpp
 template 
   void random_shuffle (RandomAccessIterator first, 
                        RandomAccessIterator last,
@@ -107,7 +107,7 @@ template
 
 ## CPP14
 
-```
+```cpp
 // C++ program to shuffle
 // the given array
 // using random_shuffle() method
@@ -147,7 +147,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 10 40 20 30
 ```
 

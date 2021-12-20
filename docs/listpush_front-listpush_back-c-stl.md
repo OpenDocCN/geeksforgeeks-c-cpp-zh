@@ -10,7 +10,7 @@ push_front()函数用于将元素从前面推入列表。在当前第一个元�
 
 **语法:**
 
-```
+```cpp
 ***listname.push_front(value)***
 Parameters :
 The value to be added in the front is 
@@ -22,7 +22,7 @@ to the front of the list named as *listname*
 
 示例:
 
-```
+```cpp
 Input : list list{1, 2, 3, 4, 5};
         list.push_front(6);
 Output : 6, 1, 2, 3, 4, 5
@@ -39,7 +39,7 @@ Output :6, 5, 4, 3, 2, 1
 
 ## c++
 
-```
+```cpp
 // CPP program to illustrate
 // push_front() function
 #include <iostream>
@@ -60,20 +60,20 @@ int main()
 
 输出:
 
-```
+```cpp
 6 1 2 3 4 5
 ```
 
 **应用程序:**使用 push_front()函数输入一个空列表，该列表包含以下数字和顺序，并对给定列表进行排序。
 
-```
+```cpp
 Input :  7, 89, 45, 6, 24, 58, 43
 Output : 6, 7, 24, 43, 45, 58, 89
 ```
 
 ## c++
 
-```
+```cpp
 // CPP program to illustrate
 // application Of push_front() function
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
  6 7 24 43 45 58 89
 ```
 
@@ -113,7 +113,7 @@ push_back()函数用于将元素从后面推入列表。新值插入到列表的
 
 **语法:**
 
-```
+```cpp
 ***listname.push_back(value)***
 Parameters :
 The value to be added in the back is 
@@ -125,7 +125,7 @@ to the back of the list named as *listname*
 
 示例:
 
-```
+```cpp
 Input : list list{1, 2, 3, 4, 5};
         list.push_back(6);
 Output :1, 2, 3, 4, 5, 6
@@ -142,7 +142,7 @@ Output :5, 4, 3, 2, 1, 0
 
 ## c++
 
-```
+```cpp
 // CPP program to illustrate
 // push_back() function
 #include <iostream>
@@ -163,20 +163,20 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 ```
 
 **应用程序:**使用 push_back()函数输入一个空列表，该列表包含以下数字和顺序，并对给定列表进行排序。
 
-```
+```cpp
 Input :  7, 89, 45, 6, 24, 58, 43
 Output : 6, 7, 24, 43, 45, 58, 89
 ```
 
 ## c++
 
-```
+```cpp
 // CPP program to illustrate
 // application Of push_back() function
 #include <iostream>
@@ -206,6 +206,6 @@ int main()
 
 输出:
 
-```
+```cpp
  6 7 24 43 45 58 89
 ```

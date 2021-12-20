@@ -8,7 +8,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate the
 // problem occurred in string
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -109,7 +109,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <string>

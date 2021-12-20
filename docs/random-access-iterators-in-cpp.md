@@ -22,7 +22,7 @@
 
     因此，如果 A 和 B 是随机访问迭代器，以下两个表达式是有效的:
 
-    ```
+    ```cpp
     A == B  // Checking for equality
     A != B  // Checking for inequality
 
@@ -30,7 +30,7 @@
 
 3.  **Dereferencing:** A random-access iterator can be **dereferenced both as a rvalue as well as a lvalue.**
 
-    ```
+    ```cpp
     // C++ program to demonstrate Random-access iterator
     #include<iostream>
     #include<vector>
@@ -60,7 +60,7 @@
 
     输出:
 
-    ```
+    ```cpp
     7 7 7 7 7
 
     ```
@@ -71,7 +71,7 @@
 
     因此，如果 A 是随机访问迭代器，下面两个表达式是有效的:
 
-    ```
+    ```cpp
     A++   // Using post increment operator
     ++A   // Using pre increment operator
 
@@ -79,7 +79,7 @@
 
 5.  **Decrementable:** Just like we can use operator ++() with Random-access iterators for incrementing them, we can also decrement them.
 
-    ```
+    ```cpp
     // C++ program to demonstrate Random-access iterator
     #include<iostream>
     #include<vector>
@@ -105,7 +105,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5 4 3 2 1
 
     ```
@@ -114,7 +114,7 @@
 
 6.  **关系运算符:**虽然双向迭代器不能与关系运算符如，=，一起使用，但是层次较高的随机访问迭代器支持所有这些关系运算符。
 
-    ```
+    ```cpp
     If A and B are Random-access iterators, then
 
     A == B     // Allowed
@@ -124,7 +124,7 @@
 
 7.  **Arithmetic Operators:** Similar to relational operators, they also can be used with arithmetic operators like +, – and so on. This means that Random-access iterators can move in both the direction, and that too randomly.
 
-    ```
+    ```cpp
     If A and B are Random-access iterators, then
 
     A + 1     // Allowed
@@ -132,7 +132,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate Random-access iterator
     #include<iostream>
     #include<vector>
@@ -169,7 +169,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Yes
     count = 5
 
@@ -179,13 +179,13 @@
 
 8.  **Use of offset dereference operator ([ ]):** Random-access iterators support offset dereference operator ([ ]), which is used for random-access.
 
-    ```
+    ```cpp
     If A is a Random-access iterator, then
     A[3]    // Allowed 
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate Random-access iterator
     #include<iostream>
     #include<vector>
@@ -207,7 +207,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1 2 3 4 5
 
     ```
@@ -220,7 +220,7 @@
 
 *   **std::random_shuffle:** As we know this algorithm is used to randomly shuffle all the elements present in a container. So, let us look at its internal working (Donot go into detail just look where random-access iterators can be used):
 
-    ```
+    ```cpp
     // Definition of std::random_shuffle()
     template 
     void random_shuffle(RandomAccessIterator first,

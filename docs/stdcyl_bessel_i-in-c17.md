@@ -26,7 +26,7 @@ C++17 (GCC 7.1)标准库`cmath`给出了计算第一类圆柱贝塞尔函数 **`
 
 **注意:**以下源代码应该只能在 C++17 及以上版本上运行。给定代码的运行样本可以在[这里](http://coliru.stacked-crooked.com/a/627e342f9efd3b51)查看。要运行不同的输入，请访问链接并单击右下角的“编辑”。
 
-```
+```cpp
 // C++17 code for bessel function
 #include <bits/stdc++.h>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The answer by function for Regular_Modified_Bessel_Function
 (0.000000000000000, 2.798465000000000) = 4.152234090041574
 ans_by_expansion till term k = 0 is 1.000000000000000

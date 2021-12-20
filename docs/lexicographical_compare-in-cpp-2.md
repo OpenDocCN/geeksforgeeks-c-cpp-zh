@@ -6,7 +6,7 @@ C++ STL 提供了许多实用程序来解决基本的常见生活问题。比较
 
 **实现 1 :** **词典编纂 _ 比较(iter1 beg1，iter1 end1，iter2 beg2，iter2 end2)**
 
-```
+```cpp
 Template:
 template 
   bool lexicographical_compare(iter1 beg1, iter1 end1, 
@@ -33,7 +33,7 @@ smaller than range2 else returns a false.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // lexicographical_compare(), implementation 1
 #include <iostream>
@@ -59,14 +59,14 @@ int main()
 
 输出:
 
-```
+```cpp
 geeksforgeeks is lexicographically less than gfg
 
 ```
 
 **实现 2 :** **词典编纂 _ 比较(iter1 beg1，iter1 end1，iter2 beg2，iter2 end2，Compare comp)**
 
-```
+```cpp
 Template:
 template 
   bool lexicographical_compare(iter1 beg1, iter1 end1, 
@@ -98,7 +98,7 @@ than range2 else returns a false.
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // lexicographical_compare(), implementation 2
 
@@ -144,7 +144,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeksforgeeks is not lexicographically less than Gfg
 geeksforgeeks is lexicographically less than Gfg( case-insensitive )
 
@@ -152,7 +152,7 @@ geeksforgeeks is lexicographically less than Gfg( case-insensitive )
 
 **可能的应用:**比较字符串一般可以用在**字典**中，我们需要按照字典顺序来放置单词。这方面的例子可以是在给定的一组词中找出在词典中排在第一位的词。
 
-```
+```cpp
 // C++ code to demonstrate the application of 
 // lexicographical_compare()
 #include<bits/stdc++.h>
@@ -186,7 +186,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The smallest string is : abacus
 
 ```

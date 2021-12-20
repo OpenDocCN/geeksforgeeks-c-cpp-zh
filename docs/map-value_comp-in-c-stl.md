@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 value_compare value_comp() const
 ```
 
@@ -20,7 +20,7 @@ value_compare value_comp() const
 
 **例 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // map::value_comp() method
 
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map contains following elements
 a = 1
 b = 2
@@ -71,7 +71,7 @@ e = 5
 
 **例 2:**
 
-```
+```cpp
 // C++ Program to illustrate
 // map::rbegin() method
 
@@ -111,7 +111,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map contains following elements
 a = A
 b = B

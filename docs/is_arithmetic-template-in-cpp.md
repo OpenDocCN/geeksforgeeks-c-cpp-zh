@@ -6,7 +6,7 @@ C++ STL 的**STD::is _ 算术模板**用于检查给定类型是否为算术。�
 
 **语法**:
 
-```
+```cpp
 template <class T> struct is_arithmetic;
 ```
 
@@ -21,7 +21,7 @@ template <class T> struct is_arithmetic;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_arithmetic template
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_arithmetic:
 GFG: false
 bool: true
@@ -62,7 +62,7 @@ short: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_arithmetic template
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_arithmetic:
 GFG: false
 int: true
@@ -110,7 +110,7 @@ long int: true
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_arithmetic template
 
@@ -146,7 +146,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_arithmetic:
 float: true
 float const: true
@@ -161,7 +161,7 @@ double *: false
 
 **程序 4** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_arithmetic template
 
@@ -189,7 +189,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_arithmetic:
 char: true
 char const: true

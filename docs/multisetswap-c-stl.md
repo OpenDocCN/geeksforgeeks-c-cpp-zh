@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *multisetname1*.swap(*multisetname2*)
 Parameters :
 The name of the multiset with which
@@ -23,7 +23,7 @@ All the elements of the 2 multiset are swapped.
 
 示例:
 
-```
+```cpp
 Input  : multiset1 = {1, 2, 3, 4}
          multiset2 = {5, 6, 7, 8}
          multiset1.swap(multiset2);
@@ -38,7 +38,7 @@ Output : multiset1 = {'w', 'x', 'y', 'z'}
 
 ```
 
-```
+```cpp
 // INTEGER MULTISET EXAMPLE
 // CPP program to illustrate
 // Implementation of swap() function
@@ -73,12 +73,12 @@ int main()
 
 输出:
 
-```
+```cpp
 multiset1 =  5 6 7 8
 multiset2 =  1 2 3 4
 ```
 
-```
+```cpp
 // STRING MULTISET EXAMPLE
 // CPP program to illustrate
 // Implementation of swap() function
@@ -111,12 +111,12 @@ int main()
 
 输出:
 
-```
+```cpp
 multiset1 =  Computer science portal
 multiset2 =  Geeksforgeeks
 ```
 
-```
+```cpp
 // CHARACTER MULTISET EXAMPLE
 // CPP program to illustrate
 // Implementation of swap() function
@@ -150,7 +150,7 @@ int main()
 
 输出:
 
-```
+```cpp
 multiset1 =  G H I
 multiset2 =  A B C
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : n = 10, c = 'a'
 Output : aaaaaaaaaa
 
@@ -22,7 +22,7 @@ output : @@@@@@
 
 下面是说明这一点的实现。
 
-```
+```cpp
 // CPP Program to print a character 
 // n times without using loop,
 // recursion or goto
@@ -53,14 +53,14 @@ int main()
 
 输出:
 
-```
+```cpp
 GGGGGG
 
 ```
 
 **另一种方法:**我们知道，每次创建一个类的对象时，都会调用该类的构造函数，我们可以利用它来打印构造函数内部的字符，并创建该类的 **N** 个对象。
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -83,7 +83,7 @@ int main(){
 
 输出:
 
-```
+```cpp
 @ @ @ @ @ @
 
 ```

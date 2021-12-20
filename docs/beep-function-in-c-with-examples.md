@@ -5,14 +5,14 @@
 C 中的**哔声功能**用来发出哔声。它会在扬声器上产生音调。这个函数是同步的，也就是说，它会等待，直到声音结束才返回到它的调用者函数。在[调试过程中](https://www.geeksforgeeks.org/software-engineering-debugging/)发现错误非常有用。
 **头文件:**
 
-```
+```cpp
 #include <windows.h>
 
 ```
 
 **语法:**
 
-```
+```cpp
 BEEP(x, y)
 
 ```
@@ -32,7 +32,7 @@ BEEP(x, y)
 
 ## C
 
-```
+```cpp
 // C program to illustrate BEEP() function
 
 #include <stdio.h>
@@ -56,7 +56,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to play song Jingle Bell
 // using the BEEP() function
 

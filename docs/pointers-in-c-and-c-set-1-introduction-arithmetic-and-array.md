@@ -4,7 +4,7 @@
 
 指针存储变量地址或存储位置。
 
-```
+```cpp
 // General syntax
 datatype *var_name; 
 
@@ -25,7 +25,7 @@ int *ptr;
 
 ## C
 
-```
+```cpp
 // The output of this program can be different
 // in different runs. Note that the program
 // prints address of a variable and a variable
@@ -49,7 +49,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate declaration of
 // pointer variables.
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate use of * for pointers in C++
 #include <iostream>
 using namespace std;
@@ -113,7 +113,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate use of * for pointers in C
 #include <stdio.h>
 
@@ -146,7 +146,7 @@ int main()
 
 *   **输出:**
 
-```
+```cpp
 Value of Var = 10
 Address of Var = 0x7fffa057dd4
 After doing *ptr = 20, *ptr is 20
@@ -169,7 +169,7 @@ After doing *ptr = 20, *ptr is 20
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate Pointer Arithmetic
 // in C/C++
 #include <bits/stdc++.h>
@@ -197,7 +197,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:Value of *ptr = 10
 Value of ptr = 0x7ffcae30c710
 
@@ -216,7 +216,7 @@ Value of ptr = 0x7ffcae30c718
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate Array Name as Pointers in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -246,7 +246,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Elements of the array are: 5 10 15
 ```
@@ -258,7 +258,7 @@ Elements of the array are: 5 10 15
 **指针和多维数组**
 考虑二维数值数组的指针符号。考虑以下声明
 
-```
+```cpp
 int nums[2][3]  =  { {16, 18, 20}, {25, 26, 27} };
 ```
 

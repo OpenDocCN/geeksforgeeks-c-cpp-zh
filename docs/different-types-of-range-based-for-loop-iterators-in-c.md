@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 for ( range_declaration : range_expression ) 
     loop_statement
 ```
@@ -18,7 +18,7 @@ for ( range_declaration : range_expression )
 
 **语法:**
 
-```
+```cpp
 for (datatype iterator : list)
 {
   // operation are performed here 
@@ -32,7 +32,7 @@ for (datatype iterator : list)
 
 ## C++
 
-```
+```cpp
 // C++ program to implements
 // normal iterators
 
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value before modification: 101 102 103 104 
 Value after modification : 101 102 103 104
 ```
@@ -99,7 +99,7 @@ Value after modification : 101 102 103 104
 
 **语法:**
 
-```
+```cpp
 for (datatype & iterator : list)
 {
   // operation are performed here 
@@ -113,7 +113,7 @@ for (datatype & iterator : list)
 
 ## C++
 
-```
+```cpp
 // C++ program to implements
 // reference iterators
 
@@ -166,7 +166,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value before modification: 101 102 103 104 
 Value after modification : 102 103 104 105
 ```
@@ -176,7 +176,7 @@ Value after modification : 102 103 104 105
 
 **语法:**
 
-```
+```cpp
 for (const datatype iterator : list)
 {
   // operation are performed here 
@@ -190,7 +190,7 @@ for (const datatype iterator : list)
 
 ## C++
 
-```
+```cpp
 // C++ program to implements
 // constant iterators
 
@@ -233,6 +233,6 @@ int main()
 
 **Output:**
 
-```
+```cpp
 101 102 103 104
 ```

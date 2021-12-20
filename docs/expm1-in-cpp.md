@@ -6,7 +6,7 @@ expm1(x)函数返回 e<sup>x</sup>–1，其中 x 为自变量，e 为数学常�
 
 **语法:**
 
-```
+```cpp
 double expm1() (double x);
 float expm1() (float x);
 long double expm1() (long double x);
@@ -32,13 +32,13 @@ long double expm1() (long double x);
 
 **示例:**
 
-```
+```cpp
 Input : expm1(5.35)
 Output : 209.608
 
 ```
 
-```
+```cpp
 Input : expm1(-5)
 Output : -0.993262
 
@@ -46,7 +46,7 @@ Output : -0.993262
 
 **#代码 1**
 
-```
+```cpp
 // CPP implementation of the 
 // above function
 #include <cmath>
@@ -67,14 +67,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 e^5.35 - 1 = 209.608
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP implementation of the 
 // above function
 #include <cmath>
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 e^-5 - 1 = -0.993262
 
 ```

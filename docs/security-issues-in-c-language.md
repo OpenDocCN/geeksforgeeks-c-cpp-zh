@@ -15,7 +15,7 @@ CWE 代码:[CWE–242](https://cwe.mitre.org/data/definitions/242.html)、[CWE�
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -59,7 +59,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -121,7 +121,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -162,7 +162,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -207,7 +207,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -247,7 +247,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -275,7 +275,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above concept
 #include <stdio.h>
@@ -308,7 +308,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -339,7 +339,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -381,7 +381,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Program to demonstrate
 // accessing array out of bounds
 #include <stdio.h>
@@ -415,7 +415,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -451,7 +451,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -494,7 +494,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>

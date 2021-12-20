@@ -6,7 +6,7 @@
 
 给定[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)和[列表](https://www.geeksforgeeks.org/list-cpp-stl/)中的一些元素，交换它们的一些元素。
 
-```
+```cpp
 // C++ program to swap subranges from different containers
 #include <algorithm>
 #include <iostream>
@@ -36,7 +36,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 50 30 20 500 
 -10 -15 -30 100 50
 
@@ -44,7 +44,7 @@ int main()
 
 我们也可以在两个向量中交换范围。
 
-```
+```cpp
 // C++ program to swap subranges from different containers
 #include <algorithm>
 #include <iostream>
@@ -73,7 +73,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 50 30 20 500 
 -10 -15 -30 100 50
 

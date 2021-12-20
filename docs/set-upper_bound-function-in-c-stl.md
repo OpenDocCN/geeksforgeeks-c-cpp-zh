@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set_name.upper_bound(key)
 ```
 
@@ -16,7 +16,7 @@ set_name.upper_bound(key)
 
 **例 1:** 下面的程序说明了上述功能:
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::upper_bound() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The set elements are: 1 2 4 5 6 
 The upper bound of key 2 is 4
 The upper bound of key 3 is 4
@@ -64,7 +64,7 @@ The upper bound of key 3 is 4
 
 **示例 2:** 下面是一个更好的代码，它还检查给定的元素是否大于或等于最大值。
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::upper_bound() function
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The given key is greater than or equal to the largest element 
 The immediate greater element is 4
 

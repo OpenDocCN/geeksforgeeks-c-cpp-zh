@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 key_compare multimap_name.key_comp();
 ```
 
@@ -18,7 +18,7 @@ key_compare multimap_name.key_comp();
 
 **例 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // multimap::key_comp() function
 
@@ -65,7 +65,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Multimap has the elements
 a => 10
 b => 20
@@ -76,7 +76,7 @@ d => 40
 
 **例 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // multimap::key_comp() function
 
@@ -123,7 +123,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Multimap has the elements
 a => 100
 b => 200

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     list_name.crbegin()
     ```
 
@@ -16,7 +16,7 @@
 
     下面的程序说明了上面的功能:
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // list::crbegin() function
     #include <bits/stdc++.h>
@@ -40,7 +40,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The last element is: 50
     List: 50 40 30 20 10
 
@@ -50,7 +50,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     list_name.crend()
 
     ```
@@ -61,7 +61,7 @@
 
     下面的程序说明了上面的功能:
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // list::crend() function
     #include <bits/stdc++.h>
@@ -83,7 +83,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     List: 
     2 3 4 5 6 7
 

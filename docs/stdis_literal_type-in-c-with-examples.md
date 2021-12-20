@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板:**
 
-```
+```cpp
 template< class T >
 struct is_literal_type;
 
@@ -21,7 +21,7 @@ struct is_literal_type;
 
 **语法:**
 
-```
+```cpp
 std::is_literal_type::value
 
 ```
@@ -37,7 +37,7 @@ std::is_literal_type::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_literal_type
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 class X: true
 class Y: false

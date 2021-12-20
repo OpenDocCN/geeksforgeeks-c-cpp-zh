@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : mat = {{0, 4, 0, -3},
                {1, 1, 5, 2},
                {1, -2, 0, 6},
@@ -27,7 +27,7 @@ Output: 30
 
 ## C++
 
-```
+```cpp
 // CPP program for finding determinant matrix
 // with parallelizing the code
 #include <iostream>

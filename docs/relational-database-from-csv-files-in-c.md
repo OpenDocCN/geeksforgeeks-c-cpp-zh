@@ -36,7 +36,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <conio.h>
 #include <stdio.h>
@@ -120,7 +120,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <conio.h>
 #include <stdio.h>

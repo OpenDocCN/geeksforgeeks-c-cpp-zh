@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(unordered_multiset &ums2)
     ```
 
@@ -18,7 +18,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(unordered_multiset &&ums2)
     ```
 
@@ -28,7 +28,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     ums1.operator=(initializer list)
     ```
 
@@ -38,7 +38,7 @@
 
 以下程序说明了无序 _ 多集::运算符=。
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_multiset::operator=()
 
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 1 1 2 2 2 3 3 3 3 4 4 4 4 4 
 4 3 2 1 1 
 1 1 1 2 2 2 3 3 3 3 4 4 4 4 4

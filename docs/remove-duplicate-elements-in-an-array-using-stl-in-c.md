@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: arr[] = {2, 2, 2, 2, 2}
 Output: arr[] = {2}
 
@@ -21,7 +21,7 @@ Output: arr[] = {1, 2, 3, 4, 5}
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to remove the
 // duplicate elements from the array
 // using STL in C++
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before removing duplicates:
 4 2 3 3 2 4 
 After removing duplicates:

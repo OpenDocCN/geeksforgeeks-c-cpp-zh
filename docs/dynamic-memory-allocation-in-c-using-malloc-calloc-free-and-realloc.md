@@ -30,7 +30,7 @@ C 语言中的**【malloc】**或**【内存分配】**方法用于动态分配�
 
 **语法:**
 
-```
+```cpp
 ptr = (cast-type*) malloc(byte-size)
 For Example:
 ```
@@ -46,7 +46,7 @@ For Example:
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Enter number of elements: 5
 Memory successfully allocated using malloc.
 The elements of the array are: 1, 2, 3, 4, 5,

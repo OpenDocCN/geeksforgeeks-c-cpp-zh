@@ -21,7 +21,7 @@ unordered_multiset::erase()函数是 C++ STL 中的一个内置函数，用于�
 以下程序说明了无序 _ 多集::擦除()功能:
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::erase() function
 
@@ -67,7 +67,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 10 15 15 20 20 25 
 MultiSet size: 0
 
@@ -75,7 +75,7 @@ MultiSet size: 0
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::erase() function
 
@@ -114,7 +114,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 15 15 20 20 25
 
 ```

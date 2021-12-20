@@ -17,7 +17,7 @@
 
 **在 Ubuntu 操作系统上工作:**
 
-```
+```cpp
 gcc filename.c -lGL -lGLU -lglut -lm 
 where filename.c is the name of the file
 with which this program is saved.
@@ -28,7 +28,7 @@ with which this program is saved.
 
 ## C
 
-```
+```cpp
 // C Program to illustrate
 // OpenGL animation for revolution
 

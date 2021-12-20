@@ -5,7 +5,7 @@
 当我们创建自己的复制构造函数时，我们通过引用传递一个对象，我们通常将其作为常量引用传递。
 传递 const 引用的一个原因是，我们应该尽可能在 C++中使用 const，这样对象就不会被意外修改。这是将引用作为常量传递的一个很好的理由，但还有更多。比如预测下面 C++程序的输出。假设[复制省略](https://www.geeksforgeeks.org/copy-elision-in-c/)不是由编译器完成的。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -34,19 +34,19 @@ int main()
 
 输出:
 
-```
+```cpp
  Compiler Error in line "Test t2 = fun();" 
 ```
 
 这个程序乍一看很好，但它有编译器错误。如果我们在复制构造函数中添加 const，程序可以正常工作，也就是说，我们将复制构造函数改为如下。
 
-```
+```cpp
 Test(const Test &t) { cout << "Copy Constructor Called\n"; }
 ```
 
 或者如果我们更改行“Test T2 = fun()；”接下来的两行，程序也运行良好。
 
-```
+```cpp
 Test t2; 
 t2 = fun();
 ```

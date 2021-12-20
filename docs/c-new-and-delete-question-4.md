@@ -4,7 +4,7 @@
 
 当删除用于空指针时会发生什么？
 
-```
+```cpp
 int *ptr = NULL;
 delete ptr; 
 ```

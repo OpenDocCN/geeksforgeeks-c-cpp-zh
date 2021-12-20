@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap1.empty()
 ```
 
@@ -14,7 +14,7 @@ multimap1.empty()
 
 下图程序说明了 multimap::empty()函数:
 
-```
+```cpp
 // C++ program to demonstrate
 // std::multimap::empty
 
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 multimap is empty
 multimap is not empty
 

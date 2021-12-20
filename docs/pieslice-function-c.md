@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 void pieslice(int x, int y, int s_angle, 
                     int e_angle, int r);
 
@@ -20,7 +20,7 @@ and ending angles respectively.
 
 **示例:**
 
-```
+```cpp
 Input : x = 300, y = 300, s_angle = 0 ,
         e_angle = 120, r = 150
 Output :
@@ -33,7 +33,7 @@ Output :
 
 下面是 pieslice()函数的实现:
 
-```
+```cpp
 // C Implementation for drawing pieslice
 #include <graphics.h>
 

@@ -6,7 +6,7 @@ C++中**流操纵器**的 **showbase()** 方法用于设置指定字符串流的
 
 **语法:**
 
-```
+```cpp
 ios_base& showbase (ios_base& str)
 ```
 
@@ -18,7 +18,7 @@ ios_base& showbase (ios_base& str)
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of showbase() function
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 showbase flag: 0x32
 ```
 
@@ -52,7 +52,7 @@ showbase flag: 0x32
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of showbase() function
 
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 showbase flag: 062
 ```
 

@@ -33,7 +33,7 @@
 
 ## <u>C++</u>
 
-```
+```cpp
 // Declare this function outside
 // the main function
 void local()
@@ -55,7 +55,7 @@ void local()
 
  <u>**第三步:**从主功能调用:</u>
 
-```
+```cpp
 // Call from the main function
 local();
 ```
@@ -64,7 +64,7 @@ local();
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -103,7 +103,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -139,7 +139,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 // print function outside the
 // main function
 void print(vector<int>& vect)
@@ -158,7 +158,7 @@ void print(vector<int>& vect)
 
 <u>每当需要检查向量元素时，可以调用 print() 函数，方法是将向量作为参数传递给 print 函数。</u>
 
-```
+```cpp
 // Calling print function from main
 
 print(vect);
@@ -168,7 +168,7 @@ print(vect);
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above concept
 #include <bits/stdc++.h>
@@ -231,7 +231,7 @@ int main()
 
 <u>**Output**
 
-```
+```cpp
 vect  [ 12 14 20 22 7 ]
 Final Answer: 185
 ```</u> 
@@ -248,7 +248,7 @@ Final Answer: 185
 
 ## <u>C++</u>
 
-```
+```cpp
 // One print function works for
 // all data types.  This would work
 // even for user defined types if
@@ -265,7 +265,7 @@ void print(vector<T> vect)
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -331,7 +331,7 @@ int main()
 
 <u>**Output**</u>
 
-```
+```cpp
 vect  [ 12 14 20 22 7 ]
 vect  [ Geeks for Geeks ]
 vect  [ Geeks for Geeks is the great ]

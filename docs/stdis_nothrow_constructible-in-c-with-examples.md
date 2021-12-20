@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T, class... Args >
 struct is_nothrow_constructible;
 
@@ -21,7 +21,7 @@ struct is_nothrow_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_nothrow_constructible<T, Args..>::value
 
 ```
@@ -41,7 +41,7 @@ std::is_nothrow_constructible<T, Args..>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_constructible
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int is_nothrow_constructible? true
 X() is is_nothrow_constructible? true
 Y(X) is is_nothrow_constructible? false
@@ -99,7 +99,7 @@ Z() is is_nothrow_constructible? true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_constructible
 #include <bits/stdc++.h>
@@ -148,7 +148,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GfG is Nothrow-constructible from int? false
 GfG is Nothrow-constructible from int and float? true
 GfG is Nothrow-constructible from struct X? false

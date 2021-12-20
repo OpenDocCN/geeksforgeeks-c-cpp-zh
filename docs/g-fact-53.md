@@ -13,7 +13,7 @@
 SG = 0 的值
 s = 0 的值* 
 
-```
+```cpp
 #include<stdio.h>
 int g;  //g = 0, global objects have static storage duration
 static int gs; //gs = 0, global static objects have static storage duration

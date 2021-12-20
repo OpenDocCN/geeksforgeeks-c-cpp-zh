@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 for (initialization expr; test expr; update expr)
 {    
      // body of the loop
@@ -24,21 +24,21 @@ For 循环的各个**部分是:**
 1.  **初始化表达式:**在这个表达式中，我们必须将循环计数器初始化为某个值。
     **例:**
 
-    ```
+    ```cpp
     int i=1;
     ```
 
 2.  **条件:**在这个表达式中我们要测试条件。如果条件评估为真，那么我们将执行循环体并更新表达式。否则，我们将退出 for 循环。
     **例:**
 
-    ```
+    ```cpp
     i <= 10
     ```
 
 3.  **更新表达式**:执行循环体后，该表达式将循环变量增加/减少某个值。
     **例:**
 
-    ```
+    ```cpp
     i++;
     ```
 
@@ -61,7 +61,7 @@ For 循环的各个**部分是:**
 
 ## C
 
-```
+```cpp
 // C program to illustrate for loop
 
 #include <stdio.h>
@@ -82,7 +82,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate for loop
 
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello World
 Hello World
 Hello World
@@ -114,7 +114,7 @@ Hello World
 
 **空转示例 1:**
 
-```
+```cpp
 1\. Program starts.
 2\. i is initialized with value 1.
 3\. Condition is checked. 1 <= 0 2 3 4 5 6 yields true. 3.a) "hello world" gets printed 1st time. 3.b) updation is done. now i="2." 4\. condition checked. <="5" 4.a) 2nd 4.b) 5\. 5.a) 3rd time 5.b) 6\. 6.a) 4th 6.b) 7\. 7.a) 5th 7.b) 8\. false. 9\. flow goes outside the loop to return pre>**例 2: ** 
@@ -138,7 +138,7 @@ int main()
 
     return 0;
 }
-```
+```cpp
 
 ## C++
 
@@ -160,7 +160,7 @@ int main()
 
     return 0;
 }
-```
+```cpp
 
 **Output:**
 
@@ -171,7 +171,7 @@ int main()
 7
 9
 
-```
+```cpp
 
 **相关文章:**1.  [C 和 C++中的循环](https://www.geeksforgeeks.org/loops-in-c-and-cpp/)2.  [C/C++ while 循环示例](https://www.geeksforgeeks.org/c-c-while-loop-with-examples/)3.  [C/C++边做边循环示例](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)4.  [C、C++、Java 中 while 和 do-while 循环的区别](https://www.geeksforgeeks.org/difference-between-while-and-do-while-loop-in-c-c-java/)5.  [C、C++、Java 中 for 和 while 循环的区别](https://www.geeksforgeeks.org/difference-between-for-and-while-loop-in-c-c-java/)
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map1_name = map2_name
 ```
 
@@ -14,7 +14,7 @@ map1_name = map2_name
 
 **返回值:**这个函数不返回任何东西。
 
-```
+```cpp
 // C++ program for illustration of
 // map::operator= function
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The map mp is : 
 KEY    ELEMENT
 1    40

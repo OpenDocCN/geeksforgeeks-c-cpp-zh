@@ -9,7 +9,7 @@ C/C++中的这个 **wctrans()** 在头文件**cwcytepe . h**中指定，并返�
 
 **语法:**
 
-```
+```cpp
 wctrans_t wctrans( const char* string )
 ```
 
@@ -24,7 +24,7 @@ wctrans_t wctrans( const char* string )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // towctrans() function
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial string -> GeeksForGeeks
 After transformation -> gEEKSfORgEEKS
 ```
@@ -67,7 +67,7 @@ After transformation -> gEEKSfORgEEKS
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // towctrans() function
 
@@ -101,7 +101,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial string -> gfg
 After transformation -> GFG
 ```

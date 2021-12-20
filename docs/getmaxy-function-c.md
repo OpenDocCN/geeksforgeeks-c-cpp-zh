@@ -7,14 +7,14 @@
 头文件 graphics.h 包含 **getmaxy()** 函数，该函数返回当前图形模式和驱动程序的最大 Y 坐标。
 **语法:**
 
-```
+```cpp
 int getmaxy();
 
 ```
 
 下面是 getmaxy()函数的实现:
 
-```
+```cpp
 // C Implementation for getmaxy()
 #include <graphics.h>
 #include <stdio.h>

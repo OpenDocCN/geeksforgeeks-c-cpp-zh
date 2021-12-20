@@ -18,7 +18,7 @@ STL 是 C++中一个非常强大的库。它建立在模板编程的原则之上
 
 【istream _ iterator 的类定义
 
-```
+```cpp
 namespace std {
     template < typename T, typename charT=char, 
                typename traits=char_traits <charT> >
@@ -29,14 +29,14 @@ namespace std {
 
 **语法:**
 
-```
+```cpp
 istream_iterator<T>(stream)
 T:      Template parameter for specifying type of data
 stream: The object representing the stream
 
 ```
 
-```
+```cpp
 ostream_iterator<T>(stream, delim).
 stream: The object representing the stream.
 T:      Template Parameter for data type in the stream
@@ -54,7 +54,7 @@ delim:  An optional char sequence that is used to
 
 【ostream _ iterator 的类定义
 
-```
+```cpp
 namespace std {
     template < typename T, typename charT=char, 
                typename traits=char_traits <charT> >
@@ -65,7 +65,7 @@ namespace std {
 
 **语法:**
 
-```
+```cpp
 OutputIterator copy (InputIterator first, InputIterator last, OutputIterator result);
 
 first: Input Iterator to the first element 
@@ -82,7 +82,7 @@ in the destination container to where elements will copied.
 
 **示例:**
 
-```
+```cpp
 istream_iterator cin_it(cin) is an iterator for the stream cin.
 ostream_iterator cout_it(cout, " ") is an iterator for the stream cout.
 ostream_iterator cout_it(cout) is an iterator for stream cout, with no delimeter.
@@ -100,7 +100,7 @@ ostream_iterator cout_it(cout) is an iterator for stream cout, with no delimeter
 
 **例 1**
 
-```
+```cpp
 // Cpp program to illustrate
 // Read a bunch of integers from the input stream
 // and print them to output stream
@@ -130,7 +130,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: 1 2 3 4 5 
 Output: 1 2 3 4 5
 
@@ -138,7 +138,7 @@ Output: 1 2 3 4 5
 
 **例 2**
 
-```
+```cpp
 // Cpp program to illustrate
 // Read a bunch of strings from a file
 // sort them lexicographically and print them to output stream
@@ -180,7 +180,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Contents of File "input_file.txt": quick brown fox jumps over the lazy dog
 Output: brown dog fox jumps lazy over quick the 
 
@@ -188,7 +188,7 @@ Output: brown dog fox jumps lazy over quick the
 
 **例 3:**
 
-```
+```cpp
 // Cpp program to illustrate
 
 // Read a bunch of integers from the stream
@@ -231,7 +231,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: 1 4 3 2 6 8 31 52 
 Output: 2 4 6 8 52 
 

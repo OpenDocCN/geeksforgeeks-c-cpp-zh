@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 Output :1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 ......
 
 ```
@@ -21,7 +21,7 @@ Output :1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 ......
 *   现在，检查 done 的值是否不等于 1。
 *   如果是保持等待条件锁定，则打印 n 并分别发出下一个连续 n 的信号。
 
-```
+```cpp
 // C code to print 1 2 3 infinitely using pthread
 #include <stdio.h>
 #include <pthread.h>
@@ -108,7 +108,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 1 2 3 1 2 3 1 2 3 ...
 
 ```

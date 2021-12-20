@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to detect loop in a linked list
 #include <bits/stdc++.h>
 using namespace std;
@@ -89,7 +89,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop found
 ```
 
@@ -110,7 +110,7 @@ Loop found
 
 ## C++
 
-```
+```cpp
 // C++ program to detect loop in a linked list
 #include <bits/stdc++.h>
 using namespace std;
@@ -187,7 +187,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop found
 ```
 
@@ -213,7 +213,7 @@ Loop found
 
 ## C++
 
-```
+```cpp
 // C++ program to detect loop in a linked list
 #include <bits/stdc++.h>
 using namespace std;
@@ -279,7 +279,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop found
 ```
 
@@ -301,7 +301,7 @@ https://www.youtube.com/watch?v=Aup0kOWoMVg
 
 ## C++
 
-```
+```cpp
 // C++ program to return first node of loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -388,7 +388,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop Found
 ```
 
@@ -405,7 +405,7 @@ Loop Found
 
 ## C++
 
-```
+```cpp
 // C++ program to return first node of loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -516,7 +516,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop Found
 ```
 
@@ -534,7 +534,7 @@ Loop Found
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program to return first node of loop
     #include <bits/stdc++.h>
     using namespace std;
@@ -604,7 +604,7 @@ Loop Found
 
     **Output**
 
-    ```
+    ```cpp
     1
     ```
 

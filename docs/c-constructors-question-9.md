@@ -4,7 +4,7 @@
 
 预测后续程序的输出。
 
-```
+```cpp
 #include<iostream>
 #include<stdlib.h>
 using namespace std;

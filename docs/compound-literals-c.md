@@ -4,7 +4,7 @@
 
 考虑下面 c 语言的程序。
 
-```
+```cpp
 // Please make sure that you compile this program
 // using a C compiler, not a C++ compiler (Save your
 // file .cpp). If using online compiler, select "C"
@@ -26,7 +26,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2 4 6
 ```
 
@@ -36,7 +36,7 @@ int main()
 复合文字主要用于结构，在将结构变量传递给函数时特别有用。我们可以传递一个结构对象而不定义它
 例如，考虑下面的代码。
 
-```
+```cpp
 // Please make sure that you compile this program
 // using a C compiler, not a C++ compiler (Save your
 // file .cpp). If using online compiler, select "C"
@@ -71,7 +71,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2, 3
 ```
 

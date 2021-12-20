@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the insertion sort
 #include <bits/stdc++.h>
 using namespace std;
@@ -75,7 +75,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.util.*;
 class GFG
@@ -133,7 +133,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program for the insertion sort
 
 # Function to sort an array using
@@ -178,7 +178,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 class GFG
@@ -237,7 +237,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program for the above approach
@@ -292,7 +292,7 @@ printArray(arr, N);
 
 **Output:** 
 
-```
+```cpp
 5 6 11 12 13
 ```
 
@@ -305,7 +305,7 @@ printArray(arr, N);
 
 下面是解释上述步骤的示例:
 
-```
+```cpp
 arr[] = 64 25 12 22 11
 
 // Find the minimum element in arr[0...4]
@@ -329,7 +329,7 @@ arr[] = 64 25 12 22 11
 
 ## C++
 
-```
+```cpp
 // C++ program for implementation of
 // selection sort
 #include <bits/stdc++.h>
@@ -395,7 +395,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for implementation of
 // selection sort
 import java.util.*;
@@ -459,7 +459,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program for implementation of
 # selection sort
 
@@ -508,7 +508,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program for implementation of
 // selection sort
 using System;
@@ -572,7 +572,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program for implementation of
@@ -635,7 +635,7 @@ printArray(arr, n);
 
 **Output:** 
 
-```
+```cpp
 Sorted array: 
 11 12 22 25 64
 ```

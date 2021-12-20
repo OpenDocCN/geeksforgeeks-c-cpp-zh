@@ -9,7 +9,7 @@ T5】示例:
 
 1.  The following preprocessor turns the line printf(mkstr(geeksforgeeks)); into printf(“geeksforgeeks”);
 
-    ```
+    ```cpp
     // CPP program to illustrate (#) operator
     #include <stdio.h>
     #define mkstr(s) #s
@@ -22,14 +22,14 @@ T5】示例:
 
     输出:
 
-    ```
+    ```cpp
     geeksforgeeks
 
     ```
 
 2.  In this program, value of a is replaced by macro.
 
-    ```
+    ```cpp
     // CPP program to illustrate (#) operator
     #include <iostream>
     using namespace std;
@@ -46,14 +46,14 @@ T5】示例:
 
     输出:
 
-    ```
+    ```cpp
     Value of a is 8.3297
 
     ```
 
 3.  This program finds out maximum out of two numbers using macro
 
-    ```
+    ```cpp
     // CPP program to illustrate (#) operator
     #include <iostream>
     using namespace std;
@@ -75,7 +75,7 @@ T5】示例:
 
     输出:
 
-    ```
+    ```cpp
     The maximum is 250
 
     ```
@@ -87,7 +87,7 @@ T5】示例:
 
 1.  The preprocessor transforms printf(“%d”, concat(x, y)); into printf(“%d”, xy);
 
-    ```
+    ```cpp
     // CPP program to illustrate (##) operator
     #include <stdio.h>
     #define concat(a, b) a##b
@@ -101,7 +101,7 @@ T5】示例:
 
     输出:
 
-    ```
+    ```cpp
     30
 
     ```

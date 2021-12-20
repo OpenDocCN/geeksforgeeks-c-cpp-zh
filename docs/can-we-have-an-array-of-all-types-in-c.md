@@ -8,7 +8,7 @@
 
 例如，下面的程序抛出编译器错误
 
-```
+```cpp
 int main()
 {
     void arr[100];
@@ -18,13 +18,13 @@ int main()
 
 输出:
 
-```
+```cpp
 error: declaration of 'arr' as array of voids 
 ```
 
 但是我们可以有空指针和函数指针的数组。下面的程序运行良好。
 
-```
+```cpp
 int main()
 {
     void *arr[100];

@@ -6,7 +6,7 @@ C++ STL 提供了一个函数，它从给定的范围复制元素，但顺序相
 
 示例:
 
-```
+```cpp
 Input : 1 2 3 4 5 6 7 8 9 10
 Output : The vector is: 
 10 9 8 7 6 5 4 3 2 1
@@ -15,7 +15,7 @@ Output : The vector is:
 
 该函数接受三个参数。前两个参数是要复制的元素的范围，第三个参数是以相反顺序复制元素的起点。
 
-```
+```cpp
 // C++ program to copy from array to vector
 // using reverse_copy() in STL.
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The vector is: 
 10 9 8 7 6 5 4 3 2 1
 
@@ -49,7 +49,7 @@ The vector is:
 
 下面是一个矢量到矢量复制的例子。
 
-```
+```cpp
 // C++ program to copy from array to vector
 // using reverse_copy() in STL.
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The vector is: 
 10 9 8 7 6 5 4 3 2 1
 

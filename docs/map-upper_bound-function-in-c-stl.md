@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.upper_bound(key)
 ```
 
@@ -16,7 +16,7 @@ map_name.upper_bound(key)
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ function for illustration
 // map::upper_bound() function
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The upper bound of key 11 is 12 30
 The upper bound of key 13 is 14 40
 The upper bound of key 17 is 4 0

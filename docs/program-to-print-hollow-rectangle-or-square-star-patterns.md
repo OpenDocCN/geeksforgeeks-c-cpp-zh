@@ -6,7 +6,7 @@
 
 任务打印在给定尺寸的空心图案下面。
 
-```
+```cpp
 ********************
 *                  *
 *                  *
@@ -20,13 +20,13 @@
 *   输入行数和列数。
 *   对于矩形行，运行从 1 到行的外部循环。
 
-```
+```cpp
 for (i = 1; i < = rows; i++)
 ```
 
 *   对于矩形列，运行从 1 到列的内部循环。
 
-```
+```cpp
 for (j = 1; j < = columns; j++)
 ```
 
@@ -35,7 +35,7 @@ for (j = 1; j < = columns; j++)
 
 ## C++
 
-```
+```cpp
 // C++ code for hollow rectangle
 #include <bits/stdc++.h>
 using namespace std;
@@ -73,7 +73,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C code for hollow rectangle
 #include <stdio.h>
 
@@ -106,7 +106,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA code for hollow rectangle
 import java.io.*;
 
@@ -144,7 +144,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 code for hollow rectangle
 
 # Function to print hollow rectangle
@@ -170,7 +170,7 @@ print_rectangle(rows, columns)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP code for hollow rectangle
 
@@ -205,7 +205,7 @@ function print_rectangle($n, $m)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript code for hollow rectangle
       // Function to print hollow rectangle
@@ -236,7 +236,7 @@ function print_rectangle($n, $m)
 
 输出:
 
-```
+```cpp
 ********************
 *                  *
 *                  *
@@ -247,7 +247,7 @@ function print_rectangle($n, $m)
 
 #### 空心方形星形图案:
 
-```
+```cpp
 ********
 *      *
 *      *
@@ -265,7 +265,7 @@ function print_rectangle($n, $m)
 *   对于列，从 1 到 N 的内部循环
 *   内部循环打印第一行和最后一行或第一列和最后一列的星号。哪个是印星
 
-```
+```cpp
  if i == 1 or i == N or j == 1 or j == N
 ```
 
@@ -274,7 +274,7 @@ function print_rectangle($n, $m)
 
 ## C++
 
-```
+```cpp
 // C++ code for hollow squares
 #include <bits/stdc++.h>
 using namespace std;
@@ -311,7 +311,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C code for hollow squares
 #include <stdio.h>
 
@@ -345,7 +345,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA code for hollow squares
 import java.io.*;
 
@@ -384,7 +384,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 code for hollow squares
 
 # Function to print hollow square
@@ -409,7 +409,7 @@ print_square(rows)
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-4">c#】</gfg-tab>T3
 
-```
+```cpp
  <?php
 // PHP code for hollow squares
 
@@ -445,7 +445,7 @@ T4
 
 ## C++
 
-```
+```cpp
 // C++ program to print hollow square star
 // pattern with diagonal
 #include <bits/stdc++.h>
@@ -483,7 +483,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print hollow square star
 // pattern with diagonal
 #include <stdio.h>
@@ -518,7 +518,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to print hollow square
 // star pattern with diagonal
 import java.io.*;
@@ -558,7 +558,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to print hollow
 # square star pattern with diagonal
 
@@ -584,7 +584,7 @@ print_squaredi(rows)
 
 ## C#
 
-```
+```cpp
 // C# program to print hollow square
 // star pattern with diagonal
 using System;
@@ -625,7 +625,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to print hollow square
 // star pattern with diagonal
@@ -662,7 +662,7 @@ function print_squaredi($n)
 
 输出:
 
-```
+```cpp
 ********
 **    **
 * *  * *

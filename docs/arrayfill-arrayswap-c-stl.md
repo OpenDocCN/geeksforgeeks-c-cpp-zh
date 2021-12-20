@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *arrayname*.fill(*value*)
 Parameters :
 The value to be set for all the elements of
@@ -23,7 +23,7 @@ set to be equal to the parameter passed.
 
 示例:
 
-```
+```cpp
 Input  : myarray = {1, 2, 3, 4}
          myarray.fill(5);
 Output : myarray = {5, 5, 5, 5}
@@ -39,7 +39,7 @@ Output : myarray = {2, 2, 2, 2, 2, 2, 2}
 1.如果赋值操作抛出一些错误，它就会抛出一个错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of fill() function
 #include <array>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 5 5 5
 
 ```
@@ -74,7 +74,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 *arrayname1*.swap(*arrayname2*)
 Parameters :
 The name of the array with which
@@ -86,7 +86,7 @@ All the elements of the 2 array are swapped.
 
 示例:
 
-```
+```cpp
 Input  : myarray1 = {1, 2, 3, 4}
          myarray2 = {3, 5, 7, 9}
          myarray1.swap(myarray2);
@@ -107,7 +107,7 @@ Output : myarray1 = {2, 4, 6, 8}
 2。如果数组大小不同，它将引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <array>
@@ -138,7 +138,7 @@ int main()
 
 输出:
 
-```
+```cpp
 myarray1 = 3 5 7 9 
 myarray2 = 1 2 3 4 
 

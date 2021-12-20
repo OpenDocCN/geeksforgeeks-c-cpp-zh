@@ -4,7 +4,7 @@
 
 关于以下程序，以下哪一项是正确的
 
-```
+```cpp
 #include <iostream>
 class Test
 {

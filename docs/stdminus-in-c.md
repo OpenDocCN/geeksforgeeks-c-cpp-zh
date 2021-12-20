@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template  struct minus : binary_function  
 {
   T operator() (const T& x, const T& y) const {return x-y;}
@@ -23,7 +23,7 @@ result_type : Type returned by member operator()
 
 ```
 
-```
+```cpp
 // C++ program to illustrate std::minus
 // by subtracting all array elements from a number
 #include <bits/stdc++.h>
@@ -55,13 +55,13 @@ int main()
 
 输出:
 
-```
+```cpp
 The result of 100-10-20-30 is 40
 ```
 
 **另一个例子:**
 
-```
+```cpp
 // C++ program to illustrate std::minus
 // by subtracting the respective elements of 2 arrays
 #include <iostream> // std::cout
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 90 180 270 360 450
 
 ```

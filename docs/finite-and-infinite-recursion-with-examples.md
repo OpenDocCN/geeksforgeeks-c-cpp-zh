@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demsonstrate Finite Recursion
 #include <bits/stdc++.h>
 using namespace std;
@@ -58,7 +58,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 class GFG{
 
@@ -96,7 +96,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to demsonstrate Finite Recursion
 # Recursive function
 def Geek( N):
@@ -125,7 +125,7 @@ Geek(N)
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 using System.Collections.Generic;
@@ -166,7 +166,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to demsonstrate Finite Recursion
@@ -200,7 +200,7 @@ function Geek(N)
 
 **Output**
 
-```
+```cpp
 5 4 3 2 1 
 ```
 
@@ -222,7 +222,7 @@ function Geek(N)
 
 ## C++
 
-```
+```cpp
 // C++ program to demsonstrate Infinite Recursion
 #include <bits/stdc++.h>
 using namespace std;
@@ -257,7 +257,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to demsonstrate Infinite Recursion
 import java.io.*;
 
@@ -295,7 +295,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 to demsonstrate Infinite Recursion
 
 # Recursive function
@@ -325,7 +325,7 @@ Geek(N)
 
 ## C#
 
-```
+```cpp
 // C# program to demsonstrate Infinite Recursion
 using System;
 
@@ -363,7 +363,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // JavaScript program to demsonstrate Infinite Recursion
 // Recursive function

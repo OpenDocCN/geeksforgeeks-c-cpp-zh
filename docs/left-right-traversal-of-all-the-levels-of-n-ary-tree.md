@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```cpp
 Input:
             1
           /   \
@@ -45,7 +45,7 @@ Output: 2 3 1
 
 ## C++
 
-```
+```cpp
 // C++ implementation
 // for the above approach
 #include <bits/stdc++.h>
@@ -158,7 +158,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation
 // for the above approach
 import java.util.*;
@@ -303,7 +303,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation
 # for the above approach
 from collections import deque
@@ -414,7 +414,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# implementation
 // for the above approach
 using System;
@@ -553,7 +553,7 @@ public static void Main(string[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript implementation
@@ -683,7 +683,7 @@ for(let i = 0; i < sz + 1; i++)
 
 **Output:** 
 
-```
+```cpp
 4 6 5 2 3 1
 ```
 

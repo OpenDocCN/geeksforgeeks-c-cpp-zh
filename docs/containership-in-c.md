@@ -25,7 +25,7 @@
 
 **集装箱船语法:**
 
-```
+```cpp
 // Class that is to be contained
 class first {
     .
@@ -47,7 +47,7 @@ class second {
 
 **例 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // concept of Containership
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello from first class
 
 ```
@@ -94,7 +94,7 @@ Hello from first class
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -128,7 +128,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello from first class
 Hello from second class
 
@@ -138,7 +138,7 @@ Hello from second class
 
 **例 3:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -182,7 +182,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello from first class
 num = 20
 
@@ -192,7 +192,7 @@ num = 20
 
 **例 4**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -263,7 +263,7 @@ int main()
 }
 ```
 
-```
+```cpp
 output
 Id : 1
 Salary :10000

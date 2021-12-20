@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```cpp
 #include <filename.h>
 or
 #include "filename.h"
@@ -34,7 +34,7 @@ or
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Function to find the sum of two
 // numbers passed
 int sumOfTwoNumbers(int a, int b)
@@ -47,7 +47,7 @@ int sumOfTwoNumbers(int a, int b)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find the sum of two
 // numbers using function declared in
 // header file

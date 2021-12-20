@@ -7,7 +7,7 @@
 给定两个基数和指数，pow()函数找到 x 的 y 次方，即 x <sup>y</sup> 。基本上在 C 中，指数值是用幂()函数计算的。pow()是获取一个数的幂的函数，但是我们必须在 c/c++中使用#include < math.h >才能使用那个 pow()函数。然后传递两个数字。示例–pow(4，2)；然后我们将得到 4^2 的结果，这是 16。
 **例:**
 
-```
+```cpp
 Input: 2.0, 5.0
 Output: 32
 Explanation: 
@@ -23,7 +23,7 @@ the power 2.0, which equals 25
 
 **语法:**
 
-```
+```cpp
 double pow(double x, double y);
 ```
 
@@ -36,7 +36,7 @@ double pow(double x, double y);
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // power function
 #include <math.h>
@@ -56,7 +56,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // power function
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 5882.79
 ```
 
@@ -92,7 +92,7 @@ pow()函数将“double”作为参数，并返回一个“double”值。这个
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // working with integers in
 // power function
@@ -114,7 +114,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // working with integers in
 // power function
@@ -135,7 +135,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 25
 ```
 

@@ -16,7 +16,7 @@
 
 ## 用户 1
 
-```
+```cpp
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -99,7 +99,7 @@ int main()
 
 ## 用户 2
 
-```
+```cpp
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>

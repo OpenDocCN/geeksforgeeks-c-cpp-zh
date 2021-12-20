@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 array_name.data()
 ```
 
@@ -18,7 +18,7 @@ array_name.data()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // array::data() function
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The array elements are: 1 2 3 4 5 
 The first element is:1
 
@@ -51,7 +51,7 @@ The first element is:1
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // array::data() function
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The array elements are: 1 2 3 4 5 
 The second element is: 2
 The third element is: 3

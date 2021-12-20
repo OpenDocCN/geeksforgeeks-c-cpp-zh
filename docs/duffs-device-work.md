@@ -13,7 +13,7 @@ Duff 的设备是一个技巧，不用额外的代码来处理剩余的部分循
 
 **例**
 
-```
+```cpp
 // C program to illustrate the working of
 // Duff's Device. The program copies given
 // number of elements bool array src[] to
@@ -86,7 +86,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1    1
 0    0
 1    1
@@ -121,7 +121,7 @@ int main()
 
 **第一遍:**
 
-```
+```cpp
 rounds = count / 8;
 
 // rounds = 2 for count =20
@@ -168,7 +168,7 @@ case 0:
 
 **第二遍:**
 
-```
+```cpp
 rounds = count / 8;
 i = 0;
 switch(count % 8)
@@ -209,7 +209,7 @@ case 0:
 
 **第三关:** 
 
-```
+```cpp
 rounds = count / 8;
 i = 0;
 switch(count % 8)

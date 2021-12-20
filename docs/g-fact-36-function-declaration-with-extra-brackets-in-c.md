@@ -4,7 +4,7 @@
 
 考虑下面的 C 程序。程序在函数名周围有额外的括号。
 
-```
+```cpp
 // C program to show that extra brackets with function
 // name work
 #include <stdio.h>
@@ -23,7 +23,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Function 4
 ```
 
@@ -32,7 +32,7 @@ Function 4
 **它有什么用？**
 一个用法可能是，如果我们有一个与函数同名的宏，那么多余的括号可以避免在我们想要调用函数的地方进行宏扩展。
 
-```
+```cpp
 // C program to show that extra brackets with function
 // name can be useful if we have a macro with same name
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Function 4
 Macro : 4
 ```

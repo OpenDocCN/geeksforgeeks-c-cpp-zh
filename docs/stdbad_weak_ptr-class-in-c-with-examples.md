@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <memory>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_weak_ptr: public exception;
 
 ```
@@ -24,7 +24,7 @@ class bad_weak_ptr: public exception;
 
 **程序 1 :**
 
-```
+```cpp
 // C++ code for std::bad_weak_ptr
 
 #include <bits/stdc++.h>
@@ -54,14 +54,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_weak_ptr
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for std::bad_weak_ptr
 
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_weak_ptr
 
 ```

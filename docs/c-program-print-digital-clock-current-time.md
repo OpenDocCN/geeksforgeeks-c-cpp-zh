@@ -13,7 +13,7 @@
 
 ## C
 
-```
+```cpp
 // C implementation of digital clock
 #include <stdio.h>
 #include <time.h>
@@ -49,7 +49,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print digital
 // clock using graphics
 #include <graphics.h>

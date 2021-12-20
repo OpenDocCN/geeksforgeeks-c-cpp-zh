@@ -27,7 +27,7 @@ C/C++中的 **wmemchr()** 函数在宽字符块中定位字符。该函数在由
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wmemchr() function
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 'o' is present in first 8 characters of "GeeksForGeeks"
 ```
 
@@ -66,7 +66,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wmemchr() function
 
@@ -97,6 +97,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 'p' is not present in first 3 characters of "GFG"
 ```

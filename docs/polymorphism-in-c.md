@@ -16,7 +16,7 @@
 *   **[Function Overloading](https://www.geeksforgeeks.org/function-overloading-c/)**: When there are multiple functions with same name but different parameters then these functions are said to be **overloaded**. Functions can be overloaded by **change in number of arguments** or/and **change in type of arguments**.
     [Rules of Function Overloading](https://www.geeksforgeeks.org/function-overloading-in-c/)
 
-    ```
+    ```cpp
     // C++ program for function overloading
     #include <bits/stdc++.h>
 
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     value of x is 7
     value of x is 9.132
     value of x and y is 85, 64
@@ -75,7 +75,7 @@
 *   **[Operator Overloading](https://www.geeksforgeeks.org/operator-overloading-c/)**: C++ also provide option to overload operators. For example, we can make the operator (‘+’) for string class to concatenate two strings. We know that this is the addition operator whose task is to add two operands. So a single operator ‘+’ when placed between integer operands , adds them and when placed between string operands, concatenates them.
     **Example**:
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // Operator Overloading
     #include<iostream>
@@ -108,7 +108,7 @@
 
     输出:
 
-    ```
+    ```cpp
     12 + i9
 
     ```
@@ -118,7 +118,7 @@
 *   **[Runtime polymorphism](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/)**: This type of polymorphism is achieved by Function Overriding.
     *   **[Function overriding](https://www.geeksforgeeks.org/override-keyword-c/)** on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be **overridden**.
 
-        ```
+        ```cpp
         // C++ program for function overriding
 
         #include <bits/stdc++.h>
@@ -163,7 +163,7 @@
 
         输出:
 
-        ```
+        ```cpp
         print derived class
         show base class
 

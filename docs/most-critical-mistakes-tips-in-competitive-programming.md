@@ -8,7 +8,7 @@
 
 所以溢出的概念在竞争性编码中随处可见，最糟糕的问题是不理解它，写了一个完全完美的代码，但仍然得到错误的答案，这是因为，在更高的输入范围，编译器根据数据大小剥离结果，因此记住数据类型的基本范围是很重要的。
 
-```
+```cpp
 Int => [-109 To 109]
 Long Int / long => [-1012,1012]
 Long Long Int / long long => [-1018,10^18]
@@ -18,7 +18,7 @@ Long Long Int / long long => [-1018,10^18]
 
 ## C++
 
-```
+```cpp
 // C++ Program, to Illustrate General Tips In Competitive
 // Programming
 
@@ -94,7 +94,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1410065408 1410065408
 An example of overflow -2147483648
 ```
@@ -121,7 +121,7 @@ An example of overflow -2147483648
 
 ## C++
 
-```
+```cpp
 // C++ Program to Illustrate STL Algorithms Tips
 
 // Importing all C++ libraries
@@ -200,7 +200,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Min element: 0
 Max Element: 17
 The sum of all elements: 78

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 list_name.size();
 
 ```
@@ -17,7 +17,7 @@ list_name.size();
 
 下面程序举例说明了 C++ STL 中的 list::size()函数:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::size() function
 #include <bits/stdc++.h>

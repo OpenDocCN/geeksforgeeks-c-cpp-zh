@@ -11,7 +11,7 @@
 
 1.  **创建 myhead.h :** 写下面的代码，然后将文件保存为 **myhead.h** 或者你可以给任何名字，但扩展名应该是。h 表示它是一个头文件。
 
-    ```
+    ```cpp
     // It is not recommended to put function definitions 
     // in a header file. Ideally there should be only
     // function declarations. Purpose of this code is
@@ -29,7 +29,7 @@
 2.  **包括。其他程序中的 h 文件:**现在因为我们需要包含 stdio.h 作为#include 以便使用 printf()函数。我们还需要将上面的头文件 myhead.h 作为**#包括“my head . h”**。此处的“”用于指示[预处理器](https://www.geeksforgeeks.org/cc-preprocessors/)查找当前文件夹，如果在当前文件夹中没有找到，则查找所有头文件的标准文件夹。因此，如果您希望使用尖括号而不是" "来包含您的头文件，您可以将其保存在头文件的标准文件夹中，否则。如果您正在使用“”，您需要确保您创建的头文件保存在您将使用此头文件保存 C 文件的同一文件夹中。
 3.  **Using the created header file :**
 
-    ```
+    ```cpp
     // C program to use the above created header file
     #include <stdio.h>
     #include "myhead.h"
@@ -49,7 +49,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Added value:10
     Multiplied value:25
     BYE!See you Soon

@@ -22,7 +22,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -131,7 +131,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.util.*;
 public class GFG {
@@ -241,7 +241,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function to return the frequency array
@@ -345,7 +345,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -464,7 +464,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript implementation of the approach
@@ -572,6 +572,6 @@ document.write(countMinParts(s));
 
 **Output:** 
 
-```
+```cpp
 1
 ```

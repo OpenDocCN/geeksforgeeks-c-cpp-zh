@@ -4,7 +4,7 @@
 
 将变量限制在给定范围内[高–低]。
 
-```
+```cpp
 If num > high, num is assigned high.
 If num < low, num is assigned low.
 If num is already clamped, no modifications.
@@ -14,7 +14,7 @@ If num is already clamped, no modifications.
 
 示例:
 
-```
+```cpp
 Input : num = 100, Range : 10 - 90
 Output : num = 90
 
@@ -28,7 +28,7 @@ Output : num = 50
 
 **语法:**
 
-```
+```cpp
 templateconstexpr const T& clamp( const T& num, const T& low, const T& high );
 template
 constexpr const T& clamp( const T& v, const T& lo, const T& hi, Compare comp );
@@ -49,7 +49,7 @@ Preventing size overflow.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::clamp
 #include <bits/stdc++.h>
@@ -81,11 +81,11 @@ int main()
 
 输出:
 
-```
+```cpp
 100 10 50
 ```
 
-```
+```cpp
 // CPP program to illustrate clamping
 // array elements in given range
 #include <iostream>
@@ -123,14 +123,14 @@ int main()
 
 输出:
 
-```
+```cpp
 30 30 30 40 50 60 60 60
 
 ```
 
 **带二元谓语**
 
-```
+```cpp
 // C++ program to implement std::clamp
 // with Binary Predicate
 
@@ -169,7 +169,7 @@ int main()
 
 输出:
 
-```
+```cpp
 100 10 50
 ```
 

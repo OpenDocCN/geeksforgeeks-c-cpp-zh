@@ -21,7 +21,7 @@
 
 ## C
 
-```
+```cpp
 // C program toc draw the pendulum clock
 #include <conio.h>
 #include <graphics.h>

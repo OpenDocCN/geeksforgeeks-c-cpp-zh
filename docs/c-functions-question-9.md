@@ -6,7 +6,7 @@
 
 例如，下面的函数 sum 是静态的
 
-```
+```cpp
 static int sum(int x, int y, int z)
 {
     return (x + y + z);

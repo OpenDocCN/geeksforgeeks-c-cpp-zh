@@ -25,7 +25,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate that the
 // array size is fixed
 #include <stdio.h>
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Element at index 0 is 5
 Element at index 11 is -1176897384
 
@@ -68,7 +68,7 @@ Element at index 11 is -1176897384
 
 ## **C**
 
-```
+```cpp
 // C program to illustrate the use of
 // array using Dynamic Memory Allocation
 #include <stdio.h>
@@ -107,7 +107,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 The elements are: 1 2 3 4 5 6 7 8 9 10
 
 ```** 
@@ -116,7 +116,7 @@ The elements are: 1 2 3 4 5 6 7 8 9 10
 
 ## **C**
 
-```
+```cpp
 // C++ program to illustrate that
 // the array is homogeneous
 #include <stdio.h>

@@ -6,7 +6,7 @@
 scanf()的语法是 **scanf("%d "，&a)；**。可能会遗漏一个&并将 **& a 写成一个**所以现在 **scanf("%d "，a)；**取消对未知位置的引用。
 现在，程序可能会因异常而终止，或者它可能对应于一个有效位置(与当前程序无关，但与某个其他程序相关)，并且可能会被覆盖，这可能会在以后导致未知的影响。
 
-```
+```cpp
 // A C program to demonstrate that missing
 // an & in scanf() may cause memory problems.
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main()
 
 **读取未初始化的内存。**在 C 语言中，初学者通常使用 malloc()来提供运行时内存，但是使用 malloc()时，内存块不会被初始化，可以访问。
 
-```
+```cpp
 // A C program to demonstrate that missing
 // an & may cause memory problems.
 #include <stdio.h>
@@ -43,7 +43,7 @@ int main()
 
 **缓冲区溢出:**这是 C 语言中非常常见的错误，由于 C 语言本身存在一个错误的函数，即 get()函数，该函数用于将字符串作为输入，这种错误变得更加常见。它不检查程序中用于存储字符串的内存，因此，如果用户输入更大的字符串，将会得到()并覆盖字符串后的内存位置，从而导致溢出。
 
-```
+```cpp
 void read()
 {
     char str[20];
@@ -55,7 +55,7 @@ void read()
 
 代码遭受缓冲区溢出，因为 get()没有进行任何数组绑定测试。get()继续读取，直到看到换行符。为了避免缓冲区溢出，应该使用 f gets()而不是 get()，因为 fgets()确保读取的字符不超过 MAX_LIMIT。
 
-```
+```cpp
 #define MAX_LIMIT 20
 void read()
 {
@@ -68,7 +68,7 @@ void read()
 
 **内存泄漏**当使用的堆内存没有被取消分配时，就会出现这种情况，由于这种情况，主内存最终会被填满，空闲内存会变少。
 
-```
+```cpp
 /* Function with memory leak */
 #include <stdlib.h>
 
@@ -84,7 +84,7 @@ void f()
 
 如果不再使用内存，我们应该在 malloc()之后使用 free()。
 
-```
+```cpp
 /* Function without memory leak */
 #include <stdlib.h>
 
@@ -101,7 +101,7 @@ void f()
 
 **由于优先级而导致的错误**对运算符及其优先级的理解不足会导致错误，尤其是像
 
-```
+```cpp
 // C program to demonstrate bug introduced due
 // to precedence.
 #include <stdlib.h>
@@ -120,7 +120,7 @@ int demo()
 
 **不存在变量的发送地址**局部变量的返回地址导致问题，
 
-```
+```cpp
 #include <stdlib.h>
 
 int fun()
@@ -139,7 +139,7 @@ int main()
 
 **指针算法**指针算法可能会令人困惑，让我们举个例子，假设整数是 4 字节。
 
-```
+```cpp
 int main()
 {
     int x[10] = { 0 }, i = 0, *p;
@@ -158,7 +158,7 @@ int main()
 
 虽然它看起来是正确的，因为整数是 4 字节，p 在起始位置，所以加 4 会导致 p 指向数组 n 中的下一个整数，但是指针算术是根据其数据类型的大小工作的，所以加 1 到整数指针，然后 sizeof(int)会被加到它上面，这同样适用于指向任何其他数据类型的指针。
 
-```
+```cpp
 int main()
 {
     int x[10] = { 0 }, i = 0, *p;
@@ -173,7 +173,7 @@ int main()
 
 **将数组作为参数传递**当我们将数组传递给函数时，它总是被当作函数中的指针。这就是为什么我们不应该在数组参数上使用 sizeof。我们应该始终将大小作为第二个参数。
 
-```
+```cpp
 #include <stdio.h>
 
 // arr is a pointer even if we have
@@ -200,7 +200,7 @@ int main()
 
 以下是更正后的代码
 
-```
+```cpp
 #include <stdio.h>
 
 // arr is a pointer even if we have

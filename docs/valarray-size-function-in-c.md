@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 size_t size() const;
 ```
 
@@ -18,7 +18,7 @@ size_t size() const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of size() function.
 
@@ -42,14 +42,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of valarray is: 4
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of size() function.
 
@@ -75,7 +75,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of valarray is: 7
 
 ```

@@ -6,7 +6,7 @@ C++ STL 的 **std::is_enum 模板**用于检查给定类型是否为 enum。它�
 
 **语法**:
 
-```
+```cpp
 template <class T> struct is_enum;
 ```
 
@@ -21,7 +21,7 @@ template <class T> struct is_enum;
 
 **程序 1:** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_enum template
 
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_enum:
 GFG1: false
 GFG2: true
@@ -62,7 +62,7 @@ GFG2: true
 
 **程序 2:** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_enum template
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_enum:
 GFG1: false
 GFG2: true

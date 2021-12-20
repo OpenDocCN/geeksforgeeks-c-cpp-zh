@@ -4,7 +4,7 @@
 
 在不使用任何循环和字符串的情况下，找出字符串的长度。
 
-```
+```cpp
 Enter a string: GeeksforGeeks (Say user enters GeeksforGeeks)
 Entered string is: GeeksforGeeks
 Length is: 13
@@ -16,7 +16,7 @@ Length is: 13
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -41,7 +41,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Entered String is:GeeksforGeeks
 Length is:13
 
@@ -56,7 +56,7 @@ Length is:13
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 
@@ -86,7 +86,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Give a string : 
 Entered string is:0
 1

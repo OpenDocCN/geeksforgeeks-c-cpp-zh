@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: n1 = 12, n2 = 34
 Output: 46
 
@@ -27,7 +27,7 @@ Output: 12563
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 #define M 32
 using namespace std;
@@ -103,7 +103,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to add two unsigned numbers using bits
 
 import java.util.*; // Needed for BitSet class.
@@ -207,7 +207,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function to convert given Integer
@@ -277,7 +277,7 @@ if __name__ == "__main__":
 
 **Output**
 
-```
+```cpp
 46
 
 ```

@@ -4,7 +4,7 @@
 
 数组的反转计数表示数组离排序有多远(或多近)。如果数组已经排序，则反转计数为 0。如果数组按相反顺序排序，则反转计数为最大值。
 
-```
+```cpp
     Two elements a[i] and a[j] form an inversion if 
      a[i] > a[j] and i < j. For simplicity, we may 
      assume that all elements are unique.
@@ -23,7 +23,7 @@
 
 在这篇文章中，讨论了使用 C++ STL 中的[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)实现方法 2 的简单方法。
 
-```
+```cpp
 1) Create an empty Set in C++ STL (Note that a Set in C++ STL is 
    implemented using Self-Balancing Binary Search Tree). And insert
    first element of array into the set.
@@ -41,7 +41,7 @@
 
 ```
 
-```
+```cpp
 // A STL Set based approach for inversion count 
 #include<bits/stdc++.h>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of inversions count are : 6
 ```
 

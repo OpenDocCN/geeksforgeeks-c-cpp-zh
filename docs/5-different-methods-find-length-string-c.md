@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: "Geeksforgeeks"
 Output: 13
 
@@ -72,7 +72,7 @@ int main()
 
     return 0;
 }
-```
+```cpp
 
 **Output:**
 

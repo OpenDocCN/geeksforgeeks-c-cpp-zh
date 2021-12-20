@@ -4,7 +4,7 @@
 
 在某些情况下，我们希望在派生类中将一些公共基类函数设为私有。假设基类和子类都有 getter 和 setter 方法
 
-```
+```cpp
 // CPP program to demonstrate that all base
 // class public functions become available
 // in derived class if we use public inheritance.
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i = 4 j = 2 k = 3
 
 ```
@@ -70,7 +70,7 @@ i = 4 j = 2 k = 3
 
 我们使用“使用”语法在派生类范围内重新声明基类函数。我们在派生类的私有部分中完成。
 
-```
+```cpp
 // CPP program to demonstrate that some of
 // base class public functions cane be restricted
 // in derived class if we re-declare them with 
@@ -136,7 +136,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 i = 1 j = 2 k = 3
 
 ```

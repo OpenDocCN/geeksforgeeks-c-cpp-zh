@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     forward_list_name.emplace_after(iterator position, elements)
     ```
 
@@ -19,7 +19,7 @@
 
     下面的程序说明了上述功能:
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // forward_list::emplace_after() function
     #include <forward_list>
@@ -50,7 +50,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     The elements are: 8 10 1 2 3 4 5 
     ```
 
@@ -58,7 +58,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     forward_list_name.emplace_front(elements)
     ```
 
@@ -68,7 +68,7 @@
 
     下面的程序说明了上面的功能。
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // forward_list::emplace_front() function
     #include <forward_list>
@@ -98,6 +98,6 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Elements are: 10 8 1 2 3 4 5 
     ```

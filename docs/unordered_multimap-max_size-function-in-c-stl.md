@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.max_size()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_size()
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The max number of elements that sample1 can hold: 2
 Key and Elements of Sample1 are:{50, 500} {10, 100}
 
@@ -57,7 +57,7 @@ Key and Elements of Sample1 are:{50, 500} {10, 100}
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_size()
 #include <bits/stdc++.h>
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The max number of elements that sample1 can hold: 2
 Key and Elements of Sample1 are:{g, G} {a, A}
 

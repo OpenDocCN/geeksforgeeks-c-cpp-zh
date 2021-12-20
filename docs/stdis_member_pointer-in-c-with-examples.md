@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template<class T>
 struct is_member_pointer
      : std::integral_constant < bool,
@@ -24,7 +24,7 @@ struct is_member_pointer
 
 **语法:**
 
-```
+```cpp
 std::is_member_pointer::value
 
 ```
@@ -40,7 +40,7 @@ std::is_member_pointer::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_member_pointer
 #include <bits/stdc++.h>
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GFG::* is a Member Pointer!
 int is not a Member Pointer!
 

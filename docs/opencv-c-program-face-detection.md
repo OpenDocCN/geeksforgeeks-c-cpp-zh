@@ -11,7 +11,7 @@
 
 **实施:**
 
-```
+```cpp
 // CPP program to detects face in a video
 
 // Include required header files from OpenCV directory

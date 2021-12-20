@@ -9,7 +9,7 @@
 这里，str 基本上是指向(const)字符串文字的指针。
 **语法:**
 
-```
+```cpp
 char* str = "This is GeeksForGeeks";
 ```
 
@@ -18,7 +18,7 @@ char* str = "This is GeeksForGeeks";
 1.  引用整个字符串只需要一个指针。这表明这是内存高效的。
 2.  不需要事先声明字符串的大小。
 
-```
+```cpp
 // CPP program to illustrate *char
 #include <iostream>
 using namespace std;
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is GeeksForGeeks
 GeeksForGeeks For Everyone
 ```
@@ -57,13 +57,13 @@ cons:t1]
     ，因为在 C 语言中，字符串文字是字符数组，而在 C++中
     是字符常量数组。因此在 char*前使用 **const** 关键字。
 
-    ```
+    ```cpp
     const char* str = "This is GeeksForGeeks";
     ```
 
 2.  We cannot modify the string at later stage in program. We can change str to point something else but cannot change value present at str. Refer [storage-for-strings-in-c](https://www.geeksforgeeks.org/storage-for-strings-in-c/) for more detail.
 
-    ```
+    ```cpp
     // CPP program to illustrate assigning
     // *char value to other variable 
     #include <iostream>
@@ -90,7 +90,7 @@ cons:t1]
 
     **输出:**
 
-    ```
+    ```cpp
     Segmentation Fault
     ```
 
@@ -98,7 +98,7 @@ cons:t1]
 
 **语法:**
 
-```
+```cpp
 std::string str = "This is GeeksForGeeks";
 ```
 
@@ -109,7 +109,7 @@ std::string str = "This is GeeksForGeeks";
 在 C++中独占交易时 **std:string** 是最好的选择，因为它有更好的搜索、替换和操作功能。
 下面讨论一些有用的 std:string 函数。
 
-```
+```cpp
 // CPP program to illustrate 
 // std::string functions
 #include <iostream>
@@ -168,7 +168,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5
 5
 HelloWorld
@@ -191,7 +191,7 @@ HelloGeeksForGeeks
 
 **语法:**
 
-```
+```cpp
 char str[] = "This is GeeksForGeeks";
      or 
 char str[size] = "This is GeeksForGeeks";
@@ -203,7 +203,7 @@ char str[size] = "This is GeeksForGeeks";
 
 1.  我们可以在程序的后期修改字符串。
 
-```
+```cpp
 // CPP program to illustrate char
 #include <iostream>
 using namespace std;
@@ -225,7 +225,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Hollo
 ```
 
@@ -234,7 +234,7 @@ cons:t1]
 1.  这是静态分配大小的数组，消耗堆栈中的空间。
 2.  We need to take the large size of array if we want to concatenate or manipulate with other strings since the size of string is fixed. We can use C++ standard library **cstring** or **string.h** for that purpose.
 
-    ```
+    ```cpp
     // CPP program to illustrate char
     // concatenation using standard functions
     #include <iostream>
@@ -256,7 +256,7 @@ cons:t1]
 
     输出:
 
-    ```
+    ```cpp
     Before Concatenation : Hello
     After Concatenation : Hello World
 
@@ -264,7 +264,7 @@ cons:t1]
 
 下面是 C++标准库的其他一些有用的函数。
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -316,7 +316,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5
 Hello
 HelloWorld

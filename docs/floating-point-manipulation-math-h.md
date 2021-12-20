@@ -10,7 +10,7 @@
 
 **3。remquo()** :此函数返回余数，并将余数存储在作为参数传递的变量引用中。**这个函数接受 3 个参数，分子，分母和变量的引用，其中必须存储商。**
 
-```
+```cpp
 // C++ code to demonstrate working of
 // fmod(), remainder() and remquo()
 #include <iostream>
@@ -56,7 +56,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 The remainder computed using fmod() is : 2.6
 The remainder computed using remainder() is : -0.9
 The remainder part of 9.6/3.5 is : -0.9
@@ -68,7 +68,7 @@ The quotient part of 9.6/3.5 is : 3
 
 **5。nextafter()** :该函数计算第一个参数在第二个参数方向上的下一个可表示值**。**
 
-```
+```cpp
 // C++ code to demonstrate working of
 // nextafter() and copysign()
 #include <iostream>
@@ -98,7 +98,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 The value returned after copysigning is : -9.6
 The next value approximated is : -4.94066e-324
 
@@ -112,7 +112,7 @@ The next value approximated is : -4.94066e-324
 
 ******9。fma()** :该函数取 **3 个参数**，计算后返回**乘加****x * y+z**值。****
 
-```
+```cpp
 **// C++ code to demonstrate working of
 // fmin(), fmax(), fdim(), fma()
 #include <iostream>
@@ -154,7 +154,7 @@ int main() 
 
 ****输出:****
 
-```
+```cpp
 **The largest of 2 numbers is : 2.5
 The smallest of 2 numbers is : 2
 The positive difference of 2 numbers is : 0.5

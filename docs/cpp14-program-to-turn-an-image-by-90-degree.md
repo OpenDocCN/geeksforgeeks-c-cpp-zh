@@ -8,7 +8,7 @@
 
 例如见下图，
 
-```
+```cpp
 * * * ^ * * *
 * * * | * * *
 * * * | * * *
@@ -17,7 +17,7 @@
 
 向右旋转后，它出现(观察箭头方向)
 
-```
+```cpp
 * * * *
 * * * *
 * * * *
@@ -31,7 +31,7 @@
 
 从上图中，我们可以观察到
 
-```
+```cpp
 first row of source ------> last column of destination
 second row of source ------> last but-one column of destination
 so ... on
@@ -48,7 +48,7 @@ last row of source ------> first column of destination
 
 编写我们的伪代码会很容易。在 C/C++中，我们通常按行主顺序遍历矩阵。每行被转换成最终图像的不同列。我们需要构建最终图像的列。请参见以下算法(转换)
 
-```
+```cpp
 for (r = 0; r < m; r++)
 {
    for (c = 0; c < n; c++)
@@ -64,7 +64,7 @@ for (r = 0; r < m; r++)
 
 ## C++
 
-```
+```cpp
 // C++ program to turn an 
 // image by 90 Degree 
 #include <bits/stdc++.h>
@@ -151,7 +151,7 @@ int main() 
 
 **Output :**
 
-```
+```cpp
 
 1    2    3    4    
 5    6    7    8    

@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -53,7 +53,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -95,7 +95,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 size_type size() const;
 ```
 
@@ -18,7 +18,7 @@ size_type size() const;
 
 **示例:**
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 
@@ -40,7 +40,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The container has 6 elements in it
 
 ```

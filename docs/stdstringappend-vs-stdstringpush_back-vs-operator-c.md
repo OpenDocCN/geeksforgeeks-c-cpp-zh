@@ -19,7 +19,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the
 // basis of appending Full String
 #include <iostream>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World! 
 Using += : Hello World! GeeksforGeeks
 Using append() : Hello World! GeeksforGeeks
@@ -72,7 +72,7 @@ Using append() : Hello World! GeeksforGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Appending part of string
 
@@ -106,7 +106,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : GeeksforGeeks 
 Using append() : GeeksforGeeks Hello
 ```
@@ -119,7 +119,7 @@ Using append() : GeeksforGeeks Hello
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Appending C-string
 
@@ -158,7 +158,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : World of 
 Using += : World of GeeksforGeeks
 Using append() : World of GeeksforGeeks
@@ -172,7 +172,7 @@ Using append() : World of GeeksforGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Appending character array
 
@@ -211,7 +211,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : World of 
 Using += : World of Geeks
 Using append() : World of Geeks
@@ -225,7 +225,7 @@ Using append() : World of Geeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Appending single character
 
@@ -268,7 +268,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : AB
 Using += : ABC
 Using append() : ABC
@@ -283,7 +283,7 @@ Using push_back : ABC
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Appending using iterator range
 
@@ -317,7 +317,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World! 
 Using append : Hello World! forGeeks
 ```
@@ -330,7 +330,7 @@ Using append : Hello World! forGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for comparison on the basis of
 // Return value
 
@@ -365,7 +365,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World! 
 Using append : Hello World! GeeksforGeeks
 ```

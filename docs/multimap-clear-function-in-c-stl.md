@@ -5,7 +5,7 @@
 multimap clear()函数是 C++ STL 中的一个内置函数，用于从 multimap 容器中移除所有元素(这些元素被销毁)，使容器的大小为 0。
 **语法:**
 
-```
+```cpp
 mymultimap_name.clear()
 ```
 
@@ -15,7 +15,7 @@ mymultimap_name.clear()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // multimap::clear() function
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Size of the multimap before using clear function : 3
 Size of the multimap after using clear function : 0
 ```

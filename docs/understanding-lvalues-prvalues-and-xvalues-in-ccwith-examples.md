@@ -12,7 +12,7 @@
 
 不幸的是，这种简单的方法现在成了黑暗时代顽固的纪念品。当我们有足够的勇气查阅更近的规范时，3.10 节向我们展示了以下分类:
 
-```
+```cpp
              expression
           /       \
     glvalue       rvalue
@@ -33,7 +33,7 @@ lvalue         xvalue        prvalue
 
 我们说的是表达式的语法和语义，赋值被巧妙地埋进了这类表达式的 BNF (Backus-Naur-Form)中。这就是为什么第二条建议建议忘记作业。因为规范对什么是*左值*还是很清楚的！但是，与其解读冗长的描述，不如让我们提供一些源代码示例:
 
-```
+```cpp
 // Designates an object
 int lv1;         
 
@@ -59,7 +59,7 @@ int &lv4() {
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate the concept of lvalue
 #include <iostream>
 using namespace std;
@@ -116,7 +116,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 42    Object
 42    Reference
 0x602070    Pointer (object)
@@ -141,13 +141,13 @@ int main()
 
 这在初始化器中最为明显:
 
-```
+```cpp
 int prv1                {42};   // Value
 ```
 
 然而，另一种选择是使用*左值*来初始化:
 
-```
+```cpp
 constexpr int lv1       {42};
 int prv2                {lv1};  // Lvalue
 ```
@@ -160,7 +160,7 @@ int prv2                {lv1};  // Lvalue
 
 我们可以让它更有趣:
 
-```
+```cpp
 constexpr int f1(int x} {
   return 6*x;
 }
@@ -169,7 +169,7 @@ int prv3  {f1(7)};  // Function return value 
 
 我们现在有一个函数 *f1()* ，它返回一个值。该规范确实规定了引入临时变量(*左值*)的情况，然后在需要时将其转换为*值*。假装这一切正在发生:
 
-```
+```cpp
 int prv3 {t}; // Temporary variable t created by compiler
                    // . not declared by user),
                    // - initialized to value returned 
@@ -178,7 +178,7 @@ int prv3 {t}; // Temporary variable t created by compiler
 
 对于更复杂的表达式，也有类似的解释:
 
-```
+```cpp
 int prv4 {(lv1+f1(7))/2};// Expression: temporary variable
                                     //  gets value of (lv1+f1(7))/2
 ```
@@ -193,7 +193,7 @@ int prv4 {(lv1+f1(7))/2};// Expression: temporary variable
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate glvalue
 #include <iostream>
 using namespace std;
@@ -234,7 +234,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 42 Value
 42 Expression: lvalue
 42 Expression: function return value
@@ -249,14 +249,14 @@ int main()
 **参考文献**
 故事从说明书中的 8.5.3 开始；我们需要理解，C++现在区分了两种不同的*引用*:
 
-```
+```cpp
 int&  // lvalue reference
 int&&  // rvalue reference
 ```
 
 它们的功能在语义上完全相同。然而他们是不同的类型！这意味着以下重载函数也是不同的:
 
-```
+```cpp
 int f(int&);
 int f(int&&);
 ```
@@ -269,7 +269,7 @@ int f(int&&);
 
 查看将引用绑定到*左值*的简单尝试:
 
-```
+```cpp
 int lv1         {42};
 int& lvr        {lv1};    // Allowed
 int&& rvr1      {lv1};   // Illegal
@@ -281,7 +281,7 @@ int&& rvr2      {static_cast<int&&>(lv1)};// Allowed
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -347,7 +347,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 42 Value
 42 lvalue (non-const)
 42 lvalue (const)
@@ -369,7 +369,7 @@ int main()
 
 这些情况依赖于特殊的成员函数来完成工作:
 
-```
+```cpp
 struct S {
   S(T t) : _t(t) {}  // Constructor
   S(const S &s); // Copy Constructor
@@ -387,7 +387,7 @@ s3 = s2;    // Copy assignment operator
 在结构 S 的声明中，指向 T 的指针看起来是多么无辜啊！然而，对于大型、复杂的类型 T，对 member _t 内容的管理可能会涉及到深层拷贝，并且会真正降低性能。每次 struct S 的实例遍历一个函数的参数，一些表达式，然后潜在地从一个函数返回:我们花费更多的时间复制数据，而不是有效地使用它！
 我们可以定义一些替代的特殊函数来处理这个问题。这些函数可以这样写，我们不复制信息，只是从其他对象那里窃取信息。只是我们不称之为偷窃，它涉及一个更为法律的术语:移动它。这些函数利用了不同类型的引用:
 
-```
+```cpp
 S(const S &&s); // Move Constructor
 S& operator=( S &&s); // Move Assignment Operator
 ```
@@ -395,14 +395,14 @@ S& operator=( S &&s); // Move Assignment Operator
 请注意，当实际参数为*左值*时，我们保留了原始的构造函数和运算符。
 但是，如果我们能够强制实际参数为*右值*，那么我们就可以执行这个新的构造函数或赋值运算符！将*左值*变为*右值*其实有几种方法；一种简单的方法是将*左值*静态转换为适当的类型:
 
-```
+```cpp
 S s4 {static_cast<S&&>(s3)); // Calls move constructor
 s2 = static_cast<S&&>(s4); // Calls move assignment operator 
 ```
 
 通过指示参数“可用于移动数据”，可以以更全面的方式实现同样的效果:
 
-```
+```cpp
 S s4 {std::move(s3)); // Calls move constructor
 S2 = std::move(s4); // Calls move assignment operator 
 ```
@@ -411,7 +411,7 @@ S2 = std::move(s4); // Calls move assignment operator 
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -501,7 +501,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 [ 41 | 42 | 43 ] Initializer
 Initializing instance of S
 0x1d13c30 : [ 41 | 42 | 43 ] Initialized
@@ -525,7 +525,7 @@ Move-assigning instance of S
 
 让我们看看上面例子的移动语义:
 
-```
+```cpp
   S(S &&that) // Move Constructor
   {
     cout << "Moving instance of S" << endl;

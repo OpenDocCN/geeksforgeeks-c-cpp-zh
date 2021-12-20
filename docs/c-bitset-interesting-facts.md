@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can get part of a
 // bit string in bitset.
 #include <bitset>
@@ -36,7 +36,7 @@ int main()
 
 输出:
 
-```
+```cpp
 00110010
 00000010
 00000001
@@ -46,7 +46,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 std::bitset b1(str, pos, n, zero, one);
 str    : string used to initialize the bitset
 pos    : a starting offset into str
@@ -60,7 +60,7 @@ one    : alternate characters for set bits in str
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can construct bitset using
 // alternate characters for set and unset bits.
 #include <bitset>
@@ -80,7 +80,7 @@ int main()
 
 输出:
 
-```
+```cpp
 01001101
 ```
 
@@ -88,7 +88,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <bitset>
 #include <iostream>
 
@@ -102,7 +102,7 @@ int main()
 
 输出:
 
-```
+```cpp
 00001111
 ```
 
@@ -115,7 +115,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can convert contents
 // of bitset to a string.
 #include <iostream>
@@ -132,7 +132,7 @@ int main()
 
 输出:
 
-```
+```cpp
 00101010
 **1*1*1*
 OOXOXOXO
@@ -145,7 +145,7 @@ OOXOXOXO
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can get value of bitset
 // as  unsigned long integer.
 #include <iostream>
@@ -160,6 +160,6 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```

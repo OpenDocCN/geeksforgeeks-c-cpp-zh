@@ -35,7 +35,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement the Hospital
 // Management System
 #include <bits/stdc++.h>

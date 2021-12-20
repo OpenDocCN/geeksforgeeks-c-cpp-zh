@@ -4,7 +4,7 @@
 
 以下 C++程序的输出？
 
-```
+```cpp
 #include <iostream>
 class Test
 {
@@ -38,7 +38,7 @@ int main()
 
 下面的程序现在是正确的。
 
-```
+```cpp
 #include <iostream>
 class Test
 {

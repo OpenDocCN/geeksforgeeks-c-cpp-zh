@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist_name.reverse()
 ```
 
@@ -18,7 +18,7 @@ forwardlist_name.reverse()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // reverse() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 List elements before performing reverse operation: 10 20 40 30 70 
 List elements after performing reverse operation: 70 30 40 20 10
 

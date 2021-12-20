@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to remove alternate 
 // nodes of a linked list 
 #include <bits/stdc++.h>
@@ -112,7 +112,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 List before calling deleteAlt() 
 1 2 3 4 5 
 List after calling deleteAlt() 
@@ -126,7 +126,7 @@ List after calling deleteAlt()
 
 ## C++
 
-```
+```cpp
 /* Deletes alternate nodes of a list 
    starting with head */
 void deleteAlt(Node *head) 

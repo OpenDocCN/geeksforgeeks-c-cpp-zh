@@ -4,7 +4,7 @@
 
 在 C 程序中，定义了以下变量:
 
-```
+```cpp
 float      x = 2.17;
 double   y = 2.17;
 long double z = 2.17;

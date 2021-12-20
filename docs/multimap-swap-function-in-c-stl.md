@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap1_name.swap(multimap2_name)
 ```
 
@@ -14,7 +14,7 @@ multimap1_name.swap(multimap2_name)
 
 **返回值:**函数不返回任何内容。
 
-```
+```cpp
 // C++ function for illustration
 // multimap::swap() function
 #include <bits/stdc++.h>

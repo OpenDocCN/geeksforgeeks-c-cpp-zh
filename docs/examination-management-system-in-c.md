@@ -34,7 +34,7 @@
 
     ## 添加()
 
-    ```
+    ```cpp
     // Function that adds the student's
     // record in Examination Management
     // Project
@@ -85,7 +85,7 @@
 
     ## 执行()
 
-    ```
+    ```cpp
     // Function to execute the Examination
     // Management System
     void execute()
@@ -170,7 +170,7 @@
 
     ## eligibleStudents()
 
-    ```
+    ```cpp
     // Function to print the student
     // details of the eligible students
     void eligibleStudents(struct student s[])
@@ -207,7 +207,7 @@
 
     ## 删除()
 
-    ```
+    ```cpp
     // Function to delete any Student Record
     void delete (struct student s[])
     {
@@ -243,7 +243,7 @@
 
     ## print_student()
 
-    ```
+    ```cpp
     // Function to print the students record
     void print_student(struct student s[])
     {
@@ -267,7 +267,7 @@
 
     ## 完全码
 
-    ```
+    ```cpp
     // C program for the Examination
     // Management System
     #include <stdio.h>

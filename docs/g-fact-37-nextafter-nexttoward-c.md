@@ -15,7 +15,7 @@
 
 以下程序演示了这一概念:
 
-```
+```cpp
 // C program to demonstrate use of nextafter() and nexttoward()
 #include <stdio.h>
 #include <math.h>
@@ -42,7 +42,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 nextafter first value greater than zero: 4.940656e-324
 nextafter first value less than zero: -4.940656e-324
 nexttoward first value greater than zero: 4.940656e-324

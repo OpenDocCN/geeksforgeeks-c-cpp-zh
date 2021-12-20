@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.bucket(element)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.bucket(element)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket() function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket number in which 13 is 6
 The bucket number in which 13 is 6
 The bucket number in which 10 is 3
@@ -58,7 +58,7 @@ The bucket number in which 15 is 1
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket() function
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket number in which e is 16
 The bucket number in which a is 12
 The bucket number in which a is 12

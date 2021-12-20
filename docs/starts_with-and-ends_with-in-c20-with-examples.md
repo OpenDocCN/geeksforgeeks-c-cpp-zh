@@ -39,7 +39,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of starts_with()
 #include <iostream>
@@ -124,7 +124,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of ends_with()
 #include <iostream>

@@ -6,7 +6,7 @@ C++中**流操纵器**的 **noshowbase()** 方法用于清除指定字符串流�
 
 **语法:**
 
-```
+```cpp
 ios_base& noshowbase (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& noshowbase (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowbase() function
 
@@ -43,14 +43,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noshowbase flag: 62
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowbase() function
 
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noshowbase flag: 32
 
 ```

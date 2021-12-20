@@ -7,7 +7,7 @@
 
 ## C++
 
-```
+```cpp
 // 1st program to show that array and pointers are different
 #include <iostream>
 using namespace std;
@@ -29,7 +29,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // 1st program to show that array and pointers are different
 #include <stdio.h>
 
@@ -50,7 +50,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Size of arr[] 24
 Size of ptr 8
 ```
@@ -59,7 +59,7 @@ Size of ptr 8
 
 ## C++
 
-```
+```cpp
 // IInd program to show that array
 // and pointers are different
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // IInd program to show that array and pointers are different
 #include <stdio.h>
 
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  Compiler Error: incompatible types when assigning to 
               type 'int[2]' from type 'int *' 
 ```
@@ -107,7 +107,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // 1st program to show that array and pointers are different
 #include <iostream>
 using namespace std;
@@ -124,7 +124,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -138,7 +138,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value of first element is 10
 ```
 
@@ -147,7 +147,7 @@ Value of first element is 10
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -165,7 +165,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -182,7 +182,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 arr[2] = 30
 *(arr + 2) = 30
 ptr[2] = 30
@@ -193,7 +193,7 @@ ptr[2] = 30
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -235,7 +235,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int fun(int ptr[])
@@ -267,7 +267,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 sizeof(arr) = 24
 sizeof(ptr) = 4
 *ptr = 10 

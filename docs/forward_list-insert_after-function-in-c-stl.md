@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 ***forward_list_name.insert_after(iterator position, element)***
 
 or,
@@ -34,7 +34,7 @@ or,
 
 下面的程序说明了上述功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // forward_list::insert_after() function
 #include <forward_list>
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After Syntax 1: 1 20 2 3 4 5 
 
 After Syntax 2: 1 20 2 20 20 20 3 4 5 

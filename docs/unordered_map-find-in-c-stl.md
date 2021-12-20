@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 unordered_map.find(key);
 ```
 
@@ -16,7 +16,7 @@ unordered_map.find(key);
 
 下面程序说明**查找**功能的工作:
 
-```
+```cpp
 // CPP program to demonstrate implementation of
 // find function in unordered_map.
 #include <bits/stdc++.h>
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Element Not Present
 Element Present
 

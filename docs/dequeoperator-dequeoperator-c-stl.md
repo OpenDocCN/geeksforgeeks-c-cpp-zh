@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 ***dequename1 = (dequename2)***
 Parameters :
 Another container of the same type.
@@ -22,7 +22,7 @@ parameter to the container written on left side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  mydeque1 = 1, 2, 3
           mydeque2 = 3, 2, 1, 4
           mydeque1 = mydeque2;
@@ -40,7 +40,7 @@ Output :  mydeque1 = 3, 2
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of = operator
 #include <deque>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mydeque1= 3 2 1 4
 ```
 
@@ -71,7 +71,7 @@ mydeque1= 3 2 1 4
 
 **语法:**
 
-```
+```cpp
 ***dequename[position]***
 Parameters :
 Position of the element to be fetched.
@@ -81,7 +81,7 @@ Direct reference to the element at the given position.
 
 示例:
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque[2];
 Output :  3
@@ -97,7 +97,7 @@ Output :  7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of [] operator
 #include <deque>
@@ -119,14 +119,14 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 ```
 
 **应用程序**
 给定一个整数序列，打印偶数位置的所有整数。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :1 3 5 7 9
 *Explanation - 1, 3, 5, 7 and 9 are at position 0, 2, 4, 6 and 8 which are even*
@@ -138,7 +138,7 @@ Output :1 3 5 7 9
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of [] operator
 #include <deque>
@@ -171,6 +171,6 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 5 7 9
 ```

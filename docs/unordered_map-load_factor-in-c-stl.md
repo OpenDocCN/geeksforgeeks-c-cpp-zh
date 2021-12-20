@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map_name.load_factor()
 ```
 
@@ -18,7 +18,7 @@ unordered_map_name.load_factor()
 
 **示例-1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::load_factor() function
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 4
 The bucket_count is: 7
 The load_factor is: 0.571429
@@ -87,7 +87,7 @@ The load_factor is: 0.857143
 
 **示例-2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::load_factor() function
 #include <bits/stdc++.h>
@@ -140,7 +140,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 4
 The bucket_count is: 7
 The load_factor is: 0.571429

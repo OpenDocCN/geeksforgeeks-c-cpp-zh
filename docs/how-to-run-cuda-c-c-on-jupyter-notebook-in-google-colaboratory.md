@@ -24,7 +24,7 @@ CUDA 代码不会在 AMD CPU 或英特尔高清显卡上运行，除非您的机
 
 ### 第三步:完全卸载任何以前的 CUDA 版本。我们需要刷新 CUDA 的云实例。
 
-```
+```cpp
 !apt-get --purge remove cuda nvidia* libnvidia-*
 !dpkg -l | grep cuda- | awk '{print $2}' | xargs -n1 dpkg --purge
 !apt-get remove cuda-*
@@ -37,7 +37,7 @@ CUDA 代码不会在 AMD CPU 或英特尔高清显卡上运行，除非您的机
 
 ### 第四步:安装 CUDA 版本 9(你可以在单独的代码块中复制它)。
 
-```
+```cpp
 !wget https://developer.nvidia.com/compute/cuda/9.2/Prod/local_installers/cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64 -O cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
 !dpkg -i cuda-repo-ubuntu1604-9-2-local_9.2.88-1_amd64.deb
 !apt-key add /var/cuda-repo-9-2-local/7fa2af80.pub
@@ -48,14 +48,14 @@ CUDA 代码不会在 AMD CPU 或英特尔高清显卡上运行，除非您的机
 
 ### 步骤 5:现在您可以通过运行下面给出的命令来检查您的 CUDA 安装:
 
-```
+```cpp
 !nvcc --version
 
 ```
 
 输出将是这样的:
 
-```
+```cpp
 vcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2018 NVIDIA Corporation
 Built on Wed_Apr_11_23:16:29_CDT_2018
@@ -65,14 +65,14 @@ Cuda compilation tools, release 9.2, V9.2.88
 
 ### 步骤 6:运行给定的命令，安装一个小的扩展，从笔记本单元格运行 nvcc。
 
-```
+```cpp
 !pip install git+git://github.com/andreinechaev/nvcc4jupyter.git
 
 ```
 
 ### 步骤 7:使用下面给出的代码加载扩展:
 
-```
+```cpp
 %load_ext nvcc_plugin
 
 ```
@@ -85,7 +85,7 @@ Cuda compilation tools, release 9.2, V9.2.88
 
 要在笔记本中运行代码，请在代码开头添加%%cu 扩展名。
 
-```
+```cpp
 % % cu
 #include <iostream>
     int
@@ -98,13 +98,13 @@ Cuda compilation tools, release 9.2, V9.2.88
 
 输出:
 
-```
+```cpp
 Welcome To GeeksforGeeks
 ```
 
 我建议你试试从向量中找出最大元素的程序，检查一切是否正常。
 
-```
+```cpp
 % % cu
 #include <cstdio>
 #include <iostream>
@@ -176,7 +176,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The maximum element is : 1338278816
 The time required : 0.003392
 

@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of above approach
 import java.util.*;
 
@@ -155,7 +155,7 @@ public static void main(String[] args)
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function to return the generated
@@ -206,7 +206,7 @@ print(findNumber(n))
 
 ## C#
 
-```
+```cpp
 // C# implementation of above approach
 using System;
 
@@ -271,7 +271,7 @@ static public void Main ()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript implementation of above approach
@@ -332,7 +332,7 @@ document.write(findNumber(n));
 
 **Output:** 
 
-```
+```cpp
 42
 ```
 
@@ -358,7 +358,7 @@ T68</figure>
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -388,7 +388,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.io.*;
 
@@ -419,7 +419,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function to compute number
@@ -443,7 +443,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -475,7 +475,7 @@ static public void Main ()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript implementation of the approach
 
@@ -498,6 +498,6 @@ static public void Main ()
 
 **Output:** 
 
-```
+```cpp
 170
 ```

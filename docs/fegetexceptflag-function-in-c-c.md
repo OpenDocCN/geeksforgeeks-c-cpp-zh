@@ -8,7 +8,7 @@ C/C++中的**fegetexcepflag()**函数在头文件 **fenv.h** 中指定，获取�
 
 **语法:**
 
-```
+```cpp
 int fegetexceptflag(fexcept_t* flagp, int excepts)
 ```
 
@@ -34,7 +34,7 @@ int fegetexceptflag(fexcept_t* flagp, int excepts)
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // fegetexceptflag() function
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Exception raised -> 
 FE_DIVBYZERO 
 FE_ALL_EXCEPT
@@ -86,7 +86,7 @@ FE_ALL_EXCEPT
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // fegetexceptflag() function
 
@@ -129,7 +129,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Exception raised -> 
 FE_DIVBYZERO 
 FE_INEXACT 

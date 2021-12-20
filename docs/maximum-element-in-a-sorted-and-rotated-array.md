@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -69,7 +69,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 class GFG
 {
@@ -114,7 +114,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function to return the maximum element
@@ -149,7 +149,7 @@ print(findMax(arr, 0, n - 1))
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -202,7 +202,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP implementation of the approach
 
@@ -246,7 +246,7 @@ echo findMax($arr, 0, $n - 1);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Java script implementation of the approach
 
@@ -293,6 +293,6 @@ function findMax(arr,low,high)
 
 **Output:** 
 
-```
+```cpp
 6
 ```

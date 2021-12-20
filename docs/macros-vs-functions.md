@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 #define NUMBER 10
 int main()
@@ -20,7 +20,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 #define NUMBER 10
 using namespace std;
@@ -34,7 +34,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -42,7 +42,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int number()
 {
@@ -57,7 +57,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int number()
@@ -74,13 +74,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
 现在使用以下命令编译它们:
 
-```
+```cpp
 gcc –E file_name.c
 ```
 
@@ -95,7 +95,7 @@ gcc –E file_name.c
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 #define CUBE(b) b*b*b
 int main()
@@ -107,7 +107,7 @@ int main()
 
 **输出:意外输出**
 
-```
+```cpp
 7
 ```
 
@@ -123,7 +123,7 @@ CUBE(1+2) === (1+2)*(1+2)*(1+2)等于 27[正确且预期的结果]
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int cube(int a)
 {
@@ -138,7 +138,7 @@ int main()
 
 **输出:如预期**
 
-```
+```cpp
 27
 ```
 

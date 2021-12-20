@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input:  arr[] = {1, 0, 0, 1, 0, 0, 1}
 Output: 1's = 3, 0's = 4
 
@@ -19,7 +19,7 @@ Output: 1's = 5, 0's = 2
 
 **语法:**
 
-```
+```cpp
 count_if(lower_bound, upper_bound, filter_function)
 
 where filter_function is a condition
@@ -29,7 +29,7 @@ which filters out elements.
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to Count
 // the number of 1's and 0's
 // in a binary array
@@ -66,7 +66,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1's: 3
 0's: 4
 

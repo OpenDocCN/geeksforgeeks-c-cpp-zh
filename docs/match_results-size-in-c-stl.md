@@ -5,7 +5,7 @@
 **match_results size()** 是 C++中的一个内置函数，它返回 match_result 对象中的匹配数和子匹配数。
 **语法:**
 
-```
+```cpp
 smatch_name.size()
 
 Note: *smatch_name is an object of match_results class.*
@@ -19,7 +19,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results size() in C++
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 match size is 3
 ```
 
@@ -51,7 +51,7 @@ match size is 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results size() in C++
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 match size is 3
 match 0 has a length of 13
 match 1 has a length of 5

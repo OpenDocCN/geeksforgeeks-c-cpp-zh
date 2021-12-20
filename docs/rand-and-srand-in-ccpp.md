@@ -12,7 +12,7 @@ rand()函数在 C/C++中用于生成范围为[0，RAND _ MAX 的随机数。
 
 **语法:**
 
-```
+```cpp
  int rand(void): 
 returns a pseudo-random number in the range of [0, RAND_MAX).
 RAND_MAX: is a constant whose default value may vary 
@@ -23,7 +23,7 @@ RAND_MAX: is a constant whose default value may vary
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,19 +42,19 @@ int main(void)
 **注意:**该程序将在每次运行时创建相同的随机数序列。
 产出 1:
 
-```
+```cpp
 453 1276 3425 89
 ```
 
 产出 2:
 
-```
+```cpp
 453 1276 3425 89
 ```
 
 输出 n:
 
-```
+```cpp
 453 1276 3425 89
 ```
 
@@ -64,7 +64,7 @@ srand()函数设置产生一系列伪随机整数的起点。如果未调用 sra
 
 **语法:**
 
-```
+```cpp
 void srand( unsigned seed ): 
 Seeds the pseudo-random number generator used by rand() with the value seed.
 ```
@@ -75,7 +75,7 @@ Seeds the pseudo-random number generator used by rand() with the value seed.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C program to generate random numbers
 #include <stdio.h>
 #include <stdlib.h>
@@ -100,19 +100,19 @@ int main(void)
 **注意:**这个程序在每次运行时都会产生不同的随机数序列。
 产出 1:
 
-```
+```cpp
 453 1432 325 89
 ```
 
 产出 2:
 
-```
+```cpp
 8976 21234 45 8975
 ```
 
 输出 n:
 
-```
+```cpp
 563 9873 12321 24132
 ```
 

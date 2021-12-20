@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map_name.hash_function()
 
 ```
@@ -21,7 +21,7 @@ unordered_map_name.hash_function()
 
 **例 1**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::hash_function()
 
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 15276750567035005396
 Key and Elements: 
 {geeks:geeks}, 
@@ -71,7 +71,7 @@ Key and Elements:
 
 **例 2**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::hash_function()
 
@@ -109,7 +109,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 4
 Key and Elements: 
 {4:7}, 

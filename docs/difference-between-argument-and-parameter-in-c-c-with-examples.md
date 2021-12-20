@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C code to illustrate Arguments
 
 #include <stdio.h>
@@ -39,7 +39,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ code to illustrate Arguments
 #include <iostream>
 using namespace std;
@@ -68,7 +68,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The summation is 30
 
 ```

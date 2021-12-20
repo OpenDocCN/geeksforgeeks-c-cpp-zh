@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name.rehash(size_type n)*
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::rehash()
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 users for geeks 
 The bucket count is 11
 
@@ -62,7 +62,7 @@ The bucket count is 11
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::rehash()
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 DS in experts are users for geeks 
 The bucket count is 23
 

@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate cout
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GeekforGeeks!
 
 ```
@@ -43,7 +43,7 @@ GeekforGeeks!
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // endl manipulator
 #include <iostream>
@@ -67,7 +67,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 A computer science portal for geeks - Geekforgeeks
 
 ```
@@ -78,7 +78,7 @@ A computer science portal for geeks - Geekforgeeks
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concept
 #include <iostream>

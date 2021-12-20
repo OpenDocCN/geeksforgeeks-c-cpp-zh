@@ -39,7 +39,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <opencv2/opencv.hpp>

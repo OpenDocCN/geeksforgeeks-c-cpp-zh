@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate private
 // access modifier
 #include <iostream>
@@ -68,7 +68,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 This is the private disp method of child class 
 The key is 1019
 ```
@@ -83,7 +83,7 @@ The key is 1019
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate protected
 // access modifier
 #include <iostream>
@@ -140,7 +140,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 This is the protected  disp method of child class 
 The key is 1019
 ```

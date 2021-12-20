@@ -8,7 +8,7 @@
 
 ## c++
 
-```
+```cpp
 // CPP Program to demonstrate forward list
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,7 +32,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The elements of forward list are : 10 12 13 15
 ```
 
@@ -42,7 +42,7 @@ The elements of forward list are : 10 12 13 15
 
 ## c++
 
-```
+```cpp
 // CPP Program to demonstrate list
 #include <bits/stdc++.h>
 using namespace std;
@@ -66,7 +66,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The elements of list are : 1 2 10 15
 ```
 

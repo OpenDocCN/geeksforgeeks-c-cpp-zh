@@ -6,7 +6,7 @@ constexpr 是 C++ 11 中增加的一个特性。主要思想是通过在编译�
 
 constexpr 指定可以在编译时计算对象或函数的值，并且该表达式可以用在其他常量表达式中。例如，在下面的代码中，product()是在编译时计算的。
 
-```
+```cpp
 // constexpr function for product of two numbers.
 // By specifying constexpr, we suggest compiler to 
 // to evaluate value at compile time
@@ -25,7 +25,7 @@ int main()
 
 输出:
 
-```
+```cpp
 200
 ```
 
@@ -42,7 +42,7 @@ int main()
 **const expr 提高性能的例子:**
 考虑下面的 C++程序
 
-```
+```cpp
 // A C++ program to demonstrate the use of constexpr
 #include<iostream>
 using namespace std;
@@ -65,7 +65,7 @@ int main ()
 
 如果我们从下面的行中移除 const，那么 fib(5)的值在编译时不会被计算，因为 constexpr 的结果不会在 const 表达式中使用。
 
-```
+```cpp
 Change,
   const long int res = fib(30);  
 To,
@@ -78,7 +78,7 @@ To,
 **constexpr 带构造函数:**
 constexpr 也可以用在构造函数和对象中。有关可以使用 constexpr 的构造函数的所有限制，请参见本中的[。](https://www.ibm.com/support/knowledgecenter/SSGH3R_13.1.0/com.ibm.xlcpp131.aix.doc/language_ref/constexpr_constructors.html)
 
-```
+```cpp
 //  C++ program to demonstrate uses of constexpr in constructor
 #include <bits/stdc++.h>
 using namespace std;
@@ -106,7 +106,7 @@ int main()
 
 输出:
 
-```
+```cpp
 200
 ```
 

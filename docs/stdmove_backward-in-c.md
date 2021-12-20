@@ -6,7 +6,7 @@
 该函数从将*(最后一个-1)移动到*(结果-1)开始，然后向后跟随这些元素之前的元素，直到到达第一个(并包括它)。
 **模板:**
 
-```
+```cpp
 BidirectionalIterator2 move_backward (BidirectionalIterator1 first,
                                       BidirectionalIterator1 last,
                                       BidirectionalIterator2 result);
@@ -23,7 +23,7 @@ have been moved.
 
 示例:
 
-```
+```cpp
 Input :
 vec1 contains : 3 4 5 7 8
 vec2 contains : 8 9 6 2 4 7
@@ -33,7 +33,7 @@ arr2 contains : 8 9 6 5 7 8
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::move and std::move_backward
 // STL library functions
@@ -72,7 +72,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Vector1 contains : 1 2 3 4 5
 Vector2 contains : 7 7 7 7 7
 

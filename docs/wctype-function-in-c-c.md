@@ -21,7 +21,7 @@
 
 **语法:**
 
-```
+```cpp
 wctype_t wctype(const char* str)
 ```
 
@@ -35,7 +35,7 @@ wctype_t wctype(const char* str)
 下面的程序说明了上面的功能。
 **节目一:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -61,20 +61,20 @@ int main()
 
 **Output:**
 
-```
+```cpp
 @ is neither an alphabet nor a digit
 
 ```
 
 **输出:**
 
-```
+```cpp
 @ is neither an alphabet nor a digit
 ```
 
 **程序 2:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 g is an alphabet
 
 ```

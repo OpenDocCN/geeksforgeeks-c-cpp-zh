@@ -10,7 +10,7 @@
 
 # 语法:
 
-```
+```cpp
 int ispunct(int ch);
 ch: character to be checked.
 Return Value  : function return nonzero
@@ -21,7 +21,7 @@ Return Value  : function return nonzero
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program to check punctuation
 #include <stdio.h>
 #include <ctype.h>
@@ -44,7 +44,7 @@ int main()
 
 <font size="+1">Output:</font>
 
-```
+```cpp
 
 Sentence contains 2 punctuation characters.
 
@@ -52,7 +52,7 @@ Sentence contains 2 punctuation characters.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C program to print all Punctuations
 #include <stdio.h>
 #include <ctype.h>
@@ -70,7 +70,7 @@ int main()
 
 Output:
 
-```
+```cpp
 All punctuation characters in C programming are: 
 ! " # $ % & ' ( ) * +, - . / : ;  ? @ [ \ ] ^ _ ` { | } ~
 

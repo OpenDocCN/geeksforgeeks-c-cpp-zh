@@ -11,7 +11,7 @@
 **1)在不使用%运算符的情况下检查数字是偶数还是奇数:**
 虽然这个技巧并不比使用%运算符好多少，但有时是有效的(对于大数)。使用&运算符:
 
-```
+```cpp
 if (num & 1)
    cout << "ODD";
 else
@@ -29,7 +29,7 @@ num = 4
 
 示例:2(二进制 10):向左移动 4(二进制 100)和向右移动 1(二进制 1)
 
-```
+```cpp
 n = n << 1;   // Multiply n with 2
 n = n >> 1;   // Divide n by 2
 ```
@@ -37,7 +37,7 @@ n = n >> 1;   // Divide n by 2
 **3)使用 XOR 交换 2 个数字:**
 这种方法速度快，不需要使用第 3 个变量。
 
-```
+```cpp
 // A quick way to swap a and b
 a ^= b;
 b ^= a;
@@ -46,7 +46,7 @@ a ^= b;
 
 **4)避免使用 strlen():**
 
-```
+```cpp
 //  Use of strlen() can be avoided by:
 for (i=0; s[i]; i++) 
 { 
@@ -65,7 +65,7 @@ for (i=0; s[i]; i++) 
 
 **9)计算最高有效位:**计算任意数字对数的最高有效位都可以直接用来计算。
 
-```
+```cpp
 Suppose the number is N then 
 Let double K = log10(N);
 now K = K - floor(K);
@@ -75,13 +75,13 @@ X will be the most significant digit.
 
 **10)直接计算位数:**要计算一个数字的位数，不用循环，可以高效使用 log:
 
-```
+```cpp
 Number of digits in N =floor(log10(N)) + 1;  
 ```
 
 **11) [知道一个数是否是 2 的幂的有效技巧](https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/)** 用通常的除法技巧，复杂度是 O(logN)，但是可以用 O(v)来求解，其中 v 是二进制形式的数的位数。
 
-```
+```cpp
 /* Function to check if x is power of 2*/
 bool isPowerOfTwo (int x)
 {
@@ -93,7 +93,7 @@ bool isPowerOfTwo (int x)
 
 **12) C++11 内置了以下算法:**
 
-```
+```cpp
        // are all of the elements positive?
        all_of(first, first+n, ispositive()); 
 
@@ -108,7 +108,7 @@ bool isPowerOfTwo (int x)
 
 **13)复制算法:用于将元素从一个容器复制到另一个容器。**
 
-```
+```cpp
 int source[5] = {0, 12, 34, 50, 80};
 int target[5];
 // copy 5 elements from source to target
@@ -120,7 +120,7 @@ copy_n(source, 5, target);
 
 **14)Iota 算法**算法 Iota()创建一系列顺序递增的值，就好像首先给*赋值，然后使用前缀++递增该值。在下面的列表中，iota()将连续的值{10，11，12，13，14}分配给数组 arr，并将{'a '，' b '，' c'}分配给字符数组 c[]。
 
-```
+```cpp
 int a[5] = {0};
 char c[3] = {0};
 
@@ -133,7 +133,7 @@ iota(c, c+3, 'a'); // {'a', 'b', 'c'}
 
 **15)二进制形式的初始化:**在 C++ 11 中，赋值也可以二进制形式进行。
 
-```
+```cpp
 // C++ code to demonstrate working of 
 // "binary" numbers
 #include<iostream>
@@ -148,13 +148,13 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 ```
 
 **16)使用“和”**虽然不是一个非常有效的方法，但是这个技巧帮助你只使用条件运算符，而不是键入&。
 
-```
+```cpp
 // C++ code to demonstrate working of "and"
 #include<iostream>
 using namespace std;
@@ -169,7 +169,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Yes
 ```
 

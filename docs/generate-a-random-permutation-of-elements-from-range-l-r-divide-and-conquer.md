@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.util.Vector;
 
@@ -152,7 +152,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 import random
 
@@ -208,7 +208,7 @@ printPermutation()
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -278,7 +278,7 @@ public static void Main(String[] args)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP implementation of the approach
 
@@ -341,7 +341,7 @@ printPermutation();
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript implementation of the approach
@@ -403,7 +403,7 @@ printPermutation();
 
 **Output:** 
 
-```
+```cpp
 11 9 6 5 8 7 10 12 13 15 14
 ```
 

@@ -23,7 +23,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Cpp program to illustrate the
 // concept of Constructors
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a: 10
 b: 20
 ```
@@ -66,7 +66,7 @@ b: 20
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // parameterized constructors
 #include <iostream>
@@ -109,13 +109,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 p1.x = 10, p1.y = 15
 ```
 
 当在参数化构造函数中声明对象时，初始值必须作为参数传递给构造函数。正常的对象声明方式可能行不通。可以显式或隐式调用构造函数。
 
-```
+```cpp
  Example e = Example(0, 50); // Explicit call
 
  Example e(0, 50);           // Implicit call
@@ -133,7 +133,7 @@ p1.x = 10, p1.y = 15
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Illustration
 #include <iostream>
 using namespace std;
@@ -169,7 +169,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 Error: point (double px, double py): expects 2 arguments, 0 provided
 ```
 

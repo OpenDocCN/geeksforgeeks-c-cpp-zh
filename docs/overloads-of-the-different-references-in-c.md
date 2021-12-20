@@ -46,7 +46,7 @@ l 值指的是识别一个对象的内存位置。r-value 指的是存储在内�
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 

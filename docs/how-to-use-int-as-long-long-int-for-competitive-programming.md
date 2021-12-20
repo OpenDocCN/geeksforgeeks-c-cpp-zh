@@ -13,7 +13,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate Overflow in Implicit Conversion itself
 
 // Importing input output libraries
@@ -37,7 +37,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp: In function ‘int main()’:
 prog.cpp:5:10: warning: overflow in implicit constant conversion [-Woverflow]
  int x = 1e10; 
@@ -54,7 +54,7 @@ prog.cpp:5:10: warning: overflow in implicit constant conversion [-Woverflow]
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate longlongint approach
 
 // Including all basic libraries
@@ -87,7 +87,7 @@ int32_t main()
 
 **Output**
 
-```
+```cpp
 size of int = 4
 new size of int = 8
 value of x = 1000000000000000000

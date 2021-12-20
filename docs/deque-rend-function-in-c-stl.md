@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 deque_name.rend()
 ```
 
@@ -18,7 +18,7 @@ deque_name.rend()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::rend() function
 #include <bits/stdc++.h>
@@ -40,14 +40,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The deque in reverse order: 50 40 30 20 10
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::rend() function
 #include <bits/stdc++.h>
@@ -69,7 +69,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The deque in reverse order: e d c b a
 
 ```

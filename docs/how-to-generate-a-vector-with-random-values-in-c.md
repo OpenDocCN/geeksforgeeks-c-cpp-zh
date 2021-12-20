@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to generate the vector
 // with random values
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The elements of vector are:
 995552582 698831766 2088692742 1348138651 64302615
 

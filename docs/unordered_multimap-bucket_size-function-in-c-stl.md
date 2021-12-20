@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multimap_name.bucket_size(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_multimap_name.bucket_size(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::bucket_size()
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The total count of buckets: 7
 Number of elements in Bucket 0 = 0
 Number of elements in Bucket 1 = 1
@@ -66,7 +66,7 @@ Number of elements in Bucket 6 = 1
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::bucket_size() 
 #include <bits/stdc++.h>
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The total count of buckets: 7
 Number of elements in Bucket 0 = 1
 Number of elements in Bucket 1 = 1

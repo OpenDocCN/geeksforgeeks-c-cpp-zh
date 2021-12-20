@@ -27,7 +27,7 @@
 
 **语法:**
 
-```
+```cpp
 close()
 ```
 
@@ -41,7 +41,7 @@ close()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement close() function
 #include <fstream>
 #include <iostream>

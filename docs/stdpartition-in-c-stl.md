@@ -9,7 +9,7 @@ C++的 STL 算法库中有一个类，它允许我们使用某些内置函数轻
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // partition() and is_partitioned()
 #include<iostream>
@@ -63,7 +63,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Vector is not partitioned
 Now, vector is partitioned after partition operation
 The partitioned vector is : 2 8 6 5 1 7
@@ -75,7 +75,7 @@ The partitioned vector is : 2 8 6 5 1 7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // stable_partition() and partition_point()
 #include<iostream>
@@ -121,7 +121,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The partitioned vector is : 2 6 8 1 5 7 
 The vector elements returning true for condition are : 2 6 8
 ```
@@ -131,7 +131,7 @@ The vector elements returning true for condition are : 2 6 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // partition_copy()
 #include<iostream>
@@ -183,7 +183,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The elements that return true for condition are : 2 6 8 
 The elements that return false for condition are : 1 5 7
 ```

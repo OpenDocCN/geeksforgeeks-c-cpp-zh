@@ -10,7 +10,7 @@
 
 T8】c++T10
 
-```
+```cpp
 // C++ program to declare the array
 // of size 10^7 globally
 
@@ -37,6 +37,6 @@ int main()
 
 T11T13**输出:**T16】
 
-```
+```cpp
 9999999
 ```

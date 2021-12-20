@@ -6,7 +6,7 @@
 
 标准 C 库提供了 [qsort()](http://www.cplusplus.com/reference/cstdlib/qsort/) 可以用来对数组进行排序。顾名思义，该函数使用快速排序算法对给定的数组进行排序。以下是 qsort()的原型
 
-```
+```cpp
 void qsort (void* base, size_t num, size_t size, 
             int (*comparator)(const void*,const void*));
 ```
@@ -15,7 +15,7 @@ void qsort (void* base, size_t num, size_t size, 
 
 比较器函数采用两个指针作为参数(都是类型转换为 const void*)，并通过返回(以稳定和可传递的方式)来定义元素的顺序
 
-```
+```cpp
 int comparator(const void* p1, const void* p2);
 Return value meaning
 <0 0 the element pointed by p1 goes before p2 is equivalent to>0 The element pointed by p1 goes after the element pointed by p2
@@ -26,7 +26,7 @@ Source: http://www.cplusplus.com/reference/cstdlib/qsort/
 
 例如，假设有一组学生，下面是学生的类型。
 
-```
+```cpp
 struct Student
 {
     int age, marks;
@@ -36,7 +36,7 @@ struct Student
 
 假设我们需要按照分数的升序对学生进行排序。比较器功能如下所示:
 
-```
+```cpp
 int comparator(const void *p, const void *q) 
 {
     int l = ((struct Student *)p)->marks;
@@ -62,7 +62,7 @@ int comparator(const void *p, const void *q) 
 
 以下是上述方法的 C 实现。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -115,7 +115,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Output array is
 9 7 5 3 1 2 4 6 8
 ```

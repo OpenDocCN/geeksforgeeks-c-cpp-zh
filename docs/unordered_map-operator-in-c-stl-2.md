@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```cpp
 ump.operator= ( unordered_map& ump )
 ump.operator= ( unordered_map&& ump )
 ump.operator= ( initializer list )
@@ -28,7 +28,7 @@ ump.operator= ( initializer list )
 下面的程序举例说明了 C++中的无序 _map::operator=。
 **例**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_map::operator=()
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 7 : 8
 9 : 10
 11 : 12

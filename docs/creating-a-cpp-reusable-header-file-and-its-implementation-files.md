@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // Header file complexNum.h
 #ifndef COMPLEXNUM_H
 #define COMPLEXNUM_H
@@ -53,7 +53,7 @@ public:
 
 ## C++
 
-```
+```cpp
 // Implementation file
 // complexNum.cpp
 #include "complexNum.h"
@@ -100,7 +100,7 @@ bool complexNum::operator==(const complexNum& obj)
 
 ## C++
 
-```
+```cpp
 // Driver file to illustrate
 // the implementation of
 // complexNum.cpp file

@@ -6,7 +6,7 @@ C++ STL 的 **std::is_unsigned 模板**用于检查类型是否为无符号算�
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_unsigned;
 
 ```
@@ -22,7 +22,7 @@ template <class T > struct is_unsigned;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_unsigned template
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_unsigned:
 unsigned int:true
 gfg:false
@@ -66,7 +66,7 @@ raj:false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_unsigned template
 
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_unsigned:
 signed char:false
 unsigned char:true
@@ -101,7 +101,7 @@ signed int:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_unsigned template
 
@@ -126,7 +126,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_unsigned:
 bool:true
 float:false

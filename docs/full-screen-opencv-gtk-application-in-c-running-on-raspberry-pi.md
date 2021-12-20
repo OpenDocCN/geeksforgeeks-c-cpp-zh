@@ -49,7 +49,7 @@
 
     如果你已经安装了*家酿*的版本，现在是验证、更新和修复所有需要的东西的好时机。以下命令将为您提供大量建议:
 
-    ```
+    ```cpp
     $ brew update
     $ brew doctor
 
@@ -63,14 +63,14 @@
 
     要安装它:
 
-    ```
+    ```cpp
     $ brew install pkg-config
 
     ```
 
     安装完成后，您可以通过键入以下命令来检查是否一切正常:
 
-    ```
+    ```cpp
     $ pkg-config --version
     > 0.29.2
     $ pkg-config --list-all
@@ -86,7 +86,7 @@
 
     我们通过第三方贡献安装 *OpenCV* 。一开始你不需要它们，但它们也不会打扰你。我们用的是 *Gtkmm3* ，也就是 C++的 *GtK* :
 
-    ```
+    ```cpp
     brew install opencv3 --with-contrib
     brew install gtkmm3
 
@@ -94,7 +94,7 @@
 
     要验证库是否已到位，请执行以下操作:
 
-    ```
+    ```cpp
     $ pkg-config --list-all | grep opencv
     > opencv                              OpenCV - Open Source Computer Vision Library
     $ pkg-config --list-all | grep gtkmm
@@ -106,14 +106,14 @@
 
     您可能在运行 *brew doctor* 时安装了它，它需要执行以下操作:
 
-    ```
+    ```cpp
     $ xcode-select --install
 
     ```
 
     要验证您确实拥有它:
 
-    ```
+    ```cpp
     $ git --version
     git version 2.17.2 (Apple Git-113)
 
@@ -151,7 +151,7 @@
 
     在 Linux 发行版中， *pkg-config* 已经安装的几率最高。反正你可以试一试；如果它已经安装，它会告诉你:
 
-    ```
+    ```cpp
     sudo apt-get update
     sudo apt-get install pkg-config
 
@@ -161,7 +161,7 @@
 
     你将需要它来编译 *OpenCV* ，所以你最好现在安装它:
 
-    ```
+    ```cpp
     $ sudo apt-get install cmake
 
     ```
@@ -170,7 +170,7 @@
 
     作为先决条件，您需要从 *apt-get* 获得以下库:
 
-    ```
+    ```cpp
     # required:
     sudo apt-get install \
        libgtk-3-dev \
@@ -192,7 +192,7 @@
 
     安装完所有先决条件后，获取最新版本的 *OpenCV* 源代码，并将其解压缩:
 
-    ```
+    ```cpp
     $ wget https://github.com/opencv/opencv/archive/3.4.1.zip
     $ unzip 3.4.1.zip
 
@@ -200,7 +200,7 @@
 
     准备和编译:
 
-    ```
+    ```cpp
     $ cd opencv-3.4.1
     $ mkdir build
     $ cd build
@@ -211,14 +211,14 @@
 
     去散步；这需要很长时间。如果进程中断，您只需重新键入以下内容即可再次启动:
 
-    ```
+    ```cpp
     $ make -j4
 
     ```
 
     编译完成后，完成安装:
 
-    ```
+    ```cpp
     $ sudo make install
     $ sudo ldconfig
 
@@ -226,7 +226,7 @@
 
     要检查库是否作为依赖项可用:
 
-    ```
+    ```cpp
     $ pkg-config --list-all | grep opencv
     > opencv                         OpenCV - Open Source Computer Vision Library
 
@@ -234,7 +234,7 @@
 
     您现在可以删除源文件夹；你不再需要它了:
 
-    ```
+    ```cpp
     $ cd ..
     $ cd ..
     $ rm -rf opencv-3.4.1
@@ -246,14 +246,14 @@
 
     *Gtkmm* 是 *C++* 的 *Gtk* :
 
-    ```
+    ```cpp
     $ sudo apt-get install libgtkmm-3.0-dev
 
     ```
 
     要检查库是否作为依赖项可用:
 
-    ```
+    ```cpp
     $ pkg-config --list-all | grep gtkmm
     gtkmm-3.0                      gtkmm - C++ binding for the GTK+ toolkit
 
@@ -263,14 +263,14 @@
 
     要安装 *Git* :
 
-    ```
+    ```cpp
     $ sudo apt-get install git
 
     ```
 
     并验证 *Git* 是否存在:
 
-    ```
+    ```cpp
     $ git --version
     > git version 2.7.4
 
@@ -285,7 +285,7 @@
 
     在第一阶段(文章的第二部分有更多内容)，我提出了一个简化的文件夹结构。具有多个可执行文件和库的项目每个模块需要一个文件夹，并且结构要复杂得多。在这种情况下，因为只有一个可执行文件，所以我只有一个名为`src`的根文件夹，在其中，每种类型的文件都有一个文件夹——源、头和资源。
 
-    ```
+    ```cpp
     .gitignore  <-- Ignore xcode, codeb, build folders.
     /src  <----- All sources are here
        CMakeList.txt  <-- The CMake configuration file.
@@ -309,7 +309,7 @@
 
     这是 *src* 文件夹中的 *CMakeLists.txt* :
 
-    ```
+    ```cpp
     # src/CMakeLists.txt
     cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
 
@@ -376,7 +376,7 @@
 
     所有 *C++* 可执行文件都需要一个`main`方法作为入口点。要启动 *GtK* 应用程序，您需要指定一个主窗口，它将作为所有其他用户交互的基础，包括打开更多窗口。
 
-    ```
+    ```cpp
     #include "main-window.hpp"
 
     int main(int argc, char* argv[])
@@ -419,7 +419,7 @@
 
     作为`Gtk::Window`的后代，`MainWindow`是独生子容器，只能包含一个`Gtk::Widget`。我选择它是一个`Gtk::Box`，这是一个`Gtk::Container`，所以反过来，它能够包含几个*小部件*。在这种情况下，我希望它们是一个`Gtk::Button`和两个`Gtk::Label`，以说明*打包*机制，即 *GtK* 用来将一堆控件堆叠在一起。对于`MainWindow`来响应按钮上的点击，我们声明了一个`buttonClick`方法(可以是任何其他名称，但保持它们有意义)——我稍后将解释如何将“点击”信号连接到它。
 
-    ```
+    ```cpp
     #ifndef MAIN_WINDOW_H
     #define MAIN_WINDOW_H
 
@@ -453,7 +453,7 @@
 
     `MainWindow`的声明需要两个进一步的定义——类构造函数和`buttonClick`方法。下面是代码:
 
-    ```
+    ```cpp
     #include "main-window.hpp"
     #include <iostream>
 
@@ -498,7 +498,7 @@
 
     。
 
-    ```
+    ```cpp
     // Configure this window (now, without the 'this'):
     set_default_size(witdh, height);
 
@@ -506,14 +506,14 @@
 
     接下来我们要对被点击的`m_button`做出反应。实现这一点的一种方法是将一个功能连接到`m_button`实例的点击信号(要查看小部件的所有可用信号，您可以查看官方文档，例如，[T2 只有*点击了*信号](https://developer.gnome.org/gtkmm-tutorial/stable/sec-pushbuttons.html))。将函数连接到小部件的信号允许从代码中的任何地方处理事件，只要您可以访问小部件并且您可以提供函数的地址。
 
-    ```
+    ```cpp
     m_button.signal_clicked().connect([address of the method to call]);
 
     ```
 
     函数的地址可以简单到放入函数的名称(参见关于函数的[地址](https://www.geeksforgeeks.org/address-function-c-cpp/))。我们的情况更复杂，因为我们要指定的函数是一个类的成员。成员函数需要提供`this`指针，这样就可以访问同一个实例的其他成员。要构建指向特定实例的方法的指针，我们使用 [`sigc::mem_fun`](http://www.cplusplus.com/reference/functional/mem_fun/) :
 
-    ```
+    ```cpp
     sigc::mem_fun(                    // Convert member function to function pointer.
        *this,                         // The address of the instance.
        &MainWindow::buttonClick   // The address of the method.
@@ -535,7 +535,7 @@
 
     首先，在您想要放置项目的文件夹中签出源代码。进入检出文件夹并创建一个`xcode`文件夹，该文件夹将包含 *Xcode* 的所有工作数据。进入工作文件夹，创建 *Xcode* 项目:
 
-    ```
+    ```cpp
     $ cd go-to-your-working-folder
     $ git clone https://github.com/cpp-tutorial/raspberry-cpp-gtk-opencv.git
     $ cd raspberry-cpp-gtk-opencv
@@ -556,7 +556,7 @@
 
     克隆示例项目，用[调试符号](https://bytefreaks.net/programming-2/cc-how-do-you-set-gdb-debug-flag-g-with-cmake)配置，并构建:
 
-    ```
+    ```cpp
     $ cd go-to-your-working-folder
     $ git clone https://github.com/cpp-tutorial/raspberry-cpp-gtk-opencv.git
     $ cd raspberry-cpp-gtk-opencv
@@ -569,7 +569,7 @@
 
     要使用 *gdb* 进行调试，假设您仍在`build`文件夹中:
 
-    ```
+    ```cpp
     $ gdb ./rascapp
     [Now you're in gdb]
     b main-window.cpp:10  # Place a break-point on line 10 of this file.
@@ -604,7 +604,7 @@
 
     `on_key_press_event`在类`Gtk::Widget`中声明如下:
 
-    ```
+    ```cpp
     /// This is a default handler for the signal signal_key_press_event().
     virtual bool on_key_press_event(GdkEventKey* key_event);
 
@@ -612,7 +612,7 @@
 
     因此，我们必须重新声明它是我们的类。
 
-    ```
+    ```cpp
     #ifndef MAIN_WINDOW_H
     #define MAIN_WINDOW_H
 
@@ -644,7 +644,7 @@
 
     [Ctrl] + [C]退出应用程序，[f]或[F]切换全屏模式，[esc]关闭全屏模式:
 
-    ```
+    ```cpp
     #include "main-window.hpp"
     #include <syslog.h>
 
@@ -739,7 +739,7 @@
 
     程序是包含一个`MacOSXBundleInfo.plist.in`文件，是一个模板；有些条目可以由`CMakeLists.txt`文件中的属性来管理，其他的你可以自己放。文件放在`src/res`文件夹中，内容如下:
 
-    ```
+    ```cpp
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC 
         "-//Apple Computer//DTD PLIST 1.0//EN" 
@@ -790,7 +790,7 @@
 
     按照前面的说明安装 *OpenCV* 后，您可以在 *CMake* 中将您的应用程序链接到它。
 
-    ```
+    ```cpp
     # src/CMakeLists.txt
     cmake_minimum_required(VERSION 3.3 FATAL_ERROR)
 
@@ -862,7 +862,7 @@
 
     [`Gtk::DrawingArea`](https://developer.gnome.org/gtkmm-tutorial/stable/sec-draw-images.html) 是一个小部件，它包含一个图形区域来显示自定义的绘图或位图。我们定义了一个`CameraDrawingArea`来扩展这个小部件，并将从摄像机捕捉到的图像复制到图形区域:
 
-    ```
+    ```cpp
     #ifndef CAMERA_DRAWING_AREA_H
     #define CAMERA_DRAWING_AREA_H
 
@@ -905,7 +905,7 @@
 
     这是
 
-    ```
+    ```cpp
     #include "opencv2/core.hpp"
     #include "opencv2/highgui.hpp"
     #include "opencv2/imgproc.hpp"
@@ -1011,7 +1011,7 @@
 
     最后一步是将我们刚刚创建的小部件放在主窗口中。我们需要在`MainWindow`表头声明:
 
-    ```
+    ```cpp
     #ifndef MAIN_WINDOW_H
     #define MAIN_WINDOW_H
 
@@ -1041,7 +1041,7 @@
 
     把它放在盒子里，就像标签或按钮一样:
 
-    ```
+    ```cpp
     #include <syslog.h>
     #include <unistd.h>
 
@@ -1133,7 +1133,7 @@
 
         要检查摄像机是否工作，请键入:
 
-        ```
+        ```cpp
         $ raspistill -f -t 0
 
         ```
@@ -1144,7 +1144,7 @@
 
         在*树莓*中，v4L2 驱动程序提供了 *OpenCV* 拍摄图像所需的标准摄像头接口。默认情况下，驱动程序已安装，但未激活。要激活它:
 
-        ```
+        ```cpp
         $ sudo modprobe bcm2835-v4l2
         $ ls /dev/video0
 
@@ -1152,7 +1152,7 @@
 
         如果设备`/dev/vide0`存在，则表示驱动程序处于活动状态。要在树莓启动时默认激活它，编辑文件`/etc/modules`并在底部添加以下片段:
 
-        ```
+        ```cpp
         bcm2835-v4l2
 
         ```
@@ -1165,7 +1165,7 @@
 
         您可能希望*树莓皮*在启动时启动您的应用程序。我发现在树莓中自动运行图形用户界面应用程序最简单的方法是在`autostart`目录下创建一个桌面文件。在全新的安装中，此目录不存在，您需要创建它:
 
-        ```
+        ```cpp
         $ mkdir ~/.config/autostart
         $ vim ~/.config/autostart/rascapp.desktop
 
@@ -1173,7 +1173,7 @@
 
         “rascapp.desktop”的内容应该类似于:
 
-        ```
+        ```cpp
         [Desktop Entry]
         Name=raspberry-pi-camera-display
         Exec=/home/pi/raspberry-cpp-gtk-opencv/build/rascapp
@@ -1200,7 +1200,7 @@
 
         纯显示应用程序通常没有用户交互，因此屏幕可能会闲置，让您蒙在鼓里。为了防止这种情况，最简单的方法是安装一个屏幕保护程序，然后将其配置为不运行:
 
-        ```
+        ```cpp
         $ sudo apt-get install xscreensaver
 
         ```
@@ -1211,7 +1211,7 @@
 
         如果你把树莓放在某个带有 FPV 发射器 T2 的移动设备上，你可能想使用模拟视频输出。编辑`/boot/config.txt`文件，修改条目如下:
 
-        ```
+        ```cpp
         ...
         sdtv_mode=2
         ...
@@ -1240,7 +1240,7 @@
 
         如果您收到此错误消息:
 
-        ```
+        ```cpp
         Gtk-ERROR **: GTK+ 2.x symbols detected. 
         Using GTK+ 2.x and GTK+ 3 in the same process is not 
         supported
@@ -1251,7 +1251,7 @@
 
         首先卸载 *Gtk2* 并确保 *Gtk3* 存在:
 
-        ```
+        ```cpp
         $ sudo apt-get remove libgtk2.0-dev
         sudo apt-get install libgtk-3-dev
         sudo apt-get auto-remove
@@ -1265,7 +1265,7 @@
         *   按照上述步骤重新开始构建程序，但是…
         *   启动`make`前，查看`cmake`日志，验证 *Gtk* 版本是否链接。寻找类似这样的东西:
 
-        ```
+        ```cpp
         ...
         --   GUI: 
         --     GTK+:                        YES (ver 3.22.11)

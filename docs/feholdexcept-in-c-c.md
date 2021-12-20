@@ -7,7 +7,7 @@
 C/C++中的 **feholdexcept()** 函数首先将当前浮点环境保存在 fenv_t 的对象中，然后重置所有浮点状态标志的当前值。feholdexcept()函数在 **C++** 中的 **cfenv** 头文件和 **C** 中的 **fenv.h** 头文件中定义。
 **语法:**
 
-```
+```cpp
 int feholdexcept( fenv_t* envp )
 ```
 
@@ -23,7 +23,7 @@ int feholdexcept( fenv_t* envp )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // feholdexcept() function
 #include <bits/stdc++.h>
@@ -69,7 +69,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 x/y = inf
 No exceptions raised
 ```
@@ -78,7 +78,7 @@ No exceptions raised
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // feholdexcept() function
 #include <bits/stdc++.h>
@@ -132,7 +132,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Exceptions raised are :  FE_DIVBYZERO
 Exceptions raised are :  No exception found
 Exceptions raised are :  FE_DIVBYZERO

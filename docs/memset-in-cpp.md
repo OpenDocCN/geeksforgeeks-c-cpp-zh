@@ -6,7 +6,7 @@ Memset()是一个 C++函数。它将单个字符复制指定的次数到一个�
 
 **语法:**
 
-```
+```cpp
 void* memset( void* str, int ch, size_t n);
 ```
 
@@ -22,7 +22,7 @@ void* memset( void* str, int ch, size_t n);
 
 ## CPP
 
-```
+```cpp
 // CPP program to demonstrate memset
 #include <cstring>
 #include <iostream>
@@ -40,7 +40,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 tttttttttttttt
 ```
 
@@ -48,7 +48,7 @@ tttttttttttttt
 
 ## CPP
 
-```
+```cpp
 // CPP Program to demonstrate that we can use memset() to
 // set all values as 0 or -1 for integral data types also
 #include <bits/stdc++.h>
@@ -80,7 +80,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 0 0 0 0 0 
 -1 -1 -1 -1 -1 
 84215045 84215045 84215045 84215045 84215045 

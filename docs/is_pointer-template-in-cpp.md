@@ -6,7 +6,7 @@ C++ STL 的 **std::is_pointer 模板**用于检查给定类型是否为指针。
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_pointer;
 ```
 
@@ -21,7 +21,7 @@ template <class T > struct is_pointer;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_pointer template
 
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pointer:
 GFG: false
 GFG*: true
@@ -64,7 +64,7 @@ nullptr_t: false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_pointer template
 
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pointer:
 int: false
 int *: true
@@ -104,7 +104,7 @@ int ***: true
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_pointer template
 
@@ -133,7 +133,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pointer:
 int *&: false
 int *[10]: false

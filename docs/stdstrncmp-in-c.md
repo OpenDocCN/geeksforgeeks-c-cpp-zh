@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 int strncmp(const char *str1, const char *str2, size_t count);
 
 Parameters:
@@ -35,7 +35,7 @@ strncmp()函数在比较的基础上返回**三种不同类型的整数值**:
 
 **1。大于零(> 0 ):** 如果 **str1** 和 **str2** 的字符在 **num** 字符之前不匹配，并且 *str1* 字符的 ASCII 值大于 *str2* 字符的 ASCII 值，则返回正值。因此，我们可以说 *str1* 在词汇上大于 *str2* 。
 
-```
+```cpp
 // C, C++ program to demonstrate
 // functionality of strncmp()
 
@@ -68,7 +68,7 @@ int main()
 
 输出:
 
-```
+```cpp
 str1 is greater than str2
 Value returned by strncmp() is: 18
 
@@ -76,7 +76,7 @@ Value returned by strncmp() is: 18
 
 **2。小于零(< 0 ):** 如果 **str1** 和 **str2** 的字符在 **num** 字符之前不匹配，并且 *str1* 字符的 ASCII 值小于 *str2* 字符的 ASCII 值，则返回负值。因此，我们可以说 *str2* 在词汇上大于 *str1* 。
 
-```
+```cpp
 // C, C++ program to demonstrate
 // functionality of strncmp()
 
@@ -109,7 +109,7 @@ int main()
 
 输出:
 
-```
+```cpp
 str2 is greater than str1
 Value returned by strncmp() is: -18
 
@@ -117,7 +117,7 @@ Value returned by strncmp() is: -18
 
 **3。等于零(0 ):** 如果 **str1** 的字符与 **str2** 到 **num** 字符匹配，则该函数返回零。因此，我们不能说 *str1* 等于 *str2* ，直到 **num** 等于任意一根弦的长度。
 
-```
+```cpp
 // C, C++ program to demonstrate
 // functionality of strncmp()
 
@@ -150,7 +150,7 @@ int main()
 
 输出:
 
-```
+```cpp
 str1 is equal to str2 upto num characters
 Value returned by strncmp() is: 0
 
@@ -162,7 +162,7 @@ Value returned by strncmp() is: 0
 
 **例 1:**
 
-```
+```cpp
 // CPP program to illustrate strncmp()
 #include <cstring>
 #include <iostream>
@@ -191,14 +191,14 @@ int main()
 
 输出:
 
-```
+```cpp
 First 4 characters of string GeeksforGeeks and Geeks are same
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // CPP program to illustrate strncmp()
 #include <cstring>
 #include <iostream>
@@ -228,7 +228,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks come-before GeeksforGeeks
 
 ```

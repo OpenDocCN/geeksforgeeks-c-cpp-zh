@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```cpp
 Input : abcdefg
 Output : *******
 
@@ -16,7 +16,7 @@ Output : *******
 
 注意:下面的解决方案使用 getch()，这可能不适用于所有编译器，因为这是非标准函数。
 
-```
+```cpp
 // C program to print * 
 // in place of characters
 #include<stdio.h>

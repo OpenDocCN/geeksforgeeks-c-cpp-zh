@@ -4,7 +4,7 @@
 
 假设在一个 C 程序片段中，使用了以下语句。
 
-```
+```cpp
 i) sizeof(int);
 ii) sizeof(int*);
 iii) sizeof(int**);

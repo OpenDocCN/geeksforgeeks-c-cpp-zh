@@ -6,14 +6,14 @@
 
 *   **[Pointers](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)** are used to store the address of variables or a memory location. A variable can be declared as a pointer by putting ‘*****’ in the declaration.
 
-    ```
+    ```cpp
     datatype *var_name; 
 
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to
     // demonstrate a Pointer
 
@@ -37,21 +37,21 @@
 
     **Output:**
 
-    ```
+    ```cpp
     10
 
     ```
 
 *   **[Reference](https://www.geeksforgeeks.org/references-in-c/)**: When a variable is declared as a reference, it becomes an alternative name for an existing variable. A variable can be declared as a reference by putting ‘**&**’ in the declaration.
 
-    ```
+    ```cpp
     datatype &var_name; 
 
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to
     // demonstrate a Reference
 
@@ -79,21 +79,21 @@
 
     **Output:**
 
-    ```
+    ```cpp
     20
 
     ```
 
 *   **[References to pointers](https://www.geeksforgeeks.org/reference-to-a-pointer-in-c-with-examples-and-applications/)** is a modifiable value that’s used same as a normal pointer.
 
-    ```
+    ```cpp
     datatype *&var_name; 
 
     ```
 
     **例 1:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // References to pointers
 
@@ -120,7 +120,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     10
 
     ```
@@ -129,7 +129,7 @@
 
     **示例 2:** 现在让我们尝试更改由指针引用表示的地址
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // References to pointers
 
@@ -161,7 +161,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     5
 
     ```
@@ -170,14 +170,14 @@
 
 *   **Const Reference to a pointer** is a non-modifiable value that’s used same as a const pointer.
 
-    ```
+    ```cpp
     datatype* const &var_name; 
 
     ```
 
     **例 1:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // References to pointers
 
@@ -209,7 +209,7 @@
 
     **编译错误:**
 
-    ```
+    ```cpp
     In function 'int main()':
     prog.cpp:23:13: error: assignment of read-only reference 'ptr_ref'
          ptr_ref = &j;
@@ -221,7 +221,7 @@
 
     **例 2:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // References to pointers
 
@@ -253,7 +253,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     100
 
     ```
@@ -266,14 +266,14 @@
     *   **在示例 2** 中， **ptr_ref** 是对指向 int 的指针的常量引用，我们正在尝试更改 ***ptr_ref** 的值，这意味着我们正在更改指针所指向的 int 的值，而不是指针的常量引用。所以编译器不会抛出任何错误，指针现在指向值 100。因此 int 在这里不是常数，但是指针是。因此，int 的值更改为 100。
 *   **Reference to a Const Pointer** is a reference to a constant pointer.
 
-    ```
+    ```cpp
     datatype const *&var_name; 
 
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // References to pointers
 
@@ -304,7 +304,7 @@
 
     **编译错误:**
 
-    ```
+    ```cpp
     In function 'int main()':
     prog.cpp:23:14: error: assignment of read-only location '* ptr_ref'
          *ptr_ref = 124;

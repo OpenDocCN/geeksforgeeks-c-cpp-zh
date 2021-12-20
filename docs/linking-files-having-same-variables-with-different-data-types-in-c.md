@@ -9,13 +9,13 @@
 
 **在给定两个程序的情况下，您期望以下命令的输出是什么？**
 
-```
+```cpp
 $ gcc -o myprog foo1.c foo2.c
 $ ./myprog
 
 ```
 
-```
+```cpp
 // foo1.c
 #include<stdio.h>
 void f(void);
@@ -31,7 +31,7 @@ int main() 
 }
 ```
 
-```
+```cpp
 // foo2.c
 double x;
 void f() 
@@ -42,7 +42,7 @@ void f() 
 
 输出:
 
-```
+```cpp
 x = 0
 y = 1078263808
 

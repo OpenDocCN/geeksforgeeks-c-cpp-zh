@@ -10,7 +10,7 @@ C++中的 [cout 对象](https://www.geeksforgeeks.org/basic-input-output-c/)是�
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of cout object
 #include <iostream>
@@ -29,6 +29,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Welcome to GFG
 ```

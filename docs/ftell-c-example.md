@@ -6,7 +6,7 @@
 
 C 语言中的 ftell()用于找出文件指针在文件中相对于文件开始的位置。ftell()的语法是:
 
-```
+```cpp
 long ftell(FILE *pointer)
 
 ```
@@ -15,7 +15,7 @@ long ftell(FILE *pointer)
 “那边有人在叫你。我们要去上班了。照顾好自己。”(不带引号)
 当执行 fscanf 语句时，单词“某人”存储在字符串中，指针移动到“某人”之外。因此，当“某人”的长度为 6 时，ftell(fp)返回 7。
 
-```
+```cpp
 // C program to demonstrate use of ftel()                                
 #include<stdio.h>
 
@@ -36,7 +36,7 @@ int main()
 
 输出:假设 test.txt 包含“那边有人…”。
 
-```
+```cpp
 7
 
 ```

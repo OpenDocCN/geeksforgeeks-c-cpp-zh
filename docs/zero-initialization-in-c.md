@@ -5,7 +5,7 @@
 将对象的初始值设置为零称为*零初始化。*
 **语法** :
 
-```
+```cpp
 static T object;
 
 Tt = {} ;
@@ -38,7 +38,7 @@ char array [n] = " ";
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate zero initialization
 
 #include <iostream>
@@ -68,7 +68,7 @@ int main(int argc, char* argv[])
 
 **Output:** 
 
-```
+```cpp
 000
 ```
 

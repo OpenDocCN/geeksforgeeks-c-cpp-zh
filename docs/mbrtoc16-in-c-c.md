@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 ssize_t mbrtoc16( char16_t* pc16, const char* s, size_t n, mbstate_t* ps);
 ```
 
@@ -29,7 +29,7 @@ ssize_t mbrtoc16( char16_t* pc16, const char* s, size_t n, mbstate_t* ps);
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // mbrtoc16() function
 #include <cstdio>
@@ -62,7 +62,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Multibyte string = G
 Length = 1
 16-bit character = 0g71
@@ -71,7 +71,7 @@ Length = 1
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // mbrtoc16() function
 #include <cstdio>
@@ -103,7 +103,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Multibyte string = 
 Length = 0
 16-bit character = 1e0000y

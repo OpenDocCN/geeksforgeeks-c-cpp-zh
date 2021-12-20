@@ -6,7 +6,7 @@
 
 在 C 语言中，变量的定义和声明同时发生。即声明和定义之间没有区别。例如，考虑以下声明
 
-```
+```cpp
 int a;
 
 ```
@@ -15,7 +15,7 @@ int a;
 
 假设，如果我们只想声明变量而不想定义它，即我们不想分配内存，那么可以使用下面的声明
 
-```
+```cpp
 extern int a;
 
 ```
@@ -24,7 +24,7 @@ extern int a;
 
 函数的声明为编译器提供了函数的名称、参数的数量和类型以及返回类型。例如，考虑以下代码，
 
-```
+```cpp
 int add(int, int);
 
 ```
@@ -33,7 +33,7 @@ int add(int, int);
 
 函数的定义用于为函数分配内存。例如，考虑以下函数定义，
 
-```
+```cpp
 int add(int a, int b)
   {
     return (a+b);
@@ -51,7 +51,7 @@ int add(int a, int b)
 | . When declared, memory | will be allocated |
 | 
 
-```
+```cpp
 int f(int a)
 {
   return a;

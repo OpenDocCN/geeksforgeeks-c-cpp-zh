@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 mulset.get_allocator();
 ```
 
@@ -20,7 +20,7 @@ mulset.get_allocator();
 
 **示例 1:** 下面的程序展示了如何使用集合的分配器来分配 7 个元素的数组。
 
-```
+```cpp
 // C++ program to demonstrate
 // std::set::get_allocator
 
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 size of int pointer is: 8
 0 1 2 3 4 5 6
 

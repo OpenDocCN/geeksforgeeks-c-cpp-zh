@@ -6,7 +6,7 @@ C++ STL 的 **std::is_class 模板**用于检查给定类型是否为类。它�
 
 **语法:**
 
-```
+```cpp
 template <class T> struct is_class;
 
 ```
@@ -22,7 +22,7 @@ template <class T> struct is_class;
 
 **程序 1:** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_class template
 
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_class:
 GFG1: true
 GFG2: false
@@ -61,7 +61,7 @@ GFG2: false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_class template
 
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_class:
 int: false
 GFG1: true

@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strncat(char *dest, const char *src, size_t n)
 ```
 
@@ -30,7 +30,7 @@ char *strncat(char *dest, const char *src, size_t n)
 
 **示例:**
 
-```
+```cpp
 Input:  src = "world"
         dest = "Hello "
 Output: "Hello world"
@@ -44,7 +44,7 @@ Output: "abcdefghi"
 
 ## C++
 
-```
+```cpp
 // C,C++ program demonstrate functionality of strncat()
 #include <cstring>
 #include <iostream>
@@ -72,7 +72,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C,C++ program demonstrate functionality of strncat()
 #include <stdio.h>
 #include <string.h>
@@ -97,7 +97,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Source string : efghijkl
 Destination string : abcdefghi
 ```
@@ -107,7 +107,7 @@ Destination string : abcdefghi
 
 ## C++
 
-```
+```cpp
 // C,C++ program demonstrate difference between
 // strncat() and strcat()
 #include <cstring>
@@ -150,7 +150,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C,C++ program demonstrate difference between
 // strncat() and strcat()
 #include <stdio.h>
@@ -190,7 +190,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before strcat() function execution, destination string : geeks
 After strcat() function execution, destination string : geeksforgeeks
 Before strncat() function execution, destination string : geeks

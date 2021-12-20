@@ -20,7 +20,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the use of
 // variable number of arguments
 #include <stdarg.h>
@@ -77,7 +77,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Minimum value is 6
 ```
 
@@ -126,7 +126,7 @@ Minimum value is 6
 
 ## C++
 
-```
+```cpp
 // C++ program to implement stdarg.h
 #include <iostream>
 #include <stdarg.h>
@@ -159,7 +159,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 155
 ```
 
@@ -173,7 +173,7 @@ int main()
 
 **va_list:** 它是 **char*** 的一个 **typedef** ，但这是完全不同的，因为当它被用作一种 C-string 类型时，我们会得到不可预测的结果。这是因为不常见 **typedef** 。它是内置定义的。
 
-```
+```cpp
 // arg.h
 typedef char* va_list;
 ```

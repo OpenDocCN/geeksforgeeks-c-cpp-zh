@@ -6,7 +6,7 @@
 
 *   **语法:**
 
-```
+```cpp
 iterator set_name.insert(element)
 ```
 
@@ -17,7 +17,7 @@ iterator set_name.insert(element)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::insert(element) function
 #include <bits/stdc++.h>
@@ -45,6 +45,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The elements in set are: 1 2 3 4 5
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 value_compare set_name.value_comp() 
 
 ```
@@ -17,7 +17,7 @@ value_compare set_name.value_comp()
 
 下面的程序说明了上面的功能。
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::value_comp()
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Set a has the numbers 0 1 2 3 4 5 6 7 8 9
 
 ```

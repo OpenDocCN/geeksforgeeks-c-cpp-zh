@@ -7,7 +7,7 @@
 
 **示例–**
 
-```
+```cpp
 Input :
 Key = 10;
 array[5] = {3, 8, 4, 10, 80};
@@ -31,7 +31,7 @@ numbers to be search is 10
 
 **代码–**
 
-```
+```cpp
 // C++ program to demonstrate searching
 // in parent and printing result
 // in child processes using fork()
@@ -96,7 +96,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 Parent process 
 key is  present in array
 Child process 

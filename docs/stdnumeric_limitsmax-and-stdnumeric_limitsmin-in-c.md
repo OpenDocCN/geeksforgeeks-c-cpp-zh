@@ -10,20 +10,20 @@ STD::numeric _ limits<T>:max()函数用于获取数值类型 **T** 所能表示�
 
 **头文件:**
 
-```
+```cpp
 #include<limits>
 ```
 
 **模板:**
 
-```
+```cpp
 static T max() throw();
 static constexpr T max() noexcept;
 ```
 
 **语法:**
 
-```
+```cpp
 std::numeric_limits<T>::max
 ```
 
@@ -49,7 +49,7 @@ std::numeric_limits<T>::max
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // function numeric_limits<T>::max
 #include <iostream>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 bool: 1
 char: 127
 unsigned char: 255
@@ -125,20 +125,20 @@ size_t: 18446744073709551615
 
 **头文件:**
 
-```
+```cpp
 #include<limits>
 ```
 
 **模板:**
 
-```
+```cpp
 static T min() throw();
 static constexpr T min() noexcept;
 ```
 
 **语法:**
 
-```
+```cpp
 std::numeric_limits<T>::min
 ```
 
@@ -163,7 +163,7 @@ std::numeric_limits<T>::min
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // function numeric_limits<T>::min
 #include <iostream>
@@ -217,7 +217,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 bool: 0
 char: -128
 unsigned char: 0

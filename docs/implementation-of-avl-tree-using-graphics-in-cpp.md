@@ -57,7 +57,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the implementation
 // and execution of a self-balancing
 // BST using rotations and graphics

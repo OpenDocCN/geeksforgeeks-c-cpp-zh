@@ -10,7 +10,7 @@ isgreaterequal()函数用于检查给函数的第一个参数是否大于或等�
 
 **语法:**
 
-```
+```cpp
 bool isgreaterequal(a, b)
 
 ```
@@ -31,7 +31,7 @@ bool isgreaterequal(a, b)
 
 *   If **a** or **b** or both is NaN then the function raised an exception and return false(0).
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the exception of function
     #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ bool isgreaterequal(a, b)
 
     **输出:**
 
-    ```
+    ```cpp
     5.5 isgreaterequal nan: 0
 
     ```
@@ -66,7 +66,7 @@ bool isgreaterequal(a, b)
 
 *   **程序 1:**
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of isgreaterequal function
     #include <bits/stdc++.h>
@@ -103,7 +103,7 @@ bool isgreaterequal(a, b)
 
     输出:
 
-    ```
+    ```cpp
     5 isgreaterequal to 8: 0
     8 isgreaterequal to 5: 1
 
@@ -113,7 +113,7 @@ bool isgreaterequal(a, b)
 
 *   **Program 2:**
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of isgreaterequal function
     #include <bits/stdc++.h>
@@ -148,7 +148,7 @@ bool isgreaterequal(a, b)
 
     输出:
 
-    ```
+    ```cpp
     80.23 isgreaterequal to 82: 0
     b isgreaterequal to 80.23: 1
 
@@ -158,7 +158,7 @@ bool isgreaterequal(a, b)
 
 我们可以使用 isgreaterequal()函数来比较两个值，就像在**中使用**循环来打印任意数字(比如 12)的表格一样。
 
-```
+```cpp
 // CPP code to illustrate
 // the use of isgreaterequal function
 #include <bits/stdc++.h>
@@ -180,7 +180,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 12 x 1 = 12
 12 x 2 = 24
 12 x 3 = 36

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist_name.before_begin()
 
 ```
@@ -17,7 +17,7 @@ forwardlist_name.before_begin()
 
 下面程序演示了上面的功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // before_begin() function
 #include <bits/stdc++.h>
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Element of the list are:
 10 20 30 40 50
 

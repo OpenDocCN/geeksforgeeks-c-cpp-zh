@@ -10,7 +10,7 @@ push()函数用于在队列的后面插入一个元素。这是来自 [C++标准
 
 **语法:**
 
-```
+```cpp
 queuename.push(value)
 ```
 
@@ -20,7 +20,7 @@ queuename.push(value)
 
 **示例:**
 
-```
+```cpp
 Input :  myqueue
          myqueue.push(6);
 Output : 6
@@ -38,7 +38,7 @@ Output : 0, 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of push() function
 
@@ -64,7 +64,7 @@ int main()
 
 **Output**
 
-```
+```cpp
  0 1 2
 ```
 
@@ -76,7 +76,7 @@ pop()函数用于从队列前面移除一个元素(队列中最早的元素)。�
 
 **语法:**
 
-```
+```cpp
 queuename.pop()
 ```
 
@@ -86,7 +86,7 @@ queuename.pop()
 
 **示例:**
 
-```
+```cpp
 Input :  myqueue = 1, 2, 3
          myqueue.pop();
 Output : 2, 3
@@ -103,7 +103,7 @@ Output : 2, 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of pop() function
 
@@ -134,7 +134,7 @@ int main()
 
 **Output**
 
-```
+```cpp
  2
 ```
 
@@ -144,7 +144,7 @@ int main()
 
 给定一些整数，将它们添加到队列中，并在不使用 size 函数的情况下找到队列的大小。
 
-```
+```cpp
 Input : 5, 13, 0, 9, 4
 Output: 5
 ```
@@ -157,7 +157,7 @@ Output: 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of push() and pop() function
 
@@ -189,7 +189,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5
 ```
 

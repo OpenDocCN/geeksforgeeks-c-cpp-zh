@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     vector_name.rbegin()
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the vector::rbegin() function
     #include <bits/stdc++.h>
@@ -43,7 +43,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The vector elements in reverse order are:
     15 14 13 12 11
 
@@ -53,7 +53,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     vector_name.rend()
     ```
 
@@ -65,7 +65,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the vector::rend() function
     #include <bits/stdc++.h>
@@ -92,7 +92,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The last element is: 15
     The vector elements in reverse order are:
     15 14 13 12 11

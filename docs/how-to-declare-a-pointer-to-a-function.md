@@ -4,7 +4,7 @@
 
 我们假设你知道 C 语言中的指针是什么意思，那么我们如何在 C 语言中创建一个指向整数的指针呢？嗯..这很简单..
 
-```
+```cpp
 int * ptrInteger; /*We have put a * operator between int 
                     and ptrInteger to create a pointer.*/
 
@@ -14,14 +14,14 @@ int * ptrInteger; /*We have put a * operator between int
 
 让我们先看看..我们如何声明一个函数？例如，
 
-```
+```cpp
 int foo(int);
 
 ```
 
 这里 foo 是一个返回 int 并接受 int 类型的一个参数的函数。所以作为一个逻辑学家会认为，通过在 int 和 foo(int)之间放一个*运算符应该创建一个指向函数的指针，即
 
-```
+```cpp
 int * foo(int);
 
 ```
@@ -30,7 +30,7 @@ int * foo(int);
 
 因此，作为下一个逻辑步骤，我们必须以某种方式将运算符*与 foo 绑定。为此，我们将使用()运算符更改 C 运算符的默认优先级。
 
-```
+```cpp
 int (*foo)(int);
 
 ```

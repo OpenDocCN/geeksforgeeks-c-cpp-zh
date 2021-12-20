@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wint_t towctrans(wint_t wc, wctype_t desc)
 ```
 
@@ -24,7 +24,7 @@ wint_t towctrans(wint_t wc, wctype_t desc)
 
 **程序 1:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before transformation
 Switching Case
 After transformation
@@ -69,7 +69,7 @@ sWITCHING cASE
 
 **程序 2:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before transformation
 gFg iS fUN
 After transformation

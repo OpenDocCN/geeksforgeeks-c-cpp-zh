@@ -10,7 +10,7 @@
 
 Floor rounds off the given value to the closest integer which is less than the given value.
 
-```
+```cpp
 // C++ program to demonstrate working of floor()
 // in C/C++
 #include<bits/stdc++.h>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 1
 1
@@ -47,7 +47,7 @@ int main()
 
 Ceil rounds off the given value to the closest integer which is more than the given value.
 
-```
+```cpp
 // C++ program to demonstrate working of ceil()
 // in C/C++
 #include<bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2
 2
 2
@@ -84,7 +84,7 @@ int main()
 
 Trunc rounds removes digits after decimal point.
 
-```
+```cpp
 // C++ program to demonstrate working of trunc()
 // in C/C++
 #include<bits/stdc++.h>
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 1
 1
@@ -121,7 +121,7 @@ int main()
 
 Rounds given number to the closest integer.
 
-```
+```cpp
 // C++ program to demonstrate working of round()
 // in C/C++
 #include<bits/stdc++.h>
@@ -145,7 +145,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 2
 2
@@ -159,7 +159,7 @@ int main()
 
 Setprecision when used along with ‘fixed’ provides precision to floating point numbers correct to decimal numbers mentioned in the brackets of the setprecison.
 
-```
+```cpp
 // C++ program to demonstrate working of setprecision()
 // in C/C++
 #include<bits/stdc++.h>
@@ -180,7 +180,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3 -3
 3.1 -3.1
 3.14 -3.14

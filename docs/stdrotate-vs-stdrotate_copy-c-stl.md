@@ -4,7 +4,7 @@
 
 1.  **rotate in STL**:It rotates the order of the elements in the range [first, last), in such a way that the element pointed by middle becomes the new first element, i, e, to the left.
 
-    ```
+    ```cpp
     // Illustrating the use of rotate algorithm
     #include <bits/stdc++.h>
     using namespace std;
@@ -34,14 +34,14 @@
 
     输出:
 
-    ```
+    ```cpp
     arr contains: 4 5 6 7 8 9 1 2 3
 
     ```
 
 2.  **rotate_copy** :它将范围[第一个，最后一个]中的元素复制到从结果开始的范围，但是旋转元素的顺序，使中间指向的元素成为结果范围中的第一个元素，即向左旋转。
 
-    ```
+    ```cpp
     // Illustrating the use of rotate_copy
     #include <bits/stdc++.h>
     using namespace std;
@@ -67,7 +67,7 @@
 
     输出:
 
-    ```
+    ```cpp
     gfg contains: 40 50 60 70 10 20 30
 
     ```

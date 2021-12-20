@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: Geeks for geeks
 Output: Geks for geks
 
@@ -20,7 +20,7 @@ Output: ab
 
 下面是上述方法的实现。
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -38,7 +38,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geksforgeks is best
 
 ```

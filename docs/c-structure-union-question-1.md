@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-structure-union-question-1/](https://www.geeksforgeeks.org/c-structure-union-question-1/)
 
-```
+```cpp
 #include‹stdio.h›
 int main()
 {

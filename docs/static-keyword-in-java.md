@@ -35,7 +35,7 @@ Java
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Test {
     static int count = 0;
 
@@ -52,7 +52,7 @@ class Test {
 
 **Output**
 
-```
+```cpp
 Total 2 objects created
 ```
 
@@ -62,7 +62,7 @@ Total 2 objects created
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Main {
     public static void main(String args[])
     {
@@ -78,7 +78,7 @@ class Main {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Base {
     static int x = 0;
 }
@@ -98,7 +98,7 @@ class Derived extends Base {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Test {
     static int count = 0;
     public static void fun()
@@ -118,7 +118,7 @@ class Main {
 
 **Output**
 
-```
+```cpp
 Test.count = 0
 Static fun() called
 ```
@@ -129,7 +129,7 @@ Static fun() called
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class Test {
     public static void main(String args[])
     {

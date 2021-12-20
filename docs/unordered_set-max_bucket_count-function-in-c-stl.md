@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 size_type max_bucket_count()
 ```
 
@@ -22,7 +22,7 @@ size_type max_bucket_count()
 
 下面程序举例说明无序 _ 集合::max_bucket_count()函数:
 
-```
+```cpp
 // CPP program to illustrate 
 // unordered_set::max_bucket_count() function
 
@@ -54,7 +54,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Elements : [20][10]
 max_size : 1152921504606846975
 max_bucket_count() : 1152921504606846975
@@ -64,7 +64,7 @@ max_load_factor() : 1
 
 **输出:**
 
-```
+```cpp
 [20][10]
 max_size : 1152921504606846975
 max_bucket_count() : 1152921504606846975

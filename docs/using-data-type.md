@@ -6,7 +6,7 @@
 C++也提供了这个功能，但只是在 boost 库的帮助下。只要将变量的数据类型设为任意，就可以将任何类型的值赋给变量。以下是用任何数据类型声明变量所需的语法:
 **语法:**
 
-```
+```cpp
 boost::any variable_name;
 
 ```
@@ -15,7 +15,7 @@ boost::any variable_name;
 
 示例:
 
-```
+```cpp
 boost::any x, y, z, a;
 x = 12;
 y = 'G';
@@ -24,7 +24,7 @@ a = 12.75;
 
 ```
 
-```
+```cpp
 // CPP Program to implement the boost/any library
 #include "boost/any.hpp"
 #include <bits/stdc++.h>
@@ -75,7 +75,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 12
 G
 GeeksForGeeks

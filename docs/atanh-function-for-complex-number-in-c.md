@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        atanh (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of atanh() function.
 
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The atanh of (2, 0) is (0.549306, 1.5708)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of atanh() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The atanh of (2, -0) is (0.549306, -1.5708)
 
 ```

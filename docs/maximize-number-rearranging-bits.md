@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : 1 (0000....0001)
 Output : 2147483648 (1000....0000)
 
@@ -22,7 +22,7 @@ Output : 3758096384 (0111....0000)
 
 ## C++
 
-```
+```cpp
 // An simple C++ program to find
 // minimum number formed by bits of a
 // given number.
@@ -57,7 +57,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // An simple Java program to find
 // minimum number formed by bits
 // of a given number.
@@ -114,7 +114,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # An simple Python program to
 # find minimum number formed
 # by bits of a given number.
@@ -158,7 +158,7 @@ print (maximize(a))
 
 ## C#
 
-```
+```cpp
 // An simple C# program to find
 // minimum number formed by bits
 // of a given number.
@@ -199,7 +199,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // An simple PHP program to find
 // minimum number formed by bits
@@ -251,7 +251,7 @@ echo (maximize($a));
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // An simple JavaScript program to find
@@ -300,6 +300,6 @@ document.write(maximize(a));
 
 **Output:** 
 
-```
+```cpp
 2147483648
 ```

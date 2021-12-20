@@ -6,7 +6,7 @@
 
 **注意:**请注意，范围中包含“开始”，但不包含“结束”。下面是一个演示“填充”的示例:
 
-```
+```cpp
 // C++ program to demonstrate working of fill()
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,14 +28,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0 0 4 4 4 4 4 0
 
 ```
 
 我们也可以使用填充来填充数组中的值。
 
-```
+```cpp
 // C++ program to demonstrate working of fill()
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,14 +57,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 4 4 4 4 4 4 4 4 4 4
 
 ```
 
 用 C++填充[列表](https://www.geeksforgeeks.org/list-cpp-stl/)。
 
-```
+```cpp
 // C++ program to demonstrate working of fill()
 #include <bits/stdc++.h>
 using namespace std;
@@ -84,7 +84,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 4 4 4
 
 ```

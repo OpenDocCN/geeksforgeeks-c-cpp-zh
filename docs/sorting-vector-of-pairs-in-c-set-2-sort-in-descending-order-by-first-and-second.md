@@ -11,7 +11,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate sorting in vector of
 // pair according to 1st element of pair in
 // descending order
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The vector before applying sort is:
 5 30
 20 60
@@ -81,7 +81,7 @@ The vector after applying sort is:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate sorting/in vector of
 // pair according to 2nd element of pair in
 // descending order
@@ -139,7 +139,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The vector before sort operation is:
 5 30
 20 60

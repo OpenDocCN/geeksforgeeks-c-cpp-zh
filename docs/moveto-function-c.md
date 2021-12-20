@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
  void moveto(int x, int y);
 
 ```
 
 **示例:**
 
-```
+```cpp
 Input : x = 70, y = 40
 Output : 
 
@@ -26,7 +26,7 @@ Output :
 
 下面是 moveto()函数的实现:
 
-```
+```cpp
 // C Implementation for moveto()
 #include <graphics.h>
 #include <stdio.h>

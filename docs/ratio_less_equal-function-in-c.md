@@ -5,7 +5,7 @@
 **比率小于等于()**是 C++中的一个内置函数，它检查比率 R1 是否小于或等于比率 R2。如果比率小于或等于比率 2，则返回真，否则返回假。
 **语法:**
 
-```
+```cpp
 template < class ratio1_name, class ratio2_name > ratio_less_equal
 ```
 
@@ -16,7 +16,7 @@ template < class ratio1_name, class ratio2_name > ratio_less_equal
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_less_equal function
 // when both the ratios are equal
@@ -40,7 +40,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 3/9 is less than or equal to 1/3
 ```
 
@@ -48,7 +48,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_less_equal function
 // to show less than
@@ -72,7 +72,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1/3 is less than or equal to 1/2
 ```
 
@@ -80,7 +80,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_less_equal function
 // to show when greater than
@@ -104,6 +104,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1/8 is greater than 1/10
 ```

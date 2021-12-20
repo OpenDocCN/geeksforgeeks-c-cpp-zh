@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // the above concept
 #include <iostream>
@@ -39,7 +39,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 10
 ```
 
@@ -55,7 +55,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 const data_type* var_name;
 ```
 
@@ -63,7 +63,7 @@ const data_type* var_name;
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // above concept
 #include <iostream>
@@ -95,6 +95,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 9 A
 ```

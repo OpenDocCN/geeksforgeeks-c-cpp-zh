@@ -23,7 +23,7 @@ C/C++中的 **wcstol()** 函数将给定的宽字符串转换为长整数。此�
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcstol() function
 #include <bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String value --> 101GeeksForGeeks
 Long integer value --> 10
 End String = GeeksForGeeks
@@ -60,7 +60,7 @@ End String = GeeksForGeeks
 不同基数的节目:
 **节目 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcstol() function
 // with different bases
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String value --> 101GFG
 Long integer value --> 5
 End String = GFG

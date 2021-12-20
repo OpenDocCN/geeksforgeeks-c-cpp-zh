@@ -9,7 +9,7 @@
 **错误:**如果目标字符串长度小于源字符串，整个字符串值不会被复制到目标字符串中。
 例如，考虑目标字符串长度为 20，源字符串长度为 30。然后，源字符串中只有 20 个字符将被复制到目标中，其余 10 个字符将被截断。
 
-```
+```cpp
 // CPP program to copy one string to other
 // without using in-built function
 
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 string s1 : GeeksforGeeks
 String s2 : GeeksforGeeks
 

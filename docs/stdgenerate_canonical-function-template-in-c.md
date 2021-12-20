@@ -8,7 +8,7 @@ C++中的这个模板用于将 g 生成的值转换为范围[0，1]内的浮点�
 
 **语法:**
 
-```
+```cpp
 template ( class RealType, size_t bits, class URNG )
 RealType generate_canonical (URNG& g);
 ```
@@ -26,7 +26,7 @@ RealType generate_canonical (URNG& g);
 下面的程序说明了上面的 C++模板
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate generate_canonical()
 // function.
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Random canonical value: 0.0281975
 
 ```

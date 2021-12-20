@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 123
 Output : 
 
@@ -39,7 +39,7 @@ Output :
 
 下面是 C++实现
 
-```
+```cpp
 // C++ program to zoon digits of an integer
 #include <bits/stdc++.h>
 using namespace std;
@@ -254,7 +254,7 @@ int main()
 
 输出:
 
-```
+```cpp
 
   @
  @@

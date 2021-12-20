@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 #include "iostream"
 using namespace std;
 
@@ -49,7 +49,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class A {
     int a, b;
     public void add(int x, int y)
@@ -76,7 +76,7 @@ class B extends A {
 
 **输出:**
 
-```
+```cpp
 addition of a+b is:11 
 ```
 
@@ -92,7 +92,7 @@ addition of a+b is:11
 
 ## C++
 
-```
+```cpp
 #include "iostream"
 using namespace std;
 
@@ -148,7 +148,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 class A {
     int a, b, c;
 
@@ -200,7 +200,7 @@ class B extends A {
 
 **输出:**
 
-```
+```cpp
 addition of a+b is:11
 addition of a+b+c is:6
 Class B's method is running 

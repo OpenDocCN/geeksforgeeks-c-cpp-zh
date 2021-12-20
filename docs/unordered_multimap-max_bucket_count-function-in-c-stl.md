@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_multimap_name*.max_bucket_count()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_bucket_count()
 #include <iostream>
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The maximum bucket count is: 1152921504606846975
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_bucket_count()
 #include <iostream>
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The maximum bucket count is: 1152921504606846975
 
 ```

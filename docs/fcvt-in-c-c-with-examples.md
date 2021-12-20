@@ -23,7 +23,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // use of fcvt() function
 #include <stdio.h>
@@ -67,7 +67,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // FCVT() function
 #include <stdio.h>

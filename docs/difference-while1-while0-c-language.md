@@ -9,7 +9,7 @@
 
 这是一个无限循环，它将一直运行，直到一个 break 语句被显式发出。有趣的是，不是 while(1)，而是任何非零整数都会产生与 while(1)类似的效果。因此，while(1)，while(2)或 while(-255)，都只会给出无限循环。
 
-```
+```cpp
 while(1) or while(any non-zero integer)
 { 
     // loop runs infinitely
@@ -22,7 +22,7 @@ while(1)的简单用法可以在客户机-服务器程序中使用。在该程�
 
 ## C
 
-```
+```cpp
 // C program to illustrate while(1)
 #include <stdio.h>
 int main()
@@ -40,7 +40,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1
 2
 3
@@ -72,7 +72,7 @@ int main()
 **while(0)**
 与 while(1)相反。这意味着条件总是假的，因此 while 中的代码永远不会被执行。
 
-```
+```cpp
 while(0)
 { 
     // loop does not run
@@ -82,7 +82,7 @@ while(0)
 
 ## C
 
-```
+```cpp
 // C program to illustrate while(0)
 #include<stdio.h>
 int main()
@@ -104,7 +104,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -126,7 +126,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 Didn't execute the loop!
 ```
 

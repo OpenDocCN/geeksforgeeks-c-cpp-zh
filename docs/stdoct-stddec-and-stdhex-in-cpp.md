@@ -11,7 +11,7 @@
 basefield 格式标志可以采用十进制值(每个值都有自己的操纵器)。这是一个输入输出操纵器。可以用 out << std::oct, std::hex or std ::dec for any out of type std::basic_ostream or with an expression
 **这样的表达式来调用，语法:**
 
-```
+```cpp
 ios_base& hex (ios_base& str);
 str :
  Stream object whose basefield format flag is affected.
@@ -22,7 +22,7 @@ Return the augmented string parsed in the base decimal to base octal
 
 示例:
 
-```
+```cpp
 Input : 
 54
 Output :
@@ -32,7 +32,7 @@ hex - 36
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::oct, std::hex, std::dec
 #include <iostream> // std::cout, std::dec, std::hex, std::oct
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 oct - 66
 dec - 54
 hex - 36

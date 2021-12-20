@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 template <class T> class reference_wrapper;
 template parameter(T): type of the referred element and
                         this can be  either function or object.
@@ -16,7 +16,7 @@ template parameter(T): type of the referred element and
 
 示例:
 
-```
+```cpp
 // C++ program to demonstrate the
 // use of std::reference_wrapper
 #include <iostream>    
@@ -39,7 +39,7 @@ int main () 
 
 输出:
 
-```
+```cpp
 geeks
 
 ```

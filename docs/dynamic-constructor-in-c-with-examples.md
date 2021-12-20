@@ -7,7 +7,7 @@
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeks
 ```
 
@@ -48,7 +48,7 @@ geeks
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 
 1 2 3 
 1 2 3 
@@ -100,7 +100,7 @@ int main()
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -144,7 +144,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0
 7
 ```

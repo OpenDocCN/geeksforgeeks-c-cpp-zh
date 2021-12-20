@@ -7,7 +7,7 @@
 
 **std::ostringstream** :对字符串进行操作的输出流类。此类的对象使用包含一系列字符的字符串缓冲区。这个字符序列可以使用成员字符串作为字符串对象直接访问。
 
-```
+```cpp
 // C++ program transform a vector into
 // a string.
 #include <vector>
@@ -45,7 +45,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1, 2, 3, 4, 5, 6
 
 ```

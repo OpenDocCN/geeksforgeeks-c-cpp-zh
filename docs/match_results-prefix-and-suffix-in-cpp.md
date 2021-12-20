@@ -5,7 +5,7 @@
 *   **match_results::prefix()** 是 C++中的一个内置函数，用于获取输入目标字符串中匹配字符串之前的字符串。
     **语法:**
 
-```
+```cpp
 smatch_name.prefix()
 
 Note: *smatch_name is an object of match_results class.*
@@ -18,7 +18,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results prefix() function
 #include <bits/stdc++.h>
@@ -43,14 +43,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Prefix is: [Geeksforgeeks is a ]
 ```
 
 *   **match_results::后缀()**是 C++中的一个内置函数，用于获取输入目标字符串中匹配字符串之后的字符串。
     **语法:**
 
-```
+```cpp
 smatch_name.suffix()
 
 Note: *smatch_name is an object of match_results class.*
@@ -63,7 +63,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results suffix() function
 #include <bits/stdc++.h>
@@ -88,6 +88,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Suffix is: [ science portal]
 ```

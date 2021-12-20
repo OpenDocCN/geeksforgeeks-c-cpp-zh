@@ -8,7 +8,7 @@
 
 1)如果您对寄存器变量使用&运算符，编译器可能会给出错误或警告(取决于您使用的编译器)，因为当我们说变量是寄存器时，它可能存储在寄存器而不是内存中，并且寄存器的访问地址无效。试试下面的程序。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -23,7 +23,7 @@ int main()
 
 2) *register* 关键字可以和指针变量一起使用。显然，一个寄存器可以有一个存储单元的地址。下面的程序不会有任何问题。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -38,7 +38,7 @@ int main()
 
 3) Register 是一个存储类，C 不允许一个变量有多个存储类说明符。所以，*寄存器*不能和*静态*一起使用。试试下面的程序。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -53,7 +53,7 @@ int main()
 
 4) Register 只能在一个块内(本地)使用，不能在*全局*范围内(主外)使用。
 
-```
+```cpp
 #include <stdio.h>
 
 // error (global scope)
@@ -70,7 +70,7 @@ int main()
 
 **编译错误:**
 
-```
+```cpp
 prog.c:3:14: error: register name not specified for 'x'
  register int x = 10;//error (global scope)
               ^

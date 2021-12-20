@@ -8,7 +8,7 @@ STL 中的 [set](https://www.geeksforgeeks.org/set-in-cpp-stl/) 和 [map](https:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of set
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,14 +31,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in set:
 2 3 5 6
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of map
 #include <bits/stdc++.h>
 using namespace std;
@@ -66,7 +66,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in map:
 [ 1, 2]
 [ 4, 5]
@@ -79,7 +79,7 @@ Elements in map:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of Multimap
 #include <bits/stdc++.h>
 using namespace std;
@@ -105,7 +105,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in Multimap:
 [ 1, 2]
 [ 1, 2]
@@ -118,7 +118,7 @@ Elements in Multimap:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of Multiset
 #include <bits/stdc++.h>
 using namespace std;
@@ -143,7 +143,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in Multiset:
 1 2 2 3 4
 ```
@@ -152,7 +152,7 @@ Elements in Multiset:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of Unordered_set
 #include <bits/stdc++.h>
 using namespace std;
@@ -177,7 +177,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in unordered_set:
 2 4 1 3
 ```
@@ -186,7 +186,7 @@ Elements in unordered_set:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of Unordered_map
 #include <bits/stdc++.h>
 using namespace std;
@@ -211,7 +211,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in unordered_map:
 [ 3, 6]
 [ 2, 3]

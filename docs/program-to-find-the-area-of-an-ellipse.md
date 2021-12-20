@@ -18,14 +18,14 @@
 
 **椭圆面积:**求椭圆面积的公式如下:
 
-```
+```cpp
 Area = 3.142 * a * b
 ```
 
 其中 a 和 b 分别是半长轴和半短轴，3.142 是π的值。
 **例:**
 
-```
+```cpp
 Input : a = 5, b = 4
 Output : 62.48
 
@@ -35,7 +35,7 @@ Output : 157.1
 
 ## C++
 
-```
+```cpp
 // C++ program to find area of
 // an Ellipse.
 #include<bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find area of
 // an Ellipse.
 class GFG {
@@ -99,7 +99,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find
 # area of an Ellipse.
 
@@ -126,7 +126,7 @@ findArea(a, b);
 
 ## C#
 
-```
+```cpp
 // C# program to find area of
 // an Ellipse.
 using System;
@@ -164,7 +164,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find
 // area of an Ellipse.
@@ -195,7 +195,7 @@ findArea($a, $b);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to find area of
@@ -226,6 +226,6 @@ findArea($a, $b);
 
 **Output:** 
 
-```
+```cpp
 Area: 62.84
 ```

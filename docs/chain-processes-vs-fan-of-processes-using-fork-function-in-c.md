@@ -24,7 +24,7 @@
 
 ## C
 
-```
+```cpp
 // C program to create a chain of process
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Parent process ID is 1359
 Child process ID is 1360
 Parent process ID is 1360
@@ -86,7 +86,7 @@ Child process ID is 1362
 
 ## ****C****
 
-```
+```cpp
 **// C program to create a fan of processes
 
 #include <stdio.h>
@@ -119,7 +119,7 @@ int main()
 
 ******Output**
 
-```
+```cpp
 child pid 29831 from parent pid 29830
 child pid 29832 from parent pid 29830
 child pid 29833 from parent pid 29830

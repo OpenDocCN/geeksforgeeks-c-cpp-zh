@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to check if a connected
 // graph is bipartite or not suing DFS
 #include <bits/stdc++.h>
@@ -112,7 +112,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check if a connected
 // graph is bipartite or not suing DFS
 import java.util.*;
@@ -227,7 +227,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to check if a connected
 # graph is bipartite or not suing DFS
 
@@ -309,7 +309,7 @@ if __name__=='__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to check if a connected
 // graph is bipartite or not suing DFS
 using System;
@@ -424,7 +424,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to check if a connected
@@ -501,7 +501,7 @@ else {
 
 **Output:** 
 
-```
+```cpp
 Graph is Bipartite
 ```
 

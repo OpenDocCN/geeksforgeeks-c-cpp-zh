@@ -13,7 +13,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // strcat
 #include <cstring>
@@ -32,7 +32,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 This is an example
 ```
 
@@ -41,7 +41,7 @@ This is an example
     我们要查找的最后一次出现的字符作为第二个参数传递给函数，我们要查找的字符串作为第一个参数传递给函数。
     **语法**
 
-```
+```cpp
 char *strrchr(const char *str, int c) 
 ```
 
@@ -50,7 +50,7 @@ char *strrchr(const char *str, int c)
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // strrchr()
 #include <cstring>
@@ -89,7 +89,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C code to demonstrate the working of
 // strrchr()
 
@@ -128,7 +128,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 String after last e is :  eks 
 String after last m is :  (null)
 ```
@@ -136,7 +136,7 @@ String after last m is :  (null)
 *   [**strcmp**](https://www.geeksforgeeks.org/strcmp-in-c-cpp/) : strcmp()是内置库函数，在 **< string.h >** 头文件中声明。该函数将两个字符串作为参数，并按字典顺序比较这两个字符串。
     **语法:**:
 
-```
+```cpp
 int strcmp(const char *leftStr, const char *rightStr );
 ```
 
@@ -147,7 +147,7 @@ int strcmp(const char *leftStr, const char *rightStr );
 *   [**strcpy**](https://www.geeksforgeeks.org/strcpy-in-c-cpp/) : strcpy()是 C/C++中的标准库函数，用于将一个字符串复制到另一个字符串。在 C 语言中，它存在于 **string.h** 头文件中，在 C++中，它存在于 **cstring** 头文件中。
     **语法:**
 
-```
+```cpp
 char* strcpy(char* dest, const char* src);
 ```
 
@@ -159,7 +159,7 @@ char* strcpy(char* dest, const char* src);
 *   [**strlen**](https://www.geeksforgeeks.org/strlen-function-in-c/):**strlen()**函数计算给定字符串的长度。 **strlen()** 函数在 **string.h** 头文件中定义。它不计算空字符' \0 '。
     **语法:**
 
-```
+```cpp
 int strlen(const char *str);
 ```
 
@@ -181,7 +181,7 @@ int strlen(const char *str);
 *   [**strncpy**](https://www.geeksforgeeks.org/why-strcpy-and-strncpy-are-not-safe-to-use/):strncpy()函数与 strcpy()函数类似，只是最多复制 n 个字节的 src。如果 src 的前 n 个字符中没有空字符，则放置在 dest 中的字符串不会以空结尾。如果 src 的长度小于 n，strncpy()会向 dest 写入额外的空字符，以确保总共写入 n 个字符。
     **语法:**
 
-```
+```cpp
 char *strncpy( char *dest, const char *src, size_t n )
 ```
 
@@ -192,7 +192,7 @@ char *strncpy( char *dest, const char *src, size_t n )
 *   [**str chr**](https://www.geeksforgeeks.org/strrchr-function-in-c-c/):C/c++中的**str chr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
     **语法:**
 
-```
+```cpp
 const char* strrchr( const char* str, int ch )
             or
 char* strrchr( char* str, int ch )

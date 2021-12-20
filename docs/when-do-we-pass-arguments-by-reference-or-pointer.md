@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -29,7 +29,7 @@ x 的新值为 20
 
 ## C
 
-```
+```cpp
 class Employee {
 private:
     string name;
@@ -51,7 +51,7 @@ void printEmpDetails(Employee emp)
 
 ## C
 
-```
+```cpp
 void printEmpDetails(const Employee& emp)
 {
     cout << emp.getName();
@@ -67,7 +67,7 @@ void printEmpDetails(const Employee& emp)
 
 ## C
 
-```
+```cpp
 #include <iostream>
 #include <string>
 
@@ -108,7 +108,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <string>
 
@@ -152,7 +152,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

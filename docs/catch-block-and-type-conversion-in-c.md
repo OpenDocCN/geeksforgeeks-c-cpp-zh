@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -29,7 +29,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  Default catch block
 ```
 
@@ -37,7 +37,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -75,7 +75,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Default catch block
 ```
 

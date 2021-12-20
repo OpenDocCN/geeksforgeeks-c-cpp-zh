@@ -6,7 +6,7 @@
 
 **例:** 
 
-```
+```cpp
 Input : 5
 Output :
     *
@@ -30,7 +30,7 @@ Output :
 
 **setfill()** 用于设置流中的填充字符。这里我们用它在 n 列中用空格(或' ')填充剩余的 n-i-1 个位置。
 
-```
+```cpp
 // CPP program to print a pattern  using only
 // one loop.  <iomanip> is header file for stfill()
 // and setw()
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
      *
     **
    ***

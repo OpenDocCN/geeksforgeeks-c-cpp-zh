@@ -4,7 +4,7 @@
 
 **问题:**有没有以下两个循环不会以相同方式工作的例子？
 
-```
+```cpp
 /*Program 1 --> For loop*/
 for (<init-stmnt>; <boolean-expr>; <incr-stmnt>) 
 {
@@ -27,7 +27,7 @@ while (<boolean-expr>) 
 
 **程序 1 示例**
 
-```
+```cpp
 int main()
 {
   int i = 0;
@@ -43,7 +43,7 @@ int main()
 
 **程序示例 2**
 
-```
+```cpp
 int main()
 {
   int i = 0;

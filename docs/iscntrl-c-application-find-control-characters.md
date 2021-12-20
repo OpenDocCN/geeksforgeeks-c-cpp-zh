@@ -15,7 +15,7 @@
 
 **语法**
 
-```
+```cpp
 int iscntrl ( int c ); 
 
 ```
@@ -31,7 +31,7 @@ int iscntrl ( int c );
 
     示例:
 
-    ```
+    ```cpp
     Input : string='My name \n is \n Ayush'
     Output :2
 
@@ -40,7 +40,7 @@ int iscntrl ( int c );
 
     ```
 
-    ```
+    ```cpp
     // CPP program to count control characters in a string
     #include <iostream>
     #include <cstring>
@@ -71,7 +71,7 @@ int iscntrl ( int c );
 
     输出:
 
-    ```
+    ```cpp
     2
 
     ```
@@ -83,7 +83,7 @@ int iscntrl ( int c );
     3\. Print the final string from the standard output.
     Examples:
 
-    ```
+    ```cpp
     Input : string='My name is \n Ayush'
     Output :My name is
 
@@ -92,7 +92,7 @@ int iscntrl ( int c );
 
     ```
 
-    ```
+    ```cpp
     // CPP program to print a string until a control character
     #include <iostream>
     #include <cstring>
@@ -123,7 +123,7 @@ int iscntrl ( int c );
 
     输出:
 
-    ```
+    ```cpp
     My name is
 
     ```

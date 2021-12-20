@@ -5,7 +5,7 @@
 给定一个字符串，任务是打印给定字符串中长度为 2 的所有不同子字符串。所有子字符串都应该按照字典顺序打印。
 示例:
 
-```
+```cpp
 Input: str = "abcab"
 Output: ab-2
         bc-1
@@ -22,7 +22,7 @@ Output: xy-1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ STL based program to print all distinct
 // substrings of size 2 and their counts.
 #include<bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Distinct sub-strings with counts:
 aa-1 ab-2 ac-4 as-1 ba-1 bc-1 ca-4 cd-1 dc-1 dd-1 ds-1 kl-1 la-1 sd-1 sk-1 ss-2 
 ```

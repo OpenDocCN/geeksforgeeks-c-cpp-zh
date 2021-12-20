@@ -11,7 +11,7 @@ T5】语法:char *获取(char *str)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -31,7 +31,7 @@ T5】语法: char *fgets(char *str，int size，FILE *stream)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #define MAX_LIMIT 20
 int main()
@@ -49,7 +49,7 @@ t5】例: scanf("%[^\n]%*c“，str)；
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -71,7 +71,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main() {

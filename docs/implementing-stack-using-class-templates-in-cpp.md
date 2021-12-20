@@ -16,7 +16,7 @@ C++为支持模板增加了两个新关键词:*【模板】*和*【类型名】*
 
 ## c++ 14
 
-```
+```cpp
 // C++ Program to Implement stack using Class Templates
 
 // Including input output libraries
@@ -192,7 +192,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Inserted element 2
 Inserted element 54
 Inserted element 255

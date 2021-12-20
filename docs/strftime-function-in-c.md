@@ -6,7 +6,7 @@
 
 strftime()是 C 语言中的一个函数，用来格式化日期和时间。它位于头文件 time.h 下，该文件还包含一个名为 struct tm 的结构，用于保存时间和日期。strftime()的语法如下所示:
 
-```
+```cpp
 size_t strftime(char *s, size_t max, const char *format, 
                                           const struct tm *tm); 
 ```
@@ -33,7 +33,7 @@ strftime()函数根据在 format 中指定的格式化规则格式化分解的�
 %m =以十进制数表示的月份(01-12)
 %M =分钟(分钟
 
-```
+```cpp
 struct tm 
 {
    int tm_sec;         // seconds
@@ -50,7 +50,7 @@ struct tm
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // working of strftime()
 #include <stdlib.h>
@@ -80,7 +80,7 @@ int main ()
 }
 ```
 
-```
+```cpp
 Formatted date & time : 03/20/17 - 02:55PM
 ```
 

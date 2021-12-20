@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <typeinfo>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_typeid;
 
 ```
@@ -26,7 +26,7 @@ class bad_typeid;
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for std::bad_typeid
 #include <bits/stdc++.h>
 
@@ -58,14 +58,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 std::bad_typeid
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for std::bad_typeid
 #include <bits/stdc++.h>
 
@@ -97,7 +97,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 std::bad_typeid
 
 ```

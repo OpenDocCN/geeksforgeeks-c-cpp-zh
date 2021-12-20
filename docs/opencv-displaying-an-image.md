@@ -7,7 +7,7 @@
 ![](img/5e060b0ebf279efc80e66c757ae96540.png)
 **代码:**
 
-```
+```cpp
 IplImage* img_file = cvLoadImage("..input\\abcd.PNG");
 ```
 
@@ -16,7 +16,7 @@ IplImage* img_file = cvLoadImage("..input\\abcd.PNG");
 
 **代码:**
 
-```
+```cpp
 if (!img_file->imageData)
 ```
 
@@ -24,7 +24,7 @@ if (!img_file->imageData)
 
 **代码:**
 
-```
+```cpp
 cvNamedWindow( “Display”, CV_WINDOW_AUTOSIZE );
 ```
 
@@ -33,7 +33,7 @@ cvNamedWindow( “Display”, CV_WINDOW_AUTOSIZE );
 
 **代码:**
 
-```
+```cpp
 cvShowImage("Display", img_file);
 ```
 
@@ -41,7 +41,7 @@ cvShowImage("Display", img_file);
 
 **代码:**
 
-```
+```cpp
 cvWaitKey(0);
 ```
 
@@ -49,7 +49,7 @@ cvWaitKey(0);
 
 **代码:**
 
-```
+```cpp
 cvReleaseImage( &img_file );
 ```
 
@@ -57,7 +57,7 @@ cvReleaseImage( &img_file );
 
 **代码:**
 
-```
+```cpp
 cvDestroyWindow("Display");
 ```
 
@@ -65,7 +65,7 @@ cvDestroyWindow("Display");
 
 ### **代码:使用 OpenCV 显示图像。**
 
-```
+```cpp
 #include <opencv2\opencv.hpp>
 #include <opencv2\highgui\highgui.hpp>
 #include <highlevelmonitorconfigurationapi.h>

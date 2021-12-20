@@ -13,7 +13,7 @@ at()和 operator[]都可以用来访问字符串中的元素。但是当 pos > =
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ implementation of std::basic_string::at
 #include <stdexcept>
 #include <iostream>
@@ -43,7 +43,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Exception caught
 basic_string::at: __n (which is 13) >= this->size() (which is 13)
 ```
@@ -53,7 +53,7 @@ basic_string::at: __n (which is 13) >= this->size() (which is 13)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ implementation of std::basic_string::operator[]
 #include <stdexcept>
 #include <iostream>
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Undefined result
 ```
 

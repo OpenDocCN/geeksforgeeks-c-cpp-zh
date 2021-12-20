@@ -20,7 +20,7 @@ c++中有 3 种访问修饰符:](https://www.geeksforgeeks.org/c-classes-and-obj
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate public
 // access modifier
 
@@ -56,7 +56,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Radius is: 5.5
 Area is: 94.985
 ```
@@ -68,7 +68,7 @@ T3】2。私有:声明为*私有*的类成员只能被类内的成员函数访�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate private
 // access modifier
 
@@ -108,7 +108,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
  In function 'int main()':
 11:16: error: 'double Circle::radius' is private
          double radius;
@@ -126,7 +126,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate private
 // access modifier
 
@@ -170,7 +170,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 Radius is: 1.5
 Area is: 7.065
 ```
@@ -183,7 +183,7 @@ Area is: 7.065
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // protected access modifier
 #include <bits/stdc++.h>
@@ -234,6 +234,6 @@ int main() {
 
 **输出**:
 
-```
+```cpp
 id_protected is: 81
 ```

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 list_name.max_size()
 
 ```
@@ -17,7 +17,7 @@ list_name.max_size()
 
 下面程序举例说明列表::max_size()函数在 C++ STL 中:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::max_size() function
 #include <bits/stdc++.h>
@@ -37,7 +37,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 768614336404564650
 
 ```

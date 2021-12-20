@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```cpp
 // C++ program to demonstrate
 // protected access modifier
 
@@ -60,7 +60,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 id_protected is: 81
 
 ```

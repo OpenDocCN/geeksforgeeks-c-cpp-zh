@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```cpp
 Input : Lower = 50,
         Upper = 100,
         Count of random Number = 5 
@@ -21,7 +21,7 @@ Output contains 5 random numbers in given range.
 
 因为 C 没有生成范围内数字的内置函数，但是它有 [rand 函数](https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/)，生成从 0 到 RAND_MAX 的随机数。在 rand()的帮助下，范围内的数字可以生成为 **num = (rand() %(上–下+ 1)) +下**
 
-```
+```cpp
 // C program for generating a
 // random number in a given range.
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 7
 
 ```

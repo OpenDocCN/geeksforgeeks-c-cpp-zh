@@ -16,7 +16,7 @@ make_heap()用于将序列转换为堆。堆是一种数据结构，其中**指�
 
 下面是演示代码:
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // make_heap() using syntax 1
 
@@ -44,7 +44,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The maximum element of heap is : 11
 
 ```
@@ -60,7 +60,7 @@ The maximum element of heap is : 11
 
 下面是演示代码:
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // make_heap() using syntax 2 
 
@@ -95,14 +95,14 @@ int main() 
 
 输出:
 
-```
+```cpp
 The minimum element of heap is : 6
 
 ```
 
 **可能的应用:**该功能可用于调度。在调度中，在迭代中动态插入新元素。一次又一次地排序以获得最大值需要非常复杂的 O(nlogn)，相反，我们使用“push_heap()”函数来堆积 O(logn)时间内产生的堆。下面的代码描述了它的实现。
 
-```
+```cpp
 // C++ code to demonstrate  
 // application of make_heap() (max_heap)
 // priority scheduling
@@ -152,7 +152,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Job with maximum priority is : 19
 Job with maximum priority is : 20
 Job with maximum priority is : 30

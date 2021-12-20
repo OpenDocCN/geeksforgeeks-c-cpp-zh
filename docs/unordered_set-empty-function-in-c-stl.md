@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 map_name.empty()
 
 ```
@@ -19,7 +19,7 @@ map_name.empty()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::empty function
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 true
 false
 
@@ -61,7 +61,7 @@ false
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::empty function
 #include <iostream>
@@ -87,7 +87,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 false
 
 ```

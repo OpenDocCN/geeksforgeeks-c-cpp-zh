@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_multiset_name*.max_bucket_count()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::maximum_bucket_count() function
 #include <bits/stdc++.h>
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The maximum bucket count is: 1152921504606846975
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::maximum_bucket_count() function
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The maximum bucket count is: 1152921504606846975
 
 ```

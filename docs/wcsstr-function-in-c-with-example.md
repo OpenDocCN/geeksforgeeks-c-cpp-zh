@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t* wcsstr(const wchar_t* dest, const wchar_t* src);
 ```
 
@@ -25,7 +25,7 @@ wchar_t* wcsstr(const wchar_t* dest, const wchar_t* src);
 
 **例 1:** 找不到源时，返回 null
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcsstr() function.
 
@@ -52,7 +52,7 @@ int main()
 
 **示例 2:** 当源为空时，返回目标字符串
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcsstr() function.
 
@@ -77,14 +77,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geeks Are Geeks
 
 ```
 
 **例 3:** 找到源后，返回源的目的地。
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcsstr() function.
 
@@ -109,7 +109,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Are Geeks
 
 ```

@@ -6,7 +6,7 @@
 
 **1)使用尺寸()**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -28,14 +28,14 @@ int main()
 
 输出:
 
-```
+```cpp
 50
 100
 ```
 
 **2)使用 back()** 我们可以使用 back()访问和修改最后一个值。
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,7 +56,7 @@ int main()
 
 输出:
 
-```
+```cpp
 50
 100
 ```

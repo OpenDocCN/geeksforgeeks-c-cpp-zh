@@ -25,7 +25,7 @@
 
 <u>**语法:**</u>
 
-```
+```cpp
 priority_queue<set<data_type>> priorityQueue 
 This stores set as an element in the max-heap priority queue
 ```
@@ -34,7 +34,7 @@ This stores set as an element in the max-heap priority queue
 
 ## <u>c++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -115,7 +115,7 @@ int main()
 
 <u>**输出**
 
-```
+```cpp
 [ 4 7 12 13 ]
 [ 1 2 7 12 ]
 [ 1 2 5 10 ]
@@ -125,7 +125,7 @@ int main()
 
 <u>**语法:**</u>
 
-```
+```cpp
 priority_queue<set<data_type>, vector<set<data_type>>, greater<set<data_type>>> priorityQueue 
 This stores set as an element in the min-heap priority queue
 ```
@@ -134,7 +134,7 @@ This stores set as an element in the min-heap priority queue
 
 <u>T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

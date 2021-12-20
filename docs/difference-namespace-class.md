@@ -10,7 +10,7 @@
 
 3.您可以重新打开一个名称空间，并跨翻译单元添加内容。你不能在课堂上这样做。例如:-
 
-```
+```cpp
 namespace A {
 int f1();
 }
@@ -22,7 +22,7 @@ int f2();
 
 是合法的，但是:
 
-```
+```cpp
 class A {
     int f1();
 };
@@ -36,7 +36,7 @@ class A { // illegal
 
 4.可以有未命名的命名空间，但不能有未命名的类。例如:
 
-```
+```cpp
 namespace { // fine
 
 // some code....
@@ -48,7 +48,7 @@ class { // illegal
 
 5.如果名称的长度使代码难以阅读，或者在不能使用指令的头文件中键入代码很繁琐，我们可以创建一个名称空间别名，作为实际名称的缩写。例如:
 
-```
+```cpp
 #include <iostream>
 
 namespace foo {
@@ -69,13 +69,13 @@ int main()
 
 输出:
 
-```
+```cpp
  42 
 ```
 
 在类的情况下，我们必须使用 typedef。
 
-```
+```cpp
 class Car {
 public:
     typedef std::vector<Wheel> WheelCollection;

@@ -25,7 +25,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the coloring the
 // background and text with
 // different color

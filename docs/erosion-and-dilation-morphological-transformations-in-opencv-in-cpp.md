@@ -66,7 +66,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement the erosion
 // and dilation
 #include <iostream>

@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class A
 {
   public:
@@ -37,7 +37,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -64,7 +64,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 0
 ```
 

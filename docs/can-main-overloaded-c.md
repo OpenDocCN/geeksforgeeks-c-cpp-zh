@@ -4,7 +4,7 @@
 
 预测后续 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main(int a)
@@ -35,7 +35,7 @@ int main()
 
 要在 C++中重载 main()函数，需要使用类并将 main 声明为成员函数。请注意，在 C、C++、Java 和 C#等编程语言中，main 不是保留字。例如，我们可以声明一个名为 main 的变量，试试下面的例子:
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -47,13 +47,13 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 ```
 
 下面的程序展示了一个类中 main()函数的重载。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Test
@@ -87,7 +87,7 @@ int main()
 
 节目的结果是:
 
-```
+```cpp
 3
 I love C++
 9 6

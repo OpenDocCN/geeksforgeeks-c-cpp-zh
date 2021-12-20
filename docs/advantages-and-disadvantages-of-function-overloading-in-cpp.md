@@ -19,7 +19,7 @@
 
 插图:
 
-```
+```cpp
 int fun();
 float fun();
 ```
@@ -33,7 +33,7 @@ float fun();
 
 ## c++
 
-```
+```cpp
 // Importing input output stream files
 #include <iostream>
 
@@ -86,7 +86,7 @@ int main()
 
 **输出**
 
-```
+```cpp
  Here is int 10
  Here is float 10.1
  Here is char* ten

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```cpp
 void exit(int status);
 ```
 
@@ -35,7 +35,7 @@ void exit(int status);
 
 **语法:**
 
-```
+```cpp
 break;
 ```
 
@@ -60,7 +60,7 @@ break;
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of break statement
 #include <iostream>
@@ -97,7 +97,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the use
 // of break statement
 #include <stdio.h>
@@ -132,7 +132,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 value of a: 10
 value of a: 11
 value of a: 12
@@ -150,7 +150,7 @@ The break statement executed when when the value  became 16
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // use of exit()
 #include <iostream>
@@ -178,7 +178,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // use of exit()
 #include <stdio.h>
@@ -206,7 +206,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 i = 1     i = 2
 ```
 

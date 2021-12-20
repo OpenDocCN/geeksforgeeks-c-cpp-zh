@@ -6,7 +6,7 @@ C/C++中的 **mbsrtowcs(** )函数将窄的多字节字符序列转换为宽的�
 
 **语法:**
 
-```
+```cpp
 size_t mbsrtowcs( wchar_t* dest, const char** src, size_t len, mbstate_t* ps )
 ```
 
@@ -30,7 +30,7 @@ size_t mbsrtowcs( wchar_t* dest, const char** src, size_t len, mbstate_t* ps )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate 
 // mbsrtowcs function
 #include <bits/stdc++.h>
@@ -63,7 +63,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Number of wide characters written = 2
 Wide character = Ý£Ý?
 
@@ -71,7 +71,7 @@ Wide character = Ý£Ý?
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate 
 // mbsrtowcs function
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Number of wide characters written  = 4
 Wide character = zÃ?æ°´ð??
 

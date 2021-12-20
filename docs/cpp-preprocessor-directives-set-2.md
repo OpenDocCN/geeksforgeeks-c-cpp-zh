@@ -20,7 +20,7 @@
 
         **语法:**
 
-        ```
+        ```cpp
         #ifdef MACRO
             controlled text
         #endif /* macroname */
@@ -30,7 +30,7 @@
     2.  **#ifndef**: We know that the in #ifdef directive if the macroname is defined, then the block of statements following the #ifdef directive will execute normally but if it is not defined, the compiler will simply skip this block of statements. The #ifndef directive is simply opposite to that of the #ifdef directive. In case of #ifndef , the block of statements between #ifndef and #endif will be executed only if the macro or the identifier with #ifndef is not defined.
         **Syntax :**
 
-        ```
+        ```cpp
         ifndef macro_name
             statement1;
             statement2;
@@ -48,7 +48,7 @@
     3.  **#if, #else and #elif**: These directives works together and control compilation of portions of the program using some conditions. If the condition with the #if directive evaluates to a non zero value, then the group of line immediately after the #if directive will be executed otherwise if the condition with the #elif directive evaluates to a non zero value, then the group of line immediately after the #elif directive will be executed else the lines after #else directive will be executed.
         **Syntax:**
 
-        ```
+        ```cpp
         #if macro_condition
            statements
         #elif macro_condition
@@ -61,7 +61,7 @@
 
         示例:
 
-        ```
+        ```cpp
         #include<iostream>
 
         #define gfg 7
@@ -85,7 +85,7 @@
 
         输出:
 
-        ```
+        ```cpp
         50
 
         ```
@@ -96,7 +96,7 @@
     However we can control what information should the compiler provide during errors in compilation using the #line directive.
     **Syntax:**
 
-    ```
+    ```cpp
     #line number "filename"
 
     ```
@@ -107,7 +107,7 @@
 *   **Error directive ( #error )**: This directive aborts the compilation process when it is found in the program during compilation and produces an error which is optional and can be specified as a parameter.
     **Syntax:**
 
-    ```
+    ```cpp
     #error optional_error
 
     ```
@@ -115,7 +115,7 @@
     这里， **optional_error** 是用户指定的任何错误，当在程序中发现该指令时，将显示该错误。
     例:
 
-    ```
+    ```cpp
     #ifndef GeeksforGeeks
     #error GeeksforGeeks not found !
     #endif  
@@ -123,7 +123,7 @@
 
     输出:
 
-    ```
+    ```cpp
     error: #error GeeksforGeeks not found !
 
     ```

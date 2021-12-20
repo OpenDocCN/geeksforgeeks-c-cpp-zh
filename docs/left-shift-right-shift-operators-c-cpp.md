@@ -16,7 +16,7 @@
 
 ## C
 
-```
+```cpp
 /* C++ Program to demonstrate use of left shift 
    operator */
 #include<stdio.h>
@@ -36,7 +36,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 /* C++ Program to demonstrate use of left shift 
    operator */
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 a<<1 = 10
 b<<1 = 18
 ```
@@ -79,7 +79,7 @@ b<<1 = 18
 
 ## C++
 
-```
+```cpp
 /* C++ Program to demonstrate use of right
    shift operator */
 #include <iostream>
@@ -104,7 +104,7 @@ int main()
 
 ## C
 
-```
+```cpp
 /* C++ Program to demonstrate use of right
    shift operator */
 #include <stdio.h>
@@ -127,7 +127,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 a>>1 = 2
 b>>1 = 4
 ```
@@ -141,7 +141,7 @@ b>>1 = 4
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -161,7 +161,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -177,7 +177,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 x << 1 = 38
 x >> 1 = 9
 y << 61 = 6917529027641081856
@@ -188,7 +188,7 @@ y << 61 = 6917529027641081856
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -206,7 +206,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 { 
@@ -220,7 +220,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 pow(2, 3) = 8
 pow(2, 4) = 16
 ```

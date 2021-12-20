@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate calling
 // a function before declaration
 #include <stdio.h>
@@ -43,7 +43,7 @@ int fun()
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate using a
 // normal pointer with const variable
 #include <stdio.h>
@@ -70,7 +70,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate
 // using typecasted pointers
 #include <stdio.h>
@@ -94,7 +94,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate declaring
 // constant values without initializing:
 #include <stdio.h>
@@ -111,7 +111,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate using
 // specific keywords as variable names
 #include <stdio.h>

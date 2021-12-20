@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int getbkcolor();
 
 ```
@@ -16,7 +16,7 @@ int getbkcolor();
 由于 getbkcolor()返回一个对应于背景颜色的整数值，所以下面是 color 值的表格。
 **颜色表:**
 
-```
+```cpp
 COLOR               INT VALUES
 -------------------------------
 BLACK                   0
@@ -40,7 +40,7 @@ WHITE                  15
 
 **背景色为黑色时:**
 
-```
+```cpp
 // C Implementation for getbkcolor function
 #include <graphics.h>
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 **当背景颜色不是黑色时:**
 
-```
+```cpp
 // C Implementation for getbkcolor function
 #include <graphics.h>
 #include <stdio.h>

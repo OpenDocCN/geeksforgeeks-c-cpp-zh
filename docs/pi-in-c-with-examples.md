@@ -10,21 +10,21 @@ T5】进场:
 1.  π的值使用 [acos()函数](https://www.geeksforgeeks.org/acos-function-in-c-stl/)计算，该函数返回一个介于**[-π，π]**之间的数值。
 2.  因为使用 **acos(0.0)** 将返回**π/2**的值。因此要得到**π**的值:
 
-    ```
+    ```cpp
     double pi = 2*acos(0.0);
 
     ```
 
 3.  现在由上述方程得到的值估计为:
 
-    ```
+    ```cpp
     printf("%f\n", pi);
 
     ```
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program for the above approach
 
 #include "bits/stdc++.h"
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3.141593
 
 ```

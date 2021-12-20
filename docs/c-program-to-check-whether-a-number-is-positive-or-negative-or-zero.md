@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input: A = 2
 Output: 2 is positive
 
@@ -21,7 +21,7 @@ Output: -554 is negative
 
 下面是查找一个数字是正数、负数还是零的 C 程序。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the number A =: -54
 -54 is negative.
 

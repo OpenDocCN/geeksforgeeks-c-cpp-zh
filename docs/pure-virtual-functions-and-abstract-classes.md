@@ -7,7 +7,7 @@ c++中的纯虚函数(或抽象函数)是[虚函数](https://www.geeksforgeeks.o
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // An abstract class
 class Test
 {   
@@ -25,7 +25,7 @@ public:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -55,7 +55,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 fun() called
 ```
 
@@ -83,7 +83,7 @@ Test t；
 
 **输出:**
 
-```
+```cpp
 Compiler Error: cannot declare variable 't' to be of abstract
  type 'Test' because the following virtual functions are pure 
 within 'Test': note:     virtual void Test::show() 
@@ -94,7 +94,7 @@ within 'Test': note:     virtual void Test::show()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -120,7 +120,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 In Derived 
 ```
 
@@ -129,7 +129,7 @@ In Derived
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Base
@@ -147,7 +147,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 Compiler Error: cannot declare variable 'd' to be of abstract type 
 'Derived'  because the following virtual functions are pure within
 'Derived': virtual void Base::show() 
@@ -158,7 +158,7 @@ Compiler Error: cannot declare variable 'd' to be of abstract type
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -197,7 +197,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 Constructor of base called
 x = 4, y = 5
 Constructor of base called

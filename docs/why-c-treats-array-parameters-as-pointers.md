@@ -11,7 +11,7 @@
 
 fun()的以下两个定义看起来不同，但对编译器来说，它们的意思完全相同。
 
-```
+```cpp
 void fun(int arr[]) { 
     // body
 }
@@ -31,7 +31,7 @@ void fun(int *arr) {
 
 T5】CT7
 
-```
+```cpp
 // C Program to demonstrate that C treats array parameters
 // as pointers
 #include <stdio.h>

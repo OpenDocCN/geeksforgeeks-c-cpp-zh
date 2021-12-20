@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        atan (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of atan() function.
 
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The atan of (-2,0) is (-1.10715,0)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of atan() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The atan of (0,2) is (1.5708,0.549306)
 
 ```

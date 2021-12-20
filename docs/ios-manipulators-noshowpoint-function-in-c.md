@@ -5,7 +5,7 @@
 C++中**流操纵器**的 **noshowpoint()** 方法用于清除指定字符串流的 showpoint 格式标志。只有当浮点值具有十进制值时，此标志才会以十进制显示浮点值。
 **语法:**
 
-```
+```cpp
 ios_base& noshowpoint (ios_base& str)
 ```
 
@@ -15,7 +15,7 @@ ios_base& noshowpoint (ios_base& str)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowpoint() function
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 noshowpoint flag: 10
 20
 ```
@@ -53,7 +53,7 @@ noshowpoint flag: 10
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowpoint() function
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 noshowpoint flag: 30.122
 ```
 

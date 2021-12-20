@@ -8,13 +8,13 @@
 
 为了快速输入和输出，通常建议使用 scanf/printf 而不是 cin/cout。但是，通过在 main()函数中包含以下两行，您仍然可以使用 cin/cout 并获得与 scanf/printf 相同的速度:
 
-```
+```cpp
     ios_base::sync_with_stdio(false);
 ```
 
 如果在程序执行其第一个输入或输出操作之前调用它，它将打开或关闭所有 C++标准流与其对应的标准 C 流的同步。添加 IOs _ base::sync _ with _ stdio(false)；(默认情况下为真)在任何 I/O 操作之前，避免这种同步。它是 std::ios_base 函数的静态成员。
 
-```
+```cpp
     cin.tie(NULL);
 ```
 
@@ -22,13 +22,13 @@ tie()是一种方法，它简单地保证在 std::cin 接受输入之前刷新 s
 
 此外，您可以通过单个包含来包含标准模板库(STL):
 
-```
+```cpp
     #include <bits/stdc++.h>
 ```
 
 因此，您的竞争性编程模板可能如下所示:
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -49,7 +49,7 @@ c++ 4 . 9 . 2 中的解决方案
 
 ## C++
 
-```
+```cpp
 // A normal IO example code
 #include <bits/stdc++.h>
 using namespace std;
@@ -73,7 +73,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // A fast IO program
 #include <bits/stdc++.h>
 using namespace std;
@@ -102,7 +102,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 void fastscan(int &number)
 {
     //variable to indicate sign of input number

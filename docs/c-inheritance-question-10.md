@@ -4,7 +4,7 @@
 
 以下程序的输出？
 
-```
+```cpp
 #include <iostream>
 #include<string>
 using namespace std;
@@ -44,21 +44,21 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 This is Derived class
 This is Base class
 ```
 
 **(B)**
 
-```
+```cpp
 This is Base class
 This is Derived class
 ```
 
 **(C)**
 
-```
+```cpp
 This is Base class
 This is Base class
 ```

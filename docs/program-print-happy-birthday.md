@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to print Happy Birthday
 #include<bits/stdc++.h>
 using namespace std;
@@ -123,7 +123,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print
 // Happy Birthday
 
@@ -262,7 +262,7 @@ public static void main(String arg[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to 
 # print Happy Birthday
 # Print first row
@@ -395,7 +395,7 @@ print()
 
 ## C#
 
-```
+```cpp
 // C# program to print Happy Birthday
 using System; 
 
@@ -515,7 +515,7 @@ class GFG 
 
 Output :
 
-```
+```cpp
     @ @  @@  @@@ @@@ @ @          
     @ @ @  @ @ @ @ @ @ @          
     @@@ @@@@ @@@ @@@ @@@          

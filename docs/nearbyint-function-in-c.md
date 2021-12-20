@@ -6,7 +6,7 @@ nearbyint()函数在 *cmath* 头文件中定义。该函数使用当前的舍入
 
 **语法:**
 
-```
+```cpp
 float nearbyint(float x);
 
 or,
@@ -25,7 +25,7 @@ long double nearbyint(long double x);
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of nearbyint() function.
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of x = 2.7
 Round off value of x = 3
 
@@ -52,7 +52,7 @@ Round off value of x = 3
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of nearbyint() function.
 
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of x = 3.2
 Round off value of x = 3
 

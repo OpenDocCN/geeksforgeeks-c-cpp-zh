@@ -5,7 +5,7 @@
 **stable_partition( )** 算法排列由 start 和 end 定义的序列，使得 pfn 指定的谓词返回 true 的所有元素都出现在谓词返回 false 的元素之前。分区是稳定的。这意味着序列的相对顺序被保留。
 **语法:**
 
-```
+```cpp
 template 
 BiIter stable_partition(BiIter start, BiIter end, UnPred pfn);
 
@@ -13,7 +13,7 @@ BiIter stable_partition(BiIter start, BiIter end, UnPred pfn);
 
 **参数:**
 
-```
+```cpp
 start: the range of elements to reorder
 end: the range of elements to reorder
 pfn: User-defined predicate function object that 
@@ -28,7 +28,7 @@ for which the predicate is false.
 **该函数试图分配一个临时缓冲区。如果分配失败，则选择效率较低的算法。**
 **例 1:**
 
-```
+```cpp
 // CPP program to illustrate stable_partition
 #include <iostream>
 #include <algorithm>
@@ -47,14 +47,14 @@ int main()
 
 输出:
 
-```
+```cpp
 6 9 1 2 7 5 8 0 0 
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // CPP program to illustrate stable_partition
 #include <iostream>
 #include <algorithm> // std::stable_partition
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 odd numbers: 1 3 5 7 9
 even numbers: 2 4 6 8
 
@@ -96,7 +96,7 @@ even numbers: 2 4 6 8
 
 **例 3:**
 
-```
+```cpp
 // CPP program to illustrate stable_partition
 #include <algorithm>
 #include <deque>
@@ -144,7 +144,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Unpartitioned values:         1 2 3 4 5 6 7 8 9 10 
 Partitioned values:         10 2 8 4 6 5 7 3 9 1 
 Stable partitioned values:     2 4 6 8 10 1 3 5 7 9 

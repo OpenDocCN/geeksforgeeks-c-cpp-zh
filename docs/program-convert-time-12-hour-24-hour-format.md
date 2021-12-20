@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : A single string containing a time in 12-hour 
 clock format(hh:mm:ss AM or hh:mm:ss PM
         where 01 <= hh <= 12 or 01 <= mm,ss <= 59 
@@ -20,7 +20,7 @@ Output : 19:05:45
 
 ## C++
 
-```
+```cpp
 // C++ program to convert 12 hour to 24 hour
 // format
 #include<iostream>
@@ -79,7 +79,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to convert 12 hour
 // format to  24 hour format
 class GFG
@@ -139,7 +139,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to convert 12
 # hour to 24 hour format
 def print24(s):
@@ -188,7 +188,7 @@ if __name__=="__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to convert 12 hour
 // format to 24 hour format
 using System;
@@ -251,7 +251,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript program to convert 12 hour
 // format to 24 hour format
@@ -309,7 +309,7 @@ public static void Main(String[] args)
 
 **输出:**
 
-```
+```cpp
 19:05:45
 ```
 
@@ -317,7 +317,7 @@ public static void Main(String[] args)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -360,7 +360,7 @@ class GFG {
 
 **输出:**
 
-```
+```cpp
 19:05:45
 ```
 

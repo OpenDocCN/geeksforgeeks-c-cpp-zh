@@ -5,7 +5,7 @@
 头文件 graphics.h 包含 **putpixel()** 函数，该函数在指定颜色的位置(x，y)绘制像素。
 **语法:**
 
-```
+```cpp
 void putpixel(int x, int y, int color);
 
 where, 
@@ -19,7 +19,7 @@ the color of the pixel.
 
 下面是 putpixel()函数的实现。
 
-```
+```cpp
 // C Implementation for putpixel()
 #include <graphics.h>
 #include <stdio.h>

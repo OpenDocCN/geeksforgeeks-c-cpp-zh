@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tan(varr);
 
 ```
@@ -19,7 +19,7 @@ tan(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tan() function.
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.255342 0.546302 0.931596 1.55741
 
@@ -62,7 +62,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tan() function.
 
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 2.57215 -0.00159265 -3.38052 0
 

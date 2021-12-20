@@ -4,7 +4,7 @@
 
 void 指针是一个没有关联数据类型的指针。void 指针可以保存任何类型的地址，并且可以被类型化为任何类型。
 
-```
+```cpp
 int a = 10;
 char b = 'x';
 
@@ -15,7 +15,7 @@ p = &b; // void pointer holds address of char 'b'
 **void 指针的优点:**
 **1)** malloc()和 calloc()返回 void *类型，这允许这些函数用于分配任何数据类型的内存(仅仅因为 void *)
 
-```
+```cpp
 int main(void)
 {
     // Note that malloc() returns void * which can be 
@@ -31,7 +31,7 @@ int main(void)
 **一些有趣的事实:**
 **1)** 无效指针不能被取消引用。例如，以下程序不编译。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -44,13 +44,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: 'void*' is not a pointer-to-object type 
 ```
 
 以下程序编译并运行良好。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -63,13 +63,13 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 ```
 
 **2)**[C 标准](https://www.geeksforgeeks.org/c-programming-language-standard/)不允许使用空指针进行指针运算。然而，在 GNU C 中，考虑到空隙的大小是 1，这是允许的。例如，下面的程序在 gcc 中编译并运行良好。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -83,7 +83,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2
 ```
 

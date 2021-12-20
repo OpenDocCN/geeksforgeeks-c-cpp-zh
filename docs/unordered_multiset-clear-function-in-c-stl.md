@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.clear()
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.clear()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::clear() function
 #include <bits/stdc++.h>
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 14 11 11 11 12 13 13 
 Size of container after function call: 0
 
@@ -64,7 +64,7 @@ Size of container after function call: 0
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::clear() function
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 1 1 1 2 3 3 4 
 Size of container after function call: 0
 

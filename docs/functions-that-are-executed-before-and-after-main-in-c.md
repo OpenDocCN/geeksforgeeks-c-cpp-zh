@@ -6,7 +6,7 @@
 
 使用 GCC 系列的 C 编译器，我们可以在 main()之前和之后标记一些要执行的函数。所以有些启动代码可以在 main()启动之前执行，有些清理代码可以在 main()结束之后执行。例如，在下面的程序中，在 main()之前调用 myStartupFun()，在 main()之后调用 myCleanupFun()。
 
-```
+```cpp
 #include<stdio.h>
 
 /* Apply the constructor attribute to myStartupFun() so that it
@@ -38,7 +38,7 @@ int main (void)
 
 输出:
 
-```
+```cpp
 startup code before main()
 hello
 cleanup code after main()

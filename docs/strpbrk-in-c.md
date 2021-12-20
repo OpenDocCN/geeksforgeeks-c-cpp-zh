@@ -6,7 +6,7 @@
 
 此函数**查找字符串 s1 中与 s2** 中指定的任何字符匹配的第一个字符(不包括终止空字符)。
 
-```
+```cpp
 Syntax : 
 char *strpbrk(const char *s1, const char *s2)
 
@@ -20,7 +20,7 @@ matches one of the characters in s2, else returns NULL.
 
 ```
 
-```
+```cpp
 // C code to demonstrate the working of
 // strpbrk
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Character not found
 First matching character: e
 
@@ -67,7 +67,7 @@ First matching character: e
 这个功能可以用在有带字母串
 的人获胜的彩票游戏中，也就是说这个功能可以用在第一个人获胜的任何地方。
 
-```
+```cpp
 // C code to demonstrate practical application
 // of strpbrk
 #include <stdio.h>
@@ -106,7 +106,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Better luck next time
 Congrats u have won
 

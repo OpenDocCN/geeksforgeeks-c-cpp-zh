@@ -10,7 +10,7 @@ push()函数用于在优先级队列中插入一个元素。元素被添加到�
 
 **语法:**
 
-```
+```cpp
 *pqueuename*.push(*value*)
 Parameters :
 The value of the element to be inserted is passed as the parameter.
@@ -22,7 +22,7 @@ the parameter passed in the priority queue.
 
 示例:
 
-```
+```cpp
 Input :  pqueue
          pqueue.push(6);
 Output : 6
@@ -38,7 +38,7 @@ Output : 5, 3, 2, 1
 1.如果传递的值与优先级队列类型不匹配，则显示错误。
 2。如果参数不抛出任何异常，则显示无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of push() function
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 3 2 1
 
 ```
@@ -76,7 +76,7 @@ pop()函数用于移除优先级队列的顶部元素。
 
 **语法:**
 
-```
+```cpp
 *pqueuename*.pop()
 Parameters :
 No parameters are passed.
@@ -88,7 +88,7 @@ queue is removed.
 
 示例:
 
-```
+```cpp
 Input :  pqueue = 3, 2, 1
          myqueue.pop();
 Output : 2, 1
@@ -104,7 +104,7 @@ Output : 3, 2, 1
 1.如果传递参数，则显示错误。
 2。如果参数不抛出任何异常，则显示无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of pop() function
 #include <iostream>
@@ -134,7 +134,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0
 
 ```
@@ -142,7 +142,7 @@ int main()
 **应用:push()和 pop()**
 给定若干个整数，将它们加到优先级队列中，不用 size 函数就能求出优先级队列的大小。
 
-```
+```cpp
 Input : 5, 13, 0, 9, 4
 Output: 5
 
@@ -153,7 +153,7 @@ Output: 5
 2。不断弹出优先级队列的元素，直到它变成空的，并增加计数器变量。
 3。打印计数器变量。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of push() and pop() function
 #include <iostream>
@@ -183,7 +183,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```

@@ -13,7 +13,7 @@
 
 ## C
 
-```
+```cpp
 struct tm {
     // seconds,  range 0 to 59
     int tm_sec;
@@ -74,7 +74,7 @@ gmtime()和 asctime()的格式相同 |
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <time.h>
 int main(void)
@@ -90,7 +90,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Tue Aug  6 09:00:29 2019
 ```
 
@@ -98,7 +98,7 @@ Tue Aug  6 09:00:29 2019
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <time.h>
 int main(void)
@@ -114,7 +114,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Tue Aug  6 09:00:31 2019
 ```
 
@@ -123,7 +123,7 @@ Tue Aug  6 09:00:31 2019
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <time.h>
 int main(void)
@@ -142,7 +142,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Sum of 4196144 and 0 is 4196144
 Time taken to print sum is 0.00 seconds
 ```
@@ -151,7 +151,7 @@ Time taken to print sum is 0.00 seconds
 
 ## C
 
-```
+```cpp
 #include <math.h>
 #include <stdio.h>
 #include <time.h>
@@ -189,7 +189,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The number of primes lower than 10, 000 is: 1229
 No. of clicks 2837 clicks (0.002837 seconds).
 ```
@@ -198,7 +198,7 @@ No. of clicks 2837 clicks (0.002837 seconds).
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <time.h>
 int main()
@@ -230,6 +230,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Time is 09:00AM.
 ```

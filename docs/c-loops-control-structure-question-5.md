@@ -4,7 +4,7 @@
 
 预测以下程序的输出:
 
-```
+```cpp
 #include <stdio.h>
 #define EVEN 0
 #define ODD 1

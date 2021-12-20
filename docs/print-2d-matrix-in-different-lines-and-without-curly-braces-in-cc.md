@@ -4,7 +4,7 @@
 
 以下是打印 2D 矩阵的一般方法，即每行都以单独的行打印。
 
-```
+```cpp
 for (int i = 0; i < m; i++)
 {
    for (int j = 0; j < n; j++)
@@ -23,7 +23,7 @@ for (int i = 0; i < m; i++)
 
 我们可以简单地删除内部花括号，因为有一个单行的内部 for 循环。如何去掉外花括号？下面是解决方案。
 
-```
+```cpp
 // C++ program to print a matrix line by line without
 // using curly braces.
 #include<iostream>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3
 4 5 6
 ```

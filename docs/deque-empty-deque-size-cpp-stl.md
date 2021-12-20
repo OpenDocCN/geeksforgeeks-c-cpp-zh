@@ -9,7 +9,7 @@
 empty()函数用于检查 deque 容器是否为空。这是来自 [C++标准模板库(STL)](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) 的内置函数。该功能属于 **<德清>** 头文件。该功能返回**真**或**假**，具体取决于德格是否为空。
 **语法:**
 
-```
+```cpp
 dequename.empty()
 ```
 
@@ -17,7 +17,7 @@ dequename.empty()
 
 **示例:**
 
-```
+```cpp
 Input :   mydeque
           mydeque.empty();
 Output :  True
@@ -34,7 +34,7 @@ Output :  False
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Implementation of empty() function
 #include <deque>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 False
 ```
 
@@ -68,7 +68,7 @@ False
 
 给定一组整数，求所有整数的和。
 
-```
+```cpp
 Input : 1, 8, 3, 6, 2
 Output: 20
 ```
@@ -81,7 +81,7 @@ Output: 20
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Application of empty() function
 #include <deque>
@@ -111,7 +111,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 20
 ```
 
@@ -120,7 +120,7 @@ int main()
 size()函数用于返回 deque 容器的大小或 deque 容器中的元素数量。这是一个来自 C++标准模板库(STL)的内置函数。该功能属于 **<德清>** 头文件。该函数要么返回一个数字，演示 deque 在该实例中持有的元素总数。
 **语法:**
 
-```
+```cpp
 dequename.size()
 ```
 
@@ -128,7 +128,7 @@ dequename.size()
 
 **示例:**
 
-```
+```cpp
 Input :   mydeque = 0, 1, 2
           mydeque.size();
 Output :  3
@@ -145,7 +145,7 @@ Output :  6
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Implementation of size() function
 #include <deque>
@@ -172,7 +172,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5
 ```
 
@@ -180,7 +180,7 @@ int main()
 
 给定一组整数，求所有整数的和。
 
-```
+```cpp
 Input : 1, 8, 3, 6, 2
 Output: 20
 ```
@@ -193,7 +193,7 @@ Output: 20
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // Application of size() function
 #include <deque>
@@ -223,7 +223,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 20
 ```
 

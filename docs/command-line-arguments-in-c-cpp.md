@@ -4,7 +4,7 @@
 
 C/C++最重要的功能是 main()函数。它主要是用 int 的返回类型定义的，没有参数:
 
-```
+```cpp
 int main() { /* ... */ } 
 
 ```
@@ -12,14 +12,14 @@ int main() { /* ... */ }
 我们也可以用 C 和 C++给出命令行参数。在操作系统的命令行外壳中，命令行参数位于程序名称之后。
 为了传递命令行参数，我们通常用两个参数定义 main():第一个参数是命令行参数的数量，第二个参数是命令行参数的列表。
 
-```
+```cpp
 int main(int argc, char *argv[]) { /* ... */ }
 
 ```
 
 或者
 
-```
+```cpp
 int main(int argc, char **argv) { /* ... */ }
 
 ```
@@ -32,7 +32,7 @@ int main(int argc, char **argv) { /* ... */ }
 
 为了更好的理解，在你的 linux 机器上运行这段代码。
 
-```
+```cpp
 // Name of program mainreturn.cpp
 #include <iostream>
 using namespace std;
@@ -51,7 +51,7 @@ int main(int argc, char** argv)
 
 输入:
 
-```
+```cpp
 $ g++ mainreturn.cpp -o main 
 $ ./main geeks for geeks
 
@@ -59,7 +59,7 @@ $ ./main geeks for geeks
 
 输出:
 
-```
+```cpp
 You have entered 4 arguments:
 ./main
 geeks
@@ -81,7 +81,7 @@ geeks
 
 **注意:**您可以传递所有由空格分隔的命令行参数，但是如果参数本身有空格，那么您可以通过将它们放在双引号“”或单引号中来传递这些参数。
 
-```
+```cpp
 // C program to illustrate
 // command line arguments
 #include<stdio.h>
@@ -107,7 +107,7 @@ int main(int argc,char* argv[])
 
 1.  **无参数:**当编译和执行上述代码时，不传递任何参数，它会产生以下输出。
 
-    ```
+    ```cpp
     $ ./a.out
     Program Name Is: ./a.out
     No Extra Command Line Argument Passed Other Than Program Name
@@ -116,7 +116,7 @@ int main(int argc,char* argv[])
 
 2.  **三个参数:**当用三个参数编译并执行上述代码时，它会产生以下输出。
 
-    ```
+    ```cpp
     $ ./a.out First Second Third
     Program Name Is: ./a.out
     Number Of Arguments Passed: 4
@@ -130,7 +130,7 @@ int main(int argc,char* argv[])
 
 3.  **单参数:**当编译和执行上面的代码时，使用一个由空格分隔但在双引号内的单参数，它会产生以下输出。
 
-    ```
+    ```cpp
     $ ./a.out "First Second Third"
     Program Name Is: ./a.out
     Number Of Arguments Passed: 2
@@ -142,7 +142,7 @@ int main(int argc,char* argv[])
 
 4.  **用空格分隔的单引号中的单个参数:**当编译和执行上面的代码时，使用一个用空格分隔但在单引号中的单个参数，它会产生以下输出。
 
-    ```
+    ```cpp
     $ ./a.out 'First Second Third'
     Program Name Is: ./a.out
     Number Of Arguments Passed: 2

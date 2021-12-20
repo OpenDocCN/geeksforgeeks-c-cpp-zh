@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int raise ( int signal_ )
 ```
 
@@ -25,7 +25,7 @@ int raise ( int signal_ )
 以下程序说明了上述方法:
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // raise() function when SIGABRT is passed
 #include <csignal>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before called Signal = 0
 After called Signal = 6
 
@@ -58,7 +58,7 @@ After called Signal = 6
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // raise() function when SIGINT is passed
 #include <csignal>
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before called Signal = 0
 After called Signal = 2
 
@@ -91,7 +91,7 @@ After called Signal = 2
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the
 // raise() function when SIGTERM is passed
 #include <csignal>
@@ -116,7 +116,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before called Signal = 0
 After called Signal = 15
 
@@ -124,7 +124,7 @@ After called Signal = 15
 
 **程序 4:**
 
-```
+```cpp
 // C++ program to illustrate the
 // raise() function when SIGSEGV is passed
 #include <csignal>
@@ -149,7 +149,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before called Signal = 0
 After called Signal = 11
 
@@ -157,7 +157,7 @@ After called Signal = 11
 
 **程序 5:**
 
-```
+```cpp
 // C++ program to illustrate the
 // raise() function when SIGFPE is passed
 #include <csignal>
@@ -182,7 +182,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before called Signal = 0
 After called Signal = 8
 

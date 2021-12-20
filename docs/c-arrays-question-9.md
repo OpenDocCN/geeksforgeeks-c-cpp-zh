@@ -4,7 +4,7 @@
 
 预测以下程序的输出:
 
-```
+```cpp
 #include <stdio.h>
 #define SIZE(arr) sizeof(arr) / sizeof(*arr);
 void fun(int* arr, int n)

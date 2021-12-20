@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // Run-time Constants
 #include <iostream>
@@ -38,7 +38,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2.07335e-317
 
 ```

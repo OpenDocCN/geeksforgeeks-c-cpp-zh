@@ -32,7 +32,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // opening morphological transformation
 #include <iostream>

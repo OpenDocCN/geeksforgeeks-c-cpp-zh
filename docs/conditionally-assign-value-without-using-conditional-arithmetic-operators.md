@@ -4,7 +4,7 @@
 
 给定 4 个整数 a、b、y 和 x，其中 x 只能取 0 或 1。提出了以下问题:
 
-```
+```cpp
 If 'x' is 0, 
    Assign value 'a' to variable 'y' 
 Else (If 'x' is 1)
@@ -15,7 +15,7 @@ Else (If 'x' is 1)
 
 **示例:**
 
-```
+```cpp
 Input :  a = 5 , b = 10, x = 1
 Output :  y = 10
 
@@ -33,7 +33,7 @@ Output :  y = 5
 
 ## C++
 
-```
+```cpp
 // C/C++ program to assign value to y according
 // to value of x
 
@@ -75,7 +75,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to assign value to y according
 // to value of x
 
@@ -113,7 +113,7 @@ public class GFG {
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python 3 program to assign value to
 # y according to value of x
 
@@ -152,7 +152,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to assign value to y according
 // to value of x
 using System;
@@ -195,7 +195,7 @@ public class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to assign value
 // to y according to value of x
@@ -235,7 +235,7 @@ echo "Value assigned to 'y' is " .
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript program to assign value to y according
 // to value of x
@@ -272,7 +272,7 @@ echo "Value assigned to 'y' is " .
 
 **Output**
 
-```
+```cpp
 Value assigned to 'y' is 5
 ```
 
@@ -282,7 +282,7 @@ Value assigned to 'y' is 5
 
 ## C++
 
-```
+```cpp
 // C/C++ program to assign value to y according
 // to value of x
 
@@ -308,7 +308,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to assign value to y according
 // to value of x
 import java.io.*;
@@ -335,7 +335,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to assign value to y
 # according to value of x
 
@@ -357,7 +357,7 @@ print("Value assigned to 'y' is ", y)
 
 ## C#
 
-```
+```cpp
 // C# program to assign value to y according
 // to value of x
 using System;
@@ -385,7 +385,7 @@ public class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to assign value to y according
@@ -410,7 +410,7 @@ public class GFG
 
 **Output**
 
-```
+```cpp
 Value assigned to 'y' is 10
 ```
 

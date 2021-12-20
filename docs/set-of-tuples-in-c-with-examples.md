@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the 
 // implementation of set of
 // tuples
@@ -87,7 +87,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3
 2 1 4
 2 3 4
@@ -102,7 +102,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the 
 // implementation of set of tuples 
 // by using custom comparator
@@ -189,7 +189,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 5 8 14
 2 3 5
 2 3 4

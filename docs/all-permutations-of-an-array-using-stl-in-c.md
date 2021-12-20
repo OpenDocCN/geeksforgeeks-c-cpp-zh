@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: a[] = {1, 2, 3}
 Output:
 1  2  3  
@@ -49,7 +49,7 @@ Output:
 
 **语法:**
 
-```
+```cpp
 bool next_permutation (BidirectionalIterator first,
                        BidirectionalIterator last);
 
@@ -57,7 +57,7 @@ bool next_permutation (BidirectionalIterator first,
 
 以下是上述方法的实施情况:
 
-```
+```cpp
 // C++ program to display all permutations
 // of an array using STL in C++
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Possible permutations are:
 10  20  30  40  
 10  20  40  30  

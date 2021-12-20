@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -47,13 +47,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 macro expression area: 200
 ```
 
 *   **说明:**与第一个问题不同，这里程序中的值需要在宏中替换。一旦控件到达“区域”，它就被宏代码替换，
 
-```
+```cpp
  cout<< "macro expression area: " << length * width;
 ```
 
@@ -63,7 +63,7 @@ macro expression area: 200
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -79,13 +79,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Output of b =  23
 ```
 
 *   **描述:**是不是 sqrt(8)BUT sqrt(a+5)；将替换为(a+5 * a+5)；结果为 23，为了使其完美，宏命令应替换为
 
-```
+```cpp
  #define sqrt(x) ( (x) * (x) )
 ```
 
@@ -93,7 +93,7 @@ Output of b =  23
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 Bye Bye
 ```
@@ -119,7 +119,7 @@ Bye Bye
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -136,7 +136,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 12
 5
 ```

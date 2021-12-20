@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -26,7 +26,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -39,7 +39,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 37.67
 ```
@@ -48,7 +48,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 float round(float var)
@@ -69,7 +69,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 37.67
 ```
@@ -78,7 +78,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 float round(float var)
@@ -105,7 +105,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 37.67
 ```

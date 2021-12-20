@@ -6,7 +6,7 @@
 
 语法:
 
-```
+```cpp
 map::reverse_iterator iterator_name;
 
 ```
@@ -19,13 +19,13 @@ map::reverse_iterator iterator_name;
 **地图中的反向迭代:**
 示例:
 
-```
+```cpp
 Input:  (10, "geeks"), (20, "practice"),  (5, " contribute")
 Output : (20, "practice"),  (10, "geeks"), (5, " contribute")
 
 ```
 
-```
+```cpp
 // C++ program makes a map to iterate
 // elements in reverse order.
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 (20, practice)
 (10, geeks)
 (5, contribute)
@@ -66,7 +66,7 @@ int main()
 
 我们也可以使用 auto 来避免记住复杂的语法。
 
-```
+```cpp
 // C++ program makes a map to iterate
 // elements in reverse order with simpler
 // syntax
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 (20, practice)
 (10, geeks)
 (5, contribute)
@@ -107,7 +107,7 @@ int main()
 
 示例:
 
-```
+```cpp
 Input :  (10, "geeks"), (20, "practice"),  (5, "contribute"), 
          (20, "van"), (20, "watch"), (5, "joker")
 Output:  (20, "watch"), (20, "van"), (20, "practice"), 
@@ -115,7 +115,7 @@ Output:  (20, "watch"), (20, "van"), (20, "practice"),
 
 ```
 
-```
+```cpp
 // C++ program makes a multimap to store
 // elements in descending order.
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 (20, watch)
 (20, van)
 (20, practice)

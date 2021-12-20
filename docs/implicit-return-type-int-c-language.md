@@ -4,7 +4,7 @@
 
 预测后续 C 程序的输出。
 
-```
+```cpp
 #include <stdio.h>
 fun(int x)
 {

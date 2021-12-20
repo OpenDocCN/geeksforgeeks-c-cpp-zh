@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate Priority Queue
 #include <iostream>
 #include <queue>
@@ -48,7 +48,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The priority queue gquiz is :     30    20    10    5    1
 
 gquiz.size() : 5
@@ -64,13 +64,13 @@ C++提供了相同的语法。
 
 **语法:**
 
-```
+```cpp
 priority_queue <int, vector<int>, greater<int>> g = gq;  
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate min heap for priority queue
 #include <iostream>
 #include <queue>
@@ -113,7 +113,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The priority queue gquiz is :     1    5    10    20    30
 
 gquiz.size() : 5

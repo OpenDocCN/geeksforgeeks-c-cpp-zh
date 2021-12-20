@@ -35,7 +35,7 @@
 
 如上所述，如果您想对二进制文件执行操作，那么您必须在最后追加“b”。比如不用“w”，就得用“wb”，不用“a+”，就得用“a+b”。为了对文件执行操作，使用了一个称为文件指针的特殊指针，声明为
 
-```
+```cpp
 FILE *filePointer; 
 
 So, the file can be opened as 
@@ -49,7 +49,7 @@ filePointer = fopen(“fileName.txt”, “w”)
     文件读取操作可以使用函数 fscanf 或 fgets 来执行。这两个函数执行与 scanf 和 get 相同的操作，但带有一个附加参数，即文件指针。所以，要看你是一行一行地读文件，还是一个字符一个字符地读。
     读取文件的代码片段如下:
 
-```
+```cpp
 FILE * filePointer; 
 
 filePointer = fopen(“fileName.txt”, “r”);
@@ -60,7 +60,7 @@ fscanf(filePointer, "%s %s %s %d", str1, str2, str3, &year);
 *   **写文件–**:
     文件写操作可以通过与读操作类似的函数 fprintf 和 fputs 来执行。写入文件的代码片段如下:
 
-```
+```cpp
 FILE *filePointer ; 
 
 filePointer = fopen(“fileName.txt”, “w”);
@@ -71,7 +71,7 @@ fprintf(filePointer, "%s %s %s %d", "We", "are", "in", 2012);
 *   **关闭文件–**:
     每次成功的文件操作后，必须始终关闭一个文件。要关闭一个文件，你必须使用 fclose 函数。关闭文件的代码片段如下:
 
-```
+```cpp
 FILE *filePointer ; 
 
 filePointer= fopen(“fileName.txt”, “w”);
@@ -85,7 +85,7 @@ fclose(filePointer)
 
 ## C
 
-```
+```cpp
 // C program to Open a File,
 // Write in it, And Close the File
 
@@ -140,7 +140,7 @@ int main( )
 
 ## C
 
-```
+```cpp
 // C program to Open a File,
 // Read from it, And Close the File
 
@@ -195,7 +195,7 @@ int main( )
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 struct threeNum
@@ -229,7 +229,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 struct threeNum

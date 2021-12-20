@@ -16,7 +16,7 @@
 **方法:**连接可以借助 STL 中提供的 set_union()函数来完成。
 **语法:**
 
-```
+```cpp
 set_union (InputIterator1 first1, InputIterator1 last1,
            InputIterator2 first2, InputIterator2 last2,
            OutputIterator result);
@@ -24,7 +24,7 @@ set_union (InputIterator1 first1, InputIterator1 last1,
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to join two Vectors
 // using set_union() in STL
 
@@ -76,7 +76,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 First Vector: 1 12 45 54 71 76 
 Second Vector: 1 4 5 6 7 12 
 

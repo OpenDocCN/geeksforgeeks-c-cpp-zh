@@ -5,7 +5,7 @@
 C++中的 **strtoimax()** 函数将字符串的内容解释为指定基数的整数，并将其值返回为 intmax_t(最大宽度整数)。此函数还设置一个指向字符串最后一个有效数字字符后的第一个字符的结束指针，如果没有这样的字符，则指针设置为空。该功能在 **cinttypes** 头文件中定义。
 **语法:**
 
-```
+```cpp
 intmax_t strtoimax(const char* str, char** end, int base)
 ```
 
@@ -26,7 +26,7 @@ intmax_t strtoimax(const char* str, char** end, int base)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoimax() function
 #include <bits/stdc++.h>
@@ -65,7 +65,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Given String = 1000xyz
 Number with base 10 in string 1000
 End String points to xyz
@@ -80,7 +80,7 @@ Null pointer
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoimax() function
 #include <bits/stdc++.h>
@@ -112,7 +112,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The decimal equivalents of all numbers are 
 10
 40

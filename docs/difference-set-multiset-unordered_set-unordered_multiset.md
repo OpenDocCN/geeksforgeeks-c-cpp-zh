@@ -10,7 +10,7 @@
 (v)使用迭代器遍历。
 (六)套执行为[二叉查找树](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)。
 
-```
+```cpp
 // CPP program to demonstrate insert and 
 // delete in set
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 }
 ```
 
-```
+```cpp
 OUTPUT:
 Set elements after sort and removing duplicates:
 2 10 12 45 85 90
@@ -67,7 +67,7 @@ Set Elements after erase:
 (iii)我们可以通过给出开始迭代器和结束迭代器来删除 1 个以上的元素。
 注意:-所有其他类似于 set 的属性。
 
-```
+```cpp
 // CPP program to demonstrate insert and 
 // delete in set
 #include <bits/stdc++.h>
@@ -109,7 +109,7 @@ int main()
 }
 ```
 
-```
+```cpp
 OUTPUT:
 Multiset elements after sort
 2 10 10 12 45 85 90
@@ -125,7 +125,7 @@ Multiset Elements after erase:
 (iv)我们只能擦除给定迭代器位置的元素。
 注意:-所有其他与 set 相似的属性。
 
-```
+```cpp
 // CPP program to demonstrate insert and 
 // delete in unordered_set
 #include <bits/stdc++.h>
@@ -166,7 +166,7 @@ int main()
 }
 ```
 
-```
+```cpp
 OUTPUT:
 Unordered_set elements after sort:
 70 85 45 12 10 2 90 
@@ -181,7 +181,7 @@ Unoredered_set Elements after erase:
 (iv)我们只能擦除给定迭代器位置的元素。
 注意:-所有其他与 set 相似的属性。
 
-```
+```cpp
 // CPP program to demonstrate insert and 
 // delete in unordered_multiset
 #include <bits/stdc++.h>
@@ -222,7 +222,7 @@ int main()
 }
 ```
 
-```
+```cpp
 OUTPUT:
 Unordered-Multiset elements after sort:
 85 45 12 90 2 10 10 

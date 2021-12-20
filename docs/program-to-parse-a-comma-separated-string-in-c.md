@@ -5,7 +5,7 @@
 给定一个逗号分隔的字符串，任务是解析这个字符串并在 C++中分隔单词。
 **例:**
 
-```
+```cpp
 Input: "1,2,3,4,5"
 Output: 
 1
@@ -36,7 +36,7 @@ Geeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to parse a comma-separated string
 
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 2
 3

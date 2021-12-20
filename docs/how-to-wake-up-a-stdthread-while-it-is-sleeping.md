@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // Custom Class
 struct MyClass {
 

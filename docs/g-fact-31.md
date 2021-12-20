@@ -6,7 +6,7 @@
 
 [![](img/b85708f4ad1c9fffe1736eb54ac18bce.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191009172738/n-in-printf.jpg)
 
-```
+```cpp
 #include<stdio.h>
 
 int main()

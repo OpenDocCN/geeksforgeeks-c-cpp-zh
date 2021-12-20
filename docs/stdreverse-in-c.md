@@ -6,7 +6,7 @@ reverse()是头文件算法中的预定义函数。它被定义为上述头文�
 **注意:**使用的范围是【第一个，最后一个】，包含第一个和最后一个之间的所有元素，包括第一个指向的元素，但不包括最后一个指向的元素。
 **语法:**
 
-```
+```cpp
 void reverse(BidirectionalIterator first, BidirectionalIterator last)
 BidirectionalIterator is an iterator that can be used to access any
 elements of a container in both forward and backward direction.
@@ -14,7 +14,7 @@ elements of a container in both forward and backward direction.
 
 **示例:**
 
-```
+```cpp
 Input : 10 11 12 13 14 15 16 17
 Output :10 11 12 13 14 17 16 15
 Explanation:
@@ -27,7 +27,7 @@ from index 5 to index 7.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std::reverse() function of STL
 #include <algorithm>
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Initial Vector:
 10 11 12 13 14 15 16 17 
 Reverse only from index 5 to 7 in vector:

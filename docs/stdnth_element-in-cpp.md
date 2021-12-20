@@ -10,7 +10,7 @@
 1.  **Comparing elements using "
     syntax:
 
-    ```
+    ```cpp
     template 
     void nth_element (RandomAccessIterator first, RandomAccessIterator nth,
                       RandomAccessIterator last);
@@ -25,7 +25,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::nth_element
     #include <iostream>
     #include <algorithm>
@@ -47,7 +47,7 @@
 
     Output:
 
-    ```
+    ```cpp
     3 2 10 23 33 56 45 47 
 
     ```
@@ -57,7 +57,7 @@
 
     Syntax:
 
-    ```
+    ```cpp
     template 
     void nth_element (RandomAccessIterator first, RandomAccessIterator nth,
                       RandomAccessIterator last, Compare comp); 
@@ -74,7 +74,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::nth_element
     #include <iostream>
     #include <algorithm>
@@ -105,7 +105,7 @@
 
     Output:
 
-    ```
+    ```cpp
     33 2 10 23 3 45 47 56 
 
     ```
@@ -121,7 +121,7 @@
 
 1.  It can be used if we want to find the **first n smallest numbers**, but they may or maynot be ordered.
 
-    ```
+    ```cpp
     // C++ program to find first n smallest numbers
     #include <iostream>
     #include <algorithm>
@@ -146,14 +146,14 @@
 
     输出:
 
-    ```
+    ```cpp
     20 10 30
 
     ```
 
 2.  Just like first n smallest number, we can also find **first n largest numbers**, by just changing the Binary Function passed as argument in std::nth_element.
 
-    ```
+    ```cpp
     // C++ program to find first n largest numbers
     #include <iostream>
     #include <algorithm>
@@ -178,7 +178,7 @@
 
     输出:
 
-    ```
+    ```cpp
     80 70
 
     ```
@@ -187,7 +187,7 @@
 
 3.  可以用来求给定元素的**中值。**
 
-    ```
+    ```cpp
     // C++ program to find the median of the vector
     #include <iostream>
     #include <algorithm>
@@ -208,7 +208,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The median of the array is 33
 
     ```

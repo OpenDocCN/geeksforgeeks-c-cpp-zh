@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bitset_name.size()
 ```
 
@@ -20,7 +20,7 @@ bitset_name.size()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::size() function
 // when input is a string
@@ -50,7 +50,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The number of bits in 1100 is 4
 The number of bits in 010010 is 6
 ```
@@ -59,7 +59,7 @@ The number of bits in 010010 is 6
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::size() function
 // when input is a number
@@ -89,7 +89,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The number of bits in 101 is 3
 The number of bits in 10001 is 5
 ```

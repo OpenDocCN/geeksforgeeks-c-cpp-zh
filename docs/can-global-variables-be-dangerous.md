@@ -6,7 +6,7 @@
 
 ## c++
 
-```
+```cpp
 // A C++ program to demonstrate that a
 // global variables make long code less
 // maintainable.

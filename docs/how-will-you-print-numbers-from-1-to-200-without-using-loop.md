@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to How will you print
 //  numbers from 1 to 100 without using loop?
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // Prints numbers from 1 to n
@@ -69,7 +69,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -101,7 +101,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to Print
 # numbers from 1 to n
 
@@ -118,7 +118,7 @@ printNos(100)
 
 ## C#
 
-```
+```cpp
 // C# code for print numbers from
 // 1 to 100 without using loop
 using System;
@@ -149,7 +149,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program print numbers
 // from 1 to 100 without
@@ -175,7 +175,7 @@ printNos(100);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript code for print numbers from
     // 1 to 100 without using loop
@@ -199,7 +199,7 @@ printNos(100);
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
 16 17 18 19 20 21 22 23 24 25 26 27 
 28 29 30 31 32 33 34 35 36 37 38 39
@@ -219,7 +219,7 @@ printNos(100);
 
 ## C++
 
-```
+```cpp
 // C++ program
 #include <bits/stdc++.h>
 using namespace std;
@@ -243,7 +243,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -265,7 +265,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 def printNos(initial, last):
     if(initial<=last):
         print(initial)
@@ -275,7 +275,7 @@ printNos(1,10)
 
 ## C#
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
 using System;
@@ -298,7 +298,7 @@ public class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
     printNos(1, 100);
@@ -316,7 +316,7 @@ public class GFG {
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 
 ```
 

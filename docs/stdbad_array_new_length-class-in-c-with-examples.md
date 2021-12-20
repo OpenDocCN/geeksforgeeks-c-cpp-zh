@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <new>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_array_new_length;
 
 ```
@@ -26,7 +26,7 @@ class bad_array_new_length;
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for std::bad_array_new_length
 #include <bits/stdc++.h>
 
@@ -62,14 +62,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 std::bad_array_new_length
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for std::bad_array_new_length
 #include <bits/stdc++.h>
 
@@ -104,7 +104,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 std::bad_array_new_length
 
 ```

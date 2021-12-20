@@ -14,7 +14,7 @@ Boost 库提供了一个内置函数“词法转换(词法转换)”(“字符�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 //C++ code to demonstrate working of lexical_cast()
 #include<iostream>
 #include <boost/lexical_cast.hpp>// for lexical_cast()
@@ -45,7 +45,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The float value after casting is : 6.5
 The int value after casting is : 5
 ```
@@ -57,7 +57,7 @@ The int value after casting is : 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate string stream method
 // to convert number to string.
 #include<iostream>
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The newly formed string from number is : 2016
 ```
 
@@ -98,7 +98,7 @@ The newly formed string from number is : 2016
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate "to_string()" method
 // to convert number to string.
 #include<iostream>
@@ -132,7 +132,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The integer in string is : 20
 The float in string is : 30.500000
 ```
@@ -142,7 +142,7 @@ The float in string is : 30.500000
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate "lexical_cast()" method
 // to convert number to string.
 #include <boost/lexical_cast.hpp> // for lexical_cast()
@@ -174,7 +174,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The float value in string is : 10.5
 The int value in string is : 17
 ```

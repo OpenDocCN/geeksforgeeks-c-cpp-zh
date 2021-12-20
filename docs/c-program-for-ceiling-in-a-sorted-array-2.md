@@ -5,7 +5,7 @@
 给定一个已排序的数组和值 x，x 的上限是数组中大于或等于 x 的最小元素，下限是小于或等于 x 的最大元素，假设数组按非递减顺序排序。写高效函数求楼层和天花板的 x.
 **例:**
 
-```
+```cpp
 For example, let the input array be {1, 2, 8, 10, 10, 12, 19}
 For x = 0:    floor doesn't exist in array,  ceil  = 1
 For x = 1:    floor  = 1,  ceil  = 1
@@ -22,7 +22,7 @@ For x = 20:   floor  = 19,  ceil doesn't exist in array
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 /* Function to get index of ceiling of x in arr[low..high] */
@@ -70,7 +70,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 ceiling of 3 is 8
 ```
 
@@ -80,7 +80,7 @@ ceiling of 3 is 8
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 /* Function to get index of ceiling of x in arr[low..high]*/
@@ -143,7 +143,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Ceiling of 20 doesn't exist in array 
 ```
 

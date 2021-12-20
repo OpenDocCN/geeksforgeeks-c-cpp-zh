@@ -5,7 +5,7 @@
 给定一个文件和一个行号 n，任务是从给定的文本文件中删除第 n <sup>行</sup>行。
 假设 **myfile.txt** 的初始内容为:
 
-```
+```cpp
 GeeksforGeeks
 GeeksforGeeks IDE
 GeeksforGeeks Practice
@@ -15,7 +15,7 @@ GeeksforGeeks Contribute
 
 删除**第 2 行**后，内容为:
 
-```
+```cpp
 GeeksforGeeks
 GeeksforGeeks IDE
 GeeksforGeeks Contribute
@@ -27,7 +27,7 @@ GeeksforGeeks Contribute
 **2)** 在输出模式下打开另一个文件，并将内容逐个字符地放入文件中。
 **3)** 将另一个文件重命名为源文件。
 
-```
+```cpp
 // C++ Program to delete the given
 // line number from a file
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 }
 ```
 
-```
+```cpp
  Note: Run this code offline IDE keep text file name 
 as "a.txt" in same folder 
 ```

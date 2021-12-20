@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.bucket(key)
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::bucket() 
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket number in which {15, 150} is 1
 The bucket number in which {30, 300} is 2
 The bucket number in which {20, 200} is 6
@@ -62,7 +62,7 @@ The bucket number in which {10, 100} is 3
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::bucket() 
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The bucket number in which {c, b} is 1
 The bucket number in which {r, a} is 2
 The bucket number in which {b, c} is 0

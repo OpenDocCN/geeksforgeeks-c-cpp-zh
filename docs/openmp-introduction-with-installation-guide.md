@@ -23,7 +23,7 @@
 
 *   **STEP 1: Check the GCC version of the compiler**
 
-    ```
+    ```cpp
     gcc --version
     ```
 
@@ -33,7 +33,7 @@
 
     如果系统没有 GCC 编译器，我们可以使用以下命令
 
-    ```
+    ```cpp
     sudo apt install gcc
     ```
 
@@ -42,7 +42,7 @@
 *   **STEP 2: Configuring OpenMP**
     We can check whether the OpenMP features are configured into our compiler or not, using the command
 
-    ```
+    ```cpp
     echo |cpp -fopenmp -dM |grep -i open
     ```
 
@@ -50,20 +50,20 @@
 
     如果编译器中没有 OpenMP，我们可以使用命令配置它
 
-    ```
+    ```cpp
     sudo apt install libomp-dev
     ```
 
 *   **第三步:设置线程数量**
     在 OpenMP 中，在运行代码之前，我们可以使用以下命令初始化要执行的线程数量。这里，我们将要执行的线程数设置为 8 个线程。
 
-    ```
+    ```cpp
     export OMP_NUM_THREADS=8
     ```
 
 <u>**在 OpenMP 中运行第一个代码**</u>
 
-```
+```cpp
 // OpenMP header
 #include <omp.h>
 #include <stdio.h>
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
 
 这个程序将打印一条消息，由不同的线程执行。
 
-```
+```cpp
 Compile: 
 gcc -o gfg -fopenmp geeksforgeeks.c
 

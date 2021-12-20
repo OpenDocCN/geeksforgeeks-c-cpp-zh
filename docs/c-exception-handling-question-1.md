@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-1/](https://www.geeksforgeeks.org/c-exception-handling-question-1/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -27,7 +27,7 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 Inside try
 Exception Caught
 After throw 
@@ -36,7 +36,7 @@ After catch
 
 **(B)**
 
-```
+```cpp
 Inside try
 Exception Caught
 After catch
@@ -44,14 +44,14 @@ After catch
 
 **(C)**
 
-```
+```cpp
 Inside try
 Exception Caught
 ```
 
 **(D)**
 
-```
+```cpp
 Inside try
 After throw
 After catch

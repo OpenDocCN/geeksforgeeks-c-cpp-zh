@@ -6,7 +6,7 @@ C++20 中引入的 **std::to_address** 用于获取指定指针所表示的地�
 
 **语法:**
 
-```
+```cpp
 template class Ptr
 constexpr auto to_address(const Ptr& p) noexcept;
 
@@ -22,7 +22,7 @@ constexpr T* to_address(T* p) noexcept;
 以下示例演示了 std::address
 **示例 1** 的用法:
 
-```
+```cpp
 // C++ code to show
 // the use of std::address
 
@@ -75,7 +75,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Pointer to Memory allocated: 0x1512c20
 Pointer to Memory deleted: 0x1512c20
 
@@ -83,7 +83,7 @@ Pointer to Memory deleted: 0x1512c20
 
 **例 2:**
 
-```
+```cpp
 // C++ code to show
 // the use of std::address
 
@@ -125,7 +125,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Using unique pointers
 
 Address of pointer to 15: 0x181ec30

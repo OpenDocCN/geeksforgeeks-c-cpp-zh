@@ -6,14 +6,14 @@
 **参数:**无
 **返回值:**无
 
-```
+```cpp
 void string ::clear ()
 - Removes all characters (makes string empty)
 - Doesn't throw any error
 - Receives no parameters and returns nothing
 ```
 
-```
+```cpp
 // CPP code to illustrate
 // clear() function
 
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before clear : Hello World!
 After clear : 
 

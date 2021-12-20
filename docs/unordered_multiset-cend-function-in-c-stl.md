@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.cend(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.cend(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cend() function
 #include <bits/stdc++.h>
@@ -48,14 +48,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 13 13 10 15 15
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cend() function
 #include <bits/stdc++.h>
@@ -85,14 +85,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: z a b b b
 
 ```
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cend() function
 #include <bits/stdc++.h>
@@ -132,7 +132,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Bucket 0: b b b 
 Bucket 1: empty
 Bucket 2: empty

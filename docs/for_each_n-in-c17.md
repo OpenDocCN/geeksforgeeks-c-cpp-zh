@@ -8,7 +8,7 @@ C++17 技术规范中增加了 **for_each_n** ()函数。它的想法借鉴了*�
 
 **语法:**
 
-```
+```cpp
 InputIt for_each_n( ExecutionPolicy&& policy,
            InputIt first, Size n, UnaryFunction f )
 
@@ -23,7 +23,7 @@ f: the function object that is applied to the elements.
 
 *(注意:给定的代码需要 C++17 或更高版本，可能无法在所有 C++17 环境中运行。)*
 
-```
+```cpp
 // Requires C++17 or 17+
 // C++ program to demonstrate the use for_each_n
 // using function pointers as lambda expressions.
@@ -67,7 +67,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 2 3 3 4 5 6
 2 3 5 6 5 6
@@ -78,7 +78,7 @@ int main()
 
 *(注意:给定的代码需要 c++17 或更高版本，可能无法在所有 c++17 环境中运行。)*
 
-```
+```cpp
 // Requires C++17 or 17+
 // A C++ program to demonstrate the use for_each_n
 // using funcctors.
@@ -127,7 +127,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 2 3 5 6 5 6
 

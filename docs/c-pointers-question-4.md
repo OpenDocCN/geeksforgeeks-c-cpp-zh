@@ -4,7 +4,7 @@
 
 考虑一个编译器，其中 int 取 4 字节，char 取 1 字节，指针取 4 字节。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()

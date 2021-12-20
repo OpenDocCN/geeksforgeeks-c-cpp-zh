@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 list_name.end() 
 
 ```
@@ -19,7 +19,7 @@ list_name.end()
 
 下面的程序说明了 list::end()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::end() function
 #include <bits/stdc++.h>
@@ -56,7 +56,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Returned iterator points to : 4
 10 20 30 40
 

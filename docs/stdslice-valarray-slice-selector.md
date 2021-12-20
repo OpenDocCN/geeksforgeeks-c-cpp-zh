@@ -6,7 +6,7 @@
 
 std::slice 是标识 std::valarray 子集的选择器类。std::slice 类型的对象包含三个值:起始索引、跨距和子集中值的总数。std::slice 类型的对象可以用 valarray 的运算符[]作为索引。
 
-```
+```cpp
 class slice;
 
 ```
@@ -14,7 +14,7 @@ class slice;
 简单来说，它用于根据索引进行切片。valarray 切片由起始索引、大小和步幅定义。
 **语法:**
 
-```
+```cpp
 slice( std::size_t start, std::size_t size, std::size_t stride );
 size_t star : is the index of the first element in the selection
 size_t size : is the number of elements in the selection
@@ -24,7 +24,7 @@ stride : is the span that separates the elements selected.
 *   在给定的语法中，默认构造函数等同于切片(0，0，0)。此构造函数的存在只是为了允许构造切片数组。
 *   它用参数开始、大小、步幅构建一个新的切片。该切片将参考元素的大小编号，每个元素的位置为:
 
-    ```
+    ```cpp
     start + 0*stride
     start + 1*stride
     ....
@@ -35,7 +35,7 @@ stride : is the span that separates the elements selected.
 
 **示例:**
 
-```
+```cpp
 slice(1, 5, 4)
 Input :  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
 Output : 1 5 9 13 17 
@@ -46,7 +46,7 @@ Explanation : starting from index 1 then next index 1 + 1 * 4 = 5, next index 1 
 
 因此，步长大于 1 的切片不会选择 valarray 中的连续元素。例如，切片(3，4，5)选择元素 3，8，13 和 18。
 
-```
+```cpp
 // C++ program to test the functioning of std::slice
 #include <iostream> // std::cout
 #include <cstddef> // std::size_t
@@ -74,14 +74,14 @@ int main()
 
 输出:
 
-```
+```cpp
 slice(2, 3, 4): 2 6 10
 
 ```
 
 **应用:**切片的一个简单应用就是求矩阵的迹。
 
-```
+```cpp
 // C++ program to find trace of a matrix by using std::slice
 #include <iostream> // std::cout
 #include <valarray> // std::valarray, std::slice
@@ -123,7 +123,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 
 4 5 6 
 7 8 9 

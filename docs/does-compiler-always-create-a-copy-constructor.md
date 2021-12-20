@@ -9,7 +9,7 @@
 ***当我们只编写一个复制构造函数时会发生什么——编译器会创建默认构造函数吗？***
 如果我们编写任何构造函数，编译器不会创建默认构造函数，即使它是复制构造函数。例如，下面的程序不编译。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
 
 输出:
 
-```
+```cpp
 COMPILER ERROR: no matching function for call to 'Point::Point()
 
 ```
@@ -38,7 +38,7 @@ COMPILER ERROR: no matching function for call to 'Point::Point()
 ***那么逆向呢——我们写一个普通的构造函数，不写复制构造函数会怎么样？***
 颠倒不正。如果我们不自己编写，编译器会创建一个复制构造函数。即使我们在类中编写了其他构造函数，编译器也会创建它。例如，下面的程序运行良好。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 x = 10 y = 20
 ```
 

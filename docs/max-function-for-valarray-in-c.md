@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 T max() const;
 
 ```
@@ -19,7 +19,7 @@ T max() const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of max() function.
 #include <bits/stdc++.h>
@@ -40,14 +40,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The largest element of valarray is = 5
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of max() function.
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The largest element of valarray is = 42
 
 ```

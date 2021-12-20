@@ -5,13 +5,13 @@
 **数学. h** 标题定义了各种数学函数和一个宏。这个库中所有可用的函数都以**双**为自变量，返回**双**为结果。让我们逐一讨论一些重要的功能。
 1。**double ceil(double x)**:C 库函数 double ceil(double x)返回大于等于 x 的最小整数值。
 
-```
+```cpp
 syntax : double ceil(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of ceil function.
 #include <stdio.h>
@@ -37,7 +37,7 @@ return(0);
 
 输出:
 
-```
+```cpp
 value1 = 2.0
 value2 = 2.0
 value3 = -2.0
@@ -46,13 +46,13 @@ value4 = -2.0
 
 2.**双层(双 x):**C 库函数双层(双 x)返回小于或等于 x 的最大整数值。
 
-```
+```cpp
 syntax : double floor(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of floor function
 #include <stdio.h>
@@ -78,7 +78,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 Value1 = 1.0
 Value2 = 1.0
 Value3 = -3.0
@@ -87,13 +87,13 @@ Value4 = -3.0
 
 3.**双 fabs(double x)**:C 库函数 double fabs(double x)返回 x 的绝对值。
 
-```
+```cpp
 syntax : double fabs(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of fabs function
 #include <stdio.h>
@@ -114,20 +114,20 @@ int main ()
 
 输出:
 
-```
+```cpp
 The absolute value of 1234 is 1234.000000
 The absolute value of -344 is 344.000000
 ```
 
 4.**双对数(双 x)**:C 库函数双对数(双 x)返回 x 的自然对数(以 e 为底的对数)
 
-```
+```cpp
 syntax : double log(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of log function
 
@@ -149,19 +149,19 @@ int main ()
 
 输出:
 
-```
+```cpp
 log(2.700000) = 0.993252
 ```
 
 5.**double log10(double x)**:C 库函数 double log10(double x)返回 x 的公共对数(以 10 为底的对数)
 
-```
+```cpp
 syntax : double log10(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of log10 function
 #include <stdio.h>
@@ -182,19 +182,19 @@ int main ()
 
 输出:
 
-```
+```cpp
 log10(10000.000000) = 4.000000
 ```
 
 6. **double fmod(double x，double y)**:C 库函数 double fmod(double x，double y)返回 x 除以 y 的余数。
 
-```
+```cpp
 syntax : double fmod(double x, double y) 
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of fmod function
 #include <stdio.h>
@@ -216,20 +216,20 @@ int main ()
 
 输出:
 
-```
+```cpp
 Remainder of 8.200000 / 3 is 2.200000
 Remainder of 8.200000 / 5.700000 is 2.500000
 ```
 
 7.**double sqrt(double x)**:C 库函数 double sqrt(double x)返回 x 的平方根.
 
-```
+```cpp
 syntax : double sqrt(double x)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of sqrt function
 #include <stdio.h>
@@ -247,20 +247,20 @@ int main ()
 
 输出:
 
-```
+```cpp
 Square root of 225.000000 is 15.000000
 Square root of 300.000000 is 17.320508
 ```
 
 8.**双幂(双 x，双 y)**:C 库函数双幂(双 x，双 y)返回 x 升到 y 的幂，即 xy。
 
-```
+```cpp
 syntax : double pow(double x, double y)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of pow function
 #include <stdio.h>
@@ -278,20 +278,20 @@ int main ()
 
 输出:
 
-```
+```cpp
 Value 8.0 ^ 3 = 512.000000
 Value 3.05 ^ 1.98 = 9.097324
 ```
 
 9. **double modf(double x，double *integer)**:C 库函数 double modf(double x，double * integer)返回分数分量(小数后的部分)，将 integer 设置为整数分量。
 
-```
+```cpp
 syntax : double modf(double x, double *integer)
 ```
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of modf function
 #include<stdio.h>
@@ -313,14 +313,14 @@ int main ()
 
 输出:
 
-```
+```cpp
 Integral part = 8.000000
 Fraction Part = 0.123456 
 ```
 
 10.**double exp(double x)**:C 库函数 double exp(double x)返回 e 的升至 xth 次方的值。
 
-```
+```cpp
 syntax : double exp(double x)
 ```
 
@@ -328,7 +328,7 @@ syntax : double exp(double x)
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of exp function
 #include <stdio.h>
@@ -348,7 +348,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 The exponential value of 0.000000 is 1.000000
 The exponential value of 1.000000 is 2.718282
 The exponential value of 2.000000 is 7.389056
@@ -356,7 +356,7 @@ The exponential value of 2.000000 is 7.389056
 
 11.**double cos(double x)**:C 库函数 double cos(double x)返回一个弧度角 x 的余弦值。
 
-```
+```cpp
 syntax : double cos(double x) 
 ```
 
@@ -364,7 +364,7 @@ syntax : double cos(double x)
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of cos function
 #include <stdio.h>
@@ -392,14 +392,14 @@ int main ()
 
 输出:
 
-```
+```cpp
 The cosine of 60.000000 is 0.500000 degrees
 The cosine of 90.000000 is 0.000000 degrees
 ```
 
 12.**double acos(double x):**C 库函数 double acos(double x)以弧度为单位返回 x 的弧余弦。
 
-```
+```cpp
 syntax : double acos(double x)
 ```
 
@@ -407,7 +407,7 @@ syntax : double acos(double x)
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of acos function
 #include <stdio.h>
@@ -431,13 +431,13 @@ int main ()
 
 输出:
 
-```
+```cpp
 The arc cosine of 0.900000 is 25.855040 degrees
 ```
 
 13.**double tanh(double x):**C 库函数 double tanh(double x)返回 x 的双曲正切值。
 
-```
+```cpp
 syntax : double tanh(double x) 
 ```
 
@@ -445,7 +445,7 @@ syntax : double tanh(double x)
 
 ## C
 
-```
+```cpp
 // C code to illustrate
 // the use of tanh function
 #include <stdio.h>
@@ -465,7 +465,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 The hyperbolic tangent of 0.500000 is 0.462117 degrees
 ```
 

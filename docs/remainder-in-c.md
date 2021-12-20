@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 double remainder(double a, double b)
 float remainder(float a, float b)
 long double remainder(long double a, long double b)
@@ -27,7 +27,7 @@ rounded to nearest.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // remainder() function
 #include <cmath>
@@ -71,7 +71,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Remainder of 50.35/-4.1 is 1.15
 Remainder of 16.8/3.5 is -0.7
 Remainder of 16.8/0 is -nan
@@ -81,7 +81,7 @@ Remainder of 16.8/0 is -nan
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // remainder() function
 #include <cmath>
@@ -103,6 +103,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Remainder of 50/41.35 = 8.65 
 ```

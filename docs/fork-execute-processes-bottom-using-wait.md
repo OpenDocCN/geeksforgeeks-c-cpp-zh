@@ -12,7 +12,7 @@
 
 **注意**:这是一个 linux 系统调用，所以必须在 linux 或者 unix 变体系统上执行。
 
-```
+```cpp
 // Program to demonstrate bottom to up execution
 // of processes using fork() and wait()
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Grand Child Terminated
 2nd Child Terminated
 1st child Terminated

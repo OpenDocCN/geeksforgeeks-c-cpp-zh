@@ -28,7 +28,7 @@
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of pow() function.
 
@@ -52,14 +52,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 (1.0, 2.0)^2 = (-3,4)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of pow() function.
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 (2.0, 1.0)^3 = (2,11)
 
 ```

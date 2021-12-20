@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-8/](https://www.geeksforgeeks.org/c-exception-handling-question-8/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -24,20 +24,20 @@ int main() {
 
 **(甲)**
 
-```
+```cpp
 Caught 10
 ```
 
 **(B)**
 
-```
+```cpp
 Constructing an object of Test 
 Caught 10
 ```
 
 **(C)**
 
-```
+```cpp
 Constructing an object of Test 
 Destructing an object of Test 
 Caught 10

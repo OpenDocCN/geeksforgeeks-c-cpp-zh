@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 # include <stdio.h>
 # define scanf  "%s Geeks Quiz "
 int main()

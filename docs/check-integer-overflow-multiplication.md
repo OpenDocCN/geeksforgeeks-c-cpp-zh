@@ -5,7 +5,7 @@
 给定两个整数 a 和 b，找出它们的乘积(a x b)是否超过有符号的 64 位整数。如果超过打印是否则打印编号
 **示例:**
 
-```
+```cpp
 Input : a = 100, b = 200 
 Output : No
 
@@ -22,7 +22,7 @@ Output : Yes
 
 ## C++
 
-```
+```cpp
 // CPP program to check for integer
 // overflow on multiplication
 #include <iostream>
@@ -58,7 +58,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check for integer
 // overflow on multiplication
 import java.util.*;
@@ -100,7 +100,7 @@ public class GfG{
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to check for integer
 # overflow on multiplication
 
@@ -138,7 +138,7 @@ if __name__ =="__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to check for integer
 // overflow on multiplication
 using System;
@@ -180,7 +180,7 @@ public class GfG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to check for integer
 // overflow on multiplication
@@ -215,7 +215,7 @@ else
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to check for integer
@@ -252,7 +252,7 @@ else
 
 **输出:**
 
-```
+```cpp
 Yes
 ```
 

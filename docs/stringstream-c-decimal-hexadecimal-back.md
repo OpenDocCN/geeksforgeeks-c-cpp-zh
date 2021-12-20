@@ -6,7 +6,7 @@
 [Hex](https://www.geeksforgeeks.org/stdoct-stddec-and-stdhex-in-cpp/) 是一个 I/O 操纵器，它以对 I/O 流的引用为参数，并在操纵后返回对该流的引用。
 以下是使用 stringstream 将任何十进制转换为十六进制的快速方法:
 
-```
+```cpp
 // CPP program to convert integer to
 // hexadecimal using stringstream and
 // hex I/O manipulator.
@@ -26,14 +26,14 @@ int main()
 
 输出:
 
-```
+```cpp
 0x3ae
 
 ```
 
 如果我们想将十六进制字符串改回十进制，您可以通过以下方式实现:
 
-```
+```cpp
 // CPP program to convert hexadecimal to
 // integer using stringstream and
 // hex I/O manipulator.
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 942
 
 ```

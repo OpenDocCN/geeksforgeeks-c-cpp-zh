@@ -8,7 +8,7 @@
 1.  **delay():** The **delay()** function in C is used to stop the execution of the program for some period of time.
     **Syntax:**
 
-    ```
+    ```cpp
     delay(unsigned int)
 
     ```
@@ -17,7 +17,7 @@
 
     以下是说明**延迟()**的程序:
 
-    ```
+    ```cpp
     // C program to implement delay()
     #include <dos.h>
     #include <stdio.h>
@@ -39,7 +39,7 @@
 2.  **sleep():** The **sleep()** function in C is used to delay the execution of the program for some period of time.
     **Syntax:**
 
-    ```
+    ```cpp
     sleep(unsigned seconds)
 
     ```
@@ -48,7 +48,7 @@
 
     下面是说明**睡眠()**的程序:
 
-    ```
+    ```cpp
     // C program to implement sleep()
     #include <dos.h>
     #include <stdio.h>
@@ -71,7 +71,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     getdate(struct date d)
 
     ```
@@ -80,7 +80,7 @@
 
     下面是说明 **getdate()** 的程序:
 
-    ```
+    ```cpp
     // C program to implement getdate()
     #include <dos.h>
     #include <stdio.h>
@@ -109,7 +109,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     gettime(struct time t)
 
     ```
@@ -118,7 +118,7 @@
 
     下面是说明 **gettime()** 的程序:
 
-    ```
+    ```cpp
     // C program to implement gettime()
     #include <dos.h>
     #include <stdio.h>
@@ -147,7 +147,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     sound(int frequency)
 
     ```
@@ -156,7 +156,7 @@
 
     下面是说明**音()**的程序:
 
-    ```
+    ```cpp
     // C program to implement sound()
     #include <dos.h>
     #include <stdio.h>
@@ -188,7 +188,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     nosound()
 
     ```
@@ -197,7 +197,7 @@
 
     下面是说明 **nosound()** 的程序:
 
-    ```
+    ```cpp
     // C program to implement nosound()
     #include <dos.h>
     #include <stdio.h>

@@ -5,7 +5,7 @@
 **映射::find()** 是 C++ STL 中的一个内置函数，它返回一个迭代器，一个常量迭代器，引用键在映射中出现的位置。如果该键不在 map 容器中，它将返回一个迭代器或常量迭代器，引用 **map.end()** 。
 **语法:**
 
-```
+```cpp
 iterator=map_name.find(key)
         or 
 constant iterator=map_name.find(key)
@@ -23,7 +23,7 @@ constant iterator=map_name.find(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for illustration
 // of map::find() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The elements from position 3 in map are : 
 KEY    ELEMENT
 3    20

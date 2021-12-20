@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input :  file_name = "a.txt"
          Let "a.txt" contains "geeks"
 Output : 6 Bytes
@@ -21,7 +21,7 @@ Output : 16 Bytes
 
 这个想法是在 C 使用 [fseek()，在 C](https://www.geeksforgeeks.org/fseek-in-c-with-example/) 使用 [ftell。使用 fseek()，我们将文件指针移动到末尾，然后使用 ftell()，我们找到它的位置，实际上是以字节为单位的大小。](https://www.geeksforgeeks.org/ftell-c-example/)
 
- [```
+ [```cpp
 // C program to find the size of file
 #include <stdio.h>
 

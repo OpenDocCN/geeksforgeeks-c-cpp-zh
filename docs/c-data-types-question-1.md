@@ -4,7 +4,7 @@
 
 预测后续程序的输出。假设数字以 2 的补码形式存储。
 
-```
+```cpp
 #include<stdio.h> 
 int  main() 
 { 

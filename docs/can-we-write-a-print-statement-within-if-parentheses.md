@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to print a string
 // within conditional statement
 #include <iostream>
@@ -31,7 +31,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Welcome to GeeksforGeeks
 
 ```

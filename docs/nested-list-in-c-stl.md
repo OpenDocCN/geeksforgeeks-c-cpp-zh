@@ -6,7 +6,7 @@ STL 中的[列表](https://www.geeksforgeeks.org/list-cpp-stl/)用于表示 C++�
 
 示例:
 
-```
+```cpp
 Input :  Number of lists: 2
 1st list: {1 2}
 2nd list:  {3 4 5 6
@@ -29,7 +29,7 @@ Output :
 
 ```
 
-```
+```cpp
 // c++ program for nested list
 
 #include <iostream>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 [
   [ 0  1 ]
   [ 1  2  3 ]

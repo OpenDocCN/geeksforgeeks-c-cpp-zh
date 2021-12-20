@@ -34,7 +34,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -113,7 +113,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.util.*;
 
@@ -195,7 +195,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program for the above approach
 from collections import Counter
 
@@ -261,7 +261,7 @@ findMinimumDistinct(A, N, K)
 
 **Output:** 
 
-```
+```cpp
 2
 ```
 

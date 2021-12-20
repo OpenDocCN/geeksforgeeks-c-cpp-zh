@@ -7,7 +7,7 @@
 **方法一:迭代法。**
 这个方法是一个通用的复制方法，在这个方法中一个循环被用来 push_back()把旧的向量元素变成新的向量。它们被深深地复制
 
-```
+```cpp
 // C++ code to demonstrate copy of vector
 // by iterative method.
 #include<iostream>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Old vector elements are : 1 2 3 4 
 New vector elements are : 1 2 3 4 
 The first element of old vector is : 2
@@ -65,7 +65,7 @@ The first element of new vector is : 1
 **方法二:由[赋值“=”运算符](https://www.geeksforgeeks.org/operators-in-c-set-1-arithmetic-operators/)。**
 简单地将新向量分配给旧向量，复制向量。在数组的情况下，这种赋值方式是不可能的。
 
-```
+```cpp
 // C++ code to demonstrate copy of vector
 // by iterative method.
 #include<iostream>
@@ -109,7 +109,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Old vector elements are : 1 2 3 4 
 New vector elements are : 1 2 3 4 
 The first element of old vector is : 2
@@ -119,7 +119,7 @@ The first element of new vector is : 1
 
 **方法 3:通过传递向量作为构造函数。**在声明向量时，传递一个旧的初始化向量，将传递的向量的元素复制到新声明的向量中。它们被深深地复制。
 
-```
+```cpp
 // C++ code to demonstrate copy of vector
 // by constructor method.
 #include<bits/stdc++.h>
@@ -160,7 +160,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Old vector elements are : 1 2 3 4 
 New vector elements are : 1 2 3 4 
 The first element of old vector is :2
@@ -172,7 +172,7 @@ The first element of new vector is :1
 *   **copy(first_iterator_o, last_iterator_o, back_inserter())** :- This is another way to copy old vector into new one. This function takes 3 arguments, first, the first iterator of old vector, second, the last iterator of old vector and third is back_inserter function to insert values from back. This also
     generated a deep copy.
 
-    ```
+    ```cpp
     // C++ code to demonstrate copy of vector
     // by assign() and copy().
     #include<iostream>
@@ -216,7 +216,7 @@ The first element of new vector is :1
 
     输出:
 
-    ```
+    ```cpp
     Old vector elements are : 1 2 3 4 
     New vector elements are : 1 2 3 4 
     The first element of old vector is :2
@@ -226,7 +226,7 @@ The first element of new vector is :1
 
 *   **assign(first_iterator_o, last_iterator_o)** :- This method assigns the same values to new vector as old one. This takes 2 arguments, first iterator to old vector and last iterator to old vector.This generates a deep copy.
 
-    ```
+    ```cpp
     // C++ code to demonstrate copy of vector
     // by assign()
     #include<iostream>
@@ -271,7 +271,7 @@ The first element of new vector is :1
 
     输出:
 
-    ```
+    ```cpp
     Old vector elements are : 1 2 3 4 
     New vector elements are : 1 2 3 4 
     The first element of old vector is :2

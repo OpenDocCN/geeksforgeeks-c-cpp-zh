@@ -22,7 +22,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // working of binary arithmetic
 // operators
@@ -56,7 +56,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -92,7 +92,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 a is 10 and b is: 4
 a+b is: 14
 a-b is: 6
@@ -111,7 +111,7 @@ a%b is: 2
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working
 // of Unary arithmetic
 // operators
@@ -155,7 +155,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -207,7 +207,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a is 11 and res is 10
 a is 10 and res is 11
 a is 11 and res is 11

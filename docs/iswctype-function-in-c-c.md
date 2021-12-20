@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int iswctype(wint_t wc, wctype_t desc)
 ```
 
@@ -26,7 +26,7 @@ int iswctype(wint_t wc, wctype_t desc)
 
 **程序 1:**
 
-```
+```cpp
 // Program to illustrate
 // iswctype() function
 #include <bits/stdc++.h>
@@ -54,14 +54,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 A is an alphabet
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // Program to illustrate
 // iswctype() function
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 is a digit
 
 ```

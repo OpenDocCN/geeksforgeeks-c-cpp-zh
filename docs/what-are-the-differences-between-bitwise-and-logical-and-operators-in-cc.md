@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -34,7 +34,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -56,7 +56,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 y is greater than 1 AND x
 z = 3
 ```
@@ -72,7 +72,7 @@ z = 3
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -90,7 +90,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 // Example that uses non-boolean expression as
 // operand for '&&'
@@ -104,7 +104,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1
 ```
 
@@ -116,7 +116,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 // Example that uses non-integral expression as
 // operator for '&'
@@ -130,7 +130,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 error: invalid operands to binary & (have 'float' and 'float')
 ```
 
@@ -142,7 +142,7 @@ error: invalid operands to binary & (have 'float' and 'float')
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -161,7 +161,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 0
 Geeks in & 0
 ```

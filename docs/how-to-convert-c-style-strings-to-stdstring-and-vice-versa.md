@@ -7,7 +7,7 @@
 
 **声明和初始化**
 
-```
+```cpp
 /* To demonstrate C style strings */
 #include<iostream>
 using namespace std;
@@ -32,7 +32,7 @@ int main()
 
 输出:
 
-```
+```cpp
 HELLO-1
 HELLO-2
 HELLO-3
@@ -46,7 +46,7 @@ C++标准库包含函数和类。String 是它的一个类。这里我们处理�
 
 **声明和初始化**
 
-```
+```cpp
 /* To demonstrate std::string */
 #include<iostream>
 #include<string>           
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 HELLO
 
 ```
@@ -84,7 +84,7 @@ HELLO
 
 还有更多！这是它的代码:-
 
-```
+```cpp
 /* To demonstrate C style string to std::string */
 #include<bits/stdc++.h>
 
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This is a C-String : Testing
 This is a std::string : Testing
 
@@ -115,7 +115,7 @@ This is a std::string : Testing
 
 上述转换也适用于字符数组。
 
-```
+```cpp
         // Character array to std::string conversion 
 	char a[] = "Testing"; 
 	string s(a); 
@@ -130,7 +130,7 @@ This is a std::string : Testing
 你也可以想到其他原因！
 以下是转换代码:-
 
-```
+```cpp
 /* To demonstrate std::string to  C style string */
 #include<iostream>
 #include<string> /* This header contains string class */
@@ -154,7 +154,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This is a std::string : Testing
 This is a C-String : Testing
 
@@ -162,7 +162,7 @@ This is a C-String : Testing
 
 std::string 还有一个函数 **c_str()** ，可以用来获取空终止字符数组。
 
-```
+```cpp
 /* To demonstrate std::string to C style string using
    c_str() */
 #include<bits/stdc++.h>
@@ -186,7 +186,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This is a std::string : Testing
 This is a C-String : Testing
 

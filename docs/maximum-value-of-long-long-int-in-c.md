@@ -16,7 +16,7 @@ long long int 数据类型的一些属性是:
 
 **T5【c++T0****T10**输出:**
 
-```
+```cpp
 Value from climits constant (maximum): 9223372036854775807
 Value from climits constant (minimum): -9223372036854775808
 

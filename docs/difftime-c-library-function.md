@@ -4,7 +4,7 @@
 
 C 库函数 **difftime()** 返回*秒*开始时间和*结束时间之间的差值。* ( **结束时间-开始时间** )
 
-```
+```cpp
 // It is present in time.h header file
 #include 
 
@@ -23,7 +23,7 @@ time2 (as measured in seconds).
 
 ```
 
-```
+```cpp
 // C program to demonstrate working of
 // difftime()
 #include <time.h>
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Difference is 6.00 seconds
 
 ```

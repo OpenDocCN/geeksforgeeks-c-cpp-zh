@@ -6,7 +6,7 @@
 
 **floor(x) :** 返回小于或等于 x 的最大整数(即:向下舍入最近的整数)。
 
-```
+```cpp
 // Here x is the floating point value.
 // Returns the largest integer smaller 
 // than or equal to x 
@@ -15,7 +15,7 @@ double floor(double x)
 
 楼层示例:
 
-```
+```cpp
 Input : 2.5
 Output : 2
 
@@ -27,7 +27,7 @@ Output : 2
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate floor function
 #include <iostream>
 #include <cmath>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Floor is : 2
 Floor is : -3
 
@@ -55,7 +55,7 @@ Floor is : -3
 
 **ceil(x) :** 返回大于或等于 x 的最小整数(即:四舍五入最近的整数)。
 
-```
+```cpp
 // Here x is the floating point value.
 // Returns the smallest integer greater 
 // than or equal to x 
@@ -64,7 +64,7 @@ double ceiling(double x)
 
 天花板的例子:
 
-```
+```cpp
 Input : 2.5
 Output : 3
 
@@ -76,7 +76,7 @@ Output : 3
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate ceil function
 #include <iostream>
 #include <cmath>
@@ -94,7 +94,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Ceil is : 3
 Ceil is : -2
 

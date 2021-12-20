@@ -4,7 +4,7 @@
 
 预测产量？
 
-```
+```cpp
 #include<stdlib.h>
 #include<stdio.h>
 #include<iostream>
@@ -46,7 +46,7 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 new called
 Constructor called
 delete called
@@ -55,7 +55,7 @@ Destructor called
 
 **(B)**
 
-```
+```cpp
 new called
 Constructor called
 Destructor called
@@ -64,7 +64,7 @@ delete called
 
 **(C)**
 
-```
+```cpp
 Constructor called
 new called
 Destructor called
@@ -73,7 +73,7 @@ delete called
 
 **(D)**
 
-```
+```cpp
 Constructor called
 new called
 delete called
@@ -84,7 +84,7 @@ Destructor called
 
 **解释:**考虑以下说法
 
-```
+```cpp
     Test *ptr = new Test;  
 ```
 

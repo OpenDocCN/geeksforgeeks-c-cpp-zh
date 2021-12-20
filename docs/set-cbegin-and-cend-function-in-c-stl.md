@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 constant_iterator set_name.cbegin()
 
 ```
@@ -19,7 +19,7 @@ constant_iterator set_name.cbegin()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // set::cbegin() function
 #include <bits/stdc++.h>
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10 11 12 14 15
 
 ```
@@ -51,7 +51,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 constant_iterator set_name.cend()
 
 ```
@@ -64,7 +64,7 @@ constant_iterator set_name.cend()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // set::cend() function
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10 11 12 14 15
 
 ```

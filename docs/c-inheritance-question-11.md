@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-inheritance-question-11/](https://www.geeksforgeeks.org/c-inheritance-question-11/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main(void)
 
 以下是无错误程序并打印“10 10”
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

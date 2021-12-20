@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-4/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-4/)
 
-```
+```cpp
 #include <stdio.h>
 #define X 3
 #if !X
@@ -34,7 +34,7 @@ int main()
 
 第一步处理宏。因此，在预处理步骤之后，代码被转换为以下代码。
 
-```
+```cpp
 printf("Quiz");
 int main()
 {
@@ -45,7 +45,7 @@ int main()
 
 上面的代码产生错误，因为 printf()是在 main 之外调用的。以下程序运行良好，并打印了“测验”
 
-```
+```cpp
 #include 
 #define X 3
 

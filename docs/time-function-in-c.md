@@ -6,7 +6,7 @@ time()函数在 time . h(c++中的 ctime)头文件中定义。此函数以秒为
 
 **语法:**
 
-```
+```cpp
 time_t time( time_t *second )
 ```
 
@@ -17,7 +17,7 @@ time_t time( time_t *second )
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // example of time() function.
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main ()
 
 **Output:** 
 
-```
+```cpp
 Seconds since January 1, 1970 = 1538123990
 ```
 
@@ -44,7 +44,7 @@ Seconds since January 1, 1970 = 1538123990
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // example of time() function.
 
@@ -65,6 +65,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Seconds since January 1, 1970 = 1538123990
 ```

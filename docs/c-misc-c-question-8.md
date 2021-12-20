@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-misc-c-question-8/](https://www.geeksforgeeks.org/c-misc-c-question-8/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main ()

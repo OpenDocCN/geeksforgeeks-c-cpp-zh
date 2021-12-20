@@ -6,25 +6,25 @@
 
 **语法:-**
 
-```
+```cpp
 float scalbn(float x, int n); 
 ```
 
 **或**
 
-```
+```cpp
 double scalbn(double x, int n); 
 ```
 
 **或**
 
-```
+```cpp
 long double scalbn(long double x, int n); 
 ```
 
 **或**
 
-```
+```cpp
 double scalbn(integral x, int n);  
 ```
 
@@ -35,7 +35,7 @@ double scalbn(integral x, int n);
 
 **返回值:**该函数借助公式返回**给定数 x 与 FLT_RADIX 的乘积，该乘积的幂为 n。**:
 
-```
+```cpp
 scalbn(x, n) = x * FLT_RADIXn
 ```
 
@@ -43,7 +43,7 @@ scalbn(x, n) = x * FLT_RADIXn
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of scalbn() function.
 
@@ -68,14 +68,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 * 2^7 = 640
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of scalbn() function.
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3.9 * 2^7 = 499
 
 ```

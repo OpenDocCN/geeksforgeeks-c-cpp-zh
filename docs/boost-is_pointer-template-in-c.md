@@ -6,7 +6,7 @@ Boost 库的 **is_pointer** 模板用于检查给定类型是否为指针。它�
 
 **头文件:**
 
-```
+```cpp
 #include "boost/type_traits.hpp"
  or 
 #include "boost/type_traits/is_pointer.hpp"
@@ -15,7 +15,7 @@ Boost 库的 **is_pointer** 模板用于检查给定类型是否为指针。它�
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_pointer : public true_type-or-false_type {};
 
@@ -25,7 +25,7 @@ struct is_pointer : public true_type-or-false_type {};
 
 **语法:**
 
-```
+```cpp
 boost::is_pointer::value
 boost::is_pointer::value_type
 
@@ -35,7 +35,7 @@ boost::is_pointer::value_type
 
 **接受的参数:**该模板接受以下参数:
 
-```
+```cpp
 typename T
 T *volatile
 T *const volatile
@@ -53,7 +53,7 @@ T *
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_floating_point template
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pointer_type: 
 int *: 1
 char *: 1
@@ -107,7 +107,7 @@ pointer to 1-D array: 1
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_floating_point template
 #include <bits/stdc++.h>
@@ -198,7 +198,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_pointer_type: 
 pointer to fun: 1
 instance of a structure: 0

@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // Syntax for Switch Case
 switch (n) {
 
@@ -38,7 +38,7 @@ default:
 
 ## C
 
-```
+```cpp
 // C program to illustrate the switch statement
 #include <stdio.h>
 

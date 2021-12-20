@@ -8,7 +8,7 @@ C++支持函数重载，即可以有多个同名但参数不同的函数。**c++
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Function overloading in CPP to demonstrate
 // Name Mangling
 
@@ -23,7 +23,7 @@ void g(void) { int i = f(), j = f(0); }
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Function overloading to demonstrate
 // Name Mangling
 
@@ -43,7 +43,7 @@ void __g_v(void) { int i = __f_v(), j = __f_i(0); }
 
 ## C++
 
-```
+```cpp
 // C Program to demonstrate it
 // doesn't support Name Mangling
 
@@ -69,7 +69,7 @@ int main()
 
 ## C++14
 
-```
+```cpp
 // CPP Program to demonstrate Extern "C"
 
 #include <bits/stdc++.h>
@@ -89,7 +89,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 GeeksforGeeks
 ```
 
@@ -97,7 +97,7 @@ GeeksforGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #ifdef __cplusplus
 extern "C" {
 #endif

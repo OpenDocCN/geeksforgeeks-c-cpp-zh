@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```cpp
 queue <data_type> q
 ```
 
@@ -25,7 +25,7 @@ queue <data_type> q
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // working of queue
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in Queue are: 15 1
 ```
 
@@ -86,7 +86,7 @@ Elements in Queue are: 15 1
 
 **语法:**
 
-```
+```cpp
 deque<data_type> dq
 ```
 
@@ -94,7 +94,7 @@ deque<data_type> dq
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // working of deque
 #include <bits/stdc++.h>
@@ -139,7 +139,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Elements in deque are:  10 1
 ```
 

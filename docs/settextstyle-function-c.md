@@ -7,7 +7,7 @@
 头文件 graphics.h 包含**setextstyle()**函数，用于更改文本的显示方式。使用它，我们可以修改文本的大小，改变文本的方向，改变文本的字体。
 **语法:**
 
-```
+```cpp
 void settextstyle(int font, int direction, int font_size);
 
 where,
@@ -18,14 +18,14 @@ or VERT_DIR (Bottom to top).
 
 **例:**
 
-```
+```cpp
 Input : font = 8, direction = 0, font_size = 5
 Output : 
 ```
 
 ![](img/48f3d0c1873aa5c341a163e439501e05.png)
 
-```
+```cpp
 Input : font = 3, direction = 0, font_size = 5
 Output : 
 ```
@@ -40,7 +40,7 @@ Output :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ implementation for
 // settextstyle() function
 #include <graphics.h>

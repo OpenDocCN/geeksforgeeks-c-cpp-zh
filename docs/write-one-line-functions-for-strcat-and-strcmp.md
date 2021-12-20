@@ -6,7 +6,7 @@
 
 递归可以用来在一行中完成两个任务。下面是 stracat()和 strcmp()的单行实现。
 
-```
+```cpp
 /* my_strcat(dest, src) copies data of src to dest.  To do so, it first reaches end of the string dest using recursive calls my_strcat(++dest, src).  Once end of dest is reached, data is copied using 
 (*dest++ = *src++)?  my_strcat(dest, src). */
 void my_strcat(char *dest, char *src)
@@ -27,7 +27,7 @@ int main()
 
 函数 my_strcmp()与 my_strcmp()相比很简单。
 
-```
+```cpp
 /* my_strcmp(a, b) returns 0 if strings a and b are same, otherwise 1.   It recursively increases a and b pointers. At any point if *a is not equal to *b then 1 is returned.  If we reach end of both strings at the same time then 0 is returned. */
 int my_strcmp(char *a, char *b)
 {

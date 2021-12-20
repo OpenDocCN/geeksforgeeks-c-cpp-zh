@@ -25,7 +25,7 @@
 
 ## C
 
-```
+```cpp
 // C Program for header file of a shared stack
 #include <stdbool.h>
 #include <stdio.h>
@@ -64,7 +64,7 @@ extern void shstackrm(key_t key);
 
 ## C
 
-```
+```cpp
 // C Program for sharedstacklib.c
 #include "stacklib.h"
 #define NO_SEM 1
@@ -359,7 +359,7 @@ void shstackrm(key_t key)
 
 ## C
 
-```
+```cpp
 // C Program for process1
 #include "stacklib.h"
 #include <stdio.h>
@@ -384,7 +384,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program for process2
 #include "stacklib.h"
 #include <stdio.h>
@@ -405,11 +405,11 @@ int main()
 
 您可以使用编译代码
 
-```
+```cpp
 gcc main1.c sharedstacklib.c 
 ```
 
-```
+```cpp
 gcc main2.c sharedstacklib.c
 ```
 

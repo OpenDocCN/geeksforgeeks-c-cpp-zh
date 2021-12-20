@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to Check if a given
 // string can be formed from another
 // string using given constraints
@@ -86,7 +86,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to Check if a given
 // String can be formed from another
 // String using given constraints
@@ -170,7 +170,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to Check if a given string
 # can be formed from another string using
 # given constraints
@@ -230,7 +230,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to Check if a given
 // String can be formed from another
 // String using given constraints
@@ -311,7 +311,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to Check if a given
@@ -394,6 +394,6 @@ else
 
 **Output:** 
 
-```
+```cpp
 YES
 ```

@@ -14,7 +14,7 @@
     *   通常在表达式中存在多个数据类型时发生。在这种情况下，会进行类型转换(类型提升)以避免数据丢失。
     *   变量的所有数据类型都升级为数据类型最大的变量的数据类型。
 
-        ```
+        ```cpp
          bool -> char -> short int -> int -> 
                unsigned int -> long -> unsigned -> 
                long long -> float -> double -> long double 
@@ -24,7 +24,7 @@
 
     **类型隐式转换示例:**
 
-    ```
+    ```cpp
     // An example of implicit conversion
     #include<stdio.h>
     int main()
@@ -46,7 +46,7 @@
 
     输出:
 
-    ```
+    ```cpp
     x = 107, z = 108.000000
     ```
 
@@ -58,13 +58,13 @@
 
     C 语言中的语法:
 
-    ```
+    ```cpp
     (type) expression
     ```
 
     类型表示最终结果要转换成的数据类型。
 
-    ```
+    ```cpp
     // C program to demonstrate explicit type casting
     #include<stdio.h>
 
@@ -83,7 +83,7 @@
 
     输出:
 
-    ```
+    ```cpp
     sum = 2
     ```
 

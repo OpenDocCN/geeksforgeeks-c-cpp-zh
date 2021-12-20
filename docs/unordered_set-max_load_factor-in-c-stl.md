@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 unordered_set_name.max_load_factor()
 ```
 
@@ -18,7 +18,7 @@ unordered_set_name.max_load_factor()
 
 下面的程序说明了无序 _ 集合::max_load_factor()方法:
 
-```
+```cpp
 // C++ program o illustrate the
 // unordered_set::max_load_factor() function
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Maximum load factor of uset: 1
 Current load factor of uset: 0.8
 
@@ -54,7 +54,7 @@ Current load factor of uset: 0.8
 
 **语法**
 
-```
+```cpp
 unordered_set_name.max_load_factor(float z)
 ```
 
@@ -64,7 +64,7 @@ unordered_set_name.max_load_factor(float z)
 
 下面的程序说明了无序 _ 集合::最大 _ 加载 _ 因子(浮点)方法:
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::max_load_factor() function
 
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 New Maximum load factor of uset: 0.5
 Current load factor of uset1: 0.363636
 

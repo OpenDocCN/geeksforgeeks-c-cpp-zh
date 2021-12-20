@@ -5,7 +5,7 @@
 给定行的长度和列的宽度，任务是打印镜像中空平行四边形。
 **例:**
 
-```
+```cpp
 Input: rows = 5, cols = 8
 Output:
 ********
@@ -17,7 +17,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 // CPP program to print hollow mirrored
 // parallelogram star pattern series
 
@@ -67,7 +67,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print hollow mirrored
 // parallelogram star pattern series
 
@@ -116,7 +116,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print hollow mirrored
 // parallelogram star pattern series
 import java.util.*;
@@ -168,7 +168,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to prhollow mirrored
 # parallelogram star pattern series
 import math as mt
@@ -207,7 +207,7 @@ Pattern(rows, cols)
 
 ## C#
 
-```
+```cpp
 // C# program to print hollow mirrored
 // parallelogram star pattern series
 using System;
@@ -264,7 +264,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to print hollow mirrored
 // parallelogram star pattern series
@@ -315,7 +315,7 @@ Pattern($rows, $cols);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
       // JavaScript program to print hollow mirrored
@@ -357,7 +357,7 @@ Pattern($rows, $cols);
 
 **Output:** 
 
-```
+```cpp
 ********
  *      *
   *      *

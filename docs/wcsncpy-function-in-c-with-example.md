@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t *wcsncpy(wchar_t *dest, 
                  const wchar_t *src, 
                  size_t n);
@@ -25,7 +25,7 @@ wchar_t *wcsncpy(wchar_t *dest,
 
 **例 1:**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcsncpy() function.
 
@@ -52,14 +52,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Destination string is : A Computer Science
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcsncpy() function.
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Destination string is : Geeks
 
 ```

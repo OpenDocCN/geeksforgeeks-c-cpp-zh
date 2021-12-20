@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 
@@ -40,7 +40,7 @@ int main()
 1.  **第 1 步:**用户创建一个名为**getintegeronily()**的函数，并将其分配给 int x。
 2.  **第二步:**在该功能中，输入的输入将经过一个[边做边循环](https://www.geeksforgeeks.org/c-c-do-while-loop-with-examples/)，其中 [if 语句](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/)检查整数的 [ASCII 码](https://www.geeksforgeeks.org/program-print-ascii-value-character/)。如果 ASCII 码与整数 ASCII 码匹配，屏幕上将显示输入。
 
-```
+```cpp
 do
 {
     If( ch>=48 && ch<=57)
@@ -58,7 +58,7 @@ ASCII Code of 0 to 9 respectively.
 
 *   **第 4 步:**为了打破循环，添加了一个 if 语句，这样循环就不会进入无限循环。
 
-```
+```cpp
 if(ch == 13)
 break;
 
@@ -68,7 +68,7 @@ return the input value.
 
 *   **第五步:**返回功能将存储在 **num** 中的整数返回到 **x** 中，输出打印在屏幕上。
 
-```
+```cpp
 printf("you have entered %d", x)
 ```
 
@@ -76,7 +76,7 @@ printf("you have entered %d", x)
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 

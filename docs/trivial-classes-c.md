@@ -12,7 +12,7 @@
 
 以下示例显示了琐碎类型:
 
-```
+```cpp
 /*Since there are no explicit constructors,
 there exists a default constructor*/
 struct Trivial {

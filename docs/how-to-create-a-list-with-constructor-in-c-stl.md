@@ -7,7 +7,7 @@
 在 C++中，可以借助构造函数创建一个列表。做这件事的语法是:
 **语法:**
 
-```
+```cpp
 list<type> list_name(size_of_list, value_to_be_inserted);
 ```
 
@@ -15,7 +15,7 @@ list<type> list_name(size_of_list, value_to_be_inserted);
 
 **程序 1:**
 
-```
+```cpp
 #include <iostream>
 #include <list>
 using namespace std;
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 100 100 100 100 100 100 100 100 100 100
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geeks Geeks Geeks Geeks Geeks
 
 ```

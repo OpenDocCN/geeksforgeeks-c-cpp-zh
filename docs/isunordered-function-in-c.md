@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool isunordered(float x, float y);
 ```
 
@@ -20,7 +20,7 @@ bool isunordered(float x, float y);
 
 **例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isunordered() function.
 
@@ -43,7 +43,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The value of x is= 6.3
 The value of y is= -nan
 isunordered(x, y) = 1
@@ -54,7 +54,7 @@ isunordered(x, y) = 1
 
 **例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isunordered() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The value of x is= 4.6
 The value of y is= 9.2
 isunordered(x, y) = 0

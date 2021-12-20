@@ -9,7 +9,7 @@ c 语言支持可变数量的参数。但是没有语言提供的方法来找出
 
 下面是一个使用第一个参数 *arg_count* 保存其他参数计数的例子。
 
-```
+```cpp
 #include <stdarg.h>
 #include <stdio.h>
 

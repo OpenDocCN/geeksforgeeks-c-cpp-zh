@@ -9,7 +9,7 @@
 **SIGTTP**信号由其控制终端发送给进程，请求其停止(终端停止)。我们可以捕捉到这个信号，并运行我们自己定义的信号。
 标准 C 库函数**信号()**可用于为上述任何信号设置处理器。
 
-```
+```cpp
 // C program that does not suspend when
 // Ctrl+Z is pressed
 #include <stdio.h>
@@ -37,7 +37,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Cannot execute Ctrl+Z
 
 ```

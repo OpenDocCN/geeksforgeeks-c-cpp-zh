@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```cpp
 object.member;
 ```
 
 **例如:**
 
-```
+```cpp
 #include <stdio.h>
 
 struct Point {
@@ -35,7 +35,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 x = 20, y = 1
 
 ```

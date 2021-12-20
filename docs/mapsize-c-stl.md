@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.size()
 
 ```
@@ -18,7 +18,7 @@ map_name.size()
 
 **示例:**
 
-```
+```cpp
 Input : map1 = { 
                 {1, "India"},
                 {2, "Nepal"},
@@ -34,7 +34,7 @@ Output: 0
 
 ```
 
-```
+```cpp
 // C++ program to illustrate
 // implementation of size() function
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 map1 size: 4
 map2 size: 0
 

@@ -26,7 +26,7 @@
 
 以下是[首次拟合算法](https://www.geeksforgeeks.org/first-fit-allocation-in-operating-systems/)的实现:
 
-```
+```cpp
 // C++ program for the implementation
 // of the First Fit algorithm
 #include <iostream>
@@ -243,7 +243,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 +-------------+--------------+--------------+
 | Process no. | Process size | Memory block |
 +-------------+--------------+--------------+
@@ -262,7 +262,7 @@ int main()
 
 下面是[下一个拟合算法](https://www.geeksforgeeks.org/program-for-next-fit-algorithm-in-memory-management/)的实现:
 
-```
+```cpp
 // C++ program for the implementation
 // of the Next Fit algorithm
 #include <iostream>
@@ -482,7 +482,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 +-------------+--------------+--------------+
 | Process no. | Process size | Memory block |
 +-------------+--------------+--------------+

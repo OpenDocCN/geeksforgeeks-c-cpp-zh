@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool bitset_name.all() 
 
 ```
@@ -19,7 +19,7 @@ bool bitset_name.all()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::all() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1100 does not have all bits set
 111111 has all bits set
 
@@ -65,7 +65,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::all() function
 // when the input is as a number
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 11 has all bits set
 101 does not have all bits set
 

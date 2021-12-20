@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int strlen(const char *str);
 
 ```
@@ -23,7 +23,7 @@ int strlen(const char *str);
 
 **实施例 1:-**
 
-```
+```cpp
 // c program to demonstrate
 // example of strlen() function.
 
@@ -42,13 +42,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Length of string is: 5
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c program to demonstrate
 // example of strlen() function.
 
@@ -67,13 +67,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Length of string is: 5
 ```
 
 **实施例 3:-**
 
-```
+```cpp
 // c program to demonstrate
 // example of strlen() function.
 #include<stdio.h>
@@ -91,6 +91,6 @@ int main()
 
 输出:
 
-```
+```cpp
 Length of string is: 5
 ```

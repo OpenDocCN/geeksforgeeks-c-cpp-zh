@@ -22,7 +22,7 @@
 
 **std::下界()**的程序说明:
 
-```
+```cpp
 // C++ program to illustrate
 // std::set::lower_bound
 #include <bits/stdc++.h>
@@ -89,14 +89,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Time taken by program is : 0.000046 sec
 
 ```
 
 用于说明**标准的程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::lower_bound
 #include <bits/stdc++.h>
@@ -162,7 +162,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Time taken by program is : 0.000039 sec
 
 ```

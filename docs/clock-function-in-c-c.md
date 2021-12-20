@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 clock_t clock( void );
 ```
 
@@ -16,7 +16,7 @@ clock_t clock( void );
 
 **下面程序说明了时钟()功能的实现:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of clock() function.
 
@@ -54,7 +54,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 Processor time taken for multiplication: 0.006485 seconds
 Processor time taken in pow function: 0.022251 seconds
 

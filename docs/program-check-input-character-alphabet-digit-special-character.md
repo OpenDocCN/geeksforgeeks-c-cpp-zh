@@ -13,7 +13,7 @@ ASCII 值范围-
 
 **例:**
 
-```
+```cpp
 Input : 8
 Output : Digit
 
@@ -23,7 +23,7 @@ Output : Alphabet
 
 ## C++
 
-```
+```cpp
 // CPP program to find type of input character
 #include <iostream>
 using namespace std;
@@ -55,7 +55,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find type of input character
 import java.io.*;
 
@@ -90,7 +90,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # python program to find type of
 # input character
 
@@ -121,7 +121,7 @@ charCheck(input_char)
 
 ## C#
 
-```
+```cpp
 // C# program to find type of
 // input character
 using System;
@@ -159,7 +159,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find type
 // of input character
@@ -191,7 +191,7 @@ charCheck($input_char);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript program to find type of input character
       function charCheck(input)
@@ -223,6 +223,6 @@ charCheck($input_char);
 
 **输出:**
 
-```
+```cpp
  Special Character 
 ```

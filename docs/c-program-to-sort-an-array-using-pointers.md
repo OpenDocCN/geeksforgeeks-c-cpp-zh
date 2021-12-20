@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: n = 5, arr[] = {0, 23, 14, 12, 9}
 Output: {0, 9, 12, 14, 23}
 
@@ -23,7 +23,7 @@ Output: {0, 2, 7}
 
 **程序:**
 
-```
+```cpp
 #include <stdio.h>
 
 // Function to sort the numbers using pointers
@@ -64,7 +64,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0 9 12 14 23
 
 ```

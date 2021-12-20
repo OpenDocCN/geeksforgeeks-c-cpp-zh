@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointers-question-13/](https://www.geeksforgeeks.org/c-pointers-question-13/)
 
-```
+```cpp
 #include<stdio.h> 
 void f(int *p, int *q) 
 { 
@@ -28,7 +28,7 @@ int main() 
 
 **解释:**见下图 f()附注释说明。
 
-```
+```cpp
 /* p points to i and q points to j */
 void f(int *p, int *q) 
 { 

@@ -4,7 +4,7 @@
 
 给定一个[多重映射](https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/)和多重映射的一个键，我们的任务是简单地显示给定键的(键-值)对。在 multimap 中，同一个键可以有多个(键-值)对。假设我们的多重地图包含
 
-```
+```cpp
 key     value
 1         10
 2         20
@@ -24,7 +24,7 @@ key     value
 就像 C++ STL 中的无序映射一样，我们不能像
 那样获取值
 
-```
+```cpp
 int key = 2;
 multimap  map;
 
@@ -35,7 +35,7 @@ cout << "Value : " < second;
 
 输出:
 
-```
+```cpp
 Key : 2
 Value : 20
 ```
@@ -46,7 +46,7 @@ Value : 20
 
 ## C++
 
-```
+```cpp
 // CPP program to find all values for a
 // given key.
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to find all values for a
 // given key.
 import java.util.*;
@@ -121,7 +121,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find all values for a
 # given key.
 map = []
@@ -145,7 +145,7 @@ for i in map:
 
 ## C#
 
-```
+```cpp
 // C# program to find all values for a
 // given key.
 using System;
@@ -191,7 +191,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 class pair
@@ -225,7 +225,7 @@ for (let itr of map.values())
 
 **输出:**
 
-```
+```cpp
 2  20
 2  30
 2  40
@@ -235,7 +235,7 @@ for (let itr of map.values())
 下界(key):返回指向大于或等于 key 的第一个元素的迭代器。
 upper_bound(key):返回指向大于 key 的第一个元素的迭代器。
 
-```
+```cpp
 key     value
 1         10
 2         20 <-- lower_bound(20)
@@ -248,7 +248,7 @@ key     value
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -282,7 +282,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2  20
 2  30
 2  40

@@ -5,7 +5,7 @@
 给出一个正整数数组。任务是在对给定数组的所有子数组执行按位“或”运算后，找到总和。
 **例:**
 
-```
+```cpp
 Input : arr[] = {1, 2, 3, 4, 5}
 Output : 71
 
@@ -31,7 +31,7 @@ Output : 84
 
 ## C++
 
-```
+```cpp
 // C++ program to find sum of bitwise OR
 // of all subarrays
 
@@ -124,7 +124,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find sum of bitwise OR
 // of all subarrays
 import java.util.*;
@@ -216,7 +216,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find sum of
 # bitwise OR of all subarrays
 
@@ -305,7 +305,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# program to find sum of bitwise OR
 // of all subarrays
 using System;
@@ -396,7 +396,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find sum of bitwise OR
 // of all subarrays
@@ -496,7 +496,7 @@ echo givesum($A, $n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find sum of bitwise OR of all subarrays
 
@@ -583,7 +583,7 @@ echo givesum($A, $n);
 
 **Output:** 
 
-```
+```cpp
 71
 ```
 

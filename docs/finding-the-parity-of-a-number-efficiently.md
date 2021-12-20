@@ -48,7 +48,7 @@
 > n = n ^(n>>1)= 1 ^ 0 = 1
 > 最终结果= n & 1 = 1
 
-```
+```cpp
 if(y&1==1)
     odd Parity
 else
@@ -59,7 +59,7 @@ else
 
 ## C++
 
-```
+```cpp
 // Program to find the parity of a given number
 #include <bits/stdc++.h>
 
@@ -96,7 +96,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Program to find the
 // parity of a given number
 import java.io.*;
@@ -142,7 +142,7 @@ public static void main (String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Program to find the
 # parity of a given number
 
@@ -178,7 +178,7 @@ else:
 
 ## C#
 
-```
+```cpp
 // Program to find the
 // parity of a given number
 using System;
@@ -225,7 +225,7 @@ public static void Main ()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // Program to find the
 // parity of a given number
@@ -263,7 +263,7 @@ print("Odd Parity\n");
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript Program to find the parity of a given number
 
@@ -296,7 +296,7 @@ function findParity(x) {
 
 **Output:** 
 
-```
+```cpp
 Even Parity
 Odd Parity
 ```

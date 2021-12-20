@@ -5,7 +5,7 @@
 无序集在 C++ STL 中提供了两种运算符。这些是:
 **语法:**
 
-```
+```cpp
 1\. (unordered_set &lhs == unordered_set &rhs)
 2\. (unordered_set &lhs != unordered_set &rhs)
 ```
@@ -17,7 +17,7 @@
 “==”是 C++ STL 中的一个运算符，在两个无序集之间执行相等比较运算，**无序 _ 集::运算符==** 是相同的对应运算符函数。
 **语法:**
 
-```
+```cpp
 (unordered_set &uset1 == unordered_set &uset2)
 ```
 
@@ -32,7 +32,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 using namespace std;
@@ -81,7 +81,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sample1 and sample2 are equal.
 sample2 and sample3 are not equal.
 ```
@@ -95,7 +95,7 @@ sample2 and sample3 are not equal.
 
 **语法:**
 
-```
+```cpp
 unordered_set1 != unordered_set2 
 ```
 
@@ -110,7 +110,7 @@ unordered_set1 != unordered_set2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_set operator!=
 
@@ -146,7 +146,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a and b are equal
 a and c are not equal
 ```
@@ -161,7 +161,7 @@ a and c are not equal
 
 **语法**
 
-```
+```cpp
 uset.operator= ( unordered_set& us )
 uset.operator= ( unordered_set&& us )
 uset.operator= ( initializer list )
@@ -179,7 +179,7 @@ uset.operator= ( initializer list )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_set::operator=()
 #include <iostream>
@@ -226,7 +226,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 10 11 12 7 8 9 
 12 11 10 9 
 10 11 12 7 8 9

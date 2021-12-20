@@ -6,7 +6,7 @@
 
 **语法**(返回最大负载系数):
 
-```
+```cpp
 unordered_multiset_name.max_load_factor()
 
 ```
@@ -19,7 +19,7 @@ unordered_multiset_name.max_load_factor()
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multiset::max_load_factor()
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current parameters are :
 max_load_factor= 1
 load_factor= 0.571429
@@ -57,7 +57,7 @@ bucket_count= 7
 
 **程序 2** :
 
-```
+```cpp
 // c++ program to illustrate
 // unordered_multiset::max_load_factor()
 #include <iostream>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current parameters are :
 max_load_factor= 1
 load_factor= 0.571429

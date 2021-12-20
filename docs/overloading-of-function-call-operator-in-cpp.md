@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above concepts
 #include <bits/stdc++.h>

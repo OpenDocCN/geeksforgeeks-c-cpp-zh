@@ -4,7 +4,7 @@
 
 预测后续 C++程序的输出。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -36,7 +36,7 @@ int main()
 
 输出:上述程序编译运行良好，并产生以下输出。
 
-```
+```cpp
 fun() called
 fun() const called
 ```
@@ -47,7 +47,7 @@ C++允许基于 const 类型重载成员方法。当函数返回引用或指针�
 **参数呢？**
 与常量参数相关的规则很有意思。让我们先来看看下面两个例子。程序 1 编译失败，但程序 2 编译运行良好。
 
-```
+```cpp
 // PROGRAM 1 (Fails in compilation)
 #include<iostream>
 using namespace std;
@@ -70,11 +70,11 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: redefinition of 'void fun(int)'
 ```
 
-```
+```cpp
 // PROGRAM 2 (Compiles and runs fine)
 #include<iostream>
 using namespace std;
@@ -99,7 +99,7 @@ int main()
 
 输出:
 
-```
+```cpp
 const fun() GeeksforGeeks
 ```
 
@@ -107,7 +107,7 @@ const fun() GeeksforGeeks
 
 作为练习，预测以下程序的输出。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

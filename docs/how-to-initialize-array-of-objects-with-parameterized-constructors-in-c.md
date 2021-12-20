@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 ClassName ObjectName[number of objects];
 ```
 
@@ -17,7 +17,7 @@ ClassName ObjectName[number of objects];
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -55,7 +55,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #define N 5
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0 1
 1 2
 2 3
@@ -114,7 +114,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #define N 5
 
@@ -163,7 +163,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0 1
 1 2
 2 3
@@ -175,7 +175,7 @@ int main()
 
 **编译器错误:**
 
-```
+```cpp
 error: no matching function for call to ‘Test::Test()’
      Test *arr=new Test[N];
 ```
@@ -185,7 +185,7 @@ error: no matching function for call to ‘Test::Test()’
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #define N 5
 
@@ -231,7 +231,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0 1
 1 2
 2 3
@@ -244,7 +244,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 #define N 5
@@ -287,7 +287,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0 1
 1 2
 2 3

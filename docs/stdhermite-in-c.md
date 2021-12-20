@@ -31,7 +31,7 @@ std::hermite 基于以下等式给出的 hermite 多项式函数:
 
 **语法:**
 
-```
+```cpp
 std::hermite( unsigned int n, data_type x )
 ```
 
@@ -48,7 +48,7 @@ std::hermite( unsigned int n, data_type x )
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the 
 // hermite() function
 #define __STDCPP_WANT_MATH_SPEC_FUNCS__ 1
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 7880
 15521
 
@@ -76,7 +76,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the 
 // hermite() function when n>128 
 #define __STDCPP_WANT_MATH_SPEC_FUNCS__ 1
@@ -89,7 +89,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 -2.26912e+149
 
 ```

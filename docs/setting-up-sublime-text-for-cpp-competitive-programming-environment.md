@@ -49,7 +49,7 @@
 *   将以下代码粘贴到文件中并保存。
 *   将文件命名为“ **CP.sublime-build** ”。
 
-```
+```cpp
 {
     "cmd": ["g++.exe", "-std=c++17", "${file}",
             "-o", "${file_base_name}.exe",

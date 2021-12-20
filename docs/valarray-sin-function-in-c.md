@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 sin(varr);
 ```
 
@@ -18,7 +18,7 @@ sin(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sin() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.247404 0.479426 0.681639 0.841471
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sin() function.
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.932039 0.00159265 -0.958924 0
 

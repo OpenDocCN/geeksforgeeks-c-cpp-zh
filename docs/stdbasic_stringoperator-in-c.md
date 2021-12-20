@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 reference operator[] (size_type pos);
 const_reference operator[] (size_type pos) const;
 Parameters :
@@ -18,7 +18,7 @@ No exception is thrown
 
 ```
 
-```
+```cpp
 /* CPP program to access
    a character through
    std::basic_string::operator[] */
@@ -40,7 +40,7 @@ int main()
 
 输出
 
-```
+```cpp
 string size = 3
 Element : c
 

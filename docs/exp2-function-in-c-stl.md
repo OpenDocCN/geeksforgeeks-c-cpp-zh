@@ -5,7 +5,7 @@
 **exp2()** 是 C++ STL 中的一个内置函数，用于计算给定数字的基数为 2 的指数函数。也可以写成 2 <sup>num</sup> 。
 **语法** :
 
-```
+```cpp
 exp2(data_type num)
 ```
 
@@ -15,7 +15,7 @@ exp2(data_type num)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // exp2() function for negative double numbers
 #include <cmath>
@@ -36,7 +36,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 exp2(-3.14) = 0.11344
 ```
 
@@ -44,7 +44,7 @@ exp2(-3.14) = 0.11344
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // exp2() function for positive numbers
 #include <cmath>
@@ -65,7 +65,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 exp2(6) = 64
 ```
 
@@ -73,7 +73,7 @@ exp2(6) = 64
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // exp2() function for 0
 #include <cmath>
@@ -94,7 +94,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 exp2(0) = 1
 ```
 
@@ -103,7 +103,7 @@ exp2(0) = 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // exp2() function for range overflow
 #include <cmath>
@@ -126,6 +126,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 exp2(100) = -2147483648
 ```

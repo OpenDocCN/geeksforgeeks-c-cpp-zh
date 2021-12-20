@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input  : GFG
 Output : GFGGFGGFGGFG...(It will print GFG infinitely).
 
@@ -14,7 +14,7 @@ Output : GFGGFGGFGGFG...(It will print GFG infinitely).
 
 想法是用[系统()](https://www.geeksforgeeks.org/system-call-in-c/)调用程序本身。编译时，我们通过可执行文件名“test”。我们称之为系统(test)，它将重复执行同一个程序，因为系统是一个执行外部命令或可执行文件的函数。
 
-```
+```cpp
 // The program is compiled using -O option
 // to produce output executable file name
 // as "test"

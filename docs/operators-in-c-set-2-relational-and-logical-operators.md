@@ -20,7 +20,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working of relational operators
 #include <stdio.h>
 
@@ -70,7 +70,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate working of logical operators
 #include <iostream>
 using namespace std;
@@ -121,7 +121,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a is greater than b
 a is greater than or equal to b
 a is greater than or equal to b
@@ -141,7 +141,7 @@ a is not equal to b
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working of logical operators
 #include <stdio.h>
 
@@ -176,7 +176,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate working of
 // logical operators
 #include <iostream>
@@ -213,7 +213,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 AND condition not satisfied
 a is greater than b OR c is equal to d
 a is not zero
@@ -225,7 +225,7 @@ a is not zero
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -238,7 +238,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -252,7 +252,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 No Output
 ```
 
@@ -260,7 +260,7 @@ No Output
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -273,7 +273,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -287,7 +287,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 GeeksQuiz
 ```
 
@@ -295,7 +295,7 @@ GeeksQuiz
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -308,7 +308,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -321,7 +321,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 No Output
 ```
 
@@ -329,7 +329,7 @@ No Output
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -342,7 +342,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 int main()
@@ -355,7 +355,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 GeeksQuiz
 ```
 

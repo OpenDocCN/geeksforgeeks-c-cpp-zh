@@ -6,7 +6,7 @@ sqrt()函数的复杂版本在**复杂**头文件中定义。该函数用于计�
 
 **语法:**
 
-```
+```cpp
 template <class T> complex<T>
     sqrt(const complex<T>& z);
 
@@ -19,7 +19,7 @@ template <class T> complex<T>
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sqrt() function.
 
@@ -42,7 +42,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Square root of -9 is (0,3)
 Square root of (-9, -0) is (0,-3)
 

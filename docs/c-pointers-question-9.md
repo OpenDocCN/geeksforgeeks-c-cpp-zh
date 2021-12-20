@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointers-question-9/](https://www.geeksforgeeks.org/c-pointers-question-9/)
 
-```
+```cpp
 void fun(int *p) 
 { 
   int q = 10; 
@@ -28,7 +28,7 @@ int main() 
 
 **解释:** Inside fun()，q 是指针 p 的副本，所以如果我们把 q 改成指向别的东西，那么 p 仍然不受影响。如果我们想改变一个函数在另一个函数中的局部指针，那么我们必须将指针传递给指针。通过将指针传递给指针，我们可以将指针更改为指向其他东西。以下面的程序为例。
 
-```
+```cpp
 void fun(int **pptr)
 {
   static int q = 10;

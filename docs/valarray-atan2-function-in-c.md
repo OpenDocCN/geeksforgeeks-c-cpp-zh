@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 std::valarray res = atan2 (y-coords, x-coords)
 ```
 
@@ -20,7 +20,7 @@ std::valarray res = atan2 (y-coords, x-coords)
 
 **实施例 1:-**
 
-```
+```cpp
 // atan2 valarray example
 // programs illustrate the atan2() function:
 
@@ -53,13 +53,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 results: results: 3.14159 0.785398 -2.03444
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // atan2 valarray example
 // programs illustrate the atan2() function:
 
@@ -92,13 +92,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 results: 0.674741 1.83251 -0.380506 1.67995
 ```
 
 **示例 3:-** 错误和异常:当不同大小的 valarray 对象作为参数传递时，该函数不返回匹配的函数进行错误调用。
 
-```
+```cpp
 // atan2 valarray example
 // programs illustrate the atan2() function:
 
@@ -131,7 +131,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp: In function 'int main()':
 prog.cpp:14:48: error: no matching function for call to 'atan2(std::valarray&, std::valarray&)'
    valarray res = atan2 (ycoords, xcoords);

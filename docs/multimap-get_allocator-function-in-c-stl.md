@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap.get_allocator()
 
 ```
@@ -17,7 +17,7 @@ multimap.get_allocator()
 
 **示例:**
 
-```
+```cpp
 // C++ program demonstrate
 // multimap::get_allocator()
 
@@ -49,14 +49,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of allocated array is 40 bytes.
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ program to demonstrate
 // multimap::get_allocator()
 
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of allocated array is 80 bytes.
 
 ```

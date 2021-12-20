@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<exception>
 
 ```
 
 **语法:**
 
-```
+```cpp
 virtual const char* what() const throw();
 
 ```
@@ -26,7 +26,7 @@ virtual const char* what() const throw();
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for exception::what()
 #include <bits/stdc++.h>
 
@@ -61,14 +61,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks!! A Computer Science Portal For Geeks
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for exception::what()
 
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Hey!!
 
 ```

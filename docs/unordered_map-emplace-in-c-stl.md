@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map_name.emplace(key, element)
 
 ```
@@ -25,7 +25,7 @@ unordered_map_name.emplace(key, element)
 
 **例 1:**
 
-```
+```cpp
 // C++ program for the illustration of
 // unordered_map::emplace() function
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 4==>>50
 2==>>30
 1==>>40
@@ -63,7 +63,7 @@ int main()
 
 **示例 2** :假设我们想要显示一个字符串的所有具有索引的唯一字符。如果一个字符出现多次，则显示它第一次出现的索引。
 
-```
+```cpp
 // C++ program for the illustration of
 // unordered_map::emplace() function
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 r==>>7
 e==>>1
 s==>>4

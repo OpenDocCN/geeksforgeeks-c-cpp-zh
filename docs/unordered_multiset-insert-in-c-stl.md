@@ -5,7 +5,7 @@
 无序多集::insert()是 C++ STL 中的一个内置函数，它在无序多集中插入新元素。这增加了容器的尺寸。另请注意，具有相同值的元素也会随着插入次数的增加而存储。
 **语法:**
 
-```
+```cpp
 Unordered_multiset_name.insert(element)
 ```
 
@@ -16,7 +16,7 @@ Unordered_multiset_name.insert(element)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // unordered_multiset::insert
 #include <array>
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 ums contains: papaya pineapple mango cherry grapes banana apple apple orange
 
 ```
@@ -54,7 +54,7 @@ ums contains: papaya pineapple mango cherry grapes banana apple apple orange
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // unordered_multiset::insert
 #include <array>
 #include <iostream>
@@ -88,7 +88,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 ums contains: 8 7 9 3 2 4 4 6 5
 
 ```

@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -41,7 +41,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Program 1
 #include<stdio.h>
 int main()
@@ -55,7 +55,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // Program 1
 #include<bits/stdc++.h>
 using namespace std;
@@ -71,7 +71,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Program 2
 #include<stdio.h>
 int main()
@@ -87,7 +87,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // Program 2
 #include<bits/stdc++.h>
 using namespace std;

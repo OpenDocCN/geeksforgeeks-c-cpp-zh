@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 For uppercase conversion
 Input : s = "String"
 Output : s = "STRING"
@@ -22,7 +22,7 @@ Output : s = "string"
 **toupper(int c) :** 返回字符 c 的大写版本，如果 c 已经大写，则返回 c 本身。
 **tolower(int c) :** 返回字符 c 的小写版本，如果 c 已经是小写，则返回 c 本身。
 
-```
+```cpp
 // C++ program to convert whole string to
 // uppercase or lowercase using STL.
 #include<bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 JATIN GOYAL
 jatin goyal
 

@@ -7,7 +7,7 @@
 它设置指定的浮点舍入方向或“当前舍入方向”，这将是浮点舍入宏之一。
 在 C++中与 rint()、nearbyint()等舍入函数配合使用。
 
-```
+```cpp
 Syntax:
 int fesetround( int round );
 where round can be FE_TONEAREST,
@@ -22,7 +22,7 @@ Return : The fesetround() function returns
 
 **应用:** fesetround()函数可以和数学头的 rint()、nearbyint()等舍入函数一起使用，应用“当前舍入方向”
 
-```
+```cpp
 // C program to illustrate
 // fesetround() function with rint() function
 
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 4
 3
 3
@@ -71,7 +71,7 @@ int main()
 
 用于获取当前舍入方向对应的浮点舍入宏的值。它与 rint()，nearbyint()和 C++中的其他舍入函数一起使用。
 
-```
+```cpp
 Syntax : 
 int fegetround();
 No parameter
@@ -96,7 +96,7 @@ Rounding Macros:
 
 在这个程序中，我们将检查并打印 fegetround()函数返回的宏。
 
-```
+```cpp
 // C program to illustrate
 // fegetround() function with
 // rint() function using switch case
@@ -153,7 +153,7 @@ int main()
 
 输出:
 
-```
+```cpp
 FE_UPWARD
 FE_DOWNWARD
 FE_TOWARDZERO

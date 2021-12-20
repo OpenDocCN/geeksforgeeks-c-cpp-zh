@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strcat(char *dest, const char *src)
 ```
 
@@ -29,7 +29,7 @@ char *strcat(char *dest, const char *src)
 
 **示例:**
 
-```
+```cpp
 Input: src = "ForGeeks"
        dest = "Geeks"
 Output: "GeeksForGeeks"
@@ -43,7 +43,7 @@ Output: "Hello World"
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -73,7 +73,7 @@ int main(int argc,
 
 **Output:**
 
-```
+```cpp
 GeeksForGeeks
 
 ```

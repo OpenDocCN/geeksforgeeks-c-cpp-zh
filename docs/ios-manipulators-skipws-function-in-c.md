@@ -6,7 +6,7 @@ C++中**流操纵器**的 **skipws()** 方法用于设置指定字符串流的 s
 
 **语法:**
 
-```
+```cpp
 ios_base& skipws (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& skipws (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of skipws() function
 
@@ -49,7 +49,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 skipws flag: G
 F
 G
@@ -58,7 +58,7 @@ G
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of skipws() function
 
@@ -88,7 +88,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 skipws flag: G
 
 ```

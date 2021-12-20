@@ -24,7 +24,7 @@
 if 语句是最简单的决策语句。它用于决定是否执行某个语句或语句块，即如果某个条件为真，则执行某个语句块，否则不执行。
 **语法** :
 
-```
+```cpp
 if(condition) 
 {
    // Statements to execute if
@@ -35,7 +35,7 @@ if(condition)
 这里评估后的**条件**不是真就是假。如果语句接受布尔值-如果值为真，那么它将执行它下面的语句块，否则不执行。如果我们没有在 If(condition)之后提供花括号“{ 0 }”和“}”，那么默认情况下，if 语句会将紧接在它下面的第一个语句视为在其块内。
 **例** :
 
-```
+```cpp
 if(condition)
    statement1;
    statement2;
@@ -51,7 +51,7 @@ if(condition)
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 #include <stdio.h>
 
@@ -69,7 +69,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate If statement
 #include<iostream>
 using namespace std;
@@ -89,7 +89,7 @@ using namespace std;
 
 **Output:** 
 
-```
+```cpp
 I am Not in if
 ```
 
@@ -100,7 +100,7 @@ I am Not in if
 仅 *if* 语句就告诉我们，如果条件为真，它将执行一组语句，如果条件为假，它不会执行。但是如果条件是假的，我们想做别的事情怎么办。C *else* 语句来了。如果条件为假，我们可以使用 *else* 语句和 *if* 语句来执行一段代码。
 **语法** :
 
-```
+```cpp
 if (condition)
 {
     // Executes this block if
@@ -121,7 +121,7 @@ else
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 #include <stdio.h>
 
@@ -142,7 +142,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else statement
 #include<iostream>
 using namespace std;
@@ -162,7 +162,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 i is greater than 15
 ```
 
@@ -173,7 +173,7 @@ i is greater than 15
 C 中的嵌套 if 是一个 if 语句，它是另一个 if 语句的目标。嵌套的 if 语句意味着一个 if 语句在另一个 if 语句中。是的，C 和 C++都允许我们在 if 语句中嵌套 if 语句，也就是说，我们可以将一个 if 语句放在另一个 if 语句中。
 **语法:**
 
-```
+```cpp
 if (condition1) 
 {
    // Executes when condition1 is true
@@ -192,7 +192,7 @@ if (condition1)
 
 ## C
 
-```
+```cpp
 // C program to illustrate nested-if statement
 #include <stdio.h>
 
@@ -220,7 +220,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate nested-if statement
 #include <iostream>
 using namespace std;
@@ -250,7 +250,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 i is smaller than 15
 i is smaller than 12 too
 ```
@@ -260,7 +260,7 @@ i is smaller than 12 too
 在这里，用户可以在多个选项中进行选择。C if 语句是从上到下执行的。一旦控制 if 的条件之一为真，就执行与该 if 相关联的语句，并绕过 C else-if 阶梯的其余部分。如果这些条件都不成立，那么将执行最后的 else 语句。
 **语法:**
 
-```
+```cpp
 if (condition)
     statement;
 else if (condition)
@@ -277,7 +277,7 @@ else
 
 ## C
 
-```
+```cpp
 // C program to illustrate nested-if statement
 #include <stdio.h>
 
@@ -297,7 +297,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate if-else-if ladder
 #include<iostream>
 using namespace std;
@@ -319,7 +319,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 i is 20
 ```
 
@@ -330,7 +330,7 @@ i is 20
 1.  [**C break:**](https://www.geeksforgeeks.org/break-statement-cc/) 此循环控制语句用于终止循环。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
     **语法:**
 
-```
+```cpp
 break;
 ```
 
@@ -342,7 +342,7 @@ break;
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // Linear Search
 
@@ -377,7 +377,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Linear Search
 #include <iostream>
@@ -410,7 +410,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Element found at position: 3
 ```
 
@@ -418,7 +418,7 @@ Element found at position: 3
     顾名思义，continue 语句强制循环继续或执行下一次迭代。当 continue 语句在循环中执行时，将跳过 continue 语句后面的循环中的代码，并开始循环的下一次迭代。
     **语法:**
 
-```
+```cpp
 continue;
 ```
 
@@ -428,7 +428,7 @@ continue;
 
 ## C
 
-```
+```cpp
 // C program to explain the use
 // of continue statement
 #include <stdio.h>
@@ -454,7 +454,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to explain the use
 // of continue statement
 
@@ -483,7 +483,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 5 7 8 9 10
 ```
 
@@ -491,7 +491,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -514,7 +514,7 @@ int main(){
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main() {
@@ -533,7 +533,7 @@ int main() {
 1.  [**C goto:**](https://www.geeksforgeeks.org/goto-statement-in-c-cpp/)C/c++中的 goto 语句也称为无条件跳转语句，可以用来在函数内从一个点跳转到另一个点。
     **语法** :
 
-```
+```cpp
 Syntax1      |   Syntax2
 ----------------------------
 goto label;  |    label:  
@@ -552,7 +552,7 @@ label:       |    goto label;
 
 ## C
 
-```
+```cpp
 // C program to print numbers
 // from 1 to 10 using goto statement
 #include <stdio.h>
@@ -577,7 +577,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to print numbers
 // from 1 to 10 using goto statement
 #include <iostream>
@@ -604,14 +604,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10
 ```
 
 2.  [**C 返回:**](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)C 或 C++中的返回将执行的流程返回到调用它的函数。这个语句不一定需要任何条件语句。语句一执行，程序流就立即停止，并从调用它的地方返回控件。return 语句可以为 void 函数返回任何东西，也可以不返回任何东西，但是对于非 void 函数，必须返回一个返回值。
     **语法:**
 
-```
+```cpp
 return[expression];
 ```
 
@@ -619,7 +619,7 @@ return[expression];
 
 ## C
 
-```
+```cpp
 // C code to illustrate return
 // statement
 #include <stdio.h>
@@ -652,7 +652,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ code to illustrate return
 // statement
 #include <iostream>
@@ -686,7 +686,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The sum is 20
 ```
 

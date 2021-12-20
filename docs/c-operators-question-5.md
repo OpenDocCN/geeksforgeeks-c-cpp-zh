@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-operators-question-5/](https://www.geeksforgeeks.org/c-operators-question-5/)
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

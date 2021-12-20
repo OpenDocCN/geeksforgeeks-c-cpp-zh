@@ -4,7 +4,7 @@
 
 考虑以下 C 语言中的变量声明和定义
 
-```
+```cpp
 i) int var_9 = 1;
 ii) int 9_var = 2;
 iii) int _ = 3;

@@ -5,7 +5,7 @@
 [无序 _ 映射](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)用于实现哈希表。它存储键值对。对于每个键，计算一个散列函数，并将值存储在该散列条目中。标准数据类型(int、char、string，..)是预定义的。如何使用我们自己的数据类型来实现哈希表？
 无序映射允许第三个参数，用于指定我们自己的散列函数。
 
-```
+```cpp
 // Create an unordered_map with given KeyType, 
 // ValueType and hash function defined by 
 // MyHashType
@@ -18,7 +18,7 @@ unordered_map<KeyType, ValueType, MyHashType> um;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of unordered_map
 // for user defined data types.
 #include <bits/stdc++.h>
@@ -79,7 +79,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 [Laxman, Prasad] = > 100
 [kartik, kapoor] = > 100
 [Ram, Singh] = > 200
@@ -89,7 +89,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of unordered_map
 // for user defined data types.
 #include <bits/stdc++.h>
@@ -147,7 +147,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 [Laxman, Prasad] = > 100
 [kartik, kapoor] = > 100
 [Ram, Singh] = > 200

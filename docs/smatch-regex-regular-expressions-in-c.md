@@ -14,7 +14,7 @@ smatch 是 match_results 类模板的一个实例，用于字符串对象上的�
 **什么是攻组？**
 **例:**
 
-```
+```cpp
 Example-1:
 Suppose you create a regex object like : regex re("(geeks)(.*)") 
 Here no of capturing group is = 2 
@@ -29,7 +29,7 @@ whatever within '(' and ')' braces is treated as capturing group.
 
 下面是展示 smatch 工作原理的程序:
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Match size = 3
 Whole match : geeksforgeeks
 First capturing group is 'geeks' which is captured at index 0

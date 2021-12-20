@@ -8,7 +8,7 @@
 **定义点类**
 我们可以通过 typedef 复数<双>点来定义我们的点类；在节目开始的时候。点的 X 和 Y 坐标分别是复数的实部和虚部。要访问我们的 X 和 Y 坐标，我们可以使用#定义如下来宏实()和 imag()函数:
 
-```
+```cpp
 # include <complex>
 typedef complex<double> point;
 # define x real()
@@ -19,7 +19,7 @@ typedef complex<double> point;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // the definition of point class
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The X-coordinate of point P is: 2
 The Y-coordinate of point P is: 3
 ```
@@ -61,7 +61,7 @@ The Y-coordinate of point P is: 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // the implementation of single point attributes
 #include <iostream>
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The X-coordinate of point P is: 4
 The Y-coordinate of point P is: 3
 The distance of point P from orgin is: 5
@@ -127,7 +127,7 @@ The point P on rotating 90 degrees anti-clockwise becomes: P_rotated(-3, 4)
 3.  **欧氏距离:**ABS(P–Q)
 4.  **PQ 线斜率:**tan(arg(Q–P))
 
-```
+```cpp
 point A = conj(P) * Q
 ```
 
@@ -136,7 +136,7 @@ point A = conj(P) * Q
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // the implementation of two point attributes
 #include <iostream>
@@ -188,7 +188,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Addition of P and Q is: P+Q(5, 7)
 Subtraction of P and Q is: P-Q(-1, -1)
 The distance between point P ans Q is: 1.41421

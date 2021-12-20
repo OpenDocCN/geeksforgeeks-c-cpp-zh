@@ -7,7 +7,7 @@
 
 **实施:**
 
-```
+```cpp
 // C program to print the month by month
 // calendar for the given year
 
@@ -196,7 +196,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Calendar - 2016
 
  ------------January-------------

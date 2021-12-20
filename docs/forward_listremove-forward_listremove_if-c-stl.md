@@ -10,7 +10,7 @@ remove()函数用于从转发列表中删除与作为函数参数给出的值相
 
 **语法:**
 
-```
+```cpp
 *forwardlistname*.remove(*value*)
 Parameters :
 The value of the element to be removed is passed as the parameter.
@@ -23,7 +23,7 @@ equal to the value passed as parameter
 
 示例:
 
-```
+```cpp
 Input : forward_list forwardlist{1, 2, 3, 4, 5};
         forwardlist.remove(4);
 Output :1, 2, 3, 5
@@ -39,7 +39,7 @@ Output :1, 5, 6
 1.如果传递的值与转发列表类型不匹配，则显示错误。
 2。如果正向列表功能的值和元素之间的比较没有引发任何异常，则不显示异常引发保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of remove() function
 #include <forward_list>
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 5 6 7
 
 ```
@@ -68,7 +68,7 @@ remove_if()函数用于从列表中移除所有值，这些值对应于作为函
 
 **语法:**
 
-```
+```cpp
 *forwardlistname*.remove_if(*predicate*)
 Parameters :
 The predicate in the form of a function pointer
@@ -81,7 +81,7 @@ which return true for the predicate.
 
 示例:
 
-```
+```cpp
 Input  : forward_list forwardlist{1, 2, 3, 4, 5};
          forwardlist.remove_if(odd);
 Output : 2, 4
@@ -96,7 +96,7 @@ Output : 1, 5, 7
 
 1.如果谓词函数特性不抛出任何异常，则不显示异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of remove_if() function
 #include <forward_list>
@@ -118,20 +118,20 @@ int main()
 
 输出:
 
-```
+```cpp
 1 5 7
 
 ```
 
 **应用:**给定一个整数列表，从列表中去掉所有质数，打印列表。
 
-```
+```cpp
 Input  : 2, 4, 6, 7, 9, 11, 13
 Output : 4, 6, 9
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Application of remove_if() function
 #include <forward_list>
@@ -167,7 +167,7 @@ int main()
 
 输出
 
-```
+```cpp
 4 6 9
 
 ```

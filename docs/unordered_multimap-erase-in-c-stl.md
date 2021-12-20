@@ -18,7 +18,7 @@ c++中对于无序 _ 多映射有以下几种类型的 erase()函数。
 下面的程序解释了上述功能。
 **例 1**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::erase() function
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of multimap are : 
 f : 4
 b : 4
@@ -101,7 +101,7 @@ d : 10
 
 **例 2**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::erase() function
 #include <bits/stdc++.h>
@@ -154,7 +154,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of multimap are : 
 6 : 4
 2 : 4

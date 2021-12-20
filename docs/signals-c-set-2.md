@@ -14,7 +14,7 @@
 
 **两个进程如何使用 kill()和 signal()相互对话的示例:**
 
-```
+```cpp
 // C program to implement sighup(), sigint()
 // and sigquit() signal functions
 #include <signal.h>

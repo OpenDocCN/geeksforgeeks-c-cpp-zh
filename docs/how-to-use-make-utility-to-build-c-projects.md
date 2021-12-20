@@ -15,7 +15,7 @@
 
 ## C
 
-```
+```cpp
 // This is client.c file
 #include "stdio.h"
 
@@ -35,7 +35,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // This is server.c file
 #include "server.h"
 #include "stdio.h"
@@ -51,7 +51,7 @@ void greetings()
 
 ## C
 
-```
+```cpp
 // This is server.h file
 void greetings();
 ```
@@ -62,7 +62,7 @@ void greetings();
 
 ## C
 
-```
+```cpp
 // This is makefile.c file
 a : client.o server.o gcc
         client.o server.o client.o : client.o server.h gcc
@@ -105,7 +105,7 @@ gcc 编译器会编译 server.c 文件获取 server.o 文件
 
 **示例:**
 
-```
+```cpp
 Output : hey there, welcome to geeksforgeeks
 
 ```

@@ -8,7 +8,7 @@ Regex 是“**正则表达式**的简称，在编程语言和许多不同的库�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of regex_match()
 #include <iostream>
 #include <regex>
@@ -37,7 +37,7 @@ int main()
 
 输出:
 
-```
+```cpp
 String 'a' matches regular expression 'b' 
 String 'a' matches with regular expression 'b' in the range from 0 to string end
 ```
@@ -47,7 +47,7 @@ String 'a' matches with regular expression 'b' in the range from 0 to string end
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of regex_search()
 #include <iostream>
 #include <regex>
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksForGeeks
 ```
 
@@ -90,7 +90,7 @@ GeeksForGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of regex_replace()
 #include <iostream>
 #include <string>
@@ -122,7 +122,7 @@ int main()
 
 输出:
 
-```
+```cpp
 I am looking for geek 
 I am looking for geek
 ```

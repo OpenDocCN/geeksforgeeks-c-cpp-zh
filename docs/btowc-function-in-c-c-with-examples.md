@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 wint_t btowc( int ch );
 ```
 
@@ -19,7 +19,7 @@ wint_t btowc( int ch );
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // btowc() function
 #include <cstring>
@@ -48,14 +48,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 14 out of 15 Characters were successfully widened
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // btowc() function
 #include <cstring>
@@ -84,7 +84,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 12 out of 13 Characters were successfully widened
 
 ```

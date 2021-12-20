@@ -6,7 +6,7 @@
 
 *代码 1*
 
-```
+```cpp
 *#include<iostream>
 class X {
    void fun() const {
@@ -19,7 +19,7 @@ class X {
 
 *代码 2*
 
-```
+```cpp
 *#include<iostream>
 class X {
    void fun() volatile {
@@ -32,7 +32,7 @@ class X {
 
 *代码 3*
 
-```
+```cpp
 *#include<iostream>
 class X {
    void fun() const volatile {

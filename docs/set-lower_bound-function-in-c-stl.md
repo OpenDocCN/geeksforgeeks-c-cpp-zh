@@ -5,7 +5,7 @@
 **set::lower_bound()** 是 C++ STL 中的一个内置函数，它返回一个指向容器中元素的迭代器，该元素相当于参数中传递的 k。如果集合容器中不存在 k，则函数返回一个迭代器，指向刚好大于 k 的下一个元素。如果参数中传递的键超过了容器中的最大值，则返回的迭代器指向集合容器中最后一个元素之外的元素。
 **语法:**
 
-```
+```cpp
 set_name.lower_bound(key)
 
 ```
@@ -16,7 +16,7 @@ set_name.lower_bound(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::lower_bound() function
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The set elements are: 1 2 4 5 6 
 The lower bound of key 2 is 2
 The lower bound of key 3 is 4

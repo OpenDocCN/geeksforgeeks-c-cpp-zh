@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map.cbegin()
 ```
 
@@ -16,7 +16,7 @@ unordered_map.cbegin()
 
 以下程序说明了 **cbegin** 功能的工作原理:
 
-```
+```cpp
 // CPP program to demonstrate implementation of
 // cbegin function in unordered_map
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Contents of the unordered_map :
 s==>>5
 k==>>4
@@ -52,7 +52,7 @@ e==>>2
 
 函数的作用是:返回一个常量迭代器。如果我们试图改变值，我们会得到编译器错误。
 
-```
+```cpp
 // CPP program to demonstrate implementation of
 // cbegin function in unordered_map
 #include <bits/stdc++.h>
@@ -76,7 +76,7 @@ int main()
 
 输出:
 
-```
+```cpp
 
 prog.cpp: In function 'int main()':
 prog.cpp:18:20: error: assignment of member 'std::pair, int>::second' in read-only object

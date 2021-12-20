@@ -5,7 +5,7 @@
 如何将单个字符转换为字符串对象？
 示例:
 
-```
+```cpp
 Input :  x = 'a'
 Output : string s = "a"
 
@@ -18,7 +18,7 @@ Output : string s = "b"
 
 **这叫做类填充构造函数。**
 
-```
+```cpp
 // Create a string of size n and fill
 // the string with character x.
 string s(size_t n, char x);
@@ -28,7 +28,7 @@ string s(size_t n, char x);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to get a string from single
 // character.
 #include<bits/stdc++.h>
@@ -54,7 +54,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 a
 ```
 
@@ -66,7 +66,7 @@ a
 
 ## C++
 
-```
+```cpp
 // CPP program to get a string from single
 // character.
 #include<bits/stdc++.h>
@@ -89,7 +89,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 G
 G
 
@@ -99,14 +99,14 @@ G
 
 这种方法与上面讨论的+=运算符类似，但它给了我们另一个优势。通过使用这种方法，我们可以添加任意多的字符。
 
-```
+```cpp
 // appends n copy of character x at end of string
 string s(size_t n, char x);
 ```
 
 ## C++
 
-```
+```cpp
 // CPP program to get a string from single
 // character.
 #include<bits/stdc++.h>
@@ -121,7 +121,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 G
 
 ```
@@ -130,14 +130,14 @@ G
 
 这个方法与上面讨论的=运算符类似，但它给了我们另一个优势。通过使用这种方法，我们可以添加任意多的字符。
 
-```
+```cpp
 // assigns n copy of character x to the string
 string s(size_t n, char x);
 ```
 
 ## C++
 
-```
+```cpp
 // CPP program to get a string from single
 // character.
 #include<bits/stdc++.h>
@@ -153,7 +153,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 G
 
 ```
@@ -164,7 +164,7 @@ G
 
 ## C++
 
-```
+```cpp
 // CPP program to get a string from single
 // character by stringstream.
 #include<bits/stdc++.h>
@@ -187,7 +187,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 G
 
 ```

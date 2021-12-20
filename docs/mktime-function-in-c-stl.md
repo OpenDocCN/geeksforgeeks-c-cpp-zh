@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 time_t  mktime( struct tm  *time_ptr )
 ```
 
@@ -21,7 +21,7 @@ time_t  mktime( struct tm  *time_ptr )
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // mktime() function
 
@@ -69,6 +69,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 The Day on 18th June 2018 was Monday
 ```

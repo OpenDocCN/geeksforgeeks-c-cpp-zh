@@ -7,7 +7,7 @@
 
 让我们通过在集成开发环境中运行代码来找到答案。
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -34,7 +34,7 @@ int main()
 
 GFGs 集成开发环境中的输出:
 
-```
+```cpp
 
 5.88052e-39
 0
@@ -45,7 +45,7 @@ GFGs 集成开发环境中的输出:
 
 Codechef IDE 中的输出:
 
-```
+```cpp
 
 0
 0
@@ -56,7 +56,7 @@ Codechef IDE 中的输出:
 
 我机器上的输出:
 
-```
+```cpp
 
 1.4013e-045
 0

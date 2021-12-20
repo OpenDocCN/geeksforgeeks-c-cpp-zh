@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-loops-control-structure-question-1/](https://www.geeksforgeeks.org/c-loops-control-structure-question-1/)
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -14,7 +14,7 @@ int main()
 }
 ```
 
-GeeksQuiz 在上面的程序中会被打印多少次？ ```**(A)**10
+GeeksQuiz 在上面的程序中会被打印多少次？ ```cpp**(A)**10
 **(B)**11
 **(C)**无限
 **(D)** 程序会显示编译时错误

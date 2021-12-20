@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -67,7 +67,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 //filename Main.java
 class Base extends Exception {}
 class Derived extends Base  {}

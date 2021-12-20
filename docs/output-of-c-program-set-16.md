@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -36,7 +36,7 @@ int main() 
 
 **问题 2**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Base 
@@ -64,7 +64,7 @@ int main()
 输出:编译器错误
 在上面的程序中，x 是受保护的，所以在派生类中是可以访问的。派生类构造函数试图使用[初始化列表](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)直接初始化 x，即使 x 是可访问的，也不允许这样做。基类的成员只能通过基类的构造函数调用来初始化。以下是修正后的程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Base {
@@ -89,7 +89,7 @@ int main()
 
 输出:
 
-```
+```cpp
  10 
 ```
 

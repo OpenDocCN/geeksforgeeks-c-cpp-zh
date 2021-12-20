@@ -20,7 +20,7 @@
 比如说我们的输入文件如下:
 [![Screenshot from 2017-03-29 22-24-46](img/74310ede2328a14e0be5d80608321c4f.png)](https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-from-2017-03-29-22-24-46.png)
 
-```
+```cpp
 // C program to read nth byte of a file and
 // copy it to another file using lseek
 #include <stdio.h>

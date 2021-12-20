@@ -12,7 +12,7 @@
 
 **解释:**第一次使用见以下示例。
 
-```
+```cpp
 /* local variable is same as a member's name */
 class Test
 {
@@ -31,7 +31,7 @@ public:
 
 下面是第二点和第三点。
 
-```
+```cpp
 #include
 using namespace std;
 

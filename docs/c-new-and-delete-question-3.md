@@ -4,7 +4,7 @@
 
 预测产量？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

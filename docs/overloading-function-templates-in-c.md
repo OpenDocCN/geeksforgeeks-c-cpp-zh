@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // function overloading
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Square of 9 is 81
 Square of 2.25 is 5.0625
 
@@ -82,7 +82,7 @@ Square of 2.25 is 5.0625
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate overloading
 // of template function using an
 // explicit function
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Explicitly display: 200
 Displaying Template: 12.4
 Displaying Template: G

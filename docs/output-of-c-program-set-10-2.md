@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 #include<iostream>
 #include<string.h>
 using namespace std;
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor called
 Constructor called
 ```
@@ -49,7 +49,7 @@ Constructor called
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 C
 B
 ```

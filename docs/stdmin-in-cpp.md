@@ -15,7 +15,7 @@
 
     语法:
 
-    ```
+    ```cpp
     template  constexpr const T& min (const T& a, const T& b);
 
     a and b are the numbers to be compared.
@@ -23,7 +23,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::min
     #include <iostream>
     #include <algorithm>
@@ -44,7 +44,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5
     7
 
@@ -54,7 +54,7 @@
 
     语法:
 
-    ```
+    ```cpp
     template
     constexpr const T& min (const T& a, const T& b, Compare comp);
 
@@ -69,7 +69,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::min
     #include <iostream>
     #include <algorithm>
@@ -96,7 +96,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5
     7
 
@@ -105,7 +105,7 @@
 3.  **For finding the minimum element in a list:**
     Syntax:
 
-    ```
+    ```cpp
     template 
     constexpr T min (initializer_list il, Compare comp);
 
@@ -115,7 +115,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::min
     #include <iostream>
     #include <algorithm>
@@ -139,7 +139,7 @@
 
     输出:
 
-    ```
+    ```cpp
     -1
 
     ```

@@ -7,7 +7,7 @@
 在头文件**中定义。如果我们要检查是否分区的范围是空的，那么这个函数返回 true。
 语法:**
 
-```
+```cpp
  **bool is_partitioned (InputIterator first, 
                       InputIterator last, UnaryPredicate pred);**
 
@@ -27,7 +27,7 @@ Otherwise it returns false.
 If the range is empty, the function returns true. 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::is_partitioned
 #include <iostream>
 #include <algorithm>
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 It is partitioned 
 ```
 
@@ -69,7 +69,7 @@ It is partitioned
 
 *   ****To check whether all the odd and even elements are partitioned**
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::is_partitioned
     #include <iostream>
     #include <algorithm>
@@ -115,7 +115,7 @@ It is partitioned
 
     输出:
 
-    ```
+    ```cpp
     All the even no. are present before odd no.
     All the even no. are not present before odd no.
 

@@ -6,7 +6,7 @@
 
 2.  **Syntax for erasing a key:**
 
-    ```
+    ```cpp
     multimap_name.erase(key)
 
     ```
@@ -15,7 +15,7 @@
 
     **返回值:**函数不返回任何内容。它用指定的键擦除所有元素。
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // multimap::erase(key)
     #include <bits/stdc++.h>
@@ -59,7 +59,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The multimap before using erase() is : 
     KEY    ELEMENT
     1    40

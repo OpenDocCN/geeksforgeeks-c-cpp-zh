@@ -31,7 +31,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to implement the
 // lower_bound() and upper_bound()
 // using Ordered Set
@@ -126,7 +126,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Lower Bound of 30: 30
 Upper Bound of 30: 40
 Lower Bound of 60: -1

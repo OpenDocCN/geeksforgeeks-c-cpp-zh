@@ -14,7 +14,7 @@
 
 ## C
 
-```
+```cpp
 /* C program to demonstrate that we can
    ignore some string in scanf() */
 #include <stdio.h>
@@ -35,7 +35,7 @@ int main()
 
 ## C
 
-```
+```cpp
 /* Sample C program to demonstrate use of *s */
 #include<stdio.h>
 int main()
@@ -56,7 +56,7 @@ int main()
 
 **fscanf():** 厌倦了所有从文件中读取的笨拙语法？嗯，fscanf 来救援了。
 
-```
+```cpp
 int fscanf(FILE *ptr, const char *format, ...) 
 ```
 
@@ -64,7 +64,7 @@ fscanf 从 file 指针(ptr)指向的文件中读取，而不是从输入流中�
 
 考虑以下文本文件 abc.txt
 
-```
+```cpp
 NAME    AGE   CITY
 abc     12    hyderbad
 bef     25    delhi
@@ -75,7 +75,7 @@ cce     65    bangalore
 
 ## C
 
-```
+```cpp
 /*c program demonstrating fscanf and its usage*/
 #include<stdio.h>
 int main()
@@ -103,7 +103,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 CITY
 hyderbad
 delhi

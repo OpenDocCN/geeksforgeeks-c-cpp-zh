@@ -7,7 +7,7 @@
 
 ## C++
 
-```
+```cpp
 /* Vectors belong to a C++ library
    called STL so we need to import
    it first! */
@@ -42,7 +42,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 /* C++ code to demonstrate a 2D vector
    with elements(vectors) inside it. */
 #include <iostream>
@@ -87,7 +87,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 
 4 5 6 
 7 8 9 
@@ -97,7 +97,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 /* C++ code to demonstrate a 2D vector
    with elements(vectors) inside it. */
 #include <iostream>
@@ -160,7 +160,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 
 4 5 6 
 7 8 9 
@@ -170,7 +170,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 /*
 C++ program to demonstrate a 2D vector where
 each of its elements is of different size.
@@ -219,7 +219,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 
 4 5 6 
 7 8 9 10 
@@ -228,7 +228,7 @@ int main()
 **练习题:**用不同大小的列定义 2D 向量。
 例子:
 
-```
+```cpp
 Input : Number of rows : 5 
         Number of columns in rows : 
         2 3 4 5 1
@@ -254,7 +254,7 @@ Output : 1 2 3
 
 ## C++
 
-```
+```cpp
 /*
 C++ program to create a 2D vector where
 every row has a certain number of values
@@ -330,7 +330,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 1 2 3 
 1 2 3 4 
@@ -343,7 +343,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program
 #include <iostream>
 #include <vector>
@@ -377,7 +377,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 0 0 0 0 
 0 0 0 0 
 0 0 0 0 
@@ -388,7 +388,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program
 #include <iostream>
 #include <vector>
@@ -427,7 +427,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 2 3 4 5 6 
 3 4 5 6 7 

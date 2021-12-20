@@ -6,7 +6,7 @@
 
 **运算符**是任何编程语言的基础。我们可以将运算符定义为符号，帮助我们对操作数执行特定的数学和逻辑计算。换句话说，我们可以说一个运算符操作操作数。例如，'+'是用于加法的运算符，如下所示:
 
-```
+```cpp
 c = a + b;
 ```
 
@@ -33,14 +33,14 @@ c = a + b;
 
 **a)一元运算符**:操作或处理单个操作数的运算符是一元运算符。例如:递增(++)和递减(–)运算符
 
-```
+```cpp
 int val = 5;
 ++val;  // 6
 ```
 
 **b)二进制运算符**:操作或处理两个操作数的运算符是二进制运算符。例如:加法(+)、减法(-)、乘法(*)、除法(/)运算符
 
-```
+```cpp
 int a = 7;
 int b = 2;
 cout<<a+b; // 9
@@ -50,7 +50,7 @@ cout<<a+b; // 9
 
 这些用于比较两个操作数的值。例如，检查一个操作数是否等于另一个操作数，一个操作数是否大于另一个操作数，等等。一些关系运算符是(==，> =，<= )(See [本文](https://www.geeksforgeeks.org/operators-in-c-set-2-relational-and-logical-operators/)供更多参考)。
 
-```
+```cpp
 int a = 3;
 int b = 5;
 a < b;
@@ -63,7 +63,7 @@ a < b;
 
 例如，当考虑的两个条件都满足时，在 C 或 C++ 中表示为**&&的**逻辑与**运算符返回真。否则，它返回 false。因此，当 a 和 b 都为真(即非零)时，a & & b 返回真(更多参考见[这篇](https://www.geeksforgeeks.org/operators-in-c-set-2-relational-and-logical-operators/)文章)。**
 
-```
+```cpp
 (4 != 5) && (4 < 5);     // true
 ```
 
@@ -71,7 +71,7 @@ a < b;
 
 按位运算符用于对操作数执行位级操作。运算符首先转换为位级，然后对操作数执行计算。加法、减法、乘法等数学运算。可以在位级执行，以实现更快的处理。例如，在 C 或 C++ 中表示为 **&运算符的**按位“与”**将两个数字作为操作数，并对两个数字的每一位进行“与”。仅当两位都为 1 时，“与”的结果才为 1。(详见[这篇](https://www.geeksforgeeks.org/interesting-facts-bitwise-operators-c/)文章)。**
 
-```
+```cpp
 int a = 5, b = 9;   // a = 5(00000101), b = 9(00001001)
 cout << (a ^ b);   //  00001100
 cout <<(~a);       // 11111010
@@ -85,7 +85,7 @@ cout <<(~a);       // 11111010
 **a .“=”:**这是最简单的赋值运算符。该运算符用于将右边的值赋给左边的变量。
 例如:
 
-```
+```cpp
 a = 10;
 b = 20;
 ch = 'y';
@@ -94,7 +94,7 @@ ch = 'y';
 **b .“+=”**:这个运算符是“+”和“=”运算符的组合。该运算符首先将左边变量的当前值与右边的值相加，然后将结果赋给左边的变量。
 例如:
 
-```
+```cpp
 (a += b) can be written as (a = a + b)
 If initially value stored in a is 5\. Then (a += 6) = 11.
 ```
@@ -102,7 +102,7 @@ If initially value stored in a is 5\. Then (a += 6) = 11.
 **c .“-=”**:这个运算符是“-”和“=”运算符的组合。该运算符首先从左边变量的当前值中减去右边的值，然后将结果赋给左边的变量。
 例如:
 
-```
+```cpp
 (a -= b) can be written as (a = a - b)
 If initially value stored in a is 8\. Then (a -= 6) = 2.
 ```
@@ -110,7 +110,7 @@ If initially value stored in a is 8\. Then (a -= 6) = 2.
 **d .“* =”**:这个运算符是“*”和“=”运算符的组合。该运算符首先将左边变量的当前值乘以右边的值，然后将结果赋给左边的变量。
 例如:
 
-```
+```cpp
 (a *= b) can be written as (a = a * b)
 If initially, the value stored in a is 5\. Then (a *= 6) = 30.
 ```
@@ -118,7 +118,7 @@ If initially, the value stored in a is 5\. Then (a *= 6) = 30.
 **e .“/=”**:这个运算符是“/”和“=”运算符的组合。该运算符首先将左边变量的当前值除以右边的值，然后将结果赋给左边的变量。
 例如:
 
-```
+```cpp
 (a /= b) can be written as (a = a / b)
 If initially, the value stored in a is 6\. Then (a /= 2) = 3.
 ```

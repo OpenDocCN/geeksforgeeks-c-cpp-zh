@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 Allocator_type get_allocator() const;
 ```
 
@@ -20,7 +20,7 @@ Allocator_type get_allocator() const;
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_set get_allocator()
 
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is allocator Pair : true 
 ```
 
@@ -59,7 +59,7 @@ Is allocator Pair : true
 
 **程序 2 :**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_set get_allocator()
 
@@ -83,7 +83,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Allocated size = 64
 
 ```

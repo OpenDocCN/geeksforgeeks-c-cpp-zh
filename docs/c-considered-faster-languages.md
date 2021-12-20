@@ -19,14 +19,14 @@
 举一个 C 和 Java 中动态分配的例子
 **Java:**
 
-```
+```cpp
 MyClass obj = new MyClass();
 ```
 
 你考虑过 **obj** 的大小吗，答案是**没有**。原因是它是由语言本身在后台自动处理的，您不必为它编写特定的代码。
 但是在 **C** 的情况下
 
-```
+```cpp
 struct MyStruct *obj = malloc(sizeof(struct MyStruct));
 ```
 

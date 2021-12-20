@@ -5,7 +5,7 @@
 **映射::equal_range()** 是 C++ STL 中的内置函数，返回一对迭代器。该对指的是一个范围的边界，该范围包括容器中所有关键字等于 K 的元素。由于映射容器只包含唯一的关键字，因此返回的对中的第一个迭代器指向该元素，对中的第二个迭代器指向关键字 K 之后的下一个关键字。如果与关键字 K 不匹配，并且关键字 K 大于最大的关键字， 返回的范围长度为 1，两个迭代器都指向一个元素，该元素的键表示 map 的大小，元素为 0。 否则，下界和上界指向仅大于关键字 k 的元素。
 **语法:**
 
-```
+```cpp
 iterator map_name.equal_range(key)
 ```
 
@@ -16,7 +16,7 @@ iterator map_name.equal_range(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // map::equal_range() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The lower bound is 1:40
 The upper bound is 4:30
 ```
@@ -62,7 +62,7 @@ The upper bound is 4:30
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // map::equal_range() function
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The lower bound is 3:0
 The upper bound is 3:0
 ```

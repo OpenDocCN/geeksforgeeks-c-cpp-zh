@@ -6,7 +6,7 @@
 
 **说明:**这可以使用 c 中的[移除功能](https://www.geeksforgeeks.org/c-program-delete-file/)来完成，注意，这是在 Linux 环境下完成的。因此，remove 函数被输入命令行参数中的第一个参数，即编译后创建的 **a.out** 文件(可执行文件)。因此程序将被销毁。
 
-```
+```cpp
 // CPP program of self destructing output file
 #include<stdio.h>
 #include<stdlib.h>
@@ -31,20 +31,20 @@ int main(int c, char *argv[])
 1.  打开终端。
 2.  在终端上输入以下命令:
 
-    ```
+    ```cpp
      gcc self.c 
     ```
 
 3.  这将创建*输出*文件。
 4.  在终端上输入以下命令:
 
-    ```
+    ```cpp
      ./a.out 
     ```
 
 输出:
 
-```
+```cpp
 By the time you run me, I will be destroyed
 
 ```

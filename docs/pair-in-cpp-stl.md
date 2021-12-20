@@ -11,13 +11,13 @@
 
 **语法:**
 
-```
+```cpp
 pair (data_type1, data_type2) Pair_name
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate pair STL
 #include <iostream>
 #include <utility>
@@ -39,6 +39,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 100 G
 ```

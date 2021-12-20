@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C program to design a Hot Air Balloon
 // using graphics
 #include <conio.h>

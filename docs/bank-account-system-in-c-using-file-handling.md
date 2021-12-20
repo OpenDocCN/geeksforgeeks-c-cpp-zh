@@ -23,7 +23,7 @@
 **1。创建一个银行账户-**
 从用户那里获取所有输入，并为其建立一个结构，将数据存储在一个文件中。
 
-```
+```cpp
 // Function to create accounts 
 // of users
 void account(void)
@@ -113,7 +113,7 @@ void account(void)
 **2。转账-**
 取我们要转账的另一个用户的用户名，在文件中打开他的记录，将金额写入文件。
 
-```
+```cpp
 // Function to transfer
 // money from one user to
 // another
@@ -214,7 +214,7 @@ void transfermoney(void)
 **3。检查余额-**
 [打开一个文件](https://www.geeksforgeeks.org/basics-file-handling-c/)，其中所有的转账记录都被一一写入和读取，并与函数中传递的用户名匹配，以获取正确的转账记录。
 
-```
+```cpp
 // Function to check balance
 // in users account
 void checkbalance(char username2[])
@@ -282,7 +282,7 @@ void checkbalance(char username2[])
 **4。登录功能-**
 要添加登录功能，我们正在打开文件并匹配用户在注册时提供的用户名，如果用户名正确并与我们文件中的记录匹配，则登录到他。
 
-```
+```cpp
 // Login function to check
 // the username of the user
 void login(void)
@@ -383,7 +383,7 @@ void loginsu(void)
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <conio.h>

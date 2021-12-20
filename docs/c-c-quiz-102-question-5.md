@@ -4,7 +4,7 @@
 
 在以下程序片段的上下文中，选择最佳答案。
 
-```
+```cpp
 #include "stdio.h"
 int arr[10][10][10];
 int main()
@@ -16,7 +16,7 @@ int main()
 
 给定的 printf 语句中的哪一个能够打印 arr[5][5][5]
 
-```
+```cpp
 (i) printf("%d",arr[5][5][5]);
 (ii) printf("%d",*(*(*(arr+5)+5)+5));
 (iii) printf("%d",(*(*(arr+5)+5))[5]);

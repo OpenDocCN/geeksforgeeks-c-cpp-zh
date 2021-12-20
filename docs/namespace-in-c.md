@@ -4,7 +4,7 @@
 
 考虑遵循 C++程序。
 
-```
+```cpp
 // A program to demonstrate need of namespace
 int main()
 {
@@ -17,14 +17,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error:
 'value' has a previous declaration as 'int value'
 ```
 
 在每个作用域中，一个名称只能代表一个实体。所以，在同一个作用域中不能有两个同名的变量。使用名称空间，我们可以创建两个同名的变量或成员函数。
 
-```
+```cpp
 // Here we can see that more than one variables 
 // are being used without reporting any error.
 // That is because they are declared in the 
@@ -57,7 +57,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 500
 ```
 
@@ -71,7 +71,7 @@ Namespaces allow us to group named entities that otherwise would have *global sc
 
 命名空间定义以关键字**命名空间**开始，然后是命名空间名称，如下所示:
 
-```
+```cpp
 namespace namespace_name 
 {
    int x, y; // code declarations where 
@@ -87,7 +87,7 @@ namespace namespace_name
 *   不需要在名称空间定义的右大括号后给出分号。
 *   我们可以将命名空间的定义分成几个单元。
 
-```
+```cpp
 // Creating namespaces
 #include <iostream>
 using namespace std;
@@ -118,7 +118,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5
 200
 100
@@ -128,7 +128,7 @@ int main()
 
 Following is a simple way to create classes in a name space
 
-```
+```cpp
 // A C++ program to demonstrate use of class
 // in a namespace
 #include <iostream>
@@ -160,13 +160,13 @@ int main()
 
 输出:
 
-```
+```cpp
 ns::geek::display()
 ```
 
 **类也可以在命名空间内部声明，并使用以下语法在命名空间外部定义**
 
-```
+```cpp
 // A C++ program to demonstrate use of class
 // in a namespace
 #include <iostream>
@@ -199,13 +199,13 @@ int main()
 
 输出:
 
-```
+```cpp
 ns::geek::display()
 ```
 
 我们也可以在命名空间之外定义方法。下面是一个示例代码。
 
-```
+```cpp
 // A C++ code to demonstrate that we can define 
 // methods outside namespace.
 #include <iostream>
@@ -244,7 +244,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 ns::display()
 ns::geek::display()
 ```

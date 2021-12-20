@@ -5,7 +5,7 @@
 **[【无序 _ 映射】](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/):get _ 分配器()**是 C++ STL 中的内置函数，用于获取容器无序 _ 映射的分配器。
 **语法**
 
-```
+```cpp
 Allocator_type get_allocator()
 
 ```
@@ -16,7 +16,7 @@ Allocator_type get_allocator()
 下面的程序清楚地解释了**无序 _ 映射::get _ 分配器()**函数。
 **例-1:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_map get_allocator()
 #include <bits/stdc++.h>
@@ -43,13 +43,13 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is allocator Pair : true 
 ```
 
 **示例-2:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_map get_allocator()
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Allocated size = 64
 
 ```

@@ -33,7 +33,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Median = 4.5
 
 ```

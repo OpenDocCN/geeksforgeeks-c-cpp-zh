@@ -35,7 +35,7 @@
 
 <u>**语法:**</u>
 
-```
+```cpp
 **set<list<data_type>> set_of_list:** This stores lists. 
 **set<forward_list<data_type>> set_of_forward_list:** This stores forward lists.
 ```
@@ -44,7 +44,7 @@
 
 ## <u>c++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -123,7 +123,7 @@ int main()
 
 <u>**输出**
 
-```
+```cpp
 [ 2 6 9 1 ]
 [ 2 6 9 11 ]
 [ 21 10 12 16 ]
@@ -133,7 +133,7 @@ int main()
 
 <u>T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

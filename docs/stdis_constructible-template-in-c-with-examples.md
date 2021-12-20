@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T, class... Args>
 struct is_constructible;
 
@@ -21,7 +21,7 @@ struct is_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_constructible::value
 
 ```
@@ -40,7 +40,7 @@ std::is_constructible::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_constructible example
 #include <bits/stdc++.h>
@@ -101,7 +101,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 int(float): true
 int(float, float): false

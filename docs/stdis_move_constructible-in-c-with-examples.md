@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct is_move_convertible;
 
@@ -21,7 +21,7 @@ struct is_move_convertible;
 
 **语法:**
 
-```
+```cpp
 std::is_move_constructible< datatype >::value << '\n'
 
 ```
@@ -37,7 +37,7 @@ std::is_move_constructible< datatype >::value << '\n'
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_move_constructible
 #include <bits/stdc++.h>
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 char: true
 struct A: true
 struct B: true

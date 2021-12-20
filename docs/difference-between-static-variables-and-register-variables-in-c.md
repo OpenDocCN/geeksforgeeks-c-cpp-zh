@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 static data_type var_name = var_value;
 ```
 
@@ -18,7 +18,7 @@ static data_type var_name = var_value;
 
 **语法:**
 
-```
+```cpp
 register data_type var_name = var_value;
 ```
 

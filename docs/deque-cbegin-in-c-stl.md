@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 deque_name.cbegin()
 ```
 
@@ -17,7 +17,7 @@ deque_name.cbegin()
 
 **程序 1:**
 
-```
+```cpp
 #include <deque>
 #include <iostream>
 
@@ -41,14 +41,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First element of the deque is: 2
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 #include <deque>
 #include <iostream>
 
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First element of the deque is: 45
 
 ```

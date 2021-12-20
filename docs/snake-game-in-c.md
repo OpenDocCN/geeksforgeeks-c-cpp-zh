@@ -44,7 +44,7 @@
 
 ## ****C****
 
-```
+```cpp
 **// C program to build the outline
 // boundary using draw()
 #include <stdio.h>
@@ -82,7 +82,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 ##############################
 #                            #
 #                            #
@@ -140,7 +140,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **// C program to build the complete
 // snake game
 #include <conio.h>

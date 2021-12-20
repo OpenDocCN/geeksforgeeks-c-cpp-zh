@@ -14,7 +14,7 @@
 
 为了获得 IP 地址、子网掩码和默认网关，我们在 cmd 中执行 ipconfig 命令。在这里，我们将从< stdlib.h >开始利用 system()借助一个 C 程序执行一个系统操作:
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,7 +29,7 @@ int main()
 
 这将显示 IPv4 地址、子网掩码和默认网关。同样的操作也可以用 execl()函数来执行。为了稍后执行，我们编写代码:
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

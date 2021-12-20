@@ -12,7 +12,7 @@
 
 ## **c++**
 
-```
+```cpp
 // C++ program to print the elements
 // of the vector
 #include <iostream>
@@ -46,6 +46,6 @@ int main()
 
 ****输出****
 
-```
+```cpp
 10 20 30 40 50 60 
 ```

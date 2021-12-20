@@ -32,7 +32,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program print the data of
 // multiset by inserting using pair
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program print the data of
 // multimap by inserting using pair
 #include <bits/stdc++.h>
@@ -126,7 +126,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 yukti
 2 umang
 3 vinay

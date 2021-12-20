@@ -4,7 +4,7 @@
 
 如何在 C 语言中打印心型下方？
 
-```
+```cpp
     AAAAAAA        AAAAAA
    AAAAAAAAA      AAAAAAAA
   AAAAAAAAAAA    AAAAAAAAAA
@@ -31,7 +31,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 
 ## C++
 
-```
+```cpp
 // C++ code to print a HEART Shape
 #include<iostream>
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C code to print a HEART Shape
 #include<stdio.h>
 
@@ -133,7 +133,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java code to print a HEART Shape
 
 class GFG {
@@ -187,7 +187,7 @@ public static void main(String arg[]) {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 code to print a HEART Shape
 
 # HERE, we have set the size of Heart,
@@ -236,7 +236,7 @@ for a in range(size, -1, -1):
 
 ## C#
 
-```
+```cpp
 // Java code to print a HEART Shape
 using System;
 
@@ -291,7 +291,7 @@ public static void Main() {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 
 // php code to print a HEART Shape
@@ -350,7 +350,7 @@ public static void Main() {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // javascript code to print a HEART Shape  
@@ -401,7 +401,7 @@ public static void Main() {
 
 **输出:**
 
-```
+```cpp
     AAAAAAA        AAAAAA
    AAAAAAAAA      AAAAAAAA
   AAAAAAAAAAA    AAAAAAAAAA

@@ -13,7 +13,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate various function of unordered_set
 #include <bits/stdc++.h>
 using namespace std;
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 slow not found
 
 Found c++
@@ -75,7 +75,7 @@ code
 平均而言，查找、插入和擦除需要恒定的时间。如果键不在集合中，find()函数将迭代器返回到 end()，否则返回键位置的迭代器。迭代器充当键值的指针，这样我们就可以通过使用*运算符对键值进行解引用来获取键值。
 **一个基于无序集**的实际问题——给定一个整数数组(列表)，找出其中所有的重复项。
 
-```
+```cpp
 Input  : arr[] = {1, 5, 2, 1, 4, 3, 1, 7, 2, 8, 9, 5}
 Output : Duplicate item are : 5 2 1 
 ```
@@ -84,7 +84,7 @@ Output : Duplicate item are : 5 2 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find duplicate from an array using
 // unordered_set
 #include <bits/stdc++.h>
@@ -133,7 +133,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Duplicate item are : 5 1 2 
 ```
 

@@ -15,19 +15,19 @@ is _ 平凡从 integral_constant 继承为 true_type 或 false_type，具体取�
 
 **语法:**
 
-```
+```cpp
 template  struct is_trivial;
 ```
 
 **示例:**
 
-```
+```cpp
 std::is_trivial::value
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate is_trivial function
 #include <iostream>
 #include <type_traits>
@@ -59,7 +59,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 A: true
 B: false
 C: false

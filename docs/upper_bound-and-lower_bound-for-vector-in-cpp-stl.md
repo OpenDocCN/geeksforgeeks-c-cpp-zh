@@ -13,7 +13,7 @@ upper_bound 返回一个迭代器，指向范围[第一个，最后一个]中值
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // lower_bound and upper_bound in vector
 #include <algorithm> // for lower_bound, upper_bound and sort
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 lower_bound for 6 at position 4
 upper_bound for 6 at position 7
 

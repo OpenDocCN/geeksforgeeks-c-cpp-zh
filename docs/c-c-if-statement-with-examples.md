@@ -10,7 +10,7 @@ C/C++ **if 语句**是最简单的决策语句。它用于根据特定类型的�
 
 **语法:**
 
-```
+```cpp
 if(condition) 
 {
    // Statements to execute if
@@ -33,7 +33,7 @@ if(condition)
 
 **注意:**如果我们没有在 if( condition)之后提供花括号“{ 0 }”和“}”，那么默认情况下 If 语句会将紧接的 one 语句视为在其块内。例如，
 
-```
+```cpp
 if(condition)
    statement1;
    statement2;
@@ -47,7 +47,7 @@ if(condition)
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 
 #include <stdio.h>
@@ -66,7 +66,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate If statement
 
 #include <iostream>
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 is less than 15 
 I am Not in if
 
@@ -94,7 +94,7 @@ I am Not in if
 
 **空转示例 1:**
 
-```
+```cpp
 1\. Program starts.
 2\. i is initialized to 10.
 3\. if-condition is checked. 10 < 15, yields true.
@@ -107,7 +107,7 @@ I am Not in if
 
 ## C
 
-```
+```cpp
 // C program to illustrate If statement
 
 #include <stdio.h>
@@ -126,7 +126,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate If statement
 
 #include <iostream>
@@ -146,7 +146,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 I am Not in if
 
 ```

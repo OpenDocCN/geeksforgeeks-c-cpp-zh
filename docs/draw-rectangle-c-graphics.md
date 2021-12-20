@@ -5,14 +5,14 @@
 **矩形()**用于绘制矩形。绘制矩形需要左上角和右下角的坐标。左指定左上角的 X 坐标，上指定左上角的 Y 坐标，右指定右下角的 X 坐标，下指定右下角的 Y 坐标。
 **语法:**
 
-```
+```cpp
 rectangle(int left, int top, int right, int bottom);
 
 ```
 
 **示例:**
 
-```
+```cpp
 Input : left = 150, top = 250, right = 450, bottom = 350;
 Output : 
 
@@ -23,7 +23,7 @@ Output :
 
 下面是矩形函数的实现:
 
-```
+```cpp
 // C program to draw a rectangle
 #include <graphics.h>
 

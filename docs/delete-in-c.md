@@ -15,7 +15,7 @@ Delete 是一个 ***运算符*** ，用于**破坏新表达式创建的数组**�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program to illustrate deletion of array
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,7 +36,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to deleting
 // NULLL pointer
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -82,7 +82,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Value of ptr1 = 0
 Value of ptr2 = 20
 ```
@@ -91,7 +91,7 @@ Value of ptr2 = 20
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -107,7 +107,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 ptr deleted successfully
 ```
 
@@ -115,7 +115,7 @@ ptr deleted successfully
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -134,7 +134,7 @@ int main()
 
 ****输出**:**
 
-```
+```cpp
 ptr2 deleted successfully
 ```
 
@@ -143,7 +143,7 @@ ptr2 deleted successfully
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -172,7 +172,7 @@ int main()
 
 ****输出**:**
 
-```
+```cpp
 custom delete for size 1
 custom delete for size 18
 ```
@@ -182,7 +182,7 @@ T3】1。试图删除非指针对象**
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -200,7 +200,7 @@ int main()
 
 ****输出**:**
 
-```
+```cpp
 error: type ‘int’ argument given to ‘delete’, expected pointer
 ```
 
@@ -208,7 +208,7 @@ error: type ‘int’ argument given to ‘delete’, expected pointer
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -229,6 +229,6 @@ int main()
 
 ****输出**:**
 
-```
+```cpp
 Runtime error
 ```

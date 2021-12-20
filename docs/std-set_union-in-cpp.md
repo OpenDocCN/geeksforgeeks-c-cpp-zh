@@ -8,7 +8,7 @@
 范围内的元素应已订购。
 1。**使用默认运算符< :**
 
-```
+```cpp
 Template :
 OutputIterator set_union (InputIterator1 first1, InputIterator1 last1,
                           InputIterator2 first2, InputIterator2 last2,
@@ -42,7 +42,7 @@ The ranges shall not overlap.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_union
 #include <algorithm> // std::set_union, std::sort
@@ -90,7 +90,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 First array contains : 5 10 15 20 25
 Second array contains : 50 40 30 20 10
 
@@ -102,7 +102,7 @@ The union has 8 elements:
 2.**使用自定义函数:**
 语法:
 
-```
+```cpp
 Template :
 OutputIterator set_union (InputIterator1 first1, InputIterator1 last1,
                           InputIterator2 first2, InputIterator2 last2,
@@ -124,7 +124,7 @@ The ranges shall not overlap.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate use of
 // std :: set_symmetric_difference
 #include <iostream>
@@ -177,7 +177,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Students in first subject : Sachin Rakesh Sandeep Serena
 Students in second subject : Vaibhav Sandeep Rakesh Neha
 
@@ -191,7 +191,7 @@ Neha Rakesh Sachin Sandeep Serena Vaibhav
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate use of
 // std :: set_symmetric_difference
 #include <algorithm>
@@ -242,7 +242,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Students in first subject : Sachin Rakesh Sandeep Serena
 Students in second subject : Vaibhav Sandeep Rakesh Neha
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 do
 {
    // loop body
@@ -26,14 +26,14 @@ while (test_expression);
 1.  **测试表达式:**在这个表达式中我们要测试条件。如果条件评估为真，那么我们将执行循环体并更新表达式。否则，我们将退出 while 循环。
     **例:**
 
-```
+```cpp
 i <= 10
 ```
 
 2.  **更新表达式**:执行循环体后，该表达式将循环变量递增/递减某个值。
     **例:**
 
-```
+```cpp
 i++;
 ```
 
@@ -56,7 +56,7 @@ i++;
 
 ## C
 
-```
+```cpp
 // C program to illustrate do-while loop
 
 #include <stdio.h>
@@ -82,7 +82,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate do-while loop
 
 #include <iostream>
@@ -110,13 +110,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Hello World
 ```
 
 **空转例 1:**
 
-```
+```cpp
 1\. Program starts.
 2\. i is initialised to 2.
 3\. Execution enters the loop
@@ -130,7 +130,7 @@ Hello World
 
 ## C
 
-```
+```cpp
 // C program to illustrate do-while loop
 
 #include <stdio.h>
@@ -157,7 +157,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate do-while loop
 
 #include <iostream>
@@ -185,7 +185,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 2
 3

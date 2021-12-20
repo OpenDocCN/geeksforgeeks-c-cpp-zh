@@ -5,13 +5,13 @@
 给定一个字符串形式的网址，使用微软视窗操作系统中的 C++代码打开它。
 例:
 
-```
+```cpp
 Input : https://www.geeksforgeeks.org/
 Output : The site opened in your browser.
 
 ```
 
-```
+```cpp
 // C++ program to open a URL in browser.
 // This program is written on for Microsoft
 // Windows OS
@@ -29,7 +29,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksforGeeks site opened in Google Chrome in a new tab.
 
 ```
@@ -77,13 +77,13 @@ _ In _ INT nShowCmd
 
 示例:
 
-```
+```cpp
 Input : A list of URLs stored in a text file.
 Output : All the URLs opened in different tabs.
 
 ```
 
-```
+```cpp
 // C++ program to list URLs in a text file and
 // open them.
 // This program is written only for Microsoft
@@ -134,7 +134,7 @@ int main()
 
 输出:
 
-```
+```cpp
 List of all urls present in the urls.txt file opened in different tabs.
 
 ```

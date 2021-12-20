@@ -4,7 +4,7 @@
 
 **对比度**是指改变每个图像像素的值。这种变化可以通过将图像的像素值乘以或除以任何常数来实现。本文深入介绍了如何使用 OpenCV 改变图像对比度。
 
-```
+```cpp
 Input : 
 Original Image
 
@@ -20,7 +20,7 @@ Output :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // c++ code explaining how to
 // increase or decrease the
 // contrast of an image
@@ -123,7 +123,7 @@ int main(int argc, char** argv)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Declaring the Contrast instances
 
 // increasing the contrast level by 100%
@@ -147,7 +147,7 @@ image.convertTo(imageContrastLow0_25, -1, 0.25, 0);
 **MAT 函数:**
 MAT 函数将每个图像像素值更改为目标数据类型，并且这些值会随着因子相乘的程度而改变。
 
-```
+```cpp
 Parameters : 
 
 m      : Output Image 

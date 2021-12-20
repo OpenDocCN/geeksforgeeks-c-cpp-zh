@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 abs(varr);
 ```
 
@@ -18,7 +18,7 @@ abs(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of abs() function.
 
@@ -54,14 +54,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 20 12 20 0 30
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of abs() function.
 
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 36 369 20 0 30
 
 ```

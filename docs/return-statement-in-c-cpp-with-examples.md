@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 return[expression];
 ```
 
@@ -20,7 +20,7 @@ return[expression];
 
         **语法:**
 
-        ```
+        ```cpp
         void func()
         {
             .
@@ -34,7 +34,7 @@ return[expression];
 
         ## C
 
-        ```
+        ```cpp
         // C code to show not using return
         // statement in void return type function
 
@@ -59,7 +59,7 @@ return[expression];
 
         ## C++
 
-        ```
+        ```cpp
         // C++ code to show not using return
         // statement in void return type function
 
@@ -85,7 +85,7 @@ return[expression];
 
         **Output:**
 
-        ```
+        ```cpp
         Welcome to GeeksforGeeks
 
         ```
@@ -94,7 +94,7 @@ return[expression];
 
         **正确语法:**
 
-        ```
+        ```cpp
         void func()
         {
             return;
@@ -108,7 +108,7 @@ return[expression];
 
         ## C
 
-        ```
+        ```cpp
         // C code to show using return
         // statement in void return type function
 
@@ -135,7 +135,7 @@ return[expression];
 
         ## C++
 
-        ```
+        ```cpp
         // C++ code to show using return
         // statement in void return type function
 
@@ -163,7 +163,7 @@ return[expression];
 
         **Output:**
 
-        ```
+        ```cpp
         Welcome to GeeksforGeeks
 
         ```
@@ -172,7 +172,7 @@ return[expression];
 
         **语法错误:**
 
-        ```
+        ```cpp
         void func()
         {
             return value;
@@ -182,7 +182,7 @@ return[expression];
 
         **警告:**
 
-        ```
+        ```cpp
         warning: 'return' with a value, in function returning void
 
         ```
@@ -191,7 +191,7 @@ return[expression];
 
         ## C
 
-        ```
+        ```cpp
         // C code to show using return statement
         // with a value in void return type function
 
@@ -219,7 +219,7 @@ return[expression];
 
         ## C++
 
-        ```
+        ```cpp
         // C++ code to show using return statement
         // with a value in void return type function
 
@@ -249,7 +249,7 @@ return[expression];
 
         **Warnings:**
 
-        ```
+        ```cpp
         prog.c: In function 'Print':
         prog.c:12:9: warning: 'return' with a value, in function returning void
           return 10;
@@ -261,7 +261,7 @@ return[expression];
 
     **语法:**
 
-    ```
+    ```cpp
     return-type func()
     {
         return value;
@@ -273,7 +273,7 @@ return[expression];
 
     ## C
 
-    ```
+    ```cpp
     // C code to illustrate Methods returning
     // a value using return statement
 
@@ -303,7 +303,7 @@ return[expression];
 
     ## C++
 
-    ```
+    ```cpp
     // C++ code to illustrate Methods returning
     // a value using return statement
 
@@ -334,7 +334,7 @@ return[expression];
 
     **Output:**
 
-    ```
+    ```cpp
     The sum is 20
 
     ```

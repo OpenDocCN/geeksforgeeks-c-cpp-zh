@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ Program to print the last 10 lines. 
 // If number of lines is less than 10,
 // then print all lines. 
@@ -100,7 +100,7 @@ int main(void) 
 
 ## C
 
-```
+```cpp
 /* Program to print the last 10 lines. If number of lines is less
    than 10, then print all lines. */
 
@@ -181,7 +181,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 str16
 str17
 str18

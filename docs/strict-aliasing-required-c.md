@@ -4,7 +4,7 @@
 
 考虑下面的 C 程序。
 
-```
+```cpp
 // A C program to demonstrate need of strict 
 // aliasing
 #include<stdio.h>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1717986918
 ```
 

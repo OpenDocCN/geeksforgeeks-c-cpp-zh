@@ -5,7 +5,7 @@
 在 C 编程语言中，变量应该在赋值之前声明。
 **例如:**
 
-```
+```cpp
    // declaration of variable a and 
    // initializing it with 0.
    int a = 0;
@@ -18,7 +18,7 @@
 
 然而，变量可以用 0 或 1 赋值，甚至不用声明它们。让我们看一个例子，看看如何做到这一点:
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -41,7 +41,7 @@ int main(i)
 
 **Output:**
 
-```
+```cpp
 a = 0, b = 0
 
 arr[0] = 0, 
@@ -55,7 +55,7 @@ i = 1
 在数组中，如果使用的元素少于指定的数组大小，则剩余的元素将默认设置为 0。
 我们再看一个例子来说明这一点。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 arr[0] = 1
 arr[1] = 2
 arr[2] = 3

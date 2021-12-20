@@ -25,7 +25,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // getline(), push_back() and pop_back()
 #include<iostream>
@@ -69,13 +69,13 @@ int main()
 
 输入:
 
-```
+```cpp
 geeksforgeek
 ```
 
 输出:
 
-```
+```cpp
 The initial string is : geeksforgeek
 The string after push_back operation is : geeksforgeeks
 The string after pop_back operation is : geeksforgeek
@@ -89,7 +89,7 @@ The string after pop_back operation is : geeksforgeek
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // capacity(), resize() and shrink_to_fit()
 #include<iostream>
@@ -133,7 +133,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The initial string is : geeksforgeeks is for geeks
 The string after resize operation is : geeksforgeeks
 The capacity of string is : 26
@@ -150,7 +150,7 @@ The new capacity after shrinking is : 15
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // begin(), end(), rbegin(), rend()
 #include<iostream>
@@ -186,7 +186,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The string using forward iterators is : geeksforgeeks
 The reverse string using reverse iterators is : skeegrofskeeg
 
@@ -198,7 +198,7 @@ The reverse string using reverse iterators is : skeegrofskeeg
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // copy() and swap()
 #include<iostream>
@@ -245,7 +245,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new copied character array is : geeksforgeeks
 
 The 1st string before swapping is : geeksforgeeks is for geeks
@@ -256,7 +256,7 @@ The 2nd string after swapping is : geeksforgeeks is for geeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // copy() and swap()
 #include<iostream>
@@ -301,7 +301,7 @@ int main()
 }
 ```
 
-```
+```cpp
 The 2nd string after swapping is : geeksforgeeks is for geeks
 ```
 

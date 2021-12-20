@@ -9,7 +9,7 @@ swap()函数用于交换两个队列的内容，但队列必须是**相同类型
 
 **语法:**
 
-```
+```cpp
 queue1.swap(queue2)
             OR
 swap(queue1, queue2)
@@ -24,7 +24,7 @@ queue2 is the second queue object.
 
 **示例:**
 
-```
+```cpp
 Input :  queue1 = {1, 2, 3, 4}
          queue2 = {5, 6, 7, 8}
  queue1.swap(queue2);
@@ -44,7 +44,7 @@ Output : queue1 = {'f', 'g', 'h', 'i'}
 1.如果队列不是同一类型，它将引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <bits/stdc++.h>
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 queue1 = f g h i 
 queue2 = a b c d e 
 

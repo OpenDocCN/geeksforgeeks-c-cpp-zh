@@ -5,7 +5,7 @@
 先决条件:[C++中的 getline(string)](https://www.geeksforgeeks.org/getline-string-c/)
 在 c++中，流类支持面向行的函数，getline()和 write()分别执行输入和输出函数。getline()函数读取以新行结束的整行文本，或者直到达到最大限制。getline()是 istream 类的成员函数，语法如下:
 
-```
+```cpp
 // (buffer, stream_size, delimiter)
 istream& getline(char*, int size, char='\n')
 
@@ -20,7 +20,7 @@ istream& getline(char*, int size)
 3。提取的最大字符数为大小–1。
 *注意，终止符(或定界符)字符可以是任何字符(如' '、'、'或任何特殊字符等)。).终止符被读取，但没有保存到缓冲区中，取而代之的是空字符*。
 
-```
+```cpp
 // C++ program to show the getline() with 
 // character array
 #include <iostream>
@@ -44,13 +44,13 @@ int main()
 
 输入:
 
-```
+```cpp
 Aditya Rakhecha 
 ```
 
 输出:
 
-```
+```cpp
  Your Name is:: Aditya Rakhecha
 
 ```

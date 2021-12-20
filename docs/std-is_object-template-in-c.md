@@ -6,7 +6,7 @@ C++ STL 的 **std::is_object 模板**用于检查给定类型是否为对象。�
 
 **语法:**
 
-```
+```cpp
 template <class T > struct is_object;
 ```
 
@@ -21,7 +21,7 @@ template <class T > struct is_object;
 
 **程序 1:** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_object template
 
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_object:
 sam: true
 sam&: false
@@ -58,7 +58,7 @@ int&: false
 
 **程序 2:** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_object template
 
@@ -87,7 +87,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_object:
 float: true
 float&: false

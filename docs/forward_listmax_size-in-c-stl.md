@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist_name.max_size ()
 
 ```
@@ -17,7 +17,7 @@ forwardlist_name.max_size ()
 
 下面程序演示了上面的功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // max_size() function
 #include <bits/stdc++.h>
@@ -39,7 +39,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Max_size of the list is 1152921504606846975
 
 ```

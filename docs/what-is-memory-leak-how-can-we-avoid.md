@@ -10,7 +10,7 @@
 
 ## c
 
-```
+```cpp
 /* Function with memory leak */
 #include <stdlib.h>
 
@@ -28,7 +28,7 @@ void f()
 
 ## c
 
-```
+```cpp
 /* Function without memory leak */
 #include <stdlib.h>;
 

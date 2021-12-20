@@ -4,7 +4,7 @@
 
 预测后续 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -20,7 +20,7 @@ int main()
 
 人们会期望两个打印语句的输出是相同的。但是，输出将是，
 
-```
+```cpp
 First  character 1
 Second character 49
 ```
@@ -45,7 +45,7 @@ Second character 49
 
 ****以下程序编译时没有任何错误。三元表达式的返回类型预计为 *float* (与 exp <sub>2</sub> 的返回类型相同)，exp <sub>3</sub> (即字面上的*zero–int*类型)可隐式转换为 *float。*****
 
-```
+```cpp
 **#include <iostream>
 using namespace std;
 
@@ -61,7 +61,7 @@ int main()
 
 ****下面的程序不会编译，因为编译器找不到三元表达式的返回类型或者 exp <sub>2</sub> ( *char 数组*)和 exp <sub>3</sub> ( *int* )之间没有隐式转换。****
 
-```
+```cpp
 **#include <iostream>
 using namespace std;
 
@@ -76,7 +76,7 @@ int main()
 
 ****以下程序可能会编译，但在运行时会失败。三元表达式的返回类型被限制为类型( *char ** ，但是表达式返回 *int* ，因此程序失败。实际上，程序会在运行时尝试在第 0 个地址打印字符串。****
 
-```
+```cpp
 **#include <iostream>
 using namespace std;
 

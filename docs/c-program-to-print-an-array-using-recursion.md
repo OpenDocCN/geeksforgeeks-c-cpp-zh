@@ -10,11 +10,11 @@
 
     **语法:**
 
-    ```
+    ```cpp
     static data_type var_name = var_value; 
     ```
 
-    ```
+    ```cpp
     // C++ Program to print
     // an Array using Recursion
 
@@ -58,14 +58,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     3 5 6 8 1
 
     ```
 
 2.  **不使用静态变量:**
 
-    ```
+    ```cpp
     // C++ Program to print
     // an Array using Recursion
 
@@ -105,7 +105,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     3 5 6 8 1
 
     ```

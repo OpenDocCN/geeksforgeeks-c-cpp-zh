@@ -4,7 +4,7 @@
 
 预测产量？
 
-```
+```cpp
 #include <stdio.h>
 int fun(char *str1)
 {

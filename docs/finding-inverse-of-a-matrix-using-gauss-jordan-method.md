@@ -70,7 +70,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find the inverse of Matrix.
 
 #include <iostream>
@@ -228,7 +228,7 @@ float matrix[20][20] = { { 5, 7, 9 },
 
 **Output:** 
 
-```
+```cpp
 === Matrix ===
 5  7  9  
 4  3  8  

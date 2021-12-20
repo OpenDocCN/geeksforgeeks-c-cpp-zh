@@ -11,7 +11,7 @@
 
 **2。make_tuple()** :- make_tuple()用于给 tuple 赋值。传递的值应该与元组中声明的值保持一致。
 
-```
+```cpp
 // C++ code to demonstrate tuple, get() and make_pair()
 #include<iostream>
 #include<tuple> // for tuple
@@ -44,7 +44,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The initial values of tuple are : a 10 15.5
 The modified values of tuple are : b 10 20.5
 
@@ -54,7 +54,7 @@ The modified values of tuple are : b 10 20.5
 
 **3。tuple_size** :-返回元组中存在的元素数量。
 
-```
+```cpp
 //C++ code to demonstrate tuple_size
 #include<iostream>
 #include<tuple> // for tuple_size and tuple
@@ -76,14 +76,14 @@ int main()
 
 输出:
 
-```
+```cpp
 The size of tuple is : 3
 
 ```
 
 **4。swap()**:-swap()，交换两个不同元组的元素。
 
-```
+```cpp
 //C++ code to demonstrate swap()
 #include<iostream>
 #include<tuple> // for swap() and tuple
@@ -122,7 +122,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The first tuple elements before swapping are : 20 g 17.5
 The second tuple elements before swapping are : 10 f 15.5
 The first tuple elements after swapping are : 10 f 15.5
@@ -132,7 +132,7 @@ The second tuple elements after swapping are : 20 g 17.5
 
 **5。tie()**:-tie()的工作是将元组值解包到单独的变量中。tie()有两种变体，有“忽略”和没有“忽略”，其中“忽略”会忽略特定的元组元素，并阻止它被解包。
 
-```
+```cpp
 // C++ code to demonstrate working of tie()
 #include<iostream>
 #include<tuple> // for tie() and tuple
@@ -173,7 +173,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The unpacked tuple values (without ignore) are : 20 g 17.5
 The unpacked tuple values (with ignore) are : 20 17.5
 
@@ -181,7 +181,7 @@ The unpacked tuple values (with ignore) are : 20 17.5
 
 **6。tuple_cat()** :-这个函数连接两个元组，并返回一个新的元组。
 
-```
+```cpp
 // C++ code to demonstrate working of tuple_cat()
 #include<iostream>
 #include<tuple> // for tuple_cat() and tuple
@@ -209,7 +209,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new tuple elements in order are : 20 g 17.5 30 f 10.5
 
 ```

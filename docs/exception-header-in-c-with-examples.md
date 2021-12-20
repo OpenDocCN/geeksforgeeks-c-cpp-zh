@@ -6,7 +6,7 @@
 
 **头文件:**
 
-```
+```cpp
 #include <exception>
 
 ```
@@ -31,7 +31,7 @@
 
 ## 使用类 bad_alloc
 
-```
+```cpp
 // C++ program to illustrate bad_alloc
 // using class bad_alloc
 #include <exception>
@@ -80,7 +80,7 @@ int main()
 
 ## 使用类异常
 
-```
+```cpp
 // C++ program to illustrate bad_alloc
 // using class exception
 #include <exception>
@@ -129,7 +129,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Array created successfully of length 1000 
 std::bad_alloc for array of length 1000000000
 
@@ -145,7 +145,7 @@ std::bad_alloc for array of length 1000000000
 **<u>为什么我们通过引用捕捉到一个异常？</u>**
 通过值捕获异常将调用复制构造函数并创建异常的副本，这会增加运行时开销。因此，参照捕捉是一个更好的选择。如果我们想修改异常或向错误消息中添加一些附加信息，那么通过引用捕获是最好的方法。对于这种情况:
 
-```
+```cpp
 catch (std::string str)
 {
     s += "Additional info";
@@ -157,7 +157,7 @@ catch (std::string str)
 
 **正确代码:**
 
-```
+```cpp
 catch (std::string& s)
 {
     s += "Additional info";
@@ -168,7 +168,7 @@ catch (std::string& s)
 **程序二:**
 下面是程序说明**逻辑 _ 错误**:
 
-```
+```cpp
 // C++ program to illustrate logic_error
 #include <exception>
 #include <iostream>
@@ -231,7 +231,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Factorial of 0 is 1
 Factorial of 3 is 6
 negative not allowed

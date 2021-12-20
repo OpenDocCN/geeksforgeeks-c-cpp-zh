@@ -4,7 +4,7 @@
 
 下面的 C 语句是什么意思？
 
-```
+```cpp
 scanf("%4s", str);
 ```
 
@@ -17,7 +17,7 @@ scanf("%4s", str);
 
 **解释:**尝试以下程序，输入 GeeksQuiz，输出会是“Geek”
 
-```
+```cpp
 #include <stdio.h>
 
 int main()

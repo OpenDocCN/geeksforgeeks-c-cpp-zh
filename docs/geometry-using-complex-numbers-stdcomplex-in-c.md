@@ -9,7 +9,7 @@
 
 复数的形式是
 
-```
+```cpp
 a + bi
 where, a is the real part
 b is the imaginary part
@@ -69,7 +69,7 @@ T3【重要提示: i <sup>2</sup> = -1
 
 1.  **Vector Addition:**
 
-    ```
+    ```cpp
     (a, b) + (c, d) = (a + c, b + d)
     z1 + z2 = (a + bi) + (c + di) = (a + c) + (b + d)i
     ```
@@ -78,13 +78,13 @@ T3【重要提示: i <sup>2</sup> = -1
 
 2.  **向量减法:**只需返回
 
-    ```
+    ```cpp
     z1 – z2
     ```
 
 3.  **Slope of line PQ:** The argument of
 
-    ```
+    ```cpp
     z2 – z1 gives the angle of elevation
     ```
 
@@ -93,14 +93,14 @@ T3【重要提示: i <sup>2</sup> = -1
 
 4.  **Euclidean Distance:**
 
-    ```
+    ```cpp
     Distance of P from Q = sqrt((a-c)2 + (b-d)2)
     Magnitude of z1 – z2 = sqrt((a-c)2 + (b-d)2)
     ```
 
     因此，返回 Z1–z2 的幅度。
 
-    ```
+    ```cpp
     An important construction which will be used frequently in geometric problems is z1’z2.
     Let’s compute this:
     z1’ = a – bi
@@ -110,7 +110,7 @@ T3【重要提示: i <sup>2</sup> = -1
 
 5.  **Dot Product:** Dot product for vectors P and Q is
 
-    ```
+    ```cpp
     (ac + bd)
     ```
 
@@ -118,7 +118,7 @@ T3【重要提示: i <sup>2</sup> = -1
 
 6.  **Cross Product:** The magnitude of cross product for vectors P and Q is
 
-    ```
+    ```cpp
     (ad – bc)
     ```
 

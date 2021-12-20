@@ -35,7 +35,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -113,7 +113,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 [ 10 14 17 ]
 [ 2 6 11 ]
 [ 11 16 29 ]
@@ -123,7 +123,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -200,7 +200,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 [ 11 16 29 ]
 [ 2 6 11 ]
 [ 10 14 17 ]

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_nothrow_default_constructible;
 
@@ -21,7 +21,7 @@ struct is_nothrow_default_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_nothrow_default_constructible::value
 
 ```
@@ -37,7 +37,7 @@ std::is_nothrow_default_constructible::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_default_constructible
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 struct X: false
 struct Y: false

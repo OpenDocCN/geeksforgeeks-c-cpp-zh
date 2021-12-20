@@ -8,25 +8,25 @@
 
 1.我们需要一个带参数的函数 *int ** ，
 
-```
+```cpp
 function(int *)
 ```
 
 2.参数为 *int ** 的函数，返回指针
 
-```
+```cpp
 (*function(int *))
 ```
 
 3.带有参数 *int ** 的函数，返回指针到 4 的数组
 
-```
+```cpp
 (*function(int *))[4]
 ```
 
 4.带有参数 *int ** 的函数，返回指向 4 个整数指针数组
 
-```
+```cpp
 int *(*function(int *))[4];
 ```
 
@@ -34,7 +34,7 @@ int *(*function(int *))[4];
 
 我们如何确保上述声明是正确的？以下程序可以交叉检查我们的申报，
 
-```
+```cpp
 #include<stdio.h>
 
 // Symbolic size

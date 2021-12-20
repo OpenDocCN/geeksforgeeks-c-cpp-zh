@@ -6,7 +6,7 @@ C++中**流操纵器**的 **right()** 方法用于为指定的字符串流设置
 
 **语法:**
 
-```
+```cpp
 ios_base& right (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& right (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of right() function
 
@@ -45,14 +45,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 right flag:        -1.23
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of right() function
 
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 right flag:        -1.23
 
 ```

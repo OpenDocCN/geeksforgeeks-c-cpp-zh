@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 reset(int index) 
 
 ```
@@ -19,7 +19,7 @@ reset(int index)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::reset() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before applying reset() function: 1100
 After applying reset() function: 0000
 Before applying reset() function: 111111
@@ -63,7 +63,7 @@ After applying reset() function: 000000
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::reset() function
 #include <bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before applying reset() function: 1101
 After applying reset(2) function: 1001
 Before applying reset() function: 111111

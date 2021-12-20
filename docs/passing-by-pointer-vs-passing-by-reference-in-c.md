@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to swap two numbers using
 // pass by pointer.
 #include <iostream>
@@ -35,7 +35,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Before Swap
 a = 45 b = 35
 After Swap with pass by pointer
@@ -46,7 +46,7 @@ a = 35 b = 45
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to swap two numbers using
 // pass by reference.
 
@@ -74,7 +74,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Before Swap
 a = 45 b = 35
 After Swap with pass by reference
@@ -95,7 +95,7 @@ a = 35 b = 45
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate differences between pointer
 // and reference.
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
 
 输出(当我们在程序中打印地址时，在不同的运行中可能不同):
 
-```
+```cpp
 0x7ffd09172c20 0x7ffd09172c18
 0x7ffd09172c18 0x7ffd09172c18
 0x4

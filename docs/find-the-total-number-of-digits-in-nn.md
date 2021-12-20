@@ -5,7 +5,7 @@
 给定一个数字 n，任务是找出![(N!)^{N}  ](img/11a7d942cbf3aeab4a0f1b85ba99e7f1.png "Rendered by QuickLaTeX.com")中的总位数。
 **示例** :
 
-```
+```cpp
 Input: N = 3
 Output: 3
 If N=3, (3!)3=216, 
@@ -17,7 +17,7 @@ Output: 6
 
 **进场:**
 
-```
+```cpp
 As we know,
 log(a*b) = log(a) + log(b)
 
@@ -29,7 +29,7 @@ X = log(N!) = log(1*2*3....... * N)
 现在，我们知道任何数字的对数基数 10 的底值增加 1，给出该数字中存在的位数。也就是说，数字 N 中的位数将是**楼(原木 <sub>10</sub> N) + 1** 。
 因此![(N!)^{N}  ](img/11a7d942cbf3aeab4a0f1b85ba99e7f1.png "Rendered by QuickLaTeX.com")中的位数为:
 
-```
+```cpp
 floor(log())+1
 = floor(N*log10(N!)) + 1
 = floor(N*X) + 1.
@@ -39,7 +39,7 @@ floor(log())+1
 
 ## C++
 
-```
+```cpp
 // C++ program to find the total
 // Number of Digits in (N!)^N
 
@@ -80,7 +80,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find the total
 // Number of Digits in (N!)^N
 import java.io.*;
@@ -128,7 +128,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find the total
 # Number of Digits in (N!)^N
 
@@ -161,7 +161,7 @@ if __name__=='__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to find the total
 // Number of Digits in (N!)^N
 using System;
@@ -207,7 +207,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find the total
 // Number of Digits in (N!)^N
@@ -244,7 +244,7 @@ echo CountDigits($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // javascript program to find the total
 // Number of Digits in (N!)^N    
@@ -280,6 +280,6 @@ echo CountDigits($N);
 
 **Output:** 
 
-```
+```cpp
 11
 ```

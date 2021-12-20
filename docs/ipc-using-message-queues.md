@@ -21,7 +21,7 @@
 
 ## C
 
-```
+```cpp
 // C Program for Message Queue (Writer Process)
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -64,7 +64,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
 #include <sys/ipc.h>

@@ -12,14 +12,14 @@
 4.  **Operation :** We can perform comparison in a part of string directly, using compare() which is otherwise quite a long process with relational operators.
     **Example :** * Compare 3 characters from 3rd position of str1 with 3 characters from 4th position of str2.
 
-    ```
+    ```cpp
     * str1 = "GeeksforGeeks"
     * str2 = "HelloWorld!"
     ```
 
     **使用 compare() :**
 
-    ```
+    ```cpp
     // CPP code to perform comparison using compare()
     #include <iostream>
     using namespace std;
@@ -46,14 +46,14 @@
 
     输出:
 
-    ```
+    ```cpp
     Not equal
 
     ```
 
     **使用关系运算符:**
 
-    ```
+    ```cpp
     // CPP code for comparison using relational operator
     #include <iostream>
     using namespace std;
@@ -86,7 +86,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Not equal
 
     ```

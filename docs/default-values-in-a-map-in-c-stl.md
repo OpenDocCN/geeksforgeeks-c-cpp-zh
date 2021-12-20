@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 // For Structure 
 struct Node {
    int value = -1;
@@ -26,7 +26,7 @@ Map < int, Node > M;
 
 ## CPP14
 
-```
+```cpp
 // C++ program to illustrate a Map
 // initialize with default value
 #include <bits/stdc++.h>
@@ -55,6 +55,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 -1
 ```

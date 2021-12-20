@@ -17,7 +17,7 @@
 
 下面是两个浮点数相乘的 C 程序:
 
-```
+```cpp
 // C program to multiply two floating point numbers
 #include <stdio.h>
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter two floating numbers A and B : 2.12 3.88
 Product of A and B is: 8.225600
 

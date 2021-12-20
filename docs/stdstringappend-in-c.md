@@ -6,13 +6,13 @@
 
 1.  **Syntax 1 :** Appends the characters of string str. It Throws length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (const string& str) 
     str :  is the string to be appended.
     Returns :  *this
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate append(str)
 
     #include <iostream>
@@ -43,7 +43,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : Hello World! 
     Using append() : Hello World! GeeksforGeeks
 
@@ -51,7 +51,7 @@
 
 2.  **Syntax 2 :** Appends at most, str_num characters of string str, starting with index str_idx. It throws out_of_range if str_idx > str. size(). It throws length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (const string& str, size_type str_idx, size_type str_num)
 
     str : is the string to be appended
@@ -61,7 +61,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // append(const char* chars, size_type chars_len)
 
@@ -94,7 +94,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : GeeksforGeeks 
     Using append() : GeeksforGeeks Hello
 
@@ -102,7 +102,7 @@
 
 3.  **Syntax 3:** Appends the characters of the C-string cstr. Throw length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (const char* cstr)
 
     *cstr : is the pointer to C-string.
@@ -111,7 +111,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate append(const char* cstr)
 
     #include <iostream>
@@ -142,7 +142,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : World of 
     Using append() : World of GeeksforGeeks
 
@@ -150,7 +150,7 @@
 
 4.  **Syntax 4:** Appends chars_len characters of the character array chars. Throws length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (const char* chars, size_type chars_len)
 
     *chars is the pointer to character array to be appended.
@@ -160,7 +160,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // (const char* chars, size_type chars_len)
 
@@ -192,7 +192,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : World of 
     Using append() : World of Geeks
 
@@ -200,7 +200,7 @@
 
 5.  **Syntax 5:** Appends num occurrences of character c. Throws length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (size_type num, char c)
 
     num : is the number of occurrences
@@ -209,7 +209,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // string& string::append (size_type num, char c)
 
@@ -242,7 +242,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : #########
     After append() : #########$$$$$
 
@@ -250,7 +250,7 @@
 
 6.  **Syntax 6:** Appends all characters of the range [beg, end). Throws length_error if the resulting size exceeds the maximum number of characters.
 
-    ```
+    ```cpp
     string& string::append (InputIterator beg, InputIterator end)
 
     first, last : Input iterators to the initial and final positions 
@@ -259,7 +259,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP code  to illustrate
     // append (InputIterator beg, InputIterator end)
 
@@ -292,7 +292,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Original String : Hello World! 
     Using append : Hello World! forGeeks
 

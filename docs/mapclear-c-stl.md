@@ -9,7 +9,7 @@ clear()函数用于移除地图容器中的所有元素，从而使其大小为 
 
 **语法:**
 
-```
+```cpp
 map1.clear()
 where map1 is the name of the map.
 
@@ -22,7 +22,7 @@ No parameters are passed.
 
 **示例:**
 
-```
+```cpp
 Input : map1 = { 
                 {1, "India"},
                 {2, "Nepal"},
@@ -38,7 +38,7 @@ Output: map2 = {}
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of clear() function
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Map size before running function: 
 map1 size = 4
 map2 size = 0

@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to print double quotes
 #include<iostream>
 
@@ -24,7 +24,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 "geeksforgeeks"
 ```
 
@@ -33,7 +33,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to check if two numbers are equal
 // without using arithmetic operators or
 // comparison operators
@@ -58,7 +58,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to check if two numbers are equal
 // without using arithmetic operators or
 // comparison operators
@@ -78,7 +78,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 x is equal to y
 ```
 
@@ -87,7 +87,7 @@ x is equal to y
 
 ## C++
 
-```
+```cpp
 // C++ program to print all natural numbers upto
 // N without using semi-colon
 #include<iostream>
@@ -106,7 +106,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 
 ```
 
@@ -114,7 +114,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to check if two numbers are equal
 #include<iostream>
 
@@ -136,7 +136,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 X : 70
 Y : 10
 ```
@@ -146,7 +146,7 @@ Y : 10
 
 ## C++
 
-```
+```cpp
 // CPP program to find maximum and minimum of
 // two numbers without using loop and any
 // condition.
@@ -163,7 +163,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 max = 20
 min = 15
 ```
@@ -173,7 +173,7 @@ min = 15
 
 ## C
 
-```
+```cpp
 // C program to print maximum value of
 // unsigned int.
 #include<stdio.h>
@@ -194,7 +194,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to print sum of two integers
 // withtout +
 #include<iostream>
@@ -212,7 +212,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -220,7 +220,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to verifies the condition inside if block
 // It just verifies the condition inside if block,
 // i.e., cout << "geeks" which returns a non-zero value,
@@ -242,7 +242,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeksforgeeks
 ```
 
@@ -251,7 +251,7 @@ geeksforgeeks
 
 ## C++
 
-```
+```cpp
 // CPP program to divide a number by 4
 // without using '/'
 #include<iostream>
@@ -268,7 +268,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1
 ```
 
@@ -276,7 +276,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find if machine is little
 // endian or big endian.
 #include <stdio.h>

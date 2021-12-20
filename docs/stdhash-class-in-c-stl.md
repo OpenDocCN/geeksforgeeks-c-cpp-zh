@@ -5,13 +5,13 @@
 **哈希类**是默认可构造的，这意味着可以在没有任何参数或初始化值的情况下构造该对象。它用于获取传递给它的参数的哈希值。如果参数不变，值也不变。
 **语法:**
 
-```
+```cpp
 template <class T> struct hash;
 ```
 
 **创建对象的语法:**
 
-```
+```cpp
 hash<class template> object-name
 ```
 
@@ -24,7 +24,7 @@ hash<class template> object-name
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bitset>
 
 // functional header
@@ -119,7 +119,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 String hash values: 4457761756728957899
 
 Bitset 10101 hash value: 17123654466142159564

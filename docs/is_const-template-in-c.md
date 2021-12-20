@@ -6,7 +6,7 @@ C++ STL 的 **std::is_const 模板**用于检查类型是否为常量限定类�
 
 **语法**:
 
-```
+```cpp
 template  < class T >struct is_const;
 
 ```
@@ -22,7 +22,7 @@ template  < class T >struct is_const;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_const
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_const:
 int:false
 const int:true
@@ -61,7 +61,7 @@ const int&:true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_const
 
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_const:
 const int*:false
 int* const:true
@@ -101,7 +101,7 @@ const int&:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_const
 
@@ -134,7 +134,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_const:
 float:false
 const float:true

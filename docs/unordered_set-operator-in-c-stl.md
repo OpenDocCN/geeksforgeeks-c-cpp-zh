@@ -10,7 +10,7 @@
 
 **语法**
 
-```
+```cpp
 uset.operator= ( unordered_set& us )
 uset.operator= ( unordered_set&& us )
 uset.operator= ( initializer list )
@@ -28,7 +28,7 @@ uset.operator= ( initializer list )
 下面的程序举例说明了 C++中的**无序 _ 集合::运算符=** 。
 T3】节目:
 
-```
+```cpp
 // C++ code to illustrate the method 
 // unordered_set::operator=()
 #include <iostream>
@@ -75,7 +75,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 11 12 7 8 9 
 12 11 10 9 
 10 11 12 7 8 9

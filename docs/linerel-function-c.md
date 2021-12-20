@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 linerel(int x, int y);
 
 The end position is calculated as :
@@ -20,7 +20,7 @@ y_pos2 = y_pos1 + y;
 
 **示例:**
 
-```
+```cpp
 Input : x_pos1 = 0, y_pos1 =0, x = 200, y = 100
 Output : 
 
@@ -32,7 +32,7 @@ Output :
 **情况 1 :** 当前位置在原点即(0，0)
 下面是 C 中 linerel()函数的实现:
 
-```
+```cpp
 // C Implementation for linerel()
 #include <graphics.h>
 #include<stdio.h>
@@ -84,7 +84,7 @@ int main()
 **情况 2 :** 当前位置不是原点时，(100，150)。
 下面是 linerel()函数在 C 语言中的实现:
 
-```
+```cpp
 // C Implementation for linerel()
 #include <graphics.h>
 #include<stdio.h>

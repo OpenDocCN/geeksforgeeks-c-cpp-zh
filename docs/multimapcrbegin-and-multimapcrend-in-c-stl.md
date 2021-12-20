@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.crbegin()
 
 ```
@@ -17,7 +17,7 @@ multimap_name.crbegin()
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // multimap::crbegin() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The last element is {5, 50}
 
 The multimap in reverse order is: 

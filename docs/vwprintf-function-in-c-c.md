@@ -8,7 +8,7 @@ C++中的 **vwprintf()** 函数用于将格式化的宽字符串写入 **stdout*
 在头文件 **<中定义>**
 **语法:**
 
-```
+```cpp
 int vwprintf( const wchar_t* format, va_list vlist )
 ```
 
@@ -25,7 +25,7 @@ int vwprintf( const wchar_t* format, va_list vlist )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // vwprintf() function
 // for some english letter
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Some English Letters
 First : A
 Second : B
@@ -80,7 +80,7 @@ Fifth : E
 
 ```
 
-```
+```cpp
 // C++ program to illustrate the
 // vwprintf() function
 // for some Latin letters
@@ -124,7 +124,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Some Latin Letters
 First : !
 Second : "

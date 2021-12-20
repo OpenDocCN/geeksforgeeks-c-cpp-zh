@@ -29,7 +29,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <opencv2/core/core.hpp>
@@ -95,7 +95,7 @@ int main(int argc, char** argv)
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 #include <opencv2/core/core.hpp>

@@ -14,7 +14,7 @@
 
 ## **C**
 
-```
+```cpp
 // C Program to demonstrate that we can access a global
 // variable if we have a local variable with same name
 #include <stdio.h>
@@ -37,7 +37,7 @@ int main()
 
 ****Output**
 
-```
+```cpp
 Value of global x is 50
 Value of local x is 10
 ```** 
@@ -48,7 +48,7 @@ Value of local x is 10
 
 ## **c++**
 
-```
+```cpp
 // C++ Program to demonstrate that We can access a global
 // variable if we have a local variable with same name in
 // C++ using Scope resolution operator (::)
@@ -71,7 +71,7 @@ int main()
 
 ****输出**
 
-```
+```cpp
 Value of global x is 50
 Value of local x is 10
 ```** 

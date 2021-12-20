@@ -31,7 +31,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1410065408
 
 ```
@@ -67,7 +67,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1410065408
 
 ```
@@ -103,7 +103,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <iostream>
@@ -126,7 +126,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10000000000
 
 ```

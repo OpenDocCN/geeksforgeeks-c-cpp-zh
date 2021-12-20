@@ -6,7 +6,7 @@
 在 C 语言中，当文件处理完成时，使用一个词 File。什么是文件？
 **示例**
 
-```
+```cpp
 FILE *fp1, *fp2;
 
 ```
@@ -17,7 +17,7 @@ FILE *fp1, *fp2;
 
 **以下是 ubuntu** 中 FILE 的定义
 
-```
+```cpp
 struct _IO_FILE {
   int _flags;       /* High-order word is _IO_MAGIC; rest is flags. */
 #define _IO_file_flags _flags
@@ -91,7 +91,7 @@ struct _IO_FILE_complete
 
 演示文件使用的 C 程序示例
 
-```
+```cpp
 // Program beased on FILE handling.
 #include<stdio.h>
 int main()

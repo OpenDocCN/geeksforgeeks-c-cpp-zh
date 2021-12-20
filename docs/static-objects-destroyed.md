@@ -11,7 +11,7 @@ static 关键字可以应用于 C++中的局部变量、函数、类的数据成
 **c++中什么是静态对象？**
 当一个对象的声明中使用了 static 关键字时，它就会变成静态的。参见下面两个 C++语句示例。
 
-```
+```cpp
 Test t;             // Stack based object
 static Test t1;     // Static object 
 ```
@@ -21,7 +21,7 @@ static Test t1;     // Static object
 静态对象被分配到静态存储区的存储中。静态对象在程序结束时被销毁。C++同时支持局部静态对象和全局静态对象
 下面是展示局部静态对象使用的例子。
 
-```
+```cpp
 #include <iostream>
 class Test 
 {
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 main() starts
 Constructor is executed
 main() terminates
@@ -63,7 +63,7 @@ Destructor is executed
 **当我们在上面的程序中移除静态时会发生什么？**
 作为一个实验，如果我们从全局函数 myfunc()中移除 static 关键字，我们得到如下输出:
 
-```
+```cpp
 main() starts
 Constructor is called
 Destructor is called
@@ -75,7 +75,7 @@ main() terminates
 **全局静态对象怎么样？**
 下面的程序演示了全局静态对象的使用。
 
-```
+```cpp
 #include <iostream>
 class Test
 {
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor is executed
 main() starts
 10

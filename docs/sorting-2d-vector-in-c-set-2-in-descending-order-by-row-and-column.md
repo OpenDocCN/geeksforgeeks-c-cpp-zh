@@ -11,7 +11,7 @@
 **情况 3:以降序排列 2D 向量的特定行**
 这种排序方式以降序排列 2D 向量的选定行。这是通过使用“sort()”并传递 1D 向量的迭代器作为参数来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of a
 // row of 2D vector in descending order
 #include<iostream>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting 1st row is:
 3 5 1 
 4 8 6 
@@ -88,7 +88,7 @@ The Matrix after sorting 1st row is:
 
 这是通过在“sort()”中传递第三个参数作为对用户定义的显式函数的调用来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of a
 // 2D vector on basis of a column in
 // descending order
@@ -148,7 +148,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting is:
 3 5 1 
 4 8 6 

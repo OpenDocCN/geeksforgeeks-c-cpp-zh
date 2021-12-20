@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> T 
     imag(const complex<T>& z);
 
@@ -20,7 +20,7 @@ template<class T> T
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of imag() function.
 
@@ -48,7 +48,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Complex Number = (20.3,4.9)
 Imag part of the complex number is =4.9
 
@@ -56,7 +56,7 @@ Imag part of the complex number is =4.9
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of imag() function.
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Complex Number = (2,2)
 Imag part of the complex number is =2
 

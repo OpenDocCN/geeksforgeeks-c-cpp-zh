@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate using a function on left side
 // of an expression in C++
 #include <iostream>
@@ -39,6 +39,6 @@ int main()
 
 **Output**
 
-```
+```cpp
  10 
 ```

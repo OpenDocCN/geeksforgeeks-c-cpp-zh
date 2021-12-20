@@ -24,7 +24,7 @@
 
 本文主要讨论如何在 C++中使用元组的优先级队列。元组的优先级队列在设计复杂的数据结构时非常有用。
 
-```
+```cpp
 Syntax 1: Max-heap priority queue of tuples:
 priority_queue<tuple<data_type1, data_type2, data_type3>> priorityQueue;
 
@@ -46,7 +46,7 @@ vector<tuple<data_type1, data_type2, data_type3>>, comparator> priorityQueue;
 
 ## c++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -137,7 +137,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 [ 4 4 k]
 [ 3 3 e]
 [ 2 2 e]
@@ -148,7 +148,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -242,7 +242,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 [ 1 3 Programming]
 [ 1 2 Geeks]
 [ 0 0 Programming]
@@ -257,7 +257,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // the above approach
 #include <bits/stdc++.h>
@@ -352,7 +352,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 [ 1 1 G]
 [ 2 2 e]
 [ 3 3 e]
@@ -363,7 +363,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // the above approach
 #include <bits/stdc++.h>
@@ -461,7 +461,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 [ 0 0 Geeks]
 [ 0 0 Programming]
 [ 1 2 Geeks]
@@ -476,7 +476,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // the above approach
 #include <bits/stdc++.h>
@@ -605,7 +605,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 [ 0 0 Geeks]
 [ 0 1 Programming]
 [ 1 2 Geeks]
@@ -618,7 +618,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to implement 
 // the above approach
 #include <bits/stdc++.h>
@@ -746,7 +746,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 [ 1 3 Programming]
 [ 1 2 Geeks]
 [ 0 1 Programming]

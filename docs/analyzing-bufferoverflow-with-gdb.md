@@ -8,7 +8,7 @@
 
 本练习的目的是熟悉调试代码，并了解缓冲区溢出是如何工作的。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -34,13 +34,13 @@ int main(int argc, char** argv)
 
     让我们用以下标志编译这段代码:
 
-    ```
+    ```cpp
     gcc overflow.c -o overflow  -fno-stack-protector -z execstack -no-pie 
     ```
 
     上面的代码将创建一个禁用各种堆栈保护的编译二进制文件
 
-    ```
+    ```cpp
     -z execstack : Disables Executable Stack
     -fno-stack-protector : Disables Stack Canaries
     -no-pie : Disables Position Independent Executables
@@ -50,7 +50,7 @@ int main(int argc, char** argv)
 
     现在堆栈保护被禁用，我们可以通过键入以下内容在 GDB 加载代码
 
-    ```
+    ```cpp
     gdb ./overflow
     ```
 
@@ -58,7 +58,7 @@ int main(int argc, char** argv)
 
     代码打开后，我们可以通过键入来查看二进制文件中的函数
 
-    ```
+    ```cpp
     info functions
     ```
 
@@ -70,7 +70,7 @@ int main(int argc, char** argv)
 
     让我们打字
 
-    ```
+    ```cpp
     disas main
     ```
 
@@ -81,7 +81,7 @@ int main(int argc, char** argv)
 
     让我们键入一个断点
 
-    ```
+    ```cpp
     b * main+39
     ```
 
@@ -91,7 +91,7 @@ int main(int argc, char** argv)
 
     类型
 
-    ```
+    ```cpp
     r
     ```
 
@@ -102,7 +102,7 @@ int main(int argc, char** argv)
 
     离开 GDB 后，您可以通过键入 python 代码来打印 A。
 
-    ```
+    ```cpp
     python -c "print 'A' * 63"
     ```
 
@@ -116,7 +116,7 @@ int main(int argc, char** argv)
 
     一个很酷的方法是
 
-    ```
+    ```cpp
     python -c "print 'A' * 78" | ./overflow
     ```
 
@@ -128,23 +128,23 @@ int main(int argc, char** argv)
 
     让我们检查它重写的堆栈，因此我们必须在
 
-    ```
+    ```cpp
     main+39
     ```
 
     然后打字
 
-    ```
+    ```cpp
     r
     ```
 
     然后我们可以打字
 
-    ```
+    ```cpp
     x/20s $rsp
     ```
 
-    ```
+    ```cpp
     x : eXamine
     20s : 20 values in string
     $rsp : for register RSP (Stack Pointer)

@@ -9,7 +9,7 @@
 
 例如:
 
-```
+```cpp
 Input : "geeks"+"forgeeks"
 Output : It will not compile, an error will be thrown.
 
@@ -17,7 +17,7 @@ Output : It will not compile, an error will be thrown.
 
 **案例 1 :** 由于上述原因，我们**无法**串联以下表达式:
 
-```
+```cpp
 "geeks" + "forgeeks" + geekstring  
 ```
 
@@ -25,20 +25,20 @@ Output : It will not compile, an error will be thrown.
 
 **案例 2 :** 我们**可以**连接以下:
 
-```
+```cpp
 geekstring + "geeks" + "forgeeks" 
 ```
 
 这里，左结合不会产生错误，因为它将连接极客字符串和“极客”，使其不是一个字面意思，然后“伪造”将被添加，不会产生错误。
 
-```
+```cpp
 Input : geekstring = "geeks"
 Input : geekstring + "forgeeks"
 Output: geeksforgeeks
 
 ```
 
-```
+```cpp
 // Program to illustrate two string
 // literal can not be concatenate
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeksforgeeks
 geeksforgeeks Hello
 

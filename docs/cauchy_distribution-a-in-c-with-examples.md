@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 cauchy_distribution_name.a()
 ```
 
@@ -23,7 +23,7 @@ cauchy_distribution_name.a()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // cauchy_distribution::a()
 #include <iostream>
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Cauchy distribution: 0.78
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate
 // cauchy_distribution::a()
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Cauchy distribution: 0
 
 ```

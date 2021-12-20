@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 if (a == b || c == d || e == f) {
     // do_something
 }
@@ -18,7 +18,7 @@ if (a == b || c == d || e == f) {
 
 ## C++
 
-```
+```cpp
 // C program to illustrate the concept
 // of short circuiting
 #include <stdio.h>
@@ -38,7 +38,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1
 ```
 
@@ -48,7 +48,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the concept
 // of short circuiting
 #include <stdio.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello, else block is printed
 ```
 
@@ -84,7 +84,7 @@ Hello, else block is printed
 
 ## C
 
-```
+```cpp
 // C program to illustrate the concept
 // of short circuiting
 #include <math.h>
@@ -116,7 +116,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Sqrt of 15: 3.87
 I will be printed!
 ```
@@ -129,7 +129,7 @@ I will be printed!
 
 ## C
 
-```
+```cpp
 // C program to illustrate the concept
 // of short circuiting
 #include <stdio.h>
@@ -150,7 +150,7 @@ int main()
 
 ## C
 
-```
+```cpp
 int a = 0;
 
 // myfunc(b) will not be called

@@ -8,7 +8,7 @@
 
 语法:
 
-```
+```cpp
 void iter_swap (ForwardIterator1 a, ForwardIterator2 b);
 
 Here, a and b are forward iterators.
@@ -18,7 +18,7 @@ return any value.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::iter_swap
 #include <iostream>
 #include <algorithm>
@@ -55,7 +55,7 @@ int main()
 
 输出:
 
-```
+```cpp
 9 1 2 3 4 5 6 7 8 0
 
 ```
@@ -69,7 +69,7 @@ int main()
 *   **Optimization based on node sequence:** Most STL algorithms run in the iterator range. Therefore, it is meaningful to use iter_swap when exchanging elements within these ranges, and exchange elements pointed by two iterators. This allows optimization of node-based sequences, such as **[[STD:: List]](https://www.geeksforgeeks.org/list-cpp-stl/)** , whereby nodes are only re-linked, rather than data actually exchanged.
 *   **Use in STL definition:** Some STL algorithms such as [std::reverse](https://www.geeksforgeeks.org/stdreverse-in-c/) involve the use of std::iter_swap in their definitions. Therefore, in order to understand these definitions, people should know something about them.
 
-    ```
+    ```cpp
     // Definition of std::reverse()
     template void reverse(BidirectionalIterator first, 
                            BidirectionalIterator last)

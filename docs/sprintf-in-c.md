@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```cpp
 int sprintf(char *str, const char *string,...); 
 
 ```
 
 **返回:**
 
-```
+```cpp
 If successful,
 it returns the total number of 
 characters written excluding 
@@ -27,7 +27,7 @@ sprintf 代表“字符串打印”。它不是在控制台上打印，而是将
 
 ## C
 
-```
+```cpp
 // Example program to demonstrate sprintf()
 #include <stdio.h>
 int main()
@@ -47,7 +47,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Sum of 10 and 20 is 30
 ```
 

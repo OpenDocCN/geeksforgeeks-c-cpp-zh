@@ -4,7 +4,7 @@
 
 预测下面代码片段的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -43,7 +43,7 @@ int main()
 *1)通过引用返回:*
 由于引用给出了变量的 l 值，通过使用引用返回，程序将输出“i = 10”。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -76,7 +76,7 @@ int main()
 
 *2。在块范围内创建对象 ob*
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

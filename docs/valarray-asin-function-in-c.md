@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 asin(varr);
 
 ```
@@ -19,7 +19,7 @@ asin(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of asin() function.
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.25268 0.523599 0.848062 1.5708
 
@@ -62,7 +62,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of asin() function.
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.201358 0.140461 nan 0
 

@@ -6,7 +6,7 @@ Boost C++库的 **std::boost::is_array** 模板，用于检查给定类型是否
 
 **头文件:**
 
-```
+```cpp
 #include "boost/type_traits/is_array.hpp" 
 or 
 #include "boost/type_traits.hpp"
@@ -15,7 +15,7 @@ or
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_array : public true_type-or-false_type {};
 
@@ -25,7 +25,7 @@ struct is_array : public true_type-or-false_type {};
 
 **语法:**
 
-```
+```cpp
 boost::integral_constant ::value
 boost::integral_constant ::value_type
 boost::integral_constant ::type
@@ -36,7 +36,7 @@ boost::integral_constant ::type
 
 **接受的论点:**
 
-```
+```cpp
 typename T
 volatile T []
 const volatile T []
@@ -57,7 +57,7 @@ T [N]
 下面的程序说明了**STD::boost::type _ traits::is _ array**模板:
 T3】程序 1:
 
-```
+```cpp
 // C++ program to illustrate std::is_array template
 #include <bits/stdc++.h>
 #include <boost/type_traits/is_array.hpp>
@@ -107,7 +107,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_array: 
 int[]: 1
 char[]: boost::is_array::value
@@ -122,7 +122,7 @@ char c[0]: 0
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate std::is_array template
 #include <bits/stdc++.h>
 #include <boost/type_traits/is_array.hpp>
@@ -199,7 +199,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_array: 
 instance of structure: 0
 array of structure: 1

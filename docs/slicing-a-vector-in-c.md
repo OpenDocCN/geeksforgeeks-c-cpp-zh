@@ -16,13 +16,13 @@
 
 1.  获取索引 X 处元素的起始迭代器为:
 
-```
+```cpp
 auto start = arr.begin() + X
 ```
 
 2.  获取索引 Y 处元素的结束迭代器为:
 
-```
+```cpp
 auto end = arr.begin() + Y + 1
 ```
 
@@ -32,7 +32,7 @@ auto end = arr.begin() + Y + 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for the above approach
 #include "bits/stdc++.h"
 using namespace std;
@@ -91,7 +91,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 4 2 4 2
 ```
 
@@ -99,7 +99,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for the above approach
 #include "bits/stdc++.h"
 using namespace std;
@@ -159,7 +159,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 4 2 4 2
 ```
 
@@ -167,7 +167,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for the above approach
 #include "bits/stdc++.h"
 #include "valarray"
@@ -219,6 +219,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 4 2 4 2
 ```

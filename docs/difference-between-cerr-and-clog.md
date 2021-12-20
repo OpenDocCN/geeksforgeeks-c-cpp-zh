@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // c++ program to implement
 // the above approach
 #include <iostream>

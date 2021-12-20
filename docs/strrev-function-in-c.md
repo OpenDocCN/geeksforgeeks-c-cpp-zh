@@ -8,7 +8,7 @@ The **strrev()** function is a built-in function in C and is defined in **string
 
 **语法:**
 
-```
+```cpp
 char *strrev(char *str);
 
 ```
@@ -25,7 +25,7 @@ char *strrev(char *str);
 
 **实施例 1:-**
 
-```
+```cpp
 // C program to demonstrate
 // example of strrev() function
 
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The given string is =geeksforgeeks
 After reversing string is =skeegrofskeeg
 
@@ -54,7 +54,7 @@ After reversing string is =skeegrofskeeg
 
 **实施例 2:-**
 
-```
+```cpp
 // C program to demonstrate
 // example of strrev() function
 
@@ -75,7 +75,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The given string is = 123456789
 After reversing string is = 987654321
 

@@ -9,7 +9,7 @@
 
 在 C/C++中，函数的名字可以用来查找函数的地址。
 
-```
+```cpp
 // C program to addresses of a functions
 // using its name
 #include<stdio.h>
@@ -29,7 +29,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 address of function main() is :0x40053c
 address of function funct() is : 0x400526
 

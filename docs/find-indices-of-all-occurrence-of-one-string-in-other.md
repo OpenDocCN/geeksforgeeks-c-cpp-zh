@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : GeeksforGeeks
         Geeks
 Output : 0 8
@@ -20,7 +20,7 @@ Output : NONE
 
 ## C++
 
-```
+```cpp
 // C++ program to find indices of all
 // occurrences of one string in other.
 #include <iostream>
@@ -50,7 +50,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find indices of all
 // occurrences of one String in other.
 class GFG {
@@ -85,7 +85,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find indices of all
 # occurrences of one String in other.
 def printIndex(str, s):
@@ -110,7 +110,7 @@ printIndex(str1, str2);
 
 ## C#
 
-```
+```cpp
 // C# program to find indices of all
 // occurrences of one String in other.
 using System;
@@ -149,7 +149,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find indices of all
 // occurrences of one string in other.
@@ -180,7 +180,7 @@ printIndex($str1, $str2);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript program to find indices of all
       // occurrences of one String in other.
@@ -207,7 +207,7 @@ printIndex($str1, $str2);
 
 **Output:** 
 
-```
+```cpp
 0 8
 ```
 

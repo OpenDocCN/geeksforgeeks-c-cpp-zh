@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -24,7 +24,7 @@ int main()
 
 **问题 2**
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -41,7 +41,7 @@ int main()
 
 **问题 3**
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -59,7 +59,7 @@ int main()
 
 **问题 4**
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -77,7 +77,7 @@ int main()
 
 **问题 5**
 
-```
+```cpp
 #include <iostream>
 int main()
 {

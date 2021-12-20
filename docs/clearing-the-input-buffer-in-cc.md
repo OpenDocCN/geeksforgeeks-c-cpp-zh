@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C Code to explain why not
 // clearing the input buffer
 // causes undesired outputs
@@ -43,14 +43,14 @@ int main()
 
 输入:
 
-```
+```cpp
 GeeksforGeeks
 a
 ```
 
 输出:
 
-```
+```cpp
 GeeksforGeeks
 ```
 
@@ -58,7 +58,7 @@ GeeksforGeeks
 
 ## C++
 
-```
+```cpp
 // C++ Code to explain why
 // not clearing the input
 // buffer causes undesired
@@ -93,14 +93,14 @@ int main()
 
 输入:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```
 
 输出:
 
-```
+```cpp
 4
 ```
 
@@ -114,7 +114,7 @@ GeeksforGeeks
 
 ## C
 
-```
+```cpp
 // C Code to explain why adding
 // "while ( (getchar()) != '\n');"
 // after "scanf()" statement
@@ -151,14 +151,14 @@ int main()
 
 输入:
 
-```
+```cpp
 GeeksforGeeks
 a
 ```
 
 输出:
 
-```
+```cpp
 GeeksforGeeks
 a
 ```
@@ -171,7 +171,7 @@ a
 
 ## C++
 
-```
+```cpp
 // C++ Code to explain how
 // "cin.ignore(numeric_limits
 // <streamsize>::max(),'\n');"
@@ -214,14 +214,14 @@ int main()
 
 输入:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```
 
 输出:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```
@@ -230,7 +230,7 @@ GeeksforGeeks
 
 ## C++
 
-```
+```cpp
 // C++ Code to explain how " cin.sync();"
 // discards the input buffer
 #include<iostream>
@@ -267,14 +267,14 @@ int main()
 
 输入:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```
 
 输出:
 
-```
+```cpp
 4
 ```
 
@@ -282,7 +282,7 @@ GeeksforGeeks
 
 ## C++
 
-```
+```cpp
 // C++ Code to explain how "cin >> ws"
 // discards the input buffer along with
 // initial white spaces of string
@@ -319,14 +319,14 @@ int main()
 
 输入:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```
 
 输出:
 
-```
+```cpp
 4
 GeeksforGeeks
 ```

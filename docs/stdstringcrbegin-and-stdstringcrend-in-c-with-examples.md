@@ -8,14 +8,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <string>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class C>
 auto crbegin( const C& c ) 
         -> decltype(std::rbegin(c));
@@ -24,7 +24,7 @@ auto crbegin( const C& c )
 
 **语法:**
 
-```
+```cpp
 string_name.crbegin()
 
 ```
@@ -37,7 +37,7 @@ string_name.crbegin()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::string:crbegin()
 
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 skeeGroFskeeG
 
 ```
@@ -77,7 +77,7 @@ skeeGroFskeeG
 
 **模板类:**
 
-```
+```cpp
 template <class C>
 auto crend( const C& c ) 
       -> decltype(std::rend(c));
@@ -86,7 +86,7 @@ auto crend( const C& c )
 
 **语法:**
 
-```
+```cpp
 string_name.crend()
 
 ```
@@ -99,7 +99,7 @@ string_name.crend()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::string:crend()
 
@@ -148,7 +148,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The last index is 11
 
 ```

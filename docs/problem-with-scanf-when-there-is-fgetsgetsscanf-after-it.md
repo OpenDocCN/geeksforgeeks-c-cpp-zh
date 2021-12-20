@@ -4,7 +4,7 @@
 
 考虑下面用 c 语言编写的简单程序。该程序使用 scanf()读取一个整数，然后使用 fgets()读取一个字符串。
 
-```
+```cpp
 // C program to demonstrate the problem when
 // fgets()/gets() is used after scanf()
 #include<stdio.h>
@@ -22,14 +22,14 @@ int main()
 
 输入
 
-```
+```cpp
 10
 test
 ```
 
 输出:
 
-```
+```cpp
 x = 10, str =  
 ```
 
@@ -37,7 +37,7 @@ x = 10, str =
 
 在循环中使用 scanf()时，也会出现类似的问题。
 
-```
+```cpp
 // C program to demonstrate the problem when
 // scanf() is used in a loop
 #include<stdio.h>
@@ -59,7 +59,7 @@ int main()
 
 输入
 
-```
+```cpp
 a
 b
 q
@@ -67,7 +67,7 @@ q
 
 输出:
 
-```
+```cpp
 ......Enter q to quit......
 Enter a character
 a

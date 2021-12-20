@@ -6,7 +6,7 @@
 
 下面是展示 List 部分功能工作的程序:
 
-```
+```cpp
 #include <iostream>
 #include <list>
 #include <iterator>
@@ -63,7 +63,7 @@ int main()
 
 上述程序的输出是:
 
-```
+```cpp
 List 1 (gqlist1) is :     0    2    4    6    
 8    10    12    14    16    18
 

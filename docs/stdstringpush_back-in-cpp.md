@@ -5,7 +5,7 @@
 提供 **push_back()** 成员函数追加字符。将字符 c 追加到字符串的末尾，使其长度增加一。
 **语法:**
 
-```
+```cpp
 void string:: push_back (char c)
 Parameters:  Character which to be appended. 
 Return value: None
@@ -14,7 +14,7 @@ resulting size exceeds the maximum number of characters(max_size).
 
 ```
 
-```
+```cpp
 // CPP code for to illustrate 
 // std::string::push_back()
 
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : Geeksfor
 After push_back : GeeksforGeeks
 

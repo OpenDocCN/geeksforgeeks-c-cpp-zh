@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -41,7 +41,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp:14:10: error: virtual function ‘virtual void Derived::myfun()’
      void myfun()
           ^
@@ -57,7 +57,7 @@ c++ 11 中的最终说明符也可以用来防止类/结构的继承。如果一
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 class Base final
 {
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 error: cannot derive from ‘final’ base ‘Base’ in derived type ‘Derived’
  class Derived : public Base
 
@@ -87,7 +87,7 @@ error: cannot derive from ‘final’ base ‘Base’ in derived type ‘Derived
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class Test
 {
     final void fun()// use of final in Java
@@ -106,7 +106,7 @@ public:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -120,7 +120,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 20
 
 ```

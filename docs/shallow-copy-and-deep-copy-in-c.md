@@ -34,7 +34,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Length = 14
  Breadth = 12
  Height = 16
@@ -120,7 +120,7 @@ Length = 14
 
 ## C++
 
-```
+```cpp
 // C++ program to implement the
 // deep copy
 #include <iostream>
@@ -203,7 +203,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Length = 12
  Breadth = 14
  Height = 16

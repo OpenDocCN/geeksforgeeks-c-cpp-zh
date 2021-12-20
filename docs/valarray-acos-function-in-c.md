@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 acos(varr);
 ```
 
@@ -18,7 +18,7 @@ acos(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of acos() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1.5708 1.31812 1.0472 0.722734 0
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of acos() function.
 
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1.36944 1.43033 nan 1.5708
 

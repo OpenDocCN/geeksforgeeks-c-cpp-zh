@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-程序-列表-文件-子目录-目录/](https://www.geeksforgeeks.org/c-program-list-files-sub-directories-directory/)
 
-```
+```cpp
 #include <stdio.h>
 #include <dirent.h>
 
@@ -31,7 +31,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
               All files and subdirectories 
               of current directory  
 ```

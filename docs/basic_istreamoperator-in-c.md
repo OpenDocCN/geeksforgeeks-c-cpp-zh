@@ -5,13 +5,13 @@
 **basic _ is tream::operator>>**被称为提取运算符。该运算符用于应用于输入字符串。
 T3】头文件:T5】
 
-```
+```cpp
 <iostream>
 ```
 
 **语法:**
 
-```
+```cpp
 basic_istream& operator>>( int& a );
 basic_istream& operator>>( unsigned int& a );
 ```
@@ -26,7 +26,7 @@ basic_istream& operator>>( unsigned int& a );
 
 ## CPP14
 
-```
+```cpp
 // C++ code for basic_istream::operator>>
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,7 +53,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a = 12
 b = 12.2
 c = false
@@ -63,7 +63,7 @@ c = false
 
 ## CPP14
 
-```
+```cpp
 // C++ code for basic_istream::operator>>
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a = 144
 b = 0.26
 c = false

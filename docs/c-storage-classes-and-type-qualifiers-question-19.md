@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-storage-class-and-type-qualifier-question-19/](https://www.geeksforgeeks.org/c-storage-classes-and-type-qualifiers-question-19/)
 
-```
+```cpp
 #include <stdio.h>
 char *fun()
 {
@@ -30,7 +30,7 @@ int main()
 
 **解释:**注意 arr【】是静态的好玩的()所以没有返回地址的问题，arr【】会留下来
 
-```
+```cpp
     strcpy(fun(), str);  // Copies "geeksforgeeks" to arr[]
     str = fun();    // Assigns address of arr to str
     strcpy(str, "geeksquiz");  // copies geeksquiz to str which is address of arr[]

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     reverse_iterator multiset_name.rbegin()
 
     ```
@@ -17,7 +17,7 @@
 
     下面的程序说明了 multist::rbe gin()方法:
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // multiset::rbegin() function
     #include <bits/stdc++.h>
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     15 15 12 11 10 10 
     The last element in multiset is 15
 
@@ -54,7 +54,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     reverse_iterator multiset_name.rend()
 
     ```
@@ -65,7 +65,7 @@
 
     下面的程序说明了 multist::rend()函数:
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // multiset::rend() function
     #include <bits/stdc++.h>
@@ -90,7 +90,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     15 15 13 13 11 10
 
     ```

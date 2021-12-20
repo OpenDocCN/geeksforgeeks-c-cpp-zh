@@ -16,7 +16,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ Program to demonstrate Above Approach
 
 // Importing input output stream to take input

@@ -20,7 +20,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the
 // Object Delegation
 #include <iostream>
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The Delegate
 ```
 

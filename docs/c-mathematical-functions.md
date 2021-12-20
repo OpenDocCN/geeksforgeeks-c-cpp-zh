@@ -25,7 +25,7 @@ C++是 C 的超集，支持大量有用的数学函数。这些函数在标准 C
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate some of the
 // above mentioned functions
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Sine value of x=2.3 : 0.745705
 Cosine value of x=2.3 : -0.666276
 Tangent value of x=2.3 : -1.11921

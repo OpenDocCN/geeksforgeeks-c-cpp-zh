@@ -6,7 +6,7 @@
 元素的内部交换没有完成，只有两个无序映射的引用类型被改变。
 **语法**
 
-```
+```cpp
 unordered_map.swap ( unordered_map& ump )
 
 ```
@@ -17,7 +17,7 @@ unordered_map.swap ( unordered_map& ump )
 
 **例 1**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_map swap
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of maps before swap 
  Elements of first map are : 
 5 : 8

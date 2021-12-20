@@ -11,7 +11,7 @@
 这个函数用于向队列容器中插入一个新元素，新元素被添加到队列的末尾。
 **语法:**
 
-```
+```cpp
 ***queuename***.emplace(***value***)
 Parameters :
 The element to be inserted into the queue
@@ -25,7 +25,7 @@ forward list at the end.
 
 示例:
 
-```
+```cpp
 Input  : myqueue{1, 2, 3, 4, 5};
          myqueue.emplace(6);
 Output : myqueue = 1, 2, 3, 4, 5, 6
@@ -42,7 +42,7 @@ Output : myqueue = 4
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER queue EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -73,14 +73,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5 6
 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CHARACTER QUEUE EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -111,14 +111,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 k j y r y u
 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // STRING QUEUE EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -151,7 +151,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is a computer science portal
 
 ```
@@ -159,7 +159,7 @@ This is a computer science portal
 **时间复杂度:**O(1)
 T3】应用:输入一个空队列，求队列元素的和。
 
-```
+```cpp
 Input :  7, 6, 4, 2, 7, 8
 Output : 34 
 
@@ -173,7 +173,7 @@ Output : 34
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of emplace() function
 #include <queue>
@@ -209,7 +209,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 34
 
 ```

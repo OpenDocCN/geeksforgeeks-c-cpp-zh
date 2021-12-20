@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 list1_name.splice (iterator position, list2)
                 or 
 list1_name.splice (iterator position, list2, iterator i)
@@ -34,7 +34,7 @@ list1_name.splice (iterator position, list2, iterator first, iterator last)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // list::splice() function
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 list l1 after splice operation
 4 5 1 2 3 
 list l3 after splice operation
@@ -80,7 +80,7 @@ list l3 after splice operation
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // list::splice() function
 #include <bits/stdc++.h>
@@ -108,7 +108,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 list l1 after splice operation
 1 2 3 4
 
@@ -118,7 +118,7 @@ list l1 after splice operation
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // list::splice() function
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 list l2 after splice operation
 3 4 5 6 7 8
 

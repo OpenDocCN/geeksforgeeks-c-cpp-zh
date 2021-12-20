@@ -6,7 +6,7 @@
 
 ## c
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -18,7 +18,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -32,7 +32,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 1
 ```
 
@@ -40,7 +40,7 @@ int main() {
 
 ## c
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -53,7 +53,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -66,13 +66,13 @@ int main() {
 
 输出
 
-```
+```cpp
 3
 ```
 
 ## c
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -85,7 +85,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -100,13 +100,13 @@ int main()
 
 输出
 
-```
+```cpp
 -3
 ```
 
 ## c
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -119,7 +119,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -133,7 +133,7 @@ int main() {
 
 输出
 
-```
+```cpp
 -3
 ```
 

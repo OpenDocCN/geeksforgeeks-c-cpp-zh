@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
 void outtext(char *string);
 
 ```
 
 **示例:**
 
-```
+```cpp
 Input : string = "Hello Geek, Have a good day !"
 Output : 
 
@@ -28,7 +28,7 @@ Output :
 
 下面是 outtext()函数的实现:
 
-```
+```cpp
 // C Implementation for outtext()
 #include <graphics.h>
 

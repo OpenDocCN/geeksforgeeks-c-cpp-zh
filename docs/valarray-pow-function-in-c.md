@@ -5,7 +5,7 @@
 **pow()** 函数在 **valarray** 头文件中定义。该函数返回一个 valarray，其中包含所有元素的幂运算结果，顺序相同。
 **语法:**
 
-```
+```cpp
 pow(varr, n);
 
 ```
@@ -21,7 +21,7 @@ pow(varr, n);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of pow() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 -1 8 27 64 -125
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of pow() function.
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 1 36 9 16 25
 

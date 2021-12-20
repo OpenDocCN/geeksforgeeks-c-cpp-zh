@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program without any compilation error
 // to demonstrate a Local Class
 #include <iostream>
@@ -39,7 +39,7 @@ int main() { return 0; }
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A program without any compilation error to demonstrate
 // that a local class type name can only be used
 // in the enclosing function
@@ -72,7 +72,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program without any compilation error to demonstrate
 // that all the methods of Local classes must be defined
 // inside the class only
@@ -105,7 +105,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Local Class method() called
 ```
 
@@ -113,7 +113,7 @@ Local Class method() called
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program with compilation error to demonstrate that
 // all the methods of Local classes must be defined inside
 // the class only
@@ -138,7 +138,7 @@ int main() { return 0; }
 
 **输出**T2】
 
-```
+```cpp
 Compiler Error:
  In function 'void fun()':
  error: a function-definition is not allowed here before '{' token
@@ -150,7 +150,7 @@ Compiler Error:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A program with compilation error to demonstrate that
 // a Local class cannot contain static data members
 #include <iostream>
@@ -169,7 +169,7 @@ int main() { return 0; }
 
 **输出**
 
-```
+```cpp
 Compiler Error:
  In function 'void fun()':
  error: local class 'class fun()::Test' shall not have static data member 'int fun()::Test::i'
@@ -179,7 +179,7 @@ Compiler Error:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program without any compilation error to demonstrate
 // that a Local class cannot contain static data members
 #include <iostream>
@@ -208,7 +208,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Local Class method() called
 ```
 
@@ -218,7 +218,7 @@ Local Class method() called
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program without any compilation error to demonstrate
 // that member methods of local class can only access static
 // and enum variables of the enclosing function
@@ -255,7 +255,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 x = 0
 i = 1
 ```
@@ -264,7 +264,7 @@ i = 1
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program with compilation error to demonstrate that
 // member methods of local class can only access static
 // and enum variables of the enclosing function
@@ -312,7 +312,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program without any compilation error to demonstrate
 // that Local classes can access global types, variables and
 // functions
@@ -358,7 +358,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Test1::Test1()
 x = 0
 ```

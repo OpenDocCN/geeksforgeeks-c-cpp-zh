@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the Contiguous
 // File Allocation which follow First-Fit
 // algorithm
@@ -641,7 +641,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Remaining memory :- 16
 File home.txt has been successfully allocated
 File Report.docx has been successfully allocated
@@ -705,7 +705,7 @@ Check index page:
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the Indexed
 // File Allocation Method
 #include <iostream>
@@ -1265,7 +1265,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Remaining memory :- 16
 File home.txt has been successfully allocated
 File Report.docx has been successfully allocated
@@ -1351,7 +1351,7 @@ File page index at main index :- 2
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the Linked
 // File Allocation Method
 #include <iostream>
@@ -1971,7 +1971,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Remaining memory :- 16
 File home.txt has been successfully allocated
 File Report.docx has been successfully allocated

@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.clear()
 ```
 
@@ -17,7 +17,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::clear() function
 
@@ -57,7 +57,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 sampleSet contains: 25 20 15 5 10 
 Size of set after clearing elements: 0
 ```
@@ -66,7 +66,7 @@ Size of set after clearing elements: 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::clear() function
 
@@ -106,7 +106,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 sampleSet contains: For Geeks GeeksforGeeks Computer Science Portal Welcome To 
 Size of set after clearing elements: 0
 ```

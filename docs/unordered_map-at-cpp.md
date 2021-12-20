@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map.at(k);
 Parameter:
 It is the key value of the element whose mapped value we want to access.
@@ -20,7 +20,7 @@ A reference to the mapped value of the element with a key value equivalent
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // std :: unordered_map :: at()
 #include<iostream>
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Value of key mp['second'] = 2
 Exception at _Map_base::at
 ```
@@ -68,7 +68,7 @@ Exception at _Map_base::at
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application of this function
 // Program to correct the marks
@@ -105,7 +105,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Computer Application: 100
 Chemistry: 98
 Physics: 97

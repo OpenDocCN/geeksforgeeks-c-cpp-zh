@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tm* localtime(const time_t* time_ptr);
 ```
 
@@ -18,7 +18,7 @@ tm* localtime(const time_t* time_ptr);
 
 **例:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of localtime() function.
 
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Current local time is = 10:8:10
 
 ```

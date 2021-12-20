@@ -8,7 +8,7 @@ STD::b 搜索在排序数组中搜索元素。在 ptr 所指向的数组中查�
 如果数组包含几个元素，comp 将表示等于搜索到的元素，则未指定函数将返回哪个元素作为结果。
 **语法:**
 
-```
+```cpp
 void* bsearch( const void* key, const void* ptr, std::size_t count,
                std::size_t size, * comp );
 
@@ -29,7 +29,7 @@ Pointer to the found element or null pointer if the element has not been found.
 
 **实现二元谓词 comp :**
 
-```
+```cpp
 // Binary predicate which returns 0 if numbers found equal
 int comp(int* a, int* b)
 {
@@ -48,7 +48,7 @@ int comp(int* a, int* b)
 
 **实施**
 
-```
+```cpp
 // CPP program to implement
 // std::bsearch
 #include <bits/stdc++.h>
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 4 found at position 3
 9 not found
 

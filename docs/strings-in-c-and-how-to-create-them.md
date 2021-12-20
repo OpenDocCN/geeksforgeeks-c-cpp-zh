@@ -14,7 +14,7 @@
 
     **在 C++中初始化字符串:**
 
-    ```
+    ```cpp
     1\. char str[] = "Geeks";
     2\. char str[6] = "Geeks";
     3\. char str[] = {'G', 'e', 'e', 'k', 's', '\0'};
@@ -27,7 +27,7 @@
 
     让我们看一些例子来更好地理解 C++中使用 C 风格的字符串表示:
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // Strings using C style
 
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Geeks
 
     ```
@@ -58,7 +58,7 @@
 
     **在 C++中初始化字符串:**
 
-    ```
+    ```cpp
     1\. string str1 = "Geeks";
     2\. string str2 = "Welcome to GeeksforGeeks!";
 
@@ -66,7 +66,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate String
     // using Standard String representation
 
@@ -92,7 +92,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Welcome to GeeksforGeeks!
     A Computer Science Portal
 

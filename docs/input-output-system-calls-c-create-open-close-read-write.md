@@ -30,7 +30,7 @@
 
 **1。创建:**用于创建新的空文件。
 
-```
+```cpp
 Syntax in C language: 
 int create(char *filename, mode_t mode)
 ```
@@ -54,7 +54,7 @@ int create(char *filename, mode_t mode)
 
 **2。打开**:用于打开文件进行读取、写入或两者兼有。
 
-```
+```cpp
 Syntax in C language 
 #include<sys/types.h>
 #include<sys/stat.h>
@@ -79,7 +79,7 @@ int open (const char* Path, int flags [, int mode ]);
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // open system call 
 #include<stdio.h> 
@@ -108,13 +108,13 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 fd = 3
 ```
 
 **3。关闭:**告诉操作系统你已经完成了一个文件描述符，并关闭 fd 指向的文件。
 
-```
+```cpp
 Syntax in C language
 #include <fcntl.h>
 int close(int fd); 
@@ -137,7 +137,7 @@ int close(int fd);
 
 ## C
 
-```
+```cpp
 // C program to illustrate close system Call 
 #include<stdio.h> 
 #include <fcntl.h> 
@@ -163,14 +163,14 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 opened the fd = 3
 closed the fd.
 ```
 
 ## C
 
-```
+```cpp
 // C program to illustrate close system Call 
 #include<stdio.h> 
 #include<fcntl.h> 
@@ -190,7 +190,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 fd2 = 3
 ```
 
@@ -198,7 +198,7 @@ fd2 = 3
 
 **4。read:** 从文件描述符 fd 指示的文件中，read()函数将 cnt 字节的输入读入 buf 指示的存储区域。成功读取()会更新文件的访问时间。
 
-```
+```cpp
 Syntax in C language 
 size_t read (int fd, void* buf, size_t cnt);  
 ```
@@ -224,7 +224,7 @@ size_t read (int fd, void* buf, size_t cnt);
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // read system Call 
 #include<stdio.h> 
@@ -247,7 +247,7 @@ printf("Those bytes are as follows: % s\n", c); 
 
 **输出:**
 
-```
+```cpp
 called read(3, c, 10).  returned that 10 bytes  were read.
 Those bytes are as follows: 0 0 0 foo.
 ```
@@ -256,7 +256,7 @@ Those bytes are as follows: 0 0 0 foo.
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // read system Call 
 #include<stdio.h> 
@@ -278,7 +278,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 c = f
 ```
 
@@ -286,7 +286,7 @@ c = f
 
 **5。write:** 将 cnt 字节从 buf 写入与 fd 相关联的文件或套接字。cnt 不应大于 INT_MAX(在 limits.h 头文件中定义)。如果 cnt 为零，write()只返回 0，不尝试任何其他操作。
 
-```
+```cpp
 #include <fcntl.h>
 size_t write (int fd, void* buf, size_t cnt); 
 ```
@@ -315,7 +315,7 @@ size_t write (int fd, void* buf, size_t cnt);
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // write system Call 
 #include<stdio.h> 
@@ -342,7 +342,7 @@ close(fd); 
 
 **输出:**
 
-```
+```cpp
 called write(3, "hello geeks\n", 12).  it returned 11
 ```
 
@@ -352,7 +352,7 @@ called write(3, "hello geeks\n", 12).  it returned 11
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // I/O system Calls 
 #include<stdio.h> 
@@ -382,7 +382,7 @@ int main (void) 
 
 **输出:**
 
-```
+```cpp
 hello world
 ```
 

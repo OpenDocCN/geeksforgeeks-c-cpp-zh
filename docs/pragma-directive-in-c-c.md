@@ -9,7 +9,7 @@
     **注意**:下面的程序不会和 GCC 编译器一起工作。
     看下面的程序:
 
-    ```
+    ```cpp
     #include<stdio.h> 
 
     void func1(); 
@@ -38,7 +38,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Inside func1()
     Inside main()
     Inside func2()
@@ -47,14 +47,14 @@
 
     当在 GCC 编译器上运行时，上述代码将产生如下所示的输出:
 
-    ```
+    ```cpp
     Inside main()
 
     ```
 
     出现这种情况是因为 GCC 不支持 **#pragma 启动或退出**。但是，您可以使用下面的代码在 GCC 编译器上获得类似的输出。
 
-    ```
+    ```cpp
     #include<stdio.h> 
 
     void func1(); 
@@ -83,7 +83,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Inside func1()
     Inside main()
     Inside func2()
@@ -94,7 +94,7 @@
 
     **语法**:
 
-    ```
+    ```cpp
     #pragma warn +xxx (To show the warning)
     #pragma warn -xxx (To hide the warning)
     #pragma warn .xxx (To toggle between hide and show)
@@ -109,7 +109,7 @@
 
     **例**:
 
-    ```
+    ```cpp
     // Example to explain the working of 
     // #pragma warn directive
     // This program is compatible with C/C++ compiler 
@@ -141,7 +141,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     GEEKSFORGEEKS
 
     ```
@@ -152,7 +152,7 @@
 
     **例**:
 
-    ```
+    ```cpp
     // Program to illustrate the 
     // #pragma GCC poison directive
 
@@ -177,7 +177,7 @@
 
     上面的程序会给出下面的错误:
 
-    ```
+    ```cpp
     prog.c: In function 'main':
     prog.c:14:9: error: attempt to use poisoned "printf"
              printf("GEEKSFORGEEKS");
@@ -192,7 +192,7 @@
 
     **语法**:
 
-    ```
+    ```cpp
     #pragma GCC dependency "parse.y"
     #pragma GCC dependency "/usr/include/time.h" rerun fixincludes
 
@@ -203,6 +203,6 @@
 
     **语法:**
 
-    ```
+    ```cpp
     #pragma once
     ```

@@ -11,7 +11,7 @@
 
 正如在这组文章中发表的一篇文章中提到的，2D 向量也可以有不同列数的行。此属性不同于 2D 数组，后者中所有行的列数都相同。
 
-```
+```cpp
 // C++ code to demonstrate 2D Vector
 // with different no. of columns
 #include<iostream>
@@ -42,7 +42,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2
 3 4 5
 6
@@ -53,7 +53,7 @@ int main()
 
 在这种类型的排序中，2D 向量是根据列数以升序排序的。这是通过在“sort()”中传递第三个参数作为对用户定义的显式函数的调用来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of
 // 2D vector on basis of no. of columns
 // in ascending order
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting is:
 1 2 
 3 4 5 
@@ -128,7 +128,7 @@ The Matrix after sorting is:
 
 在这种类型的排序中，2D 向量是根据列数以降序排序的。这是通过在“sort()”中传递第三个参数作为对用户定义的显式函数的调用来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of
 // 2D vector on basis of no. of columns
 // in descending order
@@ -187,7 +187,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting is:
 1 2 
 3 4 5 

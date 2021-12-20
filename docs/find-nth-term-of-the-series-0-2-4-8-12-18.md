@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```cpp
 Input: 3
 Output: 4
 For N = 3
@@ -20,7 +20,7 @@ Output: 12
 
 仔细观察，上述系列中的第 N<sup>项可以概括为:</sup> 
 
-```
+```cpp
 Nth term = ( N + ( N - 1 ) * N ) / 2
 ```
 
@@ -28,7 +28,7 @@ Nth term = ( N + ( N - 1 ) * N ) / 2
 
 ## C++
 
-```
+```cpp
 // CPP program to find N-th term of the series:
 // 0, 2, 4, 8, 12, 18...
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find N-th term of the series:
 // 0, 2, 4, 8, 12, 18...
 import java.io.*;
@@ -78,7 +78,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find N-th term of the series:
 # 0, 2, 4, 8, 12, 18.
 
@@ -99,7 +99,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# program to find N-th term of the series:
 // 0, 2, 4, 8, 12, 18...
 using System;
@@ -126,7 +126,7 @@ class gfg
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find
 // N-th term of the series:
@@ -150,7 +150,7 @@ echo nthTerm($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to find N-th term of the series:
@@ -173,7 +173,7 @@ function nthTerm(N)
 
 **Output:** 
 
-```
+```cpp
 12
 ```
 

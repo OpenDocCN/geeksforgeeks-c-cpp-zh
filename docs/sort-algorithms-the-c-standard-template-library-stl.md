@@ -7,7 +7,7 @@
 
 排序的原型是:
 
-```
+```cpp
 sort(startaddress, endaddress)
 
 startaddress: the address of the first 
@@ -21,7 +21,7 @@ range of [startaddress,endaddress)
 
 ## C++
 
-```
+```cpp
 // C++ program to sort an array
 #include <algorithm>
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The array before sorting is : 
 1 5 8 9 6 7 3 4 2 0 
 

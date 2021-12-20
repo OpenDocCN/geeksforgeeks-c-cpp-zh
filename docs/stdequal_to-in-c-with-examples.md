@@ -5,13 +5,13 @@
 **std::equal_to** 允许将相等比较用作函数，这意味着它可以作为参数传递给模板和函数。这对于等式运算符 **==** 是不可能的，因为运算符不能作为参数传递。
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 ```
 
 **模板类:**
 
-```
+```cpp
 template struct equal_to : binary_function
 {
 
@@ -37,7 +37,7 @@ template struct equal_to : binary_function
 
 **语法:**
 
-```
+```cpp
 std::equal_to <int> ()
 ```
 
@@ -52,7 +52,7 @@ std::equal_to <int> ()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to illustrate std::equal_to
 #include <algorithm>
 #include <functional>
@@ -96,7 +96,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The 1st mismatch element of 1st container : 60
 The 1st mismatch element of 2nd container : 85
 ```
@@ -105,7 +105,7 @@ The 1st mismatch element of 2nd container : 85
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate std::equals_to
 #include <algorithm>
 #include <functional>
@@ -142,7 +142,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 false
 true
 ```

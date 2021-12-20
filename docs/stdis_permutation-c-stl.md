@@ -5,7 +5,7 @@
 C++函数 STD::algorithm::is _ replacement()测试一个序列是否是其他序列的置换。它使用运算符==进行比较。这个函数是在 C++11 中定义的。
 **语法:**
 
-```
+```cpp
 template <class ForwardIterator1, class ForwardIterator2 >
 bool is_permutation(ForwardIterator1 first1, ForwardIterator1 last1,
 ForwardIterator2 first2);
@@ -23,7 +23,7 @@ false : Any element missing or exceeding.
 
 该函数考虑这个序列中与[first1，last1]范围内的元素一样多的元素。如果该序列较短，会导致未定义的行为。
 
-```
+```cpp
 // CPP program to check if 
 // two arrays are equal or not
 // using std :: is_permutation
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 B is a permutation of A
 
 ```
@@ -62,7 +62,7 @@ B is a permutation of A
 
 **另一个例子:检查两个字符串是否是彼此的字谜**
 
-```
+```cpp
 // CPP program to check whether two strings 
 // are anagram of each other
 // using std :: is_permutation
@@ -91,7 +91,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Anagrams
 
 ```
@@ -100,7 +100,7 @@ Anagrams
 
 **标准版本::排列**
 
-```
+```cpp
 template< class ForwardIt1, class ForwardIt2 >
 bool is_permutation( ForwardIt1 first1, ForwardIt1 last1,
                      ForwardIt2 first2 );
@@ -127,7 +127,7 @@ p : binary predicate which returns ​true if the elements should be treated as 
 
 示例:
 
-```
+```cpp
 // False
 is_permutation ( c1.begin(),     c1.end (), c2.begin(), c2.end ()) 
 

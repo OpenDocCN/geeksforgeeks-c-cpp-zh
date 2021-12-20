@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
   ClassName()
    {
      //Constructor's Body 
@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```cpp
   ~ClassName()
    { 
    }
@@ -29,7 +29,7 @@
 
 **构造函数和析构函数的示例/实现:**
 
-```
+```cpp
 class Z
 {
 public:
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Constructor called
 Constructor called
 Destructor called

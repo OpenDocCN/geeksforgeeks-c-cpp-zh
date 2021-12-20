@@ -18,7 +18,7 @@
 
 T5
 
-```
+```cpp
 // C program to restrict the mouse
 // pointer
 #include <conio.h>

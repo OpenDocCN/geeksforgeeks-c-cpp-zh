@@ -26,7 +26,7 @@
     > 旧向量:8 2 4 6 11 0 15 8
     > 新向量:0 15 8 2 4 6 11//在第 5 个位置旋转，起始索引为 0。
 
-    ```
+    ```cpp
     // CPP program to rotate vector
     // using std::rotate algorithm
 
@@ -78,7 +78,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Old vector : 1 2 3 4 5 6 7 8 9
     New vector after left rotation : 4 5 6 7 8 9 1 2 3
 

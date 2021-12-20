@@ -10,7 +10,7 @@
 
 让我们看看这里的代码片段:
 
-```
+```cpp
 // Find the next lexicographically
 // greater permutation of a word
 
@@ -36,7 +36,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ggf
 
 ```
@@ -52,7 +52,7 @@ ggf
 a)中的优化由于序列是按降序排序的，所以我们可以使用二分搜索法来找到最近的较大元素。
 c)由于序列已经按降序排序(即使在交换之后，因为我们交换了最接近的大的序列)，所以我们可以在反转后按升序排序序列。
 
-```
+```cpp
 // Find the next lexicographically
 // greater permutation of a word
 
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ggf
 
 ```

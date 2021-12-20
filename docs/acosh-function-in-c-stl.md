@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 acosh(data_type x)
 ```
 
@@ -38,7 +38,7 @@ acosh(data_type x)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the acosh() function
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 acosh(50.0) = 4.60507 radians
 acosh(50.0) = 263.851 degrees
 ```
@@ -71,7 +71,7 @@ acosh(50.0) = 263.851 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the acosh() function
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 acosh(40.0) = 4.38187 radians
 acosh(40.0) = 251.063 degrees
 ```
@@ -106,7 +106,7 @@ acosh(40.0) = 251.063 degrees
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate
 // the acosh() function
 // value less than 1
@@ -131,7 +131,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 acosh(-50.0) = -nan radians
 acosh(-50.0) = -nan degrees
 ```
@@ -142,7 +142,7 @@ acosh(-50.0) = -nan degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the acosh() function
 #include <bits/stdc++.h>
@@ -166,7 +166,7 @@ int main()
 
 **错误:**
 
-```
+```cpp
 prog.cpp: In function ‘int main()’:
 prog.cpp:12:28: error: no matching function for call to ‘acosh(std::__cxx11::string&)’
      double result = acosh(x);

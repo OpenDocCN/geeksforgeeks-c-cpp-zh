@@ -5,7 +5,7 @@
 给定一个十六进制数，任务是将其转换成八进制数。
 **例:**
 
-```
+```cpp
 Input: Hexadecimal = 1AC
 Output: Binary = 0654
 Explanation:
@@ -40,7 +40,7 @@ T5】转换步骤
 
 ## C++
 
-```
+```cpp
 // C++ program to convert
 // Hexadecimal to Octal
 
@@ -209,7 +209,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to convert
 // Hexadecimal to Octal
 
@@ -378,7 +378,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to convert
 // Hexadecimal to Octal
 class hex_to_oct
@@ -471,7 +471,7 @@ public static void main(String[] args)
 
 ## 计算机编程语言
 
-```
+```cpp
 # importing math package
 import math
 hex = "1AC"
@@ -526,7 +526,7 @@ print("Equivalent Octal Value =",oct)
 
 ## C#
 
-```
+```cpp
 // C# program to convert
 // Hexadecimal to Octal
 using System;
@@ -625,7 +625,7 @@ public static void Main(string[] args)
 
 **输出:**
 
-```
+```cpp
 Equivalent Octal Value = 654
 
 ```

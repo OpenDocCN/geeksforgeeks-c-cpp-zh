@@ -6,7 +6,7 @@
 
 1.  **在 [if 语句中使用 printf/putchar](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/):**
 
-    ```
+    ```cpp
     // CPP program to print 
     // ; without using ;
     // using if statement
@@ -24,7 +24,7 @@
 
     输出:
 
-    ```
+    ```cpp
     ;
     ;
 
@@ -34,7 +34,7 @@
 
 2.  **使用[宏:](https://www.geeksforgeeks.org/cc-preprocessors/)**
 
-    ```
+    ```cpp
     // CPP program to print 
     // ; without using ;
     // using macros
@@ -50,7 +50,7 @@
 
     输出:
 
-    ```
+    ```cpp
     ;
 
     ```

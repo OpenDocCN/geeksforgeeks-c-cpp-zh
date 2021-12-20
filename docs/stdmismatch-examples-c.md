@@ -12,7 +12,7 @@ C++ STL 有很多有用的功能，可以帮助我们完成各种编程任务。
 
     该函数返回**第一个不匹配对指针**，第一个元素指向**第一个**容器的**第一个不匹配**元素的位置，第二个元素指向**第二个**容器的**第一个不匹配**元素的位置。如果没有发现不匹配，第一个元素指向第一个容器的最后一个元素之后的**位置，第二个元素指向第二个容器**中的**对应位置。**
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // mismatch( start_iter1, end_iter1, start_iter2 )
 
@@ -62,7 +62,7 @@ C++ STL 有很多有用的功能，可以帮助我们完成各种编程任务。
 
     输出:
 
-    ```
+    ```cpp
     The 1st mismatch element of 1st container : 15
     The 1st mismatch element of 2nd container : 25
     The returned value from 1st container is  : 0
@@ -72,7 +72,7 @@ C++ STL 有很多有用的功能，可以帮助我们完成各种编程任务。
 
 2.  **mismatch( start_iter1, end_iter1, start_iter2, comparator) :** This function is almost similar to the working as the above mentioned version, but it offers to find not only equality mismatches, but also **other user-defined** and desired **mismatches** via user- defined comparator function that is sent as 4th argument and returns a boolean true or false.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of
     // mismatch( start_iter1, end_iter1, start_iter2, comparator )
 
@@ -132,7 +132,7 @@ C++ STL 有很多有用的功能，可以帮助我们完成各种编程任务。
 
     输出:
 
-    ```
+    ```cpp
     The 1st mismatch element of 1st container : 15
     The 1st mismatch element of 2nd container : 25
     The returned value from 1st container is  : 0

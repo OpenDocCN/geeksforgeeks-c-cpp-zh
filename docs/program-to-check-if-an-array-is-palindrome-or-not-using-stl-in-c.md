@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: arr[] = {3, 6, 0, 6, 3}
 Output: Palindrome
 
@@ -24,7 +24,7 @@ Output: Not Palindrome
 
 以下是上述方法的实施情况:
 
-```
+```cpp
 // C++ program to check if an Array
 // is Palindrome or not using STL
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Palindrome
 
 ```

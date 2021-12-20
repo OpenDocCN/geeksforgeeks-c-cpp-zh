@@ -11,13 +11,13 @@
 
 示例:
 
-```
+```cpp
 Input :  (10, "queen"), (20, "rose"),  (5," lion")
 Output : (20, "rose"),  (10, "queen"), (5," lion")
 
 ```
 
-```
+```cpp
 // C++ program makes a map to store
 // elements in descending order.
 #include<bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 (20, rose)
 (10, queen)
 (5,  lion)
@@ -57,14 +57,14 @@ int main()
 **多地图中的降序:**
 多地图类似于地图，只是多元素可以有相同的键。在这种情况下，键值和映射值对必须是唯一的，而不是每个元素都是唯一的。示例:
 
-```
+```cpp
 Input :  (10, "queen"), (20, "rose"),  (5," lion"), 
          (20, "van"), (20, "watch"), (5, "joker")
 Output : (20, rose), (20, van), (20, watch), 
          (10, queen), (5,  lion), (5, joker)
 ```
 
-```
+```cpp
 // C++ program makes a multimap to store
 // elements in descending order.
 #include<bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 (20, rose)
 (20, van)
 (20, watch)

@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```cpp
 template <class T, int size>
 class Array {
 private:
@@ -37,7 +37,7 @@ private:
 
 **例 2:**
 
-```
+```cpp
 // Array of 10 integers
 Array<int, 10> a1
 
@@ -61,7 +61,7 @@ where *size* is given as an argument to the template class.
 
 ## C++
 
-```
+```cpp
 // C++ program to implement bubble sort
 // by using Non-type as function parameters
 #include <iostream>
@@ -126,7 +126,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Sorted Array is: 0.3, 0.6, 1.1, 1.2, 1.56, 4.55
 
 ```

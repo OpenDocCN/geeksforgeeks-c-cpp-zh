@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map.key_comp()
 ```
 
@@ -16,7 +16,7 @@ map.key_comp()
 
 **示例:**
 
-```
+```cpp
 // C++ program to demonstrate map::key_comp().
 
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 mymap contain:
 x => 50
 y => 100
@@ -72,7 +72,7 @@ z => 150
 
 **例 2:**
 
-```
+```cpp
 // C++ program to demonstrate map::key_comp().
 
 #include <iostream>
@@ -118,7 +118,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 mymap contain:
 a => 100
 b => 200

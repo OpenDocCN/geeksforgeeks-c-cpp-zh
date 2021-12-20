@@ -7,7 +7,7 @@
 。
 **语法:**
 
-```
+```cpp
 wchar_t* wcstok(wchar_t* str, 
                      const wchar_t* delim, 
                      wchar_t ** ptr);
@@ -25,7 +25,7 @@ wchar_t* wcstok(wchar_t* str,
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcstok() function.
 
@@ -62,7 +62,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 A
 computer
 science

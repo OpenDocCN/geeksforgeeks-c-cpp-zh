@@ -24,7 +24,7 @@
 **一个简单的 C 程序演示 pthread 基本功能的使用**
 请注意，下面的程序可能只能用带有 pthread 库的 C 编译器编译。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>  //Header file for sleep(). man 3 sleep for details.
@@ -61,7 +61,7 @@ pthread_create()接受 4 个参数。
 **以上程序如何编译？**
 要使用 gcc 编译多线程程序，我们需要将其与 pthreads 库链接。下面是用来编译程序的命令。
 
-```
+```cpp
 gfg@ubuntu:~/$ gcc multithread.c -lpthread
 gfg@ubuntu:~/$ ./a.out
 Before Thread
@@ -73,7 +73,7 @@ gfg@ubuntu:~/$
 **一个用全局和静态变量**
 展示多个线程的 C 程序如上所述，所有线程共享数据段。全局变量和静态变量存储在数据段中。因此，它们由所有线程共享。下面的示例程序演示了相同的内容。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -112,7 +112,7 @@ int main()
 }
 ```
 
-```
+```cpp
 gfg@ubuntu:~/$ gcc multithread.c -lpthread
 gfg@ubuntu:~/$ ./a.out
 Thread ID: 3, Static: 2, Global: 2

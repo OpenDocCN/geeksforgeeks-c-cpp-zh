@@ -43,7 +43,7 @@
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above concept
 #include <bits/stdc++.h>
@@ -148,7 +148,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above concept
 #include <bits/stdc++.h>
@@ -257,7 +257,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above concept
 #include <bits/stdc++.h>
@@ -357,7 +357,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

@@ -11,7 +11,7 @@
 
 下面是一个例子，求给定整数集的最小值。
 
-```
+```cpp
 // C program to demonstrate use of variable
 // number of arguments.
 #include <stdarg.h>
@@ -64,7 +64,7 @@ int main()
 
 *   在函数定义中使用 va_list 类型变量。
 
-    ```
+    ```cpp
     int a_function(int x, ...)
     {
         va_list a_list;
@@ -78,7 +78,7 @@ int main()
 
 **另一个例子:**
 
-```
+```cpp
 // C program to demonstrate working of 
 // variable arguments to find average
 // of multiple numbers.
@@ -113,7 +113,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Average of {2, 3, 4} = 3
 Average of {3, 5, 10, 15} = 10
 

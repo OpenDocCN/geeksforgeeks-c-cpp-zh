@@ -7,7 +7,7 @@
 
 如果 x 代表[第一个，最后一个]中的元素，y 代表结果中的元素，则 ys 可以计算为:
 
-```
+```cpp
 y0 = x0
 y1 = x1 - x0
 y2 = x2 - x1
@@ -20,7 +20,7 @@ and so on.
 语法:
 **模板:**
 
-```
+```cpp
 OutputIterator adjacent_difference (InputIterator first,
                                     InputIteratorlast,
                                     OutputIterator result);
@@ -44,7 +44,7 @@ sequence where resulting elements have been stored.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std :: adjacent_difference
 
@@ -77,7 +77,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array contains : 1 2 3 5 9 11 12
 Using default adjacent_difference: 1 1 2 4 2 1
 
@@ -87,7 +87,7 @@ Using default adjacent_difference: 1 1 2 4 2 1
 语法:
 **模板:**
 
-```
+```cpp
 OutputIterator adjacent_difference (InputIterator first,
                                     InputIterator last,
                                     OutputIterator result,
@@ -111,7 +111,7 @@ sequence where resulting elements have been stored.
 
 通过在自定义函数中将运算符**更改为任意二进制运算符**，我们可以更改应用于 STL 函数的操作。这里执行相邻元素的求和。
 
-```
+```cpp
 // CPP program to illustrate
 // std :: adjacent_difference
 
@@ -150,7 +150,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array contains : 1 2 3 5 9 11 12
 Using custom function: 1 3 5 8 14 20 23 
 
@@ -163,7 +163,7 @@ Using custom function: 1 3 5 8 14 20 23
 结果为:2 8 20 30
 解释–第一个元素保持原样。那么第二个元素就是第一个元素*第二个元素，然后第三个元素就是第二个元素*第三个元素，以此类推。
 
-```
+```cpp
 // CPP program to illustrate
 // std :: adjacent_difference
 
@@ -201,7 +201,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array contains : 5 7 4 8 2
 Result contains : 5 35 28 32 16
 

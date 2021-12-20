@@ -4,7 +4,7 @@
 
 以下程序的输出？
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -50,7 +50,7 @@ int main()
 
 **解释:**解释见以下注释:
 
-```
+```cpp
 Point *t1, *t2;   // No constructor call
 t1 = new Point(10, 15);  // Normal constructor call
 t2 = new Point(*t1);   // Copy constructor call 

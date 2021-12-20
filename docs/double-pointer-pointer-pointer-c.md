@@ -12,7 +12,7 @@
 声明指针指向指针类似于在 c 语言中声明指针，不同的是我们要在指针的名字前加一个' * '。
 **语法**:
 
-```
+```cpp
 int **ptr;    // declaring double pointers
 
 ```
@@ -27,7 +27,7 @@ int **ptr;    // declaring double pointers
 
 借助以下程序，让我们更清楚地了解这一点:
 
-```
+```cpp
 #include <stdio.h>
 
 // C program to demonstrate pointer to pointer
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of var = 789
 Value of var using single pointer = 789
 Value of var using double pointer = 789

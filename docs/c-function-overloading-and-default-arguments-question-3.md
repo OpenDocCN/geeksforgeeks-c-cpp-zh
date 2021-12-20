@@ -6,28 +6,28 @@ C++中不允许下列哪些重载函数？
 
 1)仅在返回类型上不同的函数声明
 
-```
+```cpp
     int fun(int x, int y);
          void fun(int x, int y); 
 ```
 
 2)返回类型中仅静态关键字不同的函数
 
-```
+```cpp
     int fun(int x, int y);
          static int fun(int x, int y); 
 ```
 
 3)仅在指针*和数组[]上不同的参数声明
 
-```
+```cpp
 int fun(int *ptr, int n);
 int fun(int ptr[], int n); 
 ```
 
 4)只有默认参数不同的两个参数声明
 
-```
+```cpp
 int fun( int x, int y); 
 int fun( int x, int y = 10); 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template < class ratio1_name, class ratio2_name > ratio_equal
 
 ```
@@ -19,7 +19,7 @@ template < class ratio1_name, class ratio2_name > ratio_equal
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_equal function
 #include <iostream>
@@ -42,14 +42,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Both ratio are equal
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ratio_equal function
 #include <iostream>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Both ratio are not equal
 
 ```

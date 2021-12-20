@@ -43,7 +43,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -138,7 +138,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.util.*;
 
@@ -250,7 +250,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # Function that returns true if c is a vowel
@@ -334,7 +334,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 using System.Collections.Generic;
@@ -451,7 +451,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // JavaScript implementation of the approach
 
@@ -549,7 +549,7 @@ console.log( countSubstrings(s));
 
 **Output:** 
 
-```
+```cpp
 9
 ```
 

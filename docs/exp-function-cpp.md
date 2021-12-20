@@ -19,7 +19,7 @@ exp()函数返回[0，inf]范围内的值。
 **应用:**
 下面给出的是 **exp()** 函数的应用示例
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 exp(x) = 22026.5
 
 ```

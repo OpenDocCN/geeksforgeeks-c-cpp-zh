@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: str1 = "hello", str2 = "world"
 Output: helloworld
 
@@ -28,7 +28,7 @@ Output: GeeksWorld
 
 ## C++
 
-```
+```cpp
 // C++ Program to concatenate two string
 // using unary operator overloading
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Concatenation: GeeksForGeeks
 ```
 
@@ -92,7 +92,7 @@ Concatenation: GeeksForGeeks
 
 ## C++
 
-```
+```cpp
 // C++ Program to concatenate two strings using
 // binary operator overloading
 #include <iostream>
@@ -159,6 +159,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Concatenation: GeeksForGeeks
 ```

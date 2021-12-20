@@ -7,7 +7,7 @@
 头文件 graphics.h 包含 **imagesize()** 函数，该函数返回存储一个位图像所需的字节数。
 **语法:**
 
-```
+```cpp
 unsigned int imagesize(int left, int top,
                     int right, int bottom);
 
@@ -20,7 +20,7 @@ in which image is stored.
 
 下面是 imagesize()函数的实现。
 
-```
+```cpp
 // C Implementation for imagesize()
 #include <graphics.h>
 #include <stdio.h>

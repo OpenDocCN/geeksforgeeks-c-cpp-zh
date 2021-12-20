@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```cpp
 set_union (InputIterator1 first1, InputIterator1 last1,
            InputIterator2 first2, InputIterator2 last2,
            OutputIterator result);
@@ -29,7 +29,7 @@ set_union (InputIterator1 first1, InputIterator1 last1,
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to join two Arrays
 // using set_union() in STL
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First Array: 1 12 45 54 71 76 
 Second Array: 1 4 5 6 7 12 
 

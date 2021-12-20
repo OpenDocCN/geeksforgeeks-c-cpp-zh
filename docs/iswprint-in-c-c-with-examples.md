@@ -12,7 +12,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswprint(ch)
 ```
 
@@ -27,7 +27,7 @@ int iswprint(ch)
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // towprint() function
 #include <cwchar>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Printing , if the given wide character cannot be printed
 Geeks, for, Geeks
 
@@ -63,7 +63,7 @@ Geeks, for, Geeks
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // towprint() function
 #include <cwchar>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Printing , if the given wide character cannot be printed
 Ishwar Gupta, 123, !@#
 

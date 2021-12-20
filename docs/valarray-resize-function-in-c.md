@@ -5,7 +5,7 @@
 **resize()** 功能在 [**valarray**](https://www.geeksforgeeks.org/std-valarray-class-c/) 头文件中定义。该函数调整 valarray 的大小以包含 **n** 个元素，并为每个元素赋值。
 **语法:**
 
-```
+```cpp
 void resize( size_t n, T value = T() );
 ```
 
@@ -20,7 +20,7 @@ void resize( size_t n, T value = T() );
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of resize() function.
 
@@ -48,7 +48,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The contents of valarray after resizes are : 3 3
 ```
 
@@ -56,7 +56,7 @@ The contents of valarray after resizes are : 3 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // example of resize() function.
 
@@ -84,6 +84,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The contents of valarray after resizes are : 5 5 5 5 5 5 5 5 5 5 5 5
 ```

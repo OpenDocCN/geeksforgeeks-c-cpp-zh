@@ -9,7 +9,7 @@
 **使用“<”比较元素:**
 **语法:**
 
-```
+```cpp
 template 
 ForwardIterator is_sorted_until (ForwardIterator first, ForwardIterator last);
 
@@ -25,7 +25,7 @@ the list or if all the elements are sorted.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the use of std::is_sorted_until
 #include <iostream>
 #include <algorithm>
@@ -48,14 +48,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 There are 6 sorted elements in the list and the first unsorted element is 8
 ```
 
 **通过使用预定义函数进行比较:**
 语法:
 
-```
+```cpp
 template 
  ForwardIterator is_sorted_until (ForwardIterator first, ForwardIterator last,
  Compare comp);
@@ -79,7 +79,7 @@ the list or if all the elements are sorted.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of std::nth_element
 // C++ program to demonstrate the
@@ -109,7 +109,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 There are 3 sorted elements in the list and the first unsorted element is 10
 ```
 

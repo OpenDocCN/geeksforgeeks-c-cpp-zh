@@ -34,7 +34,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program 1
 // CPP Program to demonstrate that Members of a class are
 // private by default
@@ -59,7 +59,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 prog.cpp: In function ‘int main()’:
 prog.cpp:8:9: error: ‘int Test::x’ is private
     int x;
@@ -71,7 +71,7 @@ prog.cpp:13:7: error: within this context
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program 2
 // CPP Program to demonstrate that members of a structure
 // are public by default. 
@@ -95,7 +95,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 20
 ```
 
@@ -103,7 +103,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 class ClassName {
 private:
   member1;
@@ -118,7 +118,7 @@ public:
 
 **语法:**
 
-```
+```cpp
 struct structureName{
   member1;
   member2;
@@ -135,7 +135,7 @@ struct structureName{
 
 ## C++
 
-```
+```cpp
 // Program 3
 // C++ program to demonstrate Inheritance in class
 #include <bits/stdc++.h>
@@ -171,14 +171,14 @@ int main()
 
 **Output**
 
-```
+```cpp
 7
 91
 ```
 
 ## C++
 
-```
+```cpp
 // Program 4
 // C++ program to demonstrate Inheritance in structure
 #include <iostream>

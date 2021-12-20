@@ -6,7 +6,7 @@
 
 **语法:-**
 
-```
+```cpp
 pos_type tellg(); 
 
 ```
@@ -15,7 +15,7 @@ pos_type tellg();
 
 **例 1**
 
-```
+```cpp
 // C++ program to demonstrate 
 // example of tellg() function.
 #include <bits/stdc++.h>
@@ -35,14 +35,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After reading the word "geeksforgeeks" tellg() returns -1
 
 ```
 
 **例 2 :**
 
-```
+```cpp
 // C++ program to demonstrate 
 // example of tellg() function.
 #include <bits/stdc++.h>
@@ -63,7 +63,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After reading the word "Hello," tellg() returns 6
 
 ```

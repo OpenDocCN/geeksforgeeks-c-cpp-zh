@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // Fallthrough in C++
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 this is two 
 this is three 
 this is default
@@ -64,7 +64,7 @@ this is default
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate how to
 // avoid fall through
 #include <iostream>
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 this is two
 
 ```

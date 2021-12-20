@@ -4,7 +4,7 @@
 
 **解决方法:**使用 sprintf()函数。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

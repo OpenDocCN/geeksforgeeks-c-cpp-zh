@@ -4,7 +4,7 @@
 
 以下 C++程序的输出？
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -22,28 +22,28 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 x = 20
 ref = 30
 ```
 
 **(B)**
 
-```
+```cpp
 x = 20
 ref = 20
 ```
 
 **(C)**
 
-```
+```cpp
 x = 10
 ref = 30
 ```
 
 **(D)**
 
-```
+```cpp
 x = 30
 ref = 30
 ```

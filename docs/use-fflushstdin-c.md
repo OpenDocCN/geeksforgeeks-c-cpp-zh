@@ -6,7 +6,7 @@
 
 fflush()通常仅用于输出流。其目的是清除(或刷新)输出缓冲区，并将缓冲的数据移动到控制台(如果是 stdout)或磁盘(如果是文件输出流)。下面是它的语法。
 
-```
+```cpp
 fflush(FILE *ostream);
 
 ostream points to an output stream 
@@ -24,7 +24,7 @@ the behavior is undefined.
 
 ## C
 
-```
+```cpp
 // C program to illustrate situation
 // where flush(stdin) is required only
 // in certain compilers.
@@ -46,14 +46,14 @@ int main()
 
 **输入:**
 
-```
+```cpp
 geeks   
 geeksforgeeks
 ```
 
 **输出:**
 
-```
+```cpp
 geeks 
 geeks 
 ```
@@ -62,7 +62,7 @@ geeks
 
 ## C
 
-```
+```cpp
 // C program to illustrate flush(stdin)
 // This program works as expected only
 // in certain compilers like Microsoft
@@ -88,14 +88,14 @@ int main()
 
 **输入:**
 
-```
+```cpp
 geeks
 geeksforgeeks
 ```
 
 **输出:**
 
-```
+```cpp
 geeks 
 geeksforgeeks
 ```

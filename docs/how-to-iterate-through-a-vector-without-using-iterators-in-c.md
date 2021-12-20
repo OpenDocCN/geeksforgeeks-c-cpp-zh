@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
 for(auto itr : vector_name)
 
 ```
 
 **说明:**这里 **itr** 是存储在向量中的值，用于遍历向量。下面是同样的程序来说明:
 
-```
+```cpp
 // C++ program to illustrate the above
 // topic
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4
 
 ```
@@ -50,14 +50,14 @@ int main()
 
 **语法:**
 
-```
+```cpp
 for(auto &itr : vector_name)
 
 ```
 
 **说明:**这里 **itr** 是存储在向量中的值的地址，用于遍历向量。下面是同样的程序来说明:
 
-```
+```cpp
 // C++ program to illustrate the updation
 // in vector without using iterator
 #include <bits/stdc++.h>
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Vector Before Update: 1 2 3 4 
 Vector After Update: 2 4 6 8
 
@@ -120,7 +120,7 @@ Vector After Update: 2 4 6 8
 
 1.  **地图:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the iteration
     // in Map without using iterator
     #include <bits/stdc++.h>
@@ -152,7 +152,7 @@ Vector After Update: 2 4 6 8
 
     **输出:**
 
-    ```
+    ```cpp
     1 1
     2 2
     3 3
@@ -161,7 +161,7 @@ Vector After Update: 2 4 6 8
 
 2.  **矢量地图:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the iteration
     // in Map of vectors without using iterator
     #include <bits/stdc++.h>
@@ -208,7 +208,7 @@ Vector After Update: 2 4 6 8
 
     **输出:**
 
-    ```
+    ```cpp
     1 -> 1 2 3 
     2 -> 2 3 8 9 
     3 -> 10 -2
@@ -217,7 +217,7 @@ Vector After Update: 2 4 6 8
 
 3.  **设定:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the iteration
     // in set without using iterator
     #include <bits/stdc++.h>
@@ -248,14 +248,14 @@ Vector After Update: 2 4 6 8
 
     **输出:**
 
-    ```
+    ```cpp
     -1 3 4
 
     ```
 
 4.  **Deque:**
 
-    ```
+    ```cpp
     // C++ program to illustrate the iteration
     // in deque without using iterator
     #include <bits/stdc++.h>
@@ -287,7 +287,7 @@ Vector After Update: 2 4 6 8
 
     **输出:**
 
-    ```
+    ```cpp
     3 2 1 4 5
 
     ```

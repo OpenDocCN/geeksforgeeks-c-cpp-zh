@@ -8,7 +8,7 @@ C 语言中的 **putchar(int char)** 方法用于将无符号字符类型的字�
 
 **语法:**
 
-```
+```cpp
 int putchar(int char)
 ```
 
@@ -20,7 +20,7 @@ int putchar(int char)
 
 **例 1:**
 
-```
+```cpp
 // C program to demonstrate putchar() method
 
 #include <stdio.h>
@@ -40,14 +40,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 G
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C program to demonstrate putchar() method
 
 #include <stdio.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 123456789
 
 ```

@@ -7,7 +7,7 @@
 **ungetc()** 函数获取一个字符，并将其推回到输入流中。它与 [getc()](https://www.geeksforgeeks.org/eof-and-feof-in-c/) 函数相反，后者从输入流中读取单个字符。此外，ungetc()是一个输入函数，而不是输出函数。
 **语法:**
 
-```
+```cpp
 int ungetc(int char, FILE *stream)
 ```
 
@@ -35,7 +35,7 @@ int ungetc(int char, FILE *stream)
 
 **程序 1:**
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -75,7 +75,7 @@ int main()
 
 让我们假设，我们有一个文本文件 use1.txt，它包含以下数据。该文件将用作我们示例程序的输入，然后输入和输出如下所示:
 
-```
+```cpp
 Input: !c standard library
        !library function stdio.h-ungetc()
 Output: +c standard library
@@ -85,7 +85,7 @@ Output: +c standard library
 
 **程序 2:**
 
-```
+```cpp
 // C program for taking input till we
 // get 1 at the input 
 #include <stdio.h>

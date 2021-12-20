@@ -6,7 +6,7 @@ log1p()函数接受参数 x，并返回 x+1 的以 e 为底的对数的自然对
 
 **语法:**
 
-```
+```cpp
 double log1p (double x);
 float log1p (float x);
 long double log1p (long double x);
@@ -32,13 +32,13 @@ long double log1p (long double x);
 
 **示例:**
 
-```
+```cpp
 Input  : log1p(50.35)
 Output :  3.93866
 
 ```
 
-```
+```cpp
 Input  : log1p(143)
 Output : 4.96981
 
@@ -46,7 +46,7 @@ Output : 4.96981
 
 **#代码 1**
 
-```
+```cpp
 // CPP program to illustrate log1p()
 #include <cmath>
 #include <iostream>
@@ -67,14 +67,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 log1p(50.35) = 3.93866
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP program to illustrate log1p()
 #include <cmath>
 #include <iostream>
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 log1p(143) = 4.96981
 
 ```

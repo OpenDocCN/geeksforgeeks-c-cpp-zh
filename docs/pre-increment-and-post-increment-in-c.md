@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
  a = ++x;
 ```
 
@@ -19,7 +19,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate pre increment
 // operator
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Pre Increment Operation
 a = 11
 x = 11
@@ -55,7 +55,7 @@ x = 11
 
 **语法:**
 
-```
+```cpp
  a = x++;
 ```
 
@@ -63,7 +63,7 @@ x = 11
 
 ## CPP
 
-```
+```cpp
 // CPP program to demonstrate post increment
 // operator
 #include <iostream>
@@ -90,7 +90,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Post Increment Operation
 a = 10
 x = 11
@@ -100,7 +100,7 @@ x = 11
 
 **语法:**
 
-```
+```cpp
 a = a++;
 ```
 
@@ -108,7 +108,7 @@ a = a++;
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate special
 // case of post increment operator
 #include <iostream>
@@ -136,7 +136,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Value of x before post-incrementing
 x = 10
 Value of x after post-incrementing

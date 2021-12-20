@@ -28,7 +28,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // Program to demonstrate the error
 int main()
 {
@@ -55,14 +55,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 regex_error caught: Unexpected character in bracket expression.
         The code gives an error_brack
 ```
 
 **节目 2:**
 
-```
+```cpp
 // Program to demonstrate no error
 #include <iostream>
 #include <regex>

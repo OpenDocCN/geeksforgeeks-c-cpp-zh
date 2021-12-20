@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 ***arrayname.front()***
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ Direct reference to the first element of the array container.
 
 示例:
 
-```
+```cpp
 Input :  myarray = {1, 2, 3, 4}
          myarray.front()
 Output : 1
@@ -36,7 +36,7 @@ Output : 3
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of front() function
 #include <array>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```
 
@@ -63,7 +63,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 ***arrayname.back()***
 Parameters :
 No parameters are passed.
@@ -73,7 +73,7 @@ Direct reference to the last element of the array container.
 
 示例:
 
-```
+```cpp
 Input :  myarray = {1, 2, 3, 4}
          myarray.back()
 Output : 4
@@ -89,7 +89,7 @@ Output : 7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of back() function
 #include <array>
@@ -106,7 +106,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```
 
@@ -117,7 +117,7 @@ begin()和 end()函数**返回一个迭代器(像指针一样)**初始化为容�
 **应用程序**
 给定一个整数数组，打印第一个和最后一个元素之间的差。
 
-```
+```cpp
 Input: 1, 2, 3, 4, 5, 6, 7, 8
 Output:7
 Explanation: Last element = 8, First element = 1, Difference = 7
@@ -130,7 +130,7 @@ Explanation: Last element = 8, First element = 1, Difference = 7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // application Of front() and back() function
 #include <array>
@@ -156,6 +156,6 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 ```

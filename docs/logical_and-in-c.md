@@ -6,7 +6,7 @@ C++中的 **logical_and** 是一个二元函数对象类，它返回其两个参
 
 **语法:**
 
-```
+```cpp
 template  struct logical_and : binary_function 
  {
   T operator() (const T& a, const T& b) const {return a&b&}
@@ -23,7 +23,7 @@ template  struct logical_and : binary_function
 
 以下是使用[标准::转换()](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/)实现**逻辑 _ 和**的程序:
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Logical AND:
 1 AND 1 = 1
 0 AND 1 = 0

@@ -6,7 +6,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
 1.  **type-name**: The type-name must be specified in parentheses.
 
-    ```
+    ```cpp
     sizeof(type - name)
     ```
 
@@ -14,7 +14,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h> 
     int main() 
     { 
@@ -28,7 +28,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     ## C++
 
-    ```
+    ```cpp
     #include <iostream> 
     using namespace std; 
 
@@ -44,7 +44,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     **Output:**
 
-    ```
+    ```cpp
     1
     4
     4
@@ -54,7 +54,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
 2.  **expression**: The expression can be specified with or without the parentheses.
 
-    ```
+    ```cpp
     // First type
     sizeof expression
 
@@ -66,7 +66,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     int main()
@@ -87,7 +87,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     ## C++
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -110,7 +110,7 @@ sizeof 运算符用于返回其操作数的大小，以字节为单位。该运�
 
     **Output:**
 
-    ```
+    ```cpp
     size of i = 4
      Value of i = 5
 

@@ -14,7 +14,7 @@
 **如何做功能介入？**
 任务是编写我们自己的 malloc()，并确保我们自己的 malloc()被称为库 malloc()的 inplace。下面是一个测试不同类型的 malloc()插入的驱动程序。
 
-```
+```cpp
 // File Name : hello.c
 
 #include <stdio.h>
@@ -33,7 +33,7 @@ int main(void)
 
 1.  **Compile time :** Replace library call with our own function when the source code is compiled.
 
-    ```
+    ```cpp
     /* Compile-time interposition of malloc using C preprocessor. 
        A local malloc.h file defines malloc as wrapper */
 
@@ -48,7 +48,7 @@ int main(void)
     }
     ```
 
-    ```
+    ```cpp
     // filename : malloc.h
     // To replace all calls to malloc with mymalloc
     #define malloc(size) mymalloc(size)
@@ -57,7 +57,7 @@ int main(void)
 
     在 Linux 上执行上述步骤:
 
-    ```
+    ```cpp
     // Compile the file containing user defined malloc()
     :~$ gcc  -c mymalloc.c
 
@@ -76,7 +76,7 @@ int main(void)
 
 2.  **Link time :** When the relocatable object files are statically linked to form an executable object file.
 
-    ```
+    ```cpp
     // filename : mymalloc.c
     /* Link-time interposition of malloc using the
        static linker’s (ld) "--wrap symbol" flag. */
@@ -96,7 +96,7 @@ int main(void)
 
     在 Linux 上执行上述步骤:
 
-    ```
+    ```cpp
     // Compile the file containing user defined malloc()
     :~$ gcc  -c mymalloc.c
 
@@ -119,7 +119,7 @@ int main(void)
     环境变量 **LD_PRELOAD** 给加载程序一个要在命令或可执行文件之前加载的库的列表。
     我们创建了一个动态库，并确保它在 hello.c .的可执行文件之前被加载
 
-    ```
+    ```cpp
     /* Run-time interposition of malloc based on dynamic linker’s
        (ld-linux.so) LD_PRELOAD mechanism */
     #define _GNU_SOURCE
@@ -134,7 +134,7 @@ int main(void)
 
     在 Linux 上执行上述步骤:
 
-    ```
+    ```cpp
 
     // Compile hello.c with output name as helloc
     :~$ gcc -o hellor hello.c

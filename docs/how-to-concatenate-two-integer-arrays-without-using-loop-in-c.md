@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input: arr1[5] = {1, 2, 3}
        arr2[]  = {4, 5}
 Output: arr1[] = {1, 2, 3, 4, 5}
@@ -19,7 +19,7 @@ Output: arr1[] = {1, 2, 3, 4, 5}
 
 想法是在 C.
 
-```
+```cpp
 // arr1[] is of size m+n and arr2[] is of size n. This function
 // appends contents of arr2[] at the end of arr1[]
 void concatenate(int arr1[], int arr2[], int m, int n)

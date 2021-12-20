@@ -8,7 +8,7 @@
 
 ## 地图
 
-```
+```cpp
 // CPP program to traverse a map using range
 // based for loop
 #include <bits/stdc++.h>
@@ -34,7 +34,7 @@ int main()
 
 ## 无序地图
 
-```
+```cpp
 // CPP program to traverse a unordered_map using
 // range based for loop
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Element  Frequency
 1   4
 2   1

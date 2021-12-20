@@ -7,7 +7,7 @@
 **注意:**这个类的对象可以在标准算法上使用，比如[变换](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/)。
 **语法:**
 
-```
+```cpp
 transform(arr_begin, arr_end, arr2_begin, negate()) 
 ```
 
@@ -22,7 +22,7 @@ transform(arr_begin, arr_end, arr2_begin, negate())
 
 下面是显示否定()函数工作原理的实现:
 
-```
+```cpp
 // C++ program to show the working 
 // of negate() function
 #include <algorithm>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 -5 -7 20 60 -50
 
 ```

@@ -6,7 +6,7 @@
 
 **语法** :
 
-```
+```cpp
 map_name.max_size()
 
 ```
@@ -19,7 +19,7 @@ map_name.max_size()
 
 下面的程序举例说明了 C++中的无序 _set::max_size()函数:
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::max_size function
 #include <iostream>
@@ -41,7 +41,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1152921504606846975
 
 ```

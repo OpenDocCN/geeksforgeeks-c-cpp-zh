@@ -7,7 +7,7 @@
 1.  **is _ array ():** As the name implies, the only purpose of this function is to check whether a variable is of array type. It is worth noting here that according to this function, even [STD:: array](https://www.geeksforgeeks.org/array-class-c/) is not regarded as an array. The "value" member constant returns true if the type is an array, otherwise it returns false.
 2.  **is_same() :** 此功能是检查**类型关系**，如果两个类型具有完全相同的特征，则返回 true。如果类型相同，“value”成员常量返回 true，否则返回 false。
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // is_array() and is_same()
 
@@ -55,7 +55,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Is Integer an array? : 0
     Is Array an array? : 1
     Is 2D Array an array? : 1
@@ -72,7 +72,7 @@
 
 3.  **Rank ():** This is a **attribute query function** , which returns the rank of the array. Is the **dimension of the grade index group. The value constant returns the level of the object.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of 
     // rank()
 
@@ -104,7 +104,7 @@
 
     Output:
 
-    ```
+    ```cpp
     The rank of integer is : 0
     The rank of 1D integer array is : 1
     The rank of 2D integer array is : 2
@@ -116,7 +116,7 @@
 5.  ****Remove _ extend ():** This function deletes the first dimension from the left in the declared matrix/array.**
 ***   **Remove _ all _ extends ():** This function removes all dimensions of a matrix/array and converts them into basic data types. [T2】 T40] Output:
 
-    ```
+    ```cpp
     The extent of 1st dimension of 3D integer array is  : 20
     The extent of 2nd dimension of 3D integer array is  : 10
     The extent of 3rd dimension of 3D integer array is  : 40

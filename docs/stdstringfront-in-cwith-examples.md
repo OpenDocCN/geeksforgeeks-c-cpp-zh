@@ -7,7 +7,7 @@
 
 **语法**
 
-```
+```cpp
 string str ("GeeksforGeeks");
 
 Accessing first character
@@ -28,7 +28,7 @@ str.front() = '#';
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of the above method
 
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First character of string = G
 New string = #eeksforGeeks
 
@@ -69,7 +69,7 @@ New string = #eeksforGeeks
 
 **程序 2:** 当字符串为空时，显示未定义的行为。
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of the above method
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First character of string =  
 New string =
 

@@ -6,7 +6,7 @@ C/C++中的 **wcstoll()** 函数将宽字符串转换为长整数。它设置指
 
 **语法:**
 
-```
+```cpp
 long long wcstoll( const wchar_t* str, wchar_t** str_end, int base )
 ```
 
@@ -22,7 +22,7 @@ long long wcstoll( const wchar_t* str, wchar_t** str_end, int base )
 
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // the function wcstoll()
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String Value = 888geekforgeeks
 Long Long Int value = 999
 End String = gfg
@@ -76,7 +76,7 @@ End String = gfg
 
 **程序 2 :** 功能不同碱基
 
-```
+```cpp
 // C++ program to illustrate the function wcstoll()
 #include <bits/stdc++.h>
 using namespace std;
@@ -114,7 +114,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Long Long Int with base5 = 8
 End String = 56geekforgeeks
 Long Long Int with base12 = 2226

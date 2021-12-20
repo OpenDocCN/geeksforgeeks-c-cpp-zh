@@ -4,7 +4,7 @@
 
 kbhit()存在于 conio.h 中，用于确定某个键是否被按下。要在程序中使用 kbhit 函数，您应该包含头文件“conio.h”。如果一个键被按下，那么它返回一个非零值，否则返回零。
 
-```
+```cpp
 // C++ program to demonstrate use of kbhit()
 #include <iostream.h>
 #include <conio.h>
@@ -20,7 +20,7 @@ int main()
 
 输出:
 
-```
+```cpp
 "Press a key" will keep printing on the 
 console until the user presses a key on the keyboard.
 
@@ -30,7 +30,7 @@ console until the user presses a key on the keyboard.
 
 **使用 kbhit** 提取按键的程序
 
-```
+```cpp
 // C++ program to fetch key pressed using
 // kbhit()
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Prints all the keys that will be pressed on
  the keyboard until the user presses Escape key
 

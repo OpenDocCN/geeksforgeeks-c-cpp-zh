@@ -8,7 +8,7 @@
 信号编号有符号名称。例如 **SIGCHLD** 是子进程终止时发送给父进程的信号数。
 **示例:**`
 
-```
+```cpp
 #define SIGHUP  1   /* Hangup the process */ 
 #define SIGINT  2   /* Interrupt the process */ 
 #define SIGQUIT 3   /* Quit the process */ 
@@ -40,7 +40,7 @@
 *   `继续:取消阻止已停止的进程`
 *   `停止:阻止进程`
 
-```
+```cpp
 // CPP program to illustrate
 // default Signal Handler
 #include<stdio.h>
@@ -60,7 +60,7 @@ int main()
 
 `输出:打印你好世界无限次。如果用户因为发送 **SIGINT** 信号及其默认处理程序终止进程而按 ctrl-c 终止进程。`
 
-```
+```cpp
 hello world   
 hello world         
 hello world         
@@ -73,13 +73,13 @@ terminated
 信号处理函数可以有任何名称，但必须有返回类型 void 和一个 int 参数。
 **示例:**您可以为**信号(子进程终止)选择信号处理程序的名称 sigchld_handler。那么声明将是:**`
 
-```
+```cpp
 **void sigchld_handler(int sig);**
 ```
 
 `当信号处理程序执行时，传递给它的参数是信号的编号。程序员可以使用同一个信号处理函数来处理几个信号。在这种情况下，处理程序需要检查参数以查看发送了哪个信号。另一方面，如果一个信号处理函数只处理一个信号，就没有必要检查参数，因为它总是那个信号号。`
 
-```
+```cpp
 // CPP program to illustrate
 // User-defined Signal Handler
 #include<stdio.h>
@@ -102,7 +102,7 @@ int main()
 
 `输出:`
 
-```
+```cpp
 ^CCaught signal 2  // when user presses ctrl-c
 ^CCaught signal 2 
 ```
@@ -111,7 +111,7 @@ int main()
 
 `我们可以使用 kill()向进程发送信号。`
 
-```
+```cpp
 **int kill(pid_t pid, int signal);**
 **pid:** id of destination process
 **signal:** the type of signal to send
@@ -120,7 +120,7 @@ int main()
 
 `示例:`
 
-```
+```cpp
 pid_t iPid = getpid(); /* Process gets its id.*/
 kill(iPid, SIGINT);  /* Process sends itself a  **SIGINT** signal   
 (commits suicide?)(because of **SIGINT** 
@@ -131,7 +131,7 @@ signal default handler is terminate the process) */
 
 `**1。以下程序的输出是什么？**`
 
-```
+```cpp
 #include<stdio.h>
 #include<wait.h>
 #include<signal.h>
@@ -153,13 +153,13 @@ int main()
 
 `输出:`
 
-```
+```cpp
  Child term due to: Interrupt 
 ```
 
 `**2。以下程序的输出是什么？**`
 
-```
+```cpp
 #include<stdio.h>
 #include<signal.h>
 #include<wait.h>
@@ -185,13 +185,13 @@ int main()
 
 `输出:`
 
-```
+```cpp
 val = 15 
 ```
 
 `**3。考虑下面的代码。产出是什么？**`
 
-```
+```cpp
 #include<stdio.h>
 #include<wait.h>
 #include<signal.h>
@@ -233,7 +233,7 @@ int main()
 
 `输出`
 
-```
+```cpp
 counter = 1         //(parent’s handler) 
 counter = 3         //(child’s handler) 
 counter = 5         //(parent’s main) 

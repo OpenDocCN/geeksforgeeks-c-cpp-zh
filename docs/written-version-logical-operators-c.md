@@ -8,7 +8,7 @@ C++中可以用关键字代替运算符吗？
 
 **考虑以下表达式:**
 
-```
+```cpp
 x > y && m != 100,
 
 can be replaced by:
@@ -18,7 +18,7 @@ x > y and m not_eq 100
 
 ![](img/3c9d2f6998ba1889fe385797a0920262.png)
 
-```
+```cpp
 // C++ program to demonstrate 
 // logical operator keywords
 #include<iostream>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Hi, we are in else if.
 
 ```
@@ -61,7 +61,7 @@ Hi, we are in else if.
 
 **陷阱:**虽然，这是 C++非常令人兴奋的特性，但是一个人在使用它的时候需要谨慎一点。通常，在使用这些运算符时，我们可以在这些运算符之前或之后写变量，也可以不写，但是，当这些运算符被关键字替换时，必须在这些关键字之后和之前留一个空格，如下所示:
 
-```
+```cpp
 // C++ program to demonstrate 
 // logical operator keywords
 #include<iostream>
@@ -84,7 +84,7 @@ int main()
 
 输出:
 
-```
+```cpp
 -2
 
 ```

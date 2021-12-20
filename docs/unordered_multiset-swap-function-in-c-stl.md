@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset1.swap(unordered_multiset2);
 ```
 
@@ -23,7 +23,7 @@ unordered_multiset1.swap(unordered_multiset2);
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multiset::swap()
 #include <iostream>
@@ -75,7 +75,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial values of s1 are: 
 4 3 2 1 
 
@@ -93,7 +93,7 @@ Final values of s2 are:
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multiset::swap()
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial values of s1 are: 
 for Geeks Geeks 
 

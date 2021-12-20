@@ -6,7 +6,7 @@ C++中**流操纵器**的 **showpos()** 方法用于设置指定字符串流的 
 
 **语法:**
 
-```
+```cpp
 ios_base& showpos (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& showpos (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of showpos() function
 
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 showpos flag: +10
 +0
 
@@ -52,7 +52,7 @@ showpos flag: +10
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of showpos() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 showpos flag: -10
 
 ```

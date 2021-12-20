@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.equal_range(key) 
 
 ```
@@ -19,7 +19,7 @@ multiset_name.equal_range(key)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::equal_range() function
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The multiset elements are: 1 2 3 3 3 5 5 6 
 The lower bound of 3 is 3
 The upper bound of 3 is 5
@@ -79,7 +79,7 @@ The upper bound of 0 is 1
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::equal_range() function
 #include <bits/stdc++.h>
@@ -123,7 +123,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The multiset elements are: 1 2 3 3 3 5 5 6 
 The lower bound of 3 is 3
 The upper bound of 3 is 5

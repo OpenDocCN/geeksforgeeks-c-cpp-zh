@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bitset_operator[index] = value
 
 ```
@@ -21,7 +21,7 @@ bitset_operator[index] = value
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::operator[]
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The bitset after assigning values is: 100100
 
 ```
@@ -56,7 +56,7 @@ The bitset after assigning values is: 100100
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::operator[]
 // assign value from a index
@@ -85,7 +85,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The bitset after assigning values is: 001100
 
 ```
@@ -94,7 +94,7 @@ The bitset after assigning values is: 001100
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // bitset::operator[]
 // prints the value of bit at index
@@ -122,7 +122,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The bit value at index 3 is 1
 
 ```

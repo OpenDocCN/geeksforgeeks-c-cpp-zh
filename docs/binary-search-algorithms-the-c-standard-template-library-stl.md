@@ -8,7 +8,7 @@
 
 二分搜索法的原型是:
 
-```
+```cpp
 binary_search(startaddress, 
               endaddress, valuetofind)
 Parameters :
@@ -24,7 +24,7 @@ true if an element equal to valuetofind is found, else false.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to implement
 // Binary Search in
 // Standard Template Library (STL)
@@ -69,7 +69,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The array is : 
 1,5,8,9,6,7,3,4,2,0,
 

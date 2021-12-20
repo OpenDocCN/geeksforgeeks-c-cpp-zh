@@ -15,7 +15,7 @@
 
 1.  **Access non allocated location of memory:** The program can access some piece of memory which is owned by it.
 
-    ```
+    ```cpp
     // Program to demonstrate 
     // accessing array out of bounds
     #include <stdio.h>
@@ -32,7 +32,7 @@
 
     输出:
 
-    ```
+    ```cpp
     arr [0] is 1
     arr[10] is -1786647872
 
@@ -42,7 +42,7 @@
 
 2.  **Segmentation fault:** The program can access some piece of memory which is not owned by it, which can cause crashing of program such as segmentation fault.
 
-    ```
+    ```cpp
     // Program to demonstrate 
     // accessing array out of bounds
     #include <stdio.h>

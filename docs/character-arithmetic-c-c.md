@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate character arithmetic.
 #include <stdio.h>
 
@@ -22,7 +22,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 -121
 y
 ```
@@ -35,7 +35,7 @@ y
 
 ## C++
 
-```
+```cpp
 // A C++ program to demonstrate character
 // arithmetic in C++.
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A
 65
 a

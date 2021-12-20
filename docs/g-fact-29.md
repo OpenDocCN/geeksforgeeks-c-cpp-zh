@@ -4,7 +4,7 @@
 
 在 C++中，一个类的*静态*成员函数不能是*虚拟的*。例如，下面的程序给出了编译错误。
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;    
@@ -19,7 +19,7 @@ class Test
 
 还有，*静态*成员函数不能是 *const* 和 *volatile* 。下面的代码在编译时也会失败。
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;    

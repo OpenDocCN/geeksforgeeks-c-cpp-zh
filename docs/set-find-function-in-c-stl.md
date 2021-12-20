@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 
 set_name.find(element) 
 ```
@@ -17,7 +17,7 @@ set_name.find(element)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::find() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The set elements after 3 are: 3 4 5
 ```
 

@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -26,7 +26,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -36,7 +36,7 @@ int main()
 }
 ```
 
-```
+```cpp
 The output of above program is "***4 8 4***" on a typical C compiler.
 It actually prints size of float, size of double and size of float.
 
@@ -46,7 +46,7 @@ It actually prints size of float, size of double and size of float.
 
 0.1 <sub>10</sub> 的二进制等价可以写成(0.00011001100110011……)<sub>2</sub>向上无穷大(更多关于换算的知识，请参见[这篇](https://www.geeksforgeeks.org/convert-decimal-fraction-binary-number/)文章)。由于浮点的精度小于两倍，因此在某个点(浮点为 23，双倍为 52)之后，它会截断结果。因此，在将浮点提升为双精度(在比较时)后，编译器会用零填充剩余的位。因此，我们得到了不同的结果，其中两者的十进制等价是不同的。例如，
 
-```
+```cpp
 In float 
 => (0.1)10 = (0.00011001100110011001100)2
 In double after promotion of float ...(1)
@@ -64,7 +64,7 @@ Therefore 'if' statement can never be executed.
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 IF
 
 ```

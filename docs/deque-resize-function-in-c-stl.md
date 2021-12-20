@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 deque_name.resize(n)
 ```
 
@@ -20,7 +20,7 @@ deque_name.resize(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::resize() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size before resize 5
 The contents of deque :10 20 30 40 50 
 Size after resize 7
@@ -65,7 +65,7 @@ The contents of deque :10 20 30 40 50 0 0
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::resize() function
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size before resize 5
 The contents of deque :10 20 30 40 50 
 Size after resize 3

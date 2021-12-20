@@ -32,7 +32,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ implementation to find the
 // periodic string with minimum period
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```cpp
 // Java implementation to find the
 // periodic string with minimum period
 class GFG{
@@ -135,7 +135,7 @@ public static void main (String[] args)
 
 ## **蟒蛇 3**
 
-```
+```cpp
 # Python3 implementation to find the
 # periodic with minimum period
 
@@ -175,7 +175,7 @@ if __name__ == '__main__':
 
 ## **C#**
 
-```
+```cpp
 // C# implementation to find the
 // periodic string with minimum period
 using System;
@@ -232,7 +232,7 @@ public static void Main ()
 
 ## **java 描述语言**
 
-```
+```cpp
 <script>
 
 // Javascript implementation to find the
@@ -285,7 +285,7 @@ findPeriodicString(S);
 
 ****Output:** 
 
-```
+```cpp
 10101010101010
 ```** 
 

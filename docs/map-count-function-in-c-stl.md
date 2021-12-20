@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.count(key k)
 ```
 
@@ -16,7 +16,7 @@ map_name.count(key k)
 
 下面的程序说明了上面的功能:
 
-```
+```cpp
 // C++ program to illustrate
 // the map::count() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The key 1 is present
 The key 100 is not present
 

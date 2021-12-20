@@ -14,7 +14,7 @@ hash_function 可以是任何东西，只要它可以对给定的密钥进行散
 
 先决条件:[如何创建自定义类的无序 _ 映射？](https://www.geeksforgeeks.org/how-to-create-an-unordered_map-of-user-defined-class-in-cpp/)
 
-```
+```cpp
 // CPP program to demonstrate implementation of
 // unordered_map for a pair.
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Contents of the unordered_map : 
 [1000, 2000] ==> 1
 [2005, 3005] ==> 1

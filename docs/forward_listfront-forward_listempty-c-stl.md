@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 ***forwardlistname.front()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -20,7 +20,7 @@ Direct reference to the first element of the container.
 
 示例:
 
-```
+```cpp
 Input  : forward_list forwardlist{1, 2, 3, 4, 5};
          forwardlist.front();
 Output : 1
@@ -36,7 +36,7 @@ Output : 0
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of front() function
 #include <forward_list>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```
 
@@ -63,7 +63,7 @@ empty()函数用于检查转发列表容器是否为空。
 
 **语法:**
 
-```
+```cpp
 ***forwardlistname.empty()***
 Parameters :
 No parameters are passed.
@@ -74,7 +74,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input  : forward_list forwardlist{1, 2, 3, 4, 5};
          forwardlist.empty();
 Output : False
@@ -90,7 +90,7 @@ Output : True
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of empty() function
 #include <forward_list>
@@ -112,13 +112,13 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 ```
 
 **Application–front()和 empty() :** 给定一个整数列表，求所有整数的和。
 
-```
+```cpp
 Input  : 1, 5, 6, 3, 9, 2
 Output : 26
 *Explanation -  1+5+6+3+9+2 = 26*
@@ -131,7 +131,7 @@ Output : 26
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include <forward_list>
@@ -153,6 +153,6 @@ int main()
 
 输出
 
-```
+```cpp
 26
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.find(val)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.find(val)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::find() function
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 500
 300 not found
 100
@@ -75,7 +75,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::find() function
 #include <bits/stdc++.h>
@@ -116,7 +116,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a
 z not found
 

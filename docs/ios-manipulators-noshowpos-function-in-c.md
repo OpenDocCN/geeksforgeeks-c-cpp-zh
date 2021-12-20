@@ -6,7 +6,7 @@ C++中**流操纵器**的 **noshowpos()** 方法用于清除指定字符串流�
 
 **语法:**
 
-```
+```cpp
 ios_base& noshowpos (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& noshowpos (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowpos() function
 
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noshowpos flag: 10
 0
 
@@ -52,7 +52,7 @@ noshowpos flag: 10
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noshowpos() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noshowpos flag: -10
 
 ```

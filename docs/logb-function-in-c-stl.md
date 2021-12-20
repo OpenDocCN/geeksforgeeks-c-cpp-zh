@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 logb(val)
 ```
 
@@ -18,7 +18,7 @@ logb(val)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // to implement logb() function
 // when data-type is integer
@@ -46,7 +46,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 logb(-10) = log(|-10|) = 3
 logb(10) = log(|10|) = 3
 
@@ -54,7 +54,7 @@ logb(10) = log(|10|) = 3
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // to implement logb() function
 // when data-type is double
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 logb(70.56) = log(|70.56|) = 6
 logb(17.6) = log(|17.6|) = 4
 
@@ -91,7 +91,7 @@ logb(17.6) = log(|17.6|) = 4
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // to implement logb() function
 // when input is 0
@@ -115,7 +115,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 logb(0) = log(|0|) = -inf
 
 ```

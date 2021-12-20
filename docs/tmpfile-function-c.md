@@ -11,13 +11,13 @@
 *   Open files in binary update mode, that is, wb+ mode.
 *   The syntax of tmp file () function is:
 
-    ```
+    ```cpp
     FILE *tmpfile(void) 
     ```
 
 *   The tmp file () function always returns a pointer to the temporary file after creating the file. If the temporary file cannot be created by chance, the tmpfile () function returns a null pointer.
 
-```
+```cpp
 // C program to demonstrate working of tmpfile()
 #include <stdio.h>
 int main()
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Temporary file is created
 Hello GeeksforGeeks
 

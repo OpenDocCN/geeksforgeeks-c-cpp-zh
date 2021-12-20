@@ -4,7 +4,7 @@
 
 对于 C 语言中的以下“typedef”，选择最好的语句
 
-```
+```cpp
 typedef int INT, *INTPTR, ONEDARR[10], TWODARR[10][10];
 ```
 

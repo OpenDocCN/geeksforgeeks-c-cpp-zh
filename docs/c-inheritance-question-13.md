@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-inheritance-question-13/](https://www.geeksforgeeks.org/c-inheritance-question-13/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -40,7 +40,7 @@ int main(void)
 
 **解释:**变量‘C’在派生类的两个超类中都存在。所以对 c 的访问是不明确的。使用范围解析运算符可以消除歧义。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

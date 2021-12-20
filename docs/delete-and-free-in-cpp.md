@@ -32,7 +32,7 @@ free()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the correct and incorrect
 // usage of delete operator
 #include <cstdlib>
@@ -69,7 +69,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate the correct and incorrect
 // usage of free() function
 #include <cstdlib>

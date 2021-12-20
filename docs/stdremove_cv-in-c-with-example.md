@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板:**
 
-```
+```cpp
 template<class T>
 struct remove_cv;
 
@@ -21,7 +21,7 @@ struct remove_cv;
 
 **语法:**
 
-```
+```cpp
 std::remove_cv<T>::type a;
 
 ```
@@ -34,7 +34,7 @@ std::remove_cv<T>::type a;
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate std::remove_cv
 #include <bits/stdc++.h>
 #include <type_traits>
@@ -75,7 +75,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A: false
 B: false
 C: true

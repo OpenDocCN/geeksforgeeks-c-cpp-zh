@@ -10,7 +10,7 @@
 
 **语法:**
 
-> ```
+> ```cpp
 >   ForwardIterator partition_point(ForwardIterator first, 
 >                                   ForwardIterator last,
 >                                   UnaryPredicate pred); 
@@ -28,7 +28,7 @@
 
 这个函数模板的定义相当于:
 
-```
+```cpp
 template 
   ForwardIterator partition_point (ForwardIterator first, ForwardIterator last,
                                    UnaryPredicate pred)
@@ -49,7 +49,7 @@ template
 
 **例 1:**
 
-```
+```cpp
 // C++ program to get odd elements
 // and even elements
 #include <iostream> // std::cout
@@ -94,7 +94,7 @@ int main()
 
 输出:
 
-```
+```cpp
 odd:  1 3 5 7 9
 even: 2 4 6 8 10
 
@@ -102,7 +102,7 @@ even: 2 4 6 8 10
 
 **例 2:**
 
-```
+```cpp
 // C++ program to get negative elements
 // and positive elements using partition_point
 #include <iostream> // std::cout
@@ -149,7 +149,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Negative:  -1 -4 -2 -5 -3
 Positive:  1 3 5 2 4
 

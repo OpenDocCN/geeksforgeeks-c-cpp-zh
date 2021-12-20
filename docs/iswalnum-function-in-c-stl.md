@@ -11,7 +11,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswalnum(ch)
 ```
 
@@ -26,7 +26,7 @@ int iswalnum(ch)
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // iswalnum() function
 #include <cwctype>
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ? is not alphanumeric 
 g is alphanumeric
 
@@ -66,7 +66,7 @@ g is alphanumeric
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // iswalnum() function
 #include <cwctype>
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3 is alphanumeric 
 & is not alphanumeric
 

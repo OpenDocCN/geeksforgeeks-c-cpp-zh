@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 vector_name.data()
 
 ```
@@ -18,7 +18,7 @@ vector_name.data()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the
 // vector::date() function
 #include <bits/stdc++.h>
@@ -44,6 +44,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 The vector elements are: 10 20 30 40 50 
 ```

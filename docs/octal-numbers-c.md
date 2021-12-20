@@ -6,7 +6,7 @@ C 语言中有一些不太为人所知的事实与八进制数有关。让我们
 
 示例:
 
-```
+```cpp
 // program to show octal number interpretation
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 
 ```
@@ -32,7 +32,7 @@ int main()
 
 示例:
 
-```
+```cpp
 // program to show octal escape sequence
 #include <stdio.h>
 int main()
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 31
 67
 
@@ -53,7 +53,7 @@ int main()
 
 如果我们看输出，那么在 31 之后，一个新行字符被打印，然后 67 被打印。这是因为\012 被解释为\n 或新的行字符。实际上，\012 代表\n 或换行符的八进制转义序列。十进制中八进制值 12 是 10，在 ASCII 中它代表换行符。
 
-```
+```cpp
 // program to show octal escape sequence
 #include <stdio.h>
 int main()
@@ -69,7 +69,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 31S67
 11?967
 

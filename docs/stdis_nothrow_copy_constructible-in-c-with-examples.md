@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_nothrow_copy_constructible
 
@@ -21,7 +21,7 @@ struct is_nothrow_copy_constructible
 
 **语法:**
 
-```
+```cpp
 is_nothrow_copy_constructible<T>::value
 
 ```
@@ -37,7 +37,7 @@ is_nothrow_copy_constructible<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_copy_constructible
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 class X: true
 class Y: false
@@ -91,7 +91,7 @@ class Y: false
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_nothrow_copy_constructible
 #include <iostream>
@@ -141,7 +141,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is_nothrow_copy_constructible:
 int is_nothrow_copy_constructible? true
 A is_nothrow_copy_constructible? true

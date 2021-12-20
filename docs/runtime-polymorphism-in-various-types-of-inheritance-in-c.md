@@ -8,7 +8,7 @@
 
 1.  **【 Single inheritance:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate Run Time
     // Polymorphism in Single Inheritance
 
@@ -83,7 +83,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Derived::funct1() is called
     Derived Class's Val of x:12
     Base is the Parent class!
@@ -92,7 +92,7 @@
 
 2.  **Multiple inheritance:**
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -192,7 +192,7 @@
 
     **Output:**
 
-```
+```cpp
 Base1::funct1() is called
 Derived Class's Val of x:10
 Derived::funct3() is called and not Base2::funct3() due to RTP

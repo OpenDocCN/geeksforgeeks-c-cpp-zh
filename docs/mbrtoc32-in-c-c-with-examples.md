@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 size_t mbrtoc32( char32_t* pc32, const char* s, size_t n, mbstate_t* ps);
 ```
 
@@ -28,7 +28,7 @@ size_t mbrtoc32( char32_t* pc32, const char* s, size_t n, mbstate_t* ps);
 下面的程序说明了上述功能。
 **节目 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // mbrtoc32() function
 #include <cstdio>
@@ -62,7 +62,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Multibyte string = S
 Length = 1
 32-bit character = 0x0053
@@ -71,7 +71,7 @@ Length = 1
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // mbrtoc32() function
 #include <cstdio>
@@ -105,7 +105,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Multibyte string = S
 Length = 1
 32-bit character = 0x00000053

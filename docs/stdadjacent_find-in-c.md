@@ -7,7 +7,7 @@
 
 **1。无二元谓词:**
 
-```
+```cpp
 ForwardIt adjacent_find( ForwardIt first, ForwardIt last );
 first, last : the range of elements to examine
 ```
@@ -17,7 +17,7 @@ first, last : the range of elements to examine
 
 示例:
 
-```
+```cpp
 Input :  arr[] = { 1, 2, 3, 4, 4}
 Output :  4
 
@@ -29,7 +29,7 @@ Output :  1
 
 ## C++
 
-```
+```cpp
 // C++ Program to find the only
 // repeating element in sorted array
 // using std :: adjacent_find
@@ -55,13 +55,13 @@ int main()
 
 输出:
 
-```
+```cpp
 16
 ```
 
 **2。带二元谓词:**
 
-```
+```cpp
 ForwardIt adjacent_find( ForwardIt first, ForwardIt last, BinaryPredicate p );
 first, last : the range of elements to examine
 p :  binary predicate which returns true 
@@ -77,7 +77,7 @@ If no such elements are found, last is returned.
 **示例:**
 给定一个大小为 n 的容器，并且范围在[0 … n]之间，编写一个程序来检查它是否按升序排序。数组中允许相等的值，并且两个连续的相等值被视为已排序。
 
-```
+```cpp
 Input : 2 5 9 4      // Range = 3
 Output : Sorted in given range.
 
@@ -87,7 +87,7 @@ Output : Not sorted in given range.
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // std :: adjacent_find'
 // with binary predicate
@@ -141,7 +141,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Sorted in the range : 5
 Not sorted in the range : 9
 ```

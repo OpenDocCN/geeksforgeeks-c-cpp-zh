@@ -12,7 +12,7 @@
 
 <u>**语法:**</u>
 
-```
+```cpp
 **map<datatype, list<datatype>> map_of_list** 
 This stores a list corresponding to a datatype
 
@@ -26,7 +26,7 @@ This stores a datatype corresponding to a list
 
 ## <u>c++</u>
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -139,7 +139,7 @@ int main()
 
 <u>**中的实现输出**
 
-```
+```cpp
    Key         Value
 
 [ 2 10 13 ]     5
@@ -157,7 +157,7 @@ int main()
 
 <u>**语法:**</u>
 
-```
+```cpp
 **map<datatype, forward_list<datatype>> map_of_list**
 This stores a forward list corresponding to a datatype
 
@@ -171,7 +171,7 @@ This stores a datatype corresponding to a forward list
 
 <u>T3】c++T5
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

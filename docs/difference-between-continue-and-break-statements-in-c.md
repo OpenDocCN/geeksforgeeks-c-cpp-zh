@@ -10,7 +10,7 @@ Break 和 continue 是同一类型的语句，专门用于改变程序的正常�
 
 **一个理解 break 和 continue 语句区别的例子**
 
-```
+```cpp
 // CPP program to demonstrate difference between
 // continue and break
 #include <iostream>
@@ -44,7 +44,7 @@ main()
 
 **Output:**
 
-```
+```cpp
 The loop with break produces output as: 
 1 2 
 The loop with continue produces output as: 

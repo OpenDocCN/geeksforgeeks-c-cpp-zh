@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 atan(varr);
 
 ```
@@ -19,7 +19,7 @@ atan(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of atan() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.244979 0.463648 0.643501 0.785398
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of atan() function.
 
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.197396 0.139096 1.3734 0
 

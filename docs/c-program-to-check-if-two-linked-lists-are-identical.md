@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 // An iterative C program to check if 
 // two linked lists are
 // identical or not
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Identical
 ```
 
@@ -102,7 +102,7 @@ Identical
 
 ## C
 
-```
+```cpp
 // A recursive C function to check if 
 // two linked lists are identical or not
 bool areIdentical(struct Node *a, 

@@ -5,7 +5,7 @@
 **match_results::operator[]**是 C++中的一个内置函数，用于获取 match _ result 对象中的第*个*匹配。它在运算符内部给定的位置给出匹配的引用。
 **语法:**
 
-```
+```cpp
 smatch_name[N]
 
 Note: *smatch_name is an object of match_results class.*
@@ -19,7 +19,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results operator[] in C++
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Matches are:
 match 0 is Geeksforgeeks
 match 1 is Geeks
@@ -56,7 +56,7 @@ match 2 is forgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results operator[] in C++
 // Find maximum length
@@ -91,6 +91,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 max-length sub match is forgeeks with a length of 8
 ```

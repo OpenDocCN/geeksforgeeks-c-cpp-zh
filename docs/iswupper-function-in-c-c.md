@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int iswupper(wint_t rs)
 ```
 
@@ -22,7 +22,7 @@ int iswupper(wint_t rs)
 下面的程序说明了上述功能。
 **节目一:**
 
-```
+```cpp
 // C++ program to illustrate
 // iswupper() function
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 S is a uppercase character 
 s is not a uppercase character
 
@@ -60,7 +60,7 @@ s is not a uppercase character
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // iswupper() function
 #include <bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 R is a uppercase character 
 @ is not a uppercase character
 

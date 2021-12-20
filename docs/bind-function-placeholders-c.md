@@ -10,7 +10,7 @@
 **什么是占位符？**
 占位符是命名空间，用于指示函数中值的位置。他们由 **_1、_2、_3** 代表…
 
-```
+```cpp
 // C++ code to demonstrate bind() and
 // placeholders
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 -11
 
@@ -66,7 +66,7 @@ int main()
 
 **1。占位符的位置决定了函数调用语句**中的值位置
 
-```
+```cpp
 // C++ code to demonstrate placeholder
 // property 1
 #include <iostream>
@@ -116,7 +116,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 The value of function is : 10
 The value of function after changing placeholder position is : -14
 
@@ -127,7 +127,7 @@ The value of function after changing placeholder position is : -14
 **2。占位符的数量决定了传入函数**
 所需的参数数量。我们可以在函数调用语句中使用任意数量的占位符(明显少于最大参数数量)。其余值由用户定义的默认值替换。
 
-```
+```cpp
 // C++ code to demonstrate placeholder 
 // property 2
 #include <iostream>     
@@ -178,7 +178,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 The value of function with 1 placeholder is : 4
 The value of function with 2 placeholders is : 10
 The value of function with 3 placeholders is : 8

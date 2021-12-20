@@ -23,7 +23,7 @@ C++ 中的 **cout 和 C++** 中的 **cin 这两个关键词分别非常常用于
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -40,7 +40,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks - A computer science portal for geeks
 ```
 
@@ -51,7 +51,7 @@ GeeksforGeeks - A computer science portal for geeks
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -69,13 +69,13 @@ int main()
 
 **输入:**
 
-```
+```cpp
 18
 ```
 
 **输出:**
 
-```
+```cpp
 Enter your age:
 Your age is: 18
 ```
@@ -87,7 +87,7 @@ Your age is: 18
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -101,7 +101,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 An error occurred
 ```
 
@@ -109,7 +109,7 @@ An error occurred
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -124,7 +124,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 An error occurred
 ```
 

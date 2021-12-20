@@ -11,7 +11,7 @@ malloc 会给两者返回相同的地址吗？
 
 让我们运行下面的程序，看看它的输出，以清除上面的问题。
 
-```
+```cpp
 // C program to demonstrate working of fork()
 #include <unistd.h>
 #include <sys/types.h>
@@ -91,7 +91,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
  Parent process Initial Value :: localVar = 0, globalVar = 0
  Parent process :: localVar = 10, globalVar = 20
  Address of malloced mem parent= 0x1bb5010 and value is 0

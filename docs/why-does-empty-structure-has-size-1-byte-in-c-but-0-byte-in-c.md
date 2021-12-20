@@ -6,7 +6,7 @@ A [结构](https://www.geeksforgeeks.org/structures-in-cpp/)是 [C/C++](https://
 
 **语法-**
 
-```
+```cpp
 struct structureName{
     member1;
     member2;
@@ -30,7 +30,7 @@ C++中的结构可以包含两种类型的成员:
 
 ## C
 
-```
+```cpp
 // C program with an empty
 // structure
 #include <stdio.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Size of Empty Struct in C programming = 0
 ```
 
@@ -62,7 +62,7 @@ Size of Empty Struct in C programming = 0
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // an empty structure
 #include <iostream>
@@ -86,7 +86,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Size of Empty Struct in C++ Programming = 1
 ```
 
@@ -100,7 +100,7 @@ Size of Empty Struct in C++ Programming = 1
 
 这意味着-
 
-```
+```cpp
 // Constraint Violation
 struct EmptyGeeksforGeeks {};
 

@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: ABCD, XYZ
 Output: ABCD is not equal to XYZ
         ABCD is greater than XYZ
@@ -26,7 +26,7 @@ Output: Geeks is equal to Geeks
 
 ## C++
 
-```
+```cpp
 // C++ program to compare two Strings
 // using Operator Overloading
 
@@ -157,7 +157,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Comparing "Geeks" and "ForGeeks"
 Geeks is not equal to ForGeeks
 ForGeeks is greater than Geeks

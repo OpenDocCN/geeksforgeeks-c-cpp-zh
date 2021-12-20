@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 bool equal ( InputIterator1 first1, InputIterator1 second1,
                   InputIterator2 first2, InputIterator2 second2 )
 or 
@@ -30,7 +30,7 @@ bool equal ( InputIterator1 first1, InputIterator1 second1,
 
     **程序-1** :
 
-    ```
+    ```cpp
     // C++ program to implement the
     // above mentioned function
 
@@ -62,14 +62,14 @@ bool equal ( InputIterator1 first1, InputIterator1 second1,
 
     **Output:**
 
-    ```
+    ```cpp
     Sequence1 and Sequence2 are equal
 
     ```
 
     **程序-2** :
 
-    ```
+    ```cpp
     // C++ program to implement the
     // above mentioned function
 
@@ -101,7 +101,7 @@ bool equal ( InputIterator1 first1, InputIterator1 second1,
 
     **Output:**
 
-    ```
+    ```cpp
     Sequence1 and Sequence2 are not equal
 
     ```

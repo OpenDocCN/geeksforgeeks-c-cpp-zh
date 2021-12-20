@@ -50,7 +50,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -136,7 +136,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Forward List : 
 [ 77 88]
 [ 55 66]
@@ -148,7 +148,7 @@ Forward List :
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -235,7 +235,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Forward List : 
 [ First: 4 and Second: C++]
 [ First: 3 and Second: Geeks]
@@ -251,7 +251,7 @@ Forward List :
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -338,7 +338,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 List : 
 [ First: 55 and Second: 66]
 [ First: 11 and Second: 22]
@@ -350,7 +350,7 @@ List :
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -436,7 +436,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 List : 
 [ First: 4 and Second: C++]
 [ First: 3 and Second: Geeks]

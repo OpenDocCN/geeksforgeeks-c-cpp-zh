@@ -4,7 +4,7 @@
 
 考虑下面的 C 代码片段。
 
-```
+```cpp
 char* p = NULL;
 printf("%s", p);
 
@@ -19,7 +19,7 @@ printf("%s", p);
 
 **一些编译器可能产生空值，而另一些则产生分段错误。GCC 打印(空)。**
 
-```
+```cpp
 // Effect of passing null pointers to ( %s ) 
 // printf in C
 #include <stdio.h>
@@ -34,7 +34,7 @@ int main()
 
 **海湾合作委员会的产出:**
 
-```
+```cpp
 (null)
 ```
 

@@ -11,7 +11,7 @@ insert()函数有三种使用方式:
 
 **语法:**
 
-```
+```cpp
 deque_name.insert (iterator position, const value_type& val)
                 or
 deque_name.insert (iterator position, size_type n, const value_type& val)
@@ -32,7 +32,7 @@ deque_name.insert (iterator position, InputIterator first, InputIterator last)
 **以下程序说明了上述功能:
 **程序 1:****
 
-```
+```cpp
 // CPP program to illustrate the
 // deque::insert() function
 // insert elements by iterator
@@ -59,14 +59,14 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Deque contains: 1 10 2 3 4 5
 
 ```** 
 
 ****程序 2:****
 
-```
+```cpp
 // CPP program to illustrate the
 // deque::insert() function
 // program for second syntax
@@ -94,14 +94,14 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Deque contains: 0 0 1 2 3 4 5
 
 ```** 
 
 ****程序 3:****
 
-```
+```cpp
 // CPP program to illustrate the
 // deque::insert() function
 // program for third syntax
@@ -131,7 +131,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Deque contains: 1 10 10 2 3 4 5
 
 ```**

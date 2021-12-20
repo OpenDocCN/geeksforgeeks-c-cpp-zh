@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -26,7 +26,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -42,7 +42,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 4
 4
@@ -56,7 +56,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -69,7 +69,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -83,7 +83,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 8
 ```
 
@@ -95,7 +95,7 @@ sizeof()是编译时运算符。编译时间是指源代码转换为二进制代
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -119,7 +119,7 @@ Sizeof 可用于自动计算数组的元素个数。让我们看看例子:
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -131,7 +131,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -147,7 +147,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Number of elements: 11
 ```
 
@@ -156,7 +156,7 @@ sizeof 广泛用于动态内存分配。例如，如果我们想要分配足以�
 
 ## C
 
-```
+```cpp
 int* ptr = (int*)malloc(10 * sizeof(int));
 ```
 

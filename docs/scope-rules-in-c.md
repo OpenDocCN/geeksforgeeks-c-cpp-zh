@@ -27,7 +27,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the global scope
 
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before change within main: 5
 After change within main: 10
 ```
@@ -67,7 +67,7 @@ After change within main: 10
 
 ## C
 
-```
+```cpp
 // filename: file1.c
 
 int a;
@@ -80,7 +80,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // filename: file2.c
 // When this file is linked with file1.c, functions
 // of this file can access a
@@ -99,7 +99,7 @@ int myfun()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // Driver Code
@@ -143,7 +143,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 x = 10, y = 20
 x = 11, y = 41
 x = 11, y = 20
@@ -155,7 +155,7 @@ x = 11, y = 20
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // function prototype scope
 
@@ -184,7 +184,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 5
 ```
 
@@ -194,7 +194,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 void func1()
 {
     {
@@ -233,7 +233,7 @@ void funct2()
 
 ## C
 
-```
+```cpp
 int main()
 {
   {
@@ -249,7 +249,7 @@ int main()
 
 **错误:**
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:8:15: error: 'x' undeclared (first use in this function)
   printf("%d", x); // Error: x is not accessible here
@@ -262,7 +262,7 @@ reported only once for each function it appears in
 
 ## C
 
-```
+```cpp
 // C program to illustrate scope of variables
 
 #include<stdio.h>
@@ -296,7 +296,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 x = 1, y = 2, z = 3
 x = 10, y = 20.000000, z = 3 
 x = 10, y = 20.000000, z = 100

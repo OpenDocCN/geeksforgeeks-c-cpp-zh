@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-const-keyword-question-4/](https://www.geeksforgeeks.org/c-const-keyword-question-4/)
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

@@ -8,7 +8,7 @@
 
 pthread _ self()函数返回调用它的线程的 ID。
 
-```
+```cpp
 // C program to demonstrate working of pthread_self()
 #include <stdio.h>
 #include <stdlib.h>
@@ -33,7 +33,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 In function
 thread id = 1
 In main

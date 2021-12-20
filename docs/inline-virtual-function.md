@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate that
 // virtual functions can be inlined
 #include <iostream>
@@ -47,7 +47,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 I am Base
 I am Derived
 ```

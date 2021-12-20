@@ -35,7 +35,7 @@ C++是一种面向对象的编程语言，不像 C 是一种[过程编程语言]
 
 ## **C++**
 
-```
+```cpp
 // C++ program for using auto keyword
 
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 ****Output:** 
 
-```
+```cpp
 b
 i
 ```** 
@@ -96,7 +96,7 @@ i
 
 ## **C++**
 
-```
+```cpp
 // C++ implementation to illustrate
 // the Memory Management
 
@@ -136,7 +136,7 @@ int main()
 
 ****Output:** 
 
-```
+```cpp
 Display the GPA of students:
 Student1: 0
 Student2: 1
@@ -156,7 +156,7 @@ Student5: 4
 
 ## **C++**
 
-```
+```cpp
 // C++ implementation to illustrate
 // the working of Multi-threading
 

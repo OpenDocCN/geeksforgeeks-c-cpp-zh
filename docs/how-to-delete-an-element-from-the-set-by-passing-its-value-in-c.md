@@ -5,7 +5,7 @@
 给定一个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)，任务是在 C++中移除这个[集合](https://www.geeksforgeeks.org/set-in-cpp-stl/)中的最后一个元素。
 **例:**
 
-```
+```cpp
 Input: set = [10 20 30 70 80 90 100 40 50 60],
               valueOfElementToBeDeleted = 100
 Output: 10 20 30 40 50 60 70 80 90
@@ -19,7 +19,7 @@ Output: 1 2 4 5
 **方法:**在该方法中，通过使用 erase 函数并以最后一个元素的值作为参数调用它来删除最后一个元素。如果最后一个元素的值未知，则使用前面的方法。
 **语法:**
 
-```
+```cpp
 size_type erase (const value_type& valueOfElementToBeDeleted);
 ```
 
@@ -27,7 +27,7 @@ size_type erase (const value_type& valueOfElementToBeDeleted);
 
 ## C++
 
-```
+```cpp
 // C++ program to delete an element
 // of a Set by passing its value
 
@@ -89,7 +89,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to delete an element
 // of a Set by passing its value
 import java.io.*;
@@ -154,7 +154,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to delete an element of a
 # set by passing of a set by passing its value
 
@@ -201,7 +201,7 @@ deleteByValue(myset, value);
 
 ## C#
 
-```
+```cpp
 // C# program to delete an element
 // of a Set by passing its value
 using System;
@@ -263,7 +263,7 @@ public class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to delete an element
@@ -321,7 +321,7 @@ function deleteByValue(myset, valueOfElementToBeDeleted)
 
 **Output:** 
 
-```
+```cpp
 Set originally:  10 20 30 40 50 60 70 80 90
 Set after deleting 50:  10 20 30 40 60 70 80 90
 ```

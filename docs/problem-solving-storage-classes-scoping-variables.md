@@ -45,7 +45,7 @@ T4【注:
 
 **Que–2。**以下 C 程序执行结束时 j 的值。(盖茨 CS 2000)
 
-```
+```cpp
 int incr (int i)
 {
    static int count = 0;
@@ -74,7 +74,7 @@ main ()
 
 **Que–3。**考虑以下 C 程序
 
-```
+```cpp
 int a, b, c = 0;
 void prtFun (void);
 int main ()
@@ -99,7 +99,7 @@ void prtFun (void)
 给定的代码段将生成什么输出？
 (一)
 
-```
+```cpp
 3 1
 4 1
 4 2
@@ -107,7 +107,7 @@ void prtFun (void)
 
 (二)
 
-```
+```cpp
 4 2
 6 1
 6 1
@@ -115,7 +115,7 @@ void prtFun (void)
 
 (三)
 
-```
+```cpp
 4 2
 6 2
 2 0
@@ -123,7 +123,7 @@ void prtFun (void)
 
 (四)
 
-```
+```cpp
 3 1
 5 2
 5 2
@@ -140,7 +140,7 @@ void prtFun (void)
 
 **Que–4。**考虑下面给出的 C 函数。
 
-```
+```cpp
 int f(int j)
 {
   static int i = 50;
@@ -168,7 +168,7 @@ int f(int j)
 
 **Que–5。**考虑如下所示的 C 程序。
 
-```
+```cpp
 # include <stdio.h> 
 # define print(x)  printf ("%d", x) 
 int x; 

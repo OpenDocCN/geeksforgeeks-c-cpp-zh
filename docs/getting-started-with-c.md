@@ -59,7 +59,7 @@
 
 ## C
 
-```
+```cpp
 // C program printing Hello World
 
 // Pre-processor directive
@@ -78,7 +78,7 @@ void main()
 
 **Output:** 
 
-```
+```cpp
 Hello World
 ```
 
@@ -107,7 +107,7 @@ Hello World
 
 ## C
 
-```
+```cpp
 // C program printing Hello World
 
 // Pre-processor directive
@@ -126,7 +126,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Hello World
 ```
 
@@ -188,7 +188,7 @@ Hello World
 
 ## C
 
-```
+```cpp
 // C program illustrating the
 // use of single-line comment
 
@@ -206,6 +206,6 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 Geeks for Geeks
 ```

@@ -6,7 +6,7 @@ C++中的**logic _ or**是一个二进制函数对象类，它返回其两个参
 
 **语法:**
 
-```
+```cpp
 template  struct logical_or : binary_function  
 {
   T operator() (const T& a, const T& b) const {return a||b;}
@@ -24,7 +24,7 @@ template  struct logical_or : binary_function
 
 下面是使用[STD::transform()](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/):
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -56,7 +56,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Logical OR:
 1 OR 1 = 1
 0 OR 1 = 1

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-string-question-6/](https://www.geeksforgeeks.org/c-string-question-6/)
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

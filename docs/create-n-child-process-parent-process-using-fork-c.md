@@ -10,7 +10,7 @@
 
 示例:
 
-```
+```cpp
 Input :3
 Output :[son] pid 25332 from [parent] pid 25329
         [son] pid 25331 from [parent] pid 25329
@@ -31,7 +31,7 @@ with process id 28518
 
 ```
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -52,7 +52,7 @@ int main()
 
 输出:
 
-```
+```cpp
 [son] pid 28519 from [parent] pid 28518
 [son] pid 28523 from [parent] pid 28518
 [son] pid 28520 from [parent] pid 28518

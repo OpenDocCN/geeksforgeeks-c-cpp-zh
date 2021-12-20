@@ -8,7 +8,7 @@
 
 这个想法是使用 STL 中的[地图来跟踪已经出现的单词。](https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/)
 
-```
+```cpp
 // C++ program to print unique words in a string
 #include <bits/stdc++.h>
 using namespace std;
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 code
 practice
 qa

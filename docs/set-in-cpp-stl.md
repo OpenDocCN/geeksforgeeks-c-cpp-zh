@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set<datatype> setname;
 ```
 
@@ -14,7 +14,7 @@ set<datatype> setname;
 
 **例:**
 
-```
+```cpp
 set<int> val; // defining an empty set
 set<int> val = {6, 10, 5, 1}; // defining a set with values
 ```
@@ -41,7 +41,7 @@ set<int> val = {6, 10, 5, 1}; // defining a set with values
 
 ## CPP
 
-```
+```cpp
 // CPP program to demonstrate various functions of
 // Set in C++ STL
 #include <iostream>
@@ -121,7 +121,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 The set s1 is : 
 60 50 40 30 20 10 
 

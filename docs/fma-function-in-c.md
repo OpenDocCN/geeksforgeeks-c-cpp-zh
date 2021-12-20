@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 double fma(double a, double b, double c);
 
 or,
@@ -30,7 +30,7 @@ float fma(float a, float b, float c)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // the fma() function
 
@@ -51,14 +51,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 fma(a, b, c)= 11.34
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate
 // fma() function
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 fma(lda, c, b)=41.58
 
 ```

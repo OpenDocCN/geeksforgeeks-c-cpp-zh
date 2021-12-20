@@ -5,7 +5,7 @@
 我们很多人都遇到过错误**'无法将 std::string 转换为 char[]或 char*数据类型'**。
 例子:
 
-```
+```cpp
 Input : string s = "geeksforgeeks" ;
 Output : char s[] = { 'g', 'e', 'e', 'k', 's', 'f', 'o',
                      'r', 'g', 'e', 'e', 'k', 's' } ;
@@ -18,7 +18,7 @@ Output : char s[] = { 'c', 'o', 'd', 'i', 'n', 'g' } ;
 函数的作用是:返回一个指向数组的指针，该数组包含一个空终止的字符序列，该序列代表字符串的当前值。
 语法:
 
-```
+```cpp
 const char* c_str() const ;
 ```
 
@@ -27,7 +27,7 @@ const char* c_str() const ;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to convert string
 // to char array
 #include <iostream>
@@ -59,6 +59,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 geeksforgeeks
 ```

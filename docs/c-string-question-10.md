@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-string-question-10/](https://www.geeksforgeeks.org/c-string-question-10/)
 
-```
+```cpp
 #include <stdio.h>
 
 void my_toUpper(char* str, int index)

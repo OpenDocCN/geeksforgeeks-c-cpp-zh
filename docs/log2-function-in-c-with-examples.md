@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 log2(x)
 ```
 
@@ -24,7 +24,7 @@ log2(x)
 
 **例 1:**
 
-```
+```cpp
 // C++ program to illustrate log2() function
 
 #include <bits/stdc++.h>
@@ -56,7 +56,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4
 1.32193
 3.37156
@@ -66,7 +66,7 @@ int main()
 
 **例 2:**
 
-```
+```cpp
 // C++ program to illustrate log2() function
 
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 -inf
 nan
 

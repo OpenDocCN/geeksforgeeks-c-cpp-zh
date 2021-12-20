@@ -6,7 +6,7 @@
 
 1.  [**【默认构造函数】**](https://www.geeksforgeeks.org/c-internals-default-constructors-set-1/) **:相当于一个空的默认构造函数。默认构造函数是一个可以在没有参数的情况下调用的构造函数。在没有初始化的情况下创建实例时调用它。** 
 
-```
+```cpp
 class_name object_name;
 ```
 
@@ -14,7 +14,7 @@ class_name object_name;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -84,7 +84,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 A Constructor
 A Constructor
 C Constructor

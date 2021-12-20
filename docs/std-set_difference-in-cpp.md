@@ -8,7 +8,7 @@
 1.**使用“<”比较元素:**
 语法:
 
-```
+```cpp
 Template :
 OutputIterator set_difference (InputIterator1 first1, InputIterator1 last1,
                                InputIterator2 first2, InputIterator2 last2,
@@ -36,7 +36,7 @@ An iterator to the end of the constructed range.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_difference
 
@@ -82,7 +82,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array : 5 10 15 20 25
 Second array : 10 20 30 40 50
 
@@ -93,7 +93,7 @@ The difference has 3 elements : 5 15 25
 
 2.**通过使用预定义函数进行比较:**
 
-```
+```cpp
 Template :
 OutputIterator set_difference (InputIterator1 first1, InputIterator1 last1,
                                InputIterator2 first2, InputIterator2 last2,
@@ -114,7 +114,7 @@ An iterator to the end of the constructed range.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_difference
 
@@ -164,7 +164,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array : 10 20 30 40 50
 Second array : 5 10 15 20 25
 
@@ -177,7 +177,7 @@ The difference has 3 elements : 30 40 50
 
 1.可以用来查找只上第一节课的**学生名单。**
 
-```
+```cpp
 // CPP program to demonstrate use of
 // std :: set_difference
 #include <iostream>
@@ -227,7 +227,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Students in first class : Sachin Rakesh Sandeep Serena
 Students in second class : Vaibhav Sandeep Rakesh Neha
 

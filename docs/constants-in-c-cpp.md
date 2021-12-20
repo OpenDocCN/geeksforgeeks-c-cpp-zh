@@ -20,7 +20,7 @@ c++中文字的各种[类型参见此处](https://www.geeksforgeeks.org/types-of
 
 1.  **使用*****#定义*** **预处理器指令:**该指令用于声明现有变量或任何值的别名。我们可以用它来声明一个常数，如下所示:
 
-    ```
+    ```cpp
     #define identifierName value
     ```
 
@@ -32,7 +32,7 @@ c++中文字的各种[类型参见此处](https://www.geeksforgeeks.org/types-of
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -60,7 +60,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -88,7 +88,7 @@ int main() {
 
 **Output:**
 
-```
+```cpp
 Integer constant: 10 
 Floating point constant: 4.14
 Character constant: A 

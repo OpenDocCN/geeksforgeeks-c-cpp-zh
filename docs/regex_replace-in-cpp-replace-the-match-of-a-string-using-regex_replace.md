@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 regex_replace(subject, regex_object, replace_text)
 
 ```
@@ -42,7 +42,7 @@ regex_replace(subject, regex_object, replace_text)
 
 下面是展示 regex_replace 工作原理的程序。
 
-```
+```cpp
 // C++ program to show the working
 // of regex_replace
 #include <bits/stdc++.h>
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 its all about forgeeks
 its all about geeks
 its all about geeksforgeeks

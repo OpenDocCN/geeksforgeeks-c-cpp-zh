@@ -25,7 +25,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // the above concept
 #include <stdio.h>
@@ -66,7 +66,7 @@ int main() 
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // the above approach
 
@@ -108,7 +108,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // the difference
 // Header file
@@ -136,7 +136,7 @@ int main() 
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // the difference
 // Header file
@@ -165,7 +165,7 @@ int main() 
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // the difference between 
 // ""  and <>

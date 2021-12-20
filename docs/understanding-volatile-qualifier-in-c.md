@@ -18,7 +18,7 @@ volatile 关键字旨在防止编译器对对象应用任何可能以编译器�
 
 ## C
 
-```
+```cpp
 /* Compile code without optimization option */
 #include <stdio.h>
 int main(void)
@@ -45,7 +45,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
   [narendra@ubuntu]$ gcc volatile.c -o volatile –save-temps
   [narendra@ubuntu]$ ./volatile
   Initial value of local : 10
@@ -59,7 +59,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 /* Compile code with optimization option */
 #include <stdio.h>
 
@@ -82,7 +82,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
   [narendra@ubuntu]$ gcc -O3 volatile.c -o volatile –save-temps
   [narendra@ubuntu]$ ./volatile
   Initial value of local : 10
@@ -95,7 +95,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 /* Compile code with optimization option */
 #include <stdio.h>
 
@@ -116,7 +116,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
   [narendra@ubuntu]$ gcc -O3 volatile.c -o volatile –save-temp
   [narendra@ubuntu]$ ./volatile
   Initial value of local : 10

@@ -6,7 +6,7 @@
 
 例子
 
-```
+```cpp
 Input: {0, 1, 2, 6, 9}, n = 5, m = 10 
 Output: 3
 
@@ -43,7 +43,7 @@ Output: 8
 
 ## **C++**
 
-```
+```cpp
 // C++ program to find the smallest elements
 // missing in a sorted array.
 #include<bits/stdc++.h>
@@ -84,7 +84,7 @@ int main()
 
 ****Output**
 
-```
+```cpp
 Smallest missing element is 8
 ```** 
 
@@ -104,7 +104,7 @@ Smallest missing element is 8
 
 ## **C++**
 
-```
+```cpp
 //C++ program for the above approach
 #include <bits/stdc++.h>
 
@@ -168,7 +168,7 @@ int main()
 
 ****Output**
 
-```
+```cpp
 First Missing element is : 6
 ```** 
 

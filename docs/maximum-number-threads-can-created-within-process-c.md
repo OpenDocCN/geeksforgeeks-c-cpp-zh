@@ -6,7 +6,7 @@
 
 我们的任务是找出单个进程中可以创建的最大线程数(pthread_create 可以创建的最大线程数)。可以看到的最大线程数是 ubuntu 通过使用命令:
 
-```
+```cpp
 cat /proc/sys/kernel/threads-max
 ```
 
@@ -14,12 +14,12 @@ linux 的这个线程限制可以在运行时修改，方法是将所需的限�
 
 在 ubuntu 操作系统上编译以下程序，以检查 c 语言中一个进程内可以创建的最大线程数。
 
-```
+```cpp
 cc filename.c -pthread where filename.c 
 is the name with which file is saved.
 ```
 
-```
+```cpp
 // C program to find maximum number of thread within
 // a process
 #include<stdio.h>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Maximum number of thread within a Process is : 32754
 
 ```

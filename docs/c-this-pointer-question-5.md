@@ -4,7 +4,7 @@
 
 预测下面 C++程序的输出？
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

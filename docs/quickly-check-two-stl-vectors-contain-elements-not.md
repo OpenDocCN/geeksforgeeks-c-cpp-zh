@@ -7,7 +7,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ implementation to check whether elements
 // in vector is equal or not
 #include<bits/stdc++.h>
@@ -39,7 +39,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Equal
 Not Equal
 Not Equal

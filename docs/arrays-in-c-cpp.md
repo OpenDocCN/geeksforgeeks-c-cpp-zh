@@ -22,7 +22,7 @@ C/C++或任何编程语言中的数组都是存储在连续内存位置的相似
 
 ## C
 
-```
+```cpp
 // Array declaration by specifying size
 int arr1[10];
 
@@ -36,7 +36,7 @@ int arr2[n];
 
 ## C
 
-```
+```cpp
 // Array declaration by initializing elements
 int arr[] = { 10, 20, 30, 40 }
 
@@ -48,7 +48,7 @@ int arr[] = { 10, 20, 30, 40 }
 
 ## C
 
-```
+```cpp
 // Array declaration by specifying size and initializing
 // elements
 int arr[6] = { 10, 20, 30, 40 }
@@ -83,7 +83,7 @@ int arr[6] = { 10, 20, 30, 40 }
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -103,7 +103,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -126,7 +126,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 5 2 -10 5
 ```
 
@@ -135,7 +135,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // This C program compiles fine
 // as index out of bound
 // is not checked in C.
@@ -155,7 +155,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // This C++ program compiles fine
 // as index out of bound
 // is not checked in C.
@@ -176,6 +176,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 -449684907 4195777 
 ```

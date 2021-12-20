@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate URL in code
 #include <iostream>
 using namespace std;
@@ -30,7 +30,7 @@ int main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to demonstrate
 // URL in code
@@ -56,7 +56,7 @@ for ($i = 0; $i < 5; $i++)
 
 **Output:**
 
-```
+```cpp
 This code is error free
 This code is error free
 This code is error free
@@ -70,7 +70,7 @@ This code is error free
 1.  在程序中，任何后跟:的标识符都成为(转到)[标签。](https://www.geeksforgeeks.org/local-labels-in-c/)
 2.  单行注释在 https://www.geeksforgeeks.org/以//等开头，因此它是一个注释。因此:
 
-    ```
+    ```cpp
     label- http:
 
     comment- www.geeksforgeeks.org/

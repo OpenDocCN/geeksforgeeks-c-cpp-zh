@@ -7,13 +7,13 @@
 **strcoll()** 是内置库函数，在 **< string.h >** 头文件中声明。该功能将 *str1* 指向的字符串与 *str2* 指向的字符串进行比较。 **strcoll()** 函数根据当前地区的 **LC_COLLATE** 类别的规则执行比较。
 **语法:**
 
-```
+```cpp
 int strcoll(const char *str1, const char *str2)
 ```
 
 **参数:**函数 strcoll()取两个字符串作为参数，返回一个整数值。
 
-```
+```cpp
 Value                   Meaning
 less than zero         * str1* is less than *str2*
 zero                   * str1* is equal to *str2*
@@ -22,7 +22,7 @@ greater than zero      * str1* is greater than *str2*
 
 1.  **less than zero :** When *str1* is less than *str2*
 
-    ```
+    ```cpp
     // C program to illustrate strcoll()
     #include <stdio.h>
     #include <string.h>
@@ -52,14 +52,14 @@ greater than zero      * str1* is greater than *str2*
 
     **输出:**
 
-    ```
+    ```cpp
     str1 is greater than str2
 
     ```
 
 2.  **greater than zero :**when *str1* is greater than *str2*
 
-    ```
+    ```cpp
     // C program to illustrate strcoll()
     #include <stdio.h>
     #include <string.h>
@@ -89,14 +89,14 @@ greater than zero      * str1* is greater than *str2*
 
     **输出:**
 
-    ```
+    ```cpp
     str1 is lesser than str2
 
     ```
 
 3.  **Is equal to zero :** when *str1* is equal to *str2*
 
-    ```
+    ```cpp
     // C program to illustrate strcoll()
 
     #include <stdio.h>
@@ -127,7 +127,7 @@ greater than zero      * str1* is greater than *str2*
 
     **输出:**
 
-    ```
+    ```cpp
     str1 is equal to str2
 
     ```

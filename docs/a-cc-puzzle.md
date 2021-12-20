@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 void func()
 {
     /* definition */

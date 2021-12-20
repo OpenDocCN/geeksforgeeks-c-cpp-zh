@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 smatch_name.max_size()
 ```
 
@@ -17,7 +17,7 @@ smatch_name.max_size()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the 
 // smatch::max_size() function in C++ STL
 // when data-type is char 
@@ -37,14 +37,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 max_size: 768614336404564650
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the 
 // smatch::max_size() function in C++ STL
 // when data-type is int 
@@ -64,7 +64,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 max_size: 768614336404564650
 
 ```

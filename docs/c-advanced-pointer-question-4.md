@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-advanced-pointer-question-4/](https://www.geeksforgeeks.org/c-advanced-pointer-question-4/)
 
-```
+```cpp
 #include <stdio.h>
 
 char *c[] = {"GeksQuiz", "MCQ", "TEST", "QUIZ"};

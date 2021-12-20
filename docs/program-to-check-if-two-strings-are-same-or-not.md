@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to check if
 // two strings are identical
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to check if
 // two strings are identical
 
@@ -102,7 +102,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check if
 // two strings are identical
 import java.util.*;
@@ -141,7 +141,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to check if 
 # two strings are identical 
 
@@ -171,7 +171,7 @@ if __name__ == "__main__" : 
 
 ## C#
 
-```
+```cpp
 // C# program to check if
 // two strings are identical
 using System;
@@ -209,7 +209,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to check if 
 // two strings are identical
@@ -249,7 +249,7 @@ else if (strcmp($string1, $string2) < 0) //Because string2 has some character gr
 
 **Output:**
 
-```
+```cpp
 Enter the first string: GeeksForGeeks
 Enter the second string: GeeksForGeeks
 Are both strings same: Yes

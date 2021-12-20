@@ -47,7 +47,7 @@ size(1)命令报告文本、数据和 bss 段的大小(以字节为单位)。(�
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -56,7 +56,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
 [narendra@CentOS]$ size memory-layout
 text       data        bss        dec        hex    filename
@@ -67,7 +67,7 @@ text       data        bss        dec        hex    filename
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int global; /* Uninitialized variable stored in bss*/
@@ -78,7 +78,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
 [narendra@CentOS]$ size memory-layout
 text       data        bss        dec        hex    filename
@@ -89,7 +89,7 @@ text       data        bss        dec        hex    filename
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int global; /* Uninitialized variable stored in bss*/
@@ -101,7 +101,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
 [narendra@CentOS]$ size memory-layout
 text       data        bss        dec        hex    filename
@@ -112,7 +112,7 @@ text       data        bss        dec        hex    filename
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int global; /* Uninitialized variable stored in bss*/
@@ -124,7 +124,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
 [narendra@CentOS]$ size memory-layout
 text       data        bss        dec        hex    filename
@@ -135,7 +135,7 @@ text       data        bss        dec        hex    filename
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int global = 10; /* initialized global variable stored in DS*/
@@ -147,7 +147,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
 [narendra@CentOS]$ size memory-layout
 text       data        bss        dec        hex    filename

@@ -9,7 +9,7 @@
 3.  文件大小–使用 C/C++获取文件大小
 4.  检查存在性–检查文件在 C/C++中是否存在
 
-```
+```cpp
 // A C++ Program to demonstrate the
 // four file hacks every C/C++ must know
 

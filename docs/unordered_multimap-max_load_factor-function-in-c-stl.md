@@ -6,7 +6,7 @@
 
 *   **Syntax** (return maximum load factor):
 
-```
+```cpp
 *unordered_multimap_name*.max_load_factor()
 
 ```
@@ -21,7 +21,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_load_factor()
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The max load factor  of sample1: 1
 Key and Elements of Sample1 are:{50, 500} {10, 100}
 
@@ -61,7 +61,7 @@ Key and Elements of Sample1 are:{50, 500} {10, 100}
 
 *   **Syntax** (set maximum load factor):
 
-```
+```cpp
 *unordered_multimap_name*.max_load_factor(N)
 
 ```
@@ -74,7 +74,7 @@ Key and Elements of Sample1 are:{50, 500} {10, 100}
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::max_load_factor(N)
 #include <bits/stdc++.h>

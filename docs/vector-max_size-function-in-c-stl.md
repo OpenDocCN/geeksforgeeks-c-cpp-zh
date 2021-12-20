@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 vector_name.max_size()
 
 ```
@@ -17,7 +17,7 @@ vector_name.max_size()
 
 程序如下图说明了上面的功能:
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::max_size() function
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 max_size of vector 1 = 4611686018427387903
 max_size of vector 2 = 4611686018427387903
 

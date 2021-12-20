@@ -12,7 +12,7 @@
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate array of strings using
 // 2D character array
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Blue
 Red
 Orange
@@ -51,7 +51,7 @@ Yellow
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate array of strings using
 // 2D character array
 #include <iostream>
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Blue
 Red
 Orange
@@ -91,7 +91,7 @@ STL [字符串](https://en.cppreference.com/w/cpp/string/basic_string)类可以�
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate array of strings using
 // array of strings.
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Blue
 Red
 Orange

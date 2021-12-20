@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 // C++ program to demonstrate various function
 // of unordered_multiset
 #include <bits/stdc++.h>
@@ -117,7 +117,7 @@ int main()
 
 输出:
 
-```
+```cpp
 unordered multiset 1 is not empty
 The size of unordered multiset 2 is : 9
 3 0 5 5 7 7 2 2 
@@ -138,7 +138,7 @@ erase(val)函数从数据结构中删除其所有实例，例如，如果某个�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 //  C++ program to delete one copy from unordered set
 #include <bits/stdc++.h>
 using namespace std;
@@ -185,7 +185,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6 4 2 7 3 3 1 1 1 
 6 4 2 7 3 3 1 1 
 ```

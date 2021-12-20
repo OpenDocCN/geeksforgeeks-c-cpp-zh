@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 asinh(data_type x)
 ```
 
@@ -33,7 +33,7 @@ asinh(data_type x)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the asinh() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 asinh(50.0) = 4.60527 radians
 asinh(50.0) = 263.863 degrees
 ```
@@ -66,7 +66,7 @@ asinh(50.0) = 263.863 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the asinh() function
 #include <bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 asinh(-50.0) = -4.60527 radians
 asinh(-50.0) = -263.863 degrees
 ```
@@ -101,7 +101,7 @@ asinh(-50.0) = -263.863 degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate errors in
 // the asinh() function
 #include <bits/stdc++.h>
@@ -125,7 +125,7 @@ int main()
 
 **错误:**
 
-```
+```cpp
 prog.cpp: In function ‘int main()’:
 prog.cpp:12:28: error: no matching function for call to ‘asinh(std::__cxx11::string&)’
      double result = asinh(x);

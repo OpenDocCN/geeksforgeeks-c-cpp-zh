@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : given_string = "geeksforgeeks"
 Output : length of the string = 13
 
@@ -19,7 +19,7 @@ Output : length of the string = 6
 
 **使用的方法:**在本程序中，我们使用*运算符。*(星号)运算符表示变量值。声明时的*运算符表示这是一个指针，否则它表示指针所指向的内存位置的值。在下面的程序中，在 string_length 函数中，我们通过检查由“\0”表示的空值来检查是否到达了字符串的末尾。
 
-```
+```cpp
 // C++ program  to find length of string
 // using pointer arithmetic.
 #include <iostream>
@@ -52,7 +52,7 @@ int main()
 
 输出:
 
-```
+```cpp
 13
 
 ```

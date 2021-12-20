@@ -13,7 +13,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 int mkfifo(const char *pathname, mode_t mode);
 ```
 
@@ -23,7 +23,7 @@ mkfifo()制作一个名为 ***路径名*** 的 fifo 特殊文件。这里 ***模
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-0">Program 1(Writes first)</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="C"></gfg-panel>
 
-```
+```cpp
  // C program to implement one side of FIFO
 // This side writes first, then reads
 #include <stdio.h>
@@ -75,7 +75,7 @@ int main()
 
 <gfg-tab role="tab" slot="tab" id="gfg-tab-1">程序 2(先读)</gfg-tab><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-1" data-code-lang="C"></gfg-panel>
 
-```
+```cpp
  // C program to implement one side of FIFO
 // This side reads first, then reads
 #include <stdio.h>

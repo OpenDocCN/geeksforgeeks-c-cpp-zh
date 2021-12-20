@@ -8,7 +8,7 @@ ldexp()函数接受两个参数 a 和 b，并返回 a 和 2 的乘积乘以 b �
 
 **语法:**
 
-```
+```cpp
 double ldexp (double a, double b);
 float ldexp (float a, float b);
 long double ldexp (long double a, long double b);
@@ -22,7 +22,7 @@ long double ldexp (long double a, long double b);
 
 **示例:**
 
-```
+```cpp
 Input  : ldexp(5.35, 4)
 Output : 85.6
 
@@ -34,7 +34,7 @@ Output : 800
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the
 // above function
 #include <cmath>
@@ -53,7 +53,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 85.6
 ```
 
@@ -61,7 +61,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP implementation of the
 // above function
 #include <cmath>
@@ -78,6 +78,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 800
 ```

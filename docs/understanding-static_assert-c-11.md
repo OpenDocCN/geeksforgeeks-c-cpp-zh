@@ -9,7 +9,7 @@
 *   执行编译时断言检查
 *   语法:
 
-```
+```cpp
 static_assert( constant_expression, string_literal ); 
 ```
 
@@ -19,7 +19,7 @@ static_assert( constant_expression, string_literal );
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Static assertion using #error directive
 #include <iostream>
 using namespace std;
@@ -42,7 +42,7 @@ int main()
 C++ 11 标准引入了一个名为 static_assert()的特性，可以用来在编译时测试软件断言。
 **语法**:
 
-```
+```cpp
 static_assert( constant_expression, string_literal ); 
 Parameters:
 constant_expression: An integral constant expression 
@@ -56,7 +56,7 @@ when the constant_expression parameter is false.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to demonstrate
 // static assertion using static_assert
 #include <iostream>
@@ -84,7 +84,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 error: static assertion failed: Vector size is too small!
 ```
 
@@ -97,7 +97,7 @@ error: static assertion failed: Vector size is too small!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Datatype
 #include <iostream>
 
@@ -123,7 +123,7 @@ static_assert 可以用于命名空间范围、类范围以及块范围。上述
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // declaring static_assert in namespace scope
 #include <iostream>
@@ -139,7 +139,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 assertion passed. The program didn't produce an error
 ```
 
@@ -147,7 +147,7 @@ assertion passed. The program didn't produce an error
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate class scope in
 // static assertion using static_assert
 #include <iostream>
@@ -175,7 +175,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 error: static assertion failed: Vector size is too small!
 ```
 
@@ -183,7 +183,7 @@ error: static assertion failed: Vector size is too small!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // declaring static_assert in block scope
 template <typename T, int N>
@@ -204,7 +204,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 error: static assertion failed: length of array a is negative.
 ```
 
@@ -213,7 +213,7 @@ static _ assert 中传递的常量 _ 表达式需要是有效的表达式。例�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // demonstrating an erroneous static_assert declaration
 int main()
@@ -225,7 +225,7 @@ int main()
 
 输出:
 
-```
+```cpp
 prog.cpp:5:2: error: non-constant condition for static assertion
   static_assert(1 / 0, "never shows up!");
   ^

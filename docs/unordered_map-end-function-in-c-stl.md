@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 iterator unordered_map_name.end(n)
 ```
 
@@ -18,7 +18,7 @@ iterator unordered_map_name.end(n)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // unordered_map::end() function
 // returning all the elements of the multimap
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 marks bucket contains : 
 bucket #0 contains:
 bucket #1 contains:
@@ -64,7 +64,7 @@ bucket #4 contains:(Ayush, 96),
 
 **程序 2** :
 
-```
+```cpp
 // CPP program to demonstrate the
 // unordered_map::end() function
 // returning the elements along
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Marks of Ayush is 96 and his bucket number is 4
 Marks of Aman is 37 and his bucket number is 3
 Marks of Rohit is 64 and his bucket number is 3

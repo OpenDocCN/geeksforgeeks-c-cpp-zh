@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input:
        Date arr[] = {{20,  1, 2014},
                     {25,  3, 2010},
@@ -30,7 +30,7 @@ Output:
 
 下面是一个完整的 C++程序。
 
-```
+```cpp
 // C++ program to sort an array of dates
 #include<bits/stdc++.h>
 using namespace std;
@@ -100,7 +100,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Sorted dates are
 3 12 1676
 18 11 1982

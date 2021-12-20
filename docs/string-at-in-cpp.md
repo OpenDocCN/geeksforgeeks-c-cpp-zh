@@ -6,13 +6,13 @@
 它支持两种不同的语法，两种语法都有相似的参数:
 **语法 1:**
 
-```
+```cpp
 char& string::at (size_type idx)
 ```
 
 **语法 2:**
 
-```
+```cpp
 const char& string::at (size_type idx) const
 
 idx : index number
@@ -28,7 +28,7 @@ or greater than or equal to size()) throws an out_of_range exception.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to demonstrate std::string::at
 
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 输出:
 
-```
+```cpp
 F
 ```
 
@@ -65,7 +65,7 @@ F
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to extract characters from a given string
 
 #include <iostream>
@@ -95,7 +95,7 @@ int main()
 
 输出:
 
-```
+```cpp
 G e e k s F o r G e e k s 
 ```
 

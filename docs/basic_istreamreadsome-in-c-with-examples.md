@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 streamsize readsome(char_type* a,
                     streamsize n);
 
@@ -30,7 +30,7 @@ streamsize readsome(char_type* a,
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for basic_istream::readsome()
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,14 +54,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 ksforG
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for basic_istream::readsome()
 #include <bits/stdc++.h>
 using namespace std;
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 mpu
 
 ```

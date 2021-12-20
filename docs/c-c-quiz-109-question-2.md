@@ -4,7 +4,7 @@
 
 为下面的程序选择最佳语句。
 
-```
+```cpp
 #include "stdio.h"
 
 int foo(int a)

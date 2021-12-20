@@ -7,7 +7,7 @@
 C/C++中的**strchr()**函数定位字符串中最后一个出现的字符。它返回一个指向字符串中最后一个匹配项的指针。终止的空字符被认为是 C 字符串的一部分。因此，也可以定位它来检索指向字符串末尾的指针。在 **cstring** 头文件中定义。
 **语法:**
 
-```
+```cpp
 const char* strrchr( const char* str, int ch )
             or
 char* strrchr( char* str, int ch )
@@ -25,7 +25,7 @@ char* strrchr( char* str, int ch )
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // the strrchr() function
 #include <bits/stdc++.h>
@@ -57,14 +57,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Last position of k in Geeks for Geeks is 13
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate 
 // the strrchr() function
 #include <bits/stdc++.h>
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 z is not present in Geeks for Geeks
 
 ```

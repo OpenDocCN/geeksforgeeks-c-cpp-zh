@@ -33,7 +33,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for above approach
 #include <iostream>
 using namespace std;
@@ -86,7 +86,7 @@ int main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.io.*;
 class GFG {
@@ -142,7 +142,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program for the above approach
 
 # Function to calculate maximum value of
@@ -187,7 +187,7 @@ maxRightmostElement(N, k, p, arr)
 
 ## C#
 
-```
+```cpp
 using System;
 
 public class GFG {
@@ -243,7 +243,7 @@ public class GFG {
 
 ## java 描述语言
 
-```
+```cpp
   <script>
         // JavaScript Program to implement
         // the above approach
@@ -293,7 +293,7 @@ public class GFG {
 
 **Output**
 
-```
+```cpp
 8
 ```
 
@@ -310,7 +310,7 @@ T3】辅助空间: O(1)
 
 ## C++
 
-```
+```cpp
 // C++ program for above approach
 #include <iostream>
 using namespace std;
@@ -352,7 +352,7 @@ int main() {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.io.*;
 class GFG {
@@ -396,7 +396,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program for above approach
 
 # Function to calculate maximum value of
@@ -437,7 +437,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 
@@ -484,7 +484,7 @@ public class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // JavaScript program for the above approach
 
@@ -525,7 +525,7 @@ public class GFG {
 
 **Output**
 
-```
+```cpp
 8
 ```
 

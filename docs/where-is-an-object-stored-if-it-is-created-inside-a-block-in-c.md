@@ -14,7 +14,7 @@
 
 示例:
 
-```
+```cpp
 Output:
 Inside Block1...
 length of rectangle is : 2
@@ -34,7 +34,7 @@ width of rectangle is :0
 
 下面是显示对象存储位置的程序:
 
-```
+```cpp
 // C++ program for required implementation
 #include <iostream>
 using namespace std;
@@ -135,7 +135,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Inside Block1...
 length of rectangle is : 2
 width  of rectangle  is :3

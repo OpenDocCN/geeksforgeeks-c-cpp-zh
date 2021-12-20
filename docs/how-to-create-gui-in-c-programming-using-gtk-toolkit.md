@@ -44,26 +44,26 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 
 *   首先，我们合并**头文件**。这包含了制作图形用户界面所需的所有文件，包括 Glib 库。
 
-    ```
+    ```cpp
     #include <gtk/gtk.h>
     ```
 
 *   现在，我们声明一个指向 GtkWidget 的**指针，这只是我们情况的一个窗口。此外，另一个 GtkWidget 指针将是按钮。请注意，GtkWidget 是层次结构中小部件的顶级存储类型。
 
-    ```
+    ```cpp
     GtkWidget *window;
     GtkWidget *button;
     ```** 
 *   接下来，我们调用 **gtk_init 函数**通过传递主函数的命令行参数来初始化 GTK+库。
 
-    ```
+    ```cpp
     gtk_init(&argc, &argv);
     ```
 
 *   所有 GTK+应用程序都是这样安装的；这是一个“**绝对必要**”的说法。它解析命令行参数并返回给应用程序。因此，这些参数可以用来改变应用程序的运行时行为。
 *   现在，我们创建窗口和按钮。
 
-    ```
+    ```cpp
     window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     button = gtk_button_new_with_label
        ("Click Me!");
@@ -74,13 +74,13 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 *   像所有的窗口系统一样，GTK+另外执行事件和事件处理程序。由于传输信号的代码在特定对象的内部，我们必须编写一个接口回调函数。
 *   常规回调函数的组织是:
 
-    ```
+    ```cpp
     void my_callback_function(GtkWidget *widget, gpointer data);
     ```
 
 *   主要参数表示产生信号的小部件，后续参数是一个空指针，可以出于任何原因使用。按照这些思路，处理窗口关闭事件的回调函数如下:
 
-    ```
+    ```cpp
     void destroy( GtkWidget *widget, gpointer   data )
     {
        gtk_main_quit ();
@@ -90,7 +90,7 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 
 *   函数 gtk_main_quit()关闭应用程序。现在，我们应该用回调函数来连接窗口对象。
 
-    ```
+    ```cpp
     g_signal_connect (window, "destroy",
                       G_CALLBACK (destroy),
                       NULL);
@@ -98,7 +98,7 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 
 *   同样，我们使用回调函数来处理按钮事件，并将其与按钮小部件相关联。
 
-    ```
+    ```cpp
     void greet( GtkWidget *widget, gpointer data )
     {
        g_print ("Welcome to GTK\n");
@@ -111,14 +111,14 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 
 *   由于按钮小部件包含在窗口中，我们应该显式地将其添加到容器中。
 
-    ```
+    ```cpp
     gtk_container_add (GTK_CONTAINER (window), button);
     ```
 
 *   最后，我们用 gtk_widget_show_all()函数展示了内存中制作的小部件，该函数引用了我们制作的窗口。
 *   最后，调用 gtk_main()函数开始交互过程。
 
-    ```
+    ```cpp
     gtk_widget_show_all(window);
     gtk_main();
     ```
@@ -127,7 +127,7 @@ GtkWindow 继承 **GtkBin** ，本身就是 **GtkContainer** 的孩子；通过�
 
 下面是上述步骤的实现:
 
-```
+```cpp
 #include <gtk/gtk.h>
 
 static int counter = 0;
@@ -179,14 +179,14 @@ int main(int argc, char* argv[])
 
 *   对于编译，编写以下命令(在 Linux 中使用 GCC)
 
-    ```
+    ```cpp
     gcc main.c -o p1
        `pkg-config --cflags --libs gtk+-2.0`
     ```
 
 *   要运行它，编写以下命令
 
-    ```
+    ```cpp
     ./p1
     ```
 

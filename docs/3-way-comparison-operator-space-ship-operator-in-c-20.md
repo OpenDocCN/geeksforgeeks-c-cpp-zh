@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ 20 program to illustrate the
 // 3 way comparison operator
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ 20 program for the illustration of the
 // 3-way comparison operator for 2 vectors
 #include <bits/stdc++.h>

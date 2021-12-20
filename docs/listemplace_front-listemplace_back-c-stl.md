@@ -9,7 +9,7 @@
 该函数用于将新的元素插入列表容器，新的元素被添加到列表的开头。
 **语法:**
 
-```
+```cpp
 *listname*.emplace_front(*value*)
 Parameters :
 The element to be inserted into the list
@@ -22,7 +22,7 @@ list at the beginning.
 
 示例:
 
-```
+```cpp
 Input  : mylist{1, 2, 3, 4, 5};
          mylist.emplace_front(6);
 Output : mylist = 6, 1, 2, 3, 4, 5
@@ -37,7 +37,7 @@ Output : mylist = 4
 1。它有很强的异常保证，因此，如果抛出异常，不会进行任何更改。
 2。参数应该与容器的类型相同，否则会引发错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of emplace_front() function
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 输出:
 
-```
+```cpp
 6 5 4 3 2 1
 
 ```
@@ -77,7 +77,7 @@ int main()
 该函数用于将新的元素插入列表容器，新元素被添加到列表的末尾。
 **语法:**
 
-```
+```cpp
 *listname*.emplace_back(*value*)
 Parameters :
 The element to be inserted into the list
@@ -90,7 +90,7 @@ list at the end.
 
 示例:
 
-```
+```cpp
 Input  : mylist{1, 2, 3, 4, 5};
          mylist.emplace_back(6);
 Output : mylist = 1, 2, 3, 4, 5, 6
@@ -105,7 +105,7 @@ Output : mylist = 4
 1。它有很强的异常保证，因此，如果抛出异常，不会进行任何更改。
 2。参数应该与容器的类型相同，否则会引发错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of emplace_back() function
 #include <iostream>
@@ -133,7 +133,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 
 ```

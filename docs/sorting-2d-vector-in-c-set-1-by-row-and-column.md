@@ -5,7 +5,7 @@
 **什么是 2D 矢量？**
 一个 2D 向量就是向量的向量。这是一个借助向量实现的矩阵。
 
-```
+```cpp
 // C++ code to demonstrate 2D vector
 #include<iostream>
 #include<vector> // for 2D vector
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3
 4 5 6
 7 8 9
@@ -43,7 +43,7 @@ int main()
 **情况 1:对 2D 向量的特定行进行排序。**
 这种排序方式将 2D 向量的选定行按升序排列。这是通过使用“sort()”并传递 1D 向量的迭代器作为参数来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of a
 // row of 2D vector
 #include<iostream>
@@ -93,7 +93,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting 1st row is:
 3 5 1 
 4 8 6 
@@ -120,7 +120,7 @@ The Matrix after sorting 1st row is:
 
 这是通过在“sort()”中传递第三个参数作为对用户定义的显式函数的调用来实现的。
 
-```
+```cpp
 // C++ code to demonstrate sorting of a
 // 2D vector on basis of a column
 #include<iostream>
@@ -178,7 +178,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The Matrix before sorting is:
 3 5 1 
 4 8 6 

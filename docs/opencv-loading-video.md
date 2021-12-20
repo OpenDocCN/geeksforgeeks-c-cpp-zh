@@ -8,7 +8,7 @@
 
 **代码:**
 
-```
+```cpp
 CvCapture* capture = cvCreateFileCapture("...input\\video_file.avi");
 ```
 
@@ -16,7 +16,7 @@ cvCreateFileCapture()函数取视频的 AVI 文件的名称/路径(作为参数�
 
 **代码:**
 
-```
+```cpp
 frame = cvQueryFrame(capture);
 ```
 
@@ -24,7 +24,7 @@ frame = cvQueryFrame(capture);
 
 **代码:**
 
-```
+```cpp
 c = cvWaitKey(10);
 
 if (c == 27)
@@ -35,7 +35,7 @@ if (c == 27)
 
 ### **代码:使用 OpenCV 显示视频。**
 
-```
+```cpp
 // Using OpenCV to display video
 
 #include <highlevelmonitorconfigurationapi.h>
@@ -76,7 +76,7 @@ iint main(int argc, char** argv)
 
 **输出:**
 
-```
+```cpp
 VIDEO OUTPUT IN THE DISPLAY WINDOW
 ```
 

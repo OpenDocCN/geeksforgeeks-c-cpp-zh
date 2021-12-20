@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 class Base { int x, y; };
 
 class Derived : public Base { int z, w; };
@@ -22,7 +22,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 I am Base class object, i = 33
 I am Base class object, i = 45
 ```
@@ -73,7 +73,7 @@ I am Base class object, i = 45
 
 ## C++
 
-```
+```cpp
 // rest of code is similar to above
 void somefunc (Base &obj)
 {
@@ -84,7 +84,7 @@ void somefunc (Base &obj)
 
 输出:
 
-```
+```cpp
 I am Base class object, i = 33
 I am Derived class object, i = 45, j = 54
 ```
@@ -93,7 +93,7 @@ I am Derived class object, i = 45, j = 54
 
 ## C++
 
-```
+```cpp
 // rest of code is similar to above
 void somefunc (Base *objp)
 {
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```cpp
 I am Base class object, i = 33
 I am Derived class object, i = 45, j = 54
 ```

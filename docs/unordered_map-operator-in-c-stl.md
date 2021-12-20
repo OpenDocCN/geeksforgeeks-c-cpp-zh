@@ -5,7 +5,7 @@
 **STD::unordered _ map::operator[]**是 C++ STL 中的内置函数，如果容器中的键匹配，则返回值的引用。如果没有找到密钥，它会将该密钥插入容器。
 **语法:**
 
-```
+```cpp
 mapped_type& operator[](key_type&& k);
 
 ```
@@ -15,7 +15,7 @@ mapped_type& operator[](key_type&& k);
 
 **例 1**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_map operator[]
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 : 6
 3 : 4
 1 : 2

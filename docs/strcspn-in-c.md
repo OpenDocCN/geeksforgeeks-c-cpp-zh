@@ -5,7 +5,7 @@
 C 库函数**strcpn()**计算两个字符串中出现的第一个字符之前的字符长度。
 **语法:**
 
-```
+```cpp
 strcspn(const char *str1, const char *str2)
 
 Parameters:
@@ -19,7 +19,7 @@ of character present in both the string.
 
 ```
 
-```
+```cpp
 // C code to demonstrate the working of
 // strcspn()
 #include <stdio.h>
@@ -45,7 +45,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The unmatched characters before first matched character :  3
 
 ```
@@ -54,7 +54,7 @@ The unmatched characters before first matched character :  3
 
 **规则:**根据这个游戏，2 个玩家玩，一个玩家最初生成一个字符串，并被要求生成一个字符串，该字符串中有尽可能多的不匹配的字符。1 回合后，产生最多不匹配字符的字符串的玩家获胜。
 
-```
+```cpp
 // C code to demonstrate the application of
 // strcspn()
 
@@ -122,7 +122,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Match Drawn!! Score : 2
 
 ```

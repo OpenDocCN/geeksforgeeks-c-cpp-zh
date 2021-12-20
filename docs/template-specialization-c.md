@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A generic sort function
 template <class T>
 void sort(T arr[], int size)
@@ -31,7 +31,7 @@ void sort<char>(char arr[], int size)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The main template fun(): a
 Specialized Template for int type: 10
 The main template fun(): 10.14
@@ -70,7 +70,7 @@ The main template fun(): 10.14
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -109,7 +109,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Specialized template object
 General template object
 General template object

@@ -9,7 +9,7 @@
 **指针**用于指向变量的存储位置。指针存储变量的地址，变量的值可以通过指针的解引用来访问。
 指针通常初始化为:
 
-```
+```cpp
 datatype *variable name;
 
 ```
@@ -21,7 +21,7 @@ datatype *variable name;
 
 **语法:**
 
-```
+```cpp
 // level-1 pointer declaration
 datatype *pointer; 
 
@@ -40,7 +40,7 @@ and so on
 
 **申报:**
 
-```
+```cpp
 int *pointer_1;
 int **pointer_2;
 int ***pointer_3;
@@ -56,7 +56,7 @@ and so on
 
 ## C
 
-```
+```cpp
 // C program to illustrate levels of pointer
 #include <stdio.h>
 
@@ -111,7 +111,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // levels of pointer
 #include <bits/stdc++.h>
@@ -170,7 +170,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of variable var = 10
 Value of variable var using pointer ptr1 = 10
 Value of variable var using pointer ptr2 = 10
@@ -182,7 +182,7 @@ Value of variable var using pointer ptr3 = 10
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // levels of pointer
 #include <stdio.h>
@@ -227,7 +227,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // levels of pointer
 #include <bits/stdc++.h>
@@ -275,7 +275,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of var = 23.564327
 Value of var using level-1 pointer = 23.564327
 Value of var using level-2 pointer = 23.564327
@@ -291,7 +291,7 @@ Value of var using level-4 pointer = 23.564327
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // levels of pointer
 #include <stdio.h>
@@ -353,7 +353,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // levels of pointer
 #include <bits/stdc++.h>
@@ -420,7 +420,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before:
 Value of var = 10
 Value of var using level-1 pointer = 10

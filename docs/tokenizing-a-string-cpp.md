@@ -12,7 +12,7 @@
 
 ## c++
 
-```
+```cpp
 // Tokenizing a string using stringstream
 #include <bits/stdc++.h>
 
@@ -45,7 +45,7 @@ int main()
 
 输出
 
-```
+```cpp
 GeeksForGeeks
 is
 a

@@ -7,7 +7,7 @@
 
 *   **fwrite :** 以下是 fwrite 功能的声明
 
-```
+```cpp
 size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)
 ptr - This is pointer to array of elements to be written
 size -  This is the size in bytes of each element to be written
@@ -17,7 +17,7 @@ stream - This is the pointer to a FILE object that specifies an output stream
 
 ## C
 
-```
+```cpp
 // C program for writing
 // struct to file
 #include <stdio.h>
@@ -65,7 +65,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 gcc demowrite.c
 ./a.out
 contents to file written successfully!
@@ -73,7 +73,7 @@ contents to file written successfully!
 
 *   **fread :** 下面是 fread 函数的声明
 
-```
+```cpp
 size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)
 ptr - This is the pointer to a block of memory with a minimum size of size*nmemb bytes.
 size - This is the size in bytes of each element to be read.
@@ -83,7 +83,7 @@ stream - This is the pointer to a FILE object that specifies an input stream.
 
 ## C
 
-```
+```cpp
 // C program for reading
 // struct from a file
 #include <stdio.h>
@@ -125,7 +125,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 gcc demoread.c
 ./a.out
 id = 1   name = rohan sharma

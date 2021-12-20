@@ -18,7 +18,7 @@
 
 **代码片段:**
 
-```
+```cpp
 // Title: Create a coloured image in C++ using OpenCV.
 
 // highgui - an easy-to-use interface to 

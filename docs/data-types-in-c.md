@@ -56,7 +56,7 @@ T38】2【T39
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -90,7 +90,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Hello World!
 Hello! I am a character. My value is G and my size is 1 byte.
 Hello! I am an integer. My value is 1 and my size is 4  bytes.

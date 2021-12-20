@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 0101
 Output : 65
 
@@ -15,7 +15,7 @@ Output : 520
 
 ```
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -28,12 +28,12 @@ int main()
 
 **Output:**
 
-```
+```cpp
 65
 
 ```
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -46,12 +46,12 @@ int main()
 
 **Output:**
 
-```
+```cpp
 16
 
 ```
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error : 9 is not a valid digit in octal number.
 
 ```

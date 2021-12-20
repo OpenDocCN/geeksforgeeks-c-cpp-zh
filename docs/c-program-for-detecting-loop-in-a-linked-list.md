@@ -21,7 +21,7 @@
 
 ## C
 
-```
+```cpp
 // C program to detect loop in a linked list
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,7 +86,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Loop found
 ```
 

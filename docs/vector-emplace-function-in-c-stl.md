@@ -5,7 +5,7 @@
 **向量::侵位()**是 C++中的一个 STL，它通过在该位置插入一个新元素来扩展容器。只有当需要更多空间时，才会发生重新分配。这里的容器尺寸增加了一个。
 **语法:**
 
-```
+```cpp
 template 
 iterator vector_name.emplace (const_iterator position, element);
 ```
@@ -25,7 +25,7 @@ iterator vector_name.emplace (const_iterator position, element);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::emplace() function
 // insertion at thefront
@@ -51,7 +51,7 @@ cout << "The vector elements are: ";
 
 **Output:** 
 
-```
+```cpp
 The vector elements are: 15 10 20 30
 ```
 
@@ -59,7 +59,7 @@ The vector elements are: 15 10 20 30
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::emplace() function
 // insertion at the end
@@ -85,7 +85,7 @@ cout << "The vector elements are: ";
 
 **Output:** 
 
-```
+```cpp
 The vector elements are: 10 20 30 16
 ```
 
@@ -93,7 +93,7 @@ The vector elements are: 10 20 30 16
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::emplace() function
 // insertion at the middle
@@ -119,7 +119,7 @@ cout << "The vector elements are: ";
 
 **Output:** 
 
-```
+```cpp
 The vector elements are: 10 20 16 30
 ```
 
@@ -133,7 +133,7 @@ The vector elements are: 10 20 16 30
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <array>
@@ -170,7 +170,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 Content of a: 1 2 3 4 5 
 Content of v: 1 2 3 4 5 
 ```

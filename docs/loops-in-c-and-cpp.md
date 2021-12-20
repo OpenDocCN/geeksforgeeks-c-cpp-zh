@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate need of loops
 #include <stdio.h>
 
@@ -33,7 +33,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate need of loops
 #include <iostream>
 using namespace std;
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello World
 Hello World
 Hello World
@@ -91,7 +91,7 @@ Hello World
 **for 循环是一种重复控制结构，它允许我们编写一个执行特定次数的循环。该循环使我们能够在一行中一起执行 n 个步骤。
 **语法:****
 
-```
+```cpp
 for (initialization expr; test expr; update expr)
 {    
      // body of the loop
@@ -112,7 +112,7 @@ for (initialization expr; test expr; update expr)
 
 ## **C**
 
-```
+```cpp
 // C program to illustrate for loop
 #include <stdio.h>
 
@@ -131,7 +131,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate for loop
 #include <iostream>
 using namespace std;
@@ -149,7 +149,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Hello World
 Hello World
 Hello World
@@ -170,7 +170,7 @@ Hello World
 ****语法** :
 我们已经说过一个循环主要由三个语句组成——初始化表达式、测试表达式、更新表达式。三个循环的语法——For、while 和 do while 主要在这三个语句的位置上有所不同。**
 
-```
+```cpp
 **initialization expression;**
 while (**test_expression**)
 {
@@ -187,7 +187,7 @@ while (**test_expression**)
 
 ## **C**
 
-```
+```cpp
 // C program to illustrate while loop
 #include <stdio.h>
 
@@ -211,7 +211,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate while loop
 #include <iostream>
 using namespace std;
@@ -236,7 +236,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Hello World
 Hello World
 Hello World
@@ -252,7 +252,7 @@ Hello World
 
 ****语法**:**
 
-```
+```cpp
 **initialization expression;**
 do
 {
@@ -271,7 +271,7 @@ do
 
 ## **C**
 
-```
+```cpp
 // C program to illustrate do-while loop
 #include <stdio.h>
 
@@ -295,7 +295,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate do-while loop
 #include <iostream>
 using namespace std;
@@ -320,7 +320,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Hello World
 
 ```** 
@@ -333,7 +333,7 @@ Hello World
 
 ## **C**
 
-```
+```cpp
 // C program to demonstrate infinite loops
 // using for and while
 // Uncomment the  sections to see the output
@@ -374,7 +374,7 @@ int main ()
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate infinite loops
 // using for and while
 // Uncomment the  sections to see the output
@@ -415,7 +415,7 @@ int main ()
 
  **Output:
 
-```
+```cpp
 This loop will run forever.
 This loop will run forever.
 ................... 

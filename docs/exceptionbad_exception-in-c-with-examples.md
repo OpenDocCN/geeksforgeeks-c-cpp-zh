@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 include<exception>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_exception;
 
 ```
@@ -26,7 +26,7 @@ class bad_exception;
 
 **程序 1 :**
 
-```
+```cpp
 // C++ code for std::bad_exception
 #include <bits/stdc++.h>
 
@@ -63,14 +63,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Caught exception std::bad_exception
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ code for std::bad_exception
 #include <bits/stdc++.h>
 
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Caught exception std::bad_exception
 
 ```

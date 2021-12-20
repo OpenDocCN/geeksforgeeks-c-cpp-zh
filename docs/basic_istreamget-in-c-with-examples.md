@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 int_type get();
 
 ```
@@ -26,7 +26,7 @@ int_type get();
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for basic_istream::get()
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,7 +54,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 First character is: G
 After reading:G We got e
 
@@ -62,7 +62,7 @@ After reading:G We got e
 
 **程序二:**
 
-```
+```cpp
 // C++ code for basic_istream::get()
 #include <bits/stdc++.h>
 using namespace std;
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 First character is: C
 After reading:C We got o
 Now we got : m

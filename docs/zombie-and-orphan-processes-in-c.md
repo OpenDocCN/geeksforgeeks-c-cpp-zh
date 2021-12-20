@@ -12,7 +12,7 @@ A process which has finished the execution but still has entry in the process ta
 
 在下面的代码中，子进程使用 exit()系统调用完成其执行，而父进程休眠 50 秒，因此不调用 [wait()](https://en.wikipedia.org/wiki/Wait_%28system_call%29) ，并且子进程的条目仍然存在于进程表中。
 
-```
+```cpp
 // A C program to demonstrate Zombie Process. 
 // Child becomes Zombie as parent is sleeping
 // when child process exits.
@@ -47,7 +47,7 @@ A process whose parent process no more exists i.e. either finished or terminated
 
 然而，一旦其父进程死亡，孤儿进程很快被 init 进程采用。
 
-```
+```cpp
 // A C program to demonstrate Orphan Process. 
 // Parent process finishes execution while the
 // child process is running. The child process

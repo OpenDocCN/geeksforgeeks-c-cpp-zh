@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 // Returns pointer to the first occurrence
 // of c in str[]
 char *strchr(const char *str, int c) 
@@ -18,7 +18,7 @@ char *strchr(const char *str, int c)
 
 **示例:**
 
-```
+```cpp
 Input : str[] = 'This is a string'
 Output : 9
 
@@ -34,7 +34,7 @@ Output : 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to find position of a character
 // in a given string.
 #include <iostream>
@@ -52,14 +52,14 @@ int main()
 
 **Output**
 
-```
+```cpp
 5
 ```
 
 **strchr()** 函数也可以用来检查字符串中是否存在字符。输入包含一个我们想要检查的字符，如果它存在于字符串中。
 例如–让我们检查字符串中是否存在字符 A 和 z–“我的名字是阿尤什”
 
-```
+```cpp
 Input : str[] = 'My name is Ayush', 
         ch1 = 'A', ch2 = 'z'
 Output : A is present in the string
@@ -75,7 +75,7 @@ Output : A is present in the string
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of strchr()
 #include <iostream>
 #include <cstring>
@@ -103,7 +103,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 A is present in string
 z is not present in string
 ```
@@ -112,7 +112,7 @@ z is not present in string
 
 **示例:**
 
-```
+```cpp
 Input : /home/test/sample
 Output : /home/test
 ```
@@ -126,7 +126,7 @@ Output : /home/test
 
 ## C
 
-```
+```cpp
 // C program to find directory path
 #include <string.h>
 #include<stdio.h>
@@ -156,7 +156,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 /home/test/sample
 ```
 

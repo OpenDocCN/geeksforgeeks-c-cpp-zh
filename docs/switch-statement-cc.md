@@ -10,7 +10,7 @@ Switch case 语句计算给定的表达式，并根据计算出的值(匹配某�
 
 **语法:**
 
-```
+```cpp
 switch (n)
 {
     case 1: // code to be executed if n = 1;
@@ -33,7 +33,7 @@ switch (n)
 
 **1)** 开关中提供的表达式应得到一个**常量值**，否则无效。开关情况的一些有效表达式是，
 
-```
+```cpp
 // Constant expressions allowed
 switch(1+2+23)
 switch(1*2+3%4)
@@ -65,7 +65,7 @@ switch(a+b+c)
 
 ## C
 
-```
+```cpp
 // C program to demonstrate syntax of switch
 #include <stdio.h>
 
@@ -93,7 +93,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program  to demonstrate syntax of switch
 #include <iostream>
 using namespace std;
@@ -122,7 +122,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Choice is 2
 ```
 

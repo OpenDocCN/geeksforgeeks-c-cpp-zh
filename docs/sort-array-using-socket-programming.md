@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 4 5 6 1 8 2 7 9 3 0 
 Output :0 1 2 3 4 5 6 7 8 9
 
@@ -19,7 +19,7 @@ Output : 0 1 4 8 9
 
 在这个程序中，客户端将获取输入并将其发送给服务器，服务器将使用冒泡排序对数组进行排序。
 
-```
+```cpp
 // Client code in C to sort the array
 #include <arpa/inet.h>
 #include <stdio.h>
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 
 **注:**将上述文件保存为客户端
 
-```
+```cpp
 // Server code in C to sort the array
 #include <arpa/inet.h>
 #include <stdio.h>
@@ -172,7 +172,7 @@ void bubble_sort(int list[], int n)
 **注意:**将以上文件保存为 server.c
 **输出:**
 
-```
+```cpp
 0 1 2 3 4 5 6 7 8 9 
 
 ```

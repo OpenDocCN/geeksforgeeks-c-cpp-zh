@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.empty()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::empty() function
 #include <iostream>
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements: {5:6} {3:4} {2:3} {1:2} {1:2} 
 Container is empty
 
@@ -67,7 +67,7 @@ Container is empty
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::empty()
 #include <iostream>
@@ -108,7 +108,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and elements: {r:e} {g:d} {g:d} {a:b} {a:b} 
 Container is empty
 

@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```cpp
 **ForwardIterator next (ForwardIterator it,
        typename iterator_traits::difference_type n = 1);**
 **it:** Iterator to the base position.
@@ -22,7 +22,7 @@ a default value 1 so it will atleast advance by 1 position.
 n positions away from it. 
 ```
 
- **```
+ ```cpp
 // C++ program to demonstrate std::next
 #include <iostream>
 #include <iterator>
@@ -73,7 +73,7 @@ int main()
 
 输出:
 
-```
+```cpp
 v1 = 1 2 3 4 5 6 7
 v2 = 8 9 10 1 2 3 4
 
@@ -83,7 +83,7 @@ v2 = 8 9 10 1 2 3 4
 
 *   **在列表中推进迭代器:**因为，列表支持[双向迭代器](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/)，只能使用++和––运算符进行递增。所以，如果我们想让迭代器前进不止一个位置，那么使用 std::next 会非常有用。
 
-    ```
+    ```cpp
     // C++ program to demonstrate std::next
     #include <iostream>
     #include <iterator>
@@ -132,7 +132,7 @@ v2 = 8 9 10 1 2 3 4
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3 7 8 9
     v2 = 4 5 6 1 2 3  
 

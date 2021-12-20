@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 exp(varr);
 ```
 
@@ -18,7 +18,7 @@ exp(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of exp() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 2.71828 7.38906 20.0855 54.5982 148.413
 
@@ -63,7 +63,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of exp() function.
 
@@ -100,7 +100,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.367879 1 20.0855 1 0.00673795
 

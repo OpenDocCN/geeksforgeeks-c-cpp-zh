@@ -5,13 +5,13 @@
 **std::一元 _ 求反()**是一个包装函数对象，返回它持有的一元谓词的补码。包装函数是软件库或计算机程序中的子例程，其主要目的是调用第二个子例程或系统调用，几乎不需要或不需要额外的计算。一元否定类型的对象通常使用函数 [**std::not1()**](https://www.geeksforgeeks.org/not1-and-not2-function-templates-in-c-stl-with-examples/) 来构造。
 **头文件:**
 
-```
+```cpp
 #include <functional>
 ```
 
 **语法:**
 
-```
+```cpp
 std::unary_negate<class T>
     variable_name(Object of class T);
 ```
@@ -23,7 +23,7 @@ std::unary_negate<class T>
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // std::unary_negate to find number
 // greater than equals 4 in arr[]
@@ -73,6 +73,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 7
 ```

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct is_trivially_move_constructible;
 
@@ -21,7 +21,7 @@ struct is_trivially_move_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_move_constructible<T>::value
 
 ```
@@ -37,7 +37,7 @@ std::is_trivially_move_constructible<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::is_trivially_move_constructible
 #include <iostream>
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 class A: true
 class B: true
@@ -119,7 +119,7 @@ class D: true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::is_trivially_move_constructible
 #include <iostream>
@@ -178,7 +178,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Ex1 is move-constructible? true
 Ex1 is trivially move-constructible? false
 Ex2 is trivially move-constructible? false

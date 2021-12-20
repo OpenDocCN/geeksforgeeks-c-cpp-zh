@@ -24,7 +24,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // wcsrtombs() function
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Number of multibyte characters = 12
 Multibyte characters written = Geekforgeeks
 ```
@@ -68,7 +68,7 @@ Multibyte characters written = Geekforgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // wcsrtombs() function
 #include <bits/stdc++.h>
@@ -103,7 +103,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Number of multibyte characters = 14
 Multibyte characters written = This website i
 ```

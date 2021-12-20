@@ -14,7 +14,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the working
 // of memory allocation if new and free
 // are mixed
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Constructor is executed
 value is: 5
 Destructor is executed

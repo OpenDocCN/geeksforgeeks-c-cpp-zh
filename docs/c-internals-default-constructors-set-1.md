@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -80,7 +80,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 A Constructor
 A Constructor
 C Constructor

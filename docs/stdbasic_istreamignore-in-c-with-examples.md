@@ -5,13 +5,13 @@
 **STD::basic _ is tream::ignore**用于从输入字符串中提取字符，并丢弃它们，包括定界字符，即如果到达文件末尾，该函数将停止提取字符。定界字符是新的行字符，即 **'\n'** 。如果使用文件进行输入，当到达文件末尾时，此功能也将停止提取字符。该功能通过首先构建一个[哨兵对象](http://www.cplusplus.com/reference/istream/basic_istream/sentry/)来访问输入序列。它从关联的流缓冲区对象中提取字符，并在返回前销毁 sentry 对象。
 **头文件:**
 
-```
+```cpp
 #include <iostream>
 ```
 
 **语法:**
 
-```
+```cpp
 istream& ignore(size N,
             int delim = EOF);
 ```
@@ -27,7 +27,7 @@ istream& ignore(size N,
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::ignore
 
@@ -82,7 +82,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 12
 14
 ```
@@ -91,7 +91,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::ignore
 

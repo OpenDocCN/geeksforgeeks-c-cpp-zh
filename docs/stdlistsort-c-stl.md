@@ -10,7 +10,7 @@ sort()函数用于通过改变容器元素的位置来对它们进行排序。
 
 **语法:**
 
-```
+```cpp
 *listname*.sort()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ are sorted in ascending order.
 
 示例:
 
-```
+```cpp
 Input  : mylist{1, 5, 3, 2, 4};
          mylist.sort();
 Output : 1, 2, 3, 4, 5
@@ -38,7 +38,7 @@ Output : bye, hi, thanks
 1.它有一个基本的无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // SORTING INTEGERS
 // CPP program to illustrate
 // Implementation of sort() function
@@ -63,11 +63,11 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5
 ```
 
-```
+```cpp
 // SORTING STRINGS
 // CPP program to illustrate
 // Implementation of sort() function
@@ -93,7 +93,7 @@ int main()
 
 输出:
 
-```
+```cpp
 bye hi thanks
 ```
 

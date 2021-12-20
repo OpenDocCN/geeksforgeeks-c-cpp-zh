@@ -8,7 +8,7 @@ transform_inclusive_scan()是 C++中的内置函数，它与 inclusive_scan()相
 
 **语法:**
 
-```
+```cpp
 template < class InputItrator, class OutputItrator,
           class BinaryOperation, class UnaryOperation >
 
@@ -40,7 +40,7 @@ OutputItrator transform_inclusive_scan( InputItrator first,
 
 ## C++
 
-```
+```cpp
 // C++ program by used std::transform_inclusive_scan() function
 // to transforms each and every elements between first
 // and last with unary_op, then computes an inclusive prefix sum
@@ -104,7 +104,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 121 605 1694 3630 6655 11011 16940 24684 
 ```
 

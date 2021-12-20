@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 float stof (const string&  str, size_t* idx = 0);
 float stof (const wstring& str, size_t* idx = 0);
 
@@ -23,7 +23,7 @@ On success, the function returns the converted floating-point number as a value 
 
 下面是 std::stof :
 
-```
+```cpp
 // CPP code to convert floating 
 // type number to string
 #include <bits/stdc++.h>
@@ -47,11 +47,11 @@ int main()
 
 输出:
 
-```
+```cpp
 100.8
 ```
 
-```
+```cpp
 // CPP code to convert integer 
 // type number to string
 #include <bits/stdc++.h>
@@ -73,7 +73,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1000
 ```
 

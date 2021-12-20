@@ -6,7 +6,7 @@
 像[这些功能](https://www.geeksforgeeks.org/difference-getchar-getch-getc-getche/)一样，getch()也从键盘上读取单个字符。但是它不使用任何缓冲区，所以输入的字符会立即返回，而无需等待回车键。
 **语法:**** 
 
-```
+```cpp
 int getch(void);
 ```
 
@@ -16,7 +16,7 @@ int getch(void);
 
 ## C
 
-```
+```cpp
 // Example for getch() in C
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input:  g (Without enter key)
 Output: Program terminates immediately.
         But when you use DOS shell in Turbo C, 
@@ -51,7 +51,7 @@ Output: Program terminates immediately.
 
 ## C
 
-```
+```cpp
 // C code to illustrate working of
 // getch() to accept hidden inputs
 
@@ -100,13 +100,13 @@ void main()
 
 **输出:**
 
-```
+```cpp
 Abcd1234
 ```
 
 **输出:**
 
-```
+```cpp
 Enter Password: ********
 Entered password: Abcd1234
 ```

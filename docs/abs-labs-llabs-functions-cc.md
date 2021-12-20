@@ -7,7 +7,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
 1.  **abs()函数:**该函数的输入是 C 语言中类型 *int* 的值和 C++语言中类型 *int* 、 *long int* 或 *long long int* 的值。在 C 中，输出为 *int* 类型，在 C++中，输出与输入具有相同的数据类型。
     下面是展示 abs()函数工作原理的 C++示例程序。
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // abs() function
     #include <cstdlib>
@@ -30,7 +30,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
     }
     ```
 
-    ```
+    ```cpp
     Output: 
     abs(22) = 22
     abs(-43) = 43
@@ -40,7 +40,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
 2.  **labs()函数:**这是 abs()函数的长 int 版本。输入输出均为*长整型*型。
     下面是展示 labs()函数工作的 C++示例程序。
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // labs() function
     #include <cstdlib>
@@ -63,7 +63,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
     }
     ```
 
-    ```
+    ```cpp
     Output: 
     labs(1234355L) = 1234355
     labs(-4325600L) = 4325600
@@ -73,7 +73,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
 3.  **llabs()函数:**这是长 int 版的 abs()函数。输入输出均为*长整型*型。
     下面是展示 llabs()函数工作的 C++示例程序。
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // llabs() function
     #include <cstdlib>
@@ -96,7 +96,7 @@ abs()、labs()、llabs()函数在 **cstdlib** 头文件中定义。这些函数�
     }
     ```
 
-    ```
+    ```cpp
     Output: 
     llabs(1234863551LL) = 1234863551
     llabs(-432592160LL) = 432592160

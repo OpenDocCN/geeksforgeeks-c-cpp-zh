@@ -4,7 +4,7 @@
 
 在许多情况下，我们需要检查函数返回的值，并基于该值执行条件操作。所以我们的代码看起来像这样
 
-```
+```cpp
 // Some function
 return_type foo(params)
 
@@ -27,7 +27,7 @@ if (var == /* some value */) { 
 
 请注意所有条件 if-else 块的一般格式。首先有一个可选的初始语句来设置变量，然后是 if-else 块。所以一般的 if-else 块类似如下
 
-```
+```cpp
 init-statement
 
 if (condition) {
@@ -40,7 +40,7 @@ if (condition) {
 
 在 C++17 中，init 语句被称为初始值设定项，我们可以将其直接放入 if-else 块，如下所示
 
-```
+```cpp
 if (init-statement; condition) {
     // Do Something
 } else {
@@ -51,7 +51,7 @@ if (init-statement; condition) {
 
 条件变量的范围被限制在当前 if-else 块中。这也允许我们在另一个条件块中重用相同的命名标识符。
 
-```
+```cpp
 if (auto var = foo(); condition) {
     ...
 }
@@ -70,7 +70,7 @@ else {
 
 同样，开关盒也已更新。我们现在可以在开关括号内放一个初始表达式。在初始语句之后，我们需要指定使用哪个变量来检查案例
 
-```
+```cpp
 switch (initial-statement; variable) {
     ....
     // cases
@@ -80,7 +80,7 @@ switch (initial-statement; variable) {
 
 **一个完整的程序**
 
-```
+```cpp
 // Program to demonstrate init if-else
 // feature introduced in C++17
 #include <iostream>
@@ -114,7 +114,7 @@ int main() {
 
 **输出(机器相关)**
 
-```
+```cpp
 2 is even number
 4 is even number
 i = 5
@@ -123,7 +123,7 @@ i = 5
 
 **注意:**要编译这些程序，我们需要最新版本的编译器。在撰写本文时，这个特性已经在 clang 5 和 gcc 7 中完全实现了。为了编译程序，我们还需要指定-std=c++17 标志
 
-```
+```cpp
 g++-7 program_file.cpp -std=c++17
 
 or

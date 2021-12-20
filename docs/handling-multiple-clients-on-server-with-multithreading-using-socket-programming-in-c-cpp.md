@@ -10,14 +10,14 @@
 
 **sem_post:** sem_post()递增(解锁)sem 指向的信号量。如果信号量的值因此变得大于零，则在 sem_wait(3)调用中被阻塞的另一个进程或线程将被唤醒并继续锁定信号量。
 
-```
+```cpp
 #include <semaphore.h>
 int sem_post(sem_t *sem);
 ```
 
 **sem_wait:** sem_wait()递减(锁定)sem 指向的信号量。如果信号量的值大于零，则减量继续，函数立即返回。如果信号量当前的值为零，则调用会阻塞，直到有可能执行减量(即信号量值升至零以上)，或者信号处理程序中断调用。
 
-```
+```cpp
 #include <semaphore.h>
 int sem_wait(sem_t *sem);
 ```
@@ -26,7 +26,7 @@ int sem_wait(sem_t *sem);
 
 **实现:**对于服务器端，创建两个不同的线程；一个读取器线程和一个写入器线程。首先，声明一个**服务器套接字**，一个整数，一个变量来保存套接字函数的返回。
 
-```
+```cpp
 int serverSocket = socket(domain, type, protocol);
 ```
 
@@ -41,14 +41,14 @@ int serverSocket = socket(domain, type, protocol);
 
 **绑定:**创建套接字后，绑定功能将套接字绑定到 **addr** (自定义数据结构)中指定的地址和端口号。在示例代码中，我们将服务器绑定到本地主机，因此 INADDR _ ANY 用于指定 IP 地址。
 
-```
+```cpp
 int bind(int sockfd, const struct sockaddr *addr, 
          socklen_t addrlen);
 ```
 
 **监听:**它将服务器套接字置于被动模式，等待客户端靠近服务器进行连接。backlog 定义 sockfd 的挂起连接队列可能增长到的最大长度。如果连接请求在队列已满时到达，客户端可能会收到一个错误，并显示为“已恢复”。
 
-```
+```cpp
 int listen(int sockfd, int backlog);
 ```
 
@@ -67,7 +67,7 @@ int listen(int sockfd, int backlog);
 
 ## C
 
-```
+```cpp
 // C program for the Server Side
 
 // inet_addr
@@ -235,7 +235,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the Client Side
 #include <stdio.h>
 #include <stdlib.h>

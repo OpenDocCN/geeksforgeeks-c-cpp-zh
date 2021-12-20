@@ -17,7 +17,7 @@ stringstream 类在解析输入时非常有用。
 
 1.  **Count number of words in a string**
 
-    ```
+    ```cpp
     Examples:
     Input : Asipu Pawan Kumar
     Output : 3
@@ -26,7 +26,7 @@ stringstream 类在解析输入时非常有用。
     Output : 4
     ```
 
-    ```
+    ```cpp
     // CPP program to count words in a string
     // using stringstream.
     #include <bits/stdc++.h>
@@ -56,13 +56,13 @@ stringstream 类在解析输入时非常有用。
 
     输出:
 
-    ```
+    ```cpp
       Number of words are: 6
     ```
 
 2.  **Print frequencies of individual words in a string**
 
-    ```
+    ```cpp
     Input : Geeks For Geeks Quiz Geeks Quiz Practice Practice
     Output : For -> 1
              Geeks -> 3
@@ -76,7 +76,7 @@ stringstream 类在解析输入时非常有用。
 
     ```
 
-    ```
+    ```cpp
     // CPP program to demonstrate use of stringstream
     // to count frequencies of words.
     #include <bits/stdc++.h>
@@ -109,7 +109,7 @@ stringstream 类在解析输入时非常有用。
 
     输出:
 
-    ```
+    ```cpp
     For -> 1
     Geeks -> 2
     Ide -> 1

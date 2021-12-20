@@ -19,7 +19,7 @@
 
 下面是查找长关键字演示工作的 C 程序:
 
-```
+```cpp
 // C program to demonstrate the working
 // of long keyword
 
@@ -57,7 +57,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 Size of longType is: 8
 Size of integerType is: 4
 Size of longIntegerType is: 8

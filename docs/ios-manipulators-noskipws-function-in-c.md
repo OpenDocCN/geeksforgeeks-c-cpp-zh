@@ -6,7 +6,7 @@ C++中**流操纵器**的 **noskipws()** 方法用于清除指定字符串流的
 
 **语法:**
 
-```
+```cpp
 ios_base& noskipws (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& noskipws (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noskipws() function
 
@@ -49,14 +49,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noskipws flag:
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of noskipws() function
 
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 noskipws flag:
 
 ```

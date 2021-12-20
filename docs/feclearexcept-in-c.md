@@ -5,7 +5,7 @@
 **feclearexcept()** 清除由 except 表示的支持的浮点异常。
 **语法:**
 
-```
+```cpp
 int feclearexcept(int excepts);
 excepts : Bitmask listing of exception flags to clear
 ```
@@ -16,7 +16,7 @@ excepts : Bitmask listing of exception flags to clear
 
 要使函数工作，您应该启用 **FENV_ACCESS** ，这将使您的程序能够访问浮点环境来测试引发的异常。
 
-```
+```cpp
 // Cpp program to demonstrate
 // feclearexcept()
 #include <fenv.h> /* feclearexcept FE_ALL_EXCEPT, FE_INVALID */
@@ -37,7 +37,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sqrt(-1) raises FE_INVALID
 
 ```

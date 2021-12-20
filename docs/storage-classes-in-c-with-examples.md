@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 storage_class var_data_type var_name; 
 ```
 
@@ -28,7 +28,7 @@ C++使用 5 个存储类，即:
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -63,7 +63,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Demonstrating auto class
 32 
 3.2 
@@ -77,7 +77,7 @@ G
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -123,7 +123,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Demonstrating extern class
 Value of the variable 'x'declared, as extern: 0
 Modified value of the variable 'x' declared as extern: 
@@ -134,7 +134,7 @@ Modified value of the variable 'x' declared as extern:
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -179,7 +179,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 For static variables: 1
 For static variables: 2
 For Non-Static variables: 1
@@ -192,7 +192,7 @@ For Non-Static variables: 1
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -219,7 +219,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Demonstrating register class
 Value of the variable 'b' declared as register: G
 ```
@@ -230,7 +230,7 @@ Value of the variable 'b' declared as register: G
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using std::cout;
 
@@ -268,6 +268,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 20
 ```

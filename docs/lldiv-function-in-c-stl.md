@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 lldiv(n, d)
 ```
 
@@ -17,7 +17,7 @@ lldiv(n, d)
 
 **返回值**:该函数返回一个类型为 **lldiv_t** 的结构，该结构由两个成员组成:**和 rem** ，其中*为商， *rem* 为余数。该结构定义如下:*
 
-```
+```cpp
 *struct lldiv_t {
     long long quot;
     long long rem;
@@ -28,7 +28,7 @@ lldiv(n, d)
 
 ***程序 1** :*
 
-```
+```cpp
 *// C++ program to illustrate the
 // lldiv() function
 #include <cstdlib>
@@ -54,7 +54,7 @@ int main()
 
 ***Output:**
 
-```
+```cpp
 Quotient of 1000/50 = 20
 Remainder of 1000/50 = 0
 
@@ -62,7 +62,7 @@ Remainder of 1000/50 = 0
 
 ***程序 2** :*
 
-```
+```cpp
 *// C++ program to illustrate
 // the lldiv() function
 #include <cstdlib>
@@ -87,7 +87,7 @@ int main()
 
 ***Output:**
 
-```
+```cpp
 Quotient of 251987/68 = 3705
 Remainder of 251987/68 = 47
 

@@ -14,7 +14,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <set>
 #include <iterator>
@@ -106,7 +106,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The multiset gquiz1 is : 
 60 50 50 40 30 20 10 
 
@@ -138,7 +138,7 @@ gquiz2.upper_bound(40) :
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -177,7 +177,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 3
 2
 0

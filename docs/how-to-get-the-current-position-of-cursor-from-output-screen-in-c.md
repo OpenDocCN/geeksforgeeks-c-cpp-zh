@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     int wherex();
     ```
 
@@ -22,7 +22,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     int wherey();
     ```
 
@@ -34,7 +34,7 @@
 
 **例 1:**
 
-```
+```cpp
 // C program to get the current
 // cursor position from output screen
 
@@ -60,7 +60,7 @@ void main()
 
 **例 2:**
 
-```
+```cpp
 // C program to get the current
 // cursor position from output screen
 

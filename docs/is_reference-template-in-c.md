@@ -6,7 +6,7 @@ C++ STL 的 **std::is_reference 模板**用于检查类型是否为引用类型�
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_reference;
 ```
 
@@ -21,7 +21,7 @@ template <class T > struct is_reference;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_reference template
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_reference: 
 gfg: false
 gfg&: true
@@ -64,7 +64,7 @@ gfg&&: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_reference template
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_reference: 
 int: false
 int&: true
@@ -116,7 +116,7 @@ char&&: true
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_reference template
 
@@ -156,7 +156,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_reference: 
 float: false
 float&: true

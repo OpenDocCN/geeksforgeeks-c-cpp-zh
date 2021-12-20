@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  x = 20
 ref = 30
 ```
@@ -42,7 +42,7 @@ ref = 30
 
     ## 卡片打印处理机（Card Print Processor 的缩写）
 
-    ```
+    ```cpp
     #include<iostream>
     using namespace std;
 
@@ -64,7 +64,7 @@ ref = 30
 
     **输出:**
 
-    ```
+    ```cpp
      3 2 
     ```
 
@@ -72,7 +72,7 @@ ref = 30
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     struct Student {
        string name;
        string address;
@@ -94,7 +94,7 @@ ref = 30
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     #include <bits/stdc++.h> 
     using namespace std; 
 
@@ -119,7 +119,7 @@ ref = 30
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     #include <bits/stdc++.h> 
     using namespace std; 
 
@@ -144,7 +144,7 @@ ref = 30
 
 1.指针可以被声明为无效，但是引用永远不能是无效的。例如
 
-```
+```cpp
 int a = 10;
 void* aa = &a;. //it is valid
 void &ar = a; // it is not valid
@@ -160,7 +160,7 @@ void &ar = a; // it is not valid
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -201,7 +201,7 @@ int main() {
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -222,7 +222,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -241,7 +241,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -267,7 +267,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -283,7 +283,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -299,7 +299,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

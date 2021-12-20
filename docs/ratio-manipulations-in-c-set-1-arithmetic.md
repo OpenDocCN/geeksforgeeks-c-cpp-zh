@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // ratio_add and ratio_subtract
 #include<iostream>
@@ -45,7 +45,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The sum of ratios is : 2/1
 The difference of ratios is : 1/2
 ```
@@ -55,7 +55,7 @@ The difference of ratios is : 1/2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // ratio_multiply and ratio_divide
 #include<iostream>
@@ -90,7 +90,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The product of ratios is : 15/16
 The division of ratios is : 5/3
 ```

@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program use of puts
 #include <iostream>
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geeksforgeeks
 
 ```
@@ -45,7 +45,7 @@ Geeksforgeeks
 
 ## C++
 
-```
+```cpp
 // C++ program use of cout
 #include <iostream>
 using namespace std;
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Geeksforgeeks
 
 ```

@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```cpp
 struct date dt;
 getdate(&dt);
 
@@ -20,7 +20,7 @@ getdate(&dt);
 
 **程序 1:**getdate()函数的实现
 
-```
+```cpp
 // C program to demonstrate getdate() method
 
 #include <dos.h>
@@ -53,7 +53,7 @@ int main()
 
 **语法**
 
-```
+```cpp
 struct date dt;
 setdate(&dt)
 
@@ -65,7 +65,7 @@ setdate(&dt)
 
 **程序 1:**setdate()函数的实现
 
-```
+```cpp
 // C program to demonstrate setdate() method
 
 #include <dos.h>

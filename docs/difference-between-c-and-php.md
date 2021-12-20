@@ -7,7 +7,7 @@ C++是由比雅尼·斯特劳斯特鲁普在贝尔实验室从 1979 年开始开
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -20,7 +20,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Welcome to GFG!
 
 ```
@@ -30,7 +30,7 @@ PHP 是一种服务器端脚本语言，主要用于 web 开发。它可以很�
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php 
 
 // Here echo command is 
@@ -41,7 +41,7 @@ echo "Welcome to GFG!"; 
 
 **Output**
 
-```
+```cpp
 Welcome to GFG! 
 
 ```

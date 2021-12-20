@@ -17,7 +17,7 @@
 | With this method, changes made to virtual variables in the called function will not affect the values of actual variables in the calling function. | In this way, using addresses, we can access actual variables, so we can manipulate them. |
 | 
 
-```
+```cpp
 // C program to illustrate
 // call by value
 
@@ -57,7 +57,7 @@ a=10 b=20
 
  | 
 
-```
+```cpp
 // C program to illustrate
 // Call by Reference
 

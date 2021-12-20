@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input: A = 2, B = 6
 Output: Quotient = 0, Remainder = 2
 
@@ -23,7 +23,7 @@ Output: Quotient = 3, Remainder = 2
 
 ## C
 
-```
+```cpp
 // C program to find quotient
 // and remainder of two numbers
 
@@ -55,7 +55,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // java program to find quotient
 // and remainder of two numbers
 
@@ -92,7 +92,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find quotient 
 # and remainder of two numbers
 
@@ -119,7 +119,7 @@ if __name__=='__main__':
 
 **Output**:
 
-```
+```cpp
 Enter two numbers A and B : 17 5
 Quotient when A/B is: 3
 Remainder when A/B is: 2

@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;    
 // Returns true if x is in range [low..high], else false    
@@ -25,12 +25,12 @@ int main()       
 
 输出:
 
-```
+```cpp
 Yes
 No
 ```
 
-```
+```cpp
  The above solution does two comparisons, 
  Can we do the same task using one comparison? 
 ```
@@ -40,7 +40,7 @@ No
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Yes
 No
 ```
@@ -72,7 +72,7 @@ No
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -91,7 +91,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Yes
 No
 ```

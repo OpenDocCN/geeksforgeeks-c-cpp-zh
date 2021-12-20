@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> T arg (const complex<T>& z);
 
 ```
@@ -21,7 +21,7 @@ template<class T> T arg (const complex<T>& z);
 
 **例 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of arg() function.
 
@@ -43,14 +43,14 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The argument of (5,12) is: 1.17601
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of arg() function
 
@@ -72,7 +72,7 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The argument of (4,3) is: 0.643501
 
 ```

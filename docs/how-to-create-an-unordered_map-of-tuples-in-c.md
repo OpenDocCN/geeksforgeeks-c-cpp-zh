@@ -22,7 +22,7 @@ hash_function 可以是任何东西，只要它可以对给定的密钥进行散
 
 ## C++
 
-```
+```cpp
 // CPP program to demonstrate implementation
 // of unordered_map for a tuple.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Contents of the unordered_map: 
 [700, 800, 900] ==> 1
 [100, 200, 300] ==> 1

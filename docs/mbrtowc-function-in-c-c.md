@@ -6,7 +6,7 @@ C/C++中的 **mbrtowc()** 函数将多字节序列转换为宽字符。该函数
 
 **语法:**
 
-```
+```cpp
 size_t mbrtowc (wchar_t* pwc, const char* pmb, size_t max, mbstate_t* ps)
 ```
 
@@ -29,7 +29,7 @@ size_t mbrtowc (wchar_t* pwc, const char* pmb, size_t max, mbstate_t* ps)
 以下程序说明了上述功能:
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // mbrtowc() function
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Next 1 bytes are the character z
 Next 2 bytes are the character Ã?
 Next 3 bytes are the character æ°´
@@ -81,7 +81,7 @@ Next 4 bytes are the character ð??
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // mbrtowc() function
 // with different UTF-8 characters
@@ -124,7 +124,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Next 3 bytes are the character â??
 Next 1 bytes are the character y
 Next 3 bytes are the character â??

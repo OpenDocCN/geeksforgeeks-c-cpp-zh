@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 int main()
 {
     void *vptr, v;

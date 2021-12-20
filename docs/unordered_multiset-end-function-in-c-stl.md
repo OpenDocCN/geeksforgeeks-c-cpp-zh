@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.end(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.end(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::end() function
 #include <bits/stdc++.h>
@@ -48,14 +48,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 14 13 15 10 11
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::end() function
 #include <bits/stdc++.h>
@@ -85,14 +85,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: z x c a b
 
 ```
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::end() function
 #include <bits/stdc++.h>
@@ -122,7 +122,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements in first bucket: x c
 
 ```

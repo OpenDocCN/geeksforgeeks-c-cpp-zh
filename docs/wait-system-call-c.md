@@ -14,7 +14,7 @@
 
 **c 语言语法:**
 
-```
+```cpp
 #include
 #include
 
@@ -33,7 +33,7 @@ pid_t wait(int *stat_loc);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C program to demonstrate working of wait()
 #include<stdio.h>
 #include<stdlib.h>
@@ -56,14 +56,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Parent pid = 12345678 
 Child pid = 89546848 
 ```
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working of wait()
 #include<stdio.h>
 #include<sys/wait.h>
@@ -87,7 +87,7 @@ int main()
 
 **输出:**取决于环境
 
-```
+```cpp
 HC: hello from child
 Bye
 HP: hello from parent
@@ -118,7 +118,7 @@ Bye
 3。**WIFTSTOPED(状态)**:儿童停止
 **WSTOPSIG(状态)**:给出停止信号的编号
 
-```
+```cpp
 /*if we want to prints information about a signal */
 void psignal(unsigned sig, const char *s);
 ```
@@ -128,7 +128,7 @@ void psignal(unsigned sig, const char *s);
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working of status
 // from wait.
 #include<stdio.h>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Exit status: 1              
 ```
 
@@ -183,7 +183,7 @@ Exit status: 1
 
 ## C
 
-```
+```cpp
 // C program to demonstrate waitpid()
 #include<stdio.h>
 #include<stdlib.h>
@@ -224,7 +224,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Child 50 terminated with status: 100
 Child 51 terminated with status: 101
 Child 52 terminated with status: 102

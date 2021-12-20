@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 char str[4] = "GfG"; /*One extra for string terminator*/
 /*    OR    */
 char str[4] = {‘G’, ‘f’, ‘G’, '\0'}; /* '\0' is string terminator */
@@ -23,7 +23,7 @@ char str[4] = {‘G’, ‘f’, ‘G’, '\0'}; /* '\0' is string terminator */
 
 ## C
 
-```
+```cpp
 char *str  =  "GfG";  
 ```
 
@@ -35,7 +35,7 @@ char *str  =  "GfG";  
 
 ## C
 
-```
+```cpp
 char *str;
 int size = 4; /*one extra for ‘\0’*/
 str = (char *)malloc(sizeof(char)*size);
@@ -52,7 +52,7 @@ str = (char *)malloc(sizeof(char)*size);
 
 ## C
 
-```
+```cpp
 int main()
 {
  char *str; 
@@ -67,7 +67,7 @@ int main()
 
 ## C
 
-```
+```cpp
 int main()
 {
  char str[] = "GfG";  /* Stored in stack segment like other auto variables */
@@ -81,7 +81,7 @@ int main()
 
 ## C
 
-```
+```cpp
 int main()
 {
   int size = 4;
@@ -103,7 +103,7 @@ int main()
 
 ## C
 
-```
+```cpp
 char *getString()
 {
   char *str = "GfG"; /* Stored in read only part of shared segment */
@@ -124,7 +124,7 @@ int main()
 
 ## C
 
-```
+```cpp
 char *getString()
 {
   int size = 4;
@@ -149,7 +149,7 @@ int main()
 
 ## C
 
-```
+```cpp
 char *getString()
 {
   char str[] = "GfG"; /* Stored in stack segment */

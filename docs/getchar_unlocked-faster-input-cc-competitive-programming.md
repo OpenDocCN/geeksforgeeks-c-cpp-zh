@@ -4,7 +4,7 @@
 
 [getchar _ unlock()](http://linux.die.net/man/3/getchar_unlocked)与 getchar()类似，只是它不是线程安全的。下面是一个示例代码。
 
-```
+```cpp
 // A simple C program to demonstrate
 // working of getchar_unlocked()
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input: g
 Output: Entered character is g 
 ```
@@ -33,7 +33,7 @@ Output: Entered character is g
 5.  ***It is well known that it is faster than scanf () than cin, while getchar () is generally faster than scanf (). Getchar _ unlocked () is faster than getchar (), so it is the fastest.***
 6.  Similarly, there are two non-thread safe versions of getc _ unlock()putc _ unlock () and putchar _ unlocked (), which are getc (), putc () and putchar () respectively.
 
-    ```
+    ```cpp
     // A simple C program to demonstrate
     // working of putchar_unlocked()
     #include <stdio.h>
@@ -48,7 +48,7 @@ Output: Entered character is g
     }
     ```
 
-    ```
+    ```cpp
     Input: g
     Output: g
 

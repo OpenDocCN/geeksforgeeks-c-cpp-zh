@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: set = [10 20 30 70 80 90 100 40 50 60]
 Output: 100 90 80 70 60 50 40 30 20 10 
 
@@ -26,7 +26,7 @@ Output: 5 4 3 2 1
 
 **程序:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -65,7 +65,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of Set in normal order:
 10 11 12 14 15 
 Elements of Set in reverse order:

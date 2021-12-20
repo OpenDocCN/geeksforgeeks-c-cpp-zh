@@ -10,7 +10,7 @@ empty()函数用于检查地图容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *mapname*.empty()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input  : map 
          mymap['a']=10;
          mymap['b']=20;
@@ -40,7 +40,7 @@ Output : True
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // Non Empty map example
 // CPP program to illustrate
 // Implementation of empty() function
@@ -65,11 +65,11 @@ int main()
 
 输出:
 
-```
+```cpp
 False
 ```
 
-```
+```cpp
 // Empty map example
 // CPP program to illustrate
 // Implementation of empty() function
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 ```
 

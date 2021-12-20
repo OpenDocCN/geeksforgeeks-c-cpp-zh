@@ -6,7 +6,7 @@
 将值读入类的对象，并进行必要的操作。
 **理论:**
 
-```
+```cpp
 The data transfer is usually done using '>>'
 and <<' operators. But if you have
 a class with 4 data members and want 
@@ -26,7 +26,7 @@ file_obj.read((char *) & class_obj, sizeof(class_obj));
 
 **示例:**
 
-```
+```cpp
 Input : 
 Input.txt :
 Michael 19 1806
@@ -42,7 +42,7 @@ Terry
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate read/write of class
 // objects in C++.
 #include <iostream>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Terry
 
 ```

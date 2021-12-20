@@ -12,7 +12,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 *   **Socket creation:**
 
-    ```
+    ```cpp
     int sockfd = socket(domain, type, protocol)
     ```
 
@@ -25,7 +25,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 *   **Setsockopt:**
 
-    ```
+    ```cpp
     int setsockopt(int sockfd, int level, int optname,  
                        const void *optval, socklen_t optlen);
     ```
@@ -34,7 +34,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 *   **Bind:**
 
-    ```
+    ```cpp
     int bind(int sockfd, const struct sockaddr *addr, 
                               socklen_t addrlen);
     ```
@@ -43,7 +43,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 *   **Listen:**
 
-    ```
+    ```cpp
     int listen(int sockfd, int backlog);
     ```
 
@@ -51,7 +51,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 *   **Accept:**
 
-    ```
+    ```cpp
     int new_socket= accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
     ```
 
@@ -62,7 +62,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 *   **套接字连接:**与服务器的套接字创建完全相同
 *   **Connect:**
 
-    ```
+    ```cpp
     int connect(int sockfd, const struct sockaddr *addr,  
                                  socklen_t addrlen);
     ```
@@ -74,7 +74,7 @@ Socket 编程是连接网络上两个节点相互通信的一种方式。一个�
 
 ## server.c
 
-```
+```cpp
 // Server side C/C++ program to demonstrate Socket programming
 #include <unistd.h>
 #include <stdio.h>

@@ -6,7 +6,7 @@
 
 1.  **Syntax:**
 
-    ```
+    ```cpp
     vector_name.insert (position, val)
 
     ```
@@ -20,7 +20,7 @@
 
     **示例 1:** 下面的程序说明了上述功能，其中新元素被插入到前面。
 
-    ```
+    ```cpp
     // Program below illustrates the
     // vector::insert() function
 
@@ -51,14 +51,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The vector elements are: 2 3 7 10 20 30 40
 
     ```
 
     **示例 2:** 下面的程序说明了上述功能，其中新元素被插入到特定位置。
 
-    ```
+    ```cpp
     // Program below illustrates the
     // vector::insert() function
 
@@ -85,14 +85,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The vector elements are: 10 20 30 40 50 60 70 80
 
     ```
 
 2.  **Syntax:**
 
-    ```
+    ```cpp
     vector_name.insert(position, size, val)
 
     ```
@@ -107,7 +107,7 @@
 
     下面的程序说明了上述功能:
 
-    ```
+    ```cpp
     // program below illustrates the
     // vector::insert() function
 
@@ -135,14 +135,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The vector elements are: 4 4 3 10 20 30 40
 
     ```
 
 3.  **Syntax:**
 
-    ```
+    ```cpp
     vector_name.insert(position, iterator1, iterator2)
 
     ```
@@ -157,7 +157,7 @@
 
     以下是上述功能的图示:
 
-    ```
+    ```cpp
     // program below illustrates the
     // vector::insert() function
 
@@ -183,7 +183,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The vector2 elements are: 10 20 30 40
 
     ```

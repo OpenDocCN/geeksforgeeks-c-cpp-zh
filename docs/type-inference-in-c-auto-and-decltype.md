@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of auto
 // and type inference
 
@@ -43,7 +43,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 i
 d
 Pi
@@ -59,7 +59,7 @@ Pi
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that we can use auto to
 // save time when creating iterators
 
@@ -83,7 +83,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 for geeks org 
 ```
 
@@ -98,7 +98,7 @@ for geeks org
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate use of decltype
 #include <bits/stdc++.h>
 using namespace std;
@@ -122,7 +122,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 i
 c
 ```
@@ -131,7 +131,7 @@ c
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate use of decltype
 #include <bits/stdc++.h>
 using namespace std;
@@ -152,7 +152,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 i
 ```
 
@@ -162,7 +162,7 @@ i
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate use of decltype in functions
 #include <bits/stdc++.h>
 using namespace std;
@@ -190,7 +190,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 3.44
 3
 ```

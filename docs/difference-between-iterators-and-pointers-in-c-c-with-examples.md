@@ -5,7 +5,7 @@
 [**指针**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) **:** 指针是一个变量，它包含另一个变量的地址，即该变量的内存位置的地址。像任何变量或常量一样，在使用指针存储任何变量地址之前，我们必须声明一个指针。
 **语法:**
 
-```
+```cpp
 type* var_name;
 ```
 
@@ -13,7 +13,7 @@ type* var_name;
 
 ## C
 
-```
+```cpp
 // The output of this program can be different
 // in different runs. Note that the program
 // prints address of a variable and a variable
@@ -34,14 +34,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0x7ffcac5ae824
 ```
 
 [**迭代器**](https://www.geeksforgeeks.org/introduction-iterators-c/) **:** 迭代器是任何对象，它指向元素范围(如数组或容器)中的某个元素，能够遍历该范围的元素。
 **语法:**
 
-```
+```cpp
 type_container :: iterator var_name;
 ```
 
@@ -49,7 +49,7 @@ type_container :: iterator var_name;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate iterators
 #include <iostream>
 #include <vector>
@@ -101,7 +101,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Without iterators = 1 2 3 
 With iterators = 1 2 3 
 Without iterators = 1 2 3 4 

@@ -23,7 +23,7 @@
 
 **驾驶员代码**:
 
-```
+```cpp
 // C program to demonstrate working of
 // __attribute__((constructor)) and
 // __attribute__((destructor))
@@ -56,7 +56,7 @@ void calledLast()
 
 输出:
 
-```
+```cpp
 I am called first
 I am in main
 I am called last

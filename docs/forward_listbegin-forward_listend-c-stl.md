@@ -10,7 +10,7 @@ begin()函数用于返回指向转发列表容器第一个元素的迭代器。b
 
 **语法:**
 
-```
+```cpp
 *forwardlistname*.begin()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : myflist{1, 2, 3, 4, 5};
          myflist.begin();
 Output : *returns an iterator to the element 1*
@@ -38,7 +38,7 @@ Output : *returns an iterator to the element 8*
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of begin() function
 #include <forward_list>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5
 
 ```
@@ -72,7 +72,7 @@ end()函数用于返回指向列表容器最后一个元素的迭代器。end()�
 
 **语法:**
 
-```
+```cpp
 *forwardlistname*.end()
 Parameters :
 No parameters are passed.
@@ -84,7 +84,7 @@ iterator pointing to the last element.
 
 示例:
 
-```
+```cpp
 Input  : myflist{1, 2, 3, 4, 5};
          myflist.end();
 Output : *returns an iterator to the element 5*
@@ -100,7 +100,7 @@ Output : *returns an iterator to the element 7*
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of end() function
 #include <forward_list>
@@ -121,7 +121,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5
 
 ```

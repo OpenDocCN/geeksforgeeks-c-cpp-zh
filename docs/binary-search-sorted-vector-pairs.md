@@ -6,7 +6,7 @@
 
 **代码中的结构比较**包含两个函数，用于将关键字(搜索元素)与向量中的第一个元素进行比较
 
-```
+```cpp
 /* C++ code to demonstrate how Binary Search
    can be applied on a vector of pairs */
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 KEY    ELEMENT
 1    20
 2    80

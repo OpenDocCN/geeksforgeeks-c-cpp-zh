@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.hash_function()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::hash() function
 
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 15276750567035005396
 geeks2 geeks1 for
 
@@ -57,7 +57,7 @@ geeks2 geeks1 for
 
 **程序 2** :
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::hash() function
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5146686323530302118
 
 ```

@@ -9,7 +9,7 @@
 erase()函数用于从指定位置或范围移除容器中的元素。
 **语法:**
 
-```
+```cpp
 1\. ***setname.erase(position)***
 2\. ***setname.erase(startingposition, endingposition)***
 Parameters :
@@ -23,7 +23,7 @@ position of the container.
 
 示例:
 
-```
+```cpp
 Input  : myset{1, 2, 3, 4, 5}, iterator= 2
          myset.erase(iterator);
 Output : 1, 2, 4, 5
@@ -41,7 +41,7 @@ Output : 1, 2, 3, 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of erase() function
@@ -79,13 +79,13 @@ int main()
 
 输出:
 
-```
+```cpp
 4 5
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CHARACTER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of erase() function
@@ -123,7 +123,7 @@ int main()
 
 输出:
 
-```
+```cpp
 E G
 ```
 
@@ -131,7 +131,7 @@ E G
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of erase() function
@@ -163,13 +163,13 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3 4 5
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CHARACTER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of erase() function
@@ -201,7 +201,7 @@ int main()
 
 输出:
 
-```
+```cpp
 B C D
 ```
 
@@ -211,7 +211,7 @@ B C D
 **应用程序**
 给定一组整数，从集合中移除所有偶数元素并打印集合。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :1 3 5 7 9
 Explanation - 2, 4, 6 and 8 which are even are erased from the set
@@ -225,7 +225,7 @@ Explanation - 2, 4, 6 and 8 which are even are erased from the set
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of erase() function
 #include <iostream>
@@ -256,6 +256,6 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 5 7 9
 ```

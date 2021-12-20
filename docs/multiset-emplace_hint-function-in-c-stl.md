@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.emplace_hint(iterator position, value)
 ```
 
@@ -21,7 +21,7 @@ multiset_name.emplace_hint(iterator position, value)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::emplace_hint() function
 #include <bits/stdc++.h>
@@ -56,14 +56,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::emplace_hint() function
 #include <bits/stdc++.h>
@@ -104,7 +104,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 6 6 6 6
 
 ```

@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate Default Arguments
 #include <iostream>
 using namespace std;
@@ -38,7 +38,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 25
 50
 80
@@ -51,7 +51,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate Function overloading in
 // Default Arguments
 #include <iostream>
@@ -79,7 +79,7 @@ int main()
 
 **错误:**
 
-```
+```cpp
 prog.cpp: In function 'int main()':
 prog.cpp:17:20: error: call of overloaded 
 'sum(int, int)' is ambiguous
@@ -102,7 +102,7 @@ int sum(int, int, float, float)
 *   在函数调用过程中，从调用函数到被调用函数的参数从左向右复制。因此，sum(10，15，25)会将 10，15 和 25 分配给 x，y 和 z。因此，默认值仅用于 w。
 *   一旦默认值用于函数定义中的某个参数，该参数的所有后续参数都必须具有默认值。也可以说默认参数是从右向左分配的。例如，以下函数定义无效，因为默认变量 z 的后续参数不是默认值。
 
-```
+```cpp
 // Invalid because z has default value, but w after it doesn't have a default value
 int sum(int x, int y, int z = 0, int w).
 ```

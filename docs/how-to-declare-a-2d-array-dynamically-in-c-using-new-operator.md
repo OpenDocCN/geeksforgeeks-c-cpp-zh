@@ -33,7 +33,7 @@
 
 **解决方案:**用 3 行 4 列声明以下 2D 数组，值如下:
 
-```
+```cpp
 1 2 3 4
 5 6 7 8
 9 10 11 12
@@ -45,7 +45,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically allocate
 // the memory for 2D array in C++
 // using new operator
@@ -93,7 +93,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 
 5 6 7 8 
 9 10 11 12
@@ -107,7 +107,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically allocate
 // the memory for 3D array in C++
 // using new operator
@@ -164,7 +164,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1 2 3 4 
 5 6 7 8 
 9 10 11 12

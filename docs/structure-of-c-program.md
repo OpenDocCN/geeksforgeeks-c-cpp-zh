@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 /*     This is a C++ program to find the
         factorial of a number
 
@@ -45,7 +45,7 @@
 *   任何用户都可以创建自己独立的名称空间，并且可以在任何其他程序中使用它们。
 *   在下面的片段中， [**命名空间标准**](https://www.geeksforgeeks.org/using-namespace-std-considered-bad-practice/) 包含对 [cout](https://www.geeksforgeeks.org/difference-between-cout-and-stdcout-in-c/) 、cin、 [endl](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/) 等的声明。陈述。
 
-```
+```cpp
 using namespace std;
 ```
 
@@ -74,7 +74,7 @@ using namespace std;
 
 ## C++
 
-```
+```cpp
 // Function to implement the
 // factorial of number num
 int factorial(k& num)
@@ -101,7 +101,7 @@ int factorial(k& num)
 
 ## C++
 
-```
+```cpp
 // Documentation Section
 /*  This is a C++ program to find the
     factorial of a number
@@ -155,7 +155,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 FACTORIAL
 5! = 120
 

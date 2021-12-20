@@ -4,7 +4,7 @@
 
 C++ 11 引入了 lambda 表达式，允许我们编写一个内联函数，该函数可以用于那些不会被重用且不值得命名的简短代码片段。在其最简单的形式中，λ表达式可以定义如下:
 
-```
+```cpp
  ***[ capture clause ] (parameters) -> return-type  
 {   
    definition of method   
@@ -14,7 +14,7 @@ C++ 11 引入了 lambda 表达式，允许我们编写一个内联函数，该�
 通常 lambda 表达式中的返回类型由编译器自己计算，我们不需要指定可以忽略显式和->返回类型部分，但是在一些复杂的情况下，如条件语句中，编译器无法识别返回类型，我们需要指定它。
 标准函数λ表达式的各种用法如下:
 
-```
+```cpp
 // C++ program to demonstrate lambda expression in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -96,7 +96,7 @@ int main()
 
 输出:
 
-```
+```cpp
 4 1 3 5 2 3 1 7 
 First number greater than 4 is : 5
 7 5 4 3 3 2 1 1 
@@ -119,7 +119,7 @@ Square of 5 is : 25
 带有空捕获子句[]lambda 只能访问其本地的变量。
 捕捉方式演示如下:
 
-```
+```cpp
 // C++ program to demonstrate lambda expression in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -173,7 +173,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First number greater than 5 is : 7
 The number of elements greater than or equal to 5 is : 3
 ```

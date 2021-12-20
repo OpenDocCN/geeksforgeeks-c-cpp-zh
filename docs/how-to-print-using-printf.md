@@ -7,7 +7,7 @@
 这是 C.
 中 printf 函数的标准原型
 
-```
+```cpp
           int printf(const char *format, ...);
 
 ```
@@ -24,14 +24,14 @@
 
 以上所有角色详见[http://swoolley.org/man.cgi/3/printf](http://swoolley.org/man.cgi/3/printf)。标准中需要注意的主要是下面关于转换说明符的一行。
 
-```
+```cpp
 A `%' is written. No argument is converted. The complete conversion specification is`%%'.
 
 ```
 
 因此，我们可以使用“%%”打印“%”
 
-```
+```cpp
 /* Program to print %*/
 #include<stdio.h>
 /* Program to print %*/
@@ -45,7 +45,7 @@ int main()
 
 我们也可以使用下面的打印“%”。
 
-```
+```cpp
 printf("%c", '%');
 printf("%s", "%");
 ```

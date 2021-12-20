@@ -5,7 +5,7 @@
 [三元运算符](https://www.geeksforgeeks.org/cc-ternary-operator-some-interesting-observations/)又称条件运算符，使用三个操作数进行运算。
 **语法:**
 
-```
+```cpp
 op1 ? op2 : op3;
 ```
 
@@ -20,13 +20,13 @@ op1 ? op2 : op3;
 1.  **一个？b : c = >** 这个三元运算符类似于 if-else 语句。所以可以用 if-else 语句的形式来表达。
     **使用三元运算符的表达式:**
 
-```
+```cpp
 a ? b : c
 ```
 
 **使用 if else 语句的表达式:**
 
-```
+```cpp
 if ( a ) 
     then b execute
 else 
@@ -37,7 +37,7 @@ else
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // nested ternary operators
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Execute expression using ternary operator: 5
 Execute expression using if else statement: 5
 ```
@@ -74,7 +74,7 @@ Execute expression using if else statement: 5
 2.**一个？乙:丙？d : e？外宾:g？h : i = >** 这个嵌套三元运算符可以分解为 if、else 和 else-if 语句。表达式可以在三进制运算符和 if else 语句中分成更小的部分，如下所示:
 **使用三进制运算符的表达式:**
 
-```
+```cpp
 a ? b
     : c ? d
     : e ? f
@@ -84,7 +84,7 @@ a ? b
 
 **使用 if else 语句的表达式:**
 
-```
+```cpp
  if a then b
     else if c then d
     else if e then f
@@ -94,7 +94,7 @@ a ? b
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // nested ternary operators
 #include <bits/stdc++.h>
@@ -122,7 +122,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Execute expression using ternary operator: 4
 Execute expression using if else statement: 4
 ```
@@ -130,7 +130,7 @@ Execute expression using if else statement: 4
 3.**一个？b？c : d : e = >** 下面是使用三元运算符和 if else 语句对表达式的扩展。
 **表达式使用三元运算符:**
 
-```
+```cpp
  a ?
       b ? c
     : d
@@ -139,7 +139,7 @@ Execute expression using if else statement: 4
 
 **使用 if else 语句的表达式:**
 
-```
+```cpp
 if ( a )
     if ( b )
         c execute
@@ -151,7 +151,7 @@ else
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // nested ternary operators
 #include <bits/stdc++.h>
@@ -180,7 +180,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Execute expression using ternary operator: 4
 Execute expression using if else statement: 4
 ```
@@ -216,7 +216,7 @@ Execute expression using if else statement: 4
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -232,6 +232,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Output : 50
 ```

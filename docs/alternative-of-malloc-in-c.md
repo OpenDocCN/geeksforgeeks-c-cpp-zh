@@ -23,12 +23,12 @@ C++中有两种类型的数组/字符串声明，如下所示
 
 **语法:**
 
-```
+```cpp
 int arr1[10];
 // Array declaration by specifying size
 ```
 
-```
+```cpp
 int n = 10;
 int arr2[n];
 ```
@@ -37,7 +37,7 @@ int arr2[n];
 
 **通过初始化元素进行数组声明**
 
-```
+```cpp
 int arr[] = {10, 20, 30, 40};
 // Array declaration by initializing elements
 ```
@@ -48,7 +48,7 @@ int arr[] = {10, 20, 30, 40};
 
 **语法:**
 
-```
+```cpp
 int arr[6] = {10, 20, 30, 40} ;
 // Array declaration by specifying size
 // and initializing elements
@@ -56,7 +56,7 @@ int arr[6] = {10, 20, 30, 40} ;
 
 > 编译器创建一个大小为 6 的数组，初始化用户指定的前 4 个元素，其余两个元素如上，如下所示:
 > 
-> ```
+> ```cpp
 > int arr[] = {10, 20, 30, 40, 0, 0}"
 > ```
 
@@ -68,7 +68,7 @@ int arr[6] = {10, 20, 30, 40} ;
 
 ## C
 
-```
+```cpp
 // C Program to Implement Static Declaration
 
 // Importing standard input output operations file
@@ -96,7 +96,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10 20
 ```
 
@@ -106,7 +106,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement Dynamic Memory Allocation
 // using Malloc
 
@@ -138,7 +138,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10 20
 ```
 
@@ -148,7 +148,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to implement Alternative to Malloc
 
 // Importing standard input output file
@@ -176,6 +176,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 10 20
 ```

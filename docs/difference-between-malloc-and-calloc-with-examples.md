@@ -8,13 +8,13 @@
 
 *   **Initialization:** malloc() allocates memory block of given size (in bytes) and returns a pointer to the beginning of the block. malloc() doesn’t initialize the allocated memory. If we try to access the content of memory block(before initializing) then we’ll get segmentation fault error(or maybe garbage values).
 
-    ```
+    ```cpp
     void* malloc(size_t size);
     ```
 
     calloc()分配内存，并将分配的内存块初始化为零。如果我们试图访问这些块的内容，那么我们将得到 0。
 
-    ```
+    ```cpp
     void* calloc(size_t num, size_t size);
     ```
 
@@ -25,7 +25,7 @@
 
     例如，如果我们想为 5 个整数的数组分配内存，请参见以下程序:-
 
-    ```
+    ```cpp
     // C program to demonstrate the use of calloc()
     // and malloc()
     #include <stdio.h>
@@ -55,7 +55,7 @@
 
     *我们可以通过使用 malloc()后跟 memset()，*来实现与 calloc()相同的功能
 
-    ```
+    ```cpp
     ptr = malloc(size);
     memset(ptr, 0, size);
     ```

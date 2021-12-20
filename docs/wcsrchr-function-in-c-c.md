@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 wcsrchr(str, ch)
 ```
 
@@ -24,7 +24,7 @@ wcsrchr(str, ch)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsrchr() function
 #include <cwchar>
@@ -49,14 +49,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Last position of e in "GeeksforGeeks" is 10
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsrchr() function
 #include <cwchar>
@@ -81,7 +81,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 o is not present in "Ishwar Gupta"
 
 ```

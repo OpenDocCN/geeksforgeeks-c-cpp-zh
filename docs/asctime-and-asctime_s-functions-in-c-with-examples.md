@@ -6,7 +6,7 @@
 **ASC time()**函数在 [**time.h 头文件**](https://www.geeksforgeeks.org/time-h-header-file-in-c-with-examples/) 中定义。该函数返回包含存储在指向 **struct tm** 类型的结构中的信息的字符串指针。该函数用于返回系统定义的当地时间。
 **语法:**
 
-```
+```cpp
 char *asctime(const struct tm* tm_ptr);
 ```
 
@@ -25,7 +25,7 @@ char *asctime(const struct tm* tm_ptr);
 
 ## C
 
-```
+```cpp
 // C program to demonstrate
 // the asctime() function
 
@@ -48,6 +48,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Wed Aug 14 04:21:25 2019
 ```

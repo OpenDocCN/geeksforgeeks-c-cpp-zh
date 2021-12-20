@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 class MyClass {
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a = 10 b = 10
 a = 20 b = 20
 ```
@@ -55,7 +55,7 @@ a = 20 b = 20
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 class MyClass {
@@ -87,7 +87,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a = 10 b = 20
 a = 30 b = 40
 ```

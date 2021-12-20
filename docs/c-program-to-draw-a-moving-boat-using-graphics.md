@@ -24,7 +24,7 @@
 
 ## C
 
-```
+```cpp
 // C program to draw the moving boat
 // using c graphics
 

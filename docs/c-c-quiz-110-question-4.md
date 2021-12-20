@@ -6,7 +6,7 @@
 
 这就是为什么如果我们在 foo()后使用分号，程序将在打印“GeeksQuiz”时编译并成功运行
 
-```
+```cpp
 #include "stdio.h"
 
 void foo(void)

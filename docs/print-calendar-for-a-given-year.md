@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ Program to Implement a Calendar
 // of an year
 #include<bits/stdc++.h>
@@ -201,7 +201,7 @@ int main()
 
 输出:
 
-```
+```cpp
  Calendar - 2016
 
   ------------January-------------

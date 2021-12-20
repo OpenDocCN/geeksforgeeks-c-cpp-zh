@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist1_name.splice_after(position iterator, forwardlist2_name,
                                     first iterator, last iterator) 
 
@@ -25,7 +25,7 @@ forwardlist1_name.splice_after(position iterator, forwardlist2_name,
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // splice_after() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements are: 
 4 20 30 40 9
 
@@ -63,7 +63,7 @@ Elements are:
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // splice_after() function
 #include <bits/stdc++.h>
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements are: 
 4 10 20 30 40 9
 

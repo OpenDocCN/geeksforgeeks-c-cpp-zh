@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 struct 
 {
    // Declaration of the struct
@@ -21,7 +21,7 @@ struct
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // making of structure
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The value is : 85
 The value is : G
 The value is : 989.45

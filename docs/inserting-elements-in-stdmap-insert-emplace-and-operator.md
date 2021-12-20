@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the working of insert()
 
 #include<iostream>
@@ -93,7 +93,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The key was newly inserted
 The map pairs after 1st insertion are : 
 a->20
@@ -116,7 +116,7 @@ b->24
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the working of emplace()
 // and emplace_hint()
 #include<iostream>
@@ -196,7 +196,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The key was newly inserted
 The map pairs after 1st insertion are : 
 a->24
@@ -215,7 +215,7 @@ b->20
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the working of operator[]
 
 #include<iostream>
@@ -252,7 +252,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The element keys to a is : 5
 The element keys to b is : 6
 The element keys to c is : 2

@@ -27,7 +27,7 @@
 
     **动物. cpp**
 
-    ```
+    ```cpp
     // C code to illustrate Internal Linkage
     #include <stdio.h>
 
@@ -44,7 +44,7 @@
 
     **饲料 cpp**
 
-    ```
+    ```cpp
     // C code to illustrate Internal Linkage
     #include <stdio.h>
 
@@ -59,7 +59,7 @@
 
     首先编译动物，然后编译饲料，我们得到
 
-    ```
+    ```cpp
     Output : 5 8 2
 
     ```
@@ -69,7 +69,7 @@
 
     **Wash.cpp**
 
-    ```
+    ```cpp
     // C code to illustrate Internal Linkage
     #include <stdio.h>
     #include "animal.cpp" // note that animal is included.
@@ -86,7 +86,7 @@
 
     在编译时，我们得到:
 
-    ```
+    ```cpp
     Output : 5 8
     having fun washing!
     10
@@ -106,7 +106,7 @@
     **请务必在进入以下示例之前，先通过 [了解 C](https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/) 中的 extern 关键字。**
     可以在局部范围内使用`extern`变量。这将进一步概述联系和范围之间的区别。考虑以下代码:
 
-    ```
+    ```cpp
     // C code to illustrate External Linkage
     #include <stdio.h>
 
@@ -129,7 +129,7 @@
     }
     ```
 
-    ```
+    ```cpp
     Error: 'b' was not declared in this scope
 
     ```
@@ -146,7 +146,7 @@
 
     让我们看另一个例子
 
-    ```
+    ```cpp
     // C code to illustrate External Linkage
     #include <stdio.h>
 
@@ -164,7 +164,7 @@
     int y = 2;
     ```
 
-    ```
+    ```cpp
     Output: 10 2 5
 
     ```

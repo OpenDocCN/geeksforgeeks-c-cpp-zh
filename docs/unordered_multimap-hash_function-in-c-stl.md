@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_multimap_name*.hash_function()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::hash_function()
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 15276750567035005396
 Key and Elements: {geeks:geeks}, {gopal:dave}, {gopal:dave}, {gopal:dave},
 
@@ -64,7 +64,7 @@ Key and Elements: {geeks:geeks}, {gopal:dave}, {gopal:dave}, {gopal:dave},
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::hash_function()
 #include <iostream>
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5146686323530302118
 Key and Elements: {geeks:geeks}, {gopal:dave},
 

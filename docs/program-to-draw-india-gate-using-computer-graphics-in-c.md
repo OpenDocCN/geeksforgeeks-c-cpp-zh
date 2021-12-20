@@ -27,7 +27,7 @@ p >在 [C 图形](https://www.geeksforgeeks.org/add-graphics-h-c-library-gcc-com
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <conio.h>

@@ -4,7 +4,7 @@
 
 给定一个数字 n，我们需要打印一个大小为 n 的 X 图案。
 
-```
+```cpp
 Input : n = 3
 Output : 
 $ $
@@ -36,7 +36,7 @@ $  $
 对于 i = 2:第二个和第二个最后一列应包含“{ content }”；
 一般来说，第 I 列和第(n+1–I)列应该包含“{ content }”；
 
-```
+```cpp
 // Program to make an X shape $ pattern in c++
 #include <iostream>
 using namespace std;

@@ -4,7 +4,7 @@
 
 假设 *int* 为 4 字节， *char* 为 1 字节， *float* 为 4 字节。此外，假设指针大小为 4 字节(即典型情况)
 
-```
+```cpp
 char *pChar;
 int *pInt;
 float *pFloat;

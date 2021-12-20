@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 size_t wcslen(const wchar_t* str);
 ```
 
@@ -18,7 +18,7 @@ size_t wcslen(const wchar_t* str);
 
 **例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcslen() function.
 
@@ -41,14 +41,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The length of 'geeks' is =5
 
 ```
 
 **例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcslen() function.
 
@@ -71,7 +71,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The length of 'A computer science portal for geeks' is =35
 
 ```

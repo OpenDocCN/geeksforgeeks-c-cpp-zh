@@ -54,7 +54,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use of
 // LuaCpp library
 #include <LuaCpp.hpp>
@@ -102,7 +102,7 @@ LuaCpp 到达时准备好在两个执行环境之间建立桥梁，将尽可能�
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // above approach
 #include <LuaCpp.hpp>

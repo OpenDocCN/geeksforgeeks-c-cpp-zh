@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -47,7 +47,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -74,7 +74,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // Initialization of reference data members
 #include<iostream>
 using namespace std;
@@ -105,7 +105,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -146,7 +146,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -182,7 +182,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -215,7 +215,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // Without Initializer List
 class MyClass {
     Type variable;
@@ -232,7 +232,7 @@ public:
 1 的对象。首先为“a”调用类型的构造函数。
 2。在 MyClass()构造函数的内部调用“Type”的赋值运算符进行赋值
 
-```
+```cpp
     variable = a;
 ```
 
@@ -242,7 +242,7 @@ public:
 
 ## C++
 
-```
+```cpp
 // With Initializer List
 class MyClass {
     Type variable;

@@ -6,7 +6,7 @@
 
 **算法:**
 
-```
+```cpp
 1\. Enter the whole string into stringstream.
 2\. Empty the string.
 3\. Extract word by word and concatenate to the string.
@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to remove spaces using stringstream
 #include <bits/stdc++.h>
 using namespace std;
@@ -69,7 +69,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Thisisatest
 geeksforgeeks
 geeksquizisawesome!

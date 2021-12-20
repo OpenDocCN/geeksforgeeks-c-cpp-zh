@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 /* comma as an operator */
 int i = (5, 10); /* 10 is assigned to i*/
 int j = (f1(), f2()); /* f1() is called (evaluated) first followed by f2().
@@ -20,7 +20,7 @@ int j = (f1(), f2()); /* f1() is called (evaluated) first followed by f2().
 
 ## C
 
-```
+```cpp
 /* comma as a separator */
 int a = 1, b = 2;
 void fun(x, y);
@@ -30,7 +30,7 @@ void fun(x, y);
 
 ## C
 
-```
+```cpp
 /* Comma acts as a separator here and doesn't enforce any sequence.
     Therefore, either f1() or f2() can be called first */
 void fun(f1(), f2());
@@ -42,7 +42,7 @@ C 与 C++使用逗号运算符的区别见[本](https://www.ibm.com/support/know
 
 ## C
 
-```
+```cpp
 // PROGRAM 1
 #include <stdio.h>
 int main()
@@ -58,7 +58,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // PROGRAM 2:  Thanks to Shekhu for suggesting this program
 #include <stdio.h>
 int main()
@@ -73,7 +73,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // PROGRAM 3:  Thanks to Venki for suggesting this program
 #include <stdio.h>
 int main()
@@ -110,7 +110,7 @@ a = 2，3，4；
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -140,7 +140,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -155,7 +155,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 First Line
 Second Line
 Third Line

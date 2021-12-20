@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement a
 // composition
 
@@ -51,7 +51,7 @@ class Location {
 
 ## C++
 
-```
+```cpp
 // C++ program to implement a
 // composite class
 using namespace std;
@@ -107,7 +107,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Number = 100
 ```
 

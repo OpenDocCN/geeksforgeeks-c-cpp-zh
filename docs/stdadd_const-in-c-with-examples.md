@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template < class T >
 struct add_const;
 
@@ -21,7 +21,7 @@ struct add_const;
 
 **语法:**
 
-```
+```cpp
 std::add_const<T>::value
 
 ```
@@ -32,7 +32,7 @@ std::add_const<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::add_const
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A is const int? true
 B is const int? true
 C is const int? false

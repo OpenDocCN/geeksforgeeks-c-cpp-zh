@@ -4,7 +4,7 @@
 
 > **Q1。这段代码的输出是真还是假？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. True
 B. False
 C. Program would crash
@@ -26,7 +26,7 @@ D. Compilation error
 
 **回答:**
 
-```
+```cpp
 A. True
 ```
 
@@ -35,7 +35,7 @@ A. True
 
 > **Q2。这个程序的输出是什么？**
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
@@ -50,7 +50,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. SDKJNSDNSKDJNSKDVNSKJD
 B. SLKFVMSLFKVSFLALKDJF
 C. ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -59,14 +59,14 @@ D. NONEOFTHEABOVE
 
 **回答:**
 
-```
+```cpp
 C. ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
 **解释:**
 分配给一个字符的空间只有 1 字节或 8 位。y 是在运行时分配的。它包含 x 的地址。现在，我们可以索引 x 的内存位置。并且，对 y 的任何更改也会反映在 x 中。当执行 y[0]+=1 时，在每个循环中，该 1 字节数据的最后一位递增 1，如下所示:
 
-```
+```cpp
 Initial:
 00001010 (Binary form of 'A')
 
@@ -83,7 +83,7 @@ and goes on up till Z.
 
 > **Q3。这个节目最后会印些什么？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -96,7 +96,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. 20 20
 B. 20 10
 C. 10 10
@@ -105,7 +105,7 @@ D. 10 20
 
 **回答:**
 
-```
+```cpp
 D. 10 20
 ```
 
@@ -115,7 +115,7 @@ D. 10 20
 
 > **Q4。程序结尾的 a 的值和开头的值一样吗？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -129,7 +129,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. Yes
 B. No
 C. Program would crash
@@ -138,14 +138,14 @@ D. Compilation error
 
 **回答:**
 
-```
+```cpp
 A. Yes
 ```
 
 **说明:**
 100 的二进制值是 01100100，132 是 10000100，3 是 0000011。这就是发生的事情
 
-```
+```cpp
    b[3]     b[2]     b[1]     b[0]
  00000000 00000000 00000000 01100100
 +00000000 00000000 00000011 10000100
@@ -160,7 +160,7 @@ This gives 1000.
 
 > **Q5。这个程序会怎么样？**
 
-```
+```cpp
 #include <stdio.h>
 struct A {
     int a;
@@ -181,7 +181,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. Compilation error
 B. Segmentation Fault
 C. Output would be returned
@@ -190,7 +190,7 @@ D. None of the above
 
 **回答:**
 
-```
+```cpp
 B. Segmentation Fault
 ```
 
@@ -199,7 +199,7 @@ B. Segmentation Fault
 
 > **Q6。这个程序的输出是什么(把 x 的地址看作 62fe14)？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -212,7 +212,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. 0x0010
    0x1902
 B. Crash
@@ -224,7 +224,7 @@ D. 0x62fe14
 
 **回答:**
 
-```
+```cpp
 D. 0x62fe14
    0x62fe14
 ```
@@ -234,7 +234,7 @@ y[0]已经包含 0x 62 fe14(x 的地址)。而*y 给出了 x 的地址，即 0x6
 
 > **Q7。这个程序的输出是什么？**
 
-```
+```cpp
 #include <stdio.h>
 struct A {
     int a1;
@@ -255,7 +255,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. a
 B. b
 C. ab
@@ -264,7 +264,7 @@ D. No output
 
 **回答:**
 
-```
+```cpp
 B. b
 ```
 
@@ -273,7 +273,7 @@ B. b
 
 > **Q8。印的是什么？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -289,7 +289,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. Karnataka
 B. karnataka
 C. Kerala
@@ -298,7 +298,7 @@ D. kerala
 
 **回答:**
 
-```
+```cpp
 A. Karnataka
 ```
 
@@ -307,7 +307,7 @@ A. Karnataka
 
 > **Q9。这个程序的输出是什么样的？**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -322,7 +322,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. decimal value of 1011001100110011 decimal value of 1111000011110011 decimal value of 0111000011010011 decimal value of 0011000000001001
 B. Junk value Junk value Junk value decimal value of 0011000000001001
 C. Junk value Junk value Junk value Junk value
@@ -331,7 +331,7 @@ D. Junk value Junk value decimal value of 0111000011010011 decimal value of 0011
 
 **回答:**
 
-```
+```cpp
 D. Junk value Junk value decimal value of 0111000011010011 decimal value of 0011000000001001
 ```
 
@@ -340,7 +340,7 @@ D. Junk value Junk value decimal value of 0111000011010011 decimal value of 0011
 
 > **Q10。这个程序的输出是什么？**
 
-```
+```cpp
 #include <stdio.h>
 union A {
     int a;
@@ -358,7 +358,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 A. 0 0 0 0 0 0 0 64
 B. 0 0 0 0 0 0 0 0
 C. All junk values
@@ -367,7 +367,7 @@ D. 0 0 0 0 0 0 0 A
 
 **回答:**
 
-```
+```cpp
 A. 0 0 0 0 0 0 0 64
 ```
 

@@ -6,7 +6,7 @@
 
 **差异:**
 
-```
+```cpp
                 |     set             | unordered_set
 ---------------------------------------------------------
 Ordering        | increasing  order   | no ordering
@@ -39,7 +39,7 @@ Deletion time   | log(n) + Rebalance  | Same as search
 
 示例:
 
-```
+```cpp
 set:
 Input  :  1, 8, 2, 5, 3, 9
 Output :  1, 2, 3, 5, 8, 9
@@ -52,7 +52,7 @@ Output : 9 3 1 8 2 5
 
 如果要看 c++ STL 中 set 和无序 _set 的实现细节，参见 [Set Vs Map](https://www.geeksforgeeks.org/set-vs-map-c-stl/) 。Set 允许按排序顺序遍历元素，而 Unordered_set 不允许按排序顺序遍历元素。
 
-```
+```cpp
 // Program to print elements of set
 #include <bits/stdc++.h>
 using namespace std;
@@ -77,13 +77,13 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of set in sorted order: 
 1 2 3 5 6 7
 
 ```
 
-```
+```cpp
 // Program to print elements of set
 #include <bits/stdc++.h>
 using namespace std;
@@ -108,7 +108,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements of unordered_set: 
 2 7 5 1 6 3
 
@@ -117,7 +117,7 @@ Elements of unordered_set:
 *中的【前任/继任者】 :可以修改
 集合来查找前任或继任者，而无序 _ 集合不允许查找前任/继任者。*
 
-```
+```cpp
 *// Program to print inorder predecessor and inorder successor
 #include <bits/stdc++.h>
 using namespace std;
@@ -189,7 +189,7 @@ int main()
 
 ***Output:**
 
-```
+```cpp
 predecessor of 5 is=2
 No predecessor
 predecessor of 8 is=5

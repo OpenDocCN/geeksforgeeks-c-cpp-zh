@@ -22,7 +22,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate the use of copy constructor
 // and assignment operator
 #include <iostream>
@@ -57,7 +57,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Assignment operator called 
 Copy constructor called 
 ```

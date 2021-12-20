@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to show that it is wrong to
 // compute size of an array parameter in a function
 #include <iostream>
@@ -29,7 +29,7 @@ int main()
 
 输出:
 
-```
+```cpp
 40 8
 ```
 
@@ -39,7 +39,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to show that we can use reference to
 // find size of array
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 40 40
 ```
 
@@ -69,7 +69,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to show that we use template and
 // reference to find size of integer array parameter
 #include <iostream>
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 40 40
 ```
 
@@ -100,7 +100,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to show that we use template and
 // reference to find size of any type array parameter
 #include <iostream>
@@ -127,7 +127,7 @@ int main()
 
 输出:
 
-```
+```cpp
 40 40
 80 80
 ```
@@ -136,7 +136,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <cstdlib>
 using namespace std;

@@ -15,7 +15,7 @@ C++提供 [std::无序 _ 集合](https://www.geeksforgeeks.org/unordered_set-in-
 
 ## C++
 
-```
+```cpp
 // C++ program to determine worst case
 // time complexity of an unordered_map
 
@@ -70,7 +70,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 for 107897 : 2.261 seconds 
 for 126271 : 0.024 seconds
 ```
@@ -81,7 +81,7 @@ for 126271 : 0.024 seconds
 
 ## C++
 
-```
+```cpp
 struct hash {
     size_t operator()(uint64_t x)
         const { return x; }
@@ -95,7 +95,7 @@ struct hash {
 
 ## C++
 
-```
+```cpp
 struct modified_hash {
     static uint64_t splitmix64(uint64_t x)
     {
@@ -139,7 +139,7 @@ struct modified_hash {
 
 ## C++
 
-```
+```cpp
 // C++ program to determine worst case
 // time complexity of an unordered_map
 // using modified hash function
@@ -216,7 +216,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 for 107897 : 0.025 seconds 
 for 126271 : 0.024 seconds
 ```
@@ -227,7 +227,7 @@ for 126271 : 0.024 seconds
 
 因此，我们可以使用根据我们的输入大小预先预留容量。reserve()方法。
 
-```
+```cpp
 umap.reserve(1024);
 ```
 
@@ -239,7 +239,7 @@ umap.reserve(1024);
 
 通过将其设置为较低的值，如 0.25，可以在很大程度上降低碰撞的概率。
 
-```
+```cpp
 umap.max_load_factor(0.25);
 ```
 
@@ -247,7 +247,7 @@ umap.max_load_factor(0.25);
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 using namespace std::chrono;
@@ -300,7 +300,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 for 107897 : 0.029 seconds
 for 126271 : 0.026 seconds
 ```

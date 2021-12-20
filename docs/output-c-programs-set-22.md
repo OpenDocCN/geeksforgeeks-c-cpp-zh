@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -20,7 +20,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compile time error!
 
 ```
@@ -28,7 +28,7 @@ Compile time error!
 **说明:**
 声明时不能用链式语句初始化变量。因此陈述 a = b = c = 0；是非法的陈述。但是遵循合法的语法，可以用在 C++或 C 中
 
-```
+```cpp
 int a,b,c;
       a = b = c = 0;
 
@@ -36,7 +36,7 @@ int a,b,c;
 
 **问题 2**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Infinite Loop!
 
 ```
@@ -59,7 +59,7 @@ Infinite Loop!
 
 **问题 3**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -77,7 +77,7 @@ int main()
 
 输出:
 
-```
+```cpp
 hello!3
 
 ```
@@ -87,7 +87,7 @@ hello!3
 
 **问题 4**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -102,7 +102,7 @@ int main()
 
 输出:
 
-```
+```cpp
 4
 
 ```
@@ -112,7 +112,7 @@ int main()
 
 **问题 5**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -127,7 +127,7 @@ int main()
 
 输出:
 
-```
+```cpp
 50$60
 
 ```
@@ -137,7 +137,7 @@ int main()
 
 **问题 6**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -153,7 +153,7 @@ int main()
 
 输出:
 
-```
+```cpp
 120
 
 ```
@@ -163,7 +163,7 @@ int main()
 
 **问题 7**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -182,7 +182,7 @@ int main(int x)
 
 输出:
 
-```
+```cpp
 4321
 
 ```
@@ -192,7 +192,7 @@ c++中的任何非零数字都被视为真值。在这段代码中，if 语句�
 
 **问题 8**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -211,7 +211,7 @@ int main(int x)
 
 输出:
 
-```
+```cpp
 infinite loop
 
 ```

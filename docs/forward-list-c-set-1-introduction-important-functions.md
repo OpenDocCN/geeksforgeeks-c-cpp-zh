@@ -10,7 +10,7 @@ STL 中的正向列表实现了单链表。从 C++11 引入的正向列表在插
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ code to demonstrate forward list
 // and assign()
 #include<iostream>
@@ -49,7 +49,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 The elements of first forward list are : 1 2 3 
 The elements of second forward list are : 10 10 10 10 10
 ```
@@ -60,7 +60,7 @@ The elements of second forward list are : 10 10 10 10 10
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ code to demonstrate working of
 // push_front(), emplace_front() and pop_front()
 #include<iostream>
@@ -108,7 +108,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 The forward list after push_front operation : 60 10 20 30 40 50 
 The forward list after emplace_front operation : 70 60 10 20 30 40 50 
 The forward list after pop_front operation : 60 10 20 30 40 50
@@ -120,7 +120,7 @@ The forward list after pop_front operation : 60 10 20 30 40 50
 
 ## ****卡片打印处理机（Card Print Processor 的缩写）****
 
-```
+```cpp
 **// C++ code to demonstrate working of
 // insert_after(), emplace_after() and erase_after()
 #include<iostream>
@@ -171,7 +171,7 @@ int main()
 
 ****输出:**** 
 
-```
+```cpp
 **The forward list after insert_after operation : 10 1 2 3 20 30 
 The forward list after emplace_after operation : 10 1 2 3 2 20 30 
 The forward list after erase_after operation : 10 1 2 3 2 30**
@@ -182,7 +182,7 @@ The forward list after erase_after operation : 10 1 2 3 2 30**
 
 ## ****卡片打印处理机（Card Print Processor 的缩写）****
 
-```
+```cpp
 **// C++ code to demonstrate working of remove() and
 // remove_if()
 #include<iostream>
@@ -221,7 +221,7 @@ int main()
 
 ****输出:**** 
 
-```
+```cpp
 **The forward list after remove operation : 10 20 30 25 
 The forward list after remove_if operation : 10 20**
 ```
@@ -230,7 +230,7 @@ The forward list after remove_if operation : 10 20**
 
 ## ****卡片打印处理机（Card Print Processor 的缩写）****
 
-```
+```cpp
 **// C++ code to demonstrate working of
 // splice_after()
 #include<iostream>
@@ -261,7 +261,7 @@ int main()
 
 ****输出:**** 
 
-```
+```cpp
 **The forward list after splice_after operation : 40 10 20 30 50 60**
 ```
 

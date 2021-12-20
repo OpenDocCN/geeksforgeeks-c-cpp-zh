@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strupr(char *str);
 
 ```
@@ -23,7 +23,7 @@ char *strupr(char *str);
 
 **实施例 1:-**
 
-```
+```cpp
 // c program to demonstrate
 // example of strupr() function.
 #include<stdio.h>
@@ -40,14 +40,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GEEKSFORGEEKS IS THE BEST
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c program to demonstrate
 // example of strupr() function.
 
@@ -67,7 +67,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Given string is: CompuTer ScienCe PoRTAl fOr geeKS
 
 string after converting to the uppercase is: COMPUTER SCIENCE PORTAL FOR GEEKS

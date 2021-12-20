@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```cpp
 // C++ program to implement 
 // unordered_map::equal_range() function
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 first : 1
 second : 3
 
@@ -60,7 +60,7 @@ second : 1
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to search 'unordered map' container
 #include <iostream>
 #include <unordered_map>
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 search for 'f' :
 search for 'a' : [a, b]
 

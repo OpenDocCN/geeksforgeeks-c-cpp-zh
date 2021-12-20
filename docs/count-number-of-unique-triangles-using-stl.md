@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```cpp
 Input: arr[] = {{1, 2, 2},
                 {4, 5, 6}, 
                 {4, 5, 6}    
@@ -25,7 +25,7 @@ Output: 3
 
 如何将三面作为一个元素存储在容器中？我们使用 STL [对](http://geeksquiz.com/pair-simple-containers-the-c-standard-template-library-stl/)将所有三个面存储在一起作为
 
-```
+```cpp
 pair <int, pair<int, int> >
 ```
 
@@ -37,7 +37,7 @@ pair <int, pair<int, int> >
 
 下面是上面思路的 C++实现:
 
-```
+```cpp
 // A C++ program to find number of unique Triangles
 #include <bits/stdc++.h>
 using namespace std;
@@ -101,7 +101,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of Unique Triangles are 4
 ```
 

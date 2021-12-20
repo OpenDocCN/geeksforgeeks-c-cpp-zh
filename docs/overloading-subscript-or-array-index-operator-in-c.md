@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```cpp
 postfix-expression[expression];
 
 Example: Ramswarup[10];
@@ -25,7 +25,7 @@ Ramswarup at index position 10.
 下标操作符后面的主表达式是指针，它可以是整数值，但是必须记住，两个表达式中的一个表达式必须是指针值，第二个表达式是否是整数值并不重要。
 **例:**
 
-```
+```cpp
 // CPP program to demonstrate []
 // operator
 #include <iostream>
@@ -43,13 +43,13 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a
 a
 
 ```
 
-```
+```cpp
 OUTPUT
 a
 a
@@ -62,7 +62,7 @@ a
 **正负下标**
 数组的第一个元素存储在索引 0 处。C++数组的范围是从数组[0]到数组[大小–1]。但是，C++支持正下标和负下标。负数下标必须在数组边界内；如果他们不这样做，结果是不可预测的。下面的代码显示了正负数组下标:
 
-```
+```cpp
 // CPP program illustrating the
 // positive and negative subscripts
 #include <iostream>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 512
 257
 256
@@ -112,7 +112,7 @@ int main()
 
 下面是演示数组索引运算符[]重载的 C++程序。
 
-```
+```cpp
 // Overloading operators for Array class
 #include <cstdlib>
 #include <iostream>
@@ -179,7 +179,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 6 5 
 Array index out of bound, exiting
 
@@ -187,7 +187,7 @@ Array index out of bound, exiting
 
 输出:
 
-```
+```cpp
 1 2 6 5
 Array index out of bound, exiting
 ```

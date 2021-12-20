@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.cbegin(n)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.cbegin(n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cbegin() function
 #include <bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cbegin() function
 #include <bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::cbegin() function
 #include <bits/stdc++.h>

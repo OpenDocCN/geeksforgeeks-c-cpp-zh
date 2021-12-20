@@ -5,7 +5,7 @@
 **1。什么是[析构器](https://www.geeksforgeeks.org/destructors-c/)？**
 俺们。析构函数是一个成员函数，当一个对象被删除/销毁或超出范围时调用。
 
-```
+```cpp
 class String {
 private:
     char* s;
@@ -20,7 +20,7 @@ public:
 **2。C++中使用析构函数的目的是什么？**
 俺们。析构函数的主要目的是释放所有资源(打开的文件、打开的套接字、数据库连接、资源锁等)。)是在对象的生命周期中分配的。
 
-```
+```cpp
 // CPP program to demonstrate destructors.
 class Geeks {
 private:
@@ -63,7 +63,7 @@ public:
 **8。我们能有虚拟析构函数吗？如果是这样，虚拟析构函数有什么用。**
 俺们。是的，我们可以。这是为了确保在运行时调用正确的类析构函数。特别是当我们使用基类指针或引用来保存派生类对象时。如果我们没有虚拟析构函数，那么它最终只会调用基类析构函数。
 
-```
+```cpp
 // CPP program without virtual destructor
 // causing undefined behavior
 #include <iostream>

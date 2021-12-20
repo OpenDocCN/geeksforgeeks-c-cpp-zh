@@ -4,7 +4,7 @@
 
 为一个指针调用 delete 两次可以吗？
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

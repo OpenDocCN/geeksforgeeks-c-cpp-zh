@@ -6,7 +6,7 @@ C++中的 **strtoumax()** 函数将字符串的内容解释为指定基数的整
 
 **语法:**
 
-```
+```cpp
 uintmax_t strtoumax(const char* str, char** end, int base)
 ```
 
@@ -25,7 +25,7 @@ uintmax_t strtoumax(const char* str, char** end, int base)
 
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoumax() function
 #include <iostream>
@@ -67,7 +67,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Given String = 999999abcdefg
 Number with base 10 in string 999999
 End String points to abcdefg
@@ -80,7 +80,7 @@ Null pointer
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // strtoumax() function
 #include <iostream>
@@ -127,7 +127,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Given String = -10000
 Garbage value stored in num 18446744073709541616
 Null pointer

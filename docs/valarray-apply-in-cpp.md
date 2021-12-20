@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 valarray apply (T func(T)) const;
 valarray apply (T func(const T&)) const;
 
@@ -20,7 +20,7 @@ valarray apply (T func(const T&)) const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of apply() function.
 
@@ -54,14 +54,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 20 15 35 38 45
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of apply() function.
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 10 5 25 28 35
 
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : str = "geeksforgeeks"
          c = 'e'
 Output : 4
@@ -20,7 +20,7 @@ Output : 3
 
 ## C++
 
-```
+```cpp
 // C++ program to count occurrences of a given
 // character
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to count occurrences
 // of a character
 
@@ -88,7 +88,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to count occurrences
 # of a given character
 
@@ -116,7 +116,7 @@ print(count(str, c))
 
 ## C#
 
-```
+```cpp
 // C# program to count occurrences
 // of a character
 using System;
@@ -155,7 +155,7 @@ public class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to count
 // occurrences of a given
@@ -190,7 +190,7 @@ function count($s, $c)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // JAVASCRIPT program to count occurrences
 // of a character
@@ -218,7 +218,7 @@ function count($s, $c)
  </script>
 ```
 
-```
+```cpp
 4
 ```
 
@@ -226,7 +226,7 @@ function count($s, $c)
 
 ## C
 
-```
+```cpp
 // CPP program to count occurrences of
 // a character using library
 #include<bits/stdc++.h>
@@ -248,7 +248,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4
 ```
 
@@ -256,7 +256,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -293,7 +293,7 @@ class GFG {
 
 ## C#
 
-```
+```cpp
 /*package whatever //do not write package name here */
 using System;
 public class GFG {
@@ -332,7 +332,7 @@ public class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 /*package whatever //do not write package name here */
 
@@ -368,7 +368,7 @@ public class GFG {
 
 **输出:**
 
-```
+```cpp
 4
 ```
 

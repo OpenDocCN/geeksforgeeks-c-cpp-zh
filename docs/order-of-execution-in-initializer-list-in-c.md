@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the
 // order of initializer in list
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10 20
 
 ```

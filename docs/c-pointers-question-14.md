@@ -4,7 +4,7 @@
 
 考虑这个 C 代码来交换两个整数和后面的这五个语句:
 
-```
+```cpp
 void swap(int *px, int *py) 
 { 
    *px = *px - *py; 

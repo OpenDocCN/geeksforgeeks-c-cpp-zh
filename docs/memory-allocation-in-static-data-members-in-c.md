@@ -20,7 +20,7 @@
 
 **程序 1:说明非静态成员**
 
-```
+```cpp
 // C++ program to illustrate
 // non-static data members
 using namespace std;
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1
 1
 1
@@ -89,7 +89,7 @@ GfG 类的所有三个对象 S1、S2 和 S3 共享成员函数，但拥有数据
 
 **程序二:说明静态成员:**
 
-```
+```cpp
 // C++ program to illustrate
 // non-static data members
 using namespace std;
@@ -145,7 +145,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3
 3
 3

@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // above discussed functionality
 #include <cstring>
@@ -122,7 +122,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The string passed is: Hello
 The string passed is: Hello
 ```

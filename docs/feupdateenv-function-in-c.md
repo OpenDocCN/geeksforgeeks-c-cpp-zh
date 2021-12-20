@@ -6,7 +6,7 @@ C++中的**feupdatenv()**函数首先保存当前引发的浮点异常。它从�
 
 **语法:**
 
-```
+```cpp
 int feupdateenv( fenv_t* envp )
 ```
 
@@ -21,7 +21,7 @@ int feupdateenv( fenv_t* envp )
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the 
 // feupdateenv() function 
 #include <bits/stdc++.h> 
@@ -68,14 +68,14 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 log(0.0): -inf
 no exceptions raised
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the 
 // feupdateenv() function 
 #include <bits/stdc++.h> 
@@ -125,7 +125,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 log(10.0): 2.302585
 exceptions raised
 ```

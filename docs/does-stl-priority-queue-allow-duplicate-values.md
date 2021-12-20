@@ -4,7 +4,7 @@
 
 是的，在 [C++ priority_queue](https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/) 中，我们可能有重复的值。
 
-```
+```cpp
 // C++ program to demonstrate that duplicate
 // values are allowed in a priority queue
 // (with maximum value at the top)
@@ -27,12 +27,12 @@ int main()
 
 **Output:**
 
-```
+```cpp
 30 30
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate that duplicate
 // values are allowed in a priority queue
 // (with minimum value at the top)
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 5 5
 
 ```

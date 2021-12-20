@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```cpp
 #include "user-defined_file"
 ```
 
 1.  **包括使用" ":**当使用双引号(" ")时，预处理器访问源“header_file”所在的当前目录。这种类型主要用于访问用户程序的任何头文件或用户自定义文件。
 
-```
+```cpp
 #include <header_file>
 ```
 
@@ -26,7 +26,7 @@
 
 ## C
 
-```
+```cpp
 // C program showing the header file including
 // standard input-output header file
 
@@ -43,7 +43,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program showing the header file including
 // standard input-output header file
 
@@ -61,6 +61,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 hello world
 ```

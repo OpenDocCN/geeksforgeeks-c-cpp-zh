@@ -18,7 +18,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program to find n'th node from 
 // end
 #include <bits/stdc++.h>
@@ -102,13 +102,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 35
 ```
 
 ## C++
 
-```
+```cpp
 void printNthFromLast(struct Node* head, int n)
 {
     int i = 0;
@@ -131,7 +131,7 @@ void printNthFromLast(struct Node* head, int n)
 
 ## C++
 
-```
+```cpp
 // Simple C++ program to 
 // find n'th node from end
 #include<bits/stdc++.h>
@@ -216,7 +216,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Node no. 4 from last is 35 
 ```
 

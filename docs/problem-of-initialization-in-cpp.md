@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // above approach
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // above approach
 #include <iostream>

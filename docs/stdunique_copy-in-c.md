@@ -11,7 +11,7 @@
 1.  **使用==:**
     语法比较元素:
 
-```
+```cpp
 template 
   OutputIterator unique_copy (InputIterator first, InputIterator last,
                               OutputIterator result);
@@ -27,7 +27,7 @@ of the copied range, which contains no consecutive duplicates.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate 
 // the use of std::unique_copy
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Before: 10 10 30 30 30 100 10 300 300 70 70 80
 After: 10 30 100 10 30 70 80 
 
@@ -81,7 +81,7 @@ After: 10 30 100 10 30 70 80
 *   **By comparing using a pre-defined function:**
     Syntax:
 
-    ```
+    ```cpp
     template 
       OutputIterator unique_copy (InputIterator first, InputIterator last,
                                   OutputIterator result, BinaryPredicate pred);
@@ -99,7 +99,7 @@ After: 10 30 100 10 30 70 80
     end of the copied range, which contains no consecutive duplicates.
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the 
     // use of std::unique_copy
     #include <iostream>
@@ -141,7 +141,7 @@ After: 10 30 100 10 30 70 80
 
     输出:
 
-    ```
+    ```cpp
     Before: You arre vvvisiting GFG
     After: You arre visiting GFG
 
@@ -151,7 +151,7 @@ After: 10 30 100 10 30 70 80
 
     1.  **std::unique_copy** can be used to **remove all the duplicate elements (whether consecutive or not) and store the resultant in another container**, without affecting the previous container.
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of std::unique_copy
         #include <iostream>
         #include <vector>
@@ -195,7 +195,7 @@ After: 10 30 100 10 30 70 80
 
         输出:
 
-        ```
+        ```cpp
         v = 1 1 2 2 3 3 3 3 7 7 8 10
         v1 = 1 2 3 7 8 10
 
@@ -205,7 +205,7 @@ After: 10 30 100 10 30 70 80
 
     2.  We can also use std::unique_copy to **find whether a container contains only unique elements or not.** This is just an extension of the above concept of storing the unique elements in another container. After this, we can just compare the two containers to check whether they are equal or not.
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of std::unique_copy
         #include <iostream>
         #include <vector>
@@ -243,7 +243,7 @@ After: 10 30 100 10 30 70 80
 
         输出:
 
-        ```
+        ```cpp
         v1 contains only unique elements
 
         ```

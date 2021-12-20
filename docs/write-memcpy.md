@@ -4,13 +4,13 @@
 
 [memcpy](http://geeksquiz.com/memcpy-in-cc/) 功能用于将一个数据块从源地址复制到目的地址。下面是它的原型。
 
-```
+```cpp
 void * memcpy(void * destination, const void * source, size_t num);
 ```
 
 其思想是简单地将给定的地址类型转换为 char *(char 需要 1 个字节)。然后一个接一个地将数据从源复制到目标。下面是这个想法的实现。
 
-```
+```cpp
 // A C implementation of memcpy()
 #include<stdio.h>
 #include<string.h>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Copied string is GeeksforGeeks
 Copied array is 10 20 30 40 50
 ```
@@ -56,7 +56,7 @@ Copied array is 10 20 30 40 50
 
 memmove()与 memcpy()类似，因为它也将数据从源复制到目标。当源地址和目的地址重叠时，memcpy()会导致问题，因为 memcpy()只是将数据从一个位置逐个复制到另一个位置。例如，考虑下面的程序。
 
-```
+```cpp
 // Sample program to show that memcpy() can lose data.
 #include <stdio.h>
 #include <string.h>
@@ -71,13 +71,13 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksGeeksfor
 ```
 
 由于输入地址重叠，上述程序会覆盖原始字符串并导致数据丢失。
 
-```
+```cpp
 // Sample program to show that memmove() is better than memcpy()
 // when addresses overlap.
 #include <stdio.h>
@@ -93,7 +93,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksGeeksfor
 ```
 
@@ -101,7 +101,7 @@ GeeksGeeksfor
 
 这里的技巧是使用临时数组，而不是直接从 src 复制到 dest。临时数组的使用对于处理源地址和目的地址重叠的情况非常重要。
 
-```
+```cpp
 //C++ program to demonstrate implementation of memmove()
 #include<stdio.h>
 #include<string.h>
@@ -140,7 +140,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksGeeksfor
 ```
 

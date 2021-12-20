@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // A utility function to count set bits in a char.
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Binary representation of 0.156250 has 6 set bits
 ```
 

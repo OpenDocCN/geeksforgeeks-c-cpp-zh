@@ -5,13 +5,13 @@
 **STD::string::find _ last _ of**是一个字符串类成员函数，用于查找字符串中任何字符最后一次出现的索引。如果字符串中存在该字符，则返回该字符在字符串中最后一次出现的索引，否则返回**字符串::npos** 。
 **头文件:**
 
-```
+```cpp
 #include < string >
 ```
 
 模板类
 
-```
+```cpp
 template < class T >
 size_type
     find_last_of(const T& t, 
@@ -20,7 +20,7 @@ size_type
 
 **语法 1:**
 
-```
+```cpp
 find_last_of(char ch)
 ```
 
@@ -29,7 +29,7 @@ find_last_of(char ch)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate string::find_last_of
 #include <cstddef>
 #include <iostream>
@@ -74,13 +74,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Character e is found at index: 21
 ```
 
 **语法 2:**
 
-```
+```cpp
 find_last_of(char ch, size_t position)
 ```
 
@@ -89,7 +89,7 @@ find_last_of(char ch, size_t position)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate string::find_last_of
 #include <cstddef>
 #include <iostream>
@@ -137,7 +137,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Character e is found at index: 6
 ```
 

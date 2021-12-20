@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the concept
 // of Virtual Function
 
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Inside Base
 
 ```
@@ -58,7 +58,7 @@ Inside Base
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the concept
 // of virtual function
 
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Inside Derived
 
 ```
@@ -107,7 +107,7 @@ Inside Derived
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the concept
 // of virtual function
 

@@ -7,7 +7,7 @@ getline()函数可以用两种方式表示:
 
 **语法:**
 
-```
+```cpp
 istream& getline(istream& is, 
            string& str, char delim);
 ```
@@ -22,7 +22,7 @@ istream& getline(istream& is,
 
 ## C++
 
-```
+```cpp
 #include  <iostream>
 #include  <bits/stdc++.h>
 
@@ -62,7 +62,7 @@ int main () {
 
 ## *C++*
 
-```
+```cpp
 *#include  <iostream>
 #include  <bits/stdc++.h>
 
@@ -102,7 +102,7 @@ int main () {
 
 ***1。语法:***
 
-```
+```cpp
 *istream& getline (istream& is, string& str);*
 ```
 
@@ -117,7 +117,7 @@ int main () {
 
 ## *卡片打印处理机（Card Print Processor 的缩写）*
 
-```
+```cpp
 *// C++ program to demonstrate getline() function
 
 #include <iostream>
@@ -139,13 +139,13 @@ int main()
 
 ***输入:***
 
-```
+```cpp
 *Harsh Agarwal*
 ```
 
 ***输出:***
 
-```
+```cpp
 *Hello, Harsh Agarwal welcome to GfG!*
 ```
 
@@ -153,7 +153,7 @@ int main()
 
 ## *卡片打印处理机（Card Print Processor 的缩写）*
 
-```
+```cpp
 *// C++ program to understand the use of getline() function
 
 #include <bits/stdc++.h>
@@ -177,13 +177,13 @@ int main()
 
 ***输入:***
 
-```
+```cpp
 *Hello, Faisal Al Mamun. Welcome to GfG!*
 ```
 
 ***输出:***
 
-```
+```cpp
 *Hello,
 Faisal
 Al
@@ -199,7 +199,7 @@ GfG!*
 
 ## *卡片打印处理机（Card Print Processor 的缩写）*
 
-```
+```cpp
 *// C++ program to demonstrate
 // anomaly of delimitation of
 // getline() function
@@ -241,14 +241,14 @@ int main()
 
 ***输入:***
 
-```
+```cpp
 *7
 MOHIT KUMAR*
 ```
 
 ***输出:***
 
-```
+```cpp
 *Your id : 7
 Hello,  welcome to GfG !
 Hello, MOHIT KUMAR welcome to GfG !*

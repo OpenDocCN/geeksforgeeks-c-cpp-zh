@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class TrieNode{
 
     public:
@@ -37,7 +37,7 @@ class TrieNode{
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Interface representing functionalities
 // of Trie Data Structure
 class interface {
@@ -85,7 +85,7 @@ public:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 // For shared_ptr class
@@ -332,7 +332,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 geeksfor: Is Present
 nothing: Not Present
 geeksforgeeks: Successfully deleted

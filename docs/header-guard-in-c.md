@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate error
 // caused due to defining same
 // function more than once
@@ -48,7 +48,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate error
 // caused due to defining same
 // variable more than once
@@ -83,7 +83,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // Function to get the side of
 // the pentagon
 int getting_pentagon_side()
@@ -97,7 +97,7 @@ int getting_pentagon_side()
 
 ## C++
 
-```
+```cpp
 // Including another header file
 // "pentagon.h" in the current program
 #include "pentagon.h"
@@ -109,7 +109,7 @@ int getting_pentagon_side()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the error
 // discussed above
 #include <iostream>
@@ -137,7 +137,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 #ifndef HEADER_H_NAME
 #define HEADER_H_NAME /*...
 ...*/
@@ -149,7 +149,7 @@ int main()
 
 *   首先将**“五边形. h”**头文件修改为:
 
-```
+```cpp
 ***<u>#</u>***ifndef PENTAGON_H
 #define PENTAGON_H
 
@@ -163,7 +163,7 @@ return 5;
 
 *   现在包含**【五边形】**的**【数学. h】**头文件修改为:
 
-```
+```cpp
 #ifndef MATHEMATICS_H
 #define MATHEMATICS_H
 #include "pentagon.h"
@@ -175,7 +175,7 @@ return 5;
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate how to
 // avoid errors using Header Guard
 #include <iostream>

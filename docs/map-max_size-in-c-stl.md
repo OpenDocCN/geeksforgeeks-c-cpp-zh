@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.max_size()
 ```
 
@@ -14,7 +14,7 @@ map_name.max_size()
 
 **返回值:**该函数返回地图容器可以容纳的最大元素数量。
 
-```
+```cpp
 // C++ program to illustrate
 // map::max_size()
 #include <bits/stdc++.h>
@@ -38,7 +38,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The max size of mp1 is 461168601842738790
 The max size of mp2 is 461168601842738790
 

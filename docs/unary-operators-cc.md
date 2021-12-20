@@ -16,7 +16,7 @@
 1.  **unary minus**
     The minus operator changes the sign of its argument. A positive number becomes negative, and a negative number becomes positive.
 
-    ```
+    ```cpp
      int a = 10;
      int b = -a;  // b = -10
 
@@ -30,7 +30,7 @@
 1.  **前缀增量**
     在此方法中，运算符位于操作数之前(例如，++a)。在使用之前，操作数的值将被改变*。
 
-    ```
+    ```cpp
       int a = 1;
       int b = ++a;  // b = 2
 
@@ -38,7 +38,7 @@
 2.  **后缀增量**
     在这个方法中，运算符跟在操作数后面(例如 a++)。使用后，值操作数将被更改*。
 
-    ```
+    ```cpp
      int a = 1;
      int b = a++;   // b = 1
      int c = a;     // c = 2
@@ -50,7 +50,7 @@
     1.  **前缀递减**
         在此方法中，运算符位于操作数之前(例如–- a)。在使用之前，操作数的值将被改变*。
 
-        ```
+        ```cpp
           int a = 1;
           int b = --a;  // b = 0
 
@@ -58,7 +58,7 @@
     2.  **后缀减量**
         在这个方法中，运算符跟在操作数后面(例如 a-)。使用后，操作数的值将被更改*。
 
-        ```
+        ```cpp
          int a = 1;
          int b = a--;   // b = 1
          int c = a;     // c = 0
@@ -67,7 +67,7 @@
 
     **组合前缀和后缀操作的 C++程序:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate working of unary increment
     // and decrement operators
     #include <iostream>
@@ -109,7 +109,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     a value: 1
     b value after a++ : 1
     a value after a++ : 2
@@ -129,7 +129,7 @@
 
 7.  **不是(！):**用于反转其操作数的逻辑状态。如果条件为真，则逻辑非运算符将使其为假。
 
-    ```
+    ```cpp
        If x is true, then !x is false
        If x is false, then !x is true
 
@@ -137,7 +137,7 @@
 
 8.  **Addressof 运算符(& ):** 它给出了一个变量的地址。它用于返回变量的内存地址。由 address-of 运算符返回的这些地址被称为指针，因为它们“指向”内存中的变量。
 
-    ```
+    ```cpp
     & gives an address on variable n
     int a;
     int *ptr;
@@ -147,7 +147,7 @@
 
 9.  **sizeof():** This operator returns the size of its operand, in bytes. The *sizeof* operator always precedes its operand.The operand is an expression, or it may be a cast.
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -161,7 +161,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     size of n: 4
 
     ```

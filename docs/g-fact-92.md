@@ -6,7 +6,7 @@ C99 标准允许可变大小的阵列(参见[和](https://www.geeksforgeeks.org/
 
 例如，以下程序在 C99 兼容的编译器上编译并运行良好。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -29,7 +29,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0 0
 0 0
 
@@ -37,7 +37,7 @@ int main()
 
 但是以下操作失败，出现编译错误。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: variable-sized object may not be initialized
 
 ```

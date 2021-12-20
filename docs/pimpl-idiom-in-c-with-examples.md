@@ -29,7 +29,7 @@ PImpl 习语 ***(指向实现的指针)*** 是一种用于将实现与接口分�
 
 ## 头文件
 
-```
+```cpp
 /* |INTERFACE| User.h file */
 
 #pragma once
@@ -66,7 +66,7 @@ private:
 
 ## 实现文件
 
-```
+```cpp
 /* |IMPLEMENTATION| User.cpp file */
 
 #include "User.h"

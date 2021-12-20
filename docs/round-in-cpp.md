@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 Parameters: x, value to be rounded
 double round (double x);
 float round (float x);
@@ -20,7 +20,7 @@ integral (as a floating-point value).
 
 ```
 
-```
+```cpp
 // C++ code to demonstrate the
 // use of round() function
 #include <cmath>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Nearest value of x :13
 Nearest value of y :13
 Nearest value of z :15
@@ -92,7 +92,7 @@ llround(-2.71236) = -3
 1.  **处理分数和小数的不匹配:**舍入数字的一种用法是在将 1/3 转换为小数时，将小数点右边的三个都缩短。大多数情况下，当我们需要处理十进制中的 1/3 时，我们会使用四舍五入的数字 0.33 或 0.333。当小数中没有精确的等份时，我们通常只使用小数点右边的两三位数字。
 2.  **Changing multiplied result :** There will be difference between multiplication of 25, 75 and 0.25, 0.75 we get 0.875 .We started with 2 digits to the right of the decimal point and ended up with 4\. Many times we will just round up the result to 0.19 .
 
-    ```
+    ```cpp
     // C+++ code for above explanation
     #include <cmath>
     #include <iostream>
@@ -118,7 +118,7 @@ llround(-2.71236) = -3
 
     输出:
 
-    ```
+    ```cpp
         From first multiplication :750
         From second multiplication :0
 

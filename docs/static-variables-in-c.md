@@ -5,7 +5,7 @@
 静态变量有一个属性，即使超出了它们的范围，也能保持它们的值！因此，静态变量在它们以前的作用域中保留它们以前的值，并且不会在新的作用域中再次初始化。
 语法:
 
-```
+```cpp
 static data_type var_name = var_value; 
 ```
 
@@ -16,7 +16,7 @@ static data_type var_name = var_value;
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int fun()
 {
@@ -35,7 +35,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2
 ```
 
@@ -43,7 +43,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int fun()
 {
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 1
 ```
 
@@ -71,7 +71,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -83,7 +83,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0 
 [some_garbage_value] 
 ```
@@ -92,7 +92,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 int initializer(void)
 {
@@ -110,7 +110,7 @@ int main()
 
 输出
 
-```
+```cpp
  In function 'main':
 9:5: error: initializer element is not constant
      static int i = initializer();

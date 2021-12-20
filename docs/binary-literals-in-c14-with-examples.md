@@ -10,7 +10,7 @@
 
 ## c++ 14
 
-```
+```cpp
 // C++ program to illustrate the
 // Hexadecimal and Octal number
 // using literals
@@ -41,7 +41,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5036
 79
 

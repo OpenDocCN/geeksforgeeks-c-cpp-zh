@@ -14,7 +14,7 @@
 
     ## 创造
 
-    ```
+    ```cpp
     void create()
     {
         // file pointer
@@ -68,7 +68,7 @@
 
     ## 阅读
 
-    ```
+    ```cpp
     void read_record()
     {
 
@@ -147,7 +147,7 @@
 
     ## 更新
 
-    ```
+    ```cpp
     void update_recode()
     {
 
@@ -276,7 +276,7 @@
 
     ## 删除
 
-    ```
+    ```cpp
     void delete_record()
     {
 

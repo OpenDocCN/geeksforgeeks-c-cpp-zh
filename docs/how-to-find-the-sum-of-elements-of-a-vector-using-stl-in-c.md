@@ -5,7 +5,7 @@
 给定一个向量，用 C++中的 STL 求出这个向量的元素之和。
 **例:**
 
-```
+```cpp
 Input: vec = {1, 45, 54, 71, 76, 12}
 Output: 259
 
@@ -16,7 +16,7 @@ Output: 35
 **逼近:**可以借助 STL 中提供的累加()函数求和。
 **语法:**
 
-```
+```cpp
 accumulate(first_index, last_index, initial value of sum);
 ```
 
@@ -24,7 +24,7 @@ accumulate(first_index, last_index, initial value of sum);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find the sum
 // of Array using accumulate() in STL
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Vector: 1 45 54 71 76 12 
 
 Sum = 259

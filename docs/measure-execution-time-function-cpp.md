@@ -10,7 +10,7 @@
 
 **第一步:获取函数调用前的时间点**
 
-```
+```cpp
 #include <chrono>
 using namespace std::chrono;
 
@@ -22,7 +22,7 @@ auto start = high_resolution_clock::now();
 
 **第二步:获取函数调用后的时间点**
 
-```
+```cpp
 #include <chrono>
 using namespace std::chrono;
 
@@ -32,7 +32,7 @@ auto stop = high_resolution_clock::now();
 
 **第三步:获取时间点的差异，并将其转换为所需的单位**
 
-```
+```cpp
 // Subtract stop and start timepoints and
 // cast it to required unit. Predefined units
 // are nanoseconds, microseconds, milliseconds,
@@ -47,7 +47,7 @@ cout << duration.count() << endl;
 
 下面给出了一个完整的 C++程序来演示这个过程。我们用一些随机数填充一个向量，并测量 sort()函数对这个向量进行排序所花费的时间。
 
-```
+```cpp
 // C++ program to find out execution time of
 // of functions
 #include <algorithm>
@@ -95,7 +95,7 @@ int main()
 
 输出:(取决于机器)
 
-```
+```cpp
 Time taken by function: 3062 microseconds
 
 ```

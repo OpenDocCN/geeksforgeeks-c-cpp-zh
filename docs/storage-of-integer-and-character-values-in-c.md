@@ -7,7 +7,7 @@
 
 *   Taking a positive integer value as **char:**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -20,7 +20,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     22
 
     ```
@@ -29,7 +29,7 @@
 
 *   Taking a negative integer value as **char:**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -42,7 +42,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     127
 
     ```

@@ -5,7 +5,7 @@
 goto 语句是一个跳转语句，有时也被称为无条件跳转语句。goto 语句可以用来从函数中的任何地方跳转到任何地方。
 **语法**:
 
-```
+```cpp
 Syntax1      |   Syntax2
 ----------------------------
 goto label;  |    label:  
@@ -25,7 +25,7 @@ label:       |    goto label;
 
     ## C
 
-    ```
+    ```cpp
     // C program to check if a number is
     // even or not using goto statement
     #include <stdio.h>
@@ -57,7 +57,7 @@ label:       |    goto label;
 
     ## c++
 
-    ```
+    ```cpp
     // C++ program to check if a number is
     // even or not using goto statement
     #include <iostream>
@@ -92,7 +92,7 @@ label:       |    goto label;
 
     **输出:**
 
-```
+```cpp
 26 is even
 
 ```

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-constructors-question-15/](https://www.geeksforgeeks.org/c-constructors-question-15/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

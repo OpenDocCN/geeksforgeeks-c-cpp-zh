@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find the value of
 // the pow(a, b) iteratively
 #include <bits/stdc++.h>

@@ -6,7 +6,7 @@
 
 **嵌套 for 循环的语法:**
 
-```
+```cpp
 for ( initialization; condition; increment ) {
 
    for ( initialization; condition; increment ) {
@@ -21,7 +21,7 @@ for ( initialization; condition; increment ) {
 
 **嵌套 While 循环的语法:**
 
-```
+```cpp
 while(condition) {
 
    while(condition) {
@@ -36,7 +36,7 @@ while(condition) {
 
 **嵌套边做边循环的语法:**
 
-```
+```cpp
 do{
 
    do{
@@ -53,7 +53,7 @@ do{
 
 **语法:**
 
-```
+```cpp
 do{
 
    while(condition) {
@@ -75,7 +75,7 @@ do{
 
 **示例 1:** 下面的程序使用嵌套的 for 循环来打印一个 3×3 的 2D 矩阵。
 
-```
+```cpp
 // C++ program that uses nested for loop
 // to print a 2D matrix
 
@@ -112,7 +112,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Given matrix is 
 123
 456
@@ -122,7 +122,7 @@ Given matrix is
 
 **示例 2:** 下面的程序使用嵌套 for 循环打印一个数的所有质因数。
 
-```
+```cpp
 // C++ Program to print all prime factors
 // of a number using nested loop
 
@@ -165,7 +165,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3357
 
 ```

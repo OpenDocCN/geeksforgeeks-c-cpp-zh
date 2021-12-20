@@ -6,7 +6,7 @@
 
 *   **Syntax:**
 
-```
+```cpp
 iterator multiset_name.insert(element)
 
 ```
@@ -19,7 +19,7 @@ iterator multiset_name.insert(element)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::insert(element) function
 #include <bits/stdc++.h>
@@ -47,14 +47,14 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The elements in multiset are: 1 1 1 4 5
 
 ```
 
 *   **语法:**
 
-```
+```cpp
 iterator multiset_name.insert(iterator position, element)
 
 ```
@@ -70,7 +70,7 @@ iterator multiset_name.insert(iterator position, element)
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::insert(iterator, element) function
 #include <bits/stdc++.h>
@@ -105,14 +105,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The elements in multiset are: 1 1 3 4 5
 
 ```
 
 *   **Syntax:**
 
-```
+```cpp
 iterator multiset_name.insert(iterator position1, iterator position2)
 
 ```
@@ -125,7 +125,7 @@ iterator multiset_name.insert(iterator position1, iterator position2)
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::insert(iteratorposition1, iteratorposition2) function
 #include <bits/stdc++.h>

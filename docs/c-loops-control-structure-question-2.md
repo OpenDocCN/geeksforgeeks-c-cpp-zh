@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-loops-control-structure-question-2/](https://www.geeksforgeeks.org/c-loops-control-structure-question-2/)
 
-```
+```cpp
 #include <stdio.h>
 #define PRINT(i, limit) do \
                         { \

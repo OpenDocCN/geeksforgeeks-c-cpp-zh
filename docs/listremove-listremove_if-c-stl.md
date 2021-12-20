@@ -9,7 +9,7 @@
 remove()函数用于从列表中删除与作为函数参数给出的值相对应的所有值
 **语法:**
 
-```
+```cpp
 ***listname.remove(value)***
 Parameters :
 The value of the element to be removed is passed as the parameter.
@@ -20,7 +20,7 @@ equal to the value passed as parameter
 
 示例:
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.remove(4);
 Output : 1, 2, 3, 5
@@ -37,7 +37,7 @@ Output : 1, 5, 6, 7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of remove() function
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 5 6 7
 ```
 
@@ -64,7 +64,7 @@ int main()
 remove_if()函数用于从列表中删除与作为函数参数给出的*谓词*或条件相对应的所有值。该函数遍历列表容器的每个成员，并移除所有为谓词返回 true 的元素。
 **语法:**
 
-```
+```cpp
 ***listname.remove_if(predicate)***
 Parameters :
 The predicate in the form of aa function pointer
@@ -76,7 +76,7 @@ which return true for the predicate.
 
 示例:
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.remove_if(odd);
 Output : 2, 4
@@ -92,7 +92,7 @@ Output : 1, 5, 7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of remove_if() function
 #include <iostream>
@@ -114,20 +114,20 @@ int main()
 
 输出:
 
-```
+```cpp
 1 5 7
 ```
 
 **应用:**给定一个整数列表，从列表中去掉所有质数，打印列表。
 
-```
+```cpp
 Input  : 2, 4, 6, 7, 9, 11, 13
 Output : 4, 6, 9
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of remove_if() function
 #include <iostream>
@@ -161,6 +161,6 @@ int main()
 
 输出:
 
-```
+```cpp
 4 6 9
 ```

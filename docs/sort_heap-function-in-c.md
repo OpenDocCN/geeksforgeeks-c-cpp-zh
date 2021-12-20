@@ -11,7 +11,7 @@
 T3】1。使用“<”比较元素:
 语法:**
 
-```
+```cpp
 template 
 **void sort_heap(RandIter start, RandIter end);**
 **start, end : **    the range of elements to sort
@@ -20,7 +20,7 @@ template
 
 ****实施****
 
-```
+```cpp
 template
 void sort_heap( RandIter start, RandIter end );
 {
@@ -32,7 +32,7 @@ void sort_heap( RandIter start, RandIter end );
 ****2。通过使用预定义函数进行比较:**
 **语法:****
 
-```
+```cpp
 **template 
 void sort_heap(RandIter start, RandIter end, Comp cmpfn);**
 **start, end :**    the range of elements to sort
@@ -43,7 +43,7 @@ which returns ?true if the first argument is less than the second.
 
 ****实施****
 
-```
+```cpp
 template
 void sort_heap( RandIter start, RandIter end, Comp cmpfn );
 {
@@ -52,7 +52,7 @@ void sort_heap( RandIter start, RandIter end, Comp cmpfn );
 } 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::sort_heap
 #include <iostream>
@@ -82,14 +82,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 heap: 10 6 8 1 5 2 
 now sorted: 1 2 5 6 8 10 
 ```
 
 ****另一个例子:****
 
-```
+```cpp
 // CPP program to illustrate
 // std::sort_heap
 #include <vector>
@@ -124,7 +124,7 @@ int main( ) {
 
 **输出:**
 
-```
+```cpp
 vector vt1 is ( 5 4 2 3 1 )
 heap vt1 sorted range: ( 1 2 3 4 5 ) 
 ```

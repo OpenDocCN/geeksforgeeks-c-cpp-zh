@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // Expression must have class
 // type error
@@ -50,7 +50,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate how to
 // solve Expression must have class
 // type error
@@ -82,7 +82,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Welcome to GeeksforGeeks!
 
 ```

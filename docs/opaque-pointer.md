@@ -7,13 +7,13 @@
 
 跟随指针不透明。人们不能通过查看定义来知道 STest 结构中包含的数据。
 
-```
+```cpp
 struct STest* pSTest;
 ```
 
 将空值赋给不透明指针是安全的。
 
-```
+```cpp
 pSTest = NULL; 
 ```
 
@@ -26,7 +26,7 @@ pSTest = NULL;
 
 **Image.h :** 存储类声明的头文件。
 
-```
+```cpp
 // This class provides API to deal with various
 // image operations. Different platforms can 
 // implement these operations in different ways.
@@ -47,7 +47,7 @@ private:
 
 **Image.cpp :** 将在不同端点间共享的代码
 
-```
+```cpp
 // Constructor and destructor for CImage
 CImage::CImage()
 {
@@ -62,7 +62,7 @@ CImage::~CImage()
 
 **Image_windows.cpp :** 特定于 windows 的代码将驻留在这里
 
-```
+```cpp
 struct SImageInfo
 {
    // Windows specific DataSet
@@ -82,7 +82,7 @@ void CImage::Rotate()
 
 **Image_apple.cpp :** 苹果特有的代码将驻留在这里
 
-```
+```cpp
 struct SImageInfo
 {
     // Apple specific DataSet

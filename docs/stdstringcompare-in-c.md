@@ -11,7 +11,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
 1.  **Syntax 1:** Compares the string *this with the string str.
 
-    ```
+    ```cpp
     int string::compare (const string& str) const
     Returns:
     0 : if both strings are equal.
@@ -22,7 +22,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     ```
 
-    ```
+    ```cpp
     // CPP code for demonstrating 
     // string::compare (const string& str) const
 
@@ -56,7 +56,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     Geeks is smaller than forGeeks
     Geeks is equal to Geeks
 
@@ -64,13 +64,13 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
 2.  **Syntax 2:** Compares at most, len characters of string *this, starting with index idx with the string str.
 
-    ```
+    ```cpp
     int string::compare (size_type idx, size_type len, const string& str) const
     Throws out_of_range if index > size().
 
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // int string::compare (size_type idx, size_type len, 
     // const string& str) const
@@ -100,14 +100,14 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     Here, Geeks are forGeeks
 
     ```
 
 3.  **Syntax 3:** Compares at most, len characters of string *this starting with index idx with at most, str_len characters of string str starting with index str_idx.
 
-    ```
+    ```cpp
     int string::compare (size_type idx, size_type len, const string& 
     str, size_type str_idx, size_type str_len) const
     Throws out_of_range if idx > size().
@@ -115,7 +115,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // int string::compare (size_type idx, size_type len, const string& 
     // str, size_type str_idx, size_type str_len) const
@@ -146,18 +146,18 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     Welcome, to GeeksforGeeks World
 
     ```
 
 4.  **Syntax 4:** Compares the characters of string *this with the characters of the C-string cstr.
 
-    ```
+    ```cpp
     int string::compare (const char* cstr) const
     ```
 
-    ```
+    ```cpp
     // CPP code to demonstrate
     // int string::compare (const char* cstr) const
 
@@ -191,7 +191,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     Geeks is smaller than string GeeksforGeeks
     forGeeks is equal to string forGeeks
 
@@ -199,14 +199,14 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
 5.  **Syntax 5:** Compares at most, len characters of string *this, starting with index idx with all characters of the C-string cstr.
 
-    ```
+    ```cpp
     int string::compare (size_type idx, size_type len, const char* cstr) const
 
     ```
 
     请注意，cstr 不能是空指针(null)。
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // int string::compare (size_type idx, size_type len, 
     // const char* cstr) const
@@ -236,21 +236,21 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     Geeks are awesome people
 
     ```
 
 6.  **Syntax 6:** Compares, at most, len characters of string *this, starting with index idx with chars_len characters of the character array chars.
 
-    ```
+    ```cpp
     int string::compare (size_type idx, size_type len, const char* chars, 
     size_type chars_len)const
     ```
 
     请注意，字符必须至少包含 chars_len 字符。字符可以有任意值。因此，' \0 '没有特殊含义。
 
-    ```
+    ```cpp
     // CPP code to demonstrate 
     // int string::compare (size_type idx, size_type len, 
     // const char* chars, size_type chars_len)const
@@ -282,7 +282,7 @@ compare()可以为每个字符串处理多个参数，这样就可以通过其�
 
     输出:
 
-    ```
+    ```cpp
     This is GeeksforGeeks
 
     ```

@@ -8,7 +8,7 @@
 
 **使用组合循环**
 
-```
+```cpp
 // C program to illustrate
 // performance of loops
 #include <bits/stdc++.h>
@@ -45,13 +45,13 @@ int main()
 
 输出:
 
-```
+```cpp
 seconds = 2.47865
 ```
 
 **使用独立回路**
 
-```
+```cpp
 // C program to illustrate
 // performance of loops
 #include <bits/stdc++.h>
@@ -94,7 +94,7 @@ int main()
 
 输出:
 
-```
+```cpp
 seconds = 2.07937
 ```
 

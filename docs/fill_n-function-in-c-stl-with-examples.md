@@ -6,7 +6,7 @@ C++ STL 中的 fill_n()函数用于填充容器中的一些默认值。fill_n()�
 
 **语法** :
 
-```
+```cpp
 void fill_n(iterator begin, int n, type value);
 
 ```
@@ -21,7 +21,7 @@ void fill_n(iterator begin, int n, type value);
 
 下图程序说明了 C++ STL 中 fill_n()函数:
 
-```
+```cpp
 // C++ program to demonstrate working of fil_n()
 #include <bits/stdc++.h>
 using namespace std;
@@ -52,7 +52,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 7 7 7 7 0 0 0 0
  7 7 7 4 4 4 0 0
 

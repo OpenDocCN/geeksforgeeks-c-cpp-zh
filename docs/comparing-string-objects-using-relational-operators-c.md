@@ -24,7 +24,7 @@
 4.  If two strings are found to be the same after comparison in dictionary order, they are said to be equal.
 5.  If any point from 1 to 3 is followed, then the strings are considered unequal.
 
-```
+```cpp
 // CPP code to implement relational 
 // operators on String objects
 #include<iostream>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks is not equal to forGeeks
 Geeks is smaller than forGeeks
 GeeksforGeeks is equal to GeeksforGeeks

@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.bucket_count();
 
 ```
@@ -21,7 +21,7 @@
 
 下面的程序说明了无序 _ 集合::bucket_count()函数:
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::bucket_count() function
 
@@ -57,7 +57,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The sampleSet container has 11 number of buckets
 
 The Element 25 is present in the bucket: 3

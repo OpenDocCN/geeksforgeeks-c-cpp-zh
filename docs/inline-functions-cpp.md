@@ -9,7 +9,7 @@
 C++提供了内联函数来减少函数调用开销。内联函数是一个函数，当它被调用时，它是按行展开的。当内联函数被调用时，内联函数的整个代码在内联函数调用点被插入或替换。这种替换由 C++编译器在编译时执行。如果内联函数很小，它可能会提高效率。
 内联定义函数的语法是:
 
-```
+```cpp
 inline return-type function-name(parameters)
 {
     // function code
@@ -45,7 +45,7 @@ inline return-type function-name(parameters)
 
 下面的程序演示了内联函数的用法。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 inline int cube(int s)
@@ -63,7 +63,7 @@ int main()
 也可以在类内部定义内联函数。事实上，类中定义的所有函数都是隐式内联的。因此，内联函数的所有限制也适用于这里。如果需要在类中显式声明内联函数，那么只需在类内声明该函数，并使用 inline 关键字在类外定义它。
 例如:
 
-```
+```cpp
 class S
 {
 public:
@@ -78,7 +78,7 @@ public:
 上述风格被认为是一种不好的编程风格。最好的编程风格是只在类内编写函数的原型，并在函数定义中将其指定为内联。
 例如:
 
-```
+```cpp
 class S
 {
 public:
@@ -93,7 +93,7 @@ inline int S::square(int s) // use inline prefix
 
 以下程序演示了这一概念:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class operation
@@ -154,7 +154,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Enter first value: 45
 Enter second value: 15
 Addition of two numbers: 60
@@ -167,7 +167,7 @@ Division of two numbers: 3
 熟悉 C 语言的读者都知道，C 语言使用宏。预处理器直接在宏代码中替换所有宏调用。建议始终使用内联函数而不是宏。根据 C++的创造者比雅尼·斯特劳斯特鲁普博士的说法，宏在 C++中几乎从来都不是必需的，而且它们容易出错。在 C++中使用宏有一些问题。宏无法访问类的私有成员。宏看起来像函数调用，但实际上不是。
 示例:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class S
@@ -184,7 +184,7 @@ C++编译器检查内联函数的参数类型，并正确执行必要的转换�
 
 另一件要记住的事情是，只有在函数调用期间花费的时间比函数体执行时间多的情况下，使函数内联才是有用的。内联函数完全不起作用的例子:
 
-```
+```cpp
 inline void show()
 {
     cout << "value of S = " << S << endl;

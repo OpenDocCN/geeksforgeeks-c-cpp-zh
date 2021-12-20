@@ -35,7 +35,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate the concept
 // of exception handling using class
 
@@ -149,7 +149,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 GCD is = 1
 13 is a prime number
 Caught exception of MyPrimeException class.

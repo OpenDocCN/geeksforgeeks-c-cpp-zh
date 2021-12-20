@@ -5,7 +5,7 @@
 使用循环或递归方法可以解决这个问题。并且我们已经看到了使用 [#define 指令(宏扩展)](https://www.geeksforgeeks.org/print-number-100-times-without-using-loop-recursion-c/)的解决方案，但是如果三者都不允许呢？
 一个简单的解决方法是在 cout 语句中把数字写 100 遍。更好的解决方法是使用中[的概念，跳步和龙跳的概念。](https://www.geeksforgeeks.org/g-fact22-concept-of-setjump-and-longjump/)
 
-```
+```cpp
 // CPP program to print one 100 times.
 #include <iostream>
 #include <setjmp.h>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
  100 times 1.
 
 ```

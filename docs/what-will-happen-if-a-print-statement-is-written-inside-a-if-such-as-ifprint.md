@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C program
 
 #include <stdio.h>

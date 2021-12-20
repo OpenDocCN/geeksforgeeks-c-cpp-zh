@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int chdir(const char *path);
 ```
 
@@ -18,7 +18,7 @@ int chdir(const char *path);
 
 **例 1:**
 
-```
+```cpp
 #include<stdio.h>
 
 // chdir function is declared
@@ -50,7 +50,7 @@ int main()
 
 **例 2:**
 
-```
+```cpp
 #include <unistd.h>
 #include <stdio.h>
 

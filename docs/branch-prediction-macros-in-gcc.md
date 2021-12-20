@@ -6,14 +6,14 @@ Linux 内核中最常用的优化技术之一是“_ builtin _ expect”。当�
 
 让我们看看“可能()”和“不太可能()”的宏定义“来自 linux 内核代码的宏”[http://lxr.linux.no/linux+v3.6.5/include/linux/compiler.h](http://lxr.linux.no/linux+v3.6.5/include/linux/compiler.h)【第 146 和 147 行】。
 
-```
+```cpp
 #define likely(x)      __builtin_expect(!!(x), 1)
 #define unlikely(x)    __builtin_expect(!!(x), 0)
 ```
 
 在以下示例中，我们将分支标记为可能为真:
 
-```
+```cpp
 const char *home_dir ;
 
 home_dir = getenv("HOME");

@@ -4,7 +4,7 @@
 
 假设我们想为 Graph 创建一个类。该类存储图的邻接矩阵表示。因此，我们的类结构如下所示。
 
-```
+```cpp
 class Graph 
 {
   int V; 
@@ -20,7 +20,7 @@ int main()
 
 输出:
 
-```
+```cpp
 error: invalid use of non-static data
        member 'Graph::V'.
 
@@ -30,7 +30,7 @@ error: invalid use of non-static data
 
 C++不允许在大小不恒定的类中创建堆栈分配数组。所以我们需要动态分配内存。下面是一个简单的程序，展示了如何使用带有邻接矩阵表示的 Graph 类在 C++类中动态分配 2D 数组。
 
-```
+```cpp
 // C++ program to show how to allocate dynamic 2D
 // array in a class using a Graph example.
 #include<bits/stdc++.h>
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0 1 1 0 
 0 0 1 0 
 1 0 0 1 
@@ -114,7 +114,7 @@ int main()
 **memset()的调用说明:**
 memset()单独用于各行。我们不能用一个调用来代替这些调用，因为行被分配在不同的地址，进行如下的 memset 调用将是灾难性的。
 
-```
+```cpp
        // Wrong!! (Rows of matrix at different addresses)
        memset(adj, false, V*V*sizeof(bool));
 ```

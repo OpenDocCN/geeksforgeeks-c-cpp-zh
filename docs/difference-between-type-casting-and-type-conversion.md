@@ -7,7 +7,7 @@
 
 **语法/声明:-**
 
-```
+```cpp
 destination_datatype = (target_datatype)variable;
 
 (): is a casting operator.
@@ -17,7 +17,7 @@ destination_datatype = (target_datatype)variable;
 
 **型铸造示例–**
 
-```
+```cpp
 float x;
 byte y;
 ...
@@ -32,7 +32,7 @@ y=(byte)x;  //Line 5
 
 **类型转换示例–**
 
-```
+```cpp
 int x=30;
 float y;
 y=x;  // y==30.000000\. 

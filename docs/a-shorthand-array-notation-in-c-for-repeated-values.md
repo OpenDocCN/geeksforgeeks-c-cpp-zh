@@ -4,7 +4,7 @@
 
 在 C 语言中，当有许多重复的值时，我们可以使用一种速记的数组符号来定义数组。下面的程序演示了同样的内容。
 
-```
+```cpp
 // C program to demonstrate working of shorthand
 // array rotation.
 #include <stdio.h>
@@ -23,7 +23,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 1 1 1 0 0 2 2 2 2 
 
 ```

@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     long int atol ( const char * str )
 
     ```
@@ -15,7 +15,7 @@
 
     **返回值:**函数将转换后的整数作为长整型数返回。如果无法执行有效转换，它将返回零。
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // working of atol() function.
     #include <bits/stdc++.h>
@@ -44,7 +44,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Number is 5672345
     Number is 10000002
 

@@ -26,7 +26,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // use of ferror()
 #include <stdio.h>
@@ -72,7 +72,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // use of ferror()
 #include <bits/stdc++.h>
@@ -133,7 +133,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // use of clearerr()
 #include <errno.h>
@@ -169,7 +169,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // use of clearerr()
 #include <bits/stdc++.h>
@@ -219,7 +219,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // use of perror()
 #include <errno.h>
@@ -252,7 +252,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // use of perror()
 #include <bits/stdc++.h>

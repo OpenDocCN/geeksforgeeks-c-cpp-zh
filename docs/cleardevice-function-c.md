@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
 void cleardevice();
 
 ```
 
 下面是 cleardevice()在 C 语言中的实现:
 
-```
+```cpp
 // C Implementation for cleardevice()
 #include <graphics.h>
 
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 On executing the program, the output window looks like :
 
 On pressing any key :

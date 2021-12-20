@@ -17,7 +17,7 @@ C++中的结构
 
 “struct”关键字用于创建结构。创建结构的一般语法如下所示:
 
-```
+```cpp
 struct structureName{
     member1;
     member2;
@@ -38,7 +38,7 @@ C++中的结构可以包含两种类型的成员:
 
 ## C++
 
-```
+```cpp
 // Data Members
 int roll;
 int age;
@@ -61,7 +61,7 @@ void printDetails()
 
 ## C++
 
-```
+```cpp
 // A variable declaration with structure declaration.
 struct Point
 {

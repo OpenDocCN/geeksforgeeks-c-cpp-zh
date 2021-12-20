@@ -12,7 +12,7 @@
 
 **功能模板:**
 
-```
+```cpp
 ForwardIterator remove  (ForwardIterator first,
 ForwardIterator last, const T& val)
 
@@ -32,7 +32,7 @@ in the sequence that do not compare equal to val.
 
 示例:
 
-```
+```cpp
 Input : 10 20 30 30 20 10 10 20
 Output : 10 30 30 10 10    // Value removed is 20.
 ```
@@ -42,7 +42,7 @@ Output : 10 30 30 10 10    // Value removed is 20.
 将范围[第一个，最后一个]转换为一个范围，去掉 pred 返回 true 的所有元素，并返回一个迭代器到该范围的新端点。
 **功能模板:**
 
-```
+```cpp
  ForwardIterator remove_if (ForwardIterator first,
  ForwardIterator last, UnaryPredicate pred);
 
@@ -57,14 +57,14 @@ This can either be a function pointer or a function object.
 
 示例:
 
-```
+```cpp
 Input : 1 2 3 4 5 6 7 8 9 10
 Output : 2 4 6 8 10    // Odd elements removed. 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std::remove and std::remove_if
 // algorithm
@@ -129,7 +129,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original vector :  10 20 30 30 20 10 10 20
 After remove :  10 30 30 10 10
 

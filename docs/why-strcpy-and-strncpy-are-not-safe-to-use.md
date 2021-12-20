@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strcpy( char *dest, const char *src )
 ```
 
@@ -19,7 +19,7 @@ char *strcpy( char *dest, const char *src )
 
 **返回值:**返回一个指向目标字符串的指针。
 
-```
+```cpp
 // C Program  to illustrate the 
 // strcpy() function in C/C++
 #include <stdio.h>
@@ -43,14 +43,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Copied string: geeksforgeeks
 
 ```
 
 **strcpy()的问题:**strcpy()函数没有指定目标数组的大小，因此缓冲区溢出通常是一个风险。使用 strcpy()函数将一个大的字符数组复制到一个小的数组中是危险的，但是如果字符串适合，那么就不值得冒这个风险。如果目标字符串不足以存储源字符串，那么 strcpy()的行为是未指定或未定义的。
 
-```
+```cpp
 // C Program  to illustrate the problem in 
 // strcpy() function in C/C++
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Copied string: geeksforgeeks
 
 ```
@@ -87,7 +87,7 @@ strncpy()函数类似于 strcpy()函数，只是最多复制 n 个字节的 src�
 
 **语法:**
 
-```
+```cpp
 char *strncpy( char *dest, const char *src, size_t n )
 ```
 
@@ -101,7 +101,7 @@ char *strncpy( char *dest, const char *src, size_t n )
 
 **示例:**
 
-```
+```cpp
 // C Program  to illustrate the 
 // strcpy() function in C/C++
 #include <stdio.h>
@@ -123,14 +123,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Copied string: geeksforgeeks
 
 ```
 
 【strncpy()的问题:如果 src 的前 n 个字符中没有空字符，则放置在 dest 中的字符串不会被空终止。因此 strncpy()不能保证目标字符串将被空终止。strlen()非终止字符串会导致 segfault。换句话说，C/C++中的非终止字符串是一个等待破坏代码的定时炸弹。
 
-```
+```cpp
 // C Program  to illustrate the problem in 
 // strcpy() function in C/C++
 #include <stdio.h>
@@ -160,7 +160,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Copied string: geeksfor
 Length of destination string: 8
 
@@ -175,7 +175,7 @@ Length of destination string: 8
 
 这两个函数都保证目标字符串将以空终止。类似地， [snprintf()函数](https://www.geeksforgeeks.org/snprintf-c-library/)，strlcpy 函数将最多 dest_size-1 个字符(dest_size 是目标字符串缓冲区的大小)从 src 复制到 dst，必要时截断 src。结果总是以 null 结尾。该函数返回 strlen(src)。可以按如下方式检查缓冲区溢出:
 
-```
+```cpp
  if (strlcpy(dst, src, dstsize) >= dest_size)
          return -1;
 
@@ -183,7 +183,7 @@ Length of destination string: 8
 
 根据健全程度对功能进行排序:
 
-```
+```cpp
 strcpy < strncpy < snprintf < strlcpy
 
 ```

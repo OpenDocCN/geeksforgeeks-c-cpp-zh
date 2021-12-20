@@ -8,7 +8,7 @@
 
 使用`imagenetscraper` 和`autocrop` ，我们从网上收集数据，裁剪面并批量调整它们的大小。收集的数据需要有意义地组织起来，这样我们就可以通过编程和手动方式访问它。使用下面的文件夹结构-
 
-```
+```cpp
 FFR_dataset/
 |-- Age
 |   |-- adult
@@ -37,7 +37,7 @@ FFR_dataset/
 
 **步骤#1:** 对于每个特征类型(即年龄、情绪或性别)，循环运行“n”次。
 
-```
+```cpp
 // CTrainTestHOG::Run(int run_times)
 for (auto ft : m_FeatureList) {
     DEBUGLW("\tFeature type=[%s]\n", ft.first.c_str());
@@ -59,7 +59,7 @@ for (auto ft : m_FeatureList) {
 
 **步骤#2:** 每次运行时，迭代特征类型中的特征值，将图像变成向量或数组，即从文件夹中获取所有图像性别- >男，性别- >女。
 
-```
+```cpp
 // CTrainTestHOG::get_ft_dataset()
 std::set<cv::String>& featureValueList = m_FeatureList.find(ft)->second;
 
@@ -88,7 +88,7 @@ for (auto fv : featureValueList) {
 *   对预处理后的人脸图像进行矢量随机洗牌，引入随机输入数据。
 *   将数据集分为训练数据(80%)和预测数据(20%)。
 
-```
+```cpp
 //  CTrainTestHOG::get_ftfv_dataset()
 std::vector<cv::Mat> imgList;
 this->get_images(folderName, imgList);
@@ -141,7 +141,7 @@ DEBUGLD("\t\t\ti=[%d], predData.size()=[%ld], 
 
 **步骤#7 :** 计算训练数据中每个图像的 HOG。
 
-```
+```cpp
 // CTrainTestHOG::computeHOGs()
 HOGDescriptor hog;
 vector<Mat> hogMats;
@@ -157,7 +157,7 @@ imgHogList.swap(hogMats);
 
 **步骤#8 :** 将训练数据向量转换为 opencv Mat 对象训练 SVM。
 
-```
+```cpp
 //  CTrainTestHOG::convert_to_ml()
 for (size_t i = 0; i < train_samples.size(); ++i) {
     CV_Assert(train_samples[i].cols == 1 || train_samples[i].rows == 1);
@@ -173,7 +173,7 @@ for (size_t i = 0; i < train_samples.size(); ++i) {
 
 **步骤#9 :** 将训练数据 Mat 对象与训练数据的标签向量一起传递给 svm 训练函数。
 
-```
+```cpp
 //  CTrainTestHOG::Run()
 trainLabels.resize(ml_train_data.rows);
 // train svm
@@ -184,7 +184,7 @@ DEBUGLW("\t\tTraining SVM - end\n");
 
 **步骤#10:** 保存训练好的模型。
 
-```
+```cpp
 //-- step 10, CTrainTestHOG::Run()
 cv::String svmModelFileName = cv::format("%s/cv4_svm_%s_model.xml",
                                          getenv(FFR_DATASET_PATH),
@@ -197,7 +197,7 @@ DEBUGLW("\t\tSaved SVM model=[%s]\n",
 
 **步骤#11:** 通过计算每个预测图像的 HOG 来预测模型，将预测数据集转换为 opencv mat 对象，并使用标签向量调用 svm predict 来存储结果。
 
-```
+```cpp
 //-- step 11, CTrainTestHOG::Run()
 // test the model
 // compute HOG for each pre-processed face
@@ -233,7 +233,7 @@ DEBUGLW("\t\tTesting SVM - end\n");
 
 **步骤#12 和#13:** 通过比较预期预测标签和预测标签，计算其准确度的百分比。
 
-```
+```cpp
 //  CTrainTestHOG::Run()
 // check the accuracy
 float accuracy = 0.0f;
@@ -253,7 +253,7 @@ DEBUGLW("\t\tMean prediction accuracy=[%lf]\n",
 
 使用下面的命令行参数运行可执行文件。
 
-```
+```cpp
 ./train_hog --test --in= --out= <path_to_output>--show</path_to_output>
 ```
 

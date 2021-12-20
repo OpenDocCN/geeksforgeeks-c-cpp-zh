@@ -6,7 +6,7 @@
 
 *   **Minimize the use of** [**loop**](https://www.geeksforgeeks.org/loops-in-c-and-cpp/) **internal loop, namely** [**nested loop**](https://www.geeksforgeeks.org/nested-loops-in-c-with-examples/) **:** For example:
 
-```
+```cpp
      for(i = 0 ; i < n ; i++)
      {
            for(j = 0 ; j < n ; j++)
@@ -20,7 +20,7 @@
 
 *   **I don't like a long list of** [**if-else**](https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/) **, but I prefer to use** [**switch statement**](https://www.geeksforgeeks.org/switch-statement-cc/) **:** For example:
 
-```
+```cpp
 if(condition 1)
 {
 
@@ -40,7 +40,7 @@ else
 
 假设还有另一个条件 3，那么代码的流程是先检查**条件 1** ，然后**条件 2** ，然后会到达**条件 3** 。因此，它需要 3 次操作。想法是使用下面的代码:
 
-```
+```cpp
 switch (c)
 {
     // Condition 1
@@ -60,7 +60,7 @@ switch (c)
 *   Instead of **"I = I+1"** , I prefer **"++I"** , instead of **"I = I+3"** , use **"I+= 3"**
 *   It is better to choose [**to pre-increase or pre-decrease**](https://www.geeksforgeeks.org/g-fact-40/) **instead of** [**to increase and then decrease**](https://www.geeksforgeeks.org/pre-increment-and-post-increment-in-c/) until and unless necessary. For example:
 
-```
+```cpp
 int i = 3;
 
 // It will increment in the same step
@@ -74,7 +74,7 @@ i++;
 *   Similarly, the use of [pointer](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) should be avoided, and it can be avoided everywhere. Pointer to the address of a variable, which will be further used to access the variable. Therefore, try to access variables directly, because they can be used directly, so time can be reduced.
 *   Use StringBuilder or StringBuffer class for concatenation instead of "+"operator.
 
-```
+```cpp
         1.Using "+" operator
         String x="";
         char c='a';

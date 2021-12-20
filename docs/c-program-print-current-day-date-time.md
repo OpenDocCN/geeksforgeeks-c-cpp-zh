@@ -18,12 +18,12 @@ asctime():
 
 *   用于将 **localtime 填充的结构中的内容转换为人类可读的版本**，最终以给定的格式返回日、日、时:
 
-    ```
+    ```cpp
     Day Month Date hh:mm:ss Year
 
     ```
 
-```
+```cpp
 // C++ program to find Current Day, Date
 // and Local Time
 #include<iostream>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 It will show the current day, date and localtime, in the
 format Day Month Date hh:mm:ss Year
 

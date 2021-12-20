@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: Student Records= {
 {Id = 1, Name = bd, Age = 12 },
 {Id = 2, Name = ba, Age = 10 },
@@ -33,7 +33,7 @@ Output:
 
 **程序:**
 
-```
+```cpp
 // C program to read Student records
 // like id, name and age,
 // and display them in sorted order by Name
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Unsorted Student Records:
 Id = 1, Name = bd, Age = 12 
 Id = 2, Name = ba, Age = 10 

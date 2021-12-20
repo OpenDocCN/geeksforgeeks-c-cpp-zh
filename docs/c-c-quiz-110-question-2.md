@@ -4,7 +4,7 @@
 
 以下程序无法编译，因为宏名和左括号之间有空格。
 
-```
+```cpp
 #include "stdio.h"
 
 #define MYINC   (  a  )  (  ( a )  +  1 )

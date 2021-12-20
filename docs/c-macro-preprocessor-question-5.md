@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-5/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-5/)
 
-```
+```cpp
 #include <stdio.h>
 #define ISEQUAL(X, Y) X == Y
 int main()

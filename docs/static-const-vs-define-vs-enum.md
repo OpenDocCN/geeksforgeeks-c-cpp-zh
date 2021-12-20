@@ -14,12 +14,12 @@
 
 **语法:**
 
-```
+```cpp
 static const data_type name_of_variable = initial_value;
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // static const
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 15
 
 ```
@@ -69,7 +69,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 #define token [value]
 
 ```
@@ -77,11 +77,11 @@ int main()
 注意:标记不能有空格，值可以有空格。
 例:
 
-```
+```cpp
  #define ll long long int
 ```
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of #define
 
@@ -119,7 +119,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10
 
 ```
@@ -130,21 +130,21 @@ int main()
 
 **语法:**
 
-```
+```cpp
 enum flag{constant1= 2, constant2=3, constant3=4....};
 
 ```
 
 “enum”与“#define”的不同之处在于它会自动为变量赋值。在前面的例子中，如果没有赋值= >
 
-```
+```cpp
 enum{constant1, constant2, constantd3...}
 
 ```
 
 变量将被自动赋值(constant1= 0，constant2= 1，constant3= 2…)。使用枚举代替宏有各种好处。其中之一是自动赋值。
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of enum
 
@@ -180,7 +180,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The value stored in wed is :2
 0 1 2 3 4 5 6
 

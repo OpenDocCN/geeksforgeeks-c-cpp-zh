@@ -12,7 +12,7 @@
 
 下面的程序使用 STL 中的[变换()为 arr[]的所有元素添加 1。](https://www.geeksforgeeks.org/transform-c-stl-perform-operation-elements/)
 
-```
+```cpp
 // A C++ program uses transform() in STL to add 
 // 1 to all elements of arr[]
 #include <bits/stdc++.h>
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3 4 5 6
 ```
 
@@ -49,7 +49,7 @@ int main()
 
 函子(或函数对象)是一个类似函数的 C++类。使用相同的旧函数调用语法调用函子。为了创建一个函子，我们创建了一个重载*运算符()*的对象。
 
-```
+```cpp
 The line,
 MyFunctor(10);
 
@@ -59,7 +59,7 @@ MyFunctor.operator()(10);
 
 让我们更深入地研究并理解这实际上是如何与 STl 结合使用的。
 
-```
+```cpp
 // C++ program to demonstrate working of
 // functors.
 #include <bits/stdc++.h>
@@ -96,13 +96,13 @@ int main()
 
 输出:
 
-```
+```cpp
 6 7 8 9 10
 ```
 
 因此，在这里，增量是一个函子，一个充当函数的 c++类。
 
-```
+```cpp
  The line,
 transform(arr, arr+n, arr, increment(to_add));
  is the same as writing below two lines,

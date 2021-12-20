@@ -4,7 +4,7 @@
 
 一个*试一下*块应该放什么？
 
-```
+```cpp
 
 1. Statements that might cause exceptions
 2. Statements that should be skipped in case of an exception 

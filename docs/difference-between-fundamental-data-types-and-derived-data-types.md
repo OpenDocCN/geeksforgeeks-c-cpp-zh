@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate array
 // derived data type
 #include <bits/stdc++.h>
@@ -33,7 +33,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to illustrate
 // primitive data types
 
@@ -65,7 +65,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python program to illustrate
 # primitive data types
 
@@ -90,7 +90,7 @@ print("\nChar value is = ", d);
 
 ## C#
 
-```
+```cpp
 // C# program to illustrate
 // primitive data types
 using System;
@@ -123,7 +123,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to illustrate
 // primitive data types
@@ -151,7 +151,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to illustrate
@@ -181,7 +181,7 @@ class GFG {
 
 **Output:** 
 
-```
+```cpp
 Integer value is = 2
 Float value is = 2.000000
 Double value is = 2.000300
@@ -194,7 +194,7 @@ Char value is = D
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate pointer
 // as derived data type
 #include <iostream>
@@ -223,7 +223,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate pointer
 // as derived data type
 #include <stdio.h>
@@ -248,7 +248,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Value of variable = 10
 Value at *pointer = 10
 ```
@@ -257,7 +257,7 @@ Value at *pointer = 10
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate array
 // derived data type
 #include <bits/stdc++.h>
@@ -280,7 +280,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate array
 // derived data type
 #include <stdio.h>
@@ -300,7 +300,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to illustrate array
 // derived data type
 import java.util.*;
@@ -325,7 +325,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to illustrate array
 # derived data type
 
@@ -343,7 +343,7 @@ for i in range(5):
 
 ## C#
 
-```
+```cpp
 // C# program to illustrate array
 // derived data type
 using System;
@@ -367,7 +367,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to illustrate array
 // derived data type
@@ -387,7 +387,7 @@ for ($i = 0; $i < 5; $i++)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to illustrate
@@ -408,7 +408,7 @@ for(i = 0; i < 5; i++)
 
 **Output:** 
 
-```
+```cpp
 1  2  3  4  5
 ```
 
@@ -416,7 +416,7 @@ for(i = 0; i < 5; i++)
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate structure
 // derived data type
 #include <bits/stdc++.h>
@@ -446,7 +446,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate structure
 // derived data type
 #include <stdio.h>
@@ -467,7 +467,7 @@ void main()
 
 **Output:** 
 
-```
+```cpp
 Structure data - 
  integer = 15 
  decimal = 98.900002 

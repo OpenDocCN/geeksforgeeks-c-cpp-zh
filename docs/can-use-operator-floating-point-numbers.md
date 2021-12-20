@@ -6,7 +6,7 @@
 
 **c++中%可以和浮点数一起使用吗？**
 
-```
+```cpp
 #include <iostream>
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 上述程序编译失败，编译器在第 5 行报告以下错误:
 输出:
 
-```
+```cpp
 invalid operands of types 'float' and 'float' 
 to binary 'operator%' 
 ```
@@ -32,7 +32,7 @@ to binary 'operator%'
 
 考虑以下 **Java** 程序的例子:
 
-```
+```cpp
 class Test
 {
     public static void main(String args[])
@@ -46,13 +46,13 @@ class Test
 
 输出:
 
-```
+```cpp
 3.2999997
 ```
 
 同理试试这个 **C#** 程序。它工作正常:
 
-```
+```cpp
 using System;
 class Test
 {
@@ -67,7 +67,7 @@ class Test
 
 输出:
 
-```
+```cpp
 3.3
 ```
 

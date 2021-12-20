@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 float ldexp (float x, int exp)
 double ldexp (double x, int exp)
 long double ldexp (long double x, int exp)
@@ -24,7 +24,7 @@ double ldexp (T x, int exp)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ldexp() function
 #include <bits/stdc++.h>
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ldexp(x, exp) = 24
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // ldexp() function
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ldexp(x, exp) = 10240
 
 ```
@@ -83,7 +83,7 @@ ldexp(x, exp) = 10240
 
 下面的程序说明了上面的错误。
 
-```
+```cpp
 // C++ program to illustrate the
 // ldexp() function
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ldexp(x, exp) = inf
 
 ```

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-storage-class-and-type-qualifier-question-10/](https://www.geeksforgeeks.org/c-storage-classes-and-type-qualifiers-question-10/)
 
-```
+```cpp
 #include <stdio.h>
 int main() 
 { 

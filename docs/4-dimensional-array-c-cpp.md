@@ -10,7 +10,7 @@
 **用 C 语言声明多维数组:**
 **语法:**
 
-```
+```cpp
 data_type array_name[i1][i2][i3][i4]………[in];
 where each i is a dimension, and in is the size of final dimension.
 ```
@@ -27,7 +27,7 @@ int 指定数组类型整数。
 
 **程序:**
 
-```
+```cpp
 // C Program to input 4D Matrix and print it.
 #include <stdio.h>
 int main()
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of a[0][0][0][0] :- 5 
 Value of a[0][0][0][1] :- 3 
 Value of a[0][0][1][0] :- 5 

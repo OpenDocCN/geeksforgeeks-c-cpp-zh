@@ -5,13 +5,13 @@
 1.  [**c++中的指针:**](https://www.geeksforgeeks.org/pointers-c-examples/) 指针是地址的符号表示。它们使程序能够模拟按引用调用，以及创建和操作动态数据结构。它在 C/C++中的一般声明格式为:
     **语法:**
 
-```
+```cpp
 datatype *var_name; 
 ```
 
 1.  **例:**
 
-```
+```cpp
 // ptr can point to an address
 // which holds int data
 int *ptr;   
@@ -19,7 +19,7 @@ int *ptr;
 
 2.  [**More on Pointers in C++:**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) This article would provide a further insight into Pointers, on how it works and explains the mathematical background of it. Pointers store address of variables or a memory location. 
 
-```
+```cpp
 // General syntax
 datatype *var_name; 
 
@@ -40,20 +40,20 @@ int *ptr;
 3.  [**C/c++中指针的特性和使用:**](https://www.geeksforgeeks.org/features-and-use-of-pointers-in-c-c/) 指针几乎没有什么重要的特性，比如节省内存空间、用于动态分配内存、用于文件处理等。指针存储变量地址或存储位置。
     **语法:**
 
-```
+```cpp
 datatype *var_name; 
 ```
 
 1.  **Example:** pointer “ptr” holds the address of an integer variable or holds the address of memory whose value(s) can be accessed as integer values through “ptr” 
 
-```
+```cpp
 int *ptr;
 ```
 
 2.  [**【c++中的‘this’指针】**](https://www.geeksforgeeks.org/this-pointer-in-c/) 这个‘this’指针作为一个隐藏的参数传递给所有非静态成员函数调用，并且可以作为所有非静态函数体内的局部变量使用。“this”指针在静态成员函数中不可用，因为静态成员函数可以在没有任何对象(带有类名)的情况下调用。即使每个函数中只有一个成员被多个对象使用，编译器也会提供一个隐式指针以及函数名“this”。
     **申报:**
 
-```
+```cpp
 this->x = x; 
 ```
 
@@ -66,7 +66,7 @@ this->x = x;
     *   A pointer can be declared as void but a reference can never be void 
         **Example:** 
 
-```
+```cpp
 int a = 10;
 void* aa = &a;. //it is valid
 void &ar = a; // it is not valid

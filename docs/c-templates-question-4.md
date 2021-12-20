@@ -4,7 +4,7 @@
 
 以下程序的输出？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -34,28 +34,28 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 0
 0
 ```
 
 **(B)**
 
-```
+```cpp
 1
 1
 ```
 
 **(C)**
 
-```
+```cpp
 2
 1
 ```
 
 **(D)**
 
-```
+```cpp
 1
 0
 ```

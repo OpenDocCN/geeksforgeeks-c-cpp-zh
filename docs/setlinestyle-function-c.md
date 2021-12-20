@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 void setlinestyle(int linestyle, unsigned upattern,
                                    int thickness);
 
@@ -16,7 +16,7 @@ void setlinestyle(int linestyle, unsigned upattern,
 
 **示例:**
 
-```
+```cpp
 Input : x = 200, y = 100
 Output : 
 
@@ -36,7 +36,7 @@ to value of first parameter(c).
 
 下面是 setlinestyle()函数的实现:
 
-```
+```cpp
 // C Implementation for setlinestyle()
 #include <graphics.h>
 

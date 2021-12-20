@@ -21,7 +21,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate the
 // implementation of the base class
 // pointer pointing to derived class
@@ -90,7 +90,7 @@ int main()
 
 ****输出:****
 
-```
+```cpp
 Displaying Base class variable var_base: 34
 Displaying Base class variable var_base: 3400
 Displaying Base classvariable var_base: 9448

@@ -8,7 +8,7 @@
 给定:K 将始终小于或等于出席人数。
 示例:
 
-```
+```cpp
 Input : Q = 2
         1
         aa bb 10
@@ -33,7 +33,7 @@ Age: 10
 *   因此，只需创建一个可用于存储结构的多集，然后在每次查询后，只需在我们的多集中插入该人的详细信息。
 *   所以，这似乎是更好的方法。我们的整体复杂度将是 O(q*log(q))。
 
-```
+```cpp
 // CPP program for queries to find k-th person where
 // people are considered in lexicographic order of
 // first name, then last name, then age
@@ -123,7 +123,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First name:aa
 Last name:bb
 Age: 10

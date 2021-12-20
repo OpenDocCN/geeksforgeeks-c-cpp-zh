@@ -5,7 +5,7 @@
 **STD::unordered _ map::rehash()**是一个内置函数 C++ STL，它将容器中的桶数设置为 n 个或更多。
 **语法**
 
-```
+```cpp
 void rehash( size_type s );
 
 ```
@@ -19,7 +19,7 @@ void rehash( size_type s );
 
 **示例-1:**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_map rehash
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of container : 3
  Initial bucket count : 5
  Size of container : 3
@@ -57,7 +57,7 @@ Size of container : 3
 
 **示例-2:**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_map rehash
 #include <bits/stdc++.h>
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of container : 4
  Initial bucket count : 7
  Size of container : 4

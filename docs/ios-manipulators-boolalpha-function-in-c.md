@@ -6,7 +6,7 @@ C++中**流操纵器**的 **boolalpha()** 方法用于设置指定字符串流�
 
 **语法:**
 
-```
+```cpp
 ios_base& boolalpha (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& boolalpha (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of boolalpha() function
 
@@ -41,14 +41,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 boolalpha flag: true
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of boolalpha() function
 
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 boolalpha flag: false
 
 ```

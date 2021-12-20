@@ -12,7 +12,7 @@ C++中的一个[向量](https://www.geeksforgeeks.org/vector-in-cpp-stl/)可以�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate push_back()
 #include <iostream>
 #include <vector>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6 
 ```
 
@@ -42,7 +42,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // working of erase() function
 #include <iostream>
@@ -65,6 +65,6 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3 4 5 
 ```

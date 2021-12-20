@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input  : 8 -> 7 -> 5 -> 2 -> 1
 Output : Yes
 Explanation :
@@ -21,7 +21,7 @@ Output : No
 
 ## C++
 
-```
+```cpp
 // C++ program to check Linked List is sorted
 // in descending order or not
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to check Linked List is sorted
 // in descending order or not
 class GFG
@@ -131,7 +131,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to check Linked List is sorted
 # in descending order or not
 ''' Linked list Node '''
@@ -180,7 +180,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to check Linked List is sorted
 // in descending order or not
 using System;
@@ -240,7 +240,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
       // JavaScript program to recursively check Linked List
@@ -285,7 +285,7 @@ public static void Main(String[] args)
 
 **Output:** 
 
-```
+```cpp
 Yes
 ```
 
@@ -296,7 +296,7 @@ Yes
 
 ## C++
 
-```
+```cpp
 // C++ program to recursively check Linked List
 // is sorted in descending order or not
 #include <bits/stdc++.h>
@@ -347,7 +347,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to recursively check Linked List
 // is sorted in descending order or not
 class GfG {
@@ -399,7 +399,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to recursively check
 # Linked List is sorted in descending
 # order or not
@@ -448,7 +448,7 @@ if __name__=="__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to recursively check Linked List
 // is sorted in descending order or not
 using System;
@@ -506,7 +506,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to recursively check Linked List
     // is sorted in descending order or not
@@ -554,6 +554,6 @@ public static void Main(String[] args)
 
 **Output:** 
 
-```
+```cpp
 Yes
 ```

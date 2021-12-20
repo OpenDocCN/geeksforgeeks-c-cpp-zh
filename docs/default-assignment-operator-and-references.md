@@ -4,7 +4,7 @@
 
 我们已经讨论了动态分配资源[的赋值运算符重载。这是前一篇文章的延伸。在](https://www.geeksforgeeks.org/assignment-operator-overloading-in-c/)[之前的帖子](https://www.geeksforgeeks.org/assignment-operator-overloading-in-c/)中，我们讨论了当我们不编写自己的赋值运算符时，编译器创建的赋值运算符会进行浅拷贝，从而导致问题。当我们的类中有引用并且没有用户定义的赋值操作符时会发生什么。例如，预测以下程序的输出。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: non-static reference member 'int& Test::ref', 
              can't use default assignment operator
 ```
@@ -44,7 +44,7 @@ Compiler Error: non-static reference member 'int& Test::ref',
 
 当上述任一条件成立时，用户必须定义赋值运算符。例如，如果我们在上面的代码中添加一个赋值操作符，代码可以正常工作，没有任何错误。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -72,7 +72,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 ```
 

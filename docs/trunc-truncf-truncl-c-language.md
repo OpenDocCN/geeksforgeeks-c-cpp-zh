@@ -17,7 +17,7 @@
 
 示例:
 
-```
+```cpp
 Input : 3.5
 Output : 3.0
 
@@ -26,7 +26,7 @@ Output : -3.0
 
 ```
 
-```
+```cpp
 // C program to demonstrate 
 // trunc() function
 #include <stdio.h>
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Truncated value is 2.000000 
  Truncated value is 3.000000 
  Truncated value is -3.000000 
@@ -73,7 +73,7 @@ Truncated value is 2.000000
 
 示例:
 
-```
+```cpp
 Input : 4.5
 Output : 4.0
 
@@ -82,7 +82,7 @@ Output : -2.0
 
 ```
 
-```
+```cpp
 // C program to demonstrate truncf() function
 #include <stdio.h>
 #include <math.h>     
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Truncated value is 2.000000 
  Truncated value is 3.000000 
  Truncated value is -3.000000 
@@ -127,7 +127,7 @@ Truncated value is 2.000000
 
 示例:
 
-```
+```cpp
 Input : 4351.5
 Output : 4351.0
 
@@ -138,7 +138,7 @@ Output : -2008.0
 
 **正值情况下:**
 
-```
+```cpp
 // C program to demonstrate truncl() function
 #include <stdio.h>
 #include <math.h>     
@@ -162,7 +162,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Truncated value is 2.000000 
  Truncated value is 3.000000 
  Truncated value is -3.000000 

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 moverel(int x, int y);
 
 The end position is calculated as :
@@ -20,7 +20,7 @@ y_pos2 = y_pos1 + y;
 
 **示例:**
 
-```
+```cpp
 Input : x_pos1 = 0, y_pos1 =0, x = 200, y = 100
 Output : 
 
@@ -33,7 +33,7 @@ Output :
 
 下面是 C 语言中 moverel()函数的实现:
 
-```
+```cpp
 // C Implementation for moverel()
 #include <graphics.h>
 #include<stdio.h>
@@ -86,7 +86,7 @@ int main()
 
 下面是 C 语言中 moverel()函数的实现:
 
-```
+```cpp
 // C Implementation for moverel()
 #include <graphics.h>
 #include<stdio.h>

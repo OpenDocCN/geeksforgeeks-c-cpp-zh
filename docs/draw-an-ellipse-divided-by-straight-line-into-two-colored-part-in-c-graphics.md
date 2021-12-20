@@ -7,7 +7,7 @@
 
 **方法:**要运行程序，我们需要包含以下头文件:
 
-```
+```cpp
 #include <graphic.h>
 
 ```
@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <graphics.h>
 

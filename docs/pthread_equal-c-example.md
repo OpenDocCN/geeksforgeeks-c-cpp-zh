@@ -10,7 +10,7 @@ pthread_equal() =这将比较两个线程是否相等。该函数比较两个线
 
 **第一种方法** :-与自螺纹
 
-```
+```cpp
 // C program to demonstrate working of pthread_equal()
 #include <stdio.h>
 #include <stdlib.h>
@@ -53,14 +53,14 @@ int main()
 
 输出:
 
-```
+```cpp
 equal
 
 ```
 
 **第二种方法** :-与其他螺纹
 
-```
+```cpp
 // C program to demonstrate working of pthread_equal()
 #include <stdio.h>
 #include <stdlib.h>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 not equal
 
 ```

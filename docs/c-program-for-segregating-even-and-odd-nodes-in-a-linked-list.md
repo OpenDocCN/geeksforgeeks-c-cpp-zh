@@ -5,7 +5,7 @@
 给定一个整数链表，编写一个函数来修改链表，使得在修改后的链表中，所有偶数出现在所有奇数之前。此外，保持偶数和奇数的顺序相同。
 **例:**
 
-```
+```cpp
 Input: 17->15->8->12->10->5->4->1->7->6->NULL
 Output: 8->12->10->4->6->17->15->5->1->7->NULL
 
@@ -34,7 +34,7 @@ Output: 1->3->5->7->NULL
 
 ## C
 
-```
+```cpp
 // C program to segregate even and 
 // odd nodes in a Linked List
 #include <stdio.h>
@@ -190,7 +190,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original Linked list 0 2 4 6 8 10 11
 Modified Linked list 0 2 4 6 8 10 11
 ```

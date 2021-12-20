@@ -22,7 +22,7 @@
 
 以下是 multimap::key_comp 的示例:
 
-```
+```cpp
 // c++ program to show
 // the use of multimap::key_comp
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a = 10
 b = 20
 b = 30

@@ -5,7 +5,7 @@
 **映射::lower_bound(k)** 是 C++ STL 中的一个内置函数，它返回一个指向容器中键的迭代器，该键相当于参数中传递的 k。
 **语法:**
 
-```
+```cpp
 map_name.lower_bound(key)
 
 ```
@@ -17,7 +17,7 @@ map_name.lower_bound(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ function for illustration
 // map::lower_bound() function
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 10
 2 30
 4 40

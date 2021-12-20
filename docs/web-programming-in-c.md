@@ -19,7 +19,7 @@
 **服务器端配置**
 在使用 CGI 编程之前，程序员应该确保 Web 服务器支持 CGI，并为处理 CGI 程序进行了良好的配置。按照惯例，CGI 文件的扩展名为。cgi，尽管它们是 C++可执行文件。默认情况下，Apache 网络服务器被配置为在中运行 CGI 程序
 
-```
+```cpp
 /var/www/cgi-bin
 ```
 
@@ -27,7 +27,7 @@
 
 **使用 C++的 CGI 程序示例**
 
-```
+```cpp
 // C++ example of CGI program
 
 #include <iostream>
@@ -58,7 +58,7 @@ int main()
 *   编译上面的程序，给这个可执行文件一个合适的名字和扩展名**。cgi** 。
 *   This file needs to be kept in
 
-    ```
+    ```cpp
     /var/www/cgi-bin directory
     ```
 

@@ -10,7 +10,7 @@
 
         **程序 1:**
 
-        ```
+        ```cpp
         #include <stdio.h>
         int main(void)
         {
@@ -29,7 +29,7 @@
 
         **程序 2:**
 
-        ```
+        ```cpp
         #include <stdio.h>
         int main(void)
         {
@@ -44,7 +44,7 @@
     *   **避免循环计算**:我们应该避免任何数值或多或少恒定的计算。内部循环应该有最少可能的计算。
         T3】节目 1:
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main(void)
     {
@@ -62,7 +62,7 @@
 
     **程序 2:**
 
-    ```
+    ```cpp
     #include <stdio.h>
 
     int main(void)
@@ -83,7 +83,7 @@
 2.  **Avoid pointer Dereference in loop**: Pointer dereferencing creates lots of trouble in memory. So better assign it to some temporary variable and then use that temporary variable in the loop.
     **Program 1:**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main(void)
     {
@@ -102,14 +102,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Value of a : 55
 
     ```
 
     **程序 2:**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main(void)
     {
@@ -136,7 +136,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Value of a : 55
 
     ```
@@ -144,7 +144,7 @@
 3.  **使用寄存器变量作为内部循环的计数器**:存储在寄存器中的变量可以比存储在内存中的变量更快地被访问。
     **程序:**
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main(void)
     {
@@ -166,7 +166,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     * 
     * * 
     * * * 
@@ -179,7 +179,7 @@
     *   **避免不必要的整数除法**:除法运算比较慢，要尽量减少除法运算。
         T3】节目:
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -193,7 +193,7 @@ int main(void)
 *   **乘除 2** :乘除用左移(< <)乘除用右移(> >)。位运算将比乘法和除法运算快得多。对于简单的操作，编译器可能会自动优化代码，但在复杂表达式的情况下，总是建议使用位操作。
     **例:**
 
-    ```
+    ```cpp
     Multiply by 6 : a= a<<1 + a<<2; 
     Multiply by 7 : a= a<<3 - a;
     Divide by 8 : a= a>>3; // division by power of 2
@@ -203,7 +203,7 @@ int main(void)
     *   **简化表达式**:有时候我们可以通过简化表达式来减少一些运算。
     **例:**
 
-    ```
+    ```cpp
      a*b + a*b*c + a*b*c*d ---> (a*b)*(1 + c*(1 + d)) 
      L.H.S can be Simplified to R.H.S
      L.H.S  : 6 multiplications and 2 additions
@@ -218,7 +218,7 @@ int main(void)
 
     **示例:**
 
-    ```
+    ```cpp
     switch(expression)
     {
     case a:
@@ -257,7 +257,7 @@ int main(void)
 
     我们可以将所有案例放在一起，并且可以只编写一次通用语句，而使用另一个开关在相关案例中编写不同的语句。这里我们将把案例 c，d，e，f 放在一起，写出共同的语句，然后我们可以使用另一个开关，在案例 c，d，e，f 中写出不同的语句，然后在这个开关之后，我们可以再次写出共同的语句。
 
-    ```
+    ```cpp
     switch(expression)
     {
     case a:
@@ -300,14 +300,14 @@ int main(void)
     *   **<u>更喜欢 int 而不是 char 或 short</u>**
     我们应该总是更喜欢 int 而不是 char，因为 C 用一个整数执行 char 的所有操作。在所有操作中，如将字符传递给函数或算术运算，**第一个字符将被转换为整数，在编译操作后，它将再次被转换为字符**。对于单个字符，这可能不会影响效率，但是假设在一个循环中执行 100 次相同的操作，那么它会降低程序的效率。*   **<u>优先选择前递增/后递减优先选择后递增/后递减</u>**
     在预递增中，它首先递增值，并将该值复制到变量位置，但在后递增中，它首先将该值复制到临时变量，递增该值，然后将该值复制到变量位置。如果后增量在一个循环中是 1000 次，它将降低效率。*   **<u>表达评估顺序</u>**
-    *   ```
+    *   ```cpp
          A || B 
 
         ```
 
         这里首先对 A 进行评估，如果是真的，那么就不需要对表达式 b 进行评估。因此，我们更希望在 A 处有一个大多数情况下评估为真的表达式。
 
-    *   ```
+    *   ```cpp
          A && B 
 
         ```

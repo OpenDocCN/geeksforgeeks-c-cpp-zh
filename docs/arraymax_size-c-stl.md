@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 *arrayname*.max_size()
 Parameters :
 No parameter is passed.
@@ -23,7 +23,7 @@ elements that the array can contain.
 
 示例:
 
-```
+```cpp
 Input  : myarray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
          myarray.max_size();
 Output : 10
@@ -36,13 +36,13 @@ Output : 5
 
 **错误和异常**
 
-```
+```cpp
 1\. It throws an error if a parameter is passed.
 2\. It has a no exception throw guarantee otherwise.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of max_size() function
 #include <array>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```

@@ -6,7 +6,7 @@ C++ STL 中的 **list:push_back()** 函数用于在现有列表容器中添加�
 
 **语法:**
 
-```
+```cpp
 list_name.push_back(value) 
 
 ```
@@ -17,7 +17,7 @@ list_name.push_back(value)
 
 下面的程序说明了 list::push_back()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::push_back() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Initial Size of the list: 0
 Size of list after adding three elements: 3
 

@@ -14,7 +14,7 @@
 
 **3。炮台 _ 正面** :-该功能在列表的开始处增加**值。它与 push_front()的不同之处在于，它直接在位置创建元素，而 push_front()首先创建一个临时副本并从那里复制。在大多数情况下，push_front()在实现上比 push _ front()更快。**
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // emplace(), emplace_front() and emplace_back()
 #include<iostream>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 List after emplace_back operation is : 1 2 3 4 5 
 List after emplace_front operation is : 50 40 30 20 10 1 2 3 4 5 
 List after emplace operation is : 50 100 40 30 20 10 1 2 3 4 5 
@@ -75,7 +75,7 @@ List after emplace operation is : 50 100 40 30 20 10 1 2 3 4 5
 
 **5。remove_if(条件)** :-该功能**根据其参数中给出的条件**从列表中删除元素。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // merge() and remove_if()
 #include<iostream>
@@ -113,7 +113,7 @@ int main()
 
 输出:
 
-```
+```cpp
 list1 after merge operation is : 1 2 2 3 4 6 
 list1 after remove_if operation is : 2 2 4 6 
 
@@ -123,7 +123,7 @@ list1 after remove_if operation is : 2 2 4 6
 
 **7。拼接(位置，列表 2)** :-该功能用于将元素从一个列表转移到另一个列表。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // unique() and splice()
 #include<iostream>
@@ -172,7 +172,7 @@ int main()
 
 输出:
 
-```
+```cpp
 list1 before unique operation is : 1 1 1 2 2 3 3 4 
 list1 after unique operation is : 1 2 3 4 
 
@@ -182,7 +182,7 @@ list1 after splice operation is : 1 2 4 6 2 3 4
 
 **8。交换(列表 2)** :-该功能用于**将一个列表元素与其他**进行交换。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // swap()
 #include<iostream>
@@ -231,7 +231,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The contents of 1st list before swapping are : 1 2 3 4 
 The contents of 2nd list before swapping are : 2 4 6 
 The contents of 1st list after swapping are : 2 4 6 

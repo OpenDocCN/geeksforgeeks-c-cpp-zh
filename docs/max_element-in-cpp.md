@@ -12,7 +12,7 @@ std::max_element 有两种使用方式。可以使用**运算符<** (第一版)�
 1.  **Use "
     " syntax to compare elements:: < >**
 
-```
+```cpp
 template <class forwarditerator="">
 ForwardIterator max_element (ForwardIterator first, ForwardIterator last);</class>
 
@@ -27,7 +27,7 @@ It points to the last in case the range is empty.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::max_element
 #include <iostream>
 #include <algorithm>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 k
 
 ```
@@ -57,7 +57,7 @@ k
 *   **For comparison based on a pre-defined function:**
     Syntax:
 
-    ```
+    ```cpp
     template <class forwarditerator="" class="" compare="">
     ForwardIterator max_element (ForwardIterator first, ForwardIterator last,
                                  Compare comp);</class>
@@ -77,7 +77,7 @@ k
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::max_element
     #include <iostream>
     #include <algorithm>
@@ -106,7 +106,7 @@ k
 
     输出:
 
-    ```
+    ```cpp
     12
 
     ```

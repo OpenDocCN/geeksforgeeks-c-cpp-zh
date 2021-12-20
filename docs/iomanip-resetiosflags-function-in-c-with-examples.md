@@ -5,7 +5,7 @@
 C++中 **iomanip 库**的 **resetiosflags()** 方法用于将指定为该方法参数的 ios 库格式标志复位。
 **语法:**
 
-```
+```cpp
 resetiosflags (ios_base::format_flag)
 ```
 
@@ -15,7 +15,7 @@ resetiosflags (ios_base::format_flag)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of resetiosflags() function
 
@@ -48,7 +48,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before reset: 
 0x32
 Resetting showbase flag using resetiosflags: 
@@ -59,7 +59,7 @@ Resetting showbase flag using resetiosflags:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of resetiosflags() function
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before reset: 
 0x32
 Resetting showbase and uppercase flag using resetiosflags: 

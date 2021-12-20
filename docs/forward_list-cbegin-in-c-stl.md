@@ -6,7 +6,7 @@ forward_list::cbegin()是 C++ STL 中的一个函数，它返回一个指向 for
 
 **语法:**
 
-```
+```cpp
 forward_list_name.cbegin()
 ```
 
@@ -18,7 +18,7 @@ forward_list_name.cbegin()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate
 // forward_list::cbegin();
 
@@ -40,14 +40,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1st element of sample: 45
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 #include <forward_list>
 #include <iostream>
 using namespace std;
@@ -66,7 +66,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sample: 7 4 9 15
 
 ```

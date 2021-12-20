@@ -75,7 +75,7 @@ C++中可用的数据类型修饰符有:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to sizes of data types
 #include<iostream>
 using namespace std;
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Size of char : 1 byte
 Size of int : 4 bytes
 Size of short int : 2 bytes

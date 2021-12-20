@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 // macro definition
@@ -40,7 +40,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // macro definition
@@ -57,7 +57,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0
 1
 2
@@ -73,7 +73,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 // macro with parameter
@@ -92,7 +92,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // macro with parameter
@@ -111,7 +111,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Area of rectangle is: 50
 ```
 
@@ -121,7 +121,7 @@ Area of rectangle is: 50
     *   **头文件或标准文件**:这些文件包含预定义函数的定义，如 printf()、scanf()等。必须包含这些文件才能使用这些功能。不同的函数在不同的头文件中声明。例如，标准输入/输出函数在“iostream”文件中，而执行字符串操作的函数在“string”文件中。
         **句法**:
 
-```
+```cpp
 #include< *file_name* >
 ```
 
@@ -129,14 +129,14 @@ Area of rectangle is: 50
 
 *   **用户定义的文件**:当一个程序变得非常大的时候，最好把它分成更小的文件，并在需要的时候包含进去。这些类型的文件是用户定义的文件。这些文件可以包含为:
 
-```
+```cpp
 #include"*filename*"
 ```
 
 *   **条件编译**:条件编译指令是一种有助于编译程序特定部分或基于某些条件跳过程序特定部分编译的指令。这可以在两个预处理命令“ **ifdef** 和“ **endif** 的帮助下完成。
     **语法**:
 
-```
+```cpp
 #ifdef macro_name
     statement1;
     statement2;
@@ -153,7 +153,7 @@ Area of rectangle is: 50
 *   **其他指令**:除了上面的指令，还有两个不常用的指令。这些是:
     *   **#undef 指令**:undef 指令用于取消现有宏的定义。该指令的作用如下:
 
-```
+```cpp
 #undef LIMIT
 ```
 
@@ -166,7 +166,7 @@ Area of rectangle is: 50
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -200,7 +200,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 void func1();
@@ -231,7 +231,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Inside func1()
 Inside main()
 Inside func2()
@@ -239,7 +239,7 @@ Inside func2()
 
 当在 GCC 编译器上运行时，上述代码将产生如下所示的输出:
 
-```
+```cpp
 Inside main()
 ```
 
@@ -247,7 +247,7 @@ Inside main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -280,7 +280,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 void func1();

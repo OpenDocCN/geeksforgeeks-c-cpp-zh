@@ -6,7 +6,7 @@
 [![](img/3b059c2c9a9f9356f510c196b9f776ce.png)](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128195739/CPP-Forward-declarations.png) 
 **例:**</u>
 
-```
+```cpp
 // Forward Declaration of the sum()
 void sum(int, int);
 
@@ -21,7 +21,7 @@ void sum(int a, int b)
 
 <u>**示例:**</u>
 
-```
+```cpp
 // Forward Declaration class A
 class A;
 
@@ -37,7 +37,7 @@ class A{
 
 <u>**例 1:**</u>
 
-```
+```cpp
 .
 // C++ program to show
 // the need for Forward Declaration
@@ -88,7 +88,7 @@ int main()
 
 <u>**输出:**</u>
 
-```
+```cpp
 Compile Errors :
 prog.cpp:14:18: error: 'A' has not been declared
    friend int sum(A, B);
@@ -99,7 +99,7 @@ prog.cpp:14:18: error: 'A' has not been declared
 
 <u>**例 2:**</u>
 
-```
+```cpp
 .
 // C++ program to show
 // the need for Forward Declaration
@@ -150,7 +150,7 @@ int main()
 
 <u>**输出:**</u>
 
-```
+```cpp
 Compile Errors :
 prog.cpp:16:23: error: 'B' has not been declared
      friend int sum(A, B);
@@ -165,7 +165,7 @@ prog.cpp:16:23: error: 'B' has not been declared
 
 <u>**例 3:**</u>
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -214,7 +214,7 @@ int main()
 
 <u>**Output:**
 
-```
+```cpp
 The sum is : 9
 
 ```</u> 

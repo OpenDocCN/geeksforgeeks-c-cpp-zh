@@ -6,7 +6,7 @@
 
 **Ans。**c++中的纯虚函数(或抽象函数)是我们没有实现的虚函数，我们只声明它。纯虚函数通过在声明中赋值 0 来声明。请参见以下示例。
 
-```
+```cpp
 // An abstract class
 class Test {
     // Data members of class
@@ -21,7 +21,7 @@ public:
 **2。什么是抽象类？**
 **俺们。**包含至少一个纯虚函数的类称为抽象类。请参见以下示例
 
-```
+```cpp
 // An abstract class
 class Test {
     // Data members of class
@@ -38,7 +38,7 @@ public:
 **关于抽象类的一些有趣的事实**
 1)我们不能创造一个抽象类的对象。
 
-```
+```cpp
 // pure virtual functions make a class abstract
 #include <iostream>
 using namespace std;
@@ -60,7 +60,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 Compiler Error: cannot declare variable 't' to be of abstract
  type 'Test' because the following virtual functions are pure 
 within 'Test': note:     virtual void Test::show() 
@@ -70,7 +70,7 @@ within 'Test': note:     virtual void Test::show()
 **2。**我们可以有抽象类类型的指针和引用。
 例如，以下程序运行良好。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -94,14 +94,14 @@ int main(void)
 
 输出:
 
-```
+```cpp
  In Derived 
 ```
 
 **3。**如果我们不覆盖派生类中的纯虚函数，那么派生类也就变成了抽象类。
 下面的例子说明了同样的情况。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {
@@ -121,7 +121,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Compiler Error: cannot declare variable 'd' to be of abstract type 
 'Derived'  because the following virtual functions are pure within
 'Derived': virtual void Base::show() 
@@ -130,7 +130,7 @@ Compiler Error: cannot declare variable 'd' to be of abstract type
 
 **3。**这个程序的输出是什么？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Test {
@@ -175,7 +175,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2010
 ```
 
@@ -184,7 +184,7 @@ int main()
 
 **4。**这个程序的输出是什么？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {
@@ -229,7 +229,7 @@ int main()
 
 输出
 
-```
+```cpp
 212
 ```
 
@@ -237,7 +237,7 @@ int main()
 
 **5。**这个程序的输出是什么？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class sample {
@@ -272,7 +272,7 @@ int main()
 
 输出:
 
-```
+```cpp
  GeeksForGeeks is awesome
 ```
 

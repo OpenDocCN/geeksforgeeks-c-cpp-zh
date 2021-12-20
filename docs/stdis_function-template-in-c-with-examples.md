@@ -6,14 +6,14 @@ C++ STL 的 **std::is_function** 用来检查给定的 T 类型是否是函数�
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **语法:**
 
-```
+```cpp
 template 
   <class T> 
   struct is_function;
@@ -31,7 +31,7 @@ template
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_function template
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 false
 true
 true
@@ -88,7 +88,7 @@ true
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_function template
 
@@ -134,7 +134,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 true
 false
 false

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 T sum() const;
 ```
 
@@ -16,7 +16,7 @@ T sum() const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sum() function.
 
@@ -39,14 +39,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The sum of valarray is = 128
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sum() function.
 
@@ -69,7 +69,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The sum of valarray is = 15
 
 ```

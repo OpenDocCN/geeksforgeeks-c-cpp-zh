@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     array_name.cbegin() 
     ```
 
@@ -16,7 +16,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the array::cbegin() function
     #include <bits/stdc++.h>
@@ -39,7 +39,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The first element is 1
     The array elements are: 1 5 2 4 7
 
@@ -49,7 +49,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     array_name.cend() 
     ```
 
@@ -59,7 +59,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the array::cend() function
     #include <bits/stdc++.h>
@@ -79,7 +79,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The array elements are: 1 5 2 4 7
 
     ```

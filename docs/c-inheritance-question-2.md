@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 #include <iostream>  
 using namespace std;
 
@@ -32,7 +32,7 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 Base1's destructor
 Base2's destructor
 Derived's destructor
@@ -40,7 +40,7 @@ Derived's destructor
 
 **(B)**
 
-```
+```cpp
 Derived's destructor
 Base2's destructor
 Base1's destructor
@@ -49,7 +49,7 @@ Base1's destructor
 
 **(C)**
 
-```
+```cpp
 Derived's destructor
 ```
 

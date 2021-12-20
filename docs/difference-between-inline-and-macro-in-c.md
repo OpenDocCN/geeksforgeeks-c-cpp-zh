@@ -7,7 +7,7 @@
 
 **内联函数的语法:**
 
-```
+```cpp
 inline return_type function_name ( parameters )
 { 
  // inline function code
@@ -17,7 +17,7 @@ inline return_type function_name ( parameters )
 
 **内联函数示例:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Max (100, 1000): 1000
 Max (20, 0): 20 
 ```
@@ -49,13 +49,13 @@ Max (20, 0): 20
 
 **宏语法:**
 
-```
+```cpp
 #define MACRO_NAME Macro_definition 
 ```
 
 **宏示例:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -79,7 +79,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Max (100, 1000):1000
 Max (20, 0):20 
 ```

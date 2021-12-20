@@ -25,7 +25,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -145,7 +145,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C implementation of the approach
 #include <stdbool.h>
 #include <stdio.h>
@@ -265,7 +265,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 2322
 2323
 2332
@@ -276,7 +276,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -344,7 +344,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 2333
 2332
 2322

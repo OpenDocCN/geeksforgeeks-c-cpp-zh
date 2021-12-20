@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <algorithm>
 
 ```
 
 **语法:**
 
-```
+```cpp
 is_heap(first, last)
 
 ```
@@ -28,7 +28,7 @@ is_heap(first, last)
 
 ******程序 1:******
 
-```
+```cpp
 **// C++ program to illustrate
 // the std::is_heap()
 
@@ -59,14 +59,14 @@ int main()
 
 ******输出:**
 
-```
+```cpp
 Doesn't forms a Max Heap
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate the std::is_heap()
 
 #include <algorithm>
@@ -107,7 +107,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 9 3 8 1 1 5
 
 ```

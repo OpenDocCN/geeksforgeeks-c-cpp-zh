@@ -4,7 +4,7 @@
 
 在深入讨论之前，让我们先看一下我们使用的普通“重载赋值运算符”。
 
-```
+```cpp
 // Simple C++ program to demonstrate overloading of
 // assignment operator.
 #include <iostream>
@@ -64,7 +64,7 @@ c)返回*此
 
 考虑以下代码:
 
-```
+```cpp
 // Simple C++ program to demonstrate use of copy-and-swap
 // idiom by improving above code.
 #include <iostream>

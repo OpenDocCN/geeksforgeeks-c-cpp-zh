@@ -7,7 +7,7 @@
 
 **语法 1:** 将*的字符数调整为 num。
 
-```
+```cpp
 void string ::resize (size_type num)
 num: New string length, expressed in number of characters.
 Errors: 
@@ -19,7 +19,7 @@ characters(max_size()).
 
 **注意:**如果 num > size()那么，剩下的字符用' \0 '初始化。
 
-```
+```cpp
 // CPP code for resize (size_type num)
 
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks 
 Using resize : Geeks
 
@@ -59,7 +59,7 @@ Using resize : Geeks
 
 **语法 2:** 使用一个字符来填充 size()和 num 之间的差异。
 
-```
+```cpp
 void string ::resize (size_type num, char c )
 num: is the new string length, expressed in number of characters.
 c: is the character needed to fill the new character space.
@@ -72,7 +72,7 @@ characters(max_size()).
 
 ```
 
-```
+```cpp
 // CPP code for resize (size_type num, char c )
 
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 Using resize :
 If num > size() : GeeksforGeeks$

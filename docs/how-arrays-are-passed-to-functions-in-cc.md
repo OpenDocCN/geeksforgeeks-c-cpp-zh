@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -33,7 +33,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 // Note that arr[] for fun is just a pointer even if square
@@ -57,7 +57,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array size inside main() is 8
 Array size inside fun() is 1
 ```
@@ -70,7 +70,7 @@ Array size inside fun() is 1
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -95,7 +95,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 void fun(int *arr, unsigned int n)
@@ -117,7 +117,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1  2  3  4  5  6  7  8
 ```
 
@@ -128,7 +128,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 void fun(int arr[], unsigned int n)
@@ -152,7 +152,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void fun(int arr[], unsigned int n)
 {
@@ -175,7 +175,7 @@ return 0;
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 void fun(int *arr)
@@ -199,7 +199,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void fun(int *arr)
 {
@@ -222,7 +222,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -248,7 +248,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -274,7 +274,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -301,7 +301,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -346,7 +346,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -365,7 +365,7 @@ int main(){
 
 **Output**
 
-```
+```cpp
 1
 2
 3

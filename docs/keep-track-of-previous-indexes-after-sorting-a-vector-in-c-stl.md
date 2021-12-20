@@ -21,7 +21,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ implementation to keep track
 // of previous indexes
 // after sorting a vector
@@ -69,7 +69,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Element    index
 1    4
 2    0

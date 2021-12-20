@@ -6,7 +6,7 @@
 
 一个简单的解决方法是在 cout 语句中把数字写 100 遍。更好的解决方案是使用#define 指令([宏扩展](https://www.geeksforgeeks.org/c-language-2-gq/macro-preprocessor-gq/) )
 
-```
+```cpp
 // CPP program to print "1" 100 times.
 
 // Prints 1 only once

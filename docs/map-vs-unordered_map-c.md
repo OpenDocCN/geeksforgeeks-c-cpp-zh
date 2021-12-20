@@ -8,7 +8,7 @@
 
 **差异:**
 
-```
+```cpp
                   | map             | unordered_map
 ---------------------------------------------------------
 Ordering        | increasing  order   | no ordering
@@ -35,7 +35,7 @@ Deletion time   | log(n) + Rebalance  | Same as search
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate use of std::map
 #include <bits/stdc++.h>
 
@@ -63,7 +63,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 : 1
 3 : 5
 5 : 10
@@ -78,7 +78,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate use of
 // std::unordered_map
 #include <bits/stdc++.h>
@@ -108,7 +108,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 : 1
 20 : 100
 5 : 10

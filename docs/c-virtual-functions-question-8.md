@@ -6,7 +6,7 @@
 
 下面的程序会编译吗？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 class Base {

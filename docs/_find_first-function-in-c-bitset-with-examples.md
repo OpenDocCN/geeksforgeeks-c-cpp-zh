@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 iterator bitset._Find_first()
            or
 int bitset._Find_first()
@@ -19,7 +19,7 @@ int bitset._Find_first()
 
 下图是上述功能的图解:
 
-```
+```cpp
 // C++ program for illustration
 // of _Find_first() function
 
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 position of first set bit in bset
 5
 position of first set bit in bset1

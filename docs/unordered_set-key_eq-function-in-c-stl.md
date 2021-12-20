@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 key_equal key_eq() const
 ```
 
@@ -16,7 +16,7 @@ key_equal key_eq() const
 
 **例 1:**
 
-```
+```cpp
 #include <iostream>
 #include <string>
 #include <unordered_set>
@@ -50,14 +50,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ms.key_eq() is case sensitive
 
 ```
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 #include <string>
 #include <unordered_set>
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 strings are not same
 
 ```

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 2 5 10
         3 6 15
 Output : (2, 5, 10)  // In first cell of vector
@@ -16,7 +16,7 @@ Output : (2, 5, 10)  // In first cell of vector
 
 一种解决方案是创建一个**用户定义的类或结构**。我们创建一个有三个成员的结构，然后创建这个结构的向量。
 
-```
+```cpp
 // C++ program to store data triplet in a vector
 // using user defined structure.
 #include<bits/stdc++.h>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2, 31, 102
 5, 23, 114
 9, 10, 158
@@ -62,7 +62,7 @@ int main()
 
 另一种解决方案是在 C++ STL 中使用 **[对类](https://www.geeksforgeeks.org/pair-simple-containers-the-c-standard-template-library-stl/)** 。我们将第一个元素作为普通元素，第二个元素作为另一个元素对，因此同时存储 3 个元素。
 
-```
+```cpp
 // C++ program to store data triplet in a vector
 // using pair class
 #include<bits/stdc++.h>
@@ -96,7 +96,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2, 31, 102
 5, 23, 114
 9, 10, 158

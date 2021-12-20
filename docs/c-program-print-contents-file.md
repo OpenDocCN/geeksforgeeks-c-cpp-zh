@@ -4,7 +4,7 @@
 
 [fopen()](http://www.cplusplus.com/reference/cstdio/fopen/) 用于打开， [fclose()](http://www.cplusplus.com/reference/cstdio/fclose/) 用于关闭 C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h> // For exit()
 
@@ -42,7 +42,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Enter the filename to open
 a.txt
 /*Contents of a.txt*/

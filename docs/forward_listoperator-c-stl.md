@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 *forwardlistname1* = (*forwardlistname2*)
 Parameters :
 Another container of the same type.
@@ -23,7 +23,7 @@ parameter to the container written on left side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  myflist1 = 1, 2, 3
           myflist2 = 3, 2, 1, 4
           myflist1 = myflist2;
@@ -41,7 +41,7 @@ Output :  myflist1 = 3, 2
 1.如果容器的类型不同，则会引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of = operator
 #include <forward_list>
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 myflist1 = 3 2 1 4
 
 ```

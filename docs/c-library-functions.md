@@ -31,7 +31,7 @@ and the string is that the string ends with the special character "\0". |
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -46,6 +46,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 GEEKS FOR GEEKS
 ```

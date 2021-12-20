@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```cpp
 Input:  A B C*+ D/
 Output: A + B * C / D
 ```
@@ -44,7 +44,7 @@ Output: A + B * C / D
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>

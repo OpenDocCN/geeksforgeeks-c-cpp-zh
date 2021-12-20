@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -90,7 +90,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 GeeksforGeeks
 GeeksforGeeks
 ```

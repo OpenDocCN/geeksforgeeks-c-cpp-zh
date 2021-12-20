@@ -4,7 +4,7 @@
 
 考虑 main()的以下两个定义。
 
-```
+```cpp
 int main()
 {
    /*  */
@@ -14,7 +14,7 @@ int main()
 
 和
 
-```
+```cpp
 int main(void)
 {
    /*  */
@@ -29,7 +29,7 @@ int main(void)
 这两个定义在 C 语言中也有效，但是第二个带有 void 的定义被认为在技术上更好，因为它明确规定 main 只能在没有任何参数的情况下调用。
 在 C 语言中，如果一个函数签名没有指定任何参数，则意味着该函数可以用任意数量的参数调用，也可以不用任何参数调用。例如，尝试编译并运行以下两个 C 程序(记住将文件另存为。c)。请注意 fun()的两个签名之间的区别。
 
-```
+```cpp
 // Program 1 (Compiles and runs fine in C, but not in C++)
 void fun() {  } 
 int main(void)
@@ -41,7 +41,7 @@ int main(void)
 
 以上程序编译运行良好(见[本](http://ideone.com/AQoVZW)，以下程序编译失败(见[本](http://ideone.com/IXojiK)
 
-```
+```cpp
 // Program 2 (Fails in compilation in both C and C++)
 void fun(void) {  }
 int main(void)
@@ -60,7 +60,7 @@ int main(void)
 
 **问题 1**
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -74,7 +74,7 @@ int main()
 
 **问题 2**
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {

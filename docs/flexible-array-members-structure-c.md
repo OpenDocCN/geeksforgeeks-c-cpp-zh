@@ -12,7 +12,7 @@
 
 ****下面的结构一定有多大？****
 
-```
+```cpp
 struct student
 {
    int stud_id;
@@ -22,7 +22,7 @@ struct student
 };
 ```
 
-```
+```cpp
 The size of structure is = 4 + 4 + 4 + **0** = 12
 ```
 
@@ -30,7 +30,7 @@ The size of structure is = 4 + 4 + 4 + **0** = 12
 
 **对于上面的例子，使用灵活的数组成员(按照 C99 标准)的内存分配可以如下进行:**
 
-```
+```cpp
  struct student *s = malloc( sizeof(*s) + sizeof(char [strlen(stud_name)])  ); 
 ```
 
@@ -39,7 +39,7 @@ The size of structure is = 4 + 4 + 4 + **0** = 12
 
 ****例如，考虑以下结构:****
 
-```
+```cpp
 Input : id = 15, name = "Kartik" 
 Output : Student_id : 15
          Stud_Name  : Kartik
@@ -49,14 +49,14 @@ Output : Student_id : 15
 
 ****上述结构的内存分配:****
 
-```
+```cpp
 struct student *s = 
         malloc( sizeof(*s) + sizeof(char [strlen("Kartik")])); 
 ```
 
 **其结构表示等于:**
 
-```
+```cpp
 struct student
 {
    int stud_id;
@@ -68,7 +68,7 @@ struct student
 
 ****实施****
 
-```
+```cpp
 // C program for variable length members in
 // structures in GCC
 #include<string.h>
@@ -148,7 +148,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Student_id : 523
 Stud_Name : SanjayKanna
 Name_Length: 11

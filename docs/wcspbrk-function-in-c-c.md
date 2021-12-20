@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 wcspbrk(dest, src)
 ```
 
@@ -24,7 +24,7 @@ wcspbrk(dest, src)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcspbrk() function
 #include <cwchar>
@@ -53,14 +53,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First occurrence in "GeeksforGeeks" is at position 0
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcspbrk() function
 #include <cwchar>
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 No common wide character
 
 ```

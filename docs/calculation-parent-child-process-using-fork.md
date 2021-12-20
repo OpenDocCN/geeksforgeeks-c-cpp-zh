@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : 1, 2, 3, 4, 5 
 
 Output :
@@ -24,7 +24,7 @@ Sum of odd no. is 9
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate calculation in parent and
 // child processes using fork()
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 ****输出:****
 
-```
+```cpp
 Parent process 
 Sum of even no. is 30
 Child process 

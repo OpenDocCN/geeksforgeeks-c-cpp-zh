@@ -7,7 +7,7 @@
 头文件 graphics.h 包含 **getx()** 函数，返回当前位置的 X 坐标。
 **语法:**
 
-```
+```cpp
 int getx();
 
 ```
@@ -18,7 +18,7 @@ int getx();
 
 下面是 getx()函数的实现:
 
-```
+```cpp
 // C Implementation for getx()
 #include <graphics.h>
 #include <stdio.h>

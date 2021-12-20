@@ -6,7 +6,7 @@
 
 *   **Syntax:**
 
-```
+```cpp
 iterator map_name.insert({key, element})
 
 ```
@@ -19,7 +19,7 @@ iterator map_name.insert({key, element})
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // map::insert({key, element})
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 KEY    ELEMENT
 1    40
 2    30
@@ -63,7 +63,7 @@ KEY    ELEMENT
 
 *   **语法:**
 
-```
+```cpp
 iterator map_name.insert(iterator position, {key, element})
 
 ```
@@ -79,7 +79,7 @@ iterator map_name.insert(iterator position, {key, element})
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate
 // map::insert(iteratorposition, {key, element})
 #include <bits/stdc++.h>
@@ -113,7 +113,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 KEY    ELEMENT
 1    40
 2    30
@@ -123,7 +123,7 @@ KEY    ELEMENT
 
 *   **Syntax:**
 
-```
+```cpp
 iterator map_name.insert(iterator position1, iterator position2)
 
 ```
@@ -136,7 +136,7 @@ iterator map_name.insert(iterator position1, iterator position2)
 
 T3】c++T5
 
-```
+```cpp
 // C++ program to illustrate
 // map::insert(iteratorposition1, iteratorposition2)
 #include <bits/stdc++.h>

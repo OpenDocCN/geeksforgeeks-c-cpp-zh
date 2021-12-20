@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 int peek();
 
 ```
@@ -24,7 +24,7 @@ int peek();
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for std::basic_istream::peek()
 #include <bits/stdc++.h>
 using namespace std;
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The first character is: G 
 and the next is: e
 
@@ -55,7 +55,7 @@ and the next is: e
 
 **程序二:**
 
-```
+```cpp
 // C++ code for std::basic_istream::peek()
 #include <bits/stdc++.h>
 using namespace std;
@@ -78,7 +78,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The first character is: C 
 and the next is: o
 
@@ -86,7 +86,7 @@ and the next is: o
 
 **程序 3:**
 
-```
+```cpp
 // C++ code for std::basic_istream::peek()
 #include <bits/stdc++.h>
 using namespace std;
@@ -112,7 +112,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The first character is: L 
 and the next is: a 
 after that next is: p

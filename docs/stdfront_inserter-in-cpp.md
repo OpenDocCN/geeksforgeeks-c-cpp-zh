@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 std::front_inserter (Container& x);
 
 x: Container in which new elements will 
@@ -19,7 +19,7 @@ elements at the beginning of container x.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate std::front_inserter
 #include <iostream>
 #include <iterator>
@@ -58,7 +58,7 @@ int main()
 
 输出:
 
-```
+```cpp
 v1 = 1 2 3
 v2 = 3 2 1 4 5 6 
 
@@ -68,7 +68,7 @@ v2 = 3 2 1 4 5 6
 
 *   **Invert a container:** Now, because std::front_inserter inserts new elements at the beginning of the container, we can perform the **task of reverse_copy () with the help of copy (), so that we will create another container containing the inversion of the current container.
 
-    ```
+    ```cpp
     // C++ program to demonstrate std::front_inserter
     #include <iostream>
     #include <iterator>
@@ -107,7 +107,7 @@ v2 = 3 2 1 4 5 6
 
     Output:
 
-    ```
+    ```cpp
     v1 = 1 2 3
     v2 = 3 2 1
 
@@ -121,7 +121,7 @@ v2 = 3 2 1 4 5 6
 2.  **push _ front () vs front _ insider ():** Now, you may be thinking that push _ front () and front _ insider are similar, but they are not. When you have to pass an iterator in the algorithm, you should use front_inserter as in the above example, and in order to insert the value at the beginning of the container normally, you can use push_front ().
 3.  代替使用 STD::front _ insert，我们可以**创建一个 front_insert_iterator** 然后使用它，因为最终 STD::front _ insert 只返回一个 front_insert_iterator。
 
-    ```
+    ```cpp
     // C++ program to demonstrate front_insert_iterator
     #include <iostream>
     #include <iterator>
@@ -163,7 +163,7 @@ v2 = 3 2 1 4 5 6
 
     输出:
 
-    ```
+    ```cpp
     v1 = 1 2 3
     v2 = 3 2 1 4 5 6
 

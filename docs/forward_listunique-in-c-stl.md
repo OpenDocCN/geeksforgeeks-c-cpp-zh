@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```cpp
 forwardlist_name.unique(BinaryPredicate name)
 ```
 
 **参数:**该函数接受一个参数，该参数是一个*二元谓词*，如果元素应该被视为相等，则返回真。它有以下语法:
 
-```
+```cpp
 bool name(data_type a, data_type a)
 ```
 
 **返回值:**函数不返回任何内容。
 
-```
+```cpp
 // C++ program to illustrate the
 // unique() function
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 List of elements before unique operation is: 1 1 1 1 2 2 2 2 3 3 3 2 4 4 
 List of elements after unique operation is: 1 2 3 2 4
 

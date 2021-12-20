@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include < string >
 
 ```
 
 <u>**语法 1:**</u>
 
-```
+```cpp
 rfind(char ch)
 rfind(string str)
 
@@ -27,7 +27,7 @@ rfind(string str)
 
 下面是说明**字符串的程序:**
 
-```
+```cpp
 // C++ program to demonstrate
 // rfind() method
 
@@ -86,7 +86,7 @@ int main()
 
 下面是说明**字符串的程序:**
 
-```
+```cpp
 // C++ program to demonstrate
 // rfind() method
 
@@ -143,7 +143,7 @@ int main()
 
 <u>**语法 2:**</u>
 
-```
+```cpp
 rfind(char ch, size_t position);
 rfind(string s, size_t position); 
 
@@ -160,7 +160,7 @@ rfind(string s, size_t position);
 
 下面是说明**字符串的程序::rfind(char ch，size_t 位置):**
 
-```
+```cpp
 // C++ program to illustrate the function
 // string::rfind(char ch, size_t pos)
 
@@ -225,7 +225,7 @@ int main()
 
 下面是说明**字符串的程序::rfind(字符串字符串，size_t 位置):**
 
-```
+```cpp
 // C++ program to illustrate the function
 // string::rfind(string str, size_t pos)
 #include <cstddef>

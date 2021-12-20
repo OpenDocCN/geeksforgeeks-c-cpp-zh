@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t *wcscpy(wchar_t *dest, const wchar_t *src);
 ```
 
@@ -21,7 +21,7 @@ wchar_t *wcscpy(wchar_t *dest, const wchar_t *src);
 
 **例:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of wcscpy() function.
 
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Source: A computer science portal for geeks
 Destination: 
 After modification, destination: A computer science portal for geeks

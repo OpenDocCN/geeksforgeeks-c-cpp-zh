@@ -11,7 +11,7 @@
 
 **2。end()** :-该功能用于在结束位置后返回 ***。***
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // iterator, begin() and end()
 #include<iostream>
@@ -36,14 +36,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The vector elements are : 1 2 3 4 5 
 
 ```
 
 **3。advance()** :-该函数用于**递增迭代器位置**，直到其参数中提到的指定数字。
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // advance()
 #include<iostream>
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The position of iterator after advancing is : 4 
 
 ```
@@ -81,7 +81,7 @@ The position of iterator after advancing is : 4
 
 **5。prev()** :-这个函数**返回新的迭代器**，迭代器会在递减参数中提到的位置后指向**。**
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // next() and prev() 
 #include<iostream>
@@ -120,7 +120,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The position of new iterator using next() is : 4 
 The position of new iterator using prev()  is : 3 
 
@@ -128,7 +128,7 @@ The position of new iterator using prev()  is : 3
 
  **6。插入器()** :-该功能用于**将元素插入容器中的任意位置**。它接受 **2 个参数、容器和迭代器来定位必须插入元素的位置**。
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // inserter()
 #include<iostream>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The new vector after inserting elements is : 1 2 3 10 20 30 4 5 
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<
     class BidirectionalIterator,
     class CharT = typename std::iterator_traits::value_type,
@@ -16,7 +16,7 @@ template<
 
 **C++14 语法**
 
-```
+```cpp
 template <class BidirectionalIterator,
           class charT=typename iterator_traits::value_type,
           class traits=regex_traits > class regex_iterator;
@@ -25,7 +25,7 @@ template <class BidirectionalIterator,
 
 **C++11 语法:**
 
-```
+```cpp
 template <class BidirectionalIterator,
           class charT=typename iterator_traits::value_type,
           class traits=regex_traits > class regex_iterator;
@@ -44,7 +44,7 @@ template <class BidirectionalIterator,
 
 **示例:**
 
-```
+```cpp
 #include <iostream>
 #include <iterator>
 #include <regex>
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Trying to find words using regex_iterator:
 
 Number of words found: 3

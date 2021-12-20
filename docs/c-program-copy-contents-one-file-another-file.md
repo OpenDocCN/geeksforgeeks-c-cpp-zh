@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-program-copy-contents-one-file-other-file/](https://www.geeksforgeeks.org/c-program-copy-contents-one-file-another-file/)
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h> // For exit()
 
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Enter the filename to open for reading
 a.txt
 Enter the filename to open for writing

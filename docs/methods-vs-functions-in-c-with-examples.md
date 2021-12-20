@@ -11,7 +11,7 @@
 3.  方法可以是私有的、公共的或受保护的。
 4.  该方法仅由其引用/对象调用。例如:如果类有 obj 作为对象名，那么调用方法是:
 
-    ```
+    ```cpp
     obj.method();
 
     ```
@@ -33,7 +33,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate functions
 #include "bits/stdc++.h"
 using namespace std;
@@ -67,14 +67,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 13 15 66 66 37 8 8 11 52
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate methods
 // in class
 #include "bits/stdc++.h"
@@ -113,14 +113,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Welcome to GfG!
 
 ```
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate methods
 // and functions
 #include <iostream>
@@ -186,7 +186,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Will you eat fruit? Yes, I want fruit!
 Give an Apple.
 

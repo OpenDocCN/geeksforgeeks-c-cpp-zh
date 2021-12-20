@@ -4,7 +4,7 @@
 
 **出口()**
 
-```
+```cpp
 void exit ( int status ); 
 ```
 
@@ -19,7 +19,7 @@ C 标准 [atexit()](http://www.cplusplus.com/reference/clibrary/cstdlib/atexit/)
 
 出口用法示例。
 
-```
+```cpp
 /* exit example */
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,7 +48,7 @@ exit()背后的奥秘在于它只接受 0–255 范围内的整数参数。超�
 
 下面是 C 实现来说明上述事实:
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -80,7 +80,7 @@ return 0;
 
 输出:
 
-```
+```cpp
 Exit code: 15
 
 ```
@@ -92,7 +92,7 @@ Exit code: 15
 
 **打掉()**
 
-```
+```cpp
 void abort ( void );
 ```
 
@@ -102,7 +102,7 @@ void abort ( void );
 
 所以像下面这样的程序可能不会把“极客的极客”写成“tempfile.txt”
 
-```
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -132,7 +132,7 @@ int main()
 
 **断言()**
 
-```
+```cpp
 void assert( int expression );
 ```
 
@@ -142,7 +142,7 @@ void assert( int expression );
 
 *断言失败:表达式、文件文件名、行号*
 
-```
+```cpp
 #include<assert.h>
 
 void open_record(char *record_name)

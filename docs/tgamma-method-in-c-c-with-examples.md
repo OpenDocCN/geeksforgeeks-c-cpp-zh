@@ -5,7 +5,7 @@
 **tgamma()** 函数在 C 中的 [**math.h 头文件**](https://www.geeksforgeeks.org/c-library-math-h-functions/) 和 C++中的 [**cmath 库**](https://www.geeksforgeeks.org/c-mathematical-functions/) 中定义。此函数用于计算传递给函数的参数的 gamma 函数。
 **语法:**
 
-```
+```cpp
 float tgamma(float x);  
 double tgamma(double x);  
 long double tgamma(long double x);  
@@ -32,7 +32,7 @@ long double tgamma(long double x);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show the
 // use of tgamma() method
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 For x = 0, tgamma(x) = inf
 For x = -inf, tgamma(x) = nan
 For x = inf, tgamma(x) = inf

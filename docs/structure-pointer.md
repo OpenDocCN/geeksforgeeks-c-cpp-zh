@@ -5,7 +5,7 @@
 [**结构**](https://www.geeksforgeeks.org/structures-c/) [**指针**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) **:** 它被定义为指向存储一个[结构的内存块的地址的](https://www.geeksforgeeks.org/structures-c/)[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)被称为结构指针。下面是同一个例子:
 **例子:**
 
-```
+```cpp
 struct point
 {
    int value;
@@ -26,7 +26,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // structure pointer
 
@@ -85,7 +85,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // structure pointer
 #include <iostream>
@@ -145,6 +145,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 ```

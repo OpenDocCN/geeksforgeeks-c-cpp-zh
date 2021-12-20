@@ -7,7 +7,7 @@
 先决条件–[开关语句在 C【](https://www.geeksforgeeks.org/switch-statement-cc/)】
 开关是一个控制语句，允许一个值改变对执行的控制。
 
-```
+```cpp
 // Following is a simple program to demonstrate syntax of switch.
 #include <stdio.h>
 int main()
@@ -30,7 +30,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Choice is 2
 ```
 
@@ -38,7 +38,7 @@ Choice is 2
 
 ***1)switch 中使用的表达式必须是整型(int、char 和 enum)。*** 任何其他类型的表情都是不允许的。
 
-```
+```cpp
 // float is not allowed in switch
 #include <stdio.h>
 int main()
@@ -57,7 +57,7 @@ int main()
 
 输出:
 
-```
+```cpp
  Compiler Error: switch quantity not an integer
 ```
 
@@ -65,7 +65,7 @@ int main()
 
 ***2)匹配案例之后的所有语句执行，直到到达 break 语句。**T3】*
 
-```
+```cpp
 // There is no break in all cases
 #include <stdio.h>
 int main()
@@ -84,13 +84,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Choice is 2
 Choice is 3
 Choice other than 1, 2 and 3
 ```
 
-```
+```cpp
 // There is no break in some cases
 #include <stdio.h>
 int main()
@@ -113,7 +113,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Choice is 2
 Choice is 3
 Choice is 4
@@ -122,7 +122,7 @@ After Switch
 
 ***3)默认块可以放在任何地方。*** 默认的位置不要紧，没有找到匹配的依然执行。
 
-```
+```cpp
 // The default block is placed above other cases.
 #include <stdio.h>
 int main()
@@ -143,13 +143,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Choice other than 1 and 2
 ```
 
 ***4)标签中使用的积分表达式必须是常数表达式***
 
-```
+```cpp
 // A program with variable expressions in labels
 #include <stdio.h>
 int main()
@@ -168,13 +168,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: case label does not reduce to an integer constant
 ```
 
 ***5)以上案例编写的语句从不执行*** 切换语句后，控制转移到匹配案例，案例前编写的语句不执行。
 
-```
+```cpp
 // Statements before all cases are never executed
 #include <stdio.h>
 int main()
@@ -196,13 +196,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Choice is 1
 ```
 
 ***6)两个案例标签不能有相同的值***
 
-```
+```cpp
 // Program where two case labels have same value
 #include <stdio.h>
 int main()
@@ -221,7 +221,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error: duplicate case value
 ```
 

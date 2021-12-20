@@ -4,7 +4,7 @@
 
 在 C 语言中，静态变量只能使用常量来初始化。例如，以下程序编译失败。
 
-```
+```cpp
 #include<stdio.h>
 int initializer(void)
 {
@@ -22,7 +22,7 @@ int main()
 
 如果我们把程序改成如下，那么它就可以正常工作了。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

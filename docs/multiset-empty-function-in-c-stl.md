@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.empty()
 
 ```
@@ -21,7 +21,7 @@ multiset_name.empty()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::empty() function
 #include <bits/stdc++.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The multiset is not empty
 
 ```
@@ -53,7 +53,7 @@ The multiset is not empty
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::empty() function
 #include <bits/stdc++.h>
@@ -73,7 +73,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The multiset is empty
 
 ```

@@ -4,7 +4,7 @@
 
 我们可以使用 size of 运算符找到数组的大小，如下所示。
 
-```
+```cpp
 // Finds size of arr[] and stores in 'size'
 int size = sizeof(arr)/sizeof(arr[0]);
 
@@ -17,7 +17,7 @@ int size = sizeof(arr)/sizeof(arr[0]);
 
 一种解决方案是编写我们自己的操作符大小(详见[这个](https://www.geeksforgeeks.org/implement-your-own-sizeof/)
 
-```
+```cpp
 // C++ program to find size of an array by writing our
 // sizeof
 #include <bits/stdc++.h>
@@ -40,19 +40,19 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of elements in arr[] is 6
 ```
 
 **方法 2(使用指针破解)**
 与上面的解决方案相比，下面的解决方案非常短。数组 A 中的元素数量可以通过表达式计算出来
 
-```
+```cpp
 int size = *(&arr + 1) - arr;
 
 ```
 
-```
+```cpp
 // C++ program to find size of an array by using a 
 // pointer hack.
 #include <bits/stdc++.h>
@@ -70,14 +70,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of elements in arr[] is 6
 ```
 
 **这是如何工作的？**
 这里指针算术发挥了它的作用。我们不需要显式地将每个位置转换成字符指针。
 
-```
+```cpp
 &arr ==> Pointer to an array of 6 elements.
          [See this for difference between &arr
           and arr]   

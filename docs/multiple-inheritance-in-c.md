@@ -6,7 +6,7 @@
 
 继承类的构造函数的调用顺序与它们被继承的顺序相同。例如，在下面的程序中，在 A 的构造函数之前调用 B 的构造函数。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ int main()
 
 输出:
 
-```
+```cpp
 B's constructor called
 A's constructor called
 C's constructor called
@@ -52,7 +52,7 @@ C's constructor called
 
 例如，考虑以下程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Person {
@@ -89,7 +89,7 @@ int main()  {
 }
 ```
 
-```
+```cpp
 Person::Person(int ) called
 Faculty::Faculty(int ) called
 Person::Person(int ) called
@@ -99,7 +99,7 @@ TA::TA(int ) called
 
 在上面的程序中，两次调用了‘Person’的构造函数。“人”的析构函数在对象“ta1”被析构时也会被调用两次。所以对象“ta1”有“人”的所有成员的两个副本，这导致歧义。*这个问题的解决方案是‘虚拟’关键词*。我们将“教师”和“学生”作为虚拟基类，以避免在“助教”课上出现两个“人”的副本。例如，考虑以下程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Person {
@@ -136,7 +136,7 @@ int main()  {
 
 输出:
 
-```
+```cpp
 Person::Person() called
 Faculty::Faculty(int ) called
 Student::Student(int ) called
@@ -147,7 +147,7 @@ TA::TA(int ) called
 
 **如何调用‘Person’类的参数化构造函数？**构造函数必须在‘TA’类中调用。例如，请参见以下程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Person {
@@ -184,7 +184,7 @@ int main()  {
 
 输出:
 
-```
+```cpp
 Person::Person(int ) called
 Faculty::Faculty(int ) called
 Student::Student(int ) called
@@ -197,7 +197,7 @@ TA::TA(int ) called
 
 **问题 1**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -234,7 +234,7 @@ int main()
 
 **问题 2**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

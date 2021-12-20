@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct greater;
 
 ```
@@ -29,7 +29,7 @@ template <class T> struct greater;
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate std::greater
 
 #include <algorithm>
@@ -67,14 +67,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 90 80 70 60 50 40 30 20 10
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate std::greater
 
 #include <functional>
@@ -131,7 +131,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The priority queue gquiz is : 1 5 10 20 30
 
 ```

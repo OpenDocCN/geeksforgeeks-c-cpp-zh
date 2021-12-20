@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 int wcscoll( const wchar_t* wcs1, const wchar_t* wcs2 )
 ```
 
@@ -25,7 +25,7 @@ int wcscoll( const wchar_t* wcs1, const wchar_t* wcs2 )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcsoll() function
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 In American : article precedes everyone
 In Swedish : article precedes everyone
 
@@ -78,7 +78,7 @@ In Swedish : article precedes everyone
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcsoll() function
 #include <bits/stdc++.h>
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 In Czech : geekforgeeks precedes gfg
 In the American locale: geekforgeeks precedes gfg
 

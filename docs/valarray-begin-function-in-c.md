@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template< class T > 
     begin( valarray<T>& v );
 
@@ -20,7 +20,7 @@ template< class T >
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of begin() function.
 
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 valarray contains= 10 20 30 40 50
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of begin() function.
 
@@ -79,7 +79,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 valarray contains= -10 -20 -30 -40
 
 ```

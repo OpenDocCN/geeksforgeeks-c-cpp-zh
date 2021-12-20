@@ -5,7 +5,7 @@
 C/C++ 中的**箭头操作符允许访问[结构](https://www.geeksforgeeks.org/structures-in-cpp/)和[联合](https://www.geeksforgeeks.org/union-c/)中的元素。它与指向结构或联合的[指针变量一起使用。箭头运算符由减号和大于号组成，如下所示。
 **语法:**](https://www.geeksforgeeks.org/self-referential-structures/)**
 
-```
+```cpp
 (pointer_name)->(variable_name)
 ```
 
@@ -21,7 +21,7 @@ T3】点(。)和箭头(- >)操作符:
 
 ## C++
 
-```
+```cpp
 // C++ program to show Arrow operator
 // used in structure
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to show Arrow operator
 // used in structure
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 18
 ```
 
@@ -105,7 +105,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to show Arrow operator
 // used in structure
 #include <iostream>
@@ -141,7 +141,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to show Arrow operator
 // used in structure
 
@@ -176,6 +176,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 18
 ```

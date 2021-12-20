@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : str = "geeksforgeeks 12 23 practice"
 Output : 12 13
 
@@ -22,14 +22,14 @@ Output : 4
 
 **算法**
 
-```
+```cpp
  1\. Enter the whole string into stringstream.
  2\. Extract the all words from string using loop.
  2\. Check whether a word is integer or not.
 
 ```
 
-```
+```cpp
 /* Extract all integers from string */
 #include <iostream>
 #include <sstream>
@@ -70,7 +70,7 @@ int main()
 
 输出:
 
-```
+```cpp
 
 1 2 3 4 
 

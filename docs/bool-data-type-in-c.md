@@ -6,7 +6,7 @@ ISO/ANSI C++标准在最初的 C++规范中增加了某些新的数据类型。�
 新的数据类型之一是: **bool**
 **语法:**
 
-```
+```cpp
 bool b1 = true;      // declaring a boolean variable with true value   
 ```
 
@@ -16,7 +16,7 @@ bool b1 = true;      // declaring a boolean variable with true value
 *   *真*默认数值为 1，*假*默认数值为 0。
 *   We can use bool type variables or values *true* and *false* in mathematical expressions also.For instance,
 
-    ```
+    ```cpp
     int x = false + true + 6;
     ```
 
@@ -24,13 +24,13 @@ bool b1 = true;      // declaring a boolean variable with true value
 
 *   也可以将数据类型整数或浮点值隐式转换为 bool 类型。例如，语句-
 
-    ```
+    ```cpp
     bool x = 0;  // false
     bool y = 100;  // true
     bool z = 15.75;  // true
     ```
 
-```
+```cpp
 // CPP program to illustrate bool 
 // data type in C++
 #include<iostream>
@@ -62,7 +62,7 @@ return 0;
 
 输出:
 
-```
+```cpp
 b1 is = 0
 b2 is = 1
 Yes

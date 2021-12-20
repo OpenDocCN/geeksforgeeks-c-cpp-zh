@@ -8,7 +8,7 @@
 
 这里的想法是在一个定义的宽度上打印随机字符，其中两个连续的字符可能有也可能没有随机定义的一定量的间隙。为了产生“下降效应”，必须在打印连续行之间实现一定量的延迟。
 
-```
+```cpp
 // C++ program for implementation of falling matrix.
 #include<iostream>
 #include<string>
@@ -89,7 +89,7 @@ int main()
 *   由于系统被禁用，该程序无法使用“在集成开发环境上运行”按钮运行。
 *   如果您在编译这个程序时遇到编译器错误。在 GCC 上使用下面的命令编译它。
 
-    ```
+    ```cpp
     $ g++ -std=c++11 abc.cpp -o falling.o
     $ falling.o 
     ```

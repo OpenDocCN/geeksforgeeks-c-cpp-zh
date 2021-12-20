@@ -25,7 +25,7 @@
     *   **typename** 与它一起用于在实例化期间向迭代器提供类型。
     *   现在，如果输入迭代器的迭代器类别与现有的迭代器类别匹配，就会显示结果。
 
-    ```
+    ```cpp
     // C++ program to find the type of iterator
     #include <bits/stdc++.h>
     using namespace std;
@@ -80,7 +80,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Random_Access Iterator
 
     ```

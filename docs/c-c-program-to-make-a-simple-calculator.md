@@ -8,7 +8,7 @@
 
 **程序:**
 
-```
+```cpp
 // C++ program to create calculator using
 // switch statement
 #include <iostream>

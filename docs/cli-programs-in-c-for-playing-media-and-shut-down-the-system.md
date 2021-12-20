@@ -31,7 +31,7 @@
 
 **T5**
 
-```
+```cpp
 // C program to shut down the computer
 #include <stdio.h>
 #include <stdlib.h>

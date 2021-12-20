@@ -13,7 +13,7 @@
 3.  **STD::hex float–hex float 浮点表示法:**在数字精度初始化后，转换为**十六进制格式**后输出所需的数字(如前所述。案例)。
 4.  **std::defaultfloat – defaultfloat floating-point notation :** It outputs the desired number same as **default** after the precision of no. is initialized ( as discussed in prev. cases ). It is mainly used to distinguish among other used formats for understandability of code.
 
-    ```
+    ```cpp
     // C++ code to demonstrate the 
     // working of 
     // std::fixed
@@ -60,7 +60,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Normal values of floating point numbers
     a = 4.223
     b = 2323

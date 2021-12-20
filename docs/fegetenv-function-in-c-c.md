@@ -8,7 +8,7 @@ C/C++中的 **fegetenv()** 函数在头文件 **cfenv.h** 中指定，并尝试�
 
 **语法:**
 
-```
+```cpp
 int fegetenv( fenv_t* envp )
 ```
 
@@ -22,7 +22,7 @@ int fegetenv( fenv_t* envp )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // fegetenv() function
 
@@ -123,7 +123,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Initial environment :
 Exception raised -> 
 None
@@ -138,7 +138,7 @@ Rounding mode is ->FE_DOWNWARD
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // fegetenv() function
 
@@ -239,7 +239,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Initial environment :
 Exception raised -> 
 None

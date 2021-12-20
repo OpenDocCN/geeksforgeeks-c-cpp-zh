@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // usage of local variables
 #include<iostream>
@@ -45,7 +45,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Error: age was not declared in this scope
 ```
 
@@ -55,7 +55,7 @@ Error: age was not declared in this scope
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // usage of local variables
 #include<iostream>
@@ -81,7 +81,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Age is: 18
 ```
 
@@ -95,7 +95,7 @@ Age is: 18
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // usage of global variables
 #include<iostream>
@@ -125,7 +125,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 10
 ```
@@ -138,7 +138,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // scope of local variables
 // and global variables together
@@ -171,7 +171,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to show that we can access a global
 // variable using scope resolution operator :: when 
 // there is a local variable with same name
@@ -193,7 +193,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of global x is 0
 Value of local x is 10
 ```

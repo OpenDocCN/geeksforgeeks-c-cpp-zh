@@ -5,7 +5,7 @@
 **set::crbegin()** 是 C++ STL 中的一个内置函数，它返回一个指向容器中最后一个元素的常量迭代器。迭代器不能用于修改集合容器中的元素。迭代器可以相应地增加或减少来遍历集合。
 **语法:**
 
-```
+```cpp
 constant_iterator set_name.crbegin()
 ```
 
@@ -15,7 +15,7 @@ constant_iterator set_name.crbegin()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::crbegin() function
 #include <bits/stdc++.h>
@@ -38,6 +38,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 15 14 12 11 10
 ```

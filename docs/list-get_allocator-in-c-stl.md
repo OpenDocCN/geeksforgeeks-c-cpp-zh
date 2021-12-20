@@ -5,7 +5,7 @@
 **[列表](https://www.geeksforgeeks.org/list-cpp-stl/):get _ 分配器()**是 C++ STL 中的一个内置函数，用于获取容器列表的分配器。
 **语法:**
 
-```
+```cpp
 Allocator_type get_allocator()
 
 ```
@@ -16,7 +16,7 @@ Allocator_type get_allocator()
 下面的程序清楚地解释了**list::get _ 分配器()**函数。
 **例-1:**
 
-```
+```cpp
 // C++ program to understand
 // about list getallocator method
 #include <bits/stdc++.h>
@@ -45,14 +45,14 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 0 1 2
 
 ```
 
 **示例-2:**
 
-```
+```cpp
 // C++ program to understand
 // about list getallocator method
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Geeks For Geeks
 
 ```

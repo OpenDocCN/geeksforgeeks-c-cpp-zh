@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 datatype *var_name; 
 int *ptr;   //ptr can point to an address which holds int data
 
@@ -26,7 +26,7 @@ int *ptr;   //ptr can point to an address which holds int data
 
 ## C
 
-```
+```cpp
 // C++ program to illustrate Pointers in C++
 #include <stdio.h>
 
@@ -55,7 +55,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate Pointers in C++
 
 #include <bits/stdc++.h>
@@ -84,7 +84,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value at ptr = 0x7ffcb9e9ea4c
 Value at var = 20
 Value at *ptr = 20
@@ -99,7 +99,7 @@ Value at *ptr = 20
 *   带指针参数的按引用调用
 *   带有引用参数的引用调用
 
-```
+```cpp
 // C++ program to illustrate call-by-methods in C++
 
 #include <bits/stdc++.h>
@@ -164,7 +164,7 @@ int main()
 
 输出:
 
-```
+```cpp
 address of n1 in main(): 0x7ffcdb2b4a44
 address of n1 in square1(): 0x7ffcdb2b4a2c
 Square of n1: 64
@@ -192,7 +192,7 @@ Change reflected in n3: 64
 
 ## C
 
-```
+```cpp
 // C program to illustrate call-by-methods
 #include <stdio.h>
 
@@ -219,7 +219,7 @@ int main() 
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate Array Name as Pointers in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -244,7 +244,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Elements of the array are: 5 10 20
 
@@ -267,7 +267,7 @@ Elements of the array are: 5 10 20
 
 (注意:除非在数组上执行，否则指针算术毫无意义。)
 
-```
+```cpp
 // C++ program to illustrate Pointer Arithmetic in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -299,7 +299,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Value at ptr = 0x7fff9a9e7920
 Value at *ptr = 10
@@ -315,7 +315,7 @@ Value at *ptr = 200
 
 考虑二维数值数组的指针表示法。考虑以下声明
 
-```
+```cpp
 int nums[2][3]  =  { { 16, 18, 20 }, { 25, 26, 27 } };
 ```
 
@@ -327,7 +327,7 @@ int nums[2][3]  =  { { 16, 18, 20 }, { 25, 26, 27 } };
 
 字符串是包含空终止字符序列的数组。字符串文字是类型字符加上终止空字符的数组，每个元素都是 const char 类型(因为字符串的字符不能被修改)。
 
-```
+```cpp
 const char * ptr = "geek";
 ```
 
@@ -337,7 +337,7 @@ const char * ptr = "geek";
 
 由于指针和数组在表达式中的行为方式相同，ptr 可以用来访问字符串文字的字符。例如:
 
-```
+```cpp
 char x = *(ptr+3);
 char y = ptr[3];
 ```
@@ -348,7 +348,7 @@ char y = ptr[3];
 
 在 C++中，我们可以创建一个指向指针的指针，该指针又可以指向数据或其他指针。在声明指针时，语法只要求每个间接层有一元运算符(*)。
 
-```
+```cpp
 char a;
 char *b;
 char ** c;
@@ -364,7 +364,7 @@ c = &b;
 这是 C++中可用的一种特殊类型的指针，表示缺少类型。void 指针是指向没有类型的值的指针(因此也是未确定长度和未确定解引用属性的指针)。
 这意味着 void 指针具有很大的灵活性，因为它可以指向任何数据类型。这种灵活性是有回报的。这些指针不能被直接取消引用。在被取消引用之前，它们必须首先被转换成其他指向具体数据类型的指针类型。
 
-```
+```cpp
 // C++ program to illustrate Void Pointer in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -415,7 +415,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 *data points to a char
 The new value of c is: y
@@ -428,7 +428,7 @@ The new value of i is: 11
 
 指针应该指向有效的地址，但不一定指向有效的元素(比如数组)。这些被称为无效指针。未初始化的指针也是无效指针。
 
-```
+```cpp
 int *ptr1;
 int arr[10];
 int *ptr2 = arr+20;
@@ -442,7 +442,7 @@ int *ptr2 = arr+20;
 空指针是一个不指向任何地方的指针，而不仅仅是一个无效地址。
 以下是 2 种将指针赋值为空的方法；
 
-```
+```cpp
 int *ptr1 = 0;
 int *ptr2 = NULL; 
 ```

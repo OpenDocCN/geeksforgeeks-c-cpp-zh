@@ -6,7 +6,7 @@
 C 程序由各种标记组成，标记可以是关键字、标识符、常数、字符串或符号。
 例如:
 
-```
+```cpp
 1) Keywords: 
 Examples- for, while, if etc.
 
@@ -24,7 +24,7 @@ Examples- ', ' ';' etc
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
@@ -188,7 +188,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 'int' IS A KEYWORD
 'a' IS A VALID IDENTIFIER
 '=' IS AN OPERATOR

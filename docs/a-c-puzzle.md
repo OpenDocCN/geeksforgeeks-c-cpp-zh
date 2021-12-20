@@ -10,7 +10,7 @@
 
 下面是一个工作的 C 代码。
 
-```
+```cpp
 #include <stdio.h>
 #define merge(a, b) b##a
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 3612
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 tanh(varr);
 
 ```
@@ -19,7 +19,7 @@ tanh(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tanh() function.
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.244919 0.462117 0.635149 0.761594
 
@@ -62,7 +62,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of tanh() function.
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0.197375 0.139092 0.761594 0
 

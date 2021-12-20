@@ -14,7 +14,7 @@
 
 **示例**:
 
-```
+```cpp
 Input :  file.txt
 Output : ClientSide : Received from server: 
                       00 2C 28 28 2A 6E 3B 24 37 64 65 79 0A 00 00 
@@ -27,7 +27,7 @@ Output : ClientSide : Received from server:
 
 ## C
 
-```
+```cpp
 // Client side code
 #include <netinet/in.h>
 #include <stdio.h>
@@ -111,7 +111,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C server code
 #include <memory.h>
 #include <netinet/in.h>

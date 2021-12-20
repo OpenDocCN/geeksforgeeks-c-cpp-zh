@@ -14,7 +14,7 @@
 
 ## C
 
-```
+```cpp
 int main()
 {
    char *str;
@@ -28,7 +28,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Abnormal termination of program.
 ```
 
@@ -40,7 +40,7 @@ Abnormal termination of program.
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // Core Dump/Segmentation fault
 #include <iostream>
@@ -68,7 +68,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // Core Dump/Segmentation fault
 #include <stdio.h>
@@ -92,7 +92,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Abnormal termination of program.
 ```
 
@@ -100,7 +100,7 @@ Abnormal termination of program.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate segmentation
 // fault when array out of bound is accessed.
 #include <iostream>
@@ -116,7 +116,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Abnormal termination of program.
 ```
 
@@ -126,7 +126,7 @@ Abnormal termination of program.
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate segmentation
 // fault when value is passed to scanf
 #include <iostream>
@@ -144,7 +144,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate segmentation
 // fault when value is passed to scanf
 #include <stdio.h>
@@ -159,7 +159,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Abnormal termination of program.
 ```
 
@@ -171,7 +171,7 @@ Abnormal termination of program.
 
 ## C++14
 
-```
+```cpp
 // C++ program to demonstrate segmentation
 // fault when uninitialized pointer is accessed.
 #include <iostream>
@@ -188,7 +188,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate segmentation
 // fault when uninitialized pointer is accessed.
 #include <stdio.h>

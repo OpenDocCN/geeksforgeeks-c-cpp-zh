@@ -7,7 +7,7 @@
 1.  To assign elements to a list.
     **Syntax:**
 
-    ```
+    ```cpp
     list_name.assign(count, value) 
 
     ```
@@ -21,7 +21,7 @@
 
     下面的程序说明了 list::assign()函数。
 
-    ```
+    ```cpp
     // CPP program to illustrate the
     // list::assign() function
     #include <bits/stdc++.h>
@@ -47,7 +47,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     100 100 100 100 100
 
     ```
@@ -55,7 +55,7 @@
 2.  To copy elements from an existing list to a new list.
     **Syntax**:
 
-    ```
+    ```cpp
     first_list.assign(second_list.begin(), second_list.end());
 
     ```
@@ -66,7 +66,7 @@
 
     下面程序举例说明了 list::assign()函数:
 
-    ```
+    ```cpp
     // CPP program to illustrate the
     // list::assign() function
     #include <bits/stdc++.h>
@@ -98,7 +98,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     100 100 100 100 100
 
     ```

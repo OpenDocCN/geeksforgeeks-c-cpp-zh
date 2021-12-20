@@ -10,7 +10,7 @@
 
     下面是 C++实现来说明如何做到这一点。
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -43,7 +43,7 @@
 
     注意:这段代码不能编译，因为我们不能复制这个类的对象，所以它会显示这个错误。
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:18:2: error: 'Base::Base(const Base&)' is private
       Base(const Base &obj) : x(obj.x) //Copy constructor
@@ -64,7 +64,7 @@
 
     下面是 C++实现来说明如何做到这一点。
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -92,7 +92,7 @@
     }
     ```
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
 
     prog.cpp:12:5: error: 
@@ -117,7 +117,7 @@
 
     下面是 C++实现来说明:
 
-    ```
+    ```cpp
     // CPP program to demonstrate use Delete copy
     // constructor and delete assignment operator
     #include <iostream>
@@ -141,7 +141,7 @@
     }
     ```
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:24:15: error: use of deleted function
      'Base::Base(const Base&)'

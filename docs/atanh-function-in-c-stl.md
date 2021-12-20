@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 atanh(data_type x)
 ```
 
@@ -49,7 +49,7 @@ atanh(data_type x)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // the atanh() function
 // all return values
@@ -98,7 +98,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 atanh(0) = 0 radians
 atanh(0) = 0 degrees
 
@@ -118,7 +118,7 @@ atanh(-2) = -nan degrees
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate
 // the atanh() function
 // string passed

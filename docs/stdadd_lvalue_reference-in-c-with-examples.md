@@ -7,14 +7,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct add_lvalue_reference
 
@@ -22,7 +22,7 @@ struct add_lvalue_reference
 
 **语法:**
 
-```
+```cpp
 std::is_lvalue_reference<T>::value
 
 ```
@@ -33,7 +33,7 @@ std::is_lvalue_reference<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::add_lvalue_reference
 #include <bits/stdc++.h>
@@ -75,7 +75,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 A: true
 B: false
 C: true
@@ -85,7 +85,7 @@ D: false
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::add_lvalue_reference
 #include <bits/stdc++.h>
@@ -125,7 +125,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is int is lvalue? false
 is lref is lvalue? true
 is float is lvalue? false

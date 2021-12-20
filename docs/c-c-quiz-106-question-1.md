@@ -4,7 +4,7 @@
 
 假设 int 大小为 4 字节，当我们编译并运行以下程序时会发生什么？
 
-```
+```cpp
 #include “stdio.h”
 int main()
 {

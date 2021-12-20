@@ -4,7 +4,7 @@
 
 考虑以下两条 C 线
 
-```
+```cpp
 int var1;
 extern int var2;
 ```

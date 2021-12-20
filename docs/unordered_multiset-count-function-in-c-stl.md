@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.count(val)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.count(val)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::count() function
 #include <bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 11 occurs 3 times
 12 occurs 2 times
 13 occurs 2 times
@@ -60,7 +60,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::count() function
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a occurs 3 times
 b occurs 2 times
 c occurs 2 times

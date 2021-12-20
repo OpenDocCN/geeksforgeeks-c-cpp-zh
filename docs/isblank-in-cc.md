@@ -6,7 +6,7 @@
 
 如果 ch 是 isspace()返回 true 并用于分隔单词的字符，则 **isblank()** 函数返回非零值。因此，对于英语来说，空白字符是空格和水平制表符。
 
-```
+```cpp
 Header File : 
 ctype.h
 
@@ -23,7 +23,7 @@ int isblank(int ch)
 
 示例:
 
-```
+```cpp
 Input:  Geeks for Geeks
 Output: Geeks
         for 
@@ -38,7 +38,7 @@ Output: Geeks
 **isblank() C++程序:**
 这段代码逐字符打印出字符串，用换行符替换任何空白字符。
 
-```
+```cpp
 // CPP program to demonstrate working
 // of isblank()
 #include <ctype.h>
@@ -76,7 +76,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks
 for
 Geeks

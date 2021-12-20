@@ -5,7 +5,7 @@
 给定一个向量，用 C++中的 STL 反转这个向量。
 **例:**
 
-```
+```cpp
 Input: vec = {1, 45, 54, 71, 76, 12}
 Output: {12, 76, 71, 54, 45, 1}
 
@@ -16,13 +16,13 @@ Output: {12, 6, 4, 5, 7, 1}
 **进场:**可以借助 STL 提供的 reverse()功能进行倒车。反向()的时间复杂度是 O(n)，其中 n 是字符串的长度。
 **语法:**
 
-```
+```cpp
 reverse(start_index, last_index);
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to reverse Vector
 // using reverse() in STL
 
@@ -56,7 +56,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Vector: 1 45 54 71 76 12 
 Reversed Vector: 12 76 71 54 45 1
 ```

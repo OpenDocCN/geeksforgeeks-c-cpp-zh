@@ -6,7 +6,7 @@ C++ STL 的 **std::is_floating_point 模板**用于检查给定类型是否为�
 
 **语法:**
 
-```
+```cpp
 template < class T > struct is_floating_point;
 ```
 
@@ -21,7 +21,7 @@ template < class T > struct is_floating_point;
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_floating_point template
 
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_floating_point:
 char: false
 int: false
@@ -59,7 +59,7 @@ float: true
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_floating_point template
 
@@ -87,7 +87,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_floating_point:
 double: true
 bool: false
@@ -97,7 +97,7 @@ long int: false
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_floating_point function
 #include <iostream>
@@ -125,7 +125,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_floating_point:
 wchar_t: false
 long double: true

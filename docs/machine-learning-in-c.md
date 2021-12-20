@@ -20,7 +20,7 @@
 
 培训部分已突出显示
 
-```
+```cpp
 Input : Our Input is a file named data.csv containing a dataset of vectors
 The File Contains the Following Data:
 3, 3, 3, 3, 0
@@ -41,7 +41,7 @@ The File Contains the Following Data:
 
 **代码:**
 
-```
+```cpp
 #include <mlpack/core.hpp>
 #include <mlpack/methods/neighbor_search/neighbor_search.hpp>
 
@@ -113,19 +113,19 @@ int main()
 
 使用在终端/CMD 中运行上述代码
 
-```
+```cpp
 g++ knn_example.cpp -o knn_example -std=c++11 -larmadillo -lmlpack -lboost_serialization
 
 ```
 
 然后
 
-```
+```cpp
 ./knn_example
 
 ```
 
-```
+```cpp
 Output:
 Nearest neighbor of point 0 is point 7 and the distance is 1.
 Nearest neighbor of point 1 is point 2 and the distance is 0.

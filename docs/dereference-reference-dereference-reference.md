@@ -4,7 +4,7 @@
 
 预测下面程序的输出
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 
 现在试试下面
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

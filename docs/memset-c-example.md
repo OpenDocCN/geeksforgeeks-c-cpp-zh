@@ -5,7 +5,7 @@
 ***memset()*** 用于用特定值填充内存块。
 memset()函数的语法如下:
 
-```
+```cpp
 // ptr ==> Starting address of memory to be filled
 // x   ==> Value to be filled
 // n   ==> Number of bytes to be filled starting 
@@ -18,7 +18,7 @@ void *memset(void *ptr, int x, size_t n);
 
 让我们在 C 语言中看到一个简单的例子来演示 memset()函数是如何使用的:
 
-```
+```cpp
 // C program to demonstrate working of memset()
 #include <stdio.h>
 #include <string.h>
@@ -38,7 +38,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Before memset(): GeeksForGeeks is for programming geeks.
 After memset(): GeeksForGeeks........programming geeks.
 
@@ -46,7 +46,7 @@ After memset(): GeeksForGeeks........programming geeks.
 
 **解释:** (str + 13)指向字符串“GeeksForGeeks 是给编程极客的”的第一个空格(基于 0 的索引)，memset()设置字符“.”从字符串的第一个' '开始，直到给定字符串的 8 个字符位置，因此我们得到如上所示的输出。
 
-```
+```cpp
 // C program to demonstrate working of memset()
 #include <stdio.h>
 #include <string.h>
@@ -73,14 +73,14 @@ int main()
 
 输出:
 
-```
+```cpp
 0 0 0 0 0 0 0 0 0 0
 ```
 
  **练习:**
 预测下面程序的输出。
 
-```
+```cpp
 // C program to demonstrate working of memset()
 #include <stdio.h>
 #include <string.h>

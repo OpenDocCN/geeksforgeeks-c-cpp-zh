@@ -10,7 +10,7 @@
 
 ## 【c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // compilation error as max function
 // doesn't take more than 2 arguments

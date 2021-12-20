@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input : copysign(6, -2)
 Output : -6
 
@@ -17,14 +17,14 @@ Output : 6
 
 **语法:**
 
-```
+```cpp
 copysign(x, y);
 
 ```
 
 **参数:**
 
-```
+```cpp
 x : Value with the magnitude 
 y : Value with the sign 
 
@@ -32,7 +32,7 @@ y : Value with the sign
 
 **返回:**
 
-```
+```cpp
 Returns the value with a magnitude of x
 and the sign of y.
 Return type follows type casting i.e., 
@@ -43,7 +43,7 @@ element int then it returns float.
 
 下面是上面的实现:
 
-```
+```cpp
 // C++ program to return copysign value
 #include <bits/stdc++.h>     
 using namespace std;     
@@ -66,7 +66,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 Magnitude = 6  Sign = -2
 Copysign(6, -2) = -6
 

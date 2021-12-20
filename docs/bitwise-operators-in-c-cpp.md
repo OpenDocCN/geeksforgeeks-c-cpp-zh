@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -57,7 +57,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate use of bitwise operators
 #include <stdio.h>
 int main()
@@ -91,7 +91,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a = 5, b = 9
 a&b = 1
 a|b = 13
@@ -109,7 +109,7 @@ b>>1 = 4
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -137,7 +137,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // Function to return the only odd
@@ -163,7 +163,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 The odd occurring element is 90
 ```
 
@@ -182,7 +182,7 @@ The odd occurring element is 90
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -199,7 +199,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -213,7 +213,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 False True
 ```
 
@@ -221,7 +221,7 @@ False True
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -238,7 +238,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -252,7 +252,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 x << 1 = 38
 x >> 1 = 9
 ```
@@ -261,7 +261,7 @@ x >> 1 = 9
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -278,7 +278,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -291,7 +291,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Odd
 ```
 
@@ -299,7 +299,7 @@ Odd
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -316,7 +316,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 // Note that the output of the following
 // program is compiler dependent
 #include <stdio.h>
@@ -332,7 +332,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Signed Result -2 
 Unsigned Result 4294967294d
 ```

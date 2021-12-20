@@ -8,7 +8,7 @@
 
 下面是结构填充的例子:
 
-```
+```cpp
 // C program to show an example
 // of Structure padding
 #include <stdio.h>
@@ -28,7 +28,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Size of A is: 16
 
 ```

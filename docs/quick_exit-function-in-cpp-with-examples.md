@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 void quick_exit(int val);
 ```
 
@@ -21,7 +21,7 @@ void quick_exit(int val);
 
 **例:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of quick_exit() function.
 
@@ -50,7 +50,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Exit Function 2
 Exit Function 1
 

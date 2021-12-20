@@ -6,7 +6,7 @@ C++ STL 的 **std::is_signed 模板**用于检查类型是否为有符号算术�
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_signed;
 
 ```
@@ -22,7 +22,7 @@ template <class T > struct is_signed;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_signed template
 
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_signed:
 int:true
 gfg:false
@@ -61,7 +61,7 @@ raj:false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_signed template
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_signed:
 float:true
 signed int:true
@@ -95,7 +95,7 @@ unsigned int:false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_signed template
 
@@ -121,7 +121,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_signed:
 bool:false
 unsigned char:false

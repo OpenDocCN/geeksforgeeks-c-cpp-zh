@@ -10,7 +10,7 @@
 
 一种解决方法是使用递归。感谢 Gopi 和 oggy 提出这个解决方案。
 
-```
+```cpp
 #include<stdio.h>
 
 // This function prints substring of str[] between low and
@@ -34,14 +34,14 @@ int main ()
 
 输出:
 
-```
+```cpp
 eek
 ```
 
 **如果递归也不允许怎么办？**
 我们总是可以用指针算术来改变开头部分。例如(str + i)给出了第 I 个字符的地址。为了限制结尾，我们可以在 printf 中使用宽度说明符，当*在格式字符串中使用时，该说明符可以作为参数传递。
 
-```
+```cpp
 #include <stdio.h>
 
 // This function prints substring of str[] between low and
@@ -61,7 +61,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 eek
 ```
 

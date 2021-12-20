@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for dynamic allocation
 #include <iostream>
 using namespace std;
@@ -64,7 +64,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10
 
 ```
@@ -80,7 +80,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to dynamically
 // deallocating the memory
 #include <iostream>
@@ -130,7 +130,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value: 10
 Value: 10
 
@@ -140,7 +140,7 @@ Value: 10
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the dynamic
 // initialization as memory is allocated
 // to the object
@@ -231,7 +231,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Deposited amount (float):209.101
 
 Deposited amount (integer):220.5

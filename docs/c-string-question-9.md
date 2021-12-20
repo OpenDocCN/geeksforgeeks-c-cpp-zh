@@ -4,7 +4,7 @@
 
 考虑以下 C 程序段:
 
-```
+```cpp
 char p[20]; 
 char *s = "string"; 
 int length = strlen(s); 

@@ -10,7 +10,7 @@
 
 2)如果我们打印字符 a 的值，我们得到字符的 ASCII 值(如果使用%d)。如果我们打印 char a[1]的值，我们得到数组中唯一元素的地址。
 
-```
+```cpp
 #include <stdio.h>
 
 int main ()
@@ -24,7 +24,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 65
 An address
 

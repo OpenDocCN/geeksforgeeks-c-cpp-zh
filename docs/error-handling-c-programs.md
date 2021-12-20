@@ -7,7 +7,7 @@
 
 **示例:套接字编程中的错误处理**
 
-```
+```cpp
 if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
 {
    perror("socket failed");
@@ -21,7 +21,7 @@ if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
 1.  **全局变量 errno:** 在 C 语言中调用一个函数时，一个名为 errno 的变量会自动被赋予一个代码(值)，这个代码可以用来识别已经遇到的错误类型。它是一个全局变量，指示任何函数调用期间发生的错误，并在头文件 errno.h.
     中定义。errno 的不同代码(值)表示不同类型的错误。下面列出了几种不同的 errno 值及其相应的含义:
 
-```
+```cpp
 errno value       Error
 1             /* Operation not permitted */
 2             /* No such file or directory */
@@ -39,7 +39,7 @@ errno value       Error
 
 ```
 
-```
+```cpp
 // C implementation to see how errno value is
 // set in the case of any error in C
 #include <stdio.h>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of errno: 2
 
 ```
@@ -76,7 +76,7 @@ Value of errno: 2
     *   **perror:** 它显示传递给它的字符串，后跟一个冒号、一个空格，然后是当前 errno 值的文本表示。
         **语法:**
 
-        ```
+        ```cpp
         void perror (const char *str)
         str: is a string containing a custom message
         to be printed before the error message itself.
@@ -85,12 +85,12 @@ Value of errno: 2
     *   **strerror():** 返回当前 errno 值的文本表示的指针。
         **语法:**
 
-        ```
+        ```cpp
         char *strerror (int errnum)
         errnum: is the error number (errno).
         ```
 
-    ```
+    ```cpp
     // C implementation to see how perror() and strerror()
     // functions are used to print the error messages.
     #include <stdio.h>
@@ -120,7 +120,7 @@ Value of errno: 2
     输出:
     **在个人桌面:**
 
-    ```
+    ```cpp
     Value of errno: 2
     The error message is : No such file or directory
     Message from perror: No such file or directory
@@ -129,7 +129,7 @@ Value of errno: 2
 
     **在线 IDE 上:**
 
-    ```
+    ```cpp
      Value of errno: 13
     The error message is : Permission denied
 
@@ -139,7 +139,7 @@ Value of errno: 2
 
     *   **Exit Status:** The C standard specifies two constants: EXIT_SUCCESS and EXIT_FAILURE, that may be passed to exit() to indicate successful or unsuccessful termination, respectively. These are macros defined in stdlib.h.
 
-    ```
+    ```cpp
     // C implementation which shows the
     // use of EXIT_SUCCESS and EXIT_FAILURE.
     #include <stdio.h>
@@ -175,7 +175,7 @@ Value of errno: 2
 
     输出:
 
-    ```
+    ```cpp
     Value of errno: 2
     Error opening the file: No such file or directory
     Error printed by perror: No such file or directory
@@ -184,7 +184,7 @@ Value of errno: 2
 
     *   **Divide by Zero Errors:** A common pitfall made by C programmers is not checking if a divisor is zero before a division command. Division by zero leads to undefined behavior, there is no C language construct that can do anything about it. Your best bet is to not divide by zero in the first place, by checking the denominator.
 
-    ```
+    ```cpp
     // C program to check  and rectify
     // divide by zero condition
     #include<stdio.h>
@@ -219,7 +219,7 @@ Value of errno: 2
 
     输出:
 
-    ```
+    ```cpp
     Division by Zero is not allowed
     ```
 

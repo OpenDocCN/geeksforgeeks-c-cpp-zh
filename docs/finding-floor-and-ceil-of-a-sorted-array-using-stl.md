@@ -5,7 +5,7 @@
 给定一个排序的数组，任务是使用 STL 找到给定数字的[楼层和天花板](https://www.geeksforgeeks.org/ceil-floor-functions-cpp/)。
 **例:**
 
-```
+```cpp
 Input: arr[] = {1, 2, 4, 7, 11, 12, 23, 30, 32},
        values[] = { 1, 3, 5, 7, 20, 24 }
 Output: Floor Values: 1 2 4 7 12 23 
@@ -18,7 +18,7 @@ Output: Floor Values: 1 2 4 7 12 23
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find the floor and ceil
 // of a given numbers in a sorted array
 
@@ -110,7 +110,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Array:  1 2 4 7 11 12 23 30 32
 Values: 1 3 5 7 20 24 
 Floor : 1 2 4 7 12 23 

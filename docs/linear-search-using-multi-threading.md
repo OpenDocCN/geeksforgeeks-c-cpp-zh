@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 1, 5, 7, 10, 12, 14, 15, 18, 20, 
         22, 25, 27, 30, 64, 110, 220
 Output :if key = 20
@@ -24,14 +24,14 @@ Key not present
 **方法:**
 首先创建 n 个线程。然后，将数组分成四个部分，每个线程一个部分，并使用多线程对各个部分进行线性搜索，并检查关键元素是否存在。
 
-```
+```cpp
 Command : g++ -pthread linear_thread.cpp
 
 ```
 
 ## C++
 
-```
+```cpp
 // CPP code to search for element in a
 // very large file using Multithreading
 #include <iostream>
@@ -93,7 +93,7 @@ int main()
 
 Output:
 
-```
+```cpp
 Key not present
 
 ```

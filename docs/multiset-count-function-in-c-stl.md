@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.count(val)
 ```
 
@@ -20,7 +20,7 @@ multiset_name.count(val)
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::count() function
 #include <bits/stdc++.h>
@@ -42,7 +42,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 15 occurs 2 times in container
 ```
 
@@ -50,7 +50,7 @@ int main()
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::count() function
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 18 occurs 4 times in container
 ```
 

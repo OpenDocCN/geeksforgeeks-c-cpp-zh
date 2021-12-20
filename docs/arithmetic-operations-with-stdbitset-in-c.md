@@ -20,7 +20,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -60,7 +60,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 000000000000000000000000000101000
 ```
 
@@ -78,7 +78,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -125,7 +125,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 000000000000000000000000000001010
 ```
 

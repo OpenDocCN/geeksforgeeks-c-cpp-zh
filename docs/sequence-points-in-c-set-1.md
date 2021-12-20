@@ -6,7 +6,7 @@
 
 猜测以下程序的输出。
 
-```
+```cpp
 // PROGRAM 1
 #include <stdio.h>
 int f1() { printf ("Geeks"); return 1;}
@@ -58,7 +58,7 @@ d)逗号、
 
 例如，以下程序的输出保证在所有编译器/机器上都是“GeeksforGeeks”。
 
-```
+```cpp
 // Following 3 lines are common in all of the below programs
 #include <stdio.h>
 int f1() { printf ("Geeks"); return 1;}

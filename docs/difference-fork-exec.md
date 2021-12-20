@@ -6,7 +6,7 @@
 
 叉()
 
-```
+```cpp
 pid_t pid = fork();
 
 ```
@@ -28,7 +28,7 @@ exec()函数系列**用新的过程映像替换当前过程映像。它将程序
 
 exec()家族由以下几个函数组成，我在下面的 C 程序中实现了 **execv()** ，大家可以试试休息作为练习
 
-```
+```cpp
 int execl(const char *path, const char *arg, ...);
 int execlp(const char *file, const char *arg, ...);
 int execle(const char *path, const char *arg, ..., 
@@ -45,7 +45,7 @@ int execvpe(const char *file, char *const argv[],
 *   fork 启动一个新的进程，它是调用它的进程的副本，而 exec 用另一个(不同的)进程映像替换当前的进程映像。
 *   在 fork()的情况下，父进程和子进程同时执行，而控制永远不会返回到原始程序，除非出现 exec()错误。
 
-```
+```cpp
 // C program to illustrate  use of fork() &
 // exec() system call for process creation
 
@@ -133,7 +133,7 @@ int main(){
 
 输出:
 
-```
+```cpp
 parent process, pid = 11523
 child process, pid = 14188
 Program execution successful

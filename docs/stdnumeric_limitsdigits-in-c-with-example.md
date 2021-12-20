@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<limits>
 
 ```
 
 **模板:**
 
-```
+```cpp
 static const int digits;
 static constexpr int digits;
 
@@ -21,7 +21,7 @@ static constexpr int digits;
 
 **语法:**
 
-```
+```cpp
 std::numeric_limits<T>::digits
 
 ```
@@ -34,7 +34,7 @@ std::numeric_limits<T>::digits
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::numeric_limits<T>::digits
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 For int: 31
 For float: 24
 For double: 53

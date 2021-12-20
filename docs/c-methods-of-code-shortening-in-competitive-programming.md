@@ -12,7 +12,7 @@ typedef long long ll；
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 long long a = 123456789;
 long long b = 987654321;
 cout << a * b << "\n";
@@ -22,7 +22,7 @@ cout << a * b << "\n";
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 ll a = 123456789;
 ll b = 987654321;
 cout << a * b << "\n";
@@ -32,7 +32,7 @@ cout << a * b << "\n";
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 typedef vector<int> vi;
 typedef pair<int, int> pi;
 ```
@@ -67,7 +67,7 @@ search(I)；
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h> // Include every standard library
 using namespace std;
 

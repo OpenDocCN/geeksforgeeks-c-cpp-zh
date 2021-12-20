@@ -6,7 +6,7 @@
 
 我们可以简单地在构造函数中赋值。
 
-```
+```cpp
 // Passing vector object to a constructor.
 #include <iostream>
 #include <vector>
@@ -41,14 +41,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
 
 我们也可以使用[初始化列表](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)进行初始化。
 
-```
+```cpp
 // Initializing vector object using initializer
 // list.
 #include <iostream>
@@ -83,7 +83,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```
@@ -91,7 +91,7 @@ int main()
 **当类成员是向量时，引用**。
 在 C++中，[引用必须使用初始化列表](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)进行初始化。
 
-```
+```cpp
 // CPP program to initialize a vector reference.
 #include <iostream>
 #include <vector>
@@ -128,7 +128,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```

@@ -10,7 +10,7 @@
 
 *   **C language:** Just declare the printf () function from the "stdio.h" header file.
 
-    ```
+    ```cpp
     //Declare the printf() function
     int printf(const char *format, ...);
 
@@ -21,13 +21,13 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: Hello World
     ```
 
 *   **C++ language:** Because of the misuse of the name **in C++with** , we can't put the declaration of printf () function directly as in the above example. See [this](https://www.geeksforgeeks.org/extern-c-in-c/) for details to learn more about name theft. Therefore, we only need to declare printf ():-
 
-    ```
+    ```cpp
     //Declare the printf() function inside
     //extern "C" for C++ compiler
     extern "C"
@@ -42,7 +42,7 @@
     }
     ```
 
-    ```
+    ```cpp
     Output: Hello World
     ```
 

@@ -7,7 +7,7 @@
 
 ## C
 
-```
+```cpp
 void main()
 {
 }
@@ -85,7 +85,7 @@ It does not attach all classes. Instead, it will allow access to java.lang's cla
 
 ## C
 
-```
+```cpp
 // C program to demonstrate shallow copy
 # include <stdio.h>
 # include <string.h>
@@ -117,7 +117,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 st1's str = XYeksforGeeks
 st2's str = XYeksforGeeks
 ```
@@ -126,7 +126,7 @@ st2's str = XYeksforGeeks
 
 ## C
 
-```
+```cpp
 // C program to demonstrate deep copy
 # include <stdio.h>
 # include <string.h>
@@ -163,7 +163,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 st1's str = XYeksforGeeks
 st2's str = GeeksforGeeks
 ```

@@ -5,7 +5,7 @@
 数组是同类对象的集合，这个数组容器是为固定大小的数组或(静态大小)定义的。该容器环绕固定大小的数组，当声明为指针时，其大小信息不会丢失。
 为了利用数组，我们需要包含数组头:
 
-```
+```cpp
  #include <array> 
 ```
 
@@ -13,7 +13,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of array
 #include <algorithm>
 #include <array>
@@ -64,7 +64,7 @@ int main() {
 
 **Output:** 
 
-```
+```cpp
 Sizes of arrays are
 5
 5
@@ -88,7 +88,7 @@ ar3 : a b
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -102,7 +102,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 G G
 ```
 
@@ -110,7 +110,7 @@ G G
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -124,7 +124,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 71 71
 ```
 
@@ -134,7 +134,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -150,7 +150,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 77 80
 ```
 
@@ -160,7 +160,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -176,7 +176,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 false
 ```
 
@@ -186,7 +186,7 @@ false
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -202,7 +202,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 71 80
 ```
 
@@ -212,7 +212,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -228,7 +228,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 1 1 1 1 1 
 ```
 
@@ -236,7 +236,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <array>
 using namespace std;
@@ -252,7 +252,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 10
 10
 40
@@ -264,7 +264,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <cstring>
 #include <array>
@@ -283,7 +283,7 @@ int main ()
 
 **Output**
 
-```
+```cpp
 GeeksforGeeks
 ```
 

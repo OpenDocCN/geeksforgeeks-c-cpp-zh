@@ -4,7 +4,7 @@
 
 以下程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -36,21 +36,21 @@ int main()
 **(A)** 编译器错误，模板参数必须是数据类型。
 **(二)**
 
-```
+```cpp
 10
 1
 ```
 
 **(C)**
 
-```
+```cpp
 10000
 256
 ```
 
 **(D)**
 
-```
+```cpp
 1
 1
 ```
@@ -61,7 +61,7 @@ int main()
 
 下面是另一个非类型参数的例子。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

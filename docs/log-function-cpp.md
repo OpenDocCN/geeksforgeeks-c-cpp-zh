@@ -21,7 +21,7 @@ T3】
 ..d)如果 x=0，则返回 **-inf**
 ..e)如果 x < 0，则返回 **NaN** (不是数字)
 
-```
+```cpp
 // CPP program to implement log() function
 #include <bits/stdc++.h>
 using namespace std;
@@ -52,7 +52,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The logarithm value(base-e) of 10 is 2.30259
 The logarithm value(base-10) of 10 is 1
 
@@ -61,7 +61,7 @@ The logarithm value(base-10) of 10 is 1
 **应用:**
 log()函数的应用之一是计算与 log 相关的值，例如，在寻找[礼貌数字](https://www.geeksforgeeks.org/n-th-polite-number/)时，我们需要将公式写成代码，为此我们可以使用 log()函数。下面给出的是 log()函数的一个实现。
 
-```
+```cpp
 // CPP program to find Nth polite number
 #include <bits/stdc++.h>
 using namespace std;
@@ -86,7 +86,7 @@ int main()
 
 输出:
 
-```
+```cpp
 11 
 
 ```

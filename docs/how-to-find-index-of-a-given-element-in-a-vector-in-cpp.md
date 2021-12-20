@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find the index
 // of an element in a vector
 #include <bits/stdc++.h>
@@ -65,7 +65,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 2
 
 ```

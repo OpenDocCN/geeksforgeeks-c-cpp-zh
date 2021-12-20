@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 class <class_name>
 {
      private:
@@ -29,7 +29,7 @@ class <class_name>
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate class
 #include <bits/stdc++.h>
 using namespace std;
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geekname is: Geek
 Roll no  is: 15
 

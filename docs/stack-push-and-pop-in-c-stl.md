@@ -10,7 +10,7 @@ push()函数用于在堆栈顶部插入或“推”一个元素。这是来自 [
 
 **语法:**
 
-```
+```cpp
 stackname.push(value)
 ```
 
@@ -20,7 +20,7 @@ stackname.push(value)
 
 **例:**
 
-```
+```cpp
 Input :   mystack
           mystack.push(6);
 Output :  6
@@ -38,7 +38,7 @@ Output :  0, 1
 
 ## CPP
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of push() function
 
@@ -64,7 +64,7 @@ int main()
 
 **输出**
 
-```
+```cpp
  2 1 0
 ```
 
@@ -76,7 +76,7 @@ pop()函数用于从堆栈顶部移除或“弹出”元素(堆栈中最新或�
 
 **语法:**
 
-```
+```cpp
 stackname.pop()
 ```
 
@@ -86,7 +86,7 @@ stackname.pop()
 
 **例:**
 
-```
+```cpp
 Input :   mystack = 0, 1, 2
           mystack.pop();
 Output :  0, 1
@@ -103,7 +103,7 @@ Output :  0, 1, 2, 3, 4
 
 ## CPP
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of pop() function
 
@@ -135,7 +135,7 @@ int main()
 
 **Output**
 
-```
+```cpp
  2 1
 ```
 
@@ -143,7 +143,7 @@ int main()
 
 **应用:**给定若干个整数，将它们加到栈中，不用 size 函数就能求出栈的大小。
 
-```
+```cpp
 Input : 5, 13, 0, 9, 4
 Output: 5
 ```
@@ -156,7 +156,7 @@ Output: 5
 
 ## CPP
 
-```
+```cpp
 // CPP program to illustrate
 // Application of push()
 // and pop() function
@@ -189,7 +189,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 5
 ```
 

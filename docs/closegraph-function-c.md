@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```cpp
 void closegraph();
 
 ```
 
 下面是 c 语言中 closegraph()的实现。
 
-```
+```cpp
 // C Implementation for closegraph()
 #include <graphics.h>
 

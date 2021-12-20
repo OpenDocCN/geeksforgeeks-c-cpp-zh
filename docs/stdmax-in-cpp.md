@@ -14,7 +14,7 @@
 
     比较元素语法:
 
-    ```
+    ```cpp
     template <class t="">constexpr const T& max (const T& a, const T& b);</class>
 
     Here, a and b are the numbers to be compared.
@@ -24,7 +24,7 @@
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::max
     // C++ program to demonstrate the use of std::max
     #include<iostream>
@@ -45,7 +45,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```cpp
     # Python 3 program to
     # demonstrate the use of std::max
 
@@ -64,7 +64,7 @@
 
     输出:
 
-    ```
+    ```cpp
     b
     7
 
@@ -73,7 +73,7 @@
 
     语法:
 
-    ```
+    ```cpp
     template <class t="" class="" compare="">constexpr const T& max (const T& a, const T& b, Compare comp);</class>
 
     Here, a and b are the numbers to be compared.
@@ -89,7 +89,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::max
     #include<iostream>
     #include<algorithm>
@@ -117,7 +117,7 @@
 
     输出:
 
-    ```
+    ```cpp
     28
     7
 
@@ -126,7 +126,7 @@
 
     语法:
 
-    ```
+    ```cpp
     template <class t="" class="" compare="">constexpr T max (initializer_list <t>il, Compare comp);</t></class>
 
     Here, comp is optional and can be skipped.
@@ -135,7 +135,7 @@
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::max
     #include<iostream>
     #include<algorithm>
@@ -158,7 +158,7 @@
 
     输出:
 
-    ```
+    ```cpp
     10
 
     ```** 

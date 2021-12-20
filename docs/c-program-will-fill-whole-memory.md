@@ -11,7 +11,7 @@
 
 使用新运算符的语法:要分配任何数据类型的内存，语法是
 
-```
+```cpp
 pointer-variable = new data-type;
 
 ```
@@ -21,14 +21,14 @@ pointer-variable = new data-type;
 
 使用 delete 运算符的语法:要分配任何数据类型的内存，语法是
 
-```
+```cpp
 delete pointer-variable; 
 
 ```
 
 下面是将填满整个内存的 C++程序
 
-```
+```cpp
 #include<bits/stdc++.h>
 
 int main()
@@ -44,7 +44,7 @@ int main()
 
 **缓和代码**
 
-```
+```cpp
 #include<bits/stdc++.h>
 int main()
 {

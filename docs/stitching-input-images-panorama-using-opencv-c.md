@@ -21,7 +21,7 @@ T3】
 
 **实施**
 
-```
+```cpp
 // CPP program to Stitch
 // input images (panorama) using OpenCV 
 #include <iostream>

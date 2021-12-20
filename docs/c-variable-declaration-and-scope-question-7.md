@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-variable-declaration-and-scope-question-7/](https://www.geeksforgeeks.org/c-variable-declaration-and-scope-question-7/)
 
-```
+```cpp
 int main()
 {
   int x = 032;

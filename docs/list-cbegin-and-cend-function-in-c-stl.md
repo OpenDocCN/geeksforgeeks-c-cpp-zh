@@ -5,7 +5,7 @@
 *   **列表::cbegin()** 是 C++ STL 中的内置函数，它返回一个指向列表开头的常量随机访问迭代器。因此，获得的迭代器可以用于迭代容器，但不能用于修改它所指向的对象的内容，即使对象本身不是常数。
     **语法:**
 
-```
+```cpp
 list_name.cbegin()
 ```
 
@@ -15,7 +15,7 @@ list_name.cbegin()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // cbegin() function
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The first element is: 5
 List: 5 6 7 8 9
 ```
@@ -49,7 +49,7 @@ List: 5 6 7 8 9
 *   **列表::cend()** 是 C++ STL 中的一个内置函数，它返回一个指向列表末尾的常量随机访问迭代器。因此，获得的迭代器可以用于迭代容器，但不能用于修改它所指向的对象的内容，即使对象本身不是常数。
     **语法:**
 
-```
+```cpp
 list_name.cend()
 ```
 
@@ -59,7 +59,7 @@ list_name.cend()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // cend() function
 #include <bits/stdc++.h>
@@ -83,7 +83,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 List: 
 10 20 30 40 50
 ```

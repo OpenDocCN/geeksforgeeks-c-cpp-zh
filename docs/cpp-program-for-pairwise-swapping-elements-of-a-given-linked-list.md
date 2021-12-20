@@ -4,7 +4,7 @@
 
 给定一个单链表，编写一个成对交换元素的函数。
 
-```
+```cpp
 Input: 1->2->3->4->5->6->NULL 
 Output: 2->1->4->3->6->5->NULL
 
@@ -24,7 +24,7 @@ Output: 1->NULL 
 
 ## C++
 
-```
+```cpp
 // C++ program to pairwise swap elements
 // in a given linked list
 #include <bits/stdc++.h>
@@ -120,7 +120,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list before calling pairWiseSwap()
 1 2 3 4 5 
 Linked list after calling pairWiseSwap()

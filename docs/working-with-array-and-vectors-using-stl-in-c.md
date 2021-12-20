@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: {1, 7, 2, 4, 8, 3}
 Output: {1, 2, 3, 4, 7, 8}
 
@@ -20,7 +20,7 @@ Output: {1, 2, 3, 4, 7, 8}
 
 ## 排列
 
-```
+```cpp
 // C++ program to sort Array
 // using sort() in STL
 
@@ -40,7 +40,7 @@ int main()
 
 ## 矢量
 
-```
+```cpp
 // C++ program to sort Vector
 // using sort() in STL
 
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 7 8
 
 ```
@@ -72,7 +72,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 Input: {1, 7, 2, 4, 8, 3}
 Output: {3, 8, 4, 2, 7, 1}
 
@@ -80,7 +80,7 @@ Output: {3, 8, 4, 2, 7, 1}
 
 ## 排列
 
-```
+```cpp
 // C++ program to reverse Array
 // using reverse() in STL
 
@@ -100,7 +100,7 @@ int main()
 
 ## 矢量
 
-```
+```cpp
 // C++ program to reverse Vector
 // using reverse() in STL
 
@@ -119,7 +119,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3 8 4 2 7 1
 
 ```
@@ -134,7 +134,7 @@ STL 中完成上述工作的功能有:
 
 ## 排列
 
-```
+```cpp
 // C++ program to find sum, max and min
 // element of Array using STL
 
@@ -157,7 +157,7 @@ int main()
 
 ## 矢量
 
-```
+```cpp
 // C++ program to find sum, max and min
 // element of Vector using STL
 
@@ -179,7 +179,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 sum of array: 25
 Maximum element in array: 8
 Minimum element in array: 1

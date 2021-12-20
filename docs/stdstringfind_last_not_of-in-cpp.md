@@ -6,7 +6,7 @@
 **返回值:**成功时第一个不匹配字符的索引，如果没有找到这样的字符，则返回字符串::NPO。
 **语法 1:** 搜索不是字符串元素的最后一个字符。
 
-```
+```cpp
 size_type string::find_last_not_of (const string& str) const
 str : Another string with the set of characters
 to be used in the search.
@@ -14,7 +14,7 @@ to be used in the search.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for find_last_not_of (const string& str) const
 
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : Hello World!
 String to be looked in : GeeksforGeeks
 First unmatched character : !
@@ -54,7 +54,7 @@ First unmatched character : !
 
 **语法 2:** 从索引 idx 中搜索不是字符串元素的最后一个字符。
 
-```
+```cpp
 size_type string::find_last_not_of (const string& str, size_type idx) const
 str : Another string with the set of characters
 to be used in the search.
@@ -64,7 +64,7 @@ start finding first unmatched character.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for string::find_last_not_of
 // (const string& str, size_type idx) const
 
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : geeKsforgeeks
 String to be looked in : GeeksforGeeks
 First unmatched character : K
@@ -105,7 +105,7 @@ First unmatched character : K
 
 **语法 3:** 搜索最后一个字符，该字符是否也是 C 字符串 cstr 的元素。
 
-```
+```cpp
 size_type string::find_last_not_of (const char* cstr) const
 cstr : Another C-string with the set of characters
 to be used in the search.
@@ -115,7 +115,7 @@ to be used in the search.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for string::find_last_not_of (const char* cstr) const
 
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 First unmatched character : G
 ```
@@ -153,7 +153,7 @@ First unmatched character : G
 **语法 4:** 从索引 idx 中搜索不是 C 字符串 cstr
 元素的最后一个字符
 
-```
+```cpp
 size_type string::find_last_not_of (const string& str, size_type idx) const
 cstr : Another C-string with the set of characters
 to be used in the search.
@@ -165,7 +165,7 @@ start finding first unmatched character.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for size_type string:: find_last_not_of
 // (const char* cstr, size_type idx) const
 
@@ -196,21 +196,21 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 First unmatched character : f
 ```
 
 **语法 5:** 查找字符串中不等于字符 c 的最后一个字符。
 
-```
+```cpp
 size_type string::find_last_not_of (const char* cstr) const
 c: Character c with which contents of str are required to be compared.
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for size_type string:: find_last_not_of (char c) const
 
 #include <iostream>
@@ -240,14 +240,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 First unmatched character : s
 ```
 
 **语法 6:** 从索引 idx 中查找字符串中不等于字符 c 的最后一个字符。
 
-```
+```cpp
 size_type string::find_last_not_of (const char* cstr, size_type idx) const
 c: Character c with which contents of str are required to be compared.
 idx : index from where search of the first
@@ -256,7 +256,7 @@ unmatched character is to be started
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for size_type string::find_last_not_of
 // (char c, size_type idx) const
 
@@ -287,14 +287,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 First unmatched character : o
 ```
 
 **语法 7:** 从索引 idx 开始，搜索最后一个字符，该字符也不是字符数组 chars_len 字符的元素。
 
-```
+```cpp
 size_type string::find_last_not_of (const char* chars, size_type idx, size_type
 chars_len) const
 *chars : is the character array with which 
@@ -306,7 +306,7 @@ chars_len : is the character length in
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for size_type string::find_last_not_of
 // (const char* chars, size_type idx, size_type chars_len) const
 
@@ -337,7 +337,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks
 First unmatched character : k
 ```

@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of namespace with same name of
 // function and variables
@@ -70,7 +70,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 2
 This is fun() of n1
 5
@@ -91,7 +91,7 @@ This is fun() of n2
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of "using" directive
 #include <iostream>
@@ -124,7 +124,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 2
 This is fun() of n1
 ```
@@ -142,7 +142,7 @@ This is fun() of n1
 
 ## C++
 
-```
+```cpp
 // C++ program illustrating the use
 // of "using namespace" inside main()
 
@@ -194,7 +194,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // Code written in the iostream.h file
 
 namespace std {
@@ -215,7 +215,7 @@ i0stream cin;
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // the use of std
 #include <iostream>
@@ -232,7 +232,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value of x is 10
 ```
 

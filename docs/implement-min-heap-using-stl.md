@@ -11,7 +11,7 @@ C++ STL 中有 [priority_queue](https://www.geeksforgeeks.org/priority-queue-con
 
 ## C++
 
-```
+```cpp
 // C++ program to show that priority_queue is by
 // default a Max Heap
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main ()
 
 **Output**
 
-```
+```cpp
 30 20 10 5 1 
 ```
 
@@ -50,7 +50,7 @@ int main ()
 **如何实现闵堆？**
 priority_queue 支持一个需要两个额外参数才能使其成为最小堆的构造函数。
 
-```
+```cpp
 priority_queue <Type, vector<Type>, ComparisonType > min_heap;
 ```
 
@@ -60,7 +60,7 @@ priority_queue <Type, vector<Type>, ComparisonType > min_heap;
 
 ## C++
 
-```
+```cpp
 // C++ program to use priority_queue to implement min heap
 #include <bits/stdc++.h>
 using namespace std;
@@ -89,7 +89,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 1 5 10 20 30 
 ```
 
@@ -101,7 +101,7 @@ int main ()
 
 ## C++
 
-```
+```cpp
 // C++ Program to implement min heap
 // using default priority_queue(max-heap)
 
@@ -139,7 +139,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 7 9 15 20 25 36 50 
 ```
 
@@ -149,7 +149,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to use priority_queue to implement Min Heap
 // for user defined class
 #include <bits/stdc++.h>
@@ -206,7 +206,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 (1, 5)
 (2, 1)
 (10, 2)

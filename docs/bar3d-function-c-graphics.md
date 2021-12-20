@@ -5,7 +5,7 @@
 头文件 graphics.h 包含 **bar3d()** 函数，用于绘制二维矩形填充条。绘制条形需要条形左上角和右下角的坐标。
 **语法:**
 
-```
+```cpp
 void bar3d(int left, int top, int right, 
     int bottom, int depth, int topflag);
 
@@ -22,7 +22,7 @@ the bar or not ( if it is non-zero then it is put otherwise not ).
 
 **示例:**
 
-```
+```cpp
 Input : left = 150, top = 250,
         right = 190, bottom = 350,
         depth = 20, topflag = 1
@@ -40,7 +40,7 @@ Output :
 
 下面是 bar3d()函数的实现:
 
-```
+```cpp
 // C Implementation for bar3d() function
 #include <graphics.h>
 

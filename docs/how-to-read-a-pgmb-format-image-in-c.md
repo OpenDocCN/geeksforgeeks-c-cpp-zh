@@ -29,7 +29,7 @@
 
 gfg_logo.pgm 中的标题信息:
 
-```
+```cpp
 P5
 # sample PGMB image
 # gfg_logo.pgm
@@ -53,7 +53,7 @@ P5
 
 ## C
 
-```
+```cpp
 // C Program to read a PGMB image
 // and print its parameters
 #include <ctype.h>

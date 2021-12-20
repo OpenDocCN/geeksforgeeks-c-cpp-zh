@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate that pointer
 // subtraction is allowed.
 #include <iostream>
@@ -30,7 +30,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate that pointer
 // subtraction is allowed.
 #include <stdio.h>
@@ -47,7 +47,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 ptr_1: 0x1cb0010 ptr_2: 0x1cb0030
 Difference: 8
@@ -58,7 +58,7 @@ Difference: 8
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate addition / division
 // / multiplication not allowed on pointers.
 #include <iostream>
@@ -80,7 +80,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate addition / division
 // / multiplication not allowed on pointers.
 #include <stdio.h>
@@ -97,7 +97,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output: prog.c: In function 'main':
 prog.c:8:60: error: invalid operands to 
 binary + (have 'int *' and 'int *')

@@ -6,7 +6,7 @@ C++程序，用于按照排序顺序分别合并长度为“n”和“m”的两
 
 示例:
 
-```
+```cpp
 Input : A[] = {3, 6, 9}
         B[] = {2, 7, 11}
 Output : C[] = {2, 3, 6, 7, 9, 11}
@@ -25,7 +25,7 @@ Output : C[] = {1, 1, 1, 2, 3, 6, 7, 9, 11, 11}
 
 下面是使用 std :: merge 的实现
 
-```
+```cpp
 // C++ program to merge two sorted arrays
 // std::merge()
 #include <iostream>
@@ -54,14 +54,14 @@ int main()
 
 输出:
 
-```
+```cpp
 1 1 2 7 9 11 11 
 
 ```
 
 通常，merge()的语法是
 
-```
+```cpp
 // Merges elements from aFirst to aLast and bFirst
 // to bLast into a result and returns iterator pointing
 // to first element of result

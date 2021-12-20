@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate how default arguments and
 // virtual function are used together
 #include <iostream>
@@ -46,7 +46,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Derived::fun(), x = 0
 ```
 
@@ -57,7 +57,7 @@ Derived::fun(), x = 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate how default arguments and
 // virtual function are used together
 #include <iostream>
@@ -90,7 +90,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Derived::fun(), x = 0
 ```
 

@@ -30,14 +30,14 @@
 **下面是 Olivier Danvy 给出的例子，翻译成 Haskell :**
 下面是树数据类型:
 
-```
+```cpp
 data Tree a = Leaf a
             | Node (Tree a) (Tree a)
 ```
 
 现在，我们必须取消下面给出的程序的功能:
 
-```
+```cpp
 cons :: a -> [a] -> [a]
 cons x xs = x : xs
 
@@ -54,7 +54,7 @@ walk (Node t1 t2) = o (walk t1) (walk t2)
 
 现在，为了解除上述程序的功能，我们将用 **lam** 数据类型值替换所有高阶函数(即 **o** ，这是这里唯一的高阶函数)，我们将启动**应用**函数来简化数据类型–
 
-```
+```cpp
 data Lam a = LamCons a
            | LamO (Lam a) (Lam a)
 

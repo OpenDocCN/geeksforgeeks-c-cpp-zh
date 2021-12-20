@@ -4,14 +4,14 @@
 
 std::basic_string::max_size 用于计算由于系统或库实现限制，字符串能够容纳的最大元素数。
 
-```
+```cpp
 size_type max_size() const;
 Parameters : None
 Return value : Maximum number of characters
 Exceptions : None
 ```
 
-```
+```cpp
 // CPP program to compute the limit of a string
 // using max_size
 #include <iostream>
@@ -28,7 +28,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Maximum size of a string is 4294967294
 
 ```

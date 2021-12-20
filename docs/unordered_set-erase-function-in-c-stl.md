@@ -7,7 +7,7 @@
 **语法** :
 可以用三种方式声明，
 
-```
+```cpp
 Method(1): unordered_set_name.erase(iterator start, iterator end)
 
 Method(2): unordered_set_name.erase(iterator position)
@@ -30,7 +30,7 @@ T3】程序 1 :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::erase() function
 
@@ -70,7 +70,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 25 5 15 20  
 Set size: 0
 ```
@@ -79,7 +79,7 @@ Set size: 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::erase() function
 
@@ -119,7 +119,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 Elements: geeks2 for 
 After second removal set : geeks1 geeks2 
 ```

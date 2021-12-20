@@ -28,7 +28,7 @@
     3.  **[宏](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)扩展:**宏可以作为小函数调用，不作为处理开销。如果我们必须编写一个需要递归调用(一次又一次)的函数(定义很小)，那么我们应该更喜欢宏而不是函数。
         所以，定义这些宏是由预处理器完成的。
 
-        ```
+        ```cpp
         #define SI 1000
         ```
 
@@ -36,7 +36,7 @@
 
         *   宏有两种类型:类对象(不取参数)和类函数(可以取参数)
 
-            ```
+            ```cpp
             // object-like macro
             #define <replacement token="" list="">// function-like macro          
             #define <identifier>(<parameter list="">) <replacement token="" list=""></replacement></parameter></identifier></replacement> 
@@ -44,7 +44,7 @@
 
         *   你可以用# undef 删除一个宏定义:
 
-            ```
+            ```cpp
             // delete the macro
             # undef *   We can write [multi-line macro](https://www.geeksforgeeks.org/multiline-macros-in-c/) same like function, but each statement ends with “\”. 
 
@@ -57,7 +57,7 @@
                             printf(" %s number", str);\ 
                             printf("\n");\ 
                            }
-                ``` 
+                ```cpp 
             ```
 
 本文由**迪卡莎**供稿。如果你喜欢 GeeksforGeeks 并想投稿，你也可以使用[contribute.geeksforgeeks.org](http://contribute.geeksforgeeks.org)写一篇文章或者把你的文章邮寄到 contribute@geeksforgeeks.org。看到你的文章出现在极客博客主页上，帮助其他极客。

@@ -20,7 +20,7 @@ SIGBUS 信号出现在以下情况下，
 
 ## C
 
-```
+```cpp
 // C program to demonstrate Bus Error
 #include <stdlib.h>
 
@@ -66,7 +66,7 @@ int main(int argc, char **argv)
 
 输出:
 
-```
+```cpp
 Bad memory access (SIGBUS) 
 ```
 

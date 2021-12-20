@@ -8,7 +8,7 @@
 
 **功能模板:**
 
-```
+```cpp
 void replace (ForwardIterator first, 
  ForwardIterator last,
               const T& old_value,
@@ -27,7 +27,7 @@ new_value : Replacement value.
 
 **示例:**
 
-```
+```cpp
 Input : 10 20 30 30 20 10 10 20 
 Output : 10 99 30 30 99 10 10 99 
 // Replaced value 20 in vector to 99.
@@ -40,7 +40,7 @@ Output : 3 5 7 12 9 5 4
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to find and replace the value
 // with another value in array
 // using std::replace
@@ -77,7 +77,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Original Array: 10 20 30 30 20 10 10 20
 New Array: 10 99 30 30 99 10 10 99
 
@@ -88,7 +88,7 @@ New Array: 10 99 30 30 99 10 10 99
 为范围[第一个，最后一个]中 **pred** 返回真的所有元素分配 new_value。
 **功能模板:**
 
-```
+```cpp
 void replace_if (ForwardIterator first, ForwardIterator last,
                    UnaryPredicate pred, const T& new_value)
 first, last : Forward iterators to the initial and final positions
@@ -104,7 +104,7 @@ new_value : Replacement value.
 
 **示例:**
 
-```
+```cpp
 Input : 1 2 3 4 5 6 7 8 9 10  
 Output : 0 2 0 4 0 6 0 8 0 10  
 // Replaced all odd values to 0.
@@ -117,7 +117,7 @@ Output : 10 4 30 30 4 10 10 4
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to find all the elements that are odd
 // and replace them with 0.
 // using std::replace_if
@@ -163,7 +163,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Original Array: 1 2 3 4 5 6 7 8 9 10
 New Array: 0 2 0 4 0 6 0 8 0 10
 

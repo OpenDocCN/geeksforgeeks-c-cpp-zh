@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 boost::dynamic_bitset <uint8_t> B (N, num);
 ```
 
@@ -20,7 +20,7 @@ boost::dynamic_bitset <uint8_t> B (N, num);
 dynamic_bitset 的每个独立位都可以像 bitset 索引运算符[]一样进行访问。
 **请注意**长度为 n 的 dynamic_bitset 中数字 B 的比特表示表示为:
 
-```
+```cpp
 B[n-1] B[n-2] ... B[1] B[0]
 ```
 
@@ -48,7 +48,7 @@ B[n-1] B[n-2] ... B[1] B[0]
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <boost/dynamic_bitset.hpp>
 #include <iostream>
 
@@ -246,7 +246,7 @@ int main(int argc, char* argv[])
 
 **Output:** 
 
-```
+```cpp
 Content of B1 is: 
 Content of B2 is: 00000000
 Binary representation of 14 in 8 bit: 00001110
@@ -322,7 +322,7 @@ B1[1] is set
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <boost/dynamic_bitset.hpp>
 #include <iostream>
 using namespace std;
@@ -518,7 +518,7 @@ int main(int argc, char* argv[])
 
 **Output:** 
 
-```
+```cpp
 Binary representation of 123: 01111011
 Binary representation of 206: 11001110
 

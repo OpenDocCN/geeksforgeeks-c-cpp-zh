@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: N = 5
 Output: 
 Even: 2 4 6 8 10
@@ -34,7 +34,7 @@ Odd: 1 3 5
 
     下面是上述方法的实现:
 
-    ```
+    ```cpp
     // C++ program to print all Even
     // and Odd numbers from 1 to N
 
@@ -82,7 +82,7 @@ Odd: 1 3 5
 
     **Output:**
 
-    ```
+    ```cpp
     Even: 2 4 6 8 10 
     Odd: 1 3 5 7 9
 

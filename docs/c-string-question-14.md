@@ -4,7 +4,7 @@
 
 假设一个字符需要 1 个字节。以下程序的输出？
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 
 **说明:**注意 sizeof()运算符会返回数组的大小。要获取存储在数组中的字符串的大小，我们需要使用 strlen()。以下程序打印 9。
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 int main()

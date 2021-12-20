@@ -16,7 +16,7 @@
 
 联系人将被保存到一个文件中。通讯录将为用户提供以下功能:
 
-```
+```cpp
 1\. Add contact.
 2\. Search Contact.
 3\. Help.
@@ -25,7 +25,7 @@
 
 将被保存的联系人的详细信息如下:
 
-```
+```cpp
 1\. First name.
 2\. Last name.
 3\. Phone Number.
@@ -35,7 +35,7 @@
 
 ## C++
 
-```
+```cpp
 // Importing input output operations file
 #include <iostream>
 // Importing file class

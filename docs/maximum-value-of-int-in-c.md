@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to obtain the maximum
 // value that can be store in int
 #include <climits>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value from climits constant (maximum): 2147483647
 Value from climits constant(minimum): -2147483648
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.clear()
 ```
 
@@ -19,7 +19,7 @@ multiset_name.clear()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::clear() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The elements in multiset are: 10 10 11 15 15 
 The size after clear() is: 0
 ```
@@ -61,7 +61,7 @@ The size after clear() is: 0
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // multiset::clear() function
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The elements in multiset are: 10 10 11 15 15 18 18 20 20 
 The size after clear() is: 0
 ```

@@ -8,7 +8,7 @@
 
 ## CPP14
 
-```
+```cpp
 // C++ program to iterate over the
 // elements of an std::tuple
 // using std:get()
@@ -51,7 +51,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Values of tuple: Geeks for Geeks
 Values of tuple(Modified): Hey Welcome to Geeksforgeeks
 ```
@@ -68,7 +68,7 @@ Values of tuple(Modified): Hey Welcome to Geeksforgeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to  iterated thorough
 // all values. I equals number
 // of values in tuple
@@ -119,7 +119,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Geeks for Geeks
 ```
 
@@ -129,7 +129,7 @@ Geeks for Geeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to  iterated thorough
 // all values. I equals number
 // of values in tuple
@@ -192,7 +192,7 @@ int main()
 2.  还有一点，关于变量展开，如果我们需要在变量模板的所有值上应用某个函数，那么我们就像 foo(Ts)…，其中 Ts 是我们的变量模板，而 foo()是需要在 Ts 中打包的所有值上应用的函数。这里，函数“…”后面的三个点表示该函数应用于变量模板的扩展。
 3.  [Lambda 函数](https://www.geeksforgeeks.org/lambda-expression-in-c/)是匿名函数，可以轻松声明和应用。它们的实现方式如下:
 
-```
+```cpp
 [&a, b, c] (int x, float &y) {
 
      // Function Body
@@ -204,7 +204,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to  iterated thorough
 // all values. I equals number
 // of values in tuple

@@ -10,7 +10,7 @@ empty()函数用于检查堆栈容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *stackname*.empty()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input :   mystack
           mystack.empty();
 Output :  True
@@ -37,7 +37,7 @@ Output :  False
 1.如果参数通过
 2，显示错误。显示无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of empty() function
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 False
 
 ```
@@ -71,7 +71,7 @@ False
 **应用:**
 给定一堆整数，求所有整数的和。
 
-```
+```cpp
 Input : 1, 8, 3, 6, 2
 Output: 20
 
@@ -82,7 +82,7 @@ Output: 20
 2。重复此步骤，直到堆栈为空。
 3。打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include <iostream>
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20
 
 ```
@@ -123,7 +123,7 @@ size()函数用于返回堆栈容器的大小或堆栈容器中的元素数量�
 
 **语法:**
 
-```
+```cpp
 *stackname*.size()
 Parameters :
 No parameters are passed.
@@ -134,7 +134,7 @@ Number of elements in the container.
 
 示例:
 
-```
+```cpp
 Input :   mystack = 0, 1, 2
           mystack.size();
 Output :  3
@@ -150,7 +150,7 @@ Output :  6
 1.如果传递参数，则显示错误。
 2。显示无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of size() function
 #include <iostream>
@@ -177,7 +177,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```
@@ -185,7 +185,7 @@ int main()
 **应用:**
 给定一堆整数，求所有整数的和。
 
-```
+```cpp
 Input : 1, 8, 3, 6, 2
 Output: 20
 
@@ -196,7 +196,7 @@ Output: 20
 2。重复此步骤，直到堆栈大小变为 0。
 3。打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of size() function
 #include <iostream>
@@ -226,7 +226,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20
 
 ```

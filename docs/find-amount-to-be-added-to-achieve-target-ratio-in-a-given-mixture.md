@@ -32,7 +32,7 @@
 
 ## C
 
-```
+```cpp
 // C program to find amount of water to
 // be added to achieve given target ratio.
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find amount of water to
 // be added to achieve given target ratio.
 
@@ -77,7 +77,7 @@ public class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find amount
 # of water to be added to achieve
 # given target ratio.
@@ -96,7 +96,7 @@ print("Water to be added",
 
 ## C#
 
-```
+```cpp
 // C# program to find amount of water to
 // be added to achieve given target ratio.
 using System;
@@ -124,7 +124,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find amount of water to
 // be added to achieve given target ratio.
@@ -145,7 +145,7 @@ echo "Water to be added = " .
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find amount of water to
     // be added to achieve given target ratio.
@@ -163,6 +163,6 @@ echo "Water to be added = " .
 
 **Output:** 
 
-```
+```cpp
 Water to be added = 25.00
 ```

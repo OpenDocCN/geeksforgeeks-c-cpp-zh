@@ -12,7 +12,7 @@
 
 语法:
 
-```
+```cpp
 Template 
 void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
                    RandomAccessIterator last); 
@@ -26,7 +26,7 @@ Return Value: It has a void return type, so it does not return any value.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // std::partial_sort
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 1 3 10 3 3 7 7 8 
 
 ```
@@ -65,7 +65,7 @@ int main()
 
     语法:
 
-    ```
+    ```cpp
     Template
      void partial_sort (RandomAccessIterator first, RandomAccessIterator middle,
                         RandomAccessIterator last, Compare comp); 
@@ -83,7 +83,7 @@ int main()
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of
     // std::partial_sort
     #include <iostream>
@@ -118,7 +118,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     1 1 3 10 3 3 7 7 8 
 
     ```
@@ -127,7 +127,7 @@ int main()
 
     1.  **Finding the largest element:** Since, with std::partial_sort, we can partially sort the container till whichever position we would like to. So, if we just **sort the first position and use a function object** , we can find the largest element, without having to sort the entire container.
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of
         // std::partial_sort
         #include <iostream>
@@ -156,14 +156,14 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         The largest element is = 78
 
         ```
 
     2.  **Finding the smallest element:** Similar to finding the largest element, we can also find the smallest element in the container in the previous example.
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of
         // std::partial_sort
         #include <iostream>
@@ -191,7 +191,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         The smallest element is = 3
 
         ```
@@ -200,7 +200,7 @@ int main()
 
 *   **std::sort() vs std::partial_sort():** Some of you might think that why are we using std::partial_sort, in place we can use std::sort() for the limited range, but remember, if we use std::sort with a partial range, then only elements within that range will be considered for sorting, while all other elements outside the range will not be considered for this purpose, whereas with std::partial_sort(), all the elements will be considered for sorting.
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of
     // std::partial_sort
     #include <iostream>
@@ -237,7 +237,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     v = 3 10
     v1 = 10 45
 

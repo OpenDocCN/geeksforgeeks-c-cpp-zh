@@ -13,7 +13,7 @@
 2)用自己的局部变量编写另一个 fun()函数。
 3)从 main 打电话给 fun()。比较两个局部变量的地址。如果 fun()的局部变量的地址大于 main 的局部变量，则堆栈向上增长(即地址增加)
 
-```
+```cpp
 // C program to check whether stack grows
 // downward or upward.
 #include<stdio.h>

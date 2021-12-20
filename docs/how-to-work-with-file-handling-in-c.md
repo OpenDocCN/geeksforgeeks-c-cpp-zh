@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for implementing the above
 // mentioned functionalities
 #include <bits/stdc++.h>

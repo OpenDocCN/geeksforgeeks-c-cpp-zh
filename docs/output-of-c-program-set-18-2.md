@@ -6,7 +6,7 @@
 
 **问题 1**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -33,7 +33,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 B::fun()
 ```
 
@@ -42,7 +42,7 @@ B::fun()
 
 **问题 2**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -60,7 +60,7 @@ int main() {
 
 输出:
 
-```
+```cpp
  Compiler Error
 ```
 

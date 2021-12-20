@@ -6,12 +6,12 @@
 
 1.  **double sqrt(double arg)**: It returns the square root of a number to type double
 
-    ```
+    ```cpp
     Syntax : double sqrt(double arg)
 
     ```
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of sqrt function.
     #include <cmath>
@@ -34,7 +34,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     15.000000000000
     17.320508075689
 
@@ -45,7 +45,7 @@
 
     1.  It is mandatory to give both the arguments otherwise it will give error no matching function for call to ‘sqrt()’ like this.
 
-        ```
+        ```cpp
         #include <iostream>
         #include <cmath>
         using namespace std;
@@ -64,14 +64,14 @@
 
         **输出:**
 
-        ```
+        ```cpp
         prog.cpp:9:16: error: no matching function for call to 'sqrt()'
 
         ```
 
     2.  If we pass a negative value in the argument domain error occurs. and the output will be the Square root of -a is -nan.
 
-        ```
+        ```cpp
         #include <iostream>
         #include <cmath>
         using namespace std;
@@ -90,19 +90,19 @@
 
         **输出:**
 
-        ```
+        ```cpp
         Square root of -2 is -nan
 
         ```
 
 *   **float sqrtf(float arg)** :返回一个数字的平方根，输入 float
 
-    ```
+    ```cpp
     Syntax : float sqrtf(float arg)
 
     ```
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of sqrtf function.
     #include <cmath>
@@ -125,7 +125,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     15.000000000000
     17.320508956909
 
@@ -133,7 +133,7 @@
 
     *   **long double sqrtl(long double arg)**: It returns the square root of a number to type long double with more precision. Advantage of using this function is that when working with integers of the order 10<sup>18</sup>, calculating its square root with **sqrt** function may give an incorrect answer due to precision errors as default functions in programming language works with floats/doubles. But this will always give an accurate answer.
 
-    ```
+    ```cpp
     Syntax : long double sqrtl(long double arg)
 
     ```
@@ -141,7 +141,7 @@
     下图显示了使用 sqrt 和 sqrtl 处理长整数时的确切区别。
     使用 **sqrt** 功能。
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the incorrectness of sqrt function.
     #include <cmath>
@@ -164,7 +164,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     1000000000.000000000000
     1000000000.000000000000
 
@@ -172,7 +172,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1000000000.000000000000
     1000000000.000000000000
 
@@ -180,7 +180,7 @@
 
     使用**SQL**功能
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the correctness of sqrtl function.
     #include <cmath>
@@ -203,7 +203,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     1000000000.000000000000
     999999999.999999999476
 

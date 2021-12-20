@@ -15,7 +15,7 @@
 
 **传统方式**
 
-```
+```cpp
 // Program to calculate factorial and
 // multiplication of two numbers.
 #include<bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2
 120
 makefile
@@ -68,7 +68,7 @@ makefile
 
 *   **文件名:main.cpp**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     // Note function.h which has all functions
@@ -91,7 +91,7 @@ makefile
 
 *   **文件名:print.cpp**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     // Definition of print function is
@@ -107,7 +107,7 @@ makefile
 
 *   **文件名:阶乘**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     // Definition of factorial function
@@ -126,7 +126,7 @@ makefile
 
 *   **文件名:乘法. cpp**
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     // Definition of multiply function 
@@ -142,7 +142,7 @@ makefile
 
 *   **文件名:functions.h**
 
-    ```
+    ```cpp
     #ifndef FUNCTIONS_H
     #define FUNCTIONS_H
 
@@ -155,7 +155,7 @@ makefile
 
 **编译和运行上述程序的命令:**
 
-```
+```cpp
 Open Terminal and type commands:
 g++ -c main.cpp
 g++ -c print.cpp

@@ -9,7 +9,7 @@
 注意下面的文本 C99 标准:
 *倒带功能将流指向的流的文件位置指示器设置到文件的开头。相当于*
 
-```
+```cpp
 (void)fseek(stream, 0L, SEEK_SET)
 ```
 
@@ -17,7 +17,7 @@
 
 下面的代码示例使用 rewind()将输入流的文件位置指示器设置回开头。但是没有办法检查倒带()是否成功。
 
-```
+```cpp
 int main()
 {
   FILE *fp = fopen("test.txt", "r");
@@ -38,7 +38,7 @@ int main()
 
 **在上面的代码中，可以用 fseek()代替 rewind()来查看操作是否成功。下面几行代码可以用来代替倒带(FP)；**
 
-```
+```cpp
 if ( fseek(fp, 0L, SEEK_SET) != 0 ) {
   /* Handle repositioning error */
 }

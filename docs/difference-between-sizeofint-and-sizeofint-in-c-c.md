@@ -27,7 +27,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the
 // sizeof operator
 #include <stdio.h>
@@ -51,7 +51,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to illustrate the
 // sizeof operator
 #include "bits/stdc++.h"
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of (int) = 4 bytes
 Size of (int*) = 8 bytes
 

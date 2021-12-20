@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 void fillpoly( int number, int *polypoints );
 
 where,
@@ -21,7 +21,7 @@ of (n*2) integers.
 
 示例:
 
-```
+```cpp
 Input : arr[] = {320, 150, 400, 250,
                  250, 350, 320, 150};
 Output : 
@@ -41,7 +41,7 @@ int arr[] = {320，150，400，250，250，350，320，150 }；
 
 下面是 fillpoly()函数的实现。
 
-```
+```cpp
 // C Implementation for fillpoly()
 #include <graphics.h>
 
@@ -85,7 +85,7 @@ int main()
 
 下面是使用 setfillstyle()填充多边形的程序。
 
-```
+```cpp
 // C Implementation for fillpoly()
 // using setfillstyle()
 #include <graphics.h>

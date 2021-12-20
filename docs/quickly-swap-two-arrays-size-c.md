@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : a[] = {1, 2, 3, 4}
         b[] = {5, 6, 7, 8}
 Output : a[] = {5, 6, 7, 8}
@@ -18,7 +18,7 @@ Output : a[] = {5, 6, 7, 8}
 
 一个快速的解决方案是使用 std::swap()。如果阵列大小相同，它可以直接交换阵列。
 
-```
+```cpp
 // Illustrating the use of swap function
 // to swap two arrays
 #include <iostream>
@@ -48,7 +48,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 a[] = 5, 6, 7, 8, 
 b[] = 1, 2, 3, 4,
 ```

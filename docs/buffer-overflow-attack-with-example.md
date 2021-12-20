@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate buffer overflow
 #include <stdio.h>
 #include <string.h>
@@ -49,11 +49,11 @@ int main(int argc, char *argv[])
 **在 Linux 中编译该程序，并使用命令 output_file INPUT**
 进行输出
 
-```
+```cpp
  Input  : 12345678 (8 bytes), the program run smoothly.
 ```
 
-```
+```cpp
  Input : 123456789 (9 bytes)
 "Segmentation fault" message will be displayed and the program terminates.
 ```

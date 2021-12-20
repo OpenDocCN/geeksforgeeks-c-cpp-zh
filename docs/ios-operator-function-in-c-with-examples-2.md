@@ -6,7 +6,7 @@ C++中 **ios 类**的**运算符()**方法用于设置该流的任何错误标�
 
 **语法:**
 
-```
+```cpp
 operator void*() const;
 
 ```
@@ -17,7 +17,7 @@ operator void*() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of operator() function
 
@@ -44,14 +44,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 No error bit is set.
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of operator() function
 
@@ -79,7 +79,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Error bit is set.
 
 ```

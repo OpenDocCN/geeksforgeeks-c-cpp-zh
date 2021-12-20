@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C program to copy the string using
 // strcpy function
 
@@ -45,6 +45,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 ```

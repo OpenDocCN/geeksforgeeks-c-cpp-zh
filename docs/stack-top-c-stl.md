@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 *stackname*.top()
 ```
 
@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```cpp
 Input  : stackname.push(5);
          stackname.push(1);
          stackname.top();
@@ -37,7 +37,7 @@ Output : 2
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of top() function
 #include <iostream>
@@ -59,14 +59,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2
 ```
 
 **应用:**
 给定一堆整数，求所有整数的和。
 
-```
+```cpp
 Input : 1, 8, 3, 6, 2
 Output: 20
 ```
@@ -79,7 +79,7 @@ Output: 20
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of top() function
 #include <iostream>
@@ -109,6 +109,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 20 
 ```

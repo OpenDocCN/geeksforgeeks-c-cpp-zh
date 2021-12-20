@@ -48,7 +48,7 @@ DFT 和 IDFT 的一般表达式如下。注意，k 的整数值是从 0 开始�
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <math.h>
 #include <stdio.h>
@@ -104,7 +104,7 @@ int main()
 
 **输入:**
 
-```
+```cpp
 >> Enter the length of the sequence: 4
 >> Enter the value of x[0]: 1
 >> Enter the value of x[1]: 4
@@ -130,7 +130,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <math.h>
@@ -186,7 +186,7 @@ int main()
 
 **输入:**
 
-```
+```cpp
 >> Enter the length of the sequence: 4
 >> Enter the real and imaginary bits of X(0): 30 0
 >> Enter the real and imaginary bits of X(1): -8 -11

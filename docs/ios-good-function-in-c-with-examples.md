@@ -6,7 +6,7 @@ C++中 **ios 类**的 **good()** 方法用来检查流是否足够好可以工�
 
 **语法:**
 
-```
+```cpp
 bool good() const;
 
 ```
@@ -17,7 +17,7 @@ bool good() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of good() function
 
@@ -43,14 +43,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream good: 1
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of good() function
 
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 is stream good: 0
 
 ```

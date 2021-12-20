@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate array decay
 #include<iostream>
 using namespace std;
@@ -52,7 +52,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Actual size of array is: 28
 Modified size of array by passing by value: 8
 Modified size of array by passing by pointer: 8
@@ -65,7 +65,7 @@ Modified size of array by passing by pointer: 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate prevention of
 // decay of array
 #include<iostream>
@@ -98,7 +98,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Actual size of array is: 28
 Modified size of array by passing by reference: 28
 ```

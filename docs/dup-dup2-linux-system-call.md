@@ -12,13 +12,13 @@ dup()系统调用创建文件描述符的副本。
 
 **语法:**
 
-```
+```cpp
 int dup(int oldfd);
 oldfd: old file descriptor whose copy is to be created.
 
 ```
 
-```
+```cpp
 // CPP program to illustrate dup() 
 #include<stdio.h>
 #include <unistd.h>
@@ -65,7 +65,7 @@ int main()
 dup2()系统调用与 dup()类似，但它们之间的基本区别在于，它使用的不是编号最低的未使用文件描述符，而是用户指定的描述符编号。
 **语法:**
 
-```
+```cpp
 int dup2(int oldfd, int newfd);
 oldfd: old file descriptor
 newfd new file descriptor which is used by dup2() to create a copy.
@@ -81,7 +81,7 @@ newfd new file descriptor which is used by dup2() to create a copy.
 
  **dup2()系统调用的一个巧妙用法:**和在 dup2()中一样，任何文件描述符都可以代替 newfd。下面是一个 C 实现，其中使用了标准输出的文件描述符。这将导致所有 printf()语句被写入旧文件描述符引用的文件中。
 
-```
+```cpp
 // CPP program to illustrate dup2() 
 #include<stdlib.h>
 #include<unistd.h>

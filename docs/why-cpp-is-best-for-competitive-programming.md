@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // use of min() function
 
@@ -33,7 +33,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 12.123
 ```
 
@@ -45,7 +45,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to measure execution
 // time using clock() function
 
@@ -96,7 +96,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Time taken by program is: 0.000001 sec
 ```
 
@@ -112,7 +112,7 @@ Time taken by program is: 0.000001 sec
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate template
 #include <iostream>
 using namespace std;
@@ -137,7 +137,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 3
 a
 ```
@@ -150,7 +150,7 @@ a
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate snippets
 #include <bits/stdc++.h>
 using namespace std;
@@ -183,6 +183,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Write your code here
 ```

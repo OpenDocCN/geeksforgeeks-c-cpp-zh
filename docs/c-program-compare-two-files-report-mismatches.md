@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input :
 file1.txt contains
 it is
@@ -29,7 +29,7 @@ Total Errors : 1
 3。>如果变量遇到新行，则增加行号并将位置重置为零。
 4。>如果变量不相等，则增加误差数，打印误差线和误差指数。
 
-```
+```cpp
 // C program to compare two files and report
 // mismatches by displaying line number and
 // position of line.
@@ -104,7 +104,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Line Number : 2         Error Position : 1
 Total Errors : 1
 

@@ -6,7 +6,7 @@ strcpy()是 C/C++中的标准库函数，用于将一个字符串复制到另一
 
 **语法:**
 
-```
+```cpp
 char* strcpy(char* dest, const char* src);
 ```
 
@@ -21,7 +21,7 @@ char* strcpy(char* dest, const char* src);
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // strcpy() function ic C/C++
 #include <iostream>
@@ -48,7 +48,7 @@ int main ()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // strcpy() function ic C/C++
 #include<stdio.h>
@@ -73,7 +73,7 @@ int main ()
 
 **输出:**
 
-```
+```cpp
 str1: Hello Geeks!
 str2: Hello Geeks!
 str3: Copy successful

@@ -4,7 +4,7 @@
 
 如何在 c 语言中不使用任何分号打印从 1 到 N 的数字？
 
-```
+```cpp
 #include<stdio.h>
 #define N 100
 
@@ -18,7 +18,7 @@
 
 **方法 1(递归)**
 
-```
+```cpp
 // A recursive C program to print all numbers from 1
 // to N without semicolon
 #include<stdio.h>
@@ -34,7 +34,7 @@ int main(int num)
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 
 ```
 
@@ -42,7 +42,7 @@ int main(int num)
 
 **方法 2(迭代)**
 
-```
+```cpp
 // An iterative C program to print all numbers from 1
 // to N without semicoolon
 #include<stdio.h>
@@ -58,7 +58,7 @@ while (num <= N && printf("%d ", num) && num++) 
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 
 ```
 
@@ -67,7 +67,7 @@ while (num <= N && printf("%d ", num) && num++) 
 **这些解决方案是如何工作的？**
 main()函数可以接收参数。第一个参数是参数计数，如果没有参数传递给它，它的值是 1。第一个参数总是程序名。
 
-```
+```cpp
 #include<stdio.h>
 
 int main(int num, char *argv[])
@@ -79,7 +79,7 @@ int main(int num, char *argv[])
 
 输出:
 
-```
+```cpp
 num = 1 
 argv[0] = <file_name>
 ```

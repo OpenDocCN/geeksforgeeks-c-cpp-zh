@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: set = [10 20 30 40 50 60 70 80 90],
               start_iterator = 3,
               end_iterator = 8
@@ -25,7 +25,7 @@ Output: 3 4 5
 
 **语法:**
 
-```
+```cpp
 iterator erase (const_iterator startPositionIterator_exclusive, 
                 const_iterator endingPositionIterator_inclusive);
 
@@ -35,7 +35,7 @@ iterator erase (const_iterator startPositionIterator_exclusive,
 
 **程序:**
 
-```
+```cpp
 // C++ program to delete an element
 // of a Set by passing its value
 
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Set originally:  10 20 30 40 50 60 70 80 90
 Set after deletion of range from 3rd till 2nd last:  10 20 80 90
 

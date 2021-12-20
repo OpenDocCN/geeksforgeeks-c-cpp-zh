@@ -56,7 +56,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the Lamport's
 // Logical Clock
 
@@ -182,7 +182,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate the Lamport's
 // Logical Clock
 #include <stdio.h>
@@ -306,7 +306,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to illustrate the Lamport's
 # Logical Clock
 
@@ -417,7 +417,7 @@ if __name__ == "__main__" :
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // JavaScript program to illustrate the Lamport's
     // Logical Clock
@@ -525,7 +525,7 @@ if __name__ == "__main__" :
 
 **Output**
 
-```
+```cpp
         e21    e22    e23
  e11    0    0    0    
  e12    0    0    1    

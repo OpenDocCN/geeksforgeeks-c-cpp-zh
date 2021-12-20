@@ -8,7 +8,7 @@
 
 **示例代码在 C 和 C++中都有效，但编译时给出不同的答案:**
 
-```
+```cpp
 // C code that is valid in both
 // C and C++ but produce different
 // behavior when compiled.
@@ -42,13 +42,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 4
 ```
 
 **c++中的代码**
 
-```
+```cpp
 // C++ code that is valid in both
 // C and C++ but produce different
 // behavior when compiled.
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 8
 ```
 

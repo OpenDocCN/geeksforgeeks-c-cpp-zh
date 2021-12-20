@@ -15,7 +15,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // Queue in Standard Template Library (STL)
 #include <iostream>
@@ -59,7 +59,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The queue gquiz is :     10    20    30
 
 gquiz.size() : 3

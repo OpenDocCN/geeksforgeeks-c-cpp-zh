@@ -6,7 +6,7 @@ C++中 **ios 类**的 **setstate()** 方法用于通过设置作为参数传递�
 
 **语法:**
 
-```
+```cpp
 void setstate(iostate state)
 
 ```
@@ -17,7 +17,7 @@ void setstate(iostate state)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setstate() function
 
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 current stream: 0
 updated stream: 0
 
@@ -55,7 +55,7 @@ updated stream: 0
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setstate() function
 
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 current stream: 0
 updated stream: 4
 

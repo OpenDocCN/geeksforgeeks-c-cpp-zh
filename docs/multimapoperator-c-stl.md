@@ -6,7 +6,7 @@ multimap::operator=用于通过替换现有内容向容器分配新内容。它�
 
 语法:-
 
-```
+```cpp
 multimap1 = (multimap2)
 
 Parameters :
@@ -21,7 +21,7 @@ side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  multimap1 = { ('a', 1), ('b', 2), ('c', 3)}
           multimap2 = { ('d', 4), ('e', 5), ('f', 6)}
           multimap1 = multimap2;
@@ -45,7 +45,7 @@ fde 6
 1.如果容器的类型不同，则会引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP Program to illustrate working of
 // multimap::operator= 
 #include <iostream>
@@ -83,7 +83,7 @@ int main()
 
 **输出:-**
 
-```
+```cpp
 MultiMap 1 data
 d 4
 e 5

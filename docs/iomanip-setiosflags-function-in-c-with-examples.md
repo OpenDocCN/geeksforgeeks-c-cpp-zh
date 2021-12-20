@@ -5,7 +5,7 @@
 C++中 **iomanip 库**的 setiosflags **()** 方法用于设置指定为该方法参数的 ios 库格式标志。
 **语法:**
 
-```
+```cpp
 setiosflags (ios_base::format_flag)
 ```
 
@@ -15,7 +15,7 @@ setiosflags (ios_base::format_flag)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setiosflags() function
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Setting showbase flag using setiosflags: 
 0x32
 ```
@@ -53,7 +53,7 @@ Setting showbase flag using setiosflags:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setiosflags() function
 
@@ -84,7 +84,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Setting showbase and uppercase flag using setiosflags: 
 0X32
 ```

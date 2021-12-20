@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class Base, class Derived>
 struct is_base_of;
 
@@ -21,7 +21,7 @@ struct is_base_of;
 
 **语法:**
 
-```
+```cpp
 std::is_base_of<A, B>::value
 
 ```
@@ -40,7 +40,7 @@ std::is_base_of<A, B>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate the
 // std::is_base_of templates
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 A is base class of B: true
 B is base class of A: false
 C is base class of B: false

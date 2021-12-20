@@ -7,7 +7,7 @@
 **先决条件–**[引入 fork](https://www.geeksforgeeks.org/fork-system-call/) 、 [getpid()和 getppid()](https://www.geeksforgeeks.org/getppid-getpid-linux)
 **问题陈述–**编写一个程序，使用 [fork()](https://www.geeksforgeeks.org/fork-system-call/) 函数创建一个有三个子进程的父进程，每个进程在其中找到自己的 id。例如:
 
-```
+```cpp
 Output :parent
 28808 28809 
  my id is 28807 
@@ -33,7 +33,7 @@ third child
 
 **代码 1–**使用`getpid()`
 
-```
+```cpp
 // C++ program to demonstrate creating processes using fork()
 #include <unistd.h>
 #include <stdio.h>
@@ -76,7 +76,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 parent
 28808 28809 
  my id is 28807 
@@ -93,7 +93,7 @@ third child
 
 **代码 2–**使用`getppid()`
 
-```
+```cpp
 // C++ program to demonstrate creating processes using fork()
 #include <unistd.h>
 #include <stdio.h>
@@ -142,7 +142,7 @@ int main()
 
 **输出–**
 
-```
+```cpp
 parent
 5219 5220 
  my id is 5217 

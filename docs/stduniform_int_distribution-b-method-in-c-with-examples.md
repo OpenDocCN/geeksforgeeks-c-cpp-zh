@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 result_type b() const;
 
 ```
@@ -17,7 +17,7 @@ result_type b() const;
 
 **例:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of b() function
 
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Upper Bound: 100
 
 ```

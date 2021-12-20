@@ -6,7 +6,7 @@
 
 这个问题可能看起来很傻，既不古怪。参见下面这段代码来交换两个整数([异或交换](http://en.wikipedia.org/wiki/XOR_swap_algorithm))，
 
-```
+```cpp
 void myswap(int *x, int *y)
 {
    if (x != y)

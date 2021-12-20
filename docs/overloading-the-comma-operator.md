@@ -46,7 +46,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // overloading the comma operator
 #include <iostream>
@@ -132,7 +132,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x=10 y=20 x=5 y=30 x=1 y=1 
 x=10 y=20
 x=1 y=1
@@ -150,7 +150,7 @@ x=1 y=1
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // overloading for comma operator
 
@@ -249,7 +249,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x = 2
 y = 4
 z = 6

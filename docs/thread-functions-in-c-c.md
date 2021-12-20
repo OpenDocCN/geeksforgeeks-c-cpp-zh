@@ -8,7 +8,7 @@
 
 我们必须在脚本的开头包含 pthread.h 头文件，才能使用 pthreads 库的所有功能。要执行 c 文件，我们必须在编译文件时在命令行中使用-pthread 或-lpthread。
 
-```
+```cpp
 cc -pthread file.c or
 cc -lpthread file.c
 
@@ -20,7 +20,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     int pthread_create(pthread_t * thread, 
                        const pthread_attr_t * attr, 
                        void * (*start_routine)(void *), 
@@ -38,7 +38,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     void pthread_exit(void *retval);
 
     ```
@@ -49,7 +49,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     int pthread_join(pthread_t th, 
                      void **thread_return);
 
@@ -63,7 +63,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     pthread_t pthread_self(void);
 
     ```
@@ -72,7 +72,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     int pthread_equal(pthread_t t1, 
                       pthread_t t2);
 
@@ -86,7 +86,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     int pthread_cancel(pthread_t thread);
 
     ```
@@ -97,7 +97,7 @@ cc -lpthread file.c
 
     **语法:**
 
-    ```
+    ```cpp
     int pthread_detach(pthread_t thread);
 
     ```
@@ -106,7 +106,7 @@ cc -lpthread file.c
 
 **示例:**线程的简单实现可能如下:
 
-```
+```cpp
 // C program to show thread functions
 
 #include <pthread.h>
@@ -163,7 +163,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This line may be printed before thread terminates
 Threads are not equal
 Inside the thread

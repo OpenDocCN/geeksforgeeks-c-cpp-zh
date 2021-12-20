@@ -5,7 +5,7 @@
 **无序 _map::empty()** 功能用于检查容器大小是否为零。如果容器大小为零，则返回真，否则返回假。
 **语法:**
 
-```
+```cpp
  unordered_map_name.empty()
 
 ```
@@ -23,7 +23,7 @@
 > UMP . empty()；
 > **输出:**真
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of unordered_map empty() function
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 ump1 size = 4
 ump2 size = 0
 False

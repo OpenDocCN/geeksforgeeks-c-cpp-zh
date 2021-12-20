@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate functionality of unordered_map
 #include <iostream>
 #include <unordered_map>
@@ -37,7 +37,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Contribute 30
 GeeksforGeeks 10
 Practice 20

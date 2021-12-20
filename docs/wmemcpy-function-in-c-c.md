@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t* wmemcpy( wchar_t* destination, const wchar_t* source, size_t n )
 ```
 
@@ -24,7 +24,7 @@ wchar_t* wmemcpy( wchar_t* destination, const wchar_t* source, size_t n )
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wmemcpy() function
 
@@ -59,7 +59,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial string -> geeks are for geeks
 Final string -> geeks are for
 ```
@@ -68,7 +68,7 @@ Final string -> geeks are for
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wmemcpy() function
 // when 'n' is equal to the number of
@@ -104,7 +104,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial string -> GFG
 Final string -> GFG
 ```

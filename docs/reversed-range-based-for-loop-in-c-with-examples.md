@@ -8,14 +8,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <boost/range/adaptor/reversed.hpp> 
 
 ```
 
 **语法:**
 
-```
+```cpp
 for (auto i : boost::adaptors::reverse(x))
 
 ```
@@ -30,7 +30,7 @@ for (auto i : boost::adaptors::reverse(x))
 
 ## CPP14
 
-```
+```cpp
 // C++ program for reverse
 // range-based for loop
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 s k e e g r o f s k e e g 
 8 7 6 5 4 3 2 1 
 8 7 6 5 4 3 2 1

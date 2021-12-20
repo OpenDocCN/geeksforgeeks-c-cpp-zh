@@ -28,7 +28,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the use of std::search
 
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 vector2 is present at index 2
 ```
 
@@ -80,7 +80,7 @@ vector2 is present at index 2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the use of std::search
 // with binary predicate
 #include <iostream>
@@ -131,7 +131,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 vector1 elements are greater than vector2 starting from position 3
 ```
 

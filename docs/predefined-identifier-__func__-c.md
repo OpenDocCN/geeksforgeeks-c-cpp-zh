@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -28,7 +28,7 @@ c 语言标准(即 C99 和 C11)在第 6.4.2.2 条中定义了预定义的标识�
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void foo(void)
 {
@@ -51,7 +51,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int __func__ = 10;
@@ -70,7 +70,7 @@ int  main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()

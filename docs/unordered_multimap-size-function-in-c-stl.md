@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.size()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::size()
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of Sample1 is: 2
 Key and Elements of Sample1 are:{50, 500} {10, 100} 
 
@@ -72,7 +72,7 @@ Key and Elements of Sample2 are:{20, 200} {30, 150} {30, 300}
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::size()
 #include <bits/stdc++.h>
@@ -115,7 +115,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of Sample1 is: 2
 Key and Elements of Sample1 are:{g, G} {a, A} 
 

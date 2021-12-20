@@ -4,7 +4,7 @@
 
 “条件”应该是什么，以便下面的代码片段打印两个 HelloWorld！
 
-```
+```cpp
       if  "condition"
           printf ("Hello");
       else
@@ -14,7 +14,7 @@
 
 **方法 1:**
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

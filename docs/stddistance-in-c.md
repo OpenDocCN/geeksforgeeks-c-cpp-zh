@@ -6,7 +6,7 @@
 它有一个重要的特点，就像我们在科学中有矢量一样，既有大小也有方向，std::distance 也有与之相关的方向。这意味着计算第一个和最后一个之间的距离，然后计算最后一个和第一个之间的距离将不会相同，因为在第二种情况下，它将有一个负号与之相关联，因为我们正在向后移动。
 **语法:**
 
-```
+```cpp
 std::distance(InputIterator first, InputIterator last)
 Here, first and last are input iterators between which we have to calculate distance.
 
@@ -15,7 +15,7 @@ Returns: The number of elements between first and last.
 
 **例:**
 
-```
+```cpp
 Input: v = 10 20 30 40 50
 first pointing to v.begin() and last pointing to v.end()
 Output: No. of elements: 5
@@ -23,7 +23,7 @@ Output: No. of elements: 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate std::distance()
 #include <iostream>
 #include <vector>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 ```
 
@@ -73,7 +73,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the use of std::distance
 // with reverse order
 #include <iostream>
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 -10
 ```

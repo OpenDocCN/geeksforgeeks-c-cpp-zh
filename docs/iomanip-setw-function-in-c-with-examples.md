@@ -6,7 +6,7 @@ C++中 **iomanip 库**的 **setw()** 方法用于根据指定为该方法参数�
 
 **语法:**
 
-```
+```cpp
 setw(int n)
 ```
 
@@ -17,7 +17,7 @@ setw(int n)
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setw() function
 
@@ -49,7 +49,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before setting the width: 
 50
 Setting the width using setw to 5: 
@@ -60,7 +60,7 @@ Setting the width using setw to 5:
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setw() function
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before setting the width: 
 50
 Setting the width using setw to 10: 

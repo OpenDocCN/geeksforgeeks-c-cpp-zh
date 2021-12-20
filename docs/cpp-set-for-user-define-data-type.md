@@ -9,7 +9,7 @@
 
 示例:
 
-```
+```cpp
 Input  : 110 102 101 115
 Output : 101 102 110 115
 
@@ -18,13 +18,13 @@ Output : 101 102 110 115
 **解释:**
 这里我们向集合中插入一个随机列表，当我们输出集合时，列表会根据我们所做的比较函数按升序排序。
 
-```
+```cpp
 Input  : 3  2  34   0 76 
 Output : 0  2   3  34 76
 
 ```
 
-```
+```cpp
 // CPP implementation to use 
 // user-defined data type in
 // structures
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 101
 102
 110

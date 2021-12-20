@@ -8,7 +8,7 @@
 
 **Linux OS:**
 
-```
+```cpp
 // C program to shutdown in Linux
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,7 +28,7 @@ int main()
 
 我们将从< stdlib.h >开始利用 system()在一个 C 程序的帮助下执行一个系统操作。要执行上述任何系统操作，我们将编码为:
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -41,7 +41,7 @@ int main()
 
 系统功能的论点是通往操作系统的路径，而 I/o 是我们可用的大量选项中的一个实体。要查看选项，我们运行 cmd 并键入:
 
-```
+```cpp
 C:\Users\User>shutdown
 
 ```
@@ -52,19 +52,19 @@ C:\Users\User>shutdown
 
 **关机**
 
-```
+```cpp
 system("c:\\windows\\system32\\shutdown /s");
 ```
 
 **重启**
 
-```
+```cpp
 system("c:\\windows\\system32\\shutdown /r");
 ```
 
 注销
 
-```
+```cpp
 system("c:\\windows\\system32\\shutdown /l");
 ```
 

@@ -9,14 +9,14 @@
 *   它可以在基类和派生类中完成。
 *   **例:**
 
-```
+```cpp
 void area(int a);
 void area(int a, int b); 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Function Overloading
 #include <iostream>
@@ -64,7 +64,7 @@ void test(int var1, float var2)
 
 输出:
 
-```
+```cpp
 Integer number: 5
 Float number: 5.5
 Integer number: 5 and float number: 5.5
@@ -76,7 +76,7 @@ Integer number: 5 and float number: 5.5
 *   只能在派生类中完成。
 *   **示例:**
 
-```
+```cpp
 Class a
 {
 public: 
@@ -92,7 +92,7 @@ public:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Function Overriding
 #include<iostream>
@@ -137,7 +137,7 @@ int main()
 
 输出:
 
-```
+```cpp
 This is Display() method of DerivedClass
 This is Show() method of BaseClass
 ```

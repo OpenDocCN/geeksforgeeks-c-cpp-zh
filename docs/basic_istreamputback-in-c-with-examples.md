@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 basic_istream& putback (char_type ch);
 
 ```
@@ -28,7 +28,7 @@ basic_istream& putback (char_type ch);
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for basic_istream::putback()
 #include <bits/stdc++.h>
 
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 AeeksforGeeks
 putback is failed here
 GeeksforGeeks
@@ -70,7 +70,7 @@ GeeksforGeeks
 
 **程序二:**
 
-```
+```cpp
 // C++ code for basic_istream::putback()
 #include <bits/stdc++.h>
 
@@ -103,7 +103,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 BOOD
 putback is failed here
 GOOD

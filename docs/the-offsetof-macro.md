@@ -8,7 +8,7 @@
 
 通常我们把结构和联合类型(或者带有琐碎构造函数的*类*)称为*普通旧数据* (POD)类型，这些类型将用于*聚合其他数据类型*。以下非标准宏可用于从结构变量的基址获取元素的字节位移。
 
-```
+```cpp
 #define OFFSETOF(TYPE, ELEMENT) ((size_t)&(((TYPE *)0)->ELEMENT))
 ```
 
@@ -16,7 +16,7 @@
 
 例如，以下代码返回 16 个字节(32 位机器上考虑填充)作为结构 Pod 中字符变量 *c* 的位移。
 
-```
+```cpp
 #include <stdio.h>
 
 #define OFFSETOF(TYPE, ELEMENT) ((size_t)&(((TYPE *)0)->ELEMENT))
@@ -39,13 +39,13 @@ int main()
 
 在上面的代码中，下面的表达式将返回元素 *c* 在结构 *PodType* 中的位移。
 
-```
+```cpp
 OFFSETOF(PodType, c);
 ```
 
 预处理阶段后，上述宏扩展到
 
-```
+```cpp
 ((size_t)&(((PodType *)0)->c))
 ```
 

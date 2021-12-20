@@ -4,7 +4,7 @@
 
 以下程序的输出？
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -57,7 +57,7 @@ x = 0
 
 **答案:**
 
-```
+```cpp
   int *ptr;  /* Note: the use of * here is not for dereferencing, 
                it is for data type int */
   int x;

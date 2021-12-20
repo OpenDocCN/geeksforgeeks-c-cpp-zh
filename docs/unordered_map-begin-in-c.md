@@ -6,7 +6,7 @@
 
 *   **无序 _ 映射容器中第一个元素的语法:**
 
-```
+```cpp
 *unordered_map*.begin()
 ```
 
@@ -17,7 +17,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // unordered_map::begin() function
 // when first element of the container
@@ -49,13 +49,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 France Paris
 ```
 
 *   **无序 _ 映射桶中第一个元素的语法:**
 
-```
+```cpp
 *unordered_map*.begin( n )
 ```
 
@@ -65,7 +65,7 @@ France Paris
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // unordered_map::begin() function
 // when first element of n-th container
@@ -96,6 +96,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 U.S. Washington
 ```

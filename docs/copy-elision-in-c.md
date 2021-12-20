@@ -4,7 +4,7 @@
 
 [复制省略](http://en.wikipedia.org/wiki/Copy_elision)(或 Copy 省略)是一种编译器优化技术，可以避免不必要的对象复制。如今，几乎每个编译器都在使用它。让我们借助一个例子来理解它。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ int main()
 
 上述程序的输出为:
 
-```
+```cpp
 Constructor called
 
 ```
@@ -39,19 +39,19 @@ Constructor called
 ***为什么不调用复制构造函数？***
 根据理论，在构造对象“ob”时，使用一个自变量构造器将“copy me”转换为临时对象&即临时对象被复制到对象“ob”。所以声明
 
-```
+```cpp
      B ob = "copy me"; 
 ```
 
 应该被编译器分解为
 
-```
+```cpp
      B ob = B("copy me");
 ```
 
 然而，大多数 C++编译器避免了创建临时对象然后复制它的开销。
 
-```
+```cpp
 The modern compilers break down the statement
     B ob = "copy me"; //copy initialization
 as
@@ -62,7 +62,7 @@ and thus eliding call to copy constructor.
 
 但是，如果我们仍然希望确保编译器不省略对复制构造函数的调用[禁用复制省略]，我们可以使用 g++的“-fno-elide-constructors”选项编译程序，并看到如下输出:
 
-```
+```cpp
   aashish@aashish-ThinkPad-SL400:~$ g++ copy_elision.cpp -fno-elide-constructors
   aashish@aashish-ThinkPad-SL400:~$ ./a.out
   Constructor called

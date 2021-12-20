@@ -38,7 +38,7 @@
 
 ## C++
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -61,7 +61,7 @@ int main(void) {  
 
 **输出:**
 
-```
+```cpp
 In Derived
 ```
 

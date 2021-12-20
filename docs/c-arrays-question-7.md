@@ -4,7 +4,7 @@
 
 考虑以下 C 语言中“二维数组”的声明:
 
-```
+```cpp
 char a[100][100]; 
 ```
 
@@ -19,13 +19,13 @@ char a[100][100]; 
 
 **说明:**
 
-```
+```cpp
 Address of a[40][50] = Base address + 40*100*element_size + 50*element_size
                       = 0 + 4000*1 + 50*1
                      = 4050
 ```
 
-```
+```cpp
 Based on row major or column major
 if row major then the result will be 4050
 if column major then 

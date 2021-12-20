@@ -103,7 +103,7 @@ OpenCV 支持灰度(8 位)图像的 5 种不同阈值方案，使用功能:
  **要编译 OpenCV 程序，需要在系统上安装 OpenCV 库。在接下来的几天里，我会发布一个简单的教程。
 如果你已经安装了 OpenCV，用你选择的输入图像运行下面的代码。**
 
-```
+```cpp
 // CPP program to demonstrate segmentation
 // thresholding.
 #include <opencv2/highgui/highgui.hpp>

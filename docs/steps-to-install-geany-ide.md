@@ -86,7 +86,7 @@ Geany 是一个轻量级、高性能的[集成开发环境](https://www.geeksfor
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <bits/stdc++.h>
@@ -105,7 +105,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello world!
 Geany is successfully installed and integrated with its pal TDM-GCC.
 ```

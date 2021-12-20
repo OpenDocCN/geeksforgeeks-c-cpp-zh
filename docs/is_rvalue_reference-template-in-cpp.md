@@ -6,7 +6,7 @@ C++ STL 的 **std::is_rvalue_reference 模板**用于检查类型是否为 rvalu
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_rvalue_reference;
 ```
 
@@ -21,7 +21,7 @@ template <class T > struct is_rvalue_reference;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_rvalue_reference template
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_rvalue_reference: 
 gfg: false
 gfg&: false
@@ -65,7 +65,7 @@ gfg&&: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_rvalue_reference template
 
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_rvalue_reference: 
 int: false
 int&: false
@@ -118,7 +118,7 @@ char&&: true
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_rvalue_reference template
 
@@ -157,7 +157,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_rvalue_reference: 
 float: false
 float&: false

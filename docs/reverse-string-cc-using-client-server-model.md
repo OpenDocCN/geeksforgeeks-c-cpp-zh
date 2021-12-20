@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```cpp
 Input : welcome
 Output :emoclew
 
@@ -23,14 +23,14 @@ Output :skeeg rof skeeg
 **编译:**
 1。首先以如下方式运行服务器程序
 
-```
+```cpp
 gcc Server.c -o server
 
 ```
 
 2.在另一个终端上运行客户端程序
 
-```
+```cpp
 gcc Client.c -o client
 
 ```
@@ -44,7 +44,7 @@ gcc Client.c -o client
 
 ## C
 
-```
+```cpp
 // C client code to send string to reverse
 #include <arpa/inet.h>
 #include <netinet/in.h>
@@ -118,7 +118,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Server C code to reverse a
 // string by sent from client
 #include <netinet/in.h>

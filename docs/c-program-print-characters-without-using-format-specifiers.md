@@ -5,7 +5,7 @@
 众所周知，C 语言中有各种 [**格式说明符**](https://www.geeksforgeeks.org/data-types-in-c/) 如%d、%f、%c 等，帮助我们打印字符或其他数据类型。我们通常使用这些说明符和 **printf()** 函数来打印任何变量。但是也有一种方法可以在不使用%c 格式说明符的情况下打印字符。这可以通过使用下面显示的方法获取任何特定字符的任何 ASCII 码的字符值来获得。
 示例:
 
-```
+```cpp
 // Prints characters without format specifiers
 #include <stdio.h>
 
@@ -22,7 +22,7 @@ int main()
 
 输出:
 
-```
+```cpp
 G 
 E 
 E 

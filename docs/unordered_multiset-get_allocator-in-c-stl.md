@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 allocator_type get_allocator() const;
 ```
 
@@ -20,7 +20,7 @@ allocator_type get_allocator() const;
 
 **程序:**
 
-```
+```cpp
 // c++ program to understand 'unordered_multiset_get_allocator'
 #include <iostream>
 #include <unordered_set>
@@ -48,7 +48,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 allocator is : true
 
 ```

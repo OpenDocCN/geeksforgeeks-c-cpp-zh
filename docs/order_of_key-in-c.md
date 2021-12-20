@@ -32,7 +32,7 @@ order_of_key()是[有序集](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbd
 
 下面的程序说明了 order_of_key()的实现:
 
-```
+```cpp
 // CPP program to illustrate order_of_key()
 // for policy based data structures
 
@@ -78,7 +78,7 @@ int main() 
 
 **Output:**
 
-```
+```cpp
 Count of elements less than 6::3
 Count of elements less than 7 ::4
 

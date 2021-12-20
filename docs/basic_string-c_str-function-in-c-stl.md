@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 const CharT* c_str() const
 
 ```
@@ -19,7 +19,7 @@ const CharT* c_str() const
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for illustration of
 // basic_string::c_str function
 #include <bits/stdc++.h>
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 s1.size is equal to strlen(s1.c_str()) 
 GeeksForGeeks 
 
@@ -55,7 +55,7 @@ GeeksForGeeks
 
 **程序 2:**
 
-```
+```cpp
 // C++ code for illustration of
 // basic_string::c_str function
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The 1th character of string Aditya is A
 The 2th character of string Aditya is d
 The 3th character of string Aditya is i

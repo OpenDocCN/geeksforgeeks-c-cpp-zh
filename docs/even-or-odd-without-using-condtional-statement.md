@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -28,7 +28,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 import java.util.Scanner;
 class GFG
 {
@@ -51,7 +51,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 arr = ["Even", "Odd"]
 print ("Enter the number")
 no = int(input())
@@ -60,7 +60,7 @@ print (arr[no % 2])
 
 ## C#
 
-```
+```cpp
 using System;
 class GFG {
   static void Main() {
@@ -81,7 +81,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 $arr = ["Even", "Odd"];
 $input = 5;
@@ -94,7 +94,7 @@ echo ($arr[$input % 2]);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
     let arr = ["Even", "Odd"];
@@ -112,7 +112,7 @@ echo ($arr[$input % 2]);
 
 ## C++
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -126,6 +126,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Enter a no: even
 ```

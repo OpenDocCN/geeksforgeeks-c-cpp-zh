@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 Input:
 hello      how
     are       
@@ -35,7 +35,7 @@ WelcometoGeeksforGeeks
 
 以下是实施方案:
 
-```
+```cpp
 /*Lex program to take input from file and 
 remove multiple spaces, newline and tab
 and write output in a separate file*/

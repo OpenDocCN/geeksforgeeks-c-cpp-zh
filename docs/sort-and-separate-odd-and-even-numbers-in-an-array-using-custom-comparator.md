@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for the above approach
 import java.util.*;
 
@@ -123,7 +123,7 @@ public static void main(String[] args)
 
 ## C#
 
-```
+```cpp
 // C# program for the above approach
 using System;
 using System.Collections;
@@ -182,7 +182,7 @@ public static void Main(String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program for the above approach
 
@@ -223,7 +223,7 @@ seperateOddEven(arr, N);
 
 **Output**
 
-```
+```cpp
 2 4 6 12 7 9 13 15 
 ```
 

@@ -9,7 +9,7 @@
 该函数用于将新的元素插入到转发列表容器中，新的元素被添加到转发列表的开头。
 **语法:**
 
-```
+```cpp
 *forwardlistname*.emplace_front(*value*)
 Parameters :
 The element to be inserted into the forward list
@@ -22,7 +22,7 @@ forward list at the beginning.
 
 示例:
 
-```
+```cpp
 Input  : myflist{1, 2, 3, 4, 5};
          myflist.emplace_front(6);
 Output : myflist = 6, 1, 2, 3, 4, 5
@@ -37,7 +37,7 @@ Output : myflist = 4
 1。它有很强的异常保证，因此，如果抛出异常，不会进行任何更改。
 2。参数应该与容器的类型相同，否则会引发错误。
 
-```
+```cpp
 // INTEGER FORWARD LIST EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -65,12 +65,12 @@ int main() {
 
 输出:
 
-```
+```cpp
 6 5 4 3 2 1
 
 ```
 
-```
+```cpp
 // STRING FORWARD LIST EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -96,12 +96,12 @@ int main() {
 
 输出:
 
-```
+```cpp
 This is Geeksforgeeks
 
 ```
 
-```
+```cpp
 // CHARACTER FORWARD LIST EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -128,7 +128,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 a b x y z
 
 ```
@@ -137,12 +137,12 @@ a b x y z
 
 **应用:**使用侵位 _front()函数输入一个空的前向列表，并对给定的前向列表进行排序。
 
-```
+```cpp
 Input :  7, 89, 45, 6, 24, 58, 43
 Output : 6, 7, 24, 43, 45, 58, 89
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // application Of emplace_front() function
 #include <forward_list>
@@ -172,7 +172,7 @@ int main() {
 
 输出
 
-```
+```cpp
 6 7 24 43 45 58 89
 
 ```

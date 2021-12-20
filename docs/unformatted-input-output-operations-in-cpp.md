@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // input and output of the data
 // entered by user
@@ -75,7 +75,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // input and output of data using
 // get() and puts()
@@ -132,7 +132,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // input and output of file using
 // getline() and write() function

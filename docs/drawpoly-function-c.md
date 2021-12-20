@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 void drawpoly( int number, int *polypoints );
 
 where,
@@ -21,7 +21,7 @@ of (n*2) integers.
 
 **示例:**
 
-```
+```cpp
 Input : arr[] = {320, 150, 400, 250, 
                 250, 350, 320, 150};
 Output : 
@@ -41,7 +41,7 @@ int arr[] = {320，150，400，250，250，350，320，150 }；
 
 下面是 drawpoly()函数的实现。
 
-```
+```cpp
 // C Implementation for drawpoly()
 #include <graphics.h>
 

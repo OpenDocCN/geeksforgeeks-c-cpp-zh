@@ -6,14 +6,14 @@
 PS 指向的状态可以通过调用:
 设置为初始状态
 
-```
+```cpp
 // ps points now to a zero-valued object
 memset (ps, 0, sizeof(*ps));
 ```
 
 **语法:**
 
-```
+```cpp
 int mbsinit( const mbstate_t* ps)
 ```
 
@@ -31,7 +31,7 @@ int mbsinit( const mbstate_t* ps)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // mbsinit() function
 
@@ -85,7 +85,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The conversion state is initial conversion state
 The conversion state is not initial conversion state
 ```
@@ -94,7 +94,7 @@ The conversion state is not initial conversion state
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // mbsinit() function
 // with empty string
@@ -151,7 +151,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 After ps is initialized, the conversion state is initial conversion state
 After performing some task, the conversion state is initial conversion state
 ```

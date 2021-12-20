@@ -4,13 +4,13 @@
 
 统一初始化是 C++ 11 中的一个特性，它允许使用一致的语法来初始化从基元类型到聚合的变量和对象。换句话说，它引入了使用大括号({})括起初始值设定项值的大括号初始化。语法如下:
 
-```
+```cpp
 type var_name{arg1, arg2, ....arg n}
 ```
 
 以下是初始化不同类型的不同方法的一些示例:
 
-```
+```cpp
 // uninitialized built-in type
 int i;    
 
@@ -38,7 +38,7 @@ X x4=x3;
 
 如果使用大括号初始化，上述代码可以重写为:
 
-```
+```cpp
 int i{};     // initialized built-in type, equals to int i{0};
 
 int j{10}; // initialized built-in type
@@ -58,7 +58,7 @@ X x4{x3}; // copy-constructor
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate initialization
 // of dynamic array in C++ using uniform initialization
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 4 5 
 ```
 
@@ -85,7 +85,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to initialize
 //  an array data member of a class
 // with uniform initialization
@@ -124,7 +124,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2 3 
 ```
 
@@ -132,7 +132,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implicitly
 // initialize an object to return
 #include <iostream>
@@ -175,7 +175,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2
 ```
 
@@ -183,7 +183,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate how to
 // initialize a function parameter
 // using Uniform Initialization
@@ -222,6 +222,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 1 2
 ```

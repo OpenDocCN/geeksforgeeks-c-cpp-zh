@@ -8,21 +8,21 @@
 
 C++ 14 通过引入所谓的广义λ进一步完善了λ表达式。为了理解这个特性，让我们举一个普通的例子。假设我们创建一个 lambda 函数来返回两个整数之和。所以我们的λ函数看起来像
 
-```
+```cpp
 [](int a, int b) -> int { return a + b; }
 
 ```
 
 但是如果我们需要在以后获得两个**浮点**值的和呢。所以我们需要声明另一个 lambda 表达式，它只适用于双精度值。类似地，每次我们的输入参数类型改变时，lambda 函数都需要重写。
 
-```
+```cpp
 [](double a, double b) -> double { return a + b; }
 
 ```
 
 在 C++ 14 之前，有一种方法可以通过使用模板参数来避免这个问题，
 
-```
+```cpp
 template<typename T>
 [](T a, T b) -> T { return a + b };
 
@@ -30,14 +30,14 @@ template<typename T>
 
 C++ 14 取消了这一点，允许我们在 lambda 表达式的输入参数中使用关键字 *auto* 。因此，编译器现在可以在编译时推导出参数的类型。因此，在我们前面的例子中，一个适用于整数值和浮点值的 lambda 表达式将是
 
-```
+```cpp
 [](auto a, auto b) { return a + b; }
 
 ```
 
 这个特性的一个非常重要的应用是大大增强了现有的算法。以 [sort()](https://www.geeksforgeeks.org/sort-c-stl/) 功能为例。以下代码片段将按降序对所有数据类型进行排序(前提是它们已经重载了<运算符)。
 
-```
+```cpp
 sort(container.begin(), container.end(), 
 [](auto i, auto j) -> bool { return i > j; }
 
@@ -47,7 +47,7 @@ sort(container.begin(), container.end(),
 
 **例 1**
 
-```
+```cpp
 // Cpp program to demonstrate
 // generalized lambda expressions
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 7
 6.6
 GeeksForGeeks
@@ -86,7 +86,7 @@ GeeksForGeeks
 
 **例 2 :**
 
-```
+```cpp
 // Cpp program to demonstrate
 // how to sort integers, floats, strings
 // floating data types using a 
@@ -145,7 +145,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 636 62 6 4 2 1 1
 235.5 161.3 62.26 13.4 4.62                                                                         
 Tom Shyam Ram Harry  

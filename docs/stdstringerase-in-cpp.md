@@ -7,14 +7,14 @@
 
 1.  **语法 1:** 删除字符串中的所有字符
 
-```
+```cpp
 string& string ::erase ()
 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // erase() function
 
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before erase() : Hello World!
 After erase() : 
 
@@ -55,7 +55,7 @@ After erase() :
 
 **2。语法 2:** 删除位置“位置”后的所有字符
 
-```
+```cpp
 string& string ::erase (size_type pos)
 - Throw out_of_range if idx > size().
 
@@ -63,7 +63,7 @@ string& string ::erase (size_type pos)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate working of
 // erase(idx)
 
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before erase(idx) : Hello World!
 After erase(idx) : H
 
@@ -104,7 +104,7 @@ After erase(idx) : H
 
 **3。语法 3:** 从索引 idx 开始，最多擦除*这个的 len 个字符。
 
-```
+```cpp
 string& string ::erase (size_type idx, size_type len )
 - If len is missing, all remaining characters are removed.
 - Throw out_of_range if idx > size().
@@ -113,7 +113,7 @@ string& string ::erase (size_type idx, size_type len )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // erase(size_type idx, size_type len )
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before erase : Hello World!
 After erase : H World!
 
@@ -153,7 +153,7 @@ After erase : H World!
 
 **4。语法 4:** 删除迭代器位置位置的单个字符。
 
-```
+```cpp
 string& string ::erase (iterator pos)
 - Return the first character after the last character removed
 - If no such character is remaining then, returns 
@@ -163,7 +163,7 @@ string& string ::erase (iterator pos)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // erase(iterator pos)
 
@@ -196,7 +196,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before erase : Hello World!
 After erase : Hell World!
 
@@ -204,7 +204,7 @@ After erase : Hell World!
 
 **5。语法 5:** 从迭代器位置删除字符。到另一个迭代器位置。
 
-```
+```cpp
 string& string ::erase (iterator beg, iterator end )
 - Erases all characters of the range [ beg, end)
 - Returns end i.e. the first character after the
@@ -216,7 +216,7 @@ string& string ::erase (iterator beg, iterator end )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // erase(iterator pos, iterator end)
 
@@ -250,7 +250,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before erase : Hello World!
 After erase : World!
 

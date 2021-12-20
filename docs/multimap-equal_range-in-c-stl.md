@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 iterator multimap_name.equal_range(key)
 
 ```
@@ -19,7 +19,7 @@ iterator multimap_name.equal_range(key)
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the
 // multimap::equal_range() function
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The multimap elements of key 1 is : 
 KEY    ELEMENT
 1    40

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 list_name.remove(val) 
 
 ```
@@ -17,7 +17,7 @@ list_name.remove(val)
 
 下面的程序说明了 list::remove()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::remove() function
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 List before removing elements: 10 20 20 30 40 
 List after removing elements: 10 30 40
 

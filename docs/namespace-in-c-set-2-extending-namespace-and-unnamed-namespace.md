@@ -10,7 +10,7 @@
 
 *   **namespaces having different names**
 
-    ```
+    ```cpp
     // A C++ program to show more than one namespaces 
     // with different names.
     #include <iostream>
@@ -40,7 +40,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5
     10
 
@@ -49,7 +49,7 @@
 *   **Extending namespaces (Using same name twice)**
     It is also possible to create two namespace blocks having the same name. The second namespace block is nothing but actually the continuation of the first namespace. In simpler words, we can say that both the namespaces are not different but actually the same, which are being defined in parts.
 
-    ```
+    ```cpp
     // C++ program to demonstrate namespace exntension
     #include <iostream>
     using namespace std;
@@ -76,7 +76,7 @@
 
     输出:
 
-    ```
+    ```cpp
     500
     501
 
@@ -90,7 +90,7 @@
 *   您创建的未命名命名空间只能在您在其中创建的文件中访问。
 *   未命名的命名空间是变量静态声明的替代。
 
-```
+```cpp
 // C++ program to demonstrate working of unnamed 
 // namespaces
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 300
 
 ```

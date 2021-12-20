@@ -10,7 +10,7 @@
 
 默认情况下，早期绑定发生在 C++中。后期绑定(下面讨论)是借助[虚拟关键字](https://www.geeksforgeeks.org/virtual-function-cpp/)实现的)
 
-```
+```cpp
 // CPP Program to illustrate early binding.
 // Any normal function call (without virtual)
 // is binded early. Here we have taken base
@@ -48,13 +48,13 @@ int main(void)
 
 输出:
 
-```
+```cpp
 In Base
 ```
 
 **后期绑定:(运行时多态性)**在这种情况下，编译器会在运行时添加标识对象种类的代码，然后将调用与正确的函数定义进行匹配(有关详细信息，请参考[本](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/))。这可以通过声明一个[虚拟函数](https://www.geeksforgeeks.org/virtual-function-cpp/)来实现。
 
-```
+```cpp
 // CPP Program to illustrate late binding
 #include<iostream>
 using namespace std;
@@ -81,6 +81,6 @@ int main(void)
 
 输出:
 
-```
+```cpp
 In Derived
 ```

@@ -32,7 +32,7 @@
 
 ## C
 
-```
+```cpp
 // C program to draw solar system using
 // computer graphics
 #include <conio.h>

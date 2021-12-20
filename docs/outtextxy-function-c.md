@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 void outtextxy(int x, int y, char *string);
 
 where, x, y are coordinates of 
@@ -19,7 +19,7 @@ the address of string to be displayed.
 
 **示例:**
 
-```
+```cpp
 Input : x = 200, y = 150, 
         string = "Hello Geek, Have a good day !"
 Output : 
@@ -32,7 +32,7 @@ Output :
 
 下面是 outtextxy()函数的实现:
 
-```
+```cpp
 // C Implementation for outtextxy()
 #include <graphics.h>
 

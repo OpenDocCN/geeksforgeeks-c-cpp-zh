@@ -4,7 +4,7 @@
 
 预测后续程序的输出。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Point {
@@ -35,7 +35,7 @@ int main()
 
 下面的程序编译良好，输出结果为 10。
 
-```
+```cpp
 #include <iostream >
 using namespace std;
 class Point {

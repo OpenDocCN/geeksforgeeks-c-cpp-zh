@@ -14,7 +14,7 @@
 
 我们使用下面的结构来存储学生的详细信息。
 
-```
+```cpp
 struct Student 
 {
     string name; // Given
@@ -32,7 +32,7 @@ struct Student
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate structure sorting in C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -152,7 +152,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Rank Name     Maths Physics Chemistry Total
 1    Kevin      95     85     99       279 
 2    Nicky      95     85     80       260 

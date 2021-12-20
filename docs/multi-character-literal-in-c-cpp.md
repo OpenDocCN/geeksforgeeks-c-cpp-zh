@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 'a' is a character literal.
 "abcd" is a string literal.
 'abcd' is a multicharacter literal.
@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate 
 // Multicharacter literal
 #pragma GCC diagnostic ignored "-Wmultichar"
@@ -37,7 +37,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1633837924
 ```
 
@@ -45,7 +45,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate
 // multi-character literal
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
 
 这可以很好地编译和运行，多字符文字存储为一个整数值(从这里你可以找到下面的数字)。由于**学究式的**编译器标志通常会被传递，因此它会对所有多字符文本发出警告。这个警告有助于指出我们是否错误地使用了**“**而不是**“**。警告是:
 
-```
+```cpp
 warning: multi-character character constant [-Wmultichar]
 ```
 
@@ -82,7 +82,7 @@ warning: multi-character character constant [-Wmultichar]
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <typeinfo>
 using namespace std;
@@ -175,13 +175,13 @@ C++语义的一个方面，为每个实现定义，而不是在每个实现的�
 
 现在，这 4 个字节代表一个整数，计算如下:
 
-```
+```cpp
 'abcd' = (('a'*256 + 'b')*256 + `c`)*256 + 'd' = 1633837924 = 0x61626364 = '0xa0xb0xc0xd'
 ```
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -206,7 +206,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

@@ -9,7 +9,7 @@
 INT_MAX 是一个宏，它指定整数变量不能存储超过这个限制的任何值。
 INT_MIN 指定整数变量不能存储低于此限制的任何值。
 
-```
+```cpp
 Values of INT_MAX and INT_MIN may vary
 from compiler to compiler. Following are
 typical values in a compiler where integers
@@ -21,7 +21,7 @@ Value of INT_MIN is -2147483648.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to print values of INT_MAX
 // and INT_MIN
 #include <bits/stdc++.h>
@@ -36,7 +36,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print values of INT_MAX
 // and INT_MIN
 // we have to include limits.h for results in C
@@ -51,7 +51,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 2147483647
 -2147483648
 ```

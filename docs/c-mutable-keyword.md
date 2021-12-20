@@ -10,7 +10,7 @@ auto、register、static 和 extern 是 C 中的存储类说明符，typedef 也
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 #include <string.h>
 using namespace std;
@@ -70,7 +70,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Customer name is: Pravasi Meet
 Food ordered by customer is: Ice Cream
 table no is: 3
@@ -90,7 +90,7 @@ Total payable amount: 150
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // PROGRAM 1
 #include <iostream>
 using std::cout;
@@ -112,7 +112,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // PROGRAM 2
 #include <iostream>
 using std::cout;

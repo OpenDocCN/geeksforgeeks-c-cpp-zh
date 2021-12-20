@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: 12->15->10->11->5->6->2->3->NULL
 Output: 15->11->6->3->NULL
 Explanation: 12, 10, 5 and 2 have been deleted because there is a 
@@ -41,7 +41,7 @@ Output: No Change.
 
 ## C
 
-```
+```cpp
 // C program to delete nodes which have 
 // a greater value on right side
 #include <stdio.h>
@@ -182,7 +182,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Given Linked List 
 12 15 10 11 5 6 2 3
 Modified Linked List 

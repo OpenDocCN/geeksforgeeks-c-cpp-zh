@@ -6,7 +6,7 @@
 
 示例:-
 
-```
+```cpp
 // C program to illustrate exit() function.
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +23,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 START
 
 ```
@@ -32,7 +32,7 @@ START
 
 语法:
 
-```
+```cpp
 // Here the exit_code represent the exit status 
 // of the program which can be 0 or non-zero.
 // The _Exit() function returns nothing.
@@ -40,7 +40,7 @@ void _Exit(int exit_code);
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate use of _Exit()
 #include <stdio.h>
 #include <stdlib.h>
@@ -57,7 +57,7 @@ int main(void)
 
 **通过节目展示差异:**
 
-```
+```cpp
 // A C++ program to show difference
 // between exit() and _Exit()
 #include<bits/stdc++.h>
@@ -77,13 +77,13 @@ int main()
 
 输出
 
-```
+```cpp
 Exiting
 ```
 
 如果我们将 exit 替换为 _Exit()，则不会打印任何内容。
 
-```
+```cpp
 // A C++ program to show difference
 // between exit() and _Exit()
 #include<bits/stdc++.h>

@@ -10,7 +10,7 @@
 
 ****语法-****
 
-```
+```cpp
 scanf("%c", &charVariable);
 ```
 
@@ -22,7 +22,7 @@ scanf("%c", &charVariable);
 
 ## **C**
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -48,7 +48,7 @@ int main()
 
 ****语法-****
 
-```
+```cpp
 scanf("%s", stringvariable);
 ```
 
@@ -59,7 +59,7 @@ scanf("%s", stringvariable);
 
 ## **C**
 
-```
+```cpp
 // C Program to implement
 // the above approach
 #include <stdio.h>
@@ -93,13 +93,13 @@ int main()
 
 ****语法-****
 
-```
+```cpp
 scanf("%[^\n]s", sen)
 ```
 
 ## **C**
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -125,7 +125,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -150,13 +150,13 @@ int main()
 
 **语法-**
 
-```
+```cpp
 char *fgets(char *str, int size, FILE *stream)
 ```
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>

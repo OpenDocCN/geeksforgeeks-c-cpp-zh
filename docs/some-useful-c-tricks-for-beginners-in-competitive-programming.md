@@ -9,7 +9,7 @@
     当一个变量被定义为自动时，编译器可以自己确定数据类型。
     **例**:
 
-    ```
+    ```cpp
     auto a = 100; // a will become 'int'
     auto b = 1LL; // b will become 'long long'
     auto c = 1.0; // c will become 'double'
@@ -19,7 +19,7 @@
 
 2.  The watch macro is one of the most useful tricks ever.
 
-    ```
+    ```cpp
     #define watch(x) cout << (#x) << " is " << (x) << endl
 
     ```
@@ -29,7 +29,7 @@
 3.  使用 typedef 可以节省您的大量时间，您可能会花费这些时间一次又一次地重新编写相同的代码片段。
     **例** :
 
-    ```
+    ```cpp
     typedef long long ll;
     typedef pair w;
     typedef vector va;

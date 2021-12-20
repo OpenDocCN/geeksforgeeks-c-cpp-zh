@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```cpp
 # A Python program to generate numbers in a
 # range using yield
 
@@ -26,7 +26,7 @@ for i in rangeN(1, 5):
 
 输出:
 
-```
+```cpp
 1
 2
 3
@@ -41,7 +41,7 @@ for i in rangeN(1, 5):
 所以我们现在可以试着看看如何在 C.
 中达到同样的效果
 
-```
+```cpp
 function read():
    /* reads the content in the desired number 
       of steps and returns back control to parser
@@ -62,7 +62,7 @@ function parse():
 
 ## C
 
-```
+```cpp
 int read(void)
 {
     int i;
@@ -82,7 +82,7 @@ int read(void)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate how coroutines
 // can be implemented in C++.
 #include <iostream>
@@ -125,7 +125,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to demonstrate how coroutines
 // can be implemented in C.
 #include<stdio.h>
@@ -165,7 +165,7 @@ int main()
 
 输出:
 
-```
+```cpp
 control at range
 control at main :1
 control at range

@@ -21,7 +21,7 @@
 
 T5
 
-```
+```cpp
 // C++ program to implement the program
 // that illustrates Online shopping
 #include <bits/stdc++.h>

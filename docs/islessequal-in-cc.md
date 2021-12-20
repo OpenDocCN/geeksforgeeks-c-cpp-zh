@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 bool isgreaterequal(a, b)
 
 ```
@@ -32,7 +32,7 @@ bool isgreaterequal(a, b)
 
 下面给出了这方面的说明
 
-```
+```cpp
 // CPP code to illustrate
 // the exception of function
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5.5 islessequal nan: 0
 
 ```
@@ -67,7 +67,7 @@ int main()
 
 *   **Program 1:**
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of islessequal function
     #include <bits/stdc++.h>
@@ -106,7 +106,7 @@ int main()
 
 *   **Program 2:**
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of islessequal function
     #include <bits/stdc++.h>
@@ -141,7 +141,7 @@ int main()
 
     **输出:**
 
-    ```
+    ```cpp
     80.23 islessequal to 82: 1
     c islessequal to 80.23: 0
 
@@ -150,7 +150,7 @@ int main()
 **应用:**
 有各种各样的应用，我们可以使用 islessequal()函数来比较两个值，就像在**中使用的一样，而**循环打印前 10 个自然数。
 
-```
+```cpp
 // CPP code to illustrate
 // the use of islessequal function
 #include <bits/stdc++.h>
@@ -169,7 +169,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10 
 
 ```

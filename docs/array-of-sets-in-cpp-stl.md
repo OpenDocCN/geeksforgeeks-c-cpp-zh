@@ -20,7 +20,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // insertion in the array of sets
 #include <bits/stdc++.h>
@@ -65,7 +65,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements at index 0: 10 15 20 25 30 
 Elements at index 1: 35 40 45 50 55 
 Elements at index 2: 60 65 70 75 80 
@@ -77,7 +77,7 @@ Elements at index 3: 85 90 95 100 105
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // deletion in the array of sets
 #include <bits/stdc++.h>
@@ -148,7 +148,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before removal elements are:
 Elements at index 0: 10 15 20 25 30 
 Elements at index 1: 35 40 45 50 55 
@@ -167,7 +167,7 @@ Elements at index 3: 85 90 95 100 105
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // traversal in the array of sets
 #include <bits/stdc++.h>
@@ -219,7 +219,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements at index 0: 10 15 35 
 Elements at index 1: 20 30
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 size_type max_size() const;
 ```
 
@@ -18,7 +18,7 @@ size_type max_size() const;
 
 **例 1:**
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 
@@ -42,7 +42,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Maximum size = 1152921504606846975
 Current size = 6
 

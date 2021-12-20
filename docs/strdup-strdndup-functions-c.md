@@ -13,7 +13,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate strdup()
 #include<stdio.h>
 #include<string.h>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksForGeeks
 ```
 
@@ -45,7 +45,7 @@ GeeksForGeeks
 
 ## C
 
-```
+```cpp
 // C program to demonstrate strndup()
 #include<stdio.h>
 #include<string.h>
@@ -66,7 +66,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks
 ```
 

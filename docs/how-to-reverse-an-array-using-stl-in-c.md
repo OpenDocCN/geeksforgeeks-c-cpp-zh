@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: arr[] = {1, 45, 54, 71, 76, 12}
 Output: {12, 76, 71, 54, 45, 1}
 
@@ -19,12 +19,12 @@ Output: {12, 6, 4, 5, 7, 1}
 
 **语法:**
 
-```
+```cpp
 reverse(start_index, last_index);
 
 ```
 
-```
+```cpp
 // C++ program to reverse Array
 // using reverse() in STL
 
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array: 1 45 54 71 76 12 
 Reversed Array: 12 76 71 54 45 1
 

@@ -4,7 +4,7 @@
 
 在 C 语言中，像[普通数据指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/) (int *，char *，等)，我们可以有指向函数的指针。下面是一个使用函数指针显示声明和函数调用的简单示例。
 
-```
+```cpp
 #include <stdio.h>
 // A normal function with an int parameter
 // and void return type
@@ -32,7 +32,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of a is 10
 ```
 
@@ -48,7 +48,7 @@ Value of a is 10
 
 **3)** 一个函数的名字也可以用来获取函数的地址。例如，在下面的程序中，我们删除了赋值中的地址运算符“&”。我们还通过删除*改变了函数调用，程序仍然可以工作。
 
-```
+```cpp
 #include <stdio.h>
 // A normal function with an int parameter
 // and void return type
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of a is 10
 ```
 
@@ -77,7 +77,7 @@ Value of a is 10
 
 **5)** 功能指针可以代替开关盒使用。例如，在下面的程序中，要求用户在 0 和 2 之间进行选择，以执行不同的任务。
 
-```
+```cpp
 #include <stdio.h>
 void add(int a, int b)
 {
@@ -110,7 +110,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Enter Choice: 0 for add, 1 for subtract and 2 for multiply
 2
 Multiplication is 150 
@@ -119,7 +119,7 @@ Multiplication is 150
 **(6)**像普通的数据指针一样，函数指针可以作为参数传递，也可以从函数返回。
 例如，考虑下面的 C 程序，其中 wrapper()接收一个 void fun()作为参数，并调用传递的函数。
 
-```
+```cpp
 // A simple C program to show function pointers as parameter
 #include <stdio.h>
 
@@ -144,7 +144,7 @@ int main()
 
 这一点在 C 语言中特别有用。在 C 语言中，我们可以使用函数指针来避免代码冗余。例如，一个简单的 [qsort()](http://www.cplusplus.com/reference/cstdlib/qsort/) 函数可以用来按照升序或降序对数组进行排序，或者在数组结构的情况下按照任何其他顺序进行排序。不仅如此，通过函数指针和 void 指针，可以对任何数据类型使用 qsort。
 
-```
+```cpp
 // An example for qsort and comparator
 #include <stdio.h>
 #include <stdlib.h>
@@ -174,13 +174,13 @@ int main ()
 
 输出:
 
-```
+```cpp
 5 10 12 15 80 90
 ```
 
 与 qsort()类似，我们可以编写自己的函数，这些函数可以用于任何数据类型，并且可以在没有代码冗余的情况下完成不同的任务。下面是一个示例搜索函数，可用于任何数据类型。事实上，我们可以通过编写一个定制的比较函数来使用这个搜索函数来查找接近的元素(低于阈值)。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -227,7 +227,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Returned index is 2
 ```
 

@@ -16,7 +16,7 @@
 7.  [Cr begin()](https://www.geeksforgeeks.org/vectorcrend-vectorcrbegin-examples/)–返回一个指向向量中最后一个元素的常量反向迭代器(反向开始)。它从最后一个元素移动到第一个元素
 8.  [crend()](https://www.geeksforgeeks.org/vectorcrend-vectorcrbegin-examples/)–返回一个常量反向迭代器，指向向量中第一个元素之前的理论元素(视为反向结束)
 
-```
+```cpp
 // C++ program to illustrate the
 // iterators in vector
 #include <iostream>
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Output of begin and end: 1 2 3 4 5 
 Output of cbegin and cend: 1 2 3 4 5 
 Output of rbegin and rend: 5 4 3 2 1 

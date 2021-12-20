@@ -7,7 +7,7 @@
 
 **语法**
 
-```
+```cpp
 string str ("GeeksforGeeks");
 
 Accessing last character
@@ -28,7 +28,7 @@ str.back() = '#';
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of the above method
 
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Last character of string = s
 New string = GeeksforGeek#
 
@@ -69,7 +69,7 @@ New string = GeeksforGeek#
 
 **程序 2:** 当字符串为空时，显示未定义的行为。
 
-```
+```cpp
 // C++ program to demonstrate
 // the use of the above method
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Last character of string =  
 New string =  ÉGÃ          @      ·ùþ?aPé£Îý          @     ?k¯Ã  ÿÿÿÿÿÿÿXé£Îý  ÿÿÿ   
 @             Ï?¨Õ,Ä @     Pé£Îý                  Ï??Á±?ðÏ?Ø%Bð

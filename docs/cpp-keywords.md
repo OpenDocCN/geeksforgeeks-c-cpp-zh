@@ -106,7 +106,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of identifiers
 
@@ -129,7 +129,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Identifier result is: 1
 ```
 
@@ -151,7 +151,7 @@ Identifier result is: 1
 
 ## C++
 
-```
+```cpp
 // C++ Program to demonstrate keywords
 #include <iostream>
 using namespace std;
@@ -196,6 +196,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 C++
 ```

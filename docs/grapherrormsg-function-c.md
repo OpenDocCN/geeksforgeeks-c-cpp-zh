@@ -7,7 +7,7 @@
 头文件 graphics.h 包含 **grapherrormsg()** 函数，该函数返回一个错误消息字符串。
 **语法:**
 
-```
+```cpp
 char *grapherrormsg( int errorcode );
 where,
 errorcode: code for the respective error
@@ -18,7 +18,7 @@ errorcode: code for the respective error
 
 下面是 C 语言中 grapherrormsg()函数的实现
 
-```
+```cpp
 // C Implementation for grapherrormsg()
 #include <graphics.h>
 #include <stdio.h>

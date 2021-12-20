@@ -14,7 +14,7 @@ const_cast 用于丢弃变量的常量。以下是一些关于 const_cast 的有
 
 **1)** const_cast 可用于更改 const 成员函数内部的非 const 类成员。考虑下面的代码片段。在 const member 函数 fun()中，“this”被编译器视为“const student* const this”，即“this”是指向常量对象的常量指针，因此编译器不允许通过“this”指针更改数据成员。const_cast 将“this”指针的类型更改为“student* const this”。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -50,14 +50,14 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Old roll number: 3
 New roll number: 5
 ```
 
 **2)** const_cast 可以用来将 const 数据传递给不接收 const 的函数。例如，在下面的程序中，fun()接收一个普通的指针，但是在 const_cast 的帮助下可以传递一个指向 const 的指针。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -78,13 +78,13 @@ int main(void)
 
 输出:
 
-```
+```cpp
 20
 ```
 
 **3)** 修改最初声明为常量的值是未定义的行为。考虑以下程序。程序的输出未定义。变量“val”是一个常量变量，调用“fun(ptr1)”试图使用 const_cast 修改“val”。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -107,13 +107,13 @@ int main(void)
 
 输出:
 
-```
+```cpp
  Undefined Behavior 
 ```
 
 修改一个最初没有声明为常量的值是很好的。例如，在上面的程序中，如果我们从 val 的声明中移除 const，程序将产生 20 作为输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -136,7 +136,7 @@ int main(void)
 
 **4)** const_cast 被认为比简单型铸造更安全。从这个意义上说，如果铸造的类型与原始物体不同，铸造就不会发生，这是比较安全的。例如，以下程序在编译时失败，因为“int *”正被类型转换为“char *”
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -152,14 +152,14 @@ int main(void)
 
 输出:
 
-```
+```cpp
 prog.cpp: In function ‘int main()’:
 prog.cpp:8: error: invalid const_cast from type 'const int*' to type 'char*'
 ```
 
 **5)** const_cast 也可以用来施放掉波动属性。例如，在下面的程序中，b1 的 typeid 是 PVKi(指针指向一个易变的常数整数)，c1 的 typeid 是 Pi(指针指向整数)
 
-```
+```cpp
 #include <iostream>
 #include <typeinfo>
 using namespace std;
@@ -177,7 +177,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 typeid of b1 PVKi
 typeid of c1 Pi
 
@@ -188,7 +188,7 @@ typeid of c1 Pi
 
 **问题 1**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -204,7 +204,7 @@ int main(void)
 
 **问题 2**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

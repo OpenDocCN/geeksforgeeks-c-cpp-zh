@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 sqrt(varr);
 
 ```
@@ -19,7 +19,7 @@ sqrt(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sqrt() function.
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 2 4 5 6 7
 
@@ -62,7 +62,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of sqrt() function.
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 2.23607 4 5.09902 6.08276 1
 

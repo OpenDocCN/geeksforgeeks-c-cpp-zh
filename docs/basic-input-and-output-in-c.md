@@ -40,7 +40,7 @@ C 语言中的基本类型包括 int、float、char 等类型。为了输入或�
 
 *   **整数:**
 
-    ```
+    ```cpp
     Input: scanf("%d", &intVariable);
     Output: printf("%d", intVariable);
 
@@ -49,7 +49,7 @@ C 语言中的基本类型包括 int、float、char 等类型。为了输入或�
 *   **浮动:**T0】
 *   **人物:**
 
-    ```
+    ```cpp
     Input: scanf("%c", &charVariable);
     Output: printf("%c", charVariable);
 
@@ -57,7 +57,7 @@ C 语言中的基本类型包括 int、float、char 等类型。为了输入或�
 
 更多例子请参考 C 中的[格式说明符。](https://www.geeksforgeeks.org/format-specifiers-in-c/)
 
-```
+```cpp
 // C program to show input and output
 
 #include <stdio.h>
@@ -103,7 +103,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter the integer: 10
 Entered integer is: 10
 
@@ -121,7 +121,7 @@ C 语言中的高级类型包括像 String 这样的类型。为了输入或输�
 
 字符串输入和输出的语法是:
 
-```
+```cpp
 Input: scanf("%s", stringVariable);
 Output: printf("%s", stringVariable);
 
@@ -129,7 +129,7 @@ Output: printf("%s", stringVariable);
 
 **示例:**
 
-```
+```cpp
 // C program to show input and output
 
 #include <stdio.h>
@@ -167,7 +167,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Enter the Word: GeeksForGeeks
 Entered Word is: GeeksForGeeks
 

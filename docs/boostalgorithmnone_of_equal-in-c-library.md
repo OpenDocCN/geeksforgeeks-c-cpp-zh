@@ -23,7 +23,7 @@
 
 **程序-1** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -55,14 +55,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 all equals to 1
 
 ```
 
 **程序-2** :
 
-```
+```cpp
 // C++ program to implement the
 // above mentioned function
 
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 all not equal to 4
 
 ```

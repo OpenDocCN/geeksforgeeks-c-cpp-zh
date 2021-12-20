@@ -4,14 +4,14 @@
 
 C++中的**hypt()**函数返回传递的参数平方和的平方根。它找到了斜边，*斜边*是直角三角形最长的边。其计算公式如下:
 
-```
+```cpp
  h = sqrt(x<sup>2</sup>+y<sup>2</sup>)
 ```
 
 其中 x 和 y 是三角形的另外两条边。
 ![](img/70779a9d7c2c7a654625dff7fc21f5c3.png)
 
-```
+```cpp
 Syntax:
 double hypot(double x, double y);
 float hypot(float x, float y);
@@ -21,7 +21,7 @@ long double hypot(long double x, long double y);
 
 **示例:**
 
-```
+```cpp
 Input : x=3, y=4
 Output :5
 
@@ -45,7 +45,7 @@ Output :13.4536
 
 **示例应用:** **求直角三角形的斜边，给定它的另外两条边。**
 
-```
+```cpp
 // CPP program to illustrate
 // hypot() function
 #include <cmath>
@@ -72,7 +72,7 @@ int main()
 
 输出:
 
-```
+```cpp
 13.4536
 7.33103
 
@@ -82,7 +82,7 @@ int main()
 
 hypotf()函数与 hypot 函数相同。唯一的区别是函数的参数和返回类型是浮点类型。附加到“hypotf”的“f”字符代表 float，它表示函数的参数类型和返回类型。
 
-```
+```cpp
 Syntax
 float hypotf(float x);
 
@@ -91,7 +91,7 @@ float hypotf(float x);
 海波 tf()
 的 C++程序实现这里，变量被赋值为浮点类型否则*类型不匹配*错误发生。
 
-```
+```cpp
 // CPP program to illustrate
 // hypotf() function
 #include <cmath>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 13.7574
 
 ```
@@ -120,7 +120,7 @@ int main()
 
 hypotl()函数与 hypot 函数相同。唯一的区别是函数的参数和返回类型是长双精度类型。附加到“hypotl”的“l”字符代表长 double，它表示函数的参数类型和返回类型。
 
-```
+```cpp
 Syntax
 long double hypotl(long double x);
 
@@ -129,7 +129,7 @@ long double hypotl(long double x);
 hypotl()
 的 C++程序实现这里，变量被赋值为长双类型否则*类型不匹配*错误发生。
 
-```
+```cpp
 // CPP program to illustrate
 // hypotl() function
 #include <cmath>
@@ -149,7 +149,7 @@ int main()
 
 输出:
 
-```
+```cpp
 13.7575
 
 ```

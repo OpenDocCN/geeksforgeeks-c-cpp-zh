@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 $ gcc -S filename.c
 ```
 
@@ -14,7 +14,7 @@ $ gcc -S filename.c
 
 ## C
 
-```
+```cpp
 // C code stored in geeks.c file
 #include <stdio.h>
 
@@ -34,7 +34,7 @@ int main()
 
 **运行命令:**
 
-```
+```cpp
 $ gcc -S geeks.c
 ```
 
@@ -43,7 +43,7 @@ $ gcc -S geeks.c
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
     .section    __TEXT, __text, regular, pure_instructions
     .macosx_version_min 10, 12
     .global    _main

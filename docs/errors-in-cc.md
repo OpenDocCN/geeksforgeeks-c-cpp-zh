@@ -20,7 +20,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // syntax error
 
@@ -40,7 +40,7 @@ void main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // syntax error
 #include<stdio.h>
@@ -55,7 +55,7 @@ void main()
 
 **错误:**
 
-```
+```cpp
 error: expected ';' before '}' token
 ```
 
@@ -63,7 +63,7 @@ error: expected ';' before '}' token
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // syntax error
 #include <iostream>
@@ -84,7 +84,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // syntax error
 #include<stdio.h>
@@ -101,7 +101,7 @@ int main(void)
 
 **错误:**
 
-```
+```cpp
 error: expected expression before '.' token
      while(.) 
 ```
@@ -113,7 +113,7 @@ error: expected expression before '.' token
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // run-time error
 #include <iostream>
@@ -137,7 +137,7 @@ void main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // run-time error
 #include<stdio.h>
@@ -156,7 +156,7 @@ void main()
 
 **错误:**
 
-```
+```cpp
 warning: division by zero [-Wdiv-by-zero]
      div = n/0;
 ```
@@ -166,7 +166,7 @@ warning: division by zero [-Wdiv-by-zero]
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // linker error
 #include <bits/stdc++.h>
@@ -183,7 +183,7 @@ void Main() // Here Main() should be main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // linker error
 #include<stdio.h>
@@ -197,7 +197,7 @@ void Main() // Here Main() should be main()
 
 **错误:**
 
-```
+```cpp
 (.text+0x20): undefined reference to `main'
 ```
 
@@ -206,7 +206,7 @@ void Main() // Here Main() should be main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // logical error
 int main()
@@ -227,7 +227,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // logical error
 int main()
@@ -250,7 +250,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // semantic error
 void main()
@@ -262,7 +262,7 @@ void main()
 
 **错误:**
 
-```
+```cpp
  error: lvalue required as left operand of assignment
  a + b = c; //semantic error
 ```

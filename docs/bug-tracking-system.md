@@ -46,7 +46,7 @@
 
 ## 潜水员功能
 
-```
+```cpp
 // C program for the Driver Function
 // of the Bug Tracking System
 
@@ -104,7 +104,7 @@ void main()
 
 ## 创建 Bug
 
-```
+```cpp
 // C program for filing a bug
 // in Bug Tracking System
 
@@ -230,7 +230,7 @@ void filebug(int id)
 
 ## 错误状态
 
-```
+```cpp
 // C program for changing Status
 // in Bug Tracking System
 
@@ -303,7 +303,7 @@ void changestatus()
 
 ## 报告错误
 
-```
+```cpp
 // C program for report a bug
 // in Bug Tracking System
 
@@ -351,7 +351,7 @@ void report()
 
 ## 完全码
 
-```
+```cpp
 // C program for the
 // Bug Tracking System
 

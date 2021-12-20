@@ -12,7 +12,7 @@
 *   使用堆中的**运算符 new** 来分配对象的内存。
 *   调用类的构造函数来正确初始化这个内存。
 
-```
+```cpp
 // CPP program to illustrate 
 // use of new keyword
 #include<iostream>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor called
 Name: Honda
 Num: 2017
@@ -68,7 +68,7 @@ Operator new 是一个分配原始内存的**函数**，在概念上有点类似
 *   它不初始化内存，即不调用构造函数。然而，在我们重载的新返回之后，编译器会自动调用构造函数。
 *   也有可能在全球范围内或针对特定类别使新的操作员超载
 
-```
+```cpp
 // CPP program to illustrate 
 // use of operator new
 #include<iostream>
@@ -120,7 +120,7 @@ int main()
 
 输出:
 
-```
+```cpp
 new operator overloaded
 Constructor called
 Name:HYUNDAI

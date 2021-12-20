@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-2/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-2/)
 
-```
+```cpp
 #include <stdio.h>
 #if X == 3
     #define Y 3

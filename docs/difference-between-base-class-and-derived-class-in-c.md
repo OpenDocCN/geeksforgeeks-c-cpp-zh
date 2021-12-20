@@ -6,7 +6,7 @@
 [**派生类**](https://www.geeksforgeeks.org/inheritance-in-c/) **:** 从现有类创建的类。派生类继承基类的所有成员和成员函数。派生类相对于基类可以有更多的功能，并且可以很容易地访问基类。派生类也称为**子类**或**子类**。
 **<u>创建派生类的语法</u> :**
 
-```
+```cpp
 class BaseClass{
   // members....
   // member function 
@@ -38,7 +38,7 @@ class DerivedClass : public BaseClass{
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // Base & Derived Class
 
@@ -82,7 +82,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Value from derived class: 3
 Value from base class: 4
 ```

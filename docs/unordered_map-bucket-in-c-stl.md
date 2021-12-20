@@ -5,7 +5,7 @@
 **无序 _map::bucket()** 是 C++中内置的 STL 函数，返回关键字为 k 的元素在映射中所处的 bucket 编号。
 **语法:**
 
-```
+```cpp
 size_type bucket(key) 
 ```
 
@@ -15,7 +15,7 @@ size_type bucket(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate the
 // unordered_map::bucket() function
 #include <bits/stdc++.h>
@@ -45,6 +45,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The bucket number of key France is 3
 ```

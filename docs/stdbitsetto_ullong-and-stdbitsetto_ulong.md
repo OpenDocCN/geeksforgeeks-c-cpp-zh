@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 bit.to_ullong()
 
 ```
@@ -31,13 +31,13 @@ bit.to_ullong()
 
 示例:
 
-```
+```cpp
 Input : 1010
 Output : 10
 
 ```
 
-```
+```cpp
 Input : 10000001
 Output :129
 
@@ -45,7 +45,7 @@ Output :129
 
 **#代码 1 :**
 
-```
+```cpp
 #include <bitset> 
 #include <iostream> 
 #include <limits> 
@@ -65,7 +65,7 @@ int main() 
 
 **输出:**
 
-```
+```cpp
 0000000000000000000000000000000000000000000000000000000000001010  
 10
 
@@ -73,7 +73,7 @@ int main() 
 
 **#代码 2 :**
 
-```
+```cpp
 #include <bitset>
 #include <iostream>
 #include <limits>
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0000000000000000000000000000000000000000000000000000000000010100 
 20
 
@@ -103,7 +103,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 bit.to_ulong()
 
 ```
@@ -124,14 +124,14 @@ bit.to_ulong()
 
 示例:
 
-```
+```cpp
 Input : 1010
 
 Output : 10
 
 ```
 
-```
+```cpp
 Input : 10000001
 Output :129
 
@@ -139,7 +139,7 @@ Output :129
 
 **#代码 1 :**
 
-```
+```cpp
 #include <bitset>
 #include <iostream>
 #include <limits>
@@ -157,7 +157,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0000000000000000000000000000000000000000000000000000000000001010  
 10
 
@@ -165,7 +165,7 @@ int main()
 
 **#代码 2 :**
 
-```
+```cpp
 #include <bitset>
 #include <iostream>
 #include <limits>
@@ -183,7 +183,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0000000000000000000000000000000000000000000000000000000000010100 
 20
 

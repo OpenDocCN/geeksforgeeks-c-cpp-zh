@@ -9,7 +9,7 @@
 
 让我们看一个用 C 程序演示上述事实的例子:
 
-```
+```cpp
 // C program to demonstrate passing an array
 // by value using structures.
 #include<stdio.h>
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 In 'modify()', before modification
 10 10 10 10 10 
 

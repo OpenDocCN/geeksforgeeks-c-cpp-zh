@@ -28,7 +28,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <netdb.h>
 #include <netinet/in.h>
@@ -129,7 +129,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <netdb.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -208,7 +208,7 @@ gcc 客户端. c -o 客户端
 
 服务器端:
 
-```
+```cpp
 Socket successfully created..
 Socket successfully binded..
 Server listening..
@@ -222,7 +222,7 @@ Server Exit...
 
 客户端:
 
-```
+```cpp
 Socket successfully created..
 connected to the server..
 Enter the string : hi

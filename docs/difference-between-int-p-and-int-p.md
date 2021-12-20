@@ -6,13 +6,13 @@ A [**指针**](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduct
 
 **语法:**
 
-```
+```cpp
 type *var_name;
 ```
 
 这里，**类型**是指针的基本类型。必须是有效的 [C](https://www.geeksforgeeks.org/c/) / [C++](https://www.geeksforgeeks.org/c-plus-plus/) [数据类型](https://www.geeksforgeeks.org/c-data-types/)， **var-name** 是指针变量的名称。**星号*** 用于将变量指定为指针。以下是它们各自数据类型的有效指针声明:
 
-```
+```cpp
 int *ip;
 float *fp;
 double *dp;
@@ -24,7 +24,7 @@ char *cp;
 
 **int* p()** :这里**“p”**是一个没有参数的函数，返回一个整数指针。
 
-```
+```cpp
 int* p()
 returntype function_name (arguments)
 ```
@@ -33,7 +33,7 @@ returntype function_name (arguments)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of int* p()
 #include <bits/stdc++.h>
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 9
 
 ```
@@ -71,7 +71,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of int* (*p)()
 #include <bits/stdc++.h>
@@ -104,7 +104,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 14
 
 ```

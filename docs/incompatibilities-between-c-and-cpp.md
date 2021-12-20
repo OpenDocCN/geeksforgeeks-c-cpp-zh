@@ -7,7 +7,7 @@
 
 **1)** 在 C 语言中，可以使用一种语法来定义函数，该语法可以在参数列表之后选择性地指定参数类型:
 
-```
+```cpp
 // C code that uses argument types after
 // the list of arguments.
 #include<stdio.h>
@@ -24,19 +24,19 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 8 9 
 
 ```
 
-```
+```cpp
 Error in C++ :-  a and b was not declared in this scope 
 ```
 
 **2)** 在 C 和 C++的前标准版本中，类型说明符默认为 int。
 
-```
+```cpp
 // C code to show implicit int declaration.
 #include<stdio.h>
 int main()
@@ -49,19 +49,19 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 7
 
 ```
 
-```
+```cpp
 Error in C++ :-  a does not name a type 
 ```
 
 **3)** 在 C 语言中，一个全局数据对象可以多次声明，而无需使用**外部**说明符。只要最多有一个这样的声明提供了初始值设定项，对象就被认为只定义了一次。
 
-```
+```cpp
 // C code to demonstrate multiple global
 // declarations of same variable.
 #include<stdio.h>
@@ -74,13 +74,13 @@ int main()
 }
 ```
 
-```
+```cpp
 Error in C++ :-  Redefinition of int a
 ```
 
 **4)** 在 C 语言中，void*可用作任何指针类型变量赋值或初始化的右手操作数。
 
-```
+```cpp
 // C code to demonstrate implicit conversion
 // of void* to int*
 #include<stdio.h>
@@ -100,13 +100,13 @@ int main()
 }
 ```
 
-```
+```cpp
 Error in C++ :-  Invalid conversion of void* to int*
 ```
 
 **5)** 在 C 语言中，数组可以由初始值设定项初始化，该初始值设定项包含的元素比数组要求的多。
 
-```
+```cpp
 // C code to demonstrate that extra character
 // check is not done in C.
 #include<stdio.h>
@@ -122,18 +122,18 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks
 
 ```
 
-```
+```cpp
 Error in C++ :-  Initializer-string for array of chars is too long
 ```
 
 **6)** 在 C 语言中，一个没有指定任何参数类型的函数可以接受任意数量的任何类型的参数。点击[这里](https://www.geeksforgeeks.org/difference-int-main-int-mainvoid/)了解更多。
 
-```
+```cpp
 // In C, empty brackets mean any number
 // of arguments can be passed
 #include<stdio.h>
@@ -146,7 +146,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 Error in C++ :-  Too many arguments to function 'void fun()'
 ```
 

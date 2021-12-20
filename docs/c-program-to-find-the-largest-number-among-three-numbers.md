@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input: A = 2, B = 8, C = 1
 Output: Largest number = 8
 
@@ -21,7 +21,7 @@ Output: Largest number = 75821
 
 **求三个数中最大值的算法:**
 
-```
+```cpp
 1. Start
 2. Read the three numbers to be compared, as A, B and C.
 3. Check if A is greater than B.
@@ -44,7 +44,7 @@ Output: Largest number = 75821
 
 **示例 1:** 仅使用 if 语句查找最大数。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -69,7 +69,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the numbers A, B and C: 2 8 1 
 8 is the largest number.
 
@@ -77,7 +77,7 @@ Enter the numbers A, B and C: 2 8 1
 
 **例 2:** 用 if-else 语句求最大数。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -105,7 +105,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the numbers A, B and C: 2 8 1 
 8 is the largest number.
 
@@ -113,7 +113,7 @@ Enter the numbers A, B and C: 2 8 1
 
 **示例 3:** 使用嵌套的 if-else 语句查找最大数。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -137,7 +137,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the numbers A, B and C: 2 8 1 
 8 is the largest number.
 
@@ -145,7 +145,7 @@ Enter the numbers A, B and C: 2 8 1
 
 **例 4:** 用三元算子求最大数。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -164,7 +164,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Enter the numbers A, B and C: 2 8 1 
 8 is the largest number.
 

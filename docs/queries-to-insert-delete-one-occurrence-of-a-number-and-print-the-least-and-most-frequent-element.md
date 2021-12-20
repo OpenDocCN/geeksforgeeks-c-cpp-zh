@@ -33,7 +33,7 @@
 一种简单的方法是使用任何数据结构(数组，向量，..)并储存所有元素。使用[散列表](https://www.geeksforgeeks.org/hashing-data-structure/)，可以存储每个元素的频率。在处理类型-2 的查询时，从存储该元素的数据存储区中删除该元素的一个匹配项。类型 3 和类型 4 的查询可以通过遍历哈希表来回答。每个查询的时间复杂度将是 **O(N)** ，其中 N 是在此之前 DS 中的元素数量。
 一种**有效的方法**是使用[设置](https://www.geeksforgeeks.org/set-in-cpp-stl/)容器来回答每个查询。使用两个集合，一个散列表，上述问题可以在每个查询的**0(log n)**中解决。使用两套 *s1* 和 *s2* ，一套存储 ***{num，frequency}*** ，另一套存储 ***{frequency，number}*** 。使用存储每个数字的频率的散列图。使用运算符重载设计集合 s2，使其按照第一个元素的升序排序。如果第一个元素看起来与一个或多个元素相同，则集合将按第二个元素的降序排序。用户定义的[操作-过载](https://www.geeksforgeeks.org/operator-overloading-c/)功能将是:
 
-```
+```cpp
 bool operator<(pr a, pr b) {
  if(a.first == b.first) return a.second > b.second;          
  return a.first < b.first;
@@ -53,7 +53,7 @@ data-types. *pr* is a struct which has first and second as two integers.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for performing
 // Queries of insert, delete one
 //  occurrence of a number and
@@ -214,7 +214,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 7
 7
 6

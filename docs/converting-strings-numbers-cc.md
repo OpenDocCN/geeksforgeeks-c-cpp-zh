@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A program to demonstrate the use of stringstream
 #include <iostream>
 #include <sstream>
@@ -36,11 +36,11 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of x : 12345
 ```
 
-```
+```cpp
 // A stringstream is similar to input/output
 // file stream. We need to declare a stringstream
 // just like an fstream, for example: 
@@ -63,7 +63,7 @@ ss >> myInt;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -77,7 +77,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of x : 12345
 ```
 
@@ -88,7 +88,7 @@ Value of x : 12345
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of stoi()
 // Work only if compiler supports C++11 or above.
 #include <iostream>
@@ -118,7 +118,7 @@ int main()
 
 输出:
 
-```
+```cpp
 stoi("45") is 45
 stoi("3.14159") is 3
 stoi("31337 geek") is 31337 
@@ -128,7 +128,7 @@ stoi("31337 geek") is 31337
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // For C++11 above
 #include <cstdlib>
 #include <iostream>
@@ -155,7 +155,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -180,7 +180,7 @@ int main()
 
 输出:
 
-```
+```cpp
 atoi("42") is 42
 atoi("3.14159") is 3
 atoi("31337 geek") is 31337 
@@ -193,13 +193,13 @@ atoi("31337 geek") is 31337
 *   atoi()只适用于 C 风格的字符串(字符数组和字符串文字)，stoi()适用于 C++字符串和 C 风格的字符串
 *   atoi()只接受一个参数并返回整数值。
 
-```
+```cpp
 int atoi (const char * str); 
 ```
 
 *   stoi()最多可接受三个参数，第二个参数用于起始索引，第三个参数用于输入数字的基数。
 
-```
+```cpp
 int stoi (const string&  str, size_t* index = 0, int base = 10); 
 ```
 

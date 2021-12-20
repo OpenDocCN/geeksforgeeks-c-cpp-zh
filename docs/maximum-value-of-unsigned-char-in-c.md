@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to obtain the maximum
 // value that can be stored in an
 // unsigned char
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value from climits constant : 255
 Value using the wrap around property : 255
 

@@ -8,7 +8,7 @@
 *   **real()**–返回复数的实部。
 *   **imag()** – It returns the imaginary part of the complex number.
 
-    ```
+    ```cpp
     // Program illustrating the use of real() and 
     // imag() function
     #include <iostream>     
@@ -32,7 +32,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Real part: 10
     Imaginary part: 2
 
@@ -41,7 +41,7 @@
 *   **ABS()**–返回复数的绝对值。
 *   **arg()** – It returns the argument of the complex number.
 
-    ```
+    ```cpp
     // Program illustrating the use of arg() and abs()
     #include <iostream>     
 
@@ -69,7 +69,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The absolute value of (3,4) is: 5
     The argument of (3,4) is: 0.927295
 
@@ -80,7 +80,7 @@
     实数=幅度*余弦(相角)
     虚数=幅度*正弦(相角)
 
-    ```
+    ```cpp
     // Program illustrating the use of polar()
     #include <iostream>     
 
@@ -103,7 +103,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The complex whose magnitude is 2 and phase angle is 0.5 is (1.75517,0.958851)
 
     ```
@@ -111,7 +111,7 @@
 *   **norm()** – It is used to find the norm(absolute value) of the complex number. If z = x + iy is a complex number with real part x and imaginary part y, the complex conjugate of z is defined as z'(z bar) = x – iy, and the absolute value, also called the norm, of z is defined as :
     [![complex-2](img/dd23cb86c9a2aa3a2628dcc6a0b361d8.png)](https://media.geeksforgeeks.org/wp-content/uploads/complex-2.png)
 
-    ```
+    ```cpp
     // example to illustrate the use of norm()
     #include <iostream>     
 
@@ -135,14 +135,14 @@
 
     输出:
 
-    ```
+    ```cpp
     The norm of (3,4) is 25.
 
     ```
 
 *   **conj()** – It returns the conjugate of the complex number x. The conjugate of a complex number (real,imag) is (real,-imag).
 
-    ```
+    ```cpp
     // Illustrating the use of conj()
     #include <iostream> 
     using namespace std;
@@ -165,14 +165,14 @@
 
     输出:
 
-    ```
+    ```cpp
      The conjugate of (10,2) is (10,-2)
 
     ```
 
 *   **proj()** – It returns the projection of z(complex number) onto the Riemann sphere. The projection of z is z, except for complex infinities, which are mapped to the complex value with a real component of INFINITY and an imaginary component of 0.0 or -0.0 (where supported), depending on the sign of the imaginary component of z.
 
-    ```
+    ```cpp
     // Illustrating the use of proj()
 
     #include <iostream>
@@ -197,7 +197,7 @@
 
     输出:
 
-    ```
+    ```cpp
     proj(1,2) = (1,2)
     proj(inf,-1) = (inf,-0)
     proj(0,-inf) = (inf,-0)
@@ -206,7 +206,7 @@
 
 *   **sqrt()** – Returns the square root of x using the principal branch, whose cuts are along the negative real axis.
 
-    ```
+    ```cpp
     // Illustrating the use of sqrt()
     #include <iostream>
     using namespace std;
@@ -227,7 +227,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Square root of -4 is (0,2)
     Square root of (-4,-0), the other side of the cut, is (0,-2)
 

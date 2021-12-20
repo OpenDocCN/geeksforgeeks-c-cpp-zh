@@ -20,7 +20,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Self implementation of
 // the Vector Class in C++
 
@@ -178,7 +178,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Vector size : 5
 Vector capacity : 8
 Vector elements : 10 20 30 40 50 

@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 list_name.resize(int n, value_type val)
 
 ```
@@ -24,7 +24,7 @@ list_name.resize(int n, value_type val)
 
 下面的程序说明了 C++ STL 中的 list::resize()函数:
 
-```
+```cpp
 // CPP program to illustrate the
 // list::resize() function
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Initial List: 10 20 30 40 
 
 List after first resize: 10 20 

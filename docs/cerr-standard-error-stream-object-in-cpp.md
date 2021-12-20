@@ -9,7 +9,7 @@
 
 下面是说明 **cerr** 的程序:
 
-```
+```cpp
 // C++ program to illustrate std::cerr
 
 #include <iostream>
@@ -33,7 +33,7 @@ int main()
 在上面的程序中，第 11 行的输出将显示一个错误窗口:CPP 代码中的
 **运行时错误:**
 
-```
+```cpp
 Welcome to GfG! :: cerr
 
 ```

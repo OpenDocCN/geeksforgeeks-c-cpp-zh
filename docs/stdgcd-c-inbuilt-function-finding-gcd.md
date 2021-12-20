@@ -6,7 +6,7 @@
 C++内置了计算 GCD 的功能。这个函数存在于头文件中。
 **c++ 14 的语法:**
 
-```
+```cpp
  Library: 'algorithm'
  __gcd(m, n) 
 Parameter :  m, n
@@ -16,7 +16,7 @@ else gcd of m and n.
 
 **c++ 17 的语法:**
 
-```
+```cpp
 Library: 'numeric'
 gcd(m, n)
 Parameter :  m, n
@@ -26,7 +26,7 @@ else gcd of m and n.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // gcd function of C++ STL
 #include <iostream>
@@ -43,7 +43,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 gcd(6, 20) = 2
 
 ```
@@ -52,7 +52,7 @@ gcd(6, 20) = 2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // undefined behavior of
 // gcd function of C++ STL

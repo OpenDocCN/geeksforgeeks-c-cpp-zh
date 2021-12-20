@@ -17,7 +17,7 @@
 
 ## C
 
-```
+```cpp
 // C program for clearing console and
 // comparing two different methods
 #include <stdio.h>
@@ -69,7 +69,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeks for geeks 9999
 Time taken by system("clear") 0.934388
 Time taken by regex 0.000001

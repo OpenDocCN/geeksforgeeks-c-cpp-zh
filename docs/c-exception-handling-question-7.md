@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-7/](https://www.geeksforgeeks.org/c-exception-handling-question-7/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -30,19 +30,19 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 Outer Catch
 ```
 
 **(B)**
 
-```
+```cpp
 Inner Catch
 ```
 
 **(C)**
 
-```
+```cpp
 Inner Catch
 Outer Catch
 ```

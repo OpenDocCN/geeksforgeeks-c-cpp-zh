@@ -6,7 +6,7 @@
 **什么是复制构造函数？**
 复制构造函数是使用同一类的另一个对象初始化一个对象的成员函数。复制构造函数具有以下一般函数原型:
 
-```
+```cpp
     ClassName (const ClassName &old_obj); 
 ```
 
@@ -14,7 +14,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 p1.x = 10, p1.y = 15
 p2.x = 10, p2.y = 15 
 ```
@@ -76,7 +76,7 @@ p2.x = 10, p2.y = 15
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 MyClass t1, t2;
 MyClass t3 = t1;  // ----> (1)
 t2 = t1;          // -----> (2)
@@ -88,7 +88,7 @@ t2 = t1;          // -----> (2)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -146,7 +146,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksQuiz
 GeeksQuiz
 GeeksQuiz
@@ -158,7 +158,7 @@ GeeksforGeeks
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -208,7 +208,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksQuiz
 GeeksQuiz
 GeeksforGeeks

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-宏-预处理器-问题-1/](https://www.geeksforgeeks.org/c-macro-preprocessor-question-1/)
 
-```
+```cpp
 #include <stdio.h>
 #define PRINT(i, limit) do \
                         { \

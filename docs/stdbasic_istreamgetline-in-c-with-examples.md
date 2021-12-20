@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 basic_istream& getline (char_type* a, 
                             streamsize n )
 
@@ -35,7 +35,7 @@ basic_istream& getline (char_type* a,
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::getline
 
@@ -70,7 +70,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 123
 aef
 5h
@@ -79,7 +79,7 @@ aef
 
 **程序二:**
 
-```
+```cpp
 // C++ program to demonstrate
 // basic_istream::getline
 
@@ -116,7 +116,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 GeeksforGeeks
 A
 Computer

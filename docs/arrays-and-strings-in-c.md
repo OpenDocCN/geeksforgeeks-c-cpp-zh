@@ -12,7 +12,7 @@
 
 **一维数组:**一维数组是相同数据类型的集合。一维数组声明为:
 
-```
+```cpp
 data_type variable_name[size]
 
 data_type is the type of array, like int, float, char, etc.
@@ -28,7 +28,7 @@ size is the length of the array which is fixed.
 
 下面是演示数组遍历的程序:
 
-```
+```cpp
 // C++ program to illustrate the traversal
 // of the array
 #include "iostream"
@@ -62,14 +62,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4
 
 ```
 
 **多维数组:**多维数组也称为数组的数组。通常，我们使用二维数组。它也被称为矩阵。我们使用两个索引来遍历 2D 数组的行和列。声明如下:
 
-```
+```cpp
 data_type variable_name[N][M]
 
 data_type is the type of array, like int, float, char, etc.
@@ -81,7 +81,7 @@ M is the number of columns.
 
 下面是演示 2D 数组遍历的程序:
 
-```
+```cpp
 // C++ program to illustrate the traversal
 // of the 2D array
 #include "iostream"
@@ -120,7 +120,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 
 3 4
 
@@ -130,14 +130,14 @@ int main()
 
 C++字符串类在内部使用字符数组来存储字符，但是所有的内存管理、分配和空终止都是由字符串类本身处理的，这就是它易于使用的原因。例如，它被声明为:
 
-```
+```cpp
 char str[] = "GeeksforGeeks"
 
 ```
 
 下面是说明字符串遍历的程序:
 
-```
+```cpp
 // C++ program to illustrate the
 // traversal of string
 #include "iostream"
@@ -172,7 +172,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 G e e k f o r G e e k s
 
 ```
@@ -186,7 +186,7 @@ C++中的字符串数据类型提供了各种字符串操作功能。它们是:
 
 下面是说明上述功能的程序:
 
-```
+```cpp
 // C++ program to illustrate functions
 // of string manipulation
 #include "iostream"
@@ -248,7 +248,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Length of string GeekforGeeks is 12
 
 String GeekforGeeks and String HelloGeek are not equal.

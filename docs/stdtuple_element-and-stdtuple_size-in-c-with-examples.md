@@ -13,14 +13,14 @@
 
 **语法-**
 
-```
+```cpp
 template< size_t I, class T, size_t N >
 struct tuple_element<I, array<T, N> >;
 ```
 
 **参数-**
 
-```
+```cpp
 T − type for which the tuple element is obtained.
 I − index of the element.
 N − the size of the array.
@@ -31,7 +31,7 @@ N − the size of the array.
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -67,7 +67,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 1
 0
 ```
@@ -77,7 +77,7 @@ int main()
 
 **语法-**
 
-```
+```cpp
 template< class T, size_t N >
 class tuple_size< array<T, N> > :
  integral_constant<size_t, N>
@@ -86,7 +86,7 @@ class tuple_size< array<T, N> > :
 
 **参数-**
 
-```
+```cpp
 T − type for which the tuple size is obtained.
 ```
 
@@ -95,7 +95,7 @@ T − type for which the tuple size is obtained.
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include <array>
@@ -116,6 +116,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 6
 ```

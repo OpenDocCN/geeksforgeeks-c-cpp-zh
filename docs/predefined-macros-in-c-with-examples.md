@@ -6,7 +6,7 @@
 
 1.  **_ _ LINE _ _ Macro**:_ _ LINE _ _ Macro 包含编译中程序的当前行号。它给出了调用它的行号。它用于生成日志语句、错误消息、抛出异常和调试代码。每当编译器在编译中发现错误时，它首先使用 __LINE__ 生成发生错误的行号，并打印错误消息和行号，以便用户可以轻松修复该错误。T5】CT7
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -21,7 +21,7 @@
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -40,7 +40,7 @@
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -52,7 +52,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Program Compilation Date: Dec 26 2019
 
     ```
@@ -61,7 +61,7 @@
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -73,7 +73,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Time of compilation is: 13:17:20
 
     ```
@@ -82,7 +82,7 @@
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -94,14 +94,14 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Compiler Standard Number: 1
 
     ```
 
 6.  **_ _ STDC _ _ 托管宏**:如果编译器的目标是托管环境，则该宏的值为 1。托管环境是第三方保存编译数据并在自己的计算机上运行程序的设施。通常，该值设置为 1。T5】CT7
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -114,7 +114,7 @@
     T8T10**输出:**T1
 7.  **__STDC_VERSION__**: This macro holds the C Standard’s version number in the form *yyyymmL* where yyyy and mm are the year and month of the Standard version. This signifies which version of the C Standard the compiler conforms to.
 
-    ```
+    ```cpp
     Values hold by __STDC_VERSION__
     ```
 
@@ -128,7 +128,7 @@
 
     ## C
 
-    ```
+    ```cpp
     #include <stdio.h>
     int main()
     {
@@ -141,7 +141,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Compiler Standard VERSION Number: 201112
 
     ```
@@ -150,7 +150,7 @@
 
 8.  **__cplusplus** : __cplusplus 宏是在使用 C++编译器时定义的。它用于测试头文件是由 C 编译器还是 C++编译器编译的。这个宏给出的值类似于 __ STDC _ 版本 _ _，因为它扩展到了一个版本号。
 
-    ```
+    ```cpp
     Values hold by __cplusplus
     ```
 

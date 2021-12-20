@@ -6,7 +6,7 @@
 
 定义不是也从来不是 C++，甚至不是 C，参见 [ISO C++标准 3.6.1[2]](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4296.pdf) 或 [ISO C 标准 5.1.2.2.1。](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4296.pdf)了解更多。
 
-```
+```cpp
 void main(){
 // Body
 }
@@ -14,7 +14,7 @@ void main(){
 
 一致性实现接受下面给出的格式:
 
-```
+```cpp
 int main(){ 
 // Body
 }
@@ -22,7 +22,7 @@ int main(){
 
 和
 
-```
+```cpp
 int main(int argc, char* argv[]){
 // Body
 }
@@ -36,7 +36,7 @@ int main(int argc, char* argv[]){
 
 ## CPP
 
-```
+```cpp
 // CPP Program to demonstrate main() with
 // return type
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 This program returns the integer value 0
 ```
 
@@ -63,7 +63,7 @@ This program returns the integer value 0
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

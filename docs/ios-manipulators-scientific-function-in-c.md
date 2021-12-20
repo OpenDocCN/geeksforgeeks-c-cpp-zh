@@ -6,7 +6,7 @@ C++中**流操纵器**的 **scientific()** 方法用于设置指定字符串流�
 
 **语法:**
 
-```
+```cpp
 ios_base& scientific (ios_base& str)
 
 ```
@@ -17,7 +17,7 @@ ios_base& scientific (ios_base& str)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of scientific() function
 
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without scientific flag: 1.23
 with scientific flag: 1.23000e+00
 
@@ -54,7 +54,7 @@ with scientific flag: 1.23000e+00
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of scientific() function
 
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without scientific flag: 1
 with scientific flag: 1.00000e+00
 
@@ -91,7 +91,7 @@ with scientific flag: 1.00000e+00
 
 **例 3:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of scientific() function
 
@@ -120,7 +120,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 without scientific flag: 1.23e+09
 with scientific flag: 1.23000e+09
 

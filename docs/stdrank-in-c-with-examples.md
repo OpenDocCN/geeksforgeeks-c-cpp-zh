@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template<class T>
 struct rank;
 
@@ -26,7 +26,7 @@ inline constexpr
 
 **语法:**
 
-```
+```cpp
 std::rank<T>::value
 
 ```
@@ -39,7 +39,7 @@ std::rank<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate std::rank
 #include <bits/stdc++.h>
 #include <type_traits>
@@ -73,7 +73,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 rank of following type:
 int: 0
 int[]: 1

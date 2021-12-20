@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 scanf("%d %d", &a, &b);
 printf("%d %d", a, b);
 

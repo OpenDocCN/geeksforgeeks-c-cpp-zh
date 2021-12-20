@@ -14,7 +14,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 1.  **Function with no argument and no return value :** When a function has no arguments, it does not receive any data from the calling function. Similarly when it does not return a value, the calling function does not receive any data from the called function.
     Syntax :
 
-    ```
+    ```cpp
     Function declaration : void function();
     Function call : function();
     Function definition :
@@ -25,7 +25,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     ```
 
-    ```
+    ```cpp
     // C code for  function with no
     //  arguments and no return value
 
@@ -50,7 +50,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     **输出:**
 
-    ```
+    ```cpp
     The total amount is 5000.000000
 
     ```
@@ -59,7 +59,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     语法:
 
-    ```
+    ```cpp
     Function declaration : void function ( int );
     Function call : function( x );
     Function definition:
@@ -70,7 +70,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     ```
 
-    ```
+    ```cpp
     // C code for function 
     // with argument but no return value
     #include <stdio.h>
@@ -98,7 +98,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     **输出:**
 
-    ```
+    ```cpp
     value of a is 20
     value of ar[0] is 10
     value of ar[1] is 20
@@ -112,7 +112,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 3.  **Function with no arguments but returns a value :** There could be occasions where we may need to design functions that may not take any arguments but returns a value to the calling function. A example for this is getchar function it has no parameters but it returns an integer an integer type data that represents a character.
     Syntax :
 
-    ```
+    ```cpp
     Function declaration : int function();
     Function call : function();
     Function definition :
@@ -124,7 +124,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     ```
 
-    ```
+    ```cpp
     // C code for function with no arguments 
     // but have return value
     #include <math.h>
@@ -149,7 +149,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     **输出:**
 
-    ```
+    ```cpp
     Sum of two given values = 16
 
     ```
@@ -157,7 +157,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 4.  **Function with arguments and return value**
     Syntax :
 
-    ```
+    ```cpp
     Function declaration : int function ( int );
     Function call : function( x );
     Function definition:
@@ -169,7 +169,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     ```
 
-    ```
+    ```cpp
     // C code for function with arguments 
     // and with return value
 
@@ -204,7 +204,7 @@ C 中的函数可以用参数调用，也可以不用参数调用。这些函数
 
     **输出:**
 
-    ```
+    ```cpp
     value of a is 40
     value of arr[0] is 60
     value of arr[1] is 70

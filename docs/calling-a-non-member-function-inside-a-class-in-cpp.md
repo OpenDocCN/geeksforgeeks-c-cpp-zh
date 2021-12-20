@@ -6,7 +6,7 @@
 
 ## c++
 
-```
+```cpp
 // Given Class
 class memberdemo {
 private:
@@ -31,7 +31,7 @@ private:
 
 ## C++
 
-```
+```cpp
 // C++ to illustrate the above concepts
 #include <iostream>
 using namespace std;
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Member function inside class declared
 Member function but declared  outside the class
 Non-member function
@@ -105,7 +105,7 @@ Non-member function
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate the
 // above approach
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 120
 
 ```

@@ -9,7 +9,7 @@
 **实现:**我们创建一个结构类型，并在该结构内部定义一个比较函数，用于比较两个结构类型对象。由于无序集在内部实现了散列函数，所以我们也应该为用户定义的类型对象实现散列函数。
 **语法**存储用户定义的类型元素无序 _ 集合应遵循以下语法
 
-```
+```cpp
 unordered_set(elementType, MyHashType) us;
 // element type is user defined type and MyHashType is class implementing hash function
 ```
@@ -18,7 +18,7 @@ unordered_set(elementType, MyHashType) us;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP implementation to use
 // user-defined data type in
 // structures
@@ -77,13 +77,13 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 115 101 110 102
 ```
 
 **Output:** 
 
-```
+```cpp
 115 101 110 102
 ```
 
@@ -91,7 +91,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate working of unordered_set
 // for user defined data types.
 #include <bits/stdc++.h>
@@ -147,7 +147,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 [Laxman, Prasad]
 [kartik, kapoor]
 [Ram, Singh]

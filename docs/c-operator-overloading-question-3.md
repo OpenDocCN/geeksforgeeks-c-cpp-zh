@@ -4,7 +4,7 @@
 
 即使用户没有编写，编译器在每个用户定义的类中默认重载以下哪些运算符？
 
-```
+```cpp
 1) Comparison Operator ( == )
 2) Assignment Operator ( = ) 
 ```
@@ -19,7 +19,7 @@
 
 但是比较运算符“==”没有重载。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.size()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the 
 // unordered_set.size() function 
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 size of arr1:5
 The elements are: 5 1 2 3 4
 
@@ -53,7 +53,7 @@ The elements are: 5 1 2 3 4
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::size() function
 // when container is empty
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Size of arr2 : 0
 
 ```

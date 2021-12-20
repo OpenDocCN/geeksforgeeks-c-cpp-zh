@@ -6,7 +6,7 @@ count_if()函数返回一个范围内满足条件的元素个数。
 
 语法:
 
-```
+```cpp
 template <class InputT, class UnaryPredicate>
 typename iterator_traits <InputT> :: difference_type
     count_if(InputT first, InputT last, UnaryPredicate p);
@@ -14,7 +14,7 @@ typename iterator_traits <InputT> :: difference_type
 
 示例:
 
-```
+```cpp
 Input: 0 1 2 3 4 5 6 7 8 9
 Output: Total no of even numbers is: 5
 
@@ -30,7 +30,7 @@ count_if 函数采用三个参数，其中前两个参数是元素序列的第�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show the working
 // of count_if()
 #include <bits/stdc++.h>
@@ -65,6 +65,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Total no of even numbers is: 5
 ```

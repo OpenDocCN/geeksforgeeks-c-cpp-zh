@@ -8,7 +8,7 @@ boost::词法 _cast 是类似于 [std::stoi()](https://www.geeksforgeeks.org/std
 现在让我们看看这个函数在程序中的实现。
  **示例:**
 
-```
+```cpp
 Conversion
 integer -> string
 string- > integer
@@ -19,7 +19,7 @@ float- > string
 
 **关联异常:**如果转换失败，将引发从 bad_cast 派生的 bad _ 词法 _cast 类型的异常。它引发了一个异常，因为 float 52.50 和字符串“GeeksforGeeks”不能转换为 int 类型的数字。
 
-```
+```cpp
 // CPP program to illustrate
 // Boost.Lexical_Cast in C++
 #include "boost/lexical_cast.hpp"
@@ -70,7 +70,7 @@ int main() {
 
 输出:-
 
-```
+```cpp
 23
 45
 1234

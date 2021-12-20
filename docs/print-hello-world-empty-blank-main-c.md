@@ -8,7 +8,7 @@
 
 *   我们可以创建一个全局变量，并为其分配 printf()的返回值，该返回值打印“Hello World”
 
-    ```
+    ```cpp
     // C++ program to print something with empty main()
     #include <bits/stdc++.h>
 
@@ -22,7 +22,7 @@
 
 *   我们可以在 C++中使用[构造函数](https://www.geeksforgeeks.org/constructors-c/)。在下面的程序中，我们在主函数的外部创建了一个类“A”的对象，这样对象声明的时候就可以调用构造函数，这样就可以打印“Hello World”了。
 
-    ```
+    ```cpp
     // C++ program to print something with empty main()
     #include <iostream>
     using namespace std;

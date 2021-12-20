@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> T norm (const complex<T>& z);
 
 ```
@@ -21,7 +21,7 @@ template<class T> T norm (const complex<T>& z);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of norm() function.
 
@@ -44,14 +44,14 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The norm of (5,12) is 169
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of norm() function.
 
@@ -74,7 +74,7 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The norm of (4,3) is 25
 
 ```

@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the use of log()
 #include <iostream>    
 
@@ -33,31 +33,31 @@ int main ()
 
 *   输出:
 
-```
+```cpp
 The log of (-1,0) is (0,3.14159)
 ```
 
 *   **cos()**–它计算复数值 z 的复余弦。余弦的数学定义是
 
-```
+```cpp
 cos z = (e^(iz) + e^(-iz))/2
 ```
 
 *   **sin()**–它计算复数值 z 的复正弦。余弦的数学定义为
 
-```
+```cpp
  sin z = (e^(iz) - e^(-iz))/2i
 ```
 
 *   **tan()**–它计算复数值 z 的复切线。切线的数学定义为
 
-```
+```cpp
 tan z = i(e^(-iz) - e^(iz)) / (e^(-iz) + e^iz)
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // example to illustrate the use of sin(), cos() and tan()
 #include <iostream>    
 
@@ -90,7 +90,7 @@ int main ()
 
 *   输出:
 
-```
+```cpp
 The cos of (0,1) is (1.54308,-0)
 The sin of (0,1) is (0,1.1752)
 The tan of (0,1) is (0,0.761594)
@@ -98,25 +98,25 @@ The tan of (0,1) is (0,0.761594)
 
 *   **cosh()**–它找到给定复数的双曲余弦。双曲余弦的数学函数是:
 
-```
+```cpp
 cosh(z)=(e^z+e^(-z))/2
 ```
 
 *   **sinh()**–它找到给定复数的双曲正弦。双曲正弦的数学函数是:
 
-```
+```cpp
   sinh(z)=(e^z-e^(-z))/2.
 ```
 
 *   **tanh()**–它找到给定复数的双曲正切。双曲线 tan 的数学函数是:
 
-```
+```cpp
 tanh(z)=(e^(2z)-1)/(e^(2z)+1)
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // use of cosh(),sinh(),tanh()
 #include <iostream>
@@ -152,7 +152,7 @@ int main()
 
 *   输出:
 
-```
+```cpp
 cosh(1.000000,0.000000) = (1.543081,0.000000) (cosh(1) = 1.543081)
 sinh(1.000000,0.000000) = (1.175201,0.000000) (sinh(1) = 1.175201)
 tanh(1.000000,0.000000) = (0.761594,0.000000) (tanh(1) = 0.761594)

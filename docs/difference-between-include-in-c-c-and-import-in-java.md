@@ -13,7 +13,7 @@
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate use of #include
 #include <stdio.h>
 
@@ -31,7 +31,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```
@@ -47,7 +47,7 @@ GeeksforGeeks
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to demonstrate use of import
 import java.io.*;
 
@@ -66,7 +66,7 @@ class GFG {
 
 **Output:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```

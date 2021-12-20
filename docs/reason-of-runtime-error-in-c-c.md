@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to illustrate invalid
 // memory access during run-time
 #include <iostream>
@@ -31,7 +31,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1736487104
 
 ```

@@ -7,7 +7,7 @@
 创建模板时，可以指定多种类型。我们可以在一个类模板中使用多个通用数据类型。它们在模板中声明为逗号分隔列表，如下所示:
 **语法:**
 
-```
+```cpp
 template<class T1, class T2, ...>
 class classname
 {
@@ -17,7 +17,7 @@ class classname
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Class template with multiple parameters
 
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1.23 and 123
 100 and  W
 
@@ -73,7 +73,7 @@ int main()
 *   当参数不止一个时，它们用逗号隔开。
 *   Following statement
 
-    ```
+    ```cpp
     Test  test1 (1.23, 123);
     ```
 

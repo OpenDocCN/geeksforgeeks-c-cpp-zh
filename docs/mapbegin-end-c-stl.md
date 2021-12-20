@@ -10,7 +10,7 @@ begin()函数用于返回指向 map 容器第一个元素的迭代器。begin()�
 
 **语法:**
 
-```
+```cpp
 *mapname*.begin()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : mymap['a'] = 1;
          mymap['b'] = 2;
          mymap['c'] = 3;
@@ -40,7 +40,7 @@ Output : *returns an iterator to the element 'd' = 1*
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // Demonstrates begin() and end()
 #include <iostream>
 #include <map>
@@ -65,7 +65,7 @@ int main()
 
 输出:
 
-```
+```cpp
 a = 1
 b = 2
 c = 3
@@ -77,7 +77,7 @@ end()函数用于返回一个迭代器，指向 map 容器的最后一个元素�
 
 **语法:**
 
-```
+```cpp
 *mapname*.end()
 Parameters :
 No parameters are passed.
@@ -89,7 +89,7 @@ iterator pointing to the next of last element.
 
 示例:
 
-```
+```cpp
 Input  : mymap['a'] = 1;
          mymap['b'] = 2;
          mymap['c'] = 3;
@@ -104,7 +104,7 @@ Output : *returns an iterator to next to c
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Demonstrates begin() and end() 
 #include <iostream>
@@ -130,7 +130,7 @@ int main()
 
 输出:
 
-```
+```cpp
 a = 1
 b = 2
 c = 3

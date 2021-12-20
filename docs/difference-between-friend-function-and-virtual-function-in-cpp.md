@@ -6,7 +6,7 @@
 
 **插图:**
 
-```
+```cpp
 class GFG  
 { 
  private: 
@@ -23,7 +23,7 @@ void check();
 
 **插图:**
 
-```
+```cpp
 class GFG  
 {  
 Public:  

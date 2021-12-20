@@ -5,14 +5,14 @@
 **basic_istream::unget()** 用于取消字符的锁定，用于将位置减少一个字符，并使提取的字符可供再次使用。
 T3】头文件:T5】
 
-```
+```cpp
 <iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 basic_istream& unget();
 
 ```
@@ -24,7 +24,7 @@ basic_istream& unget();
 
 ## CPP14
 
-```
+```cpp
 // C++ code for basic_istream::unget()
 #include <bits/stdc++.h>
 using namespace std;
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 We got: G
 After ungetting the character once again we got: G
 

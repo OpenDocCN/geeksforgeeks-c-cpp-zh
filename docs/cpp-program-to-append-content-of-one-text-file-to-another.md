@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : file.txt : "geeks", file2.txt : "geeks for"
 Output: file2.txt : "geeks for geeks"
 
@@ -18,7 +18,7 @@ Output: file2.txt : "geeks for geeks"
 **3)** 如果两个文件都找到了，那么将内容从源文件写到目标文件。
 **4)** 显示目的文件的内容。
 
-```
+```cpp
 // C++ implementation to append
 // content from source file to
 // destination file
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeks for geeks
 
 ```

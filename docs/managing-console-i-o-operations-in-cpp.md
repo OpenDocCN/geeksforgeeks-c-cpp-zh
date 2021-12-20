@@ -29,7 +29,7 @@ C++包含几个预定义的流，当程序开始执行时，这些流会自动�
 
 ## c++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -44,7 +44,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is my first Blog on the gfg
 
 ```

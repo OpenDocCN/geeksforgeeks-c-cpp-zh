@@ -15,7 +15,7 @@
 
 我们使用 [bind()函数](http://man7.org/linux/man-pages/man2/bind.2.html)，成功时返回 0，失败时返回-1。我们在循环中为不同的端口号调用 bind，直到它返回 0。
 
-```
+```cpp
 // Server side C program to demonstrate
 // that we can not assign port number less
 // than 1024 without root access
@@ -55,7 +55,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Server Created
 Binded Correctly on port number 1024
 
@@ -68,7 +68,7 @@ Binded Correctly on port number 1024
 1.  **方法 1** :使用**[CAP _ NET _ BIND _ SERVICE](http://man7.org/linux/man-pages/man7/capabilities.7.html)**授予进程的低编号端口访问权限:
     为此，我们只需要在终端运行以下命令:
 
-    ```
+    ```cpp
     sudo setcap CAP_NET_BIND_SERVICE=+eip /path/to/binary
     ```
 
@@ -76,7 +76,7 @@ Binded Correctly on port number 1024
     *   使用任何包管理器安装 authbind
     *   Run following two commands one by one in terminal :
 
-        ```
+        ```cpp
         sudo touch /etc/authbind/byport/80
         sudo chmod 777 /etc/authbind/byport/80
         ```
@@ -85,7 +85,7 @@ Binded Correctly on port number 1024
 
     *   现在在终端
 
-        ```
+        ```cpp
         authbind --deep /path/to/binary command line args
         ```
 

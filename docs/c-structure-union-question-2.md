@@ -4,7 +4,7 @@
 
 假设整数大小是 32 位。以下程序的输出是什么？
 
-```
+```cpp
 #include<stdio.h>
 struct st
 {

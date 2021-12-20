@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int wcscmp(const wchar_t* str1, const wchar_t* str2);
 ```
 
@@ -25,7 +25,7 @@ int wcscmp(const wchar_t* str1, const wchar_t* str2);
 
 **例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wcscmp() function.
 
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Comparing Computer and Science = -1
 Comparing Science and Science = 0
 Comparing Science and Computer = 1

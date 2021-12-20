@@ -8,7 +8,7 @@ lrint()函数使用当前舍入模式将参数中给出的小数值舍入为整�
 **注意:**该函数返回长整型的最终值。
 **语法:**
 
-```
+```cpp
 lrint(double a);
 lrint(float a);
 
@@ -31,7 +31,7 @@ lrint(float a);
 
 **#代码 1**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of lrint()
 #include <cfenv>
@@ -56,14 +56,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Downward rounding of 15 is 15
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of lrint()
 #include <cfenv>
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Nearest rounding of 50.35 is 50
 Nearest rounding of 50.5 is 50
 
@@ -104,7 +104,7 @@ Nearest rounding of 50.5 is 50
 
 **#代码 3**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of lrint()
 #include <cfenv>
@@ -139,7 +139,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Upward rounding of 50.3 is 51
 Downward rounding of 50.88 is 50
 
@@ -153,7 +153,7 @@ llrint()函数使用当前舍入模式将参数中给定的小数值舍入为整
 **注意:**因此函数返回长整型值
 **语法:**
 
-```
+```cpp
 llrint(double a);
 llrint(float a);
 
@@ -178,7 +178,7 @@ llrint(float a);
 
 **#代码 1**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of llrint()
 #include <cfenv>
@@ -203,14 +203,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Downward rounding of 15 is 15
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of llrint()
 #include <cfenv>
@@ -242,7 +242,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Nearest rounding of 50.35 is 50
 Nearest rounding of 50.5 is 50
 
@@ -250,7 +250,7 @@ Nearest rounding of 50.5 is 50
 
 **#代码 3**
 
-```
+```cpp
 // CPP code to illustrate
 // the functionality of llrint()
 #include <cfenv>
@@ -284,7 +284,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Upward rounding of 50.3 is 51
 Downward rounding of 50.88 is 50
 

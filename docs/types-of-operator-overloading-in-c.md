@@ -8,7 +8,7 @@
 
 这可以通过声明函数来完成，它的语法是，
 
-```
+```cpp
 Return_Type classname :: operator op(Argument list)
 {
     Function Body
@@ -40,7 +40,7 @@ Return_Type classname :: operator op(Argument list)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show unary operator overloading
 #include <iostream>
 
@@ -83,7 +83,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Feet & Inches(Decrement): 7'8
 ```
 
@@ -94,7 +94,7 @@ Feet & Inches(Decrement): 7'8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show binary operator overloading
 #include <iostream>
 
@@ -158,7 +158,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Total Feet & Inches: 18'11
 ```
 
@@ -174,7 +174,7 @@ Total Feet & Inches: 18'11
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show binary operator overloading
 #include <iostream>
 
@@ -242,7 +242,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Total Feet & Inches: 18'11
 ```
 

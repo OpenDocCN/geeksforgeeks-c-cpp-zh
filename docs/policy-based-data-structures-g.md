@@ -7,7 +7,7 @@ g++编译器还支持一些不属于 C++标准库的数据结构。这种结构�
 
 ## C++
 
-```
+```cpp
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
 ```
@@ -16,7 +16,7 @@ using namespace __gnu_pbds;
 
 ## C++
 
-```
+```cpp
 // Program showing a policy-based data structure.
 #include <ext/pb_ds/assoc_container.hpp> // Common file
 #include <ext/pb_ds/tree_policy.hpp>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The value at 3rd index ::6
 The index of number 6::3
 The index of number seven ::4
@@ -77,7 +77,7 @@ The index of number seven ::4
 
 ## C++
 
-```
+```cpp
 // Program showing a policy-based data structure.
 #include <ext/pb_ds/assoc_container.hpp> // Common file
 #include <ext/pb_ds/tree_policy.hpp>
@@ -120,7 +120,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The element present at the index 0 is 2 
 The element present at the index 1 is 2 
 The element present at the index 2 is 4 

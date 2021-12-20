@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to demonstrate need of
 // constructor delegation.
 #include <iostream>
@@ -54,7 +54,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0
 0
 3
@@ -65,7 +65,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Program to demonstrate use of init() to
 // avoid redundant code.
 #include <iostream>
@@ -111,7 +111,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 0
 0
 3

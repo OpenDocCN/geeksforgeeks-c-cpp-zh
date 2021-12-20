@@ -19,7 +19,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate a regular
 // and const_iterator
 #include <iostream>
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 8 3 5
 5 7 0
 

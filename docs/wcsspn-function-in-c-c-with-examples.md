@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 wcsspn(des, src)
 ```
 
@@ -21,7 +21,7 @@ wcsspn(des, src)
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsspn() function
 #include <cwchar>
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 6010IshwarGupta contains 4 initial numbers
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // wcsspn() function
 #include <cwchar>
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 GeeksforGeeks doesn't start with numbers
 
 ```

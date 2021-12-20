@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 // C program for generic linked list
 #include<stdio.h>
 #include<stdlib.h>
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Created integer linked list is
  10 20 30 40 50
 

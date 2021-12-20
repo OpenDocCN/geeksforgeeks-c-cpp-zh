@@ -17,7 +17,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to obtain the maximum
 // value that we can store in an
 // unsigned short int
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value from climits constant: 65535
 Value using the wrap around property: 65535
 

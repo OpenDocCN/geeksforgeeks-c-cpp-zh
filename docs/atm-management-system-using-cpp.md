@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement the ATM
 // Management System
 #include <iostream>

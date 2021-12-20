@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.lower_bound(key)
 ```
 
@@ -18,7 +18,7 @@ multiset_name.lower_bound(key)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::lower_bound() function
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The multiset elements are: 1 1 2 2 4 
 The lower bound of key 2 is 2
 The lower bound of key 3 is 4
@@ -72,7 +72,7 @@ The lower bound of key 7 is 5
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::lower_bound() function
 #include <bits/stdc++.h>
@@ -116,7 +116,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The multiset elements are: 1 3 3 4 5 
 The lower bound of key 3 is 3
 The lower bound of key 2 is 3

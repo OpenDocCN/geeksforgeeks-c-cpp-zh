@@ -6,7 +6,7 @@
 
 ## C++
 
-```
+```cpp
 // An Unsigned char example
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // An Unsigned char example
 #include<stdio.h>
 void fun1()
@@ -47,7 +47,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
  Infinite Loop 
 ```
 
@@ -67,7 +67,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // A signed char example
 #include <iostream>
 using namespace std;
@@ -90,7 +90,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // A signed char example
 #include<stdio.h>
 
@@ -110,7 +110,7 @@ int main()
 
 Output on GCC (Undefined Behavior in Standard):
 
-```
+```cpp
  Infinite Loop  
 ```
 
@@ -121,7 +121,7 @@ Output on GCC (Undefined Behavior in Standard):
 **那么如何从 0 循环到最大值(255 或 128 或任何其他最大值限制)？**
 这样做的一种方式如下。
 
-```
+```cpp
 // One way of looping till maximum of unsigned in C/C++
 #include<stdio.h>
 void fun1()
@@ -143,7 +143,7 @@ int main()
 
 输出:*从 0 到 255 的数字*
 
-```
+```cpp
 // One way of looping till maximum of signed in C/C++
 // (Same as above except first statement)
 #include<stdio.h>

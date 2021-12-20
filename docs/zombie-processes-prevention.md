@@ -7,7 +7,7 @@ T5】僵尸状态:在 UNIX 中使用 fork()系统调用创建进程时，会复�
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate working of
 // fork() and process table entries.
 #include<stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate working of
 // fork()/wait() and Zombie processes
 #include<stdio.h>
@@ -83,7 +83,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate ignoring
 // SIGCHLD signal to prevent Zombie processes
 #include<stdio.h>
@@ -111,7 +111,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate handling of
 // SIGCHLD signal to prevent Zombie processes.
 #include<stdio.h>

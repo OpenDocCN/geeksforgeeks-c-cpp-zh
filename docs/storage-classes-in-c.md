@@ -18,7 +18,7 @@
 要为变量指定存储类，应遵循以下语法:
 语法:
 
-```
+```cpp
 storage_class var_data_type var_name; 
 ```
 
@@ -26,7 +26,7 @@ storage_class var_data_type var_name;
 
 ## C
 
-```
+```cpp
 // A C program to demonstrate different storage
 // classes
 #include <stdio.h>

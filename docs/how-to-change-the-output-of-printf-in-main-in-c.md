@@ -16,7 +16,7 @@ T0T6】
 
 ## 
 
-```
+```cpp
 // C Program to demonstrate the use of macro arguments to
 // change the output of printf()
 #include <stdio.h>
@@ -39,7 +39,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 10
 ```
 

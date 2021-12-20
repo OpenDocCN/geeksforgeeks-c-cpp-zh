@@ -29,7 +29,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for finding the minimum sum of
 // difference between consecutive elements
 #include <bits/stdc++.h>
@@ -103,7 +103,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for finding the
 // minimum sum of difference
 // between consecutive elements
@@ -199,7 +199,7 @@ public static void main(String []args)
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python program for finding
 # the minimum sum of difference
 # between consecutive elements
@@ -281,7 +281,7 @@ print(solve(v, n))
 
 ## C#
 
-```
+```cpp
 // C# program for finding the
 // minimum sum of difference
 // between consecutive elements
@@ -377,7 +377,7 @@ static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program for finding the
 // minimum sum of difference
@@ -469,7 +469,7 @@ echo(solve($v, $n));
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program for finding the
@@ -557,7 +557,7 @@ function solve(v, n)
 
 **Output:** 
 
-```
+```cpp
 7
 ```
 

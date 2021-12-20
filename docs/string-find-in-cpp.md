@@ -19,7 +19,7 @@
 
 *   该函数返回子字符串第一次出现的索引，如果找不到子字符串，则返回 string::npos(string::pos 是静态成员，其值是 size_t 数据结构的最大值)。
 
-```
+```cpp
 // CPP program to demonstrate working of string
 // find to search a string
 #include <iostream>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First occurrence is 0
 Next occurrence is 8
 
@@ -61,7 +61,7 @@ Next occurrence is 8
 
 *   size_t find (const char c，size _ t pos = 0)；
 
-```
+```cpp
 // CPP program to demonstrate working of string
 // find to search a string
 #include <iostream>
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First occurrence is 0
 Next occurrence is 8
 
@@ -101,7 +101,7 @@ Next occurrence is 8
 
 *   size_t find (const char *str，size_t pos，size _ t n)；
 
-```
+```cpp
 // CPP program to demonstrate working of string
 // find to search a string
 #include <iostream>
@@ -124,7 +124,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0
 
 ```

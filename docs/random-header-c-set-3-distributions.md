@@ -17,7 +17,7 @@
 
 *   **运算符()**:它返回一个遵循分布参数的新随机数。*   **min** :返回运算符()给出的取值范围的最大下界，在本例中始终为零。*   **max** :返回运算符()给定值范围的最小上限。*   **重置**:它重置分布，这样对象的后续使用就不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of operator() in 
     // poisson_distribution 
     #include <iostream>
@@ -50,7 +50,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Poisson-distribution(mean=5.0): 11 5 5 9 10 6 15 3 6 5 
 
     ```
@@ -60,7 +60,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **max** :返回运算符()给定范围的最小上限。*   **max** :返回运算符()给定范围的最大下界，对于 _ distribution 总是零。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of  operator() in 
     // exponential_distribution 
     #include <iostream>
@@ -99,7 +99,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Hi's separated by 2 seconds, on average: 
     Hi,Geeks!!
     Hi,Geeks!!
@@ -111,7 +111,7 @@
 
     *   **运算符()**:它返回一个遵循分布参数的新随机数。*   **min** :返回成员运算符()给定范围的最大下界，对于 gamma_distribution，该下界始终为零。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of reset in gamma_distribution
     #include <iostream>
     #include <random>
@@ -140,7 +140,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1.14392
     2.23359
 
@@ -151,7 +151,7 @@
 
     *   **运算符()**:它返回一个遵循分布参数的新随机数。*   **min** :返回算子()给定范围的最大下界，对于威布尔分布总是零。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of min and max
     // in weibull_distribution
     #include <iostream>
@@ -182,7 +182,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1.54229 is a random number between 1 and 2147483646
 
     ```
@@ -192,7 +192,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回成员运算符()给定范围的最大下界。*   **max** :返回成员运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of param in 
     // extreme_value_distribution
     #include <iostream>
@@ -218,7 +218,7 @@
 
     输出:
 
-    ```
+    ```cpp
     9.8351
     3.95306
 
@@ -236,7 +236,7 @@
     **1。正态分布**:根据正态分布产生浮点值的随机数分布，由
     ![ p \left ( x | \mu, \sigma \right ) = \frac{1}{\sigma\sqrt{2\pi}} . e^{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}} ](img/8aec780671642299f513893596e9b1f0.png "Rendered by QuickLaTeX.com")给出
 
-    ```
+    ```cpp
     where:
      (µ) :mean 
      sigma :standard deviation
@@ -245,7 +245,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回运算符()给定范围的最大下限。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of operator()
     // in normal_distribution 
     #include <iostream>
@@ -276,7 +276,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Normal-distribution(1.0,2.0):
     1.59499
     -0.458303
@@ -291,7 +291,7 @@
 
     *   **运算符()**:它生成一个遵循这个分布的随机数。*   **min** :返回运算符()给定范围的最大下界，对数正态分布总是零。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of reset in 
     // lognormal_distribution
     #include <iostream>
@@ -320,7 +320,7 @@
 
     输出:
 
-    ```
+    ```cpp
     2.12989
     10.6822
 
@@ -329,7 +329,7 @@
     **3。卡方分布**:根据卡方分布产生浮点值的随机数分布，由
     ![ p \left ( x | n \right ) = \frac{1}{\Gamma \left ( \frac{n}{2} \right ).2^{\frac{n}{2}}}.x^{\frac{n}{2}-1}. e^{-\frac{x}{2}}, x \geq 0 ](img/7d456ba290857b1ab84f0633477a653d.png "Rendered by QuickLaTeX.com")给出
 
-    ```
+    ```cpp
     where,
     n : degrees of freedom and n>0,
     n/2 : shape parameter
@@ -338,7 +338,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回运算符()给定范围的最大下界，对于卡方分布始终为零。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of operator() in 
     // chi_squared_distribution 
     #include <iostream>
@@ -369,7 +369,7 @@
 
     输出:
 
-    ```
+    ```cpp
     chi-squared-distribution(4.0):
     2.18701
     6.86953
@@ -383,7 +383,7 @@
 
     ![ p \left ( x | a,b \right ) = \frac{1}{\pi b . \left [ 1 +  \left ( \frac{x-a}{b} \right )^{2} \right ] } ](img/f2680f72d39cbf984568361ce45462d5.png "Rendered by QuickLaTeX.com")
 
-    ```
+    ```cpp
     where,
     a and b are distribution parameters
 
@@ -391,7 +391,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回运算符()给定范围的最大下限。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of param
     // in cauchy_distribution
     #include <iostream>
@@ -417,7 +417,7 @@
 
     输出:
 
-    ```
+    ```cpp
     0.438486
     7.65462
 
@@ -429,7 +429,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回运算符()给定范围的最大下界，对于 fisher_f_distribution，该下界始终为零。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of 
     // operator() in fisher_f_distribution 
     #include <iostream>
@@ -460,7 +460,7 @@
 
     输出:
 
-    ```
+    ```cpp
     fisher-f-distribution(1.0,2.0):
     0.208066
     2.76882
@@ -473,7 +473,7 @@
     **6。学生 t 分布**:根据学生 t 分布产生浮点值的随机数分布，由
     ![ p \left ( x | n \right ) = \frac{1}{\sqrt{n \pi}}.\frac{\Gamma\left (\frac{n+1}{2} \right )}{\Gamma \left ( \frac{n}{2}\right )}.\left (1\ +\ \frac{x^{2}}{n} \right )^{-\frac{n+1}{2}} ](img/9d3f083efc6f21128d588b40a143868a.png "Rendered by QuickLaTeX.com")给出
 
-    ```
+    ```cpp
     where,
     n is the distribution parameter
 
@@ -481,7 +481,7 @@
 
     *   **运算符()**:它生成根据概率函数分布的随机数。*   **min** :返回运算符()给定范围的最大下限。*   **max** :返回运算符()给定范围的最小上限。*   **重置**:它重置分布，这样在后续的使用中，结果不依赖于它已经产生的值。*   **param**: It gets or sets the distribution parameter object .
 
-    ```
+    ```cpp
     // Illustrating the use of min and max
     // in student_t_distribution
     #include <iostream>
@@ -512,7 +512,7 @@
 
     输出:
 
-    ```
+    ```cpp
     0.00906058 is a random number between 1 and 2147483646
     ```
 

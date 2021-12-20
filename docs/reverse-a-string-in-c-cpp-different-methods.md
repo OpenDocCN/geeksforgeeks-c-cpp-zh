@@ -10,7 +10,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A Simple C++ program to reverse a string
 #include <bits/stdc++.h>
 using namespace std;
@@ -38,13 +38,13 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 skeegrofskeeg
 ```
 
 2.  **使用内置的“反向”功能:**在“算法”头文件中有一个直接做反向的功能，可以节省我们编程时的时间。
 
-```
+```cpp
 // Reverses elements in [begin, end]
 void reverse (BidirectionalIterator begin, 
 BidirectionalIterator end);
@@ -52,7 +52,7 @@ BidirectionalIterator end);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A quickly written program for reversing a string
 // using reverse()
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main()
 
 1.  输出:
 
-```
+```cpp
 skeegrofskeeg
 ```
 
@@ -79,7 +79,7 @@ skeegrofskeeg
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to print reverse of a string
 #include <bits/stdc++.h>
 using namespace std;
@@ -102,7 +102,7 @@ int main(void)
 
 1.  输出:
 
-```
+```cpp
 skeegrofskeeG
 ```
 
@@ -110,7 +110,7 @@ skeegrofskeeG
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to get reverse of a const string
 #include <bits/stdc++.h>
 using namespace std;
@@ -148,7 +148,7 @@ int main(void)
 
 1.  输出:
 
-```
+```cpp
 skeeGrofskeeG
 ```
 
@@ -156,7 +156,7 @@ skeeGrofskeeG
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A simple C++ program to reverse string using constructor
 #include <bits/stdc++.h>
 using namespace std;
@@ -174,7 +174,7 @@ int main(){
 
 1.  输出:
 
-```
+```cpp
 skeeGrofskeeG
 ```
 
@@ -182,7 +182,7 @@ skeeGrofskeeG
 
 ## C++
 
-```
+```cpp
 // A simple C++ program to reverse string using constructor
 #include <bits/stdc++.h>
 using namespace std;

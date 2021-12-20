@@ -21,7 +21,7 @@
 
 ## C
 
-```
+```cpp
 // C program to print range of basic data types
 #include <stdio.h>
 
@@ -72,7 +72,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 #include <iostream>                /*1ULL is used to tell compiler use 1 which is having data type unsigned long long*/
 using namespace std;            /*if we use 1 only it will be explained as 1 of data type int which will further */
                                 /*give us a wrong output by giving a warning: left shift count >= width of type [-Wshift-count-overflow]*/
@@ -96,7 +96,7 @@ int main() {
 
 输出:
 
-```
+```cpp
 signed char:  range is from -128 to 127
 unsigned char:  range is from 0 to 255
 signed int:  range is from -2147483648 to 2147483647

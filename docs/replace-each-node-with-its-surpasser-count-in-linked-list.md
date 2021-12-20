@@ -27,7 +27,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to replace the nodes
 // with their surpasser count
 
@@ -133,7 +133,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to replace the nodes
 // with their surpasser count
 
@@ -237,7 +237,7 @@ public static void main(String[] args) {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to replace the nodes
 # with their surpasser count
 
@@ -320,7 +320,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program to replace the nodes
 // with their surpasser count
 using System;
@@ -431,7 +431,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to replace the nodes
@@ -535,7 +535,7 @@ printList(head);
 
 **Output**
 
-```
+```cpp
 6 5 5 2 3 0 2 0 0 
 ```
 
@@ -564,7 +564,7 @@ PBDS 不允许重复元素。但是对于计数部分，我们需要重复的元
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <unordered_map>
 
@@ -644,7 +644,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 43->65->12->46->68->85->59->85->37
 6->3->6->4->2->0->1->0->0
 ```

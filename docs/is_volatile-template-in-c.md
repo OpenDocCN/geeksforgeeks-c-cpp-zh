@@ -6,7 +6,7 @@ C++ STL 的 **std::is_volatile 模板**用于检查类型是否是 volatile 限�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_volatile;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_volatile;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_volatile template
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_volatile:
 volatile int:true
 volatile void:true
@@ -66,7 +66,7 @@ char:false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_volatile template
 
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_volatile:
 double:false
 float:false
@@ -106,7 +106,7 @@ const volatile void:true
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_volatile template
 
@@ -139,7 +139,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_volatile:
 volatile double:true
 volatile float:true

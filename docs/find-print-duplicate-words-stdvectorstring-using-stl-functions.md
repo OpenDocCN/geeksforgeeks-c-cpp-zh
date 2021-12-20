@@ -7,7 +7,7 @@
 考虑一个字符串数组，并在该数组中找到重复的单词，如果存在重复的单词，则打印出来。
 示例:
 
-```
+```cpp
 Input : { "welcome", "to", "geeks", "for", "geeks" }
 Output : geeks
 
@@ -29,7 +29,7 @@ Output : No Duplicate words
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to find duplicate word in a
 // vector<string>
 #include <bits/stdc++.h>
@@ -73,7 +73,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 geeks
 to
 

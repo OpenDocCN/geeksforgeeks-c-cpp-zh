@@ -8,7 +8,7 @@
 
  **## C
 
-```
+```cpp
 // C Program to demonstrate incorrect usage of sizeof() for
 // arrays
 #include <stdio.h>
@@ -53,7 +53,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate correct usage of sizeof() for
 // arrays
 #include <stdio.h>
@@ -86,7 +86,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The size of the array is: 4
 The elements are:
  0  1  2  3 
@@ -96,7 +96,7 @@ The elements are:
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate usage of macros to find the size
 // of arrays
 #include <stdio.h>
@@ -130,7 +130,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 The size of the array is: 5
 The elements are:
  0  1  2  3  4 
@@ -142,7 +142,7 @@ T19】
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate usage of pointer arithmetic to
 // find the size of arrays
 #include <stdio.h>
@@ -174,7 +174,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 The size of the array is: 5
 The elements are:
  0  1  2  3  4 

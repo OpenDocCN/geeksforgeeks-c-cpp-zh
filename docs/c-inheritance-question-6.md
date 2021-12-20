@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-inheritance-question-6/](https://www.geeksforgeeks.org/c-inheritance-question-6/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

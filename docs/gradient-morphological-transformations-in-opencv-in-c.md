@@ -31,7 +31,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // above approach
 #include <iostream>

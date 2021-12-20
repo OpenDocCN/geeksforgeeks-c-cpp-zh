@@ -15,7 +15,7 @@
 
     下面程序演示如何使用`time()`功能测量执行时间。
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
     using namespace std;
 
@@ -58,7 +58,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Time taken by program is : 0.000000 sec
 
     ```

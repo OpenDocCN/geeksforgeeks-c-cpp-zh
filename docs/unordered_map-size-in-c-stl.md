@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```cpp
 unordered_multimap_name.size()
 ```
 
@@ -14,13 +14,13 @@ unordered_multimap_name.size()
 
 **时间复杂度:**
 
-```
+```cpp
 Constant i.e. O(1).
 ```
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // unordered_map size() method
 
@@ -46,14 +46,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 size of map = 5
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to demonstrate
 // unordered_map size() method
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Initial size of map = 0
 size of map = 4
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 akash @aix(/ u / akash) #cat./ ak1.cpp
 #include<stdio.h>
 int main()

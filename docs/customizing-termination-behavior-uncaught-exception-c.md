@@ -14,7 +14,7 @@
 
 以下程序演示了如何设置自定义终止处理程序:
 
-```
+```cpp
 // CPP program to set a new termination handler
 // for uncaught exceptions.
 #include <exception>
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Inside try block
 Inside new terminate handler
 
@@ -54,7 +54,7 @@ Inside new terminate handler
 
  **运行时错误:**
 
-```
+```cpp
 Abort signal from abort(3) (SIGABRT)
 ```
 

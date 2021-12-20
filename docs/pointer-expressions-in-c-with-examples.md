@@ -7,7 +7,7 @@
 指针用于指向变量的地址位置。指针通过在指针名称前加一个**星号(*)** 来声明。
 **语法:**
 
-```
+```cpp
 datatype *pointer_name;
 
 ```
@@ -15,7 +15,7 @@ datatype *pointer_name;
 当我们需要用变量的位置初始化指针时，我们在变量名前使用**和符号(& )** 。
 T3】例:
 
-```
+```cpp
 // Declaration of integer variable
 int var=10;
 
@@ -26,7 +26,7 @@ int *pointer=&var;
 **符号(& )** 用于获取变量的地址。我们可以直接找到任何标识符的位置，只需在它前面加上一个&符号(&)。
 T3】例:
 
-```
+```cpp
 // This code prints the address of x
 #include <stdio.h>
 
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Address of variable x = 0x7fff3b690fd4
 
 ```
@@ -59,7 +59,7 @@ C 语言支持丰富的内置运算，如算术、关系、赋值、条件等。
 
 **示例:**
 
-```
+```cpp
 *ptr1 + *ptr2
 *ptr1 * *ptr2
 *ptr1 + *ptr2 - *ptr3
@@ -68,7 +68,7 @@ C 语言支持丰富的内置运算，如算术、关系、赋值、条件等。
 
 我们也可以使用整数直接执行算术表达式。让我们看看下面给出的例子，其中 p1 和 p2 是指针。
 
-```
+```cpp
 p1+10, p2-5, p1-p2+10, p1/2 
 
 ```
@@ -80,7 +80,7 @@ p1+10, p2-5, p1-p2+10, p1/2
 
 让我们用给定的代码更好地理解指针算术表达式:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Arithmetic Operations
 #include <stdio.h>
@@ -122,7 +122,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Addition = 30
 Subtraction = 10
 Multiplication = 200
@@ -134,7 +134,7 @@ Modulo = 0
 **注意:**执行除法时，请确保在指针的“/”和“*”之间放置一个空格，因为这两个空格组合在一起会形成多行注释(“/*”)。
 T3】例:
 
-```
+```cpp
  Incorrect: *ptr_a/*ptr_b;
  Correct:   *ptr_a / *ptr_b; 
  Correct:   (*ptr_a)/(*ptr_b);
@@ -147,7 +147,7 @@ T3】例:
 [![](img/7c4ea36385fbeaa4fead1a5aefa49fd7.png)](https://media.geeksforgeeks.org/wp-content/uploads/20200210161806/Relational-Operations-on-Pointers-in-C.png) 
 **例:**
 
-```
+```cpp
 *ptr1 > *ptr2
 *ptr1 < *ptr2
 
@@ -157,7 +157,7 @@ T3】例:
 
 通过下面给出的代码，让我们更好地理解指针上的关系表达式:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Relational Operations
 #include <stdio.h>
@@ -199,14 +199,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 20 is greater than 10.
 
 ```
 
 **输出:**
 
-```
+```cpp
 20 is greater than 10.
 
 ```
@@ -217,7 +217,7 @@ int main()
 [![](img/263def7740254a6a12b01f6c7a7af624.png)](https://media.geeksforgeeks.org/wp-content/uploads/20200210162602/Assignment-Operations-on-Pointers-in-C.png) 
 **例:**
 
-```
+```cpp
 *a=10
 *b+=20
 *z=3.5
@@ -227,7 +227,7 @@ int main()
 
 借助下面给出的代码，让我们更好地理解赋值运算符:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Assignment Operations
 #include <stdio.h>
@@ -257,7 +257,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of variable a = 50
 
 ```
@@ -268,14 +268,14 @@ C 语言中只有一个最常用的条件运算符叫做三元运算符。三元
 
 **语法:**
 
-```
+```cpp
 expression1 ? expression2 : expression3;
 
 ```
 
 **示例:**
 
-```
+```cpp
 c = (*ptr1 > *ptr2) ? *ptr1 : *ptr2;
 
 ```
@@ -285,7 +285,7 @@ c = (*ptr1 > *ptr2) ? *ptr1 : *ptr2;
 
 让我们通过给定的代码来理解这个概念:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Conditional Operations
 #include <stdio.h>
@@ -312,7 +312,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 20 is the greatest.
 
 ```
@@ -324,7 +324,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 (*ptr1)++
 (*ptr1)--
 
@@ -332,7 +332,7 @@ int main()
 
 让我们通过给定的代码来理解一元运算符的用法:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Unary Operations
 #include <stdio.h>
@@ -376,7 +376,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Increment:
 Before increment a = 34
 After increment a = 35
@@ -394,7 +394,7 @@ After decrement a=34
 
 **示例:**
 
-```
+```cpp
 *ptr1 & *ptr2
 *ptr1 | *ptr2
 *ptr1 ^ *ptr2
@@ -403,7 +403,7 @@ After decrement a=34
 
 让我们通过给定的代码来理解这个概念:
 
-```
+```cpp
 // Program showing pointer expressions
 // during Bitwise Operations
 #include <stdio.h>
@@ -436,7 +436,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a AND b = 0
 a OR b = 3
 a Exclusive-OR b = 3

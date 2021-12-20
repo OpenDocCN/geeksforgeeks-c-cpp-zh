@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 For line 1, Input : x1 = 150, y1 = 150, x2 = 450, y2 = 150
 For line 2, Input : x1 = 150, y1 = 200, x2 = 450, y2 = 200
 For line 2, Input : x1 = 150, y1 = 250, x2 = 450, y2 = 250
@@ -20,7 +20,7 @@ Output :
 
 直线函数用于绘制从点(x1，y1)到点(x2，y2)的直线，即(x1，y1)和(x2，y2)是直线的端点。下面给出的代码画了一条线。
 
-```
+```cpp
 // C++ Implementation for drawing line
 #include <graphics.h>
 

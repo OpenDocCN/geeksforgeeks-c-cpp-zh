@@ -14,7 +14,7 @@
 
 1.  **Return multiple values with pointers:** Pass parameters with addresses and use pointers to change their values. These values become the original parameters.
 
-    ```
+    ```cpp
     // Modified program using pointers
     #include <stdio.h>
 
@@ -55,7 +55,7 @@
 
     **Output:**
 
-```
+```cpp
 Enter two numbers: 
 5 8
 The greater number is 8 and the smaller number is 5

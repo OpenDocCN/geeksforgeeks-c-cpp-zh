@@ -13,7 +13,7 @@
 
 **示例:**展示 C++中虚拟基类的需求
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -43,7 +43,7 @@ int main()
 
 **编译错误:**
 
-```
+```cpp
 prog.cpp: In function 'int main()':
 prog.cpp:29:9: error: request for member 'show' is ambiguous
   object.show();
@@ -60,7 +60,7 @@ prog.cpp:8:8: note:                 void A::show()
 
 **虚拟基类语法:**
 
-```
+```cpp
 Syntax 1:
 class B : virtual public A 
 {
@@ -78,7 +78,7 @@ class C : public virtual A
 
 **例 1**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -111,7 +111,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a = 10
 
 ```
@@ -120,7 +120,7 @@ a = 10
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -150,7 +150,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Hello from A
 
 ```

@@ -25,7 +25,7 @@
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // vswprintf() function
 #include <bits/stdc++.h>
@@ -66,14 +66,14 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 Some Latin letters : % & ' ( )
 
 ```
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // vswprintf() function
 // When the size of the buffer is smaller
@@ -115,7 +115,7 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 GFG is : Geek for g
 
 ```

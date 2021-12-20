@@ -7,11 +7,11 @@ C 编程语言中的 isalnum()函数检查给定的字符是否是字母数字�
 字母数字:字母或数字的字符。
 **语法:**
 
-```
+```cpp
 int isalnum(int x);
 ```
 
-```
+```cpp
 Input : 1
 Output : Entered character is alphanumeric
 Input : A
@@ -21,7 +21,7 @@ Output : Entered character is not alphanumeric
 
 ```
 
-```
+```cpp
 // C code to illustrate isalphanum()
 #include <ctype.h>
 #include <stdio.h>
@@ -40,7 +40,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Entered character is alphanumeric
 
 ```
@@ -48,7 +48,7 @@ Entered character is alphanumeric
 **应用:** isalnum()函数用于找出给定句子(或任何输入)中字母数字的个数。
 T3】例:
 
-```
+```cpp
 Input: abc123@
 Output: Number of alphanumerics in the given input is : 6
 Input: a@#
@@ -58,7 +58,7 @@ Output: Number of alphanumerics in the given input is : 6
 
 ```
 
-```
+```cpp
 // C code to illustrate isalphanum()
 #include <ctype.h>
 #include <stdio.h>
@@ -98,6 +98,6 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of alphanumerics in the given input is : 19
 ```

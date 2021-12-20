@@ -5,7 +5,7 @@
 C 或 C++中的中断是用于终止循环的循环控制语句。一旦在循环中遇到 break 语句，循环迭代就停止在那里，控制立即从循环返回到循环后的第一个语句。
 **语法:**
 
-```
+```cpp
 break;
 
 ```
@@ -25,7 +25,7 @@ break;
 
 ## C
 
-```
+```cpp
 // C program to illustrate 
 // Linear Search 
 
@@ -59,7 +59,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Linear Search
 #include <iostream>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Element found at index: 3
 
 ```
@@ -101,7 +101,7 @@ Element found at index: 3
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // using break statement 
 // in Linear Search
@@ -138,7 +138,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // using break statement 
 // in Linear Search
@@ -174,7 +174,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Element found at position: 3
 
 ```
@@ -183,7 +183,7 @@ Element found at position: 3
 
     ## C
 
-    ```
+    ```cpp
     // C program to illustrate
     // using break statement 
     // in Nested loops
@@ -208,7 +208,7 @@ Element found at position: 3
 
     ## C++
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // using break statement 
     // in Nested loops
@@ -236,7 +236,7 @@ Element found at position: 3
 
     **输出:**
 
-    ```
+    ```cpp
     ***
     ***
     ***
@@ -253,7 +253,7 @@ Element found at position: 3
 
     ## C
 
-    ```
+    ```cpp
     // C program to illustrate
     // using break statement 
     // in Infinite loops
@@ -275,7 +275,7 @@ Element found at position: 3
 
     ## C++
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // using break statement 
     // in Infinite loops
@@ -303,7 +303,7 @@ Element found at position: 3
 
     ## C
 
-    ```
+    ```cpp
     // C program to illustrate
     // using break statement 
     // in Infinite loops
@@ -328,7 +328,7 @@ Element found at position: 3
 
     ## C++
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // using break statement 
     // in Infinite loops
@@ -355,7 +355,7 @@ Element found at position: 3
 
     **输出:**
 
-    ```
+    ```cpp
     1 2 3 4 5 6 7 8 9 10 
 
     ```

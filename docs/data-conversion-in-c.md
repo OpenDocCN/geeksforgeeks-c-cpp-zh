@@ -13,7 +13,7 @@ A [用户自定义数据](https://www.geeksforgeeks.org/user-defined-data-types-
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // type-conversion
 #include <bits/stdc++.h>
@@ -67,6 +67,6 @@ int main()
 
 **Output**
 
-```
+```cpp
 Time = 1 hrs and 35 mins
 ```

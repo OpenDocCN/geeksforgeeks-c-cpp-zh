@@ -28,7 +28,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for
 // SP - K Sum
 
@@ -141,7 +141,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for
 // SP - K Sum
 
@@ -270,7 +270,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program for
 # SP - K Sum
 
@@ -365,7 +365,7 @@ if __name__ == "__main__":
 
 ## C#
 
-```
+```cpp
 // C# program for SP - K Sum
 using System;
 
@@ -492,7 +492,7 @@ public static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript program for SP - K Sum
       // structure for linked list
@@ -612,6 +612,6 @@ public static void Main()
 
 **输出:**
 
-```
+```cpp
 3 7 11
 ```

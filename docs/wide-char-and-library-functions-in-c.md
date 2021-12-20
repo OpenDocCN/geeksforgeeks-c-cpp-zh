@@ -10,7 +10,7 @@
 
 下面是一个简单的 C++实现来展示 wchar_t 是如何使用的:
 
-```
+```cpp
 // An example C++ program to demonstrate use of wchar_t
 #include <iostream>
 using namespace std;
@@ -26,7 +26,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Wide character value:: 65
 Size of the wide char is:: 4
 
@@ -38,7 +38,7 @@ Size of the wide char is:: 4
 **宽字符型数组或字符串:**
 就像字符型数组字符串一样，也可以有宽字符型数组字符串。下面是显示宽字符类型数组字符串的 C++实现:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wchar_t in array
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeksforgeeks
 geeksforgeeks
 
@@ -76,7 +76,7 @@ geeksforgeeks
 
 下面是一个简单的 C++实现，展示了如何获取宽字符数组字符串的长度。
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcslen()
 #include <iostream>
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The length of 'geeksforgeeks' is 13
 
 ```
@@ -106,7 +106,7 @@ The length of 'geeksforgeeks' is 13
 wcscpy()代表宽字符串副本。它将 strSource 指向的宽字符串复制到 strDestination 指向的宽字符数组中。这是 strcpy 的宽字符等价物。
 下面是一个简单的 C++实现，展示了 wcscpy 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcscpy()
 #include <iostream>
@@ -127,7 +127,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original = geeksforgeeks
 Copy =  geeksforgeeks
 
@@ -138,7 +138,7 @@ wcscat()代表宽字符串连接。将 strSource 宽字符串的副本追加到 
 
 下面是一个简单的 C++实现，展示了 wcscat 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcscat()
 #include <iostream>
@@ -161,7 +161,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Concatenated wide string is = geeksforgeeks is for Geeks
 
 ```
@@ -171,7 +171,7 @@ wcscmp()代表宽字符串比较。如果 wcs1 和 wcs2 相等，则返回 0；�
 
 下面是一个简单的 C++实现来展示 wcscmp 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcscmp()
 #include <iostream>
@@ -194,7 +194,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Comparison1 = 1
 Comparison2 = 0
 Comparison3 = -1
@@ -209,7 +209,7 @@ ptr–wchar _ t *类型对象的指针，wcstok 使用它来存储其内部状�
 这是 strtok()的宽字符等价物。
 下面是一个简单的 C++实现，展示了 wcstok 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcstok()
 #include <iostream>
@@ -237,7 +237,7 @@ int main()
 
 输出:
 
-```
+```cpp
 geeksforgeeks
 is
 for
@@ -250,7 +250,7 @@ GEEKS
 
 下面是一个简单的 C++实现，展示了 wcsncpy 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcsncpy()
 #include <iostream>
@@ -279,7 +279,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks For Geeks
 Geeks For Geeks
 Geeks
@@ -291,7 +291,7 @@ Geeks
 
 下面是一个简单的 C++实现来展示 wcsstr 的使用:
 
-```
+```cpp
 // An example C++ program to demonstrate use
 // of wcsstr()
 #include <iostream>
@@ -310,7 +310,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Geeks For Geeks
 
 ```

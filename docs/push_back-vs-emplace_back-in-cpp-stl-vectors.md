@@ -12,7 +12,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to demonstrate the
 // push_back() method
 
@@ -67,7 +67,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Copied
 
 Copied

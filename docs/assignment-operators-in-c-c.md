@@ -10,7 +10,7 @@
 *   **"="** :这是最简单的赋值运算符。该运算符用于将右边的值赋给左边的变量。
     例如:
 
-    ```
+    ```cpp
     a = 10;
     b = 20;
     ch = 'y';
@@ -20,7 +20,7 @@
 *   **"+="** :这个运算符是'+'和' = '运算符的组合。该运算符首先将左边变量的当前值与右边的值相加，然后将结果赋给左边的变量。
     例:
 
-```
+```cpp
 (a += b) can be written as (a = a + b)
 
 ```
@@ -30,7 +30,7 @@
 *   **“-=”**This operator is combination of ‘-‘ and ‘=’ operators. This operator first subtracts the current value of the variable on left from the value on the right and then assigns the result to the variable on the left.
     Example:
 
-    ```
+    ```cpp
     (a -= b) can be written as (a = a - b)
 
     ```
@@ -40,7 +40,7 @@
     *   **“*=”**This operator is combination of ‘*’ and ‘=’ operators. This operator first multiplies the current value of the variable on left to the value on the right and then assigns the result to the variable on the left.
     Example:
 
-    ```
+    ```cpp
     (a *= b) can be written as (a = a * b)
 
     ```
@@ -50,7 +50,7 @@
     *   **“/=”**This operator is combination of ‘/’ and ‘=’ operators. This operator first divides the current value of the variable on left by the value on the right and then assigns the result to the variable on the left.
     Example:
 
-    ```
+    ```cpp
     (a /= b) can be written as (a = a / b)
 
     ```
@@ -61,7 +61,7 @@
 
     ## C
 
-    ```
+    ```cpp
     // C program to demonstrate
     // working of Assignment operators
 
@@ -101,7 +101,7 @@
 
     ## C++
 
-    ```
+    ```cpp
     // C++ program to demonstrate 
     // working of Assignment operators 
 
@@ -142,7 +142,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Value of a is 10
     Value of a is 20
     Value of a is 10

@@ -36,7 +36,7 @@
 
 ## C++
 
-```
+```cpp
 // Loop to push element
 // into a stack
 for
@@ -53,7 +53,7 @@ ls.push_back(s);
 
 ## C++
 
-```
+```cpp
 // Loop to iterate over list
 for (iterator it = ls.begin();
      it != ls.end(); it++) {
@@ -75,7 +75,7 @@ for (iterator it = ls.begin();
 
 ## C++
 
-```
+```cpp
 // C++ program for implementation
 // of the lists of stack
 
@@ -134,7 +134,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 List of stack is : 
 9 8 7 6 5 4 3 2 1 0 
 9 8 7 6 5 4 3 2 1 

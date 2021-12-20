@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: a[] = {1, 2, 3, 4, 5, 10}
 Output: Odd = 3, Even = 3
 
@@ -19,7 +19,7 @@ Output: Odd = 4, Even = 1
 
 **语法:**
 
-```
+```cpp
 count_if(lower_bound, upper_bound, function)
 
 ```
@@ -28,7 +28,7 @@ count_if(lower_bound, upper_bound, function)
 
 在这种情况下，函数将是:
 
-```
+```cpp
 bool isOdd(int i)
 {
     if (i % 2 != 0)
@@ -41,7 +41,7 @@ bool isOdd(int i)
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ simple program to
 // find elements which are
 // odd and even
@@ -77,7 +77,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Odd: 3
 Even: 3
 

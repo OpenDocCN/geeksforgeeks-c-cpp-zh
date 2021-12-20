@@ -40,7 +40,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <cstdlib>
 #include <ctime>

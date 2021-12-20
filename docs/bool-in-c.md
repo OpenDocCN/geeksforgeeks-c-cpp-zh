@@ -7,7 +7,7 @@ C 语言的 [C99 标准](http://en.wikipedia.org/wiki/C99)支持 Bool 变量。�
 
 ## C
 
-```
+```cpp
 int main()
 {
   bool arr[2] = {true, false};
@@ -19,7 +19,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdbool.h>
 int main()
 {
@@ -34,7 +34,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C implementation of the above idea
 #include <stdio.h>
 
@@ -64,7 +64,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 bool1 is false
 bool2 is true
 

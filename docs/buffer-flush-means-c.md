@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // Causes only one write to underlying file
 // instead of 5, which is much better for
 // performance.
@@ -20,7 +20,7 @@ std::cout << a << " + " << b << " = " << std::endl;
 
 ## C++
 
-```
+```cpp
 // Below is C++ program
 #include <iostream>
 #include <thread>
@@ -40,7 +40,7 @@ int main()
 }
 ```
 
-```
+```cpp
 The above program will output 1 2 3 4 5 at once.
 ```
 
@@ -48,7 +48,7 @@ The above program will output 1 2 3 4 5 at once.
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // use of flush function
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 }
 ```
 
-```
+```cpp
 The above program will print the 
 numbers(1 2 3 4 5) one by one rather than once. 
 The reason is flush function flushed the output 

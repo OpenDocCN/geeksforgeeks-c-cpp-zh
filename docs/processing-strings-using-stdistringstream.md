@@ -5,7 +5,7 @@
 **STD::is tingstream**是一个字符串类对象，用于[将字符串](https://www.geeksforgeeks.org/stringstream-c-applications/)流式传输到不同的变量中，类似的文件也可以流式传输到字符串中。此类的对象使用包含一系列字符的字符串缓冲区。这个字符序列可以作为字符串对象来访问。
 **头文件:**
 
-```
+```cpp
 #include <sstream>
 ```
 
@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate std::istringstream
 #include <iostream>
 #include <sstream>
@@ -48,7 +48,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 ```
 
@@ -58,7 +58,7 @@ int main()
 
 ## 类型 1
 
-```
+```cpp
 // C++ program to illustrate std::istringstream
 #include <iostream>
 #include <sstream>
@@ -106,7 +106,7 @@ int main()
 
 ## 类型 2
 
-```
+```cpp
 // C++ program to illustrate std::istringstream
 #include <iostream>
 #include <sstream>
@@ -143,7 +143,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 That stream was successful: 1
 That stream was successful: 2
 That stream was successful: 3
@@ -158,7 +158,7 @@ That stream was NOT successful!
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate std::istringstream
 // when string has integer followed by character
 #include <iostream>
@@ -197,7 +197,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 That stream was successful: 1,
 That stream was successful: 2,
 The stream has failed.
@@ -207,7 +207,7 @@ The stream has failed.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate std::istringstream
 // to tokenize the string
 #include <iostream>
@@ -249,7 +249,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 abc
 def
 ghi

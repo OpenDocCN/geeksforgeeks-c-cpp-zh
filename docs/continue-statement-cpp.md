@@ -8,7 +8,7 @@ Continue 也是一个循环控制语句，就像 [break 语句](https://www.geek
 顾名思义，continue 语句强制循环继续或执行下一次迭代。当 continue 语句在循环中执行时，continue 语句后面的循环中的代码将被跳过，循环的下一次迭代将开始。
 **语法**:
 
-```
+```cpp
 continue;
 
 ```
@@ -21,7 +21,7 @@ continue;
 
 ## C
 
-```
+```cpp
 // C program to explain the use 
 // of continue statement 
 #include <stdio.h>
@@ -47,7 +47,7 @@ int main() {
 
 ## C++
 
-```
+```cpp
 // C++ program to explain the use
 // of continue statement
 
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5 7 8 9 10 
 
 ```
@@ -86,7 +86,7 @@ int main()
 **练习题:**
 给定一个数字 n，打印三角图案。我们只能使用一个循环。
 
-```
+```cpp
 Input: 7
 Output:
 *

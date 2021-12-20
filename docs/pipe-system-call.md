@@ -14,7 +14,7 @@
     [![](img/1b9a2896c6b4669e0bdad665c9acd5f1.png)](https://media.geeksforgeeks.org/wp-content/uploads/Process.jpg)
     **C 语言语法:**
 
-    ```
+    ```cpp
     int pipe(int fds[2]);
 
     Parameters :
@@ -27,7 +27,7 @@
 
     管道表现为**先进先出**(先进先出)，管道表现为一个**队列**数据结构。这里读写大小不必匹配。我们可以一次写入 **512** 个字节，但在管道中一次只能读取 1 个字节。
 
-    ```
+    ```cpp
     // C program to illustrate
     // pipe system call in C
     #include <stdio.h>
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     hello, world #1
     hello, world #2
     hello, world #3
@@ -78,7 +78,7 @@
 
     **输出以下程序。**
 
-    ```
+    ```cpp
     // C program to illustrate
     // pipe system call in C
     // shared by Parent and Child
@@ -125,7 +125,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     hello world, #1
     hello world, #2
     hello world, #3

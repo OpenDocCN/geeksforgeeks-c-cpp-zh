@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.cend(n);
 
 ```
@@ -21,7 +21,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::cend() function
 
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements present in sampleSet are: 
 25
 5
@@ -69,7 +69,7 @@ Elements present in sampleSet are:
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::cend() function
 
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements present in sampleSet are: 
 Welcome
 To

@@ -6,7 +6,7 @@ C/C++中的 **wcstoimax()** 和**wcstomax()**函数的工作原理与 C++中的 
 
 **语法:**
 
-```
+```cpp
 uintmax_t wcstoumax(const wchar* wstr, wchar** end, int base);
 intmax_t wcstoimax(const wchar* wstr, wchar** end, int base);
 
@@ -26,7 +26,7 @@ intmax_t wcstoimax(const wchar* wstr, wchar** end, int base);
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // wstoimax() function
 #include <bits/stdc++.h>
@@ -59,7 +59,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 geeksforgeeks in base 36 is 9223372036854775807 in base 10
 
 Given String = geeksforgeeks
@@ -70,7 +70,7 @@ End String points to
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate the
 // wcstoumax() function
 #include <bits/stdc++.h>
@@ -124,7 +124,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Given String = 12345abcd
 Value stored in num 12345
 End string points to abcd

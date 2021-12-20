@@ -8,7 +8,7 @@
 
 **程序 1**
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;
@@ -36,7 +36,7 @@ int main()
 
 **节目 2**
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;

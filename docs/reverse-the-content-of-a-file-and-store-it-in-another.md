@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```cpp
 // Sample input 1 
 Input to the reverse function:
 reverse
@@ -40,7 +40,7 @@ skeeG roF skeeG
 **第八步:**关闭文本文件。
 **第九步:**读取第二个文本文件(不需要的话可以跳过)。
 
-```
+```cpp
 **name of first text file ="Geeks.txt"
 **name of second text file="Geeks2.txt"
 
@@ -48,7 +48,7 @@ skeeG roF skeeG
 
 **示例:**
 
-```
+```cpp
 #include <conio.h>
 #include <fstream.h>
 #include <iostream.h>

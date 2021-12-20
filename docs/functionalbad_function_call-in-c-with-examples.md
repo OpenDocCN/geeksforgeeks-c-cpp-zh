@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 include<functional>
 
 ```
 
 **语法:**
 
-```
+```cpp
 class bad_function_call;
 
 ```
@@ -24,7 +24,7 @@ class bad_function_call;
 
 **程序 1 :**
 
-```
+```cpp
 // C++ code for functional::bad_function_call
 #include <bits/stdc++.h>
 
@@ -50,14 +50,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_function_call
 
 ```
 
 **例 2 :**
 
-```
+```cpp
 // C++ code for functional::bad_function_call
 #include <bits/stdc++.h>
 
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 bad_function_call
 
 ```

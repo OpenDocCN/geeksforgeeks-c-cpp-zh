@@ -6,7 +6,7 @@
 
 还要注意的是在 [C99](https://en.wikipedia.org/wiki/C99) 或 [C11](https://en.wikipedia.org/wiki/C11_(C_standard_revision)) 标准中，有一个名为[“柔性阵元”](https://en.wikipedia.org/wiki/Flexible_array_member)的特性，其工作原理同上。
 
-```
+```cpp
 void fun(int n)
 {
   int arr[n];
@@ -24,7 +24,7 @@ int main()
 
 **实施**
 
-```
+```cpp
 //C program for variable length members in structures in GCC before C99.
 #include<string.h>
 #include<stdio.h>
@@ -87,7 +87,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Student_id : 523
 Stud_Name : Sanjayulsha
 Name_Length: 11

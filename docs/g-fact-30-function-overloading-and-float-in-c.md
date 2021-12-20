@@ -4,7 +4,7 @@
 
 虽然多态性在 C++中是一个非常有用的现象，但是它有时会非常复杂。例如，考虑以下代码片段:
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 void test(float s,float t)
@@ -24,7 +24,7 @@ int main()
 
 对 main()中的函数测试的调用可能会导致输出“调用了 float 的函数”，但代码给出了以下错误:
 
-```
+```cpp
 In function 'int main()':
 13:13: error: call of overloaded 'test(double, double)' is ambiguous
  test(3.5,5.6);
@@ -38,7 +38,7 @@ In function 'int main()':
 
 看下面的代码:
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 void test(float s,float t)
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Function with float called
 ```
 

@@ -10,7 +10,7 @@
 
 下面的程序现在是正确的。
 
-```
+```cpp
 #include <iostream>
 void init(int a=1, int b=2, int c=3);
 int main()

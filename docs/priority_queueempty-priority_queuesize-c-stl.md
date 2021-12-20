@@ -10,7 +10,7 @@ empty()函数用于检查优先级队列容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *pqueuename*.empty()
 Parameters :
 No parameters are passed
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input :  pqueue = 3, 2, 1
          pqueue.empty();
 Output : False
@@ -38,7 +38,7 @@ Output : True
 1.如果参数通过
 2，显示错误。显示无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of empty() function
 #include <iostream>
@@ -64,14 +64,14 @@ int main()
 
 输出:
 
-```
+```cpp
 False
 
 ```
 
 **应用**:给定一个整数的优先级队列，求所有整数的和。
 
-```
+```cpp
 Input  : 8, 6, 3, 2, 1 
 Output : 20
 
@@ -82,7 +82,7 @@ Output : 20
 2。重复此步骤，直到优先级队列为空。
 3。打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include <iostream>
@@ -112,7 +112,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20
 
 ```
@@ -123,7 +123,7 @@ size()函数用于返回优先级队列容器的大小或容器中元素的数�
 
 **语法:**
 
-```
+```cpp
 *pqueuename*.size()
 Parameters :
 No parameters are passed
@@ -134,7 +134,7 @@ Number of elements in the container
 
 示例:
 
-```
+```cpp
 Input :  pqueue = 3, 2, 1
          pqueue.size();
 Output : 3
@@ -150,7 +150,7 @@ Output : 0
 1.如果传递参数，则显示错误。
 2。显示无异常抛出保证
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of size() function
 #include <iostream>
@@ -177,14 +177,14 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```
 
 **应用**:给定一个整数的优先级队列，求所有整数的和。
 
-```
+```cpp
 Input  : 8, 6, 3, 2, 1 
 Output : 20
 
@@ -195,7 +195,7 @@ Output : 20
 2。重复此步骤，直到优先级队列的大小变为 0。
 3。打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of size() function
 #include <iostream>
@@ -225,7 +225,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20
 
 ```

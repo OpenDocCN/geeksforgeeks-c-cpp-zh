@@ -4,7 +4,7 @@
 
 以下程序的输出将是什么？
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -14,7 +14,7 @@ int main()
 }
 ```
 
-```
+```cpp
 A) 11 B) 10 C) -9 D) None
 ```
 

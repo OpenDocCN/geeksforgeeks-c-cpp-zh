@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 iterator list_name.erase(iterator position)
 
 or,
@@ -26,7 +26,7 @@ iterator list_name.erase(iterator first, iterator last)
 
 **程序 1** :擦除单个元素。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::erase() function
 #include <bits/stdc++.h>
@@ -73,7 +73,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 List before deleting first element: 10 20 30 40 50 
 List after deleting first element:20 30 40 50
 
@@ -81,7 +81,7 @@ List after deleting first element:20 30 40 50
 
 **程序 2** :清除一系列元素。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::erase() function
 #include <bits/stdc++.h>
@@ -132,7 +132,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 List before deleting any element: 10 20 30 40 50 
 List after deleting first three elements: 40 50
 

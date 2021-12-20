@@ -4,7 +4,7 @@
 
 以下程序的输出？假设 int 的大小是 4 字节，double 的大小是 8 字节，编译器没有进行对齐。
 
-```
+```cpp
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -29,21 +29,21 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 16
 24
 ```
 
 **(B)**
 
-```
+```cpp
 8
 16
 ```
 
 **(C)**
 
-```
+```cpp
 20
 28
 ```

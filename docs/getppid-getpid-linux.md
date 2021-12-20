@@ -7,14 +7,14 @@ getppid()和 getpid()都是 **unistd.h** 库中定义的内置函数。
 1.  **getppid() :** returns the process ID of the parent of the calling process. If the calling process was created by the **[fork()](https://www.geeksforgeeks.org/fork-system-call/)** function and the parent process still exists at the time of the getppid function call, this function returns the process ID of the parent process. Otherwise, this function returns a value of 1 which is the process id for **init** process.
     **Syntax:**
 
-    ```
+    ```cpp
     pid_t getppid(void);
 
     ```
 
     **返回类型:** getppid()返回当前进程的父进程的进程 id。它从不出错，因此总是成功的。
 
-    ```
+    ```cpp
     // C++ Code to demonstrate getppid()
     #include <iostream>
     #include <unistd.h>
@@ -38,7 +38,7 @@ getppid()和 getpid()都是 **unistd.h** 库中定义的内置函数。
 
     输出(不同系统会有所不同):
 
-    ```
+    ```cpp
     Parent Process id of current process : 3849
     Child Process with parent id : 3851
 
@@ -49,14 +49,14 @@ getppid()和 getpid()都是 **unistd.h** 库中定义的内置函数。
 2.  **getpid() :** returns the process ID of the calling process. This is often used by routines that generate unique temporary filenames.
     **Syntax:**
 
-    ```
+    ```cpp
     pid_t getpid(void);
 
     ```
 
     **返回类型:** getpid()返回当前进程的进程 id。它从不出错，因此总是成功的。
 
-    ```
+    ```cpp
     // C++ Code to demonstrate getpid()
     #include <iostream>
     #include <unistd.h>
@@ -75,7 +75,7 @@ getppid()和 getpid()都是 **unistd.h** 库中定义的内置函数。
 
     输出(不同系统会有所不同):
 
-    ```
+    ```cpp
     Current process id of Process : 4195
 
     ```

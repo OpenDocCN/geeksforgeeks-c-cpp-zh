@@ -7,7 +7,7 @@
 **变量声明:**
 典型的变量声明形式如下:
 
-```
+```cpp
   type variable_name;
     or for multiple variables:
   type variable1_name, variable2_name, variable3_name;
@@ -22,7 +22,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a
 ```
 
@@ -69,7 +69,7 @@ a
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void function() {
   int x = 10; // local variable
@@ -91,7 +91,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int x = 20;//global variable
 void function1()
@@ -112,7 +112,7 @@ int main() {
 
 **Output** 
 
-```
+```cpp
 20
 20
 ```
@@ -127,7 +127,7 @@ int main() {
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void function(){ 
 int x = 20;//local variable 
@@ -147,7 +147,7 @@ int main() {
 
 **Output**
 
-```
+```cpp
 30,40
 30,50
 30,60
@@ -164,7 +164,7 @@ C 中所有在块内声明的变量，默认都是自动变量。我们
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 void function()
 {
@@ -185,7 +185,7 @@ int main() {
 
 **示例:**
 
-```
+```cpp
   myfile.h
 
   extern int x=10;//external variable (also global)  
@@ -204,7 +204,7 @@ int main() {
 
 C 中总共有 44 个关键词(C89–32，C99–5，C11–7):
 
-```
+```cpp
 auto        extern        short        while
 break        float        signed        _Alignas
 case        for        sizeof        _Alignof
@@ -225,7 +225,7 @@ enum         return        volatile    _Thread_local
 [**const**](https://www.geeksforgeeks.org/const-qualifier-in-c/) : const 可以用来声明常量变量。常量变量是初始化时不能改变其值的变量。或者换句话说，分配给它们的值不能在程序中进一步修改。
 **语法:**
 
-```
+```cpp
 const data_type var_name = var_value;
 ```
 
@@ -234,14 +234,14 @@ const data_type var_name = var_value;
 [**extern**](https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/) : extern 只是告诉我们变量是在别处定义的，而不是在使用它的同一个块内。基本上，该值在不同的块中被分配给它，并且这也可以在不同的块中被覆盖/改变。所以外部变量只不过是一个用合法值初始化的全局变量，在这里它被声明以便在其他地方使用。它可以在任何功能/块中访问。此外，通过在任何函数/块中的声明/定义之前放置“extern”关键字，也可以将普通全局变量设置为 extern。这基本上意味着我们没有初始化一个新的变量，而是只使用/访问全局变量。使用外部变量的主要目的是，它们可以在作为大型程序一部分的两个不同文件之间访问。
 **语法:**
 
-```
+```cpp
 extern data_type var_name = var_value;
 ```
 
 **static** : static 关键字用于声明静态变量，在用 C 语言编写程序时常用。静态变量有一个属性，即使超出了它们的范围，也能保持它们的值！因此，静态变量在其作用域中保留了最后一次使用的值。所以我们可以说它们只初始化一次，一直存在到程序终止。因此，没有分配新的内存，因为它们没有被重新声明。它们的范围局限于它们被定义的功能。全局静态变量可以在该文件中的任何地方访问，因为它们的范围是文件的本地范围。默认情况下，编译器会为它们赋值 0。
 语法:
 
-```
+```cpp
 static data_type var_name = var_value;
 ```
 
@@ -254,7 +254,7 @@ static data_type var_name = var_value;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 // declaring and initializing an extern variable
@@ -334,7 +334,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 Hello World
 This is the value of the constant variable 'a': 32
 'b' is a char variable. Its value is G

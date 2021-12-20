@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 thread::hardware_concurrency()
 ```
 
@@ -18,7 +18,7 @@ thread::hardware_concurrency()
 
 **注意:**在线 IDE 上这个程序会显示错误。要编译这个，在命令“**g++–STD = c++ 14-pthread file . CPP**”的帮助下，使用 g++编译器编译上的标志“-pthread”。
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // std::thread::hardware_concurrency()
 
@@ -44,6 +44,6 @@ int main()
 
 **可能的输出**
 
-```
+```cpp
 Number of concurrent threads supported are: 4
 ```

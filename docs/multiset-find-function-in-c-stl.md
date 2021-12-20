@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.find(element)
 ```
 
@@ -18,7 +18,7 @@ multiset_name.find(element)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::find() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The set elements are: 1 2 3 3 3 4 5 5 
 The set elements after 3 are: 3 3 3 4 5 5
 
@@ -65,7 +65,7 @@ The set elements after 3 are: 3 3 3 4 5 5
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // multiset::find() function
 #include <bits/stdc++.h>
@@ -104,7 +104,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The set elements are: a a a a a b c c 
 The set elements after b are: b c c
 

@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```cpp
 int a = 10;
 
 // Declaring lvalue reference
@@ -21,7 +21,7 @@ int&& rref = 20;
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // lvalue and rvalue
 
@@ -54,6 +54,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 true
 ```

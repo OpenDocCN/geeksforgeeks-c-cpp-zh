@@ -5,7 +5,7 @@
 **match_results::empty()** 是 C++中的一个内置函数，如果 smatch 对象不包含匹配项，则返回 **True** 。
 **语法:**
 
-```
+```cpp
 smatch_name.empty()
 
 Note: *smatch_name is an object of match_results class.*
@@ -24,7 +24,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results empty() in C++
 #include<bits/stdc++.h>
@@ -65,7 +65,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Regex-1 did not match
 Regex-2 did not match
 ```
@@ -74,7 +74,7 @@ Regex-2 did not match
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results empty() in C++
 #include<bits/stdc++.h>
@@ -115,7 +115,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Regex-1 did not match
 Regex-2 matched
 ```

@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to create an empty vector
 // and push values one by one.
 #include <bits/stdc++.h>
@@ -33,7 +33,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 20 30
 ```
 
@@ -41,7 +41,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to create an empty vector
 // and push values one by one.
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 10 10
 ```
 
@@ -72,7 +72,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to initialize a vector like
 // an array.
 #include <bits/stdc++.h>
@@ -91,7 +91,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 20 30
 ```
 
@@ -99,7 +99,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to initialize a vector from
 // an array.
 #include <bits/stdc++.h>
@@ -121,7 +121,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 20 30
 ```
 
@@ -129,7 +129,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to initialize a vector from
 // another vector.
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10 20 30
 ```
 
@@ -158,7 +158,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -174,7 +174,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 5 5 5 5 5 5 5 5 5
 ```
 

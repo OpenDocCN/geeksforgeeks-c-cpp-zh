@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-advanced-pointer-question-9-2/](https://www.geeksforgeeks.org/c-advanced-pointer-question-9-2/)
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 

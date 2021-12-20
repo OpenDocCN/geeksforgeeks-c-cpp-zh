@@ -16,7 +16,7 @@
 
 下面是它的 C++实现
 
-```
+```cpp
 // C++ program to implement your own tail
 #include <bits/stdc++.h>
 using namespace std;

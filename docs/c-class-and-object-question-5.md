@@ -6,7 +6,7 @@
 
 预测程序的输出。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

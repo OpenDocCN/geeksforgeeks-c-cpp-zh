@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 umm.operator= ( unordered_multimap& umm )
 umm.operator= ( unordered_multimap&& umm )
 umm.operator= ( initializer list )
@@ -27,7 +27,7 @@ umm.operator= ( initializer list )
 下面的程序说明了 C++中的无序 _ 多映射::运算符=的用法。
 **示例**
 
-```
+```cpp
 // C++ code to illustrate the method
 // unordered_multimap::operator=()
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 7 : 8
 9 : 10
 11 : 12

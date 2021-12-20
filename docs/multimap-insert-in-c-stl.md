@@ -6,7 +6,7 @@
 
 1.  **Syntax:**
 
-    ```
+    ```cpp
     iterator multimap_name.insert({key, element})
 
     ```
@@ -15,7 +15,7 @@
 
     **返回值:**函数返回一个迭代器，指向容器中的新元素。
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // multimap::insert({key, element})
     #include <bits/stdc++.h>
@@ -46,7 +46,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     KEY    ELEMENT
     1    40
     2    30

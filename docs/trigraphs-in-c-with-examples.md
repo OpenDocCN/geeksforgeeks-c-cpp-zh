@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```cpp
 ??=define
 Becomes,
 #define
@@ -33,7 +33,7 @@ Becomes,
 
 ## C++
 
-```
+```cpp
 // C++ implementation to 
 // illustrate the example 
 // of trigraph sequences
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 My message to GeeksforGeeks
 My program is C++
 
@@ -66,7 +66,7 @@ My program is C++
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate 
 // the example 
 // of trigraph sequences
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 My Name is: Kalpana
 My Age is: 23
 My Qualification is: B.tech

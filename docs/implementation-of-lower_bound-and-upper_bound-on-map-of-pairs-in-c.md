@@ -11,7 +11,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     mp.lower_bound({a, b})
 
     where,
@@ -26,7 +26,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     mp.upper_bound({a, b})
 
     where,
@@ -40,7 +40,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate lower_bound()
 // and upper_bound() in Map of Pairs
 
@@ -111,7 +111,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 lower_bound() for {2, 5} is: {4, 1}
 upper_bound() for {2, 5} is: {4, 1}
 

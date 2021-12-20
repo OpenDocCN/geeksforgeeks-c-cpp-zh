@@ -6,7 +6,7 @@
 
 考虑下面的代码。
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;
@@ -38,7 +38,7 @@ int main()
 
 因此，可以使用以下两个版本中的一个来避免上述代码中的问题。
 
-```
+```cpp
 // First: Change the order of declaration.
 class Test {
   private:    
@@ -50,7 +50,7 @@ class Test {
 };
 ```
 
-```
+```cpp
 // Second: Change the order of initialization.
 class Test {
   private:    

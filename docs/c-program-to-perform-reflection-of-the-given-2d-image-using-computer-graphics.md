@@ -50,7 +50,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <conio.h>

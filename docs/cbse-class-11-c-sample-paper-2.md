@@ -89,7 +89,7 @@ ASCII 值范围-
 数字 48–57
 所有其他情况都是特殊字符。
 
-```
+```cpp
 // CPP program to find type of input character
 #include <iostream>
 using namespace std;
@@ -120,7 +120,7 @@ int main()
 
 **【C】给出以下程序段的输出:2**
 
-```
+```cpp
 i.for (int i = 10; i > 6; i = i - 2)
         cout
     << i << endl;
@@ -146,7 +146,7 @@ Output : 10, 8
 **【B】删除语法错误后，重新编写以下程序，在每个
 更正处加下划线。3**
 
-```
+```cpp
 #include <iostream.h>
 main()
 {
@@ -176,7 +176,7 @@ void main()
 
 **【C】找到以下程序的输出:2**
 
-```
+```cpp
 #include <iostream.h>
 main()
 {
@@ -192,7 +192,7 @@ main()
 
 **【D】编写程序读取一个字符串，打印字符串中存储了多少字。3**
 
-```
+```cpp
 // C++ program to count no of words
 // from given input string.
 #include <iostream>
@@ -238,7 +238,7 @@ int main(void)
 
 **【E】写程序求数组元素的和。3**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -277,7 +277,7 @@ int main()
 
 **【C】找到以下的输出:3**
 
-```
+```cpp
 #include <iostream.h>
 int max(int& x, int& y, int& z)
 {
@@ -309,7 +309,7 @@ int max(int& x, int& y, int& z)
 
 **【D】写一个完整的 C++程序，读取一个有 15 个元素的浮点数组。程序使用函数 reverse()来[反转该数组。](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/) 4**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -353,7 +353,7 @@ int main()
 **【E】用结果类型 float 写一个有两个参数 x 类型 float 和 n 类型 integer 的 C++函数，求以下级数的和:-**
 1 + x/2！+ x <sup>2</sup> /4！+ x <sup>3</sup> /6！+……………+ x<sup>n</sup>/2n！
 
-```
+```cpp
 #include <iostream>
 #include <math.h>
 using namespace std;

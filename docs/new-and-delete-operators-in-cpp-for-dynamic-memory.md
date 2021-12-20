@@ -20,14 +20,14 @@ C 使用 [malloc()和 calloc()](https://www.geeksforgeeks.org/calloc-versus-mall
 
 *   **使用新运算符**的语法:要分配任何数据类型的内存，语法为:
 
-```
+```cpp
 pointer-variable = new data-type;
 ```
 
 *   这里，指针变量是数据类型的指针。数据类型可以是任何内置的数据类型，包括数组，也可以是任何用户定义的数据类型，包括结构和类。
     示例:
 
-```
+```cpp
 // Pointer initialized with NULL
 // Then request memory for the variable
 int *p = NULL; 
@@ -42,7 +42,7 @@ int *p = new int;
 
 *   **初始化内存:**我们还可以使用新的运算符为内置数据类型初始化内存。对于自定义数据类型，需要一个构造函数(以数据类型作为输入)来初始化值。下面是两种数据类型的初始化示例:
 
-```
+```cpp
 pointer-variable = new data-type(value);
 Example:
 int *p = new int(25);
@@ -66,13 +66,13 @@ cust* var = new cust(25)        // Notice error if you comment this line
 
 *   **分配内存块:**新运算符也用于分配类型为*数据类型为*的内存块(数组)。
 
-```
+```cpp
 pointer-variable = new data-type[size];
 ```
 
 *   其中 size(变量)指定数组中元素的数量。
 
-```
+```cpp
 Example:
         int *p = new int[10]
 ```
@@ -86,7 +86,7 @@ Example:
 **如果运行时内存不足怎么办？**
 如果堆中没有足够的内存可供分配，新请求会抛出一个 std::bad_alloc 类型的异常来指示失败，除非“nothrow”与新运算符一起使用，在这种情况下，它会返回一个 NULL 指针(滚动到本文[中的“新运算符的异常处理”一节)。因此，在使用程序之前检查 new 产生的指针变量可能是个好主意。](https://aticleworld.com/dynamic-memory-and-new-operator-c/) 
 
-```
+```cpp
 int *p = new(nothrow) int;
 if (!p)
 {
@@ -99,7 +99,7 @@ if (!p)
 由于释放动态分配的内存是程序员的责任，所以 C++语言为程序员提供了删除操作符。
 **语法:**
 
-```
+```cpp
 // Release memory pointed by pointer-variable
 delete pointer-variable;  
 ```
@@ -107,14 +107,14 @@ delete pointer-variable;
 这里，指针变量是指向*新建*创建的数据对象的指针。
 示例:
 
-```
+```cpp
   delete p;
   delete q;
 ```
 
 要释放指针变量指向的动态分配数组，请使用以下形式的*删除* :
 
-```
+```cpp
 // Release block of memory 
 // pointed by pointer-variable
 delete[] pointer-variable;  
@@ -127,7 +127,7 @@ Example:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate dynamic allocation
 // and deallocation of memory using new and delete
 #include <iostream>
@@ -185,7 +185,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 Value of p: 29
 Value of r: 75.25
 Value store in block of memory: 1 2 3 4 5 

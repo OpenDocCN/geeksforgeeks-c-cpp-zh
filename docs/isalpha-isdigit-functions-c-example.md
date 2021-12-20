@@ -8,7 +8,7 @@
 **例题:**给定一个 cstring **str** ，求该 cstring 中字母的个数和小数位数。
 **示例:**
 
-```
+```cpp
 Input: 12abc12
 Output: Alphabetic_letters = 3, Decimal_digits = 4
 
@@ -21,7 +21,7 @@ Output: Alphabetic_letters = 21, Decimal_digits = 4
 
 ## C
 
-```
+```cpp
 // C program to demonstrate working of isalpha() and
 // isdigit().
 #include <ctype.h>
@@ -55,7 +55,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Alphabetic_letters = 3, Decimal_digits = 4
 
 ```

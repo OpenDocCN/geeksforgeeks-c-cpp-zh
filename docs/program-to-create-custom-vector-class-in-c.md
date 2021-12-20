@@ -12,7 +12,7 @@
 
 ## CPP14
 
-```
+```cpp
 // C++ program to implement Custom Vector
 // class
 #include "iostream"
@@ -255,7 +255,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 For Integer data_type
 Element in vector v : 5 6 7 8 9 10 11 12 
 size: 8

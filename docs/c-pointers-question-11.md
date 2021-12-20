@@ -4,7 +4,7 @@
 
 假设一个整数的大小和一个指针是 4 字节。输出？
 
-```
+```cpp
 #include <stdio.h>
 
 #define R 10

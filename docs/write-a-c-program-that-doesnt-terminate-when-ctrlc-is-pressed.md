@@ -16,7 +16,7 @@ SIGTERM–发送给程序的终止请求。
 附加信号是指定的 Unix 和类 Unix 操作系统(如 Linux)定义了 15 个以上的附加信号。参见[http://en.wikipedia.org/wiki/<wbr>Unix _ signal # POSix _ signal](http://en.wikipedia.org/wiki/Unix_signal#POSIX_signals)
 标准 C 库函数 [signal()](http://en.cppreference.com/w/c/program/signal) 可用于为上述任何信号设置处理器。
 
-```
+```cpp
 /* A C program that does not terminate when Ctrl+C is pressed */
 #include <stdio.h>
 #include <signal.h>
@@ -47,7 +47,7 @@ int main ()
 
 输出:按两次 Ctrl+C 时
 
-```
+```cpp
 
  Cannot be terminated using Ctrl+C
 

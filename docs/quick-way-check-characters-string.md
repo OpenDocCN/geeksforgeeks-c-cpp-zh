@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : s = "geeks"
 Output : No
 
@@ -20,7 +20,7 @@ Output : Yes
 
 ## C++
 
-```
+```cpp
 // C++ program to find whether the string
 // has all same characters or not.
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find whether the String
 // has all same characters or not.
 import java.io.*;
@@ -84,7 +84,7 @@ static boolean allCharactersSame(String s)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find whether the string
 # has all same characters or not.
 
@@ -112,7 +112,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# program to find whether the string
 // has all same characters or not.
 using System;
@@ -145,7 +145,7 @@ static bool allCharactersSame(string s)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find whether
 // the string has all same
@@ -174,7 +174,7 @@ echo "No";
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find whether the string
     // has all same characters or not.
@@ -201,7 +201,7 @@ echo "No";
 
 **Output**
 
-```
+```cpp
 Yes
 ```
 
@@ -212,7 +212,7 @@ Yes
 
 ## C++
 
-```
+```cpp
 // A quick C++ program to find whether the
 // string has all same characters or not.
 #include <iostream>
@@ -238,7 +238,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Yes
 ```
 
@@ -250,7 +250,7 @@ Yes
 
 ## C++
 
-```
+```cpp
 // C++ program for above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -284,7 +284,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program for above approach
 import java.io.*;
 import java.util.*;
@@ -323,7 +323,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program for
 # the above approach
 
@@ -356,7 +356,7 @@ allCharactersSame(Str)
 
 ## C#
 
-```
+```cpp
 // C# program for above approach
 using System;
 using System.Collections.Generic;
@@ -395,7 +395,7 @@ static void Main()
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript program for above approach
 
@@ -429,7 +429,7 @@ static void Main()
 
 **Output**
 
-```
+```cpp
 YES
 ```
 

@@ -8,7 +8,7 @@
 
 1.  **解除内存分配**
 
-    ```
+    ```cpp
     // Deallocating a memory pointed by ptr causes
     // dangling pointer
     #include <stdlib.h>
@@ -28,7 +28,7 @@
 
 2.  **Function Call**
 
-    ```
+    ```cpp
     // The pointer pointing to local variable becomes
     // dangling when local variable is not static.
     #include<stdio.h>
@@ -58,14 +58,14 @@
 
     输出:
 
-    ```
+    ```cpp
     A garbage Address
 
     ```
 
     如果 x 是静态变量，上面的问题就不会出现(或者 p 不会变得悬空)。
 
-    ```
+    ```cpp
     // The pointer pointing to local variable doesn't
     // become dangling when local variable is static.
     #include<stdio.h>
@@ -91,13 +91,13 @@
 
     输出:
 
-    ```
+    ```cpp
      5
     ```
 
 3.  **变量超出范围**
 
-    ```
+    ```cpp
     void main()
     {
        int *ptr;
@@ -123,7 +123,7 @@ Void 指针是一种特定的指针类型-void *-指向存储中某个数据位�
 
 **示例:**
 
-```
+```cpp
 #include<stdlib.h>
 
 int main()
@@ -150,7 +150,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Integer variable is = 4
 Float variable is= 5.500000
 ```
@@ -161,7 +161,7 @@ Float variable is= 5.500000
 
 空指针是不指向任何东西的指针。在这种情况下，如果我们没有分配给指针的地址，那么我们可以简单地使用空值。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -175,7 +175,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The value of ptr is (nil)
 
 ```
@@ -189,7 +189,7 @@ The value of ptr is (nil)
 
 一个没有被初始化为任何东西(甚至不是空值)的指针被称为野指针。指针可能被初始化为非空垃圾值，该值可能不是有效地址。
 
-```
+```cpp
 int main()
 {
     int *p;  /* wild pointer */

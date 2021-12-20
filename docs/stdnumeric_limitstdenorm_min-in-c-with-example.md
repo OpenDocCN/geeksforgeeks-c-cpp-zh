@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<limits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 static T denorm_min() throw();
 static constexpr T denorm_min() noexcept;
 
@@ -21,7 +21,7 @@ static constexpr T denorm_min() noexcept;
 
 **语法:**
 
-```
+```cpp
 std::numeric_limits<T>::denorm_min()
 
 ```
@@ -34,7 +34,7 @@ std::numeric_limits<T>::denorm_min()
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::numeric_limits<T>::denorm_min()
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 For float: 1.4013e-45
 For int: 0
 For double: 4.94066e-324

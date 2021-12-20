@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // passing the array of objects
 // to function parameter

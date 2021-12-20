@@ -8,7 +8,7 @@ Map 以排序的方式存储唯一的键值对。每个键都与一个可能唯�
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 #include <iterator>
 #include <map>
@@ -140,7 +140,7 @@ int main()
 
 ## <u>C++</u>
 
-```
+```cpp
 #include <iostream>
 #include <iterator>
 #include <map>

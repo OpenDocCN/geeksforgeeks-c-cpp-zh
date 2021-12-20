@@ -10,7 +10,7 @@
 
 **2。front()** :-该功能显示堆的**第一个元素**，这是**最大数量**。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // make_heap(), front()
 #include<bits/stdc++.h> 
@@ -36,7 +36,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The maximum element of heap is : 40
 
 ```
@@ -45,7 +45,7 @@ The maximum element of heap is : 40
 
 **4。pop_heap()** :-该功能用于**删除堆的最大元素**。堆的大小减少 1。在此操作之后，堆元素会相应地重新组织。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // push_heap() and pop_heap()
 #include<bits/stdc++.h> 
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The maximum element of heap is : 40
 The maximum element of heap after push is : 50
 The maximum element of heap after pop is : 40
@@ -101,7 +101,7 @@ The maximum element of heap after pop is : 40
 
 **5。sort_heap()** :-该功能用于**对**堆进行排序。这次操作之后，集装箱就不再是**一堆**了。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // sort_heap()
 #include<bits/stdc++.h> 
@@ -136,7 +136,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The heap elements are : 40 30 20 25 15 
 The heap elements after sorting are : 15 20 25 30 40 
 
@@ -146,7 +146,7 @@ The heap elements after sorting are : 15 20 25 30 40
 
 **6。is _ heap _ 直到()** :-这个函数将迭代器返回到位置**，直到容器成为堆。**一般来说，在大多数实现中，**反向排序容器**被认为是堆。
 
-```
+```cpp
 // C++ code to demonstrate the working of 
 // is_heap() and is_heap_until()
 #include<bits/stdc++.h> 
@@ -182,7 +182,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The container is not heap
 The heap elements in container are : 40 30 25 
 

@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate various function of
 // unordered_multimap
 #include <bits/stdc++.h>
@@ -119,7 +119,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 <dog, 9>  <cat, 6>  <cat, 7>  <ball, 2>  <apple, 1>  <apple, 10>  <apple, 1>  
 unordered multimap 2 is not empty
 Size of unordered multimap 1 is 7
@@ -152,7 +152,7 @@ Find 函数返回一个迭代器，该迭代器指向与该键相关联的所有
 
 ## C++
 
-```
+```cpp
 // C++ program to implement find and erase for specific
 // key-value pair for unordered_multimap
 #include <bits/stdc++.h>
@@ -254,7 +254,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Initial content
 <dog, 9> <cat, 6> <cat, 7> <ball, 2> <apple, 1> <apple, 10> <apple, 1> 
 

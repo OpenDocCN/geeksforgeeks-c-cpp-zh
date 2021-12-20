@@ -7,14 +7,14 @@
 头文件 graphics.h 包含 **setcolor()** 功能，用于将当前绘图颜色设置为新颜色。
 **语法:**
 
-```
+```cpp
 void setcolor(int color);
 
 ```
 
 **说明:**在图形中，每种颜色都被赋予一个数字。可用的颜色总数为 16 种。可用颜色的数量取决于当前图形模式和驱动程序。例如，setcolor(红色)或 setcolor(4)将当前绘图颜色更改为红色。请记住，默认的绘图颜色是白色。颜色表如下所示。
 
-```
+```cpp
 COLOR               INT VALUES
 -------------------------------
 BLACK                   0
@@ -38,7 +38,7 @@ WHITE                  15
 
 下面是 setcolor()函数的实现。
 
-```
+```cpp
 // C Implementation for setcolor()
 #include <graphics.h>
 #include <stdio.h>

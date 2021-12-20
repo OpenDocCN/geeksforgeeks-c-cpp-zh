@@ -20,7 +20,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate format
 // specifiers in C
 #include <stdio.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 10 
 4.215200e+01 
 Welcome to GeeksforGeeks!

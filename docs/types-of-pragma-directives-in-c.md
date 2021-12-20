@@ -92,7 +92,7 @@ pragma 的**语法**版权所有:
 
 ## C
 
-```
+```cpp
 aCC - O prog.C
 
 #pragma OPT_LEVEL 1
@@ -126,7 +126,7 @@ void Func2()
 
 ## C++
 
-```
+```cpp
 // Set optimization to level 2
 // for Prog.C
 aCC + O2 Prog.C

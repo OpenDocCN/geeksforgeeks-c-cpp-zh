@@ -23,7 +23,7 @@
 
 ## C
 
-```
+```cpp
 // C program to reverse a linked list
 //  in groups of given size
 #include<stdio.h>
@@ -134,7 +134,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
 Given Linked List
 1 2 3 4 5 6 7 8 9 
 Reversed list

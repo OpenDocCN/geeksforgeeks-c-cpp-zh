@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 set_name.size()
 
 ```
@@ -18,7 +18,7 @@ set_name.size()
 
 **示例:**
 
-```
+```cpp
 Input  : set1{'a', 'b', 'c', 'd'};
          set1.size();
 Output : 4
@@ -34,7 +34,7 @@ Output : 0
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // C++ program to illustrate
 // size() function on set
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 输出:
 
-```
+```cpp
 set1 size: 4
 set2 size: 0
 

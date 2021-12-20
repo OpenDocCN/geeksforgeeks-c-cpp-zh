@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```cpp
 std::lcm (m, n)
 Arguments: m, n
 Returns: 0, if either of m or n are 0
@@ -17,7 +17,7 @@ Returns: 0, if either of m or n are 0
 
 请记住，由于这个特性是在最新版本的 C++中定义的，所以在不支持 C++17 的编译器中使用这个函数，会抛出一个错误。
 
-```
+```cpp
 // CPP program to illustrate
 // std::lcm function of C++
 #include <iostream>
@@ -35,7 +35,7 @@ int main()
 
 输出:
 
-```
+```cpp
 20
 
 ```

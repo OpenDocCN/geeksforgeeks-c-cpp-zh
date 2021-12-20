@@ -4,7 +4,7 @@
 
 预测产量
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class A
@@ -40,21 +40,21 @@ int main()
 **(A)** 编译错误
 **(B)**
 
-```
+```cpp
 10
 20
 ```
 
 **(C)**
 
-```
+```cpp
 20
 20
 ```
 
 **(D)**
 
-```
+```cpp
 10
 10
 ```

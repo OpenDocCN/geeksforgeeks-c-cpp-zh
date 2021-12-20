@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_multiset_name*.load_factor
 ```
 
@@ -22,7 +22,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::load_factor() function
 #include <bits/stdc++.h>
@@ -61,7 +61,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 2
 The bucket_count is: 3
 The load_factor is: 0.666667
@@ -78,7 +78,7 @@ The load_factor is: 0.714286
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::load_factor() function
 #include <bits/stdc++.h>
@@ -117,7 +117,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size is: 2
 The bucket_count is: 3
 The load_factor is: 0.666667

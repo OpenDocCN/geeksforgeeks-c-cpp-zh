@@ -53,7 +53,7 @@ Xcode 是苹果自己开发的一个 IDE，用于为 macOS 和 iOS 或苹果开�
 
 **步骤 1:** 打开终端，键入或复制并粘贴此命令“xcode-select-install”，现在 Xcode 命令行工具将会安装，您将获得如下界面:
 
-```
+```cpp
 xcode-select --install
 ```
 

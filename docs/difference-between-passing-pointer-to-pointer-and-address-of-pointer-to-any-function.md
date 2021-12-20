@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // concepts pointers
 
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before the function ptr: 5
 After the function ptr: 5
 
@@ -63,7 +63,7 @@ After the function ptr: 5
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // concepts of pointer
 
@@ -105,7 +105,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before the function, new value of the ptr: 5
 After the function, new value of the ptr: 2
 
@@ -121,7 +121,7 @@ After the function, new value of the ptr: 2
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // concepts of pointer
 #include <iostream>
@@ -164,7 +164,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before the function, new value of the ptr: 5
 After the function, new value of the ptr: 2
 

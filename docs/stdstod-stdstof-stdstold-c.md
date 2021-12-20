@@ -5,7 +5,7 @@
 1.  **std::stod() :** It convert string into double.
     Syntax:
 
-    ```
+    ```cpp
     double stod( const std::string& str, std::size_t* pos = 0 );
     double stod( const std::wstring& str, std::size_t* pos = 0 );
     Return Value: return a value of type double
@@ -17,7 +17,7 @@
 
     ```
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stod()
     #include <string>
@@ -46,14 +46,14 @@
 
     输出:
 
-    ```
+    ```cpp
     5.6
 
     ```
 
     **另一个例子:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stod()
     #include <iostream>
@@ -71,7 +71,7 @@
 
     输出:
 
-    ```
+    ```cpp
     5 5 5
 
     ```
@@ -81,7 +81,7 @@
 2.  **std::stof :** It convert string into float.
     Syntax:
 
-    ```
+    ```cpp
     float stof( const string& str, size_t* pos = 0 );
     float stof( const wstring& str, size_t* pos = 0 );
     Parameters
@@ -93,7 +93,7 @@
 
     **例 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stof()
     #include <iostream>
@@ -110,14 +110,14 @@
 
     输出:
 
-    ```
+    ```cpp
     22.5
 
     ```
 
     **例 2:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stof()
     #include <iostream>
@@ -133,7 +133,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     5000.5
 
     ```
@@ -143,7 +143,7 @@
 3.  **std::stold :** It convert string into long double.
     Syntax:
 
-    ```
+    ```cpp
     long double stold( const string& str, size_t *pos = 0 );
     long double stold (const wstring& str, size_t* pos = 0);
     Parameters : 
@@ -156,7 +156,7 @@
 
     **实施例 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stold()
     #include <iostream>
@@ -172,14 +172,14 @@
 
     输出:
 
-    ```
+    ```cpp
     500087
 
     ```
 
     **例 2:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // std::stold()
     #include <iostream>
@@ -196,7 +196,7 @@
 
     输出:
 
-    ```
+    ```cpp
     2077.5
 
     ```

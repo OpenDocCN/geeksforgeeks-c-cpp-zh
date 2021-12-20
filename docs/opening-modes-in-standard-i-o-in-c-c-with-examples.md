@@ -105,7 +105,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -168,7 +168,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -245,7 +245,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -308,7 +308,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -367,7 +367,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -430,7 +430,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -491,7 +491,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -567,7 +567,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>
@@ -636,7 +636,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <stdio.h>

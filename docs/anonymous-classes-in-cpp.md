@@ -11,7 +11,7 @@
 
 1.  **Creating single object of Anonymous Class :** In the first Example, Anonymous class is created with object name obj1\. The scope of the obj1 is throughout the program. So, we can access this into the main function. In main, using obj1, a call is given to member functions of the anonymous class.
 
-    ```
+    ```cpp
     // CPP program to illustrate 
     // concept of Anonymous Class
     #include <iostream>
@@ -47,14 +47,14 @@
 
     输出:
 
-    ```
+    ```cpp
     Value for i : 10
 
     ```
 
 2.  **Creating two objects of Anonymous Class :** In the Second example, we have created two objects obj1 and obj2 for Anonymous class and given a call to member functions of the class. The scope of the obj1 and obj2 is through out the program. Likewise, we can create multiple objects for an anonymous class.
 
-    ```
+    ```cpp
     // CPP program to illustrate 
     // concept of Anonymous Class
     #include <iostream>
@@ -93,7 +93,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Value for i : 10
     Value for i : 20
 
@@ -101,7 +101,7 @@
 
 3.  **Restricting the scope of Anonymous class :** To restrict the scope of the objects for the anonymous class, we can take a help of typedef. In the third example, by using **typedef** we can give a convenient name to class and use that name we have created multiple objects obje1 and obj2 for the anonymous class. Here we can control the scope of the obj1 and obj2 objects, which are inside the main function.
 
-    ```
+    ```cpp
     // CPP program to illustrate 
     // concept of Anonymous Class
     // by scope restriction
@@ -143,7 +143,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Value for i : 10
     Value for i : 20
 

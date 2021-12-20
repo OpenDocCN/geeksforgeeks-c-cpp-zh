@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 string to_string (int val);
 string to_string (long val);
 string to_string (long long val);
@@ -25,7 +25,7 @@ A string object containing the representation of val as a sequence of characters
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::to_string
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 12.100000
 9999
 
@@ -58,13 +58,13 @@ int main()
 **问题:**求给定整数中的特定数字。
 例:
 
-```
+```cpp
 Input : number  = 10340, digit = 3
 Output : 3 is at position 3
 
 ```
 
-```
+```cpp
 // CPP code to find a digit in a number
 // using std::tostring
 #include <bits/stdc++.h>
@@ -83,7 +83,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5 is at position 3
 
 ```

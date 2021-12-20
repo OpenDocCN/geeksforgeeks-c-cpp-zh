@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 forward_list_name.max_size()
 ```
 
@@ -18,7 +18,7 @@ forward_list_name.max_size()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // forward_list::max_size() function
 // when the list is not-empty
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The forward_list elements: 8 8 8 8 8 
 The max size: 1152921504606846975
 
@@ -53,7 +53,7 @@ The max size: 1152921504606846975
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // forward_list::max_size() function
 // when the list is empty
@@ -71,7 +71,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The max size: 1152921504606846975
 
 ```

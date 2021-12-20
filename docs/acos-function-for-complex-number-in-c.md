@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template<class T> complex<T> 
        acos (const complex<T>& z );
 
@@ -20,7 +20,7 @@ template<class T> complex<T>
 
 **实施例 1:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of acos() function.
 
@@ -45,14 +45,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The acos of (-2,0) is (3.14159,-1.31696)
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // c++ program to demonstrate
 // example of acos() function.
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The acos of (-2,-0) is (3.14159,1.31696)
 
 ```

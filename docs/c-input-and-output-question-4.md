@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-输入输出-问题-4/](https://www.geeksforgeeks.org/c-input-and-output-question-4/)
 
-```
+```cpp
 #include <stdio.h>
 // Assume base address of "GeeksQuiz" to be 1000
 int main()

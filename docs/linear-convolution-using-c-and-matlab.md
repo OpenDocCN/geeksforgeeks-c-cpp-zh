@@ -55,7 +55,7 @@
 
 ## 矩阵实验室
 
-```
+```cpp
 % Matlab program to implement
 % the above approach
 clc;
@@ -103,7 +103,7 @@ end
 
 **输入(任意一组数字):**
 
-```
+```cpp
 >> Enter the 1st Sequence: [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17]
 >> Enter the Time Index sequence: [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
 >> Enter the second sequence: [1 2 2 1 4 5 2 2 1 1 4 5 2 2 1 2 2]
@@ -112,7 +112,7 @@ end
 
 **输出:**
 
-```
+```cpp
 >> Columns 1 through 17
     1     4     9    15    25    40    57    76    96   117   142   172   204   238   273   310   349
 
@@ -135,7 +135,7 @@ end
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <math.h>
 #include <stdio.h>
@@ -197,7 +197,7 @@ void calc_conv(int* len1, int* len2)
 
 **输入:**
 
-```
+```cpp
 Enter the length of the first sequence: 4
 Enter the length of the second sequence: 4
 Enter x[0]: 1
@@ -212,7 +212,7 @@ Enter h[3]: 1
 
 **输出:**
 
-```
+```cpp
 1    4    9    15    16    11    4
 ```
 

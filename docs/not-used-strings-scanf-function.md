@@ -4,7 +4,7 @@
 
 下面是 Scanf 的语法。它需要两个参数:
 
-```
+```cpp
 scanf("Format Specifier", Variable Address);
 
 Format Specifier: Type of value to expect while input
@@ -14,7 +14,7 @@ Variable Address: &variable returns the variable's memory address.
 
 在字符串(字符数组)的情况下，变量本身指向有问题的数组的第一个元素。因此，不需要使用' & '运算符来传递地址。
 
-```
+```cpp
 // C program to illustrate  not using "&"
 // in scanf statement
 #include<stdio.h>
@@ -36,7 +36,7 @@ int main()
 
 输出:
 
-```
+```cpp
 (Is Base address = address of first element)?
 1
 

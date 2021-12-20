@@ -13,7 +13,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to show the order of constructor call
 // in single inheritance
 
@@ -56,7 +56,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Inside base class
 Inside sub class
 ```
@@ -67,7 +67,7 @@ Inside sub class
 
 ## C++
 
-```
+```cpp
 // C++ program to show the order of constructor calls
 // in Multiple Inheritance
 
@@ -122,7 +122,7 @@ int main() {
 
 **输出:**
 
-```
+```cpp
 Inside first base class
 Inside second base class
 Inside child class
@@ -138,7 +138,7 @@ Inside child class
 
 ## C++
 
-```
+```cpp
 // C++ program to show how to call parameterised Constructor
 // of base class when derived class's Constructor is called
 
@@ -184,7 +184,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Inside base class's parameterised constructor
 Inside sub class's parameterised constructor
 ```

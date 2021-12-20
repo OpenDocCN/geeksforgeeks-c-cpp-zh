@@ -9,7 +9,7 @@
 这个函数可以用来获取向量容器的第一个元素。
 **语法:**
 
-```
+```cpp
 ***vectorname.front()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -19,7 +19,7 @@ Direct reference to the first element of the vector container.
 
 示例:
 
-```
+```cpp
 Input  :  myvector = 1, 2, 3
           myvector.front();
 Output :  1
@@ -35,7 +35,7 @@ Output :  3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of front() function
 #include <iostream>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 ```
 
@@ -68,7 +68,7 @@ int main()
 这个函数可以用来获取向量容器的最后一个元素。
 **语法:**
 
-```
+```cpp
 ***vectorname.back()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -78,7 +78,7 @@ Direct reference to the last element of the vector container.
 
 示例:
 
-```
+```cpp
 Input  :  myvector = 1, 2, 3
           myvector.back();
 Output :  3
@@ -94,7 +94,7 @@ Output :  2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of back() function
 #include <iostream>
@@ -118,7 +118,7 @@ int main()
 
 输出:
 
-```
+```cpp
 2
 ```
 
@@ -127,7 +127,7 @@ int main()
 begin()和 end()函数**返回一个迭代器(像指针一样)**初始化为容器的第一个或最后一个元素，可以用来迭代集合，而 front()和 back()函数只是**返回一个引用**到容器的第一个或最后一个元素。
 **应用:**给定一个整数的空向量，给向量加上数字，然后打印第一个和最后一个元素的差。
 
-```
+```cpp
 Input  : 1, 2, 3, 4, 5, 6, 7, 8
 Output : 7
 Explanation - Last element = 8, First element = 1, Difference = 7
@@ -141,7 +141,7 @@ Explanation - Last element = 8, First element = 1, Difference = 7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of front() and back() function
 #include <iostream>
@@ -175,6 +175,6 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 ```

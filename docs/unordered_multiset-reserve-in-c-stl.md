@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 void reserve( size_type n );
 ```
 
@@ -24,7 +24,7 @@ void reserve( size_type n );
 
 **例 1:**
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 
@@ -53,14 +53,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The values in unordered_multiset : 7 6 5
 
 ```
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 
@@ -89,7 +89,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The values in unordered_multiset : GeeksforGeeks forGeeks Geeks
 
 ```

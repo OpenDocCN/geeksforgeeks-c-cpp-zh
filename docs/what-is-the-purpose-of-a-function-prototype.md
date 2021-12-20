@@ -14,7 +14,7 @@
 
 ## c
 
-```
+```cpp
 int main()
 {
    foo();

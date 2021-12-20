@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 
 int a[2][3][4];
 printDimensions(a);
@@ -23,7 +23,7 @@ Output :
 
 为了解决这个问题，我们应该使用[模板函数](https://www.geeksforgeeks.org/templates-cpp/)来计算当前数组的大小。然后我们递归调用这个函数，直到最后一个维度。对于最后一个维度，应使用边界覆盖模板函数。实施思路:
 
-```
+```cpp
 // C++ program to print dimensions of a
 // multidimensional array
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2x3x4
 
 ```

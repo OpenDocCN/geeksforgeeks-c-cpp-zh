@@ -54,7 +54,7 @@
 **问题陈述**:用 C++读写文件。
 **例:**
 
-```
+```cpp
 Input : 
 Welcome in GeeksforGeeks. Best way to learn things.
 -1
@@ -66,7 +66,7 @@ Welcome in GeeksforGeeks. Best way to learn things.
 
 ## C++
 
-```
+```cpp
 /* File Handling with C++ using ifstream & ofstream class object*/
 /* To write the Content in File*/
 /* Then to read the content of file*/
@@ -135,7 +135,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 /* File Handling with C++ using fstream class object */
 /* To write the Content in File */
 /* Then to read the content of file*/

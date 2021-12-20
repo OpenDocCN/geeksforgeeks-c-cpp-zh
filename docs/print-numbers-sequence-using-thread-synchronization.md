@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : Thread count
 Output : 1 2 3 ... thread count 1 2 3 ... thread 
 count 1 2 3 ... thread count ....
@@ -21,7 +21,7 @@ Output : 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C code to synchronize threads
 #include <pthread.h>
 #include <stdio.h>

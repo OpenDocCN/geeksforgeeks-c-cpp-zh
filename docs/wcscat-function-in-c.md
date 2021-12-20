@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wchar_t* wcscat( wchar_t* dest, const wchar_t* src );
 ```
 
@@ -21,7 +21,7 @@ wchar_t* wcscat( wchar_t* dest, const wchar_t* src );
 
 **例:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of wcscat() function.
 
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geekforgeeks is the best
 
 ```

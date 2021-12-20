@@ -7,7 +7,7 @@ C 中的 **fopen()方法**是一个库函数，用于打开文件以执行各种
 
 **语法:**
 
-```
+```cpp
 FILE *fopen(const char *file_name, const char *mode_of_operation);
 ```
 
@@ -28,7 +28,7 @@ FILE *fopen(const char *file_name, const char *mode_of_operation);
 
 ## C
 
-```
+```cpp
 // C program to illustrate fopen()
 
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main()
 
 运行以下命令时，将创建一个名为“demo_file”的新文件，其内容如下:
 
-```
+```cpp
 Welcome to GeeksforGeeks
 ```
 
@@ -65,7 +65,7 @@ Welcome to GeeksforGeeks
 
 ## C
 
-```
+```cpp
 // C program to illustrate fopen()
 
 #include <stdio.h>
@@ -103,7 +103,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Welcome to GeeksforGeeks
 ```
 

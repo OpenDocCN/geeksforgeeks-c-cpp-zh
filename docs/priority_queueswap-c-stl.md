@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *priorityqueuename1*.swap(*priorityqueuename2*)
 Parameters :
 The name of the priority queue with which
@@ -22,7 +22,7 @@ All the elements of the 2 priority queues are swapped.
 
 示例:
 
-```
+```cpp
 Input  : mypqueue1 = {1, 2, 3, 4}
          mypqueue2 = {3, 5, 7, 9}
          mypqueue1.swap(mypqueue2);
@@ -37,7 +37,7 @@ Output : mypqueue1 = {8, 6, 4, 2}
 
 ```
 
-```
+```cpp
 Note: In priority_queue container, the elements are printed
       in reverse order because the top is printed first
       then moving on to other elements.
@@ -49,7 +49,7 @@ Note: In priority_queue container, the elements are printed
 1.如果优先级队列不是同一类型，它将引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <iostream>
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mypqueue1 = 9 7 5 3 
 mypqueue2 = 4 3 2 1 
 

@@ -32,7 +32,7 @@
 
 **[对象:](https://www.geeksforgeeks.org/c-classes-and-objects/)** 对象是具有某些特征和行为的可识别实体。对象是类的一个实例。当一个类被定义时，没有分配内存，但是当它被实例化时(即一个对象被创建)，内存被分配。
 
-```
+```cpp
 class person
 {
     char name[20];

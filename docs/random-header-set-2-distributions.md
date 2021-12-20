@@ -16,7 +16,7 @@
 *   **max:** 它返回运算符()返回的值范围的最小上限，这是 uniform_int_distribution 的分布参数“b”。
 *   **重置:**它重置分布，以便在后续使用中，结果不依赖于它已经产生的值。
 
-```
+```cpp
 // C++ program to illustrate
 // the use of operator()
 // in uniform_int_distribution
@@ -47,12 +47,12 @@ int main()
 
 输出:
 
-```
+```cpp
 Some random numbers between 1 and 10: 1 3 6 10 1 5 1 4 4 9 
 
 ```
 
-```
+```cpp
 // C++ program to illustrate
 // the use of reset
 // in uniform_int_distribution
@@ -86,7 +86,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 132
 
@@ -99,7 +99,7 @@ int main()
     *   **max:** 它返回运算符()返回的值范围的最小上限，这是 uniform_real_distribution 的分布参数“b”。
     *   **重置:**它重置分布，以便在后续使用中，结果不依赖于它已经产生的值。
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // the use of operator()
     // in uniform_int_distribution
@@ -130,7 +130,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     some random numbers between 0.0 and 10.0: 
     0.150031
     9.77072
@@ -145,7 +145,7 @@ int main()
 
     ```
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // the use of reset
     // in uniform_real_distribution
@@ -176,7 +176,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     13.1538
     45.865
 
@@ -191,7 +191,7 @@ int main()
         *   **min:** 它返回运算符()返回的值范围的最大下限，对于 bernoulli_distribution，该值为 false。
         *   **max:** 它返回运算符()返回的值范围的最小上界，对于 bernoulli_distribution，该值为真。
 
-        ```
+        ```cpp
         // C++ program to illustrate
         // the bernoulli_distribution
         #include <iostream>
@@ -230,14 +230,14 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         bernoulli_distribution (0.7) x 500:
         true:  360
         false: 140
 
         ```
 
-        ```
+        ```cpp
         // C++ program to
         // illustrate the use of reset
         #include <iostream>
@@ -268,7 +268,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         1
         1
 
@@ -281,7 +281,7 @@ int main()
         *   **min:** 返回成员运算符()给定范围的最大下界，对于二项式分布，该下界始终为零。
         *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-        ```
+        ```cpp
         // C++ program to illustrate
         // the use of binomial_distribution
         #include <iostream>
@@ -315,12 +315,12 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         some binomial results (t=15, p=0.4): 7 6 7 8 4 6 7 6 9 3 5 6 4 6 7 
 
         ```
 
-        ```
+        ```cpp
         // C++ program to illustrate
         // the use of binomial_distribution
         #include <iostream>
@@ -354,7 +354,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         57
         52
 
@@ -367,7 +367,7 @@ int main()
         *   **min:** 返回运算符()给出的最小值。
         *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-        ```
+        ```cpp
         // C++ program to illustrate
         //the use of geometric_distribution 
         #include <iostream>
@@ -399,13 +399,13 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         each plus sign is 5 spaces away from the next :
                     ++ + +   +  ++     +        ++
 
         ```
 
-        ```
+        ```cpp
         // C++ program to illustrate 
         // the use of reset
         #include <iostream>
@@ -438,7 +438,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         0
         1
 
@@ -451,7 +451,7 @@ int main()
         *   **min:** 返回运算符()给出的最小值，对于负二项分布，该值始终为零。
         *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-        ```
+        ```cpp
         // C++ program to illustrate
         // the use of operator() in
         // negative_binomial_distribution 
@@ -486,12 +486,12 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         Negative binomial results (t=6, p=0.7): 2 6 3 1 4 1 4 1 2 0 7 3 4 4 4 
 
         ```
 
-        ```
+        ```cpp
         // C++ program to illustrate
         // the use of reset in
         // negative_binomial_distribution::
@@ -525,7 +525,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         23
         30
 
@@ -540,7 +540,7 @@ int main()
     *   **min:** 返回运算符()给定范围的最大下限。
     *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // use of operator() in
     // discrete_distribution
@@ -584,7 +584,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     a discrete_distribution:
     0: ************
     1: *************
@@ -599,7 +599,7 @@ int main()
 
     ```
 
-    ```
+    ```cpp
     // C++ program to illustrate
     //the use of reset in
     //discrete_distribution
@@ -633,7 +633,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     0
     2
 
@@ -646,7 +646,7 @@ int main()
     *   **min:** 返回运算符()给定范围的最大下限。
     *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // use of reset in
     // piecewise_constant_distribution
@@ -682,7 +682,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     3.4205
     6.6692
 
@@ -694,7 +694,7 @@ int main()
     *   **min:** 返回运算符()给定范围的最大下限。
     *   **重置:**它重置分布，以便对象的后续使用不依赖于它已经产生的值。
 
-    ```
+    ```cpp
     // C++ program to illustrate the
     // use of reset in
     // piecewise_linear_distribution
@@ -730,7 +730,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     2.48143
     6.07656
 

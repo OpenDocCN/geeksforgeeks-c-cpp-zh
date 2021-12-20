@@ -5,7 +5,7 @@
 “==”是 C++ STL 中的一个运算符，在两个无序集之间执行相等比较运算，**无序 _ 集::运算符==** 是相同的对应运算符函数。
 **语法:**
 
-```
+```cpp
 (unordered_set &uset1 == unordered_set &uset2)
 ```
 
@@ -21,7 +21,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <unordered_set>
 using namespace std;
@@ -70,7 +70,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sample1 and sample2 are equal.
 sample2 and sample3 are not equal.
 ```

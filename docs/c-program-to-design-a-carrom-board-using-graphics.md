@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C program to draw the Carrom Board
 // using graphics
 

@@ -8,7 +8,7 @@
 
 语法:
 
-```
+```cpp
 std::swap_ranges (ForwardIterator1 first1, ForwardIterator1 last1,
                   ForwardIterator2 first2);
 
@@ -17,7 +17,7 @@ Returns: It returns an iterator to the last element swapped in the second sequen
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate 
 // the use of std::swap_ranges
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 0 1 2 100 100 100 100 7 8 9
 3 4 5 6 100
 
@@ -74,7 +74,7 @@ int main()
 **哪里可以用？**
 当我们必须找出一个给定的容器在前半部分和后半部分是否包含相同的元素时，即**两个半部分是否相同时，可以使用它。**
 
-```
+```cpp
 // C++ program to demonstrate 
 // the use of std::swap_ranges
 #include <iostream>
@@ -141,7 +141,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Yes
 No
 

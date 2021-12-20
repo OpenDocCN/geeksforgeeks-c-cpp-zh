@@ -14,7 +14,7 @@
 
 ## C/C++
 
-```
+```cpp
 // C program to display hostname
 // and IP address
 #include <stdio.h>
@@ -88,7 +88,7 @@ int main()
 
 Output:
 
-```
+```cpp
 Hostname: cContainer
 Host IP: 10.98.162.101
 

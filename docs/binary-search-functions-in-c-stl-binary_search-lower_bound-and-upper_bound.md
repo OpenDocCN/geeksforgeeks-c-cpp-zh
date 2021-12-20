@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of binary_search()
 
 #include<bits/stdc++.h>
@@ -38,7 +38,7 @@ int main()
 
 输出:
 
-```
+```cpp
 15 exists in vector
 23 does not exist
 ```
@@ -47,7 +47,7 @@ int main()
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ code to demonstrate the working of lower_bound()
 #include<bits/stdc++.h>
 using namespace std;
@@ -100,7 +100,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 The position of 20 using lower_bound (in single occurrence case) : 2
 The position of 20 using lower_bound (in multiple occurrence case) : 2
 The position of 20 using lower_bound (in no occurrence case) : 2
@@ -112,7 +112,7 @@ The position of 20 using lower_bound (in no occurrence case) : 2
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ code to demonstrate the working of upper_bound()
 #include<bits/stdc++.h>
 using namespace std;
@@ -165,7 +165,7 @@ int main()
 
 **输出:** 
 
-```
+```cpp
 The position of 20 using upper_bound (in single occurrence case) : 3
 The position of 20 using upper_bound (in multiple occurrence case) : 4
 The position of 20 using upper_bound (in no occurrence case) : 2

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 vector_name.shrink_to_fit()
 
 ```
@@ -17,7 +17,7 @@ vector_name.shrink_to_fit()
 
 下面的程序说明了上面的功能:
 
-```
+```cpp
 // C++ program to illustrate
 // the vector::shrink_to_fit() 
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Vector size initially: 10
 Vector elements are: 0 1 2 3 4 5 6 7 8 9 
 

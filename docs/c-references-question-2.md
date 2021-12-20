@@ -12,7 +12,7 @@
 
 **解释:**我们可以创建一个引用常量的常量引用。例如，下面的程序编译并运行良好。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

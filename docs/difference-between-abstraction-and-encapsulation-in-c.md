@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -35,7 +35,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Sum of the two number is: 9 
 ```
 
@@ -46,7 +46,7 @@ Sum of the two number is: 9
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 

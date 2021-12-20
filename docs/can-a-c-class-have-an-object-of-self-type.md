@@ -6,7 +6,7 @@
 
 例如，以下程序运行良好。
 
-```
+```cpp
 // A class can have a static member of self type
 #include<iostream>
 
@@ -29,7 +29,7 @@ int main()
 
 下面的程序也很好用。
 
-```
+```cpp
 // A class can have a pointer to self type
 #include<iostream>
 
@@ -52,7 +52,7 @@ int main()
 
 但以下程序产生编译错误“*字段‘self’的类型不完整*
 
-```
+```cpp
 // A class cannot have non-static object(s) of self type.
 #include<iostream>
 

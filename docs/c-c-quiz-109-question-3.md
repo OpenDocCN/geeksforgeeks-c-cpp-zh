@@ -4,7 +4,7 @@
 
 找出以下程序的正确语句。
 
-```
+```cpp
 #include "stdio.h"
 
 typedef int (*funPtr)(int);

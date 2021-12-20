@@ -44,7 +44,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C program for the above approach
 
 #include <stdio.h>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set_name.max_size()
 ```
 
@@ -18,7 +18,7 @@ set_name.max_size()
 
 T3】c++T5
 
-```
+```cpp
 // CPP program to demonstrate the
 // set::max_size() function
 #include <bits/stdc++.h>

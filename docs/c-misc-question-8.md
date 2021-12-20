@@ -4,7 +4,7 @@
 
 C 以下代码的输出？假设 int 需要 4 个字节。
 
-```
+```cpp
 #include<stdio.h>
 int x = 5;
 int main()

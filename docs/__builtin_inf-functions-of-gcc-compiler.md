@@ -6,7 +6,7 @@
 
 **注意:如果编译器显示溢出警告，在 __builtin_inf()函数之前使用** [**铸造**](https://www.geeksforgeeks.org/type-conversion-c/) **作为**
 
-```
+```cpp
 (data_type)__builtin_inf()
 ```
 
@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```cpp
 if __builtin_inf() is used
 it returns infinite
 
@@ -25,7 +25,7 @@ Output: inf
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -41,7 +41,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 inf
 ```
 
@@ -49,7 +49,7 @@ inf
 
 **示例:**
 
-```
+```cpp
 if __builtin_infd32() is used
 it returns the maximum value of
 the 32-bit integer
@@ -61,7 +61,7 @@ Output: 2147483647
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 2147483647
 2147483647
 4294967295
@@ -106,7 +106,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 if __builtin_infd64() is used
 it returns the maximum value of
 the 64-bit integer
@@ -118,7 +118,7 @@ Output: 9223372036854775807
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -152,7 +152,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 9223372036854775807
 9223372036854775807
 18446744073709551615
@@ -163,7 +163,7 @@ int main()
 
 **示例:**
 
-```
+```cpp
 if __builtin_infd128() is used
 it returns the maximum value of
 the 64-bit integer
@@ -175,7 +175,7 @@ Output: 9223372036854775807
 
 **示例:**
 
-```
+```cpp
 if __builtin_inff() is used
 it returns the maximum value of
 the 32-bit float
@@ -187,7 +187,7 @@ Output: inf
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -207,7 +207,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 inf
 inf
 ```
@@ -216,7 +216,7 @@ inf
 
 **示例:**
 
-```
+```cpp
 if __builtin_infl() is used
 it returns the maximum value of
 the long double type
@@ -228,7 +228,7 @@ Output: inf
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -249,7 +249,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 inf
 inf
 ```

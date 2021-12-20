@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 
 #include "cuda_runtime.h"

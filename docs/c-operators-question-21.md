@@ -4,7 +4,7 @@
 
 假设一个整数的大小是 4 字节，预测下面程序的输出。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 boost::math::lcm (m,n)
 Parameters: m, n
 Return Value: 0 if either m or n are zero,
@@ -17,7 +17,7 @@ else lcm of mod(m) and mod(n).
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // boost::math::lcm function of C++ 
 #include <iostream>
@@ -35,7 +35,7 @@ int main()
 
 输出:
 
-```
+```cpp
 LCM(10,20) = 20
 
 ```
@@ -45,7 +45,7 @@ LCM(10,20) = 20
 1.  该函数将在取两个数字的模后计算 lcm，因此如果任何一个数字为负，它将被转换为其模，然后计算 LCM。
 2.  In case if any of the number being a non-integer data type , then this function will throw an error.
 
-    ```
+    ```cpp
     // CPP program to illustrate illegal
     // behaviour of boost::math::lcm function of C++ 
     #include <iostream>

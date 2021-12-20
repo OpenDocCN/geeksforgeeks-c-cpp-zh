@@ -5,7 +5,7 @@
 **decue::crend()**是 C++ STL 中的一个内置函数，它返回一个**常量**反向迭代器，指向 decue 第一个元素之前的位置。
 **语法**
 
-```
+```cpp
 deque_name.crend()
 
 ```
@@ -15,7 +15,7 @@ deque_name.crend()
 
 **示例-1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::crend() function
 #include <bits/stdc++.h>
@@ -37,7 +37,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The deque in reverse order: 
 10
 20
@@ -49,7 +49,7 @@ The deque in reverse order:
 
 **示例-2:** 由于迭代器是常量，试图更改它会导致错误。
 
-```
+```cpp
 // C++ program to illustrate the
 // deque::crend() function
 #include <bits/stdc++.h>

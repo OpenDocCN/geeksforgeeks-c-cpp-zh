@@ -4,7 +4,7 @@
 
 预测以下 C 程序的输出
 
-```
+```cpp
 #include<stdio.h>
 struct Point
 {

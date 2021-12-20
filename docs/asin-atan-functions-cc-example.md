@@ -10,7 +10,7 @@ asin()函数用来求一个数的反正弦，意思是给这个函数一个 sin 
 **注意:**传递给此函数的参数必须在 **[-1，1]** 和**范围内，asin()函数**返回的值在 **[-？/2, ?/2].**
 **语法:**
 
-```
+```cpp
 double asin(double k)
 
 Parameters:
@@ -19,7 +19,7 @@ k is the value whose corresponding angle we have to find.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // the use of asin function
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The arcsine of 0.5 is 0.523599 radians or 30 degrees 
 ```
 
@@ -54,7 +54,7 @@ The arcsine of 0.5 is 0.523599 radians or 30 degrees
 **atan()函数**用来求一个数的反正切，意思是给这个函数一个正切值，它会返回这个值对应的弧度角。反正切是切线的逆运算。该函数接受所有实数， **atan()函数**返回的值在 **[-？/2, ?/2].**
 **语法:**
 
-```
+```cpp
 double atan(double k)
 
 Parameters:
@@ -64,7 +64,7 @@ k is the value whose corresponding angle we have to find.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // the use of atan function
 #include <bits/stdc++.h>
@@ -89,6 +89,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The arctangent of 1 is 0.785398 radians or 45 degrees 
 ```

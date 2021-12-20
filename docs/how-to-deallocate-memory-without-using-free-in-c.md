@@ -6,7 +6,7 @@
 
 **解决方案:**标准库函数 [realloc()](http://www.cplusplus.com/reference/clibrary/cstdlib/realloc/) 可以用来释放之前分配的内存。下面是来自“stdlib . h”
 
-```
+```cpp
 void *realloc(void *ptr, size_t size);
 ```
 
@@ -16,7 +16,7 @@ void *realloc(void *ptr, size_t size);
 
 让我们用一个简单的例子来验证一下。
 
-```
+```cpp
 /* code with memory leak */
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,7 +31,7 @@ int main(void)
 
 用 valgrind 工具检查泄漏总结。它显示了 10 字节的内存泄漏，以红色高亮显示。
 
-```
+```cpp
   [narendra@ubuntu]$ valgrind –leak-check=full ./free
   ==1238== LEAK SUMMARY:
   ==1238==    definitely lost: 10 bytes in 1 blocks.
@@ -44,7 +44,7 @@ int main(void)
 
 让我们修改上面的代码。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -61,7 +61,7 @@ int main(void)
 
 检查 valgrind 的输出。它显示内存泄漏是不可能的，用红色突出显示。
 
-```
+```cpp
   [narendra@ubuntu]$ valgrind –leak-check=full ./a.out
   ==1435== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 11 from 1)
   ==1435== malloc/free: in use at exit: 0 bytes in 0 blocks.

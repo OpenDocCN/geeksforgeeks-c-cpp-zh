@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ Program to remove duplicates in an 
 // unsorted linked list 
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:
@@ -123,7 +123,7 @@ Linked list after removing duplicates:
 
 ## C++
 
-```
+```cpp
 // C++ Program to remove duplicates in an 
 // unsorted linked list
 #include<bits/stdc++.h>
@@ -209,7 +209,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:

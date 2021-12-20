@@ -10,7 +10,7 @@ strcat()函数是在“string.h”头文件中定义的。
 
 **语法:**
 
-```
+```cpp
 char * strcat(char * init, const char * add)
 
 ```
@@ -19,7 +19,7 @@ char * strcat(char * init, const char * add)
 
 **示例:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 this is init added now
 
 ```
@@ -48,7 +48,7 @@ this is init added now
 
 **语法:**
 
-```
+```cpp
 string& string::append (const string& str)
 
 str: the string to be appended.
@@ -59,7 +59,7 @@ str: the string to be appended.
 
 **示例:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 this is init added now
 
 ```
@@ -87,7 +87,7 @@ this is init added now
 
 **语法:**
 
-```
+```cpp
 string new_string = string init + string add;
 
 ```
@@ -96,7 +96,7 @@ string new_string = string init + string add;
 
 **示例:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -115,7 +115,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 this is init added now
 
 ```

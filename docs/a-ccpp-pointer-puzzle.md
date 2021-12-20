@@ -12,7 +12,7 @@
 *   &a1 是 int **，a2 是 int ***，a3 是 int ****。因为所有的都指向一个指针，所以加 1 意味着加 8 个字节(指针的大小)
 *   [0][0][0]是 int 类型，&a[0][0][0]是 int *类型，[0][0]是 int *类型，&a[0][0]是 int (*)[6]类型，[0]是 int (*)[6]类型，&a[0]是 int (*)[5][6]类型，a 是 int (*)[5][6]类型，&a 是 int (*)[4][5][6]类型
 
-```
+```cpp
 // CPP program to illustrate concept
 // of pointers
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 480 8 8 8
 8 8 8 480
 4 8 8 120

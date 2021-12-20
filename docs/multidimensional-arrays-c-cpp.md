@@ -6,7 +6,7 @@
 在 C/C++中，我们可以用简单的话把多维数组定义为数组的数组。多维数组中的数据以表格形式存储(按主要行顺序)。
 申报 N 维数组的一般形式:
 
-```
+```cpp
 data_type  array_name[size1][size2]....[sizeN];
 
 data_type: Type of data to be stored in the array. 
@@ -17,7 +17,7 @@ size1, size2,... ,sizeN: Sizes of the dimensions
 
 **示例** :
 
-```
+```cpp
 Two dimensional array:
 int two_d[10][20];
 
@@ -39,14 +39,14 @@ int three_d[10][20][30];
 *   声明大小为 x，y 的二维数组的基本形式:
     **语法:**
 
-```
+```cpp
 data_type array_name[x][y];
 data_type: Type of data to be stored. Valid C/C++ data type.
 ```
 
 *   我们可以将大小为 10，20 的二维整数数组声明为:
 
-```
+```cpp
 int x[10][20];
 ```
 
@@ -58,14 +58,14 @@ int x[10][20];
 **初始化二维数组**:二维数组有两种初始化方式。
 T3【第一法】T4:
 
-```
+```cpp
 int x[3][4] = {0, 1 ,2 ,3 ,4 , 5 , 6 , 7 , 8 , 9 , 10 , 11}
 ```
 
 上面的数组有 3 行 4 列。大括号中从左到右的元素也从左到右存储在表中。元素将按顺序填充到数组中，第一行中左边的前 4 个元素，第二行中的后 4 个元素，依此类推。
 **更好的方法** :
 
-```
+```cpp
 int x[3][4] = {{0,1,2,3}, {4,5,6,7}, {8,9,10,11}};
 ```
 
@@ -73,7 +73,7 @@ int x[3][4] = {{0,1,2,3}, {4,5,6,7}, {8,9,10,11}};
 **访问二维数组的元素:**使用行索引和列索引访问二维数组中的元素。
 示例:
 
-```
+```cpp
 int x[2][1];
 ```
 
@@ -83,7 +83,7 @@ int x[2][1];
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ Program to print the elements of a
 // Two-Dimensional array
 #include<iostream>
@@ -111,7 +111,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Element at x[0][0]: 0
 Element at x[0][1]: 1
 Element at x[1][0]: 2
@@ -127,7 +127,7 @@ Element at x[2][1]: 5
 **初始化三维数组**:三维数组中的初始化与二维数组相同。不同之处在于，随着维度数量的增加，嵌套大括号的数量也会增加。
 T3】方法 1:T5
 
-```
+```cpp
 int x[2][3][4] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
                  11, 12, 13, 14, 15, 16, 17, 18, 19,
                  20, 21, 22, 23};
@@ -135,7 +135,7 @@ int x[2][3][4] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
 
 **更好的方法** :
 
-```
+```cpp
 int x[2][3][4] = 
  { 
    { {0,1,2,3}, {4,5,6,7}, {8,9,10,11} },
@@ -147,7 +147,7 @@ int x[2][3][4] =
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to print elements of Three-Dimensional
 // Array
 #include<iostream>
@@ -181,7 +181,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Element at x[0][0][0] = 0
 Element at x[0][0][1] = 1
 Element at x[0][1][0] = 2

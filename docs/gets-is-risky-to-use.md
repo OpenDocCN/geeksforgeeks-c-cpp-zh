@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 void read()
 {
    char str[20];
@@ -21,7 +21,7 @@ void read()
 
 ## C
 
-```
+```cpp
 #define MAX_LIMIT 20
 void read()
 {
@@ -40,7 +40,7 @@ void read()
 
 ## C
 
-```
+```cpp
 int len = strlen(str);
 
 // Remove the '\n' character and replace it with '\0'

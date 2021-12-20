@@ -5,7 +5,7 @@
 **Thread::get_id()** 是 C++ std::thread 中的内置函数。它是一个观察函数，这意味着它观察一个状态，然后返回相应的输出。此函数返回 std::thread::id 的值，从而识别与此关联的线程。
 **语法:**
 
-```
+```cpp
 thread_name.get_id();
 ```
 
@@ -16,7 +16,7 @@ thread_name.get_id();
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // std::thread::get_id
 
@@ -55,7 +55,7 @@ int main()
 
 **可能的输出:**
 
-```
+```cpp
 ID associated with thread1= 139858743162624
 ID associated with thread2= 139858734769920
 ```

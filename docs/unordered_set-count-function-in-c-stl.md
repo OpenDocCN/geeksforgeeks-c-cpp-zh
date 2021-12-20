@@ -5,7 +5,7 @@
 **无序集::count()** 函数是 C++ STL 中的内置函数，用于统计无序集容器中特定元素的出现次数。由于无序集容器不允许存储重复的元素，因此该函数通常用于检查容器中是否存在元素。如果元素存在于容器中，函数返回 1，否则返回 0。
 **语法** :
 
-```
+```cpp
 *unordered_set_name*.count(element)
 ```
 
@@ -19,7 +19,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::count() function
 
@@ -60,7 +60,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sampleSet contains: 25 5 10 15 20 
 Element 20 is present in the set
 ```
@@ -69,7 +69,7 @@ Element 20 is present in the set
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::count() function
 
@@ -111,7 +111,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sampleSet contains: Welcome To GeeksforGeeks For Geeks Computer Science Portal 
 GeeksforGeeks is present in the set
 ```

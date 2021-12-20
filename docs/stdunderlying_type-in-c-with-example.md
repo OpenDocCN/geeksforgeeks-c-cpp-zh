@@ -6,14 +6,14 @@ C++ STL 的**标准::底层 _ 类型**模板存在于<类型 _ 特征>头文件�
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct underlying_type;
 
@@ -21,7 +21,7 @@ struct underlying_type;
 
 **语法:**
 
-```
+```cpp
 std::underlying_type<class T>::value
 
 ```
@@ -34,7 +34,7 @@ std::underlying_type<class T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::underlying_type
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 underlying type for 'GFG' is unsigned
 underlying type for 'gfg' is int
 

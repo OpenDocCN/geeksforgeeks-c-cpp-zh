@@ -8,7 +8,7 @@ strcmp()是一个内置库函数，在 **< string.h >** 头文件中声明。该
 
 **语法:**:
 
-```
+```cpp
 int strcmp(const char *leftStr, const char *rightStr );
 
 ```
@@ -25,11 +25,11 @@ int strcmp(const char *leftStr, const char *rightStr );
 
 1.  **Zero ( 0 )**: A value equal to zero when both strings are found to be identical. That is, That is, All of the characters in both strings are same.
 
-    ```
+    ```cpp
     All characters of strings are same
     ```
 
-    ```
+    ```cpp
     // C program to illustrate
     // strcmp() function
     #include<stdio.h>
@@ -56,7 +56,7 @@ int strcmp(const char *leftStr, const char *rightStr );
 
     输出:
 
-    ```
+    ```cpp
     Strings are equal
     Value returned by strcmp() is:  0
 
@@ -64,12 +64,12 @@ int strcmp(const char *leftStr, const char *rightStr );
 
 2.  **Greater than zero ( >0 )**: A value greater than zero is returned when the first not matching character in leftStr have the greater ASCII value than the corresponding character in rightStr or we can also say
 
-    ```
+    ```cpp
     If character in leftStr is lexicographically
     after the character of rightStr 
     ```
 
-    ```
+    ```cpp
     // C program to illustrate
     // strcmp() function
     #include<stdio.h>
@@ -95,7 +95,7 @@ int strcmp(const char *leftStr, const char *rightStr );
 
     输出:
 
-    ```
+    ```cpp
     Strings are unequal
     Value returned by strcmp() is:  19
 
@@ -103,12 +103,12 @@ int strcmp(const char *leftStr, const char *rightStr );
 
 3.  **Less than Zero ( <0 )**: A value less than zero is returned when the first not matching character in leftStr have lesser ASCII value than the corresponding character in rightStr.
 
-    ```
+    ```cpp
     If character in leftStr is lexicographically
     before the character of rightStr
     ```
 
-    ```
+    ```cpp
     // C program to illustrate
     // strcmp() function
     #include<stdio.h>
@@ -134,7 +134,7 @@ int strcmp(const char *leftStr, const char *rightStr );
 
     输出:
 
-    ```
+    ```cpp
     Strings are unequal
     Value returned by strcmp() is:  -5
 

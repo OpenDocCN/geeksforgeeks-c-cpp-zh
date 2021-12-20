@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```cpp
 ClassName ObjectName[number of objects];
 ```
 
@@ -32,7 +32,7 @@ ClassName ObjectName[number of objects];
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include<iostream>
@@ -77,7 +77,7 @@ int main(){
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include<iostream>
@@ -153,7 +153,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 #include<iostream>

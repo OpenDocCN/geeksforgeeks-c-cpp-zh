@@ -10,7 +10,7 @@
 
 ## CPP
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -25,7 +25,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -45,13 +45,13 @@ int main()
 
 | 
 
-```
+```cpp
 new
 ```
 
  | 
 
-```
+```cpp
 malloc()
 ```
 

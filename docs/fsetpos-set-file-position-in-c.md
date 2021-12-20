@@ -16,7 +16,7 @@
 
 ## C
 
-```
+```cpp
 // c code to demonstrate fsetpos() function.
 #include <stdio.h>
 int main () {
@@ -41,7 +41,7 @@ int main () {
 
 **输出–**
 
-```
+```cpp
 geeksforgeeks
 ```
 

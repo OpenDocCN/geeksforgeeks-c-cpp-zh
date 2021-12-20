@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 int getpixel(int x, int y);
 
 ```
@@ -17,7 +17,7 @@ int getpixel(int x, int y);
 
 下面是 getpixel()函数的实现。
 
-```
+```cpp
 // C Implementation for getpixel()
 #include <graphics.h>
 #include <stdio.h>

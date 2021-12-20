@@ -27,7 +27,7 @@
 **示例 1:**
 使用宏之前:
 
-```
+```cpp
 long long int a;
 vector<long long int> v;
 map<long long int, long long int> mp;
@@ -35,7 +35,7 @@ map<long long int, long long int> mp;
 
 使用宏后:
 
-```
+```cpp
 // ll can be used instead of typing long long int
 #define ll long long int
 
@@ -47,7 +47,7 @@ map<ll, ll> mp;
 **示例 2:**
 使用宏之前:
 
-```
+```cpp
 for (int i = 0; i < N; i++)
     cin >> a[i];
 
@@ -60,7 +60,7 @@ for (int i = 0; i < N; i++) {
 
 使用宏后:
 
-```
+```cpp
 // Use this macro instead of typing the whole
 // for-loop syntax
 #define FOR(a, c) for (int(a) = 0; (a) < (c); (a)++)
@@ -79,7 +79,7 @@ FOR(i, N)
 
 **例 3:**
 
-```
+```cpp
 vector v;
 
 for (int i = 0; i < N; i++) {
@@ -90,7 +90,7 @@ for (int i = 0; i < N; i++) {
 
 **在**之后:
 
-```
+```cpp
 #define ll long long int
 #define MP make_pair
 #define pb push_back
@@ -109,7 +109,7 @@ for (int i = 0; i < N; i++) {
 使用模板是加速实现的最好方法之一。准备好你的模板，里面已经写好了宏。这有助于减少大量的时间，否则这些时间将用于从头开始编写整个代码。
 我用下面的模板，你可以用一个适合你的。
 
-```
+```cpp
 #include "bits/stdc++.h"
 using namespace std;
 #define max(a, b) (a < b ? b : a)

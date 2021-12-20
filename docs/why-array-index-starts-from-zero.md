@@ -12,7 +12,7 @@ arr[i]解释为*(arr + i)。现在，arr 是数组的地址或数组第 0 个索
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -30,7 +30,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 2 2
 
 ```

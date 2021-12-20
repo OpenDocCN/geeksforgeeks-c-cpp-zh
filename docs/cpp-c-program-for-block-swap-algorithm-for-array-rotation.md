@@ -12,7 +12,7 @@
 
 **算法:**
 
-```
+```cpp
 Initialize A = arr[0..d-1] and B = arr[d..n-1]
 1) Do following until size of A is equal to size of B
 
@@ -31,7 +31,7 @@ Initialize A = arr[0..d-1] and B = arr[d..n-1]
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -107,7 +107,7 @@ int main() 
 
 ## C++
 
-```
+```cpp
 // C++ code for above implementation
 void leftRotate(int arr[], int d, int n)
 {

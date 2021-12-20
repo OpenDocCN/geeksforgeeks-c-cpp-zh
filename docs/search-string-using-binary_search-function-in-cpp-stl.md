@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: arr[] = {“Geeks”, “For”, “GeeksForGeek”}
 Search “Geeks”
 Output: String Founded in array
@@ -14,7 +14,7 @@ Output: String Founded in array
 
 **语法:**
 
-```
+```cpp
 binary_search(starting_address, ending_address, value_of_string)
 ```
 
@@ -22,7 +22,7 @@ binary_search(starting_address, ending_address, value_of_string)
 
 ## C++14
 
-```
+```cpp
 // C++ program to implement Binary
 // Search in Standard Template Library (STL)
 #include <algorithm>
@@ -77,7 +77,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The array is : 
 Geeks, For, GeeksForGeek, 
 
@@ -88,7 +88,7 @@ Searching Result for "Best"
 String not Found in array
 ```
 
-```
+```cpp
 ***Time Complexity: O(N*log N)***
 ***Auxiliary Space: O(1)***
 ```

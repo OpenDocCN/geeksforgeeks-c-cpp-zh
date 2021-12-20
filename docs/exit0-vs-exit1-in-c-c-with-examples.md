@@ -8,7 +8,7 @@ C/C++中有两种退出状态:
 
 1.  **Exit Success:** **Exit Success** is indicated by **exit(0)** statement which means successful termination of the program, i.e. program has been executed without any error or interrupt.
 
-    ```
+    ```cpp
     #include <file.h>
     #include <stdio.h>
 
@@ -30,7 +30,7 @@ C/C++中有两种退出状态:
 
 2.  **退出失败:** **退出失败**由**退出(1)** 表示程序异常终止，即出现了一些错误或中断。我们可以使用 1 以外的不同整数来表示不同类型的错误。
 
-    ```
+    ```cpp
     #include <file.h>
     #include <stdio.h>
 

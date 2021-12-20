@@ -11,7 +11,7 @@
 
 要成功运行以下程序，file1.txt 和 fil2.txt 必须存在于同一个文件夹中。
 
-```
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Merged file1.txt and file2.txt into file3.txt
 ```
 

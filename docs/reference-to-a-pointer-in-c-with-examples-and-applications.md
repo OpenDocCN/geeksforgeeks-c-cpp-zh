@@ -4,7 +4,7 @@
 
 就像[引用简单数据类型](https://www.geeksforgeeks.org/references-in-c/)一样，我们可以引用[指针](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)。
 
-```
+```cpp
 // CPP program to demonstrate references to pointers.
 #include <iostream>
 using namespace std;
@@ -38,7 +38,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 20 20 10 20
 
 ```
@@ -46,7 +46,7 @@ int main()
 **以上是什么应用？**
 考虑这样一种情况，我们传递一个指向函数的指针，我们希望函数修改指针以指向其他东西，我们希望这些变化反映在调用者身上。例如，编写一个改变头部的链表函数，我们将指针的引用传递给头部，这样函数就可以改变头部(另一种方法是返回头部)。我们也可以使用[双指针](https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/)实现同样的事情。
 
-```
+```cpp
 // A C++ program to demonstrate application
 // of reference to a pointer.
 #include <iostream>
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 3 2 1
 
 ```

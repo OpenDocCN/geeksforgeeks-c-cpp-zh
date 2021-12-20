@@ -4,7 +4,7 @@
 
 预测产量？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -31,7 +31,7 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 x = 1 count = 0
 
 x = 1 count = 1
@@ -41,7 +41,7 @@ x = 1.1 count = 0
 
 **(B)**
 
-```
+```cpp
 x = 1 count = 0
 
 x = 1 count = 0
@@ -51,7 +51,7 @@ x = 1.1 count = 0
 
 **(C)**
 
-```
+```cpp
 x = 1 count = 0
 
 x = 1 count = 1

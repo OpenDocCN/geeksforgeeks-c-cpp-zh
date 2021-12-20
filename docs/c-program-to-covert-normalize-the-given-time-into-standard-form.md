@@ -13,7 +13,7 @@
 
 *   定义了 3 个变量来分别存储小时、分钟和秒的值。
 
-```
+```cpp
 int HR, MIN, SEC;
 where HR represents hours,
       MIN represents minutes and
@@ -22,7 +22,7 @@ where HR represents hours,
 
 *   **设置时间()功能**设置小时、分钟和秒的值:
 
-```
+```cpp
 void setTime(int x, int y, int z)
 {
     x = HR;
@@ -33,7 +33,7 @@ void setTime(int x, int y, int z)
 
 *   **显示时间()**显示时间:
 
-```
+```cpp
 void showTime()
 {
     cout << HR << ":" << MIN << ":" << SEC;
@@ -42,7 +42,7 @@ void showTime()
 
 *   **归一化()函数**将合成时间转换为标准形式。通过根据标准时间格式将其转换为以下格式来标准化时间:
 
-```
+```cpp
 void normalize()
 {
     MIN = MIN + SEC/60;
@@ -66,7 +66,7 @@ void normalize()
 
 ## C++
 
-```
+```cpp
 // C++ program to normalize the given
 // time into standard form
 #include <conio.h>

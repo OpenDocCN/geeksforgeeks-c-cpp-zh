@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *forwardlistname1*.swap(*forwardlistname2*)
 Parameters :
 The name of the forward lists with which
@@ -22,7 +22,7 @@ All the elements of the 2 forward list are swapped.
 
 示例:
 
-```
+```cpp
 Input  : myflist1 = {1, 2, 3, 4}
          myflist2 = {3, 5, 7, 9}
          myflist1.swap(myflist2);
@@ -43,7 +43,7 @@ Output : myflist1 = {2, 4, 6, 8}
 2。如果转发列表的大小不同，它会抛出一个错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <forward_list>
@@ -78,7 +78,7 @@ int main()
 
 输出:
 
-```
+```cpp
 myflist1 = 3 5 7 9 
 myflist2 = 1 2 3 4 
 

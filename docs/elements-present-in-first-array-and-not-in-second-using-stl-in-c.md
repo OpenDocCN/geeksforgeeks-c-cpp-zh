@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: a[] = {1, 2, 3, 4, 5, 10}, b[] = {2, 3, 1, 0, 5}
 Output: 4 10
 
@@ -23,7 +23,7 @@ Output: 5
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ simple program to
 // find elements which are
 // not present in second array
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The elements in a[] which are not in b[]:
 5  6
 

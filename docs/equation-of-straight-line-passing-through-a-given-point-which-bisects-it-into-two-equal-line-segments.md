@@ -26,7 +26,7 @@ T18】x<sub>0</sub>=(a+0)/2 即 **a = 2x <sub>0</sub>**
 
 ## **C++**
 
-```
+```cpp
 // C++ implementation of the approach
 #include <iostream>
 using namespace std;
@@ -52,7 +52,7 @@ int main()
 
 ## **Java 语言(一种计算机语言，尤用于创建网站)**
 
-```
+```cpp
 // Java implementation of the approach
 class GFG
 {
@@ -80,7 +80,7 @@ public static void main(String[] args)
 
 ## **蟒蛇 3**
 
-```
+```cpp
 # Python 3 implementation of the approach
 
 # Function to print the equation
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 ## **C#**
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -130,7 +130,7 @@ public static void Main(String[] args)
 
 ## **服务器端编程语言（Professional Hypertext Preprocessor 的缩写）**
 
-```
+```cpp
 <?php
 // PHP implementation of the approach
 
@@ -153,7 +153,7 @@ line($x0, $y0);
 
 ## **java 描述语言**
 
-```
+```cpp
 <script>
 
 // javascript implementation of the approach
@@ -178,6 +178,6 @@ line(x0, y0);
 
 ****Output:** 
 
-```
+```cpp
 3x + 4y = 24
 ```**

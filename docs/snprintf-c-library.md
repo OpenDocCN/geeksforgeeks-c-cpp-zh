@@ -10,7 +10,7 @@ snprintf()还返回写入缓冲区的字符数，类似于 printf 语句，该�
 
 **语法:**
 
-```
+```cpp
 int snprintf(char *str, size_t size, const char *format, ...);
 
 *str : is a buffer.
@@ -24,7 +24,7 @@ are just the string formats like (“%d”, myint) as seen in printf.
 
 ## C
 
-```
+```cpp
 // C program to demonstrate snprintf()
 #include <stdio.h>
 
@@ -48,7 +48,7 @@ int main()
 
 输出:
 
-```
+```cpp
 string:
 geeks
 character count = 14

@@ -9,7 +9,7 @@
 at()函数用于引用出现在 ***位置*** 的元素，该位置作为函数的参数给出。
 **语法:**
 
-```
+```cpp
 *dequename*.at(***position***)
 Parameters :
 Position of the element to be fetched.
@@ -20,7 +20,7 @@ Direct reference to the element at the given position.
 
 示例:
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque.at(2);
 Output :  3
@@ -36,7 +36,7 @@ Output :  7
 1.如果该位置不在德格中，它会将 ***抛出范围外*** 。
 2。否则，它具有很强的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of at() function
 #include <deque>
@@ -58,7 +58,7 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 
 ```
@@ -66,7 +66,7 @@ int main()
 **应用程序**
 给定一个整数序列，打印偶数位置的所有整数。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :1 3 5 7 9
 *Explanation - 1, 3, 5, 7 and 9 are at position 0, 2, 4, 6 and 8 which are even*
@@ -77,7 +77,7 @@ Output :1 3 5 7 9
 1。运行一个循环，直到数组的大小。
 2。检查该位置是否可被 2 整除，如果是，打印该位置的元素。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of at() function
 #include <deque>
@@ -110,7 +110,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 5 7 9
 
 ```
@@ -121,7 +121,7 @@ int main()
 
 **语法:**
 
-```
+```cpp
 *dequename1*.swap(*dequename2*)
 Parameters :
 The name of the deque with which
@@ -133,7 +133,7 @@ All the elements of the 2 deque are swapped.
 
 示例:
 
-```
+```cpp
 Input  : mydeque1 = {1, 2, 3, 4}
          mydeque2 = {3, 5, 7, 9}
          mydeque1.swap(mydeque2);
@@ -154,7 +154,7 @@ Output : mydeque1 = {2, 4, 6, 8}
 2。如果 deque 大小不同，它会抛出错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <deque>
@@ -186,7 +186,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mydeque1 = 3 5 7 9 
 mydeque2 = 1 2 3 4 
 

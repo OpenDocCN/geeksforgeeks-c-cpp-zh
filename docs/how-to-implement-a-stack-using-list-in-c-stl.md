@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ implementation of stack
 // using list STL
 #include <bits/stdc++.h>
@@ -97,7 +97,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Current size of the stack is 4
 The top element of the stack is 40
 The top element after 1 pop operation is 30

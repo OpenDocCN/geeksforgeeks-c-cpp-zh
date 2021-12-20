@@ -6,7 +6,7 @@ C++中 **iomaip 库**的 **setfill()** 方法用于根据指定为该方法参�
 
 **语法:**
 
-```
+```cpp
 setfill(char c)
 
 ```
@@ -17,7 +17,7 @@ setfill(char c)
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setfill() function
 
@@ -50,7 +50,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before setting the fill char: 
         50
 Setting the fill char setfill to *: 
@@ -60,7 +60,7 @@ Setting the fill char setfill to *:
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of setfill() function
 
@@ -92,7 +92,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before setting the fill char: 
         50
 Setting the fill char setfill to $: 

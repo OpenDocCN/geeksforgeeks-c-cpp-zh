@@ -13,7 +13,7 @@
 
 ## Windows 操作系统
 
-```
+```cpp
 // C program to get the IP Address of your 
 // Windows system.
 
@@ -28,7 +28,7 @@ int main()
 
 ## Linux 操作系统
 
-```
+```cpp
 // C program to get the IP Address of your
 // Linux system.
 
@@ -43,7 +43,7 @@ int main()
 
 **Output :**
 
-```
+```cpp
 Same output as you get on writing ipconfig in Windows or ifconfig in Linux on your terminal.
 You are just using ipconfig/ifconfig on terminal but using C code isn't it cool.
 ```
@@ -52,7 +52,7 @@ You are just using ipconfig/ifconfig on terminal but using C code isn't it cool.
 
 ## Windows 操作系统
 
-```
+```cpp
 // C code to Shut Down your Windows system
 #include<stdlib.h>
 using namespace std; 
@@ -69,7 +69,7 @@ int main()
 
 ## Linux 操作系统
 
-```
+```cpp
 // C program to get the IP Address of your
 // Linux system.
 
@@ -84,7 +84,7 @@ int main()
 
 **Output :**
 
-```
+```cpp
 An alert box appears telling you that your System will Shut Down.
 ```
 

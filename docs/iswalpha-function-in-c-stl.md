@@ -11,7 +11,7 @@
 
 **语法**:
 
-```
+```cpp
 int iswalpha(ch)
 ```
 
@@ -26,7 +26,7 @@ int iswalpha(ch)
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // iswalpha() function
 #include <cwctype>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Q is an alphabet 
 g is an alphabet
 
@@ -62,7 +62,7 @@ g is an alphabet
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // iswalpha() function
 #include <cwctype>
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 w is an alphabet 
 2 is not an alphabet
 

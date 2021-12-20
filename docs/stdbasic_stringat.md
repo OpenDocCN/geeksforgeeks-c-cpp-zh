@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 reference at (size_type pos);
 const_reference at (size_type pos) const;
 Parameters :
@@ -17,7 +17,7 @@ Exceptions :
 Throws std::out_of_range if pos >= size().
 ```
 
-```
+```cpp
 // CPP program to access a character through
 // std::basic_string::at 
 #include <stdexcept>
@@ -47,7 +47,7 @@ int main()
 
 输出:
 
-```
+```cpp
 string size = 3
 basic_string::at: __n (which is 4) >= this->size() (which is 3)
 

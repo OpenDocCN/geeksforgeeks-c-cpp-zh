@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // cascading operators
 #include <iostream>
@@ -113,7 +113,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // overloading of '<<' and '>>'
 // operators

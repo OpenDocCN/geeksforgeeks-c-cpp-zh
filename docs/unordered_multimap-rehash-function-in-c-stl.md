@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name*.rehash(N)
 ```
 
@@ -20,7 +20,7 @@
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::rehash()
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of Sample1 is: 2
 Key and Elements of Sample1 are:{50, 500} {10, 100} 
 
@@ -85,7 +85,7 @@ Key and Elements of Sample2 are:{30, 150} {30, 300} {20, 200}
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::rehash()
 #include <bits/stdc++.h>
@@ -139,7 +139,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of Sample1 is: 2
 Key and Elements of Sample1 are:{g, G} {a, A} 
 

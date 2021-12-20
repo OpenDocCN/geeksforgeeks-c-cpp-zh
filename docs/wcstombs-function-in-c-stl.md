@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 wcstombs(d, s, n)
 ```
 
@@ -23,7 +23,7 @@ wcstombs(d, s, n)
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // wcstombs function in C++
 #include <cstdlib>
@@ -48,7 +48,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Number of wide character converted = 13
 Multibyte Character String = GeeksforGeeks
 
@@ -56,7 +56,7 @@ Multibyte Character String = GeeksforGeeks
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // wcstombs function in C++
 #include <cstdlib>
@@ -81,7 +81,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Number of wide character converted = 15
 Multibyte Character String = 10@Hello World!
 

@@ -8,14 +8,14 @@ C/C++对其基本整数数据类型(char、short、int、long 和 long long)的�
 
 模板:
 
-```
+```cpp
 intN_t or uintN_t
 Where N is width of integer which can be 8, 16, 32, 64
 or any other type width supported by the library.
 
 ```
 
-```
+```cpp
 // C++ program to show use of extended integral types
 #include <iostream>
 using namespace std;
@@ -43,7 +43,7 @@ int main()
 
 输出:
 
-```
+```cpp
  In function 'int main()':
 19:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
      i = 2436;

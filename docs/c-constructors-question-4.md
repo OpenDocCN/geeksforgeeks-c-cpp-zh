@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-constructors-question-4/](https://www.geeksforgeeks.org/c-constructors-question-4/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Point {

@@ -6,7 +6,7 @@
 
 memmove()用于将内存块从一个位置复制到另一个位置。在**字符串中声明**
 
-```
+```cpp
 // Copies "numBytes" bytes from address "from" to address "to"
 void * memmove(void *to, const void *from, size_t numBytes);
 
@@ -16,7 +16,7 @@ void * memmove(void *to, const void *from, size_t numBytes);
 
 ## C
 
-```
+```cpp
 /* A C program to demonstrate working of memmove */
 #include <stdio.h>
 #include <string.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 str1 before memmove 
 Geeks
 
@@ -59,7 +59,7 @@ memcpy()在字符串重叠时会导致问题。
 
 ## C
 
-```
+```cpp
 // Sample program to show that memcpy() can lose data.
 #include <stdio.h>
 #include <string.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 GeeksGeeksfor
 ```
 
@@ -84,7 +84,7 @@ GeeksGeeksfor
 
 ## C
 
-```
+```cpp
 // Sample program to show that memmove() is better than
 // memcpy() when addresses overlap.
 #include <stdio.h>
@@ -111,7 +111,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Original string :Learningisfun
  memcpy overlap : LearningLearningis
  memmove overlap : LearningLearningLe

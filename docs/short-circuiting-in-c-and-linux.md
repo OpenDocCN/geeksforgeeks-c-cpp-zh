@@ -11,7 +11,7 @@
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of 'c' will  not increment due to short-circuit
 Value of 'c' will increment as there is no short circuit
 ```

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-pointers-question-15/](https://www.geeksforgeeks.org/c-pointers-question-15/)
 
-```
+```cpp
 int f(int x, int *py, int **ppz) 
 { 
   int y, z; 
@@ -34,7 +34,7 @@ void main() 
 
 **讲解:**让我们一行一行地了解这一点
 
-```
+```cpp
   /* below line changes value of c to 5\. Note that x remains unaffected by 
     this change as x is a copy of c and address of x is different from c*/
   **ppz += 1  

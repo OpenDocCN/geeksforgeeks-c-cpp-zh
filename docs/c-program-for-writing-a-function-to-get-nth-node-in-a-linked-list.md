@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input:  1->10->30->14,  index = 2
 Output: 30  
 The node at index 2 is 30
@@ -14,7 +14,7 @@ The node at index 2 is 30
 
 **算法:**
 
-```
+```cpp
 1\. Initialize count = 0
 2\. Loop through the link list
      a. If count is equal to the passed index then return current
@@ -27,7 +27,7 @@ The node at index 2 is 30
 
 ## C
 
-```
+```cpp
 // C program to find n'th
 // node in linked list
 #include <assert.h>
@@ -114,7 +114,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Element at index 3 is 4
 ```
 

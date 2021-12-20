@@ -7,7 +7,7 @@ Void 函数是“void”，因为它们不应该返回值。没错，但不完�
 **一个 void 函数可以做 return**
 我们可以简单的在一个 void fun()中写 return 语句。事实上，编写 return 被认为是一种好的做法(为了代码的可读性)；语句来指示函数的结束。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -28,13 +28,13 @@ int main()
 
 输出:
 
-```
+```cpp
 Hello
 ```
 
 **一个虚空乐趣()可以返回另一个虚空功能**
 
-```
+```cpp
 // C++ code to demonstrate void()
 // returning void()
 #include<iostream>
@@ -64,7 +64,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The void function has returned a void() !!! 
 
 ```
@@ -74,7 +74,7 @@ The void function has returned a void() !!!
 **一个 void()可以返回一个 void 值。**
 一个 void()不能返回一个可以使用的值。但是它可以返回一个无效的值而不会给出错误。
 
-```
+```cpp
 // C++ code to demonstrate void()
 // returning a void value
 #include<iostream>
@@ -97,7 +97,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Hello
 
 ```

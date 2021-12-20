@@ -13,7 +13,7 @@
 
 ## C++
 
-```
+```cpp
 // CPP code to implement ternary operator
 #include <bits/stdc++.h>
 
@@ -45,7 +45,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 code to implement ternary operator
 
 # Function to implement ternary operator
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP code to implement
 // ternary operator
@@ -119,7 +119,7 @@ function ternaryOperator($a, $b, $c)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript code to implement
@@ -154,7 +154,7 @@ function ternaryOperator($a, $b, $c)
 
 **输出:**
 
-```
+```cpp
 10
 20
 ```

@@ -4,7 +4,7 @@
 
 考虑下面的 C++程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class A

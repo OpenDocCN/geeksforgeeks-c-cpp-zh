@@ -14,7 +14,7 @@ Dev C++也用于 C 和 CPP 语言。第一次稳定发布是在 2015 年 4 月�
 
 **Turbo c++中的代码:**
 
-```
+```cpp
 #include <conio.h>
 #include <iostream.h>
 void main()
@@ -30,7 +30,7 @@ void main()
 
 **Dev c++中的代码:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()

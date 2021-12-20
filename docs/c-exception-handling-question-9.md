@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-9/](https://www.geeksforgeeks.org/c-exception-handling-question-9/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -33,7 +33,7 @@ int main() {
 
 **(甲)**
 
-```
+```cpp
 Constructing object number 1
 Constructing object number 2
 Constructing object number 3
@@ -47,7 +47,7 @@ Caught 4
 
 **(B)**
 
-```
+```cpp
 Constructing object number 1
 Constructing object number 2
 Constructing object number 3
@@ -60,7 +60,7 @@ Caught 4
 
 **(C)**
 
-```
+```cpp
 Constructing object number 1
 Constructing object number 2
 Constructing object number 3
@@ -74,7 +74,7 @@ Caught 4
 
 **(D)**
 
-```
+```cpp
 Constructing object number 1
 Constructing object number 2
 Constructing object number 3

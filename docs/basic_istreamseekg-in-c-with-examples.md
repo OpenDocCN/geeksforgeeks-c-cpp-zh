@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 basic_istream& seekg (pos_type pos);
 
 ```
@@ -28,7 +28,7 @@ basic_istream& seekg (pos_type pos);
 
 **程序 1:**
 
-```
+```cpp
 // C++ code for basic_istream::seekg()
 
 #include <bits/stdc++.h>
@@ -52,7 +52,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a = Geeks
 b = Geeks
 
@@ -60,7 +60,7 @@ b = Geeks
 
 **程序二:**
 
-```
+```cpp
 // C++ code for basic_istream::seekg()
 
 #include <bits/stdc++.h>
@@ -84,7 +84,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a = Geeks
 b = for
 

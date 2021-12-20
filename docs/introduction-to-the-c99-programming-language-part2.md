@@ -8,7 +8,7 @@
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -31,7 +31,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Length is 3
 String Comparison Result: 0
 ```
@@ -39,7 +39,7 @@ String Comparison Result: 0
 2.  [**_Pragma 运算符**](https://www.geeksforgeeks.org/pragma-directive-in-c-c/) **:** C99 通过使用运算符 _Pragma 指定 **pragma** 实现。
     **语法:**
 
-```
+```cpp
 _Pragma("directive")
 
 directive is the pragma being called.
@@ -65,7 +65,7 @@ directive is the pragma being called.
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -79,7 +79,7 @@ int main(void)
 
 **Output:** 
 
-```
+```cpp
 0 1 2 3 4
 ```
 
@@ -88,7 +88,7 @@ int main(void)
 2.  [**复合文字**](https://www.geeksforgeeks.org/compound-literals-c/) **:** 复合文字是[数组](https://www.geeksforgeeks.org/arrays-in-c-cpp/)、[结构](https://www.geeksforgeeks.org/structures-c/)或[联合](https://www.geeksforgeeks.org/union-c/)表达式，表示给定类型的对象。
     **例:**
 
-```
+```cpp
 int *a = (int[]){11, 12, 13}
 ```
 
@@ -98,7 +98,7 @@ int *a = (int[]){11, 12, 13}
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -111,6 +111,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 11 12 13
 ```

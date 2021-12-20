@@ -5,7 +5,7 @@
 **[无序 _ 多 map](https://www.geeksforgeeks.org/unordered_multimap-and-its-application/):get _ 分配器()**是 C++ STL 中的一个内置函数，用于获取容器无序 _ 多 map 的分配器。
 **语法:**
 
-```
+```cpp
 Allocator_type get_allocator()
 
 ```
@@ -16,7 +16,7 @@ Allocator_type get_allocator()
 下面的程序说明了**无序 _ 多 map::get _ 分配器()**函数的工作原理。
 **例-1:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_multimap get_allocator()
 #include <bits/stdc++.h>
@@ -43,13 +43,13 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is allocator Pair : true 
 ```
 
 **示例-2:**
 
-```
+```cpp
 // CPP program to illustrate
 // unordered_multimap get_allocator()
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main(void)
 
 **Output:**
 
-```
+```cpp
 Allocated size = 64
 
 ```

@@ -10,7 +10,7 @@
 我们要查找的最后一个字符作为第二个参数传递给函数，我们要查找的字符串作为第一个参数传递给函数。
 **语法**
 
-```
+```cpp
 char *strrchr(const char *str, int c)
 ```
 
@@ -19,7 +19,7 @@ char *strrchr(const char *str, int c)
 在 C++中给定一个字符串，我们需要找到一个字符的最后一次出现，比如说‘a’。
 示例:
 
-```
+```cpp
 Input : string = 'This is a string'
 Output :9
 
@@ -33,7 +33,7 @@ Output :12
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working strchr()
 #include <iostream>
 #include <cstring>
@@ -50,7 +50,7 @@ int main()
 
 输出:
 
-```
+```cpp
 9
 ```
 
@@ -58,7 +58,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C code to demonstrate the working of
 // strrchr()
 
@@ -95,7 +95,7 @@ int main()
 
 输出:
 
-```
+```cpp
 String after last e is :  eks 
 String after last m is :  (null)
 ```
@@ -104,7 +104,7 @@ String after last m is :  (null)
 
 ## C
 
-```
+```cpp
 // C code to demonstrate the application of
 // strrchr()
 
@@ -137,7 +137,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The original string is : Rs 10000000
 The denomination value is : 10000000
 ```

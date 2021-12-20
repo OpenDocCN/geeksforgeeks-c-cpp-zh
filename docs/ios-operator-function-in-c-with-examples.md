@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool operator!()  const;
 
 ```
@@ -17,7 +17,7 @@ bool operator!()  const;
 
 **例 1:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of operator!() function
 
@@ -44,14 +44,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 No error bit is set.
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of operator!() function
 
@@ -79,7 +79,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Error bit is set.
 
 ```

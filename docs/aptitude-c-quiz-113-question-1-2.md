@@ -4,7 +4,7 @@
 
 假设数字以二进制补码形式存储，则输出以下程序。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

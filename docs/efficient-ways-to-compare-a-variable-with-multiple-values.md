@@ -12,6 +12,6 @@
 
 ## 【Java】
 
-```
+```cpp
 Consonant
 ```

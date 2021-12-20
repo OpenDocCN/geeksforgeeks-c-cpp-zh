@@ -6,7 +6,7 @@
 
 例如，请参见以下程序。
 
-```
+```cpp
 #include <stdio.h> 
 int main()
 {
@@ -19,7 +19,7 @@ int main()
 
 输出:
 
-```
+```cpp
 120
 ```
 
@@ -27,7 +27,7 @@ int main()
 
 把下面的程序看作**另一个例子**。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -48,7 +48,7 @@ int main()
 
 输出:
 
-```
+```cpp
 a = ?
 b = ?
 Not Same 

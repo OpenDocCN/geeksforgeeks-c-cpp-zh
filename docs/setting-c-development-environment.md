@@ -10,7 +10,7 @@ C++运行在很多平台上，比如 Windows、Linux、Unix、Mac 等。在我�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 main()
@@ -30,7 +30,7 @@ main()
     *   **Linux 安装**:我们将在 Linux 上安装 GNU GCC 编译器。要在您的 Linux 机器上安装和使用 GCC 编译器，请按照以下步骤操作:
         *   您必须首先从您的 Linux 终端窗口运行以下两个命令:
 
-```
+```cpp
 sudo apt-get update
 sudo apt-get install gcc
 sudo apt-get install g++
@@ -38,7 +38,7 @@ sudo apt-get install g++
 
 *   此命令将在您的系统上安装 GCC 编译器。您也可以运行以下命令:
 
-```
+```cpp
 sudo apt-get install build-essential
 ```
 
@@ -46,7 +46,7 @@ sudo apt-get install build-essential
 
 *   完成上述步骤后，您应该检查 GCC 编译器是否正确安装在您的系统中。为此，您必须从 Linux 终端运行下面给出的命令:
 
-```
+```cpp
 g++ --version
 ```
 
@@ -56,21 +56,21 @@ g++ --version
 
 *   现在，您必须打开 Linux 终端，并移动到保存文件的目录。然后，您必须运行以下命令来编译您的文件:
 
-```
+```cpp
 g++ *filename.cpp* -o *any-name*
 ```
 
 *   *filename.cpp* 是你的源代码文件的名称。在我们的例子中，名字是“helloworld.cpp”和*任意名字*可以是你选择的任何名字。该名称将分配给编译后由编译器创建的可执行文件。在我们的例子中，我们选择*任何名字*作为“你好”。
     我们将运行上述命令如下:
 
-```
+```cpp
 g++ helloworld.cpp -o hello
 ```
 
 *   执行上述命令后，您将看到在保存源文件的同一目录下自动创建了一个新文件，该文件的名称是您选择为 *any-name* 的名称。
     现在要运行您的程序，您必须运行以下命令:
 
-```
+```cpp
 ./hello
 ```
 

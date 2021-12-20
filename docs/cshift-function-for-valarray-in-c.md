@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 valarray cshift (int n) const;
 
 ```
@@ -21,7 +21,7 @@ valarray cshift (int n) const;
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cshift() function.
 #include <bits/stdc++.h>
@@ -51,14 +51,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray after shifting is = 4 1 3 2 5
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cshift() function.
 #include <bits/stdc++.h>
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray after shifting is = 5 4 1 3 2
 
 ```

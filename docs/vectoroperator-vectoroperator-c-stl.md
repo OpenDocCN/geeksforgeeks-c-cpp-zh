@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 ***vectorname1 = (vectorname2)***
 Parameters :
 Another container of the same type.
@@ -22,7 +22,7 @@ parameter to the container written on left side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  myvector1 = 1, 2, 3
           myvector2 = 3, 2, 1, 4
           myvector1 = myvector2;
@@ -40,7 +40,7 @@ Output :  myvector1 = 3, 2
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of = operator
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 myvector1= 3 2 1 4
 ```
 
@@ -71,7 +71,7 @@ myvector1= 3 2 1 4
 
 **语法:**
 
-```
+```cpp
 ***vectorname[position]***
 Parameters :
 Position of the element to be fetched.
@@ -81,7 +81,7 @@ Direct reference to the element at the given position.
 
 示例:
 
-```
+```cpp
 Input  :  myvector = 1, 2, 3
           myvector[2];
 Output :  3
@@ -97,7 +97,7 @@ Output :  7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of [] operator
 #include <iostream>
@@ -119,14 +119,14 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 ```
 
 **应用**
 给定一个整数向量，打印所有出现在奇数位置的整数。
 
-```
+```cpp
 Input  :1, 2, 3, 4, 5, 6, 7, 8, 9
 Output :2 4 6 8
 *Explanation - 2, 4, 6, and 8 are at position 1, 3, 5 and 7 which are odd*
@@ -138,7 +138,7 @@ Output :2 4 6 8
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Application of [] operator
 #include <iostream>
@@ -171,6 +171,6 @@ int main()
 
 输出:
 
-```
+```cpp
 2 4 6 8
 ```

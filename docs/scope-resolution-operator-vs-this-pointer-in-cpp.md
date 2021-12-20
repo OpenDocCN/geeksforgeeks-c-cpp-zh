@@ -8,7 +8,7 @@
 
 T3】CPPT5
 
-```
+```cpp
 // C++ program to show that local parameters hide
 // class members
 #include <iostream>
@@ -42,7 +42,7 @@ T6T8**输出**T1
 
 ## CPP
 
-```
+```cpp
 // C++ program to show use of this to access member when
 // there is a local variable with same name
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1
 ```
 
@@ -80,7 +80,7 @@ int main()
 
 ## CPP
 
-```
+```cpp
 // C++ program to show that scope resolution operator can be
 // used to access static members when there is a local
 // variable with same name
@@ -112,7 +112,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1
 ```
 

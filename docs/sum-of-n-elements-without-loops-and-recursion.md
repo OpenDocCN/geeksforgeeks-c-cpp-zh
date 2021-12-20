@@ -5,7 +5,7 @@
 给定一个 N 个元素的数组，任务是在不使用循环(for，while & doWhile)和递归的情况下找到 N 个元素的和。
 **例:**
 
-```
+```cpp
 Input: arr[]={1, 2, 3, 4, 5}   
 Output: 15
 
@@ -21,7 +21,7 @@ Output: 60
 goto 语句是一个跳转语句，有时也被称为无条件跳转语句。goto 语句可以用来从函数中的任何地方跳转到任何地方。
 **语法** :
 
-```
+```cpp
 Syntax1      |   Syntax2
 ----------------------------
 goto label;  |    label:  
@@ -39,7 +39,7 @@ label:          |    goto label;
 
 ## C++
 
-```
+```cpp
 // C++ program to find the sum of
 // N elements with goto statement
 
@@ -84,7 +84,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to find the sum of
 // N elements with goto statement
 
@@ -128,7 +128,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find the sum of
 // N elements
 class GFG
@@ -179,7 +179,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find the sum of
 # N elements
 
@@ -216,7 +216,7 @@ print(Sum)
 
 ## C#
 
-```
+```cpp
 // C# program to find the sum of
 // N elements with goto statement
 using System;
@@ -266,7 +266,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find the sum of N
 // elements with goto statement
@@ -301,7 +301,7 @@ echo operate($array, $N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
     // Javascript program to find the sum of
     // N elements
@@ -347,6 +347,6 @@ echo operate($array, $N);
 
 **Output:** 
 
-```
+```cpp
 15
 ```

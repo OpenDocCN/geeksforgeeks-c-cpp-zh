@@ -14,7 +14,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the use
 // of OpenGL
 

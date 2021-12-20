@@ -32,7 +32,7 @@
 
     写进程的共享内存
 
-    ```
+    ```cpp
     #include <iostream>
     #include <sys/ipc.h>
     #include <sys/shm.h>
@@ -64,7 +64,7 @@
 
     读取器进程的共享内存
 
-    ```
+    ```cpp
     #include <iostream>
     #include <sys/ipc.h>
     #include <sys/shm.h>

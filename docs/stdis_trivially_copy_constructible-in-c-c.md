@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> 
 struct is_trivially_copy_constructible;
 
@@ -23,7 +23,7 @@ struct is_trivially_copy_constructible;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_copy_constructible<int>::value
 std::is_trivially_copy_constructible<class T>::value
 
@@ -40,7 +40,7 @@ std::is_trivially_copy_constructible<class T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_trivially_copy_constructible
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_trivially_copy_constructible: 
 int: true
 A: true
@@ -88,7 +88,7 @@ C: false
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // is_trivially_copy_constructible
 #include <iostream>
@@ -132,7 +132,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Ex1 is copy-constructible? true
 Ex1 is trivially copy-constructible? false
 Ex2 is trivially copy-constructible? true

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: str = "geeks for geeks"
 Output:
 Vowels: 5
@@ -29,7 +29,7 @@ Consonants: 21
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C program to count the number of
 // vowels and consonants in a string
 
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 String: geeks for geeks
 Vowels: 5
 Consonants: 8

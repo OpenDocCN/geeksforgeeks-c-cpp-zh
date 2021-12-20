@@ -7,7 +7,7 @@
 
 **程序 1**
 
-```
+```cpp
 #include <stdio.h>
 
 struct Point {
@@ -27,7 +27,7 @@ int main()
 
 **节目 2**
 
-```
+```cpp
 #include <stdio.h>
 
 struct Point {

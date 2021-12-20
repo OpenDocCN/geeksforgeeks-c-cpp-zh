@@ -22,7 +22,7 @@
 
 ## C++14
 
-```
+```cpp
 // C++ program demonstrates the use of
 // constexpr
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The fibonacci number is: 17711
 
 ```
@@ -79,7 +79,7 @@ The fibonacci number is: 17711
 
 ## C++14
 
-```
+```cpp
 // C++ program illustrating the use
 // of the consteval function
 
@@ -113,7 +113,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The fibonacci number is: 2
 
 ```

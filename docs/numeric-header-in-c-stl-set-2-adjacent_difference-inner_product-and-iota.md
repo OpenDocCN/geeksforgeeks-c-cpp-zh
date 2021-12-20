@@ -10,7 +10,7 @@
 
 例如:如果 a[]代表提供的范围[第一个，最后一个]中的元素，b[]代表结果。
 
-```
+```cpp
 b[0] = a[1] 
 b[1] = a[1] – a[0] 
 b[2] = a[2] – a[1] 
@@ -22,7 +22,7 @@ b[4] = a[4] – a[3]
 
 **语法:**
 
-```
+```cpp
 adjacent_difference(first, last, b);
 adjacent_difference(first, last, b, myfun );
 adjacent_difference(first, last, b, multiplies() ) ;
@@ -34,7 +34,7 @@ multiplies():a pre defined function.
 
 ```
 
-```
+```cpp
 #include <iostream> 
 #include <functional> // for multiplies function
 #include <numeric>   //for adjacent_difference
@@ -78,7 +78,7 @@ int main () 
 
 **输出:**
 
-```
+```cpp
 Result using adjacent_difference: 1 1 1 1 1 1 
 Result using accumulate with user-defined function: 1 3 5 7 9 11 
 Result using accumulate with pre-defined function: 1 2 6 12 20 30 
@@ -91,7 +91,7 @@ Result using accumulate with pre-defined function: 1 2 6 12 20 30
 
 **语法:**
 
-```
+```cpp
 inner_product(first, last, b, var) ;
 inner_product(a, a+3, b, var, fun, fun1) ;
 inner_product(a , a+3, b, init, minus (), divides () );
@@ -103,7 +103,7 @@ minus(), divides()  : pre defined function.
 
 ```
 
-```
+```cpp
 #include <iostream>  
 #include <functional> // for subtraction, std::divides
 #include <numeric>   // for inner_product
@@ -145,7 +145,7 @@ int main () 
 
 **输出:**
 
-```
+```cpp
 Result using inner_product 355
 Result using inner_product with pre-defined function: 181
 Result using inner_product with user-defined function: 146
@@ -158,7 +158,7 @@ Result using inner_product with user-defined function: 146
 
 **语法–**
 
-```
+```cpp
 iota(first, last,val) ;
 
 first, last : address of first and last element of range whose elements are to be added
@@ -166,7 +166,7 @@ val: initial value to store, the expression ++value must be well-formed
 
 ```
 
-```
+```cpp
 #include <iostream> 
 #include <iostream> 
 #include <numeric>   // std::iota
@@ -188,7 +188,7 @@ int main ( )
 
 **输出:**
 
-```
+```cpp
 a: 100 101 102 103 104 105 106 
 
 ```

@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // C++ program to implement the above
 // concepts
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Sorting with descending order as parameter
 12 8 5 2 0 -5 -9 
 Sorting with absolute order as parameter 

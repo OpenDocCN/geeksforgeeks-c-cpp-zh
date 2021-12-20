@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -28,7 +28,7 @@ return 0;
 
 ## C
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -44,13 +44,13 @@ int main()
 在这个程序中，我们有一个指针 *ptr* ，它指向数组的第 0 个<sup>元素。同样，我们也可以声明一个指针，它可以指向整个数组，而不是数组中的一个元素。当谈论多维数组时，这个指针很有用。
 **语法:**</sup>
 
-```
+```cpp
 data_type (*var_name)[size_of_array];
 ```
 
 **示例:**
 
-```
+```cpp
 int (*ptr)[10];
 ```
 
@@ -59,7 +59,7 @@ int (*ptr)[10];
 
 ## C++
 
-```
+```cpp
 // C++ program to understand difference between
 // pointer to an integer and pointer to an
 // array of integers.
@@ -93,7 +93,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to understand difference between
 // pointer to an integer and pointer to an
 // array of integers.
@@ -127,7 +127,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 p = 0x7fff4f32fd50, ptr = 0x7fff4f32fd50
 p = 0x7fff4f32fd54, ptr = 0x7fff4f32fd64
 ```
@@ -145,7 +145,7 @@ p = 0x7fff4f32fd54, ptr = 0x7fff4f32fd64
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate sizes of
 // pointer of array
 #include <bits/stdc++.h>
@@ -172,7 +172,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate sizes of
 // pointer of array
 #include<stdio.h>
@@ -196,7 +196,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 p = 0x7ffde1ee5010, ptr = 0x7ffde1ee5010
 *p = 3, *ptr = 0x7ffde1ee5010
 sizeof(p) = 8, sizeof(*p) = 4
@@ -208,7 +208,7 @@ sizeof(ptr) = 8, sizeof(*ptr) = 20
 *   **指针和二维数组:**在二维数组中，我们可以通过使用两个下标来访问每个元素，其中第一个下标表示行号，第二个下标表示列号。二维数组的元素也可以通过指针符号来访问。假设 arr 是一个二维数组，我们可以使用指针表达式 ***(*(arr + i) + j)** 访问数组的任何元素 *arr[i][j]* 。现在我们来看看这个表达式是如何推导出来的。
     让我们取一个二维数组*arr【3】【4】*:
 
-```
+```cpp
 int arr[3][4] = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12} };
 ```
 
@@ -226,7 +226,7 @@ int arr[3][4] = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12} };
 
 一般来说，我们可以这样写:
 
-```
+```cpp
 arr + i  Points to i<sup>th element of arr -></sup>
 <sup>Points to ith 1-D array</sup>
 ```
@@ -240,7 +240,7 @@ arr + i  Points to i<sup>th element of arr -></sup>
 *   **指针和三维数组**
     在三维数组中，我们可以通过使用三个下标来访问每个元素。让我们来看一个三维阵列-
 
-```
+```cpp
 int arr[2][3][2] = { {{5, 10}, {6, 11}, {7, 12}}, {{20, 30}, {21, 31}, {22, 32}} };
 ```
 
@@ -253,7 +253,7 @@ int arr[2][3][2] = { {{5, 10}, {6, 11}, {7, 12}}, {{20, 30}, {21, 31}, {22, 32}}
 
 ## C++
 
-```
+```cpp
 // C++ program to print the elements of 3-D
 // array using pointer notation
 #include <iostream>
@@ -291,7 +291,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print the elements of 3-D
 // array using pointer notation
 #include<stdio.h>
@@ -326,7 +326,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5    10    
 6    11    
 7    12    
@@ -343,7 +343,7 @@ int main()
 
 假设 *arr* 是一个 3 行 4 列的二维数组， *ptr* 是一个指向 4 个整数数组的指针， *ptr* 包含数组 *arr* 的基址。
 
-```
+```cpp
 int arr[3][4] = {{10, 11, 12, 13}, {20, 21, 22, 23}, {30, 31, 32, 33}};
 int (*ptr)[4];
 ptr = arr;
@@ -356,7 +356,7 @@ ptr = arr;
 
 ## C++
 
-```
+```cpp
 // C++ program to print elements of a 2-D array
 // by scripting a pointer to an array
 #include <iostream>
@@ -383,7 +383,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to print elements of a 2-D array
 // by scripting a pointer to an array
 #include<stdio.h>
@@ -407,7 +407,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0x7ffead967560 0x7ffead967570 0x7ffead967580
 0x7ffead967560 0x7ffead967570 0x7ffead967580
 10 22 33

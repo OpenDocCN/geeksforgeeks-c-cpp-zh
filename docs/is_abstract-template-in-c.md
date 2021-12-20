@@ -6,7 +6,7 @@ C++ STL 的**STD::is _ 抽象模板**用于检查类型是否为抽象类类型�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_abstract;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_abstract;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_abstract template
 
@@ -54,7 +54,7 @@ int main()
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_abstract template
 

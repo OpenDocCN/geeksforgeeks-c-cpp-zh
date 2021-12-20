@@ -10,7 +10,7 @@
 
 ****<u>语法</u> :****
 
-```
+```cpp
 continue;
 ```
 
@@ -20,7 +20,7 @@ continue;
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate the
 // continue statement
 #include <iostream>
@@ -41,7 +41,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 1 2 3 4 6 7 8 9
 
 ```** 
@@ -52,7 +52,7 @@ int main()
 
 ******<u>语法</u> :******
 
-```
+```cpp
 **break;**
 ```
 
@@ -62,7 +62,7 @@ int main()
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to demonstrate the
 // break statement
 #include <iostream>
@@ -84,7 +84,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 1 2 3 4
 
 ```**** 
@@ -95,7 +95,7 @@ int main()
 
 ******<u>语法</u> :******
 
-```
+```cpp
 **return expression;**
 ```
 
@@ -105,7 +105,7 @@ int main()
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to demonstrate the
 // return statement
 #include <iostream>
@@ -131,7 +131,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 Begin 0 1 2 3 4
 
 ```**** 
@@ -144,7 +144,7 @@ Begin 0 1 2 3 4
 
 ******语法:******
 
-```
+```cpp
 ****return;****
 ```
 
@@ -154,7 +154,7 @@ Begin 0 1 2 3 4
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to demonstrate the return
 // statement in void return type function
 #include <iostream>
@@ -190,7 +190,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 20 is greater
 
 ```**** 
@@ -201,7 +201,7 @@ int main()
 
 ******语法:******
 
-```
+```cpp
 **goto label_name;
 .
 .
@@ -215,7 +215,7 @@ label_name:**
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to demonstrate the
 // goto statement
 #include <iostream>
@@ -242,7 +242,7 @@ label2:
 
 ******Output:**
 
-```
+```cpp
 Even
 
 ```**** 

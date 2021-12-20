@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multimap_name.count(key)
 
 ```
@@ -15,7 +15,7 @@ multimap_name.count(key)
 
 **返回值:**该函数返回一个键在多映射容器中出现的次数。
 
-```
+```cpp
 // C++ function for illustration
 // multimap::count() function
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 exists 2 times in the multimap
 2 exists 3 times in the multimap
 

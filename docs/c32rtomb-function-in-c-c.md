@@ -8,7 +8,7 @@
 
 **语法** :
 
-```
+```cpp
 size_t c32rtomb(char* s, char32_t c32, mbstate_t* p)
 ```
 
@@ -24,7 +24,7 @@ size_t c32rtomb(char* s, char32_t c32, mbstate_t* p)
 
 ****程序 1** :**
 
-```
+```cpp
 // C++ program to illustrate the
 // c32rtomb () function on it's success
 #include <iostream>
@@ -57,14 +57,14 @@ int main()
 
 ****输出:**
 
-```
+```cpp
 GeeksforGeeks
 
 ```
 
 **程序二** :
 
-```
+```cpp
 // C++ program to illustrate the
 // c32rtomb () function on it's failure
 #include <iostream>

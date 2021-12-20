@@ -23,7 +23,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find the volume of
 // 2D Shapes using the function
 // overloading

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```cpp
 double legendre( unsigned int n, double x )
              or 
 double legendre( unsigned int n, float x )
@@ -36,7 +36,7 @@ long double legendrel( unsigned int n, long double x )
 
 下面的程序说明了上述功能:
 
-```
+```cpp
 // C++ program to illustrate the above 
 // mentioned three functions
 #include <cmath> 
@@ -73,7 +73,7 @@ int main()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the above 
 // mentioned three functions
 // domain error
@@ -91,7 +91,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 terminate called after throwing an instance of 'std::domain_error'
   what():  Argument out of range in __poly_legendre_p.
 legendre(129, 2)=
@@ -100,7 +100,7 @@ legendre(129, 2)=
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the above 
 // mentioned three functions
 // when x is NaN
@@ -118,14 +118,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 legendre(129, NaN)= nan
 
 ```
 
 **程序 3:**
 
-```
+```cpp
 // C++ program to illustrate the above 
 // mentioned three functions
 // domain error
@@ -143,7 +143,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 terminate called after throwing an instance of 'std::domain_error'
   what():  Argument out of range in __poly_legendre_p.
 

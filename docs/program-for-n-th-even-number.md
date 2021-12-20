@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : 3
 Output : 6
 First three even numbers are 2, 4, 6, ..
@@ -21,7 +21,7 @@ First five even numbers are 2, 4, 6, 8, 19..
 
 ## C++
 
-```
+```cpp
 // CPP program to find the nth even number
 #include <bits/stdc++.h>
 using namespace std;
@@ -43,7 +43,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to find the nth EVEN number
 
 class GFG
@@ -69,7 +69,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find the 
 # nth odd number
 
@@ -89,7 +89,7 @@ if __name__=='__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to find the 
 // nth EVEN number
 using System;
@@ -117,7 +117,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find the
 // nth even number
@@ -140,6 +140,6 @@ echo nthEven($n);
 
 **输出:**
 
-```
+```cpp
 20
 ```

@@ -22,7 +22,7 @@ upper_bound()是标题<algorithm>中定义的 C++中的标准库函数。它返�
 
 **示例:**
 
-```
+```cpp
 Input : 10 20 30 30 40 50
 Output : upper_bound for element 30 is at index 4
 
@@ -36,7 +36,7 @@ Output : upper_bound for element 60 is at index 5
 
 下面是一些 C++程序来说明 std::upper_bound 的用法:
 
-```
+```cpp
 // CPP program to illustrate using 
 // std :: upper_bound with vectors
 #include <bits/stdc++.h>
@@ -69,14 +69,14 @@ int main()
 
 输出:
 
-```
+```cpp
 Vector contains : 10 20 30 40 50
 upper_bound for element 35 is at position : 3
 upper_bound for element 45 is at position : 4
 
 ```
 
-```
+```cpp
 // CPP program to illustrate using 
 // std :: upper_bound with arrays
 #include <bits/stdc++.h>
@@ -108,7 +108,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array contains : 10 20 30 40 50
 upper_bound for element 35 is at position : 3
 upper_bound for element 45 is at position : 4

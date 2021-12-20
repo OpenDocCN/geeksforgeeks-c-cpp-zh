@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement onClick
 // functionality in OpenGL to draw
 // a circle using polar coordinates

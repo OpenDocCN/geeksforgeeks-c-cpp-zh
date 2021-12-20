@@ -21,7 +21,7 @@ C 源代码编译后创建的可执行文件是[可执行可链接格式(ELF)文
 
 让我们用一个例子来看看这个。我正在创建一个**示例. c** 文件来演示这一点。
 
-```
+```cpp
 int main()
 {
    return(0);
@@ -30,21 +30,21 @@ int main()
 
 现在使用以下命令编译它
 
-```
+```cpp
 gcc -o example example.c
 
 ```
 
 现在创建了一个**示例**可执行文件，让我们使用 objdump 工具来检查它
 
-```
+```cpp
 objdump -f example
 
 ```
 
 这将在我的机器上输出以下可执行文件的关键信息。看看下面的起始地址，这是指向 _start()函数的地址。
 
-```
+```cpp
 example:     file format elf64-x86-64
 architecture: i386:x86-64, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
@@ -54,14 +54,14 @@ start address 0x00000000004003e0
 
 我们可以通过解汇编可执行文件来交叉检查这个地址，输出很长，所以我只是粘贴显示这个地址 **0x00000000004003e0** 指向的输出
 
-```
+```cpp
 objdump --disassemble  example
 
 ```
 
 输出:
 
-```
+```cpp
 00000000004003e0 <_start>:
   4003e0:    31 ed                    xor    %ebp,%ebp
   4003e2:    49 89 d1                 mov    %rdx,%r9
@@ -85,7 +85,7 @@ objdump --disassemble  example
 
 函数的作用是:为下一个被调用的函数 **_libc_start_main()** 准备输入参数。这是 **_libc_start_main()** 功能的原型。这里我们可以看到由 _start()函数准备的参数。
 
-```
+```cpp
 int __libc_start_main(int (*main) (int, char * *, char * *), /* address of main function*/
 int argc, /* number of command line args*/
 char ** ubp_av, /* command line arg array*/
@@ -108,7 +108,7 @@ libc_start_main()函数的作用如下–
 
     现在我们知道如何调用 main()了。为了清楚起见，main()只不过是启动代码的一个约定术语。我们可以给启动代码起任何名字，它不一定非得是“main”。As _start()函数默认调用 main()，如果我们想执行自定义的启动代码，我们必须更改它。我们可以重写 _start()函数，让它调用我们的自定义启动代码而不是 main()。举个例子，保存为**nomin . c**–
 
-    ```
+    ```cpp
     #include<stdio.h>
     #include<stdlib.h>
     void _start()
@@ -126,21 +126,21 @@ libc_start_main()函数的作用如下–
 
     现在我们必须强制编译器不要使用它自己的 _start()实现。在 GCC 中，我们可以使用**-nostartfile**来实现
 
-    ```
+    ```cpp
     gcc -nostartfiles -o nomain nomain.c
 
     ```
 
     执行可执行文件
 
-    ```
+    ```cpp
     ./nomain
 
     ```
 
     输出:
 
-    ```
+    ```cpp
     Hello world!
 
     ```

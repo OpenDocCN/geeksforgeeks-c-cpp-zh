@@ -8,7 +8,7 @@
 
 ### **代码:用于将图像保存到 OpenCV 中任意位置的 C++代码。**
 
-```
+```cpp
 // c++ code explaining how to
 // save an image to a defined
 // location in OpenCV
@@ -80,7 +80,7 @@ int main(int argc, char** argv)
 
 ### **说明:**
 
-```
+```cpp
 // Reading the image file from a given location in system
 Mat img = imread("..path\\abcd.jpg");
 
@@ -97,7 +97,7 @@ if (img.empty()) {
 
 这部分代码从我们给它的路径中读取图像。它会处理任何错误(如果发生的话)。如果该路径上没有图像，则**“无法打开或图像不存在”**信息将显示，按下任意键，窗口将退出。
 
-```
+```cpp
 // writing the image to a defined location as JPEG
 bool check = imwrite("..path\\MyImage.jpg", img);
 

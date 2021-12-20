@@ -6,7 +6,7 @@ getopt()函数是 C 语言中的内置函数，用于解析命令行参数。
 
 **语法**:
 
-```
+```cpp
 getopt(int argc, char *const argv[], const char *optstring)
 
 optstring is simply  a list of characters, 
@@ -28,7 +28,7 @@ each representing a single character option.
 
 下面的程序说明了 C 语言中的 getopt()函数:
 
-```
+```cpp
 // Program to illustrate the getopt()
 // function in C
 

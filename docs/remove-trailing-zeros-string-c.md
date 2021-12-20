@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Input : 00000123569
 Output : 123569
 
@@ -20,7 +20,7 @@ Output : 12356090
 
 下面是 C++实现。
 
-```
+```cpp
 // C++ program to remove trailing/preceding zeros
 // from a given string
 #include<iostream>
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 123569
 ```
 

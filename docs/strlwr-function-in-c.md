@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 char *strlwr(char *str);
 
 ```
@@ -25,7 +25,7 @@ char *strlwr(char *str);
 
 **实施例 1:-**
 
-```
+```cpp
 // C program to demonstrate
 // example of strlwr() function
 
@@ -45,14 +45,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeksforgeeks is the best
 
 ```
 
 **实施例 2:-**
 
-```
+```cpp
 // C program to demonstrate
 // example of strlwr() function.
 
@@ -74,7 +74,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Given string is: CompuTer ScienCe PoRTAl fOr geeKS
 
 String after converting to the lowercase is: computer science portal for geeks

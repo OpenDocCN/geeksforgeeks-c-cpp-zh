@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 void swap(unordered_multiset &another_unordered_multiset);
 ```
 
@@ -21,7 +21,7 @@ void swap(unordered_multiset &another_unordered_multiset);
 
 **例 1:**
 
-```
+```cpp
 #include <iostream>
 #include <string>
 #include <unordered_set>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 before swap :- 
 1st container : FOR GEEKS
 2nd container : GEEKS
@@ -83,7 +83,7 @@ after swap :-
 
 **例 2:**
 
-```
+```cpp
 #include <iostream>
 #include <string>
 #include <unordered_set>
@@ -136,7 +136,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 before swap :- 
 1st container : 3 2 1 
 2nd container : 6 5 4 

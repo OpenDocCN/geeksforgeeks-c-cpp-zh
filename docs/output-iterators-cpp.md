@@ -19,7 +19,7 @@
 
     因此，如果 A 和 B 是输出迭代器，下面两个表达式是无效的:
 
-    ```
+    ```cpp
     A == B  // Invalid - Checking for equality
     A != B  // Invalid - Checking for inequality
 
@@ -28,7 +28,7 @@
 
     因此，如果 A 是输出迭代器，下面两个表达式是有效的:
 
-    ```
+    ```cpp
     *A = 1      // Dereferencing using *
     A -> m = 7   // Assigning a member element m
 
@@ -37,7 +37,7 @@
 
     因此，如果 A 是输出迭代器，下面两个表达式是有效的:
 
-    ```
+    ```cpp
     A++   // Using post increment operator
     ++A   // Using pre increment operator
 
@@ -50,7 +50,7 @@
 
 *   ****std::move:** As the name suggests, this algorithm is used to move elements in a range into another range. Now, as far as accessing elements are concerned, input iterators are fine, **but as soon as we have to assign elements in another container, then we cannot use these input iterators** for this purpose, that is why here using output iterators becomes a compulsion.
 
-    ```
+    ```cpp
     // Definition of std::move()
     template 
     OutputIterator move (InputIterator first, InputIterator last,
@@ -70,7 +70,7 @@
     在这里，因为结果是结果容器的迭代器，元素被分配给这个容器，所以对于这个，我们不能使用输入迭代器，并且已经在它们的位置使用了输出迭代器，而对于访问元素，使用只需要增加和访问的输入迭代器。** 
 *   ****std::find:** As we know this algorithm is used to find the presence of an element inside a container and doesn’t involve the use of output iterators.
 
-    ```
+    ```cpp
     // Definition of std::find()
     template 
     InputIterator find (InputIterator first, InputIterator last, 
@@ -96,7 +96,7 @@
 
 1.  ****Only assigning, no accessing:** One of the biggest deficiency is that **we cannot access the output iterators as rvalue.** So, an output iterator can only modify the element to which it points by being used as the target for an assignment.
 
-    ```
+    ```cpp
     // C++ program to demonstrate output iterator
     #include<iostream>
     #include<vector>
@@ -120,7 +120,7 @@
 
     上面是一个使用输出迭代器分配元素的例子，但是，如果我们做一些类似的事情:
 
-    ```
+    ```cpp
     a = *i1 ; // where a is a variable
 
     ```
@@ -130,7 +130,7 @@
     这个很大的不足就是为什么像 [std::find](http://contribute.geeksforgeeks.org/stdfind-in-c/) 这样要求访问一个范围内的元素并检查是否相等的很多算法不能使用输出迭代器来进行访问的原因，因为我们不能使用它来访问值，所以我们改为使用输入迭代器。** 
 2.  ****不能递减:**就像我们可以使用带有输出迭代器的运算符++()来递增一样，我们不能递减它们。
 
-    ```
+    ```cpp
     If A is an output iterator,then
 
     A--    // Not allowed with output iterators
@@ -139,7 +139,7 @@
 3.  ****用在多遍算法中:**由于，它是单向的，只能向前移动，因此，这样的迭代器不能用在多遍算法中，在多遍算法中，我们需要在容器中移动多次。**
 4.  ****关系运算符:**就像输出迭代器不能用于等式运算符(==)一样，它也不能用于其他关系运算符，如=。
 
-    ```
+    ```cpp
     If A and B are output iterators, then
 
     A == B     // Not Allowed
@@ -148,7 +148,7 @@
     ```** 
 5.  ****算术运算符:**与关系运算符类似，它们也不能用于+、–等算术运算符。这意味着输出操作符只能朝一个方向移动，这个方向太向前，那个方向太向后。
 
-    ```
+    ```cpp
     If A and B are output iterators, then
 
     A + 1     // Not allowed

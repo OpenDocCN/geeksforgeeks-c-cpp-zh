@@ -23,7 +23,7 @@
 
 ## C
 
-```
+```cpp
 // C program to read particular bytes
 // from the existing file
 #include <stdio.h>

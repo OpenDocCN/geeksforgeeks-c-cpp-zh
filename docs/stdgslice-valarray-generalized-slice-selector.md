@@ -8,7 +8,7 @@
 
 给定起始值 s、步幅列表 i <sub>j</sub> 和尺寸列表 d <sub>j</sub> ，由这些值构建的标准:gslice 选择一组指数:
 
-```
+```cpp
 k<sub>j</sub> = s + Σ<sub>j</sub>(i<sub>j</sub>d<sub>j</sub>)
 ```
 
@@ -16,7 +16,7 @@ valarray 广义切片由起始索引、一组大小和一组步长指定。它�
 
 **语法:**
 
-```
+```cpp
 gslice( std::size_t start, const std::valarray& sizes,
                            const std::valarray& strides );
 size_t start : index of the first element in the selection.
@@ -30,7 +30,7 @@ size_t (stride) : span that separates the elements selected
 
 **例 1:**
 
-```
+```cpp
 start = 1 , size = {2, 3} , stride = {7, 2}
 Input :  0 1 2 3 4 5 6 7 8 9 10 11 12 13
 Output : 1 3 5 8 10 12
@@ -45,7 +45,7 @@ Explanation: 1 + 0*7 + 0*2 = 1,
 
 **例 2:**
 
-```
+```cpp
 start = 3 , size = {2,4,3} , strides = {19,4,1}
 Input : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
 Output: 3 4 5 7 8 9 11 12 13 15 16 17 19 20 21 22
@@ -62,7 +62,7 @@ Explanation : 3 + 0*19 + 0*4 + 0*1 = 3,
 
 **示例 1:c++程序中的 gslice 示例:**
 
-```
+```cpp
 // C++ Program to test the 
 // functioning of std::gslice
 #include <iostream>     // std::cout
@@ -106,14 +106,14 @@ int main ()
 
 输出:
 
-```
+```cpp
 gslice: 1 3 5 8 10 12
 
 ```
 
 **示例 2:演示如何使用 gslices 寻址三维数组的列并执行一些操作**
 
-```
+```cpp
 //C++ Program to demonstrate use of 
 // gslice to address columns of 3D array
 #include <iostream> // std::cout
@@ -157,7 +157,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Initial 2x4x3 array:
 111 112 113 
 121 122 123 

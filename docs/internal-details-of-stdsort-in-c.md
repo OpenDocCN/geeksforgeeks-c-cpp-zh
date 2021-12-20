@@ -8,7 +8,7 @@
 
 ### **语法:**
 
-```
+```cpp
 sort(startaddress, endaddress, comparator)
 
 where:
@@ -22,7 +22,7 @@ comparator: the comparison to be done with the array.
 
 ## **C++**
 
-```
+```cpp
 // C++ program to demonstrate
 // behaviour of sort() in STL.
 
@@ -48,7 +48,7 @@ int main()
 
 ****Output:** 
 
-```
+```cpp
 Array after sorting using default sort is : 
 0 1 2 3 4 5 6 7 8 9
 ```** 
@@ -67,7 +67,7 @@ Array after sorting using default sort is :
 
 ## ****C++****
 
-```
+```cpp
 **/* A Program to sort the array using Introsort.
   The most popular C++ STL Algorithm- sort()
   uses Introsort. */
@@ -232,7 +232,7 @@ int main()
 
 ******Output:** 
 
-```
+```cpp
 -313 -9 -9 1 3 23 23 32 233
 ```**** 
 

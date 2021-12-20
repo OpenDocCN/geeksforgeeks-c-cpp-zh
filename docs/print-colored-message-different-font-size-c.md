@@ -10,46 +10,46 @@
 *   **setcolor():** 它将设置光标颜色，因此输出屏幕上写入的任何内容都将具有与 setcolor()相同的颜色。
     功能原型:
 
-```
+```cpp
 setcolor(int)
 ```
 
 *   **settext style():**设置文本字体样式、方向(水平/垂直)和字体大小。
     功能原型:
 
-    ```
+    ```cpp
     settextstyle(int style, int orientation, int size);
     ```
 
     *   **outextxy():**它将在某个特定坐标(x，y)打印传递给它的消息。
     功能原型:
 
-    ```
+    ```cpp
     settextstyle(int style, int orientation, int size);
     ```
 
     *   **More functions:**
     TextHeight():
 
-    ```
+    ```cpp
     textheight();
     ```
 
     TextWidth():
 
-    ```
+    ```cpp
     textwidth();
     ```
 
     SetUserCharSize():-
 
-    ```
+    ```cpp
     setusercharsize(x1,y1,x2,y2);
     ```
 
     注意:给定的程序无法在 IDE 上运行，请在您的编译器上尝试
 
-    ```
+    ```cpp
     // C program to print
     // message as colored characters
     #include<stdio.h>
@@ -93,7 +93,7 @@ setcolor(int)
 
     输出:
 
-    ```
+    ```cpp
     ![color](img/58ed2e8326c4b22eb521458665dd9899.png)
 
     ```

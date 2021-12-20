@@ -47,7 +47,7 @@ catch 语句允许您在 try 块中出现错误时定义要执行的代码块。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -76,7 +76,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before try
 Inside try
 Exception Caught
@@ -87,7 +87,7 @@ After catch (Will be executed)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Default Exception
 ```
 
@@ -116,7 +116,7 @@ Default Exception
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -137,7 +137,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Default Exception
 ```
 
@@ -145,7 +145,7 @@ Default Exception
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -163,7 +163,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 terminate called after throwing an instance of 'char'
 
 This application has requested the Runtime to terminate it in an 
@@ -178,7 +178,7 @@ more information.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -208,7 +208,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Caught exception from fun()
 ```
 
@@ -216,7 +216,7 @@ Caught exception from fun()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -247,7 +247,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Caught exception from fun()
 ```
 
@@ -255,7 +255,7 @@ Caught exception from fun()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -279,7 +279,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Handle Partially Handle remaining
 ```
 
@@ -288,7 +288,7 @@ Handle Partially Handle remaining
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -312,7 +312,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Constructor of Test
 Destructor of Test
 Caught 10

@@ -32,7 +32,7 @@
 2.  检查当前字符是否出现在[无序 _ 地图](https://www.geeksforgeeks.org/unordered_map-in-stl-and-its-applications/)中。
 3.  如果存在，则更新当前字符的频率，否则插入频率为 1 的字符，如下所示:
 
-```
+```cpp
 if(M.find(s[i])==M.end()) {
     M.insert(make_pair{s[i], 1});
 }
@@ -48,7 +48,7 @@ else {
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -99,7 +99,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 r 1
 e 4
 s 2

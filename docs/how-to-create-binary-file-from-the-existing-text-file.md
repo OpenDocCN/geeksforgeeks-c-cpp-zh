@@ -33,7 +33,7 @@
 
 因此，没有要求以文本格式存储记录中的所有值。内部格式可用于直接存储值。一个好的可以作为选择的选项是定义一个 [*结构*](https://www.geeksforgeeks.org/structures-c/) 供我们记录。
 
-```
+```cpp
 struct Customers 
 {
     int ID;
@@ -94,7 +94,7 @@ struct Customers
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program for the above approach
 #include <cstdio>
 #include <cstring>
@@ -197,7 +197,7 @@ int main()
 
 ******输出:******
 
-```
+```cpp
 **Size of record is: 40
 
 Customer number  1 has data     1                    Annil  22
@@ -212,7 +212,7 @@ Total records written: 3**
 文本文件每行包含 3 个字段——身份证、姓名和年龄。
 文本文件的第一行包含-****
 
-```
+```cpp
  **1                    Annil  22**
 ```
 
@@ -220,7 +220,7 @@ Total records written: 3**
 现在使用 **fwrite( & cs，rec_size，1，fp_output)** ，将一个 rec_size 大小的 cs 对象写入二进制文件-“FP _ output”(二进制模式)。
 该过程对文本文件的所有行继续，直到到达文件的末尾。程序执行结束后，文件“custdata.txt”将保持原样，就像在读取模式下打开的一样-****
 
-```
+```cpp
  **1                         Annil  22
  2                           Ram  45
  3                          Golu  25**

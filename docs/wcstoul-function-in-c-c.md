@@ -26,7 +26,7 @@ C/C++中的 **wcstoul()** 函数将宽字符串转换为**无符号长整数**�
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wcstoul() function
 // with base equal to 36
@@ -62,7 +62,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 String value given is -> 999gfg
 Unsigned Long Int value will be -> 559753324
 End String will be->
@@ -72,7 +72,7 @@ End String will be->
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // wcstoul() function
 // with different bases
@@ -122,7 +122,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 String value --> 99999999999gfg
 Long integer value --> 9223372036854775807
 End String = 

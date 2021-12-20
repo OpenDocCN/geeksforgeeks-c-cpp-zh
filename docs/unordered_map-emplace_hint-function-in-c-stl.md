@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_map_name.emplace_hint(position, key, element)
 
 ```
@@ -25,7 +25,7 @@ unordered_map_name.emplace_hint(position, key, element)
 
 **例 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::emplace_hint() function
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The unordered_map is : 
 KEY    ELEMENT
 3    60
@@ -66,7 +66,7 @@ KEY    ELEMENT
 
 **例 2**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::emplace_hint() function
 
@@ -97,7 +97,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The unordered_map is : 
 KEY    ELEMENT
 c    60

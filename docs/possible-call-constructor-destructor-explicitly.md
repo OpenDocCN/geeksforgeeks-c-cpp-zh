@@ -7,7 +7,7 @@
 可以显式调用构造函数和析构函数吗？
 是的，可以由程序员显式调用特殊成员函数。以下程序显式调用构造函数和析构函数。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -29,7 +29,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor is executed
 Destructor is executed
 Constructor is executed
@@ -51,7 +51,7 @@ C++标准 12.4/14 节说
 本地对象在超出范围时会被编译器自动销毁，这是 C++语言的保证。一般来说，不应该显式调用特殊成员函数。
 构造函数和析构函数也可以从类的成员函数中调用。参见以下程序:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -73,7 +73,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor is executed
 Constructor is executed
 Destructor is executed
@@ -85,7 +85,7 @@ Destructor is executed
 
 作为练习，预测以下程序的输出:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

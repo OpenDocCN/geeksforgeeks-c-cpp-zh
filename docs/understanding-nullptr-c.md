@@ -6,7 +6,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate problem with NULL
 #include <bits/stdc++.h>
 using namespace std;
@@ -27,7 +27,7 @@ int main()
 
 输出:
 
-```
+```cpp
 16:13: error: call of overloaded 'fun(NULL)' is ambiguous
      fun(NULL);
 ```
@@ -37,7 +37,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // This program compiles (may produce warning)
 #include<stdio.h>
 int main()
@@ -52,7 +52,7 @@ nullptr 是一个关键字，可以在所有需要 NULL 的地方使用。像 NU
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // This program does NOT compile
 #include<stdio.h>
 int main()
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiler Error
 ```
 
@@ -71,7 +71,7 @@ Compiler Error
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // This program compiles
 #include<iostream>
 using namespace std;
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 false
 ```
 
@@ -96,7 +96,7 @@ false
 
 ## C
 
-```
+```cpp
 // C++ program to show comparisons with nullptr
 #include <bits/stdc++.h>
 using namespace std;
@@ -128,7 +128,7 @@ int main()
 
 输出:
 
-```
+```cpp
 can compare
 x is null
 ```

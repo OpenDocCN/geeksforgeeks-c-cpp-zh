@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 wint_t towupper( wint_t ch )
 ```
 
@@ -23,7 +23,7 @@ wint_t towupper( wint_t ch )
 
 **程序 1** :
 
-```
+```cpp
 // Program to illustrate
 // towupper() function
 #include <cwchar>
@@ -48,14 +48,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The uppercase version of "GeeksforGeeks" is GEEKSFORGEEKS
 
 ```
 
 **程序 2** :
 
-```
+```cpp
 // Program to illustrate
 // towupper() function
 #include <cwchar>
@@ -80,7 +80,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The uppercase version of "hello Ishwar 123!@#" is HELLO ISHWAR 123!@#
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 cos (z);
 
 ```
@@ -21,7 +21,7 @@ cos (z);
 
 **程序 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cos() function.
 #include <iostream>
@@ -43,14 +43,14 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The cos of (0,1) is (1.54308,-0)
 
 ```
 
 **程序 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of cos() function.
 #include <iostream>
@@ -72,7 +72,7 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The cos of (1,0) is (0.540302,-0)
 
 ```

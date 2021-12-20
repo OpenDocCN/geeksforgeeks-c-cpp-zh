@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 acos(data_type x)
 ```
 
@@ -18,7 +18,7 @@ acos(data_type x)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate
 // the acos() function
 #include <bits/stdc++.h>
@@ -42,7 +42,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 acos(1.0) = 0 radians
 acos(1.0) = 0 degrees
 ```
@@ -51,7 +51,7 @@ acos(1.0) = 0 degrees
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate
 // the acos() function
 #include <bits/stdc++.h>
@@ -76,7 +76,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 acos(-1) = 3.14159 radians
 acos(-1) = 180 degrees
 ```
@@ -92,7 +92,7 @@ acos(-1) = 180 degrees
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the acos()
 // function errors and exceptions
 #include <bits/stdc++.h>
@@ -115,7 +115,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 prog.cpp:10:17: error: no matching function for call to 'acos(std::__cxx11::string&)'
   result = acos(x);
 ```
@@ -126,7 +126,7 @@ prog.cpp:10:17: error: no matching function for call to 'acos(std::__cxx11::stri
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // acos() function errors and exceptions
 #include <bits/stdc++.h>
@@ -150,7 +150,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 acos(3.7) = nan radians
 acos(3.7) = nan degrees
 ```

@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 #include <map>
 #include <iterator>
@@ -114,7 +114,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The multimap gquiz1 is : 
     KEY    ELEMENT
     1    40

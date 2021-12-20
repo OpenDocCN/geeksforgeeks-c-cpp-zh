@@ -8,7 +8,7 @@
 
 1.  **Using [if statement](https://www.geeksforgeeks.org/decision-making-c-c-else-nested-else/):**
 
-    ```
+    ```cpp
     // CPP program to print
     // Hello World without semicolon
     // using if statement
@@ -23,13 +23,13 @@
 
     输出:
 
-    ```
+    ```cpp
     Hello World
     ```
 
 2.  **Using [switch statement](https://www.geeksforgeeks.org/switch-statement-cc/):**
 
-    ```
+    ```cpp
     // CPP program to print
     // Hello World without semicolon
     // using switch statement
@@ -45,13 +45,13 @@
 
     输出:
 
-    ```
+    ```cpp
     Hello World 
     ```
 
 3.  **Using [macros](https://www.geeksforgeeks.org/cc-preprocessors/)**
 
-    ```
+    ```cpp
     // CPP program to print
     // Hello World without semicolon
     // using macros
@@ -67,13 +67,13 @@
 
     输出:
 
-    ```
+    ```cpp
     Hello World 
     ```
 
 4.  **使用[循环(while and for)](https://www.geeksforgeeks.org/loops-in-c/) :这里要注意的是使用！(不是运算符)在 while 循环中，以避免无限循环。
 
-    ```
+    ```cpp
     // CPP program to print 
     // Hello World without semicolon
     // using if statement
@@ -90,7 +90,7 @@
     }
     ```
 
-    ```
+    ```cpp
     Hello World 
     ```** 
 

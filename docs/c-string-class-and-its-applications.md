@@ -11,7 +11,7 @@
 C++ string 类内部使用 char 数组存储字符，但是所有的内存管理、分配和 null 终止都是由 string 类本身处理的，这就是为什么它易于使用的原因。C++字符串的长度可以在运行时更改，因为内存的动态分配类似于向量。由于 string 类是一个容器类，我们可以使用类似于其他容器(如 vector、set 和 map)的迭代器来迭代它的所有字符，但是通常，我们使用一个简单的 for 循环来迭代字符，并使用[]运算符对它们进行索引。
 C++字符串类有很多函数可以轻松处理字符串。下面的代码演示了其中大部分有用的功能。
 
-```
+```cpp
 // C++ program to demonstrate various function string class
 #include <bits/stdc++.h>
 using namespace std;
@@ -124,7 +124,7 @@ int main()
 
 输出:
 
-```
+```cpp
 first string
 first string
 #####
@@ -149,7 +149,7 @@ These are test examples
 **应用程序:**
 在上述字符串函数的基础上，一些应用程序编写如下:
 
-```
+```cpp
 // C++ program to demonstrate uses of some string function
 #include <bits/stdc++.h>
 using namespace std;
@@ -213,7 +213,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Floating part is : 342
 string contains only digit
 google%20com%20in

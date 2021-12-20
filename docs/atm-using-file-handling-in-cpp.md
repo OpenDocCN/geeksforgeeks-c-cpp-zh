@@ -26,7 +26,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ code to implement an ATM and
 // its basic functions
 #include <fstream>

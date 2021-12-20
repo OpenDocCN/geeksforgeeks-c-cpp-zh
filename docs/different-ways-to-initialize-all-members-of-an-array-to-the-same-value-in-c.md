@@ -6,21 +6,21 @@
 
 数组是保存固定数量的相同类型值的数据集合。例如:如果要存储 100 个学生的分数，可以为其创建一个数组。
 
-```
+```cpp
 int num[100];
 
 ```
 
 **如何用 C 语言声明数组？**
 
-```
+```cpp
 Data_type  array_name[size_of_array];
 
 ```
 
 例如，
 
-```
+```cpp
 float num[10];
 
 ```
@@ -29,7 +29,7 @@ float num[10];
 
 1.  **Initializer List**: To initialize an array in C with the same value, the naive way is to provide an initializer list. We use this with small arrays.
 
-    ```
+    ```cpp
     int num[5] = {1, 1, 1, 1, 1};
 
     ```
@@ -37,14 +37,14 @@ float num[10];
     这将在所有索引处用值 1 初始化 num 数组。
     我们也可以忽略数组的大小:
 
-    ```
+    ```cpp
     int num[ ] = {1, 1, 1, 1, 1}
 
     ```
 
     如果我们提供空的初始化列表或者只是在初始化列表中指定 0，数组将被初始化为 0。
 
-    ```
+    ```cpp
     int num[5] =  { };                // num = [0, 0, 0, 0, 0]
     int num[5] =  { 0 };             // num = [0, 0, 0, 0, 0]
 
@@ -53,21 +53,21 @@ float num[10];
 2.  **Designated Initializer**: This initializer is used when we want to initialize a range with the same value. This is used only with GCC compilers.
     [ first . . . last ] = value;
 
-    ```
+    ```cpp
     int num[5]={ [0 . . . 4 ] = 3 };               // num = { 3, 3, 3, 3, 3}
 
     ```
 
     我们也可以忽略数组的大小:
 
-    ```
+    ```cpp
     int num[  ]={ [0 . . . 4 ] = 3 };               // num = { 3, 3, 3, 3, 3}
 
     ```
 
 3.  **宏**:初始化一个相同值的巨大数组，我们可以使用宏。
 
-    ```
+    ```cpp
     #include<stdio.h>
 
     #define x1 1
@@ -94,7 +94,7 @@ float num[10];
 
     **输出:**
 
-    ```
+    ```cpp
     The size of the array is 45
     The value of element in the array at index 5 is 1
 
@@ -102,7 +102,7 @@ float num[10];
 
 4.  **使用 for 循环**:我们也可以使用 For 循环来初始化一个具有相同值的数组。
 
-    ```
+    ```cpp
     #include<stdio.h>
 
     int main(void)
@@ -131,7 +131,7 @@ float num[10];
 
     **输出:**
 
-    ```
+    ```cpp
     The array is:1 1 1 1 1 1
 
     ```

@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate default behaviour of
 // sort() in STL.
 #include <bits/stdc++.h>
@@ -39,7 +39,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array after sorting using default sort is : 
 0 1 2 3 4 5 6 7 8 9 
 ```
@@ -49,7 +49,7 @@ sort()采用第三个参数，用于指定元素的排序顺序。我们可以�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate descending order sort using
 // greater<>().
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array after sorting : 
 9 8 7 6 5 4 3 2 1 0 
 ```
@@ -83,7 +83,7 @@ Array after sorting :
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to demonstrate
 // STL sort() using
 // our own comparator
@@ -124,7 +124,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Intervals sorted by start time : 
 [1,9] [2,4] [4,7] [6,8] 
 ```

@@ -10,7 +10,7 @@ T5【案例 1:
 
 **示例:**
 
-```
+```cpp
 Input : a = 5, b = 9
 Output : a = 9, b = 5
 
@@ -23,7 +23,7 @@ Output : a= 6, b = 4
 
 ## C++
 
-```
+```cpp
 // C++ Program to swap two numbers using friend function
 #include <iostream>
 
@@ -74,7 +74,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Before Swapping: 4 6
 After Swapping: 6 4
 ```

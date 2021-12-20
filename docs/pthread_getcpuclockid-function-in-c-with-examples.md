@@ -21,7 +21,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <errno.h>
@@ -137,7 +137,7 @@ int main(int argc,
 
 ## C
 
-```
+```cpp
 // C program to implement
 // the above approach
 #include <pthread.h>

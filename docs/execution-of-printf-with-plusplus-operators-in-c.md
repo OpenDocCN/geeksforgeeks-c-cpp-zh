@@ -4,7 +4,7 @@
 
 考虑 C 语言中的以下语句，并预测其输出。
 
-```
+```cpp
 printf("%d %d %d", i, ++i, i++);
 ```
 
@@ -14,7 +14,7 @@ printf("%d %d %d", i, ++i, i++);
 
 ## C
 
-```
+```cpp
 // C Program to demonstrate the three printf() statements
 // that cause undefined behavior
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 11 10
 10 10
 12 11 11

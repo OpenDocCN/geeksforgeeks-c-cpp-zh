@@ -24,7 +24,7 @@ l 值有两种类型:
 
 ## c
 
-```
+```cpp
 #define my_sizeof(type) (char *)(&type+1)-(char*)(&type)
 ```
 
@@ -34,7 +34,7 @@ l 值有两种类型:
 
 ## C
 
-```
+```cpp
 /* Prints numbers from 1 to n */
 void printNos(unsigned int n)
 {
@@ -54,7 +54,7 @@ volatile 关键字旨在防止编译器对对象应用任何可能以编译器�
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {

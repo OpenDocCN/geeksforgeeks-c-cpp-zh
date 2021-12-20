@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 void swap( valarray& valarray2 );
 ```
 
@@ -18,7 +18,7 @@ void swap( valarray& valarray2 );
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of swap() function.
 
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The contents of 1st valarray after swapping are : 20 40 60 80 
 The contents of 2nd valarray after swapping are : 12 24 36 48
 
@@ -66,7 +66,7 @@ The contents of 2nd valarray after swapping are : 12 24 36 48
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of swap() function.
 
@@ -106,7 +106,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The contents of 1st valarray after swapping are : 20 40 60 80 
 The contents of 2nd valarray after swapping are : -12 -24 -36 -48
 

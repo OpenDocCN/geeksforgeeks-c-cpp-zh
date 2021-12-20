@@ -7,7 +7,7 @@
 
 下面是显示**空**未声明错误示例的代码:
 
-```
+```cpp
 using namespace std;
 
 // Driver Code
@@ -30,7 +30,7 @@ int main()
 1.  **分配 0:** 我们可以简单地分配 **0** 而不是将**空值**分配给 num，这表明它没有指向任何地址，因此最简单的解决方案是简单地分配 0。
     下面的代码展示了它的实现:
 
-    ```
+    ```cpp
     using namespace std;
 
     // Driver Code
@@ -44,7 +44,7 @@ int main()
 2.  **包含“stddef.h”头文件:**在 **stddef.h** 头文件**中已经定义了空**，所以我们可以将这个头文件包含在我们的程序中，我们的程序将毫无错误地编译和执行。
     下面的代码展示了它的实现:
 
-    ```
+    ```cpp
     #include <stddef.h>
 
     // Driver Code
@@ -58,7 +58,7 @@ int main()
 3.  **包含 iostream 头文件:**在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中，如果我们想执行我们的程序而没有空的未声明的错误，我们可以简单地将 iostream 包含在我们的程序中，并使其发生而没有任何错误。
     下面的代码展示了它的实现:
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -73,7 +73,7 @@ int main()
 4.  **#定义空 0:** 使用 T**#定义空 0** 在我们的程序中我们可以解决空未声明的错误。
     下面的代码展示了它的实现:
 
-    ```
+    ```cpp
     #define NULL 0
     using namespace std;
 
@@ -87,7 +87,7 @@ int main()
 
 5.  **在较新的 C++中(C++11 及更高版本):** : **nullptr** 是一个内置常量，因此我们可以使用它来代替使用 NULL。
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 

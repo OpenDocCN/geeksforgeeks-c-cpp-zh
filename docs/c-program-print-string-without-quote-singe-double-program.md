@@ -7,7 +7,7 @@
 
 思路是在 C 中使用[宏处理器(参考本文第 6 点)。传递给宏的标记可以通过在它前面使用#转换为字符串。](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)
 
-```
+```cpp
 // C program to print a string without 
 // quote in the program
 #include <stdio.h>
@@ -21,7 +21,7 @@ int main()
 
 输出:
 
-```
+```cpp
 vignesh
 
 ```

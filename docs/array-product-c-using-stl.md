@@ -14,7 +14,7 @@ initialProduct 指定要考虑的初始值。
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find array product
 #include <iostream>
 #include <numeric>
@@ -39,7 +39,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 750
 ```
 
@@ -47,7 +47,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find vector product
 #include <iostream>
 #include <numeric>
@@ -72,7 +72,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 750
 ```
 

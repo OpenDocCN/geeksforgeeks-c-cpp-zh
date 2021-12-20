@@ -12,7 +12,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate the use of
 // typecasting
 #include <stdio.h>
@@ -43,7 +43,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The result is 7.000000
 
 ```
@@ -56,7 +56,7 @@ The result is 7.000000
 
 ## C
 
-```
+```cpp
 // C program to showcase the use of
 // typecasting
 #include <stdio.h>
@@ -87,7 +87,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The result is 7.500000
 
 ```

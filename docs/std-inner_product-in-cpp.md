@@ -8,7 +8,7 @@
 1。**使用默认内积:**
 语法:
 
-```
+```cpp
 Template :
 T inner_product (InputIterator1 first1, InputIterator1 last1,
                  InputIterator2 first2, T init);
@@ -37,7 +37,7 @@ of elements in the ranges starting at first1 and first2.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: inner_product
 #include <iostream> // std::cout
@@ -76,7 +76,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array contains : 10 20 30
 Second array contains : 1 2 3
 
@@ -86,7 +86,7 @@ Using default inner_product: 240
 2.**使用功能操作:**
 语法:
 
-```
+```cpp
 Template :
 T inner_product (InputIterator1 first1, InputIterator1 last1,
                  InputIterator2 first2, T init,
@@ -119,7 +119,7 @@ of elements in the ranges starting at first1 and first2.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: inner_product
 #include <iostream> // std::cout
@@ -166,7 +166,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array contains : 10 20 30
 Second array contains : 1 2 3
 
@@ -176,7 +176,7 @@ Using functional operations: 70
 3.**使用自定义函数:**
 语法:
 
-```
+```cpp
 Template :
 T inner_product (InputIterator1 first1, InputIterator1 last1,
                  InputIterator2 first2, T init,
@@ -207,7 +207,7 @@ of elements in the ranges starting at first1 and first2.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: inner_product
 #include <iostream> // std::cout
@@ -257,7 +257,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array contains : 10 20 30
 Second array contains : 1 2 3
 
@@ -276,7 +276,7 @@ Using custom functions: 34
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: inner_product
 #include <iostream> // std::cout
@@ -326,7 +326,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Array 1 : 1 2 3 4
 Array 2 : 10 20 30 40
 

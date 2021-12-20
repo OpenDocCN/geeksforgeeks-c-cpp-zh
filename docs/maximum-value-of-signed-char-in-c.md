@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to obtain the maximum value
 // that we can store in signed char
 #include <climits>
@@ -76,7 +76,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Maximum value from climits constant: 127
 Minimum value from climits constant: -128
 Maximum value using the wrap around property: 127

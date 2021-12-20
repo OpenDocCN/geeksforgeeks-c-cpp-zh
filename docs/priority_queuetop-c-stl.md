@@ -9,7 +9,7 @@
 top()函数用于引用优先级队列的顶部(或最大的)元素。
 **语法:**
 
-```
+```cpp
 *pqueuename*.top()
 Parameters :
 No value is needed to pass as the parameter.
@@ -21,7 +21,7 @@ element of the priority queue container.
 
 示例:
 
-```
+```cpp
 Input  : pqueue.push(5);
          pqueue.push(1);
          pqueue.top();
@@ -40,7 +40,7 @@ Output : 7
 1.如果优先级队列容器为空，会导致未定义的行为
 2。如果优先级队列不为空，它保证无异常抛出
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of top() function
 #include <iostream>
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 
 ```
@@ -70,7 +70,7 @@ int main()
 **应用:**
 给定整数的优先级队列，求素数和非素数的个数。
 
-```
+```cpp
 Input : 8, 6, 3, 2, 1
 Output: Prime - 2
         Non Prime - 3
@@ -83,7 +83,7 @@ Output: Prime - 2
 3。重复此步骤，直到优先级队列为空。
 4。打印变量质数和非质数(大小–质数)的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of top() function
 #include <iostream>
@@ -120,7 +120,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Prime - 2
 Non Prime - 3
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 set(int index, bool val) 
 
 ```
@@ -24,7 +24,7 @@ set(int index, bool val)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::set() function
 // when parameter is not passed
@@ -60,7 +60,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before applying set() function: 1100
 After applying set() function: 1111
 Before applying set() function: 100100
@@ -70,7 +70,7 @@ After applying set() function: 111111
 
 **程序二:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::set() function
 // when parameter is passed
@@ -109,7 +109,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before applying set() function: 1100
 After applying set(1) function: 1110
 Before applying set() function: 100100

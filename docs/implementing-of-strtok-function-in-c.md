@@ -6,13 +6,13 @@
 
 **头文件:**
 
-```
+```cpp
 #include <string.h>
 ```
 
 **语法:**
 
-```
+```cpp
 char *strtok(char *s1, const char *s2);
 ```
 
@@ -35,7 +35,7 @@ char *strtok(char *s1, const char *s2);
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the function
 // strtok() to tokenized the string
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 It,
 is
 my,

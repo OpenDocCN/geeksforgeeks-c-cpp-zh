@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```cpp
 int function_name(data_type variable_name, ...);
 ```
 
 传递的参数值可以通过名为[的头文件](https://www.geeksforgeeks.org/header-files-in-c-cpp-and-its-uses/)访问:
 
-```
+```cpp
 #include <stdarg.h>
 ```
 
@@ -36,7 +36,7 @@ int function_name(data_type variable_name, ...);
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 
 #include <stdarg.h>
@@ -90,7 +90,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Variadic functions: 
 
  1 + 2 = 3 
@@ -102,7 +102,7 @@ Variadic functions:
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdarg.h>
 #include <stdio.h>
@@ -157,7 +157,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Variadic functions: 
 
  2 

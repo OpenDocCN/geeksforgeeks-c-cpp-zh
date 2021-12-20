@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 long double remquo(long double a, long double b, int* q);
 double remquo(double a, double b, int* q);
 float remquo(float a, float b, int* q);
@@ -33,7 +33,7 @@ float remquo(float a, float b, int* q);
 
 **示例:**
 
-```
+```cpp
 Input : remquo(12.5, 2.2, &q)
 Output : -0.7 and q=6
 
@@ -41,7 +41,7 @@ Output : -0.7 and q=6
 
 **说明:**
 
-```
+```cpp
 Input : remquo(-12.5, 2.2, &q)
 Output : 0.7 and q=-6
 
@@ -49,7 +49,7 @@ Output : 0.7 and q=-6
 
 **#代码 1**
 
-```
+```cpp
 // CPP implementation of the above 
 // function
 #include <cmath>
@@ -105,7 +105,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Remainder of 12.5/2.2 is -0.7
 Quotient of 12.5/2.2 is 6
 
@@ -119,7 +119,7 @@ Quotient of -12.5/0 is -6
 
 **#代码 2**
 
-```
+```cpp
 // CPP implementation of the
 // above function
 #include <cmath>
@@ -150,7 +150,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Remainder of 12.5/2 is 0.5
 Quotient of 12.5/2 is 6
 

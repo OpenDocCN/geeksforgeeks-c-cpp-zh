@@ -8,7 +8,7 @@
 
 **等价运算符:**下面是一些工作相同的运算符。
 
-```
+```cpp
   (a != b) is equivalent to !(a == b)
   (a > b) equivalent to (b < a)
   (a <= b) equivalent to !(b < a)  
@@ -21,7 +21,7 @@
 
 **程序 1:** 关系运算符比较
 
-```
+```cpp
 // array comparisons using relational operators
 #include <bits/stdc++.h>
 using namespace std;
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a is greater than equal to b
 b is less than c
 a is neither greater than nor equal to c
@@ -68,7 +68,7 @@ a is neither greater than nor equal to c
 
 **程序 2:** 关系运算符等式
 
-```
+```cpp
 // CPP program to check for array qualities.
 #include <bits/stdc++.h>
 using namespace std;
@@ -106,7 +106,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a is not equal to b
 b is not equal to c
 a is equal to c

@@ -10,7 +10,7 @@ empty()函数用于检查列表容器是否为空。
 
 **语法:**
 
-```
+```cpp
 *listname*.empty()
 Parameters :
 No parameters are passed.
@@ -22,7 +22,7 @@ False, Otherwise
 
 示例:
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.empty();
 Output : False
@@ -38,7 +38,7 @@ Output : True
 1.  它有一个无异常抛出保证。
 2.  传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of empty() function
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 输出:
 
-```
+```cpp
 True
 
 ```
@@ -68,7 +68,7 @@ True
 **应用:**
 给定一个整数列表，求所有整数的和。
 
-```
+```cpp
 Input  : 1, 5, 6, 3, 9, 2
 Output : 26
 *Explanation - * 1+5+6+3+9+2 = 26
@@ -81,7 +81,7 @@ Output : 26
 2.  重复此步骤，直到列表为空。
 3.  打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of empty() function
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 输出:
 
-```
+```cpp
 26
 
 ```
@@ -114,7 +114,7 @@ size()函数用于返回列表容器的大小或列表容器中的元素数量�
 
 **语法:**
 
-```
+```cpp
 *listname*.size()
 Parameters :
 No parameters are passed.
@@ -125,7 +125,7 @@ Number of elements in the container.
 
 示例:
 
-```
+```cpp
 Input  : list list{1, 2, 3, 4, 5};
          list.size();
 Output : 5
@@ -141,7 +141,7 @@ Output : 0
 1.  它有一个无异常抛出保证。
 2.  传递参数时显示错误。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of size() function
 #include <iostream>
@@ -158,7 +158,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```
@@ -166,7 +166,7 @@ int main()
 **应用:**
 给定一个整数列表，求所有整数的和。
 
-```
+```cpp
 Input  : 1, 5, 6, 3, 9, 2
 Output : 26
 *Explanation - * 1+5+6+3+9+2 = 26
@@ -179,7 +179,7 @@ Output : 26
 2.  重复此步骤，直到列表为空。
 3.  打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of size() function
 #include <iostream>
@@ -201,7 +201,7 @@ int main()
 
 输出:
 
-```
+```cpp
 26
 
 ```

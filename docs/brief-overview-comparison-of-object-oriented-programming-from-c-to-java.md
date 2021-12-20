@@ -34,7 +34,7 @@ C
 
 ## C
 
-```
+```cpp
 // Adding the necessary header files
 #include <stdio.h>
 #include <stdlib.h>
@@ -87,7 +87,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // import the required classes
 
 import java.io.*;
@@ -127,7 +127,7 @@ class GFG {
 
 **Output**
 
-```
+```cpp
 The Id is 25
 The name is Siddharth
 ```

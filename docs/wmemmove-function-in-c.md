@@ -5,7 +5,7 @@
 **wmemmove()** 函数在 **cwchar.h** 头文件中定义。wmemmove()函数将指定数量的宽字符从源复制到目标。
 **语法:**
 
-```
+```cpp
 wchar_t* wmemmove(wchar_t* dest, const wchar_t* src, size_t n);
 
 ```
@@ -22,7 +22,7 @@ wchar_t* wmemmove(wchar_t* dest, const wchar_t* src, size_t n);
 
 ## C++14
 
-```
+```cpp
 // c++ program to demonstrate
 // example of wmemmove() function.
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Destination: A computer science portal for geeks
 Source: geeksforgeeks
 After modication, destinstion: A ksforter science portal for geeks

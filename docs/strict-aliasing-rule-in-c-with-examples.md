@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate aliasing
 #include <stdio.h>
 
@@ -37,7 +37,7 @@ int main()
 
 T10】输出:
 
-```
+```cpp
 30
 
 ```

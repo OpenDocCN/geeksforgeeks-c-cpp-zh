@@ -25,7 +25,7 @@
 
     这里的约束指的是一个条件，特定函数的参数必须满足这个条件才能执行(前提条件)。在 C++的早期版本中，用于指定约束的代码是以这种方式编写的
 
-    ```
+    ```cpp
     int f(int i)
     {
         if (i > 0)
@@ -39,7 +39,7 @@
 
     它增加了代码的可读性，并避免了在参数检查函数内部编写的混乱。
 
-    ```
+    ```cpp
     int f(int i)[[expects:i > 0]]
     {
         // Code
@@ -50,7 +50,7 @@
 
     编译器非常擅长优化，但与人类相比，它们在某些地方仍然落后，并提出了效率不高的通用代码。这主要是由于缺乏关于人类“问题”的额外信息。为了在一定程度上减少这个问题，C++标准引入了一些新的属性，允许向编译器而不是代码语句本身指定更多的内容。一旦这样的例子是可能的。
 
-    ```
+    ```cpp
     int f(int i)
     {
         switch (i) {
@@ -68,7 +68,7 @@
 
     这种情况很少发生，但有时程序员故意试图写一个错误的代码，被编译器检测到，并被报告为错误或警告。一个这样的例子是一个未使用的变量，它由于特定的原因留在那个状态，或者是一个 switch 语句，其中 break 语句在某些情况下不被放在后面，从而导致失败的情况。为了规避此类情况下的错误和警告，C++提供了诸如**【也许 _ 未使用】**和**【穿越】**等属性，防止编译器生成警告或错误。
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string>
 
@@ -91,7 +91,7 @@
 
     用法:
 
-    ```
+    ```cpp
     [[noreturn]] void f();
 
     ```
@@ -100,7 +100,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string>
 
@@ -128,7 +128,7 @@
 
     **警告:**
 
-    ```
+    ```cpp
     main.cpp: In function 'void f()':
     main.cpp:8:1: warning: 'noreturn' function does return
      }
@@ -142,7 +142,7 @@
 
     用法:
 
-    ```
+    ```cpp
     [[deprecated("Reason for deprecation")]]
 
     // For Class/Struct/Union
@@ -161,7 +161,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string>
 
@@ -195,7 +195,7 @@
 
     **警告:**
 
-    ```
+    ```cpp
     main.cpp: In function 'int main()':
     main.cpp:26:9: warning: 'void gets(char*)' is deprecated:
      Susceptible to buffer overflow [-Wdeprecated-declarations]
@@ -210,7 +210,7 @@
 
     用法:
 
-    ```
+    ```cpp
     // Functions
     [[nodiscard]] void f();
 
@@ -223,7 +223,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string>
 
@@ -259,7 +259,7 @@
 
     **警告:**
 
-    ```
+    ```cpp
     prog.cpp:5:21: warning: 'nodiscard' attribute directive ignored [-Wattributes]
      [[nodiscard]] int f()
                          ^
@@ -273,7 +273,7 @@
 
     用法:
 
-    ```
+    ```cpp
     //Variables
     [[maybe_used]] bool log_var = true;
 
@@ -287,7 +287,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iostream>
     #include <string>
 
@@ -309,7 +309,7 @@
 
 **示例:**
 
-```
+```cpp
 void process_alert(Alert alert)
 {
     switch (alert) {
@@ -341,7 +341,7 @@ void process_alert(Alert alert)
 
     **例**
 
-    ```
+    ```cpp
     int f(int i)
     {
         switch (i) {
@@ -357,7 +357,7 @@ void process_alert(Alert alert)
 
     **示例:**
 
-    ```
+    ```cpp
     // empty class ( No state!)
     struct Empty {
     };
@@ -391,14 +391,14 @@ void process_alert(Alert alert)
 
     用法:
 
-    ```
+    ```cpp
     return_type func ( args...) [[expects : precondition]]
 
     ```
 
     **示例:**
 
-    ```
+    ```cpp
     void list(node* n)[[expects:n != nullptr]]
     ```
 
@@ -434,7 +434,7 @@ void process_alert(Alert alert)
 
     **示例:**
 
-    ```
+    ```cpp
     // Here the attributes will work on their respective
     [[msvc::deprecated]][[gnu::deprecated]] char* gets(char* str) compilers
     ```
@@ -443,13 +443,13 @@ void process_alert(Alert alert)
 
     在 C++17 中，一些关于使用“非标准”属性的规则被放宽了。一种这样的情况是用后续的非标准属性作为名称空间的前缀。在 C++11 或 14 中，当多个属性被写在一起时，它们中的每一个都必须以其封闭的名称空间作为前缀，这产生了如下所示的代码模式。
 
-    ```
+    ```cpp
     [[ gnu::always_inline, gnu::const, gnu::hot, nodiscard ]] int f();
     ```
 
     看上面的代码，可以看出它看起来臃肿杂乱。因此，委员会决定一起“在使用多个属性时简化案例”。到目前为止，对于程序员来说，一次又一次地在名称空间前面加上后续属性并不是强制性的。这就产生了下面显示的代码模式，它看起来简洁易懂。
 
-    ```
+    ```cpp
     [[using gnu:const, always_inline]] int f() { return 0; }
     ```
 
@@ -459,7 +459,7 @@ void process_alert(Alert alert)
 
     **示例:**
 
-    ```
+    ```cpp
     #include <iostream>
 
     // Not implemented by compilers as of now

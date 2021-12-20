@@ -6,7 +6,7 @@ C++ STL 的 **std::is_compound 模板**用于检查类型是否为复合类型�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_compound;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_compound;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_compound template
 
@@ -62,7 +62,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_compound:
 GFG1: true
 GFG2: true
@@ -73,7 +73,7 @@ int*: true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_compound template
 
@@ -118,7 +118,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_compound:
 GFG1: true
 GFG2: true
@@ -130,7 +130,7 @@ char: false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // is_compound template
 
@@ -166,7 +166,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_compound:
 int(gfg::*): true
 float: false

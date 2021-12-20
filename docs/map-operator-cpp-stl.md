@@ -9,7 +9,7 @@
 该运算符用于引用位于运算符内部给定位置的元素。它类似于 at()函数，唯一的区别是 at()函数在位置不在地图大小的边界内时抛出一个超出范围的异常，而这个运算符会导致未定义的行为。
 **语法:**
 
-```
+```cpp
 ***mapname[key]***
 Parameters :
 Key value mapped to the element to be fetched.
@@ -19,7 +19,7 @@ Direct reference to the element at the given key value.
 
 示例:
 
-```
+```cpp
 Input  :  map mymap;
           mymap['a'] = 1;
           mymap['a'];
@@ -37,7 +37,7 @@ Output :  7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of [] operator
 #include <map>
@@ -65,7 +65,7 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksForGeeks
 ```
 

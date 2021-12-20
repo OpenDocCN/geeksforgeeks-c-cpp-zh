@@ -5,7 +5,7 @@
 **使用基于连接的套接字类型( **SOCK_STREAM，SOCK_SEQPACKET** )接受**()系统调用。它提取侦听套接字 sockfd 的挂起连接队列中的第一个连接请求，创建一个新的已连接套接字，并返回一个引用该套接字的新文件描述符。新创建的套接字不处于侦听状态。原始套接字 sockfd 不受此调用的影响。
 **语法:**
 
-```
+```cpp
  int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen); 
 ```
 
@@ -18,7 +18,7 @@
 如果提供的缓冲区太小，返回的地址将被截断；在这种情况下，addrlen 将返回一个大于提供给调用的值。
 如果队列中没有未决连接，并且套接字没有标记为非阻塞，则**接受**()阻塞调用者，直到有连接为止。如果套接字被标记为非阻塞，并且队列中没有未决连接，则**接受**()失败，出现错误 **EAGAIN** 或 **EWOULDBLOCK** 。
 
-```
+```cpp
 // C program to show accept system call is blocking call
 #include <stdio.h>                                                                                                                                       
 #include <sys/types.h>                                                                                                                                   
@@ -64,7 +64,7 @@ int main()                                   
 
 输出:
 
-```
+```cpp
 Binding Successfully
 Listening.. 
 

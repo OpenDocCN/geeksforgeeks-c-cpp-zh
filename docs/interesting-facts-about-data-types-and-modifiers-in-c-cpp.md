@@ -8,7 +8,7 @@
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -28,7 +28,7 @@ int main()
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -44,7 +44,7 @@ int main()
 
 Output:
 
-```
+```cpp
 The size of a is 4
 The size of b is 4
 
@@ -54,7 +54,7 @@ The size of b is 4
 
 ## C++
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

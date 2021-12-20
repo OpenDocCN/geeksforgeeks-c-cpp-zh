@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 get(array_name)
 ```
 
@@ -23,7 +23,7 @@ get(array_name)
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // array::get() function
 #include <bits/stdc++.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 arr[0] = 10
 arr[1] = 20
 arr[2] = 30
@@ -53,7 +53,7 @@ arr[2] = 30
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to demonstrate the
 // array::get() function
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 arr[0] = a
 arr[1] = b
 arr[2] = c

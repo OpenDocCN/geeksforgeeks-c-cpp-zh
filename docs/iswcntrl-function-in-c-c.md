@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int iswcntrl(wint_t ch)
 ```
 
@@ -20,7 +20,7 @@ int iswcntrl(wint_t ch)
 下面的程序说明了上面的功能。
 **节目一:**
 
-```
+```cpp
 // C++ program to illustrate the
 // iswcntrl() function
 #include <bits/stdc++.h>
@@ -42,14 +42,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 It is a control Character
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // iswcntrl() function
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 It is not a control Character
 
 ```

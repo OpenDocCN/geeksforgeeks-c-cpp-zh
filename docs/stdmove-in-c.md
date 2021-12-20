@@ -7,7 +7,7 @@
 将【第一个，最后一个】中元素的值转移到结果指向的元素。调用后，范围[第一个，最后一个]中的元素保持未指定但有效的状态。
 **模板:**
 
-```
+```cpp
 OutputIterator move (InputIterator first, InputIterator last, OutputIterator result);
 
 Parameters :
@@ -29,7 +29,7 @@ An iterator to the end of the destination range where elements have been moved.
 
 示例:
 
-```
+```cpp
 Input :
 vec1 contains : 1 2 3 4 5
 vec2 contains : 7 7 7 7 7
@@ -39,7 +39,7 @@ arr2 contains : 7 1 2 3 4
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // std::move and std::move_backward
 // STL library functions
@@ -79,7 +79,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Vector1 contains : 1 2 3 4 5
 Vector2 contains : 7 7 7 7 7
 

@@ -30,7 +30,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to get intersection point of two linked list
 #include <bits/stdc++.h>
 using namespace std;
@@ -182,6 +182,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The node of intersection is 15
 ```

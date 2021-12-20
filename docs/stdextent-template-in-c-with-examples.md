@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **语法:**
 
-```
+```cpp
 template 
   <class A, unsigned B = 0>
   struct extent;
@@ -29,7 +29,7 @@ template
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::extent()
 
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 3
 3
 4
@@ -71,7 +71,7 @@ int main()
 
 **程序二:**
 
-```
+```cpp
 // C++ program to demonstrate
 // std::extent()
 
@@ -95,7 +95,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 gfg array (int[][50][70]):
 rank: 3
 0

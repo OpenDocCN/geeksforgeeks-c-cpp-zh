@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```cpp
 Other string is: *forgeeks.org*
 
 Input  : www.geeks
@@ -25,7 +25,7 @@ Output : practice.geeksforgeeks.org
     *   **> 0** 即子进程到父进程的进程标识。当> 0 父进程执行时。
 *   pipe()用于将信息从一个进程传递到另一个进程。pipe()是单向的因此，对于进程之间的双向通信，可以设置两个管道，每个方向一个。
 
-    ```
+    ```cpp
      *Example:* 
      int fd[2];
      pipe(fd);
@@ -38,7 +38,7 @@ Output : practice.geeksforgeeks.org
 
 **子进程内部:**子进程通过关闭管道的写端(fd1[1])读取父进程发送的第一个字符串，读取后连接两个字符串，并通过 fd2 管道将字符串传递给父进程，并将退出。
 
-```
+```cpp
 // C program to demonstrate use of fork() and pipe()
 #include<stdio.h>
 #include<stdlib.h>
@@ -134,7 +134,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Input : www.geeks
 Output : Concatenated string
          www.geeksforgeeks.org

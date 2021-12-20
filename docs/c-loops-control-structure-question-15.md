@@ -4,7 +4,7 @@
 
 在下面的程序中， *X* 代表变量*检查*的数据类型。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {

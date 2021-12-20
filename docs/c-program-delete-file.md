@@ -4,7 +4,7 @@
 
 C/C++中的[删除](http://www.cplusplus.com/reference/cstdio/remove/)功能可以用来删除文件。如果成功删除文件，函数返回 0，否则返回非零值。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()
@@ -22,7 +22,7 @@ int main()
 
 **说明:**这可以使用 c 中的[移除功能](https://www.geeksforgeeks.org/c-program-delete-file/)来完成，注意，这是在 Linux 环境下完成的。因此，remove 函数被输入命令行参数中的第一个参数，即编译后创建的 **a.out** 文件(可执行文件)。因此程序将被销毁。
 
-```
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -43,7 +43,7 @@ return 0;
 
 输出:
 
-```
+```cpp
 By the time you will compile me I will be destroyed
 
 ```

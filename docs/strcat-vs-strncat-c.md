@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // strcat
 #include <cstring>
@@ -31,7 +31,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is an example
 ```
 
@@ -46,7 +46,7 @@ C++中的 strncat()函数将一个字符串中给定数量的字符追加到另�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to demonstrate
 // strncat
 #include <cstring>
@@ -68,7 +68,7 @@ strncat(dest, src, 29);
 
 **输出:**
 
-```
+```cpp
 This is an example to show working of strncat()
 ```
 
@@ -78,7 +78,7 @@ This is an example to show working of strncat()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C,C++ program demonstrate difference between
 // strncat() and strcat()
 #include <stdio.h>
@@ -118,7 +118,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before strcat() function execution, destination string : geeks
 After strcat() function execution, destination string : geeksforgeeks
 Before strncat() function execution, destination string : geeks

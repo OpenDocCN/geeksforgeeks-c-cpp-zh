@@ -4,7 +4,7 @@
 
 预测以下程序的输出
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -29,7 +29,7 @@ void *类型指针不能被取消引用。我们必须在取消引用之前对�
 
 以下程序运行良好，打印 12 张。
 
-```
+```cpp
 #include<stdio.h>
 
 int main()

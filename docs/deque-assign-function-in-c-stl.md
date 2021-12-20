@@ -6,7 +6,7 @@
 
 1.  **Syntax:**
 
-    ```
+    ```cpp
     deque_name.assign(size, val)
     ```
 
@@ -21,7 +21,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // deque::assign() function
     #include <bits/stdc++.h>
@@ -49,7 +49,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The deque elements: 10 10 10 10 10 
     The deque elements: 15 15 15 15 15 15 15 15 15 15
 
@@ -57,7 +57,7 @@
 
 2.  **Syntax:**
 
-    ```
+    ```cpp
     deque1_name.assign(iterator1, iterator2)
     ```
 
@@ -72,7 +72,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to demonstrate the
     // deque::assign() function
     #include <bits/stdc++.h>
@@ -103,7 +103,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The deque elements: 10 10 10 10 10 
     The deque1 elements: 10 10 10 10
 

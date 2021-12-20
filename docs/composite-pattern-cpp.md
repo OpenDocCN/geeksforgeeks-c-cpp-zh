@@ -15,7 +15,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Composite design pattern
 #include <iostream>
@@ -92,7 +92,7 @@ int main()
 }
 ```
 
-```
+```cpp
 something is added to the copy
 something is added to the page
 something is removed from the copy

@@ -10,7 +10,7 @@
 
 ## c++
 
-```
+```cpp
 // Class that is to be contained
 class first {
 

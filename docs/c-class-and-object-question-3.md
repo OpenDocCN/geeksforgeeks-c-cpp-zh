@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-class-and-object-question-3/](https://www.geeksforgeeks.org/c-class-and-object-question-3/)
 
-```
+```cpp
 class Test {
     int x; 
 };

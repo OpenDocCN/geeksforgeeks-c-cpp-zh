@@ -4,7 +4,7 @@
 
 C 标准对 C 中的主要功能描述如下
 
-```
+```cpp
 The function called at program startup is named main. The 
 implementation declares no prototype for this function. It shall 
 be defined with a return type of int and with no parameters:
@@ -18,7 +18,7 @@ or equivalent;10) or in some other implementation-defined manner.
 
 但是 ***大多数编译器也支持接受第三个参数的第三个 main 声明。第三个参数存储所有环境变量*** 。
 
-```
+```cpp
 #include <stdio.h>
 
 // Most of the C compilers support a third parameter to main which
@@ -35,7 +35,7 @@ int main(int argc, char *argv[], char * envp[])
 
 输出:
 
-```
+```cpp
 ALLUSERSPROFILE=C:\ProgramData
 CommonProgramFiles=C:\Program Files\Common Files
 HOMEDRIVE=C:

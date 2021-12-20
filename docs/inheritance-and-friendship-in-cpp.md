@@ -12,7 +12,7 @@ C++中的**继承:**这是一个 [OOPS](https://www.geeksforgeeks.org/object-ori
 
 ## C++
 
-```
+```cpp
 // CPP Program to demonstrate the relation between
 // Inheritance and Friendship
 #include <iostream>
@@ -56,7 +56,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 prog.cpp: In function ‘void show()’:
 prog.cpp:19:9: error: ‘int B::y’ is private
     int y;

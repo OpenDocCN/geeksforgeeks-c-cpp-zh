@@ -9,7 +9,7 @@
 
 ## C
 
-```
+```cpp
 int *ptr;
 ```
 
@@ -17,7 +17,7 @@ int *ptr;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -41,7 +41,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
     *ptr: 10
     *ptr: 20
     *ptr: 100
@@ -52,7 +52,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 const int *ptr;
 ```
 
@@ -60,7 +60,7 @@ const int *ptr;
 
 ## C
 
-```
+```cpp
 int const *ptr;
 ```
 
@@ -68,7 +68,7 @@ int const *ptr;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 int main(void)
 {
@@ -91,7 +91,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
  error: assignment of read-only location ‘*ptr’
 ```
 
@@ -99,7 +99,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -134,7 +134,7 @@ int main(void)
 
 **输出:**
 
-```
+```cpp
  error: assignment of read-only location ‘*ptr’
 ```
 
@@ -142,7 +142,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -187,7 +187,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 int *const ptr;
 ```
 
@@ -195,7 +195,7 @@ int *const ptr;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -217,7 +217,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
  error: assignment of read-only variable ‘ptr’
 ```
 
@@ -225,7 +225,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 const int *const ptr;
 ```
 
@@ -233,7 +233,7 @@ const int *const ptr;
 
 ## C
 
-```
+```cpp
 #include <stdio.h>
 
 int main(void)
@@ -254,7 +254,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
      error: assignment of read-only variable ‘ptr’
      error: assignment of read-only location ‘*ptr’
 ```

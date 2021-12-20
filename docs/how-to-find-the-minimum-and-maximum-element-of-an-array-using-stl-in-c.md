@@ -5,7 +5,7 @@
 给定一个数组 arr[]，用 C++中的 STL 找到这个数组的最小和最大元素。
 **例:**
 
-```
+```cpp
 Input: arr[] = {1, 45, 54, 71, 76, 12}
 Output: min = 1, max = 76
 
@@ -20,7 +20,7 @@ Output: min = 4, max = 12
 
 **语法:**
 
-```
+```cpp
 *min_element (first, last);
 
 *max_element (first, last);
@@ -34,7 +34,7 @@ Output: min = 4, max = 12
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find the min and max element
 // of Array using sort() in STL
 
@@ -73,7 +73,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Array: 1 45 54 71 76 12 
 Min Element = 1
 Max Element = 76

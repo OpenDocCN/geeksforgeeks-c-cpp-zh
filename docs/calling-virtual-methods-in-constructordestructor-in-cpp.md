@@ -8,7 +8,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // calling virtual methods in
 // constructor/destructor
@@ -62,7 +62,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor called
 Virtual method called
 Derived class Constructor called

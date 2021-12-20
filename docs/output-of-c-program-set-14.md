@@ -8,7 +8,7 @@
 
 **问题 1**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -31,14 +31,14 @@ int main()
 
 行“A a[2]”中有一个编译错误。a 类中没有默认构造函数，当我们自己编写参数化构造函数或复制构造函数时，编译器不会创建默认构造函数(参见本 Gfact[)。我们可以通过在类 A 中创建一个默认构造函数，或者使用下面的语法使用参数化构造函数初始化数组成员来修复这个错误。](https://www.geeksforgeeks.org/does-c-compiler-create-default-constructor-when-we-write-our-own/)
 
-```
+```cpp
  // Initialize a[0] with value 10 and a[1] with 20 
  A a[2] = { A(10),  A(20) } 
 ```
 
 **问题 2**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -70,7 +70,7 @@ int main()
 
 输出:
 
-```
+```cpp
 constructor called 1
 constructor called 2
 destructor called 2
@@ -80,7 +80,7 @@ destructor called 1
 
 在上述程序中，首先创建对象 a[0]，但首先销毁对象 a[1]。对象总是按照与创建相反的顺序被销毁。颠倒顺序的原因是，以后创建的对象可能会使用以前创建的对象。例如，考虑下面的代码片段。
 
-```
+```cpp
 A a;
 B b(a);
 ```
@@ -89,7 +89,7 @@ B b(a);
 
 **第三题**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -124,7 +124,7 @@ int main()
 
 以下程序运行良好，输出为“A::aid = 10”
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```cpp
 Input : str = "geeks"
 Output : 2
 
@@ -30,7 +30,7 @@ Output : 5
 
 下面是上述方法的实现:
 
-```
+```cpp
 // CPP program to print count of
 // vowels using pointers
 
@@ -77,7 +77,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Vowels in above string: 5
 
 ```

@@ -14,7 +14,7 @@
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-```
+```cpp
 // C++ code to demonstrate the working of
 // operator() function
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 map_name.emplace(key, element)
 
 ```
@@ -20,7 +20,7 @@ map_name.emplace(key, element)
 
 **返回值:**函数不返回任何内容。
 
-```
+```cpp
 // C++ program for the illustration of
 // map::emplace() function
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The map is : 
 KEY    ELEMENT
 1    40

@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-异常处理-问题-5/](https://www.geeksforgeeks.org/c-exception-handling-question-5/)
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -27,27 +27,27 @@ int main()
 
 **(甲)**
 
-```
+```cpp
 default exception
 After Exception
 ```
 
 **(B)**
 
-```
+```cpp
 int exception
 After Exception
 ```
 
 **(C)**
 
-```
+```cpp
 int exception
 ```
 
 **(D)**
 
-```
+```cpp
 default exception
 ```
 

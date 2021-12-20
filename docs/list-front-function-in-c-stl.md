@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 list_name.front() 
 
 ```
@@ -19,7 +19,7 @@ list_name.front()
 
 下面的程序说明了 list::front()函数。
 
-```
+```cpp
 // CPP program to illustrate the
 // list::front() function
 #include <bits/stdc++.h>
@@ -48,7 +48,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 
 ```

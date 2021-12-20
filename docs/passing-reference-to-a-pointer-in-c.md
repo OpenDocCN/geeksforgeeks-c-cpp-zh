@@ -16,7 +16,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -48,7 +48,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Passing Pointer to function:
 Before :23
 After :23
@@ -61,7 +61,7 @@ After :23
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -93,7 +93,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Passing a pointer to a pointer to function 
 Before :23
 After :42
@@ -106,7 +106,7 @@ After :42
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 
 using namespace std;

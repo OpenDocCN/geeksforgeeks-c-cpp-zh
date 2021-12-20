@@ -10,7 +10,7 @@
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // use of an array within a structure
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Roll number : 1
 Grade : A
 Marks secured:
@@ -77,7 +77,7 @@ Subject 4 : 78.50
 
 ## C
 
-```
+```cpp
 // C program to demonstrate the
 // usage of an array of structures
 #include <stdio.h>
@@ -127,7 +127,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Roll number : 1
 Grade : A
 Average marks : 89.50

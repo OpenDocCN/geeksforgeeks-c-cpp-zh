@@ -4,7 +4,7 @@
 
 给定三个整数 a、b 和 c，其中 c 可以是 0 或 1。在不使用任何算术运算的情况下，关系运算符和条件运算符根据以下规则设置变量 x 的值–
 
-```
+```cpp
 If c = 0
     x = a
 Else // Note c is binary
@@ -14,7 +14,7 @@ Else // Note c is binary
 
 示例:
 
-```
+```cpp
 Input: a = 5, b = 10, c = 0;
 Output: x = 5
 
@@ -26,7 +26,7 @@ Output: x = 10
 **解决方案 1:** 使用算术运算符
 如果允许我们使用算术运算符，我们可以使用以下任一表达式轻松计算 x–
 
-```
+```cpp
 x = ((1 - c) * a) + (c * b)
 
 OR
@@ -39,7 +39,7 @@ x = (a * !c) | (b * c);
 
 ```
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -61,7 +61,7 @@ int main()
 
 输出:
 
-```
+```cpp
 5
 
 ```
@@ -69,7 +69,7 @@ int main()
 **解 2:** 不使用算术运算符
 的思想是构造一个大小为 2 的数组，这样数组的索引 0 存储变量‘a’的值，索引 1 存储变量 b 的值。现在我们根据变量 c 的值在数组的索引 0 或索引 1 返回值
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 
 ```

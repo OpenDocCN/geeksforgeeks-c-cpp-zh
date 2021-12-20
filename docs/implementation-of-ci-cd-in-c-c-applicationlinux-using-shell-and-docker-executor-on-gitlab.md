@@ -56,43 +56,43 @@
 
 **1。使用以下命令在 Linux 机器上下载 gitrab Runner**
 
-```
+```cpp
 sudo curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
 ```
 
 **2。使用以下命令授予它执行**的权限
 
-```
+```cpp
 sudo chmod +x /usr/local/bin/gitlab-runner
 ```
 
 **3。使用以下命令创建一个 GitLab CI**
 
-```
+```cpp
 sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 ```
 
 **4。使用以下命令安装并作为服务运行**
 
-```
+```cpp
 sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
 ```
 
 **5。使用以下命令启动 gitrab Runner**
 
-```
+```cpp
 sudo gitlab-runner start
 ```
 
 **6。注册存储库前停止 gitlb Runner**
 
-```
+```cpp
 sudo gitlab-runner stop
 ```
 
 **7。一旦 GitLab Runner 成功停止**在终端输入以下命令进行存储库注册。
 
-```
+```cpp
 sudo gitlab-runner register
 ```
 
@@ -107,7 +107,7 @@ sudo gitlab-runner register
 
 **9。**注册成功后，使用以下命令启动 GitLab Runner。
 
-```
+```cpp
 sudo gitlab-runner start
 ```
 
@@ -146,7 +146,7 @@ sudo gitlab-runner start
 
 以下是的内容。外壳执行器模式下的 gitlab-ci.yml。但是，如果需要，可以更改它。
 
-```
+```cpp
 stages:
  - build
  - test
@@ -189,7 +189,7 @@ test_job:
 
 以下是的内容。docker 执行器模式下的 gitlab-ci.yml。但是，如果需要，可以更改它。
 
-```
+```cpp
 image: ubuntu:latest
 
 stages:

@@ -9,7 +9,7 @@ C 中常规标签有功能范围。其中作为本地标签的范围可以是内
 
 当标签在宏中并且宏在函数中被展开多次时，标签可以在函数中出现多次。例如，如果宏 funcMacro()的定义涉及块内的跳转指令(goto 语句)，并且 funcMacro 被函数 foo()多次使用。
 
-```
+```cpp
 #define funcMacro(params …)
 do {                                                    \
         if (cond == true)                               \
@@ -34,7 +34,7 @@ Void foo()
 
 使用本地标签可以避免上述问题。本地标签声明如下:
 
-```
+```cpp
      __label__ label; 
 ```
 
@@ -42,7 +42,7 @@ Void foo()
 
 下面是一个宏被多次展开的 C 例子。由于本地标签具有块范围，并且宏的每次扩展都会导致一个新的 do while 块，因此程序编译和运行良好。
 
-```
+```cpp
 #include <stdio.h>
 #include <string.h>
 
@@ -80,7 +80,7 @@ int main()
 
 输出:
 
-```
+```cpp
 string is empty
 string  = geeksForgeeks
 ```

@@ -9,26 +9,26 @@
 *   这是 GNU C 编译器的用例范围扩展，而不是标准的 C 或 C++
 *   您可以在单个案例标签中指定连续值的范围，如下所示:
 
-```
+```cpp
 case low ... high:
 ```
 
 *   它可以用于 ASCII 字符代码的范围，如下所示:
 
-```
+```cpp
  case 'A' ... 'Z':
 ```
 
 *   你需要在省略号 **…** 周围写空格。例如，写下以下内容:
 
-```
+```cpp
 // Correct  -   case 1 ... 5:
 // Wrong -    case 1...5: 
 ```
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // using range in switch case
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to illustrate
 // using range in switch case
 #include <stdio.h>
@@ -89,7 +89,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 in range 1 to 6
 5 in range 1 to 6
 15 not in range

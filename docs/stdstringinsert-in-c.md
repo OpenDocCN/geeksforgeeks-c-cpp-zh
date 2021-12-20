@@ -6,7 +6,7 @@
 
 **语法 1:** 从索引 idx 开始插入字符串的字符。
 
-```
+```cpp
 string& string::insert (size_type idx, const string& str)
 idx :is the index number
 str : is the string from which characters is to be picked to insert 
@@ -17,7 +17,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 ```
 
-```
+```cpp
 // CPP code for insert (size_type idx, const string& str)
 
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : Hello World! 
 Using insert : Hello GeeksforGeeks World! 
 
@@ -59,7 +59,7 @@ Using insert : Hello GeeksforGeeks World!
 
 **语法 2:** 最多插入 str 的 str_num 个字符，从索引 str_idx 开始。
 
-```
+```cpp
 string& string::insert (size_type idx, const string& str, size_type str_idx,
                                                            size_type str_num)
 idx : is the index number where insertion is to be made.
@@ -74,7 +74,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 ```
 
-```
+```cpp
 // CPP code for insert (size_type idx, const string& str, 
 // size_type str_idx, size_type str_num)
 
@@ -109,7 +109,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : Hello World! 
 Using insert : Hello Geeks World! 
 
@@ -117,7 +117,7 @@ Using insert : Hello Geeks World!
 
 **语法 3:** 插入 C 字符串 cstr 的字符，使新字符以索引 idx 开始。
 
-```
+```cpp
 string& string::insert (size_ type idx, const char* cstr)
 idx : is the index number where insertion is to be made.
 *cstr : is the pointer to the C-string which is to be inserted.
@@ -130,7 +130,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 **注意:** cstr 不能是空指针(空)。
 
-```
+```cpp
 // CPP code for insert(size_ type idx, const char* cstr)
 
 #include <iostream>
@@ -162,7 +162,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks 
 Using insert : Geeks are forGeeks 
 
@@ -170,7 +170,7 @@ Using insert : Geeks are forGeeks
 
 **语法 4:** 插入字符数组字符的 chars_len 字符，使新字符以索引 idx 开始。
 
-```
+```cpp
 string& string::insert (size_type idx, const char* chars, size_type chars_len)
 idx : index number where insertion is to be made.
 *chars : is the pointer to the array.
@@ -184,7 +184,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 **注意**:字符必须至少有 chars_len 个字符。
 
-```
+```cpp
 // CPP code for insert (size_type idx, const char* chars, 
 // size_type chars_len)
 
@@ -218,7 +218,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : GeeksforGeeks 
 Using insert : Geeks are here forGeeks 
 
@@ -226,7 +226,7 @@ Using insert : Geeks are here forGeeks
 
 **语法 5:** 在 idx 指定的位置插入字符 c 的出现次数。
 
-```
+```cpp
 string& string ::insert (size_type idx, size_type num, char c)
 idx : is the index number where insertion is to be made.
 c : is the character to be inserted.
@@ -237,7 +237,7 @@ Throw out_of_range if idx > size().
 Throw length_error if the resulting size exceeds the maximum number of characters.
 ```
 
-```
+```cpp
 // CPP code for :insert (size_type idx, size_type num, char c)
 
 #include <iostream>
@@ -270,7 +270,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : **********
 Using insert : *****$$$*****
 
@@ -278,7 +278,7 @@ Using insert : *****$$$*****
 
 **语法 6:** 在迭代器位置指定的位置插入字符 c 的出现次数。
 
-```
+```cpp
 void string ::insert (iterator pos, size_type num, char c)
 pos : is the position of iterator.
 c : is the character which is to be inserted.
@@ -289,7 +289,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 ```
 
-```
+```cpp
 // CPP code for :insert (iterator pos, size_type num, char c)
 #include <iostream>
 #include <string>
@@ -321,7 +321,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : **********
 Using insert : *****$$$*****
 
@@ -329,7 +329,7 @@ Using insert : *****$$$*****
 
 **语法 7:** 在迭代器 pos 引用的字符之前插入字符 c 的副本。
 
-```
+```cpp
 iterator string ::insert (iterator pos, char c )
 pos : is the position of iterator.
 c : is the character which is to be inserted.
@@ -339,7 +339,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 ```
 
-```
+```cpp
 // CPP code for :insert (iterator pos, char c )
 #include <iostream>
 #include <string>
@@ -374,7 +374,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : **********
 Using insert : *****$*****
 Value at Iterator returned : $
@@ -383,7 +383,7 @@ Value at Iterator returned : $
 
 **语法 8:** 在迭代器 pos 引用的字符之前插入范围[ beg，end 的所有字符。
 
-```
+```cpp
 void string ::insert (iterator pos, InputIterator beg, InputIterator end )
 pos : is the iterator position.
 beg, end : Input iterators to the initial and final positions in a sequence.
@@ -392,7 +392,7 @@ Throws length_error if the resulting size exceeds the maximum number of characte
 
 ```
 
-```
+```cpp
 // CPP code for insertinsert (iterator pos, InputIterator beg,
 // InputIterator end )
 
@@ -427,7 +427,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original String : Hello World! 
 Using insert : Hello forWorld! 
 

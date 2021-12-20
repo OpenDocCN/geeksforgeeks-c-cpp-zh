@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 scalbln (x, n)
 ```
 
@@ -23,7 +23,7 @@ scalbln (x, n)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // scalbln() function
 #include <bits/stdc++.h>
@@ -43,14 +43,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 2.12 * 2^0 = 2.12
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // scalbln() function
 #include <bits/stdc++.h>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 19.8 * 2^9999999 = inf
 
 ```

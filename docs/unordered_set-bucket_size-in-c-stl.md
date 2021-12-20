@@ -7,7 +7,7 @@
 **注**:无序 _ 集合中的桶从 0 到 n-1 编号，其中 n 为桶的总数。
 **语法**:
 
-```
+```cpp
 *unordered_set*.bucket_size(n);
 
 ```
@@ -19,7 +19,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::bucket_size() function
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 sampleSet has 7 buckets
 Bucket number 3 contains 1 elements
 
@@ -65,7 +65,7 @@ Bucket number 3 contains 1 elements
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate the
 // unordered_set::bucket_size() function
 
@@ -103,7 +103,7 @@ int main()
 
 **输出**:
 
-```
+```cpp
 sampleSet has 7 buckets
 Bucket number 0 contains 0 elements 
 ```

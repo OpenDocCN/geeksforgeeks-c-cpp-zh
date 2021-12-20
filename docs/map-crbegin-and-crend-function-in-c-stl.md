@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     map_name.crbegin()
 
     ```
@@ -15,7 +15,7 @@
 
     **返回值:**函数返回一个常量反向迭代器，引用映射容器中的最后一个元素。
 
-    ```
+    ```cpp
     // C++ program to illustrate
     // map::crbegin() function
     #include <bits/stdc++.h>
@@ -51,7 +51,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The last element is {5, 50}
 
     The map in reverse order is: 

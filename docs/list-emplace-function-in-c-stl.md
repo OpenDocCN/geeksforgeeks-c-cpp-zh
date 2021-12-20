@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 list_name.emplace(position, element)
 ```
 
@@ -21,7 +21,7 @@ list_name.emplace(position, element)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // list::emplace() function
 #include <bits/stdc++.h>
@@ -47,14 +47,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 List: 1 2 5 6 7 8 9 10
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // list::emplace() function
 #include <bits/stdc++.h>
@@ -82,7 +82,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 List: (3, b) (4, a)
 
 ```

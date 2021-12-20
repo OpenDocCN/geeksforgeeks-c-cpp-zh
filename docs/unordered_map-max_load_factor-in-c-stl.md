@@ -19,7 +19,7 @@ C++ STL 中的**无序 _map::max_load_factor** 是一个内置函数，用于获
 
 **例 1**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_bucket_count function
 #include <bits/stdc++.h>
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current size is :  6
 Current load factor is : 0.857143
 Current Max load factor is 1
@@ -66,7 +66,7 @@ Current Max load factor is 2.5
 
 **例 2**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_bucket_count function
 #include <bits/stdc++.h>
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Current size is :  4
  Current load factor is : 0.571429
  Current Max load factor is 1

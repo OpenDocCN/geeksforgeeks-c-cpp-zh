@@ -6,7 +6,7 @@ C++ STL 的**STD::is _ 多态模板**用于检查类型是否为多态类类型�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_polymorphic;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_polymorphic;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_polymorphic template
 
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_polymorphic:
 gfg:true
 geeks:true
@@ -79,7 +79,7 @@ sam:true
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_polymorphic template
 
@@ -119,7 +119,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_polymorphic:
 gfg:false
 sam:true

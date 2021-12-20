@@ -7,7 +7,7 @@
 
 **模板:**
 
-```
+```cpp
 void iota (ForwardIterator first, ForwardIterator last, T val);
 
 Parameters :
@@ -27,7 +27,7 @@ None
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // std :: iota
 #include <iostream> // std::cout
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Elements are : 100 101 102 103 104 105 106 107 108 109
 ```
 
@@ -62,7 +62,7 @@ Elements are : 100 101 102 103 104 105 106 107 108 109
 
 ## C++
 
-```
+```cpp
 // C++ program to generate
 // a sequence of numbers using std :: iota
 #include <iostream> // std::cout
@@ -88,7 +88,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Elements are : 10 11 12 13 14 15 16 17 18 19 20
 ```
 

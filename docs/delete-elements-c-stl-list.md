@@ -9,7 +9,7 @@
 1.  **Using list::erase()**: The purpose of this function is to remove the elements from list. Single or multiple contiguous elements in range can be removed using this function. This function takes 2 arguments, start iterator and end iterator.
     **Time complexity :** O(n) where (n is size of list).
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of erase()
 
     #include<iostream>
@@ -68,7 +68,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The original list is : 10 15 20 25 30 35 
     The list after deleting 1 element using erase() : 10 15 25 30 35 
     The list after deleting multiple elements using erase() : 10 15 35 
@@ -81,7 +81,7 @@
     *   **pop_front()** :此功能**从列表中移除第一个元素**，并移动后续元素。这会将列表的大小减少 1。
         时间复杂度:O(1)
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of pop_front()
     // and pop_back()
 
@@ -128,7 +128,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The original list is : 10 15 20 25 30 35 
     The list after deleting first element using pop_front() : 15 20 25 30 35 
     The list after deleting last element using pop_back() : 15 20 25 30 
@@ -141,7 +141,7 @@
     *   **remove_if()** :该函数**删除**出现的**值，该值返回“真”给在其参数中传递的函数**。
         时间复杂度: **O(n)**
 
-    ```
+    ```cpp
     // C++ code to demonstrate the working of remove()
     // remove_if()
 
@@ -189,7 +189,7 @@
 
     输出:
 
-    ```
+    ```cpp
     The original list is : 10 14 20 22 30 33 22 
     The list after deleting all 22 occurrences : 10 14 20 30 33 
     The list after deleting all multiples of 5 : 14 33 

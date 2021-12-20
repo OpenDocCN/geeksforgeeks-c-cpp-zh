@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_set1 != unordered_set2 
 ```
 
@@ -24,7 +24,7 @@ unordered_set1 != unordered_set2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_set operator!=
 
@@ -60,7 +60,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 a and b are equal
 a and c are not equal
 ```

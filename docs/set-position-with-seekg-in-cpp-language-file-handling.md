@@ -4,7 +4,7 @@
 
 seekg()是 iostream 库中的一个函数(标准库的一部分)，它允许您查找文件中的任意位置。它在文件处理中用于设置要从给定文件的输入流中提取的下一个字符的位置。例如:
 
-```
+```cpp
 Input : "Hello World" 
 Output : World
 
@@ -31,7 +31,7 @@ Output : World
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Code to demonstrate the seekg function in file handling
 #include <fstream>
 #include <iostream>
@@ -67,7 +67,7 @@ int main (int argc, char** argv)
 
 **输出–**
 
-```
+```cpp
 World
 
 ```

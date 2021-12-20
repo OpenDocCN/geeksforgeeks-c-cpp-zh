@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: 3
 Output: 15
 For N = 3, we know that the factorial of 3 is 6
@@ -30,7 +30,7 @@ Nth term = 620*(6+2)/2
 
 ## C++
 
-```
+```cpp
 // CPP program to find N-th term of the series:
 // 1, 4, 15, 72, 420…
 #include <iostream>
@@ -67,7 +67,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find N-th
 // term of the series:
 // 1, 4, 15, 72, 420
@@ -110,7 +110,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python 3 program to find
 # N-th term of the series:
 # 1, 4, 15, 72, 420…
@@ -146,7 +146,7 @@ if __name__ == "__main__" :
 
 ## C#
 
-```
+```cpp
 // C# program to find N-th
 // term of the series:
 // 1, 4, 15, 72, 420
@@ -187,7 +187,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find
 // N-th term of the series:
@@ -228,7 +228,7 @@ echo nthTerm($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to find N-th term of the series:
@@ -263,7 +263,7 @@ function nthTerm(N)
 
 **Output:** 
 
-```
+```cpp
 2880
 ```
 
@@ -271,7 +271,7 @@ function nthTerm(N)
 
 ## C++
 
-```
+```cpp
 // CPP program to find N-th term of the series:
 // 1, 4, 15, 72, 420…
 // Using recursion
@@ -308,7 +308,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find N-th
 // term of the series:
 // 1, 4, 15, 72, 420
@@ -347,7 +347,7 @@ public static void main(String args[])
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find
 # N-th term of the series:
 # 1, 4, 15, 72, 420…
@@ -379,7 +379,7 @@ print(nthTerm(N))
 
 ## C#
 
-```
+```cpp
 // C# program to find N-th
 // term of the series:
 // 1, 4, 15, 72, 420
@@ -418,7 +418,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find
 // N-th term of the series:
@@ -455,7 +455,7 @@ echo nthTerm($N);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find N-th
@@ -492,7 +492,7 @@ document.write(nthTerm(N));
 
 **Output:** 
 
-```
+```cpp
 2880
 ```
 

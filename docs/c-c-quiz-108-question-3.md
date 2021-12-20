@@ -4,7 +4,7 @@
 
 下列任何一项都可以用来声明单链表的节点和“NODEPTR nodePtr”可用于声明指向节点的指针
 
-```
+```cpp
 /* First declaration */
 typedef struct node
 {

@@ -20,7 +20,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate swapping
 // of two vectors using std::swap()
 
@@ -56,7 +56,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Vector v1 = 4 5 6 
 Vector v2 = 1 2 3
 ```
@@ -65,7 +65,7 @@ Vector v2 = 1 2 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate swapping
 // of two vectors using std::vector::swap()
 
@@ -99,7 +99,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Vector v1 = 4 5 6 
 Vector v2 = 1 2 3
 ```

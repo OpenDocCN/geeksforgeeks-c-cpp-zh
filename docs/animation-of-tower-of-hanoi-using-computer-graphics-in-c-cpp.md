@@ -37,7 +37,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <conio.h>
 #include <graphics.h>

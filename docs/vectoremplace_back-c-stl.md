@@ -9,7 +9,7 @@
 这个函数用来在向量容器中插入一个新元素，新元素被添加到向量的末尾。
 **语法:**
 
-```
+```cpp
 *vectorname*.emplace_back(*value*)
 Parameters :
 The element to be inserted into the vector
@@ -22,7 +22,7 @@ vector at the end position.
 
 **示例:**
 
-```
+```cpp
 Input: myvector{1, 2, 3, 4, 5};
          myvector.emplace_back(6);
 Output: myvector = 1, 2, 3, 4, 5, 6
@@ -40,7 +40,7 @@ Output: myvector = 4
 
 **例 1:**
 
-```
+```cpp
 // INTEGER VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -70,14 +70,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5 6
 
 ```
 
 **例 2:**
 
-```
+```cpp
 // STRING VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -109,14 +109,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 This is a computer science portal
 
 ```
 
 **例 3:**
 
-```
+```cpp
 // CHARACTER VECTOR EXAMPLE
 // CPP program to illustrate
 // Implementation of emplace() function
@@ -145,7 +145,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a, c, x, y, z
 
 ```
@@ -155,7 +155,7 @@ a, c, x, y, z
 **应用:**
 给定一个空向量，使用 retain _ back 函数向其添加整数，然后计算其大小。
 
-```
+```cpp
 Input  : 1, 2, 3, 4, 5, 6
 Output : 6
 ```
@@ -167,7 +167,7 @@ Output : 6
 3.  重复此步骤，直到向量的大小变为 0。
 4.  打印变量的最终值。
 
-```
+```cpp
 // CPP program to illustrate
 // Application of emplace_back function
 #include <iostream>
@@ -195,7 +195,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 6
 ```
 
@@ -206,7 +206,7 @@ int main()
 
 详见 C++ STL 中[定位与插入。](https://www.geeksforgeeks.org/emplace-vs-insert-c-stl/)
 
-```
+```cpp
 // C++ code to demonstrate difference between
 // emplace_back and insert_back
 #include<bits/stdc++.h>
@@ -237,7 +237,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a 24
 b 25
 

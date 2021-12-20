@@ -6,7 +6,7 @@ rename()函数用于更改文件或目录的名称，即从 **old_name** 更改�
 如果 **new_name** 是同一文件夹中现有文件的名称，则该功能可能会失败或覆盖现有文件，具体取决于具体的系统和库实现。
 **语法:**
 
-```
+```cpp
 int rename (const char *old_name, const char *new_name);
 
 Parameters:
@@ -22,7 +22,7 @@ new_name : String containing new name of the file.
 
 ![](img/f943dc3cbdf245f238943cadf111943b.png)
 
-```
+```cpp
 // C program to demonstrate use of rename()
 #include<stdio.h>
 
@@ -53,7 +53,7 @@ int main()
 
 输出:
 
-```
+```cpp
 If file name changed
 File name changed successfully
             OR

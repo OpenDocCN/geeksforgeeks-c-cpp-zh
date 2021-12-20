@@ -6,7 +6,7 @@
 
 **1)**switch 语句的事例标签可以出现在 if-else 语句内部。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -32,14 +32,14 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksforGeeks
 ```
 
 **2)** arr[index]与 index[arr]
 相同，其工作原理是，使用指针算法访问数组元素。
 
-```
+```cpp
 // C program to demonstrate that arr[0] and
 // 0[arr]
 #include<stdio.h>
@@ -55,13 +55,13 @@ int main() 
 
 输出:
 
-```
+```cpp
 1
 ```
 
 **3)** 我们可以用“<:，:>”代替“[，]”和“< %，% >”代替“{，}”
 
-```
+```cpp
 #include<stdio.h>
 int main()
 <%
@@ -75,14 +75,14 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```
 
 **4)** 在陌生地方使用#include。
 让“a.txt”包含(“geeks forgeeks”)；
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -94,13 +94,13 @@ int main()
 
 输出:
 
-```
+```cpp
 GeeksforGeeks
 ```
 
 **5)** 我们可以通过在格式说明符“%”后使用“*”来忽略 scanf()中的输入
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

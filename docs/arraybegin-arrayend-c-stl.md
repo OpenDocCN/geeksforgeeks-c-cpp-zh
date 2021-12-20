@@ -9,7 +9,7 @@
 begin()函数用于返回指向数组容器第一个元素的迭代器。begin()函数**返回一个双向迭代器**到容器的第一个元素。
 **语法:**
 
-```
+```cpp
 ***arrayname.begin()***
 Parameters :
 No parameters are passed.
@@ -21,7 +21,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : myarray{1, 2, 3, 4, 5};
 Output : *returns an iterator to the element 1*
 
@@ -35,7 +35,7 @@ Output : *returns an iterator to the element 8*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of begin() function
 #include <array>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 ```
 
@@ -67,7 +67,7 @@ int main()
 end()返回指向数组容器中结束元素的迭代器。
 **语法:**
 
-```
+```cpp
 ***arrayname.end()***
 Parameters :
 No parameters are passed.
@@ -79,7 +79,7 @@ iterator pointing to the past-the-end element.
 
 示例:
 
-```
+```cpp
 Input  : myarray{1, 2, 3, 4, 5};
 Output : *returns an iterator to the element next to 5 i.e,. some garbage value*
 
@@ -93,7 +93,7 @@ Output : *returns an iterator to the element* next to *7* i.e,. some garbage val
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of end() function
 #include <array>
@@ -118,7 +118,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 myarray.end(): 0 [some garbage value]
 ```

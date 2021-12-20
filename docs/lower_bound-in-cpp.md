@@ -20,7 +20,7 @@ C++中的**下界()**方法用于返回一个迭代器，该迭代器指向范�
 **返回值:**范围内 val 下限的迭代器。如果范围内的所有元素都小于 val，则函数返回最后一个。如果该范围内的所有元素都大于 val，函数将返回指向第一个元素的指针。
 **例:**
 
-```
+```cpp
 Input: 10 20 30 40 50
 Output: lower_bound for element 30 at index 2
 
@@ -37,7 +37,7 @@ Output: lower_bound for element 30 at index 2
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: lower_bound
 #include <bits/stdc++.h>
@@ -78,7 +78,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Vector contains : 10 20 30 30 30 40 50
 
 lower_bound for element 30 at position : 2

@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 Class DerivedClass_name : access_specifier Base_Class
 {
     //Class's Body 
@@ -18,7 +18,7 @@ Class DerivedClass_name : access_specifier Base_Class
 
 **单一继承示例:**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class A {
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Salary: 80000
 Bonus: 8000
 total salary..88000 
@@ -61,7 +61,7 @@ total salary..88000
 
 **语法:**
 
-```
+```cpp
 Class DerivedClass_name : access_specifier Base_Class1, access_specifier Base_Class2
 {
     //Class's Body 
@@ -70,7 +70,7 @@ Class DerivedClass_name : access_specifier Base_Class1, access_specifier Base_Cl
 
 **多重继承示例:**
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 class A {
@@ -100,7 +100,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Total salary..88000 
 ```
 

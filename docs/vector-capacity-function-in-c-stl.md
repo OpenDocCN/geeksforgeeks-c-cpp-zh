@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 vector_name.capacity()
 ```
 
@@ -18,7 +18,7 @@ vector_name.capacity()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::capacity() function
 #include <bits/stdc++.h>
@@ -41,7 +41,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of vector is 10
 The maximum capacity is 16
 
@@ -49,7 +49,7 @@ The maximum capacity is 16
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // vector::capacity() function
 #include <bits/stdc++.h>
@@ -72,7 +72,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The size of vector is 100
 The maximum capacity is 128
 

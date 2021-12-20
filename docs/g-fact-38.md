@@ -6,7 +6,7 @@
 
 例如，考虑下面的类*数组*和重载赋值运算符函数，无需自我赋值检查。
 
-```
+```cpp
 // A sample class
 class Array {
  private:
@@ -38,7 +38,7 @@ Array& Array::operator = (const Array &rhs)
 
 *如果我们有一个对象，比如说数组类型的 *a1* ，如果我们有一条类似 *a1 = a1* 的线，程序会导致不可预测的行为，因为在上面的代码中没有自我赋值检查。为了避免上述问题，重载赋值运算符时必须进行自我赋值检查。例如，下面的代码执行自我赋值检查。*
 
-```
+```cpp
 // Overloaded assignment operator for class Array (with self 
 // assignment check)
 Array& Array::operator = (const Array &rhs)

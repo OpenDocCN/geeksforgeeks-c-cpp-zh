@@ -10,7 +10,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // boilerplate code
 #include <iostream>

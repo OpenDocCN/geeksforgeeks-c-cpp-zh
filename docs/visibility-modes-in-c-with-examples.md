@@ -4,7 +4,7 @@
 
 当一个**基类**借助[继承](https://www.geeksforgeeks.org/inheritance-in-c/)由一个**派生类**派生时，派生类对基类的可访问性由可见性模式控制。派生类不继承对私有数据成员的访问。但是，它确实继承了一个完整的父对象，该对象包含该类声明的任何私有成员。
 
-```
+```cpp
 // C++ implementation to show
 // Visibility modes
 
@@ -50,7 +50,7 @@ int main()
 
 **编译错误:**
 
-```
+```cpp
 prog.cpp: In function 'int main()':
 prog.cpp:14:6: error: 'int A::y' is protected
   int y;
@@ -81,7 +81,7 @@ prog.cpp:37:12: error: within this context
 
 1.  **Public Visibility mode:** If we derive a subclass from a public base class. Then the public member of the base class will become public in the derived class and protected members of the base class will become protected in the derived class.
 
-    ```
+    ```cpp
     // C++ implementation to show
     // Public Visibility mode
 
@@ -129,7 +129,7 @@ prog.cpp:37:12: error: within this context
 
     **编译错误:**
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:14:9: error: 'int A::y' is protected
          int y;
@@ -148,7 +148,7 @@ prog.cpp:37:12: error: within this context
 
 2.  **Protected Visibility mode:** If we derive a subclass from a Protected base class. Then both public member and protected members of the base class will become protected in the derived class.
 
-    ```
+    ```cpp
     // C++ implementation to show
     // Protected Visibility mode
 
@@ -196,7 +196,7 @@ prog.cpp:37:12: error: within this context
 
     **编译错误:**
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:11:9: error: 'int A::x' is inaccessible
          int x;
@@ -221,7 +221,7 @@ prog.cpp:37:12: error: within this context
 
 3.  **Private Visibility mode:** If we derive a subclass from a Private base class. Then both public member and protected members of the base class will become Private in the derived class.
 
-    ```
+    ```cpp
     // C++ implementation to show
     // Private Visibility mode
 
@@ -269,7 +269,7 @@ prog.cpp:37:12: error: within this context
 
     **编译错误:**
 
-    ```
+    ```cpp
     prog.cpp: In function 'int main()':
     prog.cpp:11:9: error: 'int A::x' is inaccessible
          int x;
@@ -298,7 +298,7 @@ prog.cpp:37:12: error: within this context
 
 **语法:**
 
-```
+```cpp
 <visibility_mode>:
     using base::<member>;
 
@@ -306,7 +306,7 @@ prog.cpp:37:12: error: within this context
 
 **例如:**
 
-```
+```cpp
 // inorder to change the visibility of x to public
 <public>:
     using base::<x>;
@@ -315,7 +315,7 @@ prog.cpp:37:12: error: within this context
 
 **示例:**考虑包含公共成员“a”、受保护成员“b”和“c”、私有成员“d”和“e”的基类。下面的程序解释了如何将“b”的可见性从受保护更改为公开。
 
-```
+```cpp
 // C++ implementation to show how to
 // change the Visibility modes
 
@@ -370,7 +370,7 @@ int main()
 
 **编译错误:**
 
-```
+```cpp
 prog.cpp: In function 'int main()':
 prog.cpp:22:9: error: 'int BaseClass::d' is private
      int d;

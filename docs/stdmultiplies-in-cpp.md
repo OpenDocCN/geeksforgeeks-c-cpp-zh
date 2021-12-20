@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 template  struct multiplies : binary_function  
 {
     T operator() (const T& x, const T& y) const {return x*y;}
@@ -25,7 +25,7 @@ result_type : Type returned by member operator()
 
 **例:**
 
-```
+```cpp
 // C++ program to illustrate std::multiplies
 // by multiplying the respective elements of 2 arrays
 #include <iostream> // std::cout
@@ -56,14 +56,14 @@ int main()
 
 输出:
 
-```
+```cpp
 10 40 90 160 250 
 
 ```
 
 **另一个例子:**
 
-```
+```cpp
 // C++ program to illustrate std::multiplies
 // by multiplying all array elements with a number
 #include <bits/stdc++.h>
@@ -95,7 +95,7 @@ int main()
 
 输出:
 
-```
+```cpp
 60000
 
 ```

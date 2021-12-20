@@ -4,7 +4,7 @@
 
 考虑以下三个 C 函数:
 
-```
+```cpp
 [PI] int * g (void) 
 { 
   int x= 10; 

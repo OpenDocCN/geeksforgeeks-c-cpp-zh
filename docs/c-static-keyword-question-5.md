@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-static-keyword-question-5/](https://www.geeksforgeeks.org/c-static-keyword-question-5/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 

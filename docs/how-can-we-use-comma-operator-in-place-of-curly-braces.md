@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```cpp
 // C++ program to show how to use
 // comma in place of curly braces
 // for if-else statements
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 It shows how we can use comma operator in place of curly braces.
 Entered number is less than 10
 end of if block is encountered
@@ -71,7 +71,7 @@ End of else is encountered
 
 **示例:**
 
-```
+```cpp
 // C++ program to show how to use
 // comma in place of curly braces
 // for loops
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 It shows how we can use comma operator in place of curly braces.
 Loop traversal number: 0
 

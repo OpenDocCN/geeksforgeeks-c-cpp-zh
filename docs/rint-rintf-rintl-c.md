@@ -6,7 +6,7 @@
 
 rint()用于将浮点参数舍入为整数值(浮点格式)。您也可以使用函数 **fesetround()** 来确定当前的舍入模式，根据该函数，rint 函数返回舍入的整数值。
 
-```
+```cpp
 Syntax
 double rint(double x);
 float rint(float x);
@@ -30,7 +30,7 @@ specified by fegetround() and returns the value.
 
 **示例:**
 
-```
+```cpp
 Input : 3.3
 Output : 3
 
@@ -42,7 +42,7 @@ Output : 4
 
 ```
 
-```
+```cpp
 // CPP program to illustrate rint()
 #include <cmath>
 #include <iostream>
@@ -66,7 +66,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 4
 
@@ -77,7 +77,7 @@ int main()
 默认情况下，舍入方向设置为最接近的整数。但是使用 fesetround()函数，我们可以确定我们选择的方向。
 **语法:**
 
-```
+```cpp
 fesetround(FE_DOWNWARD)
 fesetround(FE_UPWARD)
 Header file : cfenv
@@ -88,7 +88,7 @@ Header file : cfenv
 *   如果 rint()函数与参数 3.7 一起使用，并且还使用了 fesetround(FE _ download)，则输出将是 3
 *   如果 rint()函数与参数 3.3 一起使用，并且还使用了 FeS etround(FE _ UPDATE)，则输出将是 4
 
-```
+```cpp
 // CPP program to illustrate rint()
 // with fesetround() function
 #include <cfenv>
@@ -118,7 +118,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 4
 
@@ -128,7 +128,7 @@ int main()
 
 rintf()函数与 rint 函数相同。唯一的区别是函数的参数和返回类型是浮点类型。附加在“rintf”后面的“f”字符代表 float，它表示函数的参数类型和返回类型。
 
-```
+```cpp
 Syntax :
 float rintf(float x);
 
@@ -136,7 +136,7 @@ float rintf(float x);
 
 这里，变量被赋予浮点类型，否则*类型不匹配*错误发生。
 
-```
+```cpp
 // CPP program to illustrate rinft()
 #include <cfenv>
 #include <cmath>
@@ -164,7 +164,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 4
 
@@ -174,7 +174,7 @@ int main()
 
 rintl()函数与 rint 函数相同。唯一的区别是函数的参数和返回类型是长双精度类型。“rintl”后面的“l”字符代表长双精度，它表示函数的参数类型和返回类型。
 
-```
+```cpp
 Syntax : 
 long double rintl(long double x);
 
@@ -182,7 +182,7 @@ long double rintl(long double x);
 
 这里，变量被赋予长双类型，否则*类型不匹配*错误发生。
 
-```
+```cpp
 // CPP program to illustrate rinfl()
 
 #include <cfenv>
@@ -213,7 +213,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 4
 

@@ -6,7 +6,7 @@ C/C++中的 **wcscspn()** 函数在给定的宽**字符串 _1** 中搜索第一�
 
 **语法:**
 
-```
+```cpp
 size_t wcscspn( const wchar_t* string_1, const wchar_t* string_2 )
 ```
 
@@ -23,7 +23,7 @@ size_t wcscspn( const wchar_t* string_1, const wchar_t* string_2 )
 以下程序说明了上述功能:
 **程序 1 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcscspn() function
 
@@ -53,7 +53,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Occurrence of a character in ->
  geeksforgeeks012345 is at position : 13
 
@@ -61,7 +61,7 @@ Occurrence of a character in ->
 
 **程序 2 :**
 
-```
+```cpp
 // C++ program to illustrate
 // wcscspn() function
 #include <bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Length of the string -> GFG is : 3
 
 ```

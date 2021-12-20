@@ -8,7 +8,7 @@
 
 类似的行为也可以通过使用 shared_ptr 来实现，而不需要基类析构函数是虚拟的。让我们看看下面的代码:
 
-```
+```cpp
 // Program to show the order of destruction of objects using
 // shared_ptr
 #include <iostream>
@@ -51,7 +51,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructing Base
 Constructing Derived
 Destructing Derived
@@ -65,7 +65,7 @@ Destructing Base
 
 shared_ptr 会记住构造过程中使用的指针类型。例如，
 
-```
+```cpp
 If you say shared_ptr{ new Derived {} },
 then shared_ptr will internally store a Derived*. 
 If you say shared_ptr{ new Base {} }, 
@@ -83,7 +83,7 @@ then it stores a Base*.
 
 考虑以下示例:
 
-```
+```cpp
 // Program to show exception to this behavior while using
 // shared_ptr
 #include <iostream>
@@ -123,7 +123,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructing Base
 Constructing Derived
 Destructing Base

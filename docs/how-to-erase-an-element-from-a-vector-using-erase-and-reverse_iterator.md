@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: vector = {1, 4, 7, 10, 13, 16, 19}, element = 16
 Output: 1 4 7 10 13 19
 
@@ -25,13 +25,13 @@ Output: 99 79 69 59
 
     reverse_iterator 只是一个迭代器适配器，它反转给定迭代器的方向。reverse_iterator 上的所有操作实际上都发生在底层迭代器上。我们可以使用 reverse_iterator::base()函数获取该迭代器。事实上，itr.base()和 itr 之间的关系是:
 
-    ```
+    ```cpp
     &*(reverse_iterator(itr))==&*(itr-1)
     ```
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to delete an element of a vector
 // using erase() and reverse iterator.
 
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Vector originally: 
 1 4 7 10 13 16 19 
 

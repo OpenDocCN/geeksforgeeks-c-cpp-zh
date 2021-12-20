@@ -10,7 +10,7 @@ clear()函数用于移除 set 容器的所有元素，从而使其大小为 0。
 
 **语法:**
 
-```
+```cpp
 *setname*.clear()
 Parameters :
 No parameters are passed.
@@ -21,7 +21,7 @@ removed ( or destroyed )
 
 示例:
 
-```
+```cpp
 Input  : set{1, 2, 3, 4, 5};
          set.clear();
 Output : set{}
@@ -37,7 +37,7 @@ Output : set{}
 1.它有一个无异常抛出保证。
 2。传递参数时显示错误。
 
-```
+```cpp
 // INTEGER SET
 // CPP program to illustrate
 // Implementation of clear() function
@@ -62,12 +62,12 @@ int main()
 
 输出:
 
-```
+```cpp
 *No Output*
 
 ```
 
-```
+```cpp
 // CHARACTER SET
 // CPP program to illustrate
 // Implementation of clear() function
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 *No Output*
 
 ```

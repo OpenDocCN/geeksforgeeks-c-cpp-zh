@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```cpp
 list_name.unique(BinaryPredicate name)
 ```
 
 **参数:**该函数接受一个可选参数，该参数是一个二元谓词，如果元素应该被视为相等，则返回 true。它有以下语法:
 
-```
+```cpp
 bool name(data_type a, data_type b);
 ```
 
@@ -22,7 +22,7 @@ bool name(data_type a, data_type b);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate the
 // unique() function
 #include <bits/stdc++.h>
@@ -69,7 +69,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 List is: 2.55 3.15 4.16 4.77 12.65 13.59 
 List is: 2.55 3.15 4.16 12.65 13.59 
 ```

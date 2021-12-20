@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 void arc(int x, int y, int start_angle,
             int end_angle, int radius);
 
@@ -20,7 +20,7 @@ end_angle is the ending angle.
 
 **示例:**
 
-```
+```cpp
 Input : x=250, y=250, start_angle = 155, end_angle = 300, radius = 100
 Output :
 
@@ -31,7 +31,7 @@ Output :
 
 下面是 arc()函数的实现:
 
-```
+```cpp
 // C implementation of arc function
 #include <graphics.h>
 

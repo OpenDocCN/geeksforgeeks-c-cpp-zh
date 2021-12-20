@@ -11,7 +11,7 @@ replace_copy()是 copy()和 replace()的组合。
 *   范围不得重叠，以至于结果指向范围内的元素[第一个，最后一个]。
 *   该函数使用运算符==将各个元素与 old_value 进行比较。
 
-```
+```cpp
 template <class InputIterator, class OutputIterator, class T>
   OutputIterator replace_copy (InputIterator first, InputIterator last,
                                OutputIterator result,
@@ -27,7 +27,7 @@ range (the first element that is not overwritten).
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP to illustrate
 // replace_copy
 
@@ -74,7 +74,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before replace_copy : A B C D E F G 
 After replace_copy : Z B C D E F G 
 
@@ -88,7 +88,7 @@ replace_copy_if()是 copy()和 replace_if()的组合。
 *   简单来说，它将一个序列的元素复制到另一个相同大小的序列中，用另一个值替换任何满足谓词的元素。
 *   返回目标范围内最后一个复制元素(第一个未被覆盖的元素)之后的位置。
 
-```
+```cpp
 Template <class InputIterator, class OutputIterator, class UnaryPredicate, class T>
   OutputIterator replace_copy_if (InputIterator first, InputIterator last,
                                   OutputIterator result, UnaryPredicate pred,
@@ -105,7 +105,7 @@ element is to be replaced in the copy (if true, it is replaced).
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // replace_copy_if
 #include <iostream>
@@ -161,7 +161,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Before replace_copy_if : 1 2 3 4 5 6 7 8 9 10 
 After replace_copy_if : 1 0 3 0 5 0 7 0 9 0 
 

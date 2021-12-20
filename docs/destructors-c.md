@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 ~constructor-name();
 ```
 
@@ -36,7 +36,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 class String {
 private:
     char* s;

@@ -27,7 +27,7 @@
 
 **语法:**
 
-```
+```cpp
 signal(registered signal, signal handler)
 ```
 
@@ -37,7 +37,7 @@ signal(registered signal, signal handler)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate the signal() function
 #include <csignal>
 #include <iostream>
@@ -65,7 +65,7 @@ int main()
 
 **输出:**在无限循环中，该代码将显示以下输出，直到遇到中断:
 
-```
+```cpp
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...
@@ -74,7 +74,7 @@ Hello GeeksforGeeks...
 
 现在如果我们按 **Ctrl+C** 发送中断，程序将通过打印退出:
 
-```
+```cpp
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...
@@ -88,7 +88,7 @@ raise()函数用于生成信号。
 
 **语法:**
 
-```
+```cpp
 raise( signal )
 ```
 
@@ -98,7 +98,7 @@ raise( signal )
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP Program to demonstrate the raise() function
 #include <csignal>
 #include <iostream>
@@ -130,7 +130,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...
 Hello GeeksforGeeks...

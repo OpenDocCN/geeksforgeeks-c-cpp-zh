@@ -11,7 +11,7 @@ chrono 是一个头的名称，也是一个子命名空间的名称:这个头中
 
 持续时间对象通过一分钟、两小时或十毫秒这样的计数来表示时间跨度。例如，“42 秒”可以由 1 秒时间单位的 42 个刻度组成的持续时间来表示。
 
-```
+```cpp
 // C++ program to illustrate the utility 
 // function duration::count
 #include <iostream> 
@@ -40,7 +40,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 duration (in periods): 60000 milliseconds.
 duration (in seconds): 60 seconds.
 
@@ -60,7 +60,7 @@ duration (in seconds): 60 seconds.
 
 time_point 对象表示相对于时钟周期的时间点。在内部，对象存储持续时间类型的对象，并使用时钟类型作为其纪元的参考。
 
-```
+```cpp
 // C++ program to illustrate time point
 // and system clock functions
 #include <iostream>
@@ -94,7 +94,7 @@ int main()
 
 输出:
 
-```
+```cpp
 f(42) = 267914296
 finished computation at Wed Jan  4 05:13:48 2017
 elapsed time: 2.14538s

@@ -17,7 +17,7 @@
 
 ## C
 
-```
+```cpp
 // C program to implements the above
 // memory game
 #include <conio.h>

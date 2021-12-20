@@ -9,7 +9,7 @@
 1。**使用默认运算符< :**
 语法:
 
-```
+```cpp
 Template :
 OutputIterator set_symmetric_difference (InputIterator1 first1, InputIterator1 last1,
                                          InputIterator2 first2, InputIterator2 last2,
@@ -47,7 +47,7 @@ An iterator to the end of the constructed range.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_symmetric_difference
 #include <algorithm> // std::set_symmetric_difference, std::sort
@@ -96,7 +96,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array contains : 5 10 15 20 25
 Second array contains : 50 40 30 20 10
 
@@ -107,7 +107,7 @@ The symmetric difference has 6 elements:
 2.**使用自定义功能:**
 语法:
 
-```
+```cpp
 Template :
 OutputIterator set_symmetric_difference (InputIterator1 first1, InputIterator1 last1,
                                          InputIterator2 first2, InputIterator2 last2,
@@ -131,7 +131,7 @@ An iterator to the end of the constructed range.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_symmetric_difference
 #include <algorithm> // std::set_symmetric_difference, std::sort
@@ -186,7 +186,7 @@ int main()
 
 输出:
 
-```
+```cpp
 First array contains : 5 10 15 20 25
 Second array contains : 50 40 30 20 10
 
@@ -199,7 +199,7 @@ The symmetric difference has 6 elements:
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // std :: set_symmetric_difference
 #include <bits/stdc++.h>
@@ -243,7 +243,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Students attending first class are : Samir Manoj Pranav Rajesh 
 Students attending second class are : Samir Junaid Manoj Pankaj Arpit 
 

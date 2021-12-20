@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 class comparator_class {
 public:
     // Comparator function
@@ -29,7 +29,7 @@ public:
 
 ## C++
 
-```
+```cpp
 // C++ program for the Comparator Class
 // for implementing linear search
 #include <bits/stdc++.h>
@@ -116,7 +116,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Student found!
 
 ```
@@ -134,7 +134,7 @@ Student found!
 
 ## C++
 
-```
+```cpp
 // C++ program for the Comparator Class
 // implementing sorting
 
@@ -204,7 +204,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Harshit Raj Prerna
 
 ```

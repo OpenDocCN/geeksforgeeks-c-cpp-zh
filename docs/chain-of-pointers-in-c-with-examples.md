@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 // level-1 pointer declaration
 datatype *pointer; 
 
@@ -29,7 +29,7 @@ and so on
 
 **申报:**
 
-```
+```cpp
 int *pointer_1;
 int **pointer_2;
 int ***pointer_3;
@@ -43,7 +43,7 @@ and so on
 
 **初始化:**
 
-```
+```cpp
 // initializing level-1 pointer
 // with address of variable 'var'
 pointer_1 = &var;
@@ -68,7 +68,7 @@ and so on
 
 让我们通过下面给出的代码来更好地理解:
 
-```
+```cpp
 #include <stdio.h>
 // C program for chain of pointer
 
@@ -120,7 +120,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of variable var = 10
 Value of variable var using pointer ptr1 = 10
 Value of variable var using pointer ptr2 = 10
@@ -130,7 +130,7 @@ Value of variable var using pointer ptr3 = 10
 
 **示例 2:** 考虑下面给出的代码，其中我们采用了变量的浮点数据类型，所以现在我们也必须对指针链采用相同的数据类型。作为指针和变量，它所指向的应该具有相同的数据类型。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -166,7 +166,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of var = 23.564327
 Value of var using level-1 pointer = 23.564327
 Value of var using level-2 pointer = 23.564327
@@ -178,7 +178,7 @@ Value of var using level-4 pointer = 23.564327
 **示例 3:使用链式指针**
 更新变量正如我们已经知道的，指针指向变量的地址位置，因此当我们访问指针的值时，它将指向变量的值。现在要更新变量值，我们可以使用任何级别的指针，因为最终每个指针都直接或间接指向该变量。它将直接改变变量地址位置的值。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -229,7 +229,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Before:
 Value of var = 10
 Value of var using level-1 pointer = 10

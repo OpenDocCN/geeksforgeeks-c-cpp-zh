@@ -32,7 +32,7 @@ C 语言中的数据类型是*变量*的声明。数据类型分为:
 
 **<u>数组声明语法:</u>**
 
-```
+```cpp
 *data_type* array_name[array_size];
 ```
 
@@ -41,7 +41,7 @@ C 语言中的数据类型是*变量*的声明。数据类型分为:
 **<u>示例:</u>**
 声明一个可以保存 4 个整数的数组
 
-```
+```cpp
 int arr[4];
 ```
 
@@ -51,7 +51,7 @@ int arr[4];
 
 **<u>阵声明&初始化示例:</u>T3】**
 
-```
+```cpp
 int arr[5] = {10, 20, 30, 40, 50};
 ```
 
@@ -61,7 +61,7 @@ int arr[5] = {10, 20, 30, 40, 50};
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // the usage of arrays
 
@@ -82,7 +82,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Size of array is 20
 Data at index 2 is 30
 ```
@@ -105,7 +105,7 @@ Data at index 2 is 30
 
 **<u>定义结构的语法:</u>**
 
-```
+```cpp
 struct *structure_name*
 {
    datatype *member1_name;*
@@ -117,7 +117,7 @@ struct *structure_name*
 
 **<u>例:</u>**
 
-```
+```cpp
 struct student
 {
    int roll_number;
@@ -129,13 +129,13 @@ struct student
 
 **<u>变量声明语法:</u>**
 
-```
+```cpp
 struct *structure_name* *variable_name*;
 ```
 
 **<u>例:</u>**
 
-```
+```cpp
 struct  student  ram;
 
 // Members of structures can
@@ -158,7 +158,7 @@ stu.name = “Saurabh”;
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // the usage of structures
 
@@ -193,7 +193,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Structure Data
 Roll No: 64
 Name: Saurabh
@@ -208,7 +208,7 @@ Size of Structure studentis 24
 
 还记得 scanf 函数中使用的&符号吗
 
-```
+```cpp
 scanf(“%d”, &var);
 ```
 
@@ -218,13 +218,13 @@ scanf(“%d”, &var);
 
 **<u>指针声明语法:</u>**
 
-```
+```cpp
 *data_type** pointer_name; // (* = asterisk)          
 ```
 
 **<u>例:</u>**
 
-```
+```cpp
 int* ptr;
 ```
 
@@ -234,7 +234,7 @@ int* ptr;
 
 **<u>例:</u>**
 
-```
+```cpp
 int* ptr;
 int num = 5;
 ptr = &num;
@@ -252,7 +252,7 @@ ptr = &num;
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // pointers in C
 
@@ -275,7 +275,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value at ptr is 0x7ffdff4dca9c
 Value at *ptr is 5
 ```
@@ -290,7 +290,7 @@ Value at *ptr is 5
 
 **<u>例:</u>**
 
-```
+```cpp
 struct student *p;
 ```
 
@@ -298,7 +298,7 @@ struct student *p;
 
 因此，要访问数据成员，我们必须使用
 
-```
+```cpp
 (*p).roll_no
 (*p).name
 ```
@@ -311,7 +311,7 @@ c 提供了一个特殊的操作符，用于通过指针访问数据成员，即
 
 ## C
 
-```
+```cpp
 // C implementation to illustrate
 // the code of the structures
 
@@ -343,7 +343,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 The value at rollnumber is 99
 ```
 
@@ -381,7 +381,7 @@ printf()、scanf()、main()等是预定义的函数。
 
 **<u>函数定义语法:</u>**
 
-```
+```cpp
 *return_type* function_name(<parameters_list>)
 {
    --tasks/operations--
@@ -399,7 +399,7 @@ printf()、scanf()、main()等是预定义的函数。
 
 ## C
 
-```
+```cpp
 // C implementation to
 // illustrate functions in C
 
@@ -438,7 +438,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 GeeksforGeeks
 Sum is 12
 ```
@@ -456,7 +456,7 @@ Sum is 12
 
 ## C
 
-```
+```cpp
 // C implementation for the
 // function call by passing value
 
@@ -484,7 +484,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value before function call 5
 Value after function call 5
 ```
@@ -500,7 +500,7 @@ Value after function call 5
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // the usage of function call by
 // passing reference
@@ -530,7 +530,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Value before function call 5
 Value after function call 6
 ```
@@ -541,7 +541,7 @@ Value after function call 6
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // the example of the passing as
 // parameter in the function
@@ -569,7 +569,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10 20 30 40 50 
 ```
 
@@ -579,7 +579,7 @@ int main()
 
 **<u>类型转换语法:</u>**
 
-```
+```cpp
 var2 = (datatype2) var1
 where,  
 var1 is of datatype1 & var2 is of datatype2
@@ -589,7 +589,7 @@ var1 is of datatype1 & var2 is of datatype2
 
 如果要将整数值变量转换为浮点变量
 
-```
+```cpp
 float x = (float)7/5;
 ```
 
@@ -610,7 +610,7 @@ float x = (float)7/5;
 
 **<u>malloc()的语法:</u>**
 
-```
+```cpp
 pointer_name = (cast_datatype*)malloc(size);
 ```
 
@@ -620,7 +620,7 @@ pointer_name = (cast_datatype*)malloc(size);
 
 **<u>自由语法:</u>**
 
-```
+```cpp
 free(pointer_name);
 ```
 
@@ -632,7 +632,7 @@ free(pointer_name);
 
 ## C
 
-```
+```cpp
 // C implementation to demonstrate
 // the code the Dynamic Memory
 // Allocation
@@ -661,7 +661,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Array Elements are
 0 1 2 3 4 
 ```

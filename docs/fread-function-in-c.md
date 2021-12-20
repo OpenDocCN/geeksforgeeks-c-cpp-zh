@@ -6,7 +6,7 @@ C++中的 **fread()** 函数从流中读取数据块。这个函数首先从给�
 成功读取的字节总数为(大小*计数)。根据读取的字符数，指示器文件位置递增。如果读取的对象不是可复制的，那么行为是未定义的，如果大小或计数的值等于零，那么这个程序将简单地返回 0。
 **语法:**
 
-```
+```cpp
 size_t fread(void * buffer, size_t size, size_t count, FILE * stream)
 ```
 
@@ -23,7 +23,7 @@ size_t fread(void * buffer, size_t size, size_t count, FILE * stream)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to illustrate fread() function
 #include <bits/stdc++.h>
 #include <cstdio>

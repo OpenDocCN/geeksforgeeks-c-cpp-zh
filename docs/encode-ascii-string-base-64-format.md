@@ -13,7 +13,7 @@ Base 64 是一种将二进制数据转换成文本格式的编码方案，这样
 
 base64 中的字符集是
 
-```
+```cpp
 char_set = "ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz0123456789+/" 
 // 64 characters
@@ -35,28 +35,28 @@ abcdefghijklmnopqrstuvwxyz0123456789+/"
 1.将“MENON”转换为其(8 位)二进制状态格式。获取字符串的每个字符，并写出其 8 位二进制表示。
 待编码字符串中字符的 ASCII 值
 
-```
+```cpp
 M : 77 (01001101), E : 69 (01000101), 
 N : 78 (01001110), O : 79 (01001111), N : 78 (01001110)
 ```
 
 上述字符串的合成二进制数据为:
 
-```
+```cpp
 01001101 01000101 01001110 01001111 01001110
 ```
 
 2.从左边开始制作 **6** 位的块，直到所有位都被覆盖
 位流:
 
-```
+```cpp
 (010011) (010100) (010101) (001110) (010011) (110100) (1110)
 ```
 
 3.如果最右边的块少于 6 位，只需在该块的右边添加 0，使其为 6 位。在上面的例子中，我们必须加上 2 个零，使它变成 6。
 比特流:
 
-```
+```cpp
 (010011) (010100) (010101) (001110) (010011) (110100) (111000)
 ```
 
@@ -64,7 +64,7 @@ N : 78 (01001110), O : 79 (01001111), N : 78 (01001110)
 4。从 input _ str(“MEN”)中提取 3 个字符，即 24 位，并找到相应的十进制值(char_set 的索引)。
 街区:
 
-```
+```cpp
 INDEX --> (010011) : 19, (010100) : 20, (010101) : 21, (001110) : 14
 char_set[19] = T, char_set[20] = U, char_set[21] = V, char_set[14] = O
 ```
@@ -73,7 +73,7 @@ char_set[19] = T, char_set[20] = U, char_set[21] = V, char_set[14] = O
 5。取剩余字符(“开”)。我们必须用 1 "= "填充结果编码字符串，因为 input_str 中的字符数小于 3。(3–2 = 1 个填充)
 区块:
 
-```
+```cpp
 INDEX --> (010011) : 19 (110100) : 52 (111000) : 56
 char_set[19] = T char_set[52] = 0 char_set[56] = 4
 So our input_str = "ON" will be converted to encoded string "T04=".
@@ -81,7 +81,7 @@ So our input_str = "ON" will be converted to encoded string "T04=".
 
 示例:
 
-```
+```cpp
 Input : MENON // string in ASCII
 Output :TUVOT04= // encoded string in Base 64.
 
@@ -98,7 +98,7 @@ Output : Z2Vla3Nmb3JnZWVrcw==
 
 ## C++
 
-```
+```cpp
 // C++ program to encode an ASCII
 // string in Base64 format
 #include <iostream>
@@ -203,7 +203,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program to encode an ASCII
 // string in Base64 format
 #include <stdio.h>
@@ -305,7 +305,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Input string is : MENON
 Encoded string is : TUVOT04=
 

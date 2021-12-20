@@ -12,7 +12,7 @@ std::min_element 在头文件<algorithm>中定义，它返回一个迭代器，�
 1.  ****使用“<”比较元素:**
     语法:**
 
-```
+```cpp
 **template 
 ForwardIterator min_element (ForwardIterator first, ForwardIterator last);**
 
@@ -25,7 +25,7 @@ then it points to the first one.
 It points to the last in case the range is empty. 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::min_element
 #include <iostream>
 #include <algorithm>
@@ -47,7 +47,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2 
 ```
 
@@ -55,7 +55,7 @@ int main()
 
     语法:
 
-    ```
+    ```cpp
     template 
     ForwardIterator min_element (ForwardIterator first, ForwardIterator last,
                                  Compare comp);
@@ -74,7 +74,7 @@ int main()
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::min_element
     #include <iostream>
     #include <algorithm>
@@ -103,7 +103,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     1
 
     ```

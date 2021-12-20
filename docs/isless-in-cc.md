@@ -8,13 +8,13 @@
 isless()函数用于检查给函数的第一个参数是否小于给函数的第二个参数。意思是如果 **a** 是第一个参数， **b** 是第二个参数，则检查 **a < b** 是否存在。
 **语法:**
 
-```
+```cpp
 bool isless(a, b)
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // the exception of function
 #include <bits/stdc++.h>
@@ -40,7 +40,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5 isless than nan: 0
 ```
 
@@ -50,7 +50,7 @@ int main()
 
     ## 卡片打印处理机(卡片打印处理器的缩写)
 
-    ```
+    ```cpp
     // CPP code to illustrate
     // the use of isless function
     #include <bits/stdc++.h>
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 5 isless than 8: 1
 a isless than 8: 0
 ```
@@ -97,7 +97,7 @@ a isless than 8: 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // the use of isless function
 #include <bits/stdc++.h>
@@ -116,6 +116,6 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 
 ```

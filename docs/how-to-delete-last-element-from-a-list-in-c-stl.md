@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: list = [10 20 30 70 80 90 100 40 50 60]
 Output: 10 20 30 40 50 60 70 80 90
 
@@ -21,7 +21,7 @@ Output: 1 2 3 4
 
 **语法:**
 
-```
+```cpp
 iterator erase (const_iterator positionOfElementToBeDeleted);
 
 ```
@@ -30,7 +30,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
 1.  **Method 1:**
 
-    ```
+    ```cpp
     prev(listInt.end())
     ```
 
@@ -38,7 +38,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
     **程序 1:**
 
-    ```
+    ```cpp
     // C++ program to delete last element
     // of a List by passing its iterator
 
@@ -102,7 +102,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
     **Output:**
 
-    ```
+    ```cpp
     List originally:  10 20 30 40 50 60 70 80 90
     List after deletion:  10 20 30 40 50 60 70 80
 
@@ -110,7 +110,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
 2.  **Method 2:**
 
-    ```
+    ```cpp
     list::iterator it = listInt.end(); 
     --it;
 
@@ -120,7 +120,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
     **程序 2:**
 
-    ```
+    ```cpp
     // C++ program to delete last element
     // of a List by passing its iterator
 
@@ -184,7 +184,7 @@ iterator erase (const_iterator positionOfElementToBeDeleted);
 
     **Output:**
 
-    ```
+    ```cpp
     List originally:  10 20 30 40 50 60 70 80 90
     List after deletion:  10 20 30 40 50 60 70 80
 

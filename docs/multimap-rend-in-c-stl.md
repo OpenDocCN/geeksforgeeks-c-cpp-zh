@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 multimap_name.rend()
 ```
 
@@ -18,7 +18,7 @@ multimap::rend()返回的迭代器不能被取消引用。
 
 以下两个程序说明了该功能
 
-```
+```cpp
 // CPP program to illustrate
 // multimap::rend()
 #include <iostream>
@@ -43,7 +43,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 c = 40
 c = 30
 b = 20
@@ -52,7 +52,7 @@ a = 10
 
 **程序 2**
 
-```
+```cpp
 // CPP program to illustrate
 // multimap::rend()
 
@@ -83,7 +83,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 a = 10
 
 ```

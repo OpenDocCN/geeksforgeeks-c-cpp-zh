@@ -9,7 +9,7 @@
 push_back()函数用于将元素从后面推入一个队列。新值被插入到当前最后一个元素之前的末尾，容器大小增加 1。
 **语法:**
 
-```
+```cpp
 ***dequename.push_back(value)***
 Parameters :
 The value to be added in the back is 
@@ -21,7 +21,7 @@ to the back of the deque named as dequename
 
 示例:
 
-```
+```cpp
 Input : deque{1, 2, 3, 4, 5};
         deque.push_back(6);
 Output : 1, 2, 3, 4, 5, 6
@@ -37,7 +37,7 @@ Output : 5, 4, 3, 2, 1, 6
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // push_back() function
 #include <iostream>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4 5 6
 ```
 
@@ -67,7 +67,7 @@ int main()
 **应用程序**
 给定一个空的 deque，使用 push_back()函数向其添加整数，然后计算其所有元素的和。
 
-```
+```cpp
 Input  : 11, 2, 5, 3, 7, 1
 Output : 29
 ```
@@ -80,7 +80,7 @@ Output : 29
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Application of push_back() function
 #include <iostream>
@@ -108,6 +108,6 @@ int main()
 
 输出:
 
-```
+```cpp
 29
 ```

@@ -7,7 +7,7 @@
 1.  **使用 prev(MP . end())**:prev 函数的作用是，从给定的迭代器向后退一步。因此使用 **prev** 函数和 **mp.end()** 将返回一个指向地图最后一个元素的迭代器。
     实现:
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     using namespace std;
@@ -42,7 +42,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Contents of mp before deleting the last element :
     1 ==> 10
     2 ==> 20
@@ -57,7 +57,7 @@
 2.  **使用迭代器–**:将一个迭代器设置为 mp.end()，然后使用迭代器–到达映射中的最后一个元素，然后使用 erase 函数将其删除。
     实现:
 
-    ```
+    ```cpp
     #include <bits/stdc++.h>
 
     using namespace std;
@@ -93,7 +93,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     Contents of mp before deleting the last element :
     1 ==> 10
     2 ==> 20

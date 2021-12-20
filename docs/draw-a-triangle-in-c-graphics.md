@@ -8,7 +8,7 @@
 
 要运行该程序，我们必须包含以下头文件:
 
-```
+```cpp
 #include <graphic.h>
 
 ```
@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program for drawing a triangle
 #include <graphics.h>
 #include <iostream>

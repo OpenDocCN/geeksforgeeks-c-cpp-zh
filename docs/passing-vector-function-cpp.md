@@ -15,7 +15,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate that when vectors
 // are passed to functions without &, a copy is
 // created.
@@ -44,7 +44,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10 20 
 ```
 
@@ -54,7 +54,7 @@ int main()
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate how vectors
 // can be passed by reference.
 #include <bits/stdc++.h>
@@ -81,7 +81,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 10 20 30 
 ```
 
@@ -91,7 +91,7 @@ int main()
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate how vectors 
 // can be passed by reference with modifications 
 // restricted. 
@@ -126,7 +126,7 @@ int main() 
 
 **输出**
 
-```
+```cpp
 10 20 
 ```
 

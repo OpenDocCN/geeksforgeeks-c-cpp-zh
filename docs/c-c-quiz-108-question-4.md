@@ -4,7 +4,7 @@
 
 以下两个函数指针声明是等价的。第二个(即带有 typedef)看起来更干净。
 
-```
+```cpp
 /* First Declaration */
 int (*funPtr1)(int), (*funPtr2)(int);
 

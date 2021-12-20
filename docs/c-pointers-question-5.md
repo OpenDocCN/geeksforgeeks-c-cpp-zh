@@ -4,7 +4,7 @@
 
 假设 float 取 4 个字节，预测下一个程序的输出。
 
-```
+```cpp
 #include <stdio.h>
 
 int main()

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 result_type a() const;
 
 ```
@@ -17,7 +17,7 @@ result_type a() const;
 
 **例:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of a() function
 
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Lower Bound: 10
 
 ```

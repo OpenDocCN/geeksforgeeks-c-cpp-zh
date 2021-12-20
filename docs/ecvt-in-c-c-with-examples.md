@@ -21,7 +21,7 @@
 
 T5】CT7
 
-```
+```cpp
 // C program to illustrate the
 // use of ecvt() function
 #include <stdio.h>

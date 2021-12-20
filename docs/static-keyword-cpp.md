@@ -15,7 +15,7 @@
 
 *   **Static variables in a Function**: When a variable is declared as static, space for **it gets allocated for the lifetime of the program**. Even if the function is called multiple times, space for the static variable is allocated only once and the value of variable in the previous call gets carried through the next function call. This is useful for implementing [coroutines in C/C++](https://www.geeksforgeeks.org/coroutines-in-c-cpp/) or any other application where previous state of function needs to be stored.
 
-    ```
+    ```cpp
     // C++ program to demonstrate 
     // the use of static Static 
     // variables in a Function
@@ -45,7 +45,7 @@
 
     输出:
 
-    ```
+    ```cpp
     0 1 2 3 4 
 
     ```
@@ -55,7 +55,7 @@
 
 *   **Static variables in a class**: As the variables declared as static are initialized only once as they are allocated space in separate static storage so, the static variables **in a class are shared by the objects.** There can not be multiple copies of same static variables for different objects. Also because of this reason static variables can not be initialized using constructors.
 
-    ```
+    ```cpp
     // C++ program to demonstrate static
     // variables inside a class
 
@@ -87,7 +87,7 @@
 
     您可以在上面的程序中看到，我们试图为多个对象创建静态变量 I 的多个副本。但这并没有发生。因此，类内的静态变量应该由用户使用类外的类名和范围解析运算符显式初始化，如下所示:
 
-    ```
+    ```cpp
     // C++ program to demonstrate static
     // variables inside a class
 
@@ -117,7 +117,7 @@
 
     输出:
 
-    ```
+    ```cpp
     1
 
     ```
@@ -127,7 +127,7 @@
 *   **Class objects as static**: Just like variables, objects also when declared as static have a scope till the lifetime of program.
     Consider the below program where the object is non-static.
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // when not using static keyword
     #include<iostream>
@@ -161,7 +161,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Inside Constructor
     Inside Destructor
     End of main
@@ -171,7 +171,7 @@
     在上面的程序中，对象在 if 块中声明为非静态的。因此，变量的范围只在 if 块中。因此，当对象被创建时，构造函数被调用，并且一旦 if 块的控制越过析构函数，就被调用，因为对象的范围在 if 块内，只是在它被声明的地方。
     现在让我们看看如果我们将对象声明为静态的，输出的变化。
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // class objects as static
     #include<iostream>
@@ -207,7 +207,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Inside Constructor
     End of main
     Inside Destructor
@@ -219,7 +219,7 @@
 *   **Static functions in a class**: Just like the static data members or static variables inside the class, static member functions also does not depend on object of class. We are allowed to invoke a static member function using the object and the ‘.’ operator but it is recommended to invoke the static members using the class name and the scope resolution operator.
     **Static member functions are allowed to access only the static data members or other static member functions**, they can not access the non-static data members or member functions of the class.
 
-    ```
+    ```cpp
     // C++ program to demonstrate static
     // member function in a class
     #include<iostream>
@@ -246,7 +246,7 @@
 
     输出:
 
-    ```
+    ```cpp
     Welcome to GfG!
 
     ```

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_trivially_move_assignable;
 
@@ -21,7 +21,7 @@ struct is_trivially_move_assignable;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_move_assignable<T>::value
 
 ```
@@ -37,7 +37,7 @@ std::is_trivially_move_assignable<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_move_assignable
 #include <bits/stdc++.h>
@@ -80,7 +80,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int is_trivially_move_assignable? true
 A is_trivially_move_assignable? true
 B is_trivially_move_assignable? false

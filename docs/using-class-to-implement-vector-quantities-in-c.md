@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input : Store and display vector with components 3, 4, 5.
 Output : 3i + 4j + 5k
 
@@ -34,7 +34,7 @@ where i, j, k are unit vectors in x, y and z directions respectively.
     因此合成向量，v = v1 + v2 = 4i + 4j + 4k
 2.  **Dot product of vectors:** Dot product of two vectors v1 and v2 is calculated as:
 
-    ```
+    ```cpp
     v = v1 . v2
       = magnitude(v1)*magnitude(v2)*Cos(θ)
 
@@ -58,7 +58,7 @@ where i, j, k are unit vectors in x, y and z directions respectively.
 
 下面是上述操作在 C++中使用类的实现:
 
-```
+```cpp
 #include <cmath>
 #include <iostream>
 using namespace std;
@@ -162,7 +162,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 V1 = 3i + 4j + 2k
 V2 = 6i + 3j + 9k
 V1 + V2 = 9i + 7j + 11k

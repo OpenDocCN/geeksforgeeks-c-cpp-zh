@@ -6,7 +6,7 @@ C++ STL 的 **std::is_lvalue_reference 模板**用于检查类型是否为 lvalu
 
 **语法**:
 
-```
+```cpp
 template <class T > struct is_lvalue_reference;
 ```
 
@@ -21,7 +21,7 @@ template <class T > struct is_lvalue_reference;
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_lvalue_reference template
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_lvalue_reference: 
 gfg: false
 gfg&: true
@@ -64,7 +64,7 @@ gfg&&: false
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_lvalue_reference template
 
@@ -104,7 +104,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_lvalue_reference: 
 int: false
 int&: true
@@ -117,7 +117,7 @@ char&&: false
 
 **程序 3** :
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_lvalue_reference template
 
@@ -157,7 +157,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 is_lvalue_reference: 
 float: false
 float&: true

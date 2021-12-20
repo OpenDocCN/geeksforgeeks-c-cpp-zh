@@ -30,7 +30,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ Program to check if the given
 // string is a pangram or not
 
@@ -99,7 +99,7 @@ int main()
 
 ****Output**
 
-```
+```cpp
 Yes
 ```** 
 
@@ -126,7 +126,7 @@ Yes
 
 ## **卡片打印处理机（Card Print Processor 的缩写）**
 
-```
+```cpp
 // C++ Program to check whether
 // a string pangram or not using STL
 
@@ -188,7 +188,7 @@ int main()
 
 ****Output**
 
-```
+```cpp
 Yes
 ```** 
 

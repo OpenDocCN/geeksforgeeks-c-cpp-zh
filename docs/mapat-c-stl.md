@@ -13,7 +13,7 @@ at()函数检查容器的范围有何不同，当我们试图访问不在范围�
 
 **语法:**
 
-```
+```cpp
 ***mapname.at(key)***
 Parameters :
 Key value mapped to the element to be fetched.
@@ -23,7 +23,7 @@ Direct reference to the element at the given key value.
 
 示例:
 
-```
+```cpp
 Input  :  map mymap;
           mymap['a'] = 1;
           mymap.at('a');
@@ -41,7 +41,7 @@ Output :  7
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of at() function
 #include <iostream>
@@ -69,7 +69,7 @@ int main()
 
 输出:
 
-```
+```cpp
 3
 ```
 

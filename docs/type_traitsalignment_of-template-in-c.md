@@ -5,13 +5,13 @@
 它用于查找等于类型 T 的对齐要求的成员常数值。如果 T 是引用类型，它将返回引用类型的对齐要求。如果 T 是数组类型，则返回元素类型的对齐要求。
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 ```
 
 **语法:**
 
-```
+```cpp
 template
   <class T>
   struct alignment_of;
@@ -23,7 +23,7 @@ template
 
 ## CPP14
 
-```
+```cpp
 // C++ program to illustrate
 // assignment_of template
 
@@ -47,7 +47,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 1
 4
 8

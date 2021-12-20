@@ -6,7 +6,7 @@
 **注**:如果单位数字为 **0** ，则打印 **10** 的倍数。
 **举例:**
 
-```
+```cpp
 Input : 39 
 Output : 9 18 27 36
 Explanation : The unit digit of 39 is 9.
@@ -28,7 +28,7 @@ Output : 5 10 15 20 25
 
 ## C++
 
-```
+```cpp
 // C++ program to print multiples of
 // Unit Digit of Given Number
 #include <iostream>
@@ -68,7 +68,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print multiples of
 // Unit Digit of Given Number
 import java.io.*;
@@ -109,7 +109,7 @@ static void printMultiples(int n)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to print multiples
 # of Unit Digit of Given Number
 
@@ -143,7 +143,7 @@ printMultiples(n)
 
 ## C#
 
-```
+```cpp
 // C# program to print multiples of
 // Unit Digit of Given Number
 using System;
@@ -184,7 +184,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
       // JavaScript program to print multiples of
@@ -219,6 +219,6 @@ class GFG
 
 **Output:** 
 
-```
+```cpp
 9 18 27 36
 ```

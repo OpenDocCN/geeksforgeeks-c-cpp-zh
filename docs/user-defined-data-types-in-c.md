@@ -32,7 +32,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // Class
 
@@ -70,7 +70,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     Geekname is: GeeksForGeeks
 
     ```
@@ -79,7 +79,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     struct address {
         char name[50];
         char street[100];
@@ -91,7 +91,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate
     // Structures in C++
 
@@ -119,14 +119,14 @@
 
     **Output:**
 
-    ```
+    ```cpp
     10, 20
 
     ```
 
 3.  **[联合](https://www.geeksforgeeks.org/union-c/)** :和[结构](https://www.geeksforgeeks.org/structures-c/)一样，联合是用户自定义的数据类型。在联合中，所有成员共享相同的内存位置。例如，在下面的 C 程序中，x 和 y 共享同一个位置。如果我们改变 x，我们可以看到变化反映在 y 中。
 
-    ```
+    ```cpp
     #include <iostream>
     using namespace std;
 
@@ -164,7 +164,7 @@
 
     **输出:**
 
-    ```
+    ```cpp
     After making x = 2:
     x = 2, y = 2
     After making Y = 10:
@@ -176,11 +176,11 @@
 
     **语法:**
 
-    ```
+    ```cpp
     enum State {Working = 1, Failed = 0}; 
     ```
 
-    ```
+    ```cpp
     // Program to demonstrate working
     // of enum in C++
 
@@ -209,7 +209,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     2
 
     ```
@@ -218,7 +218,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     typedef type name;
     ```
 
@@ -227,7 +227,7 @@
 
     **示例:**
 
-    ```
+    ```cpp
     // C++ program to demonstrate typedef
     #include <iostream>
     using namespace std;
@@ -247,7 +247,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     c
 
     ```

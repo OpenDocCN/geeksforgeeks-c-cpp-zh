@@ -6,7 +6,7 @@
 任务是编写一个 [C 程序](https://www.geeksforgeeks.org/c-programming-language/)用 C 中的图形画一个笑脸
 要运行这个程序，我们有下面包含的头文件:
 
-```
+```cpp
 #include <graphic.h>
 ```
 
@@ -22,7 +22,7 @@
 
 ## C
 
-```
+```cpp
 // C program to create a smiley face
 #include <conio.h>
 #include <dos.h>

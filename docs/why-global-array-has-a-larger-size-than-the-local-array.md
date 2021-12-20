@@ -12,7 +12,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to declare the array
 // of size 10^7 locally
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to declare the array
 // of size 10^5 locally
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to declare the array
 // of size 10^5 locally
 import java.io.*;
@@ -91,7 +91,7 @@ public static void main(String[] arg)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to declare the array
 # of size 10^5 locally
 # Driver code
@@ -107,7 +107,7 @@ print(a[0])
 
 ## C#
 
-```
+```cpp
 // C# program to declare the array
 // of size 10^5 locally
 using System;
@@ -132,7 +132,7 @@ public static void Main(String[] arg)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to declare the array
@@ -152,7 +152,7 @@ document.write(a[0]);
 
 **Output:** 
 
-```
+```cpp
 1
 ```
 
@@ -162,7 +162,7 @@ document.write(a[0]);
 
 ## C++
 
-```
+```cpp
 // C++ program to declare the array
 // of size 10^7 globally
 #include <bits/stdc++.h>
@@ -186,7 +186,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to declare the array
 // of size 10^7 globally
 import java.io.*;
@@ -213,7 +213,7 @@ public static void main(String[] arg)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to declare the array
 # of size 10^7 globally
 
@@ -232,7 +232,7 @@ print(a[0])
 
 ## C#
 
-```
+```cpp
 // C# program to declare the array
 // of size 10^7 globally
 using System;
@@ -259,7 +259,7 @@ public static void Main(String[] arg)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to declare the array
@@ -281,7 +281,7 @@ document.write(a[0]);
 
 **Output:** 
 
-```
+```cpp
 1
 ```
 

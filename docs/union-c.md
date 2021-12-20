@@ -8,7 +8,7 @@
 
 例如，在下面的 C 程序中，x 和 y 共享同一个位置。如果我们改变 x，我们可以看到这些变化反映在 y 上。
 
-```
+```cpp
 #include <stdio.h>
 
 // Declaration of union is same as structures
@@ -34,7 +34,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 After making x = 2:
  x = 2, y = 2
 

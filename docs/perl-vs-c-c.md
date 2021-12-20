@@ -36,7 +36,7 @@ For example, the note in//Inline -C/c++.
 
 ## C++
 
-```
+```cpp
 // C++ program to add two numbers
 #include <stdio.h>
 
@@ -62,7 +62,7 @@ int main()
 
 ## Perl 语言
 
-```
+```cpp
 #!/usr/bin/perl
 
 # Perl program to add two numbers
@@ -83,6 +83,6 @@ sub add
 
 **输出:**
 
-```
+```cpp
 The result is 8
 ```

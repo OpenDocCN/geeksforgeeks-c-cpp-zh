@@ -8,14 +8,14 @@
 
 1.  **包含头文件**:我们必须在标准头文件的同时包含我们程序的 OpenMP 头文件。
 
-```
+```cpp
 //OpenMP header
 #include <omp.h>
 ```
 
 2.  **指定平行区域**:在 OpenMP 中，我们需要使用关键字 **pragma omp parallel** 来提及我们将要使其平行的区域。 **pragma omp 平行**用于分叉额外的螺纹，以执行平行中包含的工作。**原线程将表示为线程 ID 为 0 的主线程。**用于创建平行区域的代码是:
 
-```
+```cpp
 #pragma omp parallel
 {
   //Parallel region code 
@@ -24,7 +24,7 @@
 
 1.  所以，这里我们包括
 
-```
+```cpp
 #pragma omp parallel                   
 {
     printf("Hello World... from thread = %d\n", 
@@ -35,7 +35,7 @@
 2.  **设置线程数** :
     我们可以使用外部变量设置执行程序的线程数。
 
-```
+```cpp
 export OMP_NUM_THREADS=5
 ```
 
@@ -47,13 +47,13 @@ export OMP_NUM_THREADS=5
 2.  **编译运行** :
     **编译:**
 
-```
+```cpp
 gcc -o hello -fopenmp hello.c
 ```
 
 1.  **执行:**
 
-```
+```cpp
 ./hello
 ```
 
@@ -62,7 +62,7 @@ gcc -o hello -fopenmp hello.c
 
 ## 你好世界计划
 
-```
+```cpp
 // OpenMP program to print Hello World
 // using C language
 

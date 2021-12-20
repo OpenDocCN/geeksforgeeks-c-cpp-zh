@@ -7,7 +7,7 @@
 头文件 graphics.h 包含**filellipse()**函数，该函数绘制并填充一个以(x，y)和(x_radius，y_radius)为椭圆的 x 和 y 半径的椭圆。
 **语法:**
 
-```
+```cpp
 void fillellipse(int x, int y, int x_radius,
                               int y_radius);
 
@@ -20,7 +20,7 @@ radius of ellipse.
 
 **示例:**
 
-```
+```cpp
 Input : x = 200, y = 200,
         x_radius = 50, y_radius = 90
 Output : 
@@ -33,7 +33,7 @@ Output :
 
 下面是 fillellipse()函数的实现:
 
-```
+```cpp
 // C Implementation for fillellipse()
 #include <graphics.h>
 

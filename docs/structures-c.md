@@ -10,7 +10,7 @@
 ***如何创建结构？***
 “struct”关键字用于创建结构。下面是一个例子。
 
-```
+```cpp
 struct address
 {
    char name[50];
@@ -24,7 +24,7 @@ struct address
 ***如何声明结构变量？***
 结构变量既可以用结构声明来声明，也可以像基本类型一样单独声明。
 
-```
+```cpp
 // A variable declaration with structure declaration.
 struct Point
 {
@@ -48,7 +48,7 @@ int main()
 ***如何初始化结构成员？***
 结构成员**不能用声明初始化**。例如，下面的 C 程序编译失败。
 
-```
+```cpp
 struct Point
 {
    int x = 0;  // COMPILER ERROR:  cannot initialize members here
@@ -60,7 +60,7 @@ struct Point
 
 结构成员**可以用花括号“{}”初始化**。例如，以下是有效的初始化。
 
-```
+```cpp
 struct Point
 {
    int x, y;
@@ -77,7 +77,7 @@ int main()
 ***如何访问结构元素？***
 结构成员使用点(。)运算符。
 
-```
+```cpp
 #include<stdio.h>
 
 struct Point
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x = 20, y = 1
 
 ```
@@ -107,7 +107,7 @@ x = 20, y = 1
 **什么是指定初始化？**
 指定初始化允许以任何顺序初始化结构成员。该功能已添加到 [C99 标准](https://www.geeksforgeeks.org/c-programming-language-standard/)中。
 
-```
+```cpp
 #include<stdio.h>
 
 struct Point
@@ -129,7 +129,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x = 2, y = 0, z = 1
 x = 20
 
@@ -140,7 +140,7 @@ x = 20
 ***什么是阵列结构？***
 像其他原始数据类型一样，我们可以创建一个结构数组。
 
-```
+```cpp
 #include<stdio.h>
 
 struct Point
@@ -164,7 +164,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 20
 
 ```
@@ -172,7 +172,7 @@ int main()
 ***什么是结构指针？***
 像原始类型一样，我们可以有指向结构的指针。如果我们有一个指向结构的指针，则使用箭头(- >)操作符来访问成员。
 
-```
+```cpp
 #include<stdio.h>
 
 struct Point
@@ -195,7 +195,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2
 
 ```
@@ -209,7 +209,7 @@ int main()
 
 *   C 结构不允许将结构数据类型视为内置数据类型:*   我们不能使用+等运算符。关于结构变量。例如，考虑以下代码:
 
-    ```
+    ```cpp
     struct number
     {
         float x;

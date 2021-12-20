@@ -27,7 +27,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <iostream>
@@ -64,7 +64,7 @@ int main()
 
 ## **C++**
 
-```
+```cpp
 // C++ program for the above approach
 
 #include <iostream>

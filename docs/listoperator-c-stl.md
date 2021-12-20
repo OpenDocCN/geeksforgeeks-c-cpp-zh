@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 *listname1* = (*listname2*)
 Parameters :
 Another container of the same type.
@@ -23,7 +23,7 @@ parameter to the container written on left side of the operator.
 
 示例:
 
-```
+```cpp
 Input  :  mylist1 = 1, 2, 3
           mylist2 = 3, 2, 1, 4
           mylist1 = mylist2;
@@ -41,7 +41,7 @@ Output :  mylist1 = 3, 2
 1.如果容器的类型不同，则会引发错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of = operator
 #include <iostream>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mylist1 = 3 2 1 4
 
 ```

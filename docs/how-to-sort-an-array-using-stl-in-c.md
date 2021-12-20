@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: arr[] = {1, 45, 54, 71, 76, 12}
 Output: {1, 12, 45, 54, 71, 76}
 
@@ -19,12 +19,12 @@ Output: {1, 4, 5, 6, 7, 12}
 
 **语法:**
 
-```
+```cpp
 sort(arr, arr + n);
 
 ```
 
-```
+```cpp
 // C++ program to sort Array
 // using sort() in STL
 
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Array: 1 45 54 71 76 12 
 Sorted Array: 1 12 45 54 71 76
 

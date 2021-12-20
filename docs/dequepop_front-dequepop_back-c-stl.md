@@ -9,7 +9,7 @@
 pop_front()函数用于从正面弹出或移除文件中的元素。该值从一开始就从 deque 中移除，并且容器大小减少 1。
 **语法:**
 
-```
+```cpp
 ***dequename.pop_front()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -20,7 +20,7 @@ of the given deque named as *dequename*
 
 示例:
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque.pop_front();
 Output :  2, 3
@@ -37,7 +37,7 @@ Output :  4, 1, 7, 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // pop_front() function
 #include <iostream>
@@ -62,20 +62,20 @@ int main()
 
 输出:
 
-```
+```cpp
 2 3
 ```
 
 **应用:**使用 push_front()功能输入一个空的德格，并打印德格的反面。
 
-```
+```cpp
 Input : 1, 2, 3, 4, 5, 6, 7, 8
 Output: 8, 7, 6, 5, 4, 3, 2, 1
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of pop_front() function
 #include <iostream>
@@ -107,7 +107,7 @@ int main()
 
 输出:
 
-```
+```cpp
 8 7 6 5 4 3 2 1
 ```
 
@@ -116,7 +116,7 @@ int main()
 pop_back()函数用于从背面弹出或移除文件中的元素。该值从末尾的 deque 中移除，容器大小减少 1。
 **语法:**
 
-```
+```cpp
 ***dequename.pop_back()***
 Parameters :
 No value is needed to pass as the parameter.
@@ -127,7 +127,7 @@ of the given deque named as *dequename*
 
 示例:
 
-```
+```cpp
 Input  :  mydeque = 1, 2, 3
           mydeque.pop_back();
 Output :  1, 2
@@ -144,7 +144,7 @@ Output :  3, 4, 1, 7
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // pop_back() function
 #include <iostream>
@@ -171,21 +171,21 @@ int main()
 
 输出:
 
-```
+```cpp
 1 2 3 4
 ```
 
 **应用:**
 使用 push_front()函数输入一个空的德格，输入以下数字和顺序，打印德格的反面。
 
-```
+```cpp
 Input  : 1, 20, 39, 43, 57, 64, 73, 82
 Output : 82, 73, 64, 57, 43, 39, 20, 1
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // application Of pop_back() function
 #include <iostream>
@@ -217,6 +217,6 @@ int main()
 
 输出:
 
-```
+```cpp
 82 73 64 57 43 39 20 1
 ```

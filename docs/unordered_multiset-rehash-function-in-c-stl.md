@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multset_name.rehash(N);
 ```
 
@@ -25,7 +25,7 @@ unordered_multset_name.rehash(N);
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multiset::rehash()
 #include <iostream>
@@ -77,7 +77,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial values are:
 3
 1
@@ -98,7 +98,7 @@ Max_load_factor = 1
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multiset::rehash()
 #include <iostream>
@@ -149,7 +149,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Initial values are:
 c
 a

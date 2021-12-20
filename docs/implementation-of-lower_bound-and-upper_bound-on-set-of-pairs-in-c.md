@@ -26,7 +26,7 @@
 
 下面是演示[对集](https://www.geeksforgeeks.org/sets-of-pairs-in-c/)中[下界()和上界()](https://www.geeksforgeeks.org/upper_bound-and-lower_bound-for-vector-in-cpp-stl/)的程序:
 
-```
+```cpp
 // C++ program to demonstrate lower_bound()
 // and upper_bound() in set of Pairs
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 lower_bound() for {1, 2} is: {1, 2}
 upper_bound() for {1, 2} is: {2, 4}
 

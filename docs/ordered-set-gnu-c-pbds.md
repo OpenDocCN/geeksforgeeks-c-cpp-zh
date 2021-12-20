@@ -22,7 +22,7 @@
 第一个用于包含关联容器或模板组，如集合、多地图、地图等。我们将在下面使用的基于树的数据结构出现在这个头文件中。
 第二个头文件用于包含*树 _ 订单 _ 统计 _ 节点更新*，解释如下:
 
-```
+```cpp
 using namespace __gnu_pbds;
 
 ```
@@ -31,7 +31,7 @@ using namespace __gnu_pbds;
 
 基于树的容器具有具体的结构，但是有序集实现所需的必要结构是:
 
-```
+```cpp
 tree < int ,  null_type ,  less ,  rb_tree_tag ,  tree_order_statistics_node_update >
 
 ```
@@ -68,7 +68,7 @@ tree < int ,  null_type ,  less ,  rb_tree_tag ,  tree_order_statistics_node_upd
 假设我们有一种情况，在一个数组中一个接一个地插入元素，每次插入后，我们都被赋予一个范围[l，r]，我们必须确定数组中大于等于 l 且小于等于 r 的元素个数，最初，数组是空的。
 示例:
 
-```
+```cpp
 Input :    5
            1 2
            1
@@ -86,7 +86,7 @@ Output :   0
 
 *   插入了 5。*   大于等于 1 且小于等于 2 的元素计数为 0。*   已插入 1。*   大于等于 2 且小于等于 5 的元素计数为 1，即 5。*   插入了 2。*   大于等于 1 且小于等于 5 的元素计数为 3，即 5、1、2。
 
-    ```
+    ```cpp
     Input :     1
                 1 2
                 2
@@ -117,7 +117,7 @@ Output :   0
 
         **有序集的实现**
 
-        ```
+        ```cpp
         // C++ program to demonstrate the
         // ordered set in GNU C++
         #include <iostream>
@@ -180,7 +180,7 @@ Output :   0
 
         输出
 
-        ```
+        ```cpp
         2
         2
         2

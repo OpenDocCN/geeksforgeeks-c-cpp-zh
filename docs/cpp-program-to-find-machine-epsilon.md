@@ -17,7 +17,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to find machine epsilon
 #include<iostream>
 #include <cfloat>
@@ -57,7 +57,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find machine epsilon
 
 import java.util.*;
@@ -103,7 +103,7 @@ class Count{
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to find machine epsilon
 
 # Function for Machine Epsilon with an
@@ -137,7 +137,7 @@ machineEpsilon(0.5);
 
 Output:
 
-```
+```cpp
 
 Machine Epsilon is : 1.19209e-07
 

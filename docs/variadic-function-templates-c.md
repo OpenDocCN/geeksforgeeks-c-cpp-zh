@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *template(typename arg, typename... args)*
 *return_type function_name(arg var1, args... var2)*
 ```
@@ -21,7 +21,7 @@
 
 ## CPP
 
-```
+```cpp
 // C++ program to demonstrate working of
 // Variadic function Template
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 1
 2
 3.14
@@ -78,7 +78,7 @@ I am empty function and I am called at last.
 
 首先，编译器将语句解析为
 
-```
+```cpp
 cout<< 1 <<endl ;
 print(2, 3.14, "Pass me any number of arguments", 
       "I will print\n");
@@ -86,7 +86,7 @@ print(2, 3.14, "Pass me any number of arguments",
 
 现在，编译器找到一个 print()函数，它可以接受这些参数，并以类似的方式再次执行变量 print()函数:
 
-```
+```cpp
 cout<< 2 <<endl ;
 print(3.14, "Pass me any number of arguments", 
       "I will print\n");
@@ -94,18 +94,18 @@ print(3.14, "Pass me any number of arguments",
 
 同样，它被分解成以下形式:
 
-```
+```cpp
 cout<< 3.14 <<endl ;
 print("Pass me any number of arguments", 
       "I will print\n");
 ```
 
-```
+```cpp
 cout<< "Pass me any number of arguments" <<endl ;
 print("I will print\n");
 ```
 
-```
+```cpp
 cout<< "I will print\n" <<endl ;
 print();
 ```

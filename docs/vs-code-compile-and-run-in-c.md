@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to take the input of
 // two numbers and prints its sum
 #include <bits/stdc++.h>

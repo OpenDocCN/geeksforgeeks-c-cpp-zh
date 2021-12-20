@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.emplace(val)
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.emplace(val)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::emplace() function
 #include <bits/stdc++.h>
@@ -49,14 +49,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: 14 11 11 11 12 13 13
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::emplace() function
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements: d a a a b b c
 
 ```

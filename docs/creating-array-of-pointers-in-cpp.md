@@ -52,7 +52,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the concepts
 // of creating 1D array of pointers
 #include <iostream>
@@ -88,7 +88,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 10
 11
 20
@@ -136,7 +136,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the concepts
 // of creating 2-D array of pointers
 #include <iostream>
@@ -183,7 +183,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 0x158de90
 10
 0x158de94

@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```cpp
 unordered_map.max_bucket_count()
 ```
 
@@ -16,7 +16,7 @@ unordered_map.max_bucket_count()
 
 **示例-1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_bucket_count function
 #include <bits/stdc++.h>
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Size is : 0
 Max bucket count is : 1152921504606846975
 Size is : 5
@@ -56,7 +56,7 @@ Max bucket count is : 1152921504606846975
 
 **示例-2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_map::max_bucket_count function
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Size is : 0
 Max bucket count is : 1152921504606846975
 Size is : 6

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 multiset_name.max_size()
 ```
 
@@ -18,7 +18,7 @@ multiset_name.max_size()
 
 下面的程序演示了无序 _ 多集::max_size()
 
-```
+```cpp
 // C++ program to demonstrate the use of
 // multiset max_size()
 
@@ -45,7 +45,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Number of elements the multiset can hold is: 4294967295
 
 ```

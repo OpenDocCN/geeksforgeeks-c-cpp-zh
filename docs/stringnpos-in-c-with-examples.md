@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of string::npos
 #include <bits/stdc++.h>
@@ -62,7 +62,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 first for found at: 5
 ```
 

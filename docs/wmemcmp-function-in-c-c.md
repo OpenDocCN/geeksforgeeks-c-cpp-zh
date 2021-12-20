@@ -24,7 +24,7 @@ C/C++中的 **wmemcmp()** 函数比较两个宽字符。该函数比较由 **str
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // wmemcmp() function
 
@@ -54,14 +54,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 wmemcmp comparison: equal
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate
 // wmemcmp() function
 // Comparing two strings with the same type of function
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 wcsncmp comparison: equal
 wmemcmp comparison: not equal
 

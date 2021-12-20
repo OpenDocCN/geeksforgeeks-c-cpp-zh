@@ -5,7 +5,7 @@
 **multimap::find()** 是 C++ STL 中的一个内置函数，它返回一个迭代器，一个常量迭代器，引用键在 multimap 中出现的位置。在存在多个相同键的情况下，引用其中一个键(通常是第一个键)的迭代器。如果我们希望用给定的密钥获得所有项目，我们可以使用 [equal_range()。](https://www.geeksforgeeks.org/multimap-equal_range-in-c-stl/)如果键不在 multimap 容器中，它将返回一个迭代器，一个引用 multimap.end()的常量迭代器。
 **语法:**
 
-```
+```cpp
 iterator multimap_name.find(key)
         or 
 constant iterator multimap_name.find(key)
@@ -16,7 +16,7 @@ constant iterator multimap_name.find(key)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program for illustration
 // of multimap::find() function
 #include <bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The elements from position 3 in multimap are : 
 KEY    ELEMENT
 3    20

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-structure-union-question-3/](https://www.geeksforgeeks.org/c-structure-union-question-3/)
 
-```
+```cpp
 struct node 
 { 
    int i; 

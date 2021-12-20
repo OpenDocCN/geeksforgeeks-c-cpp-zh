@@ -6,7 +6,7 @@
 
 例如，下面的程序设置小数点后 4 位的精度:
 
-```
+```cpp
 // C program to set precision in floating point numbers
 #include<stdio.h>
 #include<math.h>
@@ -24,13 +24,13 @@ int main()
 
 输出:
 
-```
+```cpp
 5.489500
 ```
 
 我们可以使用 pow()来推广上面的方法
 
-```
+```cpp
 float newPrecision(float n, float i)
 {
     return floor(pow(10,i)*n)/pow(10,i);
@@ -39,7 +39,7 @@ float newPrecision(float n, float i)
 
  ***在 C 中，C 中有一个格式说明符，要打印点后 4 位数字，我们可以在 printf()中使用 0.4f。下面是程序演示同样的**。*
 
-```
+```cpp
 // C program to set precision in floating point numbers
 // using format specifier
 #include<stdio.h>
@@ -56,7 +56,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 5.4896
 ```
 

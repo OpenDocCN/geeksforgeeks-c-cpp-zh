@@ -5,7 +5,7 @@
 **std::equal()** 有助于将[first_1，last _ 1]范围内的元素与从 first_2 开始的范围内的元素进行比较。
 **语法 1:**
 
-```
+```cpp
 template 
   bool equal (InputIterator1 first1, InputIterator1 last1,
               InputIterator2 first2)
@@ -19,7 +19,7 @@ true, if all of the elements in both ranges match; otherwise false
 
 ```
 
-```
+```cpp
 // C++ program illustrating
 // use of  bool equal (InputIterator1 first1, InputIterator1 last1,
 // InputIterator2 first2)
@@ -49,7 +49,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Vector contains :  10, 20, 30, 40, 50
 The contents of both sequences are equal.
 
@@ -57,7 +57,7 @@ The contents of both sequences are equal.
 
 **语法 2:**
 
-```
+```cpp
 template 
   bool equal (InputIterator1 first1, InputIterator1 last1,
               InputIterator2 first2, BinaryPredicate pred);
@@ -73,7 +73,7 @@ true, if all of the elements in both ranges match; otherwise false
 
 ```
 
-```
+```cpp
 // C++ program illustrating
 // use of bool equal (InputIterator1 first1, InputIterator1 last1,
 // InputIterator2 first2, BinaryPredicate pred);
@@ -108,7 +108,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Vector contains :  10, 20, 30, 40, 50
 The contents of both sequences differ.
 

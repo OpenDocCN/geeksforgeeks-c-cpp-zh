@@ -6,7 +6,7 @@ C++ STL 的 **std::is_standard_layout 模板**用于检查类型是否为标准�
 
 **语法**:
 
-```
+```cpp
 template < class T > struct is_standard_layout;
 
 ```
@@ -22,7 +22,7 @@ template < class T > struct is_standard_layout;
 
 **程序 1** :结构、类和联合相结合。
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_standard_layout  template
 
@@ -68,7 +68,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is gfg class a standard layout: true
 Is structure sam a standard layout: false
 Is union raj a standard layout: true
@@ -79,7 +79,7 @@ Is integer array 'int a[10]' a standard layout: true
 
 **程序 2** :带类
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_standard_layout  template
 
@@ -127,7 +127,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Is gfg class a standard layout: true
 Is structure sam a standard layout: true
 Is union raj a standard layout: true

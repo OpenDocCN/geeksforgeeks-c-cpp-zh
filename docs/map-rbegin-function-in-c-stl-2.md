@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 r_i rbegin();
 const_r_i rbegin() const;
 ```
@@ -21,7 +21,7 @@ const_r_i rbegin() const;
 
 **例 1:**
 
-```
+```cpp
 // C++ Program to illustrate
 // map::rbegin() method
 
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map contains following elements in reverse order
 e = 5
 d = 4
@@ -67,7 +67,7 @@ a = 1
 
 **例 2:**
 
-```
+```cpp
 // C++ Program to illustrate
 // map::rbegin() method
 
@@ -101,7 +101,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map contains following elements in reverse order
 e = E
 d = D

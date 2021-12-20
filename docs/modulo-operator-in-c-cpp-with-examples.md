@@ -7,7 +7,7 @@
 
 **语法:**如果 x 和 y 是整数，那么表达式:
 
-```
+```cpp
 x % y
 ```
 
@@ -23,7 +23,7 @@ x % y
 
 ## C++
 
-```
+```cpp
 // Program to illustrate the
 // working of modulo operator
 #include <iostream>
@@ -60,7 +60,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // Program to illustrate the
 // working of modulo operator
 
@@ -95,7 +95,7 @@ int main(void)
 
 **Output**
 
-```
+```cpp
 3
 1
 0
@@ -108,7 +108,7 @@ int main(void)
 
 ## C++
 
-```
+```cpp
 // Program to illustrate the
 // working of modulo operator
 #include <iostream>
@@ -137,7 +137,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Program to illustrate the
 // working of modulo operator
 
@@ -164,7 +164,7 @@ int main(void)
 
 **编译错误:**
 
-```
+```cpp
 Compilation Error in C code :- prog.c: In function 'main':
 prog.c:19:16: error:
  invalid operands to binary % (have 'float' and 'float')
@@ -176,7 +176,7 @@ prog.c:19:16: error:
 
 ## C++
 
-```
+```cpp
 // Program to illustrate the
 // working of the modulo operator
 #include <iostream>
@@ -215,7 +215,7 @@ int main(void)
 
 ## C
 
-```
+```cpp
 // Program to illustrate the
 // working of the modulo operator
 
@@ -252,7 +252,7 @@ int main(void)
 
 **Output**
 
-```
+```cpp
 -3
 0
 -3

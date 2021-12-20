@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```cpp
 *unordered_set_name*.cbegin(n)
 
 ```
@@ -21,7 +21,7 @@
 
 **程序 1** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::cbegin() function
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First element in the container is: 25
 First element in the bucket 4 is: 15
 
@@ -62,7 +62,7 @@ First element in the bucket 4 is: 15
 
 **程序 2** :
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_set::cbegin() function
 
@@ -95,7 +95,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 First element in the container is: Welcome
 First element in the bucket 0 is: GeeksforGeeks
 

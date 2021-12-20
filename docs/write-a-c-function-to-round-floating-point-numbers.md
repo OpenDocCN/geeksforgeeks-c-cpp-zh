@@ -12,7 +12,7 @@ num = 1.67，(int)num+0.5 =(int)2.17 = 2
 num =-1.67，(int)num–0.5 =-(int)2.17 =-2
  **实现:**
 
-```
+```cpp
 /* Program for rounding floating point numbers */
 # include<stdio.h>
 

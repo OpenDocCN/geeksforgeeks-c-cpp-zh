@@ -7,7 +7,7 @@
 有没有可能在没有朋友的情况下访问班级外的私人成员？
 是的，使用指针是可能的。以下面的程序为例。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -32,14 +32,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10
 
 ```
 
 **例 2:**
 
-```
+```cpp
 /*Program to initialize the private members and 
 display them without using member functions.*/
 
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x = 3
 y = 9
 
@@ -81,7 +81,7 @@ y = 9
 
 **例 3:**
 
-```
+```cpp
 /*Program to initialize and display
 private members using pointers.*/
 #include <bits/stdc++.h>
@@ -122,7 +122,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 x = 5 y = 4 z = 3
 
 ```

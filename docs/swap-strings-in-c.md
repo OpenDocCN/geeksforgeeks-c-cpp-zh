@@ -4,7 +4,7 @@
 
 让我们考虑下面的程序。
 
-```
+```cpp
 #include<stdio.h>
 void swap(char *str1, char *str2)
 {
@@ -31,7 +31,7 @@ int main()
 **方法 1(交换指针)**
 如果你是[使用字符串的字符指针](https://www.geeksforgeeks.org/storage-for-strings-in-c/)(不是数组)，那么改变 str1 和 str2 来指向彼此的数据。即交换指针。在一个函数中，如果我们想要改变一个指针(显然我们想要改变反映在函数之外)，那么我们需要传递一个指针给指针。
 
-```
+```cpp
 #include<stdio.h>
 
 /* Swaps strings by swapping pointers */ 
@@ -58,7 +58,7 @@ int main()
 **方法 2(交换数据)**
 如果你是[使用字符数组存储字符串](https://www.geeksforgeeks.org/storage-for-strings-in-c/)那么首选的方式是交换两个数组的数据。
 
-```
+```cpp
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>

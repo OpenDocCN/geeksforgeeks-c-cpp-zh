@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 bool isinf( float arg );
 ```
 
@@ -14,7 +14,7 @@ bool isinf( float arg );
 
 **或**
 
-```
+```cpp
 bool isinf( long double arg );
 ```
 
@@ -26,7 +26,7 @@ bool isinf( long double arg );
 
 **示例 1:-** 显示返回 1
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isnormal() function.
 
@@ -52,7 +52,7 @@ int main()
 
 **的无限情况输出:**
 
-```
+```cpp
 isinf(6.0/0.0) is = 1
 isinf(-1.2/0.0) is = 1
 
@@ -62,7 +62,7 @@ isinf(-1.2/0.0) is = 1
 
 **示例 2:-** 显示返回 0 的非无限情况
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isinf() function.
 
@@ -81,7 +81,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 isinf(0.0) is = 0
 isinf(sqrt(-1.0)) is = 0
 

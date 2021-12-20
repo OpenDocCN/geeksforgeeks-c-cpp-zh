@@ -4,7 +4,7 @@
 
 对许多读者来说，这听起来可能是一回事，即
 
-```
+```cpp
 class_type *var = NULL;
 *var = &some_work;
 
@@ -19,7 +19,7 @@ class_type *var = &some_work;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -66,7 +66,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -95,7 +95,7 @@ int main()
 
 **编译错误:**
 
-```
+```cpp
 prog.cpp: In constructor 'A::A(int)':
 prog.cpp:8:5: error: uninitialized reference member in 'int&' [-fpermissive]
      A(int w)

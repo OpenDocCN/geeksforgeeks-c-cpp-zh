@@ -4,7 +4,7 @@
 
 以下程序的输出？假设 char 的大小是 1 字节，int 的大小是 4 字节，编译器没有进行对齐。
 
-```
+```cpp
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -27,14 +27,14 @@ int main()  {
 
 **(甲)**
 
-```
+```cpp
 6
 12
 ```
 
 **(B)**
 
-```
+```cpp
 2
 8
 ```
@@ -42,7 +42,7 @@ int main()  {
 **(C)** 编译器错误:不能有多个模板参数。
 **(四)**
 
-```
+```cpp
 8
 8
 ```

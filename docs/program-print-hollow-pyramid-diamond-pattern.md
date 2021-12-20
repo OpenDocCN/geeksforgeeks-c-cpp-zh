@@ -7,7 +7,7 @@
 图案与金字塔图案相似。唯一的区别是，我们将用空格字符替换所有内部的' # '字符，并且我们将在最后一行中使用 2*N-1 (N =模式中的行数)' # '字符。
 **举例:**
 
-```
+```cpp
 Input rows: 6
 Output:
      #
@@ -21,7 +21,7 @@ Output:
 
 ## C++
 
-```
+```cpp
 // CPP program to print a hollow pyramid pattern
 #include <iostream>
 using namespace std;
@@ -62,7 +62,7 @@ void printPattern(int n)
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to print a hollow
 // pyramid pattern
 class GFG{
@@ -109,7 +109,7 @@ class GFG{
 
 ## 计算机编程语言
 
-```
+```cpp
 # Python program to print a hollow
 # pyramid pattern
 
@@ -144,7 +144,7 @@ printPattern(n)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // php program to print a
 // hollow pyramid pattern
@@ -196,7 +196,7 @@ printPattern($n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
       // JavaScript program to print a hollow pyramid pattern
       var n = 6;
@@ -238,7 +238,7 @@ printPattern($n);
 
 输出:
 
-```
+```cpp
 
      #
     # #

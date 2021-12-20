@@ -4,7 +4,7 @@
 
 考虑以下 C 程序。
 
-```
+```cpp
 // PROGRAM 1
 #include<stdio.h>
 
@@ -18,7 +18,7 @@ int main(void)
 
 上面的程序编译失败，但是下面的程序编译很好，打印了 1。
 
-```
+```cpp
 // PROGRAM 2
 #include<stdio.h>
 
@@ -33,7 +33,7 @@ int main(void)
 
 下面的程序打印 3，为什么？
 
-```
+```cpp
 // PROGRAM 3
 #include<stdio.h>
 

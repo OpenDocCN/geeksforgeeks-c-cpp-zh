@@ -20,7 +20,7 @@
 
 **例**:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -57,7 +57,7 @@ int main() 
 
 输出:
 
-```
+```cpp
 a = 10
 b = 20
 

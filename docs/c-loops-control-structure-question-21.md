@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-loops-control-structure-question-21/](https://www.geeksforgeeks.org/c-loops-control-structure-question-21/)
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

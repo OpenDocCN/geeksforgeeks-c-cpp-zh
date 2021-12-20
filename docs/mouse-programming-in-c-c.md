@@ -24,7 +24,7 @@
 
 ## ****C****
 
-```
+```cpp
 **// C program to show how to
 // enable Graphics mode
 #include <conio.h>
@@ -56,7 +56,7 @@ int main()
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to show how to
 // enable Graphics mode
 #include <bits/stdc++.h>
@@ -202,7 +202,7 @@ int main()
 
 ## ****C****
 
-```
+```cpp
 **// C program to check mouse status
 #include <conio.h>
 #include <dos.h>
@@ -249,7 +249,7 @@ int main()
 
 ## ****C++****
 
-```
+```cpp
 **// C++ program to check mouse status
 #include <bits/stdc++.h>
 #include <conio.h>

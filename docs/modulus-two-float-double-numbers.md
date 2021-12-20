@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to find modulo of floating
 // point numbers.
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to find modulo of floating
 // point numbers
 
@@ -97,7 +97,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find modulo
 # of floating point numbers.
 
@@ -130,7 +130,7 @@ print(findMod(a, b))
 
 ## C#
 
-```
+```cpp
 // C# program to find modulo of floating
 // point numbers
 using System;
@@ -174,7 +174,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find modulo 
 // of floatingpoint numbers.
@@ -212,7 +212,7 @@ function findMod($a, $b)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find
@@ -254,7 +254,7 @@ function findMod(a, b)
 
 **输出:**
 
-```
+```cpp
 0.5
 ```
 
@@ -262,7 +262,7 @@ function findMod(a, b)
 
 ## C++
 
-```
+```cpp
 // CPP program to find modulo of floating
 // point numbers using library function.
 #include <bits/stdc++.h>
@@ -279,7 +279,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // JAVA program to find modulo of floating
 // point numbers using library function.
 import java.util.*;
@@ -299,7 +299,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to find modulo of floating
 # point numbers using library function.
 from math import fmod
@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
 ## C#
 
-```
+```cpp
 // C# program to find modulo of floating
 // point numbers using library function.
 using System;
@@ -337,7 +337,7 @@ static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to find modulo of
 // floating point numbers using
@@ -354,7 +354,7 @@ echo fmod($a, $b);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript program to find modulo of
@@ -373,6 +373,6 @@ document.write(a%b);
 
 **输出:**
 
-```
+```cpp
 0.5
 ```

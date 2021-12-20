@@ -6,7 +6,7 @@
 
 [指向一个数组的指针](https://www.geeksforgeeks.org/pointer-array-array-pointer/)也称为[数组指针](https://www.geeksforgeeks.org/pointer-array-array-pointer/)。我们使用指针来访问数组的组件。
 
-```
+```cpp
   int a[3] = {3, 4, 5 }; 
   int *ptr = a; 
 
@@ -15,13 +15,13 @@
 我们有一个指针 ptr，它指向数组的第 0 个部分。我们同样可以声明一个指针，它可以指向整个数组，而不仅仅是数组的一个组件。
 **语法**:
 
-```
+```cpp
 data type (*var name)[size of array];
 ```
 
 数组指针的声明:
 
-```
+```cpp
 // pointer to an array of five numbers
  int (* ptr)[5] = NULL;     
 ```
@@ -30,7 +30,7 @@ data type (*var name)[size of array];
 
 **示例:**
 
-```
+```cpp
 // C program to demonstrate
 // pointer to an array.
 
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1
 2
 3
@@ -74,13 +74,13 @@ int main()
 “[指针数组](https://www.geeksforgeeks.org/pointers-in-c-and-c-set-1-introduction-arithmetic-and-array/)是一个[指针变量](https://www.geeksforgeeks.org/pointers-c-examples/)的数组。它也被称为指针数组。
 **语法**:
 
-```
+```cpp
 int *var_name[array_size];
 ```
 
 指针数组的声明:
 
-```
+```cpp
  int *ptr[3];
 ```
 
@@ -88,7 +88,7 @@ int *var_name[array_size];
 
 **示例:**
 
-```
+```cpp
 // C program to demonstrate
 // example of array of pointers.
 
@@ -122,7 +122,7 @@ void main()
 
 **Output:**
 
-```
+```cpp
 Value of arr[0] = 1
 Value of arr[1] = 2
 Value of arr[2] = 3
@@ -131,7 +131,7 @@ Value of arr[2] = 3
 
 **示例:**我们同样可以制作一个指向字符的指针数组来存储字符串列表。
 
-```
+```cpp
 #include <stdio.h>
 
 const int size = 4;
@@ -158,7 +158,7 @@ void main()
 
 **Output:**
 
-```
+```cpp
 amit
 amar
 ankit

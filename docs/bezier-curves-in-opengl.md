@@ -22,7 +22,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement Bezier Curves
 #include <GL/gl.h>
 #include <GL/glu.h>

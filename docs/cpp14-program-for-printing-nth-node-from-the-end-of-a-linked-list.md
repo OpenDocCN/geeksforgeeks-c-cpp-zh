@@ -16,7 +16,7 @@
 
 ## C++14
 
-```
+```cpp
 // Simple C++ program to find n'th node from end
 #include <bits/stdc++.h>
 using namespace std;
@@ -89,7 +89,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 35
 ```
 
@@ -104,7 +104,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Node no. 4 from last is 35 
 ```
 

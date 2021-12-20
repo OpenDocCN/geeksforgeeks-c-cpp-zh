@@ -8,7 +8,7 @@ C/C++中的**strcpn()**函数将两个字符串作为输入， **string_1** 和 
 
 **语法:**
 
-```
+```cpp
 size_t strcspn ( const char *string_1, const char *string_2 ) 
 
 ```
@@ -24,7 +24,7 @@ size_t strcspn ( const char *string_1, const char *string_2 )
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // strcspn() function
 #include <bits/stdc++.h>
@@ -56,14 +56,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The number of characters beforethe matched character are 12
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // strcspn() function When the string
 // containing the character to be
@@ -96,7 +96,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 geekforgeeks456 didn't matched any character from string_2
 
 ```

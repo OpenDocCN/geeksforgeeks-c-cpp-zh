@@ -12,7 +12,7 @@
 当将 str1 和 str2 作为参数传递给 **strcmp()** 函数时，它会逐个字符比较这两个字符串，直到出现空字符(' \0 ')。在我们的例子中，高达字符【T2 的】的两个字符串保持不变，但是在此之后 **str1** 的字符**【h】**的 ASCII 值为 104，而 **str2** 的空字符**的 ASCII 值为 0。由于 str1 字符的 ASCII 值大于 str2 字符的 ASCII 值，因此 *strcmp()* 函数返回大于零的值。因此，在 strcmp()函数中，字符串 str1 大于字符串 str2。
 当在 **strncmp()** 函数中传递这些参数时，第三个参数**num**up 想要比较字符串，然后它逐个字符地比较字符串直到 num(如果 num < =最小字符串的长度)或者直到最小字符串的 null 字符。在我们的例子中，两个字符串都有相同的字符直到 *num* ，所以 *strncmp()* 函数返回值零。因此，在 strncmp()函数中，字符串 str1 等于字符串 str2。**
 
-```
+```cpp
 // C, C++ program demonstrate difference between
 // strncmp() and strcmp()
 #include <stdio.h>
@@ -55,7 +55,7 @@ int main()
 
 输出:
 
-```
+```cpp
 str1 is equal to str2 upto num characters
 Value returned by strncmp() is: 0
 str1 is greater than str2

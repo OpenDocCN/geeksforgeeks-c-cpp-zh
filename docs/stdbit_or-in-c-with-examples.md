@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct bit_or;
 
 ```
@@ -31,7 +31,7 @@ template <class T> struct bit_or;
 
 **问题 1:**
 
-```
+```cpp
 // C++ program to show the
 // functionality of bit_or
 
@@ -66,7 +66,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Results: -3 2 5 101 1029
 
 ```
@@ -80,7 +80,7 @@ Results: -3 2 5 101 1029
 
 **问题 2:**
 
-```
+```cpp
 // C++ program to show the
 // functionality of bit_or
 
@@ -116,7 +116,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Results: 15 1103
 
 ```

@@ -24,7 +24,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // concept of Virtual Functions
 
@@ -73,7 +73,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 print derived class
 show base class
 ```
@@ -94,7 +94,7 @@ show base class
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // working of Virtual Functions
 #include <iostream>
@@ -144,7 +144,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 base-1
 derived-2
 base-3

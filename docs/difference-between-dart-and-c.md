@@ -25,7 +25,7 @@
 
 ## <u>C++</u>
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main() {
@@ -37,7 +37,7 @@ int main() {
 
 ## <u>镖</u>
 
-```
+```cpp
 import 'dart:io';
 void main(){
   var name = stdin.readLineSync();
@@ -48,7 +48,7 @@ void main(){
 
 ## <u>C++</u>
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -62,7 +62,7 @@ int main()
 
 ## <u>镖</u>
 
-```
+```cpp
 import 'dart:io';
 void main(){
   var name = stdin.readLineSync();

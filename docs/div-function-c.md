@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 div_t div(int numerator, int denominator);
 ldiv_t div(long numerator, long denominator);
 lldiv_t div(long long numerator, long long denominator);
@@ -20,7 +20,7 @@ lldiv_t div(long long numerator, long long denominator);
 
 ## C++
 
-```
+```cpp
 typedef struct
     {
     int quot; /* Quotient.  */
@@ -32,7 +32,7 @@ typedef struct
 
 ## C++
 
-```
+```cpp
 ldiv_t:
 struct ldiv_t {
     long quot;
@@ -59,7 +59,7 @@ struct lldiv_t {
 
 示例:
 
-```
+```cpp
 Input : div(40, 5)
 Output :quot = 8 rem = 0
 
@@ -74,7 +74,7 @@ Output : quot = -13 , rem = -1
 
 ## C++
 
-```
+```cpp
 // CPP program to illustrate
 // div() function
 #include <iostream>
@@ -103,7 +103,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Quotient of 100/6 = 16
 Remainder of 100/6 = 4
 Quotient of 19237012L/251L = 76641

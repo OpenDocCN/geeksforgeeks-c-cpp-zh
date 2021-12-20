@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 <iostream>
 
 ```
 
 **语法:**
 
-```
+```cpp
 streamsize gcount() const
 
 ```
@@ -26,7 +26,7 @@ streamsize gcount() const
 
 **程序 1:**
 
-```
+```cpp
 // C++ code to illustrate std::gcount()
 
 #include <bits/stdc++.h>
@@ -58,7 +58,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The count of characters in the string  is 13
 
 ```

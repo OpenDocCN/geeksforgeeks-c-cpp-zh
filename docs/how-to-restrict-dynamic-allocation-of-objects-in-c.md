@@ -7,14 +7,14 @@ C++编程语言允许自动(或堆栈分配)和动态分配对象。在 java & C
 
 **我们如何在 C++中实现类“Test”的以下行为？**
 
-```
+```cpp
 Test* t = new Test; // should produce compile time error
 Test t;    // OK 
 ```
 
 的思想是保持新的运算符函数私有，这样就不能调用 new。请参见以下程序。无法使用 new 创建“测试”类的对象，因为新运算符函数在“测试”中是私有的。如果我们取消 main()第二行的注释，程序将产生编译时错误。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -42,7 +42,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Constructor is called
 x = 9
 Destructor is executed

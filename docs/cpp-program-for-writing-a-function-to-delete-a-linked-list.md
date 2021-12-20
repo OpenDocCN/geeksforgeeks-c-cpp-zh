@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to delete a linked list
 #include <bits/stdc++.h>
 using namespace std;
@@ -85,7 +85,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Deleting linked list
 Linked list deleted
 ```

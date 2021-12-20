@@ -5,7 +5,7 @@
 给定一个[数组](https://www.geeksforgeeks.org/array-data-structure/)，任务是将这些数组元素复制到反向数组中的另一个数组中。
 **例:**
 
-```
+```cpp
 Input: array: 1 2 3 4 5 
 Output: 5 4 3 2 1 
 
@@ -17,7 +17,7 @@ Output: 50 40 30 20 10
 
 ## C++
 
-```
+```cpp
 // C program to copy the contents
 // of one array into another
 // in the reverse order
@@ -61,7 +61,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to copy the contents
 // of one array into another
 // in the reverse order
@@ -107,7 +107,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to copy the contents of one
 # array into another in the reverse order
 import math as mt
@@ -143,7 +143,7 @@ printArray(copied_arr, Len)
 
 ## C#
 
-```
+```cpp
 // C# program to copy the contents
 // of one array into another
 // in the reverse order
@@ -191,7 +191,7 @@ public static void Main()
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP program to copy the contents
 // of one array into another
@@ -233,7 +233,7 @@ printArray($copied_arr, $len);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to copy the contents
@@ -272,7 +272,7 @@ printArray(copied_arr, len);
 
 **Output:** 
 
-```
+```cpp
 Original array: 1 2 3 4 5 
 Resultant array: 5 4 3 2 1
 ```

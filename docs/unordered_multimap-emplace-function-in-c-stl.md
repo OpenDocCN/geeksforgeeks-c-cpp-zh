@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multimap_name.emplace(key, element)
 ```
 
@@ -18,7 +18,7 @@ unordered_multimap_name.emplace(key, element)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multimap::emplace()
 #include <iostream>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements: 
  {60:89}
  {4:9}
@@ -61,7 +61,7 @@ Key and Elements:
 
 **程序 2:**
 
-```
+```cpp
 // unordered_multimap::emplace
 #include <iostream>
 #include <string>
@@ -91,7 +91,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Key and Elements: 
  {multimap:functions}
  {multimap:functions}

@@ -63,7 +63,7 @@ Copy 是将选中的文件或文件夹复制一份，放在另一个驱动器或
 **1。编写一个程序从用户那里读取一个数字，并检查给定的数字是否是质数。5**
 你可以参考:[检查一个数字是否是质数](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/)
 
-```
+```cpp
 // C++ program to check if a
 // number is prime
 
@@ -110,7 +110,7 @@ int main()
 
 **2。编写一个函数来计算以下级数:1+X/X<sup>2</sup>+2X/X<sup>3</sup>+3X/X<sup>4</sup>+………..+ NX / X <sup>N+1</sup>**
 
-```
+```cpp
 // C++ program to find sum of series
 // 1 + X / X<sup>2</sup>
 //+ 2X / X<sup>3</sup>+ …… + NX / X<sup>N+1
@@ -149,7 +149,7 @@ int main()
 
 **4。找出错误，画线并改正 4**
 
-```
+```cpp
 Void main()
 {
     int a, b = 2;
@@ -169,7 +169,7 @@ Void main()
 
 **正确代码:**
 
-```
+```cpp
 #include <iostream.h>
 void main()
 {
@@ -189,7 +189,7 @@ void main()
 
 **5。写一个程序来[求给定数的阶乘](https://www.geeksforgeeks.org/program-for-factorial-of-a-number/)。4**
 
-```
+```cpp
 // C++ program to illustrate the
 // before_begin() function
 #include <bits/stdc++.h>
@@ -215,7 +215,7 @@ int main()
 
 **6。编写一个函数来接受一个字符串、一个字符和一个整数。现在，字符串中“位置”处的“字符串”字符应替换为字符“Ch”4**
 
-```
+```cpp
 // C++ program for above implementation
 #include <iostream>
 using namespace std;
@@ -248,7 +248,7 @@ int main()
 
 **7。写一个程序来读取一个矩阵，然后打印这个矩阵的转置。4**
 
-```
+```cpp
 #include <iostream>
 #define N 4
 

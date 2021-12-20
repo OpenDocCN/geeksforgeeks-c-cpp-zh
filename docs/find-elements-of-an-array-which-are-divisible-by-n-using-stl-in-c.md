@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: a[] = {1, 2, 3, 4, 5, 10}, N = 2
 Output: 3
 Explanation:
@@ -25,7 +25,7 @@ Therefore the output is 3
 
 **语法:**
 
-```
+```cpp
 count_if(lower_bound, upper_bound, function)
 
 ```
@@ -34,7 +34,7 @@ count_if(lower_bound, upper_bound, function)
 
 在这种情况下，函数将是:
 
-```
+```cpp
 bool isDiv(int i)
 {
     if (i % N == 0)
@@ -47,7 +47,7 @@ bool isDiv(int i)
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ simple program to
 // find elements which are
 // divisible by N
@@ -86,7 +86,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Elements divisible by 2: 3
 
 ```

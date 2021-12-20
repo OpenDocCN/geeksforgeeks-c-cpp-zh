@@ -16,7 +16,7 @@
 
 在运行代码之前，请确保您的系统上安装了 OpenCV。
 
-```
+```cpp
 // Title: OpenCV C++ Program to blur an image.
 // Import the core header file
 #include <opencv2/core/core.hpp> 

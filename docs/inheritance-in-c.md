@@ -25,7 +25,7 @@
 **在 C++** 中实现继承:为了创建从基类继承的子类，我们必须遵循下面的语法。
 **语法**:
 
-```
+```cpp
 class subclass_name : access_mode base_class_name
 {
   //body of subclass
@@ -37,7 +37,7 @@ class subclass_name : access_mode base_class_name
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate implementation
 // of Inheritance
 
@@ -77,7 +77,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Child id is 7
 Parent id is 91
 
@@ -94,7 +94,7 @@ Parent id is 91
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ Implementation to show that a derived class
 // doesn’t inherit access to private data members.
 // However, it does inherit a full parent object

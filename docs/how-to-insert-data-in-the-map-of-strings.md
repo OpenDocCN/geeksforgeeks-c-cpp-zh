@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```cpp
 map<data type of key, data type of value> M
 ```
 
 要在 [C++](https://www.geeksforgeeks.org/c-plus-plus/) 中对地图使用上述语法，必须包含以下头文件:
 **头文件:**
 
-```
+```cpp
 #include <map>
 ```
 
@@ -21,7 +21,7 @@ map<data type of key, data type of value> M
 
 **语法:**
 
-```
+```cpp
 iterator map_name.insert({key, element})
 ```
 
@@ -33,7 +33,7 @@ iterator map_name.insert({key, element})
 
 ## C++
 
-```
+```cpp
 // C++ program to store the string as
 // the map value
 #include <iostream>
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 abc    cba
 bca    abc
 
@@ -80,7 +80,7 @@ bca    abc
 
 **语法:**
 
-```
+```cpp
 iterator map_name.insert(iterator position, {key, element})
 ```
 
@@ -95,7 +95,7 @@ iterator map_name.insert(iterator position, {key, element})
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the map
 // insert(iteratorposition, {key, element})
 #include <iostream>
@@ -134,7 +134,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 KEY    ELEMENT
 abc    30
 bcd    40

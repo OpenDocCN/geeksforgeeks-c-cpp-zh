@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T>
 struct is_trivially_destructible;
 
@@ -21,7 +21,7 @@ struct is_trivially_destructible;
 
 **语法:**
 
-```
+```cpp
 std::is_trivially_destructible<T>::value
 
 ```
@@ -37,7 +37,7 @@ std::is_trivially_destructible<T>::value
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_trivially_destructible
 #include <bits/stdc++.h>
@@ -115,7 +115,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int: true
 struct X: false
 struct Y: true

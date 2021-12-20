@@ -17,7 +17,7 @@ C++ STL 中存在各种各样的 copy()，允许以不同的方式执行复制�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of copy()
 // and copy_n()
 
@@ -59,7 +59,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The new vector elements entered using copy() : 1 5 7 0 0 0 
 The new vector elements entered using copy_n() : 1 5 7 3 0 0 
 ```
@@ -70,7 +70,7 @@ The new vector elements entered using copy_n() : 1 5 7 3 0 0
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working of copy_if()
 // and copy_backward()
 
@@ -113,7 +113,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 The new vector elements entered using copy_if() : 1 5 3 3 0 0 
 The new vector elements entered using copy_backward() : 0 1 5 6 3 0 
 ```
@@ -130,7 +130,7 @@ inserter()接受两个参数。第一个是任意类型的容器，第二个是�
 
 插入器()的语法:
 
-```
+```cpp
 std::inserter(Container& x, typename Container::iterator it);
 
 x: Destination container where the new elements will 
@@ -143,13 +143,13 @@ x at the position indicated by it.
 
 使用插入器()复制的语法:
 
-```
+```cpp
 copy(strt_iter1, end_iter1, inserter(Container& x, typename Container::iterator it));
 ```
 
 ## C++
 
-```
+```cpp
 // C++ code to demonstrate the working of copy() using inserter()
 
 #include <iostream>
@@ -176,7 +176,7 @@ int main()
 
 输出:
 
-```
+```cpp
 The new vector elements entered using inserter: 1 5 7 3 8 3 
 ```
 

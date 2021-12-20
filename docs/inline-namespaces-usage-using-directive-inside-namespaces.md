@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of
 // inline namespaces
 #include <iostream>
@@ -30,7 +30,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -38,7 +38,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working of
 // inline namespaces inside inline namespaces
 
@@ -65,7 +65,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 
@@ -74,7 +74,7 @@ int main()
 
 *   **避免啰嗦:**考虑上面的代码，如果要打印“var”，就写:
 
-```
+```cpp
   cout << ns1::ns2::ns3::var;
 ```
 
@@ -87,7 +87,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to demonstrate working
 // of "using" to get the same effect as
 // inline.
@@ -117,7 +117,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 10
 ```
 

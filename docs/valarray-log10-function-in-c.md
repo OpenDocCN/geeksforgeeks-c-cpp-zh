@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 log10(varr);
 ```
 
@@ -18,7 +18,7 @@ log10(varr);
 
 **实施例 1:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of log10() function.
 
@@ -54,7 +54,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 0 0.30103 0.477121 0.60206 0.69897
 
@@ -62,7 +62,7 @@ The new valarray with manipulated values is :
 
 **实施例 2:-**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of log10() function.
 
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The new valarray with manipulated values is : 
 nan 0.778151 0.477121 1.65321 0.69897
 

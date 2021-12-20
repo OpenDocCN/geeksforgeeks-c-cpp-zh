@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: {1, 45, 54, 71, 76, 12}
 Output: 76
 
@@ -19,12 +19,12 @@ Output: 12
 
 **语法:**
 
-```
+```cpp
 *max_element (first_index, last_index);
 
 ```
 
-```
+```cpp
 // C++ program to find the max
 // of Array using *max_element() in STL
 
@@ -51,7 +51,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Vector: 1 45 54 71 76 12 
 
 Max Element = 76

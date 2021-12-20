@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 swap(a, b)
 
 ```
@@ -19,7 +19,7 @@ swap(a, b)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program for illustration of swap() function
 #include <bits/stdc++.h>
 using namespace std;
@@ -41,7 +41,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of a before: 10
 Value of b before: 20
 Value of a now: 20
@@ -51,7 +51,7 @@ Value of b now: 10
 
 **程序 2:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -70,7 +70,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Value of a before: Geeks
 Value of b before: function
 Value of a now: function

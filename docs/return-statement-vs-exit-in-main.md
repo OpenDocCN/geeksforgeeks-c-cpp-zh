@@ -8,7 +8,7 @@
 
 **程序 1––使用退出(0)退出**
 
-```
+```cpp
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
@@ -40,7 +40,7 @@ int main() {
 
 **程序 2–使用返回 0 退出**
 
-```
+```cpp
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
@@ -75,7 +75,7 @@ T4*
 
 请注意，即使我们调用 exit()，静态对象也会被清除。例如，参见以下程序。
 
-```
+```cpp
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>

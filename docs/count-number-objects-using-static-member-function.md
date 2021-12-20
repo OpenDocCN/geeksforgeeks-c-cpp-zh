@@ -17,7 +17,7 @@
 
 示例:
 
-```
+```cpp
 Input : Here  we are not asking for input from the user
 Output :count:2
 count:3
@@ -34,7 +34,7 @@ object number :3
 
 ```
 
-```
+```cpp
 // C++ program to Count the number of objects
 // using the Static member function
 #include <iostream>
@@ -79,7 +79,7 @@ int main()
 
 输出:
 
-```
+```cpp
 count:2
 count:3
 object number :1

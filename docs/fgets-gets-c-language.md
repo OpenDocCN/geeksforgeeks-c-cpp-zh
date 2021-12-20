@@ -9,7 +9,7 @@
 它从指定的流中读取一行，并将其存储到 str 指向的字符串中。当读取(n-1)个字符、读取换行符或到达文件结尾时(以先到者为准)，它停止。
 **语法:**
 
-```
+```cpp
 char *fgets(char *str, int n, FILE *stream)
 str : Pointer to an array of chars where the string read is copied.
 n : Maximum number of characters to be copied into str 
@@ -27,7 +27,7 @@ returns : the function returns str
 
 例如:假设最大字符数为 15，输入长度大于 15，但 fgets()仍然只能读取 15 个字符并打印出来。
 
-```
+```cpp
 // C program to illustrate
 // fgets()
 #include <stdio.h>
@@ -44,7 +44,7 @@ int main()
 
 因为 fgets()从用户那里读取输入，所以我们需要在运行时提供输入。
 
-```
+```cpp
 Input:
 Hello and welcome to GeeksforGeeks
 
@@ -58,7 +58,7 @@ Hello and welc
 从标准输入(stdin)中读取字符，并将它们作为 C 字符串存储到 str 中，直到到达换行符或文件结尾。
 **语法:**
 
-```
+```cpp
 char * gets ( char * str );
 str :Pointer to a block of memory (array of char) 
 where the string read is copied as a C string.
@@ -71,7 +71,7 @@ returns : the function returns str
 
 示例:假设我们有一个 15 个字符的字符数组，并且输入大于 15 个字符，get()将读取所有这些字符并将它们存储到变量中。因为，get()不检查输入字符的最大限制，所以在任何时候编译器都可能返回缓冲区溢出错误。
 
-```
+```cpp
 // C program to illustrate
 // gets()
 #include <stdio.h>
@@ -91,7 +91,7 @@ int main()
 
 由于 get()从用户那里读取输入，我们需要在运行时提供输入。
 
-```
+```cpp
 Input:
 Hello and welcome to GeeksforGeeks
 

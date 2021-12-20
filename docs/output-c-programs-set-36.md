@@ -4,7 +4,7 @@
 
 **问题 1** 。假设 int 的大小是 4 字节，下面的输出是什么？
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -26,7 +26,7 @@ B) 4
 C) 8
 D)编译错误
 
-```
+```cpp
 Answer : B
 ```
 
@@ -35,7 +35,7 @@ Answer : B
 
 **问题 2** 。下面的输出是什么
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -52,7 +52,7 @@ B) 2
 C)编译错误
 D)运行时错误
 
-```
+```cpp
 Answer : B
 ```
 
@@ -61,7 +61,7 @@ Answer : B
 
  **问题 3** 。下面的输出是什么
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -77,7 +77,7 @@ B)20
 C)11
 D)21
 
-```
+```cpp
 Answer : C
 ```
 
@@ -86,7 +86,7 @@ Answer : C
 
  **Ques 4** 。下面的输出是什么
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -120,7 +120,7 @@ B)5
 C)10
 D)20
 
-```
+```cpp
 Answer : D
 ```
 
@@ -130,7 +130,7 @@ Answer : D
 
 **问题 5。**以下输出是什么
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 struct a {
@@ -156,7 +156,7 @@ B)错误
 C)运行时错误
 D)上述都没有
 
-```
+```cpp
 Answer : A
 ```
 

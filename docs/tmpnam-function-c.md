@@ -8,7 +8,7 @@ tmpnam()函数是一个特殊的函数，在“stdio.h”头文件中声明。�
 
 **语法:**
 
-```
+```cpp
 char *tmpnam(char *str)
 s : The character array to copy the file name.
 It generates and returns a valid temporary 
@@ -16,7 +16,7 @@ filename which does not exist.
 If str is null then it simply returns the tmp file name.
 ```
 
-```
+```cpp
 // C program to generate random temporary file names.
 #include <stdio.h>
 int main(void)
@@ -32,7 +32,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 The file names are dependent on running machine, which can be anything.
 Example: /tmp/fileRTOA0m
          \s260.

@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: S = "0001", K = 2
 Output: 0
 We have 3 choices {"0", "001"}, {"00", "01"}, {"000", 1}
@@ -30,7 +30,7 @@ Output: 1
 
 因此，递归公式将是–
 
-```
+```cpp
 F(start, current_bucket) =  |           |
                             |       min |  F(i + 1, next_bucket) + (ones * zeroes in current_bucket)  
                             |           |   
@@ -44,7 +44,7 @@ F(start, current_bucket) =  |           |
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -137,7 +137,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 import java.io.*;
 import java.util.*;
@@ -249,7 +249,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 
 # 2-D dp array saving different states
@@ -338,7 +338,7 @@ print(solve(S, K))
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 class GFG
@@ -451,7 +451,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // Javascript implementation of the approach
@@ -561,7 +561,7 @@ document.write(solve(S, K));
 
 **Output:** 
 
-```
+```cpp
 2
 ```
 
@@ -572,7 +572,7 @@ T5】空间复杂度: O(N <sup>2</sup>
 
 **自下而上的动态法:**我们先试着思考一下最终状态。这里的变量是桶的数量和字符串的索引。假设 **dp[i][j]是字符串元素 0 到 j-1 和 I 桶的乘积的最小和。**现在要定义我们的转换函数，我们必须从后面开始，考虑每个可能位置 k 的分区。因此，我们的转换函数看起来像:
 
-```
+```cpp
 dp [i][j] = for all k = 0 to j min(dp[i][k-1] + numberOfZeroes * numberOfOnes)
 
 for i = 0 (single partition) simple count number of 0's and 1's and do the multiplication. 
@@ -584,7 +584,7 @@ the available buckets.
 
 ## C++
 
-```
+```cpp
 // C++ implementation of the approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -666,7 +666,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java implementation of the approach
 
 class GFG
@@ -751,7 +751,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 implementation of the approach
 import sys
 
@@ -825,7 +825,7 @@ print(solve(S, K))
 
 ## C#
 
-```
+```cpp
 // C# implementation of the approach
 using System;
 
@@ -913,7 +913,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript implementation of the approach
@@ -1004,7 +1004,7 @@ class GFG
 
 **Output:** 
 
-```
+```cpp
 2
 ```
 

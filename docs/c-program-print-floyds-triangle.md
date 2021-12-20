@@ -4,7 +4,7 @@
 
 [弗洛伊德三角形](http://en.wikipedia.org/wiki/Floyd%27s_triangle)是第一自然数的三角形。
 
-```
+```cpp
 1
 2     3
 4     5     6
@@ -16,7 +16,7 @@
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -44,7 +44,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // Without using a temporary variable and with only one loop
 #include<stdio.h>
 void floyd(n){
@@ -67,7 +67,7 @@ int main(){
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to print
 // Floyd's triangle
 class GFG
@@ -97,7 +97,7 @@ class GFG
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python3 program to print
 # Floyd's triangle
 def loydTriangle(n):
@@ -119,7 +119,7 @@ loydTriangle(6)
 
 ## C#
 
-```
+```cpp
 // C# program to print
 // Floyd's triangle
 using System;
@@ -150,7 +150,7 @@ class GFG
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```cpp
 <?php
 // PHP code to print Floyd's Triangle
 
@@ -183,7 +183,7 @@ FloydsTriangle($n);
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 // Javascript implementation
 function printFloydTriangle(n)
@@ -207,7 +207,7 @@ printFloydTriangle(6);
 
 **输出:**
 
-```
+```cpp
 1
 2 3
 4 5 6

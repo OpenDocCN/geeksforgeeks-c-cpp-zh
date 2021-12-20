@@ -19,7 +19,7 @@
 
 下面是用 C++生成 RGBA 门户图形图像的程序:
 
-```
+```cpp
 // C++ program to generate PNG images
 
 #include <iostream>

@@ -14,7 +14,7 @@
 **示例** :
 现在我们要打印电脑极客的标记，他们的名字和标记如下
 
-```
+```cpp
   Name        Marks
        Jessie       100
        Suraj        91
@@ -24,7 +24,7 @@
 
 ```
 
-```
+```cpp
 // CPP program to demonstrate associative arrays
 #include <bits/stdc++.h>
 using namespace std;
@@ -56,7 +56,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The marks of all students are
 84 100 99 78 91 
 the marks of Computer geek Jessie are 100

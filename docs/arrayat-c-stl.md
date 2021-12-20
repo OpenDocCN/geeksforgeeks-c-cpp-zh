@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```cpp
 array_name.at(position)
 
 Parameters:
@@ -21,7 +21,7 @@ Position of the element to be fetched.
 
 **示例:**
 
-```
+```cpp
 Input:  array_name1 = [1, 2, 3]
         array_name1.at(2);
 Output: 3
@@ -32,7 +32,7 @@ Output: e
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of at() function
 #include <bits/stdc++.h>
@@ -63,7 +63,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Element present at position 2: 3
 Element present at position 4: e
 
@@ -74,13 +74,13 @@ Element present at position 4: e
 **应用:**
 给定一个整数数组，从第一个位置开始以交替方式打印整数。
 
-```
+```cpp
 Input:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 Output: 2 4 6 8 10
 
 ```
 
-```
+```cpp
 // CPP program to illustrate
 // application of at() function
 #include <bits/stdc++.h>
@@ -107,7 +107,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 2 4 6 8 10 
 
 ```

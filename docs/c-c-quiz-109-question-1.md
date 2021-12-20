@@ -4,7 +4,7 @@
 
 在下面的程序片段中，s1 和 s2 都是如下定义的结构类型的变量，不会有任何编译问题。
 
-```
+```cpp
 typedef struct Student
 {
  int rollno;

@@ -4,7 +4,7 @@
 
 在 C 语言中，比较运算结果的数据类型是 int。例如，请参见以下程序。
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {
@@ -17,14 +17,14 @@ int main()
 
 输出:
 
-```
+```cpp
 4
 4
 ```
 
 而在 C++中，比较运算的结果类型是 bool。例如，请参见以下程序。
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 1
 ```

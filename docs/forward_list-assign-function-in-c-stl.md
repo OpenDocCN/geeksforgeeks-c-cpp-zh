@@ -5,7 +5,7 @@
 forward_list::assign()是 C++ STL 中的一个函数，它将新内容赋给一个 forward list，替换其当前内容，并根据需要调整其大小。
 **语法:**
 
-```
+```cpp
 Version 1:forward_list_name.assign(iterator it1, iterator it2)
 Version 2:forward_list_name.assign(int n, val)
 Version 3:forward_list_name.assign(initializer_list li)
@@ -23,7 +23,7 @@ Version 3:forward_list_name.assign(initializer_list li)
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate the
 // forward_list::assign() function
 
@@ -61,7 +61,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sample1: 3 3 3 3 3 
 sample2: 3 3 3 3 3
 ```
@@ -70,7 +70,7 @@ sample2: 3 3 3 3 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate the
 // forward_list::assign() function
 
@@ -95,6 +95,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 sample: 4 5 7 8 9 45
 ```

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include <functional.h>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template <class T> struct less_equal {
 
   // Declaration of the 
@@ -40,7 +40,7 @@ template <class T> struct less_equal {
 
 **语法:**
 
-```
+```cpp
 std::bind2nd(std::less_equal(), K)
 
 ```
@@ -56,7 +56,7 @@ std::bind2nd(std::less_equal(), K)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate less_equal
 #include <algorithm>
 #include <functional>
@@ -91,14 +91,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 0 1 2 3 4 5 6 7 8 9
 
 ```
 
 **程序二:**
 
-```
+```cpp
 // C++ program to illustrate less_equal
 #include <functional>
 #include <iostream>
@@ -133,7 +133,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 20 30 30 50 60 75
 
 ```

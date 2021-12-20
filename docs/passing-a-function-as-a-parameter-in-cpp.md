@@ -18,7 +18,7 @@
 
 ## **C++**
 
-```
+```cpp
 // C++ program to pass function as a
 // pointer to any function
 
@@ -66,7 +66,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Addition of 20 and 10 is 30
 Multiplication of 20 and 10 is 200
 
@@ -86,7 +86,7 @@ Multiplication of 20 and 10 is 200
 
 ## **C++**
 
-```
+```cpp
 // C++ program to illustrate the passing
 // of functions as an object parameter
 #include <functional>
@@ -133,7 +133,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Addition of 20 and 10 is 30
 Multiplication of 20 and 10 is 200
 
@@ -145,7 +145,7 @@ Multiplication of 20 and 10 is 200
 
 ## **C++**
 
-```
+```cpp
 // C++ program to pass the function as
 // parameter as a lambda expression
 #include <functional>
@@ -196,7 +196,7 @@ int main()
 
 ****Output:**
 
-```
+```cpp
 Addition of 20 and 10 is 30
 Multiplication of 20 and 10 is 200
 

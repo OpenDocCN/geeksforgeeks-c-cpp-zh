@@ -7,7 +7,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate difference between
 // emplace and insert
 #include<bits/stdc++.h>
@@ -38,7 +38,7 @@ int main()
 
 输出:
 
-```
+```cpp
  a 24
  b 25
 ```

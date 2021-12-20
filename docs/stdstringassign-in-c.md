@@ -5,7 +5,7 @@
 成员函数 **assign()** 用于赋值，它为字符串赋值一个新值，替换其当前内容。
 **语法 1:** 赋值字符串 str。
 
-```
+```cpp
 string& string::assign (const string& str)
 
 str :  is the string to be assigned.
@@ -15,7 +15,7 @@ Returns : *this
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for assign (const string& str)
 #include <iostream>
 #include <string>
@@ -46,7 +46,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World!
 After assign() : GeeksforGeeks
 
@@ -54,7 +54,7 @@ After assign() : GeeksforGeeks
 
 **语法 2:** 从索引 str_idx 开始最多分配字符串的 str_num 个字符。如果 str_idx > str，则抛出范围外。大小()。
 
-```
+```cpp
 string& string::assign (const string& str, size_type str_idx, size_type str_num)
 
 str : is the string to be assigned.
@@ -67,7 +67,7 @@ Return : *this
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // assign(const string& str, size_type
 // str_idx, size_type str_num)
@@ -102,7 +102,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World!
 After assign() : forGeeks
 
@@ -110,7 +110,7 @@ After assign() : forGeeks
 
 **语法 3:** 指定 C 字符串 cstr 的字符。如果结果大小超过最大字符数，它将引发 length_error。
 
-```
+```cpp
 string & string::assign (const char* cstr)
 
 Assigns all characters of cstr up to but not including '\0'.
@@ -121,7 +121,7 @@ Note : that cstr may not be a null pointer (NULL).
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for assign (const char* cstr)
 
 #include <iostream>
@@ -152,7 +152,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World!
 After assign() : GeeksforGeeks
 
@@ -160,7 +160,7 @@ After assign() : GeeksforGeeks
 
 **语法 4:** 分配字符数组字符的 chars_len 字符。如果结果大小超过最大字符数，它将引发 length_error。
 
-```
+```cpp
 string& string::assign (const char* chars, size_type chars_len)
 
 *chars : is the pointer to the array to be assigned.
@@ -173,7 +173,7 @@ Returns : *this.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code to illustrate
 // string& string::assign
 // (const char* chars, size_type chars_len)
@@ -207,7 +207,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World!
 After assign() : Geeks
 
@@ -215,7 +215,7 @@ After assign() : Geeks
 
 **语法 5:** 指定字符 c 出现的次数。如果次数等于字符串::NPO，将引发 length_error
 
-```
+```cpp
 string & string::assign (size_type num, char c)
 
 num :  is the number of occurrences to be assigned.
@@ -227,7 +227,7 @@ Returns : *this.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for string&
 // string::assign (size_type num, char c)
 
@@ -260,7 +260,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : #########
 After assign() : xxxxxxxxxx
 
@@ -268,7 +268,7 @@ After assign() : xxxxxxxxxx
 
 **语法 6:** 分配范围内的所有字符[beg，end。如果范围超出字符串的实际内容，它将抛出**长度错误**。
 
-```
+```cpp
 template <class InputIterator>
    string& assign (InputIterator first, InputIterator last)
 first, last : Input iterators to the initial and final positions 
@@ -280,7 +280,7 @@ Returns : *this.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for string&
 // string::assign (size_type num, char c)
 
@@ -315,7 +315,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Original String : Hello World!
 After assign() : World!
 

@@ -12,7 +12,7 @@
 2.  如果需要从向量中移除多个元素，std::remove 会将每个未移除的元素仅复制一次到其最终位置，而 vector::erase 方法会将所有元素从该位置移动到末尾多次。
 3.  For Example, Consider removing all elements < 5 in following vector.
 
-    ```
+    ```cpp
     std::vector v { 1, 2, 3, 4, 5 };
     // remove all elements < 5
 
@@ -24,7 +24,7 @@
 
 4.  因此，erase()是您可以对容器中的元素执行的操作，remove()是您可以对某个范围执行的操作，因为它会重新排列该范围，但不会擦除该范围内的任何内容..
 
-```
+```cpp
 // CPP program to illustrate
 // difference b/w std::remove
 // and std::vector::erase algorithm
@@ -74,7 +74,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Original vector : 10 20 30 30 20 10 10 20
 Range contains: 10 30 30 10 10
 

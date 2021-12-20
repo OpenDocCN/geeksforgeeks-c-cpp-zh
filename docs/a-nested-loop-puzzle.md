@@ -6,7 +6,7 @@
 
 ## C
 
-```
+```cpp
 /* FIRST */
 for(i=0;i<10;i++)
   for(j=0;j<100;j++)
@@ -15,7 +15,7 @@ for(i=0;i<10;i++)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # FIRST
 for i in range(10):
     for j in range(100):
@@ -26,7 +26,7 @@ for i in range(10):
 
 ## C
 
-```
+```cpp
 /* SECOND */
 for(i=0;i<100;i++)
   for(j=0;j<10;j++)
@@ -35,7 +35,7 @@ for(i=0;i<100;i++)
 
 ## 蟒蛇 3
 
-```
+```cpp
 # SECOND
 for i in range(100):
     for j in range(10):
@@ -56,7 +56,7 @@ for i in range(100):
 
 ## C++
 
-```
+```cpp
 // C++ program to count number of increment
 // operations in FIRST and SECOND
 #include<iostream>
@@ -85,7 +85,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 // Java program to count number of increment
 // operations in FIRST and SECOND
 
@@ -111,7 +111,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 # Python program to count number of increment
 # operations in FIRST and SECOND
 c1 = 0
@@ -137,7 +137,7 @@ print("Count in SECOND  = " ,c2)
 
 ## C#
 
-```
+```cpp
 // C# program to count number of increment
 // operations in FIRST and SECOND
 using System;
@@ -168,7 +168,7 @@ public static void Main (String[] args)
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 // JavaScript program to count number of increment
@@ -192,7 +192,7 @@ public static void Main (String[] args)
 
 **Output**
 
-```
+```cpp
  Count in FIRST = 1010
  Count in SECOND  = 1100
 ```
@@ -201,7 +201,7 @@ public static void Main (String[] args)
 
 ## C++
 
-```
+```cpp
 //program to count the number of comparison
 //operations executed by FIRST and SECOND */
 #include<iostream>
@@ -229,7 +229,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
 import java.io.*;
@@ -257,7 +257,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```cpp
 #program to count the number of comparison
 #operations executed by FIRST and SECOND */
 
@@ -292,7 +292,7 @@ print(" Count fot SECOND  " , c2)
 
 ## C#
 
-```
+```cpp
 /*package whatever //do not write package name here */
 
 using System;
@@ -324,7 +324,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```cpp
 <script>
 
 /*package whatever //do not write package name here */
@@ -353,7 +353,7 @@ class GFG {
 
 **Output**
 
-```
+```cpp
  Count for FIRST  1021
  Count for SECOND  1201
 

@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-string-question-13/](https://www.geeksforgeeks.org/c-string-question-13/)
 
-```
+```cpp
 int main()
 {
     char p[] = "geeksquiz";

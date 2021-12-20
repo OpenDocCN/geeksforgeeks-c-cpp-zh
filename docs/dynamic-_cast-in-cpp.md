@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the use
 // of typecasting
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Result: 800
 
 ```
@@ -56,7 +56,7 @@ Result: 800
 
 ## C++
 
-```
+```cpp
 // C++ program to read the values of two
 // variables and stored the result in
 // third one
@@ -79,7 +79,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Result:3
 
 ```
@@ -90,7 +90,7 @@ Result:3
 
 ## C++
 
-```
+```cpp
 // C++ program to read two variable value
 // (a, b) and perform typecasting
 #include <iostream>
@@ -114,7 +114,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Result :3.5
 
 ```

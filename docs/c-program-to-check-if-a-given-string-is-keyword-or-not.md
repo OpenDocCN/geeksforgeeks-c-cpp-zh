@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```cpp
 Input: str = "geeks"
 Output: geeks is not a keyword
 
@@ -18,7 +18,7 @@ Output: for is a keyword
 
 ```
 
-```
+```cpp
 // C program to check whether a given
 // string is a keyword or not
 #include <stdbool.h>
@@ -63,7 +63,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 No
 Yes
 

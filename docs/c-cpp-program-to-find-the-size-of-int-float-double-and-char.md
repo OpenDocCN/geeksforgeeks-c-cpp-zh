@@ -8,7 +8,7 @@
 
 **示例**:
 
-```
+```cpp
 Input: int
 Output: Size of int = 4
 
@@ -44,7 +44,7 @@ Output: Size of double = 8
 
 ## C
 
-```
+```cpp
 // C program to find the size of int, char,
 // float and double data types
 
@@ -83,7 +83,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to find the size of int, char,
 // float and double data types
 #include <iostream>
@@ -122,7 +122,7 @@ int main() 
 
 **Output:**
 
-```
+```cpp
 Size of int is: 4
 Size of char is: 1
 Size of float is: 4

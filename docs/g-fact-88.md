@@ -4,7 +4,7 @@
 
 考虑以下 *[free()](http://www.cplusplus.com/reference/clibrary/cstdlib/free/)* 函数的原型，该函数用于释放使用 *malloc()* 或 *calloc()* 或 *realloc()* 分配的内存。
 
-```
+```cpp
 void free(void *ptr);
 ```
 

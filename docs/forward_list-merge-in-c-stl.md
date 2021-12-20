@@ -10,7 +10,7 @@ merge()函数有两种用法:
 
 **语法:**
 
-```
+```cpp
 forwardlist_name1.merge(forward_list& forwardlist_name2)
                   or
 forwardlist_name1.merge(forward_list& forwardlist_name2, Compare comp)
@@ -26,7 +26,7 @@ forwardlist_name1.merge(forward_list& forwardlist_name2, Compare comp)
 以下程序说明上述功能:
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // forward_list::merge() function
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 List contains following elements
 10 12 20 25 30 31 41
 
@@ -59,7 +59,7 @@ List contains following elements
 
  **节目 2:**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 List contains following elements
 41 31 30 25 20 12 10
 

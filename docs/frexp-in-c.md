@@ -7,7 +7,7 @@
 **x =有效数* (2^exponent).** 
 **它曾经:**
 
-```
+```cpp
 1\. It is used to find significand which is always between 0.5 and 1.0
 2\. It is used to find exponent which is power of 2.
 
@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```cpp
 double frexp (double x);
 float frexp (float x);
 long double frexp (long double x);
@@ -39,7 +39,7 @@ long double frexp (long double x);
 
 **#代码 1**
 
-```
+```cpp
 // CPP implementation of 
 // above function
 #include <cmath>
@@ -62,14 +62,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5.35 = 0.66875 * 2^3
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP implementation of the 
 // above function
 #include <cmath>
@@ -92,7 +92,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 5 = 0.625 * 2^3
 
 ```

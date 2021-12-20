@@ -8,7 +8,7 @@
 
 1.  If we allocate memory continuously and don't release the memory space after use, it may lead to memory leakage-memory is still in use, but it can't be used by other processes.
 
-    ```
+    ```cpp
     // C program to demonstrate heap overflow
     // by continuously allocating memory
     #include<stdio.h>
@@ -25,7 +25,7 @@
 
 2.  If we dynamically allocate a large number of variables.
 
-    ```
+    ```cpp
     // C program to demonstrate heap overflow
     // by allocating large memory
     #include<stdio.h>
@@ -44,7 +44,7 @@
 
 1.  If we declare a large number of local variables or declare an array or matrix or any large-sized high-dimensional array, it will lead to stack overflow.
 
-    ```
+    ```cpp
     // C program to demonstrate stack overflow
     // by allocating a large local memory
     #include<stdio.h>
@@ -59,7 +59,7 @@
 
 2.  If the function recursively calls itself an infinite number of times, the stack cannot store a large number of local variables used in each function call, which will lead to stack overflow.
 
-    ```
+    ```cpp
     // C program to demonstrate stack overflow
     // by creating a non-terminating recursive
     // function.

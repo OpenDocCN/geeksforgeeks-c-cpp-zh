@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 polar(mag, angle)
 
 ```
@@ -22,7 +22,7 @@ polar(mag, angle)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of polar() function.
 #include <bits/stdc++.h>
@@ -43,14 +43,14 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The complex number whose magnitude is 4.0 and phase angle 1.5 is (0.282949,3.98998)
 
 ```
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to demonstrate
 // example of polar() function.
 #include <bits/stdc++.h>
@@ -71,7 +71,7 @@ int main ()
 
 **Output:**
 
-```
+```cpp
 The complex number whose magnitude is 2.0 and phase angle 0.5 is (1.75517,0.958851)
 
 ```

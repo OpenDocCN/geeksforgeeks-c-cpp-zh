@@ -4,7 +4,7 @@
 
 预测后续 C++程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -26,7 +26,7 @@ int main() {
 
 输出:
 
-```
+```cpp
   Constructing an object of Test
   Destructing an object of Test
   Caught 10
@@ -37,7 +37,7 @@ int main() {
 
 当构造函数抛出异常时会发生什么？考虑以下程序。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -68,7 +68,7 @@ int main() {
 
 输出:
 
-```
+```cpp
   Constructing an Object of Test1
   Constructing an Object of Test2
   Destructing an Object of Test1
@@ -80,7 +80,7 @@ int main() {
 
 作为练习，预测以下程序的输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

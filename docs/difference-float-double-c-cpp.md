@@ -15,7 +15,7 @@
 我们举个例子(这里的例子取自):
 对于一个二次方程**x2–4.0000000 x+3.9999999 = 0**，10 个有效数字的精确根是，r1 = 2.000316228，r2 = 1.999683772
 
-```
+```cpp
 // C program to demonstrate 
 // double and float precision values
 
@@ -63,7 +63,7 @@ int main(){
 
 输出:
 
-```
+```cpp
 roots of equation x2 - 4.0000000 x + 3.9999999 = 0 are : 
 for float values: 
 2.00000    2.00000

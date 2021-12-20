@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```cpp
 struct arccoordstype
 {
    // center point of arc
@@ -27,14 +27,14 @@ struct arccoordstype
 
 **语法:**
 
-```
+```cpp
 void getarccoords(struct arccoordstype *var);
 
 ```
 
 **示例:**
 
-```
+```cpp
 Input : x = 250, y = 200, s_angle = 0 ,
         e_angle = 90, radius = 100
 Output : 
@@ -43,7 +43,7 @@ Output :
 
 下面是 getarccoords()函数的实现
 
-```
+```cpp
 // C Implementation for getarccoords()
 #include <graphics.h>
 #include <stdio.h>

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```cpp
 vector <int> v;
 v.push_back(1);
 v.push_back(2);
@@ -18,7 +18,7 @@ v.clear();
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate the
 // working of vector in cpp
 #include <bits/stdc++.h>
@@ -50,7 +50,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Elements in vector are:
 11 6 12 0 0
 

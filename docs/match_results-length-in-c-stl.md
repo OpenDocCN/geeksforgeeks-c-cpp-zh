@@ -5,7 +5,7 @@
 **match_results::length()** 是 C++中的一个内置函数，用于返回 match_results 对象中特定匹配的长度。
 **语法:**
 
-```
+```cpp
 smatch_name.length(n)
 
 Note: *smatch_name is an object of match_results class.*
@@ -19,7 +19,7 @@ Note: *smatch_name is an object of match_results class.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results length() in C++
 #include <bits/stdc++.h>
@@ -44,7 +44,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 match 0 has a length of 13
 match 1 has a length of 5
 match 2 has a length of 8
@@ -54,7 +54,7 @@ match 2 has a length of 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // match_results length() in C++
 #include <bits/stdc++.h>
@@ -89,6 +89,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 max-length sub match is forgeeks with a length of 8
 ```

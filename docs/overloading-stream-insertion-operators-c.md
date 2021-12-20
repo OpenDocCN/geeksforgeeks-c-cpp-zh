@@ -13,7 +13,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -56,7 +56,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Enter Real Part 10
 Enter Imaginary Part 20
 The complex object is 10+i20

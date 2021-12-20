@@ -4,7 +4,7 @@
 
 输出？
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -27,7 +27,7 @@ int main()
 
 **解释:**所有默认参数必须是最右边的参数。以下程序运行良好，并产生 10 作为输出。
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 

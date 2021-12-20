@@ -9,7 +9,7 @@
 [![decagonal number](img/92586d4aed5aaf62aa1395c1ddb735a6.png)](https://media.geeksforgeeks.org/wp-content/uploads/decagonal-number.png) 
 例:
 
-```
+```cpp
 Input : n = 2
 Output : 10
 
@@ -21,7 +21,7 @@ Output: 175
 
 ```
 
-```
+```cpp
 // C program to find nth decagonal number
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,7 +45,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Decagonal Number is = 370
 
 ```

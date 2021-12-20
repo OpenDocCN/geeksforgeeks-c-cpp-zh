@@ -6,7 +6,7 @@
 
 **1)当存在同名局部变量时，访问全局变量:**
 
-```
+```cpp
 // C++ program to show that we can access a global variable
 // using scope resolution operator :: when there is a local 
 // variable with same name 
@@ -26,7 +26,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of global x is 0
 Value of local x is 10
 
@@ -34,7 +34,7 @@ Value of local x is 10
 
 **2)定义类外的函数。**
 
-```
+```cpp
 // C++ program to show that scope resolution operator :: is used
 // to define a function outside a class
 #include<iostream> 
@@ -64,14 +64,14 @@ int main()
 
 输出:
 
-```
+```cpp
 fun() called
 
 ```
 
 **3)访问类的静态变量。**
 
-```
+```cpp
 // C++ program to show that :: can be used to access static
 // members when there is a local variable with same name
 #include<iostream>
@@ -114,7 +114,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Value of static x is 1
 Value of local x is 3
 Test::y = 2;
@@ -124,7 +124,7 @@ Test::y = 2;
 **4)在多重继承的情况下:**
 如果两个祖先类中存在相同的变量名，我们可以使用范围解析运算符来区分。
 
-```
+```cpp
 // Use of scope resolution operator in multiple inheritance.
 #include<iostream>
 using namespace std;
@@ -165,7 +165,7 @@ int main()
 
 输出:
 
-```
+```cpp
 A's x is 10
 B's x is 20
 ```
@@ -173,7 +173,7 @@ B's x is 20
 **5)对于命名空间**
 如果两个命名空间中存在同名的类，我们可以使用带有范围解析操作符的命名空间名称来引用该类，而不会有任何冲突
 
-```
+```cpp
 // Use of scope resolution operator for namespace.
 #include<iostream>
 
@@ -183,7 +183,7 @@ int main(){
 }
 ```
 
-```
+```cpp
 Here, cout and endl belong to the std namespace.
 
 ```
@@ -191,7 +191,7 @@ Here, cout and endl belong to the std namespace.
 **6)引用另一个类中的一个类:**
 如果一个类存在于另一个类中，我们可以使用嵌套类来引用使用范围解析操作符的嵌套类
 
-```
+```cpp
 // Use of scope resolution class inside another class.
 #include<iostream>
 using namespace std;

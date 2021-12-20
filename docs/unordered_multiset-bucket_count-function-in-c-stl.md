@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 unordered_multiset_name.bucket_count()
 ```
 
@@ -18,7 +18,7 @@ unordered_multiset_name.bucket_count()
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket_count() function
 #include <bits/stdc++.h>
@@ -57,7 +57,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The total count of buckets: 7
 Bucket 0: b b b 
 Bucket 1: empty
@@ -71,7 +71,7 @@ Bucket 6: a
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multiset::bucket_count() function
 #include <bits/stdc++.h>
@@ -110,7 +110,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The total count of buckets: 7
 Bucket 0: b b b 
 Bucket 1: empty

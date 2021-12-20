@@ -4,7 +4,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ code
 #include <iostream>
 #include <utility>
@@ -88,7 +88,7 @@ STL 提供了一系列在各种场景中非常有用的数据结构。很多数�
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // function of vector in C++
 #include <iostream>
@@ -163,7 +163,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Initial vector: 1 2 3 4 5 6 7 8 9 10 
 Vector size: 10
 Is vector is empty: False
@@ -192,7 +192,7 @@ Is vector is empty: True
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // function of stack in C++
 #include <iostream>
@@ -293,7 +293,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Stack is currently Empty
 Size of stack: 13
 Stack initially: G E E K S F O R G E E K S 
@@ -324,7 +324,7 @@ Stack is not empty
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // function of vector in C++
 #include <iostream>
@@ -391,7 +391,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Queue is empty
 Queue Initially: G E E 
 Front element: G

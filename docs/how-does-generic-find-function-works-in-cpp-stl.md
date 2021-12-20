@@ -21,7 +21,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate the
 // implementation of generic find()
 #include <iostream>
@@ -119,7 +119,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 100 is not present
 
 GFG is present at position 3

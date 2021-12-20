@@ -9,7 +9,7 @@
 clear()函数用于移除 forward list 容器的所有元素，从而使其大小为 0。
 **语法:**
 
-```
+```cpp
 ***forwardlistname.clear()***
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ removed ( or destroyed )
 
 示例:
 
-```
+```cpp
 Input  : flist{1, 2, 3, 4, 5};
          flist.clear();
 Output : flist{}
@@ -36,7 +36,7 @@ Output : flist{}
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of clear() function
 #include <forward_list>
@@ -59,7 +59,7 @@ int main()
 
 输出:
 
-```
+```cpp
 *No Output*
 ```
 
@@ -68,7 +68,7 @@ int main()
 erase-after()函数用于从指定位置旁边的容器或范围中移除元素。
 **语法:**
 
-```
+```cpp
 1\. ***flistname.erase_after(position)***
 2\. ***flistname.erase_after(startingposition, endingposition)***
 Parameters :
@@ -81,7 +81,7 @@ position of the container.
 
 示例:
 
-```
+```cpp
 Input  : flist{1, 2, 3, 4, 5}, iterator= 2 i.e.,iterator is pointing to element with index 2.
          flist.erase_after(iterator);
 Output : 1, 2, 3, 5
@@ -99,7 +99,7 @@ Output : 1, 2, 3, 4, 7, 8
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of erase_after() function
 #include <forward_list>
@@ -123,7 +123,7 @@ int main()
 
 输出:
 
-```
+```cpp
 1 3 4 5
 ```
 
@@ -131,7 +131,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of erase_after() function
 #include <forward_list>
@@ -157,6 +157,6 @@ int main()
 
 输出:
 
-```
+```cpp
 1
 ```

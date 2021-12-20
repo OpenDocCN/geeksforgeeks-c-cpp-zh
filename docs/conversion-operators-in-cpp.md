@@ -8,7 +8,7 @@
 
 ## c++
 
-```
+```cpp
 // CPP Program to demonstarte Conversion Operators
 #include <cmath>
 #include <iostream>
@@ -55,7 +55,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 5
 5
 ```

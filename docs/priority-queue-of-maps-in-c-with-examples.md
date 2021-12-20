@@ -78,7 +78,7 @@
 
 ## <u>C++</u>
 
-```
+```cpp
 // Comparator structure
 struct myComparator
 {

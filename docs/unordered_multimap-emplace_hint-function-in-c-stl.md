@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 *unordered_multimap_name.emplace_hint*(iterator position, key, element)
 ```
 
@@ -24,7 +24,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multimap::emplace_hint()
 #include <iostream>
@@ -60,7 +60,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Key and elements:
 {60:89}
  {4:9}
@@ -73,7 +73,7 @@ Key and elements:
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate
 // unordered_multimap::emplace_hint()
 #include <iostream>
@@ -109,7 +109,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Key and elements:
 {Multimap:functions}
  {Geeks:Website}

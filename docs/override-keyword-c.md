@@ -7,7 +7,7 @@
 
 从下面的例子可以更清楚地看出这一点:
 
-```
+```cpp
 // A CPP program without override keyword. Here
 // programmer makes a mistake and it is not caught.
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Compiled successfully
 
 ```
@@ -52,7 +52,7 @@ Compiled successfully
 **解释**:这里用户打算覆盖派生类中的 func()函数，但是做了一个愚蠢的错误，用不同的签名重新定义了函数。编译器没有检测到。然而，程序实际上并不是用户想要的。所以，为了避免这样愚蠢的错误，可以使用 override 关键字。
 下面是一个 C++例子，展示了在 C++中 override 关键字的使用。
 
-```
+```cpp
 // A CPP program that uses override keyword so
 // that any difference in function signature is
 // caught during compilation.
@@ -92,7 +92,7 @@ int main()
 
 输出:
 
-```
+```cpp
 prog.cpp:17:7: error: 'void derived::func(int)'
 marked 'override', but does not override
   void func(int a) override 

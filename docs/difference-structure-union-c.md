@@ -8,7 +8,7 @@
 
 **定义结构:**要定义结构，必须使用**结构**语句。struct 语句定义了一个新的数据类型，其成员多于或等于一个。struct 语句的格式如下:
 
-```
+```cpp
    struct [structure name]
    {
        member definition;
@@ -24,7 +24,7 @@
 
 **定义联合:**要定义联合，您必须使用**联合**语句，方式与定义结构时相同。union 语句为程序定义了一个包含多个成员的新数据类型。联合声明的格式如下:
 
-```
+```cpp
     union [union name]
     {
        member definition;
@@ -48,7 +48,7 @@
 
 ## C
 
-```
+```cpp
 // C program to illustrate differences
 // between structure and Union
 #include <stdio.h>
@@ -149,7 +149,7 @@ void main()
 
 **输出:**
 
-```
+```cpp
 structure data:
  integer: 18
  decimal: 38.00

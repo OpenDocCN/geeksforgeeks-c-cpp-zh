@@ -5,7 +5,7 @@
 下一节讨论重载解析，因为它有助于重载和重写的基础。
 **预测产量:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -29,7 +29,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 hello gfg-class specific
 hello gfg-global
@@ -42,7 +42,7 @@ hello gfg-global
 
 **预测输出:**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output: Compilation error
 plusOverride.cpp: In function ‘int main()’:
 plusOverride.cpp:19:9: error: ambiguous overload for ‘operator+’ 
@@ -93,7 +93,7 @@ plusOverride.cpp:12:5: note: Gfg operator+(Gfg&, Gfg&)
 因此，对于编译期间的上述程序，候选函数的数量多于一个并且**所有这些候选函数具有相同的优先级**，因此出现模糊的重载错误。
 **预测输出:**
 
-```
+```cpp
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -136,7 +136,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output: 
 class-specific new for size 4
 class specific new[] for size 40
@@ -152,7 +152,7 @@ c++标准规定“如果一个类有一个类特定的分配函数，那么将�
 **如果新运算符未在全局范围内定义，并且您正在使用::一元运算符调用新运算符，会发生什么情况？**
 编译器会调用内置的新函数。下面的例子演示了它是如何工作的。它确实包含特定于类的运算符 new，但包含全局运算符 new。此后，在调用::new 时，编译器调用标准库 new 函数。
 
-```
+```cpp
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -190,7 +190,7 @@ int main()
 }
 ```
 
-```
+```cpp
 Output:
 Allocated sie of p1: 4
 global new[] for size 40

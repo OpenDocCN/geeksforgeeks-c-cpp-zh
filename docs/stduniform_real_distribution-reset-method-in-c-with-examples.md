@@ -6,7 +6,7 @@ C++中**均匀实分布类**的 **reset()** 方法用来重置这个均匀实分
 
 **语法:**
 
-```
+```cpp
 void reset();
 
 ```
@@ -17,7 +17,7 @@ void reset();
 
 **例:**
 
-```
+```cpp
 // C++ code to demonstrate
 // the working of reset() function
 
@@ -62,7 +62,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Next value in uniform_int_distribution: 11.3811
 Next value in uniform_int_distribution: 14.8158
 Next value in uniform_int_distribution: 12.2991

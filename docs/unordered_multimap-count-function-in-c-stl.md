@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 u*nordered_multimap_name*.count(key)
 ```
 
@@ -18,7 +18,7 @@ u*nordered_multimap_name*.count(key)
 
 **程序 1:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::count()
 #include <bits/stdc++.h>
@@ -55,7 +55,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 10 occurs 2 times
 20 occurs 1 times
 13 occurs 0 times
@@ -65,7 +65,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // C++ program to illustrate the
 // unordered_multimap::count()
 #include <bits/stdc++.h>
@@ -102,7 +102,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a occurs 2 times
 b occurs 1 times
 z occurs 0 times

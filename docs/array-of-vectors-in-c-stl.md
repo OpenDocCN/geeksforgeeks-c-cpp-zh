@@ -12,13 +12,13 @@
 
 ******语法:******
 
-```
+```cpp
 **vector <data_type> V[size];** 
 ```
 
 ******示例:******
 
-```
+```cpp
 **vector <int> A[5];
 where A is the array of vectors of int of size 5** 
 ```
@@ -27,7 +27,7 @@ where A is the array of vectors of int of size 5**
 
 ******例如:******
 
-```
+```cpp
 **for i in [0, n) {
   A[i].push_back(35)
 }** 
@@ -39,7 +39,7 @@ where A is the array of vectors of int of size 5**
 
 ******例如:******
 
-```
+```cpp
 **for i in [0, n) {
    for(iterator it = A[i].begin(); 
        it!=A[i].end(); it++) {
@@ -52,7 +52,7 @@ where A is the array of vectors of int of size 5**
 
 ****下面是说明向量数组插入的程序。****
 
-```
+```cpp
 **// C++ program to illustrate
 // array of vectors
 
@@ -130,7 +130,7 @@ int main()
 
 ******Output:**
 
-```
+```cpp
 Elements at index 0: 1 2 3 4 
 Elements at index 1: 2 3 4 
 Elements at index 2: 3 4 

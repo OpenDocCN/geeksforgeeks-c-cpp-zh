@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 map<key, vector<datatype>> map_of_vector;
 OR
 map<vector<datatype>, key> map_of_vector;
@@ -19,7 +19,7 @@ map<vector<datatype>, key> map_of_vector;
 
 **例如**:考虑一个简单的问题，我们必须检查一个向量是否被访问。
 
-```
+```cpp
 // C++ program to demonstrate
 // use of map for vectors
 
@@ -67,7 +67,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 True
 False
 

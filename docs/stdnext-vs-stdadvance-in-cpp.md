@@ -7,7 +7,7 @@
 
 1.  **句法差异:**STD::advance 和 std::next 的句法是:
 
-    ```
+    ```cpp
     // Definition of std::advance()
     template
     void advance( InputIt& it, Distance n );
@@ -17,7 +17,7 @@
 
     ```
 
-    ```
+    ```cpp
     // Definition of std::next()
     ForwardIterator next (ForwardIterator it,
            typename iterator_traits::difference_type n = 1);
@@ -32,7 +32,7 @@
 2.  **工作**
     *   **Argument Modification:** [std::advance](https://www.geeksforgeeks.org/stdadvance-in-cpp/) modifies it arguments such that it points to the desired position, whereas, [std::next](https://www.geeksforgeeks.org/stdnext-in-cpp/) does not modify its argument, infact it returns a new iterator pointing to the desired position.
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // std::advance vs std::next
         #include <iostream>
@@ -84,7 +84,7 @@
 
         输出:
 
-        ```
+        ```cpp
         v1 = 1 2 3
         v2 = 4 5 6 1 2 
 

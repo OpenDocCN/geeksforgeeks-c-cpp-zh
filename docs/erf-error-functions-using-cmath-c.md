@@ -13,7 +13,7 @@
 1.  **erf(x)** :该内置函数计算 x 输入值的误差函数，参数 x 可以是 int 或 float 或 double。它返回一个双精度值，即 erf(x)。
 2.  **erfc(x)** :此内置函数计算 x 输入值的误差函数的余数，参数 x 可以是 int 或 float 或 double。它返回一个 1–ERF(x)的双精度值。
 
-```
+```cpp
 /* C++ code to use erf */
 #include <iostream>
 #include <cmath>     /* erf */
@@ -39,7 +39,7 @@ int main ()
 
 输出:
 
-```
+```cpp
 probability that normal r.v X takes value
 between -0.25 & 0.25 is 0.276326
 

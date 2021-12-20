@@ -4,7 +4,7 @@
 
 C++中的 [auto 关键字](https://www.geeksforgeeks.org/type-inference-in-c-auto-and-decltype/)指定正在声明的变量的类型将自动从其初始值中扣除。在函数的情况下，如果它们的返回类型是自动的，那么它将在运行时由返回类型表达式来计算。
 
-```
+```cpp
 // C++ program to illustrate the auto
 // keyword in DevC++ compiler
 #include <bits/stdc++.h>
@@ -27,7 +27,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5
 
 ```

@@ -9,7 +9,7 @@
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -27,13 +27,13 @@ int main()
 
 **Input:** 
 
-```
+```cpp
 1 2 3 4 5 6
 ```
 
 **输出:**
 
-```
+```cpp
 1
 2
 3
@@ -47,13 +47,13 @@ int main()
 
 **Input:** 
 
-```
+```cpp
 1, 2, 3, 4, 5, 6
 ```
 
 **输出:**
 
-```
+```cpp
 1, 2, 3, 4, 5, 6
 ```
 
@@ -70,7 +70,7 @@ int main()
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to input
 // a comma separated string
 
@@ -103,7 +103,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 11
 21
 31

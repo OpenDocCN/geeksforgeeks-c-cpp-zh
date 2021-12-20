@@ -6,7 +6,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     array_name.rbegin()
     ```
 
@@ -18,7 +18,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the array::rbegin() function
     #include <bits/stdc++.h>
@@ -43,7 +43,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The last element is 7
     The array elements in reverse order are:
     7 4 2 5 1
@@ -54,7 +54,7 @@
 
     **语法:**
 
-    ```
+    ```cpp
     array_name.rend()
     ```
 
@@ -66,7 +66,7 @@
 
     **程序 1:**
 
-    ```
+    ```cpp
     // CPP program to illustrate
     // the array::rend() function
     #include <bits/stdc++.h>
@@ -86,7 +86,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     The array elements in reverse order are:
     7 4 2 5 1
 

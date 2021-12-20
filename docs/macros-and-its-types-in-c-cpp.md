@@ -8,7 +8,7 @@ A [**宏**](https://www.geeksforgeeks.org/c-language-2-gq/macro-preprocessor-gq/
 
 ## C
 
-```
+```cpp
 // C program to illustrate macros
 #include <stdio.h>
 
@@ -29,7 +29,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate macros
 #include <iostream>
 using namespace std;
@@ -50,7 +50,7 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 The value of LIMIT is 5
 ```
 
@@ -58,7 +58,7 @@ The value of LIMIT is 5
 
 ## C
 
-```
+```cpp
 // C program to illustrate macros
 #include <stdio.h>
 
@@ -85,7 +85,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program to illustrate macros
 #include <iostream>
 using namespace std;
@@ -113,6 +113,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Area of rectangle is: 50
 ```

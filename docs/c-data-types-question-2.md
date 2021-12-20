@@ -4,19 +4,19 @@
 
 以下哪一项不是 C 语言中的有效声明？
 
-```
+```cpp
 1\. short int x;
 ```
 
-```
+```cpp
 2\. signed short x;
 ```
 
-```
+```cpp
 3\. short x;
 ```
 
-```
+```cpp
 4\. unsigned short x;
 ```
 

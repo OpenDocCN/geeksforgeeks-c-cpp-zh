@@ -6,7 +6,7 @@
 
 下面是一个 c++中的示例程序，它读取四个句子，并在最后
 
-```
+```cpp
 // A simple C++ program to show working of getline
 #include <iostream>
 #include <cstring>
@@ -29,7 +29,7 @@ int main()
 
 **样本输入:**
 
-```
+```cpp
  This
  is
  Geeks
@@ -38,7 +38,7 @@ int main()
 
 **如预期输出为:**
 
-```
+```cpp
 This : newline
 is  : newline
 Geeks : newline
@@ -49,7 +49,7 @@ for : newline
 
 **样本输入:**
 
-```
+```cpp
 This
 
 is 
@@ -61,7 +61,7 @@ for
 
 **输出:**
 
-```
+```cpp
 This : newline
  : newline
 is  : newline
@@ -74,7 +74,7 @@ is  : newline
 
 修改代码:
 
-```
+```cpp
 // A simple C++ program that uses getline to read
 // input with blank lines
 #include <iostream>
@@ -101,7 +101,7 @@ int main()
 
 输入:
 
-```
+```cpp
 This
 
 is 
@@ -113,7 +113,7 @@ for
 
 输出:
 
-```
+```cpp
 This : newline
 is  : newline
 Geeks : newline

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 #include <stdio.h>
 
 void main()
@@ -28,7 +28,7 @@ void main()
 
 **输出:**
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:15:5: error: 'else' without a previous 'if'
      else printf("value of a is not equal to 2 ");
@@ -42,7 +42,7 @@ prog.c:15:5: error: 'else' without a previous 'if'
 
 **示例:**
 
-```
+```cpp
 #include <stdio.h>
 
 void main()
@@ -54,7 +54,7 @@ void main()
 
 **输出:**
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:6:5: error: lvalue required as left operand of assignment
   10 = a;
@@ -64,7 +64,7 @@ prog.c:6:5: error: lvalue required as left operand of assignment
 
 **示例 2:** 在第 12 行，它将显示一个错误的 L 值，因为 arr++表示 arr=arr+1。这就是普通变量和数组的区别。如果我们写 a=a+1(其中 a 是正常变量)，编译器会知道它的工作，它们不会出错，但是当你写 arr=arr+1(其中 arr 是数组的名称)时，编译器会认为 arr 包含地址以及我们如何更改地址。因此，它将采用 arr 作为地址，左侧将保持不变，因此，它将显示所需的 L 值错误。
 
-```
+```cpp
 #include <stdio.h>
 
 void main()
@@ -81,7 +81,7 @@ void main()
 
 **输出:**
 
-```
+```cpp
 prog.c: In function 'main':
 prog.c:10:6: error: lvalue required as increment operand
    arr++;

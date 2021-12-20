@@ -29,7 +29,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate rectangle
 // over a self-formed background image
 
@@ -91,7 +91,7 @@ int main(int argc, char** argv)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate rectangle
 // over a loaded image of GFG logo
 
@@ -151,7 +151,7 @@ int main(int argc, char** argv)
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate rectangle
 // filled with any color
 

@@ -4,7 +4,7 @@
 
 在去掉“noreturn”关键字后，C 编程语言的 C11 标准(称为最终稿)引入了一个新的“_Noreturn”函数说明符，该说明符指定函数不返回调用它的函数。如果程序员试图从声明为 _Noreturn 类型的函数中返回任何值，那么编译器会自动生成编译时错误。
 
-```
+```cpp
 // C program to show how _Noreturn type 
 // function behave if it has return statement.
 #include <stdio.h>
@@ -27,14 +27,14 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Ready to begin...
 After that abnormal termination of program.
 compiler error:[Warning] function declared 'noreturn' has a 'return' statement
 
 ```
 
-```
+```cpp
 // C program to illustrate the working 
 // of _Noreturn type function.
 #include <stdio.h>
@@ -57,7 +57,7 @@ int main(void)
 
 输出:
 
-```
+```cpp
 Ready to begin...
 BYE BYE
 

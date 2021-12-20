@@ -2,7 +2,7 @@
 
 > 原文:[https://www . geesforgeks . org/c-operator-overload-question-9/](https://www.geeksforgeeks.org/c-operator-overloading-question-9/)
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -42,7 +42,7 @@ int main()
 函数调用运算符在重载时不会修改函数的调用方式。相反，它修改了在应用于给定类型的对象时如何解释运算符。
 如果为一个类重载一个函数调用运算符，它的声明将具有以下形式:
 
-```
+```cpp
     return_type operator()(parameter_list) 
 ```
 

@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class From, class To >
 struct is_convertible;
 
@@ -24,7 +24,7 @@ struct is_nothrow_convertible;
 
 **语法:**
 
-```
+```cpp
 is_convertible <A*, B*>::value;
 
 ```
@@ -43,7 +43,7 @@ is_convertible <A*, B*>::value;
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_convertible example
 #include <bits/stdc++.h>
@@ -96,7 +96,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 true
 false
 false

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 wstring to_wstring (int val);
 wstring to_wstring (long long val);
 wstring to_wstring (float val);
@@ -20,7 +20,7 @@ It returns the passed numerical value into the wide string of data type wstring.
 
 ## C++
 
-```
+```cpp
 // C++ code to convert numerical value
 // to wide string data type
 // using the to_wstring function
@@ -57,7 +57,7 @@ return 0;
 
 **输出:**
 
-```
+```cpp
 Pi is 3.141593
 14 is a number
 2.002169is division of two numbers
@@ -72,7 +72,7 @@ Pi is 3.141593
 
 ## C++
 
-```
+```cpp
 // These header files contains wcout and wstring
 #include <iostream>
 #include <string>    
@@ -100,7 +100,7 @@ return 0;
 
 **输出:**
 
-```
+```cpp
 Number of section =  4
 150 is the number of students in each section
 ```

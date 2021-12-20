@@ -9,7 +9,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 uint32 status = 0;
 
 while (status == 0)
@@ -31,7 +31,7 @@ C)通过关闭所有的优化，我们的低级程序不能像预期的那样工
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 volatile uint32 status = 0;
 ```
 
@@ -39,7 +39,7 @@ volatile uint32 status = 0;
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 volatile uint32 * statusPtr = 0xF1230000
 ```
 

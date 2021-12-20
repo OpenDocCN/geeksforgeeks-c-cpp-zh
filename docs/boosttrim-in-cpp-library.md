@@ -34,7 +34,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to remove white spaces
 // from string using the function
 // boost::trim function
@@ -78,7 +78,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 The original string is: "    geeks_for_geeks    " 
 Applied left trim: "geeks_for_geeks    " 
 

@@ -15,7 +15,7 @@ C++新增两个关键词支持模板:*【模板】*和*【typename】*。第二�
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main()
 
 输出:
 
-```
+```cpp
 7
 7
 g
@@ -49,7 +49,7 @@ g
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CPP code for bubble sort
 // using template function
 #include <iostream>
@@ -85,7 +85,7 @@ int main() {
 
 **输出** :
 
-```
+```cpp
 Sorted array : 10 20 30 40 50
 ```
 
@@ -94,7 +94,7 @@ Sorted array : 10 20 30 40 50
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -133,7 +133,7 @@ int main() {
 
 输出:
 
-```
+```cpp
  1 2 3 4 5
 ```
 
@@ -142,7 +142,7 @@ int main() {
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -163,7 +163,7 @@ int main()  {
 
 输出:
 
-```
+```cpp
 Constructor Called
 Constructor Called
 ```
@@ -173,7 +173,7 @@ Constructor Called
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -193,7 +193,7 @@ int main()  {
 
 输出:
 
-```
+```cpp
 Constructor Called
 ```
 
@@ -209,7 +209,7 @@ Constructor Called
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // A C++ program to demonstrate working of non-type
 // parameters to templates in C++.
 #include <iostream>
@@ -243,7 +243,7 @@ int main()
 
 输出:
 
-```
+```cpp
 10
 1
 ```

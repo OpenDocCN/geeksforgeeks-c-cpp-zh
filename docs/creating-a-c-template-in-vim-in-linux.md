@@ -11,7 +11,7 @@ Vim 允许用户为以特定扩展名结尾的文件创建特定的模板。
 
 **例如:**
 
-```
+```cpp
   :autocmd BufNewFile  *.c 0r ~/vim/skeleton.c 
 
 ```
@@ -27,21 +27,21 @@ Vim 允许用户为以特定扩展名结尾的文件创建特定的模板。
 第一步:打开终端。
 第二步:将目录改为~/。vim/templates/。
 
-```
+```cpp
 $ cd ~/.vim/templates/
 
 ```
 
 注意:如果模板子目录不可用，则在中创建一个。vim 文件夹。
 
-```
+```cpp
 $ mkdir templates && cd templates
 
 ```
 
 第三步:打开模板文件。
 
-```
+```cpp
 $ sudo vim skeleton.cpp
 
 ```
@@ -53,14 +53,14 @@ $ sudo vim skeleton.cpp
 ![](img/0c12d971a2e03756985c8e963767c2aa.png)
 第五步:开启~/。vimrc 文件。
 
-```
+```cpp
 $ sudo vim  ~/.vimrc
 
 ```
 
 第六步:添加下面一行。
 
-```
+```cpp
 :autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
 
 ```

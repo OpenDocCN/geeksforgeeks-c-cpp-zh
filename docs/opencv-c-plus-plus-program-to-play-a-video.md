@@ -14,7 +14,7 @@
 在运行代码之前，请确保您的系统上安装了 OpenCV。
 代码片段:
 
-```
+```cpp
 #include "opencv2/highgui/highgui.hpp"
 // highgui - an interface to video and image capturing.
 

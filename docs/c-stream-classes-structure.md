@@ -12,7 +12,7 @@
 
 3.  类 **ios** 使用 **istream** 和 **ostream** 间接继承到 **iostream** 类。为避免 **ios** 类数据和成员函数的重复，在**继承时声明为虚拟基类，在**继承时声明为**，在**继承时声明为****
 
-```
+```cpp
 class istream: virtual public ios
 {
 };
@@ -32,7 +32,7 @@ class ostream: virtual public ios
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -49,13 +49,13 @@ int main()
 
 **输入:**
 
-```
+```cpp
 g
 ```
 
 **输出:**
 
-```
+```cpp
 g
 ```
 
@@ -64,7 +64,7 @@ g
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -82,13 +82,13 @@ int main()
 
 1.  **输入:**
 
-```
+```cpp
 g
 ```
 
 **输出:**
 
-```
+```cpp
 g
 ```
 
@@ -97,7 +97,7 @@ g
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -112,7 +112,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 geeks
 ```
 
@@ -121,7 +121,7 @@ geeks
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -152,13 +152,13 @@ int main()
 
 **输入:**
 
-```
+```cpp
 4 5
 ```
 
 **输出:**
 
-```
+```cpp
 Enter two numbers dx and dy
 4 5
 dx = 4  dy = 5
@@ -169,7 +169,7 @@ dx = 4  dy = 5
 
 ## CPP14
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -204,7 +204,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Value of dx and dy are
 4 5
 ```

@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```cpp
 #include <stdio.h>
 
 // Constants
@@ -31,7 +31,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Integer Constant: 10
 Floating point Constant: 4.500000
 Character Constant: G
@@ -45,7 +45,7 @@ Character Constant: G
 **变量声明:**
 典型的变量声明形式如下:
 
-```
+```cpp
 type variable_name;
 
 or for multiple variables:
@@ -57,7 +57,7 @@ type variable1_name, variable2_name, variable3_name;
 
 **示例:**
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -81,7 +81,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 a
 
 ```

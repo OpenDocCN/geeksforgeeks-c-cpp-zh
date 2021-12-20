@@ -6,14 +6,14 @@
 
 **头文件:**
 
-```
+```cpp
 #include<type_traits>
 
 ```
 
 **模板类:**
 
-```
+```cpp
 template< class T >
 struct is_destructible;
 
@@ -21,7 +21,7 @@ struct is_destructible;
 
 **语法:**
 
-```
+```cpp
 std::is_destructible<T>::value
 
 ```
@@ -37,7 +37,7 @@ std::is_destructible<T>::value
 
 **程序:**
 
-```
+```cpp
 // C++ program to illustrate
 // std::is_destructible
 #include <bits/stdc++.h>
@@ -109,7 +109,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 int is destructible? true
 float is destructible? true
 struct X is destructible? true

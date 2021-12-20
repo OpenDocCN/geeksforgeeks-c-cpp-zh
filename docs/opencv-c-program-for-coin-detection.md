@@ -16,7 +16,7 @@
 
 **代码片段解释:**
 
-```
+```cpp
 #include "opencv2/highgui/highgui.hpp"
 // highgui - an interface to video and image capturing.
 

@@ -7,7 +7,7 @@
 
 以下是一些例子。
 
-```
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -18,11 +18,11 @@ int main()
 
 输出:
 
-```
+```cpp
 This will compile
 ```
 
-```
+```cpp
 #include <stdio.h/*comment*/>
 int main()
 {
@@ -33,11 +33,11 @@ int main()
 
 输出:
 
-```
+```cpp
 Error: stdio.h/*comment*/: No such file or directory
 ```
 
-```
+```cpp
 #include <std/*comment*/io.h>
 int main()
 {
@@ -48,7 +48,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Error: std/*comment*/io.h: No such file or directory
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 int count() 
 
 ```
@@ -19,7 +19,7 @@ int count()
 
 **程序 1:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::count() function
 #include <bits/stdc++.h>
@@ -49,7 +49,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1100 has 2 set bit
 001000 has 1 set bit
 
@@ -57,7 +57,7 @@ int main()
 
 **程序 2:**
 
-```
+```cpp
 // CPP program to illustrate the
 // bitset::count() function
 // when the input is an integer
@@ -88,7 +88,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 0000 has 0 set bit
 0010 has 1 set bit
 

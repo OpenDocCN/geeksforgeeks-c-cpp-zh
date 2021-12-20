@@ -9,7 +9,7 @@
 begin()函数用于返回指向 set 容器第一个元素的迭代器。begin()函数**返回一个双向迭代器**到容器的第一个元素。
 **语法:**
 
-```
+```cpp
 ***setname***.begin()
 Parameters :
 No parameters are passed.
@@ -20,7 +20,7 @@ iterator pointing to the first element.
 
 示例:
 
-```
+```cpp
 Input  : myset{1, 2, 3, 4, 5};
          myset.begin();
 Output : *returns an iterator to the element 1*
@@ -36,7 +36,7 @@ Output : *returns an iterator to past-the-end element.*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -59,13 +59,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CHARACTER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -88,13 +88,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a c g z 
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // STRING SET EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -119,7 +119,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geeksforgeeks This is 
 ```
 
@@ -130,7 +130,7 @@ Geeksforgeeks This is
 它返回一个迭代器，指向集合容器的最后一个元素。因为它没有引用有效的元素，所以它不能取消引用 end()函数返回双向迭代器。
 **语法:**
 
-```
+```cpp
 ***setname***.end()
 Parameters :
 No parameters are passed.
@@ -141,7 +141,7 @@ iterator pointing to next of the last element.
 
 示例:
 
-```
+```cpp
 Input  : myset{1, 2, 3, 4, 5};
          myset.end();
 Output : *returns an iterator to next of 5*
@@ -153,7 +153,7 @@ Output : *returns an iterator to next of 5*
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // INTEGER Example
 // CPP program to illustrate
 // Implementation of end() function
@@ -176,13 +176,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 1 2 3 4 5
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // CHARACTER SET EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -204,13 +204,13 @@ int main()
 
 **输出:**
 
-```
+```cpp
 a c g z
 ```
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // STRING SET EXAMPLE
 // CPP program to illustrate
 // Implementation of begin() function
@@ -235,7 +235,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Geeksforgeeks This is 
 ```
 

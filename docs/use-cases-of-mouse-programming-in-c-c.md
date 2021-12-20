@@ -17,7 +17,7 @@
 
 T5
 
-```
+```cpp
 // C program to display Mouse
 // pointer in Graphics Mode
 #include <conio.h>

@@ -23,7 +23,7 @@
 
 **步骤 1:** 创建或打开一个代表磁盘上文件的文件对象。这里，我们创建了一个新的文件对象，句柄为 **hFile** ，名称为**“数据文件. txt”**。
 
-```
+```cpp
 HANDLE CreateFileA(
   LPCSTR                lpFileName,
   DWORD                 dwDesiredAccess,
@@ -52,7 +52,7 @@ FILE_FLAG_DELETE_ON_CLOSE,
 NULL);
 ```
 
-```
+```cpp
 HANDLE CreateFileA(
   LPCSTR                lpFileName,
   DWORD                 dwDesiredAccess,
@@ -76,7 +76,7 @@ HANDLE hFile = CreateFile(TEXT("datafile.txt"),
 
 **步骤 2:** 为文件创建一个映射对象，该对象包含如何访问文件及其大小的信息。因此，在创建上述文件后，我们使用它的句柄并在物理内存中创建它的映射。
 
-```
+```cpp
 HANDLE CreateFileMappingA(
   HANDLE                hFile,
   LPSECURITY_ATTRIBUTES lpFileMappingAttributes,
@@ -93,7 +93,7 @@ HANDLE hFileMapping = ::CreateFileMappingA(INVALID_HANDLE_VALUE, NULL, PAGE_READ
 
 **步骤 3:** 将文件映射对象的全部或部分从物理内存映射到进程的虚拟地址空间。因此，在这里，我们创建了将由进程使用的映射文件的视图。
 
-```
+```cpp
 LPVOID MapViewOfFile(
   HANDLE hFileMappingObject,
   DWORD  dwDesiredAccess,
@@ -110,7 +110,7 @@ void* p = ::MapViewOfFile(hFileMapping, FILE_MAP_ALL_ACCESS, 0, param1, param2);
 
 **4(A)** 从进程地址空间中取消映射文件映射对象。回溯以上步骤，首先，从进程的地址空间中移除文件视图。
 
-```
+```cpp
 BOOL UnmapViewOfFile(LPCVOID lpBaseAddress
 );
 // Can be used as
@@ -119,13 +119,13 @@ UnmapViewOfFile(p);
 
 **4(B)** 关闭文件映射对象。此步骤从物理内存中删除文件映射。
 
-```
+```cpp
 CloseHandle(hFileMapping);
 ```
 
 **4(C)** 关闭文件对象。在这里，关闭磁盘上打开的文件并释放句柄。由于在第一步中我们设置了标志**文件 _ 标志 _ 删除 _ 开启 _ 关闭**，该文件将在这一步后被删除。
 
-```
+```cpp
 CloseHandle(hFile);
 ```
 

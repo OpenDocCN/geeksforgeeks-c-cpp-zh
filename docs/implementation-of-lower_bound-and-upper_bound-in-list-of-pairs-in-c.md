@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to demonstrate lower_bound()
 // and upper_bound() in List of Pairs
 
@@ -86,7 +86,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 lower_bound() for {2, 5} is at index: {2, 5 }
 upper_bound() for {2, 5} is at index: {3, 8 }
 

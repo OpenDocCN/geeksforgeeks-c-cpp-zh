@@ -14,7 +14,7 @@
 
 **解释:**见下例。
 
-```
+```cpp
 // Objects of test can only be created using new
 class Test
 {

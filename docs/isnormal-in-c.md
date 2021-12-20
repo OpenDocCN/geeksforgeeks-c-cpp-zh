@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```cpp
 bool  isnormal(float x);
 ```
 
 **或**
 
-```
+```cpp
 bool  isnormal(double x); 
 ```
 
 **或**
 
-```
+```cpp
 bool  isnormal(long double x); 
 ```
 
@@ -30,7 +30,7 @@ bool  isnormal(long double x);
 
 **示例 1:-** 用浮点值显示
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isnormal() function.
 
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 isnormal(7.0) is = 1
 isnormal(0.0) is = 0
 isnormal(9.2/0.0) is = 0
@@ -69,7 +69,7 @@ isnormal(9.2/0.0) is = 0
 
 **例 2:-** 用双值显示
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isnormal() function.
 
@@ -99,7 +99,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 isnormal(7.0) is = 1
 isnormal(0.0) is = 0
 isnormal(9.2/0.0) is = 0
@@ -108,7 +108,7 @@ isnormal(9.2/0.0) is = 0
 
 **例 3:-** 用长双数值显示
 
-```
+```cpp
 // c++ program to demonstrate
 // example of isnormal() function.
 
@@ -138,7 +138,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 isnormal(7.0) is = 1
 isnormal(0.0) is = 0
 isnormal(9.2/0.0) is = 0

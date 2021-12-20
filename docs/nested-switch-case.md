@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```cpp
 switch (n)
 {
     case 1: // code to be executed if n = 1;
@@ -40,7 +40,7 @@ switch (n)
 
 **语法:**
 
-```
+```cpp
 switch(n)
 {
   // code to be executed if n = 1;
@@ -89,7 +89,7 @@ switch(n)
 
 **示例:**
 
-```
+```cpp
 // Following is a simple program to demonstrate
 // syntax of Nested Switch Statements.
 #include <stdio.h>
@@ -140,7 +140,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Choice is 2
 
 ```

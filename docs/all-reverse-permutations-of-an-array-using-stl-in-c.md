@@ -4,7 +4,7 @@
 
 给定一个数组，任务是在 C++中使用 STL 打印或显示这个数组的所有反向排列。反向排列意味着，对于数组{1，2，3}:
 
-```
+```cpp
 [forward permutations:](https://www.geeksforgeeks.org/all-permutations-of-an-array-using-stl-in-c/)
 1  2  3  
 1  3  2  
@@ -25,7 +25,7 @@ reverse permutations:
 
 **例:**
 
-```
+```cpp
 Input: a[] = {1, 2, 3}
 Output:
 3 2 1
@@ -69,7 +69,7 @@ Possible permutations are:
 
 **语法:**
 
-```
+```cpp
 bool prev_permutation (BidirectionalIterator first,
                        BidirectionalIterator last);
 
@@ -77,7 +77,7 @@ bool prev_permutation (BidirectionalIterator first,
 
 以下是上述方法的实现:
 
-```
+```cpp
 // C++ program to display all permutations
 // in reverse order
 // of an array using STL in C++
@@ -126,7 +126,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 Possible permutations are:
 40 30 20 10 
 40 30 10 20 

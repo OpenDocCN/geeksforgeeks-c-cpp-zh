@@ -9,7 +9,7 @@
 
 示例:
 
-```
+```cpp
 Input : array = 2, 4, -6, 5, 8, -1
 Output : sum = 12
 
@@ -18,7 +18,7 @@ Output : sum = -15
 
 ```
 
-```
+```cpp
 // CPP program to find sum of array using pointers
 #include <iostream>
 using namespace std;
@@ -43,7 +43,7 @@ int main()
 
 输出:
 
-```
+```cpp
 sum of array is = 12
 
 ```

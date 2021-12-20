@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```cpp
 for_each (InputIterator start_iter, InputIterator last_iter, Function fnc)
 
 start_iter : The beginning position 
@@ -24,7 +24,7 @@ an object function which operation would be applied to each element.
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the
 // working of for_each loop
 
@@ -95,7 +95,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Using Arrays:
 Multiple of 2 of elements are : 2 10 4 8 6 
 Multiple of 3 of elements are : 3 15 6 12 9 
@@ -115,7 +115,7 @@ Multiple of 3 of elements are : 12 15 24 9 3
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ code to demonstrate the working
 // of for_each with Exception
 
@@ -213,7 +213,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Using Array
 2 10 4 
 The Exception element is : 2
@@ -232,7 +232,7 @@ The Exception element is : 6
 
 ## C++
 
-```
+```cpp
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
@@ -255,7 +255,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 2 
 3 
 4 

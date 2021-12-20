@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```cpp
 Input  : 4
 Output : 00000000 00000000 00000000 00000100
 
@@ -17,7 +17,7 @@ Output : 00000000 00000000 00000000 00001100
 
 ```
 
-```
+```cpp
 // CPP program to print byte by byte presentation
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,7 +53,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 00000000 00000000 00000000 00001100 
 
 ```

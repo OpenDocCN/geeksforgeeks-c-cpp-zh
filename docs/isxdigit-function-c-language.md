@@ -6,7 +6,7 @@ C 编程语言中的 isxdigit()函数，检查给定字符是否为十六进制�
 
 **十进制数的十六进制等价物:**
 
-```
+```cpp
 Hexadecimal: 0   1   2   3    4   5    6   7    8   9    A    B       C      D    E     F
 Decimal:    0   1    2   3    4   5    6   7    8   9    10   11    12     13    14    15
 
@@ -14,12 +14,12 @@ Decimal:    0   1    2   3    4   5    6   7    8   9    10   11    12     13   
 
 **语法:**
 
-```
+```cpp
 char isxdigit( char x);
 
 ```
 
-```
+```cpp
 Input : A
 Output : Entered character is hexadecimal
 Input : 2
@@ -29,7 +29,7 @@ Output : Entered character is not hexadecimal
 
 ```
 
-```
+```cpp
 // C program to demonstrate isxdigit()
 #include <ctype.h>
 #include <stdio.h>
@@ -49,7 +49,7 @@ int main()
 
 输出:
 
-```
+```cpp
 Entered character is hexadecimal
 
 ```
@@ -57,7 +57,7 @@ Entered character is hexadecimal
 **应用:**C 编程语言中的 isxdigit()函数用于找出任意给定输入中出现的十六进制数的总数。
 T3】例:
 
-```
+```cpp
 Input: abc123
 Output: Number of hexadecimals present in the given input is : 6
 Input: abcdef
@@ -69,7 +69,7 @@ Output: Number of hexadecimals present in the given input is : 6
 
 让我们来看看 C 程序关于这个话题:
 
-```
+```cpp
 // C program to demonstrate isxdigit()
 #include <ctype.h>
 #include <stdio.h>
@@ -108,6 +108,6 @@ int main()
 
 输出:
 
-```
+```cpp
 Number of hexadecimals in string is : 7
 ```

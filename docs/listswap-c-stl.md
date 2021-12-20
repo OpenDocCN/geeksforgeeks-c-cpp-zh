@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```cpp
 *listname1*.swap(*listname2*)
 Parameters :
 The name of the lists with which
@@ -22,7 +22,7 @@ All the elements of the 2 list are swapped.
 
 示例:
 
-```
+```cpp
 Input  : mylist1 = {1, 2, 3, 4}
          mylist2 = {3, 5, 7, 9}
          mylist1.swap(mylist2);
@@ -43,7 +43,7 @@ Output : mylist1 = {2, 4, 6, 8}
 2。如果列表大小不同，它会抛出一个错误。
 2。否则它有一个基本的无异常抛出保证。
 
-```
+```cpp
 // CPP program to illustrate
 // Implementation of swap() function
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 
 输出:
 
-```
+```cpp
 mylist1 = 3 5 7 9 
 mylist2 = 1 2 3 4 
 

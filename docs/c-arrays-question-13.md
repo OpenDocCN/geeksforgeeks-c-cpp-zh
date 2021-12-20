@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-arrays-question-13/](https://www.geeksforgeeks.org/c-arrays-question-13/)
 
-```
+```cpp
 #include<stdio.h>
 int main()
 {

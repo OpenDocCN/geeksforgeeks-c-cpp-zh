@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```cpp
 r_i rbegin();
 const_r_i rbegin() const;
 
@@ -19,13 +19,13 @@ const_r_i rbegin() const;
 
 **时间复杂度:**
 
-```
+```cpp
 O(1)
 ```
 
 **示例:**
 
-```
+```cpp
 #include <iostream>
 #include <map>
 using namespace std;
@@ -60,7 +60,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Map contains following elements in reverse order
 e = 5
 d = 4

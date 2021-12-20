@@ -12,7 +12,7 @@
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // Simple C++ program to display "Hello World"
 
 // Header file for input output functions
@@ -33,6 +33,6 @@ int main()
 
 **Output:** 
 
-```
+```cpp
 Hello World
 ```

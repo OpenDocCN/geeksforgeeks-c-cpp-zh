@@ -7,7 +7,7 @@
 **范例 1:**
 以下代码的输出是什么？
 
-```
+```cpp
 #include <stdio.h>
 #include <unistd.h>
 int main()
@@ -21,7 +21,7 @@ int main()
 
 输出:
 
-```
+```cpp
  1 1 1 1 1 
 ```
 
@@ -36,7 +36,7 @@ int main()
 **例 2:**
 以下代码的输出是什么？
 
-```
+```cpp
 #include <stdio.h>
 #include <unistd.h>
 
@@ -61,7 +61,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  2 4 1 4 1 4 3 4 
 ```
 
@@ -74,7 +74,7 @@ int main()
 **例 3:**
 以下代码的输出是什么？
 
-```
+```cpp
 #include <stdio.h>
 #include <unistd.h>
 
@@ -92,7 +92,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
  2 2 2 2 2 2 2 
 ```
 

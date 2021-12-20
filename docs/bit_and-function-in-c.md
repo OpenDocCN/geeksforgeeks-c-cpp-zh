@@ -4,7 +4,7 @@
 
 **bit_and** 是 C++中的一个内置函数，用于在其参数上应用按位 and 后返回值(由运算符&返回)。
 
-```
+```cpp
 template  struct bit_and 
 {
   T operator() (const T& a, const T& b) const {return a&b;}
@@ -27,7 +27,7 @@ template  struct bit_and
 下面是显示**bit _ 和**功能工作的程序:
 **程序-1:**
 
-```
+```cpp
 // C++ program to show the 
 // functionality of bit_and
 #include <algorithm> // transform
@@ -61,14 +61,14 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Results: 4 8 12 32 200
 
 ```
 
 **程序-2:**
 
-```
+```cpp
 // C++ program to show the 
 // functionality of bit_and
 #include <algorithm> // transform
@@ -101,7 +101,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 Results: 0 12
 
 ```

@@ -6,7 +6,7 @@
 
 预测以下 C 程序的输出。
 
-```
+```cpp
 // PROGRAM 1
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +19,7 @@ int main(void)
 }
 ```
 
-```
+```cpp
 // PROGRAM 2
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,7 +34,7 @@ int main(void)
 
 以上两个程序都不是用 c 编译的，我们在 c 中得到如下编译错误
 
-```
+```cpp
 error: initializer element is not constant
 ```
 
@@ -44,7 +44,7 @@ error: initializer element is not constant
 
 作为练习，用 C 和 C++预测下面程序的输出。
 
-```
+```cpp
 #include <stdio.h>
 int fun(int x)
 {

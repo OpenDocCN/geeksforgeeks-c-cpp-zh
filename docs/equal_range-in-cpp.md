@@ -12,7 +12,7 @@
 
 语法:
 
-```
+```cpp
 Template
 pair 
     equal_range (ForwardIterator first, ForwardIterator last, const T& val);
@@ -30,7 +30,7 @@ greater than any other value, then both of them point to last.
 
 ```
 
-```
+```cpp
 // C++ program to demonstrate the use of std::equal_range
 #include <iostream>
 #include <vector>
@@ -65,7 +65,7 @@ int main()
 
 输出:
 
-```
+```cpp
 30 is present in the sorted vector from index 3 till 6
 
 ```
@@ -76,7 +76,7 @@ int main()
 
     语法:
 
-    ```
+    ```cpp
      pair 
         equal_range (ForwardIterator first, ForwardIterator last, 
                      const T& val, Compare comp);
@@ -101,7 +101,7 @@ int main()
 
     ```
 
-    ```
+    ```cpp
     // C++ program to demonstrate the use of std::equal_range
     #include <iostream>
     #include <algorithm>
@@ -144,7 +144,7 @@ int main()
 
     输出:
 
-    ```
+    ```cpp
     10 is present in the sorted vector from index 9 till 12
 
     ```
@@ -153,7 +153,7 @@ int main()
 
     1.  **[std::lower_bound](https://www.geeksforgeeks.org/stdlower_bound-in-c/) and [std::upper_bound](https://www.geeksforgeeks.org/stdupper_bound-in-cpp/) at one place:** This function can be used if we want to use both std::lower_bound and std::upper_bound at the same time, as its first pointer will be same as std::lower_bound and its second pointer will be same as std::upper_bound. So, there is no use of separately using them, if we have std::equal_range.
 
-        ```
+        ```cpp
         // C++ program to demonstrate the use of std::equal_range
         #include <iostream>
         #include <vector>
@@ -193,7 +193,7 @@ int main()
 
         输出:
 
-        ```
+        ```cpp
         std::lower_bound should be equal to 4 and 
         std::upper_bound should be equal to 6
         std::lower_bound is = 4

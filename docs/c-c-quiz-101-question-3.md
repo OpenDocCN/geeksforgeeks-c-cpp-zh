@@ -2,7 +2,7 @@
 
 > 原文:[https://www.geeksforgeeks.org/c-c-quiz-101-question-3/](https://www.geeksforgeeks.org/c-c-quiz-101-question-3/)
 
-```
+```cpp
 #include "stdlib.h"
 int main()
 {

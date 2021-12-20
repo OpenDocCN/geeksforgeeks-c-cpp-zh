@@ -9,7 +9,7 @@ Lex 读取指定词法分析器的输入流，并输出用 C 编程语言实现 
 
 **示例:**
 
-```
+```cpp
 Input:
 #include<stdio.h>
 // Driver Code
@@ -40,7 +40,7 @@ Output:
 
 下面是给定文件添加行号的实现。
 
-```
+```cpp
 /* Program to add line numbers
  to a given file*/
 %{

@@ -5,7 +5,7 @@
 C++ 中 **ostream 的 **seekp(pos)** 方法用于将输出序列中指针的位置设置为指定位置。此方法采用要设置的新位置，并将位置设置为指定新位置的 ostream 实例返回。
 **语法:**** 
 
-```
+```cpp
 ostream& seekp(streampos pos);
 ```
 
@@ -24,7 +24,7 @@ ostream& seekp(streampos pos);
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```cpp
 // C++ program to show the use of
 // ostream::seekp() method using binary file
 
@@ -102,7 +102,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 size of record: 24
 record no 1 (position int file 0)
 rno: 1

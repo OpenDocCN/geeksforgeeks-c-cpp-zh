@@ -21,7 +21,7 @@
 
 下面是上述方法的实现:
 
-```
+```cpp
 // C++ program to flatten a
 // Vector of Vectors or 2D Vector
 
@@ -101,7 +101,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 1 2 3 4 5 6 7 8 9 10
 
 ```

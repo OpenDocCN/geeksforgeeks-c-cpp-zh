@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```cpp
 Input: vec = {1, 45, 54, 71, 76, 12}
 Output: {76, 71, 54, 45, 12, 1}
 
@@ -18,13 +18,13 @@ Output: {12, 7, 6, 5, 4, 1}
 
 **语法:**
 
-```
+```cpp
 sort(arr, arr + n, greater<T>()); 
 ```
 
 ## c++
 
-```
+```cpp
 // C++ program to sort Vector
 // in descending order
 // using sort() in STL
@@ -58,7 +58,7 @@ int main()
 
 **输出**
 
-```
+```cpp
 Vector: 1 45 54 71 76 12 
 Sorted Vector in descending order:n76 71 54 45 12 1 
 ```

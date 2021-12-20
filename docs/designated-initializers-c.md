@@ -6,24 +6,24 @@
 在 ISO C99，你可以以随机顺序给出元素，指定它们所应用的数组索引或结构字段名，GNU C 也允许这作为 C90 模式的扩展。这个扩展没有在 GNU C++中实现。
 要指定一个**数组索引**，在元素值前写**'【索引】= '或'【索引】'**。例如
 
-```
+```cpp
      int a[6] = {[4] = 29, [2] = 15 }; or
      int a[6] = {[4]29 , [2]15 };
 ```
 
 相当于
 
-```
+```cpp
      int a[6] = { 0, 0, 15, 0, 29, 0 };
 ```
 
-```
+```cpp
 Note:- The index values must be constant expressions.
 ```
 
 要将一系列元素初始化为相同的值，请写入**'[第一个…最后一个] =值'**。例如
 
-```
+```cpp
 int a[] = {[0 ... 9] = 1, [10 ... 99] = 2, [100] = 3 };
 ```
 
@@ -31,7 +31,7 @@ int a[] = {[0 ... 9] = 1, [10 ... 99] = 2, [100] = 3 };
 
 ## C
 
-```
+```cpp
 // C program to demonstrate designated initializers
 // with arrays.
 #include <stdio.h>
@@ -51,7 +51,7 @@ void main(void)
 
 输出:
 
-```
+```cpp
 1 2 3 10 10 10 10 10 10 10 80 15 0 0 0 0 0 0 0 0 
 50 400 
 ```
@@ -72,7 +72,7 @@ void main(void)
 
 ## C
 
-```
+```cpp
 // C program to demonstrate designated initializers
 // to determine size of array.
 #include <stdio.h>
@@ -88,7 +88,7 @@ void main(void)
 
 输出:
 
-```
+```cpp
 71
 ```
 
@@ -97,26 +97,26 @@ void main(void)
 **在** [**结构**](https://www.geeksforgeeks.org/structures-c/) **或** [**并集**](https://www.geeksforgeeks.org/union-c/) **:**
 在结构初始值设定项中，用**指定要初始化的字段的名称。fieldname = '或' fieldname:'** 在元素值之前。例如，给定以下结构，
 
-```
+```cpp
      struct point { int x, y; };
 ```
 
 以下初始化
 
-```
+```cpp
      struct point p = { .y = 2, .x = 3 }; or
      struct point p = { y: 2, x: 3 };
 ```
 
 相当于
 
-```
+```cpp
      struct point p = { 2, 3 };
 ```
 
 ## C
 
-```
+```cpp
 // C program to demonstrate designated
 // initializers with structures
 #include <stdio.h>
@@ -144,7 +144,7 @@ int main()
 
 输出:
 
-```
+```cpp
 x = 2, y = 0, z = 1
 x = 20
 ```
@@ -153,7 +153,7 @@ x = 20
 
 ## C
 
-```
+```cpp
 // C program to demonstrate designated initializers
 // with structures and arrays combined
 #include <stdio.h>
@@ -169,7 +169,7 @@ void main(void)
 
 输出:
 
-```
+```cpp
 2 0
 0 0
 6 5

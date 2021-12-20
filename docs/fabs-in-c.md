@@ -7,7 +7,7 @@ fabs()函数返回参数的绝对值。
 
 **语法:**
 
-```
+```cpp
 double fabs(double a);
 float fabs(float a);
 int fabs(int a);
@@ -31,7 +31,7 @@ int fabs(int a);
 
 **#代码 1**
 
-```
+```cpp
 // CPP code to illustrate
 // fabs() function
 #include <cmath>
@@ -53,14 +53,14 @@ int main()
 
 **输出:**
 
-```
+```cpp
 fabs of -10 is 10
 
 ```
 
 **#代码 2**
 
-```
+```cpp
 // CPP code to illustrate
 // fabs() function
 #include <cmath>
@@ -83,7 +83,7 @@ int main()
 
 **输出:**
 
-```
+```cpp
 fabs of -35 is 35
 
 ```

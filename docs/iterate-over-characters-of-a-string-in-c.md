@@ -18,7 +18,7 @@
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -52,7 +52,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 G e e k s f o r G e e k s
 
 ```
@@ -66,7 +66,7 @@ T5**辅助空间:** O(1)
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -98,7 +98,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 G e e k s f o r G e e k s
 
 ```
@@ -112,7 +112,7 @@ T5**辅助空间:** O(1)
 
 ## C++
 
-```
+```cpp
 // C++ program to implement
 // the above approach
 
@@ -149,7 +149,7 @@ int main()
 
 **Output:**
 
-```
+```cpp
 G e e k s f o r G e e k s
 
 ```

@@ -18,7 +18,7 @@
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 
@@ -46,7 +46,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -76,7 +76,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 30
 ```
 
@@ -92,7 +92,7 @@ int main()
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 typedef int (*ptr)(int*);
@@ -132,7 +132,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -165,7 +165,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello geeks!!
 20
 ```
@@ -176,7 +176,7 @@ Hello geeks!!
 
 ## C
 
-```
+```cpp
 // C program for the above approach
 #include <stdio.h>
 
@@ -233,7 +233,7 @@ int main()
 
 ## C++
 
-```
+```cpp
 // C++ program for the above approach
 #include <iostream>
 using namespace std;
@@ -290,7 +290,7 @@ int main()
 
 **Output**
 
-```
+```cpp
 Hello geeks!!
 20
 ```

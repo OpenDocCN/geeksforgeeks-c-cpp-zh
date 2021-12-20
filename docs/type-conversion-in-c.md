@@ -9,7 +9,7 @@
     *   通常在表达式中存在多个数据类型时发生。在这种情况下，进行类型转换(类型提升)以避免数据丢失。
     *   变量的所有数据类型都升级为数据类型最大的变量的数据类型。
 
-        ```
+        ```cpp
         bool -> char -> short int -> int -> 
 
         unsigned int -> long -> unsigned -> 
@@ -22,7 +22,7 @@
 
     **类型隐式转换示例:**
 
-    ```
+    ```cpp
     // An example of implicit conversion
 
     #include <iostream>
@@ -50,7 +50,7 @@
 
     **Output:**
 
-    ```
+    ```cpp
     x = 107
     y = a
     z = 108
@@ -65,7 +65,7 @@
 
         **语法:**
 
-        ```
+        ```cpp
         (type) expression
         ```
 
@@ -73,7 +73,7 @@
 
         **示例:**
 
-        ```
+        ```cpp
         // C++ program to demonstrate
         // explicit type casting
 
@@ -95,7 +95,7 @@
 
         **Output:**
 
-        ```
+        ```cpp
         Sum = 2
 
         ```
@@ -109,7 +109,7 @@
 
             **示例:**
 
-            ```
+            ```cpp
             #include <iostream>
             using namespace std;
             int main()
@@ -125,7 +125,7 @@
 
             **Output:**
 
-            ```
+            ```cpp
             3
 
             ```
